@@ -1,0 +1,38 @@
+assigned:
+    -
+        text: Home
+        href: pages/home.md
+        permalink: /
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Blog
+        href: pages/blog.md
+        permalink: /blog/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Program
+        href: pages/about.md
+        permalink: /about/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Team
+        href: pages/team.md
+        permalink: /team/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Governance
+        href: pages/governancce.md
+        permalink: /governance/
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Marketplace
+        permalink: https://marketplace.fedramp.gov
+        show_in_menu: true
+        show_in_footer: false
+
+unassigned: []

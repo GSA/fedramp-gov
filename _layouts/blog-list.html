@@ -1,0 +1,15 @@
+---
+layout: page
+---
+{{ content }}
+<section class="usa-grid-full">
+{% for post in site.posts limit:3 %}
+
+    <div class="usa-width-one-whole">
+    {% include blog-entry.html post=post %}
+
+    </div>
+
+    {% unless forloop.last %}<div class="separater"></div>{% endunless %}
+{% endfor %}
+</section>
