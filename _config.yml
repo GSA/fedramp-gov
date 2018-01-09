@@ -84,6 +84,12 @@ exclude:
   - LICENSE.md
   - README.md
 
+# Sass settings
+
+sass:
+	sass_dir: _sass
+	style: :compressed
+
 # Inititalize project and team collections
 collections:
   projects:
