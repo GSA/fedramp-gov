@@ -1,0 +1,61 @@
+[
+  
+  {
+    "title": "Home",
+    "permalink": "/",
+    "href": "pages/home.md"
+
+    
+
+  },
+  
+  {
+    "title": "Blog",
+    "permalink": "/blog/",
+    "href": "pages/blog.md"
+
+    
+
+  },
+  
+  {
+    "title": "Program",
+    "permalink": "/about/",
+    "href": "pages/about.md"
+
+    
+
+  },
+  
+  {
+    "title": "Team",
+    "permalink": "/team/",
+    "href": "pages/team.md"
+
+    
+
+  },
+  
+  {
+    "title": "Governance",
+    "permalink": "/governance/",
+    "href": "pages/governancce.md"
+
+    
+
+  },
+  
+  {
+    "title": "Marketplace",
+    "permalink": "https://marketplace.fedramp.gov",
+    "href": ""
+
+    
+
+  },
+  
+  {
+    "title": "Navigation bar data",
+    "href": "_data/navbar.yml"
+  }
+]
