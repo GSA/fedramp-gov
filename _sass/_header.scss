@@ -1,0 +1,46 @@
+div.usa-nav-container {
+	height: 215px;
+	width: 100%;
+	max-width: 1200px;
+	vertical-align: middle;
+	padding: 75px 0;
+	box-sizing: border-box;
+}
+
+div.usa-navbar {
+	float: left !important;
+	height: 100px;
+}
+
+div.usa-navbar:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav.usa-nav {
+	padding: 10px 0;
+	height: 70px;
+	float: right;
+ul {
+li {
+	text-transform: uppercase;
+}
+}
+}
+
+#logo em.usa-logo-text {
+a {
+	float: left;
+}
+	float: left;
+}
+
+div#logo.usa-logo {
+	float: left;
+}
+
+header.usa-banner-header {
+	height: 30px;
+	padding: 5px 0;
+}

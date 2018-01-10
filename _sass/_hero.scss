@@ -31,5 +31,6 @@
 }
 
 .home .hero-unit {
-	background-image: url('/assets/img/feature-background.jpg');
-}
+  background-image: url("/assets/img/home-hero-unit.png") !important;
+  background-attachment: fixed;
+  }
