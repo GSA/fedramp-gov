@@ -5,6 +5,7 @@ description: Providers offering services to federal agencies must meet FedRAMP r
 permalink: /projects/providers/
 tags: project
 image: /assets/img/project-images/cloud.png
+icon: /assets/img/project-images/cloudserv-icon.png
 abstract: 
 ---
 ## Cloud Service Providers

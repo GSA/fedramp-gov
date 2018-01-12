@@ -16,7 +16,8 @@
   {% endif %}
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
-      <div class="usa-footer-logo usa-width-one-half">
+      <div class="usa-footer-logo usa-width-one-third">
+      <div class="logo-container">
         {% if site.footer.image %}
           <img class="usa-footer-logo-img" src="/assets/img/fedramp-logo-stamp.png" alt="Logo image">
         {% endif %}
@@ -24,8 +25,50 @@
           <p>General Services Administration<br/>1800 F Street NW Washington, DC 20006</p>
         {% endif %}
       </div>
+      </div>
+  <div class="newsletter-footer">
+  {% for form in site.forms %}
+    {% if form.type == 'newsletter' %}
+      {% assign f = form %}
+    {% endif %}
+  {% endfor %}
 
-      <div class="usa-footer-contact-links usa-width-one-half">
+  <form id="contact" action="{{ f.url }}" method="POST">
+      <p>{{ f.heading }}</p>
+      <div class="newsletter-inner">
+        {% for field in f.fields %}
+          {% unless field.type == 'hidden' %}<label for="contact-{{ field.name }}">{{ field.label }}</label>{% endunless %}
+          <input id="contact-{{ field.name }}"
+            name="{{ field.name }}" type="{{ field.type }}"
+            {% if field.value %} value="{{ field.value }}" {% endif %}>
+        {% endfor %}
+        <div class="usa-input-buttons-inline">
+          <input type="submit" value="{{ f.button }}">
+        </div>
+      </div>
+      <div class="usa-width-one-half" style="margin-top: 3rem;">
+        {% if f.privacypolicy %}
+<!--          <p>{{ f.privacypolicy }}</p>-->
+        {% else %}
+          <p></p>
+        {% endif %}
+      </div>
+  </form>
+  </div>
+
+      <div class="usa-footer-contact-links usa-width-one-third">
+      <address>
+      <p>CONTACT US</p>
+        {% if site.footer.contact.name %}
+          <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
+        {% endif %}
+        {% if site.footer.contact.phonenumber %}
+          <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
+        {% endif %}
+        <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
+      </address>
+      <div class="footer-social">
+      <p>FOLLOW US</p>
           {% if site.footer.contact.twitter %}
           <a class="usa-link-twitter" href="https://twitter.com/{{ twitter }}"><span>Twitter</span></a>
           {% endif %}
@@ -38,17 +81,12 @@
           {% if site.footer.contact.rss %}
           <a class="usa-link-rss" href="{{ rss }}"><span>RSS feed</span></a>
           {% endif %}
-        <address>
-          {% if site.footer.contact.name %}
-            <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
-          {% endif %}
-          {% if site.footer.contact.phonenumber %}
-            <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
-          {% endif %}
-          <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
-        </address>
-
+		</div>
       </div>
     </div>
   </div>
+  <div class="copyright">COPYRIGHT
+<script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script>  </div>
 </footer>

@@ -12,9 +12,10 @@ button,
 [type="image"] {
   background-color: $button-color;
   color: $button-text-color;
-  font-family: 'Lato', sans-serif;
+  font-family: $sans-font;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 .usa-button:hover,
 .usa-button-primary:hover,

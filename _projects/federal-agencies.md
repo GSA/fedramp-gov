@@ -5,6 +5,7 @@ description: Federal Agencies looking to leverage the "do once, use many times" 
 permalink: /projects/agencies/
 tags: project
 image: /assets/img/project-images/fed.png
+icon: /assets/img/project-images/fedagency-icon.png
 abstract: 
 ---
 ## Federal Agencies

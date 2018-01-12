@@ -4,6 +4,7 @@ title: Assessment Organizations
 description: Third Party assessors perform initial and periodic assessments of cloud systems to ensure they meet requirements.
 permalink: /projects/assessors/
 tags: project
+icon: /assets/img/project-images/assessor-icon.png
 image: /assets/img/project-images/assessor.png
 abstract: 
 ---

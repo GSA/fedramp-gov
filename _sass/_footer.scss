@@ -21,6 +21,16 @@ footer a:visited {
 
 .usa-footer-logo p {
   font-size: .7em;
+  width: auto;
+}
+
+.usa-footer .logo-container {
+	max-width: 200px;
+	text-align: center;
+	img {
+		margin: 0 auto;
+		float: none;
+	}
 }
 
 .usa-grid {
@@ -35,3 +45,30 @@ footer a:visited {
 }
 }
 
+.newsletter-footer {
+	float: left;
+	width: 30%;
+	input {
+		margin: 15px auto 0 auto;
+		background: $light-blue;
+	}
+}
+
+.usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
+	float: right;
+	text-align: center;
+	width: 200px;
+	clear: both;
+}
+
+.usa-footer-secondary_section .footer-social a {
+	margin: 0 auto;
+}
+
+.copyright {
+	padding: 5px 0;
+	background: $dark-blue;
+	text-align: center;
+	color: #fff;
+	font-size: .7em;
+}

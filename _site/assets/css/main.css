@@ -72,9 +72,10 @@ button,
 [type="image"] {
   background-color: #0071bc;
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin-bottom: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-transform: uppercase; }
 
 .usa-button:hover,
 .usa-button-primary:hover,
@@ -228,7 +229,6 @@ iframe {
       flex: 1 0 auto; } }
 
 .card-image {
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 200px;
@@ -315,7 +315,8 @@ a.card-read {
 .banner [type="submit"],
 .banner [type="reset"] {
   background-color: #dce4ef;
-  color: #112e51; }
+  color: #112e51;
+  text-transform: uppercase; }
 
 .usa-footer-primary-section {
   background-color: #f1f1f1; }
@@ -336,7 +337,15 @@ footer a:visited {
   color: #212121; }
 
 .usa-footer-logo p {
-  font-size: .7em; }
+  font-size: .7em;
+  width: auto; }
+
+.usa-footer .logo-container {
+  max-width: 200px;
+  text-align: center; }
+  .usa-footer .logo-container img {
+    margin: 0 auto;
+    float: none; }
 
 .usa-grid #contact {
   text-align: center; }
@@ -344,6 +353,29 @@ footer a:visited {
     width: 100%; }
     .usa-grid #contact div.usa-width-one-half input {
       margin: 30px auto; }
+
+.newsletter-footer {
+  float: left;
+  width: 30%; }
+  .newsletter-footer input {
+    margin: 15px auto 0 auto;
+    background: #205493; }
+
+.usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
+  float: right;
+  text-align: center;
+  width: 200px;
+  clear: both; }
+
+.usa-footer-secondary_section .footer-social a {
+  margin: 0 auto; }
+
+.copyright {
+  padding: 5px 0;
+  background: #112e51;
+  text-align: center;
+  color: #fff;
+  font-size: .7em; }
 
 .page-team .usa-graphic_list .usa-media_block {
   margin-bottom: 6rem; }
@@ -515,10 +547,24 @@ a.blog-read {
   border-bottom: 1px solid #cdcdcd; }
 
 .blog-sidebar ul {
-  padding-left: 20px; }
+  padding: 0px; }
   .blog-sidebar ul li {
-    list-style: disc; }
+    list-style: none;
+    background: url("/assets/img/bullet.png") no-repeat 5px 10px;
+    padding: 0 0 0 20px; }
 .blog-sidebar h3 {
   border-bottom: 1px solid #cdcdcd;
   margin: 0 0 10px 0;
   padding: 0 0 10px 0; }
+
+.page-blog .meta ul {
+  padding: 0; }
+  .page-blog .meta ul li {
+    list-style: none; }
+
+.page-blog .usa-width-one-whole {
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 30px; }
+  .page-blog .usa-width-one-whole:last-child {
+    border: 0; }
