@@ -5,11 +5,18 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$sans-font: 	   'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$serif-font:       'Merriweather', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+$base-font-size:   1.7rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-
+$fr-black: #212121;
+$dark-blue: #112e51;
+$light-blue: #205493;
+$fr-red: #E41C3f;
+$dark-grey: #D6d7d9;
+$light-grey: #fbfdff;
 $spacing-unit:     30px;
 
 $background-color:         {{ site.colors.background }};
@@ -74,6 +81,7 @@ $on-laptop:        800px;
         "projects",
         "banners",
         "footer",
-        "team"
-        "header"
+        "team",
+        "header",
+        "blog"
 ;

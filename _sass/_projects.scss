@@ -9,8 +9,9 @@
 
 // Sets a height on projects so they're the same height and don't break the grid
 .card {
-  box-shadow: 0 0 0 1px #d6d7d9;
+//  box-shadow: 0 0 0 1px #d6d7d9;
   display: block;
+  text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 3rem;
   position: relative;
@@ -70,15 +71,23 @@
   }
 }
 
+a.card-read {
+	color: #fff;
+}
+
 .card-read {
-  margin: 0 3rem;
-  color: $card-heading-color;
-  font-size: $small-font-size;
+  margin: 0 auto;
+  color: #0071bc;
+  width: 40%;
+  text-transform: uppercase;
+  background: $light-blue;
+  padding: 10px;
+  font-size: 1.4875rem;
   font-weight: bold;
   text-decoration: none;
 
   &:visited {
-    color: $card-heading-color;
+    color: #fff;
   }
 
   svg {
@@ -88,5 +97,12 @@
     width: 1.2rem;
     margin-left: 4px;
   }
+}
+
+#main section.usa-grid.usa-section h2 {
+	text-align: center;
+	width: 100%;
+	float: none;
+	margin: 0 auto 20px auto;
 }
 

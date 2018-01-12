@@ -4,7 +4,7 @@ title: Assessment Organizations
 description: Third Party assessors perform initial and periodic assessments of cloud systems to ensure they meet requirements.
 permalink: /projects/assessors/
 tags: project
-image: /assets/img/project-images/third-party-assessors.png
+image: /assets/img/project-images/assessor.png
 abstract: 
 ---
 ## Third Party Assessors
@@ -20,4 +20,3 @@ CSPs wanting to meet FedRAMP requirements through the JAB P-ATO path or CSP subm
 The American Association for Laboratory Accreditation (A2LA) accredits FedRAMP assessors with the FedRAMP PMO providing final approval. Please contact A2LA for more information on becoming an accredited FedRAMP assessor.
 
 To learn more about independent assessors and their role in the FedRAMP process, please review the Security Assessment Framework (SAF) .
-

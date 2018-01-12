@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-page
 title: Finding an Initial Authorizing Agency
 author: FedRAMP
 permalink: /finding-an-initial-authorizing-agency/

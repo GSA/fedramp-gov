@@ -10,16 +10,7 @@
   },
   
   {
-    "title": "Blog",
-    "permalink": "/blog/",
-    "href": "pages/blog.md"
-
-    
-
-  },
-  
-  {
-    "title": "Program",
+    "title": "About Us",
     "permalink": "/about/",
     "href": "pages/about.md"
 
@@ -28,7 +19,7 @@
   },
   
   {
-    "title": "Team",
+    "title": "Partners We Serve",
     "permalink": "/team/",
     "href": "pages/team.md"
 
@@ -49,6 +40,15 @@
     "title": "Marketplace",
     "permalink": "https://marketplace.fedramp.gov",
     "href": ""
+
+    
+
+  },
+  
+  {
+    "title": "Blog",
+    "permalink": "/blog/",
+    "href": "pages/blog.md"
 
     
 

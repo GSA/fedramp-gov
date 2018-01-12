@@ -4,7 +4,7 @@ title: Federal Agencies
 description: Federal Agencies looking to leverage the "do once, use many times" approach to FedRAMP to save time and money.
 permalink: /projects/agencies/
 tags: project
-image: /assets/img/project-images/federal-agencies.png
+image: /assets/img/project-images/fed.png
 abstract: 
 ---
 ## Federal Agencies

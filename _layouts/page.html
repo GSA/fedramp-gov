@@ -2,11 +2,27 @@
 layout: base
 ---
 
-<section class="usa-section usa-grid">
-  <h1> {{ page.title }}</h1>
+<div class="page-banner">
+<h1> {{ page.title }}</h1>
+</div>
+<div class="usa-grid usa-section usa-content">
+  <div class="usa-width-three-fourths usa-content">
   {% if page.image %}
-  <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>
+<!--  <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>-->
   {% endif %}
   {{ content }}
   </div>
-</section>
+  <aside class="usa-width-one-fourth">
+    <div class="blog-sidebar">
+    <h3>Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+  </aside>
+</div>
+</div>

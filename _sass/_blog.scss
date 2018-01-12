@@ -1,0 +1,154 @@
+ @media screen and (min-width: 600px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 102.5%;
+  }
+}
+// Project blog ------------- //
+
+// Sets a height on projects so they're the same height and don't break the grid
+.blog {
+//  box-shadow: 0 0 0 1px #d6d7d9;
+  display: block;
+  text-align: center;
+//  margin-bottom: 3rem;
+//  padding-bottom: 3rem;
+  position: relative;
+  text-decoration: none;
+
+  @media all and (min-width: $on-laptop) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.3%;
+    min-height: 450px;
+    width: 31%;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 1px $card-heading-color;
+  }
+
+  &:active {
+    box-shadow: #3e94cf;
+  }
+}
+
+.blog-link {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.blog-banner {
+  margin: 0;
+  padding: 20px;
+  max-height: 200px; 
+  background: #eee;
+  text-align: left;
+  @media all and (min-width: $on-laptop) {
+    flex: 1 0 auto;
+  }
+}
+
+.blog-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px;
+  width: 100%;
+}
+
+.blog-description.blog-description {
+  color: $card-heading-color;
+  margin-top: 0;
+}
+
+.blog-description p {
+	font-weight: normal;
+}
+
+.blog-summary {
+  font-size: 16px;
+  margin-bottom: 0;
+
+  em {
+    font-style: normal;
+  }
+}
+
+a.blog-read {
+	color: #fff;
+}
+
+.blog-read {
+  	color: #fff !important; 
+    display: block;
+    margin: 0 auto;
+  /*  display: static;*/
+    width: 100px !important;
+    text-align: center;
+    float: none;
+    color: #0071bc;
+    text-transform: uppercase;
+    background: #205493;
+    padding: 10px;
+    font-size: 1.4875rem;
+    font-weight: bold;
+    text-decoration: none;
+
+  &:visited {
+    color: #fff;
+  }
+
+  svg {
+    display: inline-block;
+    height: 1.2rem;
+    margin-bottom: -1px;
+    width: 1.2rem;
+    margin-left: 4px;
+  }
+}
+
+.view-all button {
+	background: $light-blue;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+#main section.usa-grid.usa-section h2 {
+	text-align: center;
+	width: 100%;
+	float: none;
+	margin: 0 auto 20px auto;
+}
+
+.post-container {
+	max-width: 1200px;
+}
+
+.post-container span {
+	width: 100%;
+}
+
+.author-date {
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.blog-sidebar {
+ul {
+	padding-left: 20px;
+li {
+	list-style: disc;
+}
+}
+h3 {
+	border-bottom: 1px solid #cdcdcd;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+}
+}

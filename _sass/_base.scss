@@ -1,12 +1,19 @@
 body,
 p, ul, ol, li, a  {
   color: $text-color;
+  font-family: $sans-font;
+}
+
+#main p {
+	min-width: 100%;
 }
 
 legend, label,
 h1, h2, h3, h4, h5, h6 {
   color: $headers-color;
+  font-family: $serif-font;
 }
+
 
 .usa-section-dark {
   legend, label,
@@ -28,17 +35,17 @@ ul, li {
 form {
   max-width: 100%;
 }
-.usa-section p,
-.usa-section > ul,
-.usa-section > ol,
-.usa-section > h1,
-.usa-section > h2,
-.usa-section > h3,
-.usa-section > h4,
-.usa-section > h5,
-.usa-section > h6 {
-  max-width: 62.5rem;
-}
+//.usa-section p,
+//.usa-section > ul,
+//.usa-section > ol,
+//.usa-section > h1,
+//.usa-section > h2,
+//.usa-section > h3,
+//.usa-section > h4,
+//.usa-section > h5,
+//.usa-section > h6 {
+//  max-width: 62.5rem;
+//}
 
 a {
   color: $link-color;
@@ -64,4 +71,21 @@ a {
     max-width: 62.5rem;
     margin-left: -31.25rem;
   }
+}
+
+.usa-grid {
+	max-width: 1200px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#main .page-banner {
+	background: $dark-blue;
+	padding: 80px 0;
+	h1 {
+		color: #fff;
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 }

@@ -6,19 +6,13 @@ assigned:
         show_in_menu: true
         show_in_footer: false
     -
-        text: Blog
-        href: pages/blog.md
-        permalink: /blog/
-        show_in_menu: true
-        show_in_footer: false
-    -
-        text: Program
+        text: About Us
         href: pages/about.md
         permalink: /about/
         show_in_menu: true
         show_in_footer: false
     -
-        text: Team
+        text: Partners We Serve
         href: pages/team.md
         permalink: /team/
         show_in_menu: true
@@ -32,6 +26,12 @@ assigned:
     -
         text: Marketplace
         permalink: https://marketplace.fedramp.gov
+        show_in_menu: true
+        show_in_footer: false
+    -
+        text: Blog
+        href: pages/blog.md
+        permalink: /blog/
         show_in_menu: true
         show_in_footer: false
 

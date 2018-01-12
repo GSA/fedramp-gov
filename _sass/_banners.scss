@@ -4,18 +4,21 @@
 
 .banner.tagline {
   background-color: $banner-background-color;
+  padding: 40px 0;
 }
 .banner.tagline .usa-grid {
   padding: 3rem;
 }
 .banner.tagline p {
   color: $banner-text-color;
-  margin-bottom: 75px;
-  max-width: 80%;
+//  margin-bottom: 75px;
+  text-align: center;
+//  max-width: 80%;
 }
 .banner.tagline h2 {
   color: $banner-text-color;
   margin-top: 75px;
+  text-align: center;
 }
 
 .banner.contact {

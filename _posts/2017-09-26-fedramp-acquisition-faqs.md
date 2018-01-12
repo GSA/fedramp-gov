@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-page
 title: FedRAMP Acquisition FAQs
 author: FedRAMP
 permalink: /fedramp-acquisition-faqs/

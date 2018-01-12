@@ -55,6 +55,9 @@ defaults:
       - team
       - posts
 
+plugins:
+- jekyll-menus
+
 forms:
 - type: newsletter
   heading: Add your email to FedRAMP's subscriber list.
@@ -64,7 +67,7 @@ forms:
 
 footer:
   links:
-  image: /assets/img/gsa-logo-dark.jpg
+  image: /assets/img/fedramp-logo-stamp.png
   contact:
     name: 
     email: info@FedRAMP.gov

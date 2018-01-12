@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-page
 title: FedRAMP Tailored Available for Use
 author: FedRAMP
 permalink: /fedramp-tailored-available-for-use/

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-page
 title: 'Case Study: NSF Achieved an Agency Authorization in Four Months'
 author: FedRAMP
 permalink: /national-science-foundation-nsf-case-study/
