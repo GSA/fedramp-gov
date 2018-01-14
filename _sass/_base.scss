@@ -79,7 +79,13 @@ a {
 	padding-left: 0;
 }
 
-#main .page-banner {
+@media (min-width: 0px) and (max-width: 1200px) {
+.usa-grid {
+	padding-right: 5%;
+	padding-left: 5%;
+}}
+
+#main .page-banner, body .page-banner {
 	background: $dark-blue;
 	padding: 80px 0;
 	h1 {
@@ -88,4 +94,68 @@ a {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+#main .page-banner {
+	padding-right: 5%;
+	padding-left: 5%;
+}}
+
+.about-us {
+section#about {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+	padding: 60px 0;
+	@include clearfix;
+}
+section#fedramp-numbers {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+	float: none;
+	padding: 60px 0;
+	@include clearfix;
+}
+section#fedramp-mission {
+	width: 100%;
+	padding: 60px 0;
+	background: $light-blue;
+	color: #fff;
+	.inner {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;	
+		h2 {
+			margin-top: 0;
+			color: #fff;
+		}
+		ul {
+			column-count: 2;
+			column-gap: 40px;
+			
+		li {
+			color: #fff;
+			-webkit-column-break-inside: avoid;
+			page-break-inside: avoid;
+			break-inside: avoid;
+		}
+		}
+	}
+}
+}
+
+
+.about-us #fedramp-numbers .image-container, .about-us #about .image-container {
+	max-width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.about-us #fedramp-numbers .text-container, .about-us #about .text-container {
+	max-width: 50%;
+	float: left;
+	text-align: left;
+	padding: 0 0 0 40px;
 }

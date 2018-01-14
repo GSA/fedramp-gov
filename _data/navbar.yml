@@ -7,32 +7,125 @@ assigned:
         show_in_footer: false
     -
         text: About Us
-        href: pages/about.md
-        permalink: /about/
+        href: 
+        permalink: /
         show_in_menu: true
-        show_in_footer: false
+        show_in_footer: false  
+        sub:
+        - 
+            text: Program Overview
+            href: pages/about.md
+            permalink: /about/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: Governance
+            href: pages/governance.md
+            permalink: /governance/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: Meet the Team
+            href: pages/team.md
+            permalink: /team/
+            show_in_menu: true
+            show_in_footer: false  
     -
         text: Partners We Serve
-        href: pages/team.md
-        permalink: /team/
+        href: 
+        permalink: /
         show_in_menu: true
         show_in_footer: false
-    -
-        text: Governance
-        href: pages/governancce.md
-        permalink: /governance/
-        show_in_menu: true
-        show_in_footer: false
+        sub:
+        - 
+            text: Federal Agencies
+            href: projects/federal-agencies.md
+            permalink: /federal-agencies/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: Cloud Service Providers
+            href: projects/cloud-service-providers.md
+            permalink: /cloud-service-providers/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: Assessors
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false
     -
         text: Marketplace
         permalink: https://marketplace.fedramp.gov
         show_in_menu: true
         show_in_footer: false
     -
+        text: Resources
+        href: 
+        permalink: /
+        show_in_menu: true
+        show_in_footer: false
+        sub:
+        - 
+            text: Documents
+            href: projects/federal-agencies.md
+            permalink: /federal-agencies/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: Templates
+            href: projects/cloud-service-providers.md
+            permalink: /cloud-service-providers/
+            show_in_menu: true
+            show_in_footer: false
+        - 
+            text: NIST Publications
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: Training
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: FAQs
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: Tips & Cues
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false     
+    -
+        text: Get Authorized
+        href: 
+        permalink: /
+        show_in_menu: true
+        show_in_footer: false
+        sub:
+        - 
+            text: JAB Authorization
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: Agency Authorizations
+            href: projects/assessors.md
+            permalink: /assessors/
+            show_in_menu: true
+            show_in_footer: false 
+    -
         text: Blog
         href: pages/blog.md
         permalink: /blog/
         show_in_menu: true
         show_in_footer: false
-
 unassigned: []

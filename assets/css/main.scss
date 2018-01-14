@@ -66,6 +66,12 @@ $on-laptop:        800px;
     }
 }
 
+@mixin clearfix {
+	content: '';
+	clear: both;
+	display: table;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 // These contain overrides and additions to the Web Design System
 // (standards.18f.gov, found locally at assets/css/uswds.<version>.css)

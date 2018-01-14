@@ -11,8 +11,8 @@
   
   {
     "title": "About Us",
-    "permalink": "/about/",
-    "href": "pages/about.md"
+    "permalink": "/",
+    "href": ""
 
     
 
@@ -20,17 +20,8 @@
   
   {
     "title": "Partners We Serve",
-    "permalink": "/team/",
-    "href": "pages/team.md"
-
-    
-
-  },
-  
-  {
-    "title": "Governance",
-    "permalink": "/governance/",
-    "href": "pages/governancce.md"
+    "permalink": "/",
+    "href": ""
 
     
 
@@ -39,6 +30,24 @@
   {
     "title": "Marketplace",
     "permalink": "https://marketplace.fedramp.gov",
+    "href": ""
+
+    
+
+  },
+  
+  {
+    "title": "Resources",
+    "permalink": "/",
+    "href": ""
+
+    
+
+  },
+  
+  {
+    "title": "Get Authorized",
+    "permalink": "/",
     "href": ""
 
     

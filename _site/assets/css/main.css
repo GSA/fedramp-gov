@@ -49,14 +49,71 @@ a {
   padding-right: 0;
   padding-left: 0; }
 
-#main .page-banner {
+@media (min-width: 0px) and (max-width: 1200px) {
+  .usa-grid {
+    padding-right: 5%;
+    padding-left: 5%; } }
+#main .page-banner, body .page-banner {
   background: #112e51;
   padding: 80px 0; }
-  #main .page-banner h1 {
+  #main .page-banner h1, body .page-banner h1 {
     color: #fff;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; }
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  #main .page-banner {
+    padding-right: 5%;
+    padding-left: 5%; } }
+.about-us section#about {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px 0;
+  content: '';
+  clear: both;
+  display: table; }
+.about-us section#fedramp-numbers {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  float: none;
+  padding: 60px 0;
+  content: '';
+  clear: both;
+  display: table; }
+.about-us section#fedramp-mission {
+  width: 100%;
+  padding: 60px 0;
+  background: #205493;
+  color: #fff; }
+  .about-us section#fedramp-mission .inner {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%; }
+    .about-us section#fedramp-mission .inner h2 {
+      margin-top: 0;
+      color: #fff; }
+    .about-us section#fedramp-mission .inner ul {
+      column-count: 2;
+      column-gap: 40px; }
+      .about-us section#fedramp-mission .inner ul li {
+        color: #fff;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid; }
+
+.about-us #fedramp-numbers .image-container, .about-us #about .image-container {
+  max-width: 50%;
+  float: left;
+  text-align: center; }
+
+.about-us #fedramp-numbers .text-container, .about-us #about .text-container {
+  max-width: 50%;
+  float: left;
+  text-align: left;
+  padding: 0 0 0 40px; }
 
 .usa-button,
 .usa-button-primary,
@@ -191,6 +248,38 @@ iframe {
 .caption {
   float: right; }
 
+section#pre-auth, section#during-auth, section#post-auth, section#support {
+  padding: 0 0 0 200px;
+  margin: 0 0 40px 0; }
+
+section#pre-auth {
+  background: url("/assets/img/pre-auth.png") no-repeat left top; }
+
+section#during-auth {
+  background: url("/assets/img/during-auth.png") no-repeat left top; }
+
+section#post-auth {
+  background: url("/assets/img/post-auth.png") no-repeat left top; }
+
+section#support {
+  background: url("/assets/img/support.png") no-repeat left top; }
+
+@media (min-width: 0px) and (max-width: 580px) {
+  section#pre-auth, section#during-auth, section#post-auth, section#support {
+    padding: 200px 0 0 0;
+    margin: 0 0 40px 0; }
+
+  section#pre-auth {
+    background: url("/assets/img/pre-auth.png") no-repeat center top; }
+
+  section#during-auth {
+    background: url("/assets/img/during-auth.png") no-repeat center top; }
+
+  section#post-auth {
+    background: url("/assets/img/post-auth.png") no-repeat center top; }
+
+  section#support {
+    background: url("/assets/img/support.png") no-repeat center top; } }
 @media screen and (min-width: 600px) {
   .project-container {
     display: flex;
@@ -437,6 +526,70 @@ div#logo.usa-logo {
 header.usa-banner-header {
   height: 30px;
   padding: 5px 0; }
+
+.menu-wrap {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: #3e3436; }
+
+/*.usa-nav {
+    width:1000px;
+    margin:0px auto;
+}*/
+.usa-nav li {
+  margin: 0px;
+  list-style: none; }
+
+.usa-nav a {
+  transition: all linear 0.15s; }
+
+.usa-nav li:hover > a, .usa-nav .current-item > a {
+  text-decoration: none; }
+
+/*----- Top Level -----*/
+.usa-nav > ul > li {
+  /*    float:left;*/
+  /*    display:inline-block;*/
+  position: relative;
+  /*    font-size:19px;*/ }
+
+.usa-nav > ul > li > a {
+  /*    padding:10px 40px;*/
+  display: inline-block;
+  /*    text-shadow:0px 1px 0px rgba(0,0,0,0.4);*/ }
+
+.usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
+  border-bottom: 10px solid #205493; }
+
+/*----- Bottom Level -----*/
+.usa-nav li:hover .sub-menu {
+  z-index: 1;
+  opacity: 1; }
+
+.sub-menu {
+  width: 175px;
+  padding: 0px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  background: #205493; }
+
+.sub-menu li {
+  display: block;
+  text-align: left; }
+
+.sub-menu li a {
+  padding: 10px;
+  display: block;
+  font-size: .8em;
+  color: #fff; }
+
+.sub-menu li a:hover, .sub-usa-nav .current-item a {
+  background: #112e51;
+  color: #fff; }
 
 @media screen and (min-width: 600px) {
   .project-container {

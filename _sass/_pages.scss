@@ -8,3 +8,49 @@
 .caption {
   float: right;
 }
+
+section#pre-auth, section#during-auth, section#post-auth, section#support {
+	padding: 0 0 0 200px;
+	margin: 0 0 40px 0;
+}
+
+
+section#pre-auth {
+	background: url('/assets/img/pre-auth.png') no-repeat left top;
+}
+
+section#during-auth {
+	background: url('/assets/img/during-auth.png') no-repeat left top;
+}
+
+section#post-auth {
+	background: url('/assets/img/post-auth.png') no-repeat left top;
+}
+
+section#support {
+	background: url('/assets/img/support.png') no-repeat left top;
+}
+
+@media (min-width: 0px) and (max-width: 580px) {
+section#pre-auth, section#during-auth, section#post-auth, section#support {
+	padding: 200px 0 0 0;
+	margin: 0 0 40px 0;
+}
+
+
+section#pre-auth {
+	background: url('/assets/img/pre-auth.png') no-repeat center top;
+}
+
+section#during-auth {
+	background: url('/assets/img/during-auth.png') no-repeat center top;
+}
+
+section#post-auth {
+	background: url('/assets/img/post-auth.png') no-repeat center top;
+}
+
+section#support {
+	background: url('/assets/img/support.png') no-repeat center top;
+}
+}
