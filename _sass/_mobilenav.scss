@@ -1,0 +1,26 @@
+.usa-mobile_nav-active input[type=checkbox] {
+	/* hide native checkbox */
+	position: absolute;
+	opacity: 0;
+}
+.usa-mobile_nav-active label, .cd-accordion-menu a {
+	position: relative;
+	display: block;
+	padding: 18px 18px 18px 64px;
+	background: #4d5158;
+	box-shadow: inset 0 -1px #555960;
+	color: #ffffff;
+	font-size: 1.6rem;
+}
+
+.usa-mobile_nav-active ul {
+	/* by default hide all sub menus */
+	display: none;
+}
+ 
+.usa-mobile_nav-active input[type=checkbox]:checked + label + ul,
+.usa-mobile_nav-active input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+	/* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+	/* show children when item is checked */
+	display: block;
+}

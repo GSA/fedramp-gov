@@ -6,6 +6,7 @@ p, ul, ol, li, a  {
 
 #main p {
 	min-width: 100%;
+  	widows: 3;
 }
 
 legend, label,
@@ -116,6 +117,10 @@ section#fedramp-numbers {
 	width: 100%;
 	float: none;
 	padding: 60px 0;
+	h2 {
+		margin-top: 0;
+		text-align: center;
+	}
 	@include clearfix;
 }
 section#fedramp-mission {
@@ -130,6 +135,7 @@ section#fedramp-mission {
 		h2 {
 			margin-top: 0;
 			color: #fff;
+			text-align: center;
 		}
 		ul {
 			column-count: 2;

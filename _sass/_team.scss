@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  clip-path: circle(($width / 2) at center);
+  border-radius: 75px;
   height: $width;
   width: $width;
 }
@@ -23,6 +23,12 @@
 
     h3 {
       margin-top: 0;
+      a {
+      	text-decoration: none;
+      	&:hover {
+      		text-decoration: underline;
+      	}
+      }
     }
   }
 }
@@ -32,8 +38,29 @@
 }
 
 .page-team-single {
+h2 {
+	text-align: left !important;
+}
+p.title {
+	font-size: 1.2em;
+	color: $fr-black;
+}
   .team-image {
     @include image-circle(270px);
-  }
+    border-radius: 150px;
+}
 }
 
+.page-team main {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0;
+	@include clearfix;
+}
+
+.page-team-single {
+.usa-width-one-third {
+	text-align: center;
+}
+}

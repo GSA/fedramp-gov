@@ -1,0 +1,48 @@
+table {
+th {
+	background: $light-blue;
+	border: 1px solid $light-blue;
+	font-weight: bold !important;
+	color: #fff;
+}
+td {
+	border: 1px solid #cdcdcd;
+}
+.th-2 {
+	background: $footer-primary-background-color;
+	font-weight: bold; 
+}
+.icon-text {
+	color: $light-blue;
+	text-align: center;
+	margin: 0;
+}
+
+a.icon-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+svg {
+	width: 100% !important;
+	height: 30px !important;
+	cursor: pointer;
+	&:hover {
+		color: $light-blue;
+	}
+}
+} 
+
+.fa-file-pdf {
+	color: $fr-red;
+}
+
+.fa-file-excel {
+	color: green;
+}
+
+.fa-file-word {
+	color: $dark-blue;
+}

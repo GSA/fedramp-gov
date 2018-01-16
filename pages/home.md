@@ -16,6 +16,3 @@ banner-text: FedRAMP has an established marketplace of the types of solutions th
 banner-button-text: Learn more
 banner-button-link: /about/
 ---
-<!--## What we do
-
-The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This approach uses a “do once, use many times” framework that saves an estimated 30-40% of government costs, as well as both time and staff required to conduct redundant agency security assessments.

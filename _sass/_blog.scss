@@ -46,7 +46,7 @@
   margin: 0;
   padding: 20px;
   max-height: 200px; 
-  background: #eee;
+  background: #d6d7d9;
   text-align: left;
   @media all and (min-width: $on-laptop) {
     flex: 1 0 auto;
@@ -93,7 +93,6 @@ a.blog-read {
     float: none;
     color: #0071bc;
     text-transform: uppercase;
-    background: #205493;
     padding: 10px;
     font-size: 1.4875rem;
     font-weight: bold;
@@ -153,6 +152,13 @@ h3 {
 	margin: 0 0 10px 0;
 	padding: 0 0 10px 0;
 }
+}
+
+.page-blog h2 a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}	
 }
 
 .page-blog .meta ul {

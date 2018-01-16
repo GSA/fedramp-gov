@@ -8,7 +8,7 @@ layout: base
 <div class="usa-grid usa-section usa-content">
   <div class="usa-width-three-fourths usa-content">
   {% if page.image %}
-<!--  <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>-->
+  <img src="{{ page.image | prepend: site.baseurl }}">
   {% endif %}
   {{ content }}
   </div>

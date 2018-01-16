@@ -61,6 +61,24 @@ footer a:visited {
 	clear: both;
 }
 
+@media (min-width: 0px) and (max-width: 580px) {
+.usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.newsletter-footer {
+	float: none;
+	width: 100%;
+}
+.usa-footer .logo-container {
+	max-width: 100%;
+}
+.usa-footer-contact-links {
+	text-align: center;
+}	
+}
+
 .usa-footer-secondary_section .footer-social a {
 	margin: 0 auto;
 }

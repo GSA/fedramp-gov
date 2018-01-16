@@ -2,28 +2,57 @@
 layout: project
 title: Cloud Service Providers
 description: Providers offering services to federal agencies must meet FedRAMP requirements.
-permalink: /projects/providers/
+permalink: /cloud-service-providers/
 tags: project
-image: /assets/img/project-images/cloud.png
+image: 
 icon: /assets/img/project-images/cloudserv-icon.png
 abstract: 
 ---
-## Cloud Service Providers
 
-Cloud Service Providers (CSPs) offering low or moderate impact cloud services to federal agencies must meet FedRAMP requirements.  CSPs that successfully navigate FedRAMP:
+FedRAMP provides standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services used by the US government. Because its goal is to protect US citizen data in the cloud, it is government’s most rigorous security compliance framework.
 
-Please fill out this information form if you are interested in pursuing a FedRAMP designation (e.g., FedRAMP Authorized, FedRAMP Ready) for your cloud service product
+Before FedRAMP, vendors were faced with different requirements for each Agency they worked with, which meant they had to prepare authorization packages for each one. FedRAMP implemented standard security baselines and processes to provide both an initial authorization of a cloud service and a mechanism for that security package to be reused across the federal government. This saves time, money, and effort for both Agencies and Cloud Service Providers (CSPs). 
 
-* Implement the FedRAMP baseline security controls
-* Hire an Independent Assessor to perform an independent system assessment
-* Create and submit an authorization package
-* Provide continuous monitoring reports and updates
-* CSPs doing business with federal agencies should  review the Security Assessment Framework (SAF). They should also become familiar with FedRAMP’s four process areas: Document, Assess, Authorize, and Monitor, which align to the NIST Risk Management Framework (RMF) covered in NIST SP 800-37.  Once familiar with the  requirements, CSPs should complete a FedRAMP Initiation Request and follow one of two ways for achieving an authorization: JAB Provisional Authorization (P-ATO) or Agency Authorization.
+CSPs whose services are currently being used by the federal government or are interested in selling their cloud service to the federal government should obtain a FedRAMP authorization, per OMB memorandum. 
 
-CSPs must then complete a FIPS 199 worksheet to categorize the type of data that is contained within the system. CSPs select and implement the FedRAMP security controls baseline to match the categorization level. CSPs document the details of the implementation in their System Security Plan (SSP).
+In addition to FedRAMP’s stamp of security approval, FedRAMP authorization provides CSPs the benefit of: 
+* Listing in the FedRAMP Marketplace, increasing visibility of their product across government
+* Strengthened government confidence in the CSP’s cloud services
+* Long-term reduction in time and money spent on federal security compliance through FedRAMP’s model of “do once, use many times”
 
-Next, CSPs engage an independent assessor to evaluate the implementation of the FedRAMP baseline security controls. CSPs that seek a JAB P-ATO must use a FedRAMP Accredited Assessor. CSPs that want to submit an Agency Authorization package may have their cloud system assessed by an agency validated Independent Assessor.
+### FedRAMP Authorization: A CSP’s Perspective 
+A few drivers for CSPs to consider when deciding if a FedRAMP authorization is right for them (in addition to the OMB mandate) include: 
 
-After testing has been completed, Independent Assessors (IA) delivers the Security Assessment Report (SAR) to the CSP for review. The SAR is then shared with the authorizing official’s security team to determine the overall risk of the system. The IA and CSP create a Plan of Action and Milestones (POA&Ms) to address specific vulnerabilities in the system. The CSP then submits a final security assessment package for review and the decision to authorize a cloud system is formalized in an agency ATO Letter.
+* Interest in selling their cloud service to the federal government
+* Current federal customers requesting a FedRAMP authorization for their cloud service
+* Desire to expand their business and market their service as FedRAMP authorized
+If a CSP thinks FedRAMP might be right for their cloud service, there are a few steps they can take to get started:
+* Review the documents, templates, and other resources available on the FedRAMP website
+* Ensure that the service offering has implemented the necessary FedRAMP security controls in accordance with appropriate data impact level as described in FIPS PUB 199 (i.e. High, Moderate, Low, Low-Impact SaaS)
+* Complete FedRAMP Training, including the mandatory training: FedRAMP System Security Plan (SSP) Required Documents (200-A)
 
-Once authorized, CSPs enter the continuous monitoring phase that provides transparency into the CSP system and the ability to make timely risk-management decisions.  The FedRAMP continuous monitoring phase involves three steps: operational visibility, change control process, and incident response.  CSPs should review the Continuous Monitoring Strategy Guide to understand these steps.
+### Pre-Authorization: 
+Prior to beginning the authorization process, CSPs should:
+* Complete a FedRAMP CSP Information Form 
+* Articulate and document their federal demand, either through identification of potential demand in the form of RFIs/RFQs, proven demand in form of RFPs and active contracts, or previous federal experience
+    * Note: In all cases, CSPs should be able to identify Agency POCs as sponsors.
+* Identify and establish partnership with a FedRAMP-approved Third Party Assessment Organization (3PAO)
+    * Note: For a current listing of approved 3PAOs, visit the FedRAMP Marketplace.
+* Contact the FedRAMP PMO about beginning an authorization through info@fedramp.gov
+
+### During Authorization
+CSPs that have demonstrated sufficient demand, or have identified one or more partnering Agencies for their services, must then select between pursuing the Joint Authorization Board (JAB) provisional authorization or an initial Agency authorization. For more information about JAB and Agency authorizations, please visit [enter link to ‘Get Authorized web page].
+
+At a high level, the authorization process includes:
+
+* **Package Development:** This includes an Authorization Kick-Off meeting with representatives from the CSP, partnering Agency, 3PAO, and FedRAMP PMO. The CSP then completes the System Security Plan (SSP) and attachments and the 3PAO develops the Security Assessment Plan (SAP).
+* **Assessment:** The 3PAO completes testing and submits the System Assessment Report (SAR). The CSP then creates the Plan of Action & Milestones (POA&M) based on the findings from testing.
+* **Authorization:** The authorizing party (either an Agency or the JAB) reviews the security package and decides whether or not to accept the risk posture associated with the system. If accepted, the authorizing party grants an authorization for the CSP’s service offering (either an Agency Authority to Operate (ATO) or a JAB Provisional Authority to Operate (P-ATO)). An ATO letter is submitted to the FedRAMP PMO, and the CSP is listed in the FedRAMP Marketplace as a FedRAMP authorized vendor.
+* 
+### Post Authorization
+Once the service offering is authorized, the CSP must provide monthly continuous monitoring deliverables to the Agency (or Agencies) that are using the service. The monthly continuous monitoring deliverables should be reviewed by each Agency, but do not need to be shared with the FedRAMP PMO.
+
+### “Do Once, Use Many Times”
+FedRAMP was designed so that once a cloud service offering has been authorized once, Agencies can review the existing authorization package and grant ATOs for their organizations to use the service. This prevents CSPs and Agencies from duplicating work that has already been done as part of the initial authorization, saving time and money.
+
+Once a service offering has been authorized, it is listed in the FedRAMP Marketplace. The FedRAMP PMO encourages Agencies to use the Marketplace to find services that meet their needs, knowing that any service listed in the Marketplace meets federal security requirements and has already been authorized.

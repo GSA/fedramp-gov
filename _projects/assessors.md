@@ -1,23 +1,33 @@
 ---
 layout: project
-title: Assessment Organizations
+title: Third Party Assessment Organizations
 description: Third Party assessors perform initial and periodic assessments of cloud systems to ensure they meet requirements.
-permalink: /projects/assessors/
+permalink: /assessors/
 tags: project
 icon: /assets/img/project-images/assessor-icon.png
-image: /assets/img/project-images/assessor.png
+image: 
 abstract: 
 ---
-## Third Party Assessors
+FedRAMP accredited Third Party Assessment Organizations (3PAOs) perform the initial and periodic assessments of cloud systems to ensure they meet FedRAMP security requirements as part of a cloud service provider’s FedRAMP authorization. CSPs partner with 3PAOs for both Joint Authorization Board (JAB) and Agency authorizations and for each of the three security baselines: Low, Moderate, and High.
 
-Assessors perform initial and periodic assessments of cloud systems to ensure they meet FedRAMP requirements.  Once engaged with a CSP, independent assessors:
+### How to Become an Accredited Assessor 
+Organizations interested in becoming accredited FedRAMP 3PAOs must be reviewed by the American Association for Laboratory Accreditation (A2LA), which follows ISO/IEC 17020:2012 Requirements for the Operation of Various Types of Bodies Performing Inspection. Acceptance of A2LA accreditation for a 3PAO is subject to final approval by the FedRAMP PMO. For more information on becoming a FedRAMP accredited 3PAO, please contact A2LA.
 
-1. Complete a Security Assessment Plan (SAP)
-2. Perform initial and periodic assessments of cloud system security controls
-3. Conduct security tests and produce Secure Assessment Reports (SARs)
+### FedRAMP Authorization: An Assessor’s Perspective 
+3PAOs play a critical role in the authorization process by assessing the security of a cloud service. CSPs may also engage a 3PAO for consultation as they develop their system or documentation related to a FedRAMP authorization. However, a 3PAO that provides consulting services to a CSP may not complete the assessment for that CSP’s service as part of the authorization process. 
 
-CSPs wanting to meet FedRAMP requirements through the JAB P-ATO path or CSP submitted path must be assessed by an accredited assessor.  To become an accredited assessor, candidates must submit application materials demonstrating that they meet both technical competence in security assessment of cloud systems and management requirements for organizations performing inspections.
+#### Pre-Authorization
+In this phase, the 3PAO works with the CSP to develop a project plan for FedRAMP authorization. It is recommended that 3PAOs and their CSP engage the FedRAMP PMO early and often when preparing to begin an authorization in order to ask questions and allow the PMO to provide guidance on their strategy. 
 
-The American Association for Laboratory Accreditation (A2LA) accredits FedRAMP assessors with the FedRAMP PMO providing final approval. Please contact A2LA for more information on becoming an accredited FedRAMP assessor.
+3PAOs are also responsible for executing a CSO’s Readiness Assessment testing when a CSP is pursuing a FedRAMP Ready designation. The Readiness Assessment Report (RAR) that the 3PAO produces will assess a CSP’s system’s operational security capabilities. The FedRAMP PMO reviews all RARs and if satisfactory, the CSP system will be designated “FedRAMP Ready.” This designation indicates that a 3PAO attests to a CSO’s readiness for the authorization process. The 3PAO Readiness Assessment Report Guide provides 3PAOs with best practices to complete the RAR in service of improving the quality and successful completion of the report.
+ 
+#### During Authorization
+3PAOs are responsible for testing the security controls of the CSP’s service. This includes:
+* Completing of a Security Assessment Plan (SAP)
+* Performing initial and periodic assessments of the service’s security controls
+* Producing a Security Assessment Report (SAR)
 
-To learn more about independent assessors and their role in the FedRAMP process, please review the Security Assessment Framework (SAF) .
+An assessor’s completed SAP and SAR is submitted with the CSP’s System Security Plan (SSP) to form the authorization package. The package is ultimately reviewed and approved by the authorizing party (either the JAB or an Agency).
+
+#### Post Authorization
+After an authorization has been granted, the cloud service enters continuous monitoring. 3PAOs perform annual testing as required by the CSP and the authorizing party.

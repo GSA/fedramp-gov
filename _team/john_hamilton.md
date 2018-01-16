@@ -1,11 +1,15 @@
 ---
 layout: teammate
 name: John Hamilton
-image: /assets/img/team/team-placeholder.jpg
-title: FedRAMP Program Manager for Operations
+image: /assets/img/team/profile_JohnHamilton.png
+title: FedRAMP Program Manager of Operations
 body-class: page-team-single
+sort-number: 5
+tags: [people]
+
 ---
 
-John Hamilton serves as the FedRAMP Program Manager for Operations. In this role, John oversees much of the FedRAMP PMO research and development work and is responsible for facilitating the full implementation of the FedRAMP Forward 2 Year strategic plan released in December. He also works to ensure that all of the lessons learned from the JAB P-ATO process are fully incorporated in the guidance documents, trainings, and materials available for all FedRAMP stakeholders.
+John Hamilton is the Program Manager of Operations for FedRAMP. In this role, he works to ensure effective day-to-day operations of the FedRAMP PMO’s Readiness Assessment review process, public-facing website, customer mailbox, and secure repository. He also coordinates with FedRAMP’s Joint Authorization Board (JAB) and independent assessor accreditation body (A2LA) to ensure provisionally authorized cloud service providers (CSPs) and third party assessment organizations (3PAOs) meet FedRAMP performance standards and guidelines.
 
-John previously worked for Accenture Federal Services and Booz Allen Hamilton and has extensive experience in working to improve program efficiencies. He brings a wealth of technical knowledge through working on PKI rollouts at DOL and mobility policy development/enforcement at DOD.
+John previously worked for Accenture Federal Services and Booz Allen Hamilton where he served as a trusted cybersecurity advisor for the Federal Government. He provided leadership, strategy, and information assurance expertise to multiple federal agencies to obtain, maintain, and enhance compliance with mandated IT policies. His extensive experience in working to improve program efficiencies and understanding of systems engineering design approaches facilitated the enterprise-wide implementation of the Department of Labor’s Public Key Infrastructure (PKI) and the Department of Defense’s secure mobility strategy.
+

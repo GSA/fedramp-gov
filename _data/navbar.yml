@@ -69,38 +69,38 @@ assigned:
         sub:
         - 
             text: Documents
-            href: projects/federal-agencies.md
-            permalink: /federal-agencies/
+            href: pages/documents.md
+            permalink: /documents/
             show_in_menu: true
             show_in_footer: false
         - 
             text: Templates
-            href: projects/cloud-service-providers.md
-            permalink: /cloud-service-providers/
+            href: pages/templates.md
+            permalink: /templates/
             show_in_menu: true
             show_in_footer: false
         - 
             text: NIST Publications
-            href: projects/assessors.md
-            permalink: /assessors/
+            href: pages/nist-publications.md
+            permalink: /nist-publications/
             show_in_menu: true
             show_in_footer: false 
         - 
             text: Training
-            href: projects/assessors.md
-            permalink: /assessors/
+            href: pages/training.md
+            permalink: /training/
             show_in_menu: true
             show_in_footer: false 
         - 
             text: FAQs
-            href: projects/assessors.md
-            permalink: /assessors/
+            href: pages/faqs.md
+            permalink: /faqs/
             show_in_menu: true
             show_in_footer: false 
         - 
             text: Tips & Cues
-            href: projects/assessors.md
-            permalink: /assessors/
+            href: pages/tips-cues.md
+            permalink: /tips-cues/
             show_in_menu: true
             show_in_footer: false     
     -
@@ -112,14 +112,14 @@ assigned:
         sub:
         - 
             text: JAB Authorization
-            href: projects/assessors.md
-            permalink: /assessors/
+            href: jab-authorization.md
+            permalink: /jab-authorization/
             show_in_menu: true
             show_in_footer: false 
         - 
-            text: Agency Authorizations
-            href: projects/assessors.md
-            permalink: /assessors/
+            text: Agency Authorization
+            href: agency-authorization.md
+            permalink: /agency-authorization/
             show_in_menu: true
             show_in_footer: false 
     -

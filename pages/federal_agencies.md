@@ -8,6 +8,7 @@ body-class: page-fed-agencies
 
 
 In a constantly changing IT landscape, the migration of on-premise technologies to the cloud has only increased. Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs. Agencies are required by law to protect any federal information that is collected, maintained, processed, disseminated, or disposed of by cloud service offerings, in accordance with [FedRAMP requirements](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/fedrampmemo.pdf). 
+
 FedRAMP is a unique government program that is at the epicenter of cloud technology, cyber security, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct agency security assessments. FedRAMP maintains a [Marketplace](https://marketplace.fedramp.gov/#/products) of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for [FedRAMP Authorized vendors](https://marketplace.fedramp.gov/#/products?status=Compliant&sort=productName).
 
 

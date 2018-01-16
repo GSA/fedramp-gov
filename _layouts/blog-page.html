@@ -12,7 +12,7 @@ layout: base
   <div class="page--banner" style="background-image: url({{ page.image | prepend: site.baseurl }});"></div>
   {% endif %}
   <div class="author-date">
-  <p>{{ page.author }}</p>
+  <p>By {{ page.author }}</p>
   <p>{{ page.date | date: "%B %-d, %Y"}}</p>
   </div>
   {{ content }}

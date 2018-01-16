@@ -14,7 +14,7 @@ colors:
     hover: '#205493'
     visited: '#0071bc'
   button:
-    background: '#0071bc'
+    background: '#112e51'
     hover: '#205493'
     text: '#fff'
   headers: '#205493'

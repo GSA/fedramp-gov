@@ -10,6 +10,7 @@ div.usa-nav-container {
 div.usa-navbar {
 	float: left !important;
 	height: 100px;
+	border: 0;
 }
 
 div.usa-navbar:after {
@@ -20,7 +21,6 @@ div.usa-navbar:after {
 
 nav.usa-nav {
 	padding: 10px 0;
-	height: 70px;
 	float: right;
 ul {
 li {
@@ -38,6 +38,7 @@ a {
 
 div#logo.usa-logo {
 	float: left;
+	 max-width: 360px;
 }
 
 header.usa-banner-header {
@@ -50,11 +51,21 @@ header.usa-banner-header {
     box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
     background: #3e3436;
 }
- 
-/*.usa-nav {
-    width:1000px;
-    margin:0px auto;
-}*/
+
+@media (min-width: 0) and (max-width: 768px) {
+.usa-navbar {
+    width: 100%;
+    margin: 0px auto;
+}
+div#logo.usa-logo {
+	float: left;
+	 max-width: 100%;
+	 img {
+	 	width: 100%;
+	 	height: auto;
+	 }
+}
+}
  
 .usa-nav li {
     margin: 0px;

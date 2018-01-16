@@ -4,7 +4,8 @@ p, ul, ol, li, a {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 #main p {
-  min-width: 100%; }
+  min-width: 100%;
+  widows: 3; }
 
 legend, label,
 h1, h2, h3, h4, h5, h6 {
@@ -83,6 +84,9 @@ a {
   content: '';
   clear: both;
   display: table; }
+  .about-us section#fedramp-numbers h2 {
+    margin-top: 0;
+    text-align: center; }
 .about-us section#fedramp-mission {
   width: 100%;
   padding: 60px 0;
@@ -94,7 +98,8 @@ a {
     width: 100%; }
     .about-us section#fedramp-mission .inner h2 {
       margin-top: 0;
-      color: #fff; }
+      color: #fff;
+      text-align: center; }
     .about-us section#fedramp-mission .inner ul {
       column-count: 2;
       column-gap: 40px; }
@@ -248,38 +253,191 @@ iframe {
 .caption {
   float: right; }
 
-section#pre-auth, section#during-auth, section#post-auth, section#support {
-  padding: 0 0 0 200px;
-  margin: 0 0 40px 0; }
+section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
+  padding: 0 0 40px 200px;
+  margin: 0 0 40px 0;
+  min-height: 200px;
+  background-size: 120px !important;
+  border-bottom: 1px solid #cdcdcd;
+  background-repeat: no-repeat; }
 
-section#pre-auth {
-  background: url("/assets/img/pre-auth.png") no-repeat left top; }
+section#rar {
+  border: none !important; }
 
-section#during-auth {
-  background: url("/assets/img/during-auth.png") no-repeat left top; }
-
-section#post-auth {
-  background: url("/assets/img/post-auth.png") no-repeat left top; }
-
-section#support {
-  background: url("/assets/img/support.png") no-repeat left top; }
+.q1, .q2, .q3, .q4, .q5, .tip-1 {
+  padding: 0 0 40px 200px;
+  margin: 0 0 40px 0;
+  background-size: 150px !important;
+  background-repeat: no-repeat; }
 
 @media (min-width: 0px) and (max-width: 580px) {
-  section#pre-auth, section#during-auth, section#post-auth, section#support {
-    padding: 200px 0 0 0;
-    margin: 0 0 40px 0; }
+  section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar, .q1, .q2, .q3, .q4, .q5, .tip-1 {
+    background-position: center top;
+    background-repeat: no-repeat; }
 
-  section#pre-auth {
-    background: url("/assets/img/pre-auth.png") no-repeat center top; }
+  .q1, .q2, .q3, .q4, .q5, .tip-1 {
+    background-size: 180px !important; }
 
-  section#during-auth {
-    background: url("/assets/img/during-auth.png") no-repeat center top; }
+  section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
+    background-size: 160px !important; }
 
-  section#post-auth {
-    background: url("/assets/img/post-auth.png") no-repeat center top; }
+  section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar, .q1, .q2, .q3, .q4, .q5, .tip-1 {
+    padding: 200px 0 40px 0; } }
+#jan-5, #dec-20 {
+  border-bottom: 1px solid #cdcdcd; }
 
-  section#support {
-    background: url("/assets/img/support.png") no-repeat center top; } }
+.q1, .q2, .q3, .q5 {
+  background-image: url("/assets/img/project-images/cloud.png"); }
+
+.q4, .tip-1 {
+  background-image: url("/assets/img/project-images/assessor.png"); }
+
+section#pre-auth {
+  background-image: url("/assets/img/pre-auth.png"); }
+
+section#during-auth {
+  background-image: url("/assets/img/during-auth.png"); }
+
+section#post-auth {
+  background-image: url("/assets/img/post-auth.png"); }
+
+section#support {
+  background-image: url("/assets/img/support.png");
+  border: none; }
+
+section#welcome {
+  background-image: url("/assets/img/fedramp-welcome-icon.png"); }
+
+section#ssp, section#sap, section#sap-guidance, section#sap, section#sar-guidance, section#sar-report {
+  background-image: url("/assets/img/fedramp-doc-icon.png"); }
+
+section#conmon {
+  background-image: url("/assets/img/fedramp-monitor.png"); }
+
+section#control {
+  background-image: url("/assets/img/fedramp-control.png"); }
+
+section#req {
+  background-image: url("/assets/img/fedramp-3pao.png"); }
+
+section#procedures {
+  background-image: url("/assets/img/fedramp-procedure.png"); }
+
+section#method {
+  background-image: url("/assets/img/search-doc.png"); }
+
+section#sar-tables {
+  background-image: url("/assets/img/assessment-table.png"); }
+
+section#rar {
+  background-image: url("/assets/img/assessment-report.png"); }
+
+.no-select, ul.accordion li h3 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+ul.accordion li h3 {
+  margin: 15px 0; }
+
+ul.accordion {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0; }
+
+ul.accordion li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+  border-bottom: 1px solid #cdcdcd; }
+
+ul.accordion li:nth-of-type(1) {
+  animation-delay: 0.5s; }
+
+ul.accordion li:nth-of-type(2) {
+  animation-delay: 0.75s; }
+
+ul.accordion li:nth-of-type(3) {
+  animation-delay: 1s; }
+
+ul.accordion li:last-of-type {
+  padding-bottom: 0;
+  border: 0; }
+
+ul.accordion li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 10px;
+  left: 0; }
+
+ul.accordion li i:before, ul.accordion li i:after {
+  content: "";
+  position: absolute;
+  margin: 18px 0 0 0;
+  background-color: #E41C3f;
+  width: 3px;
+  height: 9px; }
+
+ul.accordion li i:before {
+  transform: translate(-2px, 0) rotate(45deg); }
+
+ul.accordion li i:after {
+  transform: translate(2px, 0) rotate(-45deg); }
+
+ul.accordion li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  min-width: 920px;
+  height: 100%;
+  z-index: 1;
+  opacity: 0; }
+
+@media (min-width: 0) and (max-width: 1080px) {
+  ul.accordion li input[type=checkbox] {
+    min-width: 100%; } }
+ul.accordion li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%); }
+
+ul.accordion li input[type=checkbox]:checked ~ ul.sub-items, ul.accordion li input[type=checkbox]:checked ~ h4 {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%); }
+
+ul.accordion li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg); }
+
+ul.accordion li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg); }
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg); }
+  5% {
+    opacity: 1; }
+  80% {
+    transform: rotateX(8deg); }
+  83% {
+    transform: rotateX(6deg); }
+  92% {
+    transform: rotateX(-3deg); }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg); } }
 @media screen and (min-width: 600px) {
   .project-container {
     display: flex;
@@ -456,6 +614,21 @@ footer a:visited {
   width: 200px;
   clear: both; }
 
+@media (min-width: 0px) and (max-width: 580px) {
+  .usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
+    float: none;
+    text-align: center;
+    width: 100%; }
+
+  .newsletter-footer {
+    float: none;
+    width: 100%; }
+
+  .usa-footer .logo-container {
+    max-width: 100%; }
+
+  .usa-footer-contact-links {
+    text-align: center; } }
 .usa-footer-secondary_section .footer-social a {
   margin: 0 auto; }
 
@@ -474,22 +647,44 @@ footer a:visited {
       width: 50%; } }
 .page-team .usa-graphic_list h3 {
   margin-top: 0; }
+  .page-team .usa-graphic_list h3 a {
+    text-decoration: none; }
+    .page-team .usa-graphic_list h3 a:hover {
+      text-decoration: underline; }
 
 .team-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  clip-path: circle(62px at center);
+  border-radius: 75px;
   height: 124px;
   width: 124px; }
 
+.page-team-single h2 {
+  text-align: left !important; }
+.page-team-single p.title {
+  font-size: 1.2em;
+  color: #212121; }
 .page-team-single .team-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  clip-path: circle(135px at center);
+  border-radius: 75px;
   height: 270px;
-  width: 270px; }
+  width: 270px;
+  border-radius: 150px; }
+
+.page-team main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+  content: '';
+  clear: both;
+  display: table; }
+
+.page-team-single .usa-width-one-third {
+  text-align: center; }
 
 div.usa-nav-container {
   height: 215px;
@@ -501,7 +696,8 @@ div.usa-nav-container {
 
 div.usa-navbar {
   float: left !important;
-  height: 100px; }
+  height: 100px;
+  border: 0; }
 
 div.usa-navbar:after {
   content: '';
@@ -510,7 +706,6 @@ div.usa-navbar:after {
 
 nav.usa-nav {
   padding: 10px 0;
-  height: 70px;
   float: right; }
   nav.usa-nav ul li {
     text-transform: uppercase; }
@@ -521,7 +716,8 @@ nav.usa-nav {
     float: left; }
 
 div#logo.usa-logo {
-  float: left; }
+  float: left;
+  max-width: 360px; }
 
 header.usa-banner-header {
   height: 30px;
@@ -532,10 +728,17 @@ header.usa-banner-header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   background: #3e3436; }
 
-/*.usa-nav {
-    width:1000px;
-    margin:0px auto;
-}*/
+@media (min-width: 0) and (max-width: 768px) {
+  .usa-navbar {
+    width: 100%;
+    margin: 0px auto; }
+
+  div#logo.usa-logo {
+    float: left;
+    max-width: 100%; }
+    div#logo.usa-logo img {
+      width: 100%;
+      height: auto; } }
 .usa-nav li {
   margin: 0px;
   list-style: none; }
@@ -624,7 +827,7 @@ header.usa-banner-header {
   margin: 0;
   padding: 20px;
   max-height: 200px;
-  background: #eee;
+  background: #d6d7d9;
   text-align: left; }
   @media all and (min-width: 800px) {
     .blog-banner {
@@ -663,7 +866,6 @@ a.blog-read {
   float: none;
   color: #0071bc;
   text-transform: uppercase;
-  background: #205493;
   padding: 10px;
   font-size: 1.4875rem;
   font-weight: bold;
@@ -710,6 +912,11 @@ a.blog-read {
   margin: 0 0 10px 0;
   padding: 0 0 10px 0; }
 
+.page-blog h2 a {
+  text-decoration: none; }
+  .page-blog h2 a:hover {
+    text-decoration: underline; }
+
 .page-blog .meta ul {
   padding: 0; }
   .page-blog .meta ul li {
@@ -721,3 +928,37 @@ a.blog-read {
   margin-bottom: 30px; }
   .page-blog .usa-width-one-whole:last-child {
     border: 0; }
+
+table th {
+  background: #205493;
+  border: 1px solid #205493;
+  font-weight: bold !important;
+  color: #fff; }
+table td {
+  border: 1px solid #cdcdcd; }
+table .th-2 {
+  background: #f1f1f1;
+  font-weight: bold; }
+table .icon-text {
+  color: #205493;
+  text-align: center;
+  margin: 0; }
+table a.icon-link {
+  text-decoration: none; }
+  table a.icon-link:hover {
+    text-decoration: underline; }
+table svg {
+  width: 100% !important;
+  height: 30px !important;
+  cursor: pointer; }
+  table svg:hover {
+    color: #205493; }
+
+.fa-file-pdf {
+  color: #E41C3f; }
+
+.fa-file-excel {
+  color: green; }
+
+.fa-file-word {
+  color: #112e51; }
