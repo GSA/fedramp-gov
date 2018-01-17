@@ -6,7 +6,7 @@ body-class: page-fed-agencies
 description: Federal Agencies looking to leverage the "do once, use many times" approach to FedRAMP to save time and money.
 tags: project
 image: 
-icon: /assets/img/project-images/fedagency-icon.png
+icon: ../assets/img/project-images/fedagency-icon.png
 abstract: 
 ---
 
