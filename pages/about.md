@@ -7,7 +7,7 @@ body-class: about-us
 ---
 <section id="about">
 <div class="image-container">
-<img src="/assets/img/fedramp-about.png">
+<img src="../assets/img/fedramp-about.png">
 </div>
 <div class="text-container">
 <p>The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. </p>
