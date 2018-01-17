@@ -90,11 +90,6 @@ exclude:
 paginate: 3
 paginator_path: "/blog/:num/"
 
-# Sass settings
-
-sass:
-	sass_dir: _sass
-	style: :compressed
 
 # Inititalize project and team collections
 collections:
