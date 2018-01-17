@@ -87,6 +87,9 @@ exclude:
   - LICENSE.md
   - README.md
 
+paginate: 3
+paginator_path: "/blog/:num/"
+
 # Sass settings
 
 sass:

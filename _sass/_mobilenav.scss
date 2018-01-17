@@ -13,9 +13,23 @@
 	font-size: 1.6rem;
 }
 
-.usa-mobile_nav-active ul {
+.usa-mobile_nav-active ul ul {
 	/* by default hide all sub menus */
 	display: none;
+}
+
+.usa-mobile_nav-active ul {
+	/* by default hide all sub menus */
+	li {
+		a {
+		&:hover {
+		border: none;
+		}
+		}
+	}
+	&:hover {
+	border: none;
+	}
 }
  
 .usa-mobile_nav-active input[type=checkbox]:checked + label + ul,

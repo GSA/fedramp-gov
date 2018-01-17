@@ -13,9 +13,13 @@ section#pre-auth, section#during-auth, section#post-auth, section#support, secti
 	padding: 0 0 40px 200px;
 	margin: 0 0 40px 0;
 	min-height: 200px;
-	background-size: 120px !important;
+	background-size: 100px !important;
 	border-bottom: 1px solid #cdcdcd;
 	background-repeat: no-repeat;
+}
+
+section#conmon, section#control, section#req {
+	background-size: 115px !important;
 }
 
 section#rar {
@@ -101,6 +105,11 @@ section#rar {
 	background-image: url('/assets/img/assessment-report.png');
 }
 
+.assessors-page section#post-auth, .cloud-services-page section#post-auth {
+	border: none;
+}
+
+
 
 .no-select, ul.accordion li h3 {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -126,8 +135,8 @@ ul.accordion li {
   position: relative;
   padding: 0;
   margin: 0;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   padding-left: 25px;
   border-bottom: 1px solid #cdcdcd;
 }
@@ -148,7 +157,7 @@ ul.accordion li:last-of-type {
 ul.accordion li i {
   position: absolute;
   transform: translate(-6px, 0);
-  margin-top: 10px;
+  margin-top: -12px;
   left: 0;
 }
 ul.accordion li i:before, ul.accordion li i:after {
@@ -169,8 +178,9 @@ ul.accordion li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
     width: 100%;
-    min-width: 920px;
-    height: 100%;
+    min-width: 900px;
+    padding: 0;
+//    height: 100%;
     z-index: 1;
     opacity: 0;
 }
@@ -179,10 +189,11 @@ ul.accordion li input[type=checkbox] {
     min-width: 100%;
 }
 }
-ul.accordion li input[type=checkbox]:checked ~ p {
+ul.accordion li input[type=checkbox]:checked ~ p, ul.accordion li input[type=checkbox]:checked ~ h4 {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
+  margin: 0;
   transform: translate(0, 50%);
 }
 ul.accordion li input[type=checkbox]:checked ~ ul.sub-items, ul.accordion li input[type=checkbox]:checked ~ h4 {
