@@ -12,7 +12,7 @@ This series consists of free e-learning courses geared towards specific stakehol
 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to info@fedramp.gov with the subject line: "Regarding FedRAMP Training."
 
-![image alt text](/assets/img/learning-path.png)
+![image alt text](../assets/img/learning-path.png)
 
 ## Path 1: All Stakeholders
 
