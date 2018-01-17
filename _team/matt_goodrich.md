@@ -4,8 +4,7 @@ name: Matt Goodrich
 image: /assets/img/team/profile_MattGoodrich.png
 title: FedRAMP Director
 body-class: page-team-single
-sort-number: 1
-tags: [people]
+date: 2018-01-01
 
 ---
 Matt Goodrich is the Director for the Federal Risk and Authorization Management Program (FedRAMP) within the General Services Administration (GSA).

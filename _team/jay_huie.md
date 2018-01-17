@@ -3,8 +3,7 @@ layout: teammate
 name: Jay Huie
 image: /assets/img/team/profile_JayHuie.png
 title: Director Secure Cloud Portfolio
-sort-number: 2
-tags: [people]
+date: 2018-01-02
 body-class: page-team-single
 ---
 Jay Huie has spent over 15 years guiding the evolution and adoption of technology within federal and enterprise environments. His expertise includes bringing a multi-discipline approach to help agencies achieve their missions. He currently serves as the Director for the GSA TTS Secure Cloud Portfolio, which includes the FedRAMP program. The mission of the Secure Cloud Portfolio is to accelerate cloud adoption, build connections between government and industry as well as build partnerships between the two in service of ensuring agencies are more effectively able to achieve their missions. Most recently, Jay has been tasked to lead the GSA’s Cloud Adoption Center of Excellence supporting the White House Office of American Innovation. In this role, he will build specific capabilities to assist efforts by government agencies to leverage modern technology and cloud services.
