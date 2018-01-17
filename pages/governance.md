@@ -2,7 +2,7 @@
 layout: page
 title: Governance
 permalink: /governance/
-image: ../assets/img/page-images/fedramp-governance.png
+image: ../../assets/img/page-images/fedramp-governance.png
 
 ---
 
