@@ -47,7 +47,7 @@ footer a:visited {
 
 .newsletter-footer {
 	float: left;
-	width: 30%;
+	width: 31%;
 	input {
 		margin: 15px auto 0 auto;
 		background: $light-blue;
@@ -81,6 +81,7 @@ footer a:visited {
 
 .usa-footer-secondary_section .footer-social a {
 	margin: 0 auto;
+	position: static; 
 }
 
 .copyright {

@@ -10,9 +10,8 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 **You can also review and search all of our past Tips & Cues by downloading our compilation document ****[insert link to compilation document]. **
 <section id="jan-5">
 <h2>January 5th, 2018</h2>
-
-<h3>Audience: Cloud Service Providers (CSPs)</h3>
 <div class="q1">
+<h3>Audience: Cloud Service Providers (CSPs)</h3>
 <p><strong>Q:</strong> What is the purpose of an Information System Contingency Plan (ISCP)?</p>
 
 <p><strong>A:</strong> Each CSP must develop and maintain contingency plans to address operational disruptions. The contingency plan (and test results) provides management with an evaluation of the preparedness of the CSP's cloud service offering in the event of a major disruption and/or a catastrophic event. The contingency plan ensures that operations resume and are eventually restored to a known state. The ISCP and Service Level Agreements drive the recovery test frequency and complexity and recovery time frames. These contingency plans are a component of an effective security operations implementation.</p>

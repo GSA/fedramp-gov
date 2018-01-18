@@ -113,12 +113,34 @@ a {
   float: left;
   text-align: center; }
 
-.about-us #fedramp-numbers .text-container, .about-us #about .text-container {
+.about-us #about .text-container {
   max-width: 50%;
   float: left;
   text-align: left;
   padding: 0 0 0 40px; }
 
+.about-us #fedramp-numbers .text-container {
+  max-width: 100%;
+  float: left;
+  text-align: left;
+  padding: 40px 0 0 0; }
+
+.usa-width-three-fourths {
+  width: 74.4%;
+  padding-right: 60px;
+  margin: 0;
+  box-sizing: border-box; }
+
+.usa-width-one-fourth {
+  width: 25%; }
+
+@media (min-width: 0) and (max-width: 768px) {
+  .usa-width-three-fourths {
+    width: 100%;
+    padding: 0; }
+
+  .usa-width-one-fourth {
+    width: 100%; } }
 .usa-button,
 .usa-button-primary,
 .usa-button:visited,
@@ -253,7 +275,7 @@ iframe {
   float: right; }
 
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
-  padding: 0 0 40px 200px;
+  padding: 0 0 40px 130px;
   margin: 0 0 40px 0;
   min-height: 200px;
   background-size: 100px !important;
@@ -609,7 +631,7 @@ footer a:visited {
 
 .newsletter-footer {
   float: left;
-  width: 30%; }
+  width: 31%; }
   .newsletter-footer input {
     margin: 15px auto 0 auto;
     background: #205493; }
@@ -636,7 +658,8 @@ footer a:visited {
   .usa-footer-contact-links {
     text-align: center; } }
 .usa-footer-secondary_section .footer-social a {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: static; }
 
 .copyright {
   padding: 5px 0;
@@ -652,11 +675,14 @@ footer a:visited {
       margin-right: 0;
       width: 50%; } }
 .page-team .usa-graphic_list h3 {
-  margin-top: 0; }
+  margin: 0; }
   .page-team .usa-graphic_list h3 a {
     text-decoration: none; }
     .page-team .usa-graphic_list h3 a:hover {
       text-decoration: underline; }
+.page-team .usa-graphic_list p {
+  margin: 0;
+  color: #757575; }
 
 .team-image {
   background-size: cover;
@@ -667,10 +693,12 @@ footer a:visited {
   width: 124px; }
 
 .page-team-single h2 {
-  text-align: left !important; }
+  text-align: left !important;
+  margin: 0 !important; }
 .page-team-single p.title {
   font-size: 1.2em;
-  color: #212121; }
+  color: #757575;
+  margin-top: 0; }
 .page-team-single .team-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -833,7 +861,7 @@ header.usa-banner-header {
   margin: 0;
   padding: 20px;
   max-height: 200px;
-  background: #d6d7d9;
+  background: none;
   text-align: left; }
   @media all and (min-width: 800px) {
     .blog-banner {
@@ -851,7 +879,8 @@ header.usa-banner-header {
   margin-top: 0; }
 
 .blog-description p {
-  font-weight: normal; }
+  font-weight: normal;
+  margin: 20px 0 10px 0; }
 
 .blog-summary {
   font-size: 16px;
@@ -918,6 +947,9 @@ a.blog-read {
   margin: 0 0 10px 0;
   padding: 0 0 10px 0; }
 
+@media (min-width: 0) and (max-width: 768px) {
+  .blog-sidebar {
+    margin: 40px 0 0 0; } }
 .page-blog h2 a {
   text-decoration: none; }
   .page-blog h2 a:hover {
@@ -934,6 +966,9 @@ a.blog-read {
   margin-bottom: 30px; }
   .page-blog .usa-width-one-whole:last-child {
     border: 0; }
+
+.page-blog img {
+  border: 1px solid #cdcdcd; }
 
 .page-blog .readmore a.more-link {
   margin: 15px auto 0 auto;
@@ -967,14 +1002,17 @@ a.blog-read {
 
 table th {
   background: #205493;
-  border: 1px solid #205493;
+  border: 1px solid #112e51;
   font-weight: bold !important;
   color: #fff; }
 table td {
   border: 1px solid #cdcdcd; }
 table .th-2 {
-  background: #f1f1f1;
+  background: #dadada;
   font-weight: bold; }
+table .th-3 {
+  background: #f5f5f5;
+  font-style: italic; }
 table .icon-text {
   color: #205493;
   text-align: center;

@@ -11,6 +11,7 @@ The FedRAMP PMO offers a series of online training courses to provide all stakeh
 This series consists of free e-learning courses geared towards specific stakeholder groups, the FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the process.
 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to info@fedramp.gov with the subject line: "Regarding FedRAMP Training."
+## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
 
 ![image alt text](../assets/img/learning-path.png)
 
