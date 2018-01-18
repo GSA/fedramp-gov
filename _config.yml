@@ -64,7 +64,7 @@ forms:
 
 footer:
   links:
-  image: /assets/img/fedramp-logo-stamp.png
+  image: ../assets/img/fedramp-logo-stamp.png
   contact:
     name: 
     email: info@FedRAMP.gov
