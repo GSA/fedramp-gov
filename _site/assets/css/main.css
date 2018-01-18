@@ -244,7 +244,7 @@ button:hover,
     color: #fff; }
 
 .home .hero-unit {
-  background-image: url("/assets/img/home-hero-unit.png") !important;
+  background-image: url("../../assets/img/home-hero-unit.png") !important;
   background-attachment: fixed;
   padding: 130px 0; }
 
@@ -311,50 +311,50 @@ section#rar {
   border-bottom: 1px solid #cdcdcd; }
 
 .q1, .q2, .q3, .q5 {
-  background-image: url("/assets/img/project-images/cloud.png"); }
+  background-image: url("../../assets/img/project-images/cloud.png"); }
 
 .q4, .tip-1 {
-  background-image: url("/assets/img/project-images/assessor.png"); }
+  background-image: url("../../assets/img/project-images/assessor.png"); }
 
 section#pre-auth {
-  background-image: url("/assets/img/pre-auth.png"); }
+  background-image: url("../../assets/img/pre-auth.png"); }
 
 section#during-auth {
-  background-image: url("/assets/img/during-auth.png"); }
+  background-image: url("../../assets/img/during-auth.png"); }
 
 section#post-auth {
-  background-image: url("/assets/img/post-auth.png"); }
+  background-image: url("../../assets/img/post-auth.png"); }
 
 section#support {
-  background-image: url("/assets/img/support.png");
+  background-image: url("../../assets/img/support.png");
   border: none; }
 
 section#welcome {
-  background-image: url("/assets/img/fedramp-welcome-icon.png"); }
+  background-image: url("../../assets/img/fedramp-welcome-icon.png"); }
 
 section#ssp, section#sap, section#sap-guidance, section#sap, section#sar-guidance, section#sar-report {
-  background-image: url("/assets/img/fedramp-doc-icon.png"); }
+  background-image: url("../../assets/img/fedramp-doc-icon.png"); }
 
 section#conmon {
-  background-image: url("/assets/img/fedramp-monitor.png"); }
+  background-image: url("../../assets/img/fedramp-monitor.png"); }
 
 section#control {
-  background-image: url("/assets/img/fedramp-control.png"); }
+  background-image: url("../../assets/img/fedramp-control.png"); }
 
 section#req {
-  background-image: url("/assets/img/fedramp-3pao.png"); }
+  background-image: url("../../assets/img/fedramp-3pao.png"); }
 
 section#procedures {
-  background-image: url("/assets/img/fedramp-procedure.png"); }
+  background-image: url("../../assets/img/fedramp-procedure.png"); }
 
 section#method {
-  background-image: url("/assets/img/search-doc.png"); }
+  background-image: url("../../assets/img/search-doc.png"); }
 
 section#sar-tables {
-  background-image: url("/assets/img/assessment-table.png"); }
+  background-image: url("../../assets/img/assessment-table.png"); }
 
 section#rar {
-  background-image: url("/assets/img/assessment-report.png"); }
+  background-image: url("../../assets/img/assessment-report.png"); }
 
 .assessors-page section#post-auth, .cloud-services-page section#post-auth {
   border: none; }
@@ -940,7 +940,7 @@ a.blog-read {
   padding: 0px; }
   .blog-sidebar ul li {
     list-style: none;
-    background: url("/assets/img/bullet.png") no-repeat 5px 10px;
+    background: url("../../assets/img/bullet.png") no-repeat 5px 10px;
     padding: 0 0 0 20px; }
 .blog-sidebar h3 {
   border-bottom: 1px solid #cdcdcd;
