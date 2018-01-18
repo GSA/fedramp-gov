@@ -87,8 +87,6 @@ exclude:
 # Gems
 gems: [jekyll-paginate]
 
-paginate:6
-
 
 # Inititalize project and team collections
 collections:
