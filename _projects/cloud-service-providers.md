@@ -21,7 +21,7 @@ In addition to FedRAMP’s stamp of security approval, FedRAMP authorization pro
 * Strengthened government confidence in the CSP’s cloud services
 * Long-term reduction in time and money spent on federal security compliance through FedRAMP’s model of “do once, use many times”
 
-### FedRAMP Authorization: A CSP’s Perspective 
+## FedRAMP Authorization: A CSP’s Perspective 
 A few drivers for CSPs to consider when deciding if a FedRAMP authorization is right for them (in addition to the OMB mandate) include: 
 
 * Interest in selling their cloud service to the federal government
@@ -61,9 +61,9 @@ If a CSP thinks FedRAMP might be right for their cloud service, there are a few 
 
 <h3>Post Authorization</h3>
 <p>Once the service offering is authorized, the CSP must provide monthly continuous monitoring deliverables to the Agency (or Agencies) that are using the service. The monthly continuous monitoring deliverables should be reviewed by each Agency, but do not need to be shared with the FedRAMP PMO.</p>
+</section>
 
 <h3>“Do Once, Use Many Times”</h3>
 <p>FedRAMP was designed so that once a cloud service offering has been authorized once, Agencies can review the existing authorization package and grant ATOs for their organizations to use the service. This prevents CSPs and Agencies from duplicating work that has already been done as part of the initial authorization, saving time and money.</p>
 
 <p>Once a service offering has been authorized, it is listed in the FedRAMP Marketplace. The FedRAMP PMO encourages Agencies to use the Marketplace to find services that meet their needs, knowing that any service listed in the Marketplace meets federal security requirements and has already been authorized.</p>
-</section>

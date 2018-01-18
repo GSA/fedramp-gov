@@ -1,7 +1,7 @@
 table {
 th {
 	background: $light-blue;
-	border: 1px solid $light-blue;
+	border: 1px solid $dark-blue;
 	font-weight: bold !important;
 	color: #fff;
 }
@@ -9,8 +9,12 @@ td {
 	border: 1px solid #cdcdcd;
 }
 .th-2 {
-	background: $footer-primary-background-color;
+	background: #dadada;
 	font-weight: bold; 
+}
+.th-3 {
+	background: #f5f5f5;
+	font-style: italic;
 }
 .icon-text {
 	color: $light-blue;

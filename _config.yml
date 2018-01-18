@@ -55,9 +55,6 @@ defaults:
       - team
       - posts
 
-plugins:
-- jekyll-menus
-
 forms:
 - type: newsletter
   heading: Add your email to FedRAMP's subscriber list.
@@ -87,8 +84,10 @@ exclude:
   - LICENSE.md
   - README.md
 
-paginate: 3
-paginator_path: "/blog/:num/"
+# Gems
+gems: [jekyll-paginate]
+
+paginate:6
 
 
 # Inititalize project and team collections

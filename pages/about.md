@@ -30,15 +30,13 @@ body-class: about-us
 <section id="fedramp-numbers">
 <h2>FedRAMP By the Numbers</h2> 
 <div class="image-container">
-<img src="../assets/img/by-the-numbers-1.png">
-<img src="../assets/img/by-the-numbers-2.png">
+<img src="../assets/img/fedramp_number01.png">
+<img src="../assets/img/fedramp_number02.png">
+<img src="../assets/img/fedramp_number03.png">
+<img src="../assets/img/fedramp_number04.png">
 </div>
 <div class="text-container">
 <h3>FedRAMP Authorizations </h3>
 <p>There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization, and through individuals agencies. Learn more about these path on our Get Authorized page [insert link to Getting Authorized web page]. </p>
-<h3>FedRAMP’s Governance</h3>
-<p>FedRAMP is the result of close collaboration with cybersecurity and cloud experts from the General Services Administration (GSA), National Institute of Standards and Technology (NIST), Department of Homeland Security (DHS), Department of Defense (DOD), National Security Agency (NSA), Office of Management and Budget (OMB), the Federal Chief Information Officer (CIO) Council and its working groups, as well as private industry. Learn more on our Governance here [insert link to Governance page]. </p>
-<h3>FedRAMP’s Team </h3>
-<p>The FedRAMP Program Management Office (PMO) is comprised of cloud security experts with deep relationships across the federal government. FedRAMP is led by Matt Goodrich who has worked on FedRAMP as part of the Federal Cloud Computing Initiative since August of 2009. Learn more about each member of the FedRAMP PMO on our Meet the Team page [insert link to Meet the Team Page]. </p>
 </div>
 </section>
