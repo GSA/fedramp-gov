@@ -21,7 +21,7 @@ body-class: page-fed-agencies
     <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>6/6//2017</td>
+    <td>6/6/2017</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP Moderate Readiness Assessment Report (RAR) Template</a></td>
@@ -30,13 +30,13 @@ body-class: page-fed-agencies
     <p class="icon-text">WORD</p></a>
     </td>
     
-    <td>6/6//2017</td>
+    <td>6/6/2017</td>
   </tr>
   <tr>
     <td colspan="4" class="th-2">Initial Authorization Phase</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Initial Authorization Package Checklist</td>
+    <td colspan="4" class="th-3">Initial Authorization Package Checklist</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP Initial Authorization Package Checklist</a></td>
@@ -48,7 +48,7 @@ body-class: page-fed-agencies
     <td>3/9/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Document: System Security Plan (SSP)</td>
+    <td colspan="4" class="th-3">Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP System Security Plan (SSP) High Baseline Template</a></td>
@@ -181,7 +181,7 @@ body-class: page-fed-agencies
 <td>3/10/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Authorize: Security Assessment Report (SAR)</td>
+    <td colspan="4" class="th-3">Authorize: Security Assessment Report (SAR)</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP Security Assessment Report (SAR) Template</a></td>
@@ -200,7 +200,7 @@ body-class: page-fed-agencies
     <td>3/9/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Authorize: Plan of Action and Milestones (POA&M)</td>
+    <td colspan="4" class="th-3">Authorize: Plan of Action and Milestones (POA&M)</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP Plan of Action and Milestones (POA&M) Template</a></td>
@@ -211,7 +211,7 @@ body-class: page-fed-agencies
     <td>3/9/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Authorize: Authorization to Operate (ATO) Letter</td>
+    <td colspan="4" class="th-3">Authorize: Authorization to Operate (ATO) Letter</td>
   </tr>
   <tr>
     <td><a href="#">FedRAMP Agency ATO Review Template</a></td>

@@ -46,7 +46,7 @@
   margin: 0;
   padding: 20px;
   max-height: 200px; 
-  background: #d6d7d9;
+  background: none;
   text-align: left;
   @media all and (min-width: $on-laptop) {
     flex: 1 0 auto;
@@ -68,6 +68,7 @@
 
 .blog-description p {
 	font-weight: normal;
+	margin: 20px 0 10px 0;
 }
 
 .blog-summary {
@@ -154,6 +155,12 @@ h3 {
 }
 }
 
+@media (min-width: 0) and (max-width: 768px) {
+.blog-sidebar {
+	margin: 40px 0 0 0;
+}
+}
+
 .page-blog h2 a {
 	text-decoration: none;
 	&:hover {
@@ -175,6 +182,10 @@ h3 {
 	&:last-child {
 		border: 0;
 	}
+}
+
+.page-blog img {
+	border: 1px solid #cdcdcd;
 }
 
 .page-blog .readmore a.more-link {

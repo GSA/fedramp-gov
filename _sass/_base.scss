@@ -158,9 +158,39 @@ section#fedramp-mission {
 	text-align: center;
 }
 
-.about-us #fedramp-numbers .text-container, .about-us #about .text-container {
+.about-us #about .text-container {
 	max-width: 50%;
 	float: left;
 	text-align: left;
 	padding: 0 0 0 40px;
+}
+
+.about-us #fedramp-numbers .text-container {
+	max-width: 100%;
+	float: left;
+	text-align: left;
+	padding: 40px 0 0 0;
+}
+
+
+.usa-width-three-fourths {
+	width: 74.4%;
+	padding-right: 60px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.usa-width-one-fourth {
+	width: 25%;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+.usa-width-three-fourths {
+	width: 100%;
+	padding: 0;
+}
+
+.usa-width-one-fourth {
+	width: 100%;
+}
 }
