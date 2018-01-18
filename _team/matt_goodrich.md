@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Matt Goodrich
-image: ../assets/img/team/profile_MattGoodrich.png
+image: /assets/img/team/profile_MattGoodrich.png
 title: FedRAMP Director
 body-class: page-team-single
 date: 2018-01-01

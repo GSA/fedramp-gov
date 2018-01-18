@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Jay Huie
-image: ../assets/img/team/profile_JayHuie.png
+image: /assets/img/team/profile_JayHuie.png
 title: Director Secure Cloud Portfolio
 date: 2018-01-02
 body-class: page-team-single
