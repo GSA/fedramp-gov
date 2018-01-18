@@ -57,6 +57,7 @@ defaults:
 
 plugins:
 - jekyll-menus
+- jekyll-paginate
 
 forms:
 - type: newsletter
@@ -69,13 +70,13 @@ footer:
   links:
   image: /assets/img/fedramp-logo-stamp.png
   contact:
-    name: 
+    name:
     email: info@FedRAMP.gov
     twitter:
       - FedRAMP
-    facebook: 
-    youtube: 
-    rss: 
+    facebook:
+    youtube:
+    rss:
   text: General Services Administration 1800 F Street NW Washington, DC 20006
 
 # Build settings
