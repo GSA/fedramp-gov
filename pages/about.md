@@ -43,6 +43,7 @@ body-class: about-us
 <section class="about-auth">
 <div class="inner">
 <h2>FedRAMP Authorizations </h2>
-<p>There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization, and through individuals agencies. Learn more about these path on our Get Authorized page [insert link to Getting Authorized web page]. </p>
+<p>If you have a Cloud Service Offering (CSO) that is in use by the federal government, you should be thinking about obtaining a FedRAMP authorization. Per an <a href="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/fedrampmemo.pdf">OMB memorandum</a>, any cloud services that hold federal data must be FedRAMP authorized. There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization (P-ATO), and through individuals Agencies. Learn more about theses paths on our <a href="jab-authorization">JAB Authorization</a> and <a href="agency-authorization">Agency Authorization</a> pages. 
+</p>
 </div>
 </section>
