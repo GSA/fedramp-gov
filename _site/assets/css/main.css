@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #205493;
   font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
+h6 {
+  font-weight: bold;
+  text-transform: none; }
+
 .usa-section-dark legend, .usa-section-dark label,
 .usa-section-dark h1, .usa-section-dark h2, .usa-section-dark h3, .usa-section-dark h4, .usa-section-dark h5, .usa-section-dark h6,
 .usa-section-dark p {
@@ -108,8 +112,13 @@ a {
         page-break-inside: avoid;
         break-inside: avoid; }
 
-.about-us #fedramp-numbers .image-container, .about-us #about .image-container {
+.about-us #about .image-container {
   max-width: 50%;
+  float: left;
+  text-align: center; }
+
+.about-us #fedramp-numbers .image-container {
+  max-width: 100%;
   float: left;
   text-align: center; }
 
@@ -124,6 +133,53 @@ a {
   float: left;
   text-align: left;
   padding: 40px 0 0 0; }
+
+.about-us section.about-auth {
+  background: #205493;
+  width: 100%;
+  float: left;
+  color: #fff;
+  padding: 60px 0; }
+  .about-us section.about-auth .inner {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .about-us section.about-auth .inner h2 {
+      text-align: center;
+      color: #fff;
+      margin-top: 0; }
+    .about-us section.about-auth .inner p {
+      color: #fff;
+      text-align: center; }
+
+.about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
+  width: 50%;
+  float: left; }
+
+@media (min-width: 0) and (max-width: 768px) {
+  .about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
+    width: 100%;
+    float: left; }
+
+  .about-us section.about-auth {
+    padding: 60px 5%; } }
+.about-us #fedramp-numbers img.one {
+  width: 50%;
+  float: left; }
+
+.about-us #fedramp-numbers img.two {
+  width: 50%;
+  float: left; }
+
+.about-us #fedramp-numbers img.three {
+  width: 100%;
+  float: left;
+  clear: left; }
+
+.about-us #fedramp-numbers img.four {
+  width: 100%;
+  float: right;
+  top: 0;
+  position: relative; }
 
 .usa-width-three-fourths {
   width: 74.4%;
@@ -191,9 +247,6 @@ button:hover,
 @media all and (min-width: 951px) {
   .usa-header-basic .usa-navbar {
     width: 30%; } }
-@media all and (max-width: 951px) {
-  #logo img {
-    max-height: 3.7rem; } }
 .usa-nav-primary a:hover {
   color: #112e51; }
 
@@ -311,10 +364,10 @@ section#rar {
   border-bottom: 1px solid #cdcdcd; }
 
 .q1, .q2, .q3, .q5 {
-  background-image: url("../../assets/img/project-images/cloud.png"); }
+  background-image: url("../../assets/img/project-images/cloudserv-icon.png"); }
 
 .q4, .tip-1 {
-  background-image: url("../../assets/img/project-images/assessor.png"); }
+  background-image: url("../../assets/img/project-images/assessor-icon.png"); }
 
 section#pre-auth {
   background-image: url("../../assets/img/pre-auth.png"); }
@@ -359,113 +412,43 @@ section#rar {
 .assessors-page section#post-auth, .cloud-services-page section#post-auth {
   border: none; }
 
-.no-select, ul.accordion li h3 {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
-ul.accordion li h3 {
-  margin: 15px 0; }
-
-ul.accordion {
-  list-style: none;
-  perspective: 900;
-  padding: 0;
-  margin: 0; }
-
-ul.accordion li {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  padding-left: 25px;
-  border-bottom: 1px solid #cdcdcd; }
-
-ul.accordion li:nth-of-type(1) {
-  animation-delay: 0.5s; }
-
-ul.accordion li:nth-of-type(2) {
-  animation-delay: 0.75s; }
-
-ul.accordion li:nth-of-type(3) {
-  animation-delay: 1s; }
-
-ul.accordion li:last-of-type {
-  padding-bottom: 0;
-  border: 0; }
-
-ul.accordion li i {
-  position: absolute;
-  transform: translate(-6px, 0);
-  margin-top: -12px;
-  left: 0; }
-
-ul.accordion li i:before, ul.accordion li i:after {
-  content: "";
-  position: absolute;
-  margin: 18px 0 0 0;
-  background-color: #E41C3f;
-  width: 3px;
-  height: 9px; }
-
-ul.accordion li i:before {
-  transform: translate(-2px, 0) rotate(45deg); }
-
-ul.accordion li i:after {
-  transform: translate(2px, 0) rotate(-45deg); }
-
-ul.accordion li input[type=checkbox] {
-  position: absolute;
+.accordion {
   cursor: pointer;
   width: 100%;
-  min-width: 900px;
-  padding: 0;
-  z-index: 1;
-  opacity: 0; }
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background: none;
+  text-transform: none;
+  margin: 10px 0 10px 35px; }
 
-@media (min-width: 0) and (max-width: 1080px) {
-  ul.accordion li input[type=checkbox] {
-    min-width: 100%; } }
-ul.accordion li input[type=checkbox]:checked ~ p, ul.accordion li input[type=checkbox]:checked ~ h4 {
-  margin-top: 0;
-  max-height: 0;
-  opacity: 0;
-  margin: 0;
-  transform: translate(0, 50%); }
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: white;
+  display: none;
+  overflow: hidden; }
 
-ul.accordion li input[type=checkbox]:checked ~ ul.sub-items, ul.accordion li input[type=checkbox]:checked ~ h4 {
-  margin-top: 0;
-  max-height: 0;
-  opacity: 0;
-  transform: translate(0, 50%); }
+.accordion:before {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fff;
+  float: left;
+  margin-left: -30px; }
 
-ul.accordion li input[type=checkbox]:checked ~ i:before {
-  transform: translate(2px, 0) rotate(45deg); }
+.active:before {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */ }
 
-ul.accordion li input[type=checkbox]:checked ~ i:after {
-  transform: translate(-2px, 0) rotate(-45deg); }
+.page-faqs .question {
+  padding: 15px 0;
+  border-bottom: 1px solid #cdcdcd; }
 
-@keyframes flipdown {
-  0% {
-    opacity: 0;
-    transform-origin: top center;
-    transform: rotateX(-90deg); }
-  5% {
-    opacity: 1; }
-  80% {
-    transform: rotateX(8deg); }
-  83% {
-    transform: rotateX(6deg); }
-  92% {
-    transform: rotateX(-3deg); }
-  100% {
-    transform-origin: top center;
-    transform: rotateX(0deg); } }
+.page-faqs .question:last-of-type {
+  border: none; }
+
 @media screen and (min-width: 600px) {
   .project-container {
     display: flex;
@@ -941,7 +924,8 @@ a.blog-read {
   .blog-sidebar ul li {
     list-style: none;
     background: url("../../assets/img/bullet.png") no-repeat 5px 10px;
-    padding: 0 0 0 20px; }
+    padding: 0 0 0 20px;
+    margin: 0 0 10px 0; }
 .blog-sidebar h3 {
   border-bottom: 1px solid #cdcdcd;
   margin: 0 0 10px 0;
@@ -967,7 +951,7 @@ a.blog-read {
   .page-blog .usa-width-one-whole:last-child {
     border: 0; }
 
-.page-blog img {
+.page-blog main img {
   border: 1px solid #cdcdcd; }
 
 .page-blog .readmore a.more-link {
@@ -1037,7 +1021,7 @@ table svg {
 .fa-file-word {
   color: #112e51; }
 
-.usa-mobile_nav-active input[type=checkbox] {
+.usa-mobile_nav-active {
   /* hide native checkbox */
   position: absolute;
   opacity: 0; }
@@ -1051,7 +1035,7 @@ table svg {
   color: #ffffff;
   font-size: 1.6rem; }
 
-.usa-mobile_nav-active ul ul {
+.usa-mobile_nav-active ul ul.sub-menu {
   /* by default hide all sub menus */
   display: none; }
 

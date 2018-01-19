@@ -30,13 +30,19 @@ body-class: about-us
 <section id="fedramp-numbers">
 <h2>FedRAMP By the Numbers</h2> 
 <div class="image-container">
-<img src="../assets/img/fedramp_number01.png">
-<img src="../assets/img/fedramp_number02.png">
-<img src="../assets/img/fedramp_number03.png">
-<img src="../assets/img/fedramp_number04.png">
+<div class="column-1">
+<img class="one" src="../assets/img/fedramp_number01.png">
+<img class="two" src="../assets/img/fedramp_number02.png">
+<img class="three" src="../assets/img/fedramp_number04.png">
 </div>
-<div class="text-container">
-<h3>FedRAMP Authorizations </h3>
+<div class="column-2">
+<img class="four" src="../assets/img/fedramp_number03.png">
+</div>
+</div>
+</section>
+<section class="about-auth">
+<div class="inner">
+<h2>FedRAMP Authorizations </h2>
 <p>There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization, and through individuals agencies. Learn more about these path on our Get Authorized page [insert link to Getting Authorized web page]. </p>
 </div>
 </section>

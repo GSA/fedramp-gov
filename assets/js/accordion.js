@@ -1,11 +1,15 @@
-  $(document).ready(function($) {
-    $('#accordion').find('.accordion-toggle').click(function(){
-
-      //Expand or collapse this panel
-      $(this).next().slideToggle('fast');
-
-      //Hide the other panels
-      $(".accordion-content").not($(this).next()).slideUp('fast');
-
-    });
-  });
+$('.toggle').click(function(e) {
+  	e.preventDefault();
+  
+    var $this = $(this);
+  
+    if ($this.next().hasClass('show')) {
+        $this.next().removeClass('show');
+        $this.next().slideUp(350);
+    } else {
+        $this.parent().parent().find('li .inner').removeClass('show');
+        $this.parent().parent().find('li .inner').slideUp(350);
+        $this.next().toggleClass('show');
+        $this.next().slideToggle(350);
+    }
+});
