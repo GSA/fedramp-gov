@@ -16,7 +16,7 @@ Below is a high level overview of the JAB Authorization Process. Information on 
 
 ![image alt text](../assets/img/ato-auth.png)
 
-**Phase 1: Readiness Assessment and FedRAMP Connect**
+### Phase 1: Readiness Assessment and FedRAMP Connect
 
 The JAB (which includes representatives from DOD, DHS, and GSA) works to create a broad marketplace of providers and, based on current resources and funding, only has the capacity to authorize up to 12 CSOs a year. To ensure the JAB’s resources are used most effectively, the FedRAMP PMO, CIO Council, and JAB evaluate CSOs through FedRAMP Connect.
 
