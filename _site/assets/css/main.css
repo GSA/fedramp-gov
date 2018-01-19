@@ -330,7 +330,7 @@ iframe {
 section#pre-auth, section#during-auth, section#post-auth, section#support {
   padding: 0 0 40px 130px;
   margin: 0 0 40px 0;
-  min-height: 200px;
+  min-height: 105px;
   background-size: 100px !important;
   border-bottom: 1px solid #cdcdcd;
   background-repeat: no-repeat; }
