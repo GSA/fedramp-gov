@@ -18,7 +18,7 @@ body-id: page-fed-agencies
 <p>Significant change is defined by CA-6 in NIST 800-53 Revision 4. The list of the types of changes which will require notification versus updated documentation and/or reauthorization include:</p>
 <ul class="sub-items">
 <li>Changes to points of contact</li>
-<li>Changes in risk posture</li>
+<li>Changes in risk</li>
 <li>Change in system boundary (including new services)</li>
 </ul>
 
