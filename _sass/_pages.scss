@@ -136,8 +136,10 @@ section#support {
 //	background-image: url('../../assets/img/assessment-report.png');
 //}
 
-.assessors-page section#post-auth, .cloud-services-page section#post-auth {
+.assessors-page section#post-auth {
 	border: none;
+	margin: 0;
+	padding-bottom: 0;
 }
 
 

@@ -409,8 +409,10 @@ section#support {
   height: 100px;
   padding: 20px 0 20px 130px; }
 
-.assessors-page section#post-auth, .cloud-services-page section#post-auth {
-  border: none; }
+.assessors-page section#post-auth {
+  border: none;
+  margin: 0;
+  padding-bottom: 0; }
 
 .accordion {
   cursor: pointer;
