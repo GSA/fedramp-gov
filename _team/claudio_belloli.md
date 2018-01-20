@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Claudio Belloli
-image: ../assets/img/team/profile_ClaudioBelloli.png
+image: /assets/img/team/profile_ClaudioBelloli.png
 title: FedRAMP Program Manager for Cybersecurity
 body-class: page-team-single
 date: 2018-01-03

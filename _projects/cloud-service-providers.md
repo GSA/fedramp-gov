@@ -5,7 +5,7 @@ description: Providers offering services to federal agencies must meet FedRAMP r
 permalink: /cloud-service-providers/
 tags: project
 image: 
-icon: ../assets/img/project-images/cloudserv-icon.png
+icon: /assets/img/project-images/cloudserv-icon.png
 abstract: 
 body-class: cloud-services-page
 ---
@@ -14,41 +14,30 @@ FedRAMP provides standardized approach to security assessment, authorization, an
 
 Before FedRAMP, vendors were faced with different requirements for each Agency they worked with, which meant they had to prepare authorization packages for each one. FedRAMP implemented standard security baselines and processes to provide both an initial authorization of a cloud service and a mechanism for that security package to be reused across the federal government. This saves time, money, and effort for both Agencies and Cloud Service Providers (CSPs). 
 
-CSPs whose services are currently being used by the federal government or are interested in selling their cloud service to the federal government should obtain a FedRAMP authorization, per OMB memorandum. 
-
-In addition to FedRAMP’s stamp of security approval, FedRAMP authorization provides CSPs the benefit of: 
-* Listing in the FedRAMP Marketplace, increasing visibility of their product across government
-* Strengthened government confidence in the CSP’s cloud services
-* Long-term reduction in time and money spent on federal security compliance through FedRAMP’s model of “do once, use many times”
+In addition to FedRAMP’s stamp of security approval, FedRAMP authorization provides CSPs the benefit of strengthened government confidence in the CSP’s cloud services and a listing in the FedRAMP Marketplace, increasing visibility of their product across government
 
 ## FedRAMP Authorization: A CSP’s Perspective 
-A few drivers for CSPs to consider when deciding if a FedRAMP authorization is right for them (in addition to the OMB mandate) include: 
-
-* Interest in selling their cloud service to the federal government
-* Current federal customers requesting a FedRAMP authorization for their cloud service
-* Desire to expand their business and market their service as FedRAMP authorized
-If a CSP thinks FedRAMP might be right for their cloud service, there are a few steps they can take to get started:
-* Review the documents, templates, and other resources available on the FedRAMP website
-* Ensure that the service offering has implemented the necessary FedRAMP security controls in accordance with appropriate data impact level as described in FIPS PUB 199 (i.e. High, Moderate, Low, Low-Impact SaaS)
-* Complete FedRAMP Training, including the mandatory training: FedRAMP System Security Plan (SSP) Required Documents (200-A)
+CSPs whose services are currently being used by the federal government or are interested in selling their cloud service to the federal government should obtain a FedRAMP authorization, per OMB memorandum. CSP considering pursuing a FedRAMP Authorization should review the Security Assessment Framework (SAF) [INSERT LINK] and become familiar with FedRAMP’s four process areas: Document, Assess, Authorize, and Monitor, which align to the NIST Risk Management Framework (RMF) covered in <a href="https://csrc.nist.gov/publications/detail/sp/800-37/rev-1/final">NIST SP 800-37</a>. 
 
 <section id="pre-auth">
 <h3>Pre-Authorization: </h3>
-<p>Prior to beginning the authorization process, CSPs should:</p>
+<p>Once a CSP has decided a FedRAMP Authorization might be right for their cloud service, it is recommend the CSP begin to review FedRAMP’s documents, templates [INSERT RELEVANT LINKS FOR DOCS AND TEMPLATES PAGES], and other resources available on the FedRAMP website. CSP’s should also complete FedRAMP Training [INSERT LINK TO TRAINING PAGE], including the mandatory training FedRAMP System Security Plan (SSP) Required Documents (200-A). Once familiar with the requirements of a FedRAMP Authorization, CSPs should complete a CSP Information Form which will trigger the FedRAMP PMO to set up a consultative, intake-call with our technical and government SMEs. During this call you will discuss your system and the best authorization strategy for you. </p>
+<p>CSPs that successfully navigate the pre-authorization phase:</p>
 <ul>
-<li>Complete a FedRAMP CSP Information Form </li>
-<li>Articulate and document their federal demand, either through identification of potential demand in the form of RFIs/RFQs, proven demand in form of RFPs and active contracts, or previous federal experience
-<ul>
-   <li>Note: In all cases, CSPs should be able to identify Agency POCs as sponsors.</li></ul></li>
+<li>Establish strong partnerships with Agency customers and document Agency interest in their offering becoming FedRAMP Authorized through RFIs, RFP, and RFQs </li>
+<li>Identify and establish a partnership with a FedRAMP-approved Third Party Assessment Organization (3PAO)</li>
 <li>Identify and establish partnership with a FedRAMP-approved Third Party Assessment Organization (3PAO)
-   <ul><li>Note: For a current listing of approved 3PAOs, visit the FedRAMP Marketplace.</li></ul></li>
-<li>Contact the FedRAMP PMO about beginning an authorization through info@fedramp.gov</li>
+<li>Ensure that the service offering has implemented the necessary FedRAMP security controls in accordance with appropriate data impact level as described in FIPS PUB 199 (i.e. High, Moderate, Low, Low-Impact SaaS)
+</li>
 </ul>
+<p>CSPs that have demonstrated sufficient demand, or have identified one or more initial authorizing Agency for their services, must then pursue a Joint Authorization Board (JAB) provisional authorization and/or an initial Agency authorization. In order to purse the JAB Authorization path, CSPs must be prioritized to work with the JAB toward a P-ATO through the FedRAMP Connect process. The FedRAMP PMO has defined the JAB criteria in our FedRAMP JAB P-ATO Prioritization Criteria document [INSERT LINK] for your reference. In order to pursue the Agency Authorization path, CSPs must become “In-process” with their initial authorizing Agency. Guidelines on the requirements to be designated as FedRAMP “In-process” are detailed in our Agency Authorization: Obtaining In Process Designation [INSET LINK] document. </p>
 </section>
+
 <section id="during-auth">
 
 <h3>During Authorization</h3>
-<p>CSPs that have demonstrated sufficient demand, or have identified one or more partnering Agencies for their services, must then select between pursuing the Joint Authorization Board (JAB) provisional authorization or an initial Agency authorization. For more information about JAB and Agency authorizations, please visit [enter link to ‘Get Authorized web page].</p>
+<p>CSPs that have demonstrated sufficient demand and have been prioritized to work with the JAB, or have identified one or more initial authorizing Agencies for their services and have been deemed “In-process”, can then begin the authorization process. For more information about JAB and Agency authorizations, please visit our JAB Authorization [insert link to Getting Authorized - JAB web page] and Agency Authorization [insert link to Getting Authorized - Agency web page] pages. 
+</p>
 
 <p>At a high level, the authorization process includes:</p>
 <ul>

@@ -19,7 +19,7 @@
       <div class="usa-footer-logo usa-width-one-third">
       <div class="logo-container">
         {% if site.footer.image %}
-          <img class="usa-footer-logo-img" src="/assets/img/fedramp-logo-stamp.png" alt="Logo image">
+          <img class="usa-footer-logo-img" src="../assets/img/fedramp-logo-stamp.png" alt="Logo image">
         {% endif %}
         {% if site.footer.text %}
           <p>General Services Administration<br/>1800 F Street NW Washington, DC 20006</p>
@@ -88,5 +88,26 @@
   <div class="copyright">COPYRIGHT
 <script type="text/javascript">
   document.write(new Date().getFullYear());
-</script>  </div>
+</script>
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+ </div>
 </footer>
