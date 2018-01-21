@@ -1,4 +1,4 @@
-.usa-mobile_nav-active {
+.usa-mobile_nav-active input[type=checkbox] {
 	/* hide native checkbox */
 	position: absolute;
 	opacity: 0;
@@ -13,7 +13,7 @@
 	font-size: 1.6rem;
 }
 
-.usa-mobile_nav-active ul ul.sub-menu {
+.usa-mobile_nav-active ul ul {
 	/* by default hide all sub menus */
 	display: none;
 }

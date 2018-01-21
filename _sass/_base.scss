@@ -14,11 +14,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font;
 }
 
-h6 {
-	font-weight: bold;
-	text-transform: none;
-}
-
 
 .usa-section-dark {
   legend, label,
@@ -157,14 +152,8 @@ section#fedramp-mission {
 }
 
 
-.about-us #about .image-container {
+.about-us #fedramp-numbers .image-container, .about-us #about .image-container {
 	max-width: 50%;
-	float: left;
-	text-align: center;
-}
-
-.about-us #fedramp-numbers .image-container {
-	max-width: 100%;
 	float: left;
 	text-align: center;
 }
@@ -181,66 +170,6 @@ section#fedramp-mission {
 	float: left;
 	text-align: left;
 	padding: 40px 0 0 0;
-}
-
-.about-us section.about-auth {
-	background: $light-blue;
-	width: 100%;
-	float: left;
-	color: #fff;
-	padding: 60px 0;
-	.inner {
-		max-width: 1200px;
-		margin: 0 auto;
-		h2 {
-			text-align: center;
-			color: #fff;
-			margin-top: 0;
-		}
-		p {
-			color: #fff;
-			text-align: center;
-		}	
-	}
-}
-
-.about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
-	width: 50%;
-	float: left;
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-.about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
-	width: 100%;
-	float: left;
-}
-.about-us section.about-auth {
-	padding: 60px 5%;
-}
-}
-
-.about-us #fedramp-numbers img.one {
-	width: 50%;
-	float: left;
-}
-
-.about-us #fedramp-numbers img.two {
-	width: 50%;
-	float: left;
-}
-
-
-.about-us #fedramp-numbers img.three {
-	width: 100%;
-	float: left;
-	clear: left;
-}
-
-.about-us #fedramp-numbers img.four {
-	width: 100%;
-	float: right;
-	top: 0;
-	position: relative;
 }
 
 

@@ -1,8 +1,10 @@
 # Site settings
 title: FedRAMP.gov
 description: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
-baseurl: /bomb-cyclone/ # the subpath of your site, e.g. /blog/
-url: "https://fedramp.gov" # the base hostname & protocol for your site
+# the subpath of your site, e.g. /blog/
+baseurl: ""
+# the base hostname & protocol for your site
+url: "https://fedramp.gov"
 logo: /assets/img/logo-main-fedramp.png
 feature_image: /assets/img/feature-background.jpg
 
@@ -55,6 +57,10 @@ defaults:
       - team
       - posts
 
+plugins:
+- jekyll-menus
+- jekyll-paginate
+
 forms:
 - type: newsletter
   heading: Add your email to FedRAMP's subscriber list.
@@ -64,15 +70,15 @@ forms:
 
 footer:
   links:
-  image: ../assets/img/fedramp-logo-stamp.png
+  image: /assets/img/fedramp-logo-stamp.png
   contact:
-    name: 
+    name:
     email: info@FedRAMP.gov
     twitter:
       - FedRAMP
-    facebook: 
-    youtube: 
-    rss: 
+    facebook:
+    youtube:
+    rss:
   text: General Services Administration 1800 F Street NW Washington, DC 20006
 
 # Build settings
@@ -84,8 +90,9 @@ exclude:
   - LICENSE.md
   - README.md
 
-gems:
- - jekyll-paginate
+# Gems
+gems: [jekyll-paginate]
+
 
 
 # Inititalize project and team collections

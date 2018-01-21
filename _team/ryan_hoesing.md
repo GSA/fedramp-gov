@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Ryan Hoesing
-image: /assets/img/team/profile_RyanHoesing.png
+image: ../assets/img/team/profile_RyanHoesing.png
 title: Operations & Business Analyst 
 body-class: page-team-single
 date: 2018-01-06

@@ -1,11 +1,8 @@
 ---
 title: REMINDER - RFI for Cloud, FedRAMP, and Security Contract Language due December 15th
-layout: page
-author: FedRAMP
-permalink: ../rfi-reminder-for-cloud-security-contract-language/
+layout: blog-list
+permalink: /rfi-reminder-for-cloud-security-contract-language/
 body-class: page-blog
-date: 2017-12-07
-image: ../assets/img/blog_placementimg.png
 ---
 Have insights on cloud acquisitions language? FedRAMP is interested in hearing your thoughts!
 

@@ -9,10 +9,10 @@
   float: right;
 }
 
-section#pre-auth, section#during-auth, section#post-auth, section#support {
+section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
 	padding: 0 0 40px 130px;
 	margin: 0 0 40px 0;
-    min-height: 105px;
+	min-height: 200px;
 	background-size: 100px !important;
 	border-bottom: 1px solid #cdcdcd;
 	background-repeat: no-repeat;
@@ -44,7 +44,7 @@ section#pre-auth, section#during-auth, section#post-auth, section#support, secti
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
 	background-size: 160px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support, .q1, .q2, .q3, .q4, .q5, .tip-1 {
+section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar, .q1, .q2, .q3, .q4, .q5, .tip-1 {
 	padding: 200px 0 40px 0;
 }
 }
@@ -54,133 +54,181 @@ section#pre-auth, section#during-auth, section#post-auth, section#support, .q1, 
 }
 
 .q1, .q2, .q3, .q5 {
-	background-image: url('../../assets/img/project-images/cloudserv-icon.png');
+	background-image: url('/assets/img/project-images/cloud.png');
 }
 
 .q4, .tip-1 {
-	background-image: url('../../assets/img/project-images/assessor-icon.png');
+	background-image: url('/assets/img/project-images/assessor.png');
 }
 
 section#pre-auth {
-	background-image: url('../../assets/img/pre-auth.png');
+	background-image: url('/assets/img/pre-auth.png');
 }
 
 section#during-auth {
-	background-image: url('../../assets/img/during-auth.png');
+	background-image: url('/assets/img/during-auth.png');
 }
 
 section#post-auth {
-	background-image: url('../../assets/img/post-auth.png');
+	background-image: url('/assets/img/post-auth.png');
 }
 
 section#support {
-	background-image: url('../../assets/img/support.png');
+	background-image: url('/assets/img/support.png');
+	border: none;
+}
+section#welcome {
+	background-image: url('/assets/img/fedramp-welcome-icon.png');
+}
+section#ssp, section#sap, section#sap-guidance, section#sap, section#sar-guidance, section#sar-report {
+	background-image: url('/assets/img/fedramp-doc-icon.png');
+}
+section#conmon {
+	background-image: url('/assets/img/fedramp-monitor.png');
+}
+section#control {
+	background-image: url('/assets/img/fedramp-control.png');
+}
+section#req {
+	background-image: url('/assets/img/fedramp-3pao.png');
+}
+section#procedures {
+	background-image: url('/assets/img/fedramp-procedure.png');
+}
+section#method {
+	background-image: url('/assets/img/search-doc.png');
+}
+section#sar-tables {
+	background-image: url('/assets/img/assessment-table.png');
+}
+section#rar {
+	background-image: url('/assets/img/assessment-report.png');
+}
+
+.assessors-page section#post-auth, .cloud-services-page section#post-auth {
 	border: none;
 }
 
-#path-one .accordion {
-	background-image: url("../../assets/img/fedramp-welcome-icon.png");
-	background-size: 100px;
-	margin-left: 0;
-	background-repeat: no-repeat;
-	height: 100px;
-	border-bottom: 1px solid #cdcdcd;
-	padding: 20px 0 20px 130px;
+
+
+.no-select, ul.accordion li h3 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#path-two .accordion {
-	background-image: url("../../assets/img/fedramp-doc-icon.png");
-	background-size: 70px;
-	background-position: 15px 0;
-	margin-left: 0;
-	background-repeat: no-repeat;
-	height: 100px;
-	border-bottom: 1px solid #cdcdcd;
-	padding: 20px 0 20px 130px;
+ul.accordion li h3 {
+	margin: 15px 0;
 }
 
-#path-three .accordion {
-	background-image: url("../../assets/img/fedramp-3pao.png");
-	background-size: 90px;
-	margin-left: 0;
-	background-repeat: no-repeat;
-	height: 100px;
-	padding: 20px 0 20px 130px;
+ul.accordion {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+ul.accordion li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 25px;
+  border-bottom: 1px solid #cdcdcd;
 }
 
-//section#welcome {
-//	background-image: url('../../assets/img/fedramp-welcome-icon.png');
-//}
-//section#ssp, section#sap, section#sap-guidance, section#sap, section#sar-guidance, section#sar-report {
-//	background-image: url('../../assets/img/fedramp-doc-icon.png');
-//}
-//section#conmon {
-//	background-image: url('../../assets/img/fedramp-monitor.png');
-//}
-//section#control {
-//	background-image: url('../../assets/img/fedramp-control.png');
-//}
-//section#req {
-//	background-image: url('../../assets/img/fedramp-3pao.png');
-//}
-//section#procedures {
-//	background-image: url('../../assets/img/fedramp-procedure.png');
-//}
-//section#method {
-//	background-image: url('../../assets/img/search-doc.png');
-//}
-//section#sar-tables {
-//	background-image: url('../../assets/img/assessment-table.png');
-//}
-//section#rar {
-//	background-image: url('../../assets/img/assessment-report.png');
-//}
-
-.assessors-page section#post-auth {
-	border: none;
-	margin: 0;
-	padding-bottom: 0;
+ul.accordion li:nth-of-type(1) {
+  animation-delay: 0.5s;
 }
-
-
-.accordion {
+ul.accordion li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+ul.accordion li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+ul.accordion li:last-of-type {
+  padding-bottom: 0;
+  border: 0;
+}
+ul.accordion li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: -12px;
+  left: 0;
+}
+ul.accordion li i:before, ul.accordion li i:after {
+  content: "";
+  position: absolute;
+  margin: 18px 0 0 0;
+  background-color: $fr-red;
+  width: 3px;
+  height: 9px;
+}
+ul.accordion li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+ul.accordion li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul.accordion li input[type=checkbox] {
+    position: absolute;
     cursor: pointer;
     width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    background: none;
-    text-transform: none;
-    margin: 10px 0 10px 35px;
+    min-width: 900px;
+    padding: 0;
+//    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+@media (min-width: 0) and (max-width: 1080px) {
+ul.accordion li input[type=checkbox] {
+    min-width: 100%;
+}
+}
+ul.accordion li input[type=checkbox]:checked ~ p, ul.accordion li input[type=checkbox]:checked ~ h4 {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  transform: translate(0, 50%);
+}
+ul.accordion li input[type=checkbox]:checked ~ ul.sub-items, ul.accordion li input[type=checkbox]:checked ~ h4 {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+ul.accordion li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul.accordion li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
-.accordion:before {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #fff;
-    float: left;
-    margin-left: -30px;
-}
-
-.active:before {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.page-faqs .question {
-	padding: 15px 0;
-	border-bottom: 1px solid #cdcdcd;
-}
-
-.page-faqs .question:last-of-type {
-	border: none;
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
 }

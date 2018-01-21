@@ -1,10 +1,8 @@
 ---
 title: Common Challenges with the Readiness Assessment Report
-layout: page
+layout: blog-list
 permalink: /common-challenges-with-the-RAR/
 body-class: page-blog
-image: ../assets/img/blog_placementimg.png
-
 ---
 
 Thank you to all our vendors who have participated in our FedRAMP Ready process by using the Readiness Assessment Report (RAR). The RAR is intended to help vendors, the Joint Authorization Board, and Agencies have a snapshot of the security posture and capabilities  of a cloud service without the full investment of going through the full FedRAMP process of testing and documentation.
