@@ -14,7 +14,7 @@ Below is a high level overview of the Agency Authorization Process. Information 
 
 ### Agency Authorization:
 
-![image alt text](../assets/img/agency-auth.png)
+![image alt text]({{site.baseurl}}/assets/img/agency-auth.png)
 
 ### Phase 1: Partnership Establishment  
 

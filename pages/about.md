@@ -7,7 +7,7 @@ body-class: about-us
 ---
 <section id="about">
 <div class="image-container">
-<img src="../assets/img/fedramp-about.png">
+<img src="{{site.baseurl}}/assets/img/fedramp-about.png">
 </div>
 <div class="text-container">
 <p>The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. </p>
@@ -30,13 +30,20 @@ body-class: about-us
 <section id="fedramp-numbers">
 <h2>FedRAMP By the Numbers</h2> 
 <div class="image-container">
-<img src="../assets/img/fedramp_number01.png">
-<img src="../assets/img/fedramp_number02.png">
-<img src="../assets/img/fedramp_number03.png">
-<img src="../assets/img/fedramp_number04.png">
+<div class="column-1">
+<img class="one" src="{{site.baseurl}}/assets/img/fedramp_number01.png">
+<img class="two" src="{{site.baseurl}}/assets/img/fedramp_number02.png">
+<img class="three" src="{{site.baseurl}}/assets/img/fedramp_number04.png">
 </div>
-<div class="text-container">
-<h3>FedRAMP Authorizations </h3>
-<p>There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization, and through individuals agencies. Learn more about these path on our Get Authorized page [insert link to Getting Authorized web page]. </p>
+<div class="column-2">
+<img class="four" src="{{site.baseurl}}/assets/img/fedramp_number03.png">
+</div>
+</div>
+</section>
+<section class="about-auth">
+<div class="inner">
+<h2>FedRAMP Authorizations </h2>
+<p>If you have a Cloud Service Offering (CSO) that is in use by the federal government, you should be thinking about obtaining a FedRAMP authorization. Per an <a href="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/fedrampmemo.pdf">OMB memorandum</a>, any cloud services that hold federal data must be FedRAMP authorized. There are two ways to authorize a cloud service through FedRAMP: a Joint Authorization Board (JAB) provisional authorization (P-ATO), and through individuals Agencies. Learn more about theses paths on our <a href="jab-authorization">JAB Authorization</a> and <a href="agency-authorization">Agency Authorization</a> pages. 
+</p>
 </div>
 </section>

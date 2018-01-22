@@ -14,7 +14,7 @@ Below is a high level overview of the JAB Authorization Process. Information on 
 
 ### JAB P-ATO Authorization:
 
-![image alt text](../assets/img/ato-auth.png)
+![image alt text]({{site.baseurl}}/assets/img/ato-auth.png)
 
 ### Phase 1: Readiness Assessment and FedRAMP Connect
 
