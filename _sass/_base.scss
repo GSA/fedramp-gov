@@ -92,7 +92,7 @@ a {
 
 #main .page-banner, body .page-banner {
 	background: $dark-blue;
-	padding: 80px 0;
+	padding: 50px 0;
 	h1 {
 		color: #fff;
 		width: 100%;
@@ -102,7 +102,7 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-#main .page-banner {
+#main .page-banner, body .page-banner {
 	padding-right: 5%;
 	padding-left: 5%;
 }}

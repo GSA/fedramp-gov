@@ -71,6 +71,12 @@ div#logo.usa-logo {
     margin: 0px;
     list-style: none;
 }
+
+@media (min-width: 0) and (max-width: 1200px) {
+.usa-nav li a, .usa-nav li.parent {
+	font-size: 1.25vw !important;
+}
+}
  
 .usa-nav a {
     transition: all linear 0.15s;
@@ -116,6 +122,10 @@ div#logo.usa-logo {
 //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
     background: $light-blue;
 }
+
+.usa-mobile_nav-active .sub-menu {
+	display: none;
+}
  
 .sub-menu li {
     display: block;
@@ -125,7 +135,7 @@ div#logo.usa-logo {
 .sub-menu li a {
     padding: 10px;
     display: block;
-    font-size: .8em;
+    font-size: .9em;
     color: #fff;
 }
  
@@ -133,3 +143,33 @@ div#logo.usa-logo {
     background: $dark-blue;
     color: #fff;
 }
+
+.usa-mobile_nav-active {
+    display: block;
+      z-index: 99;
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+    .usa-mobile_nav-active li {
+        list-style: none;
+        margin: 0 auto;
+        padding-top: 2px;
+    }
+
+    .usa-mobile_nav-active ul {
+        padding: 0px;
+        height: auto;
+        z-index: 10000;
+    }
+    
+
+    .usa-mobile_nav-active ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        margin: 0;
+        background: #2CA7E1;
+        padding: 9px 0px 11px 20px;
+    }

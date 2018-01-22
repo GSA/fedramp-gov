@@ -61,9 +61,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-      
-<li>
-  <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
+<li class="parent">{{ nav.text }}
             <ul class="sub-menu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}

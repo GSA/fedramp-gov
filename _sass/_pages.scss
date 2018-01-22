@@ -163,7 +163,7 @@ section#support {
 }
 
 
-.accordion {
+.accordion, .is-visible .parent {
     cursor: pointer;
     width: 100%;
     text-align: left;
@@ -178,13 +178,13 @@ section#support {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 /* Style the accordion panel. Note: hidden by default */
-.panel {
+.panel, .is-visible .sub-menu {
     background-color: white;
     display: none;
     overflow: hidden;
 }
 
-.accordion:before {
+.accordion:before, .is-visible .parent:before {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #fff;

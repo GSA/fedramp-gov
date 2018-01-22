@@ -109,5 +109,16 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 </script>
+<script type="text/javascript">
+    $('ul.menu > li > a').click(function() {
+        
+        $('ul.sub-menu').slideUp('normal');
+   
+        if($(this).next('ul.sub-menu').is(':hidden') == true) {    
+            $(this).next('ul.sub-menu').slideDown('normal');
+            } 
+            
+    });
+</script>
  </div>
 </footer>
