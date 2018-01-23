@@ -1,9 +1,9 @@
 <div class="usa-width-full-width">
 
-    <h2><a href="{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
 <div class="usa-width-one-third">
-    <a href="{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
-    <img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> </a>
+    <a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
+    <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> </a>
 </div>
     <div class="meta">
 	<ul>
@@ -18,7 +18,7 @@
 
     <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
 
-    <p class="readmore"><a class="more-link" href="{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Read More</a></p>
+    <p class="readmore"><a class="more-link" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Read More</a></p>
 
 </div>
 

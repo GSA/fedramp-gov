@@ -3,7 +3,7 @@ title: Understanding Baselines and Impact Levels in FedRAMP
 layout: page
 permalink: /understanding-baselines-and-impact-levels/
 body-class: page-blog
-image: ../assets/img/blog_placementimg.png
+image: /assets/img/blog_placementimg.png
 
 ---
 The FedRAMP PMO fields a number of questions about impact levels and the security categorization of cloud services. [Federal Information Processing Standard (FIPS) 199](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) provides the standards for categorizing information and information systems, which is the process CSPs use to ensure their services meet the minimum security requirements for the data processed, stored, and transmitted on them. The security categories are based on the potential impact that certain events would have on an organization’s ability to accomplish its assigned mission, protect its assets, fulfill its legal responsibilities, maintain its day-to-day functions, and protect individuals.

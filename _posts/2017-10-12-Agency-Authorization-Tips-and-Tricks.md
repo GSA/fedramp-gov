@@ -3,7 +3,7 @@ title: FedRAMP Agency Authorization Process - Tips, Tricks, and Best Practices
 layout: page
 permalink: /Agency-Authorization-Tips-and-Tricks/
 body-class: page-blog
-image: ../assets/img/blog_placementimg.png
+image: /assets/img/blog_placementimg.png
 
 ---
 Continuing our efforts to enable transparency for Agencies and Cloud Service Providers (CSPs) alike, the FedRAMP PMO is excited to now provide materials on proven best practices for completion of the FedRAMP Agency Authorization process. The goal of these materials is to provide CSPs and Agencies with guidance that aligns their roles and responsibilities in the FedRAMP Agency Authorization process to tried and true best practices that FedRAMP has defined over the years.
