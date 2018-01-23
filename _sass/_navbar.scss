@@ -34,31 +34,3 @@
 	color: #5b616b;
 	font-size: .9em;
 }
-
-.is-visible .parent .dd + ul {
-	height: 0;
-	overflow: hidden;
-	background-color: #093CB3;
-	-webkit-transition: height 0.3s ease-in-out;
-	transition: height 0.3s ease-in-out;	
-}
-
-.is-visible .parent .dd + ul a {
-	text-indent: 30px;	
-}
-
-.is-visible .parent .dd + ul a:focus,
-.is-visible .parent .dd + ul a:hover,
-.is-visible .parent .dd + ul a:active {
-	background-color: #001E66;	
-}
-
-.is-visible .parent .dd:after {
-	content: '\25BC';
-	margin-left: 5px;
-	font-size: 12px;	
-}
-
-.is-visible .parent .dd-show + ul {
-	height: auto;	
-}

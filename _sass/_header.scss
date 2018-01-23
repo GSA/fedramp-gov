@@ -1,9 +1,9 @@
 div.usa-nav-container {
-	height: 215px;
+	height: 170px;
 	width: 100%;
 	max-width: 1200px;
 	vertical-align: middle;
-	padding: 75px 0;
+	padding: 60px 0;
 	box-sizing: border-box;
 }
 
@@ -26,6 +26,14 @@ ul {
 li {
 	text-transform: uppercase;
 }
+}
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+#logo.usa-logo {
+	position: absolute;
+	top: 40px;
+	left: 100px;
 }
 }
 
@@ -52,20 +60,29 @@ header.usa-banner-header {
     background: #3e3436;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
-.usa-navbar {
-    width: 100%;
-    margin: 0px auto;
-}
-div#logo.usa-logo {
-	float: left;
-	 max-width: 100%;
-	 img {
-	 	width: 100%;
-	 	height: auto;
-	 }
-}
-}
+//@media (min-width: 0) and (max-width: 768px) {
+//.usa-navbar {
+//    width: 100%;
+//    margin: 0px auto;
+//}
+//div#logo.usa-logo {
+//	float: left;
+//	 max-width: 100%;
+//	 img {
+//	 	width: 100%;
+//	 	height: auto;
+//	 }
+//}
+//}
+
+//@media (min-width: 768px) and (max-width: 1024px) {
+//nav.usa-nav {
+//	width: 70%;
+//}
+//.usa-navbar {
+//	width: 30%;
+//}
+//}
  
 .usa-nav li {
     margin: 0px;
@@ -74,7 +91,7 @@ div#logo.usa-logo {
 
 @media (min-width: 0) and (max-width: 1200px) {
 .usa-nav li a, .usa-nav li.parent {
-	font-size: 1.25vw !important;
+//	font-size: 1.25vw !important;
 }
 }
  
@@ -143,33 +160,3 @@ div#logo.usa-logo {
     background: $dark-blue;
     color: #fff;
 }
-
-.usa-mobile_nav-active {
-    display: block;
-      z-index: 99;
-        margin: 0 auto;
-        width: 95%;
-    }
-    
-    .usa-mobile_nav-active li {
-        list-style: none;
-        margin: 0 auto;
-        padding-top: 2px;
-    }
-
-    .usa-mobile_nav-active ul {
-        padding: 0px;
-        height: auto;
-        z-index: 10000;
-    }
-    
-
-    .usa-mobile_nav-active ul li a {
-        display: block;
-        color: white;
-        text-decoration: none;
-        text-align: left;
-        margin: 0;
-        background: #2CA7E1;
-        padding: 9px 0px 11px 20px;
-    }
