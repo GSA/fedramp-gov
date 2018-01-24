@@ -2,7 +2,7 @@
 title: FedRAMP.gov
 description: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
 # the subpath of your site, e.g. /blog/
-baseurl: /fedramp-gov/
+baseurl: /fedramp-gov
 # the base hostname & protocol for your site
 url: "https://fedramp.gov"
 logo: /assets/img/logo-main-fedramp.png
@@ -57,10 +57,6 @@ defaults:
       - team
       - posts
 
-plugins:
-- jekyll-menus
-- jekyll-paginate
-
 forms:
 - type: newsletter
   heading: Add your email to FedRAMP's subscriber list.
@@ -90,10 +86,11 @@ exclude:
   - LICENSE.md
   - README.md
 
-# Gems
-gems: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate-v2
 
-
+paginte: 5
+paginate_path: "/blog/page:num/"
 
 # Inititalize project and team collections
 collections:

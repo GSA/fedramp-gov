@@ -1,6 +1,0 @@
----
-layout: blog-list
-title: Focus on FedRAMP
-body-class: page-blog
-permalink: /blog/
----
