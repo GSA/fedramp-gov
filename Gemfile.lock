@@ -236,6 +236,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-menus
+  jekyll-paginate
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
