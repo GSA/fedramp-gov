@@ -86,10 +86,10 @@ exclude:
   - LICENSE.md
   - README.md
 
-plugins: 
-  - jekyll-paginate-v2
+plugins:
+  - jekyll-paginate
 
-paginte: 5
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 # Inititalize project and team collections
