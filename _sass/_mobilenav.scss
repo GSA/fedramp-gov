@@ -1,40 +1,269 @@
 .usa-mobile_nav-active input[type=checkbox] {
 	/* hide native checkbox */
-	position: absolute;
-	opacity: 0;
+	position:  absolute;
+	opacity:  0;
 }
 .usa-mobile_nav-active label, .cd-accordion-menu a {
-	position: relative;
-	display: block;
-	padding: 18px 18px 18px 64px;
-	background: #4d5158;
-	box-shadow: inset 0 -1px #555960;
-	color: #ffffff;
-	font-size: 1.6rem;
+	position:  relative;
+	display:  block;
+	padding:  18px 18px 18px 64px;
+	background:  #4d5158;
+	box-shadow:  inset 0 -1px #555960;
+	color:  #ffffff;
+	font-size:  1.6rem;
 }
 
-.usa-mobile_nav-active ul ul {
-	/* by default hide all sub menus */
-	display: none;
-}
+//.usa-mobile_nav-active ul ul {
+//	/* by default hide all sub menus */
+//	display:  none;
+//}
 
 .usa-mobile_nav-active ul {
 	/* by default hide all sub menus */
 	li {
+		padding: 10px;
+		border-bottom: 1px solid $dark-blue;
 		a {
+		padding: 0;
 		&:hover {
-		border: none;
+		border:  none;
 		}
 		}
 	}
 	&:hover {
-	border: none;
+	border:  none;
 	}
 }
  
 .usa-mobile_nav-active input[type=checkbox]:checked + label + ul,
 .usa-mobile_nav-active input[type=checkbox]:checked + label:nth-of-type(n) + ul {
-	/* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+	/* use label: nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
 	/* show children when item is checked */
-	display: block;
+	display:  block;
 }
+
+.usa-mobile_nav-active .sub-menu {
+    display: none;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+        padding: 0px;
+        position: static;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity linear 0.15s;
+    //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+        background: $dark-blue;
+    li {
+    	color: #fff;
+    }
+}
+
+.usa-mobile_nav-active .parent {
+&:before {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 0px;
+    border-left: 1px solid $dark-blue;
+    padding-left: 15px;
+}
+}
+
+button.usa-menu-btn {
+	position: absolute;
+	left: 20px;
+	top: 60px;
+	height: 50px;
+	font-size: 2em;
+	background: none;
+	color: #cdcdcd;
+	border: 2px solid #cdcdcd;
+}
+
+.usa-mobile_nav-active .parent {
+	text-transform: uppercase;
+	margin-left: 0;
+	color: #fff !important;
+	padding: 0px;
+	border-bottom: 1px solid $dark-blue !important;
+	a {
+		color: #fff;
+	}
+	&:hover {
+		border: none;
+	}
+}
+
+ul.usa-nav-primary.usa-accordion {
+	float: left;
+}
+
+.usa-mobile_nav-active {
+    display: block;
+      z-index: 99;
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+    .usa-mobile_nav-active li {
+        list-style: none;
+        margin: 0 auto;
+//        padding-top: 2px;
+		font-size: .9em;
+    }
+
+    .usa-mobile_nav-active ul {
+        padding: 0px;
+        height: auto;
+        z-index: 10000;
+    }
+    
+
+    .usa-mobile_nav-active ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: left;
+        margin: 0;
+        font-weight: bold;
+		color: #fff;
+    }
+    
+    .usa-mobile_nav-active ul li a:hover {
+    	background: none;
+    	border: none;
+    }
+
+.usa-mobile_nav-active nav.usa-nav {
+	background: $light-blue;
+	border: none;
+	padding: 0;
+}
+
+//.usa-nav {
+//	position:  relative;
+//	display:  inline-block;
+//	font-size:  14px;
+//	font-weight:  900;
+//}
+//.usa-nav-primary.usa-accordion {
+//	text-align: left;
+//}
+//.parent {
+//	float: left;
+//	*display: inline;
+//	zoom: 1;
+//	position: relative;
+//}
+//.parent a {
+//	display: block;
+//	color: #FFF;
+//	padding: 15px 20px;
+//	background: #7A1E61;
+//	border-bottom: 1px solid #8B2870;
+//}
+//.parent > a:hover {
+//	background: #822368;
+//}
+//.parent:hover .sub-menu {
+//	display: block;
+//}
+///* Navigation submenu */
+//.sub-menu {
+//	display: none;
+//	position: absolute;
+//	left: 0;
+//	width: 180px;
+//}
+//.sub-menu li a {
+//	background: #8B2770;
+//	border-bottom: 1px solid #9A337E;
+//	display: block;
+//	padding: 15px;
+//}
+//.sub-menu li a:hover {
+//	background: #932C77;
+//}
+///* Mobile navigation */
+//.nav-mobile {
+//	display: none; /* Hide from browsers that don't support media queries */
+//	cursor: pointer;
+//	position: absolute;
+//	top: 0;
+//	right: 0;
+//	background: #3D3D3B url(../../assets/img/nav.svg) no-repeat center center;
+//	background-size: 18px;
+//	height: 50px;
+//	width: 50px;
+//}
+///* Mobile navigation, clickable area for revealing <ul> */
+//.nav-click {
+//	position: absolute;
+//	top: 0;
+//	right: 0;
+//	display: none;
+//	border-left: 1px solid #8B2870;
+//	height: 49px;
+//	width: 50px;
+//	cursor: pointer;
+//}
+//.nav-click i {
+//	display: block;
+//	height: 48px;
+//	width: 48px;
+//	background: url(../../assets/img/drop.svg) no-repeat center center;
+//	background-size: 20px;
+//}
+//.nav-click:hover {
+//	background-color: #6E1656;
+//}
+//.nav-rotate {
+//	-webkit-transform: rotate(180deg);
+//	-moz-transform: rotate(180deg);
+//	-ms-transform: rotate(180deg);
+//	-o-transform: rotate(180deg);
+//	transform: rotate(180deg);
+//}
+//
+/*------------------------------------*\
+    Media Queries
+\*------------------------------------*/
+
+//@media only screen and (min-width:  0px) and (max-width:  1024px) {
+//	.nav-mobile {
+//		display: block;
+//	}
+//	.usa-nav {
+//		width: 100%;
+//		padding: 0 0 0;
+//		left: 0;
+//	}
+//	.usa-nav-primary.usa-accordion {
+//		display: none;
+//	}
+//	.parent {
+//		width: 100%;
+//		float: none;
+//	}
+//	.parent > a {
+//		padding: 15px;
+//	}
+//	.nav-click {
+//		display: block;
+//	}
+//	.nav-mobile-open {
+//		border-radius: 5px 5px 0 0;
+//		-webkit-border-radius: 5px 5px 0 0;
+//		-moz-border-radius: 5px 5px 0 0;
+//	}
+//	.parent:hover .sub-menu {
+//		display: none;
+//	}
+//	.sub-menu {
+//		position: static;
+//		width: 100%;
+//	}
+//}

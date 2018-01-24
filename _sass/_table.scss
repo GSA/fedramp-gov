@@ -1,4 +1,5 @@
 table {
+	width: 100%;
 th {
 	background: $light-blue;
 	border: 1px solid $dark-blue;
@@ -49,4 +50,13 @@ svg {
 
 .fa-file-word {
 	color: $dark-blue;
+}
+
+@media (min-width: 0px) and (max-width: 580px) {
+table {
+	font-size: 3vw;
+td {
+	padding: 5px;
+}
+}
 }

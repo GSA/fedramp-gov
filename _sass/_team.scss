@@ -71,3 +71,18 @@ p.title {
 	text-align: center;
 }
 }
+
+@media (min-width: 0) and (max-width: 1200px) {
+.usa-graphic_list {
+	margin: 0 5%;	
+}
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+.usa-media_block {
+	width: 100%;
+	clear: both;
+	float: left;
+}
+}
+

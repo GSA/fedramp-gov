@@ -62,8 +62,6 @@ assigned:
         show_in_footer: false
     -
         text: Resources
-        href: 
-        permalink: /
         show_in_menu: true
         show_in_footer: false
         sub:

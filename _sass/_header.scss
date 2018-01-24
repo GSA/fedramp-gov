@@ -1,9 +1,9 @@
 div.usa-nav-container {
-	height: 215px;
+	height: 170px;
 	width: 100%;
 	max-width: 1200px;
 	vertical-align: middle;
-	padding: 75px 0;
+	padding: 60px 0;
 	box-sizing: border-box;
 }
 
@@ -26,6 +26,14 @@ ul {
 li {
 	text-transform: uppercase;
 }
+}
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+#logo.usa-logo {
+	position: absolute;
+	top: 45px;
+	left: 80px;
 }
 }
 
@@ -52,24 +60,39 @@ header.usa-banner-header {
     background: #3e3436;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
-.usa-navbar {
-    width: 100%;
-    margin: 0px auto;
-}
-div#logo.usa-logo {
-	float: left;
-	 max-width: 100%;
-	 img {
-	 	width: 100%;
-	 	height: auto;
-	 }
-}
-}
+//@media (min-width: 0) and (max-width: 768px) {
+//.usa-navbar {
+//    width: 100%;
+//    margin: 0px auto;
+//}
+//div#logo.usa-logo {
+//	float: left;
+//	 max-width: 100%;
+//	 img {
+//	 	width: 100%;
+//	 	height: auto;
+//	 }
+//}
+//}
+
+//@media (min-width: 768px) and (max-width: 1024px) {
+//nav.usa-nav {
+//	width: 70%;
+//}
+//.usa-navbar {
+//	width: 30%;
+//}
+//}
  
 .usa-nav li {
     margin: 0px;
     list-style: none;
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+.usa-nav li a, .usa-nav li.parent {
+//	font-size: 1.25vw !important;
+}
 }
  
 .usa-nav a {
@@ -97,6 +120,10 @@ div#logo.usa-logo {
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
 	border-bottom: 10px solid $light-blue;
 }
+
+.usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
+	border-bottom: none;
+}
  
 /*----- Bottom Level -----*/
 .usa-nav li:hover .sub-menu {
@@ -116,6 +143,10 @@ div#logo.usa-logo {
 //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
     background: $light-blue;
 }
+
+.usa-mobile_nav-active .sub-menu {
+	display: none;
+}
  
 .sub-menu li {
     display: block;
@@ -125,7 +156,7 @@ div#logo.usa-logo {
 .sub-menu li a {
     padding: 10px;
     display: block;
-    font-size: .8em;
+    font-size: .9em;
     color: #fff;
 }
  

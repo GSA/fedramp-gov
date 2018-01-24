@@ -5,12 +5,12 @@
   }
 }
 
-@media all and (max-width: 951px) {
-  #logo img {
-    // keep header img from overflowing menu bar
-    max-height: 3.7rem;
-  }
-}
+//@media all and (max-width: 951px) {
+//  #logo img {
+//    // keep header img from overflowing menu bar
+//    max-height: 3.7rem;
+//  }
+//}
 
 .usa-nav-primary a:hover {
   color: $button-color;
@@ -18,4 +18,19 @@
 
 .usa-nav-link:hover span {
   border-bottom-color: $button-color;
+}
+
+.usa-nav ul li.parent {
+	border: none;
+	color: #212121;
+//	display: block;
+	font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+	line-height: 1.3;
+  padding: 1.4rem 1.5rem 1rem 1.8rem;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	width: auto;
+	color: #5b616b;
+	font-size: .9em;
 }

@@ -92,7 +92,7 @@ a {
 
 #main .page-banner, body .page-banner {
 	background: $dark-blue;
-	padding: 80px 0;
+	padding: 50px 0;
 	h1 {
 		color: #fff;
 		width: 100%;
@@ -102,7 +102,7 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-#main .page-banner {
+#main .page-banner, body .page-banner {
 	padding-right: 5%;
 	padding-left: 5%;
 }}
@@ -115,6 +115,7 @@ section#about {
 	padding: 60px 0;
 	@include clearfix;
 }
+
 section#fedramp-numbers {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -266,5 +267,43 @@ section#fedramp-mission {
 
 .usa-width-one-fourth {
 	width: 100%;
+}
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+.about-us section#about {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.about-us section#fedramp-mission {
+	padding: 60px 5%;
+}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+.about-us section#about {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.about-us #about .text-container {
+	max-width: 100%;
+	float: left;
+	text-align: left;
+	padding: 0;
+}
+.about-us #about .image-container {
+	max-width: 100%;
+	float: left;
+	text-align: center;
+}
+.about-us section#fedramp-mission {
+	width: 100%;
+	padding: 60px 5%;
+	background: $light-blue;
+	color: #fff;
+}
+.about-us section#fedramp-mission .inner ul {
+	column-count: 1;
 }
 }

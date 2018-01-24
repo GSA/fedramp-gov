@@ -4,7 +4,7 @@ layout: page
 permalink: /introducing-the-new-agency-authorization-playbook/
 body-class: page-blog
 date: 2017-11-21
-image: ../assets/img/blog_placementimg.png
+image: /assets/img/blog_placementimg.png
 
 ---
 The FedRAMP PMO is proud to release the [Agency Authorization Playbook](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/11/FRP-0002_Agency-Playbook_FINAL-1.pdf)!

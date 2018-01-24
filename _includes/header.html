@@ -38,7 +38,7 @@
 
   <div class="usa-nav-container">
     <div class="usa-navbar">
-      <button class="usa-menu-btn">Menu</button>
+      <button class="usa-menu-btn">&#9776;</button>
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
           <a href="{{ site.url }}" accesskey="1" title="Home" aria-label="Home">
@@ -61,9 +61,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-      
-<li>
-  <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
+<li class="parent">{{ nav.text }}
             <ul class="sub-menu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}

@@ -2,7 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 300px;
+//  min-height: 300px;
   width: 100%;
 }
 .caption {
@@ -27,11 +27,18 @@ section#rar, section#do-once {
 }
 
 .q1, .q2, .q3, .q4, .q5, .tip-1 {
-	padding: 0 0 40px 200px;
 	margin: 0 0 40px 0;
-	background-size: 150px !important;
-	background-repeat: no-repeat;
 	border-bottom: 1px solid #cdcdcd;
+}
+
+.q1 h3, .q2 h3, .q3 h3, .q4 h3, .q5 h3, .tip-1 h3 {
+	padding: 0 0 0 100px;
+	margin: 0 0 15px 0;
+	background-size: 100px !important;
+	background-repeat: no-repeat;
+	min-height: 80px;
+//	border-bottom: 1px solid #cdcdcd;
+	background-position: -13px -13px;
 }
 
 .q5 {
@@ -44,12 +51,12 @@ section#pre-auth, section#during-auth, section#post-auth, section#do-once, secti
 	background-repeat: no-repeat;
 }
 .q1, .q2, .q3, .q4, .q5, .tip-1 {
-	background-size: 180px !important;
+	background-size: 100px !important;
 }
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
 	background-size: 160px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support, .q1, .q2, .q3, .q4, .q5, .tip-1 {
+section#pre-auth, section#during-auth, section#post-auth, section#support {
 	padding: 200px 0 40px 0;
 }
 }
@@ -58,11 +65,11 @@ section#pre-auth, section#during-auth, section#post-auth, section#support, .q1, 
 	border-bottom: 1px solid #cdcdcd;
 }
 
-.q1, .q2, .q3, .q5 {
+.q1 h3, .q2 h3, .q3 h3, .q5 h3 {
 	background-image: url('../../assets/img/project-images/cloudserv-icon.png');
 }
 
-.q4, .tip-1 {
+.q4 h3, .tip-1 h3 {
 	background-image: url('../../assets/img/project-images/assessor-icon.png');
 }
 
@@ -80,6 +87,11 @@ section#post-auth {
 
 section#support {
 	background-image: url('../../assets/img/support.png');
+	border: none;
+}
+
+section#do-once {
+	background-image: url('../../assets/img/do-once.png');
 	border: none;
 }
 
@@ -128,6 +140,40 @@ section#support {
 	margin: 0;
 }
 
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background: none;
+    text-transform: none;
+    margin: 10px 0 10px 35px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:before {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: left;
+    margin-left: -30px;
+}
+
+.active:before {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
 //section#welcome {
 //	background-image: url('../../assets/img/fedramp-welcome-icon.png');
 //}
@@ -162,43 +208,12 @@ section#support {
 	padding-bottom: 0;
 }
 
-
-.accordion {
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    background: none;
-    text-transform: none;
-    margin: 10px 0 10px 35px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
-.accordion:before {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #fff;
-    float: left;
-    margin-left: -30px;
-}
-
-.active:before {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
 .page-faqs .question {
 	padding: 15px 0;
 	border-bottom: 1px solid #cdcdcd;
+	p {
+		padding: 0 0 0 40px;
+	}
 }
 
 .page-faqs .question:last-of-type {

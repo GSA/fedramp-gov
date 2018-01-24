@@ -2,7 +2,7 @@
 title: FedRAMP.gov
 description: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
 # the subpath of your site, e.g. /blog/
-baseurl: ""
+baseurl: /fedramp-gov/
 # the base hostname & protocol for your site
 url: "https://fedramp.gov"
 logo: /assets/img/logo-main-fedramp.png

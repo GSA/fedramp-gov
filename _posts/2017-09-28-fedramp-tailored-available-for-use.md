@@ -1,10 +1,10 @@
 ---
 
 title: FedRAMP Tailored Available for Use
-layout: page
+layout: blog-page
 permalink: /fedramp-tailored-available-for-use/
 body-class: page-blog
-image: ../assets/img/blog_placementimg.png
+image: /assets/img/FedRAMP-Tailored.png
 ---
 We are excited to announce our release of the **_FedRAMP Tailored_** Baseline for Cloud Service Providers (CSPs) with Low-Impact Software- as-a-Service (LI-SaaS) Systems!  FedRAMP Tailored was developed to support industry solutions that are low risk and low cost for agencies to deploy and use. Additionally, FedRAMP Tailored:
 
