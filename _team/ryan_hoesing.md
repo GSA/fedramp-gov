@@ -14,7 +14,7 @@ In previous roles, Ryan has demonstrated proven leadership skills in strategy an
 
 Ryan holds an B.A. in Business Administration from the University of Nebraska-Lincoln and is an avid Nebraska football fan. He continues his education on all things cloud and is currently working towards a M.S. in Cybersecurity Management and Policy. Ryan also serves as a Contract Officer’s Representative (COR) on FedRAMP contract(s).
 
-Follow Ryan on Twitter: [@SirFedRAMP](http://twitter.com/SirFedRamp)
+Follow Ryan on Twitter: [@SecureStratus](http://twitter.com/SecureStratus)
 
 Connect with Ryan on LinkedIn: [https://www.linkedin.com/in/ryan-hoesing-b70066115/](https://www.linkedin.com/in/ryan-hoesing-b70066115/)
 
