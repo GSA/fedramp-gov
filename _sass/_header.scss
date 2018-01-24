@@ -32,8 +32,8 @@ li {
 @media (min-width: 0) and (max-width: 1024px) {
 #logo.usa-logo {
 	position: absolute;
-	top: 40px;
-	left: 100px;
+	top: 45px;
+	left: 80px;
 }
 }
 
@@ -119,6 +119,10 @@ header.usa-banner-header {
  
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
 	border-bottom: 10px solid $light-blue;
+}
+
+.usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
+	border-bottom: none;
 }
  
 /*----- Bottom Level -----*/

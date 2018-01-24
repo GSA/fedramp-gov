@@ -1,6 +1,6 @@
 ---
 title: Understanding Baselines and Impact Levels in FedRAMP
-layout: page
+layout: blog-page
 permalink: /understanding-baselines-and-impact-levels/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png

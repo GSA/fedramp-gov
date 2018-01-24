@@ -135,8 +135,15 @@ a.blog-read {
 }
 
 .author-date {
-	margin: 0 0 20px 0;
+	margin: 20px 0 20px 0;
 	border-bottom: 1px solid #cdcdcd;
+	p.by {
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+	p.date {
+		margin-top: 0;
+	}
 }
 
 .blog-sidebar {
@@ -164,6 +171,7 @@ h3 {
 
 .page-blog h2 a {
 	text-decoration: none;
+	font-family: $serif-font;
 	&:hover {
 		text-decoration: underline;
 	}	
@@ -225,4 +233,16 @@ h3 {
 
 .pagination {
     text-align: center;
+ }
+ 
+ .page-blog .page--banner {
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   min-height: 450px;
+   width: 100%;
+   img {
+   	width: 100%;
+   	margin: auto;
+   }
  }

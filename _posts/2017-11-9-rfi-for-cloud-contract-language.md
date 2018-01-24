@@ -1,6 +1,6 @@
 ---
 title: RFI for Cloud, FedRAMP, and Security Contract Language Due December 15th
-layout: page
+layout: blog-page
 permalink: /rfi-for-cloud-fedramp-security-contract-language/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png

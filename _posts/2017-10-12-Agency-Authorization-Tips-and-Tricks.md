@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Agency Authorization Process - Tips, Tricks, and Best Practices
-layout: page
+layout: blog-page
 permalink: /Agency-Authorization-Tips-and-Tricks/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png

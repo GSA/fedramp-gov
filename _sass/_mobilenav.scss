@@ -21,7 +21,10 @@
 .usa-mobile_nav-active ul {
 	/* by default hide all sub menus */
 	li {
+		padding: 10px;
+		border-bottom: 1px solid $dark-blue;
 		a {
+		padding: 0;
 		&:hover {
 		border:  none;
 		}
@@ -39,23 +42,40 @@
 	display:  block;
 }
 
-.is-visible .sub-menu {
-    background-color: white;
+.usa-mobile_nav-active .sub-menu {
     display: none;
+    float: left;
     overflow: hidden;
+    width: 100%;
+        padding: 0px;
+        position: static;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity linear 0.15s;
+    //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+        background: $dark-blue;
+    li {
+    	color: #fff;
+    }
 }
 
-.is-visible .parent:before {
+.usa-mobile_nav-active .parent {
+&:before {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #fff;
-    float: left;
-    margin-left: -30px;
+    float: right;
+    margin-left: 0px;
+    border-left: 1px solid $dark-blue;
+    padding-left: 15px;
+}
 }
 
 button.usa-menu-btn {
 	position: absolute;
-	left: 40px;
+	left: 20px;
 	top: 60px;
 	height: 50px;
 	font-size: 2em;
@@ -67,6 +87,15 @@ button.usa-menu-btn {
 .usa-mobile_nav-active .parent {
 	text-transform: uppercase;
 	margin-left: 0;
+	color: #fff !important;
+	padding: 0px;
+	border-bottom: 1px solid $dark-blue !important;
+	a {
+		color: #fff;
+	}
+	&:hover {
+		border: none;
+	}
 }
 
 ul.usa-nav-primary.usa-accordion {
@@ -84,7 +113,6 @@ ul.usa-nav-primary.usa-accordion {
         list-style: none;
         margin: 0 auto;
 //        padding-top: 2px;
-		border: none;
 		font-size: .9em;
     }
 
@@ -101,15 +129,18 @@ ul.usa-nav-primary.usa-accordion {
         text-align: left;
         margin: 0;
         font-weight: bold;
-		color: #5b616b;
+		color: #fff;
     }
     
     .usa-mobile_nav-active ul li a:hover {
     	background: none;
+    	border: none;
     }
 
-.usa-mobile_nav-active ul li.parent:after {
-	
+.usa-mobile_nav-active nav.usa-nav {
+	background: $light-blue;
+	border: none;
+	padding: 0;
 }
 
 //.usa-nav {

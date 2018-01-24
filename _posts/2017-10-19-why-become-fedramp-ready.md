@@ -1,6 +1,6 @@
 ---
 title: Why Become FedRAMP Ready?
-layout: page
+layout: blog-page
 permalink: /why-become-fedramp-ready/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png

@@ -1,6 +1,6 @@
 ---
 title: New Third Party Assessment Organizations (3PAOs) Training Series
-layout: page
+layout: blog-page
 permalink: /New_3PAO_Training_Series/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
