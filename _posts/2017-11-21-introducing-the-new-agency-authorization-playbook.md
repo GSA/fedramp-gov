@@ -1,6 +1,6 @@
 ---
 title: Introducing the New Agency Authorization Playbook
-layout: page
+layout: blog-page
 permalink: /introducing-the-new-agency-authorization-playbook/
 body-class: page-blog
 date: 2017-11-21

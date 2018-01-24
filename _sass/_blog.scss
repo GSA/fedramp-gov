@@ -169,12 +169,15 @@ h3 {
 }
 }
 
-.page-blog h2 a {
+.page-blog h2 {
+	margin-top: 0;
+a {
 	text-decoration: none;
 	font-family: $serif-font;
 	&:hover {
 		text-decoration: underline;
 	}	
+}
 }
 
 .page-blog .meta ul {
