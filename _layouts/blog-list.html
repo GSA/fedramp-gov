@@ -15,7 +15,7 @@ layout: page
 </section>
 <!-- Pagination links -->
 <section class="pagination usa-grid content-focus">
-  <div>
+  <div class="previous">
     {% if paginator.previous_page %}
       <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}/">
        <img src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-left.png"/> Previous {{ paginator.per_page }} posts
@@ -24,10 +24,10 @@ layout: page
     <p></p>
     {% endif %}
   </div>
-  <div>
-    <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+  <div class="status">
+    <p classs="text">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
   </div>
-  <div>
+  <div class="next">
     {% if paginator.next_page %}
     <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}/">
       Next {{ paginator.per_page }} posts <img src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-right.png"/>

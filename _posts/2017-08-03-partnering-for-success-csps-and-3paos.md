@@ -1,8 +1,11 @@
 ---
 title: 'Partnering for Success: CSPs and 3PAOs'
-layout: blog-list
+layout: blog-page
 permalink: /partnering-for-success-csps-and-3paos/
 body-class: page-blog
+image: /assets/img/blog_placementimg.png
+author: FedRAMP
+
 ---
 Third Party Assessment Organizations (3PAOs) are hired by Cloud Service Providers (CSPs) to either consult or provide independent security testing on a given cloud system.  
 

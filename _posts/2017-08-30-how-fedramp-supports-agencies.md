@@ -1,9 +1,12 @@
 ---
 
 title: How FedRAMP Supports Agencies
-layout: blog-list
+layout: blog-page
 permalink: /how-fedramp-supports-agencies/
 body-class: page-blog
+image: /assets/img/blog_placementimg.png
+author: FedRAMP
+
 ---
 There are a number of ways the FedRAMP team works with Agencies at various stages of the authorization process, as well as during continuous monitoring (post ATO) to ensure they have the information they need to make the appropriate risk-based decisions for their organizations.
 

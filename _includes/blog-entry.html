@@ -1,24 +1,24 @@
 <div class="usa-width-full-width">
-
-    <h2><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-<div class="usa-width-one-third">
-    <a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
-    <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> </a>
-</div>
+	<h2><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a>
+	</h2>
+	<div class="usa-width-one-third">
+    	<a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
+    		<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> 
+    	</a>
+	</div>
     <div class="meta">
-	<ul>
-	<li class="meta-author first-child">
+		<ul>
+			<li class="meta-author first-child">
             <span class="meta-author">By {{ post.author }}</span>
-	</li>
-	<li class="meta-date">
+			</li>
+			<li class="meta-date">
             <a href="{{ post.permalink }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B %-d, %Y"}}</a>
-	</li>
-	</ul>
+			</li>
+		</ul>
     </div>
 
     <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
 
     <p class="readmore"><a class="more-link" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Read More</a></p>
-
 </div>
 

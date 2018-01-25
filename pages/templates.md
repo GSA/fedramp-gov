@@ -233,49 +233,49 @@ body-class: page-fed-agencies
     <td colspan="4" class="th-2">Continuous Monitoring Phase</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></td>
     <td>The FedRAMP Annual SAP Template is intended for 3PAOs to plan a cloud system’s annual assessment and constitutes as a plan for testing once completed.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-SAP-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
     <td>The FedRAMP Annual SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of, and compliance with system-specific, FedRAMP required baseline security controls. The template is intended for 3PAOs to report annual security assessment findings for CSPs.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-SAR-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
+    <td><a href="#">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
     <td>The FedRAMP CSO or Feature Onboarding Request Template is used to capture an accredited 3PAO assessment and attestation for onboarding a service or feature to an existing CSP’s system.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Vulnerability Deviation Request Form</a></td>
+    <td><a href="#">FedRAMP Vulnerability Deviation Request Form</a></td>
     <td>This form provides a standardized method to document deviation requests and is used to document Risk Adjustments, False Positives, and Operational Requirements.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>1/11/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Significant Change Form Template</a></td>
+    <td><a href="#">FedRAMP Significant Change Form Template</a></td>
     <td>This document was developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199. It can be used to request a significant change within an existing ATO. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>1/11/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
     <td>The FedRAMP FIPS-199 Categorization Change Form Template is used to capture a system categorization change request from a FedRAMP Moderate system to a FedRAMP High System and the supporting details surrounding the requested system change. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>8/16/2017</td>
@@ -284,50 +284,50 @@ body-class: page-fed-agencies
     <td colspan="4" class="th-2">FedRAMP Tailored</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
     <td>FedRAMP Tailored Security Requirements for Low Impact Software as a Service (LI-SaaS) provides the minimum security control requirements for authorizing a LI-SaaS.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
     <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the Low Impact-Software as a Service (LI-SaaS) Baseline controls that Cloud Service Providers (CSPs) must address.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-excel"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
 
     <td>11/14/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">APPENDIX B - FedRAMP Tailored LI-SaaS Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx">APPENDIX B - FedRAMP Tailored LI-SaaS Template</a></td>
     <td>Appendix B: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Framework Template shows Cloud Service Providers (CSPs) how to describe the security risk posture of their cloud-based SaaS application, based on the FedRAMP Tailored LI-SaaS security control baseline.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>11/14/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">APPENDIX C - FedRAMP Tailored LI - ATO Letter Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx">APPENDIX C - FedRAMP Tailored LI - ATO Letter Template</a></td>
     <td>Appendix C: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) ATO Letter Template is a resource for agencies to use when granting authorizations for Cloud Service Offerings (CSOs) that meet the FedRAMP LI-SaaS requirements.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">APPENDIX D - FedRAMP Tailored LI - SaaS Continuous Monitoring Guide</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-D-FedRAMP-Tailored-LI-SaaS-Continuous-Monitoring-Guide.docx">APPENDIX D - FedRAMP Tailored LI - SaaS Continuous Monitoring Guide</a></td>
     <td>Appendix D: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Continuous Monitoring Guide provides guidance on continuous monitoring (ConMon) and ongoing authorization to maintain a security authorization that meets the FedRAMP Tailored LI-SaaS requirements.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-D-FedRAMP-Tailored-LI-SaaS-Continuous-Monitoring-Guide.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">APPENDIX E - FedRAMP Tailored LI - SaaS Self-Attestation Requirements</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/APPENDIX-E-FedRAMP-Tailored-LI-SaaS-Self-Attestation-Requirements.docx">APPENDIX E - FedRAMP Tailored LI - SaaS Self-Attestation Requirements</a></td>
     <td>Appendix E: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Self-Attestation Requirements provides the system requirements that the Cloud Service Provider (CSP) must attest to for their Cloud Service Offering (CSO).</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/APPENDIX-E-FedRAMP-Tailored-LI-SaaS-Self-Attestation-Requirements.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
