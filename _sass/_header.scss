@@ -29,11 +29,25 @@ li {
 }
 }
 
-@media (min-width: 0) and (max-width: 1024px) {
+@media (min-width: 0) and (max-width: 951px) {
 #logo.usa-logo {
 	position: absolute;
 	top: 45px;
 	left: 80px;
+}
+}
+
+@media (min-width: 951px) and (max-width: 1200px) {
+.usa-nav-container {
+	padding-top: 30px;
+}
+.usa-navbar {
+position: relative;
+top: -30px;
+left: 30px;
+}
+.usa-nav-primary.usa-accordion {
+	margin: 0 13% !important;
 }
 }
 
@@ -89,9 +103,18 @@ header.usa-banner-header {
     list-style: none;
 }
 
-@media (min-width: 0) and (max-width: 1200px) {
-.usa-nav li a, .usa-nav li.parent {
+//@media and (max-width: 951px) {
+//.usa-nav li a, .usa-nav li.parent {
 //	font-size: 1.25vw !important;
+//}
+//}
+
+@media (min-width: 951px) and (max-width: 1200px) {
+nav.usa-nav {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 150px;
 }
 }
  

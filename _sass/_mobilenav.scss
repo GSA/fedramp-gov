@@ -77,6 +77,16 @@
     border-left: 1px solid $dark-blue;
     padding-left: 15px;
 }
+&:after {
+    content: '&#8722;'; /* Unicode character for "minus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 0px;
+    border-left: 1px solid $dark-blue;
+    padding-left: 15px;
+    display: none;
+}
 }
 
 button.usa-menu-btn {
