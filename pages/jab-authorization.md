@@ -8,9 +8,9 @@ body-class: page-fed-agencies
 
 The first step for any Cloud Service Provider (CSP) interested in pursuing a FedRAMP authorization for their cloud service offering (CSO) is to determine their authorization strategy. There are two types of FedRAMP authorizations: a Provisional Authority to Operate (P-ATO) from the Joint Authorization Board (JAB) and an Agency Authority to Operate (ATO).
 
-To decide which type of authorization is right for a particular CSO, the CSP should review Volume 1 of the CSP Playbook: Getting Started with FedRAMP [insert link] and should take into account their system's impact level, deployment model, stack, and market demand.
+To decide which type of authorization is right for a particular CSO, the CSP should review Volume 1 of the <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">CSP Playbook: Getting Started with FedRAMP</a> and should take into account their system's impact level, deployment model, stack, and market demand.
 
-Below is a high level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the JAB P-ATO authorization process can be found here [insert link].  
+Below is a high level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the JAB P-ATO authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">here</a>.  
 
 ### JAB P-ATO Authorization:
 
@@ -20,11 +20,11 @@ Below is a high level overview of the JAB Authorization Process. Information on 
 
 The JAB (which includes representatives from DOD, DHS, and GSA) works to create a broad marketplace of providers and, based on current resources and funding, only has the capacity to authorize up to 12 CSOs a year. To ensure the JAB’s resources are used most effectively, the FedRAMP PMO, CIO Council, and JAB evaluate CSOs through FedRAMP Connect.
 
-During the FedRAMP Connect process, CSOs are evaluated and prioritized to work with the JAB based on [prioritization criteria](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/JAB-Prioritization-Guidance2.pdf). The only mandatory requirement for vendors is that they demonstrate demand for their service by a wide variety of federal Agencies.
+During the FedRAMP Connect process, CSOs are evaluated and prioritized to work with the JAB based on [prioritization criteria]({{site.baseurl}}assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf). The only mandatory requirement for vendors is that they demonstrate demand for their service by a wide variety of federal Agencies.
 
 The JAB prioritizes six (6) vendors twice a year to work toward a JAB P-ATO. Once a CSO is prioritized, the CSP has 60 days to become FedRAMP Ready (if they aren’t already). Being prioritized to work with the JAB and being deemed FedRAMP Ready by the FedRAMP PMO is the first phase of the JAB Authorization Process detailed in Figure 2. 
 
-To achieve the FedRAMP Ready designation, CSPs partner with a Third Party Assessment Organization (3PAO) to complete a [Readiness Assessment Report (RAR)](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/11/FedRAMP-Readiness-Assessment-Report-Template_102116-3.docx), which attests to a CSO’s readiness for the authorization process. The RAR provides Agencies, CSPs, and the FedRAMP PMO with valuable early feedback on whether or not a CSO is likely to obtain a FedRAMP authorization. Readiness Assessment testing should be executed by an accredited 3PAO. Once deemed satisfactory by the PMO, the CSO is designated FedRAMP Ready and advertised in the FedRAMP Marketplace.
+To achieve the FedRAMP Ready designation, CSPs partner with a Third Party Assessment Organization (3PAO) to complete a [Readiness Assessment Report (RAR)]({{site.baseurl}}assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf), which attests to a CSO’s readiness for the authorization process. The RAR provides Agencies, CSPs, and the FedRAMP PMO with valuable early feedback on whether or not a CSO is likely to obtain a FedRAMP authorization. Readiness Assessment testing should be executed by an accredited 3PAO. Once deemed satisfactory by the PMO, the CSO is designated FedRAMP Ready and advertised in the FedRAMP Marketplace.
 
 ### Phase 2: Full Security Assessment
 

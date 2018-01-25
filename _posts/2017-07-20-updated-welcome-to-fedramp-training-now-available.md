@@ -1,9 +1,12 @@
 ---
 
 title: 'Updated Welcome to FedRAMP Training Now Available'
-layout: blog-list
+layout: blog-page
 permalink: /updated-welcome-to-fedramp-training-now-available/
 body-class: page-blog
+image: /assets/img/blog_placementimg.png
+author: FedRAMP
+
 ---
 We’re excited to launch our newly revamped <em>FedRAMP 100-A: Welcome to FedRAMP</em> online training course, which serves as an update to the original 100-A training developed in 2015. This one-hour introductory course in theFedRAMP Training Series is intended for Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) who aren’t well acquainted with FedRAMP. However, it serves as an excellent source of information for anyone in government or the private sector who wants to learn more about the program.
 

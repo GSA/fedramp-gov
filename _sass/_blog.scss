@@ -188,13 +188,19 @@ a {
 }
 
 .page-blog .usa-width-one-whole {
-	padding: 0 0 40px 0;
 	border-bottom: 1px solid #cdcdcd;
 	margin-bottom: 30px;
+	float: left;
+	padding: 0 0 40px 0;
 	&:last-child {
 		border: 0;
 	}
 }
+
+//.page-blog .usa-width-full-width {
+//	float: left;
+//	width: 100%;
+//}
 
 .page-blog main img {
 	border: 1px solid #cdcdcd;
@@ -220,7 +226,7 @@ a {
 
 .pagination a, .pagination span {
     padding: 7px 18px;
-    border: 1px solid #eee;
+//    border: 1px solid #eee;
     margin-left: -2px;
     margin-right: -2px;
     background-color: #ffffff;
@@ -229,13 +235,114 @@ a {
 
 .pagination a {    
     &:hover {
-        background-color: #f1f1f1;
+//        background-color: #f1f1f1;
         color: #333;
     }
  }
 
-.pagination {
+section.pagination {
     text-align: center;
+//    max-width: 320px;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+    }
+    .status {
+    	text-align: center;
+//    	margin: 0 auto;
+    	float: left;
+    	width: 33%;
+    }
+ 
+.previous {
+	float: left;
+	width: 33%;
+	display: table;
+a.link-arrow-left {
+	float: left;
+	text-align: left;
+//	width: 65%;
+	vertical-align: middle;
+	display: table-cell;
+   	line-height: 50px;
+	img {
+		border: none;
+		margin: 15px 5px 15px 0;
+		float: left;
+	}
+}
+}
+ 
+ .next {
+ 	float: right;
+ 	width: 33%;
+ 	display: table;
+ a.link-arrow-right {
+ 	float: right;
+ 	text-align: right;
+// 	width: 65%;
+ 	vertical-align: middle;
+ 	display: table-cell;
+    	line-height: 50px;
+ 	img {
+ 		border: none;
+ 		margin: 15px 0 15px 5px;
+ 		float: right;
+ 	}
+ }
+ }
+ 
+ @media (min-width: 0px) and (max-width: 580px) {
+ section.pagination {
+ 	max-width: 200px;
+ 	margin: 0 auto;
+ 	float: none;
+     }
+     .status {
+     	text-align: center;
+ //    	margin: 0 auto;
+     	float: none;
+     	width: 100%;
+     } 
+     
+ 	.previous {
+ 		float: left;
+ 		width: 100%;
+ 		display: table;
+ 	a.link-arrow-left {
+ 		float: left;
+ 		text-align: left;
+ 		width: 100%;
+ 		vertical-align: middle;
+ 		display: table-cell;
+ 	   	line-height: 50px;
+ 		img {
+ 			border: none;
+ 			margin: 15px 5px 15px 0;
+ 			float: left;
+ 		}
+ 	}
+ 	}
+ 	 
+ 	 .next {
+ 	 	float: right;
+ 	 	width: 100%;
+ 	 	display: table;
+ 	 a.link-arrow-right {
+ 	 	float: right;
+ 	 	text-align: right;
+ 	 	width: 100%;
+ 	 	vertical-align: middle;
+ 	 	display: table-cell;
+ 	    	line-height: 50px;
+ 	 	img {
+ 	 		border: none;
+ 	 		margin: 15px 0 15px 5px;
+ 	 		float: right;
+ 	 	}
+ 	 }
+ 	 }
+ 	
  }
  
  .page-blog .page--banner {
