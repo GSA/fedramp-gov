@@ -20,7 +20,7 @@ Below is a high level overview of the Agency Authorization Process. Information 
 
 In this phase, a CSP formalizes their partnership with an Agency via [FedRAMP’s In Process requirements]({{site.baseurl}}assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf). In some cases, a vendor may be under contract with a CSP already, or an Agency may be working through the acquisition process.
 
-The CSP’s system should be fully built and functional, and the CSP’s leadership team should be committed and fully on board with the FedRAMP process. Additionally, if they have not already done so, a CSP should engage with the FedRAMP office through the intake process by completing a [CSP Information Form]({{site.baseurl}}assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf).
+The CSP’s system should be fully built and functional, and the CSP’s leadership team should be committed and fully on board with the FedRAMP process. Additionally, if they have not already done so, a CSP should engage with the FedRAMP office through the intake process by completing a [CSP Information Form](https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform).
 
 Throughout this phase, the CSP develops their System Security Plan (SSP), which is the security blueprint of their system. The SSP does not need to be completed prior to establishing a partnership with an Agency, but it does need to be completed and fully reviewed by the Agency prior to Phase 2. The Agency partner should approve and sign off on the SSP prior to beginning testing. 
 

@@ -39,9 +39,9 @@ body-class: page-fed-agencies
     <td colspan="4" class="th-3">Initial Authorization Package Checklist</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx">FedRAMP Initial Authorization Package Checklist</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a></td>
     <td>The FedRAMP Initial Authorization Package Checklist details the documents required for a complete FedRAMP initial authorization package. CSPs must submit this checklist along with their complete package so that the FedRAMP PMO can verify complete package documentation has been submitted prior to conducting reviews.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.docx"><i class="fas fa-file-excel"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Initial-Authorization-Package-Checklist.xls"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
     
@@ -249,9 +249,9 @@ body-class: page-fed-agencies
     <td>6/16/2017</td>
   </tr>
   <tr>
-    <td><a href="#">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
     <td>The FedRAMP CSO or Feature Onboarding Request Template is used to capture an accredited 3PAO assessment and attestation for onboarding a service or feature to an existing CSP’s system.</td>
-<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
@@ -265,9 +265,9 @@ body-class: page-fed-agencies
     <td>1/11/2018</td>
   </tr>
   <tr>
-    <td><a href="#">FedRAMP Significant Change Form Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Significant-Change-Form-Template.doc">FedRAMP Significant Change Form Template</a></td>
     <td>This document was developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199. It can be used to request a significant change within an existing ATO. </td>
-<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Significant-Change-Form-Template.doc"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>1/11/2018</td>
