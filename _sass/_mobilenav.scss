@@ -46,10 +46,12 @@
     display: none;
     float: left;
     overflow: hidden;
-    width: 100%;
+    width: 270px;
         padding: 0px;
         position: static;
         top: 0;
+        margin-bottom: -10px;
+        margin-left: -10px;
         left: 0;
         z-index: 1;
         opacity: 1;
@@ -58,10 +60,14 @@
         background: $dark-blue;
     li {
     	color: #fff;
+    	font-size: 1.1em;
     }
 }
 
 .usa-mobile_nav-active .parent {
+		padding: 10px !important;
+		display: inline-block;
+		float: left;
 &:before {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -89,7 +95,6 @@ button.usa-menu-btn {
 	margin-left: 0;
 	width: 100% !important;
 	color: #fff !important;
-	padding: 0px;
 	border-bottom: 1px solid $dark-blue !important;
 	a {
 		color: #fff;
@@ -158,131 +163,3 @@ button.usa-nav-close {
 	margin: 0;
 }
 
-button.usa-nav-close {
-	background-image: url('../../assets/img/close.svg');
-}
-
-//.usa-nav {
-//	position:  relative;
-//	display:  inline-block;
-//	font-size:  14px;
-//	font-weight:  900;
-//}
-//.usa-nav-primary.usa-accordion {
-//	text-align: left;
-//}
-//.parent {
-//	float: left;
-//	*display: inline;
-//	zoom: 1;
-//	position: relative;
-//}
-//.parent a {
-//	display: block;
-//	color: #FFF;
-//	padding: 15px 20px;
-//	background: #7A1E61;
-//	border-bottom: 1px solid #8B2870;
-//}
-//.parent > a:hover {
-//	background: #822368;
-//}
-//.parent:hover .sub-menu {
-//	display: block;
-//}
-///* Navigation submenu */
-//.sub-menu {
-//	display: none;
-//	position: absolute;
-//	left: 0;
-//	width: 180px;
-//}
-//.sub-menu li a {
-//	background: #8B2770;
-//	border-bottom: 1px solid #9A337E;
-//	display: block;
-//	padding: 15px;
-//}
-//.sub-menu li a:hover {
-//	background: #932C77;
-//}
-///* Mobile navigation */
-//.nav-mobile {
-//	display: none; /* Hide from browsers that don't support media queries */
-//	cursor: pointer;
-//	position: absolute;
-//	top: 0;
-//	right: 0;
-//	background: #3D3D3B url(../../assets/img/nav.svg) no-repeat center center;
-//	background-size: 18px;
-//	height: 50px;
-//	width: 50px;
-//}
-///* Mobile navigation, clickable area for revealing <ul> */
-//.nav-click {
-//	position: absolute;
-//	top: 0;
-//	right: 0;
-//	display: none;
-//	border-left: 1px solid #8B2870;
-//	height: 49px;
-//	width: 50px;
-//	cursor: pointer;
-//}
-//.nav-click i {
-//	display: block;
-//	height: 48px;
-//	width: 48px;
-//	background: url(../../assets/img/drop.svg) no-repeat center center;
-//	background-size: 20px;
-//}
-//.nav-click:hover {
-//	background-color: #6E1656;
-//}
-//.nav-rotate {
-//	-webkit-transform: rotate(180deg);
-//	-moz-transform: rotate(180deg);
-//	-ms-transform: rotate(180deg);
-//	-o-transform: rotate(180deg);
-//	transform: rotate(180deg);
-//}
-//
-/*------------------------------------*\
-    Media Queries
-\*------------------------------------*/
-
-//@media only screen and (min-width:  0px) and (max-width:  1024px) {
-//	.nav-mobile {
-//		display: block;
-//	}
-//	.usa-nav {
-//		width: 100%;
-//		padding: 0 0 0;
-//		left: 0;
-//	}
-//	.usa-nav-primary.usa-accordion {
-//		display: none;
-//	}
-//	.parent {
-//		width: 100%;
-//		float: none;
-//	}
-//	.parent > a {
-//		padding: 15px;
-//	}
-//	.nav-click {
-//		display: block;
-//	}
-//	.nav-mobile-open {
-//		border-radius: 5px 5px 0 0;
-//		-webkit-border-radius: 5px 5px 0 0;
-//		-moz-border-radius: 5px 5px 0 0;
-//	}
-//	.parent:hover .sub-menu {
-//		display: none;
-//	}
-//	.sub-menu {
-//		position: static;
-//		width: 100%;
-//	}
-//}
