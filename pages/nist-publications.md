@@ -18,7 +18,7 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="http://collaborate.nist.gov/twiki-cloud-computing/pub/CloudComputing/ReferenceArchitectureTaxonomy/NIST_SP_500-292_-_090611.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
-    <td>9/8/2013</td>
+    <td>9/8/2011</td>
   </tr>
   <tr>
     <td><a href="http://csrc.nist.gov/publications/nistpubs/800-34-rev1/sp800-34-rev1_errata-Nov11-2010.pdf">Contingency Planning Guide for Federal Information Systems (SP 800-34 Revision 1)</a></td>
@@ -34,7 +34,7 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-37-rev1/sp800-37-rev1-final.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
-    <td>2/2010</td>
+    <td>6/5/2014</td>
   </tr>
   <tr>
     <td><a href="http://csrc.nist.gov/publications/nistpubs/800-39/SP800-39-final.pdf">Managing Information Security Risk: Organization, Mission, and Information System View (SP 800-39)</a></td>
@@ -164,7 +164,7 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>9/5/2013</td>
+    <td>8/5/2013</td>
   </tr>
   <tr>
     <td><a href="http://csrc.nist.gov/publications/PubsSPs.html">National Institute of Standards and Technology (NIST) Special Publications</a></td>
