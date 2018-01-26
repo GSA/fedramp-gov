@@ -71,7 +71,7 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <ul>
 <li>Perform system scanning at least monthly, with a recommendation for even greater frequency</li>
 <li>Require the CSP to seek approval following monthly and annual assessments as an operational requirement (OR) for continued use of the system</li>
-<li>Validate system vulnerability resolution within 30 days of discovery of high and critical vulnerabilities. Validate within 90 days of discovery for moderate and low vulnerabilities. </li>
+<li>Validate the remediation of system vulnerabilities within 30 days of discovery of high and critical vulnerabilities. Validate the remediation of system vulnerabilities within 90 days of discovery for moderate vulnerabilities. Validate the remediation of system vulnerabilities within 180 days of discovery for low vulnerabilities. </li>
 <li>Reach out to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for support during continuous monitoring and to address any gaps in received information from CSPs</li>
 </ul>
 <p>Agencies can find further detail regarding the level of effort and approach to authorization in FedRAMP’s Agency Authorization Playbook.</p>
