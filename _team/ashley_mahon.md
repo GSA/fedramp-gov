@@ -7,11 +7,11 @@ body-class: page-team-single
 date: 2018-01-04
 
 ---
-Ashley Mahan is the General Services Administration’s (GSA) first Agency Evangelist for the Federal Risk and Authorization Management Program (FedRAMP).  Ashley is a trusted liaison between Federal Agencies, Industry Cloud Services Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the Federal Government. 
+Ashley Mahan is the General Services Administration’s (GSA) first Agency Evangelist for the Federal Risk and Authorization Management Program (FedRAMP).  Ashley is a trusted liaison between Federal Agencies, Cloud Services Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the Federal Government. 
 
-Ashley is responsible for managing FedRAMP’s Agency engagement, outreach and customer experience activities, which consists of over 120 Federal Agencies and 150+ industry partners. She leverages collaboration and consensus building as key tools to bring together parties and people, and relishes the opportunity to pave a path towards secure cloud adoption and IT modernization in government for all agencies.
+Ashley is responsible for managing FedRAMP’s Agency engagement, outreach, and customer experience activities, which consists of over 120 Federal Agencies and 150+ industry partners. She leverages collaboration and consensus building as key tools to bring together parties and people, and relishes the opportunity to pave a path towards secure cloud adoption and IT modernization in government for all Agencies.
 
-In previous roles, Ashley provided leadership, strategy, cybersecurity and compliance expertise to multiple Federal partners (DoD/LEA/IC/Civil).  Additionally, Ashley has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence to include the 2016 FedScoop 50 - “Most Inspiring Up Comer” Award,  Booz Allen Hamilton’s Value in Practice (VIP) Award, and nominated for the 2017 Women in Technology Leadership Award.
+In previous roles, Ashley provided leadership, strategy, cybersecurity, and compliance expertise to multiple Federal partners (DoD/LEA/IC/Civil).  Additionally, Ashley has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence to include the 2016 FedScoop 50 - “Most Inspiring Up & Comer” Award,  Booz Allen Hamilton’s Value in Practice (VIP) Award, and nominated for the 2017 Women in Technology Leadership Award.
 
 Ashley holds an M.S. in Information Technology, B.S. in Business and has a variety of project management and technology industry certifications to include PMP, ITIL, and Security+. 
 
