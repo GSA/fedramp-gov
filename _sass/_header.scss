@@ -71,9 +71,19 @@ div#logo.usa-logo {
 	 max-width: 360px;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
 div#logo.usa-logo {
-	max-width: 280px;
+	max-width: 260px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+}
+
+@media (min-width: 0px) and (max-width: 374px) {
+div#logo.usa-logo {
+	max-width: 210px;
 	img {
 		width: 100%;
 		height: auto;
