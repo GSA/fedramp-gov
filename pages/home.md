@@ -10,8 +10,8 @@ hero-text: FedRAMP simplifies security for the digital age by providing a standa
 hero-secondary-text: FedRAMP facilitates the shift from insecure, tethered, tedious IT to secure, mobile, nimble, and quick IT.
 hero-button-text: Hey, me too!
 hero-button-link: /about/
-banner-heading: FedRAMP enables agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT.
-banner-text: FedRAMP has an established marketplace of the types of solutions that Federal Agencies need. This market promotes reusability to save money and time for agencies and industry. We're a program office funded to assist and provide guidance to agencies in support of their move to modern, secure cloud technologies. Finally, FedRAMP promotes reusability, saving time and money for both agencies and industry.
+banner-heading: FedRAMP enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT.
+banner-text: FedRAMP has an established marketplace of the types of solutions that Federal Agencies need. This market promotes reusability to save money and time for Agencies and industry. We're a program office funded to assist and provide guidance to Agencies in support of their move to modern, secure cloud technologies. 
 
 banner-button-text: Learn more
 banner-button-link: /about/
