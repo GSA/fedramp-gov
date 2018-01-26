@@ -101,7 +101,7 @@ section#do-once {
 	margin-left: 0;
 	background-position: left top;
 	background-repeat: no-repeat;
-	height: 100px;
+	min-height: 100px;
 	border-bottom: 1px solid #cdcdcd;
 	padding: 20px 0 20px 100px;
 }
@@ -112,7 +112,7 @@ section#do-once {
 	background-position: -10px -15px;
 	margin-left: 0;
 	background-repeat: no-repeat;
-	height: 100px;
+	min-height: 100px;
 	border-bottom: 1px solid #cdcdcd;
 	padding: 20px 0 20px 100px;
 }
@@ -123,13 +123,17 @@ section#do-once {
 	margin-left: 0;
 	background-repeat: no-repeat;
 	background-position: -5px -15px;
-	height: 100px;
+	min-height: 100px;
 	padding: 20px 0 20px 100px;
 	border-bottom: 1px solid #cdcdcd;
 }
 
 #path-one h3, #path-two h3, #path-three h3 {
-	padding: 0 0 15px 0;
+	padding: 0 0 15px 30px; 
+	box-sizing: border-box;
+	width: 100%; 
+	float: left; 
+	margin-left: 0;
 }
 
 #path-one .panel, #path-two .panel, #path-three .panel {
