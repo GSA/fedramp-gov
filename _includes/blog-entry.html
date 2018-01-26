@@ -12,7 +12,7 @@
             <span class="meta-author">By {{ post.author }}</span>
 			</li>
 			<li class="meta-date">
-            <a href="{{ post.permalink }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B %-d, %Y"}}</a>
+            <a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B %-d, %Y"}}</a>
 			</li>
 		</ul>
     </div>
