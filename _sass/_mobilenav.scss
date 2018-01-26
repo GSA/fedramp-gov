@@ -68,25 +68,37 @@
 		padding: 10px !important;
 		display: inline-block;
 		float: left;
-&:before {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #fff;
+		overflow: hidden;
+}
+
+.usa-mobile_nav-active .plus-minus.plus {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    border-left: 1px solid $dark-blue;
+}
+.usa-mobile_nav-active .plus-minus.minus {
+	width: 20px;
+	height: 20px;
     float: right;
     margin-left: 0px;
     border-left: 1px solid $dark-blue;
-    padding-left: 15px;
 }
-&:after {
-    content: '&#8722;'; /* Unicode character for "minus" sign (+) */
-    font-size: 13px;
-    color: #fff;
-    float: right;
-    margin-left: 0px;
-    border-left: 1px solid $dark-blue;
-    padding-left: 15px;
-    display: none;
+
+.usa-mobile_nav-active .plus-minus.plus:after {
+    content: '+' !important; /* Unicode character for "plus" sign (+) */
+    font-size: 16px;
+    color: #fff !important;
+    font-family: $serif-font;
+    padding-left: 10px;
 }
+.usa-mobile_nav-active .plus-minus.minus:after {
+    content: '-'; /* Unicode character for "minus" sign (+) */
+    font-size: 16px;
+    color: #fff !important;
+    font-family: $serif-font;
+    padding-left: 10px;
 }
 
 button.usa-menu-btn {

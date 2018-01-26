@@ -6,7 +6,7 @@ title: Operations & Business Analyst
 body-class: page-team-single
 date: 2018-01-06
 ---
-Ryan Hoesing is one of the newest members of the FedRAMP team.  He joined the team in December 2016 after serving in an executive administrative role for senior leadership at the General Services Administration’s (GSA). Ryan began his service at GSA in 2014 and since then has quickly learned how to navigate many of the bureaucratic administrative hurdles that are a part of working in the federal space.  
+Ryan Hoesing is one of the newest members of the FedRAMP team.  He joined the team in December 2016 after serving in an executive administrative role for senior leadership at the General Services Administrations (GSA). Ryan began his service at GSA in 2014 and since then has quickly learned how to navigate many of the bureaucratic administrative hurdles that are a part of working in the federal space.  
 
 Ryan is part of a team that helps manage customer engagement between Agencies and Cloud Service Providers. Ryan leads the charge in making sure that authorization timelines are met through FedRAMP’s  ever-changing kanban boards. In doing so, Ryan helps the FedRAMP Agency Authorization team push the adoption of secure cloud technologies across the Federal Government.
 
