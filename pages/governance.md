@@ -14,5 +14,5 @@ The governance of FedRAMP is comprised of different executive branch entities th
 * **Department of Homeland Security (DHS):** Manages the FedRAMP continuous monitoring strategy including data feed criteria, reporting structure, threat notification coordination, and incident response
 * **National Institute for Standards and Technology (NIST):** Advises FedRAMP on FISMA compliance requirements and assists in developing the standards for the accreditation of independent 3PAOs
 
-To learn more about the governance structure of FedRAMP, please review the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a> and the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf"> Security Assessment Framework</a>. 
+To learn more about the governance structure of FedRAMP, please review the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP requirements</a>.
 
