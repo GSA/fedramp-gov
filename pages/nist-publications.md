@@ -128,7 +128,7 @@ body-class: page-fed-agencies
     <td><a href="http://csrc.nist.gov/publications/nistpubs/800-128/sp800-128.pdf">Guide for Security-Focused Configuration Management of Information Systems
 (SP 800-128)</a>
 </td>
-    <td>MISSING</td>
+    <td>The purpose of Special Publication 800-128, Guide for Security-Focused Configuration Management of Information Systems, is to provide guidelines for organizations responsible for managing and administering the security of federal information systems and associated environments of operation. Configuration management concepts and principles described in NIST SP 800-128, provide supporting information for NIST SP 800-53, Recommended Security Controls for Federal Information Systems and Organizations.</td>
 <td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-128/sp800-128.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
