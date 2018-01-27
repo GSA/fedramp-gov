@@ -21,26 +21,26 @@ body-class: page-fed-agencies
     <td>9/8/2011</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-34-rev1/sp800-34-rev1_errata-Nov11-2010.pdf">Contingency Planning Guide for Federal Information Systems (SP 800-34 Revision 1)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final">Contingency Planning Guide for Federal Information Systems (SP 800-34 Revision 1)</a></td>
     <td>This publication assists organizations in understanding the purpose, process, and format of information system contingency planning development through practical, real-world guidelines. This guidance document provides background information on interrelationships between information system contingency planning and other types of security and emergency management-related contingency plans, organizational resiliency, and the system development life cycle. This document provides guidance to help personnel evaluate information systems and operations to determine contingency planning requirements and priorities. </td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-34-rev1/sp800-34-rev1_errata-Nov11-2010.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>11/10/2010</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-37-rev1/sp800-37-rev1-final.pdf">Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach (SP 800-37 Revision 1)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-37/rev-1/final">Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach (SP 800-37 Revision 1)</a></td>
     <td>Provides guidelines for applying the Risk Management Framework to federal information systems to include conducting the activities of security categorization, security control selection and implementation, security control assessment, information system authorization, and security control monitoring.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-37-rev1/sp800-37-rev1-final.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-37/rev-1/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>6/5/2014</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-39/SP800-39-final.pdf">Managing Information Security Risk: Organization, Mission, and Information System View (SP 800-39)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-39/final">Managing Information Security Risk: Organization, Mission, and Information System View (SP 800-39)</a></td>
     <td>Provides guidance for an integrated, organization-wide program for managing information security risk to organizational operations (i.e., mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation resulting from the operation and use of federal information systems.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-39/SP800-39-final.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-39/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>3/2011</td>
   </tr>
@@ -61,18 +61,18 @@ body-class: page-fed-agencies
     <td>12/4/2014</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev1.pdf">Guide for Mapping Types of Information and Information Systems to Security Categories (SP 800-60 Revision 1, Volume 1)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final">Guide for Mapping Types of Information and Information Systems to Security Categories (SP 800-60 Revision 1, Volume 1)</a></td>
     <td>This document contains the basic guidelines for mapping types of information and information systems to security categories.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev1.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>8/2008</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol2-Rev1.pdf">Appendices to Guide for Mapping Types of Information and Information Systems to Security Categories (SP 800-60 Revision 1, Volume 2)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final">Appendices to Guide for Mapping Types of Information and Information Systems to Security Categories (SP 800-60 Revision 1, Volume 2)</a></td>
     <td>SP 800-60 Rev. 1, Vol. 2 explains the appendices contained in Volume I include security categorization recommendations and rationale for mission-based and management and support information types.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol2-Rev1.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>8/2008</td>
   </tr>
@@ -85,34 +85,34 @@ body-class: page-fed-agencies
     <td>8/8/2012</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-86/SP800-86.pdf">Guide to Integrating Forensic Techniques into Incident Response (SP 800-86)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-86/final">Guide to Integrating Forensic Techniques into Incident Response (SP 800-86)</a></td>
     <td>Helps organizations in handling computer security incidents. It also provides some practical guidance on performing computer and network forensics.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-86/SP800-86.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-86/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>8/2006</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-92/SP800-92.pdf">Guide to Computer Security Log Management (SP 800-92)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-92/final">Guide to Computer Security Log Management (SP 800-92)</a></td>
     <td>Helps organizations develop, implement, and maintain effective processes for managing logs with security-related information. The guide explains how sound log management practices can support the overall security of an organization’s systems and information. </td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-92/SP800-92.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-92/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>9/2006</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-94/SP800-94.pdf">Guide to Intrusion Detection and Prevention Systems (IDPS) (SP 800-94)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-94/final">Guide to Intrusion Detection and Prevention Systems (IDPS) (SP 800-94)</a></td>
     <td>Provides a basis for designing, implementing, configuring, securing, monitoring, and maintaining intrusion detection and prevention systems including a wireless intrusion detection system.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-94/SP800-94.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-94/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>2/2007</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-115/SP800-115.pdf">Technical Guide to Information Security Testing and Assessment (SP 800-115)</a></td>
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-115/final">Technical Guide to Information Security Testing and Assessment (SP 800-115)</a></td>
     <td>Assists organizations in planning and conducting technical information security tests and examinations, analyzing findings, and developing mitigation strategies. The guide provides practical recommendations for designing, implementing, and maintaining technical information security test and examination processes and procedures.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-115/SP800-115.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-115/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>9/2008</td>
   </tr>
@@ -161,8 +161,8 @@ body-class: page-fed-agencies
   <tr>
     <td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf">Federal Information Processing Standard (FIPS) 201 (Personal Identity Verification (PIV) of Federal Employees and Contractors)</a></td>
     <td>FIPS 201 is a standard that specifies Personal Identity Verification (PIV) requirements for Federal employees and contractors.</td>
-<td><a class="icon-link" href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
+<td><a class="icon-link" href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf"><i class="fas fa-file-pdf"></i>
+<p class="icon-text">PDF</p></a>
 </td>
     <td>8/5/2013</td>
   </tr>
@@ -171,18 +171,6 @@ body-class: page-fed-agencies
     <td>Special Publications in the 800 series (established in 1990) are of general interest to the computer security community. This series reports on ITL’s research, guidelines, and outreach efforts in computer security, and its collaborative activities with industry, government, and academic organizations.</td>
     <td></td>
     <td>N/A</td>
-  </tr>
-  <tr>
-    <td><a href="http://csrc.nist.gov/publications/PubsFIPS.html">Federal Information Processing Standard (FIPS)</a></td>
-    <td>Federal Information Processing Standards Publications (FIPS PUBS) are issued by NIST after approval by the Secretary of Commerce pursuant to the Federal Information Security Management Act (FISMA) of 2002.</td>
-    <td></td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.whitehouse.gov/omb/circulars_a130_a130trans4/">Office of Management and Budget (OMB) A-130</a></td>
-    <td>This Circular establishes policy for the management of Federal information resources. OMB includes procedural and analytic guidelines for implementing specific aspects of these policies as appendices.</td>
-    <td></td>
-    <td>11/28/2000</td>
   </tr>
 </table>
 
