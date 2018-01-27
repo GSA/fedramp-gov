@@ -9,6 +9,7 @@ footer {
 
 .usa-footer-secondary_section {
   background-color: $footer-secondary-background-color;
+  padding: 60px 0;
 }
 
 footer p,
@@ -35,7 +36,23 @@ footer a:visited {
 	img {
 		margin: 0 auto;
 		float: none;
+		max-width: 100px;
 	}
+}
+
+form#contact p, address p, .footer-social p {
+	font-weight: bold;
+}
+
+.footer-social, address {
+	margin: 20px 0 0 0;
+p {
+	margin: 0 0 5px 0;
+}
+}
+
+address p:last-of-type, address p {
+	margin: 0;
 }
 
 .usa-grid {
@@ -52,6 +69,7 @@ footer a:visited {
 
 .newsletter-footer {
 	float: left;
+	margin: 0;
 	width: 31%;
 	input {
 		margin: 15px auto 0 auto;
@@ -81,6 +99,7 @@ footer a:visited {
 }
 .usa-footer-contact-links {
 	text-align: center;
+	padding: 20px 0 0 0;
 }	
 }
 
