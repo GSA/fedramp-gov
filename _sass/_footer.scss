@@ -1,6 +1,9 @@
 footer {
 	float: left;
 	width: 100%;
+	p {
+		color: $dark-blue !important;
+	}
 }
 
 .usa-footer-primary-section {
@@ -48,7 +51,15 @@ form#contact p, address p, .footer-social p {
 	margin: 20px 0 0 0;
 p {
 	margin: 0 0 5px 0;
+	color: $dark-blue;
 }
+a {
+	color: $light-blue !important;
+}
+}
+
+.footer-social a.usa-link-twitter img {
+	fill: $light-blue;
 }
 
 address p:last-of-type, address p {
@@ -106,6 +117,7 @@ address p:last-of-type, address p {
 .usa-footer-secondary_section .footer-social a {
 	margin: 0 auto;
 	position: static; 
+	color: $light-blue !important;
 }
 
 .copyright {
