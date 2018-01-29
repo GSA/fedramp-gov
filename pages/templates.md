@@ -29,7 +29,6 @@ body-class: page-fed-agencies
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    
     <td>6/6/2017</td>
   </tr>
   <tr>
@@ -44,7 +43,6 @@ body-class: page-fed-agencies
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    
     <td>3/9/2017</td>
   </tr>
   <tr>
@@ -278,6 +276,8 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td> 
+  <td>1/31/2018</td>
+  </tr>
  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
     <td>The FedRAMP FIPS-199 Categorization Change Form Template is used to capture a system categorization change request from a FedRAMP Moderate system to a FedRAMP High System and the supporting details surrounding the requested system change. </td>
