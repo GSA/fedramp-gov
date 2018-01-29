@@ -17,7 +17,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf">Security Assessment Framework</a></td>
-    <td>This document describes a general Security Assessment Framework (SAF) for the Federal Risk and Authorization Management Program (FedRAMP).  This document details the security assessment process CSPs must use to achieve compliance with FedRAMP.  This document is intended for Cloud Service Providers (CSPs), Independent Assessors (3PAOs), government agencies and contractors working on FedRAMP projects, and any outside organizations that want to use or understand the FedRAMP assessment process.</td>
+    <td>This document describes a general Security Assessment Framework (SAF) for FedRAMP.  This document details the security assessment process CSPs must use to achieve compliance with FedRAMP.  This document is intended for Cloud Service Providers (CSPs), Independent Assessors (3PAOs), Agencies and contractors working on FedRAMP projects, and any outside organizations that want to use or understand the FedRAMP assessment process.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -49,7 +49,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></td>
-    <td>This memorandum: 1) establishes Federal policy for the protection of Federal information in cloud services; 2) Describes the key components of FedRAMP and its operational capabilities; 3) Defines Executive department and agency responsibilities in developing, implementing, operating, and maintaining FedRAMP; and 4) Defines the requirements for Executive departments and agencies using FedRAMP in the acquisition of cloud services.</td>
+    <td>This memorandum: 1) establishes Federal policy for the protection of Federal information in cloud services; 2) describes the key components of FedRAMP and its operational capabilities; 3) defines Executive department and Agency responsibilities in developing, implementing, operating, and maintaining FedRAMP; and 4) defines the requirements for Executive departments and Agencies using FedRAMP in the acquisition of cloud services.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -57,7 +57,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">Joint Authorization Board Charter</a></td>
-    <td>The purpose of this Charter is to define the authority, objectives, membership, roles and responsibilities, meeting schedule, decision making requirements, and establishment of committees for the Federal Risk and Authorization Management Program (FedRAMP) Joint Authorization Board (JAB) in accordance with OMB Memo "Security Authorizations of Information Systems in Cloud Computing Environments."</td>
+    <td>The purpose of this Charter is to define the authority, objectives, membership, roles and responsibilities, meeting schedule, decision making requirements, and establishment of committees for the FedRAMP Joint Authorization Board (JAB) in accordance with OMB Memo "Security Authorizations of Information Systems in Cloud Computing Environments."</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -74,8 +74,7 @@ body-class: page-fed-agencies
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></td>
     <td>This document provides guidelines on the use of the FedRAMP name, logo, and marks on all FedRAMP marketing and collateral materials. General guidelines are provided first, followed by more specific guidelines for the two major uses of FedRAMP marks:
-Designation of FedRAMP 3PAO accreditation
-FedRAMP Security Authorization</td>
+Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -86,7 +85,7 @@ FedRAMP Security Authorization</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization - Best Practices for CSPs</a></td>
-    <td>Geared towards CSPs interested in or beginning the Agency Authorization process, this document helps CSPs understand how to partner with an agency and engage with the PMO during the authorization process.</td>
+    <td>Geared towards CSPs interested in or beginning the Agency Authorization process, this document helps CSPs understand how to partner with an Agency and engage with the PMO during the authorization process.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -225,7 +224,7 @@ FedRAMP Security Authorization</td>
   </tr>
   <tr>
     <td><a href="#">Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</a></td>
-    <td> This document provides a summary review of the roles and responsibilities of the Agency, CSP, and FedRAMP PMO during the agency authorization process.</td>
+    <td> This document provides a summary review of the roles and responsibilities of the Agency, CSP, and FedRAMP PMO during the Agency authorization process.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -249,7 +248,7 @@ FedRAMP Security Authorization</td>
   </tr>
   <tr>
     <td><a href="#">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
-    <td>This FedRAMP Agency Authorization to Operate (ATO) guide is specific to U.S. Federal Departments and Agencies and provides guidance and the understanding required to authorize an agency’s application when reusing a FedRAMP-compliant cloud service provider. By reusing existing FedRAMP packages, agencies can reap significant financial savings and can implement new systems quickly and securely.</td>
+    <td>This FedRAMP Agency Authorization to Operate (ATO) guide is specific to U.S. Federal Departments and Agencies and provides guidance and the understanding required to authorize an Agency’s application when reusing a FedRAMP-compliant cloud service provider. By reusing existing FedRAMP packages, agencies can reap significant financial savings and can implement new systems quickly and securely.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -265,9 +264,9 @@ FedRAMP Security Authorization</td>
   </tr>
   <tr>
     <td><a href="#">Standard Contract Clauses</a></td>
-    <td>FedRAMP has developed a security contract clause template to assist federal agencies in procuring cloud-based services. This template should be reviewed by a Federal agency’s Office of General Counsel (OGC) to ensure it meets all agency requirements, and then incorporated into the security assessment section of a solicitation. The clauses cover FedRAMP requirements for areas like the security assessment process and related ongoing assessment and authorization. The template also provides basic security requirements identifying Cloud Service Provider responsibilities for privacy and security, protection of government data, personnel background screening and security deliverables with associated frequencies.
+    <td>FedRAMP has developed a security contract clause template to assist Federal Agencies in procuring cloud-based services. This template should be reviewed by a Federal agency’s Office of General Counsel (OGC) to ensure it meets all Agency requirements, and then incorporated into the security assessment section of a solicitation. The clauses cover FedRAMP requirements for areas like the security assessment process and related ongoing assessment and authorization. The template also provides basic security requirements identifying Cloud Service Provider responsibilities for privacy and security, protection of government data, personnel background screening and security deliverables with associated frequencies.
     
-The FedRAMP process discretely identifies some security control implementations as either the consumer’s responsibility to implement or as a shared responsibility between provider and consumer. Consumer responsibility controls are incumbent upon the agency to implement and agencies are advised to consider security responsibilities in their program planning. Federal agencies must still make a risk-based decision about the applicability of storing and using Federal data in an information system. Ultimately, the security clauses are templates; they should be reviewed against mission requirements and tailored if agency policy warrants modification.</td>
+The FedRAMP process discretely identifies some security control implementations as either the consumer’s responsibility to implement or as a shared responsibility between provider and consumer. Consumer responsibility controls are incumbent upon the agency to implement and agencies are advised to consider security responsibilities in their program planning. Federal Agencies must still make a risk-based decision about the applicability of storing and using Federal data in an information system. Ultimately, the security clauses are templates; they should be reviewed against mission requirements and tailored if Agency policy warrants modification.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -275,7 +274,7 @@ The FedRAMP process discretely identifies some security control implementations 
   </tr>
   <tr>
     <td><a href="#">Control Specific Clauses</a></td>
-    <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP office suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
+    <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern Agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP office suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>

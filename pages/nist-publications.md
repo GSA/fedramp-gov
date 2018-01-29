@@ -170,7 +170,7 @@ body-class: page-fed-agencies
     <td><a href="http://csrc.nist.gov/publications/PubsSPs.html">National Institute of Standards and Technology (NIST) Special Publications</a></td>
     <td>Special Publications in the 800 series (established in 1990) are of general interest to the computer security community. This series reports on ITL’s research, guidelines, and outreach efforts in computer security, and its collaborative activities with industry, government, and academic organizations.</td>
     <td><a class="icon-link" href="http://csrc.nist.gov/publications/PubsSPs.html"><i class="fas fa-globe"></i>
-    <p class="icon-text">PDF</p></a></td>
+    <p class="icon-text">WEB</p></a></td>
     <td>N/A</td>
   </tr>
 </table>
