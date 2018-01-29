@@ -271,7 +271,7 @@ body-class: page-fed-agencies
     <td>1/11/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Continuous Monitoring Monthly Executive Summary Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a></td>
     <td>This form provides the JAB reviewers and PMO with an executive summary of the monthly continuous monitoring submission from a CSP. It should detail all files that should be reviewed with that submission. It should be filled out and submitted with every monthly continuous monitoring submission by the CSP or their 3PAO.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
