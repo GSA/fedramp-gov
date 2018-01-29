@@ -265,14 +265,20 @@ body-class: page-fed-agencies
     <td>1/11/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc">FedRAMP Significant Change Form Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">FedRAMP Significant Change Form Template</a></td>
     <td>This document was developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199. It can be used to request a significant change within an existing ATO. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>1/11/2018</td>
   </tr>
   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Continuous Monitoring Monthly Executive Summary template</a></td>
+    <td>TThis form provides the JAB reviewers and PMO with an executive summary of the monthly continuous monitoring submission from a CSP. It should detail all files that should be reviewed with that submission. It should be filled out and submitted with every monthly continuous monitoring submission by the CSP or their 3PAO.</td>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"><i class="fas fa-file-excel"></i>
+<p class="icon-text">EXCEL</p></a>
+</td> 
+ <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
     <td>The FedRAMP FIPS-199 Categorization Change Form Template is used to capture a system categorization change request from a FedRAMP Moderate system to a FedRAMP High System and the supporting details surrounding the requested system change. </td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx"><i class="fas fa-file-word"></i>
