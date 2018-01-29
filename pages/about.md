@@ -28,7 +28,7 @@ body-class: about-us
 </div>
 </section>
 <section id="fedramp-numbers">
-<h2>FedRAMP By the Numbers</h2> 
+<h2>FedRAMP by the Numbers</h2> 
 <div class="image-container">
 <div class="column-1">
 <img class="one" src="{{site.baseurl}}/assets/img/fedramp_number01.png">
