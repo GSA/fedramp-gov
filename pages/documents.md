@@ -101,23 +101,23 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">JAB P-ATO Prioritization Criteria</a></td>
-    <td>This document defines the criteria by which Cloud Service Providers (CSPs) would prioritize to work with the Joint Authorization Board (JAB) for a provisional authorization. This Prioritization Criteria is intended to be a living document, and the JAB will review it on a regular basis, updating it as needed to reflect the most current priorities.</td>
+    <td>This document defines the criteria by which CSPs are prioritized to work with the JAB for aP-ATO. This Prioritization Criteria is intended to be a living document, and the JAB will review it on a regular basis, updating it as needed to reflect current priorities.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">JAB Prioritization Guidance</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Guidance.pdf">JAB Prioritization Guidance</a></td>
     <td>The purpose of this document is to outline the changes the FedRAMP PMO has made to the JAB Prioritization Process and Business Case for FedRAMP Connect. We ask that CSPs review this document in its entirety before beginning their submission.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/29/2017</td>
   </tr>
   <tr>
     <td><a href="#">Digital Identity Requirements</a></td>
-    <td>This document has been developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets the FedRAMP requirements. FedRAMP is following the NIST guidance and this document describes how FedRAMP intends to implement it.</td>
+    <td>This document has been developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets FedRAMP requirements. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -125,7 +125,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="#">Transport Layer Security (TLS) Requirements</a></td>
-    <td>This document summarizes the National Institute of Standards and Technology (NIST) and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS)  protocols and restrict the use of older protocols. FedRAMP is following the NIST guidance and this document describes how FedRAMP intends to implement it. </td>
+    <td>This document summarizes NIST and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS) protocols and restrict the use of older protocols. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -133,7 +133,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></td>
-    <td>This document outlines the timeliness and accuracy of testing requirements for evidence associated with an authorization package prior to a Cloud Service Provider (CSP) entering the FedRAMP Joint Authorization Board (JAB) Provisional Authorization to Operate (P-ATO) process. </td>
+    <td>This document outlines the timeliness and accuracy of testing requirements for evidence associated with an authorization package prior to a CSP entering the FedRAMP JAB P-ATO process. </td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -141,7 +141,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf">JAB P-ATO Vulnerability Scan Requirements Guide</a></td>
-    <td>This guide describes the requirements for all vulnerability scans of FedRAMP Cloud Service Provider’s (CSP) systems for Joint Authorization Board (JAB) Provisional Authorizations (PATOs).</td>
+    <td>This guide describes the requirements for all vulnerability scans of FedRAMP CSP's systems for JAB P-ATOs.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
