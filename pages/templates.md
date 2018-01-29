@@ -303,7 +303,6 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-
     <td>11/14/2017</td>
   </tr>
   <tr>
