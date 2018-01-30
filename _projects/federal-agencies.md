@@ -40,7 +40,7 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <li>Determine if the CSP needs to meet additional requirements for Agency mission/business needs </li>
 <li>Approve the CSP package for authorization</li>
 <li>Issue an ATO for the CSP service/system</li>
-<li>Send the ATO letter to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a></p></li>
+<li>Send the ATO letter to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a></li>
 </ul>
 
 <p>If an Agency is working with a CSP who is not yet FedRAMP Authorized, they will perform the initial authorization for the CSO. An Agency should first communicate their partnership with FedRAMP in accordance with our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">In Process Requirements</a>. The authorization process begins with a kick-off discussion among all stakeholders. Following kick-off, the CSP and assessor begin system vulnerability testing of the cloud service offering and consolidate security documentation within the security authorization package. An Agency’s role in authorization is to:</p>
@@ -48,10 +48,10 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <li>Maintain open communication with the CSP and independent assessor to provide clarity and answer questions regarding specific security control requirements</li>
 <li>Review the CSP security authorization package, which includes:
 <ul>
-    <li> **System Security Plan (SSP)** detailing the CSP’s system security environment</li>
-    <li> **System Assessment Plan (SAP)** detailing the independent assessor's approach for vulnerability testing of the CSP’s system</li>
-    <li> **System Assessment Report (SAR)** detailing the independent assessor’s findings and recommendations pursuant to performance of the SAP</li>
-    <li> **Plan of Actions and Milestones (POA&M)** detailing the CSP's and independent assessor’s approach to addressing or identifying system vulnerabilities as well as the approach to continuous monitoring of the system</li>
+    <li><strong>System Security Plan (SSP)</strong> detailing the CSP’s system security environment</li>
+    <li><strong>System Assessment Plan (SAP)</strong> detailing the independent assessor's approach for vulnerability testing of the CSP’s system</li>
+    <li><strong>System Assessment Report (SAR)</strong> detailing the independent assessor’s findings and recommendations pursuant to performance of the SAP</li>
+    <li><strong>Plan of Actions and Milestones (POA&M)</strong> detailing the CSP's and independent assessor’s approach to addressing or identifying system vulnerabilities as well as the approach to continuous monitoring of the system</li>
     </ul></li>
 <li>Direct the CSP for remediation of security vulnerabilities identified in the SAR, as needed</li>
 <li>Perform final review of a security authorization package, with a focus toward understanding the risk posture the Agency must accept by using the cloud service</li>

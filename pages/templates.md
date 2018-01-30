@@ -145,7 +145,7 @@ body-class: page-fed-agencies
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-2">Assess: Security Assessment Plan (SAP)</td>
+    <td colspan="4" class="th-3">Assess: Security Assessment Plan (SAP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Security Assessment Plan (SAP) Template</a></td>
