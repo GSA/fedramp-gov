@@ -126,7 +126,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
     <td>This document summarizes NIST and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS) protocols and restrict the use of older protocols. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf""><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>1/31/2018</td>
