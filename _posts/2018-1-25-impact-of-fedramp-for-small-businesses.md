@@ -1,3 +1,4 @@
+---
 title: Impact of FedRAMP for Small Businesses
 permalink: /impact-of-fedramp-for-small-businesses/
 body-class: page-blog

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Get Authorized- Agency Authorization
+title: Get Authorized&#58; Agency Authorization
 permalink: /agency-authorization/
 body-class: page-fed-agencies
 ---

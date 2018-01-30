@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Get Authorized- Joint Authorization Board
+title: Get Authorized&#58; Joint Authorization Board
 permalink: /jab-authorization/
 body-class: page-fed-agencies
 ---
