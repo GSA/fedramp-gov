@@ -29,7 +29,6 @@ body-class: page-fed-agencies
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    
     <td>6/6/2017</td>
   </tr>
   <tr>
@@ -40,11 +39,10 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a></td>
-    <td>The FedRAMP Initial Authorization Package Checklist details the documents required for a complete FedRAMP initial authorization package. CSPs must submit this checklist along with their complete package so that the FedRAMP PMO can verify complete package documentation has been submitted prior to conducting reviews.</td>
+    <td>This checklist details the documents required for a complete FedRAMP initial authorization package. CSPs must submit this checklist along with their authorization package so that the FedRAMP PMO can verify their package is complete prior to conducting reviews.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    
     <td>3/9/2017</td>
   </tr>
   <tr>
@@ -100,7 +98,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A06-FedRAMP-ISCP-Template.docx">SSP ATTACHMENT 6 - FedRAMP Information System Contingency Plan (ISCP) Template</a></td>
-    <td>This is the template which supports the Information System Contingency Plan (ISCP) requirements for the Federal Risk and Authorization Management Program (FedRAMP). An Information System Contingency Plan denotes interim measures to recover information system services following an unprecedented emergency or system disruption. Interim measures include the relocation of information systems and services to an alternate site or the recovery of information system functions using alternate equipment at the primary site.</td>
+    <td>This template supports the ISCP requirements for FedRAMP. An ISCP denotes interim measures to recover information system services following an unprecedented emergency or system disruption.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A06-FedRAMP-ISCP-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
@@ -116,7 +114,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP Low or Moderate Control Implementation Summary (CIS) Workbook Template</a></td>
-    <td>The FedRAMP Low or Moderate CIS Workbook Template delineates the control responsibilities of CSPs and a Federal Agencies and provides a summary of all required controls and enhancements across the system.</td>
+    <td>The FedRAMP Low or Moderate CIS Workbook Template delineates the control responsibilities of CSPs and Federal Agencies and provides a summary of all required controls and enhancements across the system.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
@@ -132,7 +130,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx">SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template</a></td>
-    <td>The FedRAMP Law and Regulations Template provides a single source for applicable FedRAMP laws, regulations, standards, and guidance.</td>
+    <td>The FedRAMP Laws and Regulations Template provides a single source for applicable FedRAMP laws, regulations, standards, and guidance.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
@@ -140,7 +138,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx">SSP ATTACHMENT 13 - FedRAMP Integrated Inventory Workbook Template</a></td>
-    <td>The FedRAMP Integrated Inventory Workbook Template consolidates all of the inventory information previously required in five FedRAMP templates that included the: SSP, ISCP, SAP, SAR, and POA&M.</td>
+    <td>The FedRAMP Integrated Inventory Workbook Template consolidates all of the inventory information previously required in five FedRAMP templates that included the SSP, ISCP, SAP, SAR, and POA&M.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
@@ -185,7 +183,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx">FedRAMP Security Assessment Report (SAR) Template</a></td>
-    <td>The FedRAMP SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of, and compliance with system-specific, FedRAMP required baseline security controls.</td>
+    <td>The FedRAMP SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of and compliance with system-specific, baseline security controls required by FedRAMP.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>    
@@ -211,7 +209,7 @@ body-class: page-fed-agencies
     <td>3/9/2017</td>
   </tr>
   <tr>
-    <td colspan="4" class="th-3">Authorize: Authorization to Operate (ATO) Letter</td>
+    <td colspan="4" class="th-3">Authorize: Authority to Operate (ATO) Letter</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></td>
@@ -223,7 +221,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></td>
-    <td>The FedRAMP ATO Letter Template is optional for agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
+    <td>The FedRAMP ATO Letter Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
@@ -233,24 +231,24 @@ body-class: page-fed-agencies
     <td colspan="4" class="th-2">Continuous Monitoring Phase</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></td>
     <td>The FedRAMP Annual SAP Template is intended for 3PAOs to plan a cloud system’s annual assessment and constitutes as a plan for testing once completed.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAP-Template.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
-    <td>The FedRAMP Annual SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of, and compliance with system-specific, FedRAMP required baseline security controls. The template is intended for 3PAOs to report annual security assessment findings for CSPs.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx"><i class="fas fa-file-word"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annnual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
+    <td>The FedRAMP Annual SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of and compliance with system-specific, baseline security controls required by FedRAMP. The template is intended for 3PAOs to report annual security assessment findings for CSPs.</td>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
-    <td>The FedRAMP CSO or Feature Onboarding Request Template is used to capture an accredited 3PAO assessment and attestation for onboarding a service or feature to an existing CSP’s system.</td>
+    <td>The FedRAMP CSO or Feature Onboarding Request Template is used to capture an accredited 3PAO's assessment and attestation for onboarding a service or feature to an existing CSP’s system.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
@@ -273,6 +271,14 @@ body-class: page-fed-agencies
     <td>1/11/2018</td>
   </tr>
   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a></td>
+    <td>This form provides the JAB reviewers and PMO with an executive summary of the monthly continuous monitoring submission from a CSP. It should detail all files that should be reviewed with that submission. It should be filled out and submitted with every monthly continuous monitoring submission by the CSP or their 3PAO.</td>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx"><i class="fas fa-file-excel"></i>
+<p class="icon-text">EXCEL</p></a>
+</td> 
+  <td>1/31/2018</td>
+  </tr>
+ <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
     <td>The FedRAMP FIPS-199 Categorization Change Form Template is used to capture a system categorization change request from a FedRAMP Moderate system to a FedRAMP High System and the supporting details surrounding the requested system change. </td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx"><i class="fas fa-file-word"></i>
@@ -293,24 +299,23 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
-    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the Low Impact-Software as a Service (LI-SaaS) Baseline controls that Cloud Service Providers (CSPs) must address.</td>
+    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the LI-SaaS Baseline controls that CSPs must address.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-
     <td>11/14/2017</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx">APPENDIX B - FedRAMP Tailored LI-SaaS Template</a></td>
-    <td>Appendix B: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Framework Template shows Cloud Service Providers (CSPs) how to describe the security risk posture of their cloud-based SaaS application, based on the FedRAMP Tailored LI-SaaS security control baseline.</td>
+    <td>Appendix B: FedRAMP Tailored LI-SaaS Framework Template shows CSPs how to describe the security risk posture of their cloud-based SaaS application, based on the FedRAMP Tailored LI-SaaS security control baseline.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>11/14/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx">APPENDIX C - FedRAMP Tailored LI - ATO Letter Template</a></td>
-    <td>Appendix C: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) ATO Letter Template is a resource for agencies to use when granting authorizations for Cloud Service Offerings (CSOs) that meet the FedRAMP LI-SaaS requirements.</td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx">APPENDIX C - FedRAMP Tailored LI-SaaS ATO Letter Template</a></td>
+    <td>Appendix C: FedRAMP Tailored LI-SaaS ATO Letter Template is a resource for Agencies to use when granting authorizations for CSOs that meet the FedRAMP LI-SaaS requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
@@ -318,7 +323,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-D-FedRAMP-Tailored-LI-SaaS-Continuous-Monitoring-Guide.docx">APPENDIX D - FedRAMP Tailored LI - SaaS Continuous Monitoring Guide</a></td>
-    <td>Appendix D: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Continuous Monitoring Guide provides guidance on continuous monitoring (ConMon) and ongoing authorization to maintain a security authorization that meets the FedRAMP Tailored LI-SaaS requirements.</td>
+    <td>Appendix D: FedRAMP Tailored LI-SaaS Continuous Monitoring Guide provides guidance on continuous monitoring and ongoing authorization to maintain a security authorization that meets the FedRAMP Tailored LI-SaaS requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-D-FedRAMP-Tailored-LI-SaaS-Continuous-Monitoring-Guide.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
@@ -326,7 +331,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-E-FedRAMP-Tailored-LI-SaaS-Self-Attestation-Requirements.docx">APPENDIX E - FedRAMP Tailored LI - SaaS Self-Attestation Requirements</a></td>
-    <td>Appendix E: FedRAMP Tailored Low Impact Software as a Service (LI-SaaS) Self-Attestation Requirements provides the system requirements that the Cloud Service Provider (CSP) must attest to for their Cloud Service Offering (CSO).</td>
+    <td>Appendix E: FedRAMP Tailored LI-SaaS Self-Attestation Requirements provides the system requirements that the CSP must attest to for their CSO.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-E-FedRAMP-Tailored-LI-SaaS-Self-Attestation-Requirements.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
