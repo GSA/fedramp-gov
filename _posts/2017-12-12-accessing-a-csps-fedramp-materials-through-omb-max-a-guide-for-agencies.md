@@ -14,9 +14,9 @@ Registration for OMB MAX can be completed at https://omb.max.gov. Agency employe
 
 All FedRAMP authorized CSPs are required to upload their FedRAMP security package, including monthly continuous monitoring updates, to OMB MAX. Furthermore, CSPs are required to ensure this information is kept up to date. FedRAMP security packages will include artifacts such as:
 
-⋅⋅* System Security Plan
-⋅⋅* Plan of Actions and Milestones (POA&M)
-⋅⋅* Security Assessment Report
+* System Security Plan
+* Plan of Actions and Milestones (POA&M)
+* Security Assessment Report
 
 The full list of artifacts that must be included in the FedRAMP security package can be viewed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a>.
 
