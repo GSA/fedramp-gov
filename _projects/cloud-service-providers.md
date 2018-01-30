@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Cloud Service Providers
-description: Providers offering services to federal agencies must meet FedRAMP requirements.
+description: FedRAMP authorized vendors offer cloud services that allow Federal Agencies to securely and quickly meet their mission needs. 
 permalink: /cloud-service-providers/
 tags: project
 image: 

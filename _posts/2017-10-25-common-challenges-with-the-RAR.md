@@ -3,7 +3,7 @@ title: Common Challenges with the Readiness Assessment Report
 layout: blog-page
 permalink: /common-challenges-with-the-RAR/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/Blog_10252017.png
 author: FedRAMP
 ---
 

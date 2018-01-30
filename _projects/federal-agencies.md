@@ -3,7 +3,7 @@ layout: page
 title: Federal Agencies
 permalink: /federal-agencies/
 body-class: page-fed-agencies
-description: Federal Agencies looking to leverage the "do once, use many times" approach to FedRAMP to save time and money.
+description: Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs.
 tags: project
 image: 
 icon: /assets/img/project-images/fedagency-icon.png
@@ -12,7 +12,7 @@ abstract:
 
 In a constantly changing IT landscape, the migration of on-premise technologies to the cloud has only increased. Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs. Agencies are required by law to protect any federal information that is collected, maintained, processed, disseminated, or disposed of by cloud service offerings, in accordance with <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP requirements</a>. 
 
-FedRAMP is a unique government program that is at the epicenter of cloud technology, cybersecurity, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct agency security assessments. FedRAMP maintains a [Marketplace](https://marketplace.fedramp.gov/#/products) of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for FedRAMP Authorized vendors.
+FedRAMP is a unique government program that is at the epicenter of cloud technology, cybersecurity, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct Agency security assessments. FedRAMP maintains a [Marketplace](https://marketplace.fedramp.gov/#/products) of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for FedRAMP Authorized vendors.
 
 
 ## FedRAMP Authorization: An Agency’s Perspective  

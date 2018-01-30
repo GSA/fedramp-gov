@@ -74,7 +74,7 @@ footer:
     facebook:
     youtube:
     rss:
-  text: General Services Administration 1800 F Street NW Washington, DC 20006
+  text: General Services Administration 1800 F Street, NW, Washington, DC 20006
 
 # Build settings
 markdown: kramdown

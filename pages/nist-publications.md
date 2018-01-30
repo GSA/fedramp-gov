@@ -70,7 +70,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final">Appendices to Guide for Mapping Types of Information and Information Systems to Security Categories (SP 800-60 Revision 1, Volume 2)</a></td>
-    <td>SP 800-60 Rev. 1, Vol. 2 explains the appendices contained in Volume I include security categorization recommendations and rationale for mission-based and management and support information types.</td>
+    <td>SP 800-60 Rev. 1, Vol. 2 explains the appendices contained in Volume I, including security categorization recommendations and rationale for mission-based and management and support information types.</td>
 <td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final"><i class="fas fa-globe"></i>
 <p class="icon-text">WEB</p></a>
 </td>
@@ -117,19 +117,25 @@ body-class: page-fed-agencies
     <td>9/2008</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf">Guide to Protecting the Confidentiality of Personally Identifiable Information (PII) (SP 800-122)</a></td>
+<<<<<<< HEAD
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-122/final">Guide to Protecting the Confidentiality of Personally Identifiable Information (PII) (SP 800-122)</a></td>
     <td>The purpose of this document is to assist Federal agencies in protecting the confidentiality of personally identifiable information (PII) in information systems. The document explains the importance of protecting the confidentiality of PII in the context of information security and explains its relationship to privacy using the the Fair Information Practices, which are the principles underlying most privacy laws and privacy best practices.</td>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-122/fina"><i class="fas fa-file-pdf"></i>
+=======
+    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf">Guide to Protecting the Confidentiality of Personally Identifiable Information (PII) (SP 800-122)</a></td>
+    <td>The purpose of this document is to assist Federal Agencies in protecting the confidentiality of personally identifiable information (PII) in information systems. The document explains the importance of protecting the confidentiality of PII in the context of information security and explains its relationship to privacy using the the Fair Information Practices, which are the principles underlying most privacy laws and privacy best practices.</td>
 <td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf"><i class="fas fa-file-pdf"></i>
+>>>>>>> a83893b2bf60cb4211b64e4f13b923592f192e2f
 <p class="icon-text">PDF</p></a>
 </td>
     <td>4/2010</td>
   </tr>
   <tr>
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-128/sp800-128.pdf">Guide for Security-Focused Configuration Management of Information Systems
+    <td><a href="https://csrc.nist.gov/publications/detail/sp/800-128/final">Guide for Security-Focused Configuration Management of Information Systems
 (SP 800-128)</a>
 </td>
     <td>The purpose of Special Publication 800-128, Guide for Security-Focused Configuration Management of Information Systems, is to provide guidelines for organizations responsible for managing and administering the security of federal information systems and associated environments of operation. Configuration management concepts and principles described in NIST SP 800-128, provide supporting information for NIST SP 800-53, Recommended Security Controls for Federal Information Systems and Organizations.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-128/sp800-128.pdf"><i class="fas fa-file-pdf"></i>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-128/final"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
     <td>8/12/2011</td>
@@ -152,7 +158,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">Federal Information Processing Standard (FIPS) 200 (Minimum Security Requirements for Federal Information and Information Systems)</a></td>
-    <td>FIPS 200 are the minimum security requirements for Federal information and information systems.</td>
+    <td>FIPS 200 are the minimum security requirements for federal information and information systems.</td>
 <td><a class="icon-link" href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
@@ -160,7 +166,7 @@ body-class: page-fed-agencies
   </tr>
   <tr>
     <td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf">Federal Information Processing Standard (FIPS) 201 (Personal Identity Verification (PIV) of Federal Employees and Contractors)</a></td>
-    <td>FIPS 201 is a standard that specifies Personal Identity Verification (PIV) requirements for Federal employees and contractors.</td>
+    <td>FIPS 201 is a standard that specifies Personal Identity Verification (PIV) requirements for federal employees and contractors.</td>
 <td><a class="icon-link" href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.201-2.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
