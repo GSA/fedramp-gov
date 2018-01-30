@@ -113,11 +113,11 @@ section#about {
 	max-width: 1200px;
 	width: 100%;
 	padding: 60px 0;
-	}
 	&:after {
 	content: '';
 	clear: both;
 	display: table;
+	}
 	}
 }
 
@@ -137,6 +137,7 @@ section#fedramp-numbers {
 	display: table;
 	}
 }
+
 section#fedramp-mission {
 	width: 100%;
 	padding: 60px 0;
@@ -164,7 +165,7 @@ section#fedramp-mission {
 		}
 	}
 }
-}
+
 
 
 .about-us #about .image-container {
