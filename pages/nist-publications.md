@@ -117,16 +117,10 @@ body-class: page-fed-agencies
     <td>9/2008</td>
   </tr>
   <tr>
-<<<<<<< HEAD
     <td><a href="https://csrc.nist.gov/publications/detail/sp/800-122/final">Guide to Protecting the Confidentiality of Personally Identifiable Information (PII) (SP 800-122)</a></td>
     <td>The purpose of this document is to assist Federal agencies in protecting the confidentiality of personally identifiable information (PII) in information systems. The document explains the importance of protecting the confidentiality of PII in the context of information security and explains its relationship to privacy using the the Fair Information Practices, which are the principles underlying most privacy laws and privacy best practices.</td>
-<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-122/fina"><i class="fas fa-file-pdf"></i>
-=======
-    <td><a href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf">Guide to Protecting the Confidentiality of Personally Identifiable Information (PII) (SP 800-122)</a></td>
-    <td>The purpose of this document is to assist Federal Agencies in protecting the confidentiality of personally identifiable information (PII) in information systems. The document explains the importance of protecting the confidentiality of PII in the context of information security and explains its relationship to privacy using the the Fair Information Practices, which are the principles underlying most privacy laws and privacy best practices.</td>
-<td><a class="icon-link" href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf"><i class="fas fa-file-pdf"></i>
->>>>>>> a83893b2bf60cb4211b64e4f13b923592f192e2f
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="https://csrc.nist.gov/publications/detail/sp/800-122/final"><i class="fas fa-globe"></i>
+<p class="icon-text">WEB</p></a>
 </td>
     <td>4/2010</td>
   </tr>
