@@ -3,6 +3,7 @@ title: Introducing the New Agency Authorization Playbook
 layout: blog-page
 permalink: /introducing-the-new-agency-authorization-playbook/
 body-class: page-blog
+author: FedRAMP
 image: /assets/img/blog-images/Blog_11212017.png
 
 ---
