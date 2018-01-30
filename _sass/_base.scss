@@ -113,7 +113,12 @@ section#about {
 	max-width: 1200px;
 	width: 100%;
 	padding: 60px 0;
-	@include clearfix;
+	}
+	&:after {
+	content: '';
+	clear: both;
+	display: table;
+	}
 }
 
 section#fedramp-numbers {
@@ -126,7 +131,11 @@ section#fedramp-numbers {
 		margin-top: 0;
 		text-align: center;
 	}
-	@include clearfix;
+	&:after {
+	content: '';
+	clear: both;
+	display: table;
+	}
 }
 section#fedramp-mission {
 	width: 100%;
