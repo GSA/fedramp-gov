@@ -116,20 +116,20 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/29/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Digital Identity Requirements</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></td>
     <td>This document has been developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets FedRAMP requirements. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>January TBD</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
-    <td><a href="#">Transport Layer Security (TLS) Requirements</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
     <td>This document summarizes NIST and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS) protocols and restrict the use of older protocols. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf""><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>January TBD</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></td>
@@ -161,23 +161,23 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>January TBD</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
-    <td><a href="#">Continuous Monitoring Strategy Guide</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></td>
     <td>This document provides guidance on continuous monitoring and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
-    <p class="icon-text">WORD</p></a>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
     </td>
-    <td>January TBD</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
-    <td><a href="#">Continuous Monitoring Performance Management Guide</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a></td>
     <td>This document replaces the P-ATO Management and Revocation Guide and explains the actions FedRAMP will take when a CSP fails to maintain an adequate risk management program. It lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP will take when a CSP fails to meet the requirements of the P-ATO. It also specifically addresses FedRAMP P-ATOs maintained by the JAB and enables FedRAMP to provide effective oversight of the CSP Continuous Monitoring programs.</td>
-   <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+   <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf"><i class="fas fa-file-pdf"></i>
    <p class="icon-text">PDF</p></a>
    </td>
-    <td>January TBD</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>

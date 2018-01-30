@@ -255,20 +255,20 @@ body-class: page-fed-agencies
     <td>6/16/2017</td>
   </tr>
   <tr>
-    <td><a href="#">FedRAMP Vulnerability Deviation Request Form</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">FedRAMP Vulnerability Deviation Request Form</a></td>
     <td>This form provides a standardized method to document deviation requests and is used to document Risk Adjustments, False Positives, and Operational Requirements.</td>
-<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf"><i class="fas fa-file-pdf"></i>
+<p class="icon-text">PDF</p></a>
 </td>
-    <td>1/11/2018</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc">FedRAMP Significant Change Form Template</a></td>
     <td>This document was developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199. It can be used to request a significant change within an existing ATO. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc"><i class="fas fa-file-pdf"></i>
+<p class="icon-text">PDF</p></a>
 </td>
-    <td>1/11/2018</td>
+    <td>1/31/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a></td>
