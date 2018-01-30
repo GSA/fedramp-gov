@@ -38,4 +38,4 @@ Organizations interested in becoming accredited FedRAMP 3PAOs must be reviewed b
 <section id="post-auth">
 
 <h3>Post Authorization</h3>
-<p>After an authorization has been granted, the cloud service enters continuous monitoring. 3PAOs perform annual testing as required by the CSP and the authorizing party.</p>
+<p>After an authorization has been granted, the cloud service enters continuous monitoring. 3PAOs perform annual testing as required by the CSP and the authorizing party. CSPs can also engage 3PAOs during the continuous monitoring phase to validate Deviation Requests, Significant Changes, and participate in or fully perform monthly assessments.</p>
