@@ -10,9 +10,9 @@ The first step for any Cloud Service Provider (CSP) interested in pursuing a Fed
 
 To decide which type of authorization is right for a particular CSO, the CSP should review both processes and take into account their system's impact level, deployment model, stack, and market demand.
 
-Below is a high level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the JAB P-ATO authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">here</a>.  
+Below is a high-level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the JAB P-ATO authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">here</a>.  
 
-### JAB P-ATO Authorization:
+### JAB P-ATO Authorization
 
 ![image alt text]({{site.baseurl}}/assets/img/ato-auth.png)
 
@@ -24,7 +24,7 @@ During the FedRAMP Connect process, CSOs are evaluated and prioritized to work w
 
 The JAB prioritizes six (6) vendors twice a year to work toward a JAB authorization. After a CSP is prioritized, it has 60 days to become FedRAMP Ready (if it isn’t already). Being prioritized to work with the JAB and being deemed FedRAMP Ready by the FedRAMP PMO is the first phase of the JAB Authorization Process depicted above. 
 
-To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 3PAO to complete a readiness assessment of its service offering. At the conclusion of the assessment, the 3PAO delivers a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">Readiness Assessment Report (RAR)</a> attesting to the CSO’s readiness for the authorization process. The RAR provides Agencies, CSPs, and the FedRAMP PMO with valuable early feedback on whether or not a CSO is likely to be successful in obtaining a FedRAMP authorization and has been a determining factor for CSPs to be chosen to work with the JAB. RARs are reviewed by the FedRAMP PMO within one business week of submission. Once deemed satisfactory by the PMO, the CSO will be designated FedRAMP Ready and advertised in the FedRAMP Marketplace.
+To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 3PAO to complete a readiness assessment of its service offering. At the conclusion of the assessment, the 3PAO delivers a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">Readiness Assessment Report (RAR)</a> attesting to the CSO’s readiness for the authorization process. The RAR provides Agencies, CSPs, and the FedRAMP PMO with valuable early feedback on whether or not a CSO is likely to be successful in obtaining a FedRAMP authorization and has been a determining factor for CSPs to be chosen to work with the JAB. RARs are reviewed by the FedRAMP PMO within one business week of submission. Once deemed satisfactory by the PMO, the CSO will be designated FedRAMP Ready and advertised in the <a href="https://marketplace.fedramp.gov/#/products">FedRAMP Marketplace.</a> 
 
 ### Phase 2: Full Security Assessment
 
@@ -40,5 +40,5 @@ If the kick-off results in a “go” decision, the JAB conducts an in-depth rev
 
 Once the JAB review is complete, the CSP and 3PAO remediate system and documentation issues as needed and ensure all JAB Reviewer comments are appropriately addressed. Once the JAB Reviewers have reviewed and validated the remediation efforts, the CSP will receive a P-ATO decision and formal authorization of their CSO from the FedRAMP PMO. 
 
-A JAB P-ATO is not a risk acceptance, but an assurance to Agencies that the risk posture of the system has been reviewed and approved by DoD, DHS, and GSA. Each Agency must review and issue their own ATO, which covers their Agency’s use of the cloud service.
+A JAB P-ATO is not a risk acceptance, but an assurance to Agencies that the risk posture of the system has been reviewed and approved by DoD, DHS, and GSA. Each Agency planning to use the CSO must then review and issue their own ATO, which covers their Agency’s use of the cloud service.
 
