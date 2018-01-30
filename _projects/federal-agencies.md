@@ -3,7 +3,7 @@ layout: page
 title: Federal Agencies
 permalink: /federal-agencies/
 body-class: page-fed-agencies
-description: Federal Agencies looking to leverage the "do once, use many times" approach to FedRAMP to save time and money.
+description: Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs.
 tags: project
 image: 
 icon: /assets/img/project-images/fedagency-icon.png
