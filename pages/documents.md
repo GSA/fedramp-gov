@@ -149,7 +149,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></td>
-    <td>The purpose of this document is to provide guidelines for organizations on planning and conducting Penetration Testing and analyzing and reporting on findings. A Penetration Test is a proactive and authorized exercise to evaluate the security of an IT system. The main objective of a Penetration Test is to determine exploitable security weaknesses in an information system. These vulnerabilities may include service and application flaws, improper configurations, and risky end-user behavior. A Penetration Test may also evaluate an organization’s security policy compliance, its employees’ security awareness, and the organization’s ability to identify and respond to security incidents.</td>
+    <td>The purpose of this document is to provide guidelines for organizations on planning and conducting Penetration Testing and analyzing and reporting on findings.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
@@ -173,15 +173,15 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td><a href="#">Continuous Monitoring Performance Management Guide</a></td>
-    <td>This document replaces the Provisional Authority to Operate (P-ATO) Management and Revocation Guide and explains the actions FedRAMP will take when a CSP fails to maintain an adequate risk management program. It lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP will take when a CSP fails to meet the requirements of the P-ATO. It also specifically addresses FedRAMP P-ATOs maintained by the JAB and enables FedRAMP to provide effective oversight of the CSP Continuous Monitoring programs.</td>
+    <td>This document replaces the P-ATO Management and Revocation Guide and explains the actions FedRAMP will take when a CSP fails to maintain an adequate risk management program. It lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP will take when a CSP fails to meet the requirements of the P-ATO. It also specifically addresses FedRAMP P-ATOs maintained by the JAB and enables FedRAMP to provide effective oversight of the CSP Continuous Monitoring programs.</td>
    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
    <p class="icon-text">PDF</p></a>
    </td>
     <td>January TBD</td>
   </tr>
   <tr>
-    <td><a href="#">Incident Communications Procedures</a></td>
-    <td>This document supports the Incident Communication Procedure for the Federal Risk and Authorization Management Program (FedRAMP). This Incident Communication Procedure outlines the measures to consider in order for all parties to effectively communicate during a security incident incurred by a FedRAMP authorized cloud service provider. The measures described herein include how the FedRAMP Information System Security Officer (ISSO) manages the incident communication process, and identifies who the Cloud Service Providers and federal departments and agencies should call to report an incident, when to contact the United States Computer Emergency Readiness Team (US-CERT) for assistance, and how to ensure that all incidents are communicated to the stakeholders.</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>
+    <td>This document supports the Incident Communication Procedure for FedRAMP. This Incident Communication Procedure outlines the measures to consider so all parties effectively communicate during a security incident incurred by a FedRAMP authorized CSP.</td>
     <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
@@ -215,17 +215,17 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>11/28/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Agency Authorization: Obtaining In Process Designation</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization: Obtaining In Process Designation</a></td>
     <td>This document provides guidance to agencies and CSPs on requirements for CSPs to be listed as “In Process” on the FedRAMP Marketplace.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>11/20/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</a></td>
     <td> This document provides a summary review of the roles and responsibilities of the Agency, CSP, and FedRAMP PMO during the Agency authorization process.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>10/12/2017</td>
@@ -247,9 +247,9 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
-    <td>This FedRAMP Agency Authorization to Operate (ATO) guide is specific to U.S. Federal Departments and Agencies and provides guidance and the understanding required to authorize an Agency’s application when reusing a FedRAMP-compliant cloud service provider. By reusing existing FedRAMP packages, agencies can reap significant financial savings and can implement new systems quickly and securely.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
+    <td>This document is specific to Federal Departments and Agencies and provides guidance and the understanding required to authorize an Agency’s application when reusing a FedRAMP-compliant cloud service.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf""><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
@@ -263,19 +263,17 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>9/26/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Standard Contract Clauses</a></td>
-    <td>FedRAMP has developed a security contract clause template to assist Federal Agencies in procuring cloud-based services. This template should be reviewed by a Federal agency’s Office of General Counsel (OGC) to ensure it meets all Agency requirements, and then incorporated into the security assessment section of a solicitation. The clauses cover FedRAMP requirements for areas like the security assessment process and related ongoing assessment and authorization. The template also provides basic security requirements identifying Cloud Service Provider responsibilities for privacy and security, protection of government data, personnel background screening and security deliverables with associated frequencies.
-    
-The FedRAMP process discretely identifies some security control implementations as either the consumer’s responsibility to implement or as a shared responsibility between provider and consumer. Consumer responsibility controls are incumbent upon the agency to implement and agencies are advised to consider security responsibilities in their program planning. Federal Agencies must still make a risk-based decision about the applicability of storing and using Federal data in an information system. Ultimately, the security clauses are templates; they should be reviewed against mission requirements and tailored if Agency policy warrants modification.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contract Clauses</a></td>
+    <td>FedRAMP has developed a security contract clause template to assist Federal Agencies in procuring cloud-based services. This template should be reviewed by an Agency’s Office of General Counsel (OGC) to ensure it meets all Agency requirements, and then incorporated into the security assessment section of a solicitation.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/27/2017</td>
   </tr>
   <tr>
-    <td><a href="#">Control Specific Clauses</a></td>
-    <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern Agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP office suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a></td>
+    <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern Agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP PMO suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
     <td>6/6/2017</td>
@@ -300,16 +298,16 @@ The FedRAMP process discretely identifies some security control implementations 
     <td>5/18/2017</td>
   </tr>
   <tr>
-    <td><a href="#">3PAO Obligations and Performance Guide</a></td>
-    <td>The Federal Risk and Authorization Management Program (FedRAMP) created a conformity assessment process to accredit Third-Party Assessment Organizations (3PAOs) to ensure that 3PAOs meet quality, independence, and knowledge requirements necessary to perform the independent security assessments required for FedRAMP. To maintain accreditation, 3PAOs must continue to demonstrate quality, independence, and FedRAMP knowledge as they perform security assessments on cloud systems.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-pdf"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></td>
+    <td>This document provides guidance for 3PAOs on demonstrating the quality, independence, and FedRAMP knowledge required as they perform security assessments on cloud systems.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a></td>
-    <td>The Federal Risk and Authorization Management Program (FedRAMP) created a guide for Third-Party Assessment Organizations (3PAOs) on how best to utilize the Readiness Assessment Report (RAR). This guide provides a shared understanding of the RAR’s intent, process, and best practices in service of improving the likelihood of 3PAOs successfully completing the RAR.</td>
+    <td>This document provides 3PAOs with guidance on how best to utilize the Readiness Assessment Report (RAR). It provides a shared understanding of the RAR’s intent, process, and best practices in service of improving the likelihood of 3PAOs successfully completing the RAR.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
