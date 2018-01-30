@@ -255,10 +255,10 @@ body-class: page-fed-agencies
     <td>6/16/2017</td>
   </tr>
   <tr>
-    <td><a href="#">FedRAMP Vulnerability Deviation Request Form</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">FedRAMP Vulnerability Deviation Request Form</a></td>
     <td>This form provides a standardized method to document deviation requests and is used to document Risk Adjustments, False Positives, and Operational Requirements.</td>
-<td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf"><i class="fas fa-file-pdf"></i>
+<p class="icon-text">PDF</p></a>
 </td>
     <td>1/11/2018</td>
   </tr>
