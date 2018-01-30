@@ -1,6 +1,6 @@
 ---
 title: Accessing a CSP’s FedRAMP Materials through OMB Max&#58; A Guide for Agencies
-permalink: /accessing-a-csps-fedramp-materials-through-omb-max-a-guide-for-agencies
+permalink: /accessing-a-csps-fedramp-materials-omb-max
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
 author: FedRAMP
