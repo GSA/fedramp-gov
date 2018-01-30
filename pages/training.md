@@ -20,10 +20,10 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 		<div class="panel">
 		<p>The <a href="https://www.youtube.com/watch?v=zvq5L1xXhYY&feature=youtu.be">"Welcome to FedRAMP Course"</a> provides an overview of the FedRAMP program. FedRAMP is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This one-hour introductory course in the FedRAMP Training Series is intended for Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) who aren’t well acquainted with FedRAMP. This course also serves as an excellent source of information for anyone in government or the private sector who wants to learn more about the program.</p>
 
-		<p><strong>Duration:</strong> 1 hour</p>
-
-		<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of the "Welcome to FedRAMP" training course.</p>
-	</div>
+<p><strong>Duration:</strong> 1 hour</p>
+		
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of the "Welcome to FedRAMP" training course.</p>
+</div>
 </div>
 <div id="path-two">
 <h2>Path 2: Designed for CSPs and 3PAOs</h2>
@@ -31,10 +31,10 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 			<div class="panel">
 			<p>The <a href="https://www.youtube.com/watch?v=Ot90vW9jQuk&feature=youtu.be">"FedRAMP System Security Plan (SSP) Required Documents"</a> course module provides CSPs with a deeper understanding of the detail and rigor required by the FedRAMP PMO. It will familiarize you with required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
 
-			<p><strong>Duration:</strong> 1 hour</p>
+<p><strong>Duration:</strong> 1 hour</p>
 
-			<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of the "FedRAMP System Security (SSP) Required Documents" training course.</p>
-			</div>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of the "FedRAMP System Security (SSP) Required Documents" training course.</p>
+</div>
 
 <h3 class="accordion">200-B: Security Assessment Plan (SAP)</h3>
 <div class="panel">
