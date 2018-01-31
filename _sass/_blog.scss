@@ -71,6 +71,19 @@
 	margin: 20px 0 10px 0;
 }
 
+.blog-description {
+h3 {
+	color: $light-blue;
+}
+a {
+	color: $light-blue;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+	}
+}
+
 .blog-summary {
   font-size: 16px;
   margin-bottom: 0;

@@ -57,9 +57,15 @@
   width: 100%;
 }
 
-.card-description.card-description {
-  color: $card-heading-color;
+.card-banner {
+  color: $light-blue;
   margin-top: 0;
+  a {
+  	text-decoration: none;
+  	&:hover {
+  		text-decoration: underline;
+  	}
+  }
 }
 
 .card-summary {

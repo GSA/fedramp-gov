@@ -2,7 +2,7 @@
 {% for project in site.projects reversed %}
   {% unless project.featured %}
     <article class="card usa-width-one-third">
-      <a class="card-link" href="{{ project.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1"></a>
+      <!--<a class="card-link" href="{{ project.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">{{ project.title }}</a>-->
       <div class="card-image"
         style="background-image: url(
         {% if project.icon %}
@@ -13,9 +13,9 @@
         );">
       </div>
       <div class="card-banner">
-        <h3 class="card-description">
+        <a href="{{ project.url | prepend: site.baseurl }}"><h3 class="card-description">
           <span>{{ project.title }}</span>
-        </h3>
+       </h3></a>
         <p class="card-summary">{{ project.description }}</p>
       </div>
       <a class="card-read" href="{{ project.url | prepend: site.baseurl }}">
