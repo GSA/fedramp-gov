@@ -2,7 +2,7 @@
 {% for post in site.posts limit:3 %}
   {% unless post.featured %}
     <article class="blog usa-width-one-third">
-      <a class="blog-link" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1"></a>
+      <!--<a class="blog-link" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">{{ post.title }}</a>-->
       <div class="blog-image"
         style="background-image: url(
         {% if post.image_thumbnail %}
@@ -13,10 +13,10 @@
         );">
       </div>
       <div class="blog-banner">
-        <h3 class="blog-description">
+        <div class="blog-description">
           <p>{{ post.date | date: "%B %-d, %Y"}}</p>
-          <span>{{ post.title }}</span>
-        </h3>
+           <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+        </div>
         <p class="blog-summary">{{ post.description }}</p>
       </div>
     </article>
