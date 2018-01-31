@@ -1,6 +1,6 @@
 ---
 title: New ConMon Documents Available 
-permalink: /new-conmon-documents-available
+permalink: /new-conmon-documents-available/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_01252018_v2.png
 author: FedRAMP
@@ -12,7 +12,7 @@ As FedRAMP continues to enhance its continuous monitoring (ConMon) processes, we
 * Make it easier to reference aspects of the process that previously were not documented
 * Create structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers
 
-The documents listed below were recently posted to the FedRAMP website. Some of these are **updated versions of existing documents** and others are **entirely new documents**. 
+These documents listed below were recently posted to the FedRAMP website. Some of these are **updated versions of existing documents** and others are **entirely new documents**. 
 
 
 Updates to existing documents include:
