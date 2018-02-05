@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_01252018_v2.png
 author: FedRAMP
 layout: blog-page
 ---
-As FedRAMP continues to enhance its continuous monitoring (ConMon) processes, we solicited feedback on how we could improve the overall processes. Over the past few months, we gathered input from stakeholders - including cloud service providers (CSPs) and the Joint Authorization Board (JAB) Review Teams - and we identified several areas to streamline, clarify, and improve. As a result, we’ve made updates to existing documents and created new documents to:
+As FedRAMP continues to enhance its continuous monitoring (ConMon) processes, we solicited feedback on how we could improve the overall processes. Over the past few months, we gathered input from stakeholders - including Cloud Service Providers (CSPs) and the Joint Authorization Board (JAB) Review Teams - and we identified several areas to streamline, clarify, and improve. As a result, we’ve made updates to existing documents and created new documents to:
 
 * Improve the overall process and clarify certain elements or expectations
 * Make it easier to reference aspects of the process that previously were not documented
@@ -15,7 +15,7 @@ As FedRAMP continues to enhance its continuous monitoring (ConMon) processes, we
 These documents listed below were recently posted to the FedRAMP website. Some of these are **updated versions of existing documents** and others are **entirely new documents**. 
 
 
-Updates to existing documents and templates include:
+**Updates to existing documents and templates include:**
 
 **<a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a>**
 * Developed to provide guidance on continuous monitoring and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements
@@ -43,7 +43,7 @@ Updates to existing documents and templates include:
 * Developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199
 * Can be used to request a significant change within an existing ATO
 
-New FedRAMP documents and templates include:
+**New FedRAMP documents and templates include:**
 
 **<a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a>**
 * Developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets the FedRAMP requirements. FedRAMP is following the NIST guidance and this document describes how FedRAMP intends to implement it
