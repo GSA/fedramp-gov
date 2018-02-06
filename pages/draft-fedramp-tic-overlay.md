@@ -12,7 +12,9 @@ The FedRAMP PMO and TIC Initiative are jointly requesting feedback on a DRAFT Fe
 
 The DRAFT FedRAMP-TIC Overlay is the first overlay released as part of the “FedRAMP Forward” initiative. “FedRAMP Forward” is the roadmap to growing the program with three key goals: increasing compliance and agency participation, improving inefficiencies, and facilitating adaptation
 
-### **Purpose<img class="alignnone size-medium wp-image-25692 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-300x149.jpg" alt="FedRAMP-TIC Overlay graphic" width="300" height="149" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-300x149.jpg 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-1024x511.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />**
+### **Purpose
+
+<img class="alignnone size-medium wp-image-25692 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-300x149.jpg" alt="FedRAMP-TIC Overlay graphic" width="300" height="149" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-300x149.jpg 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/04/FedRAMP-TIC-Overlay-graphic-1024x511.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />**
 
 Once finalized, this overlay will allow agencies to ensure cloud services they use meet the Federal Information Security Management Act (FISMA) requirements through FedRAMP and the OMB Memorandum M-08-05, TIC Initiative for all Federal users, no matter where they access a cloud service. The coordination of these two programs will provide for the security not only of data within cloud environments but the security of the network connections between agency networks and cloud services.
 
