@@ -6,7 +6,7 @@ permalink: /draft-fedramp-tic-overlay/
 
 `Note: This information is currently out of date and will be updated in FY18 with more information.`
 
-### **Intro **
+### **Intro**
 
 The FedRAMP PMO and TIC Initiative are jointly requesting feedback on a DRAFT FedRAMP-Trusted Internet Connection (TIC) Overlay. This DRAFT overlay is the first step in updating TIC’s current reference architecture to allow for greater flexibility as agencies move to the cloud securely. The overlay will enable mobile users to directly connect to Federal cloud system without utilizing a TIC Access Provider (TICAP) or  Managed Trusted IP Service (MTIPS).
 
