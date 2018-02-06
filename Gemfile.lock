@@ -237,6 +237,7 @@ DEPENDENCIES
   github-pages
   jekyll-menus
   jekyll-paginate
+  jekyll-redirect-from
 
 BUNDLED WITH
    1.16.1
