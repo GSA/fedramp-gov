@@ -31,11 +31,6 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <script>
-    if (/^www\./.test(window.location.hostname)) {
-      window.location = window.location.href.replace('www.', '');
-    }
-  </script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
