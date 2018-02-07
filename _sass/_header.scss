@@ -130,7 +130,7 @@ header.usa-banner-header {
 //	width: 30%;
 //}
 //}
- 
+
 .usa-nav li {
     margin: 0px;
     list-style: none;
@@ -151,15 +151,15 @@ nav.usa-nav {
 	height: 70px;
 }
 }
- 
+
 .usa-nav a {
     transition: all linear 0.15s;
 }
- 
+
 .usa-nav li:hover > a, .usa-nav .current-item > a {
     text-decoration: none;
 }
- 
+
 /*----- Top Level -----*/
 .usa-nav > ul > li {
 /*    float:left;*/
@@ -167,13 +167,13 @@ nav.usa-nav {
     position: relative;
 /*    font-size:19px;*/
 }
- 
+
 .usa-nav > ul > li > a {
 /*    padding:10px 40px;*/
     display: inline-block;
 /*    text-shadow:0px 1px 0px rgba(0,0,0,0.4);*/
 }
- 
+
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
 	border-bottom: 10px solid $light-blue;
 }
@@ -181,13 +181,13 @@ nav.usa-nav {
 .usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
 	border-bottom: none;
 }
- 
+
 /*----- Bottom Level -----*/
 .usa-nav li:hover .sub-menu {
     z-index: 1;
     opacity: 1;
 }
- 
+
 .sub-menu {
     width: 175px;
     padding: 0px;
@@ -204,25 +204,25 @@ nav.usa-nav {
 .usa-mobile_nav-active .sub-menu {
 	display: none;
 }
- 
+
 .sub-menu li {
     display: block;
 	text-align: left;
 }
- 
+
 .sub-menu li a {
     padding: 10px;
     display: block;
     font-size: .9em;
     color: #fff;
 }
- 
+
 .sub-menu li a:hover, .sub-usa-nav .current-item a {
     background: $dark-blue;
     color: #fff;
 }
 
-button.usa-accordion-button.usa-banner-button {
-	width: auto;
-	height: 20px;
-}
+// button.usa-accordion-button.usa-banner-button {
+// 	width: auto;
+// 	height: 20px;
+// }
