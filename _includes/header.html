@@ -39,6 +39,14 @@
   </div>
   <!-- Gov banner END -->
 
+<!-- searchgov search -->
+  <form accept-charset="UTF-8" action="{{site.baseurl}}/search-results/" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input id="affiliate" name="affiliate" type="hidden" value="fedramp" />
+    <label for="query">Enter Search Term(s):</label>
+    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" />
+    <input name="commit" type="submit" value="Search" />
+  </form>
+<!-- searchgov search END -->
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <button class="usa-menu-btn">&#9776;</button>
@@ -62,7 +70,7 @@
       {% assign navs = site.data.navbar.assigned %}
       <!-- 1st level -->
       {% for nav in navs %}
-      
+
         {% if nav.sub != null %}
 <li tabindex="0" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
             <ul class="sub-menu">
@@ -76,9 +84,9 @@
               {% endfor %}
             </ul>
           </li>
-      
+
         {% else %}
-      
+
           <li>
           {% if nav.is_external != null %}
           <a href="{{ nav.is_external }}">{{ nav.text }}</a>
@@ -86,9 +94,9 @@
             <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
           </li>
               {% endif %}
-      
+
         {% endif %}
-      
+
       {% endfor %}
       </ul>
     </nav>
