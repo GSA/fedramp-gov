@@ -28,22 +28,27 @@
 
 
 // searchgov
-$("#search-button").click(search);
+const SEARCH_BASE = 'https://search.usa.gov/api/v2/search?affiliate=fedramp&access_key=pkwSg7Bh0i05jHA-ubLZkuVx5gz_AIL0HVPc09Vq_VQ=';
 
-$('#results').empty();
+function searchAndDisplayResults(query) {
+  // clear results from page
+  $('#results').empty();
 
-    function search(){
-      var searchTerm = $("#searchgovinput").val();
-      var url = 'https://search.usa.gov/api/v2/search?affiliate=fedramp&access_key=pkwSg7Bh0i05jHA-ubLZkuVx5gz_AIL0HVPc09Vq_VQ=&query=' + searchTerm;
+  // attempt search
+  $.getJSON(`${SEARCH_BASE}&query=${query}`, json => {
+    // format each entry as li element
+    const results = json.web.results.map(
+      d => `<li><a href="${d.url}">${d.title}</a></li>`
+    );
 
-      $('#results').empty();
+    // add results to page
+    $('#results').append(results.join(''));
+  });
+}
 
-      $.getJSON(url, function(json) {
-        console.log("GOT SOME DATA:", json.web.results)
+$('#searchgovform').on('submit', e => {
+  e.preventDefault(); // stop GET form request
+  const query = $('#searchgovinput').val(); // retrieve input value
+  searchAndDisplayResults(query); // perform search and show results
 
-        json.web.results.forEach(function(result){
-          console.log(result)
-          $('#results').append("<li><a href='" + result.url + "'>" + result.title + "</a></li>")
-        });
-      });
-    };
+});
