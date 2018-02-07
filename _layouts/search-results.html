@@ -11,18 +11,7 @@ layout: base
   <img src="{{ page.image | prepend: site.baseurl }}">
   {% endif %}
   {{ content }}
+  <ul id="results"></ul>
   </div>
-  <aside class="usa-width-one-fourth">
-    <div class="blog-sidebar">
-    <h3>Recent Posts</h3>
-    <ul>
-      {% for post in site.posts limit:5 %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    </div>
-  </aside>
 </div>
 </div>
