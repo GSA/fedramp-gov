@@ -1,6 +1,6 @@
 ---
 title: The New FedRAMP.gov
-permalink: /the-new-fedramp.gov/
+permalink: /the-new-fedrampgov/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_New_Website.png
 author: FedRAMP
