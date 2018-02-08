@@ -48,9 +48,9 @@ body-class: page-fed-agencies
     <td>5/18/2017</td>
   </tr>
    <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.docx">FedRAMP General Document Acceptance Criteria</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></td>
     <td>The purpose of this document is to describe the general document acceptance criteria for FedRAMP to both writers and reviewers. This acceptance criterion applies to all documents FedRAMP reviews that do not have special checklists or acceptance criteria predefined for them.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.docx"><i class="fas fa-file-pdf"></i>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>2/7/2018</td>
