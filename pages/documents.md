@@ -190,8 +190,8 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>
     <td>This document supports the Incident Communication Procedure for FedRAMP. This Incident Communication Procedure outlines the measures to consider so all parties effectively communicate during a security incident incurred by a FedRAMP authorized CSP.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
-    <p class="icon-text">WORD</p></a>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
   </tr>
