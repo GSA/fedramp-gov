@@ -47,6 +47,14 @@ body-class: page-fed-agencies
     </td>
     <td>5/18/2017</td>
   </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.docx">FedRAMP General Document Acceptance Criteria</a></td>
+    <td>The purpose of this document is to describe the general document acceptance criteria for FedRAMP to both writers and reviewers. This acceptance criterion applies to all documents FedRAMP reviews that do not have special checklists or acceptance criteria predefined for them.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.docx"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>2/7/2018</td>
+  </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></td>
     <td>This memorandum: 1) establishes Federal policy for the protection of Federal information in cloud services; 2) describes the key components of FedRAMP and its operational capabilities; 3) defines Executive department and Agency responsibilities in developing, implementing, operating, and maintaining FedRAMP; and 4) defines the requirements for Executive departments and Agencies using FedRAMP in the acquisition of cloud services.</td>
