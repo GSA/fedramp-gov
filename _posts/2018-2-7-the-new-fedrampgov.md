@@ -18,4 +18,4 @@ Finally, we added a “Get Authorized” tab that has a page on both <a href="{{
 
 As with any transition, we may experience some technical glitches over the next few weeks, so please be patient with us as we continue to upgrade and improve our site. 
 
-We couldn’t be more excited to share this new website with you, and we hope that you find it easy to navigate and aesthetically pleasing. If you have any questions, please reach out to info@fedramp.gov. 
+We couldn’t be more excited to share this new website with you, and we hope that you find it easy to navigate and aesthetically pleasing. If you have any questions, please reach out to info@fedramp.gov.  
