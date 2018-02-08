@@ -39,19 +39,6 @@
   </div>
   <!-- Gov banner END -->
 
-  <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
-            <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-              <input name='search' type='search' id="searchgovinput">
-
-            <button type="submit" id="searchgovbutton">
-              <span class="usa-search-submit-text">Search</span>
-            </button>
-          </form>
-
-<!-- test search -->
-
-<!-- test search END -->
-
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <button class="usa-menu-btn">&#9776;</button>
@@ -75,7 +62,7 @@
       {% assign navs = site.data.navbar.assigned %}
       <!-- 1st level -->
       {% for nav in navs %}
-
+      
         {% if nav.sub != null %}
 <li tabindex="0" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
             <ul class="sub-menu">
@@ -89,9 +76,9 @@
               {% endfor %}
             </ul>
           </li>
-
+      
         {% else %}
-
+      
           <li>
           {% if nav.is_external != null %}
           <a href="{{ nav.is_external }}">{{ nav.text }}</a>
@@ -99,9 +86,9 @@
             <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
           </li>
               {% endif %}
-
+      
         {% endif %}
-
+      
       {% endfor %}
       </ul>
     </nav>
