@@ -263,9 +263,9 @@ body-class: page-fed-agencies
     <td>1/31/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc">FedRAMP Significant Change Form Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Form Template</a></td>
     <td>This document was developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199. It can be used to request a significant change within an existing ATO. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc"><i class="fas fa-file-pdf"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
     <td>1/31/2018</td>
