@@ -11,7 +11,7 @@ Happy New Year from the FedRAMP Program Management Office (PMO)! We could not be
 2017 was brimming with new initiatives and transformation developed wholly on customer feedback - FedRAMP Connect, FedRAMP Tailored, the new Agency Authorization Playbook, and the new “In-Process Requirements” to name a few. This year, we’re focusing on building, maturing, and perfecting these transformative initiatives so they best serve our stakeholders and deliver on the promise of increased efficiency and transparency.  
 
 Our goals for this year fall into three main objectives for the FedRAMP PMO: 
-  1. Increasing the number of cloud services that our agency partners can choose from;
+  1. Increasing the number of cloud services that our Agency partners can choose from;
   2. Transforming security authorizations; and 
   3. Strengthening the FedRAMP community.
 
