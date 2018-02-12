@@ -17,18 +17,18 @@ Our goals for this year fall into three main objectives for the FedRAMP PMO:
 
 Sounds good, but what does this mean specifically? Here’s what we’re thinking so far:
 
-__**More Cloud to Choose From**__
+**More Cloud to Choose From**
 
 * *Increase Authorized Cloud Services* 
 * *Increase Re-used Authorizations* 
 * *Convert* FedRAMP-Ready CSPs to the In-Process or Authorized stages 
 
-__**Transform Security Authorizations**__
+**Transform Security Authorizations**
 
  * *Automate the Process*: Convert FedRAMP templates to machine-readable format to help enable automation capabilities and interoperability among commonly used GRC tools
  * *Integrate FedRAMP ConMon processes* with the Continuous Diagnostics and Monitoring (CDM) program
 
-__**Stronger FedRAMP Community**__
+**Stronger FedRAMP Community**
 
  * *Connect the Community* by hosting a minimum of 2 Industry Days and 2 Agency Days
  * *Enhance 3PAO Resources*: Update 3PAO requirements in concert with A2LA to increase the focus on technical capabilities of 3PAO assessor teams and individuals
