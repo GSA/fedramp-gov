@@ -21,16 +21,16 @@ Sounds good, but what does this mean specifically? Here’s what we’re thinkin
 
 * *Increase Authorized Cloud Services* 
 * *Increase Re-used Authorizations* 
-* *Convert* FedRAMP-Ready CSPs to the In-Process or Authorized stages 
+* *Convert FedRAMP-Ready CSPs to the In-Process or Authorized stages* 
 
 **Transform Security Authorizations**
 
  * *Automate the Process*: Convert FedRAMP templates to machine-readable format to help enable automation capabilities and interoperability among commonly used GRC tools
- * *Integrate FedRAMP ConMon processes* with the Continuous Diagnostics and Monitoring (CDM) program
+ * *Integrate FedRAMP ConMon processes with the Continuous Diagnostics and Monitoring (CDM) program*
 
 **Stronger FedRAMP Community**
 
- * *Connect the Community* by hosting a minimum of 2 Industry Days and 2 Agency Days
+ * *Connect the Community*: Host a minimum of two Industry Days and two Agency Days
  * *Enhance 3PAO Resources*: Update 3PAO requirements in concert with A2LA to increase the focus on technical capabilities of 3PAO assessor teams and individuals
  * *Promote Better Understanding*: Provide Playbooks for all stakeholders; transform the primary FedRAMP website (fedramp.gov); and host in-person and remote FedRAMP training sessions
 
