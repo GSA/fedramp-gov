@@ -39,7 +39,7 @@ These documents listed below were recently posted to the FedRAMP website. Some o
 * Intended to be used as a tracking tool for risk mitigation in accordance with CSP priorities
 * Added additional column to provide visibility into which DRs have been auto-approved versus manually approved
 
-**<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.doc">Significant Change Form Template</a>**
+**<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Form Template</a>**
 * Developed to capture the type(s) of system changes requested and the supporting details surrounding requested system changes, including FIPS 199
 * Can be used to request a significant change within an existing ATO
 
