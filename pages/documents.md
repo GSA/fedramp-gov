@@ -129,7 +129,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
@@ -137,7 +137,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></td>
@@ -169,7 +169,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></td>
@@ -177,7 +177,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a></td>
@@ -185,7 +185,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf"><i class="fas fa-file-pdf"></i>
    <p class="icon-text">PDF</p></a>
    </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>
