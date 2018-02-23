@@ -203,6 +203,14 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     </td>
     <td>6/6/2017</td>
   </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></td>
+    <td>The FedRAMP Annual Assessment Controls Selection Worksheet provides a matrix to assist CSPs, 3PAOs, and Federal Agencies in assessing and tracking control their annual assessment.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx"><i class="fas fa-file-excel"></i>
+    <p class="icon-text">EXCEL</p></a>
+    </td>
+    <td>2/23/2018</td>
+  </tr>
   <tr>
     <td class="th-2" colspan="4"><strong>Key Agency Documents</strong></td>
   </tr>
