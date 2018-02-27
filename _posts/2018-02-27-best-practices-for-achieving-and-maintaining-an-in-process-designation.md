@@ -2,7 +2,7 @@
 title: Best Practices for Achieving and Maintaining an “In-Process” Designation
 permalink: /best-practices-for-achieving-and-maintaining-an-in-process-designation/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_02262018.png
+image: /assets/img/blog-images/Blog_12072017.png
 author: FedRAMP
 layout: blog-page
 ---
