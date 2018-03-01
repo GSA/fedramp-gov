@@ -2,7 +2,7 @@
 title: Determining Your FedRAMP Boundary Definition
 permalink: /determining-your-fedramp-boundary-definition/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03052018.png
+image: /assets/img/blog-images/Blog_03052018 (1).png
 author: FedRAMP
 layout: blog-page
 ---
