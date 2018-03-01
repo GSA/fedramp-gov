@@ -12,7 +12,7 @@ FedRAMP PMO will be releasing more formal authorization boundary guidance within
 
 **External Services**
 
-There are many cloud technologies that  utilize third-party cloud services to augment functionality, this raises challenges when developing an “authorization boundary”. Each Federal agency must understand where their data is going and the associated protection mechanisms in place, as this presents risk each Agency will have to consider when using any given cloud service offering  When drafting an authorization boundary, CSPs must be transparent and identify all interconnections to external services as they relate to the flow of government data and metadata through the system.
+There are many cloud technologies that  utilize third-party cloud services to augment functionality, this raises challenges when developing an “authorization boundary”. Each Federal agency must understand where their data is going and the associated protection mechanisms in place, as this presents risk each Agency will have to consider when using any given cloud service offering. When drafting an authorization boundary, CSPs must be transparent and identify all interconnections to external services as they relate to the flow of government data and metadata through the system.
 
 **Data and Metadata**
 
