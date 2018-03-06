@@ -13,14 +13,14 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q1">
 <h3>Q: In the updated Continuous Monitoring Strategy Guide, I noticed there is now a defined “due date” for low vulnerabilities. Does my service offering have to implement that immediately?</h3>
 
-<p>**A:** The FedRAMP Continuous Monitoring Strategy Guide now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
-</p>
+**A**:The FedRAMP Continuous Monitoring Strategy Guide now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
+
 </div>
 
 <div class="q2">
 <h3>Q: Can a Federal Agency require CSPs to be FedRAMP authorized in a request for proposal (RFP)?</h3>
 
-<p>**A:** Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once federal data is placed in the system. For more information on contract clauses, please review the FedRAMP Standard Contractual Clauses. <em>(February 28th, 2018)</em> 
+<p>**A**: Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once federal data is placed in the system. For more information on contract clauses, please review the FedRAMP Standard Contractual Clauses. <em>(February 28th, 2018)</em> 
 </p>
 </div>
 
