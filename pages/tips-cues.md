@@ -13,7 +13,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q1">
 <h3>Q: In the updated Continuous Monitoring Strategy Guide, I noticed there is now a defined “due date” for low vulnerabilities. Does my service offering have to implement that immediately?</h3>
 
-<p>A: The FedRAMP Continuous Monitoring Strategy Guide now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
+<p><strong>A:</strong> The FedRAMP Continuous Monitoring Strategy Guide now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
 </p>
 </div>
 
@@ -28,6 +28,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
 
 <p>A: While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP templates/baseline requirements documentation available on fedramp.gov. Agencies that are using a cloud system or services must follow FedRAMP requirements and go through the FedRAMP Authorization process. The driving policy for FedRAMP is a policy memo released by OMB.
+</p>
 <p>
 The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP Authorization. <em>(February 21, 2018)</em> 
 </p>
@@ -38,6 +39,7 @@ The initial cloud system/service authorization package (to include the ATO for A
 </h3>
 
 <p>A: A CSP can use the same 3PAO for completing their Readiness Assessment Report (RAR) and their full security assessment when working with an Agency or the JAB. The same 3PAO, however, cannot consult between assessments – this is outlined in the ISO 17020 requirements and FedRAMP-A2LA 3PAO accreditation requirements.
+</p>
 <p>
 Additionally, to help ensure successful completion of the RAR, the FedRAMP PMO has created a FedRAMP RAR Guide for 3PAOs that includes useful tips and lessons learned.<em>(February 21, 2018)</em> 
 </p>
@@ -56,7 +58,8 @@ Additionally, to help ensure successful completion of the RAR, the FedRAMP PMO h
 <h3>Q: Does the “FedRAMP Ready” designation allow CSPs to bid on contracts if their systems don’t have an existing Authority to Operate (ATO)? If not, how will a CSP that does not have a current ATO respond to an RFP? Will the CSP be required to obtain a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO)?</h3>
 
 <p>A: CSPs whose systems do not have existing ATOs are allowed to bid on contracts. Agencies can request a CSP to have a timeline for obtaining an ATO, but should not limit the request to CSPs with ATOs. Please contact the FedRAMP PMO if an Agency is making that request.
-  
+</p>
+<p>
 The “FedRAMP Ready” designation is a market indicator to Agencies that a system has a high likelihood of obtaining a JAB P-ATO or an Agency ATO. Agencies can be confident that systems that meet the FedRAMP Ready requirements actually have the key capabilities needed to fit their security needs. Therefore, a small cloud service provider will have the ability to attain FedRAMP Ready and be available for Agency review in the FedRAMP Marketplace. The Agency can then decide to issue an ATO based on the understanding that the system meets the Readiness Assessment requirements. <em>(February 14, 2018)</em> 
 </p>
 </div>
@@ -74,8 +77,10 @@ The “FedRAMP Ready” designation is a market indicator to Agencies that a sys
 <h3>Q: I’d like to know the criteria that the FedRAMP PMO uses to review Agency authorization packages. Where can I find that information?</h3>
 
 <p>A: The FedRAMP PMO reviews Agency authorization packages after an Agency has conducted its own in-depth review of the CSP’s authorization package; has issued an ATO for the service; and the final, complete authorization package has been uploaded to the FedRAMP secure repository.
+</p>
 <p>
 The FedRAMP Agency Package Review Team focuses their review on key technical security concerns/critical controls and completeness of the authorization package. Results of the Team’s review are captured in the FedRAMP Agency ATO Review Template (available on fedramp.gov). The completed Agency Review Template (report) is made available to the specific CSP, the initial authorizing Agency, and any other Agency interested in using that particular cloud service.
+</p>
 <p>
 However, Agencies and CSPs are cautioned not to overly focus on the Review Template checks, as FedRAMP PMO reviewers also spot­ check other areas within the package as part of the FedRAMP authorization determination.
 <em>(February 7, 2018)</em> 
