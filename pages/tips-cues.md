@@ -27,7 +27,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q2">
 <h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
 
-<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP templates/baseline requirements documentation available on fedramp.gov. Agencies that are using a cloud system or services must follow FedRAMP requirements and go through the FedRAMP Authorization process. The driving policy for FedRAMP is a policy memo released by OMB.
+<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a>/baseline requirements documentation available on fedramp.gov. Agencies that are using a cloud system or services must follow FedRAMP requirements and go through the FedRAMP Authorization process. The driving policy for FedRAMP is a policy memo released by OMB.
 </p>
 <p>
 The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP Authorization. <em>(February 21, 2018)</em> 
