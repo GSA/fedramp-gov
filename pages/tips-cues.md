@@ -9,60 +9,80 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
-<h2>January 2018 Tips & Cues</h2>
+<h2>February 2018 Tips & Cues</h2>
 <div class="q1">
-<h3>Q: What is the relationship between continuous monitoring and continuous diagnostics & mitigation (CDM) and ongoing authorization?</h3>
+<h3>Q: In the updated Continuous Monitoring Strategy Guide, I noticed there is now a defined “due date” for low vulnerabilities. Does my service offering have to implement that immediately?</h3>
 
-<p><strong>A:</strong> The FedRAMP and CDM monitoring requirements are both based on NIST Special Publication 800-137 guidance for implementing an Information Security Continuous Monitoring program. The CDM program has initially focused on providing tools to Federal Agencies to ensure that they can fulfill vulnerability management, malware detection, asset management, and configuration management program responsibilities and aggregate data from those tools into a central console or dashboard to facilitate a more robust awareness of one’s risk posture. Agencies would also provide aggregate output from this dashboard to DHS to facilitate a government-wide view of vulnerabilities and associated risks. FedRAMP security controls also require that these elements (vulnerability management, malware detection, asset management, and configuration management) be in place at the CSP to support visibility into the operational status of a system, much like the CDM program. However, FedRAMP does not prescribe the exact tools and dashboards nor does it require real-time or near real-time uploading of all tool output to FedRAMP.
-</p>
-<p>
-There is no planned integration of CDM and FedRAMP continuous monitoring at this time as CDM is focused on government assets and not external providers. FedRAMP is interested in evolving its continuous monitoring program to facilitate a shift from a compliance-based to a more risk-based approach and is preparing to solicit feedback from agencies and industry. <em>(January 17th, 2018) </em>
+<p><strong>A:</strong> The FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a> now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
 </p>
 </div>
 
 <div class="q2">
-<h3>Q: My system uses various platforms and operating systems, so how do I relate technical control implementation statements?
-</h3>
+<h3>Q: Can a Federal Agency require CSPs to be FedRAMP authorized in a request for proposal (RFP)?</h3>
 
-<p><strong>A:</strong> The security control implementation statements for technical controls (AC, AU, IA, SC, etc) must be developed to include all of the applicable platforms/operating systems (e.g., Windows, Linux, Solaris, VMware) that comprise the cloud service architecture.</p>
-<p>It is critical for reviewers (either Joint Authorization Board (JAB) or Agency) to delineate each platform/operating system against the applicable security control requirement to ensure compliance is adequately being met. <em>(January 17th, 2018)</em> 
+<p><strong>A:</strong> Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once Federal data is placed in the system. For more information on contract clauses, please review the FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contractual Clauses</a>. <em>(February 28, 2018)</em> 
 </p>
 </div>
 
-<div class="tip-1">
-<h3>TIP: CSPs must address every vulnerability they submit as part of their continuous monitoring data. There are a few different options for managing those vulnerabilities.</h3>
-<ol>
-<li>Remediate the finding within the required timeframe. This should be the default approach to vulnerability management.</li>
-<li>As part of the Deviation Request process:
-<ul>
-<li>Implement mitigations and request a risk adjustment, if appropriate.</li>
-<li>Seek approval for any False Positive (FP) findings. Be sure to provide evidence that proves the finding was an FP. An FP would not be appropriate in instances where the system setting is not active and, therefore, not vulnerable, but if it were active, the vulnerability would exist. This type of finding should be submitted as a Risk Adjustment with layers of mitigations that prevent exposure if the system setting is activated.</li>
-<li>Seek approval as an Operational Requirement (OR). OR requests should be infrequent since it means the vulnerability remains in production until it is eventually remediated. High findings must be mitigated and Risk Adjusted to at least Moderate for acceptance as an OR.</li></ul></li>
-<li>Justify the finding as a Vendor Dependency and check in with the vendor every 30 days. In this case, the vulnerability will not be considered late. The CSP should seek vendor components that are FedRAMP compliant when possible to avoid any Vendor Dependencies. <em>(January 10th, 2017)</em></li>
-</ol>
+<div class="q2">
+<h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
+
+<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a> and baseline requirements <a href="https://www.fedramp.gov/documents/">documentation</a> available on fedramp.gov. Agencies that are using a cloud system or service must follow FedRAMP requirements and go through the FedRAMP authorization process. The driving policy for FedRAMP is a <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">policy memo</a>
+ released by OMB.
+</p>
+<p>
+The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP authorization. <em>(February 21, 2018)</em> 
+</p>
 </div>
 
-<div class="tip-1">
-<h3>TIP: Select your monthly continuous monitoring scan and Plan of Action & Milestones (POA&M) delivery date wisely.
+<div class="q2">
+<h3>Q: If a CSP wants to complete a FedRAMP Readiness Review, but is then going to pursue an Agency-sponsored FedRAMP authorization, can the CSP use the same 3PAO for both assessments?
 </h3>
 
-<p>Consider vendor patch release schedules and your typical duration between the release of a vendor patch and its application within your environment. Plan your scans as soon as possible after patches are typically applied each month. If your monthly scans are out-of-sync with your patch cycle, the number of vulnerabilities reported can be artificially inflated.</p>
-<p>For example, if you have Microsoft-based hosts and a two week patch cycle, running scans just one week after “patch Tuesday” will report all of the newly released patches as new vulnerabilities on those hosts and inflate your vulnerability count. Scanning shortly after your patch cycle gives your admins time to remediate all of those new vulnerabilities. Therefore, only the exceptions – if any – are reported. <em>(January 10th, 2017)</em></p>
+<p><strong>A:</strong> A CSP can use the same 3PAO for completing their Readiness Assessment Report (RAR) and their full security assessment when working with an Agency or the JAB. The same 3PAO, however, cannot consult between assessments – this is outlined in the ISO 17020 requirements and FedRAMP-A2LA 3PAO accreditation requirements.
+</p>
+<p>
+Additionally, to help ensure successful completion of the RAR, the FedRAMP PMO has created a <a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">FedRAMP RAR Guide for 3PAOs</a> that includes useful tips and lessons learned. <em>(February 21, 2018)</em> 
+</p>
 </div>
 
 <div class="q3">
 
-<h3>Q: What is the purpose of an Information System Contingency Plan (ISCP)?</h3>
+<h3>Q: Do the FedRAMP security controls restrict data to reside only within the United States?</h3>
 
-<p><strong>A:</strong> Each CSP must develop and maintain contingency plans to address operational disruptions. The contingency plan (and test results) provides management with an evaluation of the preparedness of the CSP's cloud service offering in the event of a major disruption and/or a catastrophic event. The contingency plan ensures that operations resume and are eventually restored to a known state. The ISCP and Service Level Agreements drive the recovery test frequency and complexity and recovery time frames. These contingency plans are a component of an effective security operations implementation. <em>(January 4th, 2018) </em>
+<p><strong>A:</strong> There are no FedRAMP requirements restricting data to within the United States. There are multiple security controls that detail where data is stored, what the boundary of the system is, and where and how data in transit is protected. We have some providers that are authorized through FedRAMP that are located globally, although a majority of service providers do restrict their data to the United States. It is up to each individual Agency and Authorizing Official to place restrictions, if needed, on data location. <em>(February 14, 2018) </em>
 </p>
 </div>
-<div class="q5">
 
-<h3>Q: What can a CSP do to prepare for penetration testing and what risks are involved?</h3>
+<div class="q3">
 
-<p><strong>A:</strong> The FedRAMP Penetration Testing Methodology is comprehensive and follows NIST SP 800-115. Before considering this activity, a CSP should work with a third party assessment organization (3PAO) assessment team to discuss the ramifications of utilizing the FedRAMP Penetration Testing Methodology. Both the 3PAO assessment team and the CSP must determine, in writing and prior to the onset of the testing, the level of risk they are willing to accept for the assessment and tailor the approach accordingly.</p>
-<p>Once the parameters have been tentatively agreed upon, the 3PAO penetration tester and assessment team should begin the security assessment activities with a planning phase that includes gathering information about the CSP environment and developing the test procedures. Only after completing the planning phase should the 3PAO assessment team proceed to the execution phase.</p>
-<p>During execution phase, the assessment team identifies vulnerabilities and validates that the vulnerabilities are not false positives. At the conclusion of the execution phase, the assessment team has a list of technical and process vulnerabilities. This list is used during the post-execution phase to determine root causes of vulnerabilities, recommend remediation actions, and document the test results in the Security Assessment Report (SAR).</p>
-<p>Penetration testing risks can range from not gathering sufficient information on the organization’s security posture for fear of impacting system functionality to affecting the system or network availability by executing techniques without the proper safeguards in place. Communication and thorough understanding is key. <em>(January 4th, 2018)</em> </p>
+<h3>Q: Does the “FedRAMP Ready” designation allow CSPs to bid on contracts if their systems don’t have an existing Authority to Operate (ATO)? If not, how will a CSP that does not have a current ATO respond to an RFP? Will the CSP be required to obtain a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO)?</h3>
+
+<p><strong>A:</strong> CSPs whose systems do not have existing ATOs are allowed to bid on contracts. Agencies can request a CSP to have a timeline for obtaining an ATO, but should not limit the request to CSPs with ATOs. Please contact the FedRAMP PMO if an Agency is making that request.
+</p>
+<p>
+The “FedRAMP Ready” designation is a market indicator to Agencies that a system has a high likelihood of obtaining a JAB P-ATO or an Agency ATO. Agencies can be confident that systems that meet the FedRAMP Ready requirements actually have the key capabilities needed to fit their security needs. Therefore, a small cloud service provider will have the ability to attain FedRAMP Ready and be available for Agency review in the FedRAMP Marketplace. The Agency can then decide to issue an ATO based on the understanding that the system meets the Readiness Assessment requirements. <em>(February 14, 2018)</em> 
+</p>
+</div>
+
+<div class="q3">
+
+<h3>Q: How do security controls impact Quality of Service (QoS) of an application or system?</h3>
+
+<p><strong>A:</strong> Quality of Service (QoS) and security are interrelated. The implementation of security controls must be thoughtfully considered and deployed/implemented so as NOT to adversely impact an application's or system’s QoS. A good security program addresses confidentiality, integrity, AND availability. QoS is an important component of a well thought out security posture. <em>(February 7, 2018)</em> 
+</p>
+</div>
+
+<div class="q3">
+
+<h3>Q: I’d like to know the criteria that the FedRAMP PMO uses to review Agency authorization packages. Where can I find that information?</h3>
+
+<p><strong>A:</strong> The FedRAMP PMO reviews Agency authorization packages after an Agency has conducted its own in-depth review of the CSP’s authorization package; has issued an ATO for the service; and the final, complete authorization package has been uploaded to the FedRAMP secure repository.
+</p>
+<p>
+The FedRAMP Agency Package Review Team focuses their review on key technical security concerns/critical controls and completeness of the authorization package. Results of the Team’s review are captured in the <a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a> (available on fedramp.gov). The completed Agency Review Template (report) is made available to the specific CSP, the initial authorizing Agency, and any other Agency interested in using that particular cloud service.
+</p>
+<p>
+However, Agencies and CSPs are cautioned not to overly focus on the Review Template checks, as FedRAMP PMO reviewers also spot­ check other areas within the package as part of the FedRAMP authorization determination. <em>(February 7, 2018)</em> 
+</p>
 </div>
