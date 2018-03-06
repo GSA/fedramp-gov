@@ -20,18 +20,18 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q2">
 <h3>Q: Can a Federal Agency require CSPs to be FedRAMP authorized in a request for proposal (RFP)?</h3>
 
-<p><strong>A:</strong> Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once federal data is placed in the system. For more information on contract clauses, please review the FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contractual Clauses</a>. <em>(February 28th, 2018)</em> 
+<p><strong>A:</strong> Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once Federal data is placed in the system. For more information on contract clauses, please review the FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contractual Clauses</a>. <em>(February 28, 2018)</em> 
 </p>
 </div>
 
 <div class="q2">
 <h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
 
-<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a> and baseline requirements <a href="https://www.fedramp.gov/documents/">documentation</a> available on fedramp.gov. Agencies that are using a cloud system or services must follow FedRAMP requirements and go through the FedRAMP Authorization process. The driving policy for FedRAMP is a <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">policy memo</a>
+<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a> and baseline requirements <a href="https://www.fedramp.gov/documents/">documentation</a> available on fedramp.gov. Agencies that are using a cloud system or service must follow FedRAMP requirements and go through the FedRAMP authorization process. The driving policy for FedRAMP is a <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">policy memo</a>
  released by OMB.
 </p>
 <p>
-The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP Authorization. <em>(February 21, 2018)</em> 
+The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP authorization. <em>(February 21, 2018)</em> 
 </p>
 </div>
 
@@ -50,7 +50,7 @@ Additionally, to help ensure successful completion of the RAR, the FedRAMP PMO h
 
 <h3>Q: Do the FedRAMP security controls restrict data to reside only within the United States?</h3>
 
-<p><strong>A:</strong> There are no FedRAMP requirements restricting data to within the United States. There are multiple security controls that detail where data is stored, what the boundary of the system is, and where and how data in transit is protected. We have some providers that are authorized through FedRAMP that are located globally, although a majority of service providers do restrict their data to the United States. It is up to each individual Agency and authorizing official to place restrictions, if needed, on data location. <em>(February 14, 2018) </em>
+<p><strong>A:</strong> There are no FedRAMP requirements restricting data to within the United States. There are multiple security controls that detail where data is stored, what the boundary of the system is, and where and how data in transit is protected. We have some providers that are authorized through FedRAMP that are located globally, although a majority of service providers do restrict their data to the United States. It is up to each individual Agency and Authorizing Official to place restrictions, if needed, on data location. <em>(February 14, 2018) </em>
 </p>
 </div>
 
