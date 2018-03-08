@@ -8,9 +8,9 @@ layout: blog-page
 ---
 Earlier this year, we released the updated continuous monitoring (ConMon) documents with the goal of: 
 
-[Improving the overall process and clarify certain elements or expectations]
-[Making it easier to reference aspects of the process that previously were not documented]
-[Creating structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers]
+* Improving the overall process and clarify certain elements or expectations
+* Making it easier to reference aspects of the process that previously were not documented
+* Creating structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers
 
 Details outlining these can be found on our blog, posted on January 31st.
 
@@ -28,6 +28,7 @@ On March 13th, from 1-2 pm ET, FedRAMP will be holding a webinar that will provi
 9. Continuous Monitoring Monthly Exchange Executive Summary
 
 **Documents that Will be Completed Soon**
+
 A. CVSS Framework Guidance
 B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
 C. Vulnerability Scanner Requirements Guide
@@ -39,5 +40,5 @@ We will provide a recording of the webinar if you aren’t able to attend the me
 We hope you can join on March 13th! 
 
 Previous Webinars for Reference:
-[FedRAMP Tailored , Webinar and Comment-a-thon](https://www.fedramp.gov/fedramp-tailored-webinar-and-comment-a-thon/
-[FedRAMP High Baseline Webinar Reminder] (https://www.fedramp.gov/fedramp-high-baseline-webinar-reminder/)
+* FedRAMP Tailored , Webinar and Comment-a-thon (https://www.fedramp.gov/fedramp-tailored-webinar-and-comment-a-thon/
+* FedRAMP High Baseline Webinar Reminder (https://www.fedramp.gov/fedramp-high-baseline-webinar-reminder/)
