@@ -38,7 +38,3 @@ B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representa
 C. Vulnerability Scanner Requirements Guide
 
 We will provide a recording of the webinar if you aren’t able to attend the meeting. We hope you can join on March 13th! 
-
-Previous Webinars for Reference:
-* <a href="https://www.fedramp.gov/fedramp-tailored-webinar-and-comment-a-thon/">FedRAMP Tailored, Webinar and Comment-a-thon</a> 
-* <a href="https://www.fedramp.gov/fedramp-high-baseline-webinar-reminder/">FedRAMP High Baseline Webinar Reminder </a>
