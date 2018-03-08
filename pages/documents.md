@@ -271,12 +271,12 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>9/26/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contract Clauses</a></td>
-    <td>FedRAMP has developed a security contract clause template to assist Federal Agencies in procuring cloud-based services. This template should be reviewed by an Agency’s Office of General Counsel (OGC) to ensure it meets all Agency requirements, and then incorporated into the security assessment section of a solicitation.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a></td>
+    <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern Agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP PMO suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/27/2017</td>
+    <td>6/6/2017</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Cloud_Procurement_Best_Practices.pdf">Cloud Procurement Best Practices</a></td>
