@@ -19,15 +19,15 @@ On March 13th from 1-2 pm ET, FedRAMP will be holding a webinar that will provid
 The documents we will be reviewing during the webinar include:
 
 **Completed Documents**
-1. Continuous Monitoring Strategy Guide
-2. Continuous Monitoring Performance Management Guide
-3. Vulnerability Deviation Request Form
-4. Plan of Action and Milestones (POA&M) Template Completion Guide
-5. Plan of Action and Milestones (POA&M) Template
-6. Significant Change Form Template
-7. Digital Identity Requirements
-8. Transport Layer Security (TLS) Requirements
-9. Continuous Monitoring Monthly Exchange Executive Summary
+* Continuous Monitoring Strategy Guide
+* Continuous Monitoring Performance Management Guide
+* Vulnerability Deviation Request Form
+* Plan of Action and Milestones (POA&M) Template Completion Guide
+* Plan of Action and Milestones (POA&M) Template
+* Significant Change Form Template
+* Digital Identity Requirements
+* Transport Layer Security (TLS) Requirements
+* Continuous Monitoring Monthly Exchange Executive Summary
 
 **Documents that Will be Completed Soon**
 
