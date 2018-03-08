@@ -14,7 +14,7 @@ Earlier this year, we released the updated continuous monitoring (ConMon) docume
 
 Details outlining these can be found on our <a href="https://www.fedramp.gov/new-conmon-documents-available/">blog</a> posted on January 31st.
 
-On March 13th from 1-2 pm ET, FedRAMP will be holding a webinar that will provide an overview of the updates made to FedRAMP’s ConMon documents and the new ConMon documents that have been published. You can register for this webinar <a href="https://www.digitalgov.gov/event/new-release-fedramp-continuous-monitoring-documents/">here/a>.
+On March 13th from 1-2 pm ET, FedRAMP will be holding a webinar that will provide an overview of the updates made to FedRAMP’s ConMon documents and the new ConMon documents that have been published. You can register for this webinar <a href="https://www.digitalgov.gov/event/new-release-fedramp-continuous-monitoring-documents/">here.</a> 
   
 The documents we will be reviewing during the webinar include:
 
