@@ -31,8 +31,8 @@ The documents we will be reviewing during the webinar include:
 
 **Documents that Will be Completed Soon**
 
-  A. CVSS Framework Guidance 
-  B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
-  C. Vulnerability Scanner Requirements Guide
+* CVSS Framework Guidance 
+* Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
+* Vulnerability Scanner Requirements Guide
 
 We will provide a recording of the webinar if you aren’t able to attend the meeting. We hope you can join on March 13th! 
