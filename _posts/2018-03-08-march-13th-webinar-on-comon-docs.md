@@ -14,7 +14,9 @@ Earlier this year, we released the updated continuous monitoring (ConMon) docume
 
 Details outlining these can be found on our <a href="https://www.fedramp.gov/new-conmon-documents-available/">blog</a> , posted on January 31st.
 
-On March 13th, from 1-2 pm ET, FedRAMP will be holding a webinar that will provide an overview of the updates made to FedRAMP’s ConMon documents, including both updates to existing documents and new documents. These documents include:
+On March 13th, from 1-2 pm ET, FedRAMP will be holding a webinar that will provide an overview of the updates made to FedRAMP’s ConMon documents and the new ConMon documents that have been published. You can register for this webinar here: https://www.digitalgov.gov/event/new-release-fedramp-continuous-monitoring-documents/
+
+The documents we will be reviewing include:
 
 **Completed Documents**
 1. Continuous Monitoring Strategy Guide
@@ -30,10 +32,10 @@ On March 13th, from 1-2 pm ET, FedRAMP will be holding a webinar that will provi
 **Documents that Will be Completed Soon**
 
 A. CVSS Framework Guidance
-B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
-C. Vulnerability Scanner Requirements Guide
 
-Here is the link to register for the webinar: https://www.digitalgov.gov/event/new-release-fedramp-continuous-monitoring-documents/
+B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
+
+C. Vulnerability Scanner Requirements Guide
 
 We will provide a recording of the webinar if you aren’t able to attend the meeting. 
 
