@@ -2,12 +2,12 @@
 layout: teammate
 name: Ashley Mahan
 image: /assets/img/team/profile_AshleyMahan.png
-title: FedRAMP Agency Evangelist
+title: FedRAMP Evangelist
 body-class: page-team-single
 date: 2018-01-04
 
 ---
-Ashley Mahan is the General Services Administration’s (GSA) first Agency Evangelist for the Federal Risk and Authorization Management Program (FedRAMP).  Ashley is a trusted liaison between Federal Agencies, Cloud Services Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the Federal Government. 
+Ashley Mahan is the General Services Administration’s (GSA) first Evangelist for the Federal Risk and Authorization Management Program (FedRAMP).  Ashley is a trusted liaison between Federal Agencies, Cloud Services Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the Federal Government. 
 
 Ashley is responsible for managing FedRAMP’s Agency engagement, outreach, and customer experience activities, which consists of over 120 Federal Agencies and 150+ industry partners. She leverages collaboration and consensus building as key tools to bring together parties and people, and relishes the opportunity to pave a path towards secure cloud adoption and IT modernization in government for all Agencies.
 
