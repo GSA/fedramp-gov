@@ -156,6 +156,30 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/6/2017</td>
   </tr>
   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
+    <td>Description goes here.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework</a></td>
+    <td>Description goes here.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Guide_for_Determining_Eligibility_and_Requirements_for_the_Use_of_Sampling_for_Vulnerability_Scans.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
+    <td>Description goes here.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Guide_for_Determining_Eligibility_and_Requirements_for_the_Use_of_Sampling_for_Vulnerability_Scans.pd</i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></td>
     <td>The purpose of this document is to provide guidelines for organizations on planning and conducting Penetration Testing and analyzing and reporting on findings.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf"><i class="fas fa-file-pdf"></i>
