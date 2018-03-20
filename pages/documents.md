@@ -146,35 +146,29 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf">JAB P-ATO Vulnerability Scan Requirements Guide</a></td>
-    <td>This guide describes the requirements for all vulnerability scans of FedRAMP CSP's systems for JAB P-ATOs.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
-    <td>Description goes here.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>3/20/2018</td>
-  </tr>
    <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework</a></td>
-    <td>Description goes here.</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></td>
+    <td>This document provides CSPs with a framework to create and deploy an automated, CVSS-based vulnerability risk adjustment tool for vulnerabilities identified by vulnerability scanning tools. The document is in DRAFT form while FedRAMP pilots this process with CSPs over the next year or so.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
   </tr>
-   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Guide_for_Determining_Eligibility_and_Requirements_for_the_Use_of_Sampling_for_Vulnerability_Scans.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
-    <td>Description goes here.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Guide_for_Determining_Eligibility_and_Requirements_for_the_Use_of_Sampling_for_Vulnerability_Scans.pd</i>
+    </tr>
+  <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
+    <td>This document replaces the currently posted JAB P-ATO Vulnerability Scan Requirements Guide.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+  </tr>
+    </tr>
+  <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
+    <td>This document provides guidance for CSPs on sampling representative system components rather than scanning every component.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
