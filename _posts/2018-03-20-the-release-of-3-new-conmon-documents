@@ -1,43 +1,34 @@
 ---
 title: The Release of 3 New ConMon Documents
-permalink: /the-release-of-3-new-conmon-documents
+permalink: /the-release-of-3-new-conmon-documents/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
-Earlier this year, we released the updated continuous monitoring (ConMon) documents with the goal of: 
 
-[Improving the overall process and clarify certain elements or expectations]
-[Making it easier to reference aspects of the process that previously were not documented]
-[Creating structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers]
+On January 31st, FedRAMP released several new or revised Continuous Monitoring (ConMon) documents and templates with the goal of:
+Improving the overall ConMon process by clarifying certain elements and expectations
+Making it easier to reference aspects of the process that previously were not documented
+Creating structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers
 
-Details outlining these can be found on our blog, posted on January 31st.
+We shared detailed information on these documents in a previous blog post, then conducted a webinar in which the FedRAMP PMO walked through each document individually.
 
-On March 13th, from 1-2 pm ET, FedRAMP will be holding a webinar that will provide an overview of the updates made to FedRAMP’s ConMon documents, including both updates to existing documents and new documents. These documents include:
+Today, we’ve added three additional new documents on the FedRAMP.gov website: 
+DRAFT Automated Vulnerability Risk Adjustment Framework Guidance
+Provides CSPs with a framework to create and deploy an automated, CVSS-based vulnerability risk adjustment tool for vulnerabilities identified by vulnerability scanning tools
+Goal is to maintain or increase security rigor while reducing the LOE for scanner-related risk reductions
+Document is in DRAFT form while FedRAMP pilots this process with CSPs over the next year or so 
 
-**Completed Documents**
-1. Continuous Monitoring Strategy Guide
-2. Continuous Monitoring Performance Management Guide
-3. Vulnerability Deviation Request Form
-4. Plan of Action and Milestones (POA&M) Template Completion Guide
-5. Plan of Action and Milestones (POA&M) Template
-6. Significant Change Form Template
-7. Digital Identity Requirements
-8. Transport Layer Security (TLS) Requirements
-9. Continuous Monitoring Monthly Exchange Executive Summary
+Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans
+Developed based on requests from CSPs looking to scan representative samples of system components instead of the entire system
+Provides guidance for CSPs on sampling representative system components rather than scanning every component
+CSPs with currently approved sampling methodologies have six months to comply with new guidance
 
-**Documents that Will be Completed Soon**
-A. CVSS Framework Guidance
-B. Vulnerability Scan Requirements for CSPs Requesting to Do Sampling/Representative Scans
-C. Vulnerability Scanner Requirements Guide
+Vulnerability Scanning Requirements
+Provides CSPs with a known vulnerability severity scoring framework to enable them to create and use an automated, CVSS-based vulnerability risk adjustment tool for vulnerabilities identified by vulnerability scanning tools
+Lays out guidance about the requirements (i.e. requiring authentication data, CVE/CVSS information, configuration settings) in a “scanner agnostic” manner
+Further automates the ConMon process, such as auto-CVSS downgrading, cross-CSP correlative analysis, and metrics around commonly found risks across all systems with FedRAMP JAB P-ATOs
 
-Here is the link to register for the webinar: https://www.digitalgov.gov/event/new-release-fedramp-continuous-monitoring-documents/
+We appreciate the thoughtful feedback and input we received from our stakeholders and partners. Your input is crucial in helping us further improve the FedRAMP program. If you have any questions or additional input, please reach out to info@fedramp.gov.
 
-We will provide a recording of the webinar if you aren’t able to attend the meeting. 
-
-We hope you can join on March 13th! 
-
-Previous Webinars for Reference:
-[FedRAMP Tailored , Webinar and Comment-a-thon](https://www.fedramp.gov/fedramp-tailored-webinar-and-comment-a-thon/
-[FedRAMP High Baseline Webinar Reminder] (https://www.fedramp.gov/fedramp-high-baseline-webinar-reminder/)
