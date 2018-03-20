@@ -11,7 +11,7 @@ On January 31st, FedRAMP released several new or revised Continuous Monitoring (
 * Making it easier to reference aspects of the process that previously were not documented
 * Creating structure in parts of the process that may have been interpreted differently by CSPs and JAB Reviewers
 
-We shared detailed information on these documents in a previous <a href="https://www.fedramp.gov/new-conmon-documents-available/">blog post </a>, then conducted a <a href="https://www.youtube.com/watch?v=CNGKskdv1DY&feature=youtu.be/">webinar </a>in which the FedRAMP PMO walked through each document individually.
+We shared detailed information on these documents in a previous <a href="https://www.fedramp.gov/new-conmon-documents-available/">blog post</a>, then conducted a <a href="https://www.youtube.com/watch?v=CNGKskdv1DY&feature=youtu.be/">webinar</a> in which the FedRAMP PMO walked through each document individually.
 
 Today, we’ve added three additional new documents on the FedRAMP.gov website: 
 1. **DRAFT Automated Vulnerability Risk Adjustment Framework Guidance**
