@@ -1,5 +1,5 @@
 ---
-title: The Release of 3 New ConMon Documents
+title: Three Additional ConMon Documents Released
 permalink: /the-release-of-3-new-conmon-documents/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
