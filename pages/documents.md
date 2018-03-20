@@ -167,7 +167,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
-    <td>This document replaces the currently posted JAB P-ATO Vulnerability Scan Requirements Guide.</td>
+    <td>This guide describes the requirements for all vulnerability scans of FedRAMP Cloud Service Provider’s (CSP) systems for Joint Authorization Board (JAB) Provisional Authorizations (PATOs).</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
