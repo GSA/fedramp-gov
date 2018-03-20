@@ -155,20 +155,20 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>3/20/2018</td>
   </tr>
     </tr>
-  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
-    <td>This document replaces the currently posted JAB P-ATO Vulnerability Scan Requirements Guide.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>3/20/2018</td>
-  </tr>
   </tr>
     </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
     <td>This document provides guidance for CSPs on sampling representative system components rather than scanning every component.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
+    <td>This document replaces the currently posted JAB P-ATO Vulnerability Scan Requirements Guide.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
