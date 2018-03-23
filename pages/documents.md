@@ -146,6 +146,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+  </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></td>
     <td>This document provides CSPs with a framework to create and deploy an automated, CVSS-based vulnerability risk adjustment tool for vulnerabilities identified by vulnerability scanning tools. The document is in DRAFT form while FedRAMP pilots this process with CSPs over the next year or so.</td>
