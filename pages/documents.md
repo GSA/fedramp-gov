@@ -154,9 +154,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     </td>
     <td>3/20/2018</td>
   </tr>
-    </tr>
-  </tr>
-    </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
     <td>This document provides guidance for CSPs on sampling representative system components rather than scanning every component.</td>
