@@ -4,7 +4,7 @@ layout: blog-list
 permalink: /onboarding-new-services-for-jab-provisionally-authorized-csps/
 body-class: page-blog
 ---
-As FedRAMP continues to evolve and mature, the program and its stakeholders must balance the need for rigorous security with the constant need for growth and change from Cloud Service Providers (CSPs). In order to help keep up with the pace of changes to the environments we’ve authorized, we’ve created a [New Services Onboarding Request Template](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/02/FedRAMP-New-Service-Onboarding-Request-V2.0.doc), a document allowing CSPs with an existing JAB Provisional Authorization to onboard new cloud services for consideration to authorize.
+As FedRAMP continues to evolve and mature, the program and its stakeholders must balance the need for rigorous security with the constant need for growth and change from Cloud Service Providers (CSPs). In order to help keep up with the pace of changes to the environments we’ve authorized, we’ve created a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">New Services Onboarding Request Template</a>, a document allowing CSPs with an existing JAB Provisional Authorization to onboard new cloud services for consideration to authorize.
 
 In partnership with the Third Party Assessment Organization (3PAO), a CSP and the FedRAMP PMO can now jointly make a decision to onboard new cloud services into an already JAB-authorized system up to two times faster and in a more transparent way than with the previous significant change process.
 
