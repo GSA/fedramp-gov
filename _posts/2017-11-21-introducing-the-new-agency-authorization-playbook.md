@@ -7,7 +7,7 @@ author: FedRAMP
 image: /assets/img/blog-images/Blog_11212017.png
 
 ---
-The FedRAMP PMO is proud to release the [Agency Authorization Playbook](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/11/FRP-0002_Agency-Playbook_FINAL-1.pdf)!
+The FedRAMP PMO is proud to release the [Agency Authorization Playbook](https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf)!
 
 Through our work revamping the Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) process, we identified a number of best practices and tips that will help Agencies as they work with Cloud Service Providers (CSPs) to grant initial Agency authorizations. We developed the Agency Authorization Playbook by combining these best practices and tips with step-by-step guidance that Agencies can follow to implement the process (depicted below) to grant an Agency Authority to Operate (ATO).
 
