@@ -5,6 +5,11 @@ description: The Federal Risk and Authorization Management Program, or FedRAMP, 
 baseurl: /fedramp-gov
 # the base hostname & protocol for your site
 url: "https://fedramp.gov"
+
+# the GitHub name-with-owner, needed for the github-metadata plugin
+# ref: https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
+repository: gsa/fedramp-gov
+
 logo: /assets/img/logo-main-fedramp.png
 feature_image: /assets/img/feature-background.jpg
 
@@ -88,6 +93,8 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 paginate: 5
 paginate_path: "/blog/page:num/"

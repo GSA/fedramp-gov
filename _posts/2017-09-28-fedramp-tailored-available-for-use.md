@@ -18,6 +18,6 @@ We are excited to announce our release of the **_FedRAMP Tailored_** Baseline fo
 
 We originally released [**_FedRAMP Tailored_**](https://www.fedramp.gov/launching-a-fedramp-tailored-baseline/) for public comment in February of this year. After making significant updates and incorporating your feedback, which included over 330 comments and reactions, we released it for a second public comment period in July. You can view all the comments and FedRAMP’s responses by visiting the GitHub [comment repository](https://github.com/GSA/fedramp-tailored/issues?q=is%3Aissue+is%3Aclosed).
 
-We’ve published the final documents in the [Templates](https://www.fedramp.gov/resources/templates-2016/) pages of our [website](https://www.fedramp.gov/), which can be located under the “Resources” section of our navigation menu.
+We’ve published the final documents in the [Templates](https://www.fedramp.gov/templates/) pages of our [website](https://www.fedramp.gov/), which can be located under the “Resources” section of our navigation menu.
 
 For a more concise explanation of FedRAMP Tailored and links to all of the documents, please visit [https://tailored.fedramp.gov/](https://tailored.fedramp.gov/). If you have additional questions, please feel free to reach out to [info@fedramp.gov](mailto:info@fedramp.gov).

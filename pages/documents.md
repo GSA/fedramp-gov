@@ -47,6 +47,14 @@ body-class: page-fed-agencies
     </td>
     <td>5/18/2017</td>
   </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></td>
+    <td>The purpose of this document is to describe the general document acceptance criteria for FedRAMP to both writers and reviewers. This acceptance criterion applies to all documents FedRAMP reviews that do not have special checklists or acceptance criteria predefined for them.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>2/7/2018</td>
+  </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></td>
     <td>This memorandum: 1) establishes Federal policy for the protection of Federal information in cloud services; 2) describes the key components of FedRAMP and its operational capabilities; 3) defines Executive department and Agency responsibilities in developing, implementing, operating, and maintaining FedRAMP; and 4) defines the requirements for Executive departments and Agencies using FedRAMP in the acquisition of cloud services.</td>
@@ -121,7 +129,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
@@ -129,7 +137,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></td>
@@ -139,13 +147,29 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     </td>
     <td>6/6/2017</td>
   </tr>
-  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf">JAB P-ATO Vulnerability Scan Requirements Guide</a></td>
-    <td>This guide describes the requirements for all vulnerability scans of FedRAMP CSP's systems for JAB P-ATOs.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf"><i class="fas fa-file-pdf"></i>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></td>
+    <td>This document provides CSPs with a framework to create and deploy an automated, CVSS-based vulnerability risk adjustment tool for vulnerabilities identified by vulnerability scanning tools. The document is in DRAFT form while FedRAMP pilots this process with CSPs over the next year or so.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>3/20/2018</td>
+  </tr>
+  <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
+    <td>This document provides guidance for CSPs on sampling representative system components rather than scanning every component.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
+  </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
+    <td>This guide describes the requirements for all vulnerability scans of FedRAMP Cloud Service Provider’s (CSP) systems for Joint Authorization Board (JAB) Provisional Authorizations (PATOs).</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/20/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></td>
@@ -161,7 +185,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></td>
@@ -169,7 +193,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a></td>
@@ -177,13 +201,13 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf"><i class="fas fa-file-pdf"></i>
    <p class="icon-text">PDF</p></a>
    </td>
-    <td>1/31/2018</td>
+    <td>2/21/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>
     <td>This document supports the Incident Communication Procedure for FedRAMP. This Incident Communication Procedure outlines the measures to consider so all parties effectively communicate during a security incident incurred by a FedRAMP authorized CSP.</td>
-    <td><a class="icon-link" href="#"><i class="fas fa-file-word"></i>
-    <p class="icon-text">WORD</p></a>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
   </tr>
@@ -194,6 +218,14 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+  </tr>
+   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></td>
+    <td>The FedRAMP Annual Assessment Controls Selection Worksheet provides a matrix to assist CSPs, 3PAOs, and Federal Agencies in assessing and tracking control their annual assessment.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx"><i class="fas fa-file-excel"></i>
+    <p class="icon-text">EXCEL</p></a>
+    </td>
+    <td>2/23/2018</td>
   </tr>
   <tr>
     <td class="th-2" colspan="4"><strong>Key Agency Documents</strong></td>
@@ -263,18 +295,10 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>9/26/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contract Clauses</a></td>
-    <td>FedRAMP has developed a security contract clause template to assist Federal Agencies in procuring cloud-based services. This template should be reviewed by an Agency’s Office of General Counsel (OGC) to ensure it meets all Agency requirements, and then incorporated into the security assessment section of a solicitation.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>6/27/2017</td>
-  </tr>
-  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a></td>
     <td>FedRAMP security control baselines specify control parameter requirements and organizational parameters specific to the provider’s control implementation. Since certain controls may be required to govern Agency user interaction, control organizational parameters may need to be included in the task order and specified. The FedRAMP PMO suggests that agencies review the FedRAMP security control baseline, and that agencies do not contractually specify parameters for controls in the FedRAMP baseline, except from the perspective of a consumer’s implementation of a control.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf"><i class="fas fa-file-word"></i>
-    <p class="icon-text">WORD</p></a>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
   </tr>
@@ -314,5 +338,3 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/6/2017</td>
   </tr>
 </table>
-
-
