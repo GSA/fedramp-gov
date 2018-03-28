@@ -1,6 +1,6 @@
 ---
-title: How FedRAMP Transformed JAB Authorizations to take  Less Time
-permalink: /how-fedramp-transformed-jab-authorizations-to-take--less-time/
+title: How FedRAMP Transformed JAB Authorizations to take 75% Less Time
+permalink: /how-fedramp-transformed-jab-authorizations-to-take-less-time/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03292018.png
 author: FedRAMP
