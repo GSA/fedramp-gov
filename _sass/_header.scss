@@ -1,3 +1,17 @@
+/** SEARCH FEATURE **/
+.search-feature {
+	padding: 20px;
+}
+
+.search-feature .usa-header .usa-search {
+	max-width: 22rem;
+}
+
+.search-feature .usa-button, .search-feature .usa-button-primary, .search-feature .usa-button:visited, .search-feature .usa-button-primary:visited, .search-feature button, .search-feature [type="button"], .search-feature [type="submit"], .search-feature [type="reset"], .search-feature [type="image"] {
+	font-size: 1.2rem;
+}
+
+
 div.usa-nav-container {
 	height: 170px;
 	width: 100%;
@@ -8,11 +22,11 @@ div.usa-nav-container {
 }
 
 @media (min-width: 0px) and (max-width: 951px) {
-div.usa-nav-container {
-	padding: 20px 5%;
-	margin: 0;
-	height: 120px;
-}
+	div.usa-nav-container {
+		padding: 20px 5%;
+		margin: 0;
+		height: 120px;
+	}
 }
 
 div.usa-navbar {
