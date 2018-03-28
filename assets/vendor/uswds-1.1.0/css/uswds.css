@@ -2292,7 +2292,7 @@ dfn {
 
 .usa-banner {
   background-color: #f1f1f1;
-  padding-bottom: 0.7rem;
+  padding-bottom: 10px;
 }
 
 @media screen and (min-width: 481px) {
