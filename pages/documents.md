@@ -56,7 +56,7 @@ body-class: page-fed-agencies
     <td>2/7/2018</td>
   </tr>
  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated a Case Study for Change Within Government</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></td>
     <td>This document captures FedRAMP's experience with redesigning its JAB Authorization process based on stakeholder feedback and shares its insights on creating change within the Government.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf"></i>
     <p class="icon-text">PDF</p></a>
