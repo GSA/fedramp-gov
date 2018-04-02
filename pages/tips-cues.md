@@ -35,10 +35,13 @@ Doing these things cannot guarantee a successful SSP review, but will greatly en
 <div class="q2">
 <h3>Q: What is a security architecture diagram and what should it include?</h3>
 
-<p><strong>A:</strong> A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment. It also articulates the overall security program strategy in alignment with the position and selection of security control implementations. A security architecture diagram MUST be a stand-alone document and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to reference other sections of the SSP or outside product guides.
+<p><strong>A:</strong> A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment.
  </p>
 <p>
-Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing implementation statements. <em>(March 28, 2018)</em> 
+Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing control implementation statements.
+ </p>
+<p>
+Security architecture diagrams help to illustrate the key elements of the larger information security architecture. The information security architecture articulates the overall security program strategy in alignment with the position and selection of security control implementations. The information security architecture should be a stand-alone document(s) and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to simply reference other sections of the SSP. <em>(March 28, 2018)</em> 
 </p>
 </div>
 
