@@ -47,29 +47,40 @@ Architectural and network diagrams must include all possible communication links
 
 <p><strong>A:</strong> While For the initial assessment, it is appropriate to assign the same values to tables F-1 and F-2. For the annual assessment, SAR tables ES-1, F-1, and F-2 should have the same values as well. All three tables account for all system risks. Because FedRAMP guidance requires that the 3PAO assess all POA&Ms for the annual assessment, the POA&M risks are also included in those tables for the annual assessment. In summary, the tables account for all system risks reported in:
 </p>
+<ul>
+ <li>
 <p>
  
-* The POA&Ms (if any exist at the start of the annual assessment) 
+The POA&Ms (if any exist at the start of the annual assessment) 
 </p>
+</li>
+<li>
 <p>
 
-* Vulnerbility scans 
+Vulnerbility scans 
 </p>
+</li>
+<li>
 <p>
 
-* NIST 800-53 controls assessment.
+NIST 800-53 controls assessment.
 
 </p>
+</li>
+<li>
 <p>
 
-* Penetration testing 
+Penetration testing 
 
 </p>
+</li>
 <p>
 
-* Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>.
+Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>.
    
 </p>
+</li>
+</ul>
 </div>
 
 <div class="q2">
