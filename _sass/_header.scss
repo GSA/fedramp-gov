@@ -244,14 +244,29 @@ nav.usa-nav {
 
 /** PRINT FRIENDLY **/
 @media print {
+	
+	html, body {
+            margin: 0;
+            padding: 0;
+            background: #FFF; 
+            font-size: 9.5pt;
+          }
+          .container, .container div {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          .template { 
+		  overflow: hidden;
+	   }
+          img { 
+		  width: 100%; 
+	  }
+	
 	#navigation, #subnavigation, #sidebar, .donotprint {
 	display: none;
 	}
-	
-	body {
-	/* set a base font size */
-	font-size: 12pt;
-	}
+
 	h1 {
 	font-size: 24pt;
 	}
