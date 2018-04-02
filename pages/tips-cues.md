@@ -80,7 +80,7 @@ Penetration testing
 <li>
 <p>
 
-Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>.
+Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>
    
 </p>
 </li>
