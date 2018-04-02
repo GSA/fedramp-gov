@@ -9,29 +9,46 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
-<h2>February 2018 Tips & Cues</h2>
+<h2>March 2018 Tips & Cues</h2>
 <div class="q1">
-<h3>Q: In the updated Continuous Monitoring Strategy Guide, I noticed there is now a defined “due date” for low vulnerabilities. Does my service offering have to implement that immediately?</h3>
+<h3>TIP: Avoid adding time to your authorization process by successfully completing the System Security Plan (SSP) review the first time! Here are some tips from the FedRAMP PMO on how to create a strong SSP.</h3>
 
-<p><strong>A:</strong> The FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a> now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
+<p>
+
+1. Submit a complete and well structured SSP.
+
+2. Dedicate enough resources – often one writer is not enough to complete the SSP, and you may have to allot additional resources and subject matter experts to complete.
+ 
+3. Employ the four C’s of writing: Clear – straightforward, avoiding convoluted or overly long phrases; Concise – pack the most meaning into your words; Concrete – concrete writing is precise and detail oriented; and Correct – correct grammar, mechanics, and format are baseline expectations for writing.
+ 
+4. Ensure the writer(s) has knowledge of the system and/or can obtain the information from others and be able to communicate it.
+ 
+5. Perform a quality review on the SSP.
+ 
+Doing these things cannot guarantee a successful SSP review, but will greatly enhance your chances. <em>(March 28, 2018) </em>
 </p>
 </div>
 
 <div class="q2">
-<h3>Q: Can a Federal Agency require CSPs to be FedRAMP authorized in a request for proposal (RFP)?</h3>
+<h3>Q: What is a security architecture diagram and what should it include?</h3>
 
-<p><strong>A:</strong> Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once Federal data is placed in the system. For more information on contract clauses, please review the FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contractual Clauses</a>. <em>(February 28, 2018)</em> 
+<p><strong>A:</strong> A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment. It also articulates the overall security program strategy in alignment with the position and selection of security control implementations. A security architecture diagram MUST be a stand-alone document and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to reference other sections of the SSP or outside product guides.
+ 
+Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing implementation statements. <em>(March 28, 2018)</em> 
 </p>
 </div>
 
 <div class="q2">
-<h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
+<h3>Q: When completing the Security Assessment Report (SAR), is it appropriate to assign the same values to tables F-1 and F-2 for the initial assessment? What about assigning the same values to ES-1, F-1, and F-2 for the annual assessment if there were POA&Ms at the start of the annual assessment?</h3>
 
-<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a> and baseline requirements <a href="https://www.fedramp.gov/documents/">documentation</a> available on fedramp.gov. Agencies that are using a cloud system or service must follow FedRAMP requirements and go through the FedRAMP authorization process. The driving policy for FedRAMP is a <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">policy memo</a>
- released by OMB.
+<p><strong>A:</strong> While For the initial assessment, it is appropriate to assign the same values to tables F-1 and F-2. For the annual assessment, SAR tables ES-1, F-1, and F-2 should have the same values as well. All three tables account for all system risks. Because FedRAMP guidance requires that the 3PAO assess all POA&Ms for the annual assessment, the POA&M risks are also included in those tables for the annual assessment. In summary, the tables account for all system risks reported in:
 </p>
 <p>
-The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP authorization. <em>(February 21, 2018)</em> 
+  *POA&Ms (if any exist at the start of the annual assessment)
+  *Vulnerability scans
+  *NIST 800-53 controls assessment
+  *Penetration testing
+  *Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em> 
 </p>
 </div>
 
