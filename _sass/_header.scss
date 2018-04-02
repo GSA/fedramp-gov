@@ -240,3 +240,32 @@ nav.usa-nav {
 // 	width: auto;
 // 	height: 20px;
 // }
+
+
+/** PRINT FRIENDLY **/
+@media print {
+	#navigation, #subnavigation, #sidebar, .donotprint {
+	display: none;
+	}
+	
+	body {
+	/* set a base font size */
+	font-size: 12pt;
+	}
+	h1 {
+	font-size: 24pt;
+	}
+	h2 {
+	font-size: 18pt;
+	}
+	h3 {
+	font-size: 14pt;
+	}
+	p, ul, ol, dl {
+	/* paragraphs, unordered, ordered, and definition lists */
+	font-size: 12pt;
+	}
+    /* Print CSS rules go here */
+    /* Note: You need a separate @media screen group for other rules */
+}
+
