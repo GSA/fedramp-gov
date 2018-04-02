@@ -8,7 +8,7 @@ image: /assets/img/blog_placementimg.png
 author: FedRAMP
 
 ---
-We recently released updated guidance for Cloud Service Providers (CSPs) on how to obtain the [“FedRAMP In Process”](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-Requirements-for-Obtaining-In-Process-Designation_FINAL.pdf) designation, specific to FedRAMP Agency Authorizations. Once a CSP is deemed as “FedRAMP In Process,” they are placed on [the FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products), which highlights Cloud Service Offerings (CSOs) with FedRAMP designations (e.g. FedRAMP Ready, FedRAMP In Process and FedRAMP Authorized). The new In Process criteria ensures the information on the FedRAMP Marketplace is as accurate and up-to-date as possible. 
+We recently released updated guidance for Cloud Service Providers (CSPs) on how to obtain the [“FedRAMP In Process”](https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf) designation, specific to FedRAMP Agency Authorizations. Once a CSP is deemed as “FedRAMP In Process,” they are placed on [the FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products), which highlights Cloud Service Offerings (CSOs) with FedRAMP designations (e.g. FedRAMP Ready, FedRAMP In Process and FedRAMP Authorized). The new In Process criteria ensures the information on the FedRAMP Marketplace is as accurate and up-to-date as possible. 
 
 The In Process designation indicates to agencies that a CSP is actively working toward a FedRAMP authorization. While the latest updates to the In Process guidance may seem more stringent than before, the changes help ensure that the designation is accurate and reflects that agencies and CSPs are actively working towards a FedRAMP Agency authorization with defined timelines and goal dates.
 
@@ -48,7 +48,7 @@ To maintain the “FedRAMP In Process” designation, the FedRAMP PMO will be pr
 
 **Removal of a CSO from the FedRAMP Marketplace “In-Process” Designation**
 
-In order to maintain integrity of the [marketplace](https://marketplace.fedramp.gov/#/products?status=In%20Process&sort=productName), if a determination is made that a CSP is not actively working toward an authorization, the FedRAMP PMO may decide to remove the CSP from the marketplace. Examples of why a CSO could be removed from the marketplace are included in the [updated policy](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-Requirements-for-Obtaining-In-Process-Designation_FINAL.pdf).
+In order to maintain integrity of the [marketplace](https://marketplace.fedramp.gov/#/products?status=In%20Process&sort=productName), if a determination is made that a CSP is not actively working toward an authorization, the FedRAMP PMO may decide to remove the CSP from the marketplace. Examples of why a CSO could be removed from the marketplace are included in the [updated policy](https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf).
 
 We’d like to thank everyone in the FedRAMP ecosystem for their flexibility and understanding as we strive to improve the fidelity and power of the In Process designation for CSPs and Agencies, and we look forward to partnering with you all to continue to evolve and improve the FedRAMP program as a whole.
 
