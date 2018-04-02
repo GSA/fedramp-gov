@@ -49,15 +49,26 @@ Architectural and network diagrams must include all possible communication links
 </p>
 <p>
  
-* POA&Ms (if any exist at the start of the annual assessment)
+* The POA&Ms (if any exist at the start of the annual assessment) 
+</p>
+<p>
 
-* Vulnerability scans 
+* Vulnerbility scans 
+</p>
+<p>
 
-* NIST 800-53 controls assessment 
+* NIST 800-53 controls assessment.
+
+</p>
+<p>
 
 * Penetration testing 
 
-* Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>   
+</p>
+<p>
+
+* Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>.
+   
 </p>
 </div>
 
