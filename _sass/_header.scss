@@ -256,14 +256,16 @@ nav.usa-nav {
             margin: 0;
             padding: 0;
           }
+	/*
           .template { 
 		  overflow: hidden;
 	   }
+	*/
           img { 
 		  width: 100%; 
 	  }
 	
-	#navigation, #subnavigation, #sidebar, .donotprint {
+	#navigation, #subnavigation{
 	display: none;
 	}
 
