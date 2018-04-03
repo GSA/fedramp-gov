@@ -2,7 +2,7 @@
 title:  Introducing the New CSP Authorization Playbook
 permalink: /introducing-the-new-csp-authorization-playbook/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_CSP Playbook.png
+image: /assets/img/blog-images/Blog_CSP_Playbook.png
 author: FedRAMP
 layout: blog-page
 ---
