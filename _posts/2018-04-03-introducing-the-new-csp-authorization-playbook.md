@@ -14,4 +14,4 @@ Many CSPs are interested in pursuing a FedRAMP authorization for their cloud off
 
 The CSP Authorization Playbook will ultimately be three volumes and resemble the <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> - providing a guide for CSPs that covers the entire FedRAMP authorization lifecycle and shares best practices to achieve a successful authorization. The second volume of the CSP Authorization Playbook will cover the authorization process and the third volume will detail post authorization activities, such as continuous monitoring and Agencies leveraging a CSP authorization. 
 
-Look out for the second and third volumes of the CSP Authorization Playbook which will be released this year! If you have any questions about the playbook or how to get started with  FedRAMP, please reach out to us at info@fedramp.gov.
+Look out for the second and third volumes of the CSP Authorization Playbook, which will be released this year! If you have any questions about the playbook or how to get started with  FedRAMP, please reach out to us at info@fedramp.gov.
