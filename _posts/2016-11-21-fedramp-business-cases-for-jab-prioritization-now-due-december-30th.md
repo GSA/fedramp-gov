@@ -7,7 +7,7 @@ body-class: page-blog
 ---
 Over the last week, we have collected excellent feedback relating to the FedRAMP Business Cases for JAB Prioritization from CSPs, 3PAOs and Agencies. THANK YOU!
 
-**Based on what we heard, the due date for** [**FedRAMP Business Cases**](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-Business-Case-Form_Interactive_161121v2.pdf) **is extended to December 30th, 2016.** We will be providing a full FAQ sheet for the JAB P-ATO prioritization process and FedRAMP Business Case within the next week; in the meantime we wanted to answer and share some of the questions we have received
+**Based on what we heard, the due date for** **FedRAMP Business Cases** **is extended to December 30th, 2016.** We will be providing a full FAQ sheet for the JAB P-ATO prioritization process and FedRAMP Business Case within the next week; in the meantime we wanted to answer and share some of the questions we have received
 
 **Question:**
 

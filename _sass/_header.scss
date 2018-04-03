@@ -240,3 +240,56 @@ nav.usa-nav {
 // 	width: auto;
 // 	height: 20px;
 // }
+
+
+/** PRINT FRIENDLY **/
+@media print {
+	
+	html, body {
+            margin: 0;
+            padding: 0;
+            background: #FFF; 
+            font-size: 9.5pt;
+          }
+          .container, .container div {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+	/*
+          .template { 
+		  overflow: hidden;
+	   }
+	*/
+	/*
+          img { 
+		  width: 100%; 
+	  }
+	*/
+	
+	div {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	#navigation, #subnavigation{
+	display: none;
+	}
+
+	h1 {
+	font-size: 24pt;
+	}
+	h2 {
+	font-size: 18pt;
+	}
+	h3 {
+	font-size: 14pt;
+	}
+	p, ul, ol, dl {
+	/* paragraphs, unordered, ordered, and definition lists */
+	font-size: 12pt;
+	}
+    /* Print CSS rules go here */
+    /* Note: You need a separate @media screen group for other rules */
+}
+

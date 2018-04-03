@@ -99,6 +99,14 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   <tr>
     <td class="th-2" colspan="4"><strong>Key Cloud Service Provider (CSP) Documents</strong></td>
   </tr>
+    <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></td>
+    <td>This first volume of the CSP Authorization Playbook provides an overview of all of the partners involved in a FedRAMP authorization, things to consider when determining your authorization strategy, the types of authorizations, and important considerations for your offering when working with FedRAMP.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>4/3/2018</td>
+  </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization - Best Practices for CSPs</a></td>
     <td>Geared towards CSPs interested in or beginning the Agency Authorization process, this document helps CSPs understand how to partner with an Agency and engage with the PMO during the authorization process.</td>
@@ -193,7 +201,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>2/21/2018</td>
+    <td>4/3/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></td>

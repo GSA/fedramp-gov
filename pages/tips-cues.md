@@ -9,80 +9,141 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
-<h2>February 2018 Tips & Cues</h2>
+<h2>March 2018 Tips & Cues</h2>
 <div class="q1">
-<h3>Q: In the updated Continuous Monitoring Strategy Guide, I noticed there is now a defined “due date” for low vulnerabilities. Does my service offering have to implement that immediately?</h3>
-
-<p><strong>A:</strong> The FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a> now requires low vulnerabilities to be remediated/mitigated within 180 days. That requirement took effect on January 31, 2018 when the document was published. All newly identified “low” vulnerabilities should have a resolution date (as specified in the POA&M) no later than 180 days after the date of discovery. “Low” vulnerabilities that were identified and placed on the POA&M prior to January 31, 2018 may keep the previously assigned resolution date. <em>(February 28, 2018) </em>
-</p>
-</div>
-
-<div class="q2">
-<h3>Q: Can a Federal Agency require CSPs to be FedRAMP authorized in a request for proposal (RFP)?</h3>
-
-<p><strong>A:</strong> Federal Agencies cannot require CSPs to be FedRAMP authorized as part of their RFP, but they can state that a CSP needs to be FedRAMP authorized once Federal data is placed in the system. For more information on contract clauses, please review the FedRAMP <a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contractual Clauses</a>. <em>(February 28, 2018)</em> 
-</p>
-</div>
-
-<div class="q2">
-<h3>Q: Would a cloud service require a FedRAMP authorization if it already has a FISMA ATO? If so, can you reference the specific language in the requirement?</h3>
-
-<p><strong>A:</strong> While FISMA and FedRAMP authorizations are similar, FedRAMP authorizations involve extra requirements and parameters specified in the FedRAMP <a href="https://www.fedramp.gov/templates/">templates</a> and baseline requirements <a href="https://www.fedramp.gov/documents/">documentation</a> available on fedramp.gov. Agencies that are using a cloud system or service must follow FedRAMP requirements and go through the FedRAMP authorization process. The driving policy for FedRAMP is a <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">policy memo</a>
- released by OMB.
+<h3>TIP: Avoid adding time to your authorization process by successfully completing the System Security Plan (SSP) review the first time! Here are some tips from the FedRAMP PMO on how to create a strong SSP.</h3>
+<p>
+1. Submit a complete and well structured SSP.
 </p>
 <p>
-The initial cloud system/service authorization package (to include the ATO for Agency-authorized systems) must be reviewed and approved by the FedRAMP PMO to receive a FedRAMP authorization. <em>(February 21, 2018)</em> 
+2. Dedicate enough resources – often one writer is not enough to complete the SSP, and you may have to allot additional resources and subject matter experts to complete.
+ </p>
+<p>
+3. Employ the four C’s of writing: Clear – straightforward, avoiding convoluted or overly long phrases; Concise – pack the most meaning into your words; Concrete – concrete writing is precise and detail oriented; and Correct – correct grammar, mechanics, and format are baseline expectations for writing.
+ </p>
+<p>
+4. Ensure the writer(s) has knowledge of the system and/or can obtain the information from others and be able to communicate it.
+ </p>
+<p>
+5. Perform a quality review on the SSP.
+ </p>
+<p>
+Doing these things cannot guarantee a successful SSP review, but will greatly enhance your chances. <em>(March 28, 2018) </em>
 </p>
 </div>
 
 <div class="q2">
-<h3>Q: If a CSP wants to complete a FedRAMP Readiness Review, but is then going to pursue an Agency-sponsored FedRAMP authorization, can the CSP use the same 3PAO for both assessments?
+<h3>Q: What is a security architecture diagram and what should it include?</h3>
+
+<p><strong>A:</strong> A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment.
+ </p>
+<p>
+Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing control implementation statements.
+ </p>
+<p>
+Security architecture diagrams help to illustrate the key elements of the larger information security architecture. The information security architecture articulates the overall security program strategy in alignment with the position and selection of security control implementations. The information security architecture should be a stand-alone document(s) and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to simply reference other sections of the SSP. <em>(March 28, 2018)</em> 
+</p>
+</div>
+
+<div class="q2">
+<h3>Q: When completing the Security Assessment Report (SAR), is it appropriate to assign the same values to tables F-1 and F-2 for the initial assessment? What about assigning the same values to ES-1, F-1, and F-2 for the annual assessment if there were POA&Ms at the start of the annual assessment?</h3>
+
+<p><strong>A:</strong> While For the initial assessment, it is appropriate to assign the same values to tables F-1 and F-2. For the annual assessment, SAR tables ES-1, F-1, and F-2 should have the same values as well. All three tables account for all system risks. Because FedRAMP guidance requires that the 3PAO assess all POA&Ms for the annual assessment, the POA&M risks are also included in those tables for the annual assessment. In summary, the tables account for all system risks reported in:
+</p>
+<ul>
+ <li>
+<p>
+ 
+The POA&Ms (if any exist at the start of the annual assessment) 
+</p>
+</li>
+<li>
+<p>
+
+Vulnerbility scans 
+</p>
+</li>
+<li>
+<p>
+
+NIST 800-53 controls assessment.
+
+</p>
+</li>
+<li>
+<p>
+
+Penetration testing 
+
+</p>
+</li>
+<li>
+<p>
+
+Other assessment activities performed for either the initial or annual assessment <em>(March 21, 2018)</em>
+   
+</p>
+</li>
+</ul>
+</div>
+
+<div class="q2">
+<h3>Q: Is the CSP responsible for ensuring the quality of the work performed by the Third Party Assessment Organization (3PAO)?
 </h3>
 
-<p><strong>A:</strong> A CSP can use the same 3PAO for completing their Readiness Assessment Report (RAR) and their full security assessment when working with an Agency or the JAB. The same 3PAO, however, cannot consult between assessments – this is outlined in the ISO 17020 requirements and FedRAMP-A2LA 3PAO accreditation requirements.
+<p><strong>A:</strong> While accredited 3PAOs perform security assessments of FedRAMP cloud services, the CSP is responsible for all 3PAO activities and deliverables related to the assessment of their cloud offering. The CSP manages and oversees these activities accordingly.
 </p>
 <p>
-Additionally, to help ensure successful completion of the RAR, the FedRAMP PMO has created a <a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">FedRAMP RAR Guide for 3PAOs</a> that includes useful tips and lessons learned. <em>(February 21, 2018)</em> 
+Exceptions are delivery of the Security Assessment Plan (SAP), Security Assessment Report (SAR), and the SAR results. In order to maintain the integrity and independence of these documents, they must be provided to the PMO directly from the 3PAO. While the 3PAO makes the final determination on the security results in the SAR, the CSP should ensure the quality of the SAR and all 3PAO deliverables provided to FedRAMP. <em>(March 21, 2018)</em> 
 </p>
 </div>
 
 <div class="q3">
 
-<h3>Q: Do the FedRAMP security controls restrict data to reside only within the United States?</h3>
+<h3>Q: Are there any alternative formats available to help facilitate reviews? Sometimes scan files are in a format that does not allow reviewers to do their analysis with common tools.</h3>
 
-<p><strong>A:</strong> There are no FedRAMP requirements restricting data to within the United States. There are multiple security controls that detail where data is stored, what the boundary of the system is, and where and how data in transit is protected. We have some providers that are authorized through FedRAMP that are located globally, although a majority of service providers do restrict their data to the United States. It is up to each individual Agency and Authorizing Official to place restrictions, if needed, on data location. <em>(February 14, 2018) </em>
+<p><strong>A:</strong> For the Security Assessment Report (SAR), always provide scan file outputs in a “machine-readable” format that permits analysis using common tools. For example, XML files can be formatted into something that is Microsoft Excel compatible in the following way (Applies to: Excel 2016, Excel 2013):
+ </p>
+<p>
+1. On the Data tab, click From Other Sources > From XML Import.
+  </p>
+<p>
+2. Browse to your XML file, and click Open.
+  </p>
+<p>
+3. If the XML file doesn’t refer to a schema, Excel offers to create a schema for you.
+  </p>
+<p>
+4. Click OK.
+  </p>
+<p>
+5. Choose where you want to import the data.
+ </p>
+<p>
+Additionally, files can be provided in a “.CSV” format that opens directly into Excel. <em>(March 14, 2018) </em>
 </p>
 </div>
 
 <div class="q3">
 
-<h3>Q: Does the “FedRAMP Ready” designation allow CSPs to bid on contracts if their systems don’t have an existing Authority to Operate (ATO)? If not, how will a CSP that does not have a current ATO respond to an RFP? Will the CSP be required to obtain a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO)?</h3>
+<h3>Q: Can the Security Assessment Plan (SAP) and/or the Security Assessment Report (SAR) templates be modified?</h3>
 
-<p><strong>A:</strong> CSPs whose systems do not have existing ATOs are allowed to bid on contracts. Agencies can request a CSP to have a timeline for obtaining an ATO, but should not limit the request to CSPs with ATOs. Please contact the FedRAMP PMO if an Agency is making that request.
-</p>
-<p>
-The “FedRAMP Ready” designation is a market indicator to Agencies that a system has a high likelihood of obtaining a JAB P-ATO or an Agency ATO. Agencies can be confident that systems that meet the FedRAMP Ready requirements actually have the key capabilities needed to fit their security needs. Therefore, a small cloud service provider will have the ability to attain FedRAMP Ready and be available for Agency review in the FedRAMP Marketplace. The Agency can then decide to issue an ATO based on the understanding that the system meets the Readiness Assessment requirements. <em>(February 14, 2018)</em> 
+<p><strong>A:</strong> The SAP and/or the SAR template can be modified to add content, but content cannot be removed from the template. So you will be able to add information to help bolster security packages, but you cannot eliminate parts or portions of the templates. <em>(March 14, 2018)</em> 
 </p>
 </div>
 
 <div class="q3">
 
-<h3>Q: How do security controls impact Quality of Service (QoS) of an application or system?</h3>
+<h3>Q: I received a request from a Federal Agency to review my system’s Provisional Authorization to Operate (P-ATO) letter, and I am concerned that sharing the letter will violate sensitivity policies. Is it appropriate to share an authorization letter with Agencies??</h3>
 
-<p><strong>A:</strong> Quality of Service (QoS) and security are interrelated. The implementation of security controls must be thoughtfully considered and deployed/implemented so as NOT to adversely impact an application's or system’s QoS. A good security program addresses confidentiality, integrity, AND availability. QoS is an important component of a well thought out security posture. <em>(February 7, 2018)</em> 
+<p><strong>A:</strong> Yes! The Authorization Letter is intended to serve as evidence that the CSP has obtained their FedRAMP P-ATO. The CSP may show or even provide a copy to a requesting Agency. Indeed, the Agency may need a copy for their own ATO package as evidence they selected a CSP with a valid FedRAMP P-ATO. <em>(March 7, 2018)</em> 
 </p>
 </div>
 
 <div class="q3">
 
-<h3>Q: I’d like to know the criteria that the FedRAMP PMO uses to review Agency authorization packages. Where can I find that information?</h3>
+<h3>Q: Could you explain the purpose and process behind requiring a CSP to complete an incident response test and contingency plan test before their 3PAO assessment?</h3>
 
-<p><strong>A:</strong> The FedRAMP PMO reviews Agency authorization packages after an Agency has conducted its own in-depth review of the CSP’s authorization package; has issued an ATO for the service; and the final, complete authorization package has been uploaded to the FedRAMP secure repository.
-</p>
-<p>
-The FedRAMP Agency Package Review Team focuses their review on key technical security concerns/critical controls and completeness of the authorization package. Results of the Team’s review are captured in the <a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a> (available on fedramp.gov). The completed Agency Review Template (report) is made available to the specific CSP, the initial authorizing Agency, and any other Agency interested in using that particular cloud service.
-</p>
-<p>
-However, Agencies and CSPs are cautioned not to overly focus on the Review Template checks, as FedRAMP PMO reviewers also spot­ check other areas within the package as part of the FedRAMP authorization determination. <em>(February 7, 2018)</em> 
+<p><strong>A:</strong> If a CSP does not complete an incident response test and contingency plan test before the 3PAO assessment, the Joint Authorization Board (JAB) will not issue the cloud offering a Provisional Authorization to Operate (P-ATO). These tests must be conducted in accordance with NIST SP 800-53, and the results should be made available to the 3PAO for evaluation. Once a P-ATO is granted, the tests should continue to be completed prior to the annual assessment so that the 3PAO can evaluate the results as part of that assessment. <em>(March 7, 2018)</em> 
 </p>
 </div>
