@@ -9,7 +9,6 @@ layout: blog-page
 FedRAMP turns six this year! As a way to celebrate, we’re introducing awards to recognize government partners who have helped FedRAMP grow, develop, and improve over time. The first ever awards - which we’re calling the “FedRAMP Five” - will give recognition to some of the Agency partners to whom we owe our success.
 
 The FedRAMP Five Awards will be given in the following categories:
-
 <table>
   <tr>
     <th>Name of Award</th>
@@ -33,7 +32,9 @@ The FedRAMP Five Awards will be given in the following categories:
   </tr>
 <tr>
     <td>Future Leader</td>
-    <td>The Future Leader Award recognizes an Agency employee (from either a large or small Agency) who demonstrates exceptional knowledge, skill, and leadership in their Agency’s FedRAMP adoption efforts. To qualify, this individual must have worked in government for five years or less, as of June 6, 2018.</td>
+    <td>The Future Leader Award recognizes an Agency employee (from either a large or small Agency) who demonstrates exceptional knowledge, skill, and leadership in their Agency’s FedRAMP adoption efforts. 
+**To qualify, this individual must have worked in government for five years or less, as of June 6, 2018.**
+  </td>
   </tr>
 </table>
 
@@ -46,7 +47,7 @@ If you’re unable to use Google Forms, please email us at info@fedRAMP.gov usin
 * Nominee Contact Information
 * Nomination (100 words or less)
 
-The nomination period closes on April 30th, and winners will be announced on June 6th, FedRAMP’s birthday.
+**The nomination period closes on April 30th, and winners will be announced on June 6th, FedRAMP’s birthday.**
 
 Please note that FedRAMP Five is a public recognition award and does not include any monetary or material prizes.
 
