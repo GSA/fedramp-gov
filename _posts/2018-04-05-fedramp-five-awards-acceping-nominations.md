@@ -2,7 +2,7 @@
 title:  FedRAMP Five Awards -- Accepting Nominations!
 permalink: /fedramp-five-awards-acceping-nominations/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_CSP_Playbook.png
+image: /assets/img/blog-images/Blog_04022018_award.png
 author: FedRAMP
 layout: blog-page
 ---
