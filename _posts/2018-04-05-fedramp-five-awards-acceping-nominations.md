@@ -11,7 +11,7 @@ FedRAMP turns six this year! As a way to celebrate, we’re introducing awards t
 The FedRAMP Five Awards will be given in the following categories:
 <table>
   <tr>
-    <th>&nbsp;&nbsp;Award Name&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Award&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th>Description of Award</th>
   </tr>
   <tr>
