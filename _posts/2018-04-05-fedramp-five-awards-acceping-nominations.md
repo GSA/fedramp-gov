@@ -1,5 +1,5 @@
 ---
-title:  FedRAMP Five Awards -- Accepting Nominations!
+title:  FedRAMP Five Awards - Accepting Nominations!
 permalink: /fedramp-five-awards-acceping-nominations/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_04022018_award.png
@@ -36,7 +36,7 @@ The FedRAMP Five Awards will be given in the following categories:
   </tr>
 </table>
 
-To submit a nomination, please visit our <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6w3G1YFCZfrUgPnxgfinoNsP7x7mnqexYw7xq9DPQ5mpHhg/viewform">nominations page</a>. You will be asked to include your contact information, the name of the Agency or individual, and a brief nomination of 100 words or less. Candidates can nominate themselves, and a nominator can submit multiple nominations. Nominators do not need to be government employees, but awardees must either be an Agency (large or small) or federal government employee.
+To submit a nomination, please visit our <a href="https://goo.gl/forms/lFLH0iIWng5R3eLs1">nominations page</a>. You will be asked to include your contact information, the name of the Agency or individual, and a brief nomination of 100 words or less. Candidates can nominate themselves, and a nominator can submit multiple nominations. Nominators do not need to be government employees, but awardees must either be an Agency (large or small) or federal government employee.
 
 If you’re unable to use Google Forms, please email us at info@fedRAMP.gov using the subject line “FedRAMP Five Nomination” with the following content: 
 * Submitter Name and Contact Information
