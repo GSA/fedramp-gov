@@ -9,7 +9,7 @@ layout: blog-page
 FedRAMP turns six this year! As a way to celebrate, we’re introducing awards to recognize government partners who have helped FedRAMP grow, develop, and improve over time. The first ever awards - which we’re calling the “FedRAMP Five” - will give recognition to some of the Agency partners to whom we owe our success.
 
 The FedRAMP Five Awards will be given in the following categories:
-<table>
+<table width="95%" valign="top">
   <tr>
     <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Award&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th>Description of Award</th>
