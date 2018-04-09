@@ -22,7 +22,7 @@
           <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/fedramp-logo-stamp.png" alt="Fedramp">
         {% endif %}
         {% if site.footer.text %}
-          <p>General Services Administration<br/>1800 F Street, NW, Washington, DC 20006</p>
+          <p>General Services Administration<br/>1800 F Street, NW <br/> Washington, DC 20006</p>
         {% endif %}
       </div>
       </div>
@@ -87,7 +87,7 @@
   </div>
   <div class="copyright">COPYRIGHT
 <script type="text/javascript">
-  document.write(new Date().getFullYear());
+  $("#year").val(months[new Date().getFullYear()])
 </script>
  </div>
 </footer>
