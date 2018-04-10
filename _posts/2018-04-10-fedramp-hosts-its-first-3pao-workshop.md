@@ -13,9 +13,11 @@ In all, 65 attendees from 32 3PAOs joined the 3PAO Workshop. The goal is to cont
 Here are some of the key takeaways from the workshop:
 
 **Why We’re Updating**
+
 The FedRAMP PMO is working with our partner A2LA to update 3PAO accreditation requirements to ensure a more consistent assessment experience program-wide.
 
 **What We’re Updating** 
+
 Overall, the new updates require 3PAOs to:
 1. Participate in mandatory trainings
 2. Ensure 3PAO contract employees are held to the same standard as employees of their firm
@@ -24,6 +26,7 @@ Overall, the new updates require 3PAOs to:
 Additionally, additions to the 3PAO requirements include expanding the scope of accreditation to not just organizations, but also to include a hands-on assessment exercises for individual assessors and teams. 
 
 **Tips and Tricks** 
+
 The FedRAMP PMO also shared “Tips and Tricks” on how to best maintain accreditation, including (but not limited to):
 * 3PAOs should be sure to validate all CSP information during assessments and check with the FedRAMP PMO about any areas of uncertainty. This also applies for any risk determinations and risk deviations.
 * Above all, 3PAOs should be extremely familiar with the systems that they are assessing and how government data is flowing through it.
@@ -33,10 +36,12 @@ The FedRAMP PMO also shared “Tips and Tricks” on how to best maintain accred
   * Draft Automated Vulnerability Risk Adjustment Framework V0.1
 
 **Next Steps**
+
 Following the 3PAO Workshop, all 3PAOs received the updated requirements as well as the workshop slides via email. **3PAOs have until COB Friday, April 13th to review the proposed updates to the requirements and provide comments and any feedback to the PMO.
 FedRAMP plans to officially release the updated requirements in mid-May.**
 
 **Tiger Teams** 
+
 Finally, as part of the requirements updates, the PMO will begin convening tiger teams to help strengthen 3PAO performance and address issues 3PAOs face in their assessments (contracting, new guidance documents, templates, training needs). If you are interested in participating in a tiger team, please let us know by emailing info@fedramp.gov!
 
 Thank you to everyone who attended the 3PAO Workshop! We look forward to the next one. If you have any questions regarding the workshop or new requirements, please contact us at info@fedramp.gov.
