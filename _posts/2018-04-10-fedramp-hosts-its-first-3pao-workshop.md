@@ -2,7 +2,7 @@
 title:  FedRAMP Hosts its First 3PAO Workshop!
 permalink: /fedramp-hosts-its-first-3pao-workshop/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03202018_Cloud (3).png
+image: /assets/img/blog-images/Blog_03202018_Cloud_(3).png
 author: FedRAMP
 layout: blog-page
 ---
