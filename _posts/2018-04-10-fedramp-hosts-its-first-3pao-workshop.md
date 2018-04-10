@@ -31,9 +31,9 @@ The FedRAMP PMO also shared “Tips and Tricks” on how to best maintain accred
 * 3PAOs should be sure to validate all CSP information during assessments and check with the FedRAMP PMO about any areas of uncertainty. This also applies for any risk determinations and risk deviations.
 * Above all, 3PAOs should be extremely familiar with the systems that they are assessing and how government data is flowing through it.
 * 3PAOs should stay current on the latest policies. Updates to several FedRAMP documents were released on March 20, 2018, including: 
-  * FedRAMP Vulnerability Scanning Requirements V1.0
-  * Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans V1.0
-  * Draft Automated Vulnerability Risk Adjustment Framework V0.1
+  * <a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">FedRAMP Vulnerability Scanning Requirements</a>
+  *  <a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a>
+  * <a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Draft Automated Vulnerability Risk Adjustment Framework </a>
 
 **Next Steps**
 
