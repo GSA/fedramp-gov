@@ -1,11 +1,12 @@
 ---
-
-title: Make the Most of the FedRAMP Marketplace
-layout: blog-list
+title:  Make the Most of the FedRAMP Marketplace
 permalink: /make-the-most-of-the-fedramp-marketplace/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+author: FedRAMP
+layout: blog-page
 ---
-Launched last August, the FedRAMP Marketplace dashboard provides a searchable, sortable database of all cloud services that are FedRAMP authorized, FedRAMP Ready, or In Process for an authorization. The Marketplace can be used as a resource to find and learn more about cloud services associated with FedRAMP, understand which Agencies are using which authorized services, and find third party assessment organizations (3PAOs) and the services they have assessed.
+Launched last August, the FedRAMP Marketplace (https://marketplace.fedramp.gov/#/products?sort=productName) dashboard provides a searchable, sortable database of all cloud services that are FedRAMP authorized, FedRAMP Ready, or In Process for an authorization. The Marketplace can be used as a resource to find and learn more about cloud services associated with FedRAMP, understand which Agencies are using which authorized services, and find third party assessment organizations (3PAOs) and the services they have assessed.
 
 **Using the Marketplace**
 
