@@ -78,8 +78,11 @@ function searchAndDisplayResults(query) {
         .html();
     });
 
+    // Check for results
+    const content = results.length ? results.join('') : '<p>No results found.</p>';
+
     // add results to page
-    $('#results').append(results.join(''));
+    $('#results').append(content);
   });
 }
 
