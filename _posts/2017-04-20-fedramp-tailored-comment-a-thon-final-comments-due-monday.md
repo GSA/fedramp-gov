@@ -1,23 +1,26 @@
 ---
 title: 'FedRAMP Tailored Comment-A-Thon , Final Comments Due Monday!'
-layout: blog-list
 permalink: /fedramp-tailored-comment-a-thon-final-comments-due-monday/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+author: FedRAMP
+layout: blog-page
 ---
+
+
 The FedRAMP Tailored Comment-a-Thon kicked off with a bang on Tuesday, April 18, with over 50 representatives from industry and government in attendance in person and over 100 connecting remotely via video and chat link.
 
 The session’s purpose was to capture FedRAMP stakeholders’ best thinking, input, and expertise on the Tailored baseline via a coding and collaboration tool called Github.
 
-When prompted for their first-blush reactions to the overall concept of FedRAMP Tailored, attendees voiced the following:<a href="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/04/Screen-Shot-2017-04-20-at-5.49.46-AM.png"><img class=" wp-image-66839 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/04/Screen-Shot-2017-04-20-at-5.49.46-AM.png" alt="" width="356" height="264" /></a>
+When prompted for their first-blush reactions to the overall concept of FedRAMP Tailored, attendees voiced the following:
 
+<a href="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/04/Screen-Shot-2017-04-20-at-5.49.46-AM.png"><img class=" wp-image-66839 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/04/Screen-Shot-2017-04-20-at-5.49.46-AM.png" alt="" width="356" height="264" /></a>
 
-  *“Provides a new venue for CSPs and 3PAOs to meet, interact and offer innovation to Agencies.” 
+  * “Provides a new venue for CSPs and 3PAOs to meet, interact and offer innovation to Agencies.” 
 
+  * “Pragmatic approach to accelerate adoption of low risk cloud applications.”
 
-  “Pragmatic approach to accelerate adoption of low risk cloud applications.”
-
-
-  “Implementation of FedRamp Tailored could have a profound and positive effect on both the candidate companies (vendors) and the agencies seeking to consume those services in a timely manner.”*
+  * “Implementation of FedRamp Tailored could have a profound and positive effect on both the candidate companies (vendors) and the agencies seeking to consume those services in a timely manner.”*
 
 
 The FedRAMP PMO knows it must harness the power of the collective to ensure that the forthcoming FedRAMP Tailored policy is as clear, effective, and implementable as possible , the Comment-a-Thon represented ongoing efforts to continue to build a true partnership between industry and government.
@@ -34,3 +37,4 @@ While the discussion surrounding some of the broader aspects of the policy were 
 
 
 This first round of public comment will remain open until 5pm on Monday, April 24th. If you’d like to make your voice heard, you can join the conversation at [https://github.com/GSA/fedramp-tailored](https://github.com/GSA/fedramp-tailored). A second round of public comment will likely take place in June, so keep your eyes open for more opportunities to collaborate! We also hope to have the final baseline out for official use by the end of summer!
+
