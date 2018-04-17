@@ -1,6 +1,6 @@
 ---
-title:  
-permalink: 
+title: FedRAMP Connect - The Latest Vendors Prioritized by the JAB 
+permalink: /fedramp-connect-the-latest-vendors-prioritized-by-the-jab/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
