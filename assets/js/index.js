@@ -39,8 +39,16 @@ function getUrlParams(paramStr) {
 
   return hashes.reduce((params, hash) => {
     const [key, val] = hash.split('=');
-    return Object.assign(params, { [key]: decodeURIComponent(val) });
+    // Decode the value, replacing + with %20 (space characters)
+    return Object.assign(params, { [key]: decodeURIComponent((val || '').replace(/\+/g, '%20')) });
   }, {});
+}
+
+function highlight(text) {
+  // search.gov returns highlight markers that need to be replaced for HTML tags
+  return (text || '')
+    .replace(/\ue000/g, '<strong>')
+    .replace(/\ue001/g, '</strong>');
 }
 
 function searchAndDisplayResults(query) {
@@ -48,14 +56,33 @@ function searchAndDisplayResults(query) {
   $('#results').empty();
 
   // attempt search
-  $.getJSON(`${SEARCH_BASE}&query=${query}`, json => {
+  $.getJSON(SEARCH_BASE, { query }, json => {
     // format each entry as li element
-    const results = json.web.results.map(
-      d => `<li><h2><a href="${d.url}">${d.title}</a></h2><p>${d.snippet}</p></li>`
-    );
+    const results = json.web.results.map((result) => {
+      // Use jQuery to encode the result, then replace the highlight markers.
+      const title = highlight($('<i>').text(result.title).html());
+      const snippet = highlight($('<i>').text(result.snippet).html());
+
+      const $header = $('<h2>')
+        .append(
+          $('<a>')
+            .attr('href', result.url)
+            .html(title)
+        );
+
+      const $snippet = $('<p>').html(snippet);
+
+      return $('<li>')
+        .append($header)
+        .append($snippet)
+        .html();
+    });
+
+    // Check for results
+    const content = results.length ? results.join('') : '<p>No results found.</p>';
 
     // add results to page
-    $('#results').append(results.join(''));
+    $('#results').append(content);
   });
 }
 
