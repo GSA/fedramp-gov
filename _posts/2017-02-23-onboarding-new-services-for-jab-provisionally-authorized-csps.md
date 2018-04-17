@@ -1,10 +1,13 @@
 ---
 title: Onboarding New Services for JAB Provisionally Authorized CSPs
-layout: blog-list
 permalink: /onboarding-new-services-for-jab-provisionally-authorized-csps/
 body-class: page-blog
+body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+author: FedRAMP
+layout: blog-page
 ---
-As FedRAMP continues to evolve and mature, the program and its stakeholders must balance the need for rigorous security with the constant need for growth and change from Cloud Service Providers (CSPs). In order to help keep up with the pace of changes to the environments we’ve authorized, we’ve created a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">New Services Onboarding Request Template</a>, a document allowing CSPs with an existing JAB Provisional Authorization to onboard new cloud services for consideration to authorize.
+As FedRAMP continues to evolve and mature, the program and its stakeholders must balance the need for rigorous security with the constant need for growth and change from Cloud Service Providers (CSPs). In order to help keep up with the pace of changes to the environments we’ve authorized, we’ve created a <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">New Services Onboarding Request Template</a>, a document allowing CSPs with an existing JAB Provisional Authorization to onboard new cloud services for consideration to authorize.
 
 In partnership with the Third Party Assessment Organization (3PAO), a CSP and the FedRAMP PMO can now jointly make a decision to onboard new cloud services into an already JAB-authorized system up to two times faster and in a more transparent way than with the previous significant change process.
 
@@ -24,6 +27,6 @@ The template defines some parameters for what constitutes a feature or service t
 
 * *Does not* add a unique or alternative implementation of any of the security controls as captured in the System Security Plan.
 
-We’ve created this new template and process in response to feedback from our stakeholders. This template is located on the FedRAMP website, on the FedRAMP Templates page and under the [Monitor Phase](https://www.fedramp.gov/resources/templates-2016/).
+We’ve created this new template and process in response to feedback from our stakeholders. This template is located on the FedRAMP website, on the FedRAMP Templates page and under the [Monitor Phase](https://www.fedramp.gov/templates/).
 
 Should you have any feedback on the document or process outlined above, please let us know by reaching out to us at [info@fedramp.gov](mailto:info@fedramp.gov).
