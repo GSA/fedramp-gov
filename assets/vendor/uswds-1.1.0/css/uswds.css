@@ -4218,7 +4218,7 @@ input.usa-input-medium {
   border-top-right-radius: 0;
   box-sizing: border-box;
   float: left;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   height: 3.3rem;
   margin: 0;
   width: calc(100% - 4.5rem);
@@ -4266,7 +4266,7 @@ input.usa-input-medium {
 @media screen and (min-width: 481px) {
   .usa-search.usa-search-big [type=search],
   .usa-search.usa-search-big .usa-search-input {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     height: 4.4rem;
     width: calc(100% - 11.6rem);
   }
