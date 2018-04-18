@@ -290,9 +290,9 @@ body-class: page-fed-agencies
     <td colspan="4" class="th-2">FedRAMP Tailored</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Tailored-LI-SaaS-Requirements.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
     <td>FedRAMP Tailored Security Requirements for Low Impact Software as a Service (LI-SaaS) provides the minimum security control requirements for authorizing a LI-SaaS.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Tailored-LI-SaaS-Requirements.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
