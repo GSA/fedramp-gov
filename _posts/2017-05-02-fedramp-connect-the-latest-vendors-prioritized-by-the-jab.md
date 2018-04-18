@@ -1,14 +1,16 @@
 ---
-title: 'FedRAMP Connect , The Latest Vendors Prioritized By The JAB'
-layout: blog-list
+title: FedRAMP Connect - The Latest Vendors Prioritized by the JAB 
 permalink: /fedramp-connect-the-latest-vendors-prioritized-by-the-jab/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+author: FedRAMP
+layout: blog-page
 ---
-Over the past few months, we’ve been working to reframe how we prioritize vendors that work with the Joint Authorization Board (JAB) through a more transparent and public process. We worked closely with the CIO Council and OMB to develop a new approach through an initiative called **_FedRAMP Connect_** to select Cloud Service Providers (CSPs) based on demand and a set of preferential criteria (we previously shared this approach in a blog post: [JAB and Prioritization Criteria and Process](https://www.fedramp.gov/fedramp-jab-prioritization-criteria-and-process/)).
+Over the past few months, we’ve been working to reframe how we prioritize vendors that work with the Joint Authorization Board (JAB) through a more transparent and public process. We worked closely with the CIO Council and OMB to develop a new approach through an initiative called **FedRAMP Connect** to select Cloud Service Providers (CSPs) based on demand and a set of preferential criteria (we previously shared this approach in a blog post: [JAB and Prioritization Criteria and Process](https://www.fedramp.gov/fedramp-jab-prioritization-criteria-and-process/)).
 
-We received roughly 40 [FedRAMP Business Cases ](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-Business-Case-Form_Interactive_161121v2.pdf)from CSPs requesting prioritization for a JAB P-ATO. After evaluating the business cases and conducting a review with the JAB, the list was narrowed down to 14 CSPs to participate in **FedRAMP** **_Connect_**. On February 27th we held the inaugural **_FedRAMP Connect_** with the JAB representatives and 13 different agency CIOs and their representatives from across the government.
+We received roughly 40 FedRAMP Business Cases from CSPs requesting prioritization for a JAB P-ATO. After evaluating the business cases and conducting a review with the JAB, the list was narrowed down to 14 CSPs to participate in **FedRAMP Connect**. On February 27th we held the inaugural **FedRAMP Connect** with the JAB representatives and 13 different agency CIOs and their representatives from across the government.
 
-Each vendor presenting at **_FedRAMP Connect_** pitched services to detail their governmentwide demand, applicability for cross-agency use, and the security of their system. After a full evaluation by the JAB and 13 agency representatives, the following seven were chosen to work with the JAB:
+Each vendor presenting at **FedRAMP Connect** pitched services to detail their governmentwide demand, applicability for cross-agency use, and the security of their system. After a full evaluation by the JAB and 13 agency representatives, the following seven were chosen to work with the JAB:
 
 * Accenture Federal Services - Accenture Insights Platform
 
