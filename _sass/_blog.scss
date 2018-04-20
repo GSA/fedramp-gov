@@ -116,7 +116,7 @@ a.blog-read {
     font-weight: 600;
     text-decoration: none;
 
-  &:visited {
+  :visited {
     color: #fff;
   }
 
@@ -346,19 +346,19 @@ a.link-arrow-left {
  	 	float: right;
  	 	width: 100%;
  	 	display: table;
- 	 a.link-arrow-right {
- 	 	float: right;
- 	 	text-align: right;
- 	 	width: 100%;
- 	 	vertical-align: middle;
- 	 	display: table-cell;
- 	    	line-height: 50px;
- 	 	img {
- 	 		border: none;
- 	 		margin: 15px 0 15px 5px;
- 	 		float: right;
- 	 	}
- 	 }
+			 a.link-arrow-right {
+				float: right;
+				text-align: right;
+				width: 100%;
+				vertical-align: middle;
+				display: table-cell;
+				line-height: 50px;
+				img {
+					border: none;
+					margin: 15px 0 15px 5px;
+					float: right;
+				}
+			 }
  	 }
  	
  }
