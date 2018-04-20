@@ -235,8 +235,8 @@ section#do-once {
 	border: none;
 }
 
-@media (max-width: 650px){
+@media (min-width: 650px){
   #main .page-banner h1, body .page-banner h1 {
-    font-size: 34px;
+    font-size: 42px;
   }
 }
