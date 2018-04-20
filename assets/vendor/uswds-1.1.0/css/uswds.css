@@ -795,7 +795,7 @@ button,
   appearance: none;
   background-color: #0071bc;
   border: 0;
-  border-radius: 0.3rem;
+  border-radius: 0;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
@@ -1425,7 +1425,7 @@ legend {
 [type=checkbox] + label::before,
 [type=radio] + label::before {
   background: #ffffff;
-  border-radius: 0.3rem;
+  border-radius: 0;
   box-shadow: 0 0 0 1px #757575;
   content: '\a0';
   display: inline-block;
@@ -1601,7 +1601,7 @@ legend {
 
 .usa-label, .usa-label-big {
   background-color: #0071bc;
-  border-radius: 0.3rem;
+  border-radius: 0;
   color: #ffffff;
   font-size: 1.5rem;
   margin-right: 0.5rem;
