@@ -85,7 +85,6 @@ a {
 	&:hover {
 		text-decoration: underline;
 	}
-	}
 }
 
 .blog-summary {
@@ -116,7 +115,7 @@ a.blog-read {
     font-weight: 600;
     text-decoration: none;
 
-  :visited {
+  &:visited {
     color: #fff;
   }
 
