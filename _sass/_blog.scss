@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 2.3%;
-    min-height: 450px;
+    min-height: 400px;
     width: 31%;
   }
 
@@ -44,7 +44,7 @@
 
 .blog-banner {
   margin: 0;
-  padding: 20px;
+  padding: 5px 20px;
   max-height: 200px; 
   background: none;
   text-align: left;
@@ -54,7 +54,7 @@
 }
 
 .blog-image {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 200px;
@@ -68,12 +68,16 @@
 
 .blog-description p {
 	font-weight: normal;
-	margin: 20px 0 10px 0;
+	margin: 0 0 10px 0;
+	color: grey;
 }
 
 .blog-description {
 h3 {
 	color: $light-blue;
+	margin-top: 5px;
+	font-size: 1.7rem;
+	
 }
 a {
 	color: $light-blue;
@@ -107,9 +111,9 @@ a.blog-read {
     float: none;
     color: #0071bc;
     text-transform: uppercase;
-    padding: 10px;
-    font-size: 1.4875rem;
-    font-weight: bold;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
     text-decoration: none;
 
   &:visited {
