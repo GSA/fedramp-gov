@@ -53,10 +53,10 @@ section#pre-auth, section#during-auth, section#post-auth, section#do-once, secti
 .q1, .q2, .q3, .q4, .q5, .tip-1 {
 	background-size: 100px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
+section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
 	background-size: 160px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support {
+section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support {
 	padding: 200px 0 40px 0;
 }
 }
