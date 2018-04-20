@@ -1709,7 +1709,7 @@ html {
 }
 
 body {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -1813,6 +1813,40 @@ h6 {
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media screen (max-width: 650px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  h6 {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
 
 cite,
