@@ -9,6 +9,10 @@
   float: right;
 }
 
+#main .page-banner h1, body .page-banner h1 {
+	font-size: 28px;
+}
+
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
 	padding: 0 0 40px 130px;
 	margin: 0 0 40px 0;
@@ -229,4 +233,10 @@ section#do-once {
 
 .page-faqs .question:last-of-type {
 	border: none;
+}
+
+@media (max-width: 650px){
+  #main .page-banner h1, body .page-banner h1 {
+    font-size: 34px;
+  }
 }
