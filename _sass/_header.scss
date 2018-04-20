@@ -34,6 +34,7 @@ div.usa-navbar {
 	float: left !important;
 	height: 100px;
 	border: 0;
+	width: 100%;
 }
 
 div.usa-navbar:after {
@@ -83,12 +84,15 @@ a {
 
 div#logo.usa-logo {
 	float: left;
-	 max-width: 360px;
+	 max-width: 300px;
+	min-width: 290px;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
 div#logo.usa-logo {
 	max-width: 260px;
+	min-width: 190px;
+	margin-top: 10px;
 	img {
 		width: 100%;
 		height: auto;
@@ -96,9 +100,10 @@ div#logo.usa-logo {
 }
 }
 
-@media (min-width: 0px) and (max-width: 374px) {
+@media (min-width: 0px) and (max-width: 360px) {
 div#logo.usa-logo {
 	max-width: 210px;
+	min-width: 150px;
 	img {
 		width: 100%;
 		height: auto;
