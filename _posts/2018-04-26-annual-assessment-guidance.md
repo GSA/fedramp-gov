@@ -1,5 +1,5 @@
 ---
-title: ‘Annual Assessment Guidance’
+title: Annual Assessment Guidance
 permalink: /annual-assessment-guidance/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
