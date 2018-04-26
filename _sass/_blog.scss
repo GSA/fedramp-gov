@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 2.3%;
-    min-height: 450px;
+    min-height: 400px;
     width: 31%;
   }
 
@@ -44,7 +44,7 @@
 
 .blog-banner {
   margin: 0;
-  padding: 20px;
+  padding: 5px 20px;
   max-height: 200px; 
   background: none;
   text-align: left;
@@ -54,7 +54,7 @@
 }
 
 .blog-image {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 200px;
@@ -68,19 +68,24 @@
 
 .blog-description p {
 	font-weight: normal;
-	margin: 20px 0 10px 0;
+	margin: 0 0 10px 0;
+	color: grey;
 }
 
 .blog-description {
-h3 {
-	color: $light-blue;
-}
-a {
+	h3 {
+		color: $light-blue;
+		margin-top: 5px;
+		font-size: 1.7rem;
+
+	}
+	a {
 	color: $light-blue;
 	text-decoration: none;
-	&:hover {
-		text-decoration: underline;
-	}
+		
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -98,7 +103,7 @@ a.blog-read {
 }
 
 .blog-read {
-  	color: #fff !important; 
+    color: #fff !important; 
     display: block;
     margin: 0 auto;
   /*  display: static;*/
@@ -107,9 +112,9 @@ a.blog-read {
     float: none;
     color: #0071bc;
     text-transform: uppercase;
-    padding: 10px;
-    font-size: 1.4875rem;
-    font-weight: bold;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
     text-decoration: none;
 
   &:visited {
@@ -160,45 +165,47 @@ a.blog-read {
 }
 
 .blog-sidebar {
-ul {
-padding: 0px;
-li {
-	list-style: none; 
-	background: url('../../assets/img/bullet.png') no-repeat 5px 10px;
-	padding: 0 0 0 20px;
-	margin: 0 0 10px 0;
-}
-}
-h3 {
-	border-bottom: 1px solid #cdcdcd;
-	margin: 0 0 10px 0;
-	padding: 0 0 10px 0;
-}
+	ul {
+	padding: 0px;
+		li {
+			list-style: none; 
+			background: url('../../assets/img/bullet.png') no-repeat 5px 10px;
+			padding: 0 0 0 20px;
+			margin: 0 0 10px 0;
+		}
+	}
+	h3 {
+		border-bottom: 1px solid #cdcdcd;
+		margin: 0 0 10px 0;
+		padding: 0 0 10px 0;
+	}
 }
 
 @media (min-width: 0) and (max-width: 768px) {
-.blog-sidebar {
-	margin: 40px 0 0 0 !important;
-	float: left;
-}
+	.blog-sidebar {
+		margin: 40px 0 0 0 !important;
+		float: left;
+	}
 }
 
 .page-blog h2 {
 	margin-top: 0;
-a {
-	text-decoration: none;
-	font-family: $serif-font;
-	&:hover {
-		text-decoration: underline;
-	}	
-}
+	a {
+		text-decoration: none;
+		font-family: $serif-font;
+		
+		&:hover {
+			text-decoration: underline;
+		}	
+	}
 }
 
 .page-blog .meta ul {
 	padding: 0;
-	li {
-	list-style: none;
-	}
+	
+		li {
+		list-style: none;
+		}
 }
 
 .page-blog .usa-width-one-whole {
@@ -206,6 +213,7 @@ a {
 	margin-bottom: 30px;
 	float: left;
 	padding: 0 0 40px 0;
+	
 	&:last-child {
 		border: 0;
 	}
@@ -291,19 +299,21 @@ a.link-arrow-left {
  	float: right;
  	width: 33%;
  	display: table;
- a.link-arrow-right {
- 	float: right;
- 	text-align: right;
-// 	width: 65%;
- 	vertical-align: middle;
- 	display: table-cell;
-    	line-height: 50px;
- 	img {
- 		border: none;
- 		margin: 15px 0 15px 5px;
- 		float: right;
- 	}
- }
+	 
+	 a.link-arrow-right {
+		float: right;
+		text-align: right;
+	// 	width: 65%;
+		vertical-align: middle;
+		display: table-cell;
+		line-height: 50px;
+
+		img {
+			border: none;
+			margin: 15px 0 15px 5px;
+			float: right;
+		}
+	 }
  }
  
  @media (min-width: 0px) and (max-width: 580px) {
@@ -342,19 +352,19 @@ a.link-arrow-left {
  	 	float: right;
  	 	width: 100%;
  	 	display: table;
- 	 a.link-arrow-right {
- 	 	float: right;
- 	 	text-align: right;
- 	 	width: 100%;
- 	 	vertical-align: middle;
- 	 	display: table-cell;
- 	    	line-height: 50px;
- 	 	img {
- 	 		border: none;
- 	 		margin: 15px 0 15px 5px;
- 	 		float: right;
- 	 	}
- 	 }
+			 a.link-arrow-right {
+				float: right;
+				text-align: right;
+				width: 100%;
+				vertical-align: middle;
+				display: table-cell;
+				line-height: 50px;
+				img {
+					border: none;
+					margin: 15px 0 15px 5px;
+					float: right;
+				}
+			 }
  	 }
  	
  }

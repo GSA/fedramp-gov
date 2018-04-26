@@ -6,6 +6,7 @@ p, ul, ol, li, a  {
 
 #main p {
 	min-width: 100%;
+	orphans: 3;
 }
 
 legend, label,

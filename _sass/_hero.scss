@@ -13,8 +13,40 @@
   width: 100%;
 	h1 {
   	color: white;
+  	font-size: 28px;
+  	font-weight: 400;
+  	line-height: 50px;
+ 	margin-top: 0;
+  	margin-bottom: 0;
+ 	padding-left: .3em;
+  	padding-right: .3em;
+	}
+	.usa-button {
+	  font-size: 18px;
+	  line-height: 30px;
+	}
+	p {
+		color: #fff;
+	}
+}
+
+.home .hero-unit {
+  background-image: url("../../assets/img/home-hero-unit.png") !important;
+  background-attachment: fixed;
+  padding: 130px 0;
+  }
+
+@medi (max-width: 750px) {
+	.hero-content {
+  background-color: transparentize($text-color, .6);
+  margin: 0px auto;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+	h1 {
+  	color: white;
   	font-size: 36px;
-  	font-weight: 100;
+  	font-weight: 400;
   	line-height: 50px;
  	margin-top: 0;
   	margin-bottom: 0;
@@ -29,9 +61,5 @@
 		color: #fff;
 	}
 }
-
-.home .hero-unit {
-  background-image: url("../../assets/img/home-hero-unit.png") !important;
-  background-attachment: fixed;
-  padding: 130px 0;
-  }
+	
+}

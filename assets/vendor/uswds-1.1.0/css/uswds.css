@@ -795,7 +795,7 @@ button,
   appearance: none;
   background-color: #0071bc;
   border: 0;
-  border-radius: 0.3rem;
+  border-radius: 0;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
@@ -1425,7 +1425,7 @@ legend {
 [type=checkbox] + label::before,
 [type=radio] + label::before {
   background: #ffffff;
-  border-radius: 0.3rem;
+  border-radius: 0;
   box-shadow: 0 0 0 1px #757575;
   content: '\a0';
   display: inline-block;
@@ -1601,7 +1601,7 @@ legend {
 
 .usa-label, .usa-label-big {
   background-color: #0071bc;
-  border-radius: 0.3rem;
+  border-radius: 0;
   color: #ffffff;
   font-size: 1.5rem;
   margin-right: 0.5rem;
@@ -1709,7 +1709,7 @@ html {
 }
 
 body {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -1813,6 +1813,40 @@ h6 {
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media screen (max-width: 650px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  h6 {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
 
 cite,
@@ -3035,8 +3069,6 @@ form [type=submit] {
 @media screen and (min-width: 600px) {
   form [type=submit],
   form [type=submit] {
-    padding-left: 2.7em;
-    padding-right: 2.7em;
     width: auto;
   }
 }
@@ -3764,7 +3796,7 @@ input.usa-input-medium {
   .usa-nav-primary > li > a {
     padding: 1.3rem 1.5rem 1.7rem;
     color: #5b616b;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.2;
   }

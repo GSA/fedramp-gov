@@ -36,6 +36,7 @@ footer a:visited {
 .usa-footer .logo-container {
 	max-width: 200px;
 	text-align: center;
+	
 	img {
 		margin: 0 auto;
 		float: none;
@@ -49,13 +50,15 @@ form#contact p, address p, .footer-social p {
 
 .footer-social, address {
 	margin: 20px 0 0 0;
-p {
-	margin: 0 0 5px 0;
-	color: $dark-blue;
-}
-a {
-	color: $light-blue !important;
-}
+	
+	p {
+		margin: 0 0 5px 0;
+		color: $dark-blue;
+	}
+	
+	a {
+		color: $light-blue !important;
+	}
 }
 
 .footer-social a.usa-link-twitter img {
@@ -67,24 +70,29 @@ address p:last-of-type, address p {
 }
 
 .usa-grid {
-#contact {
-	text-align: center;
-	div.usa-width-one-half  {
-		width: 100%;
-		input {
-			margin: 30px auto;
+	
+	#contact {
+		text-align: center;
+
+		div.usa-width-one-half  {
+			width: 100%;
+
+			input {
+				margin: 30px auto;
+			}
 		}
 	}
-}
 }
 
 .newsletter-footer {
 	float: left;
 	margin: 0;
 	width: 31%;
+	
 	input {
-		margin: 15px auto 0 auto;
+		margin: 0 auto;
 		background: $light-blue;
+		font-size: 1.4rem;
 	}
 }
 
@@ -96,22 +104,25 @@ address p:last-of-type, address p {
 }
 
 @media (min-width: 0px) and (max-width: 580px) {
-.usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
-	float: none;
-	text-align: center;
-	width: 100%;
-}
-.newsletter-footer {
-	float: none;
-	width: 100%;
-}
-.usa-footer .logo-container {
-	max-width: 100%;
-}
-.usa-footer-contact-links {
-	text-align: center;
-	padding: 20px 0 0 0;
-}	
+	.usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.newsletter-footer {
+		float: none;
+		width: 100%;
+	}
+	
+	.usa-footer .logo-container {
+		max-width: 100%;
+	}
+	
+	.usa-footer-contact-links {
+		text-align: center;
+		padding: 20px 0 0 0;
+	}	
 }
 
 .usa-footer-secondary_section .footer-social a {
@@ -125,5 +136,5 @@ address p:last-of-type, address p {
 	background: $dark-blue;
 	text-align: center;
 	color: #fff;
-	font-size: .7em;
+	font-size: 0.7rem;
 }

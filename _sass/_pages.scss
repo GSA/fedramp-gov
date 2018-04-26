@@ -9,6 +9,10 @@
   float: right;
 }
 
+#main .page-banner h1, body .page-banner h1 {
+	font-size: 28px;
+}
+
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
 	padding: 0 0 40px 130px;
 	margin: 0 0 40px 0;
@@ -49,15 +53,16 @@ section#rar, section#do-once {
 section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar, .q1, .q2, .q3, .q4, .q5, .tip-1 {
 	background-position: center top;
 	background-repeat: no-repeat;
+	
 }
 .q1, .q2, .q3, .q4, .q5, .tip-1 {
 	background-size: 100px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
-	background-size: 160px !important;
+section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar {
+	background-size: 100px !important;
 }
-section#pre-auth, section#during-auth, section#post-auth, section#support {
-	padding: 200px 0 40px 0;
+section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support {
+	padding: 100px 0 40px 0;
 }
 }
 
@@ -228,4 +233,10 @@ section#do-once {
 
 .page-faqs .question:last-of-type {
 	border: none;
+}
+
+@media (min-width: 650px){
+  #main .page-banner h1, body .page-banner h1 {
+    font-size: 42px;
+  }
 }
