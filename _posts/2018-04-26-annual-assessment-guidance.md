@@ -2,7 +2,7 @@
 title: Annual Assessment Guidance
 permalink: /annual-assessment-guidance/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
