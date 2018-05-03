@@ -1,5 +1,5 @@
 ---
-title: ‘Penetration Testing for All FedRAMP Moderate and High Systems’
+title: Penetration Testing for All FedRAMP Moderate and High Systems
 permalink: /penetration-testing-for-all-fedramp-moderate-and-high-systems/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
