@@ -26,7 +26,7 @@ Following these tips and the Penetration Test Guidance document helps ensure pen
 Additional resources:
 * Microsoft Azure: <a href="https://docs.microsoft.com/en-us/azure/security/azure-security-pen-testing">Pen Testing</a> 
 * Amazon Web Services: <a href="https://aws.amazon.com/security/penetration-testing/">Penetration Testing</a> 
-* <a href="https://www.whitehouse.gov/presidential-actions/presidential-executive-order-strengthening-cybersecurity-federal-networks-critical-infrastructure/">Cyber EO</a> 
+* <a href="https://www.whitehouse.gov/presidential-actions/presidential-executive-order-strengthening-cybersecurity-federal-networks-critical-infrastructure/">Presidential Executive Order on Strengthening the Cybersecurity of Federal Networks and Critical Infrastructure/a> 
 * <a href="https://www.justice.gov/criminal-ccips/page/file/983996/download">A Framework for a Vulnerability Disclosure Program for Online Systems</a> 
 * <a href="https://hackerone.com/deptofdefense">DoD Vulnerability Disclosure Program</a> 
 * <a href="https://18f.gsa.gov/vulnerability-disclosure-policy/">18F Vulnerability Disclosure Policy</a> 
