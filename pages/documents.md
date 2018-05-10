@@ -124,6 +124,14 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>5/18/2017</td>
   </tr>
   <tr>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></td>
+    <td>This document provides CSPs guidance for developing the authorization boundary for their offering(s) which is required for their FedRAMP authorization package.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>5/10/2018</td>
+  </tr>
+  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">JAB P-ATO Prioritization Criteria</a></td>
     <td>This document defines the criteria by which CSPs are prioritized to work with the JAB for aP-ATO. This Prioritization Criteria is intended to be a living document, and the JAB will review it on a regular basis, updating it as needed to reflect current priorities.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf"><i class="fas fa-file-pdf"></i>
