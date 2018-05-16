@@ -79,3 +79,25 @@ Security architecture diagrams help to illustrate the key elements of the larger
 (April 4, 2018) 
 </p>
 </div>
+
+<div class="q3">
+<h3>Q: How do I become “In Process” with a vendor?</h3>
+<p><strong>A:</strong> The “In Process” designation signifies that a Cloud Service Provider (CSP) and an Agency are actively working toward achieving a FedRAMP Authorization. The FedRAMP PMO recently updated our requirements for a CSP to become In Process with an Agency. The Agency Authorizing Official (AO) or FedRAMP PMO approved designee must send an email to the FedRAMP PMO (info@fedramp.gov) stating that they are actively working with the CSP and plan to grant an Authority to Operate (ATO) that meets the FedRAMP requirements within 12 months.
+In addition, one of the following must be met:
+1. The Agency provides proof of a contract award for the use of the cloud service offering (CSO), and the contract specifies when an ATO that meets FedRAMP requirements must be achieved.
+2. The Agency is using or testing the CSO and the Agency AO or approved designee sends an email to the FedRAMP PMO (info@fedramp.gov) stating that.
+3. The CSO achieves “FedRAMP Ready” designation from the FedRAMP PMO.
+4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on:
+A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date.
+An authorization boundary diagram of all services/capabilities that are included within the security authorization package.
+Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
+(April 4, 2018) 
+</p>
+</div>
+ 
+<div class="q3">
+<h3>Q: Do the tools used for the penetration test need to be listed anywhere else besides in the Penetration Test Plan document?</h3>
+<p><strong>A:</strong> Yes, the tools used for the penetration test must also be listed in the Security Assessment Plan (SAP) and match those listed in the Penetration Test Plan document. When completing Table 5-3 in the SAP, be sure to include each tool used for the security controls assessment, vulnerability scanning, and penetration test.
+(April 4, 2018) 
+</p>
+</div>
