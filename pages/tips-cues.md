@@ -25,7 +25,7 @@ Kick-off meetings are designed to enable effective partnership among all stakeho
 
 <div class="q3">
 <h3>TIP: CSPs should remember to consider alerts sent from the system (e.g., via email or text messages) and assess the needed protections of data in the alerts.</h3>
-Consult NIST 800-60 Volume II for datatypes and the categorization of the data. The categorization (Low, Moderate, or High) corresponds to the FedRAMP baseline of security controls (Low, Moderate, or High) that need to be applied to protect that data. The CSP may determine that changes need to be made to the alerts. For example, they may need to modify the contents of the alerts and keep the sensitive data within the boundary where the full set of security controls are being applied.
+<p> Consult NIST 800-60 Volume II for datatypes and the categorization of the data. The categorization (Low, Moderate, or High) corresponds to the FedRAMP baseline of security controls (Low, Moderate, or High) that need to be applied to protect that data. The CSP may determine that changes need to be made to the alerts. For example, they may need to modify the contents of the alerts and keep the sensitive data within the boundary where the full set of security controls are being applied.
 (April 25, 2018) 
 </p>
 </div>
@@ -51,12 +51,12 @@ Attestation or identification of shared demand with partner Agencies’ OCIO/OCI
 
 <div class="q3">
 <h3>Q: My Agency is pursuing an authorization for a Software-as-a-Service (SaaS) solution. Does the underlying layer of the system stack also need to be authorized?</h3>
-A: The “system stack” generally refers to the layers of services in the data center that are included in the cloud service offering, typically defined as a Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS). When authorizing a SaaS solution, the underlying stack of services that support it must also be authorized according to the appropriate FedRAMP baseline. As an example, for a SaaS being authorized at the Moderate baseline, the underlying PaaS and IaaS layers must also be authorized at Moderate (or High), and each component (SaaS, PaaS, IaaS) must have its own authorization boundary and its own ATO letter.
+<p><strong>A:</strong> The “system stack” generally refers to the layers of services in the data center that are included in the cloud service offering, typically defined as a Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS). When authorizing a SaaS solution, the underlying stack of services that support it must also be authorized according to the appropriate FedRAMP baseline. As an example, for a SaaS being authorized at the Moderate baseline, the underlying PaaS and IaaS layers must also be authorized at Moderate (or High), and each component (SaaS, PaaS, IaaS) must have its own authorization boundary and its own ATO letter.
 (April 11, 2018) 
 </p>
 </div>
  
- <div class="q3">
+<div class="q3">
 
 <h3>Q: In the FedRAMP Continuous Monitoring Monthly Executive Summary, what information should I include in the “Items of Note” and “Issue Remediation” sections?</h3>
 <p><strong>A:</strong> Use the “Issue Remediation” section to provide an explanation and remediation evidence for issues that the you or the FedRAMP PMO identified (e.g., un-authenticated scans threshold exceeded, unique vulnerability, etc.).
