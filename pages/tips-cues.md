@@ -13,7 +13,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
  
 <div class="q3">
 <h3>Q: What happens during an Agency Authorization kick-off meeting with the FedRAMP PMO?</h3> 
-<p><strong>A:</strong>  As described in the Agency Authorization Playbook, the FedRAMP PMO considers a kick-off meeting to be an integral step of the authorization process. Kick-off meetings provide the Agency, Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO the opportunity to convene at the outset of an authorization effort. During a kick-off meeting, the following topics should be addressed:
+<p><strong>A:</strong>  As described in the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> , the FedRAMP PMO considers a kick-off meeting to be an integral step of the authorization process. Kick-off meetings provide the Agency, Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO the opportunity to convene at the outset of an authorization effort. During a kick-off meeting, the following topics should be addressed:
 Roles and responsibilities for the Agency, CSP, and 3PAO
 Applicable project milestones, especially with respect to CSP package documentation for the System Security Plan (SSP), Security Assessment Plan (SAP), and Security Assessment Report (SAR)
 Review of Agency-specific system or control requirements and concerns
@@ -32,7 +32,7 @@ Kick-off meetings are designed to enable effective partnership among all stakeho
 
 <div class="q3">
 <h3>Q: How can my Agency support Cloud Service Providers (CSPs) that need to demonstrate federal demand as part of FedRAMP Connect? </h3>
-<p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s Prioritization Criteria outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
+<p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">Prioritization Criteria</a>  outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
 Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud offering. Agencies partnered with CSPs pursuing a JAB P-ATO can assist those CSPs by providing them with the following types of documentation that can be included in the CSPs’ applications to FedRAMP Connect:
 ATO(s) demonstrating current use of the cloud service offering (CSO) in a FISMA on-premise environment
 ATO(s) demonstrating current use of the CSO in a FedRAMP cloud environment
@@ -47,7 +47,7 @@ Attestation or identification of shared demand with partner Agencies’ OCIO/OCI
 <div class="q3">
 <h3>Q: Can I use the FedRAMP Significant Change Request (SCR) form for multiple significant changes?</h3>
 <p><strong>A:</strong> Yes, you can include multiple significant changes as long as all changes will be implemented for assessment at the same time.  We often see SCR’s for multiple changes where the CSP is on-boarding multiple new services, tech-refresh of multiple component types and others.  The assumption is that testing for all of the new services and components will be performed under a single Security Assessment Plan (SAP) and the results will be reflected in a single Security Assessment Report (SAR).
-(April 18, 2018) 
+<em>(April 18, 2018)</em>
 </p>
 </div>
 
@@ -64,7 +64,7 @@ Attestation or identification of shared demand with partner Agencies’ OCIO/OCI
 <p><strong>A:</strong> Use the “Issue Remediation” section to provide an explanation and remediation evidence for issues that the you or the FedRAMP PMO identified (e.g., un-authenticated scans threshold exceeded, unique vulnerability, etc.).
 In the “Items of Note” section, include the following information:
 Status of Annual Assessment - Provide the status from your perspective.
-Details of vulnerability spike if present (see Continuous Monitoring Performance Management Guide) - Explain why the FedRAMP PMO would be seeing a unique or raw vulnerability spike this month if applicable.
+Details of vulnerability spike if present (see <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>) - Explain why the FedRAMP PMO would be seeing a unique or raw vulnerability spike this month if applicable.
 Details of Plan of Action and Milestones (POA&M) issues if present - Use this section to explain if you made changes to the POA&M, were unable to fill out certain columns, etc. If the FedRAMP PMO identifies POA&M issues, you can respond to those in this section.
 Late High Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
 Late Moderate Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
@@ -84,7 +84,7 @@ Security architecture diagrams help to illustrate the key elements of the larger
 
 <div class="q3">
 <h3>Q: How do I become “In Process” with a vendor?</h3>
-<p><strong>A:</strong> The “In Process” designation signifies that a Cloud Service Provider (CSP) and an Agency are actively working toward achieving a FedRAMP Authorization. The FedRAMP PMO recently updated our requirements for a CSP to become In Process with an Agency. The Agency Authorizing Official (AO) or FedRAMP PMO approved designee must send an email to the FedRAMP PMO (info@fedramp.gov) stating that they are actively working with the CSP and plan to grant an Authority to Operate (ATO) that meets the FedRAMP requirements within 12 months.
+<p><strong>A:</strong> The “In Process” designation signifies that a Cloud Service Provider (CSP) and an Agency are actively working toward achieving a FedRAMP Authorization. The FedRAMP PMO recently updated our <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">requirements</a>  for a CSP to become In Process with an Agency. The Agency Authorizing Official (AO) or FedRAMP PMO approved designee must send an email to the FedRAMP PMO (info@fedramp.gov) stating that they are actively working with the CSP and plan to grant an Authority to Operate (ATO) that meets the FedRAMP requirements within 12 months.
 In addition, one of the following must be met:
 1. The Agency provides proof of a contract award for the use of the cloud service offering (CSO), and the contract specifies when an ATO that meets FedRAMP requirements must be achieved.
 2. The Agency is using or testing the CSO and the Agency AO or approved designee sends an email to the FedRAMP PMO (info@fedramp.gov) stating that.
