@@ -59,6 +59,10 @@ form#contact p, address p, .footer-social p {
 	a {
 		color: $light-blue !important;
 	}
+	
+	a:hover {
+		color: #112E51;
+	}
 }
 
 .footer-social a.usa-link-twitter img {
@@ -119,7 +123,7 @@ address p:last-of-type, address p {
 		max-width: 100%;
 	}
 	
-	.usa-footer-contact-links {
+	.usa-footer-contact-links, .usa-footer .newsletter-footer {
 		text-align: center;
 		padding: 20px 0 0 0;
 	}	
@@ -136,5 +140,5 @@ address p:last-of-type, address p {
 	background: $dark-blue;
 	text-align: center;
 	color: #fff;
-	font-size: 0.7rem;
+	font-size: 1.2rem;
 }
