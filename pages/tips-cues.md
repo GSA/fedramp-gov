@@ -65,6 +65,7 @@ Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud 
 - Attestation or identification of shared demand with partner Agencies’ OCIO/OCISO, or other representative IT leadership.
 <em>(April 18, 2018)</em> 
 </p>
+ </p>
 </div>
 
 <div class="q3">
@@ -101,6 +102,7 @@ In the “Items of Note” section, include the following information:
 <p>
 5. Late Moderate Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
 <em>(April 11, 2018)</em>
+ </p>
 </p>
 </div>
 
@@ -114,6 +116,7 @@ Architectural and network diagrams must include all possible communication links
 <p>
 Security architecture diagrams help to illustrate the key elements of the larger information security architecture. The information security architecture articulates the overall security program strategy in alignment with the position and selection of security control implementations. The information security architecture should be a stand-alone document(s) and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to simply reference other sections of the SSP.
 <em>(April 4, 2018)</em>
+</p>
 </p>
 </div>
 
@@ -136,6 +139,7 @@ In addition, one of the following must be met:
 4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on: a) A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date; b) An authorization boundary diagram of all services/capabilities that are included within the security authorization package; c) Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
 <em>(April 4, 2018)</em>
 </p>
+ </p>
 </div>
  
 <div class="q3">
