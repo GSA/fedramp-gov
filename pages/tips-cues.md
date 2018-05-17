@@ -43,7 +43,8 @@ Kick-off meetings are designed to enable effective partnership among all stakeho
 <div class="q3">
 <h3>Q: How can my Agency support Cloud Service Providers (CSPs) that need to demonstrate federal demand as part of FedRAMP Connect? </h3>
 <p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">Prioritization Criteria</a>  outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
-<p>
+</p>
+ <p>
 Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud offering. Agencies partnered with CSPs pursuing a JAB P-ATO can assist those CSPs by providing them with the following types of documentation that can be included in the CSPs’ applications to FedRAMP Connect:
  </p>
 <p>
@@ -64,7 +65,6 @@ Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud 
 <p>
 - Attestation or identification of shared demand with partner Agencies’ OCIO/OCISO, or other representative IT leadership.
 <em>(April 18, 2018)</em> 
-</p>
  </p>
 </div>
 
