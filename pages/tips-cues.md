@@ -9,7 +9,6 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
 <h2>April 2018 Tips & Cues</h2>
-<div class="q1">
  
 <div class="q3">
 <h3>Q: What happens during an Agency Authorization kick-off meeting with the FedRAMP PMO?</h3> 
