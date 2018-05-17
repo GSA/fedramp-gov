@@ -14,10 +14,20 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q3">
 <h3>Q: What happens during an Agency Authorization kick-off meeting with the FedRAMP PMO?</h3> 
 <p><strong>A:</strong>  As described in the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> , the FedRAMP PMO considers a kick-off meeting to be an integral step of the authorization process. Kick-off meetings provide the Agency, Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO the opportunity to convene at the outset of an authorization effort. During a kick-off meeting, the following topics should be addressed:
-Roles and responsibilities for the Agency, CSP, and 3PAO
-Applicable project milestones, especially with respect to CSP package documentation for the System Security Plan (SSP), Security Assessment Plan (SAP), and Security Assessment Report (SAR)
-Review of Agency-specific system or control requirements and concerns
-Review of the authorization boundary
+</p>
+<p>
+- Roles and responsibilities for the Agency, CSP, and 3PAO
+ </p>
+<p>
+- Applicable project milestones, especially with respect to CSP package documentation for the System Security Plan (SSP), Security Assessment Plan (SAP), and Security Assessment Report (SAR)
+ </p>
+<p>
+- Review of Agency-specific system or control requirements and concerns
+ </p>
+<p>
+- Review of the authorization boundary
+ </p>
+<p>
 Kick-off meetings are designed to enable effective partnership among all stakeholders within an authorization effort, allowing for clear communication of requirements and providing a forum for answering questions.
 <em>(April 25, 2018)</em>
 </p>
@@ -33,13 +43,27 @@ Kick-off meetings are designed to enable effective partnership among all stakeho
 <div class="q3">
 <h3>Q: How can my Agency support Cloud Service Providers (CSPs) that need to demonstrate federal demand as part of FedRAMP Connect? </h3>
 <p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">Prioritization Criteria</a>  outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
+ </p>
+<p>
 Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud offering. Agencies partnered with CSPs pursuing a JAB P-ATO can assist those CSPs by providing them with the following types of documentation that can be included in the CSPs’ applications to FedRAMP Connect:
-ATO(s) demonstrating current use of the cloud service offering (CSO) in a FISMA on-premise environment
-ATO(s) demonstrating current use of the CSO in a FedRAMP cloud environment
-ATO(s) demonstrating current use of the CSO
-RFI/RFQ/RFP demonstrating demand for the individual CSO
-Attestation from the Agency OCIO/OCISO, or other representative IT leadership, indicating demand and prospective utilization of the CSO
-Attestation or identification of shared demand with partner Agencies’ OCIO/OCISO, or other representative IT leadership.
+ </p>
+<p>
+- ATO(s) demonstrating current use of the cloud service offering (CSO) in a FISMA on-premise environment
+ </p>
+<p>
+- ATO(s) demonstrating current use of the CSO in a FedRAMP cloud environment
+ </p>
+<p>
+- ATO(s) demonstrating current use of the CSO
+ </p>
+<p>
+- RFI/RFQ/RFP demonstrating demand for the individual CSO
+ </p>
+<p>
+- Attestation from the Agency OCIO/OCISO, or other representative IT leadership, indicating demand and prospective utilization of the CSO
+ </p>
+<p>
+- Attestation or identification of shared demand with partner Agencies’ OCIO/OCISO, or other representative IT leadership.
 <em>(April 18, 2018)</em> 
 </p>
 </div>
@@ -112,7 +136,7 @@ In addition, one of the following must be met:
 3. The CSO achieves “FedRAMP Ready” designation from the FedRAMP PMO.
  </p>
 <p>
-4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on:a)A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date; b) An authorization boundary diagram of all services/capabilities that are included within the security authorization package.c) Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
+4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on: a) A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date; b) An authorization boundary diagram of all services/capabilities that are included within the security authorization package; c) Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
 <em>(April 4, 2018)</em>
 </p>
 </div>
