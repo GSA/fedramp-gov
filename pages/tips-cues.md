@@ -63,11 +63,21 @@ Attestation or identification of shared demand with partner Agencies’ OCIO/OCI
 <h3>Q: In the FedRAMP Continuous Monitoring Monthly Executive Summary, what information should I include in the “Items of Note” and “Issue Remediation” sections?</h3>
 <p><strong>A:</strong> Use the “Issue Remediation” section to provide an explanation and remediation evidence for issues that the you or the FedRAMP PMO identified (e.g., un-authenticated scans threshold exceeded, unique vulnerability, etc.).
 In the “Items of Note” section, include the following information:
-Status of Annual Assessment - Provide the status from your perspective.
-Details of vulnerability spike if present (see <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>) - Explain why the FedRAMP PMO would be seeing a unique or raw vulnerability spike this month if applicable.
-Details of Plan of Action and Milestones (POA&M) issues if present - Use this section to explain if you made changes to the POA&M, were unable to fill out certain columns, etc. If the FedRAMP PMO identifies POA&M issues, you can respond to those in this section.
-Late High Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
-Late Moderate Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
+ </p>
+<p>
+1. Status of Annual Assessment - Provide the status from your perspective.
+ </p>
+<p>
+2. Details of vulnerability spike if present (see <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>) - Explain why the FedRAMP PMO would be seeing a unique or raw vulnerability spike this month if applicable.
+ </p>
+<p>
+3. Details of Plan of Action and Milestones (POA&M) issues if present - Use this section to explain if you made changes to the POA&M, were unable to fill out certain columns, etc. If the FedRAMP PMO identifies POA&M issues, you can respond to those in this section.
+ </p>
+<p>
+4. Late High Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
+ </p>
+<p>
+5. Late Moderate Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
 <em>(April 11, 2018)</em>
 </p>
 </div>
@@ -76,7 +86,11 @@ Late Moderate Items (note pending deviations) - List all late items by POA&M ID 
 
 <h3>Q: What is a security architecture diagram and what should it include?</h3>
 <p><strong>A:</strong>  A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment.
+ </p>
+<p>
 Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing control implementation statements.
+ </p>
+<p>
 Security architecture diagrams help to illustrate the key elements of the larger information security architecture. The information security architecture articulates the overall security program strategy in alignment with the position and selection of security control implementations. The information security architecture should be a stand-alone document(s) and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to simply reference other sections of the SSP.
 <em>(April 4, 2018)</em>
 </p>
@@ -85,14 +99,20 @@ Security architecture diagrams help to illustrate the key elements of the larger
 <div class="q3">
 <h3>Q: How do I become “In Process” with a vendor?</h3>
 <p><strong>A:</strong> The “In Process” designation signifies that a Cloud Service Provider (CSP) and an Agency are actively working toward achieving a FedRAMP Authorization. The FedRAMP PMO recently updated our <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">requirements</a>  for a CSP to become In Process with an Agency. The Agency Authorizing Official (AO) or FedRAMP PMO approved designee must send an email to the FedRAMP PMO (info@fedramp.gov) stating that they are actively working with the CSP and plan to grant an Authority to Operate (ATO) that meets the FedRAMP requirements within 12 months.
+<p>
 In addition, one of the following must be met:
+ </p>
+<p>
 1. The Agency provides proof of a contract award for the use of the cloud service offering (CSO), and the contract specifies when an ATO that meets FedRAMP requirements must be achieved.
+ </p>
+<p>
 2. The Agency is using or testing the CSO and the Agency AO or approved designee sends an email to the FedRAMP PMO (info@fedramp.gov) stating that.
+ </p>
+<p>
 3. The CSO achieves “FedRAMP Ready” designation from the FedRAMP PMO.
-4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on:
-A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date.
-An authorization boundary diagram of all services/capabilities that are included within the security authorization package.
-Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
+ </p>
+<p>
+4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on:a)A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date; b) An authorization boundary diagram of all services/capabilities that are included within the security authorization package.c) Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
 <em>(April 4, 2018)</em>
 </p>
 </div>
