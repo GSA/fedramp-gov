@@ -30,6 +30,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 Kick-off meetings are designed to enable effective partnership among all stakeholders within an authorization effort, allowing for clear communication of requirements and providing a forum for answering questions.
 <em>(April 25, 2018)</em>
 </p>
+ </p>
 </div>
 
 <div class="q3">
