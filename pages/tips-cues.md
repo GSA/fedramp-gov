@@ -14,7 +14,6 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q3">
 <h3>Q: What happens during an Agency Authorization kick-off meeting with the FedRAMP PMO?</h3> 
 <p><strong>A:</strong>  As described in the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> , the FedRAMP PMO considers a kick-off meeting to be an integral step of the authorization process. Kick-off meetings provide the Agency, Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO the opportunity to convene at the outset of an authorization effort. During a kick-off meeting, the following topics should be addressed:
-</p>
 <p>
 - Roles and responsibilities for the Agency, CSP, and 3PAO
  </p>
@@ -43,7 +42,6 @@ Kick-off meetings are designed to enable effective partnership among all stakeho
 <div class="q3">
 <h3>Q: How can my Agency support Cloud Service Providers (CSPs) that need to demonstrate federal demand as part of FedRAMP Connect? </h3>
 <p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">Prioritization Criteria</a>  outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
- </p>
 <p>
 Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud offering. Agencies partnered with CSPs pursuing a JAB P-ATO can assist those CSPs by providing them with the following types of documentation that can be included in the CSPs’ applications to FedRAMP Connect:
  </p>
@@ -87,7 +85,6 @@ Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud 
 <h3>Q: In the FedRAMP Continuous Monitoring Monthly Executive Summary, what information should I include in the “Items of Note” and “Issue Remediation” sections?</h3>
 <p><strong>A:</strong> Use the “Issue Remediation” section to provide an explanation and remediation evidence for issues that the you or the FedRAMP PMO identified (e.g., un-authenticated scans threshold exceeded, unique vulnerability, etc.).
 In the “Items of Note” section, include the following information:
- </p>
 <p>
 1. Status of Annual Assessment - Provide the status from your perspective.
  </p>
@@ -110,7 +107,6 @@ In the “Items of Note” section, include the following information:
 
 <h3>Q: What is a security architecture diagram and what should it include?</h3>
 <p><strong>A:</strong>  A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment.
- </p>
 <p>
 Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing control implementation statements.
  </p>
