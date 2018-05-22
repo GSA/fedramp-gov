@@ -15,4 +15,4 @@ We use the information gathered from the survey to continue to improve the progr
 * Expanded our outreach to Agencies, which included developing the FedRAMP Agency Authorization Playbook, which provides detailed guidance for sponsoring FedRAMP authorizations
 * Used our blog and listserv to keep our stakeholders up-to-date on the latest developments, resulting is FedRAMP being named one of the “30 Must-Read Federal IT Blogs 2017” by FedTech Magazine 
 
-As we continue working on these initiative and identifying new ways to better support our stakeholders, please take the survey to let your voice be heard and help us continue evolving to meet your needs!
+As we continue working on these initiatives and identifying new ways to better support our stakeholders, please take the survey to let your voice be heard and help us continue evolving to meet your needs!
