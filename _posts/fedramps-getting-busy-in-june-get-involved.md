@@ -9,7 +9,7 @@ layout: blog-page
 June is a busy month for the FedRAMP Program! We’ve got a variety of exciting program developments and events on the horizon that we wanted to update you on. 
 
 **New FedRAMP Training Platform and 300-level Course:** We’re excited to announce the upcoming launch of our new FedRAMP Training Platform which will provide a cohesive view of the FedRAMP curriculum and provide a quality user experience. This platform has our most recent training additions, including: 100-A, 300-A, and 300-G. Third Party Assessment Organizations (3PAOs) are required to take 300-A and 300-G within 60 days of the training launch. Additionally, we’ve migrated our existing 200-level trainings over to the new platform, but plan to update these trainings over the next year. To learn about our training curriculum, visit our <a href="https://www.fedramp.gov/training/">training webpage.</a> 
-.  
+ 
 **3PAO Requirements Release:** Following the 3PAO workshop in April, we received feedback on the draft R311 requirements. We’re currently in the process of reviewing the feedback, and will release the finalized R311 requirements sometime in the coming weeks.
 
 **Authorization Boundary Guidance and Feedback:** In May, FedRAMP released <a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">guidance</a> 
