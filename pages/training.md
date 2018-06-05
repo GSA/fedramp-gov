@@ -11,12 +11,12 @@ The FedRAMP PMO offers a series of online training courses to provide all stakeh
 This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.
 
 To access the training platform: 
-1. Follow this link: <a href="https://meet.gsa.gov/fedramp_training/event/event_info.html">"https://meet.gsa.gov/fedramp_training/event/event_info.html"</a>
+1. Follow this link: <a href="https://meet.gsa.gov/fedramp_training/event/event_info.html">https://meet.gsa.gov/fedramp_training/event/event_info.html</a>
 2. Click on “Event Registration” in the top right of the menu bar
 3. Fill out the user information to set up an account (password length must be between 16 and 32 characters) and click “View”
 4. Click on your desired course within the FedRAMP Training Series Curriculum  
 
-Once you have registered, you will recieve an e-mail confirmation and returning students can login via this link:<a href="https://meet.gsa.gov/fedramp_training/event/login.html">"https://meet.gsa.gov/fedramp_training/event/login.html"</a>
+Once you have registered, you will recieve an e-mail confirmation and returning students can login via this link:<a href="https://meet.gsa.gov/fedramp_training/event/login.html">https://meet.gsa.gov/fedramp_training/event/login.html</a>
 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to <a href="info@fedramp.gov">info@fedramp.gov</a> with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
