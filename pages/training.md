@@ -144,7 +144,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
-<p>The <a href="https://meet.gsa.gov/fedramp_training/event/event_info.html">"300-G RAR Preparation "</a> course provides a discussion on how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/event_info.html">"300-G RAR Preparation"</a> course provides a discussion on how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
