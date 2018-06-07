@@ -2,19 +2,19 @@
 title: FedRAMP Launches New Training Platform 
 permalink: /fedramp-launches-new-training-platform/
 body-class: page-blog
-image: /assets/img/TrainingPlatform_v 2_Platform.png
+image: /assets/img/060718blogimage.png
 author: FedRAMP
 layout: blog-page
 ---
-
 We couldn’t be more excited to launch our new FedRAMP Training Platform! This platform provides a comprehensive overview of our training curriculum, a quality user experience, and enhanced capabilities and functionality. 
 
 To register for the FedRAMP Training Series Curriculum: 
-Follow this link: https://meet.gsa.gov/fedramp_training/event/registration.html
-Fill out the user information to set up an account (password length must be between 16 and 32 characters) and click “View”
-Click on your desired course within the FedRAMP Training Series Curriculum that you would like to view and complete   
+1. Follow this link: <a href="https://meet.gsa.gov/fedramp_training/event/registration.html"> https://meet.gsa.gov/fedramp_training/event/registration.html</a>. 
+2. Fill out the user information to set up an account (password length must be between 16 and 32 characters) and click “View”
+3. Click on your desired course within the FedRAMP Training Series Curriculum that you would like to view and complete   
 
-Once you have registered, you will recieve an e-mail confirmation and returning students can login via this link: https://meet.gsa.gov/fedramp_training/event/login.html
+Once you have registered, you will recieve an e-mail confirmation and returning students can login via this link: 
+<a href="https://meet.gsa.gov/fedramp_training/event/login.html"> https://meet.gsa.gov/fedramp_training/event/login.html</a>. 
 
 We’ve migrated all of our training offerings to this platform, however, we wanted to draw your attention to the following three courses that have been released in the last year:
 
