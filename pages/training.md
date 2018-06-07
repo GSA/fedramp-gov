@@ -93,7 +93,6 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <p><strong>Released:</strong> June 7th, 2018</p>
 
-<p>Coming soon.</p>
 </div>
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
