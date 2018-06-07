@@ -239,7 +239,7 @@ body-class: page-fed-agencies
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annnual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
     <td>The FedRAMP Annual SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of and compliance with system-specific, baseline security controls required by FedRAMP. The template is intended for 3PAOs to report annual security assessment findings for CSPs.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
