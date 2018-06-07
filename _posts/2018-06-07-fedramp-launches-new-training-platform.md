@@ -2,7 +2,7 @@
 title: FedRAMP Launches New Training Platform 
 permalink: /fedramp-launches-new-training-platform/
 body-class: page-blog
-image: /assets/img/trainingblogimage.png
+image: assets/img/blog-images/trainingblogimage.png
 author: FedRAMP
 layout: blog-page
 ---
