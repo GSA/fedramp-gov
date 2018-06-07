@@ -25,6 +25,5 @@ We’ve migrated all of our training offerings to this platform, however, we wan
 **300-G: Readiness Assessment Report (RAR) Preparation (Released October 2017):** This course provides information about how the FedRAMP security requirements must align with a Cloud Service Provider's (CSP’s) Cloud Service Offering (CSO) security capabilities before the CSO is accepted as “FedRAMP Ready.” 
 
 These two 300-level courses are the first of seven trainings for 3PAOs to be released and are required for all members of 3PAO assessment teams. To learn more about our training curriculum, visit our <a href="https://www.fedramp.gov/training/"> training webpage</a>. 
- 
 
 We hope you enjoy our new training platform. If you have any questions or feedback please reach out to info@fedramp.gov.
