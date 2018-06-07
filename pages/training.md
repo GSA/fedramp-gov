@@ -13,7 +13,7 @@ To register for the FedRAMP Training Series Curriculum:
 2. Fill out the user information to set up an account (password length must be between 16 and 32 characters) and click “View”
 3. Click on your desired course within the FedRAMP Training Series Curriculum that you would like to view and complete  
 
-Once you have registered, you will recieve an e-mail confirmation and returning students can login <a href="here">https://meet.gsa.gov/fedramp_training/event/login.html</a>
+Once you have registered, you will recieve an e-mail confirmation and returning students can login <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"here."</a>  
 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to <a href="info@fedramp.gov">info@fedramp.gov</a> with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
