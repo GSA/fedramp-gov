@@ -6,9 +6,14 @@ body-class: page-training
 ---
 
 
-The FedRAMP PMO offers a series of online training courses to provide all stakeholders with a deeper understanding of FedRAMP and the level of effort that is required to successfully complete a FedRAMP assessment.
+The FedRAMP PMO offers a series of online training courses to provide all stakeholders with a deeper understanding of FedRAMP and the level of effort that is required to successfully complete a FedRAMP assessment. This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.
 
-This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.
+To register for the FedRAMP Training Series Curriculum:  
+1. Follow this link: <a href=" https://meet.gsa.gov/fedramp_training/event/registration.html"> https://meet.gsa.gov/fedramp_training/event/registration.html</a>
+2. Fill out the user information to set up an account (password length must be between 16 and 32 characters) and click “View”
+3. Click on your desired course within the FedRAMP Training Series Curriculum that you would like to view and complete  
+
+Once you have registered, you will recieve an e-mail confirmation and returning students can login <a href="https://meet.gsa.gov/fedramp_training/event/login.html">here.</a>  
 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to <a href="info@fedramp.gov">info@fedramp.gov</a> with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
@@ -18,7 +23,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <h2>Path 1: All Stakeholders</h2>
 		<h3 class="accordion">100-A: Welcome to FedRAMP</h3>
 		<div class="panel">
-		<p>The <a href="https://www.youtube.com/watch?v=zvq5L1xXhYY&feature=youtu.be">"Welcome to FedRAMP Course"</a> provides an overview of the FedRAMP program. FedRAMP is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This one-hour introductory course in the FedRAMP Training Series is intended for Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) who aren’t well acquainted with FedRAMP. This course also serves as an excellent source of information for anyone in government or the private sector who wants to learn more about the program.</p>
+		<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"Welcome to FedRAMP Course"</a> provides an overview of the FedRAMP program. FedRAMP is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This one-hour introductory course in the FedRAMP Training Series is intended for Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) who aren’t well acquainted with FedRAMP. This course also serves as an excellent source of information for anyone in government or the private sector who wants to learn more about the program.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 		
@@ -29,7 +34,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <h2>Path 2: Designed for CSPs and 3PAOs</h2>
 		<h3 class="accordion">200-A: FedRAMP System Security Plan (SSP) Required Documents</h3>
 			<div class="panel">
-			<p>The <a href="https://www.youtube.com/watch?v=Ot90vW9jQuk&feature=youtu.be">"FedRAMP System Security Plan (SSP) Required Documents"</a> course module provides CSPs with a deeper understanding of the detail and rigor required by the FedRAMP PMO. It will familiarize you with required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
+			<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">"FedRAMP System Security Plan (SSP) Required Documents"</a> course module provides CSPs with a deeper understanding of the detail and rigor required by the FedRAMP PMO. It will familiarize you with required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -38,7 +43,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">200-B: Security Assessment Plan (SAP)</h3>
 <div class="panel">
-<p>The <a href="https://www.youtube.com/watch?v=k4IfvfqrZic">"Security Assessment Plan (SAP)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"Security Assessment Plan (SAP)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -47,7 +52,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
 <div class="panel">
-<p>The <a href="https://www.youtube.com/watch?v=d6RU12WIj4E&feature=youtu.be">"Security Assessment Report (SAR)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"Security Assessment Report (SAR)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -56,7 +61,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">200-D: Continuous Monitoring (ConMon) Overview</h3>
 <div class="panel">
-<p>The purpose of the <a href="https://www.youtube.com/watch?v=gQWctMjfH2M&feature=youtu.be">"ConMon Overview"</a> training module is to provide guidance on continuous monitoring and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This training module is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the Cloud System.</p>
+<p>The purpose of the <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"ConMon Overview"</a> training module is to provide guidance on continuous monitoring and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This training module is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the Cloud System.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -65,7 +70,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">201-B: How to Write a Control</h3>
 <div class="panel">
-<p>The <a href="https://www.youtube.com/watch?v=-geuTUFA8-g&feature=youtu.be">"How to Write a Control"</a> course teaches a CSP how to properly write a control that will satisfy the program’s requirements. This training module is structured for a CSP pursuing a JAB authorization with a 3PAO, or a 3PAO, conducting an assessment of the cloud system.</p>
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"How to Write a Control"</a> course teaches a CSP how to properly write a control that will satisfy the program’s requirements. This training module is structured for a CSP pursuing a JAB authorization with a 3PAO, or a 3PAO, conducting an assessment of the cloud system.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -78,12 +83,16 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-A: 3PAO FedRAMP 17020 Requirements: Understanding and Bridging the Gap</h3>
 <div class="panel">
+	
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"3PAO FedRAMP 17020 Requirements"</a> course provides 3PAOs with guidance on how FedRAMP requirements apply to ISO/IEC 17020:2012 which specifies requirements for the competence of bodies performing inspection and for the impartiality and consistency of their inspection activities.</p>
+	
 
 <p>This course provides a 3PAO with the FedRAMP requirements overlaid on ISO/IEC 17020.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
-<p>Coming soon.</p>
+<p><strong>Released:</strong> June 7th, 2018</p>
+
 </div>
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
@@ -131,7 +140,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
-<p>This course provides a discussion on how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"300-G RAR Preparation"</a> course provides a discussion on how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
