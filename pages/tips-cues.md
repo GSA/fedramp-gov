@@ -28,7 +28,7 @@ Vulnerability scans are often used to show closure of vulnerabilities. If the cu
 </div>
 
 <div class="q3">
-<h3>TIP: Effective July 1, 2018, CSPs must complete implementation of TLS version 1.1 for their Federal Agency customers.
+<h3>TIP: Effective July 1, 2018, CSPs must complete implementation of TLS version 1.1 for their Federal Agency customers.</h3>
 </p>
 <p>
 CSPs must ensure that federal customers are fully authenticated and compliant with TLS version 1.1 or higher (turning off TLS 1.0 and below). 
@@ -37,7 +37,7 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
 </div>
 
 <div class="q3">
-<h3>TIP: When updating the Plan of Action and Milestones (POA&M) to account for findings in the Security Assessment Report (SAR), consider the following:
+<h3>TIP: When updating the Plan of Action and Milestones (POA&M) to account for findings in the Security Assessment Report (SAR), consider the following:</h3>
 <p>
  </p>
 <p>
@@ -66,7 +66,7 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
 </div>
 
 <div class="q3">
-<h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.
+<h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.</h3>
 </p>
 <p>
 The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization. 
@@ -76,7 +76,7 @@ The responsibility for the AO (or his/her designated representative) includes re
 </div>
 
 <div class="q3">
-<h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:
+<h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:</h3>
 1. Does the AI provide protection equivalent to or greater than the defined requirement?
 2. Is the control implemented as expected and functioning as intended?
 </p>
@@ -92,7 +92,7 @@ Some alternative security control implementations have no direct path for identi
 </div>
 
 <div class="q3">
-<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.
+<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.</h3>
 </p>
 <p>
 FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
@@ -106,7 +106,7 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
 </div>
 
 <div class="q3">
-<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.
+<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.</h3>
 </p>
 <p>
 FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
@@ -120,7 +120,7 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
 </div>
 
 <div class="q3">
-<h3>TIP: Scanners will often identify a vulnerability that has been addressed by a backport. This is a False Positive (FP), and the CSP should submit an FP Deviation Request (DR) in this situation.
+<h3>TIP: Scanners will often identify a vulnerability that has been addressed by a backport. This is a False Positive (FP), and the CSP should submit an FP Deviation Request (DR) in this situation.</h3>
 <p>
 To ensure accurate completion of this type of DR:
  </p>
@@ -144,7 +144,7 @@ Provide screenshots showing the that backport is implemented on each impacted co
 </div>
 
 <div class="q3">
-<h3>TIP: A deviation request (DR) should assume a reviewer has sufficient general knowledge of the technologies involved, but no specific knowledge of the CSP’s system.  Ensure the DR contains sufficient system detail to give the reviewer appropriate context.
+<h3>TIP: A deviation request (DR) should assume a reviewer has sufficient general knowledge of the technologies involved, but no specific knowledge of the CSP’s system.  Ensure the DR contains sufficient system detail to give the reviewer appropriate context.</h3>
 <p>
  </p>
 <p>
