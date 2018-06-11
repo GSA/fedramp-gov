@@ -87,6 +87,7 @@ Some alternative security control implementations have no direct path for identi
 <p>
 FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
  </p>
+ <p>
  In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
 <em>(May 23, 2018)</em>
 </p>
