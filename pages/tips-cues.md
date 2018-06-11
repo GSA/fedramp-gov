@@ -29,7 +29,6 @@ Vulnerability scans are often used to show closure of vulnerabilities. If the cu
 
 <div class="q3">
 <h3>TIP: Effective July 1, 2018, CSPs must complete implementation of TLS version 1.1 for their Federal Agency customers.</h3>
-</p>
 <p>
 CSPs must ensure that federal customers are fully authenticated and compliant with TLS version 1.1 or higher (turning off TLS 1.0 and below). 
 <em>(May 9, 2018)</em>
@@ -38,8 +37,6 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
 
 <div class="q3">
 <h3>TIP: When updating the Plan of Action and Milestones (POA&M) to account for findings in the Security Assessment Report (SAR), consider the following:</h3>
-<p>
- </p>
 <p>
 - The POA&M items should be easily traceable to the same finding in the SAR, with matching unique IDs.
  </p>
@@ -67,7 +64,6 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
 
 <div class="q3">
 <h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.</h3>
-</p>
 <p>
 The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization. 
 <em>(May 16, 2018)</em>
@@ -79,21 +75,17 @@ The responsibility for the AO (or his/her designated representative) includes re
 <h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:</h3>
 1. Does the AI provide protection equivalent to or greater than the defined requirement?
 2. Is the control implemented as expected and functioning as intended?
-</p>
 <p>
 Alternative security control implementations must be accurately documented and assessed. The Security Assessment Plan (SAP) must clearly outline the 3PAO’s approach to assessing alternative security control implementations. In most cases, the 3PAO must develop alternative assessment steps/methods to complement the assessment steps/methods outlined in NIST 800-53A (as revised) and include the alternative testing steps in the SAP.
  </p>
 <p>
-Some alternative security control implementations have no direct path for identifying insecure alternative implementations. In those cases, the 3PAO must use their expertise and clearly justify the testing methodology for the alternative implementations. The FedRAMP PMO heavily weighs the 3PAO’s professional expertise in assessing the sufficiency of an alternative security control implementation.(
+Some alternative security control implementations have no direct path for identifying insecure alternative implementations. In those cases, the 3PAO must use their expertise and clearly justify the testing methodology for the alternative implementations. The FedRAMP PMO heavily weighs the 3PAO’s professional expertise in assessing the sufficiency of an alternative security control implementation.
 </p>
 <em>(May 16, 2018)</em>
-</p>
-</p>
 </div>
 
 <div class="q3">
 <h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.</h3>
-</p>
 <p>
 FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
  </p>
@@ -101,22 +93,6 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
  <p>
  </p>
 <em>(May 23, 2018)</em>
-</p>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.</h3>
-</p>
-<p>
-FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
- </p>
- In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
- <p>
- </p>
-<em>(May 23, 2018)</em>
-</p>
-</p>
 </div>
 
 <div class="q3">
