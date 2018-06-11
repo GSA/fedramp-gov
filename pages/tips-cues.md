@@ -15,7 +15,6 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <p><strong>A:</strong> Yes, you can start your annual assessment early as long as you submit your package before the anniversary date of your Provisional Authority to Operate (P-ATO). However, you should work with your Authorizing Official to determine that the schedule is appropriate.
 <em>(May 2, 2018)</em>
 </p>
-</p>
 </div>
 
 <div class="q3">
@@ -26,7 +25,6 @@ You can also review and search all of our past Tips & Cues by downloading our co
 Vulnerability scans are often used to show closure of vulnerabilities. If the current scanner is removed, the current vulnerabilities must still be tracked (and evidence of closure should be provided). Many CSPs operate their current scanner in limited capacity (performing targeted scans) in parallel with their new scanner until the existing vulnerabilities are remediated or appropriately mapped to the new scanner. This is will clear the existing vulnerabilities from the old scanner and determine that the new scanner can deliver similar scan results. 
 <em>(May 2, 2018)</em>
 </p>
-</p>
 </div>
 
 <div class="q3">
@@ -35,7 +33,6 @@ Vulnerability scans are often used to show closure of vulnerabilities. If the cu
 <p>
 CSPs must ensure that federal customers are fully authenticated and compliant with TLS version 1.1 or higher (turning off TLS 1.0 and below). 
 <em>(May 9, 2018)</em>
-</p>
 </p>
 </div>
 
