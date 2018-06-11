@@ -8,142 +8,163 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
-<h2>April 2018 Tips & Cues</h2>
+<h2>May 2018 Tips & Cues</h2>
  
 <div class="q3">
-<h3>Q: What happens during an Agency Authorization kick-off meeting with the FedRAMP PMO?</h3> 
-<p><strong>A:</strong>  As described in the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> , the FedRAMP PMO considers a kick-off meeting to be an integral step of the authorization process. Kick-off meetings provide the Agency, Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO the opportunity to convene at the outset of an authorization effort. During a kick-off meeting, the following topics should be addressed:
-<p>
-- Roles and responsibilities for the Agency, CSP, and 3PAO
- </p>
-<p>
-- Applicable project milestones, especially with respect to CSP package documentation for the System Security Plan (SSP), Security Assessment Plan (SAP), and Security Assessment Report (SAR)
- </p>
-<p>
-- Review of Agency-specific system or control requirements and concerns
- </p>
-<p>
-- Review of the authorization boundary
- </p>
-<p>
-Kick-off meetings are designed to enable effective partnership among all stakeholders within an authorization effort, allowing for clear communication of requirements and providing a forum for answering questions.
-<em>(April 25, 2018)</em>
+<h3>: Can we start the annual assessment early?</h3> 
+<p><strong>A:</strong> Yes, you can start your annual assessment early as long as you submit your package before the anniversary date of your Provisional Authority to Operate (P-ATO). However, you should work with your Authorizing Official to determine that the schedule is appropriate.
+<em>(May 2, 2018)</em>
 </p>
- </p>
-</div>
-
-<div class="q3">
-<h3>TIP: CSPs should remember to consider alerts sent from the system (e.g., via email or text messages) and assess the needed protections of data in the alerts.</h3>
-<p> Consult NIST 800-60 Volume II for datatypes and the categorization of the data. The categorization (Low, Moderate, or High) corresponds to the FedRAMP baseline of security controls (Low, Moderate, or High) that need to be applied to protect that data. The CSP may determine that changes need to be made to the alerts. For example, they may need to modify the contents of the alerts and keep the sensitive data within the boundary where the full set of security controls are being applied.
-<em>(April 25, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: How can my Agency support Cloud Service Providers (CSPs) that need to demonstrate federal demand as part of FedRAMP Connect? </h3>
-<p><strong>A:</strong>  FedRAMP Connect was developed to ensure that CSPs that are prioritized to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) have demand from Federal Agencies for their cloud offering and that they are well prepared to begin the authorization process. FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">Prioritization Criteria</a>  outlines the criteria that is used to evaluate and select CSPs to partner with the JAB on a semi-annual basis.
+<h3>Q: Are there any additional requirements for a Significant Change involving changing a scanning tool?</h3>
+<p><strong>A:</strong> In order to change vulnerability scanning tools, you must develop a plan for the transition. The vulnerabilities that are identified in your current scanner must be addressed via the Plan of Action and Milestones (PO&AM) process.
 </p>
+<p>
+Vulnerability scans are often used to show closure of vulnerabilities. If the current scanner is removed, the current vulnerabilities must still be tracked (and evidence of closure should be provided). Many CSPs operate their current scanner in limited capacity (performing targeted scans) in parallel with their new scanner until the existing vulnerabilities are remediated or appropriately mapped to the new scanner. This is will clear the existing vulnerabilities from the old scanner and determine that the new scanner can deliver similar scan results. 
+<em>(May 2, 2018)</em>
+</p>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Effective July 1, 2018, CSPs must complete implementation of TLS version 1.1 for their Federal Agency customers.
+</p>
+<p>
+CSPs must ensure that federal customers are fully authenticated and compliant with TLS version 1.1 or higher (turning off TLS 1.0 and below). 
+<em>(May 9, 2018)</em>
+</p>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: When updating the Plan of Action and Milestones (POA&M) to account for findings in the Security Assessment Report (SAR), consider the following:
+<p>
+ </p>
+<p>
+- The POA&M items should be easily traceable to the same finding in the SAR, with matching unique IDs.
+ </p>
+<p>
+- The details of POA&M items should map to the same details of the same findings in the SAR (one for one).
+ </p>
+<p>
+- For findings in the SAR that are already in the POA&M, the original discovery date should remain unchanged.
+ </p>
+<p>
+- For new findings that are not already in the POA&M, the discovery date should be no later than the last day of the assessment noted in the paragraph above SAR Table ES-1.
  <p>
-Any CSP looking to pursue a JAB P-ATO must prove federal demand for their cloud offering. Agencies partnered with CSPs pursuing a JAB P-ATO can assist those CSPs by providing them with the following types of documentation that can be included in the CSPs’ applications to FedRAMP Connect:
+- Unless the findings are operationally required, completion dates should be in line with FedRAMP required timeframes for remediation. From the date of discovery, high risks should be remediated within 30 days, moderate risks within 90 days, and low risks within 180 days.
  </p>
-<p>
-- ATO(s) demonstrating current use of the cloud service offering (CSO) in a FISMA on-premise environment
+ <p>
+- Deviations should be appropriately reflected in the POA&M to match those in the SAR. All pre-existing deviations, prior to the start of the assessment, must be accounted for correctly and consistently across the SAR and POA&M documents.
  </p>
-<p>
-- ATO(s) demonstrating current use of the CSO in a FedRAMP cloud environment
+ <p>
+- The CSP should monitor changes to the SAR to ensure any changes are carried over to the POA&M.
  </p>
-<p>
-- ATO(s) demonstrating current use of the CSO
- </p>
-<p>
-- RFI/RFQ/RFP demonstrating demand for the individual CSO
- </p>
-<p>
-- Attestation from the Agency OCIO/OCISO, or other representative IT leadership, indicating demand and prospective utilization of the CSO
- </p>
-<p>
-- Attestation or identification of shared demand with partner Agencies’ OCIO/OCISO, or other representative IT leadership.
-<em>(April 18, 2018)</em> 
- </p>
-</div>
-
-<div class="q3">
-<h3>Q: Can I use the FedRAMP Significant Change Request (SCR) form for multiple significant changes?</h3>
-<p><strong>A:</strong> Yes, you can include multiple significant changes as long as all changes will be implemented for assessment at the same time.  We often see SCR’s for multiple changes where the CSP is on-boarding multiple new services, tech-refresh of multiple component types and others.  The assumption is that testing for all of the new services and components will be performed under a single Security Assessment Plan (SAP) and the results will be reflected in a single Security Assessment Report (SAR).
-<em>(April 18, 2018)</em>
+<em>(May 9, 2018)</em>
 </p>
+ </p>
 </div>
 
 <div class="q3">
-<h3>Q: My Agency is pursuing an authorization for a Software-as-a-Service (SaaS) solution. Does the underlying layer of the system stack also need to be authorized?</h3>
-<p><strong>A:</strong> The “system stack” generally refers to the layers of services in the data center that are included in the cloud service offering, typically defined as a Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS). When authorizing a SaaS solution, the underlying stack of services that support it must also be authorized according to the appropriate FedRAMP baseline. As an example, for a SaaS being authorized at the Moderate baseline, the underlying PaaS and IaaS layers must also be authorized at Moderate (or High), and each component (SaaS, PaaS, IaaS) must have its own authorization boundary and its own ATO letter.
-<em>(April 11, 2018)</em>
+<h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.
 </p>
-</div>
- 
-<div class="q3">
-
-<h3>Q: In the FedRAMP Continuous Monitoring Monthly Executive Summary, what information should I include in the “Items of Note” and “Issue Remediation” sections?</h3>
-<p><strong>A:</strong> Use the “Issue Remediation” section to provide an explanation and remediation evidence for issues that the you or the FedRAMP PMO identified (e.g., un-authenticated scans threshold exceeded, unique vulnerability, etc.).
-In the “Items of Note” section, include the following information:
 <p>
-1. Status of Annual Assessment - Provide the status from your perspective.
- </p>
-<p>
-2. Details of vulnerability spike if present (see <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>) - Explain why the FedRAMP PMO would be seeing a unique or raw vulnerability spike this month if applicable.
- </p>
-<p>
-3. Details of Plan of Action and Milestones (POA&M) issues if present - Use this section to explain if you made changes to the POA&M, were unable to fill out certain columns, etc. If the FedRAMP PMO identifies POA&M issues, you can respond to those in this section.
- </p>
-<p>
-4. Late High Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
- </p>
-<p>
-5. Late Moderate Items (note pending deviations) - List all late items by POA&M ID and include Deviation Request (DR) status, remediation plan, explanation, etc. for each item.
-<em>(April 11, 2018)</em>
- </p>
-</p>
-</div>
-
-<div class="q3">
-
-<h3>Q: What is a security architecture diagram and what should it include?</h3>
-<p><strong>A:</strong>  A security architecture diagram is a component of the System Security Plan (SSP) that illustrates how technical security controls are implemented in the environment.
-<p>
-Architectural and network diagrams must include all possible communication links between the CSP and Federal Agencies, as well as paths into the system boundary. If customers are not yet connecting directly, a CSP can identify all planned connection points in the SSP. The diagrams should be completed prior to writing control implementation statements.
- </p>
-<p>
-Security architecture diagrams help to illustrate the key elements of the larger information security architecture. The information security architecture articulates the overall security program strategy in alignment with the position and selection of security control implementations. The information security architecture should be a stand-alone document(s) and address the requirements outlined in the control supplemental guidance in PL-8. It is not sufficient to simply reference other sections of the SSP.
-<em>(April 4, 2018)</em>
+The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization. 
+<em>(May 16, 2018)</em>
 </p>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: How do I become “In Process” with a vendor?</h3>
-<p><strong>A:</strong> The “In Process” designation signifies that a Cloud Service Provider (CSP) and an Agency are actively working toward achieving a FedRAMP Authorization. The FedRAMP PMO recently updated our <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">requirements</a>  for a CSP to become In Process with an Agency. The Agency Authorizing Official (AO) or FedRAMP PMO approved designee must send an email to the FedRAMP PMO (info@fedramp.gov) stating that they are actively working with the CSP and plan to grant an Authority to Operate (ATO) that meets the FedRAMP requirements within 12 months.
-<p>
-In addition, one of the following must be met:
- </p>
-<p>
-1. The Agency provides proof of a contract award for the use of the cloud service offering (CSO), and the contract specifies when an ATO that meets FedRAMP requirements must be achieved.
- </p>
-<p>
-2. The Agency is using or testing the CSO and the Agency AO or approved designee sends an email to the FedRAMP PMO (info@fedramp.gov) stating that.
- </p>
-<p>
-3. The CSO achieves “FedRAMP Ready” designation from the FedRAMP PMO.
- </p>
-<p>
-4. The Agency, CSP, and FedRAMP PMO complete a formal kick-off meeting with agreement on: a) A project plan from the CSP that outlines project milestones and schedule associated with the delivery of the authorization deliverables to the Agency and anticipated ATO date; b) An authorization boundary diagram of all services/capabilities that are included within the security authorization package; c) Resources available to support the FedRAMP authorization from the CSP and Agency. Personnel identified as critical to the authorization must to be present at the kick-off meeting.
-<em>(April 4, 2018)</em>
+<h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:
+1. Does the AI provide protection equivalent to or greater than the defined requirement?
+2. Is the control implemented as expected and functioning as intended?
 </p>
+<p>
+Alternative security control implementations must be accurately documented and assessed. The Security Assessment Plan (SAP) must clearly outline the 3PAO’s approach to assessing alternative security control implementations. In most cases, the 3PAO must develop alternative assessment steps/methods to complement the assessment steps/methods outlined in NIST 800-53A (as revised) and include the alternative testing steps in the SAP.
  </p>
+<p>
+Some alternative security control implementations have no direct path for identifying insecure alternative implementations. In those cases, the 3PAO must use their expertise and clearly justify the testing methodology for the alternative implementations. The FedRAMP PMO heavily weighs the 3PAO’s professional expertise in assessing the sufficiency of an alternative security control implementation.(
+</p>
+<em>(May 16, 2018)</em>
+</p>
+</p>
 </div>
- 
+
 <div class="q3">
-<h3>Q: Do the tools used for the penetration test need to be listed anywhere else besides in the Penetration Test Plan document?</h3>
-<p><strong>A:</strong> Yes, the tools used for the penetration test must also be listed in the Security Assessment Plan (SAP) and match those listed in the Penetration Test Plan document. When completing Table 5-3 in the SAP, be sure to include each tool used for the security controls assessment, vulnerability scanning, and penetration test.
-<em>(April 4, 2018)</em>
+<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.
 </p>
+<p>
+FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
+ </p>
+ In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
+ <p>
+ </p>
+<em>(May 23, 2018)</em>
+</p>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Agencies and CSPs are encouraged to adjust password complexity implementation for memorized secrets to align with NIST 800-63B, Digital Identity Guidelines: Authentication and Lifecycle Management.
+</p>
+<p>
+FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
+ </p>
+ In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
+ <p>
+ </p>
+<em>(May 23, 2018)</em>
+</p>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Scanners will often identify a vulnerability that has been addressed by a backport. This is a False Positive (FP), and the CSP should submit an FP Deviation Request (DR) in this situation.
+<p>
+To ensure accurate completion of this type of DR:
+ </p>
+<p>
+Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
+ </p>
+<p>
+Provide the reference/resource that describes what CVEs the backport addresses.
+ </p>
+ <p>
+Provide screenshots showing the that backport is implemented on each impacted component. Make sure the IP/hostname is visible in the screenshot as evidence for that specific component. 
+<em>(May 23, 2018)</em>
+</p>
+</p>
+</div>
+<div class="q3">
+<h3>TIP: Before onboarding new services to your authorized cloud service, make sure that all applicable controls are within the previously authorized controls.</h3>
+<p>Any service that introduces new controls to the environment is considered a significant change and may require additional steps to be onboarded. Work with your Authorizing Official to determine the appropriate steps to add new services to your authorization boundary. 
+<em>(May 30, 2018)</em>
+</p>
+</div>
+_____
+
+<div class="q3">
+<h3>TIP: A deviation request (DR) should assume a reviewer has sufficient general knowledge of the technologies involved, but no specific knowledge of the CSP’s system.  Ensure the DR contains sufficient system detail to give the reviewer appropriate context.
+<p>
+ </p>
+<p>
+DRs should tell the full story of the risk to the system and mitigations in place to address the risk. When preparing deviation requests for operationally required and/or risk adjustment items, address the following:
+ </p>
+<p>
+- What components are impacted by the vulnerability and what is their function in the environment
+ </p>
+<p>
+- What would be required to exploit the vulnerability?
+<p>
+- What exists or what has been put in place to reduce the risk (reduce the likelihood of exploitation and/or reduce the impact of exploitation)?
+ <p>
+- Note that the CSP always has the option of putting in place additional security controls to further mitigate a risk to an acceptable level. An example could be setting up additional monitoring to detect specific conditions related to the vulnerability.
+ </p>
+<em>(May 30, 2018)</em>
+</p>
+ </p>
 </div>
