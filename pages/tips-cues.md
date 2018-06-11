@@ -11,7 +11,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <h2>May 2018 Tips & Cues</h2>
  
 <div class="q3">
-<h3>: Can we start the annual assessment early?</h3> 
+<h3>Q: Can we start the annual assessment early?</h3> 
 <p><strong>A:</strong> Yes, you can start your annual assessment early as long as you submit your package before the anniversary date of your Provisional Authority to Operate (P-ATO). However, you should work with your Authorizing Official to determine that the schedule is appropriate.
 <em>(May 2, 2018)</em>
 </p>
@@ -145,7 +145,6 @@ Provide screenshots showing the that backport is implemented on each impacted co
 <em>(May 30, 2018)</em>
 </p>
 </div>
-_____
 
 <div class="q3">
 <h3>TIP: A deviation request (DR) should assume a reviewer has sufficient general knowledge of the technologies involved, but no specific knowledge of the CSP’s system.  Ensure the DR contains sufficient system detail to give the reviewer appropriate context.
