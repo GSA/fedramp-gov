@@ -70,9 +70,10 @@ The responsibility for the AO (or his/her designated representative) includes re
 </div>
 
 <div class="q3">
-<h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:</h3>
+<h3>TIP: When assessing an Alternative Implementation (AI), the 3PAO is expected to make two determinations:
 1. Does the AI provide protection equivalent to or greater than the defined requirement?
 2. Is the control implemented as expected and functioning as intended?
+</h3>
 <p>
 Alternative security control implementations must be accurately documented and assessed. The Security Assessment Plan (SAP) must clearly outline the 3PAO’s approach to assessing alternative security control implementations. In most cases, the 3PAO must develop alternative assessment steps/methods to complement the assessment steps/methods outlined in NIST 800-53A (as revised) and include the alternative testing steps in the SAP.
 </p>
@@ -99,13 +100,13 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
 To ensure accurate completion of this type of DR:
  </p>
 <p>
-Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
+- Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
 </p>
 <p>
-Provide the reference/resource that describes what CVEs the backport addresses.
+- Provide the reference/resource that describes what CVEs the backport addresses.
  </p>
  <p>
-Provide screenshots showing the that backport is implemented on each impacted component. Make sure the IP/hostname is visible in the screenshot as evidence for that specific component. 
+- Provide screenshots showing the that backport is implemented on each impacted component. Make sure the IP/hostname is visible in the screenshot as evidence for that specific component. 
 <em>(May 23, 2018)</em>
 </p>
 </div>
