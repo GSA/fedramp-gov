@@ -75,11 +75,11 @@ The responsibility for the AO (or his/her designated representative) includes re
 2. Is the control implemented as expected and functioning as intended?
 <p>
 Alternative security control implementations must be accurately documented and assessed. The Security Assessment Plan (SAP) must clearly outline the 3PAO’s approach to assessing alternative security control implementations. In most cases, the 3PAO must develop alternative assessment steps/methods to complement the assessment steps/methods outlined in NIST 800-53A (as revised) and include the alternative testing steps in the SAP.
- </p>
+</p>
 <p>
 Some alternative security control implementations have no direct path for identifying insecure alternative implementations. In those cases, the 3PAO must use their expertise and clearly justify the testing methodology for the alternative implementations. The FedRAMP PMO heavily weighs the 3PAO’s professional expertise in assessing the sufficiency of an alternative security control implementation.
-</p>
 <em>(May 16, 2018)</em>
+</p>
 </div>
 
 <div class="q3">
@@ -88,9 +88,8 @@ Some alternative security control implementations have no direct path for identi
 FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be more restrictive than the new password requirements in 800-63B, AAL2 and AAL3 respectively. The FedRAMP PMO is working to update our baselines to reflect the changes outlined in NIST 800-63B.
  </p>
  In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
- <p>
- </p>
 <em>(May 23, 2018)</em>
+</p>
 </div>
 
 <div class="q3">
@@ -100,7 +99,7 @@ To ensure accurate completion of this type of DR:
  </p>
 <p>
 Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
- </p>
+</p>
 <p>
 Provide the reference/resource that describes what CVEs the backport addresses.
  </p>
