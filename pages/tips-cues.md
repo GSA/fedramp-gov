@@ -56,7 +56,10 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
  </p>
  <p>
 - The CSP should monitor changes to the SAR to ensure any changes are carried over to the POA&M.
+ </p>
 <em>(May 9, 2018)</em>
+</p>
+ </p>
 </div>
 
 <div class="q3">
@@ -64,6 +67,8 @@ CSPs must ensure that federal customers are fully authenticated and compliant wi
 <p>
 The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization. 
 <em>(May 16, 2018)</em>
+</p>
+</p>
 </div>
 
 <div class="q3">
@@ -75,6 +80,7 @@ Alternative security control implementations must be accurately documented and a
  </p>
 <p>
 Some alternative security control implementations have no direct path for identifying insecure alternative implementations. In those cases, the 3PAO must use their expertise and clearly justify the testing methodology for the alternative implementations. The FedRAMP PMO heavily weighs the 3PAO’s professional expertise in assessing the sufficiency of an alternative security control implementation.
+</p>
 <em>(May 16, 2018)</em>
 </div>
 
@@ -85,6 +91,7 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
  </p>
  In the meantime, FedRAMP recommends Agency Authorizing Officials (AOs) accept compliance with NIST’s guidance, which is most up-to-date and consistent with current cyber security threats. Until the baselines are updated, this may be done using an implementation status of “Alternative Implementation.” Please refer to the FedRAMP Digital Identity Requirements. 
  <p>
+ </p>
 <em>(May 23, 2018)</em>
 </div>
 
@@ -94,14 +101,15 @@ FedRAMP Moderate and High controls IA-5 (g) and IA-5 (1) (a,d) are known to be m
 To ensure accurate completion of this type of DR:
  </p>
 <p>
-- Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
+Include the vulnerability ID and the associated Common Vulnerabilities and Exposures (CVEs) reported by the scanner in the DR form.
  </p>
 <p>
-- Provide the reference/resource that describes what CVEs the backport addresses.
+Provide the reference/resource that describes what CVEs the backport addresses.
  </p>
  <p>
-- Provide screenshots showing the that backport is implemented on each impacted component. Make sure the IP/hostname is visible in the screenshot as evidence for that specific component. 
+Provide screenshots showing the that backport is implemented on each impacted component. Make sure the IP/hostname is visible in the screenshot as evidence for that specific component. 
 <em>(May 23, 2018)</em>
+</p>
 </p>
 </div>
 <div class="q3">
@@ -127,6 +135,7 @@ DRs should tell the full story of the risk to the system and mitigations in plac
 - What exists or what has been put in place to reduce the risk (reduce the likelihood of exploitation and/or reduce the impact of exploitation)?
  <p>
 - Note that the CSP always has the option of putting in place additional security controls to further mitigate a risk to an acceptable level. An example could be setting up additional monitoring to detect specific conditions related to the vulnerability.
+ </p>
 <em>(May 30, 2018)</em>
 </p>
  </p>
