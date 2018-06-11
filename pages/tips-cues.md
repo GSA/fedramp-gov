@@ -134,5 +134,5 @@ DRs should tell the full story of the risk to the system and mitigations in plac
  <p>
 - Note that the CSP always has the option of putting in place additional security controls to further mitigate a risk to an acceptable level. An example could be setting up additional monitoring to detect specific conditions related to the vulnerability.
 <em>(May 30, 2018)</em>
- </p>
+</p>
 </div>
