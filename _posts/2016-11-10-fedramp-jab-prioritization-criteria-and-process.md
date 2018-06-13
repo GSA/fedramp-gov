@@ -1,6 +1,6 @@
 ---
 title: FedRAMP JAB Prioritization Criteria and Process
-layout: blog-list
+layout: blog-page
 permalink: /fedramp-jab-prioritization-criteria-and-process/
 body-class: page-blog
 ---
