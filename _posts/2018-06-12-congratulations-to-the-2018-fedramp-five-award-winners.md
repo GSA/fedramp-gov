@@ -2,7 +2,7 @@
 title: Congratulations to the 2018 FedRAMP Five Award Winners!
 permalink: /congratulations-to-the-2018-fedramp-five-award-winners/
 body-class: page-blog
-image: /assets/img/blog-images/fedrampfiveawards.png
+image: /assets/img/blog-images/fedrampfiveaward.png
 author: FedRAMP
 layout: blog-page
 ---
