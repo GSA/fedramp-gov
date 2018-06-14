@@ -132,20 +132,12 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>5/10/2018</td>
   </tr>
   <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf">JAB P-ATO Prioritization Criteria</a></td>
-    <td>This document defines the criteria by which CSPs are prioritized to work with the JAB for aP-ATO. This Prioritization Criteria is intended to be a living document, and the JAB will review it on a regular basis, updating it as needed to reflect current priorities.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf"><i class="fas fa-file-pdf"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Criteria and Guidance</a></td>
+    <td>The purpose of this document is to outline the criteria by which CSPs are prioritized to work with the JAB toward a P-ATO, the JAB prioritization process, and the Business Case requirements for FedRAMP Connect. We ask that CSPs review this document in its entirety before beginning the FedRAMP Connect process.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Guidance.pdf">JAB Prioritization Guidance</a></td>
-    <td>The purpose of this document is to outline the changes the FedRAMP PMO has made to the JAB Prioritization Process and Business Case for FedRAMP Connect. We ask that CSPs review this document in its entirety before beginning their submission.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Guidance.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>6/29/2017</td>
+    <td>6/14/2018</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></td>
