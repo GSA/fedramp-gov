@@ -1,6 +1,6 @@
 ---
 title: FedRAMP JAB Prioritization Criteria and Process
-layout: blog-list
+layout: blog-page
 permalink: /fedramp-jab-prioritization-criteria-and-process/
 body-class: page-blog
 ---
@@ -9,71 +9,28 @@ Over the past 6 months FedRAMP has been working to update the criteria by which 
 After we analyzed and incorporated the feedback we received, we finalized the criteria with the JAB CIOs and the CIO Council. The feedback from industry and input from the CIOs reiterated one of our initial findings: _demand should drive prioritization_. **Demand is now the number one criterion for prioritization.** **It is also the only requirement for prioritization.** The table below shows how a CSP can demonstrate current and future demand for their offering.
 
 <table>
-  <tr>
-    <td>
-      **Current agency use**
-    </td>
 
-    <td>
-      Existing # FISMA systems with ATO  
+<tr>
+   <td><b>Current agency use</b></td>
+   <td>Existing # FISMA systems with ATO Existing # unique agency customers</td>
+</tr>
 
+<tr>
+   <td><b>Potential agency use</b></td>
+   <td>Examples of how a CSP could provide justification for projected adoption with 12 months of ATO include (but are not limited to): Responses to Government RFIs, RFQs, and pending awards  Industry recognition (for example being in the Gartner Magic Quadrant) Business capture plan provided by CSP grounded by agency needs and spend Use by State, Local, Tribal, or Territorial Governments</td>
+</tr>
 
-        Existing # unique agency customers </td> </tr>
+<tr>
+    <td><b>OMB Policy / Priorities / Shared Services</b></td>
+    <td>Defined by administrative priorities for cross-agency services. Examples of OMB Policy, Priorities, and Shared Services could include (but are not limited to): Alignment with National strategy and policies CSP provides a new solution to existing Federal requirements (such as CDM, HSPD-12)</td>
+</tr>
 
-        <tr>
-          <td>
-            **Potential agency use**
-          </td>
+<tr>
+    <td><b>Agency defined demand<b></td>
+    <td>Annual CIO Council Survey or Agency Advisory Group selected by CIO Council Official requests by agencies to the FedRAMP Program Management Office (PMO)</td>
+</tr>
 
-          <td>
-            Examples of how a CSP could provide justification for projected adoption with 12 months of ATO include (but are not limited to):
-
-            <ul>
-
-                Responses to Government RFIs, RFQs, and pending awards 
-
-
-                Industry recognition (for example being in the Gartner Magic Quadrant)
-
-
-                Business capture plan provided by CSP grounded by agency needs and spend
-
-
-                Use by State, Local, Tribal, or Territorial Governments
-
-            </ul>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **OMB Policy / Priorities / Shared Services**
-          </td>
-
-          <td>
-            Defined by administrative priorities for cross-agency services. Examples of OMB Policy, Priorities, and Shared Services could include (but are not limited to):
-
-            <ul>
-
-                Alignment with National strategy and policies
-
-
-                CSP provides a new solution to existing Federal requirements (such as CDM, HSPD-12)
-
-            </ul>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Agency defined demand**
-          </td>
-
-          <td>
-            Annual CIO Council Survey or Agency Advisory Group selected by CIO Council  
-
-
-              Official requests by agencies to the FedRAMP Program Management Office (PMO) </td> </tr> </tbody> </table>
+</table>
 
 Another change that we incorporated based on feedback is related to FedRAMP Ready. Although CSPs are still encouraged to be FedRAMP Ready, **it is not a requirement for prioritization**. **However, FedRAMP Ready will be a heavily weighted criterion for prioritization and is highly encouraged.** Additionally, if a CSP is prioritized that is not FedRAMP Ready, the CSP will be required to obtain FedRAMP Ready status within 60 days of prioritization.
 

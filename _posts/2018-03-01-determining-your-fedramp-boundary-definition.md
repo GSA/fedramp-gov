@@ -2,41 +2,37 @@
 title: Determining Your FedRAMP Boundary Definition
 permalink: /determining-your-fedramp-boundary-definition/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_12072017.png
+image: /assets/img/blog-images/Blog_03052018 (1).png
 author: FedRAMP
 layout: blog-page
 ---
-An authorization boundary provides a diagrammatic picture of a system’s internal components to a Cloud Service Provider (CSP) along with connections to external services and systems, accounting for all government data and metadata that flows through a system. As a critical component of all System Security Packages (SSP) submitted to FedRAMP, the PMO has recognized that CSPs have difficulty accurately depicting their system boundary from a FISMA perspective. 
+An authorization boundary provides a diagrammatic picture of a system’s internal components to a Cloud Service Provider (CSP) along with connections to external services and systems, accounting for all Federal information and metadata that flows through a system. As a critical component of all System Security Plans (SSPs) and Readiness Assessment Reports (RARs) submitted to FedRAMP, the PMO recognizes that CSPs have difficulty accurately depicting their system authorization boundary from a FISMA perspective. 
 
-In anticipation of the PMO’s release of detailed guidance on how to conceptualize and depict an authorization boundary, this blog seeks to cover the key considerations CSPs should account for when drafting their boundary, as well as those considerations agencies should heed when reviewing a system package. 
+The FedRAMP PMO will be releasing more formal authorization boundary guidance within the next month, but wanted to provide a sneak peek of our internal conversations of what CSPs should account for when drafting their boundary, as well as those considerations agencies should heed when reviewing a system package.  
 
 **External Services**
 
-In an effort to efficiently develop a system’s functionality, the cloud market has adopted the common practicing of leveraging of additional third-party cloud services to augmenting functionality and transfer responsibility from the CSP to a vendor. While this makes sense commercially, it raises challenges when understanding a system’s security posture in FedRAMP. When drafting an authorization boundary, CSPs should identify all interconnections to external services as they relate to the flow of government data and metadata through the system.
+There are many cloud technologies that utilize third-party cloud services to augment functionality, this raises challenges when developing an “authorization boundary”. Each Federal Agency must understand where their data is going and the associated protection mechanisms in place, as this presents risk each Agency will have to consider when using any given cloud service offering. When drafting an authorization boundary, CSPs must be transparent and identify all interconnections to external services as they relate to the flow of government data and metadata through the system.
 
 **Data and Metadata**
 
-Opposed to other control regimes, FedRAMP qualifies a system’s boundary according to wherever federal data is stored, processed, transmitted, or used. The flow of data in and out of a system provides a frame of reference for understanding how to define the boundary. Importantly, the same applies for a system’s metadata, as a system is only as secure as its weakest link. To illustrate this concept, consider the following examples:g five CSPs were ultimately prioritized by the JAB: 
+As opposed to other control regimes like ISO, PCI, SOC II, etc., FedRAMP qualifies a system’s boundary according to wherever Federal data and/or information is stored, processed, transmitted, or used. The flow of data in and out of a system provides a frame of reference for understanding how to define the boundary. Importantly, the same applies to a system’s metadata, as a system is only as secure as its weakest link. To illustrate this concept, consider the following two examples:
 
  * **Federal Customer Information in a Customer Relationship Management (CRM) Tool** 
  
-   *Should a CSP leverage a CRM solution, the information for federal customers is applicable metadata that should be represented in the boundary.*
+   *CRM system toolsets are normally used to manage the business application-customer relationship. However, CRM systems also manage aspects of the business contacts, employees (privileged and non-privileged administrators), contractual requirements, and tracking potential customers. Data and information stored, processed, transmitted, and used within a CRM system provides the system stakeholders with valuable information pertaining to their business and their customers. When the customers are Federal customers, this system then contains federal information and should be acknowledged within the CSP’s SSP, boundary diagram and data-flow diagram.*
 
 * **Vulnerability Scanning Results**
 
-   *Vulnerability Scans are necessary for any continuous monitoring of a FedRAMP system. If a CSP completes a vulnerability scan and sends the results of that scan to an external service, that service is now considered part of a boundary. Note, while the specific system data is not transmitted, sensitive data regarding the system’s vulnerabilities does which, if compromised, would compromise the system.*
+   *Vulnerability Scans are necessary for the continuous monitoring of any FedRAMP system. If a CSP completes a vulnerability scan and sends the results of that scan to an external service (such as a cloud hosted version of a scan tool/suite, or a ticketing system to track closures of vulnerabilities), those results are considered metadata about Federal information. This would mean that the scan service or ticketing service should be pulled into the system boundary. Note, while the specific system data may not be transmitted, sensitive data regarding the system’s vulnerabilities is transmitted. If the transmitted vulnerabilities are exploited,the system is compromised. This is why this type of data is considered sensitive and must be pulled into the boundary.*
 
-Finally, when considering the flow of data, CSPs must account of the FIPS 199 criticality of that data. If government data is considered Moderate impact, it cannot be transmitted to Low systems. The same applies for High impact data to Moderate systems. When drafting the boundary, it is important CSPs understand the authorization levels of leveraged external services and account for the criticality of data within the data flow and across the boundary. 
+It is also important for Agencies and CSPs understand the authorization levels (security categorization levels: Low, Moderate, High) of leveraged external services and account for the criticality of data within the data flow and across the boundary. If Federal information is considered Moderate impact, it cannot be transmitted to a Low system. The same applies for transmitting High impact information to Moderate systems. 
 
-**Pulling the Thread with SSP Controls**
+Additionally, we have put together a quick (not comprehensive) list of few considerations when developing and reviewing an authorization boundary diagram: 
 
-The SSP provides an end-to-end story of a system, rooted in security control detail and tied together by the diagrams and front matter. When drafting a boundary, the interconnections and service level agreements (SLAs) described in the SSP controls must be depicted. Further those depictions should align with the written descriptions provided in the control language.
-
-**Additional Considerations** 
-
- * CSPs are responsible for the data flow of federal data. Throughout planning, ask the question: What can impact federal information?
- * A boundary should depict the system access and privileges among all system stakeholders
- * Consider microservices in addition to larger-footprint external services
- * Engage the PMO early and often with questions regarding boundary definition and how to coordinate with agencies and assessors when developing.
+ * CSPs are responsible for the data flow of Federal information. Throughout planning, ask the question: What can impact Federal information?
+ * A boundary should depict the system access and privileges among all system stakeholders: Who can access the system and how?
+ * Microservices many times are just as important as larger-footprint external services, again, a system is only as strong as its weakest link: What systems do we use that help make the system work?
+ * Engage the FedRAMP PMO early and often with questions regarding boundary definition and how to coordinate with agencies and assessors when developing: Schedule a meeting with the PMO.
 
 The PMO will be releasing collateral in March that provides further guidance on authorization boundaries. In the interim, please direct questions to info@fedramp.gov. 
