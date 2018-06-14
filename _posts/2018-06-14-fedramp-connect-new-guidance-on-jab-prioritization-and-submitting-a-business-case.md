@@ -19,7 +19,7 @@ We take the JAB Prioritization Business Case submissions incredibly seriously an
 * What qualifies as current, indirect, and potential demand 
 * The Business Case evaluation methodology 
 
-When reviewing this document, you will see that the FedRAMP PMO has decided to emphasis “indirect demand” going forward. FedRAMP as seen a growing amount of external services that have high indirect demand because of the amount of FedRAMP authorized cloud services that use their service and we would like to recognize that customer base as demand. 
+When reviewing this document, you will see that the FedRAMP PMO has decided to emphasize “indirect demand” going forward. FedRAMP has seen a growing amount of external services that have high indirect demand because of the amount of FedRAMP authorized cloud services that use their service and we would like to recognize that customer base as demand. 
 
 If you have questions on this addition or any part of the FedRAMP Connect process, the PMO will be holding a webinar on June 22nd to review the guidance and answer questions from CSPs. Additionally, after the webinar, the PMO will be available to have one-on-one coaching calls with CSPs to provide them with advice on their Business Case or help them qualify their demand. 
 
