@@ -9,10 +9,9 @@ Over the past 6 months FedRAMP has been working to update the criteria by which 
 After we analyzed and incorporated the feedback we received, we finalized the criteria with the JAB CIOs and the CIO Council. The feedback from industry and input from the CIOs reiterated one of our initial findings: _demand should drive prioritization_. **Demand is now the number one criterion for prioritization.** **It is also the only requirement for prioritization.** The table below shows how a CSP can demonstrate current and future demand for their offering.
 
 <table>
-   <tbody>
   <tr>
     <td>
-      <strong>Current agency use<strong>
+      **Current agency use**
     </td>
 
     <td>
@@ -23,7 +22,7 @@ After we analyzed and incorporated the feedback we received, we finalized the cr
 
         <tr>
           <td>
-            <strong>Potential agency use<strong>
+            **Potential agency use**
           </td>
 
           <td>
@@ -48,7 +47,7 @@ After we analyzed and incorporated the feedback we received, we finalized the cr
 
         <tr>
           <td>
-            <strong>OMB Policy / Priorities / Shared Services<strong>
+            **OMB Policy / Priorities / Shared Services**
           </td>
 
           <td>
@@ -67,7 +66,7 @@ After we analyzed and incorporated the feedback we received, we finalized the cr
 
         <tr>
           <td>
-            <strong>Agency defined demand<strong>
+            **Agency defined demand**
           </td>
 
           <td>
@@ -89,7 +88,9 @@ In addition to demand, the remaining prioritization criteria are a set of prefer
 * Prior experience with Federal security authorizations (e.g. use of a 3PAO in “consulting” capacity, other systems owned by the CSP with existing FISMA ATOs)
 * Dependencies from other cloud service offerings (e.g. IaaS that hosts other SaaS solutions with demand from the Government)
 
-Now that the prioritization criteria are finalized, **we are asking CSPs who are interested in working with the JAB to pursue a P-ATO to submit a FedRAMP Business Case**. This Business Case form provides a normalized view for comparison of CSPs and allows prioritization to be conducted in a consistent and fair manner. **Only CSPs who have submitted a FedRAMP Business Case will be considered for prioritization.** Although, vendors may submit FedRAMP Business Cases at any time throughout the year; the JAB prioritization will only occur twice a year , prioritizing 6 at a time for a total of 12 CSPs a year. The first due date for FedRAMP Business Cases is December 15th and the FedRAMP PMO aims to have this first round of prioritization completed in early 2017.
+You can view additional details regarding the prioritization criteria, including rationale [here](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-JAB-PATO-Prioritization-Criteria-11102016-2.pdf)
+
+Now that the prioritization criteria are finalized, **we are asking CSPs who are interested in working with the JAB to pursue a P-ATO to submit a [FedRAMP Business Case](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-Business-Case-Form_Interactive_161110v2-2.pdf)**. This Business Case form provides a normalized view for comparison of CSPs and allows prioritization to be conducted in a consistent and fair manner. **Only CSPs who have submitted a FedRAMP Business Case will be considered for prioritization.** Although, vendors may submit FedRAMP Business Cases at any time throughout the year; the JAB prioritization will only occur twice a year , prioritizing 6 at a time for a total of 12 CSPs a year. The first due date for FedRAMP Business Cases is December 15th and the FedRAMP PMO aims to have this first round of prioritization completed in early 2017.
 
 To fairly evaluate all CSPs, the FedRAMP Business Cases will be reviewed by a panel including representatives from the FedRAMP PMO, JAB, and CIOs from across the government. The panel will analyze CSPs based on the established criteria and the FedRAMP Business Cases submitted by the CSP, and provide a recommendation to the JAB. The JAB will make the final decisions regarding which CSPs to prioritize for JAB authorization.
 
