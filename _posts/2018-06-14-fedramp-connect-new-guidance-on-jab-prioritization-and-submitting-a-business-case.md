@@ -1,6 +1,6 @@
 ---
-title: FedRAMP Connect: New Guidance on JAB Prioritization and Submitting a Business Case due July 13! 
-permalink: /congratulations-to-the-2018-fedramp-five-award-winners/
+title: FedRAMP Connect - New Guidance on JAB Prioritization and Submitting a Business Case due July 13! 
+permalink: /fedramp-connect-new-guidance-on-jab-prioritization-and-submitting-a-business-case/
 body-class: page-blog
 image: /assets/img/blog-images/fedrampconnectpost.png
 author: FedRAMP
