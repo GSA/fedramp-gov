@@ -1,11 +1,13 @@
 ---
 title: New Integrated Inventory Template
-layout: blog-list
 permalink: /new-integrated-inventory-template/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_02262018.png
+author: FedRAMP
+layout: blog-page
 ---
 
-  Today we released an updated and significantly different version of the [Inventory Template](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/04/A13-FedRAMP-Integrated-Inventory-Template-2016-11-07-v2-01.xlsx) as a separate attachment to the FedRAMP System Security Plan (SSP).
+  Today we released an updated and significantly different version of the [Inventory Template](https://www.fedramp.gov/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx) as a separate attachment to the FedRAMP System Security Plan (SSP).
 
 
 
