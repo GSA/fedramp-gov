@@ -1,8 +1,10 @@
 ---
 title: April 2016 FedRAMP PMO Newsletter
-layout: blog-list
-permalink: /april-2016-fedramp-pmo-newsletter/
+permalink: /annual-assessment-guidance/
 body-class: page-blog
+image: /april-2016-fedramp-pmo-newsletter/
+author: FedRAMP
+layout: blog-page
 ---
 ### Initial Readiness Assessment Report Feedback
 
