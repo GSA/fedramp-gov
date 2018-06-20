@@ -1,10 +1,14 @@
+
 ---
 title: Updated Frequently Asked Questions
-layout: blog-list
 permalink: /updated-frequently-asked-questions/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_02262018.png
+author: FedRAMP
+layout: blog-page
 ---
-The FedRAMP PMO has added eight additional [Frequently Asked Questions (FAQs)](https://www.fedramp.gov/resources/faqs/) to the FedRAMP.gov website. We took these questions from your emails and inquiries into the FedRAMP’s requirements and process.
+
+The FedRAMP PMO has added eight additional [Frequently Asked Questions (FAQs)](https://www.fedramp.gov/faqs/) to the FedRAMP.gov website. We took these questions from your emails and inquiries into the FedRAMP’s requirements and process.
 
 Here are the new FAQs:
 
@@ -44,4 +48,4 @@ There are no “new” controls for FedRAMP. The FedRAMP security controls are b
 
 **Who is responsible for the cloud security controls?**
 
-The responsibility for the controls will depend on the solution. In summary, the CSP and agency will be responsible for some specific controls, and both parties will share responsibility for other controls. The CSP develops a Control Implementation Summary (CIS) at the beginning of the process that contains a matrix outlining which controls are CSP-provided, agency/customer-provided, and hybrid.  The CSP later develops SSP that further describes the responsibilities for the controls and how exactly the control is implemented by each responsible entity. Both the [CIS template](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/FedRAMP-Control-Implementation-Summary-v2.1.docx) and the [SSP template](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/FedRAMP-System-Security-Plan-Template-v2.1.docx) are on the FedRAMP website.
+The responsibility for the controls will depend on the solution. In summary, the CSP and agency will be responsible for some specific controls, and both parties will share responsibility for other controls. The CSP develops a Control Implementation Summary (CIS) at the beginning of the process that contains a matrix outlining which controls are CSP-provided, agency/customer-provided, and hybrid.  The CSP later develops SSP that further describes the responsibilities for the controls and how exactly the control is implemented by each responsible entity. Both the [CIS template](https://www.fedramp.gov/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx) and the [SSP template](https://www.fedramp.gov/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx) are on the FedRAMP website.
