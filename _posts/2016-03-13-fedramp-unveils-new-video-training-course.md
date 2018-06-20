@@ -1,10 +1,14 @@
 ---
-title: FedRAMP Unveils New Video Training Course
-layout: blog-list
+title: edRAMP Unveils New Video Training Course
 permalink: /fedramp-unveils-new-video-training-course/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Computer.png
+author: FedRAMP
+layout: blog-page
 ---
-The FedRAMP PMO has added two new [training courses](https://www.fedramp.gov/resources/training/) to our library, including the first video training option.
+
+
+The FedRAMP PMO has added two new [training courses](https://www.fedramp.gov/training/) to our library, including the first video training option.
 
 **“How to Write a Control” (201B)** is FedRAMP’s first online, on-demand video training course. The PMO has received many questions about how to properly write a control that will satisfy the program’s requirements. This training video is tailored to CSPs that are documenting the security of their Cloud System and will assist with writing compliant control implementation descriptions for the System Security Plan (SSP).
 
