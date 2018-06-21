@@ -251,6 +251,12 @@ nav.usa-nav {
 /** PRINT FRIENDLY **/
 @media print {
 
+.card-image,
+.hero-unit {
+	min-height: auto;
+}
+
+
 .panel {
 	display:block;
 }
@@ -260,7 +266,10 @@ nav.usa-nav {
 .usa-banner-button,
 .usa-menu-btn,
 .newsletter-footer,
-.footer-social {
+.footer-social,
+.post-container,
+.usa-footer-logo,
+.usa-footer {
 	display: none;
 }
 
@@ -292,15 +301,29 @@ section#fedramp-mission .inner{
 	}
 }
 
+.banner.tagline h2,
+.banner.tagline p {
+	color: #212121 !important;
+}
+
+.hero-content  {
+	h1, p {
+	color: #212121 !important;
+}
+}
+
 section#pre-auth,
 section#during-auth,
 section#post-auth,
 section#support,
-.usa-section {
+.usa-section,
+.home .hero-unit,
+.hero-content {
 	padding: 0;
 }
 
-.page-blog .usa-width-one-whole {
+.page-blog .usa-width-one-whole,
+.card {
 	padding: 0;
 	margin: 0;
 }
