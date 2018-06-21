@@ -272,6 +272,37 @@ div.usa-nav-container {
 body .page-banner {
 	padding-bottom: 0 !important;
 	padding-top: 0 !important;
+	h1 {
+		color: #212121 !important;
+	}
+}
+
+section#fedramp-mission .inner{
+	h2,
+	ul li {
+		color: #212121 !important;
+	}
+}
+
+.about-us section.about-auth .inner {
+	color: #212121 !important;
+	h2,
+	p, a {
+		color: #212121 !important;
+	}
+}
+
+section#pre-auth,
+section#during-auth,
+section#post-auth,
+section#support,
+.usa-section {
+	padding: 0;
+}
+
+.page-blog .usa-width-one-whole {
+	padding: 0;
+	margin: 0;
 }
 
 	body,
