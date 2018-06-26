@@ -2,7 +2,7 @@
 title: April 2016 FedRAMP PMO Newsletter
 permalink: /annual-assessment-guidance/
 body-class: page-blog
-image: /april-2016-fedramp-pmo-newsletter/
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
