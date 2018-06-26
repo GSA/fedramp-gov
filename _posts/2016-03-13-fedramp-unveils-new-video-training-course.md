@@ -1,5 +1,5 @@
 ---
-title: edRAMP Unveils New Video Training Course
+title: FedRAMP Unveils New Video Training Course
 permalink: /fedramp-unveils-new-video-training-course/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
