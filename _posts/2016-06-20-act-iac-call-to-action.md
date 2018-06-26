@@ -1,9 +1,10 @@
 ---
-
 title: ACT-IAC Call to Action
-layout: blog-list
 permalink: /act-iac-call-to-action/
 body-class: page-blog
+image: /assets/img/blog-images/blog_placementimg.png
+author: FedRAMP
+layout: blog-page
 ---
 ### This is your chance to have your voice heard!
 
