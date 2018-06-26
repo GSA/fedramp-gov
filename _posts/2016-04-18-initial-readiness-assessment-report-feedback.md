@@ -1,9 +1,10 @@
 ---
-
 title: Initial Readiness Assessment Report Feedback
-layout: blog-list
 permalink: /initial-readiness-assessment-report-feedback/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_10252017.png
+author: FedRAMP
+layout: blog-page
 ---
 On March 28, 2016 the FedRAMP Program Management Office (PMO) posted a draft of the FedRAMP Readiness Assessment Report and FedRAMP Readiness Assessment Guidance for CSPs and 3PAOs for public comment and have heard from many of you.
 
