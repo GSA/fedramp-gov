@@ -1,10 +1,11 @@
 ---
 title: '#WheresAshley'
-layout: blog-list
 permalink: /wheresashley/
 body-class: page-blog
+image: /assets/img/blog-images/wheresashley.png
+author: FedRAMP
+layout: blog-page
 ---
-<img class="alignnone wp-image-43899 size-large" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/01/Wheres-Ashley-1024x381.png" alt="Where's Ashley" width="1024" height="381" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/01/Wheres-Ashley-1024x381.png 1024w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/01/Wheres-Ashley-300x111.png 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/01/Wheres-Ashley-768x285.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 FedRAMP’s Agency Evangelist is coming to a Federal Agency near you!
 
