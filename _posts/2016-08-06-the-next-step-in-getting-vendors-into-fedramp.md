@@ -1,11 +1,12 @@
 ---
-title: FedRAMP Ready: The Next Step In Getting Vendors into FedRAMP
+title: FedRAMP Ready- The Next Step In Getting Vendors into FedRAMP
 permalink: /the-next-step-in-getting-vendors-into-fedramp/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
 ---
+
 <img class=" wp-image-61201 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/RAR_no_button.png" alt="RAR_no_button" width="476" height="181" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/RAR_no_button.png 629w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/RAR_no_button-300x114.png 300w" sizes="(max-width: 476px) 100vw, 476px" />
 
 As part of the FedRAMP Accelerated process, GSA is releasing the [FedRAMP Readiness Assessment Report (RAR) Template](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx), which is essentially a pre-audit, enabling cloud providers to demonstrate their readiness to achieve a FedRAMP authorization. This allows the FedRAMP Program Management Office to determine if a cloud service provider (CSP) is ready to pursue a FedRAMP authorization. 
