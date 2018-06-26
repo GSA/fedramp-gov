@@ -1,9 +1,8 @@
-
 ---
 title: Updated Frequently Asked Questions
 permalink: /updated-frequently-asked-questions/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_02262018.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
 layout: blog-page
 ---
