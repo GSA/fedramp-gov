@@ -250,47 +250,128 @@ nav.usa-nav {
 
 /** PRINT FRIENDLY **/
 @media print {
-	
-	html, body {
-            margin: 0;
-            padding: 0;
-            background: #FFF; 
-            font-size: 9.5pt;
-          }
-          .container, .container div {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-          }
-	/*
-          .template { 
-		  overflow: hidden;
-	   }
-	*/
 
-          img { 
-		  width: 100%; 
-	  }
+.card-image,
+.hero-unit {
+	min-height: auto;
+}
 
-	
-	#navigation, #subnavigation{
+
+.panel {
+	display:block;
+}
+
+.blog-sidebar,
+.search-feature,
+.usa-banner-button,
+.usa-menu-btn,
+.newsletter-footer,
+.footer-social,
+.post-container,
+.usa-footer-logo,
+.usa-footer {
 	display: none;
+}
+
+div.usa-nav-container {
+	padding: 0;
+	height: auto;
+}
+
+body .page-banner {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	h1 {
+		color: #212121 !important;
+	}
+}
+
+section#fedramp-mission .inner{
+	h2,
+	ul li {
+		color: #212121 !important;
+	}
+}
+
+.about-us section.about-auth .inner {
+	color: #212121 !important;
+	h2,
+	p, a {
+		color: #212121 !important;
+	}
+}
+
+.banner.tagline h2,
+.banner.tagline p {
+	color: #212121 !important;
+}
+
+.hero-content  {
+	h1, p {
+	color: #212121 !important;
+}
+}
+
+section#pre-auth,
+section#during-auth,
+section#post-auth,
+section#support,
+.usa-section,
+.home .hero-unit,
+.hero-content {
+	padding: 0;
+}
+
+.page-blog .usa-width-one-whole,
+.card {
+	padding: 0;
+	margin: 0;
+}
+
+	body,
+	html {
+		margin: 0;
+		padding: 0;
+		background: #FFF;
+		font-size: 9.5pt;
+		color: #212121 !important;
+	}
+
+	.container,
+	.container div {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	#navigation,
+	#subnavigation {
+		display: none;
 	}
 
 	h1 {
-	font-size: 24pt;
+		font-size: 24pt;
 	}
-	h2 {
-	font-size: 18pt;
-	}
-	h3 {
-	font-size: 14pt;
-	}
-	p, ul, ol, dl {
-	/* paragraphs, unordered, ordered, and definition lists */
-	font-size: 12pt;
-	}
-    /* Print CSS rules go here */
-    /* Note: You need a separate @media screen group for other rules */
-}
 
+	h2 {
+		font-size: 18pt;
+	}
+
+	h3 {
+		font-size: 14pt;
+	}
+
+	dl,
+	ol,
+	p,
+	ul {
+		/* paragraphs, unordered, ordered, and definition lists */
+		font-size: 12pt;
+	}
+	/* Print CSS rules go here */
+	/* Note: You need a separate @media screen group for other rules */
+}
