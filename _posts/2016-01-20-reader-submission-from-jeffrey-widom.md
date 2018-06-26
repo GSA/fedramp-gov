@@ -1,8 +1,10 @@
 ---
 title: Reader Submission from Jeffrey Widom
-layout: blog-list
 permalink: /reader-submission-from-jeffrey-widom/
 body-class: page-blog
+image: /assets/img/blog-images/blog_placementimg.png
+author: FedRAMP
+layout: blog-page
 ---
 This month, the PMO features a column from Lunarline’s [Jeffrey Widom](mailto:jeffrey.widom@lunarline.com). He presents some common topics Cloud Service Providers (CSPs) have faced when deciding to pursue a FedRAMP Authorization.
 
