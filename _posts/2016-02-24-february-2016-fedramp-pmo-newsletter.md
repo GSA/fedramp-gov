@@ -2,7 +2,7 @@
 title: February 2016 FedRAMP PMO Newsletter
 permalink: /february-2016-fedramp-pmo-newsletter/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
