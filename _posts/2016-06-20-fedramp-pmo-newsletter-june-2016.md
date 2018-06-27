@@ -1,13 +1,14 @@
 ---
-
-title: 'FedRAMP PMO Newsletter , June 2016'
-layout: blog-list
+title: 'FedRAMP PMO Newsletter, June 2016'
 permalink: /fedramp-pmo-newsletter-june-2016/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_02262018.png
+author: FedRAMP
+layout: blog-page
 ---
 ### High Baseline Release
 
-The Federal Risk and Authorization Management Program (FedRAMP) is excited to release the [FedRAMP High Baseline Requirements](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/06/FedRAMP-High-HHH-Baseline-Controls-2016-05-18.xlsx)! The High Baseline is available on [www.FedRAMP.gov](https://www.fedramp.gov/resources/documents-2016/). These security requirements will be used to protect some of the government’s most sensitive, unclassified data in cloud computing environments. This release allows agencies to use cloud environments for high-impact data, including data that involves the protection of life and financial ruin.
+The Federal Risk and Authorization Management Program (FedRAMP) is excited to release the FedRAMP High Baseline Requirements! The High Baseline is available on our <a href="{{site.baseurl}}/documents">documents page</a>. These security requirements will be used to protect some of the government’s most sensitive, unclassified data in cloud computing environments. This release allows agencies to use cloud environments for high-impact data, including data that involves the protection of life and financial ruin.
 
 Why is this such a big deal? While 80% of Federal information is categorized at low and moderate impact levels, this only represents about 50% of Federal IT spend. Now that FedRAMP has set the requirements for high impact levels, that breaks open the remaining 50% of the $80 billion a year the US Government spends on IT that could potentially move to the cloud securely. That’s huge!
 
@@ -113,13 +114,10 @@ FedRAMP now has 72 FedRAMP Compliant CSP systems! A complete list can be viewed�
 
 On March 28, 2016, FedRAMP announced the new FedRAMP Accelerated process, which includes significant modifications to how FedRAMP Joint Authorization Board (JAB) Provisional Authorizations (P-ATO) are conducted. The goal of the new process is to provide a significantly faster, more predictable timeline for Cloud Service Providers (CSPs) seeking to have their packages assessed as FedRAMP Authorized.
 
-[Read the whole story](https://www.fedramp.gov/participate/fedramp-accelerated-process/)
 
 ### Updates to FedRAMP Templates
 
 On Monday, June 27th FedRAMP will be releasing updates to our templates to add some “ease of use” features as well as ensure all of the templates reflect the different authorization levels (low, moderate, high) that CSPs can pursue through FedRAMP.
-
-The updates to our templates include the following “ease-of-use” features:
 
 [Read the whole story](https://www.fedramp.gov/update-to-fedramp-templates/)
 

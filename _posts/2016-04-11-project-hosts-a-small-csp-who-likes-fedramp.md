@@ -1,9 +1,10 @@
 ---
-
 title: 'Project Hosts: A Small CSP Who Likes FedRAMP'
-layout: blog-list
 permalink: /project-hosts-a-small-csp-who-likes-fedramp/
 body-class: page-blog
+image: /assets/img/blog-images/blog_placementimg.png
+author: FedRAMP
+layout: blog-page
 ---
 Project Hosts is a small business cloud service provider (CSP) that submitted its FedRAMP paperwork in April  2014 and achieved FedRAMP SaaS compliance in January, 2015.
 

@@ -1,9 +1,12 @@
 ---
-title: New FedRAMP Marketplace Dashboard
-layout: blog-list
-permalink: /2016-08-17-new-fedramp-marketplace-dashboard/
+title: New FedRAMP Marketplace Dashboard 
+permalink: /new-fedramp-marketplace-dashboard/
 body-class: page-blog
+image: /assets/img/Blog_03202018_Computer.png
+author: FedRAMP
+layout: blog-page
 ---
+
 **We’re incredibly excited to announce the launch of the new [FedRAMP Marketplace dashboard](http://marketplace.fedramp.gov)!** It’s loaded with all sorts of ways for you to see how everyone is participating with FedRAMP!
 
 <img class=" wp-image-61571 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/FedRAMP-Marketplace-Dashboard.jpg" alt="FedRAMP Marketplace Dashboard" width="408" height="369" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/FedRAMP-Marketplace-Dashboard.jpg 1912w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/FedRAMP-Marketplace-Dashboard-300x271.jpg 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/FedRAMP-Marketplace-Dashboard-768x694.jpg 768w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/08/FedRAMP-Marketplace-Dashboard-1024x926.jpg 1024w" sizes="(max-width: 408px) 100vw, 408px" />
@@ -14,7 +17,7 @@ As FedRAMP has grown, so has our marketplace. It’s become a space where all o
 
 We want to make sure we provide the best experience possible whenever you go to [www.FedRAMP.gov](http://www.fedramp.gov), so we decided it was time to upgrade our marketplace! We partnered with [18F](https://18f.gsa.gov/) and used the [agile BPA](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/) to create a user-friendly dashboard. Through an enjoyable procurement process (no seriously, it was actually fun at times!), we chose True Tandem LLC  as the vendor to help us build the dashboard. We gave them a quick turnaround timeframe of only 60 days, and not only did they build an awesome dashboard, but they built it in just 55 days!
 
-We gave TrueTandem and 18F a goal of building a “ridiculously easy” user interface and intuitive design. They went to work immediately to harness the strength of agile methodology and user-centric design to meet our requirements. Through [weekly sprints](https://twitter.com/MrFedRAMP/status/745684606624600064) and constant user-testing, we iterated over the course of about 8 weeks to be able to bring you the new marketplace.**
+We gave TrueTandem and 18F a goal of building a “ridiculously easy” user interface and intuitive design. They went to work immediately to harness the strength of agile methodology and user-centric design to meet our requirements. Through [weekly sprints](https://twitter.com/MrFedRAMP/status/745684606624600064) and constant user-testing, we iterated over the course of about 8 weeks to be able to bring you the new marketplace.
 
 And now that it’s up , let’s talk about all of the things you can do on the new FedRAMP marketplace: 
 

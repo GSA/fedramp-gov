@@ -1,56 +1,24 @@
 ---
 title: April 2016 FedRAMP PMO Newsletter
-layout: blog-list
-permalink: /april-2016-fedramp-pmo-newsletter/
+permalink: /annual-assessment-guidance/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_02262018.png
+author: FedRAMP
+layout: blog-page
 ---
 ### Initial Readiness Assessment Report Feedback
 
-On March 28, 2016, the FedRAMP Program Management Office (PMO) posted a draft of the FedRAMP Readiness Assessment Report and FedRAMP Readiness Assessment Guidance for CSPs and 3PAOs for public comment and have heard from many of you. ** ** The goal of the FedRAMP Readiness Assessment Report is to allow vendors to demonstrate their capabilities faster through an assessment by a Third Party Assessment Organization (3PAO) than through documentation reviews by the FedRAMP PMO. This will in turn enable Cloud Service Providers (CSPs) and Agencies to achieve FedRAMP authorizations faster without negatively impacting risk and quality of security packages.
-
-[Read the whole story](https://www.fedramp.gov/?p=47121)
-
-### New Compliant CSPs!
-
-The FedRAMP PMO is excited to announce that GovDelivery has earned a JAB Provisional Authorization and Acquia Inc. is now FedRAMP Compliant with an Agency Authorization !
-
-<table style="height: 350px" width="849">
-  <tr>
-    <td>
-      <img class="alignnone wp-image-26572 size-large" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/govdelivery-logo-fedramp-1024x211.jpg" alt="govdelivery-logo-fedramp" width="1024" height="211" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/govdelivery-logo-fedramp-1024x211.jpg 1024w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/govdelivery-logo-fedramp-300x62.jpg 300w" sizes="(max-width: 1024px) 100vw, 1024px" />
-    </td>
-
-    <td>
-      [GovDelivery](https://www.fedramp.gov/marketplace/compliant-systems/govdelivery-govdelivery-communications-cloud/) was issued a JAB Provisional Authorization on March 4, 2016 for their Communications Cloud.
-
-
-        GovDelivery offers leading solutions for managing government communications, internal and external learning, and open data. The GovDelivery Network offers a unique and impactful way for public sector organizations to work together to cross promote content and increase digital reach. Organizations using GovDelivery see higher utilization of citizen services and greater citizen engagement.</td> </tr>
-
-        <tr>
-          <td>
-            <img class="alignnone wp-image-15842" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/acquia-logo-300x150.png" alt="Acquia logo" width="175" height="88" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/acquia-logo-300x150.png 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/02/acquia-logo.png 400w" sizes="(max-width: 175px) 100vw, 175px" />
-          </td>
-
-          <td>
-          [Acquia](https://www.fedramp.gov/marketplace/compliant-systems/acquia-acquia-cloud/) is now FedRAMP Compliant with an Agency Authorization from the Department of the Treasury.
-
-
-              The ACE platform as a service (PaaS) provides Drupal optimized cloud-based web hosting complemented by a collection of network of tools and services hosted within AWS.  ACE supports sites that need dedicated resources and high levels of customization, and Acquia Cloud Site Factory for organizations with a requirement to deliver many similar Drupal based websites at scale. </td> </tr> </tbody> </table>
-
-
-FedRAMP now has 65 FedRAMP Compliant CSP systems! A complete list can be viewed [here](https://www.fedramp.gov/marketplace/compliant-systems/)
+On March 28, 2016, the FedRAMP Program Management Office (PMO) posted a draft of the FedRAMP Readiness Assessment Report and FedRAMP Readiness Assessment Guidance for CSPs and 3PAOs for public comment and have heard from many of you. The goal of the FedRAMP Readiness Assessment Report is to allow vendors to demonstrate their capabilities faster through an assessment by a Third Party Assessment Organization (3PAO) than through documentation reviews by the FedRAMP PMO. This will in turn enable Cloud Service Providers (CSPs) and Agencies to achieve FedRAMP authorizations faster without negatively impacting risk and quality of security packages.
 
 ### Sunsetting CSP-Supplied with a Revamped FedRAMP Ready
 
 On March 28th, the FedRAMP PMO announced that the CSP-Supplied option will evolve as part of an effort to focus on agency and JAB provisional authorizations. After numerous interviews with CSPs, agencies, and 3PAOs, we concluded that CSP-Supplied had the lowest demand and was too risky, costly, and resource intensive for both industry and the FedRAMP PMO.
 
-[Read the whole story](https://www.fedramp.gov/sunsetting-csp-supplied-with-a-revamped-fedramp-ready/)
-
 ### Reader Submission: 
 
 **Project Hosts: A Small CSP Who Likes FedRAMP**
 
-Project Hosts is a small business cloud service provider (CSP) that submitted its FedRAMP paperwork in** April, 2014 and achieved FedRAMP SaaS compliance in January, 2015.
+Project Hosts is a small business cloud service provider (CSP) that submitted its FedRAMP paperwork in April, 2014 and achieved FedRAMP SaaS compliance in January, 2015.
 
 I like FedRAMP.
 

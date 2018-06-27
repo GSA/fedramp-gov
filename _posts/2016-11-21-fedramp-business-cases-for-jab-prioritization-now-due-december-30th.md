@@ -1,9 +1,11 @@
 ---
-
 title: FedRAMP Business Cases for JAB Prioritization Now Due December 30th
 layout: blog-list
 permalink: /fedramp-business-cases-for-jab-prioritization-now-due-december-30th/
 body-class: page-blog
+image: /assets/img/blog-images/trainingblogimage.png
+author: FedRAMP
+layout: blog-page
 ---
 Over the last week, we have collected excellent feedback relating to the FedRAMP Business Cases for JAB Prioritization from CSPs, 3PAOs and Agencies. THANK YOU!
 

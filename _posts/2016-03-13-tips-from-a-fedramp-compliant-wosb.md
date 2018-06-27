@@ -1,8 +1,10 @@
 ---
 title: 'Reader Submission: Tips from a FedRAMP Compliant WOSB'
-layout: blog-list
 permalink: /tips-from-a-fedramp-compliant-wosb/
 body-class: page-blog
+image: /assets/img/blog-images/blog_placementimg.png
+author: FedRAMP
+layout: blog-page
 ---
 NetComm made it! We officially achieved FedRAMP Compliance in January 2016 for our Beacon SaaS with an Agency Authorization through the National Institutes of Health (NIH). We are especially proud because we are the first Women-Owned Small Business (WOSB) to achieve this distinction. There has been a lot of criticism that FedRAMP can’t happen for small companies , we’re proof it can happen. That doesn’t mean it’s easy , becoming FedRAMP authorized is rigorous but it is intended to be.
 

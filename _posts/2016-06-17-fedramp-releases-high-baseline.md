@@ -1,11 +1,12 @@
 ---
-
-title: High Baseline Release
-layout: blog-list
+title:  High Baseline Release
 permalink: /fedramp-releases-high-baseline/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
+author: FedRAMP
+layout: blog-page
 ---
-The Federal Risk and Authorization Management Program (FedRAMP) is excited to release the [FedRAMP High Baseline Requirements](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/07/FedRAMP-High-HHH-Baseline-Controls-2016-05-18.xlsx)! The High Baseline is available on [www.FedRAMP.gov](https://www.fedramp.gov/resources/documents-2016/). These security requirements will be used to protect some of the government’s most sensitive, unclassified data in cloud computing environments. This release allows agencies to use cloud environments for high-impact data, including data that involves the protection of life and financial ruin.
+The Federal Risk and Authorization Management Program (FedRAMP) is excited to release the [FedRAMP High Baseline Requirements](https://www.fedramp.gov/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx)! The High Baseline is available on [www.FedRAMP.gov](https://www.fedramp.gov/resources/documents-2016/). These security requirements will be used to protect some of the government’s most sensitive, unclassified data in cloud computing environments. This release allows agencies to use cloud environments for high-impact data, including data that involves the protection of life and financial ruin.
 
 Why is this such a big deal? While 80% of Federal information is categorized at low and moderate impact levels, this only represents about 50% of Federal IT spend. Now that FedRAMP has set the requirements for high impact levels, that breaks open the remaining 50% of the $80 billion a year the US Government spends on IT that could potentially move to the cloud securely. That’s huge!
 

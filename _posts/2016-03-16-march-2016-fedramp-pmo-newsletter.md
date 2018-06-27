@@ -1,48 +1,20 @@
 ---
 title: March 2016 FedRAMP PMO Newsletter
-layout: blog-list
 permalink: /march-2016-fedramp-pmo-newsletter/
 body-class: page-blog
+image: /assets/img/blog-images/Blog_02262018.png
+author: FedRAMP
+layout: blog-page
 ---
 ### FedRAMP Accelerated
 
 Please join FedRAMP on March 28th at GSA's Headquarters in downtown Washington DC (1800 F Street NW) for FedRAMP Accelerated. We are excited to have the GSA Administrator, Denise Turner Roth, and representatives from OMB, Microsoft, Unisys, 18F, and ACT-IAC participating in this event.
 
-Please register [here](https://docs.google.com/a/gsa.gov/forms/d/1Xbr6Hb-11uc32j7nVGIHHA3NMoWKjuiongVMpdKcp1o/viewform) to see the full agenda.
-
 We want to take the time to share with all of our stakeholders our redesigned authorization process with the JAB based on your feedback. This accelerated process will take our authorization timeframes that currently range from six to eighteen months down to less than six. After attending you'll understand how we're going to make that happen, how you can partner with us as we finalize and implement the accelerated process, and how the new process will impact you.
-
-[View the event.](https://www.fedramp.gov/event/fedramp-accelerated/)
 
 ### New Compliant CSPs!
 
 The FedRAMP PMO is excited to announce that Project Hosts and Deloitte are now FedRAMP Compliant.
-
-<table>
-  <tr>
-    <td>
-       <img class="alignnone wp-image-17062 size-full" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2015/03/Project_Hosts-logo.jpg" alt="Project Hosts logo" width="229" height="65" />
-    </td>
-
-    <td>
-    [Project Hosts](https://www.fedramp.gov/marketplace/compliant-systems/project-hosts-federal-private-cloud/") is now FedRAMP Compliant with an Agency Authorization from the U.S. Patent and Trade Office (UPTO) within the Department of Commerce (DOC).
-
-
-        Federal Private Cloud for SharePoint / Project Server / CRM (FPC) provides rapid deployment and managed hosting of Microsoft SharePoint, Microsoft Project Server, and Microsoft Dynamics CRM applications, leveraging the Windows Azure public cloud solution.</td> </tr>
-
-        <tr>
-          <td>
-             <img class="alignnone wp-image-44741 size-medium" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/03/deloitte-logo-300x103.jpg" alt="Deloitte logo" width="300" height="103" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/03/deloitte-logo-300x103.jpg 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/03/deloitte-logo-768x263.jpg 768w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/03/deloitte-logo-1024x350.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />
-          </td>
-
-          <td>
-            [Deloitte](https://www.fedramp.gov/marketplace/compliant-systems/deloitte-deloitte-federal-technology-center/) is now FedRAMP Compliant with a CSP-Supplied package for its Deloitte Federal Technology Center.
-
-
-              The Deloitte Federal Technology Center (FTC) provides Software-as-a-Service (SaaS) services utilizing best-of-breed technology software and hardware spread across multiple, geographically dispersed datacenters (Texas, Georgia, and Tennessee) in order to provide a highly available, highly redundant infrastructure capable of withstanding man-made and natural catastrophes</td> </tr> </tbody> </table>
-
-
-                FedRAMP now has 63 FedRAMP Compliant CSP systems! A complete list can be viewed [here](https://www.fedramp.gov/marketplace/compliant-systems/)
 
 ### A Look at the Last Six Months
 
@@ -60,32 +32,15 @@ We’ve been busy over the last six months, here’s an overview:
 
 We’re really proud of all we’ve achieved over the last six months — and we can’t wait to capitalize on this and keep delivering more for all of you.
 
-[See our latest infographics](https://www.fedramp.gov/about-us/fedramp-forward-part-2/)
-
 ### Reader Submission:
 
 _**Tips from a FedRAMP Compliant WOSB**_
 
 NetComm made it! We officially achieved FedRAMP Compliance in January 2016 for our Beacon SaaS with an Agency Authorization through the National Institutes of Health (NIH). We are especially proud because we are the first Women-Owned Small Business (WOSB) to achieve this distinction. There has been a lot of criticism that FedRAMP can’t happen for small companies , we’re proof it can happen. That doesn’t mean it’s easy , becoming FedRAMP authorized is rigorous but it is intended to be. **
 
-[Read the whole story](https://www.fedramp.gov/tips-from-a-fedramp-compliant-wosb/)
-
-### FedRAMP Unveils New Video Training Course
-
-The FedRAMP PMO has added two new [training courses](https://www.fedramp.gov/resources/training/)to our library, including the first video training option.
-
-* **“How to Write a Control” (201B)** is FedRAMP’s first online, on-demand video training course. The PMO has received many questions about how to properly write a control that will satisfy the program’s requirements. This training video is tailored to CSPs that are documenting the security of their Cloud System and will assist with writing compliant System Security Plan (SSP) control implementation descriptions.
-
-* The second course now available is titled **“Continuous Monitoring (ConMon) Overview” (200D)**.
-
-[Read the whole story](https://www.fedramp.gov/fedramp-unveils-new-video-training-course/)
-
-
 ### #WheresAshley
 
 FedRAMP’s Agency Evangelist, Ashley Mahan, has been very busy over the past month speaking to Agencies, CSPs, 3PAOs and the public as part of both the Agency Roadshow and #WheresAshley campaigns. In fact, she’s met with individuals from State, HHS, HUD, DOC, DOJ, NASA, NSF, GSA, Federal Reserve, Treasury, FAA, IRS, FCC, Accenture, Amazon, Avue, BMC, Cisco, Coalfire, Collab9, Companion Data Services, General Dynamics, KnightPoint, Microsoft, NetComm, Skyhigh Networks, and Veris. And that’s just in the last 30 days!
-
-[Read the whole story](https://www.fedramp.gov/wheresashley-update/)
 
 ### FedRAMP in the News:
 
