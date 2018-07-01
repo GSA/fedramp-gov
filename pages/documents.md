@@ -5,15 +5,13 @@ permalink: /documents/
 body-class: page-fed-agencies
 ---
 
-<table>
+<table class="sortable">
   <tr>
-    <th>Document</th>
-    <th>Description</th>
-    <th>Download</th>
-    <th>Last Updated</th>
-  </tr>
-  <tr>
-    <td class="th-2" colspan="4">FedRAMP Program Documents</td>
+    <th onclick="sortTable(0)">Document</th>
+    <th onclick="sortTable(1)">Description</th>
+    <th onclick="sortTable(2)">Download</th>
+    <th onclick="sortTable(3)">Last Updated</th>
+    <th onclick="sortTable(4)">Category</th>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf">Security Assessment Framework</a></td>
@@ -22,6 +20,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Low_Security_Controls.xlsx">FedRAMP Low Security Controls</a></td>
@@ -30,6 +29,7 @@ body-class: page-fed-agencies
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>5/18/2017</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Moderate_Security_Controls.xlsx">FedRAMP Moderate Security Controls</a></td>
@@ -38,6 +38,7 @@ body-class: page-fed-agencies
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>5/18/2017</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx">FedRAMP High Security Controls</a></td>
@@ -46,6 +47,7 @@ body-class: page-fed-agencies
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>5/18/2017</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></td>
@@ -54,6 +56,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/13/2018</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></td>
@@ -62,6 +65,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/29/2018</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></td>
@@ -70,6 +74,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>12/8/2011</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">Joint Authorization Board Charter</a></td>
@@ -78,6 +83,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>1/26/2016</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym & Glossary</a></td>
@@ -86,6 +92,7 @@ body-class: page-fed-agencies
     <p class="icon-text">PDF</p></a>
     </td>
     <td>10/31/2017</td>
+    <td>FedRAMP Program Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></td>
@@ -95,9 +102,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td class="th-2" colspan="4"><strong>Key Cloud Service Provider (CSP) Documents</strong></td>
+    <td>FedRAMP Program Documents</td>
   </tr>
     <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></td>
@@ -106,6 +111,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>4/3/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization - Best Practices for CSPs</a></td>
@@ -114,6 +120,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>10/12/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">CSP JAB P-ATO Roles and Responsibilities</a></td>
@@ -122,6 +129,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>5/18/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></td>
@@ -130,6 +138,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>5/10/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Criteria and Guidance</a></td>
@@ -138,6 +147,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/14/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></td>
@@ -146,6 +156,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>2/21/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
@@ -154,6 +165,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>2/21/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></td>
@@ -162,6 +174,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></td>
@@ -170,6 +183,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></td>
@@ -178,6 +192,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></td>
@@ -186,6 +201,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/20/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></td>
@@ -194,6 +210,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">Plan of Action and Milestones (POA&M) Template Completion Guide</a></td>
@@ -202,6 +219,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>4/3/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></td>
@@ -210,6 +228,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>2/21/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a></td>
@@ -218,6 +237,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
    <p class="icon-text">PDF</p></a>
    </td>
     <td>2/21/2018</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></td>
@@ -226,6 +246,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment Guidance</a></td>
@@ -234,6 +255,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
    <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></td>
@@ -242,9 +264,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>2/23/2018</td>
-  </tr>
-  <tr>
-    <td class="th-2" colspan="4"><strong>Key Agency Documents</strong></td>
+    <td>Key Cloud Service Provider (CSP) Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Package Request Form</a></td>
@@ -253,6 +273,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td> 2/23/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></td>
@@ -261,6 +282,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>11/28/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization: Obtaining In Process Designation</a></td>
@@ -269,6 +291,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>11/20/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</a></td>
@@ -277,6 +300,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>10/12/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf">Agency Authorization - Best Practices for Agencies</a></td>
@@ -285,6 +309,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>10/12/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">FedRAMP Guide for Multi-Agency Continuous Monitoring</a></td>
@@ -293,6 +318,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
@@ -301,6 +327,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Acquisition_FAQs.pdf">Acquisition FAQS</a></td>
@@ -309,6 +336,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>9/26/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a></td>
@@ -317,6 +345,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Cloud_Procurement_Best_Practices.pdf">Cloud Procurement Best Practices</a></td>
@@ -325,9 +354,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td> 2/24/2012</td>
-  </tr>
-  <tr>
-    <td class="th-2" colspan="4"><strong>Key Assessor Documents</strong></td>
+    <td>Key Agency Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></td>
@@ -336,6 +363,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>5/18/2017</td>
+    <td>Key Assessor Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></td>
@@ -344,6 +372,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Assessor Documents</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a></td>
@@ -352,5 +381,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Key Assessor Documents</td>
   </tr>
 </table>

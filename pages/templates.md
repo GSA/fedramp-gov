@@ -5,15 +5,13 @@ permalink: /templates/
 body-class: page-fed-agencies
 ---
 
-<table>
+<table class="sortable">
   <tr>
-    <th>Document</th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Last Updated</th>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-2">Readiness Assessment Phase</td>
+    <th onclick="sortTable(0)">Document</th>
+    <th onclick="sortTable(1)">Description</th>
+    <th onclick="sortTable(2)">Type</th>
+    <th onclick="sortTable(3)">Last Updated</th>
+    <th onclick="sortTable(4)">Category</th>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-High-RAR-Template.docx">FedRAMP High Readiness Assessment Report (RAR) Template</a></td>
@@ -22,6 +20,7 @@ body-class: page-fed-agencies
     <p class="icon-text">WORD</p></a>
     </td>
     <td>6/6/2017</td>
+    <td>Readiness Assessment Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">FedRAMP Moderate Readiness Assessment Report (RAR) Template</a></td>
@@ -30,12 +29,7 @@ body-class: page-fed-agencies
     <p class="icon-text">WORD</p></a>
     </td>
     <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-2">Initial Authorization Phase</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Initial Authorization Package Checklist</td>
+    <td>Readiness Assessment Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a></td>
@@ -44,9 +38,7 @@ body-class: page-fed-agencies
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>3/9/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Document: System Security Plan (SSP)</td>
+    <td>Initial Authorization Phase- Initial Authorization Package Checklist</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx">FedRAMP System Security Plan (SSP) High Baseline Template</a></td>
@@ -55,6 +47,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Moderate Baseline Template</a></td>
@@ -63,6 +56,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Low Baseline Template</a></td>
@@ -71,6 +65,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx">SSP ATTACHMENT 3 - FedRAMP Electronic Authentication (E-Authentication) Plan Template</a></td>
@@ -79,6 +74,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A04-FedRAMP-PIA-Template.docx">SSP ATTACHMENT 4 - FedRAMP Privacy Impact Assessment (PIA) Template</a></td>
@@ -87,6 +83,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A05-FedRAMP-RoB-Template.docx">SSP ATTACHMENT 5 - FedRAMP Rules of Behavior (RoB) Template</a></td>
@@ -95,6 +92,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A06-FedRAMP-ISCP-Template.docx">SSP ATTACHMENT 6 - FedRAMP Information System Contingency Plan (ISCP) Template</a></td>
@@ -103,6 +101,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP High Control Implementation Summary (CIS) Workbook Template</a></td>
@@ -111,6 +110,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP Low or Moderate Control Implementation Summary (CIS) Workbook Template</a></td>
@@ -119,6 +119,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">SSP ATTACHMENT 10 - FedRAMP Federal Information Processing Standard (FIPS) 199 Categorization Template</a></td>
@@ -127,6 +128,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx">SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template</a></td>
@@ -135,6 +137,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx">SSP ATTACHMENT 13 - FedRAMP Integrated Inventory Workbook Template</a></td>
@@ -143,9 +146,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>
     <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Assess: Security Assessment Plan (SAP)</td>
+    <td>Initial Authorization Phase- Document: System Security Plan (SSP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Security Assessment Plan (SAP) Template</a></td>
@@ -154,6 +155,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Initial Authorization Phase- Assess: Security Assessment Plan (SAP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP High Security Test Case Procedures Template</a></td>
@@ -161,6 +163,7 @@ body-class: page-fed-agencies
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>    <td>3/10/2017</td>
+<td>Initial Authorization Phase- Assess: Security Assessment Plan (SAP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Moderate Security Test Case Procedures Template</a></td>
@@ -169,6 +172,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>    
 <td>3/10/2017</td>
+<td>Initial Authorization Phase- Assess: Security Assessment Plan (SAP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-Low-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Low Security Test Case Procedures Template</a></td>
@@ -177,9 +181,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>    
 <td>3/10/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Authorize: Security Assessment Report (SAR)</td>
+<td>Initial Authorization Phase- Assess: Security Assessment Plan (SAP)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx">FedRAMP Security Assessment Report (SAR) Template</a></td>
@@ -188,28 +190,25 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>    
 <td>6/6/2017</td>
+<td>Initial Authorization Phase- Authorize: Security Assessment Report (SAR)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx">SAR APPENDIX A - FedRAMP Risk Exposure Table Template</a></td>
     <td>The FedRAMP Risk Exposure Table Template is designed to capture all security weaknesses and deficiencies identified during security assessment testing.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
-</td> 
+</td>
     <td>3/9/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Authorize: Plan of Action and Milestones (POA&M)</td>
+    <td>Initial Authorization Phase- Authorize: Security Assessment Report (SAR)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">FedRAMP Plan of Action and Milestones (POA&M) Template</a></td>
     <td>The FedRAMP POA&M Template provides a structured framework for aggregating system vulnerabilities and deficiencies through security assessment and continuous monitoring efforts. This template is intended to be used as a tracking tool for risk mitigation in accordance with CSP priorities.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
-</td> 
+</td>
     <td>3/9/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-3">Authorize: Authority to Operate (ATO) Letter</td>
+    <td>Initial Authorization Phase- Authorize: Plan of Action and Milestones (POA&M)</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></td>
@@ -218,6 +217,7 @@ body-class: page-fed-agencies
 <p class="icon-text">PDF</p></a>
 </td>     
 <td>7/17/2017</td>
+<td>Initial Authorization Phase- Authorize: Authority to Operate (ATO) Letter</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></td>
@@ -226,9 +226,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>3/9/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-2">Continuous Monitoring Phase</td>
+    <td>Initial Authorization Phase- Authorize: Authority to Operate (ATO) Letter</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></td>
@@ -237,6 +235,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/6/2017</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></td>
@@ -245,6 +244,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></td>
@@ -253,6 +253,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>6/16/2017</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">FedRAMP Vulnerability Deviation Request Form</a></td>
@@ -261,6 +262,7 @@ body-class: page-fed-agencies
 <p class="icon-text">PDF</p></a>
 </td>
     <td>1/31/2018</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Form Template</a></td>
@@ -269,14 +271,16 @@ body-class: page-fed-agencies
 <p class="icon-text">PDF</p></a>
 </td>
     <td>1/31/2018</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a></td>
     <td>This form provides the JAB reviewers and PMO with an executive summary of the monthly continuous monitoring submission from a CSP. It should detail all files that should be reviewed with that submission. It should be filled out and submitted with every monthly continuous monitoring submission by the CSP or their 3PAO.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
-</td> 
+</td>
   <td>1/31/2018</td>
+  <td>Continuous Monitoring Phase</td>
   </tr>
  <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
@@ -285,9 +289,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>8/16/2017</td>
-  </tr>
-  <tr>
-    <td colspan="4" class="th-2">FedRAMP Tailored</td>
+    <td>Continuous Monitoring Phase</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Tailored-LI-SaaS-Requirements.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
@@ -296,6 +298,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
@@ -304,6 +307,7 @@ body-class: page-fed-agencies
 <p class="icon-text">EXCEL</p></a>
 </td>
     <td>11/14/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx">APPENDIX B - FedRAMP Tailored LI-SaaS Template</a></td>
@@ -312,6 +316,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>11/14/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-C-FedRAMP-Tailored-LI-SaaS-ATO-Letter-Template.docx">APPENDIX C - FedRAMP Tailored LI-SaaS ATO Letter Template</a></td>
@@ -320,6 +325,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-D-FedRAMP-Tailored-LI-SaaS-Continuous-Monitoring-Guide.docx">APPENDIX D - FedRAMP Tailored LI - SaaS Continuous Monitoring Guide</a></td>
@@ -328,6 +334,7 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
   <tr>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-E-FedRAMP-Tailored-LI-SaaS-Self-Attestation-Requirements.docx">APPENDIX E - FedRAMP Tailored LI - SaaS Self-Attestation Requirements</a></td>
@@ -336,7 +343,6 @@ body-class: page-fed-agencies
 <p class="icon-text">WORD</p></a>
 </td>
     <td>9/28/2017</td>
+    <td>FedRAMP Tailored</td>
   </tr>
 </table>
-
-
