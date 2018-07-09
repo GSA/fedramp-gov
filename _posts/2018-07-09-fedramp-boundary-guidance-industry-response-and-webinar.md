@@ -8,9 +8,8 @@ layout: blog-page
 ---
 In May 2018, the FedRAMP PMO released <a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">guidance</a> describing the “rules of thumb” Cloud Service Providers (CSPs) should consider when developing the FedRAMP authorization boundary for their cloud service offering(s). Following its release, the PMO received comments from industry partners requesting greater clarity on the purpose and drivers for the PMO’s release of guidance. We are providing that clarity below, and will be hosting two webinars where we provide in-depth information about what we heard from industry’s comments. 
 
-**Why FedRAMP Released Authorization Boundary Guidance - What We Saw**<p>
+**Why FedRAMP Released Authorization Boundary Guidance - What We Saw**
 As cloud services have evolved, so has FedRAMP’s understanding of the uniqueness cloud presents to the government’s security authorization processes. As services seeking FedRAMP authorization continue shifting from IaaS/PaaS to predominately SaaS services, the PMO has seen an increase in the use of third-party external services. This shift can lead to issues with CSPs defining their authorization boundaries, obscuring the flow of federal data among a cloud offering’s system, components, and services, and potentially calling the security of the third-party services into question. 
-  </p>
 
 An increase in complex cloud environments led to the following issues with authorization boundaries: 
 
