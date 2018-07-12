@@ -17,7 +17,7 @@ body-class: about-us
 </section>
 <section id="fedramp-mission">
 <div class="inner">
-<h2>FedRAMP’s Mission </h2>
+<h2>FedRAMP’s Goals </h2>
 <ul> 
 <li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
 <li>Improve confidence in the security of cloud solutions and security assessments</li>
