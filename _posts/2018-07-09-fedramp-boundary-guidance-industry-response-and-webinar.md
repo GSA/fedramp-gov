@@ -63,8 +63,3 @@ We’re hosting two webinars to further discuss the authorization boundary guida
 * <a href="https://www.eventbrite.com/e/fedramp-boundary-guidance-response-to-industry-comment-ii-registration-47681909876">July 25th Webinar Registration</a> (3:00pm - 3:45pm EDT)
 
 If you have any questions or feedback, please reach out to info@fedramp.gov.
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 492dc2b374885577a96fe447c83f83fdcc40bbf4
