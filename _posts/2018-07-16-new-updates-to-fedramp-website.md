@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_07122018.png
 author: FedRAMP
 layout: blog-page
 ---
-We’re excited to announce that we’ve made some upgrades to our FedRAMP website! We know that FedRAMP.gov has a lot of information and we want you to be able to find what you need as quickly as possible. In response to feedback from our stakeholders, we’ve added two new features to our website that should help you find the resources of information you’re looking for faster.   
+We’re excited to announce that we’ve made some upgrades to our FedRAMP website! We know that FedRAMP.gov has a lot of information and we want you to be able to find what you need as quickly as possible. In response to feedback from our stakeholders, we’ve added two new features to our website that should help you find the resources and information you’re looking for faster.   
 
 **Table Sort Feature:** We’ve added a sort feature to the tables on our <a href="https://www.fedramp.gov/documents/">Documents</a> and <a href="https://www.fedramp.gov/templates/">Templates</a> pages. This means that you can sort these resource tables by alphabetical order for Document/Template Category, Title, Description, and Type. You can also sort them by date in the Last Updated column. We added this feature in response to feedback from our stakeholders about wanting to see which documents or templates have been updated most recently. To meet this need, we will also continue to publish blogs and send notifications to our listserv every time new resources are released or existing documents/templates are updated. 
 
