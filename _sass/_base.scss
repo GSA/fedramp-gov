@@ -199,8 +199,18 @@ section#fedramp-mission {
 	max-width: 1200px;
 	width: 100%;
 	float: none;
+	margin: 0 auto;
 	text-align: left;
-	padding: 40px 0 40px 0;
+	padding: 0 0 40px 0;
+	h2:first-child {
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 980px) {
+.cloud .text-container {
+	padding: 0 5% 40px 5%;
+}
 }
 
 .about-us section.about-auth {
