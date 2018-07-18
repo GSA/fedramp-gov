@@ -242,8 +242,105 @@ section#do-once {
 }
 
 .cloud .cloud-wrapper {
-	max-width: 1200px;
+	max-width: 1000px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 100px auto 40px auto;
 	text-align: center;
+	ul.columns {
+		background: url('../../assets/img/page-images/cloud-bkgrnd.png')no-repeat bottom;
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row wrap;
+		padding: 0 3% 40px 3%;
+//    	border-radius: 20px;
+		li.column {
+			width: 220px;
+			list-style: none;
+			margin: -30px auto auto auto;
+			background: #fff;
+			border: 2px solid;
+			padding: 15px;
+			box-sizing: border-box;
+			min-height: 250px;
+			img {
+				margin-top: -50px;
+			}
+		}
+		#cloud-service {
+			border-color: #9ddaf3;
+		}
+		#value-add {
+			border-color: #4dc4e0;
+		}
+		#managed-service {
+			border-color: #4dc4e0;
+		}
+		#integrator {
+			border-color: #1eadd7;
+		}
+	}
+	span.owned {
+		font-weight: bold;
+			float: left;
+			position: relative;
+			top: 150px;
+			left: -50px;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+		}
+		span.operated {
+		font-weight: bold;
+		float: right;
+		position: relative;
+		top: -150px;
+		right: -50px;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			
+		}
+}
+
+
+@media (min-width: 0) and (max-width: 980px) {
+.cloud {
+.cloud-wrapper {
+	margin: 100px auto 40px auto;
+	width: 80%;
+ul.columns {
+		background: url('../../assets/img/page-images/cloud-bkgrnd.png')no-repeat bottom;
+		background-size: cover;
+		width: 100%;
+		margin: 0;
+		float: none;
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row wrap;
+		padding: 0 3% 40px 3%;
+		box-sizing: border-box;
+    	border-radius: 20px;
+		li.column {
+			width: 200px;
+			list-style: none;
+			margin: 30px auto;
+			background: #fff;
+			border: 2px solid;
+			padding: 15px;
+			box-sizing: border-box;
+			min-height: 300px;
+			img {
+				margin-top: 0px;
+			}
+		}
+		}
+		}
+}
 }
