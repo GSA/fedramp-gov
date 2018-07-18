@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Cloud
+title: Evaluating Cloud
 permalink: /cloud/
 body-class: cloud
 
