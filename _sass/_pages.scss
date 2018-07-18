@@ -312,18 +312,20 @@ section#do-once {
 
 @media (min-width: 0) and (max-width: 980px) {
 .cloud {
-	margin: 0 10%;
 .cloud-wrapper {
+	margin: 100px auto 40px auto;
+	width: 80%;
 ul.columns {
 		background: url('../../assets/img/page-images/cloud-bkgrnd.png')no-repeat bottom;
 		background-size: cover;
 		width: 100%;
-		margin: 0 auto;
+		margin: 0;
 		float: none;
 		display: flex;
 		justify-content: space-around;
 		flex-flow: row wrap;
 		padding: 0 3% 40px 3%;
+		box-sizing: border-box;
     	border-radius: 20px;
 		li.column {
 			width: 200px;
