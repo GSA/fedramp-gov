@@ -1,38 +1,10 @@
 ---
-layout: full-width
+layout: cloud-page
 title: Evaluating Cloud
 permalink: /cloud/
 body-class: cloud
 
 ---
-<div id="cloud-section">
-<div class="cloud-wrapper">
-<span class="owned">Owned</span>
-<ul class="columns">
-<li class="column" id="cloud-service">
-<img alt="Cloud Service Provider" src="{{site.baseurl}}/assets/img/page-images/cloud-service-icon.png">
-<h5>Cloud Service Provider</h5>
-<p>The provider of a cloud service offering</p>
-</li>
-<li class="column" id="value-add">
-<img alt="Value-Added Reseller (VAR)" src="{{site.baseurl}}/assets/img/page-images/value-add-icon.png">
-<h5>Value-Added Reseller (VAR)</h5>
-<p>Serves as a conduit to the government for CSPs that do not have existing contract vehicles with the government</p>
-</li>
-<li class="column" id="managed-service">
-<img alt="Managed Service Provider" src="{{site.baseurl}}/assets/img/page-images/managed-service-icon.png">
-<h5>Managed Service Provider</h5>
-<p>Provides access to a service and is also responsible for managing that service's operations</p>
-</li>
-<li class="column" id="integrator">
-<img alt="Integrator" src="{{site.baseurl}}/assets/img/page-images/integrator-icon.png">
-<h5>Integrator</h5>
-<p>Provides a cloud service and also professional services for incorporating the solution into an existing technology environment</p>
-</li>
-</ul>
-<span class="operated">Operated</span>
-</div>
-</div>
 <div class="text-container">
 <h2>Provider Types</h2>
 <p>Cloud adoption has consistently been identified as one of the top challenges for government. In our conversations, we’ve found this is often because the term has come to imply a number of distinct uses. This is in part because of the evolving nature of the technology, as well as the evolving nature of government needs, and trust, in cloud computing environments.</p>
