@@ -49,6 +49,9 @@ nav.usa-nav {
 ul {
 li {
 	text-transform: uppercase;
+	&:focus {
+		outline: none;
+	}
 }
 }
 }
@@ -195,7 +198,7 @@ nav.usa-nav {
 }
 
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
-	border-bottom: 10px solid $light-blue;
+	border-bottom: 5px solid $light-blue;
 }
 
 .usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
