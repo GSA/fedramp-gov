@@ -15,7 +15,7 @@ body-class: cloud
 <ul>
 <li><strong>Cloud Service Provider (CSP):</strong> The provider of a Cloud Service Offering</li>
 <li><strong>Value-Added Reseller (VAR):</strong> Serves as a conduit to the government for CSPs that do not have existing contract vehicles with the government</li>
-<li><strong>Managed Service Provider (MSP):</strong> Provides access to a service and is also responsible for managing that service’s operations.</li>
+<li><strong>Managed Service Provider (MSP):</strong> Provides access to a service and is also responsible for managing that service’s operations</li>
 <li><strong>Integrator:</strong> Provides a cloud service and also professional services for incorporating the solution into an existing technology environment</li>
 </ul>
 <h2>Key Considerations</h2>
