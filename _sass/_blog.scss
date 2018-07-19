@@ -239,6 +239,9 @@ a.blog-read {
 	font-size: 1.4875rem;
 	font-weight: bold;
 	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .pagination ul li {
@@ -258,7 +261,7 @@ a.blog-read {
 .pagination a {    
     &:hover {
 //        background-color: #f1f1f1;
-        color: #333;
+//        color: #333;
     }
  }
 
