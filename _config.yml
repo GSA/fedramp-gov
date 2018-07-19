@@ -2,13 +2,15 @@
 title: FedRAMP.gov
 description: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
 # the subpath of your site, e.g. /blog/
-baseurl: /fedramp-gov
+baseurl: "" # the subpath of your site, e.g. /blog/
 # the base hostname & protocol for your site
-url: "https://fedramp.gov"
+url: "https://fedramp.gov" # the base hostname & protocol for your site
+logo: /assets/img/logo-main-fedramp.png
+feature_image: /assets/img/feature-background.jpg
 
 # the GitHub name-with-owner, needed for the github-metadata plugin
 # ref: https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
-repository: gsa/fedramp-gov
+#repository: gsa/fedramp-gov
 
 logo: /assets/img/logo-main-fedramp.png
 feature_image: /assets/img/feature-background.jpg
@@ -18,11 +20,11 @@ colors:
   link:
     color: '#0071bc'
     active: '#0071bc'
-    hover: '#205493'
+    hover: '#0A9DFF'
     visited: '#0071bc'
   button:
     background: '#112e51'
-    hover: '#205493'
+    hover: '#002E4D'
     text: '#fff'
   headers: '#205493'
   text: '#212121'
