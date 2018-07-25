@@ -13,9 +13,9 @@ body-class: cloud
 
 <p>Generally, cloud offerors can be categorized into the following types:</p>
 <ul>
-<li><strong>Cloud Service Provider (CSP):</strong> The provider of a Cloud Service Offering
-Value-Added Reseller (VAR): Serves as a conduit to the government for CSPs that do not have existing contract vehicles with the government</li>
-<li><strong>Managed Service Provider (MSP):</strong> Provides access to a service and is also responsible for managing that service’s operations.</li>
+<li><strong>Cloud Service Provider (CSP):</strong> The provider of a Cloud Service Offering</li>
+<li><strong>Value-Added Reseller (VAR):</strong> Serves as a conduit to the government for CSPs that do not have existing contract vehicles with the government</li>
+<li><strong>Managed Service Provider (MSP):</strong> Provides access to a service and is also responsible for managing that service’s operations</li>
 <li><strong>Integrator:</strong> Provides a cloud service and also professional services for incorporating the solution into an existing technology environment</li>
 </ul>
 <h2>Key Considerations</h2>
@@ -30,13 +30,13 @@ Value-Added Reseller (VAR): Serves as a conduit to the government for CSPs that 
 </ul>
 <h3>VAR</h3>
 <ul>
-<li>VARs are not subject to FedRAMP requirements. However, VARs can often provide a point of contact at a CSP to answer cloud questions.</li>
-<li>VARs typically do not provide any professional services for integration and are therefore not classified as a government contractor for the purposes of HSPD-12.</li>
-<li>Agencies working with VARs should be sure to maintain “ownership” of accounts (e.g. root credentials) when the contract is over.</li>
+<li>VARs are not subject to FedRAMP requirements. However, VARs can often provide a point of contact at a CSP to answer cloud questions</li>
+<li>VARs typically do not provide any professional services for integration and are therefore not classified as a government contractor for the purposes of HSPD-12</li>
+<li>Agencies working with VARs should be sure to maintain “ownership” of accounts (e.g. root credentials) when the contract is over</li>
 </ul>
 <h3>MSP</h3>
 <ul>
-<li>Depending on the cloud service, an MSP may be subject to FedRAMP requirements. For example, if the MSP develops their own custom cloud, that cloud service would be subject to FedRAMP requirements.</li>
+<li>Depending on the cloud service, an MSP may be subject to FedRAMP requirements. For example, if the MSP develops their own custom cloud, that cloud service would be subject to FedRAMP requirements</li>
 <li>MSPs are typically classified as a government contractor, and staff are required to follow requirements that pertain to government contractors (such as HSPD-12)</li>
 </ul>
 <h3>Integrator</h3>
