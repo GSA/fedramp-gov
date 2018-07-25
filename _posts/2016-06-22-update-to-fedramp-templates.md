@@ -1,5 +1,4 @@
 ---
-
 title: Update to FedRAMP Templates
 layout: blog-list
 permalink: /update-to-fedramp-templates/

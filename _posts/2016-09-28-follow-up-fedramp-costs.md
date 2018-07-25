@@ -1,5 +1,4 @@
 ---
-
 title: 'Follow Up: FedRAMP Costs'
 layout: blog-list
 permalink: /follow-up-fedramp-costs/

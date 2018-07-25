@@ -383,3 +383,17 @@ a.link-arrow-left {
    	margin: auto;
    }
  }
+
+span.tag {
+a {
+	background: $light-blue;
+	color: #fff;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	nobr {
+	font-family: $sans-font;
+	}
+}
+}

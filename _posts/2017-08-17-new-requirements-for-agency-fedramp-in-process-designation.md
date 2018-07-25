@@ -1,12 +1,10 @@
 ---
-
 title: 'New Requirements for Agency FedRAMP In Process Designation'
 layout: blog-page
 permalink: /new-requirements-for-agency-fedramp-in-process-designation/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
 author: FedRAMP
-
 ---
 We recently released updated guidance for Cloud Service Providers (CSPs) on how to obtain the [“FedRAMP In Process”](https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf) designation, specific to FedRAMP Agency Authorizations. Once a CSP is deemed as “FedRAMP In Process,” they are placed on [the FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products), which highlights Cloud Service Offerings (CSOs) with FedRAMP designations (e.g. FedRAMP Ready, FedRAMP In Process and FedRAMP Authorized). The new In Process criteria ensures the information on the FedRAMP Marketplace is as accurate and up-to-date as possible. 
 

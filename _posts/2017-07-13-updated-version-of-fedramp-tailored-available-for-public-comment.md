@@ -1,5 +1,4 @@
 ---
-
 title: Updated Version of FedRAMP Tailored Available for Public Comment
 layout: blog-list
 permalink: /updated-version-of-fedramp-tailored-available-for-public-comment/

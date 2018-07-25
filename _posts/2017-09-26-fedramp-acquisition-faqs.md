@@ -1,5 +1,4 @@
 ---
-
 title: FedRAMP Acquisition FAQs
 layout: blog-page
 permalink: /fedramp-acquisition-faqs/

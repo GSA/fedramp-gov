@@ -15,6 +15,12 @@
             <a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B %-d, %Y"}}</a>
 			</li>
 		</ul>
+		<span class="tag">
+		  {% for tag in post.tags %}
+		    {% capture tag_name %}{{ tag }}{% endcapture %}
+		    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+		  {% endfor %}
+		</span>
     </div>
 
     <p>{{ post.content | strip_html | truncatewords: 60 }}</p>

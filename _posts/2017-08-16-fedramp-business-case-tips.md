@@ -1,12 +1,10 @@
 ---
-
 title: FedRAMP Business Case Tips!
 layout: blog-page
 permalink: /fedramp-business-case-tips/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
 author: FedRAMP
-
 ---
 As the August 25th due date for the FedRAMP Business Case approaches, we have been receiving some questions from Cloud Service Providers (CSPs) about how to best prove their demand , which is the most heavily weighted [criteria](https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria.pdf) for prioritization. There are several ways to prove demand for your Cloud Service Offering (CSO) when completing your FedRAMP Business Case:
 

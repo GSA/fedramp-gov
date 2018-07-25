@@ -5,7 +5,7 @@ permalink: /introducing-the-new-agency-authorization-playbook/
 body-class: page-blog
 author: FedRAMP
 image: /assets/img/blog-images/Blog_11212017.png
-
+tags: stuff
 ---
 The FedRAMP PMO is proud to release the [Agency Authorization Playbook](https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf)!
 

@@ -150,15 +150,17 @@ section#do-once {
 }
 
 .accordion {
-    cursor: pointer;
-    width: 100%;
+    ursor: pointer;
+    width: 90%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
-    background: none;
     text-transform: none;
-    margin: 10px 0 10px 35px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-left: 3px solid #fff;
+    margin: 0px 0 0px 35px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -171,11 +173,13 @@ section#do-once {
 }
 
 .accordion:before {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #fff;
     float: left;
-    margin-left: -30px;
+    padding-right: 5px;
+    margin-left: -40px;
 }
 
 .active:before {
@@ -218,8 +222,13 @@ section#do-once {
 }
 
 .page-faqs .question {
-	padding: 15px 0;
-	border-bottom: 1px solid #cdcdcd;
+	/*  padding: 15px 0;*/
+	  margin: 0 0 20px 0;
+	  border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  background: #e0e0e0;
+	  /*border-bottom: 1px solid #cdcdcd;*/
 	p {
 		padding: 0 0 0 40px;
 	}

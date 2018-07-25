@@ -16,6 +16,12 @@ layout: base
   <div class="author-date">
   <p class="by">By {{ page.author }}</p>
   <p class="date">{{ page.date | date: "%B %-d, %Y"}}</p>
+  <span class="tag">
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="../{{ tag_name | slugify }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
+  </span>
   </div>
   {{ content }}
   </div>
