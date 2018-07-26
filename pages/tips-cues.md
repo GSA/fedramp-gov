@@ -84,7 +84,7 @@ Control documentation should contain sufficient detail to describe TLS implement
 </div>
 
 <div class="q3">
-<h3>TIP: TIP: If an incident requires notification to US-CERT, it almost always requires notification to Federal customers whose data could have been impacted or exposed.</a> 
+<h3>TIP: If an incident requires notification to US-CERT, it almost always requires notification to Federal customers whose data could have been impacted or exposed.</a> 
 </h3>
 <p>
 Regardless of whether or not it is fully required, it is a best practice for customer relationship management. Inspector General’s (IG) for all agencies have access to all US-CERT incidents as they use this for their annual audits of agency incidents. Therefore, if an IG has access to an incident notification of a system an agency uses, the agency customer should be informed as well.
