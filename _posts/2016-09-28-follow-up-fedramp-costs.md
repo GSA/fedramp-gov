@@ -1,5 +1,5 @@
 ---
-title: Follow Up: FedRAMP Costs 
+title: Follow Up on FedRAMP Costs 
 permalink: /follow-up-fedramp-costs/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
