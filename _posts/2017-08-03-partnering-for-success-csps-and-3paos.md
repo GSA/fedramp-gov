@@ -5,6 +5,7 @@ permalink: /partnering-for-success-csps-and-3paos/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
 author: FedRAMP
+tags: pursuing-a-jab-authorization
 ---
 Third Party Assessment Organizations (3PAOs) are hired by Cloud Service Providers (CSPs) to either consult or provide independent security testing on a given cloud system.  
 

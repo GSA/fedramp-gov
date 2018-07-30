@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: starting-security-package-development completing-an-annual-assessment
 ---
 
 Penetration testing is a well-recognized way to explore IT system weaknesses. FedRAMP requires penetration testing as part of the initial authorization assessment for all systems pursuing a Moderate or High FedRAMP authorization, as well as for every annual assessment. Vulnerability scanning alone is not sufficient for determining the degree to which a system is susceptible to cyber attack. Penetration testing takes on the perspective of a malicious actor, who is skilled at turning small security flaws into larger opportunities for attack.

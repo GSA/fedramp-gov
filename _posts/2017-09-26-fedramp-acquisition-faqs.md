@@ -5,6 +5,7 @@ permalink: /fedramp-acquisition-faqs/
 body-class: page-blog
 image: /assets/img/acquisition-faqs.png
 author: FedRAMP
+tags: acquiring-a-cloud-service
 ---
 In an effort to help agencies continue to adopt secure cloud technologies, FedRAMP has been identifying ways to ensure that agencies appropriately require FedRAMP in their acquisition process as they procure cloud-based products. In support of this effort, the FedRAMP PMO worked with the Office of Management and Budget (OMB) and the Office of Federal Procurement Policy (OFPP) to develop the [**_Acquisition FAQs_** guidance document](https://www.fedramp.gov/assets/resources/documents/Agency_Acquisition_FAQs.pdf) that agencies can reference when developing their solicitations. These FAQs are based on questions FedRAMP regularly receives from both vendors and agencies about how FedRAMP language can best be incorporated into Request for Informations (RFIs), Request for Quotation (RFQs), and Request for Proposals (RFPs).
 

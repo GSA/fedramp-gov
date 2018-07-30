@@ -3,6 +3,7 @@ title: FedRAMP Tailored Comment-a-thon April 18!
 layout: blog-list
 permalink: /fedramp-tailored-comment-a-thon-april-18/
 body-class: page-blog
+tags: pursuing-a-fedramp-tailored-authorization
 ---
 While we are in the final days of receiving comments on our new Low Impact SaaS (LISaaS) baseline, **FedRAMP** **_Tailored_**, which was developed to support industry solutions that are low risk, and many times, low cost for agencies to deploy and use.
 

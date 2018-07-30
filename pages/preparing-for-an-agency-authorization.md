@@ -1,0 +1,37 @@
+---
+layout: page
+title: Preparing for an Agency Authorization
+permalink: /preparing-for-an-agency-authorization/
+tag: preparing-for-an-agency-authorization
+---
+<p>CSPs that make a business decision to work directly with an Agency to pursue an Authority to Operate (ATO) will partner with the Agency throughout the acquisition and FedRAMP authorization process. Within the authorization process, Agencies define their specific policies and procedures, in addition to FedRAMP requirements, and are responsible for reviewing CSP-developed security packages. Ultimately, an Agency’s Authorizing Official (AO) must accept the risk associated with the use of a cloud system through the issuance of an ATO for their Agency. Agencies must also conduct continuous monitoring of each authorized system, reviewing monthly and annual deliverables provided by CSPs. More information on  the Agency Authorization Process can be found on our <a href="agency-authorization">Agency Authorization</a> webpage.</p>
+
+<table>
+<tr>
+<th>Documents</th>
+<th>Templates</th>
+<th>Blogs</th>
+</tr>
+<td>
+<ul>
+<li><a href="/assets/resources/documents/Agency_Package_Request_Form.pdf">Package Request Form</a></li>
+<li><a href="/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization: Obtaining In Process Designation</a></li>
+<li><a href="/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
+<li><a href="/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
+<li><a href="/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization Roles and Best Practices</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href=" ">FedR</a></li>
+</ul>
+</td>
+<td>
+<ul>
+{% for post in site.tags[page.tag] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+  </li>
+{% endfor %}
+</ul>
+</td>

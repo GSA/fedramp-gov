@@ -1,15 +1,12 @@
 ---
-<<<<<<< HEAD
 title: 'Follow Up: FedRAMP Costs'
 layout: blog-list
-=======
-title: Follow Up: FedRAMP Costs 
->>>>>>> ddb2155990c728acaa2bb1c573310e6b0fcb0d9f
 permalink: /follow-up-fedramp-costs/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 
 I wanted to take some time to respond to some of those questions and concerns that I received via Twitter, in person at some events last week, as well as email and phone calls. It’s important for us to tell our story, but also to listen to what all of you are saying and let you know we’re acting.

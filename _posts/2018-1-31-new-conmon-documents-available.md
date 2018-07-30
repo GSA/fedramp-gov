@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_01252018_v2.png
 author: FedRAMP
 layout: blog-page
+tags: conducting-continuous-monitoring
 ---
 As FedRAMP continues to enhance its continuous monitoring (ConMon) processes, we solicited feedback on how we could improve the overall processes. Over the past few months, we gathered input from stakeholders - including Cloud Service Providers (CSPs) and the Joint Authorization Board (JAB) Review Teams - and we identified several areas to streamline, clarify, and improve. As a result, we’ve made updates to existing documents and created new documents to:
 

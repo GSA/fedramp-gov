@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
+tags: conducting-continuous-monitoring
 ---
 Earlier this year, we released the updated continuous monitoring (ConMon) documents with the goal of: 
 

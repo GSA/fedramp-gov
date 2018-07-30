@@ -9,6 +9,10 @@ th {
 }
 td {
 	border: 1px solid #cdcdcd;
+	vertical-align: top;
+	ul {
+		margin-top: 0px;
+	}
 }
 .th-2 {
 	background: #dadada;

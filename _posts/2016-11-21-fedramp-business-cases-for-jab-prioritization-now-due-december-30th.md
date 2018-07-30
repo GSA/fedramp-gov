@@ -6,6 +6,7 @@ body-class: page-blog
 image: /assets/img/blog-images/trainingblogimage.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization
 ---
 Over the last week, we have collected excellent feedback relating to the FedRAMP Business Cases for JAB Prioritization from CSPs, 3PAOs and Agencies. THANK YOU!
 

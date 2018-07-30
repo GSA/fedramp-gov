@@ -5,6 +5,7 @@ permalink: /national-science-foundation-nsf-case-study/
 body-class: page-blog
 image: /assets/img/nsf-case-study.png
 author: FedRAMP
+tags: preparing-for-an-agency-authorization
 ---
 Over the last two years, we have evolved the way we engage with the FedRAMP community. Throughout this transformation we have kept three goals in mind: reduce the authorization timeline without compromising security rigor, increase transparency, and strengthen the FedRAMP community/marketplace. One of the FedRAMP PMO’s critical work streams in meeting these goals is rooted in the FedRAMP agency authorization process. **
 

@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03292018_WhitePaper.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization
 ---
 We’re excited to announce the release of our <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">whitepaper</a> on our initiative: FedRAMP Accelerated! As you probably know, last year we worked with the Joint Authorization Board (JAB) to revamp the provisional authorization process. We’d been hearing from Cloud Service Providers (CSPs), Agencies, and Third Party Assessment Organizations (3PAOs) that the process took too long and the expectations were unclear. So we launched an initiative, FedRAMP Accelerated, to design and pilot a transformed JAB process, with input and support from all program stakeholders. 
 
