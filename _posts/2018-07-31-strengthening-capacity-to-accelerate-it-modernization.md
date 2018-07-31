@@ -2,10 +2,12 @@
 title: Strengthening Capacity to Accelerate IT Modernization
 permalink: /strengthening-capacity-to-accelerate-it-modernization/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
-author: FedRAMP
+image: /assets/img/blog-images/Blog_03202018_Computer.png
+author: Joanne Collins Smee, FAS Deputy Commissioner and TTS Director
 layout: blog-page
 ---
+**FedRAMP is excited to share GSA's blog on <a href="https://www.gsa.gov/blog/2018/07/31/Strengthening-Capacity-to-Accelerate-IT-Modernization">Strengthening Capacity to Accelerate IT Modernization</a> by FAS Deputy Commissioner and TTS Director, Joanne Collins Smee.** 
+
 On June 28, I was honored to kick off the first-ever governmentwide <a href="https://www.youtube.com/watch?v=1n7MU_XoWHE">Cloud Reverse Industry Training (RIT)</a>. RITs help the federal acquisition community learn about the challenges that industry faces through their work with government. Led by the Office of the Procurement Ombudsman, GSA’s Technology Transformation Services’ Secure Cloud Portfolio and the FedRAMP Team partnered with our Office of Government-wide Policy’s Data Center Optimization Team, and the Federal Acquisition Service’s IT Category Management group to bring an integrated, cross-functional perspective to identifying and overcoming barriers for cloud adoption. This most recent RIT was unique in two ways: it was the first GSA RIT that was open to participants from across the entire government, and the first that focused solely on cloud. 
 
 Cloud technology is a critical piece in resolving the complex puzzle of federal government IT modernization. By using cloud capabilities government agencies can transform the way they achieve their missions. This is acknowledged in the <a href="https://www.whitehouse.gov/wp-content/uploads/2018/04/ThePresidentsManagementAgenda.pdf">President’s 2018 Management Agenda</a>  as one of three priorities guiding the administration’s efforts to modernize federal IT: 
