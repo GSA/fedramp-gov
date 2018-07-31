@@ -41,7 +41,7 @@ tag: developing-a-security-assessment-plan
 <td>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %-d %Y" }})<br>
     {{ post.description }}
   </li>
 {% endfor %}

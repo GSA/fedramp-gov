@@ -154,6 +154,7 @@ a.blog-read {
 
 .author-date {
 	margin: 20px 0 20px 0;
+	padding: 0 0 10px 0;
 	border-bottom: 1px solid #cdcdcd;
 	p.by {
 		margin-bottom: 5px;
@@ -161,6 +162,7 @@ a.blog-read {
 	}
 	p.date {
 		margin-top: 0;
+		margin-bottom: 0px;
 	}
 }
 
@@ -385,6 +387,8 @@ a.link-arrow-left {
  }
 
 span.tag {
+margin: 10px 0;
+display: inline-block;
 a {
 	background: $light-blue;
 	color: #fff;
@@ -392,6 +396,7 @@ a {
 	margin-right: 5px;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
+	margin: 3px 0;
 	nobr {
 	font-family: $sans-font;
 	}
