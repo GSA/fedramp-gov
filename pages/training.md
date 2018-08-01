@@ -79,7 +79,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 </div>
 <div id="path-three">
-<h2>Path 3: Designed for 3PAOs</h2>
+<h2>Path 3: Required for 3PAOs</h2>
 
 <h3 class="accordion">300-A: 3PAO FedRAMP 17020 Requirements: Understanding and Bridging the Gap</h3>
 <div class="panel">
