@@ -15,18 +15,24 @@ Once a FedRAMP authorization has been granted, the security posture of a CSO is 
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Guide</a></li>
-<li><a href="/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></li>
-<li><a href="/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">FedRAMP Guide for Multi-Agency Continuous Monitoring</a></li>
-<li><a href="/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></li>
-<li><a href="/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></li>
-<li><a href="/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></li>
-
+<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">FedRAMP Guide for Multi-Agency Continuous Monitoring</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Automated_Vulnerability_Risk_Adjustment_Framework.pdf">Automated Vulnerability Risk Adjustment Framework Guidance</a></li>  
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a></li> 
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf">JAB P-ATO Vulnerability Scanning Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href=" ">Fed</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Template.xlsx">Continuous Monitoring Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx">FedRAMP New Cloud Service Offering (CSO) or Feature Onboarding Request Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Form Template</a></li>  
 </ul>
 </td>
 <td>
