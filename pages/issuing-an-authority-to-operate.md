@@ -21,13 +21,13 @@ tag: issuing-an-authority-to-operate
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></li>	
-<li><a href="/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Temp</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></li>	
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Temp</a></li>
 </ul>
 </td>
 <td>
