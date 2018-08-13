@@ -29,26 +29,26 @@ tag: developing-a-system-security-plan
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
-<li><a href="/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></li>
-<li><a href="/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
 </ul>
 </td>
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx">FedRAMP System Security Plan (SSP) High Baseline Template</a></li>
-<li><a href="/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Moderate Baseline Template</a></li>
-<li><a href="/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Low Baseline Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx">SSP ATTACHMENT 3 - FedRAMP Electronic Authentication (E-Authentication) Plan Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A04-FedRAMP-PIA-Template.docx">SSP ATTACHMENT 4 - FedRAMP Privacy Impact Assessment (PIA) Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A05-FedRAMP-RoB-Template.docx">SSP ATTACHMENT 5 - FedRAMP Rules of Behavior (RoB) Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A06-FedRAMP-ISCP-Template.docx">SSP ATTACHMENT 6 - FedRAMP Information System Contingency Plan (ISCP) Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP High Control Implementation Summary (CIS) Workbook Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP Low or Moderate Control Implementation Summary (CIS) Workbook Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">SSP ATTACHMENT 10 - FedRAMP Federal Information Processing Standard (FIPS) 199 Categorization Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx">SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template</a></li>
-<li><a href="/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx">SSP ATTACHMENT 13 - FedRAMP Integrated Inventory Workbook Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Moderate Baseline Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Low Baseline Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx">SSP ATTACHMENT 3 - FedRAMP Electronic Authentication (E-Authentication) Plan Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A04-FedRAMP-PIA-Template.docx">SSP ATTACHMENT 4 - FedRAMP Privacy Impact Assessment (PIA) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A05-FedRAMP-RoB-Template.docx">SSP ATTACHMENT 5 - FedRAMP Rules of Behavior (RoB) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A06-FedRAMP-ISCP-Template.docx">SSP ATTACHMENT 6 - FedRAMP Information System Contingency Plan (ISCP) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP High Control Implementation Summary (CIS) Workbook Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx">SSP ATTACHMENT 9 - FedRAMP Low or Moderate Control Implementation Summary (CIS) Workbook Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">SSP ATTACHMENT 10 - FedRAMP Federal Information Processing Standard (FIPS) 199 Categorization Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx">SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx">SSP ATTACHMENT 13 - FedRAMP Integrated Inventory Workbook Template</a></li>
 </ul>
 </td>
 <td>
