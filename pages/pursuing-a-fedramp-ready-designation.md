@@ -14,13 +14,13 @@ tag: pursuing-a-fedramp-ready-designation
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="/assets/resources/templates/FedRAMP-High-RAR-Template.docx">FedRAMP High Readiness Assessment Report (RAR) Template</a></li>
-<li><a href="/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">FedRAMP Moderate Readiness Assessment Report (RAR) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-High-RAR-Template.docx">FedRAMP High Readiness Assessment Report (RAR) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">FedRAMP Moderate Readiness Assessment Report (RAR) Template</a></li>
 
 </ul>
 </td>
