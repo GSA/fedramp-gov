@@ -23,19 +23,18 @@ tag: developing-a-security-assessment-plan
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx">FedRAMP Security Controls</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>	
-<li><a href="/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist (template)</a></li>
-<li><a href="/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
-<li><a href="/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></li>
-<li><a href="/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></li>
-<li><a href="/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></li>
 <li><a href="/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href=" ">AP</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Security Assessment Plan (SAP) Template</a></li>
+<li><a href="/assets/resources/templates/SAP-AA-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP High Security Test Case Procedures Template</a></li>  
+<li><a href="/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Moderate Security Test Case Procedures Template</a></li>   
+<li><a href="/assets/resources/templates/SAP-AA-FedRAMP-Low-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Low Security Test Case Procedures Template</a></li>    
+ 
+  
 </ul>
 </td>
 <td>
