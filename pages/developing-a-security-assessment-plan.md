@@ -23,16 +23,16 @@ tag: developing-a-security-assessment-plan
 </tr>
 <td>
 <ul>
-<li><a href="{{site.baseurl}}/assets//assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="{{site.baseurl}}/assets//assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
-<li><a href="{{site.baseurl}}/assets//assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Security Assessment Plan (SAP) Template</a></li>
-<li><a href="{{site.baseurl}}/assets//assets/resources/templates/SAP-AA-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP High Security Test Case Procedures Template</a></li>  
-<li><a href="{{site.baseurl}}/assets//assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Moderate Security Test Case Procedures Template</a></li>   
-<li><a href="{{site.baseurl}}/assets//assets/resources/templates/SAP-AA-FedRAMP-Low-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Low Security Test Case Procedures Template</a></li>    
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAP-Template.docx">FedRAMP Security Assessment Plan (SAP) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP High Security Test Case Procedures Template</a></li>  
+<li><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Moderate Security Test Case Procedures Template</a></li>   
+<li><a href="{{site.baseurl}}/assets/resources/templates/SAP-AA-FedRAMP-Low-Security-Test-Case-Procedures-Template.xlsx">SAP APPENDIX A - FedRAMP Low Security Test Case Procedures Template</a></li>    
 </ul>
 </td>
 <td>
