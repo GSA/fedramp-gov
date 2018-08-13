@@ -14,15 +14,15 @@ To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf">Security Assessment Framework</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym & Glossary</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></li>
-<li><a href="/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
-<li><a href="/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></li>	
-<li><a href="/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
-<li><a href="/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">FedRAMP Tips & Cues Compilation</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf">Security Assessment Framework</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym & Glossary</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></li>	
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">FedRAMP Tips & Cues Compilation</a></li>
 </ul>
 </td>
 <td>
