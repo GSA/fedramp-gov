@@ -25,14 +25,14 @@ Completing an annual assessment for a FedRAMP authorized CSO includes:
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment Guidance</a></li>
-<li><a href="/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
-<li><a href="/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></li>
 </ul>
 </td>
 <td>
