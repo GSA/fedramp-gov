@@ -14,15 +14,17 @@ tag: pursuing-a-jab-authorization
 <td>
 <ul>
 <li><a href="/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB P-ATO Prioritization Criteria and Guidance</a></li>
-<li><a href="/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">CSP and 3PAO JAB P-ATO Roles and Responsibilities*</a></li>
+<li><a href="/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></li>
+<li><a href="/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">CSP JAB P-ATO Roles and Responsibilites</a></li>
 <li><a href="/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></li>
 <li><a href="/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
 <li><a href="/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></li>
+<li><a href="/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">Joint Authorization Board Charter</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href=" ">FedR</a></li>
+<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
 </ul>
 </td>
 <td>
