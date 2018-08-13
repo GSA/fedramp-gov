@@ -37,7 +37,7 @@ tag: developing-a-system-security-plan
 </td>
 <td>
 <ul>
-<li><a href="/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx">FedRAMP System Security Plan (SSP) High Baseline Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx">FedRAMP System Security Plan (SSP) High Baseline Template</a></li>
 <li><a href="/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Moderate Baseline Template</a></li>
 <li><a href="/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx">FedRAMP System Security Plan (SSP) Low Baseline Template</a></li>
 <li><a href="/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx">SSP ATTACHMENT 3 - FedRAMP Electronic Authentication (E-Authentication) Plan Template</a></li>
