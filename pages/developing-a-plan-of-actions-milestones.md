@@ -22,12 +22,12 @@ tag: developing-a-plan-of-actions-milestones
 </tr>
 <td>
 <ul>
-<li><a href="/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">Plan of Action and Milestones (POA&M) Template Completion Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">Plan of Action and Milestones (POA&M) Template Completion Guide</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Plan of Action and Milestones (POA&M) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Plan of Action and Milestones (POA&M) Template</a></li>
 </ul>
 </td>
 <td>
