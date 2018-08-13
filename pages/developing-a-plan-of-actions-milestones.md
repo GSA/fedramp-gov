@@ -27,7 +27,7 @@ tag: developing-a-plan-of-actions-milestones
 </td>
 <td>
 <ul>
-<li><a href="">AP</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Plan of Action and Milestones (POA&M) Template</a></li>
 </ul>
 </td>
 <td>
