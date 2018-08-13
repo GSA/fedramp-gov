@@ -31,7 +31,8 @@ Completing an annual assessment for a FedRAMP authorized CSO includes:
 </td>
 <td>
 <ul>
-<li><a href=" ">Fed</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-Annual-SAP-Template.docx">FedRAMP Annual Security Assessment Plan (SAP) Template</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></li>
 </ul>
 </td>
 <td>
