@@ -31,12 +31,15 @@ tag: developing-a-security-assessment-report
 </tr>
 <td>
 <ul>
-<li><a href=" ">Fed</a></li>
+<li><a href="/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href=" ">AP</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-SAR-Template.docx">FedRAMP Security Assessment Report (SAR) Template</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">FedRAMP Vulnerability Deviation Request Form</a></li>
+<li><a href="/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx">SAR APPENDIX A - FedRAMP Risk Exposure Table Template</a></li>
+<li><a href="/assets/resources/templates/FedRAMP-Annual-SAR-Template.docx">FedRAMP Annual Security Assessment Report (SAR) Template</a></li>
 </ul>
 </td>
 <td>
