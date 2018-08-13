@@ -15,13 +15,14 @@ Agencies interested in acquiring a cloud service should begin by defining their 
 <td>
 <ul>
 <li><a href="/assets/resources/documents/Agency_Acquisition_FAQs.pdf">Acquisition FAQS</a></li>
+<li><a href="/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contract Clauses</a></li>
 <li><a href="/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a></li>
 <li><a href="/assets/resources/documents/Agency_Cloud_Procurement_Best_Practices.pdf">Cloud Procurement Best Practices</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="">FedR</a></li>
+<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
 </ul>
 </td>
 <td>
