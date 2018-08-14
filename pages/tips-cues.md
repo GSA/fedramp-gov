@@ -42,7 +42,6 @@ Risk Statement: Provide a risk statement that describes the risk to the business
  </p>
 <p>
 Mitigating Controls/Factors: Describe any applicable mitigating controls/factors that could downgrade the likelihood or risk exposure. Also indicate whether the affected host(s) is/are internally or externally facing. Include a full description of any mitigating factors and/or compensating controls if the risk is an operational requirement.
- </p>
 <em>(July 17, 2018)</em>
 </p>
 </div>
