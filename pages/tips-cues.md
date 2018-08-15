@@ -8,25 +8,22 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
 
-<h2>June 2018 Tips & Cues</h2>
+<h2>July 2018 Tips & Cues</h2>
 
 <div class="q3">
-<h3>TIP: When submitting final documents, please also provide extracted versions of embedded documents.</h3>
+<h3>Q: For my JAB P-ATO package, who should I list as the FedRAMP POC in my SSP and other package documents?</h3>
 <p>
-This will facilitate the preparation of the final package for customer review.
-<em>(June 6, 2018)</em>
+A: For the SSP main document (excluding operational documents) the FedRAMP POC should be info@fedramp.gov. For procedural docs that include interaction around security procedures (IR and CP), the primary JAB Reviewer/POC should be listed.
+For agency ATO packages, work with your agency to determine the appropriate POCs.
+<em>(July 11, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: In the System Security Plan (SSP), control CA-3 (3) “CA-3, Control Enhancement 3” should be implemented.</h3>
+<h3>Q: I’m no longer required to include vulnerabilities on my POA&M that are not “late” according to FedRAMP requirements. Can I still report on-schedule scan items in my POA&M?</h3>
 <p>
-TIC compliant architectures are required through the FedRAMP security controls baseline. 
- 
-TIC compliance is a hybrid responsibility -- CSPs must have an architecture that supports 
-
-TIC, and Agencies must enforce TIC routing and compliance.
-<em>(June 6, 2018)</em>
+A: Yes. Excluding non-late scan items is optional and will not impact FedRAMP’s processing.
+<em>(July 11, 2018)</em>
 </p>
 </div>
 
@@ -39,55 +36,57 @@ For the purposes of the RA and OR deviation requests, discussion should be based
 </div>
 
 <div class="q3">
-<h3>TIP: FedRAMP will perform a completeness check of the Security Assessment Report (SAR).</h3>
+<h3>TIP: In Table 4-1 of the SAR, please ensure that the columns, “Risk Statement” and “Mitigating Controls/Factors” contain the following information:</h3>
 <p>
-This includes checking that all controls were assessed, all vulnerabilities are accounted for in the SAR, and all inventory items were scanned or assessed via alternate means. In order to prevent delays, ensure that:
+Risk Statement: Provide a risk statement that describes the risk to the business. Indicate whether the affected host(s) is/are internally or externally facing.
  </p>
 <p>
-- All scan vulnerability IDs are included in all SAR tables where they are reported. This typically includes tables 4-1, 5-1, 5-2, 5-3, and F-6.
- </p>
+Mitigating Controls/Factors: Describe any applicable mitigating controls/factors that could downgrade the likelihood or risk exposure. Also indicate whether the affected host(s) is/are internally or externally facing. Include a full description of any mitigating factors and/or compensating controls if the risk is an operational requirement.
+<em>(July 17, 2018)</em>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Due to “chain of custody” control, the JAB Technical Reviewers cannot move Continuous Monitoring (ConMon) documents if the CSP or 3PAO uploaded them to incorrect folders in OMB MAX.</h3>
 <p>
-- All control related findings have the control ID referenced in all SAR tables where they are reported. This typically includes tables 4-1, 5-1, 5-2, 5-3, and F-6.
- </p>
+Please ensure that you upload ConMon documents to their correct respective folders!  
+<em>(July 17, 2018)</em>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: To access the document that lists all of the cryptographic modules that have been submitted for evaluation and are currently in process, please visit: http://csrc.nist.gov/groups/STM/cmvp/inprocess.html</h3>
 <p>
-- There is a result in the controls assessment workbook for every control that was selected for assessment in the previously approved Security Assessment Plan (SAP).  
+The title of the document is  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Modules-In-Process/Modules-In-Process-List">"Cryptographic Module Validation Program FIPS 140-2 Modules In Process List"</a>
+</p>
+<p>
+On this page, anyone can determine the status of any cryptographic modules that have been submitted to NIST for evaluation. The categories available are:
+ </p>
  <p>
-- Every control that hasn’t been satisfied in the controls assessment workbook is included in Table 4-1 with the control ID referenced. 
+- Review Pending
  </p>
-<em>(June 13, 2018)</em>
+ <p>
+- In Review
+ </p>
+ <p>
+- Coordination (this process may be iterative)
+ </p>
+ <p>
+- Finalization
+ </p>
+ <p>
+Once you are on this page, please see the right hand side of the page for a url for  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Validated-Modules">”Validated Modules."</a> Clicking this link reveals another page where there is another link, <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">”SEARCH our database of validated modules.”</a>
+ </p>
+ <p>
+ <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">Here</a> anyone can search for the product validation and the modules via the certificate number, the name of the vendor, or the name of the module, or all three if these are available.
+<em>(July 25, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: If an optional feature in a CSP’s product affects the customer’s security responsibilities, these customer responsibilities need to be notated in the Customer Responsibility Matrix.</h3>
+<h3>TIP: Be mindful of references to several assorted documents within the System Security Plan (SSP).</h3>
 <p>
-In addition, the feature must be explicitly identified as being applicable for customers who purchase the optional feature.  
-<em>(June 20, 2018)</em>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: CSPs must submit a risk adjustment (RA) <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">deviation request (DR) </a> for any High impact vulnerabilities that are also vendor dependencies.</h3>
-<p>
-High impact vendor dependencies must be risk adjusted to at least a Moderate. Make sure to include any mitigation methods/compensating controls.  
-<em>(June 20, 2018)</em>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: TLS version 1.1, or higher, must be fully implemented for both public-facing and internal interfaces by July 1, 2018, in accordance with the FedRAMP <a href="https://www.fedramp.gov/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a> 
-</h3>
-<p>
-Control documentation should contain sufficient detail to describe TLS implementation for both public-facing and internal interfaces (if applicable).
-<em>(June 27, 2018)</em>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: If an incident requires notification to US-CERT, it almost always requires notification to Federal customers whose data could have been impacted or exposed.</a> 
-</h3>
-<p>
-Regardless of whether or not it is fully required, it is a best practice for customer relationship management. Inspector General’s (IG) for all agencies have access to all US-CERT incidents as they use this for their annual audits of agency incidents. Therefore, if an IG has access to an incident notification of a system an agency uses, the agency customer should be informed as well.
-<em>(June 27, 2018)</em>
+It's important that referenced information should be accessible for the customers that would like to review the packages ahead of time.
+<em>(July 25, 2018)</em>
 </p>
 </div>
