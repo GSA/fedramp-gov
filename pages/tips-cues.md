@@ -57,7 +57,7 @@ Please ensure that you upload ConMon documents to their correct respective folde
 <div class="q3">
 <h3>TIP: To access the document that lists all of the cryptographic modules that have been submitted for evaluation and are currently in process, please visit: http://csrc.nist.gov/groups/STM/cmvp/inprocess.html</h3>
 <p>
-The title of the document is “Cryptographic Module Validation Program FIPS 140-2 Modules In Process List"
+The title of the document is  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Modules-In-Process/Modules-In-Process-List">"Cryptographic Module Validation Program FIPS 140-2 Modules In Process List"</a>
 </p>
 <p>
 On this page, anyone can determine the status of any cryptographic modules that have been submitted to NIST for evaluation. The categories available are:
@@ -75,10 +75,10 @@ On this page, anyone can determine the status of any cryptographic modules that 
 - Finalization
  </p>
  <p>
-Once you are on this page, please see the right hand side of the page for a url for “Validated Modules.” Clicking this link reveals another page where there is another link, “SEARCH our database of validated modules.”
+Once you are on this page, please see the right hand side of the page for a url for  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Validated-Modules">”Validated Modules."</a> Clicking this link reveals another page where there is another link, <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">”SEARCH our database of validated modules.”</a>
  </p>
  <p>
-Here anyone can search for the product validation and the modules via the certificate number, the name of the vendor, or the name of the module, or all three if these are available.
+ <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">Here</a> anyone can search for the product validation and the modules via the certificate number, the name of the vendor, or the name of the module, or all three if these are available.
 <em>(July 25, 2018)</em>
 </p>
 </div>
