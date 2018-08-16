@@ -98,10 +98,11 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
+	
+<p><strong>Duration:</strong> 1 hour</p>
 
 <p><strong>Released:</strong> August 16, 2018</p>
 
-<p>Coming soon.</p>
 </div>
 
 <h3 class="accordion">300-C: 3PAO Security Assessment Report (SAR) Guidance</h3>
