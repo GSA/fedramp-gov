@@ -8,7 +8,7 @@ layout: blog-page
 ---
 We’re excited to launch the next course in the Third Party Assessment Organization (3PAO) Training Series focused on the Security Assessment Plan (SAP). This 300 level training series provides 3PAOs and other interested stakeholders with a deeper understanding of FedRAMP’s requirements and the level of effort (LOE) required to satisfactorily plan and perform a FedRAMP security assessment.
 
-In this new training course, we’ll focus on the importance of the SAP and how it should be used as a roadmap for conducting the assessment of a Cloud Service Offering (CSO).  You’ll gain better understanding around developing the plan and the necessary components of both the initial and annual SAPs.
+In <a href="https://meet.gsa.gov/fedramp_training/event/login.html">this new training course</a>, we’ll focus on the importance of the SAP and how it should be used as a roadmap for conducting the assessment of a Cloud Service Offering (CSO).  You’ll gain better understanding around developing the plan and the necessary components of both the initial and annual SAPs.
 
 This course will cover information about:
 
