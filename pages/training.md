@@ -99,7 +99,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
 
-<p><strong>Duration:</strong> 1 hour</p>
+<p><strong>Released:</strong> August 16, 2018</p>
 
 <p>Coming soon.</p>
 </div>
