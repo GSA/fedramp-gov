@@ -32,5 +32,18 @@ Below is a list of documents we’ve updated or added and a brief description of
 
 **Significant Change Policies and Procedures:** This is a new document that we developed to walk our stakeholders through the significant change process by 1.) describing the significant change process, 2.) delineating the appropriate forms to use, and 3.) providing baseline control sets to be tested by 3PAOs for specific significant changes.
 
+**Additionally, we've updated our implementation policies for the below templates.**
+
+**_Implementation Policy Updates:_** 
+
+System Security Plans (Low, Moderate, and High Baseline) and LI-SaaS Appendix B: Upon request, FedRAMP can provide redlined versions of the documents to assist CSPs with the changes. Rather than swapping all content to the new template, CSPs may alternatively incorporate the changes into their version of the SSP. These changes must be incorporated before the CSP's next annual assessment (for annual assessments after Oct 31, 2018).
+
+High and Moderate Readiness Assessment Reports (RARs): To facilitate the PMO's review of the RAR, 3PAOs are strongly encouraged to transition to the new template now, even for assessments that are in progress. Beginning September 30, 2018, all RARs must be developed using the new templates.
+
+New Cloud Service Offering (CSO) or Feature Onboarding Request: This template should be used immediately for any CSO that is interested in using the New Cloud Service Offering (CSO) or Feature Onboarding process. The new Significant Change Request Policies and Procedures document should be reviewed before use of this document.
+
+Significant Change Request Form: This document is free to use now, but must be used for newly submitted significant change requests on or after September 30, 2018.
+
+Vulnerability Deviation Request Form: CSPs are free to use the old (PDF) version of the Vulnerability Deviation Request Form, however, due to ease of completion and automation, FedRAMP strongly suggests mitigating to this new Excel version of the form.
 
 We hope you find these template and document updates useful! If you have any questions or feedback, please reach out to info@fedramp.gov. 
