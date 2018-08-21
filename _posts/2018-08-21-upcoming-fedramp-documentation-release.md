@@ -2,7 +2,7 @@
 title: Upcoming FedRAMP Documentation Release
 permalink: /upcoming-fedramp-documentation-release/ 
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03052018 (1).png
+image: /assets/img/blog-images/Blog_White_Paper.png
 author: FedRAMP
 layout: blog-page
 ---
