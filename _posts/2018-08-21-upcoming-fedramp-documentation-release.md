@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_White_Paper.png
 author: FedRAMP
 layout: blog-page
 ---
-The FedRAMP PMO is excited to announce that we have updated ten documents/ tempaltes and added one new document with the goal of:
+The FedRAMP PMO is excited to announce that we have updated ten documents/ templates and added one new document with the goal of:
 * Making continuous monitoring processes more efficient and providing additional specific guidance on them
 * Clarifying language in the Readiness Assessment Report (RAR) templates, and
 * Incorporating new requirements and guidance in the System Security Plan (SSP) templates/and baselines of controls.
