@@ -44,7 +44,7 @@ Below is a summary of the 11 documents we’ve updated or added and a brief desc
 **Baseline of Controls:**
 * **Reason for Update:** We heard from our stakeholders that there was an opportunity to make it easier to navigate and compare the different control requirements - previously contained in four separate documents/templates. To address this, we combined the FedRAMP Low, Moderate, High, and LI-SaaS baselines into a single Excel template. 
 
-**New Document (1):**
+**_New Document (1):_**
 
 **Significant Change Policies and Procedures:**
 * **Reason for Development:** We heard from our stakeholders that the significant change process was unclear. To address this, we developed a document that we developed to walk our stakeholders through the significant change process by 1.) describing the significant change process, 2.) delineating the appropriate forms to use, and 3.) providing baseline control sets to be tested by 3PAOs for specific significant changes.
