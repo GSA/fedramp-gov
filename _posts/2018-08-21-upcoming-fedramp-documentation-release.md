@@ -33,7 +33,7 @@ Below is a summary of the 11 documents/templates we’ve updated or added and a 
 
 **Significant Change Request Form:**
 * **Reason for Update:** We updated this template form to correct minor grammatical and functional issues. Additionally, we added the requirement that a 3PAO’s signature on the form to verify they have reviewed and approved the control list. This template form should be used in conjunction with the new Significant Change Policies and Procedures document.
-Implementation Requirement: This template form is available for use now, and must be used for all new significant change requests submitted on or after September 30, 2018.
+* **Implementation Requirement:** This template form is available for use now, and must be used for all new significant change requests submitted on or after September 30, 2018.
 
 **Vulnerability Deviation Request Form:**
 * **Reason for Update:** We heard from our stakeholders that there was a need for easier automation, so we converted this template form from a PDF to an Excel spreadsheet.
