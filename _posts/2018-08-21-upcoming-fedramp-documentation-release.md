@@ -17,7 +17,7 @@ These updates are part of a new quarterly documents release cadence the PMO has 
 
 Below is a summary of the 11 documents we’ve updated or added and a brief description of the revisions and upgrades we’ve made to them. We’ll update this blog with the links to the documents and send out a reminder email when they are available.
 
-__**Updated Templates (5):**__
+**__Updated Templates (5):__**
 
 **System Security Plans (Low, Moderate, and High Baseline) and LI-SaaS Appendix B:**
 * **Reason for Update:** We updated these four SSP templates to align with the updated NIST SP 800-63 and Digital Identity (formerly E-Authentication) requirements. Additionally, we added remediation requirements for Low vulnerabilities and made minor updates to enhance control guidance and functional issues. 
@@ -39,12 +39,12 @@ __**Updated Templates (5):**__
 * **Reason for Update:** We heard from our stakeholders that there was a need for easier automation, so we converted this template from a PDF to an Excel spreadsheet.
 * **Implementation Requirement:** CSPs are free to use the old (PDF) version of the Vulnerability Deviation Request Form through September 30, 2018. However, due to ease of completion and automation, FedRAMP strongly suggests migrating to this new Excel version of the form as soon as possible.
 
-_**Updated Document (1):**_
+**__Updated Document (1):__**
 
 **Baseline of Controls:**
 * **Reason for Update:** We heard from our stakeholders that there was an opportunity to make it easier to navigate and compare the different control requirements - previously contained in four separate documents/templates. To address this, we combined the FedRAMP Low, Moderate, High, and LI-SaaS baselines into a single Excel template. 
 
-_**New Document (1):**_
+**__New Document (1):__**
 
 **Significant Change Policies and Procedures:**
 * **Reason for Development:** We heard from our stakeholders that the significant change process was unclear. To address this, we developed a document that we developed to walk our stakeholders through the significant change process by 1.) describing the significant change process, 2.) delineating the appropriate forms to use, and 3.) providing baseline control sets to be tested by 3PAOs for specific significant changes.
