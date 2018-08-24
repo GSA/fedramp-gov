@@ -2,7 +2,7 @@
 title: Moving On Up - Leadership Changes within OPP and FedRAMP 
 permalink: /moving-on-up-leadership-changes-within-opp-and-fedramp/ 
 body-class: page-blog
-image: /assets/img/blog-images/Blog_White_Paper.png
+image: /assets/img/blog-images/Blog_08242018.png
 author: FedRAMP
 layout: blog-page
 ---
