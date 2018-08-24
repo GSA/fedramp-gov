@@ -17,7 +17,7 @@ These updates are part of a new quarterly documentation release cadence the PMO 
 
 Below is a summary of the 11 documents/templates we’ve updated or added and a brief description of the revisions and upgrades we’ve made to them. We’ll update this blog with the links to the documents/templates and send out a reminder email when they’re available.
 
-***Updated Templates (5):***
+***Updated Templates (9):***
 
 **System Security Plans (Low, Moderate, and High Baseline) and LI-SaaS Appendix B:**
 * **Reason for Update:** We updated these four SSP templates to align with the updated NIST SP 800-63 and Digital Identity (formerly E-Authentication) requirements. Additionally, we added remediation requirements for Low vulnerabilities and made minor updates to enhance control guidance and functional issues. 
