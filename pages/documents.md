@@ -25,30 +25,12 @@ The table below is sortable by columns. The Category, Document, and Description 
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Low_Security_Controls.xlsx">FedRAMP Low Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP low baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Low_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls.xlsx">FedRAMP Security Controls</a></td>
+    <td>This document provides a listing of the FedRAMP high, moderate, low, and li-SaaS baseline security controls along with additional guidance and requirements.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    <td>5/18/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Moderate_Security_Controls.xlsx">FedRAMP Moderate Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP moderate baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Moderate_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
-    <p class="icon-text">EXCEL</p></a>
-    </td>
-    <td>5/18/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx">FedRAMP High Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP high baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
-    <p class="icon-text">EXCEL</p></a>
-    </td>
-    <td>5/18/2017</td>
+    <td>8/30/2018</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
@@ -239,6 +221,15 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
    <p class="icon-text">PDF</p></a>
    </td>
     <td>2/21/2018</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.pdf">CSP Significant Change Policies and Procedures</a></td>
+    <td>This document defines the FedRAMP policies and procedures for making significant changes. It provides requirements, guidance and explains the actions the FedRAMP PMO, AOs, CSPs, and 3PAOs will take when a CSP requests to make a significant change to its provisionally authorized cloud service</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>8/30/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
