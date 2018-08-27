@@ -260,8 +260,8 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx">FedRAMP Vulnerability Deviation Request Form</a></td>
     <td>This form provides a standardized method to document deviation requests and is used to document Risk Adjustments, False Positives, and Operational Requirements.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx"><i class="fas fa-file-excel"></i>
+<p class="icon-text">EXCEL</p></a>
 </td>
     <td>8/30/2018</td>
   </tr>
