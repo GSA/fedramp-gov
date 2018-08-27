@@ -2,9 +2,9 @@
 layout: teammate
 name: Matt Goodrich
 image: /assets/img/team/profile_MattGoodrich.png
-title: FedRAMP Director
+title: Acting Assistant Commissioner for the Office of Products and Programs (OPP)
 body-class: page-team-single
-date: 2018-01-01
+date: 2018-01-06
 
 ---
 Matt Goodrich is the Director for the Federal Risk and Authorization Management Program (FedRAMP) within the General Services Administration (GSA).
