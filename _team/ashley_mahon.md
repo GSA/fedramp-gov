@@ -7,7 +7,7 @@ body-class: page-team-single
 date: 2018-01-01
 
 ---
-Ashley Mahan is the Acting FedRAMP Director as of August 27, 2018. Ashley has been with FedRAMP for over 4 years in a variety of roles - including as a FedRAMP ISSO - and has built strong relationships across government and industry. Her work drives a dramatic increase in FedRAMP adoption, and helps agencies modernize their IT landscapes via cloud technologies. When combined with her natural aptitude for effective and conscious leadership, Ashley is uniquely positioned to continue FedRAMP’s strong growth. 
+Ashley Mahan is the Acting FedRAMP Director as of August 27, 2018. Ashley has been with FedRAMP for over 4 years in a variety of roles, including most recently her FedRAMP Evangalist role, and has built strong relationships across government and industry. Her work drives a dramatic increase in FedRAMP adoption, and helps agencies modernize their IT landscapes via cloud technologies. When combined with her natural aptitude for effective and conscious leadership, Ashley is uniquely positioned to continue FedRAMP’s strong growth. 
 
 Ashley is a trusted liaison between Federal Agencies, Cloud Services Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the Federal Government. She leverages collaboration and consensus building as key tools to bring together parties and people, and relishes the opportunity to pave a path towards secure cloud adoption and IT modernization in government for all Agencies.
 
