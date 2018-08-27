@@ -4,7 +4,7 @@ name: Betsy Steele
 image: /assets/img/team/profile_BetsySteele.png
 title: FedRAMP Program Manager for Training and Outreach
 body-class: page-team-single
-date: 2018-01-07
+date: 2018-01-05
 ---
 Betsy leads training and outreach for the FedRAMP PMO.  She develops and implements training for Agencies, CSPs, and 3PAO stakeholders in an effort to increase cloud adoption and the security of cloud computing solutions used by the US Government.
 
