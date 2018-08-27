@@ -32,7 +32,7 @@ Below is a summary of the 11 documents/templates we’ve updated or added and a 
 * **Implementation Requirement:** This template should be used immediately for any CSO that is interested in using the New Cloud Service Offering (CSO) or Feature Onboarding process. The new Significant Change Request Policies and Procedures document should be reviewed before use of this template.
 
 **Significant Change Request Form:**
-* **Reason for Update:** We updated this template form to correct minor grammatical and functional issues. Additionally, we added the requirement that a 3PAO’s signature on the form to verify they have reviewed and approved the control list. This template form should be used in conjunction with the new Significant Change Policies and Procedures document.
+* **Reason for Update:** We updated this template form to correct minor grammatical and functional issues. Additionally, we added a requirement for the 3PAO's signature on the form, to verify they have reviewed and approved the control list. This template form should be used in conjunction with the new Significant Change Policies and Procedures document.
 * **Implementation Requirement:** This template form is available for use now, and must be used for all new significant change requests submitted on or after September 30, 2018.
 
 **Vulnerability Deviation Request Form:**
@@ -42,7 +42,7 @@ Below is a summary of the 11 documents/templates we’ve updated or added and a 
 ***Updated Document (1):***
 
 **Baseline of Controls:**
-* **Reason for Update:** We heard from our stakeholders that there was an opportunity to make it easier to navigate and compare the different control requirements - previously contained in four separate documents/templates. To address this, we combined the FedRAMP Low, Moderate, High, and LI-SaaS baselines into a single Excel spreadsheet. 
+* **Reason for Update:** We heard from our stakeholders that there was an opportunity to make it easier to navigate and compare the different control requirements - previously contained in four separate documents/templates. To address this, we combined the FedRAMP Low, Moderate, High, and LI-SaaS baselines into a single Excel workbook. 
 
 ***New Document (1):***
 
