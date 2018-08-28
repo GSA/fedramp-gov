@@ -35,7 +35,7 @@ The table below is sortable by columns. The Category, Document, and Description 
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Initial Authorization Package Checklist</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a></td>
-    <td>This checklist details the documents required for a complete FedRAMP initial authorization package. CSPs must submit this checklist along with their authorization package so that the FedRAMP PMO can verify their package is complete prior to conducting reviews.</td>
+    <td>This checklist details the documents required for a complete FedRAMP initial authorization package.  CSPs must submit this checklist along with their authorization package so that the FedRAMP PMO can verify their package is complete prior to conducting reviews.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
