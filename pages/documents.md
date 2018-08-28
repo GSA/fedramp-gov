@@ -25,9 +25,9 @@ Columns in the table below are sortable. The Category, Document, and Description
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls.xlsx">FedRAMP Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP high, moderate, low, and li-SaaS baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a></td>
+    <td>This document provides the catalog of FedRAMP High, Moderate, Low, and *Tailored* LI-SaaS baseline security controls, along with additional guidance and requirements.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
     <td>8/28/2018</td>
