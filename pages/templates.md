@@ -21,7 +21,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-High-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Readiness Assessment Phase</td>
@@ -30,7 +30,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Initial Authorization Package Checklist</td>
@@ -48,7 +48,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -57,7 +57,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -66,7 +66,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -254,7 +254,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
@@ -263,7 +263,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
@@ -272,7 +272,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
@@ -317,7 +317,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Tailored</td>
