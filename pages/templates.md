@@ -4,7 +4,7 @@ title: Templates
 permalink: /templates/
 body-class: page-fed-agencies
 ---
-The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically and the Last Updated column will sort by date. Simply click on the column header to sort by that description and click again if you'd like to see the sort in the reverse order. If you would like the table to go back to it's original order, simple refresh the webpage.
+The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically, and the Last Updated column will sort by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page.
 
 <table class="sortable">
   <tr>
