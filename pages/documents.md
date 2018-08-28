@@ -225,7 +225,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policies and Procedures</a></td>
-    <td>This document defines the FedRAMP policies and procedures for making significant changes. It provides requirements, guidance and explains the actions the FedRAMP PMO, AOs, CSPs, and 3PAOs will take when a CSP requests to make a significant change to its provisionally authorized cloud service</td>
+    <td>This document defines the FedRAMP policies and procedures for making significant changes. It provides requirements, guidance, and actions the FedRAMP PMO, AO, CSP, and 3PAO will take when a CSP wishes to make a significant change to its provisionally authorized cloud service.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
