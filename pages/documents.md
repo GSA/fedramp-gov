@@ -4,7 +4,7 @@ title: Documents
 permalink: /documents/
 body-class: page-fed-agencies
 ---
-Columns in the table below are sortable. The Category, Document, and Description columns sort alphabetically, and the Last Updated column sorts by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page.
+Columns in the table below are sortable. The Category, Document, and Description columns sort alphabetically, and the Last Updated column sorts by date. 
 
 <table class="sortable">
   <tr>
