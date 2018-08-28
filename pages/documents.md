@@ -30,7 +30,7 @@ Columns in the table below are sortable. The Category, Document, and Description
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
@@ -229,7 +229,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>8/30/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
