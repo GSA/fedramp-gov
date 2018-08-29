@@ -19,7 +19,7 @@ Below is a summary of the 11 documents/templates we’ve updated or added and a 
 
 ***Updated Templates (9):***
 
-**System Security Plans (Low, Moderate, and High Baseline) and LI-SaaS Appendix B:**
+**System Security Plans (<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx">Low</a>, Moderate, and High Baseline) and LI-SaaS Appendix B:**
 * **Reason for Update:** We updated these four SSP templates to align with the updated NIST SP 800-63 and Digital Identity (formerly E-Authentication) requirements. Additionally, we added remediation requirements for Low vulnerabilities and made minor updates to enhance control guidance and functional issues. 
 * **Implementation Requirement:** Upon request, FedRAMP can provide redlined versions of the templates to assist CSPs with the changes. Rather than swapping all content to the new template, CSPs may alternatively incorporate the changes into their version of the SSP. These changes must be incorporated before the CSP's next annual assessment (for annual assessments after Oct 31, 2018).
 
