@@ -11,8 +11,8 @@ tag: starting-security-package-development
 <li>Overview of the system’s assessment and assessment methodology, and</li>
 <li>Risk assessment that qualifies whether the system should be used by a Federal customer</li>
 </ul>
-<p>There are two approaches to reviewing a FedRAMP security package: (1) *Just-in-Time*, and (2) 
-  *All Deliverables Simultaneously*.</p> 
+<p>There are two approaches to reviewing a FedRAMP security package: (1) _Just-in-Time_, and (2) 
+  _All Deliverables Simultaneously_.</p> 
 <p>*Approach I: Just-In-Time*</p>
 The CSP / 3PAO provide the Agency security documents for review and approval as they are prepared, creating an agile workflow for the evaluation of a system’s security and assessment. A Just-In-Time approach is recommended for Agencies and CSPs new to the FedRAMP process or new working with the government. 
 <p>*Approach II: All Deliverable Simultaneously*</p>
