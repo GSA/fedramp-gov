@@ -44,7 +44,7 @@ Below is a summary of the 11 documents/templates we’ve updated or added and a 
 **<a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">Baseline of Controls:</a>**
 * **Reason for Update:** We heard from our stakeholders that there was an opportunity to make it easier to navigate and compare the different control requirements - previously contained in four separate documents/templates. To address this, we combined the FedRAMP Low, Moderate, High, and LI-SaaS baselines into a single Excel workbook. 
 
-<em><strong> New Document (1):</strong></em>
+***New Document (1):</strong>***
 
 **<a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policies and Procedures:</a>** 
 * **Reason for Development:** We heard from our stakeholders that the significant change process was unclear. To address this, we developed a document to walk our stakeholders through the significant change process by 1) describing the significant change process, 2) delineating the appropriate forms to use, and 3) providing baseline control sets to be tested by 3PAOs for specific significant changes.
