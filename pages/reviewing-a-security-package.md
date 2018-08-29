@@ -13,9 +13,9 @@ tag: starting-security-package-development
 </ul>
 <p>There are two approaches to reviewing a FedRAMP security package: (1) <em>Just-in-Time</em>, and (2) 
   <em>All Deliverables Simultaneously</em>.</p> 
-<p>*Approach I: Just-In-Time*</p>
+<p><em>Approach I: Just-In-Time</em></p>
 The CSP / 3PAO provide the Agency security documents for review and approval as they are prepared, creating an agile workflow for the evaluation of a system’s security and assessment. A Just-In-Time approach is recommended for Agencies and CSPs new to the FedRAMP process or new working with the government. 
-<p>*Approach II: All Deliverable Simultaneously*</p>
+<p><em>Approach II: All Deliverable Simultaneously</em></p>
 <p>The CSP / 3PAO provide the Agency a complete security package - including the SSP, SAP, and SAR -  at once upon completion. This approach entails that the CSP / 3PAO complete all documentation and conduct the assessment prior to delivery of any materials to the Agency for review. Relative to Just-In-Time, this approach is most appropriate for CSPs and Agencies that have mature cloud security programs in place and have developed collaborative prior working relationships for the purpose of achieving FedRAMP authorization.
 In either approach, FedRAMP encourages Agencies to establish a cadence of frequent touchpoints with their partnered CSP(s) to understand progress against milestones and iteratively review documentation.</p> 
 <table>
