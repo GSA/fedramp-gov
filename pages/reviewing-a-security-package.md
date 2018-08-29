@@ -11,15 +11,13 @@ tag: starting-security-package-development
 <li>Overview of the system’s assessment and assessment methodology, and</li>
 <li>Risk assessment that qualifies whether the system should be used by a Federal customer</li>
 </ul>
-<p>Security packages can be exhaustive documents and require effective project management and resourcing from CSPs to see through completion from start to finish. Below is a list of documents included in a standard FedRAMP security package:</p>
-<ul>
-<li>System Security Plan (SSP)</li>
-<li>Security Assessment Plan (SAP)</li>
-<li>Security Assessment Report (SAR)</li>
-<li>Plan of Actions & Milestones (POA&M)</li>
-<li>Continuous Monitoring Plan</li>
-<li>Signed Agency Authority to Operate (ATO) - For Agency Authorizations</li>
-</ul>
+<p>There are two approaches to reviewing a FedRAMP security package: (1) *Just-in-Time*, and (2) 
+  *All Deliverables Simultaneously*.</p> 
+<p>*Approach I: Just-In-Time*</p>
+The CSP / 3PAO provide the Agency security documents for review and approval as they are prepared, creating an agile workflow for the evaluation of a system’s security and assessment. A Just-In-Time approach is recommended for Agencies and CSPs new to the FedRAMP process or new working with the government. 
+<p>*Approach II: All Deliverable Simultaneously*</p>
+<p>The CSP / 3PAO provide the Agency a complete security package - including the SSP, SAP, and SAR -  at once upon completion. This approach entails that the CSP / 3PAO complete all documentation and conduct the assessment prior to delivery of any materials to the Agency for review. Relative to Just-In-Time, this approach is most appropriate for CSPs and Agencies that have mature cloud security programs in place and have developed collaborative prior working relationships for the purpose of achieving FedRAMP authorization.
+In either approach, FedRAMP encourages Agencies to establish a cadence of frequent touchpoints with their partnered CSP(s) to understand progress against milestones and iteratively review documentation.</p> 
 <table>
 <tr>
 <th>Documents</th>
