@@ -1,5 +1,5 @@
 ---
-title: Upcoming FedRAMP Documentation Release
+title: FedRAMP Documentation Release
 permalink: /fedramp-documentation-release/ 
 body-class: page-blog
 image: /assets/img/blog-images/Blog_White_Paper.png
