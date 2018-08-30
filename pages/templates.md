@@ -304,7 +304,7 @@ The table below is sortable by columns. The Category, Document, and Description 
   <tr>
     <td style="font-weight:bold;">FedRAMP Tailored</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
-    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the LI-SaaS Baseline controls that CSPs must address.</td>
+    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the LI-SaaS Baseline controls that CSPs must address. This template is also contained within the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a>, located in the "Documents" page</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
