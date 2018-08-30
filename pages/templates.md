@@ -4,7 +4,7 @@ title: Templates
 permalink: /templates/
 body-class: page-fed-agencies
 ---
-The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically and the Last Updated column will sort by date. Simply click on the column header to sort by that description and click again if you'd like to see the sort in the reverse order. If you would like the table to go back to it's original order, simple refresh the webpage.
+The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically, and the Last Updated column will sort by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page.
 
 <table class="sortable">
   <tr>
@@ -21,7 +21,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-High-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Readiness Assessment Phase</td>
@@ -30,7 +30,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Initial Authorization Package Checklist</td>
@@ -48,7 +48,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -57,7 +57,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -66,7 +66,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -138,7 +138,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -254,16 +254,16 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-New-CSO-or-Feature-Onboarding-Request-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>6/16/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">FedRAMP Vulnerability Deviation Request Form</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx">FedRAMP Vulnerability Deviation Request Form</a></td>
     <td>This form provides a standardized method to document deviation requests and is used to document Risk Adjustments, False Positives, and Operational Requirements.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf"><i class="fas fa-file-pdf"></i>
-<p class="icon-text">PDF</p></a>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx"><i class="fas fa-file-excel"></i>
+<p class="icon-text">EXCEL</p></a>
 </td>
-    <td>1/31/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
@@ -272,7 +272,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>
-    <td>1/31/2018</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
@@ -304,7 +304,7 @@ The table below is sortable by columns. The Category, Document, and Description 
   <tr>
     <td style="font-weight:bold;">FedRAMP Tailored</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx">APPENDIX A - FedRAMP Tailored Security Controls Baseline</a></td>
-    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the LI-SaaS Baseline controls that CSPs must address.</td>
+    <td>Appendix A: FedRAMP Tailored Security Controls Baseline provides the LI-SaaS Baseline controls that CSPs must address. This template is also contained within the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a>, located on the Documents page.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-A-FedRAMP-Tailored-Security-Controls-Baseline.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
@@ -317,7 +317,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>11/14/2017</td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Tailored</td>

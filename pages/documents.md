@@ -4,7 +4,7 @@ title: Documents
 permalink: /documents/
 body-class: page-fed-agencies
 ---
-The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically and the Last Updated column will sort by date. Simply click on the column header to sort by that description and click again if you'd like to see the sort in the reverse order. If you would like the table to go back to it's original order, simple refresh the webpage.
+Columns in the table below are sortable. The Category, Document, and Description columns sort alphabetically, and the Last Updated column sorts by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page. 
 
 <table class="sortable">
   <tr>
@@ -25,30 +25,12 @@ The table below is sortable by columns. The Category, Document, and Description 
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Low_Security_Controls.xlsx">FedRAMP Low Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP low baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Low_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a></td>
+    <td>This document provides the catalog of FedRAMP High, Moderate, Low, and Tailored LI-SaaS baseline security controls, along with additional guidance and requirements.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    <td>5/18/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Moderate_Security_Controls.xlsx">FedRAMP Moderate Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP moderate baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Moderate_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
-    <p class="icon-text">EXCEL</p></a>
-    </td>
-    <td>5/18/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">FedRAMP Program Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx">FedRAMP High Security Controls</a></td>
-    <td>This document provides a listing of the FedRAMP high baseline security controls along with additional guidance and requirements.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx"><i class="fas fa-file-excel"></i>
-    <p class="icon-text">EXCEL</p></a>
-    </td>
-    <td>5/18/2017</td>
+    <td>8/28/2018</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
@@ -239,6 +221,15 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
    <p class="icon-text">PDF</p></a>
    </td>
     <td>2/21/2018</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policies and Procedures</a></td>
+    <td>This document defines the FedRAMP policies and procedures for making significant changes. It provides requirements, guidance, and actions the FedRAMP PMO, AO, CSP, and 3PAO will take when a CSP wishes to make a significant change to its provisionally authorized cloud service.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx"><i class="fas fa-file-word"></i>
+    <p class="icon-text">WORD</p></a>
+    </td>
+    <td>8/28/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
