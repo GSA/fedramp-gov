@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Starting Security Package Development
+title: Understanding Security Package Development
 permalink: /starting-security-package-development/
 tag: starting-security-package-development
 ---
