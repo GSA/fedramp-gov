@@ -69,7 +69,7 @@ This is helpful for when embedded links are broken. For example, if a document i
 <div class="q3">
 <h3>TIP: ALL non-scan findings need to be addressed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a>.</h3>
 <p>
-However, all scan findings, including those found in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template"> Security Assessment Report (SAR)</a> scans only need to be converted over to the monthly POA&M when late, unless they are related to a Deviation Request (DR).
+However, all scan findings, including those found in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx"> Security Assessment Report (SAR)</a> scans only need to be converted over to the monthly POA&M when late, unless they are related to a Deviation Request (DR).
 <em>(August 22, 2018)</em>
 </p>
 </div>
