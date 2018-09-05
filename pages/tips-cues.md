@@ -46,16 +46,14 @@ Document FIPS 140-2 certification/validation numbers and dates in the SSP and th
 <h3>TIP: For a Cloud Service Offering (CSO) that is a combination of one authorization leveraging another (e.g. a SaaS leveraging a IaaS), Agency customers should assess the combined risk of the two systems.</h3>
 <p>
 Authorizing Officials should make decisions based on the complete risk posture of the offering, not just the top layer of the stack (e.g. SaaS). Authorizing Officials should be reviewing the appropriate FedRAMP packages to ensure they have a complete understanding of the risk before issuing an ATO to a service offering.
- </p>
 <em>(August 15, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: The <a href="{{site.baseurl}}/assets/resources/documents/Plan_of_Action_and_Milestones"> Plan of Action and Milestones (POA&M)</a> is for reporting and tracking security vulnerabilities and weaknesses.</h3>
+<h3>TIP: The <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a> is for reporting and tracking security vulnerabilities and weaknesses.</h3>
 <p>
 Vulnerabilities are found through monthly scanning and annual 3PAO assessment and reported in the POA&M. Any security vulnerability found, regardless of its source, should be reported in the POA&M in accordance with FedRAMP guidelines. Even vulnerabilities found by the CSP itself or sources other than a 3PAO should be reported in the POA&M in accordance with FedRAMP guidelines. For vulnerabilities detected by scanners, FedRAMP only requires them to be reported in the POA&M if the rememation is delayed beyond FedRAMP required timeframes.
- </p>
 <em>(August 15, 2018)</em>
 </p>
 </div>
@@ -69,7 +67,7 @@ This is helpful for when embedded links are broken. For example, if a document i
 </div>
 
 <div class="q3">
-<h3>TIP: ALL non-scan findings need to be addressed in the <a href="{{site.baseurl}}/assets/resources/documents/Plan_of_Action_and_Milestones"> Plan of Action and Milestones (POA&M)</a>.</h3>
+<h3>TIP: ALL non-scan findings need to be addressed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a>.</h3>
 <p>
 However, all scan findings, including those found in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template"> Security Assessment Report (SAR)</a> scans only need to be converted over to the monthly POA&M when late, unless they are related to a Deviation Request (DR).
 <em>(August 22, 2018)</em>
@@ -77,7 +75,7 @@ However, all scan findings, including those found in the <a href="{{site.baseurl
 </div>
 
 <div class="q3">
-<h3>TIP: A CSP is required to submit a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP_Significant_Change_Form_Template"> Significant Change Request (SCR)</a> when they intend to change their vulnerability scan tool. While the requirement for notification is a minimum of 30 days before implementing a significant change, in order to allow enough time for full transition, CSPs should submit the SCR with enough time to properly transition to the new scan tool.</h3>
+<h3>TIP: A CSP is required to submit a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"> Significant Change Request (SCR)</a> when they intend to change their vulnerability scan tool. While the requirement for notification is a minimum of 30 days before implementing a significant change, in order to allow enough time for full transition, CSPs should submit the SCR with enough time to properly transition to the new scan tool.</h3>
 <p>
 CSPs are required to generate parallel vulnerability reports from the old and new scan tools, or provide direct mapping to all currently open vulnerabilities (from the “old” tool) to ensure all previously identified vulnerabilities are closed. CSPs may fully transition to the new tool when the ConMon team approves the new report and the JAB TR-Rs review and approve the SCR. 
 <em>(August 29, 2018)</em>
