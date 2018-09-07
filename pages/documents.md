@@ -66,7 +66,7 @@ Columns in the table below are sortable. The Category, Document, and Description
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>1/26/2016</td>
+    <td>7/13/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>

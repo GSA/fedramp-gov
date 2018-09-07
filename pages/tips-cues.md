@@ -7,86 +7,85 @@ body-class: page-fed-agencies
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
-
-<h2>July 2018 Tips & Cues</h2>
+<h2>August 2018 Tips & Cues</h2>
 
 <div class="q3">
-<h3>Q: For my JAB P-ATO package, who should I list as the FedRAMP POC in my SSP and other package documents?</h3>
+<h3>Q: What is the distinction between an Operational Requirement (OR) and a Vendor Dependency (VD)? </h3>
 <p>
-A: For the SSP main document (excluding operational documents) the FedRAMP POC should be info@fedramp.gov. For procedural docs that include interaction around security procedures (IR and CP), the primary JAB Reviewer/POC should be listed.
+A: An OR is a weakness that has a fix available but the fix cannot be applied without impacting the full operation of the system. A VD is a weakness that must be corrected by an upstream vendor but the fix has not been made available. In other words, an OR is something that could be fixed, but the fix would cause bigger issues or reduce functionality in the system so the risk of not fixing the weakness will be accepted. A VD does not have a fix available yet, and the fix must come from another vendor. A VD will be fixed as soon as possible, while an OR will be assessed at least annually to determine whether there is a fix, but often stands as an OR.
 For agency ATO packages, work with your agency to determine the appropriate POCs.
-<em>(July 11, 2018)</em>
+<em>(August 1, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: I’m no longer required to include vulnerabilities on my POA&M that are not “late” according to FedRAMP requirements. Can I still report on-schedule scan items in my POA&M?</h3>
+<h3>Q: What is the best approach to assigning ownership, managing vulnerabilities, and applying patches in an IaaS platform?</h3>
 <p>
-A: Yes. Excluding non-late scan items is optional and will not impact FedRAMP’s processing.
-<em>(July 11, 2018)</em>
+A: If management services are being provided by an IaaS provider, managing vulnerabilities and application of patches in IaaS requires a carefully thought-out service level agreement (SLA) between CSPs and the potential customer. It is important to define not only the scope of responsibility, but also the allotted remediation timeframe for each type of finding. This will prevent non compliance of FedRAMP’s vulnerability management policy and procedure. 
+<em>(August 1, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: The rationale for Risk Adjustment (RA) and Operational Requirement (OR) provided in <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">deviation requests</a>  should be based exclusively on risk (e.g., description of the likelihood and/or impact if the vulnerability was exploited and why), not availability or priority of resources.</h3>
+<h3>TIP: Boundaries for FedRAMP Cloud Service Offerings (CSOs) must have established demarcation points.</h3>
 <p>
-For the purposes of the RA and OR deviation requests, discussion should be based on security risk. Make every effort to detail original risk score and adjusted risk score with clear description of the mitigations that contribute to the downgrade such that the remaining risk is understood.  
-<em>(June 13, 2018)</em>
+This means that entry and exit points must be limited, centralized, and well controlled and applies even for a Platform as a Service (PaaS).  
+<em>(August 8, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: In Table 4-1 of the SAR, please ensure that the columns, “Risk Statement” and “Mitigating Controls/Factors” contain the following information:</h3>
+<h3>TIP: Ensure that any FIPS 140-2 modules in use have an active, current, and valid certification.</h3>
 <p>
-Risk Statement: Provide a risk statement that describes the risk to the business. Indicate whether the affected host(s) is/are internally or externally facing.
- </p>
+Document FIPS 140-2 certification/validation numbers and dates in the SSP and that the certification is relevant. Ensure that the modules remain active and unchanged during the initial P-ATO testing period.  
+<em>(August 8, 2018)</em>
+</p>
+</div> 
+
+<div class="q3">
+<h3>TIP: For a Cloud Service Offering (CSO) that is a combination of one authorization leveraging another (e.g. a SaaS leveraging a IaaS), Agency customers should assess the combined risk of the two systems.</h3>
 <p>
-Mitigating Controls/Factors: Describe any applicable mitigating controls/factors that could downgrade the likelihood or risk exposure. Also indicate whether the affected host(s) is/are internally or externally facing. Include a full description of any mitigating factors and/or compensating controls if the risk is an operational requirement.
-<em>(July 17, 2018)</em>
+Authorizing Officials should make decisions based on the complete risk posture of the offering, not just the top layer of the stack (e.g. SaaS). Authorizing Officials should be reviewing the appropriate FedRAMP packages to ensure they have a complete understanding of the risk before issuing an ATO to a service offering.
+<em>(August 15, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: Due to “chain of custody” control, the JAB Technical Reviewers cannot move Continuous Monitoring (ConMon) documents if the CSP or 3PAO uploaded them to incorrect folders in OMB MAX.</h3>
+<h3>TIP: The <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a> is for reporting and tracking security vulnerabilities and weaknesses.</h3>
 <p>
-Please ensure that you upload ConMon documents to their correct respective folders!  
-<em>(July 17, 2018)</em>
+Vulnerabilities are found through monthly scanning and annual 3PAO assessment and reported in the POA&M. Any security vulnerability found, regardless of its source, should be reported in the POA&M in accordance with FedRAMP guidelines. Even vulnerabilities found by the CSP itself or sources other than a 3PAO should be reported in the POA&M in accordance with FedRAMP guidelines. For vulnerabilities detected by scanners, FedRAMP only requires them to be reported in the POA&M if the rememation is delayed beyond FedRAMP required timeframes.
+<em>(August 15, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: To access the document that lists all of the cryptographic modules that have been submitted for evaluation and are currently in process, please visit: http://csrc.nist.gov/groups/STM/cmvp/inprocess.html</h3>
+<h3>TIP: When possible, upload embedded documents as System Security Plan (SSP) attachments as an additional method for document retrieval.</h3>
 <p>
-The title of the document is  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Modules-In-Process/Modules-In-Process-List">"Cryptographic Module Validation Program FIPS 140-2 Modules In Process List"</a>
-</p>
-<p>
-On this page, anyone can determine the status of any cryptographic modules that have been submitted to NIST for evaluation. The categories available are:
- </p>
- <p>
-- Review Pending
- </p>
- <p>
-- In Review
- </p>
- <p>
-- Coordination (this process may be iterative)
- </p>
- <p>
-- Finalization
- </p>
- <p>
-Once you are on this page, please see the right hand side of the page for a url for  <a href="https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Validated-Modules">”Validated Modules."</a> Clicking this link reveals another page where there is another link, <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">”SEARCH our database of validated modules.”</a>
- </p>
- <p>
- <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search">Here</a> anyone can search for the product validation and the modules via the certificate number, the name of the vendor, or the name of the module, or all three if these are available.
-<em>(July 25, 2018)</em>
+This is helpful for when embedded links are broken. For example, if a document is converted to PDF, embedded documents will no longer be accessible. 
+<em>(August 22, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: Be mindful of references to several assorted documents within the System Security Plan (SSP).</h3>
+<h3>TIP: ALL non-scan findings need to be addressed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a>.</h3>
 <p>
-It's important that referenced information should be accessible for the customers that would like to review the packages ahead of time.
-<em>(July 25, 2018)</em>
+However, all scan findings, including those found in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx"> Security Assessment Report (SAR)</a> scans only need to be converted over to the monthly POA&M when late, unless they are related to a Deviation Request (DR).
+<em>(August 22, 2018)</em>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: A CSP is required to submit a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"> Significant Change Request (SCR)</a> when they intend to change their vulnerability scan tool. While the requirement for notification is a minimum of 30 days before implementing a significant change, in order to allow enough time for full transition, CSPs should submit the SCR with enough time to properly transition to the new scan tool.</h3>
+<p>
+CSPs are required to generate parallel vulnerability reports from the old and new scan tools, or provide direct mapping to all currently open vulnerabilities (from the “old” tool) to ensure all previously identified vulnerabilities are closed. CSPs may fully transition to the new tool when the ConMon team approves the new report and the JAB TR-Rs review and approve the SCR. 
+<em>(August 29, 2018)</em>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Acceptable False Positive evidence doesn't necessarily have to include a screenshot of the configuration settings for each vulnerable host.</h3>
+<p>
+For instance, a text file (with a hash to validate authenticity) that indicates that a specific configuration, intended to remediate a vulnerability, was successfully applied to vulnerable hosts should be sufficient evidence. 
+<em>(August 29, 2018)</em>
 </p>
 </div>
