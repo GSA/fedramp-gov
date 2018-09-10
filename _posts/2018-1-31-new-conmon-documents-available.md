@@ -25,7 +25,7 @@ These documents listed below were recently posted to the FedRAMP website. Some o
 * Lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP will take when a CSP fails to meet the requirements of the P-ATO
 * Specifically addresses FedRAMP P-ATOs maintained by the JAB and enables FedRAMP to provide effective oversight of the CSP Continuous Monitoring programs
 
-**<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlxs">Vulnerability Deviation Request Form</a>**
+**<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx">Vulnerability Deviation Request Form</a>**
 * Updated version of the current deviation request (DR) form
 * Provides a standardized method to document deviation requests
 * Used to document Risk Adjustments, False Positives, and Operational Requirements
