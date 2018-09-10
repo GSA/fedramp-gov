@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: Joanne Collins Smee, FAS Deputy Commissioner and TTS Director
 layout: blog-page
 ---
-**FedRAMP is excited to share GSA's blog on <a href="https://www.gsa.gov/blog/2018/07/31/Strengthening-Capacity-to-Accelerate-IT-Modernization">Strengthening Capacity to Accelerate IT Modernization</a> by FAS Deputy Commissioner and TTS Director, Joanne Collins Smee.** 
+**FedRAMP is excited to share GSA's blog on <a href="https://www.gsa.gov/blog/2018/07/31/Strengthening-Capacity-to-Accelerate-IT-Modernization-0">Strengthening Capacity to Accelerate IT Modernization</a> by FAS Deputy Commissioner and TTS Director, Joanne Collins Smee.** 
 
 On June 28, I was honored to kick off the first-ever governmentwide <a href="https://www.youtube.com/watch?v=1n7MU_XoWHE">Cloud Reverse Industry Training (RIT)</a>. RITs help the federal acquisition community learn about the challenges that industry faces through their work with government. Led by the Office of the Procurement Ombudsman, GSA’s Technology Transformation Services’ Secure Cloud Portfolio and the FedRAMP Team partnered with our Office of Government-wide Policy’s Data Center Optimization Team, and the Federal Acquisition Service’s IT Category Management group to bring an integrated, cross-functional perspective to identifying and overcoming barriers for cloud adoption. This most recent RIT was unique in two ways: it was the first GSA RIT that was open to participants from across the entire government, and the first that focused solely on cloud. 
 
