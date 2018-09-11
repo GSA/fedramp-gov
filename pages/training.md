@@ -15,7 +15,7 @@ To register for the FedRAMP Training Series Curriculum:
 
 Once you have registered, you will recieve an e-mail confirmation and returning students can login <a href="https://meet.gsa.gov/fedramp_training/event/login.html">here.</a>  
 
-If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to <a href="info@fedramp.gov">info@fedramp.gov</a> with the subject line: "Regarding FedRAMP Training."
+If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to [info@fedramp.gov](mailto:info@fedramp.gov) with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
 
 ![image alt text](../assets/img/learning-path.png)
