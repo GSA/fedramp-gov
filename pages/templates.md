@@ -70,15 +70,6 @@ The table below is sortable by columns. The Category, Document, and Description 
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx">SSP ATTACHMENT 3 - FedRAMP Electronic Authentication (E-Authentication) Plan Template</a></td>
-    <td>The FedRAMP E-Authentication Template describes the processes for establishing confidence in user identities electronically presented to an information system as defined in OMB Memo M-04-04.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A03-FedRAMP-E-Authentication-Plan-Template.docx"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
-</td>
-    <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A04-FedRAMP-PIA-Template.docx">SSP ATTACHMENT 4 - FedRAMP Privacy Impact Assessment (PIA) Template</a></td>
     <td>The FedRAMP PIA Template is used to determine if a system collects and/or stores Personally Identifiable Information (PII) as defined in OMB Memorandum M-07-16.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A04-FedRAMP-PIA-Template.docx"><i class="fas fa-file-word"></i>
