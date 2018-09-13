@@ -1,5 +1,5 @@
 ---
-layout: project-assess
+layout: assessor-page
 title: Third Party Assessment Organizations
 description: Third Party Assessment Organizations (3PAOs) perform initial and periodic assessments of cloud systems to ensure they meet FedRAMP requirements.
 permalink: /assessors/
