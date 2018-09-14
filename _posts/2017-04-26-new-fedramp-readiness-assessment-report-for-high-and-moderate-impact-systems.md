@@ -9,7 +9,7 @@ tags: pursuing-a-fedramp-ready-designation
 ---
 We recently released version 1.0 of the [High Baseline Readiness Assessment Report (RAR) Template](https://www.fedramp.gov/assets/resources/templates/FedRAMP-High-RAR-Template.docx) which is available for immediate use by CSPs and 3PAOs for assessing a system’s readiness to achieve a FedRAMP High authorization.
 
-Additionally, we incorporated updates to the [Moderate RAR Template](FedRAMP Moderate Readiness Assessment Report (RAR) Template) by incorporating a number of instructions with added clarity and areas where the PMO needs additional information to make an informed FedRAMP Ready decision.
+Additionally, we incorporated updates to the [Moderate RAR Template](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx) by incorporating a number of instructions with added clarity and areas where the PMO needs additional information to make an informed FedRAMP Ready decision.
 
 The FedRAMP High RAR Template places emphasis on the use of automated mechanisms for control implementations and addresses the following key items required for an authorization at the high impact level:
 
