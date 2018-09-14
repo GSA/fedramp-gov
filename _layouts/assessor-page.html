@@ -1,0 +1,49 @@
+---
+layout: base
+---
+
+<div class="page-banner">
+<h1> {{ page.title }}</h1>
+</div>
+<div class="dashboard">
+<div class="inner">
+<h4>WHAT ARE YOU LOOKING FOR?</h4>
+<p>Click the actions below for all the resources you need</p>
+<ul class="assessors">
+<li><a href="{{site.baseurl}}/learning-more-about-fedramp"><img src="../assets/img/dashboard-icons/LearnMore-icon.png">Learning More About FedRAMP</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/ConductingReadiness_icon.png">Conducting a Readiness Assessment</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/SupportingJAB.png">Supporting a JAB Authorization</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/SupportingAgency_icon.png">Supporting an Agency Authorization</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/SupportingTailor_icon.png">Supporting a FedRAMP Tailored Authorization</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/understandingsecurity_icon.png">Understanding Security Package Development</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/developSSP_icon.png">Developing a System Security Plan</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/developSAP_icon-16.png">Developing a Security Assessment Plan</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/developSAP_icon-11.png">Developing a Security Assessment Report</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/developSAPM_icon.png">Developing a Plan of Action and Milestones</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/ATO_icon.png">Receiving an Authority to Operate</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/Monitor_icon.png">Conducting Continuous Monitoring</a></li>
+<li><a href=""><img src="../assets/img/dashboard-icons/AnnualAssessment_icon.png">Completing an Annual Assessment</a></li>
+</ul>
+</div>
+</div>
+<div class="usa-grid usa-section usa-content">
+  <div class="usa-width-three-fourths usa-content">
+  {% if page.image %}
+  <img src="{{ page.image | prepend: site.baseurl }}">
+  {% endif %}
+  {{ content }}
+  </div>
+  <aside class="usa-width-one-fourth">
+    <div class="blog-sidebar">
+    <h3>Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+  </aside>
+</div>
+</div>
