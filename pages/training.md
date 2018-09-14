@@ -15,7 +15,7 @@ To register for the FedRAMP Training Series Curriculum:
 
 Once you have registered, you will recieve an e-mail confirmation and returning students can login <a href="https://meet.gsa.gov/fedramp_training/event/login.html">here.</a>  
 
-If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to <a href="info@fedramp.gov">info@fedramp.gov</a> with the subject line: "Regarding FedRAMP Training."
+If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to [info@fedramp.gov](mailto:info@fedramp.gov) with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
 
 ![image alt text](../assets/img/learning-path.png)
@@ -79,7 +79,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 </div>
 <div id="path-three">
-<h2>Path 3: Designed for 3PAOs</h2>
+<h2>Path 3: Required for 3PAOs</h2>
 
 <h3 class="accordion">300-A: 3PAO FedRAMP 17020 Requirements: Understanding and Bridging the Gap</h3>
 <div class="panel">
@@ -97,11 +97,12 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
-
+<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">This course</a> provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
+	
 <p><strong>Duration:</strong> 1 hour</p>
 
-<p>Coming soon.</p>
+<p><strong>Released:</strong> August 16, 2018</p>
+
 </div>
 
 <h3 class="accordion">300-C: 3PAO Security Assessment Report (SAR) Guidance</h3>
