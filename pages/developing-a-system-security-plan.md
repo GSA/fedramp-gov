@@ -4,7 +4,9 @@ title: Developing a System Security Plan (SSP)
 permalink: /developing-a-system-security-plan/
 tag: developing-a-system-security-plan
 ---
-<p>The System Security Plan (SSP) is the main document of a security package in which a CSP describes all the security controls in use on the information system and their implementation. Once completed, a SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides an SSP template for each of its baselines: Low, Moderate, and High. In addition to a completed SSP template, CSPs should complete and append the following materials to their security documentation.</p>
+<p>The System Security Plan (SSP) is the main document of a security package in which a CSP describes all the security controls in use on the information system and their implementation. Once completed, a SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides an SSP template for each of its baselines: Low, Moderate, and High.</p>
+<p>Agency AOs or designees are responsible for reviewing and approving the SSPs ensuring the appropriate level of detail and the implementation of controls is acceptable, both at time of assessment and during ConMon.  Some Agencies may require additional controls on top of the FedRAMP baselines.</p>
+<p>In addition to a completed SSP template, CSPs should complete and append the following materials to their security documentation:</p>
 <ul>
 <li>Information Security Policies and Procedures</li>
 <li>User Guide</li>
