@@ -5,7 +5,7 @@ permalink: /preparing-for-an-agency-authorization/
 tag: preparing-for-an-agency-authorization
 ---
 <p>CSPs that make a business decision to work directly with an Agency to pursue an Authority to Operate (ATO) will partner with the Agency throughout the acquisition and FedRAMP authorization process. Within the authorization process, Agencies define their specific policies and procedures, in addition to FedRAMP requirements, and are responsible for reviewing CSP-developed security packages. Ultimately, an Agency’s Authorizing Official (AO) must accept the risk associated with the use of a cloud system through the issuance of an ATO for their Agency. Agencies must also conduct continuous monitoring of each authorized system, reviewing monthly and annual deliverables provided by CSPs. More information on  the Agency Authorization Process can be found on our <a href="agency-authorization">Agency Authorization</a> webpage.</p>
-
+<p>Additionally, the documents, templates, and blogs below all relate to the Agency Authorization Process. </p>
 <table>
 <tr>
 <th>Documents</th>
