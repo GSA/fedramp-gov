@@ -4,8 +4,11 @@ title: Acquiring a Cloud Service
 permalink: /acquiring-a-cloud-service/
 tag: acquiring-a-cloud-service
 ---
-Agencies interested in acquiring a cloud service should begin by defining their mission needs and specific requirements for a Cloud Services Offering (CSO). Where applicable, Agencies should align their cloud acquisition approach to broader departmental cloud adoption / migration strategies. When researching cloud service providers, we advise that Agencies first check the FedRAMP Marketplace. The FedRAMP Marketplace lists all CSOs that have either begun the process of, or have achieved, a FedRAMP authorization.
+Agencies interested in acquiring a cloud service should begin by defining their mission needs and specific requirements for a Cloud Services Offering (CSO). Where applicable, Agencies should align their cloud acquisition approach to broader departmental cloud adoption / migration strategies. When researching cloud service providers, we advise that Agencies first check the [FedRAMP Marketplace](https://marketplace.fedramp.gov/#/products). The FedRAMP Marketplace lists all CSOs that have either begun the process of, or have achieved, a FedRAMP authorization. 
 
+Additionally, Agencies can use the FedRAMP Marketplace to find CSOs who have demonstrated they are interested in working with the Federal Government by achieving a FedRAMP Ready designation, which is a mini-gap analysis done by an accredited Third Party Assessment Organization (3PAO).
+
+The documents, templates, and blogs listed below all pertain to the research / acquisition phase when looking to procure a new Cloud Service Offering (CSO).
 <table>
 <tr>
 <th>Documents</th>
