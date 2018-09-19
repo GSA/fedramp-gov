@@ -30,7 +30,7 @@ If you are not familiar with FedRAMP, the documents, templates, and blogs listed
 </td>
 <td>
 <ul>
-<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
+<li>There are no templates related to Learning More About FedRAMP. Please visit our <a href="{{site.baseurl}}/templates">templates</a> page if you'd like to view our templates.</li>
 </ul>
 </td>
 <td>
