@@ -25,7 +25,7 @@ tag: pursuing-a-jab-authorization
 </td>
 <td>
 <ul>
-<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
+<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page to see all templates required to develop a Security Package for a JAB Authorization.</li>
 </ul>
 </td>
 <td>
