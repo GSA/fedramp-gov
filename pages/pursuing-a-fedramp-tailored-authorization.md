@@ -4,15 +4,14 @@ title: Pursuing a FedRAMP Tailored Authorization
 permalink: /pursuing-a-fedramp-tailored-authorization/
 tag: pursuing-a-fedramp-tailored-authorization
 ---
-<p>The FedRAMP Tailored Baseline for Cloud Service Providers (CSPs) with Low-Impact Software- as-a-Service (LI-SaaS) Systems was developed to support industry solutions that are low risk and low cost for agencies to deploy and use. FedRAMP Tailored:
+<p>The FedRAMP Tailored Baseline for Cloud Service Providers (CSPs) with Low-Impact Software-as-a-Service (LI-SaaS) Systems was developed to support industry solutions that are deemed as low risk by the Agencies who are using these services. FedRAMP Tailored:
 </p>
 <ul>
 <li>Creates a faster, streamlined process for systems that are low risk for use such as collaboration tools, project management applications, and tools that help develop open-source code</li>
 <li>Supports government Authorizing Officials’ (AO) need for a standardized approach to determining the risks associated low-impact cloud applications</li>
 <li>Incorporates industry input in order to provide the government with the agility to leverage valuable industry services while maintaining appropriate security levels</li>
 </ul>
-<p>More information on FedRAMP Tailored can also be found on the <a href="https://tailored.fedramp.gov/">FedRAMP Tailored webpage</a>.</p>
-
+<p>More information on FedRAMP Tailored can also be found on the <a href="https://tailored.fedramp.gov/">FedRAMP Tailored webpage</a> as well as within the documents, templates, and blogs listed below.</p>
 <table>
 <tr>
 <th>Documents</th>
