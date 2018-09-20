@@ -11,7 +11,7 @@ Over the last two months we completed the latest round of FedRAMP Connect where 
 We are delighted to announce the next round of vendors that have been prioritized by the JAB: 
 
  * Adobe Systems, Inc. 
- * InLookout, Inc. 
+ * Lookout, Inc. 
  * Smartsheet, Inc. 
  * Zscaler, Inc. 
 
