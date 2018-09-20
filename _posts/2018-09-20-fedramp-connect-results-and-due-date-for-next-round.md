@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
 author: FedRAMP
 layout: blog-page
 ---
-Over the last two months we completed the latest round of FedRAMP Connect where Cloud Service Providers (CSPs) are prioritized to work with the Joint Authorization Board (JAB). In order to prioritize the right CSPs, the FedRAMP PMO reviews each business case submitted by CSPs interested in pursuing a JAB authorization and analyzes their current and potential demand. The focus of this process is to choose the CSPs that offer services that will benefit the widest variety of Agencies across the Federal Government.
+The FedRAMP PMO just completed the latest round of FedRAMP Connect where Cloud Service Providers (CSPs) are prioritized to work with the Joint Authorization Board (JAB). In order to prioritize the right CSPs, the FedRAMP PMO reviews each business case submitted by CSPs interested in pursuing a JAB authorization and analyzes their current and potential demand. The focus of this process is to choose the CSPs that offer services that will benefit the widest variety of Agencies across the Federal Government.
 
 We are delighted to announce the next round of vendors that have been prioritized by the JAB: 
 
