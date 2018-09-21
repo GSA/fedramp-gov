@@ -13,6 +13,7 @@ We’ve launched the next course in the Third Party Assessment Organization (3PA
 - Documenting the Functional Testing Contingency Plan Test and Incident Response Plan Test; Vulnerability Scan Results; Penetration Test Results;  and Manual Test Results 
 - How the SAR Risk exposure table is an aggregate of all of the risks identified through the security assessment process including the risks of inherent relationships and interconnected systems 
 - Why the POA&M items not duplicated through testing are also part of the total system risk for annual assessments
+- Completing POA&M and deviation requests as soon as the deficiency is fully resolved including Risk Adjustment (RA), False Positive (FP), and Operational Requirements (ORs)
 
 The goal of the 300 level training series is to focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment. There is a final quiz when the course is completed and a certificate of completion is provided to students who complete the course and pass the final quiz. Please use Google Chrome or Mozilla Firefox to ensure your certificate is generated at the conclusion of the module. 
 
