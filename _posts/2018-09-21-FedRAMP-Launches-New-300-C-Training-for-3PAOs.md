@@ -2,7 +2,7 @@
 title: FedRAMP Launches New 300-C Training for 3PAOs
 permalink: /FedRAMP-Launches-New-300-C-Training-for-3PAOs/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_12072017.png
+image: /assets/img/blog-images/Blog_Training_Launch.png
 author: FedRAMP
 layout: blog-page
 ---
