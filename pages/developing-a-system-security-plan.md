@@ -36,6 +36,9 @@ tag: developing-a-system-security-plan
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
 </ul>
 </td>
