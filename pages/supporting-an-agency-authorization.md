@@ -14,6 +14,7 @@ tag: preparing-for-an-agency-authorization
 </tr>
 <td>
 <ul>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">CSP Agency Authorization Best Practices for CSPs </a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Agency Package Request Form</a></li>
@@ -21,7 +22,11 @@ tag: preparing-for-an-agency-authorization
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization Obtaining In Process Designation</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization Roles and Responsibilities for FedRAMP CSPs and Agencies</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf">Agency Authorization Best Practices for Agencies</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf">Agency Guide for Reuse of FedRAMP Authorizations</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">FedRAMP Guide for Multi-Agency Continuous Monitoring</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></li>
 </ul>
 </td>
 <td>
