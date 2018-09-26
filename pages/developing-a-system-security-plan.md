@@ -4,7 +4,9 @@ title: Developing a System Security Plan (SSP)
 permalink: /developing-a-system-security-plan/
 tag: developing-a-system-security-plan
 ---
-<p>The System Security Plan (SSP) is the main document of a security package in which a CSP describes all the security controls in use on the information system and their implementation. Once completed, a SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides an SSP template for each of its baselines: Low, Moderate, and High. In addition to a completed SSP template, CSPs should complete and append the following materials to their security documentation.</p>
+<p>The System Security Plan (SSP) is the main document of a security package in which a CSP describes all the security controls in use on the information system and their implementation. Once completed, a SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides an SSP template for each of its baselines: Low, Moderate, and High.</p>
+<p>Agency AOs or designees are responsible for reviewing and approving the SSPs ensuring the appropriate level of detail and the implementation of controls is acceptable, both at time of assessment and during ConMon.  Some Agencies may require additional controls on top of the FedRAMP baselines.</p>
+<p>In addition to a completed SSP template, CSPs should complete and append the following materials to their security documentation:</p>
 <ul>
 <li>Information Security Policies and Procedures</li>
 <li>User Guide</li>
@@ -29,9 +31,14 @@ tag: developing-a-system-security-plan
 </tr>
 <td>
 <ul>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization - Best Practices for CSPs</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
 </ul>
 </td>

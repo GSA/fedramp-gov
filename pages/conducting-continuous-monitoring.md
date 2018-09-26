@@ -23,7 +23,6 @@ Once a FedRAMP authorization has been granted, the security posture of a CSO is 
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf">Incident Communications Procedures</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scan_Requirements_Using_Sampling.pdf">Guide for Determining Eligibility and Requirements for the Use of Sampling for Vulnerability Scans</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Vulnerability_Scan_Requirements_Guide.pdf">JAB P-ATO Vulnerability Scanning Requirements</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Requirements</a></li>
 </ul>
 </td>

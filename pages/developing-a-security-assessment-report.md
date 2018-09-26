@@ -7,6 +7,7 @@ tag: developing-a-security-assessment-report
 <p>The Security Assessment Report (SAR) contains the results of the comprehensive security assessment of a CSP’s cloud service offering, including a summary of the risks associated with vulnerabilities of the system identified during testing. The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
 <p>A CSP’s Independent Assessor (IA) Third Party Assessment Organization (3PAO) is responsible for generating the SAR following assessment and the document must align with the assessment methodology described in the Security Assessment Plan (SAP) and address the control detail described in the System Security Plan (SSP). An effective SAR should inform a CSP’s Plan of Action & Milestones (POA&M) and reflect the true risk posture of the system.
 </p>
+<p>Like SSPs, Agency AOs or designees are responsible for reviewing and approving the SARs ensuring the appropriate level of testing was done and that they risk posture associated with the system is acceptable to that Agency, both at time of assessment and during ConMon.</p>
 <p>In addition to a completed SAR template, 3PAOs should complete and append the following materials to their assessment report.
 </p> 
 <ul>
@@ -32,6 +33,8 @@ tag: developing-a-security-assessment-report
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf">Timeliness and Accuracy of Testing Requirements</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
 </ul>
 </td>
 <td>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Issuing an Authority to Operate (ATO)
-permalink: /issuing-an-authority-to-operate/
+title: Receiving an Authority to Operate (ATO)
+permalink: /receiving-an-authority-to-operate/
 tag: issuing-an-authority-to-operate
 ---
 <p>An Agency’s Authorizing Official (AO) is responsible for making a risk-based decision to grant a CSP’s cloud service an Authority to Operate (ATO) for use of the system. That decision is formalized in an ATO letter provided to the CSP system owner and FedRAMP PMO. A complete ATO letter should explicitly state the AO’s acceptance of:</p>

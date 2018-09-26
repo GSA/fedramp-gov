@@ -15,7 +15,7 @@ Completing an annual assessment for a FedRAMP authorized CSO includes:
 <li>Update of the CSOs Plan of Action and Milestones (POA&M)</li>
 <li>Submission of the completed Annual Assessment package, including the SAR and attachments, updated SSP and attachments, updated SAP, and POA&M to FedRAMP PMO or Agency AO</li>
 </ul>
-<p>CSPs are required to engage a 3PAO to complete Annual Assessment testing. All documentation that results from an Annual Assessment should be uploaded to the FedRAMP secure repository, OMB MAX. </p>
+<p>CSPs are required to engage a 3PAO to complete Annual Assessment testing. All documentation that results from an Annual Assessment should be uploaded to the FedRAMP secure repository, OMB MAX, by the CSP’s ATO date. The Annual Assessment should be reviewed by their agency customer(s) Authorizing Official and approved before being uploaded to OMB MAX. Any updates to an offering’s Impact Level should be reported to the PMO, via info@fedramp.gov, before being uploaded to OMB MAX.  </p>
 
 <table>
 <tr>
@@ -27,6 +27,8 @@ Completing an annual assessment for a FedRAMP authorized CSO includes:
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment Guidance</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx">Annual Assessment Controls Selection Worksheet</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
 </ul>
 </td>
 <td>

@@ -15,6 +15,7 @@ tag: pursuing-a-fedramp-ready-designation
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
 </ul>
 </td>
 <td>

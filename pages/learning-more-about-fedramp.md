@@ -4,8 +4,11 @@ title: Learning More About FedRAMP
 permalink: /learning-more-about-fedramp/
 tag: learning-more-about-fedramp
 ---
-The FedRAMP Ready designation indicates that a Third Party Assessment Organization (3PAO) attests to a CSP’s readiness for the authorization process, and that a Readiness Assessment Report (RAR) has been reviewed and approved by the FedRAMP PMO. The RAR documents the CSP’s capability to meet FedRAMP security requirements and is intended to help vendors, the Joint Authorization Board (JAB), and Agencies have a snapshot of the security posture of a cloud service without the full investment of going through the full FedRAMP process of testing and documentation.
-To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 3PAO to complete a readiness assessment of its service offering. At the conclusion of the assessment, the 3PAO delivers a RAR attesting to the CSO’s readiness for the authorization process. RARs are reviewed by the FedRAMP PMO within one business week of submission. Once the RAR is deemed satisfactory by the PMO, the CSO will be designated FedRAMP Ready and advertised in the FedRAMP Marketplace.
+The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT. 
+
+FedRAMP created and manages a core set of processes to ensure effective, repeatable cloud security for the government. FedRAMP establishes a mature [Marketplace](https://marketplace.fedramp.gov/#/products) to increase utilization and familiarity with cloud services while facilitating collaboration across government through an open exchange of lessons learned, use cases, and tactical solutions.
+
+If you are not familiar with FedRAMP, the documents, templates, and blogs listed below should help guide your understanding of FedRAMP at a basic level.
 <table>
 <tr>
 <th>Documents</th>
@@ -15,7 +18,9 @@ To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf">Security Assessment Framework</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">Joint Authorization Board Charter</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym & Glossary</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
@@ -27,7 +32,7 @@ To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 
 </td>
 <td>
 <ul>
-<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
+<li>There are no templates related to Learning More About FedRAMP. Please visit our <a href="{{site.baseurl}}/templates">templates</a> page if you'd like to view our templates.</li>
 </ul>
 </td>
 <td>

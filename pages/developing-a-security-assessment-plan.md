@@ -4,7 +4,7 @@ title: Developing a Security Assessment Plan (SAP)
 permalink: /developing-a-security-assessment-plan/
 tag: developing-a-security-assessment-plan
 ---
-<p>The SAP contains the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. Included in a SAP are the Penetration Test Plan - aligned to FedRAMP’s Penetration Test Guidance - and an Inventory Worksheet that coincides with the inventory provided in the SSP. The SAP also serves as a Rules of Engagement (RoE), once signed by the CSP and 3PAO, as it includes all applicable rules of engagement for the assessment. The joint responsibility of the CSP and the 3PAO, the SAP is a customized account of the security assessment methodology and indicates that both the CSP and 3PAO are in full concurrence as to the scope of security assessment testing.</p>
+<p>The SAP contains the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. Included in a SAP are the Penetration Test Plan - aligned to FedRAMP’s Penetration Test Guidance - and an Inventory Worksheet that coincides with the inventory provided in the SSP. The SAP also serves as a Rules of Engagement (RoE), once signed by the CSP and 3PAO, as it includes all applicable rules of engagement for the assessment. The joint responsibility of the CSP and the 3PAO, the SAP is a customized account of the security assessment methodology and indicates that both the CSP and 3PAO are in full concurrence as to the scope of security assessment testing. Authorizing Officials (AOs) are responsible for reviewing and approving the SAPs (making sure of appropriate scope and methodologies are used) at both the time of the assessment and during ConMon.</p>
 <p>A completed SAP includes the following documentation:</p> 
 <ul>
 <li>FedRAMP Security Assessment Plan</li>
@@ -23,7 +23,9 @@ tag: developing-a-security-assessment-plan
 </tr>
 <td>
 <ul>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_General_Document_Acceptance_Criteria.pdf">FedRAMP General Document Acceptance Criteria</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf">Penetration Test Guidance</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
 </ul>
 </td>
 <td>
