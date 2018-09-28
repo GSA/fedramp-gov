@@ -1,6 +1,6 @@
 ---
-title: FedRAMP Five Spotlight: Steve Hunt 
-permalink: /fedramp-five-spotlight-on-steve-hunt/
+title: Profiles in Cybersecurity: Steve Hunt, NASA 
+permalink: /profiles-in-cybersecurity-steve-hunt-nasa/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_Training_Launch.png
 author: FedRAMP
