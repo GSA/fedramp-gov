@@ -2,7 +2,7 @@
 title: Profiles in Cybersecurity - Steve Hunt, NASA
 permalink: /profiles-in-cybersecurity-steve-hunt-nasa/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_Training_Launch.png
+image: /assets/img/blog-images/Blog_FedRAMP5AWard_spotlight.png
 author: FedRAMP
 layout: blog-page
 ---
