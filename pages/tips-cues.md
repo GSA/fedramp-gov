@@ -50,7 +50,7 @@ The responsibility for the AO (or his/her designated representative) includes re
 </div>
 
 <div class="q3">
-<h3>Q: Can I use the FedRAMP Significant Change Request (SCR) form for multiple significant changes?</h3>
+<h3>Q: Can I use the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR) form </a>* form for multiple significant changes?</h3>
 <p>
 A: Yes, you can include multiple significant changes as long as all changes will be implemented for assessment at the same time. We often see SCR’s for multiple changes where the CSP is on-boarding multiple new services, tech-refresh of multiple component types and others. The assumption is that testing for all of the new services and components will be performed under a single Security Assessment Plan (SAP) and the results will be reflected in a single Security Assessment Report (SAR).
 <em>(September 26, 2018)</em>
