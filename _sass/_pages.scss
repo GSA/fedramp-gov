@@ -150,17 +150,15 @@ section#do-once {
 }
 
 .accordion {
-    ursor: pointer;
-    width: 90%;
+    cursor: pointer;
+    width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    background: none;
     text-transform: none;
-    padding: 15px;
-    box-sizing: border-box;
-    border-left: 3px solid #fff;
-    margin: 0px 0 0px 35px;
+    margin: 10px 0 10px 35px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -173,13 +171,11 @@ section#do-once {
 }
 
 .accordion:before {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #fff;
     float: left;
-    padding-right: 5px;
-    margin-left: -40px;
+    margin-left: -30px;
 }
 
 .active:before {
@@ -222,13 +218,8 @@ section#do-once {
 }
 
 .page-faqs .question {
-	/*  padding: 15px 0;*/
-	  margin: 0 0 20px 0;
-	  border-radius: 5px;
-	  -webkit-border-radius: 5px;
-	  -moz-border-radius: 5px;
-	  background: #e0e0e0;
-	  /*border-bottom: 1px solid #cdcdcd;*/
+	padding: 15px 0;
+	border-bottom: 1px solid #cdcdcd;
 	p {
 		padding: 0 0 0 40px;
 	}
@@ -318,6 +309,7 @@ section#do-once {
 		}
 }
 
+
 @media (min-width: 0) and (max-width: 980px) {
 .cloud {
 .cloud-wrapper {
@@ -354,75 +346,55 @@ ul.columns {
 }
 
 .dashboard {
-//	background: #E2F3F8;
+	background: #E2F3F8;
 	float: left;
-	padding: 0;
+	padding: 40px 0;
 	width: 100%;
 	margin: 0 0 40px 0;
-	
-  .inner {
+	.inner {
 		margin: 0 auto;
 		width: 100%;
 		max-width: 1200px;	
-		
-    h4 {
+		h4 {
 			margin: 0;
 		}
-	
-    ul {
+	ul {
 		width: 100%;
 		display: grid;
 //		flex-wrap: wrap;
 		justify-content: space-between;
 		justify-items: start;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 20% 20% 20% 20% 20%;
 		grid-template-rows: auto;
 		padding: 0;
-		
-      li {
+		li {
 			border: 1px solid #cdcdcd;
 			background: #fff;
 			padding: 20px;
 			margin: auto;
 			margin-bottom: 20px;
-			height: 170px;
+			height: 155px;
 			width: 90%;
 			list-style: none;
 			text-align: center;
-			
-        img {
+			img {
 				margin: 0 auto;
-				padding: 0 20%;
+				padding: 0 30%;
 				float: none;
 				clear: both;
 			}
-        
-			
-        a {
+			a {
 				text-decoration: none;
 				float: left;
 				&:hover {
 					text-decoration: underline;
 				}
-        }
-        
 			}
-        
 		}
 	}
 	}
 }
-
-
 @include media-query($tablet) {
-.dashboard .inner ul {
-	grid-template-columns: 100%;
-}	
-.dashboard .inner {
-	padding: 0 5%;
-}
-}
-@include media-query($tablet-low) {
 .dashboard .inner ul {
 	grid-template-columns: 25% 25% 25% 25%;
 }	
@@ -430,47 +402,30 @@ ul.columns {
 	padding: 0 5%;
 }
 }
+@include media-query($tablet-low) {
+.dashboard .inner ul {
+	grid-template-columns: 33% 33% 33%;
+}	
+.dashboard .inner {
+	padding: 0 5%;
+}
+}
 @include media-query($mobile-high) {
-  .dashboard .inner ul {
-    grid-template-columns: 50% 50%;
-  }	
-  .dashboard .inner {
-    padding: 0 5%;
-  }
+.dashboard .inner ul {
+	grid-template-columns: 50% 50%;
+}	
+.dashboard .inner {
+	padding: 0 5%;
 }
-
+}
 @include media-query($mobile-mid) {
-  .dashboard .inner ul {
-    grid-template-columns: 50% 50%;
-  }
-  .dashboard .inner {
-    padding: 0 5%;
-  }	
-  .dashboard .inner ul li {
-    max-width: 255px;
-  }
+.dashboard .inner ul {
+	grid-template-columns: 100%;
 }
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   .dashboard .inner ul {
-   		width: 100%;
-   		display: flex;
-   //		flex-wrap: wrap;
-   		justify-content: space-around;
-   		flex-flow: row wrap;
-   		li {
-   			border: 1px solid #cdcdcd;
-   			background: #fff;
-   			padding: 20px;
-   			margin: auto;
-   			margin-bottom: 20px;
-   			height: 190px;
-   			width: auto;
-   			max-width: 210px;
-   			list-style: none;
-   			text-align: center;
-   			}
-   			}
-   			}
-   	}
+.dashboard .inner {
+	padding: 0 5%;
+}	
+.dashboard .inner ul li {
+	max-width: 255px;
+}
 }
