@@ -353,20 +353,24 @@ ul.columns {
 }
 }
 
+
 .dashboard {
 //	background: #E2F3F8;
 	float: left;
 	padding: 0;
 	width: 100%;
 	margin: 0 0 40px 0;
-	.inner {
+	
+  .inner {
 		margin: 0 auto;
 		width: 100%;
 		max-width: 1200px;	
-		h4 {
+		
+    h4 {
 			margin: 0;
 		}
-	ul {
+	
+    ul {
 		width: 100%;
 		display: grid;
 //		flex-wrap: wrap;
@@ -375,7 +379,8 @@ ul.columns {
 		grid-template-columns: 50% 50%;
 		grid-template-rows: auto;
 		padding: 0;
-		li {
+		
+      li {
 			border: 1px solid #cdcdcd;
 			background: #fff;
 			padding: 20px;
@@ -385,19 +390,25 @@ ul.columns {
 			width: 90%;
 			list-style: none;
 			text-align: center;
-			img {
+			
+        img {
 				margin: 0 auto;
 				padding: 0 20%;
 				float: none;
 				clear: both;
 			}
-			a {
+        
+			
+        a {
 				text-decoration: none;
 				float: left;
 				&:hover {
 					text-decoration: underline;
 				}
+        }
+        
 			}
+        
 		}
 	}
 	}
@@ -419,23 +430,24 @@ ul.columns {
 }
 }
 @include media-query($mobile-high) {
-.dashboard .inner ul {
-	grid-template-columns: 50% 50%;
-}	
-.dashboard .inner {
-	padding: 0 5%;
+  .dashboard .inner ul {
+    grid-template-columns: 50% 50%;
+  }	
+  .dashboard .inner {
+    padding: 0 5%;
+  }
 }
-}
+
 @include media-query($mobile-mid) {
-.dashboard .inner ul {
-	grid-template-columns: 50% 50%;
-}
-.dashboard .inner {
-	padding: 0 5%;
-}	
-.dashboard .inner ul li {
-	max-width: 255px;
-}
+  .dashboard .inner ul {
+    grid-template-columns: 50% 50%;
+  }
+  .dashboard .inner {
+    padding: 0 5%;
+  }	
+  .dashboard .inner ul li {
+    max-width: 255px;
+  }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -457,5 +469,6 @@ ul.columns {
    			list-style: none;
    			text-align: center;
    			}
-   			}
-   			}
+   	}
+}
+
