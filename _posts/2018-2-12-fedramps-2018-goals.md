@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_2018_Goals.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 Happy New Year from the FedRAMP Program Management Office (PMO)! We could not be more excited for what 2018 has in store for the program. While **2017** was a banner year for rolling out new initiatives and ideas, we’ve dubbed **2018** “The Year of Refinement.” 
 

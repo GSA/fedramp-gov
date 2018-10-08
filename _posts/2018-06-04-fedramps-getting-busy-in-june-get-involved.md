@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_12072017.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 June is a busy month for the FedRAMP Program! We’ve got a variety of exciting program developments and events on the horizon that we wanted to update you on. 
 

@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 Building upon earlier guidance, the PMO has identified a number of best practices that enable CSPs to achieve and maintain an “In Process” designation and achieve an Agency Authority to Operate (ATO). An “In Process” designation indicates that a CSP is actively working on the documentation required to achieve a FedRAMP Authorization, and that an agency is reviewing that documentation with the intent to provide an ATO that meets the FedRAMP requirements. 
 

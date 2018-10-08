@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization
 ---
 We are now accepting Business Case submissions for the next round of prioritization by the Joint Authorization Board (JAB) with our FedRAMP Connect process!
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: federal-agencies-page
 title: Federal Agencies
 permalink: /federal-agencies/
 body-class: page-fed-agencies

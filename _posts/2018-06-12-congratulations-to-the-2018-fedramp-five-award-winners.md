@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/fedrampfiveaward.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 We’re thrilled to announce the winners of the first-ever FedRAMP Five Awards, which recognize our federal government partners for their commitment to cybersecurity excellence. These awardees have all demonstrated exceptional engagement with the FedRAMP program that has greatly improved the strength of the program and the services that their organizations are able to deliver to their stakeholders. Their achievements and accomplishments are detailed below.
 

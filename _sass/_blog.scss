@@ -154,6 +154,7 @@ a.blog-read {
 
 .author-date {
 	margin: 20px 0 20px 0;
+	padding: 0 0 10px 0;
 	border-bottom: 1px solid #cdcdcd;
 	p.by {
 		margin-bottom: 5px;
@@ -161,6 +162,7 @@ a.blog-read {
 	}
 	p.date {
 		margin-top: 0;
+		margin-bottom: 0px;
 	}
 }
 
@@ -239,6 +241,9 @@ a.blog-read {
 	font-size: 1.4875rem;
 	font-weight: bold;
 	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .pagination ul li {
@@ -258,7 +263,7 @@ a.blog-read {
 .pagination a {    
     &:hover {
 //        background-color: #f1f1f1;
-        color: #333;
+//        color: #333;
     }
  }
 
@@ -380,3 +385,20 @@ a.link-arrow-left {
    	margin: auto;
    }
  }
+
+span.tag {
+margin: 10px 0;
+display: inline-block;
+a {
+	background: $light-blue;
+	color: #fff;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 3px 0;
+	nobr {
+	font-family: $sans-font;
+	}
+}
+}

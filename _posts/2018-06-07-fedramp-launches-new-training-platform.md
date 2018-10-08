@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/trainingblogimage.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 We couldn’t be more excited to launch our new FedRAMP Training Platform! This platform provides a comprehensive overview of our training curriculum, a quality user experience, and enhanced capabilities and functionality. 
 

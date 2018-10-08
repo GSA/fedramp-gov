@@ -3,6 +3,7 @@ title: Launching a FedRAMP Tailored Baseline
 layout: blog-list
 permalink: /launching-a-fedramp-tailored-baseline/
 body-class: page-blog
+tags: pursuing-a-fedramp-tailored-authorization
 ---
 We are excited to announce that the FedRAMP _Tailored_ baseline is available for public comment. The public comment period ends on March 17, 2017,[we welcome your feedback](https://tailored.fedramp.gov/).
 

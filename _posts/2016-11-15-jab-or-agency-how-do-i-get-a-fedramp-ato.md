@@ -3,6 +3,7 @@ title: 'JAB or Agency: How Do I Get a FedRAMP ATO?'
 layout: blog-list
 permalink: /jab-or-agency-how-do-i-get-a-fedramp-ato/
 body-class: page0blog
+tags: learning-more-about-fedramp preparing-for-an-agency-authorization
 ---
 
 *“Should a CSP pursue JAB or agency authorization?”* That is probably one of the most common questions the PMO receives. And most would be surprised by the answer: for a majority of providers, an agency authorization is the most appropriate route.

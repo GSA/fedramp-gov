@@ -1,9 +1,9 @@
 ---
-
 title: Updated Version of FedRAMP Tailored Available for Public Comment
 layout: blog-list
 permalink: /updated-version-of-fedramp-tailored-available-for-public-comment/
 body-class: page-blog
+tags: pursuing-a-fedramp-tailored-authorization
 ---
 We are excited to announce that the next iteration of the **_FedRAMP Tailored_** baseline is available for public comment! This second round of public comment will end on July 28th, 2017 and we look forward to your feedback as we finalize this new policy.
 
