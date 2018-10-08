@@ -14,4 +14,4 @@ John previously worked for Accenture Federal Services and Booz Allen Hamilton wh
 
 Follow John on Twitter: [@HamiCloud](http://twitter.com/HamiCloud)
 
-Connect with Ryan on LinkedIn: [https://www.linkedin.com/in/john-hamilton-b089305/](https://www.linkedin.com/in/john-hamilton-b089305/)
+Connect with John on LinkedIn: [https://www.linkedin.com/in/john-hamilton-b089305/](https://www.linkedin.com/in/john-hamilton-b089305/)

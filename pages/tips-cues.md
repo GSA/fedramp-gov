@@ -7,85 +7,53 @@ body-class: page-fed-agencies
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
-<h2>August 2018 Tips & Cues</h2>
+<h2>September 2018 Tips & Cues</h2>
 
 <div class="q3">
-<h3>Q: What is the distinction between an Operational Requirement (OR) and a Vendor Dependency (VD)? </h3>
+<h3>TIP: Submitting an Operational Requirement Deviation Request (DR) is typically acceptable when updating the host would break FIPS compliance.</h3>
 <p>
-A: An OR is a weakness that has a fix available but the fix cannot be applied without impacting the full operation of the system. A VD is a weakness that must be corrected by an upstream vendor but the fix has not been made available. In other words, an OR is something that could be fixed, but the fix would cause bigger issues or reduce functionality in the system so the risk of not fixing the weakness will be accepted. A VD does not have a fix available yet, and the fix must come from another vendor. A VD will be fixed as soon as possible, while an OR will be assessed at least annually to determine whether there is a fix, but often stands as an OR.
-For agency ATO packages, work with your agency to determine the appropriate POCs.
-<em>(August 1, 2018)</em>
+However, it is critical that CSPs continuously re-evaluate FIPS certification to determine when updates become FIPS compliant. Consequently, the Operational Requirements would no longer be relevant.  
+<em>(September 5, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: What is the best approach to assigning ownership, managing vulnerabilities, and applying patches in an IaaS platform?</h3>
+<h3>TIP: Do not automatically assume that an N/A assertion from an IaaS/Paas can be inherited by a SaaS, even if the SaaS does not implement the relevant features.</h3>
 <p>
-A: If management services are being provided by an IaaS provider, managing vulnerabilities and application of patches in IaaS requires a carefully thought-out service level agreement (SLA) between CSPs and the potential customer. It is important to define not only the scope of responsibility, but also the allotted remediation timeframe for each type of finding. This will prevent non compliance of FedRAMP’s vulnerability management policy and procedure. 
-<em>(August 1, 2018)</em>
+The SaaS may also assert the control as N/A, but they need to provide their own rationale, not rely on the underlying IaaS/PaaS assertion. AC-19 Access Control for Mobile Devices comes to mind. This may be N/A for the IaaS, but in-scope for the SaaS. Thus, it would need to be addressed for the SaaS. 
+<em>(September 5, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: Boundaries for FedRAMP Cloud Service Offerings (CSOs) must have established demarcation points.</h3>
+<h3>TIP: For significant change requests, make sure to describe in detail what is expected to be new and different in the environment.</h3>
 <p>
-This means that entry and exit points must be limited, centralized, and well controlled and applies even for a Platform as a Service (PaaS).  
-<em>(August 8, 2018)</em>
+It is important to detail all of the changes that affect the security posture of the system. This ensures that both the Authorizing Official (AOs)/Joint Authorization Board (JAB) reviewers and 3PAO know what will be required to assess the change. Missing information may result in the need for additional testing and delays. 
+<em>(September 12, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: Ensure that any FIPS 140-2 modules in use have an active, current, and valid certification.</h3>
+<h3>TIP: When inserting a diagram or graphic into a document, pleasure make sure that the content can be viewed.</h3>
 <p>
-Document FIPS 140-2 certification/validation numbers and dates in the SSP and that the certification is relevant. Ensure that the modules remain active and unchanged during the initial P-ATO testing period.  
-<em>(August 8, 2018)</em>
-</p>
-</div> 
-
-<div class="q3">
-<h3>TIP: For a Cloud Service Offering (CSO) that is a combination of one authorization leveraging another (e.g. a SaaS leveraging a IaaS), Agency customers should assess the combined risk of the two systems.</h3>
-<p>
-Authorizing Officials should make decisions based on the complete risk posture of the offering, not just the top layer of the stack (e.g. SaaS). Authorizing Officials should be reviewing the appropriate FedRAMP packages to ensure they have a complete understanding of the risk before issuing an ATO to a service offering.
-<em>(August 15, 2018)</em>
+It is acceptable for the graphic to require magnification to be readable, but the author must ensure that the magnified graphic resolves into readable content, not just a fuzzy expansion of the smaller graphic. Diagrams or graphics that require significant detail should be provided in an alternative format that can be reviewed by the Authorizing Official (AO) or the Joint Authorization Board (JAB). 
+<em>(September 12, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: The <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a> is for reporting and tracking security vulnerabilities and weaknesses.</h3>
+<h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.</h3>
 <p>
-Vulnerabilities are found through monthly scanning and annual 3PAO assessment and reported in the POA&M. Any security vulnerability found, regardless of its source, should be reported in the POA&M in accordance with FedRAMP guidelines. Even vulnerabilities found by the CSP itself or sources other than a 3PAO should be reported in the POA&M in accordance with FedRAMP guidelines. For vulnerabilities detected by scanners, FedRAMP only requires them to be reported in the POA&M if the rememation is delayed beyond FedRAMP required timeframes.
-<em>(August 15, 2018)</em>
+The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization.  
+<em>(September 26, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: When possible, upload embedded documents as System Security Plan (SSP) attachments as an additional method for document retrieval.</h3>
+<h3>Q: Can I use the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR) form </a> for multiple significant changes?</h3>
 <p>
-This is helpful for when embedded links are broken. For example, if a document is converted to PDF, embedded documents will no longer be accessible. 
-<em>(August 22, 2018)</em>
+A: Yes, you can include multiple significant changes as long as all changes will be implemented for assessment at the same time. We often see SCR’s for multiple changes where the CSP is on-boarding multiple new services, tech-refresh of multiple component types and others. The assumption is that testing for all of the new services and components will be performed under a single Security Assessment Plan (SAP) and the results will be reflected in a single Security Assessment Report (SAR).
+<em>(September 26, 2018)</em>
 </p>
 </div>
 
-<div class="q3">
-<h3>TIP: ALL non-scan findings need to be addressed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm"> Plan of Action and Milestones (POA&M)</a>.</h3>
-<p>
-However, all scan findings, including those found in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SAR-Template.docx"> Security Assessment Report (SAR)</a> scans only need to be converted over to the monthly POA&M when late, unless they are related to a Deviation Request (DR).
-<em>(August 22, 2018)</em>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: A CSP is required to submit a <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf"> Significant Change Request (SCR)</a> when they intend to change their vulnerability scan tool. While the requirement for notification is a minimum of 30 days before implementing a significant change, in order to allow enough time for full transition, CSPs should submit the SCR with enough time to properly transition to the new scan tool.</h3>
-<p>
-CSPs are required to generate parallel vulnerability reports from the old and new scan tools, or provide direct mapping to all currently open vulnerabilities (from the “old” tool) to ensure all previously identified vulnerabilities are closed. CSPs may fully transition to the new tool when the ConMon team approves the new report and the JAB TR-Rs review and approve the SCR. 
-<em>(August 29, 2018)</em>
-</p>
-</div>
-
-<div class="q3">
-<h3>TIP: Acceptable False Positive evidence doesn't necessarily have to include a screenshot of the configuration settings for each vulnerable host.</h3>
-<p>
-For instance, a text file (with a hash to validate authenticity) that indicates that a specific configuration, intended to remediate a vulnerability, was successfully applied to vulnerable hosts should be sufficient evidence. 
-<em>(August 29, 2018)</em>
-</p>
-</div>
