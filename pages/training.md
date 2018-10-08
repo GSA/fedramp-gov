@@ -111,7 +111,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <p><strong>Duration:</strong> 1 hour</p>
 
-<p>Coming soon.</p>
+<p><strong>Released:</strong> September 21, 2018</p>
 </div>
 
 <h3 class="accordion">300-D: 3PAO Documenting Evidence Procedures</h3>
