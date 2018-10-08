@@ -97,7 +97,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
 <div class="panel">
-<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">This course</a> provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
+<p>This <a href="https://meet.gsa.gov/fedramp_training/event/login.html">course</a> provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP.</p>
 	
 <p><strong>Duration:</strong> 1 hour</p>
 
@@ -107,7 +107,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-C: 3PAO Security Assessment Report (SAR) Guidance</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAR.</p>
+<p>This <a href="https://meet.gsa.gov/fedramp_training/event/login.html">course</a> provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAR.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
