@@ -353,6 +353,7 @@ ul.columns {
 }
 }
 
+
 .dashboard {
 //	background: #E2F3F8;
 	float: left;
@@ -411,8 +412,6 @@ ul.columns {
 		}
 	}
 	}
-}
-
 
 @include media-query($tablet) {
 .dashboard .inner ul {
@@ -469,8 +468,6 @@ ul.columns {
    			max-width: 210px;
    			list-style: none;
    			text-align: center;
-   			}
-   			}
    			}
    	}
 }
