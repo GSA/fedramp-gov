@@ -412,6 +412,8 @@ ul.columns {
 	}
 	}
 }
+
+
 @include media-query($tablet) {
 .dashboard .inner ul {
 	grid-template-columns: 100%;
