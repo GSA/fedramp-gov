@@ -3,6 +3,7 @@ title: FedRAMP Tailored Feedback Due Date Extended
 layout: blog-list
 permalink: /fedramptailoredfeedbackduedateextended/
 body-class: page-blog
+tags: pursuing-a-fedramp-tailored-authorization
 ---
 Thanks to everyone for the feedback we’ve already received on **FedRAMP** **_Tailored_**. As FedRAMP continues to improve its process and services, your feedback is critical to our success.
 

@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03052018 (1).png
 author: FedRAMP
 layout: blog-page
+tags: starting-security-package-development
 ---
 An authorization boundary provides a diagrammatic picture of a system’s internal components to a Cloud Service Provider (CSP) along with connections to external services and systems, accounting for all Federal information and metadata that flows through a system. As a critical component of all System Security Plans (SSPs) and Readiness Assessment Reports (RARs) submitted to FedRAMP, the PMO recognizes that CSPs have difficulty accurately depicting their system authorization boundary from a FISMA perspective. 
 

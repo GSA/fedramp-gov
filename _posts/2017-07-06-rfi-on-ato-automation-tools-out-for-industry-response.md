@@ -1,5 +1,4 @@
 ---
-
 title: RFI on ATO Automation Tools Out for Industry Response
 layout: blog-list
 permalink: /rfi-on-ato-automation-tools-out-for-industry-response/

@@ -3,6 +3,7 @@ title: HHS Cloud Security Day
 layout: blog-list
 permalink: /hhs-cloud-security-day/
 body-class: page-blog
+tags: preparing-for-an-agency-authorization
 ---
 Two weeks ago, Ashley Mahan and I had the pleasure of participating in the Health and Human Services (HHS) FedRAMP Open House. It was an excellent opportunity to collaborate with the HHS team as well as HHS subcomponents to discuss FedRAMP, cloud computing, and risk management.
 

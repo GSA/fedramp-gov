@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/fedrampconnectpost.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization
 ---
 FedRAMP is excited to announce that we are starting our next round of FedRAMP Connect! **Business Cases for this round of FedRAMP Connect will be due July 13th by 5:00pm eastern and should be submitted to info@fedramp.gov.** 
 

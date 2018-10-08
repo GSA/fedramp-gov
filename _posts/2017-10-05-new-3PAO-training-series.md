@@ -5,6 +5,7 @@ permalink: /New_3PAO_Training_Series/
 body-class: page-blog
 image: /assets/img/blog_placementimg.png
 author: FedRAMP
+tags: learning-more-about-fedramp
 ---
 The FedRAMP PMO is pleased to announce the Third Party Assessment Organization (3PAO) Training Series. The training series provides 3PAOs and other interested stakeholders with a deeper understanding of the FedRAMP program requirements and the level of effort (LOE) required to satisfactorily plan and perform a FedRAMP security assessment.
 
