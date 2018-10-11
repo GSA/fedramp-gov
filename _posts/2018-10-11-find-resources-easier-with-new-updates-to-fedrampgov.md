@@ -15,4 +15,3 @@ These updates are intended to make FedRAMP resources easier and quicker to find.
 Over the next month we will hold three webinars to go over the different actions related to each partner group (CSPs, Agencies, and 3PAOs) and what the resources on the new pages are. Be on the lookout for invites to these different webinars from info@fedramp.gov. As this is an iterative process, we’ll be asking for your feedback post-webinars.
 
 We are committed to listening to our customers and enhancing our services to best serve your needs. As always, if you have any questions, please reach out to info@fedramp.gov 
-
