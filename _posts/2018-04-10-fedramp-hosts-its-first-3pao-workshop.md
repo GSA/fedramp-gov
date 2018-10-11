@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 On Friday, March 30th, the FedRAMP PMO held a workshop with our accredited 3PAO vendors. The workshop consisted of a morning plenary session, which shared reasons for the updating the 3PAO requirements, insight into new FedRAMP policy updates, and an overview of common pitfalls of current assessments and how to avoid them. Following the morning briefing, the FedRAMP PMO met with 3PAOs one-on-one to receive any feedback on the updated requirements and a chance to review any other issues 3PAOs are facing. 
 

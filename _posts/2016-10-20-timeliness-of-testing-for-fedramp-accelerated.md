@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization starting-security-package-development
 ---
 As we continue to work through FedRAMP Accelerated with the Joint Authorization Board (JAB), one key component is that CSPs must have a full assessment completed prior to beginning the review process. When examining any assessment, it is important that the assessment and evidence is recent and accurate. New risks and vulnerabilities can come into cloud environments on a daily basis , so the need for timely assessments when kicking off with the JAB is critical to ensure that an authorization is not dated.
 

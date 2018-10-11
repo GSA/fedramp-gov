@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_CSP_Playbook.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 The FedRAMP PMO is pleased to release the first volume of the <a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">Cloud Service Provider (CSP) Authorization Playbook: Getting Started with FedRAMP</a>!
 

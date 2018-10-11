@@ -36,6 +36,7 @@ button:hover,
 [type="reset"]:hover,
 [type="image"]:hover {
   background-color: $button-hover-color;
+  text-decoration: underline;
 }
 @media (max-width: 500px) {
   .usa-button,

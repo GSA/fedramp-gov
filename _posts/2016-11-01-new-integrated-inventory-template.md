@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
+tags: developing-a-system-security-plan
 ---
 
   Today we released an updated and significantly different version of the [Inventory Template](https://www.fedramp.gov/assets/resources/templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx) as a separate attachment to the FedRAMP System Security Plan (SSP).

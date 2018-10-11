@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
+tags: completing-an-annual-assessment
 ---
 
 The FedRAMP PMO recently encountered a question from a Cloud Service Provider (CSP) as to whether they are required to perform a re-authorization every three years. We wanted to take this opportunity to clarify FedRAMP’s Annual Assessment requirements.  

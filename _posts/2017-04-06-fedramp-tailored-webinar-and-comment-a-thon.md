@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-fedramp-tailored-authorization
 ---
 Over the past month we have been gathering your suggestions and feedback on [**FedRAMP Tailored**](https://www.fedramp.gov/launching-a-fedramp-tailored-baseline/). Thank you for sharing your thoughts and input! As we continue to gather [comments](https://tailored.fedramp.gov/) and make sure **FedRAMP Tailored** will work well for both agencies and CSPs, we are taking on additional efforts that we want to share with you.
 

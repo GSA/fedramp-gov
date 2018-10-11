@@ -3,6 +3,7 @@ title: 'FedRAMP JAB Prioritization: Help Us Shape Who Works with the JAB'
 layout: blog-list
 permalink: /fedramp-jab-prioritization-help-us-shape-who-works-with-the-jab/
 body-class: page-blog
+tags: pursuing-a-jab-authorization
 ---
 When building any program, a key focus in initial growth is to ensure that you have a broad selection of services or products customers can use. This is exactly how the PMO and the Joint Authorization Board teams have operated since launching FedRAMP. As FedRAMP grew, the PMO and JAB prioritized vendors for provisional authorizations based on a “first come first served” basis. This was to build the list of FedRAMP vendors in the FedRAMP [marketplace](http://marketplace.fedramp.gov) as quickly as possible.
 

@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/blog_010518.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 
 We could not be more excited to announce that we just reached a huge milestone - 100 Cloud Service Provider (CSP) authorizations! 

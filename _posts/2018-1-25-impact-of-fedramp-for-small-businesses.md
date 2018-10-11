@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_01182018_v2.png
 author: FedRAMP
 layout: blog-page
+tags: learning-more-about-fedramp
 ---
 Did you know that over 30% of FedRAMP Cloud Service Providers (CSPs) are small businesses?* When we share this statistic across industry and the federal community, people are quite surprised — and pleased! Since small businesses represent an essential component of FedRAMP, we realized it was essential to engage directly with the small business community to gather feedback to improve the program.  
 

@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_Boundary_Guidance.png
 author: FedRAMP
 layout: blog-page
+tags: developing-a-system-security-plan
 ---
 Over the past year, the FedRAMP PMO has recognized that it is difficult for Cloud Service Providers (CSPs) to frame their cloud service offerings from a FISMA perspective, especially as cloud services become more complex and the use of external services to augment systems continues to increase. As a core component of any FedRAMP System Security Plan (SSP), it is imperative that CSPs understand how to accurately describe and illustrate their cloud system’s authorization boundaries.
 

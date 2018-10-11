@@ -3,6 +3,7 @@ title: First FedRAMP Agency Roundtable
 layout: blog-list
 permalink: /first-fedramp-agency-roundtable/
 body-class: page-blog
+tags: preparing-for-an-agency-authorization
 ---
 This past Monday, we held our first Agency Roundtable at GSA headquarters. As FedRAMP’s Agency Evangelist, I take pride in bringing awareness and understanding to federal agencies about how FedRAMP can help their journey to the cloud. We brought over 34 agencies together, from those agencies seeking an introduction to FedRAMP to those agencies who are well seasoned veterans in the FedRAMP process. Our aim was to make agency connections to create long-lasting relationships in sharing cloud security and implementation strategies,and I’d say we’re on our way!
 

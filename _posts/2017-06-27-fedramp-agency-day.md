@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: preparing-for-an-agency-authorization
 ---
 <a href="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/06/Screen-Shot-2017-06-27-at-12.07.14-PM.png"><img class="size-full wp-image-67257 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/06/Screen-Shot-2017-06-27-at-12.07.14-PM.png" alt="" width="339" height="250" /></a>
 

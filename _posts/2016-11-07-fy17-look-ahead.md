@@ -3,6 +3,7 @@ title: '2017: A Look Ahead'
 layout: blog-list
 permalink: /fy17-look-ahead/
 body-class: page-blog
+tags: learning-more-about-fedramp
 ---
 We are excited to share the FedRAMP program's FY17 goals.  Building on the accomplishments from FY16 that we shared last week, we hope to continue the trend of exponential growth, innovative process improvements, and collaboration among the community.  We have established pretty aggressive targets for FY17 and appreciate your support as we advance the program.
 

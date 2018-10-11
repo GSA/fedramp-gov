@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
+tags: pursuing-a-jab-authorization preparing-for-an-agency-authorization
 ---
 We wanted to share some high-level guidance for CSPs and 3PAOs we created with the JAB teams to provide insight into the different roles and responsibilities for 3PAOs and CSPs in our authorization process. These roles and responsibilities were created and refined over the last year as we refined the [JAB’s authorization process](https://www.fedramp.gov/jab-authorization/).  
 

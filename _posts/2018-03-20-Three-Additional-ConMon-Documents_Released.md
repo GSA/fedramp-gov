@@ -5,6 +5,7 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud.png
 author: FedRAMP
 layout: blog-page
+tags: conducting-continuous-monitoring
 ---
 On January 31st, FedRAMP released several new or revised Continuous Monitoring (ConMon) documents and templates with the goal of:
 * Improving the overall ConMon process by clarifying certain elements and expectations
