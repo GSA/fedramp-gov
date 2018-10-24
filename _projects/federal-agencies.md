@@ -57,7 +57,7 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <li>Perform final review of a security authorization package, with a focus toward understanding the risk posture the Agency must accept by using the cloud service</li>
 </ul>
 
-<p>If an Agency accepts the risk posture illustrated by a CSP’s security authorization package, it falls to the Agency Authorizing Offical (AO) to issue an Authority to Operate (ATO) letter. Submission of the ATO letter to the CSP and FedRAMP imparts authorization status and prompts listing of the cloud service in the FedRAMP Marketplace. </p>
+<p>If an Agency accepts the risk posture illustrated by a CSP’s security authorization package, it falls to the Agency Authorizing Official (AO) to issue an Authority to Operate (ATO) letter. Submission of the ATO letter to the CSP and FedRAMP imparts authorization status and prompts listing of the cloud service in the FedRAMP Marketplace. </p>
 <p>The FedRAMP PMO recommends agencies review the <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information about roles and responsibilities, best practices, and resources available to support them in the authorization process. </p>
 
 </section>
