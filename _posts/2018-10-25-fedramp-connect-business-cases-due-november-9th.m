@@ -19,4 +19,4 @@ layout: blog-page
 </ul>
 <p>If you have questions about FedRAMP Connect, would like advice on your Business Case, or need help qualifying their demand, feel free to reach out to info@fedramp.gov to set up a one-on-one coaching call with the PMO.</p>
 
-<p><strong>We look forward to reviewing your Business Case submission, due November 9th by 5:00pm eastern to info@fedramp.gov!**</stong></p>
+<p><strong>We look forward to reviewing your Business Case submission, due November 9th by 5:00pm eastern to info@fedramp.gov!</stong></p>
