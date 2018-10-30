@@ -27,7 +27,7 @@ tag: issuing-an-authority-to-operate
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></li>	
-<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Temp</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></li>
 </ul>
 </td>
 <td>
