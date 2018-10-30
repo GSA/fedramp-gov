@@ -14,7 +14,6 @@ tag: preparing-for-an-agency-authorization
 </tr>
 <td>
 <ul>
-<li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">CSP Agency Authorization Best Practices for CSPs </a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Agency Package Request Form</a></li>
