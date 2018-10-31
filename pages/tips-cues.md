@@ -52,8 +52,10 @@ A: Please email info@fedramp.gov to request the redlined version of the New SSP 
 2) Updated reference to boundary guidance document (Section 9.2)
    </p>
  <p>
-3) Updated vulnerability remediation requirements (RA-5)  (October 24, 2018)
- </p>
+3) Updated vulnerability remediation requirements (RA-5) 
+<em>(October 24, 2018)</em>
+</p>
+</div>
 
 <div class="q3">
 <h3>Q: Is a CSP required to submit a Significant Change Request for combining or consolidating an already approved Infrastructure as a Service (IaaS) and Platform as a Service (PaaS)?</h3>
