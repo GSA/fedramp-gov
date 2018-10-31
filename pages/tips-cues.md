@@ -44,7 +44,7 @@ A: The CSP should be completing Continuous Monitoring and a POA&M each month as 
 <div class="q3">
 <h3>Q: How can the CSP access the redline version of the New FedRAMP SSP template?</h3>
 <p>
-A: Please email <a href="info@fedramp.gov">info@fedramp.gov</a> to request the redlined version of the New SSP templates. We will send you zip file with all of the SSPs (including the LI-SaaS Appendix B). There are many formatting changes and other minor corrections, but the major changes are as follows:
+A: Please email info@fedramp.gov to request the redlined version of the New SSP templates. We will send you zip file with all of the SSPs (including the LI-SaaS Appendix B). There are many formatting changes and other minor corrections, but the major changes are as follows:
 <p>
 1) Alignment with NIST 800-63-3 Digital Identity Requirements (Section 2.3, IA-5, Attachment 3)
 </p>
@@ -57,7 +57,6 @@ A: Please email <a href="info@fedramp.gov">info@fedramp.gov</a> to request the r
  <p>
 <em>(October 24, 2018)</em>
 </p>
-</div>
 
 <div class="q3">
 <h3>Q: Is a CSP required to submit a Significant Change Request for combining or consolidating an already approved Infrastructure as a Service (IaaS) and Platform as a Service (PaaS)?</h3>
@@ -68,7 +67,7 @@ A significant change request is required to consolidate systems, even if both ar
 </div>
 
 <div class="q3">
-<h3>TIP: Per the <a href="{{site.baseurl}}/assets/resources/templates/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a>, every new code release is not automatically considered a significant change.</h3>
+<h3>TIP: Per the <a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a>, every new code release is not automatically considered a significant change.</h3>
 <p>
 The CSP must perform a security impact analysis (SIA), in compliance with FedRAMP control CM-4, on every new code release, including the analysis required by the FedRAMP SA-11 controls (the base control and enhancements). Therefore, if an SIA shows that the new code release will adversely affect the system's security posture, the new code release must be treated as a significant change.
 <em>(October 31, 2018)</em>
@@ -78,6 +77,7 @@ The CSP must perform a security impact analysis (SIA), in compliance with FedRAM
 <div class="q3">
 <h3>TIP: Please remember when submitting a Significant Change Request to include the minimum control set that is required if your change type is a new technology, new interconnection, new data center, or a moderate to high FIPS-199 Categorization change.</h3>
 <p>
-This is outlined in the <a href="{{site.baseurl}}/assets/resources/templates/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a> document. You can find the control set in Appendix B of this document. 
+This is outlined in the <a href="{{site.baseurl}}/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a> document. You can find the control set in Appendix B of this document. 
+ <em>(October 31, 2018)</em>
 </p>
 </div>
