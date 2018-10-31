@@ -116,9 +116,11 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-D: 3PAO Documenting Evidence Procedures</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and on how to populate the SAR.</p>
+<p>This <a href="https://meet.gsa.gov/fedramp_training/event/login.html">course</a>  provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and on how to populate the SAR.</p>
 
-<p>Coming soon.</p>
+<p><strong>Duration:</strong> 1 hour</p>
+
+<p><strong>Released:</strong> October 30, 2018</p>
 </div>
 
 <h3 class="accordion">300-E: 3PAO Vulnerability Scanning Methodology and Documentation</h3>
