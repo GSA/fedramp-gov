@@ -7,53 +7,77 @@ body-class: page-fed-agencies
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
-<h2>September 2018 Tips & Cues</h2>
+<h2>October 2018 Tips & Cues</h2>
 
 <div class="q3">
-<h3>TIP: Submitting an Operational Requirement Deviation Request (DR) is typically acceptable when updating the host would break FIPS compliance.</h3>
+<h3>Q: Do single-tenant cloud offerings have to comply with FedRAMP, or can an agency issue a FISMA authorization?</h3>
 <p>
-However, it is critical that CSPs continuously re-evaluate FIPS certification to determine when updates become FIPS compliant. Consequently, the Operational Requirements would no longer be relevant.  
-<em>(September 5, 2018)</em>
+A: This should be vetted with the sponsoring government agency. For private (single tenant) clouds, agencies have the final say on authorization; however, FedRAMP strongly suggests use of the FedRAMP baselines. The difference between a private cloud and a community or public offering is that the authorizations aren't shared on the FedRAMP marketplace for private clouds since they cannot be reused.
+<em>(October 3, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: Do not automatically assume that an N/A assertion from an IaaS/Paas can be inherited by a SaaS, even if the SaaS does not implement the relevant features.</h3>
+<h3>Q: FedRAMP released updates to the System Security Plan (SSP) template. If we have already submitted our SSP to our Third Party Assessment Organization (3PAO) for our annual assessment, do we need to update the SSP to align to the new FedRAMP requirements and re-submit to the 3PAO?</h3>
 <p>
-The SaaS may also assert the control as N/A, but they need to provide their own rationale, not rely on the underlying IaaS/PaaS assertion. AC-19 Access Control for Mobile Devices comes to mind. This may be N/A for the IaaS, but in-scope for the SaaS. Thus, it would need to be addressed for the SaaS. 
-<em>(September 5, 2018)</em>
+A: No, you do not need to update and resubmit the SSP to your 3PAO immediately. These changes must be incorporated before the CSP’s next annual assessment (for annual assessments after Oct 31, 2018). Therefore, the changes to the SSP should be made but does not need to be submitted to the 3PAO unless the assessment is after the deadline date. Please see our Blog Post titled FedRAMP Documentation Release for additional details regarding new and updated documentation. 
+<em>(October 3, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: For significant change requests, make sure to describe in detail what is expected to be new and different in the environment.</h3>
+<h3>TIP: CSP must prove to the Third Party Assessment Organization (3PAO) that Plan of Action and Milestones (POA&M) items are remediated as per the FedRAMP timeframe (Section 4.2.6 Configuration and Risk Management Item #10)</h3>
 <p>
-It is important to detail all of the changes that affect the security posture of the system. This ensures that both the Authorizing Official (AOs)/Joint Authorization Board (JAB) reviewers and 3PAO know what will be required to assess the change. Missing information may result in the need for additional testing and delays. 
-<em>(September 12, 2018)</em>
+High vulnerabilities are required to be remediated within 30 days, Moderate vulnerabilities within 90 days and Low vulnerabilities within 180 days. 
+<em>(October 16, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: When inserting a diagram or graphic into a document, pleasure make sure that the content can be viewed.</h3>
+<h3>Q: If the CSO does not have any federal customers (and therefore no ATOs), how does the 3PAO handle configuration and risk management requirements?</h3>
 <p>
-It is acceptable for the graphic to require magnification to be readable, but the author must ensure that the magnified graphic resolves into readable content, not just a fuzzy expansion of the smaller graphic. Diagrams or graphics that require significant detail should be provided in an alternative format that can be reviewed by the Authorizing Official (AO) or the Joint Authorization Board (JAB). 
-<em>(September 12, 2018)</em>
+A: The CSP should be completing Continuous Monitoring and a POA&M each month as soon as they begin the FedRAMP process, rather than waiting until they are FedRAMP authorized. Even without Federal customers, the environment must be scanned and vulnerabilities must be remediated.
+<em>(October 16, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: During Continuous Monitoring, the Agency Authorizing Official (AO) is responsible for ensuring that the security posture of the cloud service their Agency is using continues to be acceptable.</h3>
+<h3>Q: How can the CSP access the redline version of the New FedRAMP SSP template?</h3>
 <p>
-The responsibility for the AO (or his/her designated representative) includes reviewing the system security artifacts provided by the Cloud Service Provider (CSP), Third Party Assessment Organization (3PAO), and FedRAMP PMO (in the case of services with a JAB P-ATO) for both granting the authorization and during continuous monitoring. The AO should have confidence that the security posture of the service is maintained in good standing for ongoing authorization.  
-<em>(September 26, 2018)</em>
+A: Please email info@fedramp.gov to request the redlined version of the New SSP templates. We will send you zip file with all of the SSPs (including the LI-SaaS Appendix B). There are many formatting changes and other minor corrections, but the major changes are as follows:
+<p>
+1) Alignment with NIST 800-63-3 Digital Identity Requirements (Section 2.3, IA-5, Attachment 3)
+</p>
+ <p>
+2) Updated reference to boundary guidance document (Section 9.2)
+   </p>
+ <p>
+3) Updated vulnerability remediation requirements (RA-5)  (October 24, 2018)
+ </p>
+ <p>
+<em>(October 24, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: Can I use the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR) form </a> for multiple significant changes?</h3>
+<h3>Q: Is a CSP required to submit a Significant Change Request for combining or consolidating an already approved Infrastructure as a Service (IaaS) and Platform as a Service (PaaS)?</h3>
 <p>
-A: Yes, you can include multiple significant changes as long as all changes will be implemented for assessment at the same time. We often see SCR’s for multiple changes where the CSP is on-boarding multiple new services, tech-refresh of multiple component types and others. The assumption is that testing for all of the new services and components will be performed under a single Security Assessment Plan (SAP) and the results will be reflected in a single Security Assessment Report (SAR).
-<em>(September 26, 2018)</em>
+A significant change request is required to consolidate systems, even if both are already authorized. Please complete our <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR) form </a> found on the FedRAMP Templates Page.  
+<em>(October 24, 2018)</em>
 </p>
 </div>
 
+<div class="q3">
+<h3>TIP: Per the <a href="{{site.baseurl}}/assets/resources/templates/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a>, every new code release is not automatically considered a significant change.</h3>
+<p>
+The CSP must perform a security impact analysis (SIA), in compliance with FedRAMP control CM-4, on every new code release, including the analysis required by the FedRAMP SA-11 controls (the base control and enhancements). Therefore, if an SIA shows that the new code release will adversely affect the system's security posture, the new code release must be treated as a significant change.
+<em>(October 31, 2018)</em>
+</p>
+</div>
+
+<div class="q3">
+<h3>TIP: Please remember when submitting a Significant Change Request to include the minimum control set that is required if your change type is a new technology, new interconnection, new data center, or a moderate to high FIPS-199 Categorization change.</h3>
+<p>
+This is outlined in the <a href="{{site.baseurl}}/assets/resources/templates/CSP_Significant_Change_Policies_and_Procedures.docx">FedRAMP Significant Change Policies and Procedures</a> document. You can find the control set in Appendix B of this document. 
+</p>
+</div>
