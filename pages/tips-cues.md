@@ -28,7 +28,7 @@ A: No, you do not need to update and resubmit the SSP to your 3PAO immediately. 
 <div class="q3">
 <h3>TIP: The CSP must prove to the Third Party Assessment Organization (3PAO) that Plan of Action and Milestones (POA&M) items are remediated as per the FedRAMP timeframe (Section 4.2.6 Configuration and Risk Management Item #10)</h3>
 <p>
-High vulnerabilities are required to be remediated within 30 days, Moderate vulnerabilities within 90 days and Low vulnerabilities within 180 days. 
+High vulnerabilities are required to be remediated within 30 days, Moderate vulnerabilities within 90 days, and Low vulnerabilities within 180 days. 
 <em>(October 16, 2018)</em>
 </p>
 </div>
