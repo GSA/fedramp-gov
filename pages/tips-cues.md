@@ -20,13 +20,13 @@ A: This should be vetted with the sponsoring government agency. For private (sin
 <div class="q3">
 <h3>Q: FedRAMP released updates to the System Security Plan (SSP) template. If we have already submitted our SSP to our Third Party Assessment Organization (3PAO) for our annual assessment, do we need to update the SSP to align to the new FedRAMP requirements and re-submit to the 3PAO?</h3>
 <p>
-A: No, you do not need to update and resubmit the SSP to your 3PAO immediately. These changes must be incorporated before the CSP’s next annual assessment (for annual assessments after Oct 31, 2018). Therefore, the changes to the SSP should be made but does not need to be submitted to the 3PAO unless the assessment is after the deadline date. Please see our Blog Post titled FedRAMP Documentation Release for additional details regarding new and updated documentation. 
+A: No, you do not need to update and resubmit the SSP to your 3PAO immediately. These changes must be incorporated before the CSP’s next annual assessment (for annual assessments after Oct 31, 2018). Therefore, the changes to the SSP should be made but does not need to be submitted to the 3PAO unless the assessment is after the deadline date. Please see our Blog Post titled <a href="https://www.fedramp.gov/fedramp-documentation-release/">FedRAMP Documentation Release</a> for additional details regarding new and updated documentation. 
 <em>(October 3, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>TIP: CSP must prove to the Third Party Assessment Organization (3PAO) that Plan of Action and Milestones (POA&M) items are remediated as per the FedRAMP timeframe (Section 4.2.6 Configuration and Risk Management Item #10)</h3>
+<h3>TIP: The CSP must prove to the Third Party Assessment Organization (3PAO) that Plan of Action and Milestones (POA&M) items are remediated as per the FedRAMP timeframe (Section 4.2.6 Configuration and Risk Management Item #10)</h3>
 <p>
 High vulnerabilities are required to be remediated within 30 days, Moderate vulnerabilities within 90 days and Low vulnerabilities within 180 days. 
 <em>(October 16, 2018)</em>
@@ -44,7 +44,7 @@ A: The CSP should be completing Continuous Monitoring and a POA&M each month as 
 <div class="q3">
 <h3>Q: How can the CSP access the redline version of the New FedRAMP SSP template?</h3>
 <p>
-A: Please email info@fedramp.gov to request the redlined version of the New SSP templates. We will send you zip file with all of the SSPs (including the LI-SaaS Appendix B). There are many formatting changes and other minor corrections, but the major changes are as follows:
+A: Please email <a href="info@fedramp.gov">info@fedramp.gov</a> to request the redlined version of the New SSP templates. We will send you zip file with all of the SSPs (including the LI-SaaS Appendix B). There are many formatting changes and other minor corrections, but the major changes are as follows:
 <p>
 1) Alignment with NIST 800-63-3 Digital Identity Requirements (Section 2.3, IA-5, Attachment 3)
 </p>
