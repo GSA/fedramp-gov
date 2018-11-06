@@ -2,7 +2,7 @@
 title: FedRAMP Updates 3PAO Requirements 
 permalink: /fedramp-updates-3pao-requirements/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
+image: /assets/img/blog-images/Blog_12072017.png
 author: FedRAMP
 layout: blog-page
 ---
