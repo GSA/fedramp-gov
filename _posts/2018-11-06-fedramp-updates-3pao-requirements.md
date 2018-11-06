@@ -18,4 +18,8 @@ layout: blog-page
 <li>Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience</li>
 <li>Guidance for non U.S. based 3PAO personnel and/or  OCONUS operations</li>
 </ul>
-<p>The PMO will host a webinar on Wednesday, November 14 at 2 p.m., which will cover the primary updates in more depth and provide an opportunity for 3PAOs to answer questions around the new requirements. <a href="https://www.eventbrite.com/e/fedramp-updates-3pao-requirements-registration-52233039427”>Register for the webinar.</a></p>
+<p>
+The PMO will host a webinar on Wednesday, November 14 at 2 p.m., which will cover the primary updates in more depth and provide an opportunity for 3PAOs to answer questions around the new requirements.
+
+<a href="https://www.eventbrite.com/e/fedramp-updates-3pao-requirements-registration-52233039427"> Register for the webinar</a>
+</p>
