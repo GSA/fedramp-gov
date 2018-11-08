@@ -13,7 +13,7 @@ FedRAMP works with the American Association for Laboratory Accreditation (A2LA) 
 
 FedRAMP works with A2LA to regularly review the A2LA 3PAO requirements for training expectations, quality management standards, and reporting commitments. Through this continuous collaboration, FedRAMP had recognized the need to strengthen the 3PAO accreditation requirements to provide for greater 3PAO oversight to ensure that a FedRAMP Accredited 3PAO provides the highest quality, most technically accurate assessments for the Cloud Service Providers (CSPs) who participate in the FedRAMP Program.
 
-The updated “[R311 , Specific Requirements: Federal Risk and Authorization Management Program (FedRAMP)](https://portal.a2la.org/requirements/A2LA_R311.pdf)” includes new and strengthened requirements that will help improve the quality of 3PAO assessment documentation; and ensure relevant, rigorous 3PAO assessment team training; to ensure maintenance and vigilant oversight of FedRAMP accredited organization.
+The updated <a href="https://portal.a2la.org/requirements/A2LA_R311.pdf">R311 -Specific Requirements: FedRAMP</a> includes new and strengthened requirements that will help improve the quality of 3PAO assessment documentation; and ensure relevant, rigorous 3PAO assessment team training; to ensure maintenance and vigilant oversight of FedRAMP accredited organization.
 
 Specifically, the primary focus areas for the updated requirements include:
 
