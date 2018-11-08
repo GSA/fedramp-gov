@@ -8,7 +8,9 @@ layout: blog-page
 ---
 <p>Third Party Assessment Organizations (3PAOs)  play a  critical role within the Federal Risk and Authorization Management Program (FedRAMP). Their independent  assessments serve as the basis for which the federal government can make authorization decisions regarding Cloud Service Offerings (CSOs). Ensuring 3PAO competency is essential to the program.</p>
 
-<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 -Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs. </p>
+<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “<a href="https://portal.a2la.org/requirements/A2LA_R311.pdf">R311 -Specific Requirements: FedRAMP</a>,” which includes new and strengthened qualifications for existing and new 3PAOs. </p>
+
+
 
 <p>The key updates are as follows:</p>
 <ul>
