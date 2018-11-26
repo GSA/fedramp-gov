@@ -83,21 +83,23 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">Updated 3PAO Requirements</h3>
 <div class="panel">
-<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 -Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
+<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 - Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
 	
 <p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">recorded webinar on updated 3PAO requirements</a> from November 2018, the PMO covered the following key updates:</p>
 <p>
-1) Incorporation of the R346 – Specific Requirements: Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Activity Information, which requires all 3PAO assessors to take a hands-on proficiency exercise, conducted by the Baltimore Cyber Range (BCR), at initial accreditation and annually thereafter </p>
-<p>
-2) Accreditation to ISO/IEC 17020, under the A2LA Cybersecurity Inspection Body Program, for a period of one year as evidence of implementation of a 3PAO’s quality management system
+<ul><li> Incorporation of the R346 – Specific Requirements: Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Activity Information, which requires all 3PAO assessors to take a hands-on proficiency exercise, conducted by the Baltimore Cyber Range (BCR), at initial accreditation and annually thereafter</li>
+<li> Accreditation to ISO/IEC 17020, under the A2LA Cybersecurity Inspection Body Program, for a period of one year as evidence of implementation of a 3PAO’s quality management system</li>
+<li> Forty hours of Continuing Professional Education (CPE) or equivalent for each 3PAO assessment team member</li>
+<li>Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience</li>
+<li>Guidance for non U.S. based 3PAO personnel and/or OCONUS operations</li>
+</ul>
+
 </p>
-<p>
-3) Forty hours of Continuing Professional Education (CPE) or equivalent for each 3PAO assessment team member
-</p>
-4) Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience 
-<p>
-5) Guidance for non U.S. based 3PAO personnel and/or OCONUS operations
-</p>
+<p><strong>Duration:</strong> 30 minutes</p>
+
+<p><strong>Released:</strong> November 15, 2018</p>
+
+<p><strong>Resource: </strong><a href="https://portal.a2la.org/requirements/A2LA_R311.pdf"> R311 - Specific Requirements: FedRAMP </a></p>
 </div>
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
