@@ -84,7 +84,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <h3 class="accordion">300-A: 3PAO FedRAMP 17020 Requirements: Understanding and Bridging the Gap</h3>
 <div class="panel">
 	
-<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"3PAO FedRAMP 17020 Requirements"</a> course provides 3PAOs with guidance on how FedRAMP requirements apply to ISO/IEC 17020:2012 which specifies requirements for the competence of bodies performing inspection and for the impartiality and consistency of their inspection activities.</p>
+<p>The <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">"3PAO FedRAMP 17020 Requirements"</a> course provides 3PAOs with guidance on how FedRAMP requirements apply to ISO/IEC 17020:2012 which specifies requirements for the competence of bodies performing inspection and for the impartiality and consistency of their inspection activities.</p>
 	
 
 <p>This course provides a 3PAO with the FedRAMP requirements overlaid on ISO/IEC 17020.</p>
