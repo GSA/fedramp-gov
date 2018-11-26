@@ -81,17 +81,17 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <div id="path-three">
 <h2>Path 3: Required for 3PAOs</h2>
 
-<h3 class="accordion">300-A: 3PAO FedRAMP 17020 Requirements: Understanding and Bridging the Gap</h3>
+<h3 class="accordion">Updated 3PAO Requirements</h3>
 <div class="panel">
+<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 -Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
 	
-<p>The <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">"3PAO FedRAMP 17020 Requirements"</a> course provides 3PAOs with guidance on how FedRAMP requirements apply to ISO/IEC 17020:2012 which specifies requirements for the competence of bodies performing inspection and for the impartiality and consistency of their inspection activities.</p>
+<p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">"recorded webinar on updated 3PAO requirements"</a> from November 2018, the PMO covered the following key updates:</p>
 	
-
-<p>This course provides a 3PAO with the FedRAMP requirements overlaid on ISO/IEC 17020.</p>
-
-<p><strong>Duration:</strong> 1 hour</p>
-
-<p><strong>Released:</strong> June 7th, 2018</p>
+* Incorporation of the R346 – Specific Requirements: Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Activity Information, which requires all 3PAO assessors to take a hands-on proficiency exercise, conducted by the Baltimore Cyber Range (BCR), at initial accreditation and annually thereafter
+* Accreditation to ISO/IEC 17020, under the A2LA Cybersecurity Inspection Body Program, for a period of one year as evidence of implementation of a 3PAO’s quality management system
+* Forty hours of Continuing Professional Education (CPE) or equivalent for each 3PAO assessment team member
+* Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience
+* Guidance for non U.S. based 3PAO personnel and/or OCONUS operations
 
 </div>
 
