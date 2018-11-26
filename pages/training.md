@@ -87,16 +87,16 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 	
 <p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">recorded webinar on updated 3PAO requirements</a> from November 2018, the PMO covered the following key updates:</p>
 <p>
-- Incorporation of the R346 – Specific Requirements: Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Activity Information, which requires all 3PAO assessors to take a hands-on proficiency exercise, conducted by the Baltimore Cyber Range (BCR), at initial accreditation and annually thereafter </p>
+1) Incorporation of the R346 – Specific Requirements: Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Activity Information, which requires all 3PAO assessors to take a hands-on proficiency exercise, conducted by the Baltimore Cyber Range (BCR), at initial accreditation and annually thereafter </p>
 <p>
-- Accreditation to ISO/IEC 17020, under the A2LA Cybersecurity Inspection Body Program, for a period of one year as evidence of implementation of a 3PAO’s quality management system
+2) Accreditation to ISO/IEC 17020, under the A2LA Cybersecurity Inspection Body Program, for a period of one year as evidence of implementation of a 3PAO’s quality management system
 </p>
 <p>
-- Forty hours of Continuing Professional Education (CPE) or equivalent for each 3PAO assessment team member
+3) Forty hours of Continuing Professional Education (CPE) or equivalent for each 3PAO assessment team member
 </p>
-- Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience 
+4) Regular FedRAMP PMO touch-points with 3PAOs and CSPs for feedback on deliverables and customer experience 
 <p>
-- Guidance for non U.S. based 3PAO personnel and/or OCONUS operations
+5) Guidance for non U.S. based 3PAO personnel and/or OCONUS operations
 </p>
 </div>
 
