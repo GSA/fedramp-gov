@@ -99,7 +99,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <p><strong>Released:</strong> November 15, 2018</p>
 
-<p><strong>Resource: </strong><a href="https://portal.a2la.org/requirements/A2LA_R311.pdf"> R311 - Specific Requirements: FedRAMP </a></p>
+<p><strong>Resource: </strong><a href="https://portal.a2la.org/requirements/A2LA_R311.pdf"> R311 - Specific Requirements: FedRAMP </a> (PDF) </p>
 </div>
 
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
