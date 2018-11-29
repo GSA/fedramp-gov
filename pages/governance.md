@@ -2,7 +2,7 @@
 layout: page
 title: Governance
 permalink: /governance/
-image: /assets/img/page-images/fedramp-governance.png
+image: /assets/img/page-images/governance.png
 ---
 
 The governance of FedRAMP is comprised of different executive branch entities that work in a collaborative manner to develop, manage, and operate the program. The governing bodies of FedRAMP include:
