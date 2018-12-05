@@ -12,13 +12,13 @@ You can also review and search all of our past Tips & Cues by downloading our co
 <div class="q3">
 <h3>TIP: Using graphic to depict a security accreditation boundary is crucial for assessor to fully understand the security enclave that is being addressed by the CSP.</h3>
 <p>
-The Boundary Diagram is essential in that it provides a depiction and understanding of the components managed within the boundary as well as systems that are leveraged external to the boundary (such as the hosting IaaS) and interconnections. Further guidance on preparing the Boundary diagram can be found on our FedRAMP Documents Page in a document titled “FedRAMP Authorization Boundary Guidance.”
+The Boundary Diagram is essential in that it provides a depiction and understanding of the components managed within the boundary as well as systems that are leveraged external to the boundary (such as the hosting IaaS) and interconnections. Further guidance on preparing the Boundary diagram can be found on our FedRAMP Documents Page in a document titled <a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">"FedRAMP Authorization Boundary Guidance"</a>
 <em>(November 7, 2018)</em>
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: The new Vulnerability Deviation Request Form has changed from a PDF to Excel format. Can we add all Deviation Requests (DRs) to one spreadsheet, or do we have to submit a new spreadsheet for each DR?</h3>
+<h3>Q: The new <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">Vulnerability Deviation Request Form</a> has changed from a PDF to Excel format. Can we add all Deviation Requests (DRs) to one spreadsheet, or do we have to submit a new spreadsheet for each DR?</h3>
 <p>
 A: You can add all DRs to one spreadsheet so each row on the excel file can be a new DR.
 <em>(November 7, 2018)</em>
@@ -37,19 +37,21 @@ A: There are no FedRAMP requirements restricting data to within the United State
 <h3>Q: How can an Agency ensure it maintains reasonable investigation capabilities, auditability, and traceability of data within the cloud?</h3>
 <p>
 A: Agencies can ensure they maintain reasonable investigation capabilities, auditability, and traceability of data by logging and monitoring the following application events:
-* Management of network connections
-* Addition or removal of users
-* Management of changes to privileges
-* Assignment of users to tokens
-* Addition or removal of tokens
-* Management of system administrative privileges access
-* Actions by users with administrative privileges
-* Use of data encrypting keys
-* Management of key changes
-* Creation and removal of system level objects
-* Import and export of data, including screen based reports
-* Submission of user-generated content, especially file uploads
+<ul>
+<li> Management of network connections</li>
+<li> Addition or removal of users</li>
+<li> Management of changes to privileges</li>
+<li> Assignment of users to tokens</li>
+<li> Addition or removal of tokens</li>
+<li> Management of system administrative privileges access</li>
+<li> Actions by users with administrative privileges</li>
+<li> Use of data encrypting keys</li>
+<li> Management of key changes</li>
+<li> Creation and removal of system level objects</li>
+<li> Import and export of data, including screen based reports</li>
+<li> Submission of user-generated content, especially file uploads</li>
 <em>(November 14, 2018)</em>
+ </ul>
 </p>
 </div>
 
