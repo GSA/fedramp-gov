@@ -18,7 +18,7 @@ The Boundary Diagram is essential in that it provides a depiction and understand
 </div>
 
 <div class="q3">
-<h3>Q: The new <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">Vulnerability Deviation Request Form</a> has changed from a PDF to Excel format. Can we add all Deviation Requests (DRs) to one spreadsheet, or do we have to submit a new spreadsheet for each DR?</h3>
+<h3>Q: The new <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.pdf">Vulnerability Deviation Request Form"</a> has changed from a PDF to Excel format. Can we add all Deviation Requests (DRs) to one spreadsheet, or do we have to submit a new spreadsheet for each DR?</h3>
 <p>
 A: You can add all DRs to one spreadsheet so each row on the excel file can be a new DR.
 <em>(November 7, 2018)</em>
