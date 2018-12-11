@@ -2,7 +2,7 @@
 layout: teammate
 name: Ashley Mahan
 image: /assets/img/team/profile_AshleyMahan.png
-title: Acting Secure Cloud Portfolio Director
+title: Secure Cloud Portfolio & FedRAMP Director (Acting)
 body-class: page-team-single
 date: 2018-01-01
 
@@ -14,7 +14,5 @@ Ashley is a trusted liaison between Federal Agencies, Cloud Services Providers, 
 In previous roles, Ashley provided leadership, strategy, cybersecurity, and compliance expertise to multiple Federal partners (DoD/LEA/IC/Civil).  Additionally, Ashley has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence to include the 2016 FedScoop 50 - “Most Inspiring Up & Comer” Award,  Booz Allen Hamilton’s Value in Practice (VIP) Award, and nominated for the 2017 Women in Technology Leadership Award.
 
 Ashley holds an M.S. in Information Technology, B.S. in Business and has a variety of project management and technology industry certifications to include PMP, ITIL, and Security+. 
-
-Follow Ashley on Twitter: [@FedRAMPAshley](http://twitter.com/FedRAMPAshley)
 
 Connect with Ashley on LinkedIn: [https://www.linkedin.com/in/ashleymahan](https://www.linkedin.com/in/ashleymahan)
