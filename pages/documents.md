@@ -378,7 +378,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   <tr>
     <td style="font-weight:bold;">Key Assessor Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_BCR_Phased_Participation_Requirements.pdf">Baltimore Cyber Range (BCR) Technical Proficiency Activity: Phased Participation Requirements</a></td>
-    <td>This policy document establishes a phased approach for when FedRAMP 3PAO assessment teams must take and pass the Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Exercise, which is a requirement for participation in FedRAMP.</td>
+    <td>This policy document describes the phased approach and required timeframe for FedRAMP 3PAO assessment teams to take and pass the Baltimore Cyber Range (BCR) Cybersecurity Technical Proficiency Exercise, a requirement for participation in FedRAMP.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/3PAO_BCR_Phased_Participation_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
