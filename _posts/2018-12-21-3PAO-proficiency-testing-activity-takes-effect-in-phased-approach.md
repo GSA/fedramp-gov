@@ -1,5 +1,5 @@
 ---
-title: Baltimore Cyber Range (BCR) Proficiency Testing Activity Blog Post 
+title: 3PAO Proficiency Testing Activity Takes Effect in Phased Approach
 permalink: /3PAO-proficiency-testing-activity-takes-effect-in-phased-approach/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_12072017.png
