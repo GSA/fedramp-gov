@@ -18,4 +18,4 @@ layout: blog-page
 
 <p>In **Phase 3**, 3PAOs must ensure individual assessors recertify, every 12 months, after an assessor successfully passes the BCR Cybersecurity Technical Proficiency Activity. This information must be included within each 3PAO’s respective Technical Proficiency Activity Participation Plan and provided to A2LA (FedRAMP@A2LA.org) and the FedRAMP PMO (info@fedramp.gov).</p>
 
-<p>If you want to learn more about these updates, please read our BCR Phased Participation Requirements document or reach out to info@fedramp.gov.</p>
+<p>If you want to learn more about these updates, please read our <a href="{{site.baseurl}}/assets/resources/documents/3PAO_BCR_Phased_Participation_Requirements.pdf">BCR Phased Participation Requirements document </a> or reach out to info@fedramp.gov.</p>
