@@ -58,7 +58,6 @@ All findings must be recorded on the open tab of the POA&M. A false positive (FP
 <p>
 A: Visiting data centers is a best practice to enable you to view the security at the facility first-hand as part of your verification and validation efforts. If a CSP has multiple data centers, you are not required to visit each one as part of the RAR effort; however, during the Security Assessment Report (SAR) phase, we expect the 3PAO to visit each data center to perform in-person interviews, review documents as necessary, and validate some of the controls. Most CSPs remotely manage their systems, and the 3PAO needs to validate that the security capabilities are actually in place.
 <em>(December 19th, 2018)</em>
- </ul>
 </p>
 </div>
 
