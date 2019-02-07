@@ -2,7 +2,7 @@
 layout: teammate
 name: Matt Goodrich
 image: /assets/img/team/profile_MattGoodrich.png
-title: Acting Assistant Commissioner for the Office of Products and Programs (OPP)
+title: Assistant Commissioner for the Office of Products and Programs (Acting)
 body-class: page-team-single
 date: 2018-01-06
 
