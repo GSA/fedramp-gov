@@ -36,4 +36,4 @@ layout: blog-page
 
 **Question: What is the criteria for grading the technical proficiency activity?**
 
-<p>Answer: Each activity consists of 20 controls that need to be evaluated as implemented or not implemented by assessor teams; individual controls (i.e., management, operational, and technical) may or may not have issues. Assessor teams must correctly identify 20 issues associated with these controls, which are selected by the BCR. Assessor teams may identify 35 issues (for example), but they will only be scored based on 20 issues identified by the BCR.</P
+<p>Answer: Each activity consists of 20 controls that need to be evaluated as implemented or not implemented by assessor teams; individual controls (i.e., management, operational, and technical) may or may not have issues. Assessor teams must correctly identify 20 issues associated with these controls, which are selected by the BCR. Assessor teams may identify 35 issues (for example), but they will only be scored based on 20 issues identified by the BCR.</p>
