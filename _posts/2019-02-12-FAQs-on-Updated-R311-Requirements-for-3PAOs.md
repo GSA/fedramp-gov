@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_12072017.png
 author: FedRAMP
 layout: blog-page
 ---
-<p>Since we released updates to the “R311-Specific Requirements: FedRAMP” on November 6th, which include new and strengthened qualifications for existing and new 3PAOs, we have received a number of questions from 3PAOs. In order to help 3PAOs fully understand what is required of them, we’ve drafted the FAQs below for your reference. If you have any additional questions that are not answered here, please feel free to reach out to info@fedramp.gov.</p>
+<p>Since we released updates to the <a href="https://portal.a2la.org/requirements/A2LA_R311.pdf">“R311-Specific Requirements: FedRAMP”</a> on November 6th, which include new and strengthened qualifications for existing and new 3PAOs, we have received a number of questions from 3PAOs. In order to help 3PAOs fully understand what is required of them, we’ve drafted the FAQs below for your reference. If you have any additional questions that are not answered here, please feel free to reach out to <a href="info@fedramp.gov">info@fedramp.gov</a>.</p>
 
 **Question: R346 suggests a 4-hour review time for a subset of 20 controls, is there a time limit for finalizing the abbreviated Security Assessment Report (SAR)?**
 
