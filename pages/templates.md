@@ -274,15 +274,6 @@ The table below is sortable by columns. The Category, Document, and Description 
 </td>
   <td>1/31/2018</td>
   </tr>
- <tr>
-    <td style="font-weight:bold;">Continuous Monitoring Phase</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">FedRAMP FIPS-199 Categorization Change Form Template</a></td>
-    <td>The FedRAMP FIPS-199 Categorization Change Form Template is used to capture a system categorization change request from a FedRAMP Moderate system to a FedRAMP High System and the supporting details surrounding the requested system change. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
-</td>
-    <td>8/16/2017</td>
-  </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Tailored</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Tailored-LI-SaaS-Requirements.docx">FedRAMP Tailored LI-SaaS Requirements</a></td>
