@@ -19,6 +19,6 @@ We are delighted to announce that we’ve selected the following four vendors to
 
 Congratulations, HRTec, Jive, Medallia, and TTEC! The FedRAMP PMO looks forward to working with you through this process. 
 
-**As we communicated in our [JAB Prioritization Criteria and Guidance Document](https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf), we accept business cases on a rolling basis and will have cut off dates quarterly (shared on our [JAB Authorization webpage](https://www.fedramp.gov/jab-authorization/)). Our next cut off date for FedRAMP Connect business cases will be March 8th.** 
+**As we communicated in our [JAB Prioritization Criteria and Guidance Document](https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf), we accept business cases on a rolling basis and will have cut off dates quarterly (shared on our [JAB Authorization webpage](https://www.fedramp.gov/jab-authorization/)). Our next cut off date for FedRAMP Connect business cases will be April 12th.** 
 
 As always, the PMO is available for informational and coaching call to help CSPs prepare for FedRAMP Connect. If you have any questions or would like to set up a phone call, please e-mail info@fedramp.gov for more information.
