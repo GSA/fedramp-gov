@@ -1,6 +1,6 @@
 ---
-title: Reviewing the SAR- Best Practices for Cloud Service Providers  
-permalink: /reviewing-the-sar-best-practices-for-cloud-service-providers/
+title: Reviewing the SAR - Best Practices for 3PAOs, Agencies, and Cloud Service Providers
+permalink: /reviewing-the-sar-best-practices-for-3paos-agencies-and-cloud-service-providers/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
@@ -47,5 +47,3 @@ Consistency
 **Agency Authorization: SAR Debriefs** 
 
 The PMO recommends a SAR debrief for all CSPs pursuing Agency authorizations (this practice is standard for all CSPs working with the JAB). Designed to inform stakeholders on the results of assessment, a SAR debrief allows the 3PAO to present its assessment findings to the Agency customer, FedRAMP PMO and JAB as well as provides an opportunity for the CSP to communicate its remediation plan. 
-
-Additional questions or comments can be provided to FedRAMP at <a href="info@fedramp.gov">info@fedramp.gov. 
