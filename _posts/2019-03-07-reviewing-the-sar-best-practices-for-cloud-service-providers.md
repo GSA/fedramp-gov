@@ -1,5 +1,5 @@
 ---
-title: Reviewing the SAR- Best Practices for Cloud Service Providers  
+title: Reviewing the SAR: Best Practices for 3PAOs, Agencies, and Cloud Service Providers
 permalink: /reviewing-the-sar-best-practices-for-cloud-service-providers/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
