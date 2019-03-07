@@ -7,17 +7,15 @@ author: FedRAMP
 layout: blog-page
 tags: coordinating-a-security-assessment-report
 ---
-Cloud Service Providers (CSPs) pursuing a Low, Moderate, or High FedRAMP authorization are required to partner with a third-party assessment organization (3PAO) to perform an assessment of their cloud service offering. 3PAOs perform comprehensive independent, and objective assessments of a CSP’s service offering and document the results of that assessment in the Security Assessment Report (SAR). While a third-party assessment organization (3PAO) is responsible for generating and delivering the SAR, CSPs have a responsibility to ensure the SAR is completed and all required attachments are provided.
+Cloud Service Providers (CSPs) pursuing a Low, Moderate, or High FedRAMP authorization are required to partner with a third-party assessment organization (3PAO) to perform an assessment of their cloud service offering. 3PAOs perform comprehensive independent and objective assessments of a CSP’s service offering and document the results of that assessment in the Security Assessment Report (SAR). 
 
-In the PMO’s experience, we have seen errors and inaccuracies in the SAR that significantly impact the timeline and realization of FedRAMP authorization for CSPs.
-
-To inform CSPs’ review of the SAR, the PMO has compiled best practices and probing questions that we encourage CSPs to leverage when reviewing the SAR prior to delivery to the JAB / an Authorizing Official (AO).
+The FedRAMP PMO has compiled best practices for 3PAOs, Agencies, and CSPs to leverage when reviewing the SAR.
 
 **Best Practices for Reviewing the SAR**
 
 * Confirm the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-SAR-Template.docx">FedRAMP SAR template</a> was used
 * Check that system risks are listed and accurately described
-* Confirm the 3PAO has accurately described mitigating factors and compensating controls for all risk adjustments and operational requirements
+* Confirm the 3PAO has accurately described mitigating factors and compensating controls for all risk adjustments and operational requirements 
 * Ensure the following documentation is included with the SAR and FedRAMP templates are used, where applicable:
   <p>  - <a href="https://www.fedramp.gov/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx">SAR Appendix A - Risk Exposure Table</a></p>
   <p>   - <a href="https://www.fedramp.gov/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP Appendix A - Test Case Procedures</a></p>
@@ -36,10 +34,10 @@ Documentation
 System Risks
 
 * _Are unique risks individually identified and labelled?_
-* _Are risks described to a level of detail that could be understood by the JAB / AO?_
+* _Are risks described to a level of detail that could be understood by the JAB / Agency Authorizing Official (AO)?_
 * _Are HIGH findings identified and provided along with comments?_
 * _Are downgraded risks listed, described, and include a description of the mitigating factor(s)?_
- 
+
 Consistency
 
 * _Are the inventory lists in the SAR consistent with the lists provided in the SSP?_
@@ -48,10 +46,6 @@ Consistency
  
 **Agency Authorization: SAR Debriefs** 
 
-The PMO recommends a SAR debrief for all CSPs pursuing Agency authorization. Designed to inform stakeholders on the results of assessment, a SAR debrief allows the 3PAO to present its assessment findings to the Agency customer and PMO. Debriefs also allow the CSP to communicate its remediation plan to the Agency customer and PMO.
+The PMO recommends a SAR debrief for all CSPs pursuing Agency authorizations (this practice is standard for all CSPs working with the JAB). Designed to inform stakeholders on the results of assessment, a SAR debrief allows the 3PAO to present its assessment findings to the Agency customer, FedRAMP PMO and JAB as well as provides an opportunity for the CSP to communicate its remediation plan. 
 
-We hope these best practices inform CSP’s review of their SAR. CSPs interested in scheduling a SAR debrief should reach out to agency@fedramp.gov or their existing FedRAMP point of contact.
-
-Additional questions or comments can be provided to FedRAMP at info@fedramp.gov.
-
-
+Additional questions or comments can be provided to FedRAMP at info@fedramp.gov. 
