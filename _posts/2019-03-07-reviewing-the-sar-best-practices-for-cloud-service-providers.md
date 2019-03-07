@@ -15,13 +15,13 @@ To inform CSPs’ review of the SAR, the PMO has compiled best practices and pro
 
 **Best Practices for Reviewing the SAR**
 
-* Confirm the FedRAMP SAR template was used
+* Confirm the [FedRAMP SAR template] (https://www.fedramp.gov/assets/resources/templates/FedRAMP-SAR-Template.docx) was used
 * Check that system risks are listed and accurately described
 * Confirm the 3PAO has accurately described mitigating factors and compensating controls for all risk adjustments and operational requirements
 * Ensure the following documentation is included with the SAR and FedRAMP templates are used, where applicable:
-   SAR Appendix A - Risk Exposure Table
-   SAP Appendix A - Test Case Procedures
-   Vulnerability scan results are in line with FedRAMP scanning guidance
+  <p> [SAR Appendix A - Risk Exposure Table] (https://www.fedramp.gov/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx) </p>
+ <p>  [SAP Appendix A - Test Case Procedures] (https://www.fedramp.gov/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx) </p>
+ <p>  Vulnerability scan results are in line with FedRAMP scanning [guidance] (https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf) </p>
 * Validate that the assessment methodology described in SAR Section 3 aligns with the methodology described in the Security Assessment Plan (SAP)
 * Validate that any sampling methodologies used for the purpose of assessment are described (if applicable)
 * Check that the SAR includes a 3PAO attestation statement and recommendation for authorization for the system
@@ -43,7 +43,7 @@ System Risks
 Consistency
 
 * _Are the inventory lists in the SAR consistent with the lists provided in the SSP?_
-* _Are the Assessment Results described in Appendix F consistent with the Risk Exposure Table (SAR Section 4 and Appendix A)?_
+* _Are the Assessment Results described in Appendix F consistent with the [Risk Exposure Table] (https://www.fedramp.gov/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx) (SAR Section 4 and Appendix A)?_
 * _Are document / system versions consistently stated within the SAR?_
  
 **Agency Authorization: SAR Debriefs** 
