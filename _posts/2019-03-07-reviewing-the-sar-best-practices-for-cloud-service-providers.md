@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 tags: coordinating-a-security-assessment-report
 ---
-Cloud Service Providers (CSPs) pursuing a Low, Moderate, or High FedRAMP authorization are required to partner with a third-party assessment organization (3PAO) to perform an assessment of their cloud service offering. 3PAOs perform comprehensive independent and objective assessments of a CSP’s service offering and document the results of that assessment in the Security Assessment Report (SAR). 
+Cloud Service Providers (CSPs) pursuing a Low, Moderate, or High FedRAMP authorization are required to partner with a Third-Party Assessment Organization (3PAO) to perform an assessment of their cloud service offering. 3PAOs perform comprehensive independent and objective assessments of a CSP’s service offering and document the results of that assessment in the Security Assessment Report (SAR). 
 
 The FedRAMP PMO has compiled best practices for 3PAOs, Agencies, and CSPs to leverage when reviewing the SAR.
 
@@ -48,4 +48,4 @@ Consistency
 
 The PMO recommends a SAR debrief for all CSPs pursuing Agency authorizations (this practice is standard for all CSPs working with the JAB). Designed to inform stakeholders on the results of assessment, a SAR debrief allows the 3PAO to present its assessment findings to the Agency customer, FedRAMP PMO and JAB as well as provides an opportunity for the CSP to communicate its remediation plan. 
 
-Additional questions or comments can be provided to FedRAMP at info@fedramp.gov. 
+Additional questions or comments can be provided to FedRAMP at <a href="info@fedramp.gov">info@fedramp.gov. 
