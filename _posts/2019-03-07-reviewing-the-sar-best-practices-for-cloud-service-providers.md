@@ -29,22 +29,22 @@ To inform CSPs’ review of the SAR, the PMO has compiled best practices and pro
 **Probing Questions for Reviewing the SAR**
 
 Documentation
-* Are all documents in FedRAMP templates?
-* Are all document artifacts complete?
-* Are all ancillary SAR documents included with the SAR?
+* _Are all documents in FedRAMP templates?_
+* _Are all document artifacts complete?_
+* _Are all ancillary SAR documents included with the SAR?_
 
 System Risks
 
-* Are unique risks individually identified and labelled?
-* Are risks described to a level of detail that could be understood by the JAB / AO?
-* Are HIGH findings identified and provided along with comments?
-* Are downgraded risks listed, described, and include a description of the mitigating factor(s)?
+* _Are unique risks individually identified and labelled?_
+* _Are risks described to a level of detail that could be understood by the JAB / AO?_
+* _Are HIGH findings identified and provided along with comments?_
+* _Are downgraded risks listed, described, and include a description of the mitigating factor(s)?_
  
 Consistency
 
-* Are the inventory lists in the SAR consistent with the lists provided in the SSP?
-* Are the Assessment Results described in Appendix F consistent with the Risk Exposure Table (SAR Section 4 and Appendix A)?
-* Are document / system versions consistently stated within the SAR?
+* _Are the inventory lists in the SAR consistent with the lists provided in the SSP?_
+* _Are the Assessment Results described in Appendix F consistent with the Risk Exposure Table (SAR Section 4 and Appendix A)?_
+* _Are document / system versions consistently stated within the SAR?_
  
 **Agency Authorization: SAR Debriefs** 
 
