@@ -19,9 +19,9 @@ To inform CSPs’ review of the SAR, the PMO has compiled best practices and pro
 * Check that system risks are listed and accurately described
 * Confirm the 3PAO has accurately described mitigating factors and compensating controls for all risk adjustments and operational requirements
 * Ensure the following documentation is included with the SAR and FedRAMP templates are used, where applicable:
-  <p>  <a href="https://www.fedramp.gov/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx">SAR Appendix A - Risk Exposure Table</a></p>
-  <p>   <a href="https://www.fedramp.gov/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP Appendix A - Test Case Procedures</a></p>
-  <p>   Vulnerability scan results are in line with FedRAMP scanning <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">guidance</a></p>
+  <p>  - <a href="https://www.fedramp.gov/assets/resources/templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx">SAR Appendix A - Risk Exposure Table</a></p>
+  <p>   - <a href="https://www.fedramp.gov/assets/resources/templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx">SAP Appendix A - Test Case Procedures</a></p>
+  <p>   - Vulnerability scan results are in line with FedRAMP scanning <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">guidance</a></p>
 * Validate that the assessment methodology described in SAR Section 3 aligns with the methodology described in the Security Assessment Plan (SAP)
 * Validate that any sampling methodologies used for the purpose of assessment are described (if applicable)
 * Check that the SAR includes a 3PAO attestation statement and recommendation for authorization for the system
