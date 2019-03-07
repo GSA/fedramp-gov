@@ -2,7 +2,7 @@
 title: Reviewing the SAR- Best Practices for Cloud Service Providers  
 permalink: /reviewing-the-sar-best-practices-for-cloud-service-providers/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 tags: coordinating-a-security-assessment-report
