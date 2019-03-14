@@ -22,7 +22,7 @@ The FedRAMP Five Awards will be given in the following five categories:
   </tr>
   <tr>
     <td>Small Agency</td>
-    <td>The Small Agency Award recognizes the _non-CFO Act Agency_ that demonstrates exceptional leadership through excellent responsiveness and communication, thought leadership, and a willingness to partner with the FedRAMP PMO to help improve the FedRAMP program.</td>
+    <td>The Small Agency Award recognizes the **non-CFO Act Agency** that demonstrates exceptional leadership through excellent responsiveness and communication, thought leadership, and a willingness to partner with the FedRAMP PMO to help improve the FedRAMP program.</td>
   </tr>
   <tr>
     <td>Large Agency Tech Lead</td>
@@ -30,7 +30,7 @@ The FedRAMP Five Awards will be given in the following five categories:
   </tr>
 <tr>
     <td>Small Agency Tech Lead</td>
-    <td>The Small Agency Tech Lead Award is given to the _non-CFO Act Agency_ leader who implements FedRAMP within their Agency, practices an interactive approach within the FedRAMP authorization process, and ensures compliance.</td>
+    <td>The Small Agency Tech Lead Award is given to the **non-CFO Act Agency** leader who implements FedRAMP within their Agency, practices an interactive approach within the FedRAMP authorization process, and ensures compliance.</td>
   </tr>
 <tr>
     <td>Future Leader</td>
