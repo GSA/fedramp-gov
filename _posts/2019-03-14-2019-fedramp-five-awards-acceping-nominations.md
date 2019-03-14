@@ -34,7 +34,7 @@ The FedRAMP Five Awards will be given in the following five categories:
   </tr>
 <tr>
     <td>Future Leader</td>
-    <td>The Future Leader Award recognizes an Agency employee (from either a large or small Agency) who demonstrates exceptional knowledge, skill, and leadership in their Agency’s FedRAMP adoption efforts. <strong>To qualify, this individual must have worked in government for five years or less, as of June 6, 2018.</strong></td>
+    <td>The Future Leader Award recognizes an Agency employee (from either a large or small Agency) who demonstrates exceptional knowledge, skill, and leadership in their Agency’s FedRAMP adoption efforts. <strong>To qualify, this individual must have worked in government for five years or less, as of June 6, 2019.</strong></td>
   </tr>
 </table>
 
