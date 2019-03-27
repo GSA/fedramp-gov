@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Online Courses
-permalink: /online-courses/
+permalink: /learning/online-courses/
 body-class: page-training
 ---
 
@@ -18,7 +18,7 @@ Once you have registered, you will recieve an e-mail confirmation and returning 
 If you have any questions, comments, or concerns about the FedRAMP Training series, please send them to [info@fedramp.gov](mailto:info@fedramp.gov) with the subject line: "Regarding FedRAMP Training."
 ## Learning Paths for All Populations, including CSPs, 3PAOs, and Agencies
 
-![image alt text](../assets/img/learning-path.png)
+![image alt text](../../assets/img/learning-path.png)
 <div id="path-one">
 <h2>Path 1: All Stakeholders</h2>
 		<h3 class="accordion">100-A: Welcome to FedRAMP</h3>
@@ -27,7 +27,7 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <p><strong>Duration:</strong> 1 hour</p>
 		
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of the "Welcome to FedRAMP" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
 </div>
 </div>
 <div id="path-two">
