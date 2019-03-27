@@ -100,6 +100,10 @@ section#do-once {
 	border: none;
 }
 
+#path-one, #path-two, #path-three, #path-four {
+	margin-top: 30px;
+}
+
 #path-one h2 {
 	background-image: url("../../assets/img/stakeholders.png");
 	background-size: 80px;
@@ -133,7 +137,18 @@ section#do-once {
 	border-bottom: 1px solid #cdcdcd;
 }
 
-#path-one h3, #path-two h3, #path-three h3 {
+#path-four h2 {
+	background-image: url("../../assets/img/project-images/assessor-icon.png");
+	background-size: 100px;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	background-position: -5px -15px;
+	min-height: 100px;
+	padding: 20px 0 20px 100px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+#path-one h3, #path-two h3, #path-three h3, #path-four h3 {
 	padding: 0 0 15px 30px; 
 	box-sizing: border-box;
 	width: 100%; 
@@ -141,11 +156,11 @@ section#do-once {
 	margin-left: 0;
 }
 
-#path-one .panel, #path-two .panel, #path-three .panel {
+#path-one .panel, #path-two .panel, #path-three .panel, #path-four .panel {
 	padding: 0 0 20px 40px;
 }
 
-#path-one .panel p:first-of-type, #path-two .panel p:first-of-type, #path-three .panel p:first-of-type {
+#path-one .panel p:first-of-type, #path-two .panel p:first-of-type, #path-three .panel p:first-of-type, #path-four .panel p:first-of-type {
 	margin: 0;
 }
 
@@ -515,4 +530,8 @@ margin-bottom: 20px;
 .page-learning #main {
 padding: 60px 5%;
 }
+}
+
+.page-webinars .panel {
+	padding: 0 0 0 50px;
 }
