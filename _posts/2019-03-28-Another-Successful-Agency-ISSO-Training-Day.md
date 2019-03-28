@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
 ---
-On March 25th, FedRAMP hosted it’s fourth ISSO training. This training was a huge success, drawing over 90 Information Security Professionals from over 30 Federal Agencies. Thank you to everyone who took time out of their day to join us. 
+On March 25th, FedRAMP hosted its fourth ISSO training. This training was a huge success, drawing over 90 Information Security Professionals from over 30 Federal Agencies. Thank you to everyone who took time out of their day to join us. 
 
 The training provided a collaborative space for ISSOs to review, understand, and discuss best practices and approaches to FedRAMP Agency Authorizations. 
 
