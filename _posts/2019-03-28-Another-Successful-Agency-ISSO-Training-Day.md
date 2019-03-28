@@ -6,7 +6,7 @@ image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
 ---
-On March 25th, FedRAMP hosted its fourth ISSO training. This training was a huge success, drawing over 90 Information Security Professionals from over 30 Federal Agencies. Thank you to everyone who took time out of their day to join us. 
+On March 25th, FedRAMP hosted its fourth Agency Information System Security Officer (ISSO) training. This training was a huge success, drawing over 90 Information Security Professionals from over 30 Federal Agencies. Thank you to everyone who took time out of their day to join us. 
 
 The training provided a collaborative space for ISSOs to review, understand, and discuss best practices and approaches to FedRAMP Agency Authorizations. 
 
@@ -20,7 +20,7 @@ FedRAMP Director Ashley Mahan opened the training by welcoming participants and 
 2) Increasing awareness of standard practices and approaches for a FedRAMP Authorization
   </p>
   <p>
-3) Clarifying common challenges and hurdles related to agency FedRAMP Authorizations 
+3) Clarifying common challenges and hurdles related to Agency FedRAMP Authorizations 
 </p>
 The training focused on the various phases of the Agency Authorization process and how Agencies can efficiently reuse authorization packages, as outlined in “<a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a>.” FedRAMP Subject Matter Experts (SMEs) from the PMO and across the USG also provided a “deep dive” on FedRAMP deliverables, exchanged lessons learned, and identified best-practices to aid ISSOs in their review. 
 
