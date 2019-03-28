@@ -1,5 +1,5 @@
 ---
-title: Another Successful Agency ISSO Training Day 
+title: FedRAMP Hosts Another Successful Agency ISSO Training Day 
 permalink: /Another-Successful-Agency-ISSO-Training-Day/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
