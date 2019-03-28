@@ -26,4 +26,4 @@ The training focused on the various phases of the Agency Authorization process a
 
 The next training will take place in Summer 2019. We look forward to hosting this event again to help educate the FedRAMP Agency Community. 
 
-If you have any questions about this training please reach out to info@fedramp.gov. 
+If you have any questions about this training please reach out to <a href="info@fedramp.gov">info@fedramp.gov. 
