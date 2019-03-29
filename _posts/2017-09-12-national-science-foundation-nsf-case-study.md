@@ -9,7 +9,7 @@ tags: preparing-for-an-agency-authorization
 ---
 Over the last two years, we have evolved the way we engage with the FedRAMP community. Throughout this transformation we have kept three goals in mind: reduce the authorization timeline without compromising security rigor, increase transparency, and strengthen the FedRAMP community/marketplace. One of the FedRAMP PMO’s critical work streams in meeting these goals is rooted in the FedRAMP agency authorization process. **
 
-To that end, we’ve decided to share some best practices for going through the agency authorization process by highlighting our work with the National Science Foundation (NSF), who achieved a FedRAMP Agency Authorization in just four months. More details on this can be found in our downloadable [NSF Case Study](https://fedramp-gov/assets/resources/documents/FedRAMP_NSF_Case_Study.pdf).
+To that end, we’ve decided to share some best practices for going through the agency authorization process by highlighting our work with the National Science Foundation (NSF), who achieved a FedRAMP Agency Authorization in just four months. More details on this can be found in our downloadable <a href="https://fedramp-gov/assets/resources/documents/FedRAMP_NSF_Case_Study.pdf">NSF Case Study</a>. 
 
 We attribute NSF’s success to a number of factors, which we have culled into a list of four best practices:
 
