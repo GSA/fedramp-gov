@@ -13,6 +13,6 @@ layout: blog-page
 <p> 2) <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_Prioritization_Business_Case_Demand_Worksheet.xlsx">Proof of Demand Worksheet</a> - Demand is the only “go/no-go” criteria for JAB prioritization. In order to accurately evaluate current and potential demand, the FedRAMP PMO requires proof of demand through contact information, periods of performance, contract numbers, etc.</p> 
 <p> 3) Demand Verification Letters/Emails (Optional) - CSPs can submit PDFs of letters from agencies or have agency representatives email info@fedramp.gov sharing their interest in a CSP’s product service. </p>
 
-<p>If you have any questions about completing a successful business case submission, please feel free to reach out to info@fedramp.gov. We’re also happy to conduct coaching calls with any interested CSPs. </p>
+<p>If you have any questions about completing a successful Business Case submission, please feel free to reach out to info@fedramp.gov. We’re also happy to conduct coaching calls with any interested CSPs. </p>
 
-<p>We look forward to reviewing your business case submission soon! </p>
+<p>We look forward to reviewing your Business Case submission soon! </p>
