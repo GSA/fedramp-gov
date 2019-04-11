@@ -17,6 +17,6 @@ Where information systems at the state and local levels are processing federal i
 <p> Some cloud service deployments are available for non-federal government use, specifically Public Cloud and some Government-Only Community Clouds.</p>
 
 * **Public Cloud:** Multi-tenant cloud environment available for government and non-goverment customers. 
-* **Government-Only Community Cloud:** Multi-tenant cloud environment specific to government data and can include federal, state, local, tribial, territorial, etc. information types. Depending on CSP, Government Community Clouds may be restricted to federal systems. 
+* **Government-Only Community Cloud:** Multi-tenant cloud environment specific to government data and can include federal, state, local, tribal, territorial, etc. information types. Depending on CSP, Government Community Clouds may be restricted to federal systems. 
 
 Non-federal government organizations can review the <a href="https://marketplace.fedramp.gov/#/products?sort=productName">FedRAMP Marketplace</a> for cloud service offerings that have achieved FedRAMP authorization for public and government community cloud offerings and work with CSPs to understand how those systems can be leveraged for state and local use. Additionally, CSPs can directly provide non-federal entities copies of their FedRAMP Authorization package for review. 
