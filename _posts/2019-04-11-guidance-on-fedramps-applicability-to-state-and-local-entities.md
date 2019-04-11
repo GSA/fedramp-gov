@@ -2,7 +2,7 @@
 title: Guidance on FedRAMP's Applicability to State and Local Entities
 permalink: /Guidance-on-FedRAMPs-Applicability-to-State-and-Local-Entities/
 body-class: page-blog
-image: /assets/img/nsf-case-study.png
+image: /assets/img/stateandlocal.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -19,4 +19,4 @@ Where information systems at the state and local levels are processing federal i
 * **Public Cloud:** Multi-tenant cloud environment available for government and non-goverment customers. 
 * **Government-Only Community Cloud:** Multi-tenant cloud environment specific to government data and can include federal, state, local, tribial, territorial, etc. information types. Depending on CSP, Government Community Clouds may be restricted to federal systems. 
 
-Non-federal government organizations can review the FedRAMP Marketplace for cloud service offerings that have achieved FedRAMP authorization for public and government community cloud offerings and work with CSPs to understand how those systems can be leveraged for state and local use. Additionally, CSPs can directly provide non-federal entities copies of their FedRAMP Authorization package for review. 
+Non-federal government organizations can review the <a href="https://marketplace.fedramp.gov/#/products?sort=productName">FedRAMP Marketplace</a> for cloud service offerings that have achieved FedRAMP authorization for public and government community cloud offerings and work with CSPs to understand how those systems can be leveraged for state and local use. Additionally, CSPs can directly provide non-federal entities copies of their FedRAMP Authorization package for review. 
