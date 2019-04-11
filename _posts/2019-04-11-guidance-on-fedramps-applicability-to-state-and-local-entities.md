@@ -2,7 +2,7 @@
 title: Guidance on FedRAMP's Applicability to State and Local Entities
 permalink: /Guidance-on-FedRAMPs-Applicability-to-State-and-Local-Entities/
 body-class: page-blog
-image: /assets/img/StateandLocal.png
+image: /assets/img/blog-images/state.png
 author: FedRAMP
 layout: blog-page
 ---
