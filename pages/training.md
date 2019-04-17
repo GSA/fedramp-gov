@@ -5,6 +5,7 @@ permalink: /training/
 body-class: page-training
 ---
 
+**Currently, our non-GSA users are experiencing connection difficulties on our FedRAMP Training Platform. We are working to resolve the issue as quickly as possible, and we apologize for the ininconveneince. In the meantime, please review the available training PDFs. If you have any questions please reach out to info@fedramp.gov.** 
 
 The FedRAMP PMO offers a series of online training courses to provide all stakeholders with a deeper understanding of FedRAMP and the level of effort that is required to successfully complete a FedRAMP assessment. This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.
 
