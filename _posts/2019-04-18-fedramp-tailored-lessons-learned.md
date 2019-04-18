@@ -27,10 +27,10 @@ Learning from the success of those authorizations, the PMO has identified a vari
 
 4)**Describe How Security Requirements are Met:** The Tailored baseline is designed to meet CSPs where they are at with respect to security, including understanding how a CSP is meeting the intent of the security requirements. CSPs should describe how they do security and what protections they have in place to achieve a level of security sufficient for federal customers. As an example,  if a CSP does not use CIS benchmarks, but utilizes other hardening standards and  benchmarks, the CSP should describe how those defined benchmarks are defined and implemented. 
 
-5)__Develop Mature Processes:__ CSPs have a responsibility to perform continuous monitoring and maintain a system’s security posture, requiring mature security processes
+5)**Develop Mature Processes:** CSPs have a responsibility to perform continuous monitoring and maintain a system’s security posture, requiring mature security processes
 
 6)**Enroll the Right Stakeholders:** Agencies and CSPs should ensure senior level buy-in for a Tailored authorization, including identifying system owners, the Agency Authorizing Official, Privacy Officer, Contracting Officer, General Council and Information System Security Officer (ISSO)
 
-7) **Engage the PMO:** Agencies and CSPs interested in pursuing, or actively working toward, a FedRAMP Tailored authorization should engage the FedRAMP PMO early and often
+7)**Engage the PMO:** Agencies and CSPs interested in pursuing, or actively working toward, a FedRAMP Tailored authorization should engage the FedRAMP PMO early and often
 
 If you want to learn more about the FedRAMP Tailored baseline, please visit our website. Any additional questions can be addressed to info@fedramp.gov. 
