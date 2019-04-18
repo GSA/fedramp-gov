@@ -18,26 +18,19 @@ Tailored empowers Agencies to define the use case for SaaS services, evaluate ri
 Since launch, 11 cloud services at 10 Agencies have achieved a FedRAMP Tailored authorization, accounting for 25% of all services authorized in 2018. Further, those services were authorized in a median of 90 days - a 50% reduction relative to FedRAMP’s other baselines. 
 
 Learning from the success of those authorizations, the PMO has identified a variety of best practices for CSPs and Agencies who are considering a FedRAMP Tailored authorization:
-<p>
-1) **Form Public and Private Partnerships:** Agencies and CSPs must partner with one another to accurately define and evaluate the use case for a SaaS 
-</p>
-<p>
-2) **Define the Authorization Boundary:** CSPs must have an authorization boundary diagram that depicts their scope of control over the system components of a SaaS, as well as interconnections to leveraged services external to the boundary
-</p>
-<p>
-3) **Provide Transparency Into SaaS’ Security:** CSPs should clearly communicate how a SaaS impacts federal information and provide Agency AOs insight into a system’s architecture
-</p>
-<p>
-4) **Describe How Security Requirements are Met:** The Tailored baseline is designed to meet CSPs where they are at with respect to security, including understanding how a CSP is meeting the intent of the security requirements. CSPs should describe how they do security and what protections they have in place to achieve a level of security sufficient for federal customers. As an example,  if a CSP does not use CIS benchmarks, but utilizes other hardening standards and  benchmarks, the CSP should describe how those defined benchmarks are defined and implemented. 
-</p>
-<p>
-5) **Develop Mature Processes:** CSPs have a responsibility to perform continuous monitoring and maintain a system’s security posture, requiring mature security processes
-</p>
-<p>
-6) **Enroll the Right Stakeholders:** Agencies and CSPs should ensure senior level buy-in for a Tailored authorization, including identifying system owners, the Agency Authorizing Official, Privacy Officer, Contracting Officer, General Council and Information System Security Officer (ISSO)
-</p>
-<p>
+
+1)**Form Public and Private Partnerships:** Agencies and CSPs must partner with one another to accurately define and evaluate the use case for a SaaS 
+
+2)**Define the Authorization Boundary:** CSPs must have an authorization boundary diagram that depicts their scope of control over the system components of a SaaS, as well as interconnections to leveraged services external to the boundary
+
+3)**Provide Transparency Into SaaS’ Security:** CSPs should clearly communicate how a SaaS impacts federal information and provide Agency AOs insight into a system’s architecture
+
+4)**Describe How Security Requirements are Met:** The Tailored baseline is designed to meet CSPs where they are at with respect to security, including understanding how a CSP is meeting the intent of the security requirements. CSPs should describe how they do security and what protections they have in place to achieve a level of security sufficient for federal customers. As an example,  if a CSP does not use CIS benchmarks, but utilizes other hardening standards and  benchmarks, the CSP should describe how those defined benchmarks are defined and implemented. 
+
+5)__Develop Mature Processes:__ CSPs have a responsibility to perform continuous monitoring and maintain a system’s security posture, requiring mature security processes
+
+6)**Enroll the Right Stakeholders:** Agencies and CSPs should ensure senior level buy-in for a Tailored authorization, including identifying system owners, the Agency Authorizing Official, Privacy Officer, Contracting Officer, General Council and Information System Security Officer (ISSO)
+
 7) **Engage the PMO:** Agencies and CSPs interested in pursuing, or actively working toward, a FedRAMP Tailored authorization should engage the FedRAMP PMO early and often
- </p>
 
 If you want to learn more about the FedRAMP Tailored baseline, please visit our website. Any additional questions can be addressed to info@fedramp.gov. 
