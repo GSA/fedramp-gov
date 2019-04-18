@@ -2,7 +2,7 @@
 title: FedRAMP Tailored Lessons Learned 
 permalink: /FedRAMP-Tailored-Lessons-Learned/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03292018_WhitePaper.png
+image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
 ---
