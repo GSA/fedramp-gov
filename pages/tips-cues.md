@@ -51,7 +51,7 @@ Operational Requirements (OR’s) occur when a vulnerability is found within the
 <div class="q3">
 <h3>Q: My Agency is moving some of our systems and applications to the cloud and we are told we must use FedRAMP. Do these Agency systems and applications need to be FedRAMP Authorized?</h3>
 <p>
-A: The OMB memo directs Federal Agencies to use FedRAMP Authorized Cloud Services to meet cloud computing needs. Federal Agencies routinely issue Authority to Operate (ATOs) that leverage FedRAMP Infrastructures (IaaS), Platforms (PaaS) and Software (SaaS) - as a Service. In fact, there have been over 1,000 Federal ATO's issued leveraging the cloud products.
+A: The <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">OMB memo</a> directs Federal Agencies to use FedRAMP Authorized Cloud Services to meet cloud computing needs. Federal Agencies routinely issue Authority to Operate (ATOs) that leverage FedRAMP Infrastructures (IaaS), Platforms (PaaS) and Software (SaaS) - as a Service. In fact, there have been over 1,000 Federal ATO's issued leveraging the cloud products.
 When Federal Agencies migrate Agency specific systems, applications, and data for processing to a FedRAMP Authorized IaaS for the exclusive use of the Agency, this becomes an Agency's Private Cloud. This is a Private cloud computing environment for the Agency is similar to traditional federal data center processing, except the processing is hosted by a FedRAMP Authorized IaaS as intended by the OMB mandate. Under this scenario, the Agency systems and applications are not shared with other Agencies as it would for a SaaS in a multi-tenant environment. So, there is no leverageable FedRAMP Authorization on our marketplace of the Private Cloud.  
   </P>
   <p>
