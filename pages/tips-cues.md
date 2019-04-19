@@ -21,17 +21,22 @@ The 3PAO is expected to assess the PIV/CAC implementation by the CSP even if the
 
 <div class="q3">
 <h3>Q: What are FedRAMP baseline requirements for a Cloud Service Offering (CSO) to become a High Baseline System?</h3>
-
+<p>
 1) There should be no interconnections to systems or services lacking FedRAMP Authorization. For JAB P-ATOs, interconnections must be to systems with other JAB P-ATOs.
-  
+  </P>
+  <p>
 2) “Corporate” services that impact the service/system must be in the authorization boundary.
-
+</P>
+<p>
 3) Software, firmware, hardware that performs a security function (e.g., Security Incident and Event Management [SIEM], System and the Intrusion Detection System [IDS]/Intrusion Prevention System [IPS], security scanners, logging tools, etc.) must be included in the boundary and tested against the high baseline requirements. The decision to include components inside or outside of the authorization boundary is dependent on the type of data processed in the system or asset.
-
+</P>
+<p>
 4) The system may have no high or critical findings.
-
+</P>
+<p>
 5) All encryption must use FIPS 140-2-validated cryptographic modules for data in use, data in transit, and data at rest, as well as for Multi-factor Authentication (MFA). MFA Encryption must use FIPS 140-2-validated cryptographic modules in both authenticators AND verifiers.
-
+</P>
+<p>
 6) If the Cloud Service Offering (CSO) has strong configuration management and change management built into the system development life cycle, the development environment can be outside the CSO boundary. This means that there is a 3PAO validated, reproducible and effective way to make service changes without impacting the production environment.
 </p>
 </div>
@@ -48,9 +53,11 @@ Operational Requirements (OR’s) occur when a vulnerability is found within the
 <p>
 A: The OMB memo directs Federal Agencies to use FedRAMP Authorized Cloud Services to meet cloud computing needs. Federal Agencies routinely issue Authority to Operate (ATOs) that leverage FedRAMP Infrastructures (IaaS), Platforms (PaaS) and Software (SaaS) - as a Service. In fact, there have been over 1,000 Federal ATO's issued leveraging the cloud products.
 When Federal Agencies migrate Agency specific systems, applications, and data for processing to a FedRAMP Authorized IaaS for the exclusive use of the Agency, this becomes an Agency's Private Cloud. This is a Private cloud computing environment for the Agency is similar to traditional federal data center processing, except the processing is hosted by a FedRAMP Authorized IaaS as intended by the OMB mandate. Under this scenario, the Agency systems and applications are not shared with other Agencies as it would for a SaaS in a multi-tenant environment. So, there is no leverageable FedRAMP Authorization on our marketplace of the Private Cloud.  
-  
+  </P>
+  <p>
 Private Cloud System Security Plans (SSPs) show the IaaS (and associated security controls) as leveraged/inherited and include other Agency components (i.e. COTS software, Agency developed systems and applications, hardware, data etc.) as ATO’d under Risk Management Framework (RMF). Agencies typically build their Private Clouds in FedRAMP Authorized Government Community Cloud Services.
-  
+  </P>
+  <p>
 To be in-scope for FedRAMP Authorization re-use, the cloud environment would be assessed "once and used many" as is the case with the IaaS, but not the Private Cloud.
 </p>
 </div>
