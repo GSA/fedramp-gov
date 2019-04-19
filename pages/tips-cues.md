@@ -21,8 +21,7 @@ The 3PAO is expected to assess the PIV/CAC implementation by the CSP even if the
 
 <div class="q3">
 <h3>Q: What are FedRAMP baseline requirements for a Cloud Service Offering (CSO) to become a High Baseline System?</h3>
-<p>
-  
+
 1) There should be no interconnections to systems or services lacking FedRAMP Authorization. For JAB P-ATOs, interconnections must be to systems with other JAB P-ATOs.
   
 2) “Corporate” services that impact the service/system must be in the authorization boundary.
@@ -34,6 +33,13 @@ The 3PAO is expected to assess the PIV/CAC implementation by the CSP even if the
 5) All encryption must use FIPS 140-2-validated cryptographic modules for data in use, data in transit, and data at rest, as well as for Multi-factor Authentication (MFA). MFA Encryption must use FIPS 140-2-validated cryptographic modules in both authenticators AND verifiers.
 
 6) If the Cloud Service Offering (CSO) has strong configuration management and change management built into the system development life cycle, the development environment can be outside the CSO boundary. This means that there is a 3PAO validated, reproducible and effective way to make service changes without impacting the production environment.
+</p>
+</div>
+
+<div class="q3">
+<h3>Q: Can a CSP close out Operational Requirements (ORs) in the Plan of Action and Milestones (POA&M)?</h3>
+<p>
+Operational Requirements (OR’s) occur when a vulnerability is found within the Information System, but the remediation (ie patch, parameter setting, etc.) cannot be implemented without adverse impact on the system. OR’s are accepted by the Joint Authorization Board (JAB) or Sponsoring Agency when strong mitigations are implemented to adjust the risk as low as possible. ORs remain in the Open Tab of the POA&M spreadsheet until the vulnerability is eliminated. The OR is reviewed at least yearly during Annual Assessments to confirm continued need with a view toward closing out the vulnerability.
 </p>
 </div>
 
