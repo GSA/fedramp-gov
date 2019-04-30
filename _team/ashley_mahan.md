@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Ashley Mahan
-image: /assets/img/team/profile_AshleyMahan.png
+image: /assets/img/team/profile_AshleyMahan-01.png
 title: Secure Cloud Portfolio & FedRAMP Director (Acting)
 body-class: page-team-single
 date: 2018-01-01
