@@ -11,7 +11,8 @@ Both Cloud Service Providers (CSPs) and Federal Agencies play a role in Continuo
 Completing Continuous Monitoring and managing multiple ATOs can become challenging when multiple agencies leverage a common cloud service. In order to help Agencies navigate this process and better perform Continuous Monitoring, FedRAMP published
 <a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">Guidance for Managing Multi-Agency Continuous Monitoring</a>. In this blog post, we walk you through the benefits, best practices, and resources outlined in this guide. 
 
-Why Multi-Agency Continuous Monitoring? 
+**Why Multi-Agency Continuous Monitoring?**
+
 Multi-Agency collaboration on Continuous Monitoring benefits participating agencies by creating a collaborative forum to:
 * Enforce a shared responsibility for the security posture of a cloud service
 * Shift the evaluation and decision-making regarding a CSP’s security posture from a single leveraging agency to multiple agencies
@@ -19,7 +20,7 @@ Multi-Agency collaboration on Continuous Monitoring benefits participating agenc
 * Mitigate the inefficiencies of agencies independently evaluating the ongoing security posture for a commonly leveraged cloud service
 
 
-What are Best Practices to Conduct Multi-Agency Continuous Monitoring?
+**What are Best Practices to Conduct Multi-Agency Continuous Monitoring?**
 
 **1) Establish a Collaboration Group of Agencies Leveraging a Common Cloud Service** 
 
@@ -37,12 +38,12 @@ Collaboration Groups should standardize the Continuous Monitoring requirements t
 * Developing a standard report that summarizes a CSP’s Continuous Monitoring evidence and presents a rolling picture of the service’s security posture 
 * Defining common nomenclature and taxonomy for communicating Continuous Monitoring evidence that is agreed upon by member agencies and the CSP 
 * Defining a governance process for the onboarding of new leveraging agencies and rationalization of agency-specific requirements relative to the Collaboration Group’s standardized requirements
-* If applicable, identify agency-specific Continuous Monitoring requirements that specific participating agencies require per FISMA / FITARA
+* If applicable, identify agency-specific Continuous Monitoring requirements that specific participating agencies require per FISMA/FITARA
 
 **3) Define a Governance Protocol for the Evaluation, Approval, and Review of Proposed Significant Changes by the CSP**
 
 Evaluation and approval of significant changes is often a sticking point in the management of ATOs for a cloud service across multiple agencies. Collaboration Groups should consider the following to streamline processes for proposed changes to a cloud service:
-* Define a ‘lowest common denominator’ for the qualification of a proposed change by a CSP as a significant change. Ask: What does each participating agency consider to be a significant a change? 
+* Define a ‘lowest common denominator’ for the qualification of a proposed change by a CSP as a significant change. Ask: *What does each participating agency consider to be a significant a change?*
 * Align the group’s significant change protocol to the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Request Form</a>. Leverage FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policy and Procedures</a> 
 * Encourage the CSP to clarify anticipated security impact of a proposed change to current agency-specific use cases of the cloud service 
 
