@@ -8,7 +8,8 @@ layout: blog-page
 ---
 Both Cloud Service Providers (CSPs) and Federal Agencies play a role in Continuous Monitoring. FedRAMP Authorized CSPs are required to perform Continuous Monitoring to maintain a sufficient security posture. Federal Agencies are obligated to review a CSP’s Continuous Monitoring artifacts to determine if an Authority-to-Operate (ATO) is appropriate over the life of the system. 
 
-Completing Continuous Monitoring and managing multiple ATOs can become challenging when multiple agencies leverage a common cloud service. In order to help Agencies navigate this process and better perform Continuous Monitoring, FedRAMP published Guidance for Managing Multi-Agency Continuous Monitoring. In this blog post, we walk you through the benefits, best practices, and resources outlined in this guide. 
+Completing Continuous Monitoring and managing multiple ATOs can become challenging when multiple agencies leverage a common cloud service. In order to help Agencies navigate this process and better perform Continuous Monitoring, FedRAMP published
+<a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">Guidance for Managing Multi-Agency Continuous Monitoring</a>. In this blog post, we walk you through the benefits, best practices, and resources outlined in this guide. 
 
 Why Multi-Agency Continuous Monitoring? 
 Multi-Agency collaboration on Continuous Monitoring benefits participating agencies by creating a collaborative forum to:
@@ -42,14 +43,14 @@ Collaboration Groups should standardize the Continuous Monitoring requirements t
 
 Evaluation and approval of significant changes is often a sticking point in the management of ATOs for a cloud service across multiple agencies. Collaboration Groups should consider the following to streamline processes for proposed changes to a cloud service:
 * Define a ‘lowest common denominator’ for the qualification of a proposed change by a CSP as a significant change. Ask: What does each participating agency consider to be a significant a change? 
-* Align the group’s significant change protocol to the FedRAMP Significant Change Request Form. Leverage FedRAMP’s Significant Change Policies and Procedures 
+* Align the group’s significant change protocol to the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Request Form</a>. Leverage FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policy and Procedures</a> 
 * Encourage the CSP to clarify anticipated security impact of a proposed change to current agency-specific use cases of the cloud service 
 
-We hope the above best practices further multi-agency collaboration on Continuous Monitoring. For additional resources, see below, or visit our FedRAMP website. Additional questions can be addressed to info@fedramp.gov.
+We hope the above best practices further multi-agency collaboration on Continuous Monitoring. For additional resources, see below, or visit our <a href="https://www.fedramp.gov/">FedRAMP website</a>. Additional questions can be addressed to info@fedramp.gov.
 
 **Additional Resources:** 
-* Multi-Agency Continuous Monitoring Guidance
-* Continuous Monitoring Strategy Guide
-* Continuous Monitoring Performance Management Guide
-* Significant Change Policy and Procured Guidance
+* <a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">Multi-Agency Continuous Monitoring Guidance</a>
+* <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a>
+* <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>
+* <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policy and Procedures Guidance</a>
 
