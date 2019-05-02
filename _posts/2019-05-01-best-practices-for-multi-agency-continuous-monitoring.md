@@ -47,9 +47,11 @@ Evaluation and approval of significant changes is often a sticking point in the 
 * Align the group’s significant change protocol to the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">FedRAMP Significant Change Request Form</a>. Leverage FedRAMP’s <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policy and Procedures</a> 
 * Encourage the CSP to clarify the anticipated security impact of a proposed change to current Agency-specific use cases of the cloud service 
 
-We hope the above best practices further Multi-Agency collaboration on Continuous Monitoring. For additional resources, see below, or visit our <a href="https://www.fedramp.gov/">FedRAMP website</a>. Additional questions can be addressed to <a href="info@fedramp.gov">info@fedramp.gov</a>.
+We hope the above best practices further Multi-Agency collaboration on Continuous Monitoring. For additional resources, see below, or visit our <a href="https://www.fedramp.gov/">FedRAMP website</a>. Additional questions can be addressed to 
+<a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.<br> 
 
 **Additional Resources:** 
+
 <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">Multi-Agency Continuous Monitoring Guidance</a>
 * <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a>
 * <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>
