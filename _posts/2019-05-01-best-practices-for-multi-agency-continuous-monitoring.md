@@ -52,7 +52,7 @@ We hope the above best practices further Multi-Agency collaboration on Continuou
 
 **Additional Resources:** 
 
-<a href="https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">Multi-Agency Continuous Monitoring Guidance</a>
+* <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf">Multi-Agency Continuous Monitoring Guidance</a>
 * <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf">Continuous Monitoring Strategy Guide</a>
 * <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf">Continuous Monitoring Performance Management Guide</a>
 * <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Significant_Change_Policies_and_Procedures.docx">Significant Change Policy and Procedures Guidance</a>
