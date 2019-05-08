@@ -49,6 +49,6 @@ If you’re unable to use Google Forms, please email us at info@fedRAMP.gov usin
 
 **The nomination period closes on May 17th, and winners will be announced on June 25th at the <a href="https://atarc.org/event/cloud-infrastructure-summit/">ATARC Federal Cloud & Infrastructure Summit.</a>**
 
-Please note that FedRAMP Five is a public recognition award and does not include any monetary.
+Please note that FedRAMP Five is a public recognition award and does not include any monetary prizes.
 
 We look forward to seeing your nominations and celebrating our shared achievements and successes!
