@@ -2,7 +2,7 @@
 title: Meet FedRAMP's Customer Success Manager 
 permalink: /Meet-FedRAMPs-Customer-Success-Manager/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_07122018_ryan.png
+image: /assets/img/blog-images/Blog_05092019_ryan3.png
 author: FedRAMP
 layout: blog-page
 ---
