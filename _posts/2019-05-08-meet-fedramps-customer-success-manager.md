@@ -8,15 +8,15 @@ layout: blog-page
 ---
 The FedRAMP PMO wants to give our readers a glimpse into the human side of the FedRAMP program by introducing all the members of the FedRAMP PMO leadership team. We’re diving into their backgrounds, goals & aspirations, daily operations, and hobbies outside of work. 
 
-First, meet Ryan Hoesing, our FedRAMP Customer Success Manager. We sat down with Ryan to learn about what brought him into the field of technology and what is on top of mind as he works to improve and ensure customer success with all FedRAMP customers. 
+First, meet Ryan Hoesing, our FedRAMP Customer Success Manager. We sat down with Ryan to learn about what brought him into the field of technology and what is top of mind as he works to improve and ensure customer success with all FedRAMP customers. 
 
 **What is top of mind for you for FedRAMP’s Customer Success Lane?**
 
-The FedRAMP PMO has a tailored approach in how we engage with our community by using multiple communication channels such as our blog, social media, listserv, website, in-person training, one-on-one meetings (and many more). Our messaging is also personalized based on our audience, purpose and intended goals or outcomes of the engagement. Your success is our success with the goal in protecting federal information within cloud technologies. 
+The FedRAMP PMO has a tailored approach to how we engage with our community by using multiple communication channels such as our blog, social media, listserv, website, in-person training, one-on-one meetings (and many more). Our messaging is also personalized based on our audience, purpose, and intended goals or outcomes of the engagement. Your success is our success with the goal of protecting federal information within cloud technologies. 
 
 **What does your day to day look like?** 
 
-Nearly everyday, I am connecting with stakeholders either on the phone or in person to ensure that they have what they need to navigate the FedRAMP process. Some days are filled with customer calls with Federal Agencies and CSPs. Other days, I’m visiting individual agencies to provide in-person training and an overview of the FedRAMP Program. I leave time each week to strategize at a high level about priorities and goals for the given week and month ahead. I am lucky to work with such bright and motivated colleagues who I can I lean to for support and bounce ideas off of.
+Nearly everyday, I am connecting with stakeholders either on the phone or in person to ensure that they have what they need to navigate the FedRAMP process. Some days are filled with customer calls with Federal Agencies and CSPs. Other days, I’m visiting individual agencies to provide in-person training and an overview of the FedRAMP Program. I leave time each week to strategize at a high level about priorities and goals for the given week and month ahead. I am lucky to work with such bright and motivated colleagues who I can I lean on for support and bounce ideas off of.
 
 **In your opinion, how can we best meet our customer’s needs?**
 
