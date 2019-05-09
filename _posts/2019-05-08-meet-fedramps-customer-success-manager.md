@@ -12,7 +12,7 @@ First, meet Ryan Hoesing, our FedRAMP Customer Success Manager. We sat down with
 
 **What is top of mind for you for FedRAMP’s Customer Success Lane?**
 
-The FedRAMP PMO has a tailored approach to how we engage with our community by using multiple communication channels such as our blog, social media, listserv, website, in-person training, one-on-one meetings (and many more). Our messaging is also personalized based on our audience, purpose, and intended goals or outcomes of the engagement. Your success is our success with the goal of protecting federal information within cloud technologies. 
+The FedRAMP PMO has a tailored approach to how we engage with our community by using multiple communication channels such as our blog, social media, listserv, website, in-person training, one-on-one meetings, and many more. Our messaging is also personalized based on our audience, purpose, and intended goals or outcomes of the engagement. Your success is our success with the goal of protecting federal information within cloud technologies. 
 
 **What does your day to day look like?** 
 
@@ -20,7 +20,7 @@ Nearly everyday, I am connecting with stakeholders either on the phone or in per
 
 **In your opinion, how can we best meet our customer’s needs?**
 
-By offering more touch points throughout the various phases of the FedRAMP process we ensure that all stakeholders are aligned and working together. Frequent communications that encourages open dialogue and transparency among stakeholders are essential to a successful authorization. This includes authorization kick offs, assessment debriefs, and regularly scheduled status call that help Cloud Service Providers know what to expect in each phase of pursuing a FedRAMP Authorization.
+By offering more touch points throughout the various phases of the FedRAMP process we ensure that all stakeholders are aligned and working together. Frequent communication that encourages open dialogue and transparency among stakeholders is essential to a successful authorization. This includes authorization kick offs, assessment debriefs, and regularly scheduled status call that help Cloud Service Providers know what to expect in each phase of pursuing a FedRAMP Authorization.
 
 **Where can we find you when you’re not working?**
 
