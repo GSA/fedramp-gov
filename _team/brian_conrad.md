@@ -2,7 +2,7 @@
 layout: teammate
 name: Brian Conrad
 image: /assets/img/team/profile_BrianConrad.jpg
-title: FedRAMP Program Manager for Strategy, Innovation, and Technology
+title: FedRAMP Program Manager for Cybersecurity
 body-class: page-team-single
 date: 2018-01-02
 
