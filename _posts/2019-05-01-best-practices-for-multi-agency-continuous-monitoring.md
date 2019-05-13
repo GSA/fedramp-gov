@@ -2,7 +2,7 @@
 title: Best Practices for Multi-Agency Continuous Monitoring
 permalink: /Best-Practices-for-Multi-Agency-Continuous-Monitoring/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_03202018_Computer.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
