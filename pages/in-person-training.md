@@ -12,7 +12,7 @@ The FedRAMP PMO provides hands-on training opportunities with in-depth focus on 
 <p>Open to Federal Agency Information System Security Officers (ISSOs), these in-person trainings breakdown the FedRAMP Agency Authorization process, providing “deep-dives” into FedRAMP deliverables and processes. Trainings focus on best practices and lessons learned for completing an Agency authorization and are designed to equip ISSOs with the knowledge and resources necessary to best authorize cloud services. Facilitated by FedRAMP Subject Matter Experts (SMEs) and practitioners from trusted Agency partners, ISSO trainings are valuable opportunities for Agency ISSOs to network and learn in a collaborative environment.</p>
 
 <h2>Training Requests</h2>
-<p>The FedRAMP PMO is available, upon request, to provide in-person trainings to Agency personnel, including ISSOs, contracting staff, and senior leaders. If you would like FedRAMP to speak to your Agency, please fill out this google form and a member of the PMO will reach out to you with scheduling options. (Due to resource limitations, in-person trainings outside of the Washington, D.C. area are limited.)</p>
+<p>The FedRAMP PMO is available, upon request, to provide in-person trainings to Agency personnel, including ISSOs, contracting staff, and senior leaders. If you would like FedRAMP to speak to your Agency, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSc022xd1TdwmWSjD6z6QJZpU7i3lH5AO-tzyTV_vGh0rdZzNQ/viewform?usp=sf_link">this form</a> and a member of the PMO will reach out to you with scheduling options. (Due to resource limitations, in-person trainings outside of the Washington, D.C. area are limited.)</p>
 
 
 <h2>Industry Days</h2>
