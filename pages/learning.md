@@ -9,18 +9,24 @@ Learning is a core component of FedRAMP. We know that our program is rigorous, d
 
 <ul class="learning-group">
 	<li class="online">
-		<img src="{{site.baseurl}}/assets/img/training-icon.png" alt="Online Courses" title="Online Courses">
-		<h3>Online Courses</h3><br>
+		<a href="{{site.baseurl}}/learning/online-courses"><img src="{{site.baseurl}}/assets/img/training-icon.png" alt="Online Courses" title="Online Courses"></a>
+		<a href="{{site.baseurl}}/learning/online-courses"><h3>Online Courses</h3></a><br>
 		<p>Deep-dive courses on various elements of the authorization process and what’s required of specific stakeholder groups. These online courses are available to all stakeholders to better understand the FedRAMP authorization process.</p>
 	</li>
 	<li class="webinars">
-		<img src="{{site.baseurl}}/assets/img/webinar-icon.png" alt="Webinars" title="Webinars">
-		<h3>Webinars</h3><br>
+		<a href="{{site.baseurl}}/learning/webinars"><img src="{{site.baseurl}}/assets/img/webinar-icon.png" alt="Webinars" title="Webinars"></a>
+		<a href="{{site.baseurl}}/learning/webinars"><h3>Webinars</h3></a><br>
 		<p>Live, relevant, and timely sessions around FedRAMP requirements and program updates. Webinars are recorded and can be viewed after the live session.</p>
 	</li>
 	<li class="in-person">
-		<img src="{{site.baseurl}}/assets/img/in-person-icon.png" alt="In-Person Training" title="In-Person Training">
-		<h3>In-Person Training</h3><br>
+		<a href="{{site.baseurl}}/learning/in-person-training"><img src="{{site.baseurl}}/assets/img/in-person-icon.png" alt="In-Person Training" title="In-Person Training"></a>
+		<a href="{{site.baseurl}}/learning/in-person-training"><h3>In-Person Training</h3></a><br>
 		<p>Hands-on training opportunities with in-depth focus on specific topics. The PMO provides these customized training events to meet our audience’s real time needs.</p>
 	</li>
 </ul>
+<div class="learning-events">
+<h2>Upcoming Learning events </h2>
+<p><a href="https://www.eventbrite.com/e/fedramp-agency-isso-training-june-2019-tickets-58997377745" target="_blank">Agency ISSO Training</a> (June 17, 2019 9am-4pm)</p>
+
+<p>Please email <a href="info@fedramp.gov">info@fedramp.gov</a> with any ideas around additional training topics.</p>
+</div>

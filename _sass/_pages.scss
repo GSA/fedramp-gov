@@ -148,13 +148,13 @@ section#do-once {
 	border-bottom: 1px solid #cdcdcd;
 }
 
-#path-one h3, #path-two h3, #path-three h3, #path-four h3 {
-	padding: 0 0 15px 30px; 
-	box-sizing: border-box;
-	width: 100%; 
-	float: left; 
-	margin-left: 0;
-}
+//#path-one h3, #path-two h3, #path-three h3, #path-four h3 {
+//	padding: 0 0 15px 30px; 
+//	box-sizing: border-box;
+//	width: 100%; 
+//	float: left; 
+//	margin-left: 0;
+//}
 
 #path-one .panel, #path-two .panel, #path-three .panel, #path-four .panel {
 	padding: 0 0 20px 40px;
@@ -488,6 +488,9 @@ ul.columns {
 }
 
 .page-learning {
+.learning-events {
+text-align: center;
+}
 #main {
 width: 100%;
 max-width: 1200px;
@@ -498,6 +501,7 @@ ul.learning-group {
 display: flex;
 flex-flow: row;
 justify-content: space-around;
+padding: 0;
 li {
 width: 100%;
 max-width: 300px;
@@ -508,6 +512,7 @@ margin-bottom: 0;
 }
 p {
 margin-top: 0;
+padding: 0 5%;
 }
 img {
 max-width: 200px;
