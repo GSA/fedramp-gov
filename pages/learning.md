@@ -5,7 +5,7 @@ permalink: /learning/
 body-class: page-learning
 ---
 
-FedRAMP’s Learning Program provides all stakeholders with increased awareness and a deeper understanding of the FedRAMP authorization process and the requirements needed to achieve a FedRAMP authorization. The program includes learning opportunities around the level of effort that is required to successfully complete a FedRAMP assessment and provides a holistic view of FedRAMP. 
+Learning is a core component of FedRAMP. We know that our program is rigorous, demanding, and requires that our stakeholders accrue and maintain a substantial knowledge base. In order to make this knowledge more accessible and attainable, we have designed online courses, webinars, and in-person training opportunities to empower and inform our stakeholders every step of the way. 
 
 <ul class="learning-group">
 	<li class="online">
