@@ -25,6 +25,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <h2>Path 2: Cloud Service Providers (CSPs)</h2>
 <p>These online modules are designed to help CSPs understand the requirements of security package development and give a detailed overview of the required templates and their supporting documentation.</p>
 <h3 class="accordion">200-A: FedRAMP System Security Plan (SSP) Required Documents</h3>
+<div class="panel">
 <p><strong>Description:</strong> This  course provides CSPs with a deeper understanding of the detail and rigor required to complete  the <a href="https://www.fedramp.gov/developing-a-system-security-plan/">System Security Plan (SSP)</a>. The SSP is the main document of a security package in which a CSP describes all of the security controls in use on the information system and their implementation. This course will familiarize you with the required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
