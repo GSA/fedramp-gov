@@ -490,6 +490,11 @@ ul.columns {
 .page-learning {
 .learning-events {
 text-align: center;
+ul {
+	li {
+		list-style: inside;
+	}
+}
 }
 #main {
 width: 100%;
