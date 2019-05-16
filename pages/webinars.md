@@ -24,7 +24,7 @@ The FedRAMP PMO hosts webinars for all stakeholder groups to share information o
 <h3 class="accordion">New Website Resources for Agencies November 2018</h3>
 <div class="panel">
 <p><strong>Description:</strong> Webinar for Agencies partners interested in learning more about the recent updates to fedramp.gov and the resources available to help Agencies through the FedRAMP authorization process. </p>
-<p><strong>Duration: 30 minutes </strong></p>
+<p><strong>Duration:</strong> 30 minutes </p>
 <p><a href="https://www.youtube.com/watch?v=JMSKBVKjE9g&t=39s" target="_blank">View webinar on YouTube.</a></p>
 </div>
 
