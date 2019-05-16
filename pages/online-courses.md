@@ -137,44 +137,6 @@ These online courses consist of on-demand modules designed for specific stakehol
 <h3 class="accordion">400-A: Overview of ISSO On-Demand Modules</h3>
 <div class="panel">
 <p><strong>Description:</strong> This will module will give an overview of what to expect from attending the ISSO on-demand modules.</p>
-<p><strong>Duration:</strong> 4 minutes</p>
+<p><strong>Duration:</strong> 90 minutes</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-</div>
-<h3 class="accordion">400-B: Pre-Authorization</h3>
-<div class="panel">
-<p><strong>Description:</strong> This module provides an overview of how Agencies, the CSP, and the 3PAO can collaborate in preparation for the Agency authorization process. </p>
-<p>This module will cover:</p>
-<ul>
-<li>Establishing relationships with the CSP and the PMO</li>
-<li>Developing a plan for authorization</li>
-</ul>
-<p><strong>Duration:</strong> 10 minutes</p>
-<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-<p>Download a PDF version of this course.</p>
-</div>
-<h3 class="accordion">400-C: During Authorization</h3>
-<div class="panel">
-<p><strong>Description:</strong> This module provides an overview of how to review the Cloud Service Offering’s security authorization package. </p>	
-<p>This module will cover: </p>
-<ul>
-<li>Reviewing the Cloud Service Offering’s documentation including the System Security Plan (SSP), Security Assessment Plan (SAP), and the Security Assessment Report (SAR)</li>
-<li>Approving the Cloud Service Offering documentation and testing updates</li>
-<li>Authority to Operate (ATO) decision</li>
-</ul>
-<p><strong>Duration:</strong> 40 minutes</p>
-<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-<p>Download a PDF version of this course.</p>
-</div>
-<h3 class="accordion">400-D: Post Authorization</h3>
-<div class="panel">
-<p><strong>Description:</strong> This module will provide an overview of how to perform ongoing security authorization monitoring.</p>			
-<p>This module will cover:</p>
-<ul>
-<li>Setting process and procedures for ongoing security authorization monitoring practices</li>
-<li>Understanding the ongoing picture of Cloud Service Offering’s current risk posture</li>
-</ul>
-<p><strong>Duration:</strong> 15 minutes</p>
-<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-<p>Download a PDF version of this course.</p>
-</div>
 </div>
