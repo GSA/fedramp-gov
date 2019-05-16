@@ -15,7 +15,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>The first education path provides an overview of the FedRAMP program.</p>
 <h3 class="accordion">100-A: Welcome to FedRAMP</h3>
 <div class="panel">
-<p><strong>Description:</strong> This Is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
+<p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
