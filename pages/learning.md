@@ -28,5 +28,8 @@ Learning is a core component of FedRAMP. We know that our program is rigorous, d
 <h2>Upcoming Learning events </h2>
 <p><a href="https://www.eventbrite.com/e/fedramp-agency-isso-training-june-2019-tickets-58997377745" target="_blank">Agency ISSO Training</a> (June 17, 2019 9am-4pm)</p>
 
+
+
+
 <p>Please email <a href="info@fedramp.gov">info@fedramp.gov</a> with any ideas around additional training topics.</p>
 </div>
