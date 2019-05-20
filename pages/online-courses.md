@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-learning
 title: Online Courses
 permalink: /learning/online-courses/
 body-class: page-training
@@ -67,7 +67,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> of the "How to Write a Control" training course.</p>
 </div>
-
+</div>
 <div id="path-three">
 <h2>Path 3: Third Party Assessors (3PAOs)</h2>
 <p>These online modules are required for all 3PAOs and focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment of a CSP. At the end of each course, there is a mandatory quiz and a certificate of completion is provided to attendees who complete the course and pass the final quiz.</p>
@@ -140,4 +140,5 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
 <p><strong>Duration:</strong> 90 minutes</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
+</div>
 </div>

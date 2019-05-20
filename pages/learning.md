@@ -3,10 +3,11 @@ layout: full-width
 title: Learning
 permalink: /learning/
 redirect_from: /training/
-body-class: page-learning
+body-class: learning-main
 ---
 
-Learning is a core component of FedRAMP. We know that our program is rigorous, demanding, and requires that our stakeholders accrue and maintain a substantial knowledge base. In order to make this knowledge more accessible and attainable, we have designed online courses, webinars, and in-person training opportunities to empower and inform our stakeholders every step of the way. 
+<div class="learning-main-wrapper">
+<p>Learning is a core component of FedRAMP. We know that our program is rigorous, demanding, and requires that our stakeholders accrue and maintain a substantial knowledge base. In order to make this knowledge more accessible and attainable, we have designed online courses, webinars, and in-person training opportunities to empower and inform our stakeholders every step of the way. </p>
 
 <ul class="learning-group">
 	<li class="online">
@@ -25,10 +26,30 @@ Learning is a core component of FedRAMP. We know that our program is rigorous, d
 		<p>Hands-on training opportunities with in-depth focus on specific topics. The PMO provides these customized training events to meet our audience’s real time needs.</p>
 	</li>
 </ul>
+</div>
+<div class="blue-bottom">
+<div class="inner">
+<div class="instructions">
+<h2>Instructions for completing online courses:</h2>
+<h3>New users:</h3>
+<ol>
+<li>Go to the training platform home page using Chrome or Firefox</li>
+<li>Complete the user information to set up an account (password length must be between 16 and 32 characters) and click “View”</li>
+<li>Select the course you’d like to view and complete</li>
+</ol>
+<h3>Returning users:</h3>
+<ol>
+<li>Navigate to the training platform home page</li>
+<li>Log in using Chrome or Firefox</li>
+<li>Enter your user name and password and you’ll resume where you left off in the training</li>
+</ol>
+</div>
 <div class="learning-events">
 <h2>Upcoming Learning events </h2>
 <ul>
 <li><a href="https://www.eventbrite.com/e/fedramp-agency-isso-training-june-2019-tickets-58997377745" target="_blank">Agency ISSO Training</a> (June 17, 2019 9am-4pm)</li>
 </ul>
 <p>Please email <a href="info@fedramp.gov">info@fedramp.gov</a> with any ideas around additional training topics.</p>
+</div>
+</div>
 </div>
