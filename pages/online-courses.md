@@ -73,7 +73,9 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>These online modules are required for all 3PAOs and focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment of a CSP. At the end of each course, there is a mandatory quiz and a certificate of completion is provided to attendees who complete the course and pass the final quiz.</p>
 <h3 class="accordion">Updated 3PAO Requirements</h3>
 <div class="panel">
-<p>This webinar replaces the previous 300-A course. FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 - Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
+	
+*This webinar replaces the previous 300-A course.*
+	<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 - Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
 	
 <p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">recorded webinar on updated 3PAO requirements</a> from November 2018, the PMO covered the following key updates:</p>
 <p>
