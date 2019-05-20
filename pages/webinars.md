@@ -6,7 +6,7 @@ body-class: page-webinars
 ---
 
 
-The FedRAMP PMO hosts webinars for all stakeholder groups to share information on programs updates and policy changes. These webinars are usually tailored for specific audiences and allow time for questions. Below are descriptions and links to webinars the FedRAMP PMO has hosted in the past. Subscribe to our listserv and follow our blog to learn about upcoming webinars as soon as they are announced. 
+The FedRAMP PMO hosts webinars for all stakeholder groups to share information on program updates and policy changes. These webinars are usually tailored for specific audiences and allow time for questions. Below are descriptions and links to webinars the FedRAMP PMO has hosted in the past. Subscribe to our listserv and follow our blog to learn about upcoming webinars as soon as they are announced. 
 
 <h3 class="accordion">New Website Resources for CSPs  <span>November 2018</span></h3>
 <div class="panel">

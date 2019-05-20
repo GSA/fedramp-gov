@@ -26,7 +26,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>These online modules are designed to help CSPs understand the requirements of security package development and give a detailed overview of the required templates and their supporting documentation.</p>
 <h3 class="accordion">200-A: FedRAMP System Security Plan (SSP) Required Documents</h3>
 <div class="panel">
-<p><strong>Description:</strong> This  course provides CSPs with a deeper understanding of the detail and rigor required to complete  the <a href="https://www.fedramp.gov/developing-a-system-security-plan/">System Security Plan (SSP)</a>. The SSP is the main document of a security package in which a CSP describes all of the security controls in use on the information system and their implementation. This course will familiarize you with the required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
+<p><strong>Description:</strong> This  course provides CSPs with a deeper understanding of the detail and rigor required to complete  the <a href="https://www.fedramp.gov/developing-a-system-security-plan/">System Security Plan (SSP)</a>. The SSP is the main document of a security package in which a CSP describes all of the security controls in use on the information system and their implementation. This course will familiarize the CSP with the required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -43,7 +43,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
 <div class="panel">
-<p><strong>Description:</strong> This  course is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-report/">Security Assessment Report (SAR)</a> which is required by FedRAMP to  evaluate the system’s implementation of, and compliance with the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
+<p><strong>Description:</strong> This  course is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-report/">Security Assessment Report (SAR)</a>. The SAR is required by FedRAMP to  evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -52,7 +52,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <h3 class="accordion">200-D: Continuous Monitoring (ConMon) Overview</h3>
 <div class="panel">
-<p><strong>Description:</strong> This  course provides  guidance on <a href="https://www.fedramp.gov/conducting-continuous-monitoring/">continuous monitoring</a> and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This course  is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the cloud system.</p>
+<p><strong>Description:</strong> This course provides guidance on <a href="https://www.fedramp.gov/conducting-continuous-monitoring/">continuous monitoring</a> and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This course is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the cloud system.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -61,7 +61,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <h3 class="accordion">201-B: How to Write a Control</h3>
 <div class="panel">
-<p><strong>Description:</strong> This  course gives an overview for  a CSP of how to properly write a control that will satisfy the program’s requirements. This course is designed  for a CSP pursuing a JAB authorization with a 3PAO, or a 3PAO conducting an assessment of the cloud system.</p>
+<p><strong>Description:</strong> This course gives an overview for a CSP of how to properly write a control that will satisfy the program’s requirements. This course is designed for a CSP pursuing a JAB authorization with a 3PAO, or a 3PAO conducting an assessment of the cloud system.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -90,7 +90,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 </div>
 <h3 class="accordion">300-B: 3PAO Security Assessment Plan (SAP) Guidance</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP. A SAP contains the test plan to assess the security controls of a system and functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service.</p>
+<p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP. A SAP contains the test plan to assess the security controls of a system and functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service offering.</p>
 	
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -106,7 +106,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <h3 class="accordion">300-D: 3PAO Documenting Evidence Procedures</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and on how to populate the SAR.</p>
+<p>This course provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and how to populate the SAR.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
@@ -120,24 +120,24 @@ These online courses consist of on-demand modules designed for specific stakehol
 </div>
 <h3 class="accordion">300-F: 3PAO Review of Security Assessment Report (SAR) Tables</h3>
 <div class="panel">
-<p>This course provides 3PAOs with a detailed description of each SAR table and the information required to correctly populate each table. Guidance on populating FedRAMP SAR Tables can be a challenge for accurately documenting and totaling deficiencies and findings. This instruction identifies five common SAR table mistakes, and how to avoid making them.</p>
-<p><strong>Duration:</strong> 2 hours</p>
+<p>This course provides 3PAOs with a detailed description of each SAR table and the information required to correctly populate each table. Populating FedRAMP SAR Tables can be a challenge and this course identifies five common SAR table mistakes, how to avoid making them, and how to accurately document and total deficiencies and findings.</p>
+<p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
 <p>Coming soon.</p>
 </div>
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
-<p>This course provides a discussion on how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
+<p>This course provides an overview of how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
 </div>
 </div>
 <div id="path-four">
 <h2>Path 4: Federal Agencies</h2>
-<p>These online modules will provide Information System Security Officers (ISSOs) with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP authorization process. The training is based on FedRAMP’s Agency Authorization Playbook and will include a deep dive into each authorization phase. As a result of attending these training modules, ISSOs will have the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources. At the end of each module, there is an optional quiz. </p>
+<p>These online modules provide  Agency stakeholders with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.   </p>
 <h3 class="accordion">400-A: Overview of ISSO On-Demand Modules</h3>
 <div class="panel">
-<p><strong>Description:</strong> This will module will give an overview of what to expect from attending the ISSO on-demand modules.</p>
+<p><strong>Description:</strong> This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
 <p><strong>Duration:</strong> 90 minutes</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
 </div>
