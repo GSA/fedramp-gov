@@ -2,6 +2,7 @@
 layout: full-width
 title: Learning
 permalink: /learning/
+redirect_from: /training/
 body-class: page-learning
 ---
 
