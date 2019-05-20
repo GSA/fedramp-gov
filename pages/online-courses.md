@@ -74,7 +74,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <h3 class="accordion">Updated 3PAO Requirements</h3>
 <div class="panel">
 	
-*This webinar replaces the previous 300-A course.*
+<i>This webinar replaces the previous 300-A course.</i>
 	<p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 - Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
 	
 <p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">recorded webinar on updated 3PAO requirements</a> from November 2018, the PMO covered the following key updates:</p>
