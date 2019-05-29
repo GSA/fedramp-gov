@@ -140,6 +140,6 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>These online modules provide  Agency stakeholders with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.   </p>
 <h3 class="accordion">400-A: ISSO On-Demand Modules</h3>
 <div class="panel">
-<p><strong> Description:</strong>This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
+<p><strong> Description:</strong> This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
 </div>
 </div>
