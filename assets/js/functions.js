@@ -1,0 +1,1 @@
+$('ul.sub-sub-menu').parent('li').addClass("parent");
