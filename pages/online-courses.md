@@ -126,7 +126,6 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>This course provides 3PAOs with a detailed description of each SAR table and the information required to correctly populate each table. Populating FedRAMP SAR Tables can be a challenge and this course identifies five common SAR table mistakes, how to avoid making them, and how to accurately document and total deficiencies and findings.</p>
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-<p>Coming soon.</p>
 </div>
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
@@ -137,11 +136,10 @@ These online courses consist of on-demand modules designed for specific stakehol
 </div>
 <div id="path-four">
 <h2>Path 4: Federal Agencies</h2>
+	<h3>Coming soon</h3>
 <p>These online modules provide  Agency stakeholders with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.   </p>
-<h3 class="accordion">400-A: Overview of ISSO On-Demand Modules</h3>
+<h3 class="accordion">400-A: ISSO On-Demand Modules</h3>
 <div class="panel">
-<p><strong>Description:</strong> This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
-<p><strong>Duration:</strong> 90 minutes</p>
-<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
+<p><strong> Description:</strong>This training is designed for Information System Security Officers (ISSOs) based on <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP’s Agency Authorization Playbook</a> and includes a deep dive into each authorization phase. This course  provides ISSOs the knowledge necessary to effectively review FedRAMP authorization packages for cloud services and understand the FedRAMP framework and available resources.</p>
 </div>
 </div>
