@@ -5,7 +5,6 @@ permalink: /online-courses/
 body-class: page-training
 ---
 
-
 The FedRAMP PMO offers a series of online training courses to provide all stakeholders with a deeper understanding of FedRAMP and the level of effort that is required to successfully complete a FedRAMP assessment. This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.
 
 To register for the FedRAMP Training Series Curriculum:  
@@ -83,6 +82,9 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">Updated 3PAO Requirements</h3>
 <div class="panel">
+<p>
+	<i>This webinar replaces the previous 300-A course. </i>
+	</p>
 <p>FedRAMP, in partnership with the American Association for Laboratory Accreditation (A2LA), updated the “R311 - Specific Requirements: FedRAMP,” which includes new and strengthened qualifications for existing and new 3PAOs.</p>
 	
 <p>In this <a href="https://www.youtube.com/watch?v=Z6LgUEShll0">recorded webinar on updated 3PAO requirements</a> from November 2018, the PMO covered the following key updates:</p>
@@ -132,20 +134,18 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 
 <h3 class="accordion">300-E: 3PAO Vulnerability Scanning Methodology and Documentation</h3>
 <div class="panel">
-<p>This course describes the FedRAMP requirements for conducting vulnerability scanning on a system and teaches how to document results to meet FedRAMP requirements for initial authorization assessments and annual assessments.</p>
+<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">This course</a> describes the FedRAMP requirements for conducting vulnerability scanning on a system and teaches how to document results to meet FedRAMP requirements for initial authorization assessments and annual assessments.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 
-<p>Coming soon.</p>
 </div>
 
 <h3 class="accordion">300-F: 3PAO Review of Security Assessment Report (SAR) Tables</h3>
 <div class="panel">
-<p>This course provides 3PAOs with guidance on FedRAMP requirements for populating SAR tables to ensure that all tables are correctly populated.</p>
+<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">This course</a> provides 3PAOs with guidance on FedRAMP requirements for populating SAR tables to ensure that all tables are correctly populated.</p>
 
 <p><strong>Duration:</strong> 2 hours</p>
 
-<p>Coming soon.</p>
 </div>
 
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
