@@ -29,21 +29,6 @@ body-class: learning-main
 </div>
 <div class="blue-bottom">
 <div class="inner">
-<div class="instructions">
-<h2>Instructions for completing online courses:</h2>
-<h3>New users:</h3>
-<ol>
-<li>Go to the training platform home page using Chrome or Firefox</li>
-<li>Complete the user information to set up an account (password length must be between 16 and 32 characters) and click “View”</li>
-<li>Select the course you’d like to view and complete</li>
-</ol>
-<h3>Returning users:</h3>
-<ol>
-<li>Navigate to the training platform home page</li>
-<li>Log in using Chrome or Firefox</li>
-<li>Enter your user name and password and you’ll resume where you left off in the training</li>
-</ol>
-</div>
 <div class="learning-events">
 <h2>Upcoming Learning events </h2>
 <ul>
