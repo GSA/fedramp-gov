@@ -86,10 +86,15 @@ A: Like all things with Security, it depends. If your Cloud Service Offering (CS
   <p>
 2) The assets impacted in a finding should have some descriptive information to indicate, such as OS type and function (e.g. OS=Juniper Function=Firewall).
 </p>
-  
-**Controls Findings:**
+  <p>
+__Controls Findings:__
+  </p>
+  <p>
 - Identify everything the 3PAO is considering when applying a risk rating.
+  </p>
+  <p>
 - Enough explanation should be provided for the reviewer to follow the 3PAO's thought process. For example, a moderate risk that only discusses a problem resulting from the lack of a control’s implementation (and does not discuss the positive factors that resulted in a moderate rating rather than high risk rating) might actually give the impression that a higher risk rating should have been applied.
+  </p>
 </div>
 
 
