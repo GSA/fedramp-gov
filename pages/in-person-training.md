@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-learning-second
 title: In-Person Training
 permalink: /learning/in-person-training/
 body-class: page-training
