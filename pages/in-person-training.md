@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-learning-second
 title: In-Person Training
 permalink: /learning/in-person-training/
 body-class: page-training
@@ -18,12 +18,3 @@ The FedRAMP PMO provides hands-on training opportunities with in-depth focus on 
 
 <h2>Industry Days</h2>
 <p>The FedRAMP PMO hosts industry days for CSPs, Agencies, and 3PAOs to promote understanding of FedRAMP requirements, build relationships across the cloud security community, and address topics of interest to our stakeholders. </p>
-<div class="blue-bottom">
-<div class="inner">
-<div class="learning-events">
-<h2>Upcoming Learning events </h2>
-<ul>
-<li><a href="https://www.eventbrite.com/e/fedramp-agency-isso-training-june-2019-tickets-58997377745" target="_blank">Agency ISSO Training</a> (June 17, 2019 9am-4pm)</li>
-</ul>
-<p>Please email <a href="info@fedramp.gov">info@fedramp.gov</a> with any ideas around additional training topics.</p>
-</div>
