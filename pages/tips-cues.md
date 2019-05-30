@@ -81,6 +81,7 @@ A: Like all things with Security, it depends. If your Cloud Service Offering (CS
 **Controls Findings:**
 - Identify everything the 3PAO is considering when applying a risk rating.
 - Enough explanation should be provided for the reviewer to follow the 3PAO's thought process. For example, a moderate risk that only discusses a problem resulting from the lack of a control’s implementation (and does not discuss the positive factors that resulted in a moderate rating rather than high risk rating) might actually give the impression that a higher risk rating should have been applied.
+</div>
 
 
 <div class="q3">
