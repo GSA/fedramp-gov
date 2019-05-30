@@ -37,30 +37,36 @@ A: Operational Requirements (OR’s) occur when a vulnerability is found within 
 
 <div class="q3">
   <h3>TIP: Here are some basic questions our FedRAMP SMEs get about FIPS 140-2 validation compliance for Multi Factor Authentication (MFA).</h3>
-
+<p>
 **Question:** I hear FIPS-validation does not apply to One-Time-Password (OTP) authentication. Is this true or false?
-
+  </p>
+<p>
 **Answer:** This is FALSE! You need both a FIPS-validated authenticator (and OTP authenticator) and a Verifier! However, there is a minor exception - low baseline systems can skip FIPS 140 on authenticators. FIPS 140 is still required for the verifier.
-
+</p>
+  <p>
 **Question:** If I use a PIV for authentication do I need a FIPS-validated verifier?
-
+</p>
+  <p>
 **Answer:** Nope! Verifiers are only required for OTP MFA (tokens).
-
+</p>
+  <p>
 **Question:** If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
-
+</p>
+  <p>
 **Answer:** Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
-
+</p>
+  <p>
 **Question:** How can a vendor meet the requirements of FIPS 140?
-
+</p>
+  <p>
 **Answer:** In order to meet the requirements of FIPS 140, a vendor must do one of two things:
-
+</p>
 1) Submit to the NIST Cryptographic Module Validation Program (CMVP) and get their own certificate
 
 or
 
 2) Self-attest that their product meets the following criteria: Includes an existing CMVP validated Cryptographic Module (CM); The CM is deployed according to the Security Policy that comes with it; All cryptographic functions are performed inside the validated CM.
 </div>
-
 
 <div class="q3">
 <h3>Q: Do I need to implement DHS <a href="https://cyber.dhs.gov/assets/report/bod-18-01.pdf">Binding Operational Directive</a>(BOD-18-01/Subj: Enhance Email and Web Security) regarding Domain-based Message Authentication, Reporting & Conformance (DMARC)?</h3>
@@ -70,14 +76,16 @@ A: Like all things with Security, it depends. If your Cloud Service Offering (CS
 </div>
 
 <div class="q3">
-  <h3>Tip: Recently, we’ve received inquiries about the SAR review process for CSPs pursuing a JAB Provisional Authorization to Operate (P-ATO). There are a number of things that JAB Reviewers need in order to properly assess risks noted in the SAR:</h3>
-  
+  <h3>TIP: Recently, we’ve received inquiries about the SAR review process for CSPs pursuing a JAB Provisional Authorization to Operate (P-ATO). There are a number of things that JAB Reviewers need in order to properly assess risks noted in the SAR:</h3>
+  <p>
 1) Each finding should be identified as externally or internally facing.  
 - 3PAOs can explicitly label the findings that are “externally facing” in Table 4-1.
 - Once findings are labeled, 3PAOs can include a general statement above Table 4-1 stating "findings in Table 4-1 are internally facing unless they are explicitly identified as externally facing.”
-  
+  </p>
+  <p>
 2) The assets impacted in a finding should have some descriptive information to indicate, such as OS type and function (e.g. OS=Juniper Function=Firewall).
-
+</p>
+  
 **Controls Findings:**
 - Identify everything the 3PAO is considering when applying a risk rating.
 - Enough explanation should be provided for the reviewer to follow the 3PAO's thought process. For example, a moderate risk that only discusses a problem resulting from the lack of a control’s implementation (and does not discuss the positive factors that resulted in a moderate rating rather than high risk rating) might actually give the impression that a higher risk rating should have been applied.
