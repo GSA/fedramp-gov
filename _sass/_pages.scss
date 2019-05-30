@@ -487,7 +487,6 @@ ul.columns {
    	}
 }
 
-<<<<<<< HEAD
 #challenge-dashboard {
 	margin: 0 auto;
 	padding: 60px 0;
@@ -545,6 +544,19 @@ ul.columns {
 	}
 }
 
+span.title {
+	float: left;
+	width: 100%;
+	img {
+		float: left;
+		max-width: 70px;
+		margin: 0 0 0 15px;
+	}
+	h3 {
+		float: left;
+	}
+}
+
 section#challenge-goal-opportunity {
 	background: $teal;
 	padding: 60px 0;
@@ -559,9 +571,67 @@ section#challenge-goal-opportunity {
 	h3 {
 		color: #fff;
 	}
+	ul {
+		li {
+			color: #fff;
+		}
+	}
 }	
 }
-=======
+
+section#background {
+	background: #E0F3F9;
+	padding: 60px 0;
+	float: left;
+	width: 100%;
+	.inner {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		p {
+			float: left;
+			width: 100%;
+		}
+		ul {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+section#process {
+	.inner {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		p {
+			float: left;
+			width: 100%;
+		}
+		ul {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+section#details {
+	.inner {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		p {
+			float: left;
+			width: 100%;
+		}
+		ul {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+
 .learning-events {
 text-align: left;
 ul {
@@ -669,4 +739,3 @@ padding: 60px 5%;
 	margin: 0 auto;
 }
 
->>>>>>> d64be76bf11382b0bdd88b7ca892f3277ee009f5
