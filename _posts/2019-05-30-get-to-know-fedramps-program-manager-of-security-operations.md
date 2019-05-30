@@ -2,7 +2,7 @@
 title: Get to Know Fedramps Program Manager of Security Operations
 permalink: /Get-to-Know-Fedramps-Program0-Manager-of-Security-Operations/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_05092019_john.png
+image: /assets/img/blog-images/johnblog.png
 author: FedRAMP
 layout: blog-page
 ---
