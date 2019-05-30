@@ -1,5 +1,5 @@
 ---
-title: Get to Know Fedramps Program Manager of Security Operations
+title: Get to Know FedRAMP's Program Manager of Security Operations
 permalink: /Get-to-Know-Fedramps-Program0-Manager-of-Security-Operations/
 body-class: page-blog
 image: /assets/img/blog-images/johnblog.png
@@ -17,7 +17,7 @@ Prior to GSA, I worked for several consulting firms as a trusted cybersecurity a
 In a typical workday, I split my time between overseeing our Third Party Assessment Organization (3PAO) program and managing FedRAMP Agency Authorization reviews. 
 
 <p>
-  In overseeing FedRAMP’s 3PAO program, I monitor our 3PAO’s performance and strategize about how to enhance the program. I work closely with FedRAMP’s 3PAO accreditation body, the American Association for Laboratory Accreditation‎ (A2LA), and 3PAOs to ensure the quality of 3PAO assessments. I also look for ways to continuously improve the way we assess new organizations and their personnel. 
+  In overseeing FedRAMP’s 3PAO program, I monitor our 3PAOs' performance and strategize about how to enhance the program. I work closely with FedRAMP’s 3PAO accreditation body, the American Association for Laboratory Accreditation‎ (A2LA), and 3PAOs to ensure the quality of 3PAO assessments. I also look for ways to continuously improve the way we assess new organizations and their personnel. 
   </p>
   <p>
 Another critical workstream under my purview is managing the agency authorization reviews that are submitted to the FedRAMP PMO. FedRAMP has seen substantial growth in agency authorizations in the past year. Now over 75% of FedRAMP Authorized cloud services are authorized through the agency authorization path. 
