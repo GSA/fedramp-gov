@@ -7,57 +7,87 @@ body-class: page-fed-agencies
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide bi-weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our bi-weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
 You can also review and search all of our past Tips & Cues by downloading our compilation document <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">here</a>.
-<h2>April 2019 Tips & Cues</h2>
+<h2>May 2019 Tips & Cues</h2>
 
 <div class="q3">
-<h3>TIP: All FedRAMP Baselines require the CSP information system to accept and electronically verify Personal Identity Verification (PIV) and Common Access Card (CAC) credentials according to IA-2(12).</h3>
+<h3>TIP: Cloud Service Providers (CSPs) should ensure that the Vulnerability Scanning Tool is set to score vulnerabilities in accordance with Common Vulnerability Scoring System (CVSS) Version 3, not Version 2.</h3>
 <p>
-Many CSP's assign the responsibility of PIV/CAC implementation to the Federal Agency customer for on-premise authentication. Then, they employ federation methods described in the Digital Identity Guidelines such as SAML/ADFS to authenticate to the CSP environment. While this is an acceptable method, the CSP must still demonstrate the capability of accepting and verifying PIV/CAC credentials in the Cloud Service Offering. Understanding that CSP personnel may not have been issued PIV/CAC credentials, NIST has developed a set of test PIV cards that can be purchased to test the PIV/CAC capability which is available <a href="https://csrc.nist.gov/projects/piv/nist-personal-identity-verification-test-cards">here</a>.
-  </P>
+  In March 2018, the FedRAMP PMO published new <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf">Vulnerability Scanning Guidance</a> that requires CSPs to score National Vulnerabilities Database (NVD) Vulnerabilities using the NIST Common Vulnerability Scoring System (CVSS) Version 3. CSPs must ensure that the Vulnerability Scanning tool is set to score vulnerabilities at CVSS Version 3 and list these in the Plan of Actions and Milestones (POAM) as Version 3.
+Many Vulnerability Scanners are set to score vulnerabilities to CVSS Version 2. This tracks vulnerabilities in the POAM at the outdated scores of Version 2, with longer remediation time frames than required for CVSS Version 3.
+  </p>
   <p>
-The 3PAO is expected to assess the PIV/CAC implementation by the CSP even if the responsibility is ultimately assigned to the Federal Agency Customer.  Also, of course, proper implementation of federated authentication is also assessed by the 3PAO.
-</p>
+There may be cases where there is only a CVSS Version 2 score available for a vulnerability. In this case, it is permissible to use the Version 2 score. There are, of course, situations where there is no score available for a vulnerability in the NVD. In this case, the scanner tool scoring can be used. For more on the impact of the change from CVSS Version 2 to Version 3, please read the NIST guidelines: https://nvd.nist.gov/vuln-metrics/cvss.
+  </p>
 </div>
 
 <div class="q3">
-<h3>Q: What are FedRAMP baseline requirements for a Cloud Service Offering (CSO) to become a High Baseline System?</h3>
+<h3>Q: If the effort and/or costs are too great to remediate a vulnerability within the required time period, is it acceptable to submit a risk adjustment?</h3>
 <p>
-1) There should be no interconnections to systems or services lacking FedRAMP Authorization. For JAB P-ATOs, interconnections must be to systems with other JAB P-ATOs.
-  </P>
-  <p>
-2) “Corporate” services that impact the service/system must be in the authorization boundary.
-</P>
-<p>
-3) Software, firmware, hardware that performs a security function (e.g., Security Incident and Event Management [SIEM], System and the Intrusion Detection System [IDS]/Intrusion Prevention System [IPS], security scanners, logging tools, etc.) must be included in the boundary and tested against the high baseline requirements. The decision to include components inside or outside of the authorization boundary is dependent on the type of data processed in the system or asset.
-</P>
-<p>
-4) The system may have no high or critical findings.
-</P>
-<p>
-5) All encryption must use FIPS 140-2-validated cryptographic modules for data in use, data in transit, and data at rest, as well as for Multi-factor Authentication (MFA). MFA Encryption must use FIPS 140-2-validated cryptographic modules in both authenticators AND verifiers.
-</P>
-<p>
-6) If the Cloud Service Offering (CSO) has strong configuration management and change management built into the system development life cycle, the development environment can be outside the CSO boundary. This means that there is a 3PAO validated, reproducible and effective way to make service changes without impacting the production environment.
-</p>
+A: Generally, the level of effort and/or cost of implementing a remediation are not acceptable justifications for leaving a system that is authorized for processing federal data in a vulnerable state.
+During the initial assessment of the system, the CSP is assessed to determine its ability to perform continuous monitoring successfully, which includes timely remediation of vulnerabilities. This also includes an assessment of the CSP’s equipment acquisition and life-cycle management plan to ensure vendor products can be maintained and/or replaced to stay on top of security. The CSP, therefore, should be aware of equipment end-of-life/end-of-support.
+In the rare event that timely remediations need to be postponed, it is incumbent upon the CSP to employ mitigations that reduce the risk of the vulnerability. This risk mitigation and adjustment should be described in detail in the Deviation Request, and a plan for ultimate remediation and compliance should be included.
 </div>
 
 <div class="q3">
 <h3>Q: Can a CSP close out Operational Requirements (ORs) in the Plan of Action and Milestones (POA&M)?</h3>
 <p>
-Operational Requirements (OR’s) occur when a vulnerability is found within the Information System, but the remediation (ie patch, parameter setting, etc.) cannot be implemented without adverse impact on the system. OR’s are accepted by the Joint Authorization Board (JAB) or Sponsoring Agency when strong mitigations are implemented to adjust the risk as low as possible. ORs remain in the Open Tab of the POA&M spreadsheet until the vulnerability is eliminated. The OR is reviewed at least yearly during Annual Assessments to confirm continued need with a view toward closing out the vulnerability.
+A: Operational Requirements (OR’s) occur when a vulnerability is found within the Information System, but the remediation (ie patch, parameter setting, etc.) cannot be implemented without adverse impact on the system. OR’s are accepted by the Joint Authorization Board (JAB) or Sponsoring Agency when strong mitigations are implemented to adjust the risk as low as possible. ORs remain in the Open Tab of the POA&M spreadsheet until the vulnerability is eliminated. The OR is reviewed at least yearly during Annual Assessments to confirm continued need with a view toward closing out the vulnerability.
 </p>
 </div>
 
 <div class="q3">
-<h3>Q: My Agency is moving some of our systems and applications to the cloud and we are told we must use FedRAMP. Do these Agency systems and applications need to be FedRAMP Authorized?</h3>
+  <h3>TIP: Here are some basic questions our FedRAMP SMEs get about FIPS 140-2 validation compliance for Multi Factor Authentication (MFA).</h3>
+
+**Question:** I hear FIPS-validation does not apply to One-Time-Password (OTP) authentication. Is this true or false?
+
+**Answer:** This is FALSE! You need both a FIPS-validated authenticator (and OTP authenticator) and a Verifier! However, there is a minor exception - low baseline systems can skip FIPS 140 on authenticators. FIPS 140 is still required for the verifier.
+
+**Question:** If I use a PIV for authentication do I need a FIPS-validated verifier?
+
+**Answer:** Nope! Verifiers are only required for OTP MFA (tokens).
+
+**Question:** If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
+
+**Answer:** Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
+
+**Question:** How can a vendor meet the requirements of FIPS 140?
+
+**Answer:** In order to meet the requirements of FIPS 140, a vendor must do one of two things:
+
+1) Submit to the NIST Cryptographic Module Validation Program (CMVP) and get their own certificate
+
+or
+
+2) Self-attest that their product meets the following criteria: Includes an existing CMVP validated Cryptographic Module (CM); The CM is deployed according to the Security Policy that comes with it; All cryptographic functions are performed inside the validated CM.
+</div>
+
+
+<div class="q3">
+<h3>Q: Do I need to implement DHS <a href="https://cyber.dhs.gov/assets/report/bod-18-01.pdf">Binding Operational Directive</a>(BOD-18-01/Subj: Enhance Email and Web Security) regarding Domain-based Message Authentication, Reporting & Conformance (DMARC)?</h3>
 <p>
-A: The <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">OMB memo</a> directs Federal Agencies to use FedRAMP Authorized Cloud Services to meet cloud computing needs. Federal Agencies routinely issue Authority to Operate (ATOs) that leverage FedRAMP Infrastructures (IaaS), Platforms (PaaS) and Software (SaaS) - as a Service. In fact, there have been over 1,000 Federal ATO's issued leveraging the cloud products.
-When Federal Agencies migrate Agency specific systems, applications, and data for processing to a FedRAMP Authorized IaaS for the exclusive use of the Agency, this becomes an Agency's Private Cloud. This is a Private cloud computing environment for the Agency is similar to traditional federal data center processing, except the processing is hosted by a FedRAMP Authorized IaaS as intended by the OMB mandate. Under this scenario, the Agency systems and applications are not shared with other Agencies as it would for a SaaS in a multi-tenant environment. So, there is no leverageable FedRAMP Authorization on our marketplace of the Private Cloud.  
-  </P>
-  <p>
-Private Cloud System Security Plans (SSPs) show the IaaS (and associated security controls) as leveraged/inherited and include other Agency components (i.e. COTS software, Agency developed systems and applications, hardware, data etc.) as ATO’d under Risk Management Framework (RMF). Agencies typically build their Private Clouds in FedRAMP Authorized Government Community Cloud Services.
-  </P>
-  <p>
-To be in-scope for FedRAMP Authorization re-use, the cloud environment would be assessed "once and used many" as is the case with the IaaS, but not the Private Cloud.
+A: Like all things with Security, it depends. If your Cloud Service Offering (CSO) includes a service or function that sends email for/on behalf of the Government - regardless of the actual sender - it does apply, and you must implement the Directive requirements. However, if you just use email to send notifications about internal CSO system events or issues (e.g., the system is down, announcing a system maintenance window, or maybe disk full) to the Government or CSP administrators, compliance with the Directive is not required, though would be considered a best practice.
 </p>
+</div>
+
+<div class="q3">
+  <h3>Tip: Recently, we’ve received inquiries about the SAR review process for CSPs pursuing a JAB Provisional Authorization to Operate (P-ATO). There are a number of things that JAB Reviewers need in order to properly assess risks noted in the SAR:</h3>
+  
+1) Each finding should be identified as externally or internally facing.  
+- 3PAOs can explicitly label the findings that are “externally facing” in Table 4-1.
+- Once findings are labeled, 3PAOs can include a general statement above Table 4-1 stating "findings in Table 4-1 are internally facing unless they are explicitly identified as externally facing.”
+  
+2) The assets impacted in a finding should have some descriptive information to indicate, such as OS type and function (e.g. OS=Juniper Function=Firewall).
+
+**Controls Findings:**
+- Identify everything the 3PAO is considering when applying a risk rating.
+- Enough explanation should be provided for the reviewer to follow the 3PAO's thought process. For example, a moderate risk that only discusses a problem resulting from the lack of a control’s implementation (and does not discuss the positive factors that resulted in a moderate rating rather than high risk rating) might actually give the impression that a higher risk rating should have been applied.
+
+
+<div class="q3">
+  <h3>Q: Can a service that is installed but disabled in an asset be a False Positive finding when a scan is conducted?</h3>
+
+A: Technically, if the service is not enabled, it is a false positive. Some may argue, “why not uninstall it?” This is dependent on how the code is packaged. Uninstalling might sometimes identify and expose other weaknesses.
+
+A screenshot of the configuration file from the asset in question should be enough to confirm the status of the service.
+
 </div>
