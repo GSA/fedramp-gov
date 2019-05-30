@@ -26,6 +26,7 @@ There may be cases where there is only a CVSS Version 2 score available for a vu
 A: Generally, the level of effort and/or cost of implementing a remediation are not acceptable justifications for leaving a system that is authorized for processing federal data in a vulnerable state.
 During the initial assessment of the system, the CSP is assessed to determine its ability to perform continuous monitoring successfully, which includes timely remediation of vulnerabilities. This also includes an assessment of the CSP’s equipment acquisition and life-cycle management plan to ensure vendor products can be maintained and/or replaced to stay on top of security. The CSP, therefore, should be aware of equipment end-of-life/end-of-support.
 In the rare event that timely remediations need to be postponed, it is incumbent upon the CSP to employ mitigations that reduce the risk of the vulnerability. This risk mitigation and adjustment should be described in detail in the Deviation Request, and a plan for ultimate remediation and compliance should be included.
+  </p>
 </div>
 
 <div class="q3">
@@ -38,28 +39,28 @@ A: Operational Requirements (OR’s) occur when a vulnerability is found within 
 <div class="q3">
   <h3>TIP: Here are some basic questions our FedRAMP SMEs get about FIPS 140-2 validation compliance for Multi Factor Authentication (MFA).</h3>
 <p>
-**Question:** I hear FIPS-validation does not apply to One-Time-Password (OTP) authentication. Is this true or false?
+Question: I hear FIPS-validation does not apply to One-Time-Password (OTP) authentication. Is this true or false?
   </p>
 <p>
-**Answer:** This is FALSE! You need both a FIPS-validated authenticator (and OTP authenticator) and a Verifier! However, there is a minor exception - low baseline systems can skip FIPS 140 on authenticators. FIPS 140 is still required for the verifier.
+Answer: This is FALSE! You need both a FIPS-validated authenticator (and OTP authenticator) and a Verifier! However, there is a minor exception - low baseline systems can skip FIPS 140 on authenticators. FIPS 140 is still required for the verifier.
 </p>
   <p>
-**Question:** If I use a PIV for authentication do I need a FIPS-validated verifier?
+Question: If I use a PIV for authentication do I need a FIPS-validated verifier?
 </p>
   <p>
-**Answer:** Nope! Verifiers are only required for OTP MFA (tokens).
+Answer: Nope! Verifiers are only required for OTP MFA (tokens).
 </p>
   <p>
-**Question:** If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
+Question: If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
 </p>
   <p>
-**Answer:** Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
+Answer: Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
 </p>
   <p>
-**Question:** How can a vendor meet the requirements of FIPS 140?
+Question: How can a vendor meet the requirements of FIPS 140?
 </p>
   <p>
-**Answer:** In order to meet the requirements of FIPS 140, a vendor must do one of two things:
+Answer: In order to meet the requirements of FIPS 140, a vendor must do one of two things:
 </p>
 1) Submit to the NIST Cryptographic Module Validation Program (CMVP) and get their own certificate
 
