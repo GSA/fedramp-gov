@@ -87,7 +87,7 @@ A: Like all things with Security, it depends. If your Cloud Service Offering (CS
 2) The assets impacted in a finding should have some descriptive information to indicate, such as OS type and function (e.g. OS=Juniper Function=Firewall).
 </p>
   <p>
-__Controls Findings:__
+Controls Findings:
   </p>
   <p>
 - Identify everything the 3PAO is considering when applying a risk rating.
@@ -100,9 +100,10 @@ __Controls Findings:__
 
 <div class="q3">
   <h3>Q: Can a service that is installed but disabled in an asset be a False Positive finding when a scan is conducted?</h3>
-
+<p>
 A: Technically, if the service is not enabled, it is a false positive. Some may argue, “why not uninstall it?” This is dependent on how the code is packaged. Uninstalling might sometimes identify and expose other weaknesses.
-
+  </p>
+  <p>
 A screenshot of the configuration file from the asset in question should be enough to confirm the status of the service.
-
+  </p>
 </div>
