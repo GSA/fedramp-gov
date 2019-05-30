@@ -70,7 +70,7 @@ or
 </div>
 
 <div class="q3">
-<h3>Q: Do I need to implement DHS <a href="https://cyber.dhs.gov/assets/report/bod-18-01.pdf">Binding Operational Directive</a>(BOD-18-01/Subj: Enhance Email and Web Security) regarding Domain-based Message Authentication, Reporting & Conformance (DMARC)?</h3>
+<h3>Q: Do I need to implement DHS <a href="https://cyber.dhs.gov/assets/report/bod-18-01.pdf">Binding Operational Directive </a>(BOD-18-01/Subj: Enhance Email and Web Security) regarding Domain-based Message Authentication, Reporting & Conformance (DMARC)?</h3>
 <p>
 A: Like all things with Security, it depends. If your Cloud Service Offering (CSO) includes a service or function that sends email for/on behalf of the Government - regardless of the actual sender - it does apply, and you must implement the Directive requirements. However, if you just use email to send notifications about internal CSO system events or issues (e.g., the system is down, announcing a system maintenance window, or maybe disk full) to the Government or CSP administrators, compliance with the Directive is not required, though would be considered a best practice.
 </p>
