@@ -471,3 +471,77 @@ ul.columns {
    			}
    	}
 }
+
+#challenge-dashboard {
+	margin: 0 auto;
+	padding: 60px 0;
+	width: 100%;
+	max-width: 1200px;
+	float: none;
+	ul.bkgrnd-process-details {
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row;
+		border: 1px solid $teal;
+		padding: 20px;
+		margin: 40px 0 0 0;
+		li {
+			align-content: center;
+			align-self: center;
+			span {
+				padding: 25px 0;
+				float: left;
+			}
+			a {
+				text-decoration: none !important;
+			}
+			list-style: none;
+			img {
+				max-width: 70px;
+				padding: 0;
+				border: none;
+				float: left;
+				margin: 0 15px 0 0;
+			}
+		}
+	}
+	img {
+		border-bottom: 2px solid $teal;
+		padding: 0 0 40px 0;
+	}
+	h2 {
+		text-align: center;
+		color: $teal;
+	}
+	ul.challenge-goal-opportunity {
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row;
+		padding: 40px 0 0 0;
+		li {
+			text-align: center;
+			list-style: none;
+			width: 30%;
+			img {
+				border: none;
+			}
+		}
+	}
+}
+
+section#challenge-goal-opportunity {
+	background: $teal;
+	padding: 60px 0;
+	color: #fff;
+.inner {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	p {
+		color: #fff;
+	}
+	h3 {
+		color: #fff;
+	}
+}	
+}
