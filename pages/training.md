@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Training
-permalink: /training/
+title: Online Courses
+permalink: /online-courses/
 body-class: page-training
 ---
 
@@ -157,4 +157,41 @@ If you have any questions, comments, or concerns about the FedRAMP Training seri
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/300-G_3PAO-Readiness-Assessment-Report-RAR-Preparation.pdf">PDF version</a> of the "Readiness Assessment Report (RAR) Preparation" training course.</p>
 </div>
 
+<div id="path-four">
+<h2>Path 4: Federal Agencies</h2>
+		<h3 class="accordion">200-A: FedRAMP System Security Plan (SSP) Required Documents</h3>
+			<div class="panel">
+			<p><a href="https://meet.gsa.gov/fedramp_training/event/login.html">"FedRAMP System Security Plan (SSP) Required Documents"</a> course module provides CSPs with a deeper understanding of the detail and rigor required by the FedRAMP PMO. It will familiarize you with required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
+
+<p><strong>Duration:</strong> 1 hour</p>
+
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of the "FedRAMP System Security (SSP) Required Documents" training course.</p>
+</div>
+
+<h3 class="accordion">200-B: Security Assessment Plan (SAP)</h3>
+<div class="panel">
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"Security Assessment Plan (SAP)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
+
+<p><strong>Duration:</strong> 1 hour</p>
+
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> of the "Security Assessment Plan (SAP)" training course.</p>
+</div>
+
+<h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
+<div class="panel">
+<p>The <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"Security Assessment Report (SAR)"</a> course module is designed to help FedRAMP Assessors understand how to write specific sections of these documents and the program’s reporting requirements.</p>
+
+<p><strong>Duration:</strong> 1 hour</p>
+
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> of the "Security Assessment Report (SAR)" training course.</p>
+</div>
+
+<h3 class="accordion">200-D: Continuous Monitoring (ConMon) Overview</h3>
+<div class="panel">
+<p>The purpose of the <a href="https://meet.gsa.gov/fedramp_training/event/login.html">"ConMon Overview"</a> training module is to provide guidance on continuous monitoring and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This training module is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the Cloud System.</p>
+
+<p><strong>Duration:</strong> 1 hour</p>
+
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of the "Continuous Monitoring (ConMon) Overview" training course.</p>
+</div>
 </div>
