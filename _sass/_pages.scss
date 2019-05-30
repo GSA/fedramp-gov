@@ -100,6 +100,10 @@ section#do-once {
 	border: none;
 }
 
+#path-one, #path-two, #path-three, #path-four {
+	margin-top: 30px;
+}
+
 #path-one h2 {
 	background-image: url("../../assets/img/stakeholders.png");
 	background-size: 80px;
@@ -133,19 +137,30 @@ section#do-once {
 	border-bottom: 1px solid #cdcdcd;
 }
 
-#path-one h3, #path-two h3, #path-three h3 {
-	padding: 0 0 15px 30px; 
-	box-sizing: border-box;
-	width: 100%; 
-	float: left; 
+#path-four h2 {
+	background-image: url("../../assets/img/project-images/assessor-icon.png");
+	background-size: 100px;
 	margin-left: 0;
+	background-repeat: no-repeat;
+	background-position: -5px -15px;
+	min-height: 100px;
+	padding: 20px 0 20px 100px;
+	border-bottom: 1px solid #cdcdcd;
 }
 
-#path-one .panel, #path-two .panel, #path-three .panel {
+//#path-one h3, #path-two h3, #path-three h3, #path-four h3 {
+//	padding: 0 0 15px 30px; 
+//	box-sizing: border-box;
+//	width: 100%; 
+//	float: left; 
+//	margin-left: 0;
+//}
+
+#path-one .panel, #path-two .panel, #path-three .panel, #path-four .panel {
 	padding: 0 0 20px 40px;
 }
 
-#path-one .panel p:first-of-type, #path-two .panel p:first-of-type, #path-three .panel p:first-of-type {
+#path-one .panel p:first-of-type, #path-two .panel p:first-of-type, #path-three .panel p:first-of-type, #path-four .panel p:first-of-type {
 	margin: 0;
 }
 
@@ -472,6 +487,7 @@ ul.columns {
    	}
 }
 
+<<<<<<< HEAD
 #challenge-dashboard {
 	margin: 0 auto;
 	padding: 60px 0;
@@ -545,3 +561,112 @@ section#challenge-goal-opportunity {
 	}
 }	
 }
+=======
+.learning-events {
+text-align: left;
+ul {
+	li {
+/*		list-style: inside;*/
+		color: #fff;
+	a {
+		color: #fff;
+	}
+	}
+	}
+}
+
+#main {
+width: 100%;
+float: none;
+padding: 60px 0 0 0;
+margin: 0;
+ul.learning-group {
+display: flex;
+flex-flow: row;
+justify-content: space-around;
+padding: 0;
+li {
+width: 100%;
+max-width: 300px;
+list-style: none;
+text-align: center;
+h3 {
+margin-bottom: 0;
+}
+p {
+margin-top: 0;
+padding: 0 5%;
+}
+img {
+max-width: 200px;
+}
+}
+}
+}
+
+@media (min-width: 0) and (max-width: 980px) {
+.learning-main #main ul.learning-group {
+flex-flow: wrap;
+}
+.learning-main #main ul.learning-group li {
+margin-bottom: 20px;
+}
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+.learning-main #main {
+padding: 60px 5%;
+}
+}
+
+.page-webinars .panel {
+	padding: 0 0 0 50px;
+}
+
+
+.blue-bottom {
+	background: $dark-blue;
+	padding: 40px 0;
+	color: #fff;
+	margin: 40px 0 0 0;
+	.inner {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1200px;
+		float: none;
+		h2 {
+			margin-top: 0;
+			color: #fff;
+		}
+		h3 {
+			color: #fff;
+		}
+		p {
+			color: #fff;
+		}
+		a {
+			color: #fff;
+		}
+		.instructions {
+			color: #fff;
+			margin: 0 0 40px 0;
+			ol {
+				li {
+					color: #fff;
+				}
+			}
+		}
+		.learning-events {
+			color: #fff;
+		}
+	}
+}
+
+
+.learning-main-wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+>>>>>>> d64be76bf11382b0bdd88b7ca892f3277ee009f5

@@ -89,6 +89,17 @@
                 <a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
                   {{ sub.text }}
                 </a>
+				{% if sub.sub != null %}
+				<ul class="sub-sub-menu">
+				{% for sub in sub.sub %}
+			  <li>
+			  	<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
+			  	{{ sub.text }}
+			  	</a>
+			  </li>
+				{% endfor %}
+				</ul>
+				{% endif %}
               </li>
               {% endfor %}
             </ul>
