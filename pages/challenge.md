@@ -12,17 +12,17 @@ body-class: challenge
 </div>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
-<a href="#challenge"><img src="{{site.baseurl}}/assets/img/.."></a>
+<a href="#challenge"><img src="{{site.baseurl}}/assets/img/challenge-icon.png"></a>
 <h3>CHALLENGE</h3>
 <p>Reimagine the FedRAMP Security Authorization process and its supporting functions.</p>
 </li>
 <li class="goal">
-<a href="#goal"><img src="{{site.baseurl}}/assets/img/.."></a>
+<a href="#goal"><img src="{{site.baseurl}}/assets/img/goal-icon.png"></a>
 <h3>GOAL</h3>
 <p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAO) and all parties interested in cloud security and the authorization process.</p>
 </li>
 <li class="opportunity">
-<a href="#opportunity"><img src="{{site.baseurl}}/assets/img/.."></a>
+<a href="#opportunity"><img src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
 <h3>OPPORTUNITY</h3>
 <p>Inform the next iteration of government’s premiere cloud security authorization program.</p>
 </li>
