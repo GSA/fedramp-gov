@@ -12,17 +12,17 @@ body-class: challenge
 </div>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
-<img src="{{site.baseurl}}/assets/img/..">
+<a href="#challenge"><img src="{{site.baseurl}}/assets/img/.."></a>
 <h3>CHALLENGE</h3>
 <p>Reimagine the FedRAMP Security Authorization process and its supporting functions.</p>
 </li>
 <li class="goal">
-<img src="{{site.baseurl}}/assets/img/..">
+<a href="#goal"><img src="{{site.baseurl}}/assets/img/.."></a>
 <h3>GOAL</h3>
 <p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAO) and all parties interested in cloud security and the authorization process.</p>
 </li>
 <li class="opportunity">
-<img src="{{site.baseurl}}/assets/img/..">
+<a href="#opportunity"><img src="{{site.baseurl}}/assets/img/.."></a>
 <h3>OPPORTUNITY</h3>
 <p>Inform the next iteration of government’s premiere cloud security authorization program.</p>
 </li>
@@ -47,6 +47,10 @@ body-class: challenge
 <div id="challenge">
 <h3>CHALLENGE</h3>
 <p>Although more Agencies than ever now adopt secure cloud technologies, challenges remain. The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
+<div class="video-responsive">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/lil6wFSajCg" frameborder="0" allowfullscreen></iframe>
+</div>
+<hr>
 </div>
 <div id="goal">
 <h3>GOAL</h3>
@@ -59,6 +63,7 @@ body-class: challenge
 </ul>
 <p>Security and cloud professionals, academia, and anyone interested or involved in the FedRAMP ecosystem are invited to participate in this opportunity to share their best thinking on the next phase of FedRAMP.</p>
 </div>
+<hr>
 <div id="opportunity">
 <h3>OPPORTUNITY</h3>
 <p>FedRAMP is the security framework by which cloud computing solutions are authorized to operate in the government environment. We strive to continuously improve our processes to best deliver secure cloud solutions for Agency use, as well as reuse, in shorter time-frames than ever before. Still, we know that our community’s collective brainpower can unlock even more.</p>
@@ -72,16 +77,16 @@ body-class: challenge
 <span class="title">
 <h3>BACKGROUND</h3><img src="{{site.baseurl}}/assets/img/background-icon.png">
 </span>
-<p>Before FedRAMP, each Agency established their own set of security controls that industry providers had to adhere to -  these controls changed from one federal Agency to the next. There was no information sharing regarding security from one Agency to another, and each vendor had to comply with disparate, sometimes overlapping requirements. FedRAMP created security baselines for government that allowed industry to meet one set of security requirements, and the government to “re-use” key security information. This standardized approach enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT. FedRAMP is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. The FedRAMP process is based on the <a href="">NIST RMF</a> and our security controls are based on <a href="">NIST SP 800-53 Revision 4 baselines</a>, and contain controls above the NIST baseline that address the unique elements of cloud computing.</p>
+<p>Before FedRAMP, each Agency established their own set of security controls that industry providers had to adhere to -  these controls changed from one federal Agency to the next. There was no information sharing regarding security from one Agency to another, and each vendor had to comply with disparate, sometimes overlapping requirements. FedRAMP created security baselines for government that allowed industry to meet one set of security requirements, and the government to “re-use” key security information. This standardized approach enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT. FedRAMP is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. The FedRAMP process is based on the <a href="https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview" target="_blank">NIST RMF</a> and our security controls are based on <a href="https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-53r4.pdf" target="_blank">NIST SP 800-53 Revision 4 baselines</a>, and contain controls above the NIST baseline that address the unique elements of cloud computing.</p>
 
 <p>In an effort to improve how CSPs, Agencies, and 3PAOs experience FedRAMP, the PMO has implemented past initiatives to improve the program, including:</p>
 <ul>
-<li><a href="">FedRAMP Accelerated</a></li>
-<li><a href="">FedRAMP Ready</a></li>
-<li><a href="">Agency Authorization Playbook</a></li>
-<li><a href="">CSP Authorization Playbook</a></li>
-<li><a href="">FedRAMP Connect</a></li>
-<li><a href="">FedRAMP Tailored Li-SaaS Baseline</a></li>
+<li><a href="/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
+<li><a href="/pursuing-a-fedramp-ready-designation/">FedRAMP Ready</a></li>
+<li><a href="/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
+<li><a href="/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook</a></li>
+<li><a href="/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">FedRAMP Connect</a></li>
+<li><a href="/pursuing-a-fedramp-tailored-authorization/">FedRAMP Tailored Li-SaaS Baseline</a></li>
 </ul>
 <p>FedRAMP’s current change-based priorities include: </p>
 <ul>
@@ -103,18 +108,19 @@ body-class: challenge
 <li>Agencies are hesitant to reuse FedRAMP Authorizations and require additional security requirements in addition to the FedRAMP baseline</li>
 </ul>
 <p>Currently, CSPs can achieve a FedRAMP Authorization from one of two approaches: through Agency partnership or through the Joint Authorization Board (JAB). Regardless of the authorization approach, the CSP and 3PAO must produce the same deliverables (documents, artifacts, and evidence files) to convey the risk associated with the cloud service offering. </p>
-<p><a href="">JAB Authorization Process</a></p>
-<img src="{{site.baseurl}}/assets/img/..">
-<p><a href="">Agency Authorization Process</a></p>
-<img src="{{site.baseurl}}/assets/img/..">
+<h4><a href="/jab-authorization/">JAB Authorization Process</a></h4>
+<img src="{{site.baseurl}}/assets/img/ato-auth.png">
+<h4><a href="/agency-authorization/">Agency Authorization Process</a></h4>
+<img src="{{site.baseurl}}/assets/img/agency-auth.png">
 </div>
 </section>
 <section id="details">
+	<div class="inner">
 	<span class="title">
 	<h3>SUBMISSION DETAILS</h3><img src="{{site.baseurl}}/assets/img/submissiondetails-icon.png">
 	</span>
 <p>	Challenge participants are encouraged to submit any idea that could improve and benefit the FedRAMP program for any part of the cloud security authorization process. No idea is too small! </p>
-<p>Participants should submit their idea to info@fedramp.gov by 5pm EDT July 5, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than 2 pages, 11 point Arial font. </p>
+<p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT July 5, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than 2 pages, 11 point Arial font. </p>
 <p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, Interested Citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
 <ul>
 <li>Recommendation for Improvement/Initiative</li>
@@ -123,8 +129,9 @@ body-class: challenge
 <li>Measurements of Success for Idea</li>
 </ul>
 <p>Please keep in mind that we do not want to compromise security rigor! </p>
-<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the Focus on FedRAMP blog in August 2019. The PMO will also release an RFI as part of a larger coordinated effort to gather ideas from the broadest possible community.</p>
+<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="/blog">Focus on FedRAMP blog</a> in August 2019. The PMO will also release an RFI as part of a larger coordinated effort to gather ideas from the broadest possible community.</p>
 <p>Thank you for your effort and commitment to partnering with FedRAMP to improve cybersecurity for all.</p>
+<hr>
 <h3>Rules and Conditions</h3>
 <ul>
 	<li>FedRAMP will not respond to each submission individually but may reach out via email to individual submitters for clarification if needed.</li>
@@ -134,4 +141,5 @@ body-class: challenge
 	<li>GSA will not be responsible for any claims or complaints from third parties about any disputes of ownership regarding the ideas, technology, white papers, prototypes, or images included in submissions.</li>
 	<li>GSA reserves the right for any reason to modify or close the challenge at any time.</li>
 </ul>
+	</div>
 </section>

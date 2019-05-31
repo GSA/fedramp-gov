@@ -495,7 +495,7 @@ ul.columns {
 	float: none;
 	ul.bkgrnd-process-details {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		flex-flow: row;
 		border: 1px solid $teal;
 		padding: 20px;
@@ -506,6 +506,7 @@ ul.columns {
 			span {
 				padding: 25px 0;
 				float: left;
+				font-size: 1.4em;
 			}
 			a {
 				text-decoration: none !important;
@@ -536,7 +537,11 @@ ul.columns {
 		li {
 			text-align: center;
 			list-style: none;
-			width: 30%;
+			width: 25%;
+			p {
+				border-top: 2px solid $dark-blue;
+				padding: 15px 0 0 0;
+			}
 			img {
 				border: none;
 			}
@@ -544,7 +549,24 @@ ul.columns {
 	}
 }
 
-span.title {
+@include media-query($on-palm) {
+	#challenge-dashboard ul.challenge-goal-opportunity {
+	flex-flow: wrap;
+	li {
+		width: 100%;
+		margin: 15px 0;
+	}
+	}
+	#challenge-dashboard ul.bkgrnd-process-details {
+		flex-flow: wrap;
+		li {
+			width: 100%;
+			margin: 15px 0;
+		}
+	}
+}
+
+.challenge span.title {
 	float: left;
 	width: 100%;
 	img {
@@ -554,6 +576,15 @@ span.title {
 	}
 	h3 {
 		float: left;
+		margin: 20px 0;
+	}
+}
+
+@include media-query($on-palm) {
+	.challenge span.title {
+		h3 {
+			width: 70%;
+		}
 	}
 }
 
@@ -565,6 +596,18 @@ section#challenge-goal-opportunity {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
+	.video-responsive{
+	    width: 80vw;
+	    max-width: 700px ;
+	    margin: auto;
+	}
+	.video-responsive iframe{
+	    width: 80vw;
+	    margin: 0;
+	    max-width: 700px ;
+	    height:calc((9/16)*80vw);
+	    max-height:calc((9/16)*700px);
+	}
 	p {
 		color: #fff;
 	}
@@ -600,6 +643,10 @@ section#background {
 }
 
 section#process {
+	background: #fff;
+	padding: 60px 0;
+	float: left;
+	width: 100%;
 	.inner {
 		margin: 0 auto;
 		max-width: 1200px;
@@ -616,21 +663,57 @@ section#process {
 }
 
 section#details {
+	background: $dark-blue;
+	color: #fff;
+	float: left;
+	width: 100%;
 	.inner {
 		margin: 0 auto;
 		max-width: 1200px;
 		width: 100%;
+		h3 {
+			color: #fff;
+		}
 		p {
 			float: left;
 			width: 100%;
+			color: #fff;
 		}
 		ul {
 			float: left;
 			width: 100%;
+			color: #fff;
+			li {
+				color: #fff;
+			}
 		}
 	}
 }
 
+.challenge hr {
+	margin: 40px 0;
+	float: left;
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+.challenge section {
+	padding: 60px 0;
+&:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+}
+
+@include media-query($desktop) {
+	.challenge section .inner {
+		padding: 0 5%;
+	}
+	#challenge-dashboard {
+		padding: 60px 5%;
+	}
+}
 
 .learning-events {
 text-align: left;
