@@ -16,7 +16,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 Many Vulnerability Scanners are set to score vulnerabilities to CVSS Version 2. This tracks vulnerabilities in the POAM at the outdated scores of Version 2, with longer remediation time frames than required for CVSS Version 3.
   </p>
   <p>
-There may be cases where there is only a CVSS Version 2 score available for a vulnerability. In this case, it is permissible to use the Version 2 score. There are, of course, situations where there is no score available for a vulnerability in the NVD. In this case, the scanner tool scoring can be used. For more on the impact of the change from CVSS Version 2 to Version 3, please read the NIST guidelines: https://nvd.nist.gov/vuln-metrics/cvss.
+There may be cases where there is only a CVSS Version 2 score available for a vulnerability. In this case, it is permissible to use the Version 2 score. There are, of course, situations where there is no score available for a vulnerability in the NVD. In this case, the scanner tool scoring can be used. For more on the impact of the change from CVSS Version 2 to Version 3, please read the <a href="https://nvd.nist.gov/vuln-metrics/cvss">NIST guidelines</a>
   </p>
 </div>
 
