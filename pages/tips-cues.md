@@ -54,7 +54,7 @@ Answer: Nope! Verifiers are only required for OTP MFA (tokens).
 Question: If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
 </p>
   <p>
-Answer: Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
+Answer: Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
 </p>
   <p>
 Question: How can a vendor meet the requirements of FIPS 140?
