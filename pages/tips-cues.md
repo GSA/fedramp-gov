@@ -63,10 +63,13 @@ Question: How can a vendor meet the requirements of FIPS 140?
 Answer: In order to meet the requirements of FIPS 140, a vendor must do one of two things:
 </p>
 1) Submit to the NIST Cryptographic Module Validation Program (CMVP) and get their own certificate
-
+</P>
+<p>
 or
-
+</p>
+<p>
 2) Self-attest that their product meets the following criteria: Includes an existing CMVP validated Cryptographic Module (CM); The CM is deployed according to the Security Policy that comes with it; All cryptographic functions are performed inside the validated CM.
+  </p>
 </div>
 
 <div class="q3">
