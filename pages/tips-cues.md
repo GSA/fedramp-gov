@@ -16,7 +16,7 @@ You can also review and search all of our past Tips & Cues by downloading our co
 Many Vulnerability Scanners are set to score vulnerabilities to CVSS Version 2. This tracks vulnerabilities in the POAM at the outdated scores of Version 2, with longer remediation time frames than required for CVSS Version 3.
   </p>
   <p>
-There may be cases where there is only a CVSS Version 2 score available for a vulnerability. In this case, it is permissible to use the Version 2 score. There are, of course, situations where there is no score available for a vulnerability in the NVD. In this case, the scanner tool scoring can be used. For more on the impact of the change from CVSS Version 2 to Version 3, please read the NIST guidelines: https://nvd.nist.gov/vuln-metrics/cvss.
+There may be cases where there is only a CVSS Version 2 score available for a vulnerability. In this case, it is permissible to use the Version 2 score. There are, of course, situations where there is no score available for a vulnerability in the NVD. In this case, the scanner tool scoring can be used. For more on the impact of the change from CVSS Version 2 to Version 3, please read the <a href="https://nvd.nist.gov/vuln-metrics/cvss">NIST guidelines</a>.
   </p>
 </div>
 
@@ -24,7 +24,10 @@ There may be cases where there is only a CVSS Version 2 score available for a vu
 <h3>Q: If the effort and/or costs are too great to remediate a vulnerability within the required time period, is it acceptable to submit a risk adjustment?</h3>
 <p>
 A: Generally, the level of effort and/or cost of implementing a remediation are not acceptable justifications for leaving a system that is authorized for processing federal data in a vulnerable state.
-During the initial assessment of the system, the CSP is assessed to determine its ability to perform continuous monitoring successfully, which includes timely remediation of vulnerabilities. This also includes an assessment of the CSP’s equipment acquisition and life-cycle management plan to ensure vendor products can be maintained and/or replaced to stay on top of security. The CSP, therefore, should be aware of equipment end-of-life/end-of-support.
+During the initial assessment of the system, the CSP is assessed to determine its ability to perform continuous monitoring successfully, which includes timely remediation of vulnerabilities. This also includes an assessment of the CSP’s equipment acquisition and life-cycle management plan to ensure vendor products can be maintained and/or replaced to stay on top of security. 
+  </p>
+  <p>
+    The CSP, therefore, should be aware of equipment end-of-life/end-of-support.
 In the rare event that timely remediations need to be postponed, it is incumbent upon the CSP to employ mitigations that reduce the risk of the vulnerability. This risk mitigation and adjustment should be described in detail in the Deviation Request, and a plan for ultimate remediation and compliance should be included.
   </p>
 </div>
@@ -54,7 +57,7 @@ Answer: Nope! Verifiers are only required for OTP MFA (tokens).
 Question: If several MFA solution choices (both FIPS-validated and non-FIPS validated) are provided for use by an underlying service vendor, may I select any MFA solution? Are there any out-of-band authenticators that I may not use?
 </p>
   <p>
-Answer: Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from  <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
+Answer: Nope! You are responsible for choosing a MFA solution that is FIPS-validated. You may not use email, voice, or SMS. If you need any help with understanding anything related to MFA solutions, you can get technical details from <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
 </p>
   <p>
 Question: How can a vendor meet the requirements of FIPS 140?
@@ -62,11 +65,15 @@ Question: How can a vendor meet the requirements of FIPS 140?
   <p>
 Answer: In order to meet the requirements of FIPS 140, a vendor must do one of two things:
 </p>
+  <p>
 1) Submit to the NIST Cryptographic Module Validation Program (CMVP) and get their own certificate
-
+</p>
+<p>
 or
-
+</p>
+<p>
 2) Self-attest that their product meets the following criteria: Includes an existing CMVP validated Cryptographic Module (CM); The CM is deployed according to the Security Policy that comes with it; All cryptographic functions are performed inside the validated CM.
+  </p>
 </div>
 
 <div class="q3">
@@ -80,7 +87,11 @@ A: Like all things with Security, it depends. If your Cloud Service Offering (CS
   <h3>TIP: Recently, we’ve received inquiries about the SAR review process for CSPs pursuing a JAB Provisional Authorization to Operate (P-ATO). There are a number of things that JAB Reviewers need in order to properly assess risks noted in the SAR:</h3>
   <p>
 1) Each finding should be identified as externally or internally facing.  
+  </p>
+  <p>
 - 3PAOs can explicitly label the findings that are “externally facing” in Table 4-1.
+  </p>
+  <p>
 - Once findings are labeled, 3PAOs can include a general statement above Table 4-1 stating "findings in Table 4-1 are internally facing unless they are explicitly identified as externally facing.”
   </p>
   <p>
