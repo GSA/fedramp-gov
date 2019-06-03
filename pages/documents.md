@@ -79,6 +79,15 @@ Columns in the table below are sortable. The Category, Document, and Description
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP Marketplace Guidance for Cloud Service Providers</a></td>
+    <td>This document outlines the policy for FedRAMP designations on the FedRAMP Marketplace for Cloud Service Providers (CSPs), including achieving, maintaining, and the removal of a designation for a Cloud Service Offering (CSO). It supersedes the FedRAMP In Process requirements.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>6/6/2019</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">FedRAMP Program Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></td>
     <td>This document provides guidelines on the use of the FedRAMP name, logo, and marks on all FedRAMP marketing and collateral materials. General guidelines are provided first, followed by more specific guidelines for the two major uses of FedRAMP marks:
 Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td>
@@ -275,15 +284,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>11/28/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Agency Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization: Obtaining In Process Designation</a></td>
-    <td>This document provides guidance to agencies and CSPs on requirements for CSPs to be listed as “In Process” on the FedRAMP Marketplace.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>11/20/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
