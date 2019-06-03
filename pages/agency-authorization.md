@@ -18,7 +18,7 @@ Below is a high-level overview of the Agency Authorization Process. Information 
 
 ### Phase 1: Partnership Establishment  
 
-In this phase, a CSP formalizes their partnership with an Agency via FedRAMP's In Process Requirements detailed in <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a>. In some cases, a vendor may be under contract with a Agency already, or an Agency may be working through the acquisition process.
+During this phase, a CSP formalizes their partnership with an Agency via FedRAMP's In Process Requirements, which are detailed in <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a>. In some cases, a vendor may be under contract with a Agency already, or an Agency may be working through the acquisition process.
 
 The CSP’s system should be fully built and functional, and the CSP’s leadership team should be committed and fully on board with the FedRAMP process. Additionally, if they have not already done so, a CSP should engage with the FedRAMP office through the intake process by completing a [CSP Information Form](https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform).
 
