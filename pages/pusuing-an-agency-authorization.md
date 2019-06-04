@@ -18,7 +18,7 @@ tag: preparing-for-an-agency-authorization
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">CSP Agency Authorization Best Practices for CSPs </a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Agency Package Request Form</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization Obtaining In Process Designation</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP Marketplace Designations for Cloud Service Providers</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization Roles and Responsibilities for FedRAMP CSPs and Agencies</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf">Agency Authorization Best Practices for Agencies</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
