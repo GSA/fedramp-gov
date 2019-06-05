@@ -8,7 +8,7 @@ body-class: challenge
 <section id="challenge-dashboard">
 <div class="image-container">
 <img alt="Fedramp's Challenge" title="Fedramp's Challenge" src="{{site.baseurl}}/assets/img/fedramp-challenge-logo.png">
-<h2>Shape how government manages cloud security authorizations.</h2>
+<h2>Shape how government performs cloud security authorizations.</h2>
 </div>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
