@@ -1,6 +1,6 @@
 ---
 layout: full-width-challenge
-title: The FedRAMP Challenge
+title: The FedRAMP Ideation Challenge
 permalink: /challenge/
 body-class: challenge
 
