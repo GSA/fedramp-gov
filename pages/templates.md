@@ -204,7 +204,7 @@ The table below is sortable by columns. The Category, Document, and Description 
   </tr>
   <tr>
 <td style="font-weight:bold;">Initial Authorization Phase- Authorize: Agency Authorization Review Report Sample Template</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency Authorization Review Report Sample Template</a></td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf">FedRAMP Agency Authorization Review Report Sample Template</a></td>
     <td>The PMO uses this template to review Agency ATO packages. </td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
