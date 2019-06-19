@@ -80,7 +80,7 @@ Columns in the table below are sortable. The Category, Document, and Description
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP Marketplace Designations for Cloud Service Providers</a></td>
-    <td>This document outlines the policy for listing FedRAMP designations on the FedRAMP Marketplace for Cloud Service Providers (CSPs). This includes achieving, maintaining, and removing a designation for a Cloud Service Offering (CSO) and supersedes the FedRAMP In Process requirements.</td>
+    <td>This document outlines the requirements for listing FedRAMP designations on the FedRAMP Marketplace for Cloud Service Providers (CSPs). This includes achieving, maintaining, and removing a designation for a Cloud Service Offering (CSO) and supersedes the FedRAMP In Process requirements.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
