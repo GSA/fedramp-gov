@@ -85,7 +85,7 @@ body-class: challenge
 <h4><a href="/agency-authorization/">Agency Authorization Process</a></h4>
 <img src="{{site.baseurl}}/assets/img/agency-auth.png">
 </div>
-<h4>Challenges with the "As-Is" FedRAMP Process:</h4>
+<h4>Challenges with the "As-Is" FedRAMP Process</h4>
 
 <p>As Agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption.</p>
 
