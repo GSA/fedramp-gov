@@ -11,7 +11,7 @@ We receive thousands of questions through [info@fedramp.gov](mailto:info@fedramp
 Given the importance of the Marketplace, we want to ensure the information about each CSO is established in easy-to-understand guidance. The new <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">Marketplace Guidance</a> outlines the various FedRAMP designations for CSOs and provides details for industry and Agencies in achieving and maintaining FedRAMP status on the Marketplace.
 
 **Key takeaways from the Marketplace Guidance:**
-* Supersedes previous guidance, the Agency Authorization: Requirements for In Process Designation, as part of a larger effort to streamline and consolidate our documents.  
+* Supersedes previous guidance document, the "Agency Authorization: Requirements for In Process Designation," as part of a larger effort to streamline and consolidate our documents.  
 * Explains the process for achieving and maintaining all three of our Marketplace designations.
 * Includes guidance for how to achieve In Process designation with FedRAMP when working with DoD component agencies.
 * Provides tips and guidance for how to handle changes in initial agency partner or Authorizing Official (AO).
