@@ -4,7 +4,7 @@ title: Pursuing an Agency Authorization
 permalink: /pursuing-an-agency-authorization/
 tag: preparing-for-an-agency-authorization
 ---
-<p>CSPs that make a business decision to work directly with an Agency to pursue an Authority to Operate (ATO) will partner with the Agency throughout the acquisition and FedRAMP authorization process. Within the authorization process, Agencies define their specific policies and procedures, in addition to FedRAMP requirements, and are responsible for reviewing CSP-developed security packages. Ultimately, an Agency’s Authorizing Official (AO) must accept the risk associated with the use of a cloud system through the issuance of an ATO for their Agency. Agencies must also conduct continuous monitoring of each authorized system, reviewing monthly and annual deliverables provided by CSPs. More information on  the Agency Authorization Process can be found on our <a href="agency-authorization">Agency Authorization</a> webpage.</p>
+<p>CSPs that make a business decision to work directly with an Agency to pursue an Authority to Operate (ATO) will partner with the Agency throughout the acquisition and FedRAMP authorization process. Within the authorization process, Agencies define their specific policies and procedures, in addition to FedRAMP requirements, and are responsible for reviewing CSP-developed security packages. Ultimately, an Agency’s Authorizing Official (AO) must accept the risk associated with the use of a cloud system through the issuance of an ATO for their Agency. Agencies must also conduct continuous monitoring of each authorized system, reviewing monthly and annual deliverables provided by CSPs. More information on  the Agency Authorization Process can be found on our <a href="https://www.fedramp.gov/agency-authorization/">Agency Authorization</a> webpage.</p>
 <p>Additionally, the documents, templates, and blogs below all relate to the Agency Authorization Process. </p>
 <table>
 <tr>
@@ -18,7 +18,7 @@ tag: preparing-for-an-agency-authorization
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">CSP Agency Authorization Best Practices for CSPs </a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Agency Package Request Form</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">Agency Authorization Obtaining In Process Designation</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP Marketplace Designations for Cloud Service Providers</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization Roles and Responsibilities for FedRAMP CSPs and Agencies</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf">Agency Authorization Best Practices for Agencies</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf">FedRAMP Authorization Boundary Guidance</a></li>
