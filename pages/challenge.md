@@ -76,7 +76,7 @@ body-class: challenge
 
 <p>FedRAMP works closely with partners from industry and government  to promote the secure adoption of innovative information technologies. The FedRAMP PMO takes a continuous improvement mindset to its mission of creating transparent standards and processes to  accelerate federal Agencies’ adoption of cloud technologies and ability to leverage security authorizations on a government-wide scale.</p>
 
-<b>How Do CSPs Get a FedRAMP Authorization?</b>
+<h4>How Do CSPs Get a FedRAMP Authorization?</h4>
 
 
 <p>CSPs can achieve a FedRAMP Authorization from one of two approaches: through Agency partnership or through the Joint Authorization Board (JAB). Regardless of the authorization approach, the CSP and 3PAO must produce the same deliverables (documents, artifacts, and evidence files) to convey the risk associated with the cloud service offering.</p>
@@ -85,13 +85,13 @@ body-class: challenge
 <h4><a href="/agency-authorization/">Agency Authorization Process</a></h4>
 <img src="{{site.baseurl}}/assets/img/agency-auth.png">
 </div>
-<b>Challenges with the "As-Is" FedRAMP Process:</b>
+<h4>Challenges with the "As-Is" FedRAMP Process:</h4>
 
 <p>As Agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption.</p>
 
 ADD TABLE - STAKEHOLDER CHALLENGES
 
-<b> Helpful Resources and Where to Start</b>
+<h4> Helpful Resources and Where to Start</h4>
 FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
 <ul>
 <li><a href="/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
