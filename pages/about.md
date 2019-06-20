@@ -31,9 +31,7 @@ body-class: about-us
 <h2>FedRAMP by the Numbers</h2> 
 <div class="image-container">
 <div class="column-1">
-<img class="one" alt="We cover more than 5 million assets" src="{{site.baseurl}}/assets/img/fedramp_number01.png">
-<img class="two" alt="and 1/3 of the world's internet traffic through our program" src="{{site.baseurl}}/assets/img/fedramp_number02.png">
-<img class="three" alt="We now offer 4 security baselines so government can match security to risk" src="{{site.baseurl}}/assets/img/fedramp_number04.png">
+<img class="four" alt="We cover more than 5 million assets" src="{{site.baseurl}}/assets/img/fedramp_number01.png"
 </div>
 <div class="column-2">
 <img class="four" alt="$130 million in cost avoidance" src="{{site.baseurl}}/assets/img/fedramp_number03.png">
