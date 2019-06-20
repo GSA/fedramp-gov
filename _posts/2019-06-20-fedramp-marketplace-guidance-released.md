@@ -13,7 +13,7 @@ Given the importance of the Marketplace, we want to ensure the information about
 **Key takeaways from the Marketplace Guidance:**
 * Supersedes previous guidance document, the "Agency Authorization: Requirements for In Process Designation," as part of a larger effort to streamline and consolidate our documents.  
 * Explains the process for achieving and maintaining all three of our Marketplace designations.
-* Includes guidance for how to achieve In Process designation with FedRAMP when working with DoD component agencies.
+* Includes guidance for how to achieve _**In Process**_ designation with FedRAMP when working with DoD component agencies.
 * Provides tips and guidance for how to handle changes in initial agency partner or Authorizing Official (AO).
 
 As always, if you have any questions surrounding this guidance, please contact [info@fedramp.gov](mailto:info@fedramp.gov).
