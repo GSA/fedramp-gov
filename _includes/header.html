@@ -86,9 +86,13 @@
               <!-- 2nd level -->
               {% for sub in nav.sub %}
               <li>
+				{% if nav.is_external != null %}
+				<a href="{{ nav.is_external }}">{{ nav.text }}</a>
+				{% else %}
                 <a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
                   {{ sub.text }}
                 </a>
+              {% endif %}
 				{% if sub.sub != null %}
 				<ul class="sub-sub-menu">
 				{% for sub in sub.sub %}
