@@ -521,9 +521,14 @@ ul.columns {
 			}
 		}
 	}
+	.image-container {
+		text-align: center;
 	img {
 		border-bottom: 2px solid $teal;
 		padding: 0 0 40px 0;
+		max-width: 650px;
+		margin: 0 auto;
+	}
 	}
 	h2 {
 		text-align: center;
