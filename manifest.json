@@ -1,0 +1,9 @@
+{
+  "name": "Fedramp",
+  "short_name": "Fedramp",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
