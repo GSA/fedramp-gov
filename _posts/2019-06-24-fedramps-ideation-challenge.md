@@ -2,7 +2,7 @@
 title: FedRAMP's Ideation Challenge
 permalink: /FedRAMPs-Ideation-Challenge/
 body-class: page-blog
-image: /assets/img/blog-images/FedRAMP_Challenge 
+image: /assets/img/blog-images/FedRAMP_challenge.png
 author: FedRAMP
 layout: blog-page
 ---
