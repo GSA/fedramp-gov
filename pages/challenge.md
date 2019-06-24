@@ -76,9 +76,9 @@ body-class: challenge
 
 
 <p>CSPs can achieve a FedRAMP Authorization from one of two approaches: through Agency partnership or through the Joint Authorization Board (JAB). Regardless of the authorization approach, the CSP and 3PAO must produce the same deliverables (documents, artifacts, and evidence files) to convey the risk associated with the cloud service offering.</p>
-<h3><a href="/jab-authorization/">JAB Authorization Process</a></h3>
+<h3><a href="{{site.baseurl}}/jab-authorization/">JAB Authorization Process</a></h3>
 <img src="{{site.baseurl}}/assets/img/ato-auth.png">
-<h3><a href="/agency-authorization/">Agency Authorization Process</a></h3>
+<h3><a href="{{site.baseurl}}/agency-authorization/">Agency Authorization Process</a></h3>
 <img src="{{site.baseurl}}/assets/img/agency-auth.png">
 <h3>Challenges with the "As-Is" FedRAMP Process</h3>
 
@@ -102,12 +102,12 @@ body-class: challenge
 <h3> Helpful Resources and Where to Start</h3>
 FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
 <ul>
-<li><a href="/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
-<li><a href="/pursuing-a-fedramp-ready-designation/">FedRAMP Ready</a></li>
-<li><a href="/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
-<li><a href="/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook</a></li>
-<li><a href="/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">FedRAMP Connect</a></li>
-<li><a href="/pursuing-a-fedramp-tailored-authorization/">FedRAMP Tailored Li-SaaS Baseline</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
+<li><a href="{{site.baseurl}}/pursuing-a-fedramp-ready-designation/">FedRAMP Ready</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">FedRAMP Connect</a></li>
+<li><a href="{{site.baseurl}}/pursuing-a-fedramp-tailored-authorization/">FedRAMP Tailored Li-SaaS Baseline</a></li>
 </ul>
 </div>
 </section>
