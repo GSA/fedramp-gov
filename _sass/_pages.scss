@@ -499,7 +499,8 @@ ul.columns {
 		flex-flow: row;
 		border: 1px solid $teal;
 		padding: 20px;
-		margin: 40px 0 0 0;
+		margin: 40px auto 0 auto;
+		max-width: 600px;
 		li {
 			align-content: center;
 			align-self: center;
@@ -526,7 +527,8 @@ ul.columns {
 	img {
 		border-bottom: 2px solid $teal;
 		padding: 0 0 40px 0;
-		max-width: 650px;
+		max-width: 750px;
+		width: 100%;
 		margin: 0 auto;
 	}
 	}
@@ -581,10 +583,10 @@ ul.columns {
 	width: 100%;
 	img {
 		float: left;
-		max-width: 70px;
+		max-width: 70px !important;
 		margin: 0 0 0 15px;
 	}
-	h3 {
+	h2 {
 		float: left;
 		margin: 20px 0;
 	}
@@ -621,7 +623,7 @@ section#challenge-goal-opportunity {
 	p {
 		color: #fff;
 	}
-	h3 {
+	h2 {
 		color: #fff;
 	}
 	ul {
@@ -641,6 +643,10 @@ section#background {
 		margin: 0 auto;
 		max-width: 1200px;
 		width: 100%;
+		img {
+			max-width: 750px;
+			width: 100%;
+		}
 		p {
 			float: left;
 			width: 100%;
@@ -684,7 +690,7 @@ section#details {
 		margin: 0 auto;
 		max-width: 1200px;
 		width: 100%;
-		h3 {
+		h2 {
 			color: #fff;
 		}
 		p {
