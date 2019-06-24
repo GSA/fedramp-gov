@@ -87,7 +87,7 @@
               {% for sub in nav.sub %}
               <li>
 				{% if sub.is_external != null %}
-				<a href="{{ sub.is_external }}">{{ nav.text }}</a>
+				<a href="{{ sub.is_external }}">{{ sub.text }}</a>
 				{% else %}
                 <a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
                   {{ sub.text }}

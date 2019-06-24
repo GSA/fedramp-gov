@@ -203,22 +203,22 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td>3/9/2017</td>
   </tr>
   <tr>
-<td style="font-weight:bold;">Initial Authorization Phase- Authorize: Authority to Operate (ATO) Letter</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf">FedRAMP Agency ATO Review Template</a></td>
+<td style="font-weight:bold;">Initial Authorization Phase- Authorize: Agency Authorization Review Report Sample Template</td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf">FedRAMP Agency Authorization Review Report Sample Template</a></td>
     <td>The PMO uses this template to review Agency ATO packages. </td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/Agency-ATO-Report-Template-Version.pdf"><i class="fas fa-file-pdf"></i>
+<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
 </td>     
-<td>7/17/2017</td>
+<td>6/20/2019</td>
   </tr>
   <tr>
-    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: Authority to Operate (ATO) Letter</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></td>
-    <td>The FedRAMP ATO Letter Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
+    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: Agency Authorization Review Report Sample Template</td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">Agency Authorization Review Report Sample Template</a></td>
+    <td>The FedRAMP Agency Authorization Review Report Sample Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>3/9/2017</td>
+    <td>6/20/2019</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Continuous Monitoring Phase</td>
