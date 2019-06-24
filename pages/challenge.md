@@ -19,7 +19,7 @@ body-class: challenge
 <li class="goal">
 <a href="#goal"><img src="{{site.baseurl}}/assets/img/goal-icon.png"></a>
 <h3>GOAL</h3>
-<p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAO) and all parties interested in cloud security and the authorization process.</p>
+<p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAOs) and all parties interested in cloud security and the authorization process.</p>
 </li>
 <li class="opportunity">
 <a href="#opportunity"><img src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
@@ -42,7 +42,7 @@ body-class: challenge
 <div class="inner">
 <div id="challenge">
 <h2>CHALLENGE</h2>
-<p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain. The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO’s takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
+<p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain. The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
 <div class="video-responsive">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/x-d0pmw44BE" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -118,14 +118,14 @@ FedRAMP PMO launched multiple projects and initiatives in the past in response t
 	</span>
 <p>	Challenge participants are encouraged to submit any idea that could improve and benefit the FedRAMP program for any part of the cloud security authorization process. No idea is too small! </p>
 <p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT August 13, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than 2 pages, 11 point Arial font in a PDF or Word Document. </p>
-<p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, Interested Citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
+<p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, interested citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
 <ul>
-<li>1. Clearly identify and describe the improvement/Initiative</li>
-<li>2. Detail existing challenges the improvement/initiative addresses</li>
-<li>3. Provide a technical or management approach to implementing the idea</li>
-<li>4. Identify resources required for idea implementation and sustainment (e.g. level of effort, expertise needed, tooling,etc.)</li>
-<li>5. Describe intended outcomes of implementing the idea</li>
-<li>6. Develop and list metrics to successfully monitor and manage initiative post implementation</li>
+1. Clearly identify and describe the improvement/initiative
+2. Detail existing challenges the improvement/initiative addresses
+3. Provide a technical or management approach to implementing the idea
+4. Identify resources required for idea implementation and sustainment (e.g. level of effort, expertise needed, tooling, etc.)
+5. Describe intended outcomes of implementing the idea
+6. Develop and list metrics to successfully monitor and manage initiative post implementation</li>
 </ul>
 <p>Please keep in mind that we do not want to compromise security rigor! </p>
 <p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="/blog">Focus on FedRAMP blog</a>. The PMO will also release a Special Notice on FedBizOps and on GSA eBuy as part of a larger coordinated effort to gather ideas from the broadest possible community. These public announcements will contain a direct link to the FedRAMP website for further details about the ideation challenge. 
