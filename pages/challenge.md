@@ -24,7 +24,7 @@ body-class: challenge
 <li class="opportunity">
 <a href="#opportunity"><img src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
 <h3>OPPORTUNITY</h3>
-<p>Inform the next iteration of government’s premier cloud security authorization program.</p>
+<p>Inform the next iteration of government’s cloud security authorization program.</p>
 </li>
 </ul>
 <ul class="bkgrnd-process-details">
