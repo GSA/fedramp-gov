@@ -120,12 +120,12 @@ FedRAMP PMO launched multiple projects and initiatives in the past in response t
 <p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT August 13, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than 2 pages, 11 point Arial font as a PDF or Word Document. </p>
 <p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, interested citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
 <ol>
-1. Clearly identify and describe the improvement/initiative
-2. Detail existing challenges the improvement/initiative addresses
-3. Provide a technical or management approach to implementing the idea
-4. Identify resources required for idea implementation and sustainment (e.g. level of effort, expertise needed, tooling, etc.)
-5. Describe intended outcomes of implementing the idea
-	6. Develop and list metrics to successfully monitor and manage initiative post implementation</ol>
+<li>Clearly identify and describe the improvement/initiative</li>
+<li>Detail existing challenges the improvement/initiative addresses</li>
+<li>Provide a technical or management approach to implementing the idea</li>
+<li>Identify resources required for idea implementation and sustainment (e.g. level of effort, expertise needed, tooling, etc.)</li>
+<li>Describe intended outcomes of implementing the idea</li>
+<li>Develop and list metrics to successfully monitor and manage initiative post implementation</li></ol>
 
 <p>Please keep in mind that we do not want to compromise security rigor! </p>
 <p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="/blog">Focus on FedRAMP blog</a>. The PMO will also release a Special Notice on FedBizOps and on GSA eBuy as part of a larger coordinated effort to gather ideas from the broadest possible community. These public announcements will contain a direct link to the FedRAMP website for further details about the ideation challenge. 
