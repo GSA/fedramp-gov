@@ -56,10 +56,29 @@ assigned:
             show_in_menu: true
             show_in_footer: false
     -
-        text: Marketplace
-        is_external: https://marketplace.fedramp.gov
+        text: Get Authorized
+        href: 
+        permalink: /
         show_in_menu: true
         show_in_footer: false
+        sub:
+        - 
+            text: JAB Authorization
+            href: jab-authorization.md
+            permalink: /jab-authorization/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: Agency Authorization
+            href: agency-authorization.md
+            permalink: /agency-authorization/
+            show_in_menu: true
+            show_in_footer: false 
+        - 
+            text: Tailored Authorization
+            is_external: https://tailored.fedramp.gov
+            show_in_menu: true
+            show_in_footer: false
     -
         text: Resources
         show_in_menu: true
@@ -121,24 +140,10 @@ assigned:
             show_in_menu: true
             show_in_footer: false     
     -
-        text: Get Authorized
-        href: 
-        permalink: /
+        text: Marketplace
+        is_external: https://marketplace.fedramp.gov
         show_in_menu: true
         show_in_footer: false
-        sub:
-        - 
-            text: JAB Authorization
-            href: jab-authorization.md
-            permalink: /jab-authorization/
-            show_in_menu: true
-            show_in_footer: false 
-        - 
-            text: Agency Authorization
-            href: agency-authorization.md
-            permalink: /agency-authorization/
-            show_in_menu: true
-            show_in_footer: false 
     -
         text: Blog
         href: pages/blog.md
