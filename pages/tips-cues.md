@@ -11,11 +11,9 @@ You can also review and search all of our past Tips & Cues by downloading our co
 
 <div class="q3">
 <h3>TIP: Cloud Service Providers (CSPs) pursuing a JAB P-ATO have asked about how to implement new technologies. New technologies have a minimum control set in the significant change policy and procedures. The assumption is that all the controls will be assessed unless the 3PAO provides a rationale for excluding controls or scoping the assessment of the controls as:</h3>
-  <p>
-* Not Applicable (N/A) - The nature of the component means it inherently does not contain this capability and will not be tested (e.g. controls that apply to collaborative computing devices only apply if that capability exists in the system) 
-  </p>
-  <p>
-* Not Selected (N/S) - A centralized automated mechanism ensures the implementation of the specific control, and that central automated mechanism has already been assessed to ensure that it is operating as intended and producing the desired result. Therefore, the assessment of the control will be scoped to only verifying/validating that the component is integrated into the centralized automated mechanism. Here are a few examples of centralized and/or automated mechanisms that implement other controls:
+    <ul>
+<li>Not Applicable (N/A) - The nature of the component means it inherently does not contain this capability and will not be tested (e.g. controls that apply to collaborative computing devices only apply if that capability exists in the system)</li>
+<li>Not Selected (N/S) - A centralized automated mechanism ensures the implementation of the specific control, and that central automated mechanism has already been assessed to ensure that it is operating as intended and producing the desired result. Therefore, the assessment of the control will be scoped to only verifying/validating that the component is integrated into the centralized automated mechanism. Here are a few examples of centralized and/or automated mechanisms that implement other controls:</li>
   </p>
   <p>
   - AC-2 (1) - The organization employs automated mechanisms to support the management of information system accounts
@@ -42,7 +40,7 @@ For more information on handling the Annual Assessment and scan findings check o
 NIST SP 800-63B specifies that memorized secrets SHALL be at least 8 characters in length if chosen by the subscriber. Memorized secrets chosen randomly by the CSP or verifier SHALL be at least 6 characters in length and MAY be entirely numeric. For guidance on the subject of passwords, refer to <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf">NIST SP 800-63B</a>.
   </p>
 
-<h3>TIP 2: Significant Change Requests (SCR’s) for uplift from Moderate to High baseline require scan and pentest reports to be submitted.</h3>
+<h3>TIP: Significant Change Requests (SCR’s) for uplift from Moderate to High baseline require scan and pentest reports to be submitted.</h3>
 <p>
 Some vulnerability and penetration tests may still be acceptable from a recent Moderate Annual Assessment for the High baseline uplift. However a full analysis needs to be conducted to determine which controls need to be tested. The analysis must consider the additional controls for High, freshness of Annual Assessment testing, and ensuring all controls are tested within the three year time frame. For more on this, please refer to Continuous Monitoring performance documents on the <a href="https://www.fedramp.gov/">FedRAMP Website</a>. 
   </p>
