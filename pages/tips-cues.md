@@ -14,7 +14,6 @@ You can also review and search all of our past Tips & Cues by downloading our co
     <ul>
 <li>Not Applicable (N/A) - The nature of the component means it inherently does not contain this capability and will not be tested (e.g. controls that apply to collaborative computing devices only apply if that capability exists in the system)</li>
 <li>Not Selected (N/S) - A centralized automated mechanism ensures the implementation of the specific control, and that central automated mechanism has already been assessed to ensure that it is operating as intended and producing the desired result. Therefore, the assessment of the control will be scoped to only verifying/validating that the component is integrated into the centralized automated mechanism. Here are a few examples of centralized and/or automated mechanisms that implement other controls:</li>
-  </p>
   <p>
   - AC-2 (1) - The organization employs automated mechanisms to support the management of information system accounts
   </p>
