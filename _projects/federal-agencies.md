@@ -27,8 +27,6 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <p>Agencies interested in acquiring a provider that is not yet FedRAMP Authorized or FedRAMP In Process should contact the PMO to learn more about how to partner with the CSP to issue a FedRAMP authorization. We recommend reviewing our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information on the Initial Authorization process. Additionally, please review <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a> for guidance on FedRAMP in Process Requirements for Agency Authorizations. 
 <p>Agencies having difficulty selecting a CSO should reach out to <a href="mailto:agency@fedramp.gov">agency@fedramp.gov</a>. The PMO would be happy discuss options and share lessons learned from other Agencies.</p>
 
-</section>
-
 <section id="during-auth">
 
 <h3>During Authorization</h3>
