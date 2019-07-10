@@ -45,12 +45,14 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <ul>
 <li>Maintain open communication with the CSP and independent assessor to provide clarity and answer questions regarding specific security control requirements</li>
 <li>Review the CSP security authorization package, which includes:
+    </ul>
 <ul>
     <li><strong>System Security Plan (SSP)</strong> detailing the CSP’s system security environment</li>
     <li><strong>System Assessment Plan (SAP)</strong> detailing the independent assessor's approach for vulnerability testing of the CSP’s system</li>
     <li><strong>System Assessment Report (SAR)</strong> detailing the independent assessor’s findings and recommendations pursuant to performance of the SAP</li>
     <li><strong>Plan of Actions and Milestones (POA&M)</strong> detailing the CSP's and independent assessor’s approach to addressing or identifying system vulnerabilities as well as the approach to continuous monitoring of the system</li>
     </ul></li>
+    <ul>
 <li>Direct the CSP for remediation of security vulnerabilities identified in the SAR, as needed</li>
 <li>Perform final review of a security authorization package, with a focus toward understanding the risk posture the Agency must accept by using the cloud service</li>
 </ul>
