@@ -9,16 +9,16 @@ image:
 icon: /assets/img/project-images/fedagency-icon.png
 abstract: 
 ---
+<div>
+<p>In a constantly changing IT landscape, the migration of on-premise technologies to the cloud has only increased. Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs. Agencies are required by law to protect any federal information that is collected, maintained, processed, disseminated, or disposed of by cloud service offerings, in accordance with <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP requirements</a>. </p>
 
-In a constantly changing IT landscape, the migration of on-premise technologies to the cloud has only increased. Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs. Agencies are required by law to protect any federal information that is collected, maintained, processed, disseminated, or disposed of by cloud service offerings, in accordance with <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP requirements</a>. 
-
-FedRAMP is a unique government program that is at the epicenter of cloud technology, cybersecurity, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct Agency security assessments. FedRAMP maintains a [Marketplace](https://marketplace.fedramp.gov/#/products) of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for FedRAMP Authorized vendors.
+<p>FedRAMP is a unique government program that is at the epicenter of cloud technology, cybersecurity, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct Agency security assessments. FedRAMP maintains a [Marketplace](https://marketplace.fedramp.gov/#/products) of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for FedRAMP Authorized vendors.</p>
 
 
-## FedRAMP Authorization: An Agency’s Perspective  
+<h2>FedRAMP Authorization: An Agency’s Perspective  </h2>
 
-FedRAMP facilitates collaboration across the federal government and enables effective stakeholder alignment during the FedRAMP authorization process. Prior to engaging a Cloud Service Provider (CSP), it is important that agencies understand their technical requirements, to include determination of the type of cloud service/scope of services needed, cloud deployment model, data sensitivities, and other pertinent information. 
-
+<p>FedRAMP facilitates collaboration across the federal government and enables effective stakeholder alignment during the FedRAMP authorization process. Prior to engaging a Cloud Service Provider (CSP), it is important that agencies understand their technical requirements, to include determination of the type of cloud service/scope of services needed, cloud deployment model, data sensitivities, and other pertinent information. </p>
+</div>
 <section id="pre-auth">
 
 <h3>Pre-Authorization</h3>
@@ -27,6 +27,7 @@ FedRAMP facilitates collaboration across the federal government and enables effe
 <p>Agencies interested in acquiring a provider that is not yet FedRAMP Authorized or FedRAMP In Process should contact the PMO to learn more about how to partner with the CSP to issue a FedRAMP authorization. We recommend reviewing our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information on the Initial Authorization process. Additionally, please review <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a> for guidance on FedRAMP in Process Requirements for Agency Authorizations. 
 <p>Agencies having difficulty selecting a CSO should reach out to <a href="mailto:agency@fedramp.gov">agency@fedramp.gov</a>. The PMO would be happy discuss options and share lessons learned from other Agencies.</p>
 </section>
+
 <section id="during-auth">
 
 <h3>During Authorization</h3>
