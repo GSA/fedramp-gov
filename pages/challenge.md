@@ -102,6 +102,7 @@ body-class: challenge
 	<li><strong>Awareness</strong> - A lack of understanding of the FedRAMP process, and the associated roles and responsibilities of CSPs and agencies, can result in misperceptions on the timelines and cost of an authorization. These misperceptions can potentially dissuade a CSP from undertaking the FedRAMP process or an agency from participating in the process.</li>
 </ul>
 </td></tr></tbody></table>
+
 <h3> Helpful Resources and Where to Start</h3>
 FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
 <ul>
