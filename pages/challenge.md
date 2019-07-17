@@ -82,23 +82,17 @@ body-class: challenge
 <img src="{{site.baseurl}}/assets/img/agency-auth.png">
 <h3>Challenges with the "As-Is" FedRAMP Process</h3>
 
-<p>As Agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption.</p>
+<p>As Agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption. The FedRAMP PMO identified four improvement areas to the current “as-is” process.</p>
 <table>
 	<tbody>
-	<tr colspan="2">
-	<th colspan="2">STAKEHOLDER CHALLENGES</th>
+	<tr colspan="1">
+	<th colspan="1">CURRENT CHALLENGES</th>
 	</tr>
-<tr colspan="2">
-<td>
-<strong>Industry</strong></td>
+<tr colspan="1">
 <td><ul><li><strong>Time</strong> - Although there has been significant progress in reducing authorization timelines, more work is needed to improve the pace of authorizing new providers, approving significant changes, and on-boarding of new services.</li>
 <li><strong>Cost</strong> - The technical modifications, testing, and security materials required for a vendor to achieve a FedRAMP Authorization is comprehensive and rigorous.  Depending on a vendor’s familiarity with these requirements, and the current “as-is” environment, costs can quickly escalate.</li>
-</ul>
-</td>
-</tr>
-<tr colspan="2">
-	<td><strong>Agencies</strong></td>
-<td><ul><li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li></ul></td></tr></tbody></table>
+<li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
+<li><strong>Awareness</strong> - A lack of understanding of the FedRAMP process, and the associated roles and responsibilities of CSPs and agencies, can result in misperceptions on the timelines and cost of an authorization. These misperceptions can potentially dissuade a CSP from undertaking the FedRAMP process or an agency from participating in the process.</li></ul></td></tr></tbody></table>
 <h3> Helpful Resources and Where to Start</h3>
 FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
 <ul>
