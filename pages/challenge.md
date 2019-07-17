@@ -90,7 +90,7 @@ body-class: challenge
 </p>
 <table>
 	<tbody>
-	<th colspan="2">CURRENT CHALLENGES</th>
+	<th colspan="1">CURRENT CHALLENGES</th>
 	</tr>
 <td>
 <td><ul><li><strong>Time</strong> - Although there has been significant progress in reducing authorization timelines, more work is needed to improve the pace of authorizing new providers, approving significant changes, and on-boarding of new services.</li>
@@ -101,7 +101,9 @@ body-class: challenge
 <td><ul><li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
 	<li><strong>Awareness</strong> - A lack of understanding of the FedRAMP process, and the associated roles and responsibilities of CSPs and agencies, can result in misperceptions on the timelines and cost of an authorization. These misperceptions can potentially dissuade a CSP from undertaking the FedRAMP process or an agency from participating in the process.</li>
 </ul>
-</td></tr></tbody></table>
+	
+<td></tr></tbody></table></td>
+
 
 <h3> Helpful Resources and Where to Start</h3>
 FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
