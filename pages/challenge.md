@@ -93,15 +93,12 @@ body-class: challenge
 	<tr colspan="2">
 	<th colspan="2">CURRENT CHALLENGES</th>
 	</tr>
-<tr colspan="2">
 <td>
 <td><ul><li><strong>Time</strong> - Although there has been significant progress in reducing authorization timelines, more work is needed to improve the pace of authorizing new providers, approving significant changes, and on-boarding of new services.</li>
 <li><strong>Cost</strong> - The technical modifications, testing, and security materials required for a vendor to achieve a FedRAMP Authorization is comprehensive and rigorous.  Depending on a vendor’s familiarity with these requirements, and the current “as-is” environment, costs can quickly escalate.</li>
 </ul>
 </td>
 </tr>
-<tr colspan="2">
-	<td><strong>Agencies</strong></td>
 <td><ul><li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
 	<li><strong>Awareness</strong> - A lack of understanding of the FedRAMP process, and the associated roles and responsibilities of CSPs and agencies, can result in misperceptions on the timelines and cost of an authorization. These misperceptions can potentially dissuade a CSP from undertaking the FedRAMP process or an agency from participating in the process.</li>
 </ul>
