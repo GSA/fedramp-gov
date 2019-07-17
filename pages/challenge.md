@@ -90,7 +90,6 @@ body-class: challenge
 </p>
 <table>
 	<tbody>
-	<tr colspan="2">
 	<th colspan="2">CURRENT CHALLENGES</th>
 	</tr>
 <td>
