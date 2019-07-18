@@ -116,7 +116,7 @@ FedRAMP PMO launched multiple projects and initiatives in the past in response t
 	<h2>SUBMISSION DETAILS</h2><img src="{{site.baseurl}}/assets/img/submissiondetails-icon.png">
 	</span>
 <p>	Challenge participants are encouraged to submit any idea that could improve and benefit authorization process. No idea is too small! </p>
-<p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT August 22, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than 2 pages, 11 point Arial font as a PDF or Word Document. </p>
+<p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT August 22, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than two pages, 11 point Arial font as a PDF or Word Document. </p>
 <p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, interested citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
 <ol>
 <li>Clearly identify and describe the improvement/initiative</li>
@@ -127,7 +127,7 @@ FedRAMP PMO launched multiple projects and initiatives in the past in response t
 <li>Develop and list metrics to successfully monitor and manage initiative post implementation</li></ol>
 
 <p>Please keep in mind that we do not want to compromise security rigor! </p>
-<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="/blog">Focus on FedRAMP blog</a>. The PMO will also release a Special Notice on FedBizOpps as part of a larger coordinated effort to gather ideas from the broadest possible community. These public announcements will contain a direct link to the FedRAMP website for further details about the ideation challenge. 
+<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/">Focus on FedRAMP blog</a>. The PMO will also release a Special Notice on FedBizOpps as part of a larger coordinated effort to gather ideas from the broadest possible community. These public announcements will contain a direct link to the FedRAMP website for further details about the ideation challenge. 
 </p>
 <p>Thank you for your effort and commitment to partnering with FedRAMP to improve cybersecurity for all.</p>
 <hr>
