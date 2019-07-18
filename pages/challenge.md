@@ -39,15 +39,15 @@ body-class: challenge
 </ul>
 </section>
 <section id="challenge-goal-opportunity">
-<div class="inner">
-<div id="challenge">
+	<div class="inner">
+		<div id="challenge">
 <h2>CHALLENGE</h2>
 <p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain. The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
 <div class="video-responsive">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/-ceosiCZGqU" frameborder="0" allowfullscreen></iframe>
 </div>
 <hr>
-</div>
+		</div>
 <div id="goal">
 <h2>GOAL</h2>
 <p>Participants should submit bold, innovative, and actionable ideas that offer a new perspective on the FedRAMP Authorization process.</p>
@@ -99,7 +99,7 @@ body-class: challenge
 <li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
 <li><strong>Awareness</strong> - A lack of understanding of the FedRAMP process, and the associated roles and responsibilities of CSPs and agencies, can result in misperceptions on the timelines and cost of an authorization. These misperceptions can potentially dissuade a CSP from undertaking the FedRAMP process or an agency from participating in the process.</li></ul></td></tr></tbody></table>
 <h3> Helpful Resources and Where to Start</h3>
-FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement:  
+<p>FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement: </p> 
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
 <li><a href="{{site.baseurl}}/pursuing-a-fedramp-ready-designation/">FedRAMP Ready</a></li>
