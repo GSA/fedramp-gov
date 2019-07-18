@@ -115,15 +115,6 @@ The table below is sortable by columns. The Category, Document, and Description 
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx">SSP ATTACHMENT 10 - FedRAMP Federal Information Processing Standard (FIPS) 199 Categorization Template</a></td>
-    <td>The FedRAMP FIPS 199 Categorization Template provides the determination of the security impact level for a cloud environment that may host any or all of the service models, which include IaaS, PaaS, and SaaS. The security categorization shows the CSP which FedRAMP security controls are applicable to its environment.</td>
-<td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A10-FedRAMP-FIPS-199-Categorization-Template.docx"><i class="fas fa-file-word"></i>
-<p class="icon-text">WORD</p></a>
-</td>
-    <td>6/6/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
     <td><a href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx">SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template</a></td>
     <td>The FedRAMP Laws and Regulations Template provides a single source for applicable FedRAMP laws, regulations, standards, and guidance.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx"><i class="fas fa-file-excel"></i>
@@ -212,9 +203,9 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td>6/20/2019</td>
   </tr>
   <tr>
-    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: Agency Authorization Review Report Sample Template</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">Agency Authorization Review Report Sample Template</a></td>
-    <td>The FedRAMP Agency Authorization Review Report Sample Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
+    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: FedRAMP ATO Letter Template</td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></td>
+    <td>The FedRAMP ATO Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
