@@ -203,9 +203,9 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td>6/20/2019</td>
   </tr>
   <tr>
-    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: Agency Authorization Review Report Sample Template</td>
-    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">Agency Authorization Review Report Sample Template</a></td>
-    <td>The FedRAMP Agency Authorization Review Report Sample Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
+    <td style="font-weight:bold;">Initial Authorization Phase- Authorize: FedRAMP ATO Letter Template</td>
+    <td><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx">FedRAMP ATO Letter Template</a></td>
+    <td>The FedRAMP ATO Template is optional for Agencies to use when granting authorizations for CSOs that meet the FedRAMP requirements.</td>
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-ATO-Letter-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
