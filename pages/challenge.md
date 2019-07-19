@@ -145,5 +145,5 @@ body-class: challenge
 	<li>GSA will not be responsible for any claims or complaints from third parties about any disputes of ownership regarding the ideas, technology, white papers, prototypes, or images included in submissions.</li>
 	<li>GSA reserves the right for any reason to modify or close the challenge at any time.</li>
 </ul>
-	</div>
+</div>
 </section>
