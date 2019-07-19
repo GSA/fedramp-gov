@@ -545,6 +545,9 @@ ul.columns {
 			text-align: center;
 			list-style: none;
 			width: 25%;
+			a {
+				text-decoration: none;
+			}
 			p {
 				border-top: 2px solid $dark-blue;
 				padding: 15px 0 0 0;

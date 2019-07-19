@@ -12,18 +12,18 @@ body-class: challenge
 </div>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
-<a href="#challenge"><img src="{{site.baseurl}}/assets/img/challenge-icon.png"></a>
-<h3>CHALLENGE</h3>
+<a href="#challenge"><img alt="Challenge" title="Challenge" src="{{site.baseurl}}/assets/img/challenge-icon.png"></a>
+<a href="#challenge"><h3>CHALLENGE</h3></a>
 <p>Reimagine the FedRAMP Security Authorization process and its supporting functions.</p>
 </li>
 <li class="goal">
-<a href="#goal"><img src="{{site.baseurl}}/assets/img/goal-icon.png"></a>
-<h3>GOAL</h3>
+<a href="#goal"><img alt="Goal" title="Goal" src="{{site.baseurl}}/assets/img/goal-icon.png"></a>
+<a href="#goal"><h3>GOAL</h3></a>
 <p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAOs), and all parties interested in cloud security and the authorization process.</p>
 </li>
 <li class="opportunity">
-<a href="#opportunity"><img src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
-<h3>OPPORTUNITY</h3>
+<a href="#opportunity"><img alt="Opportunity" title="Opportunity" src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
+<a href="#opportunity"><h3>OPPORTUNITY</h3></a>
 <p>Inform the next iteration of government’s cloud security authorization program.</p>
 </li>
 </ul>
