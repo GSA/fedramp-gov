@@ -42,7 +42,7 @@ body-class: challenge
 	<div class="inner">
 		<div id="challenge">
 <h2>CHALLENGE</h2>
-<p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain within the FedRAMP process and across the FISMA and Risk Management Framework.</p>
+<p>Although agencies are adopting secure cloud technologies at record-high levels, challenges remain within the FedRAMP process and across the FISMA and Risk Management Framework.</p>
 
 <p>The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
 
@@ -60,7 +60,7 @@ body-class: challenge
 <hr>
 <div id="opportunity">
 <h2>OPPORTUNITY</h2>
-<p>As technology evolves, it is important that federal Agencies manage information systems to address and mitigate security risks. We want to ensure FedRAMP continuously explores initiatives in support of a modern, efficient, and effective authorization process in an effort to reduce time and cost, without compromising cybersecurity rigor.</p>
+<p>As technology evolves, it is important that federal agencies manage information systems to address and mitigate security risks. We want to ensure FedRAMP continuously explores initiatives in support of a modern, efficient, and effective authorization process in an effort to reduce time and cost, without compromising cybersecurity rigor.</p>
 
 <p>This challenge provides FedRAMP’s stakeholders and the cloud security community at large the opportunity to directly inform and contribute ideas in support of a new approach to risk assessments and security authorization for cloud products and services.</p>
 </div>
@@ -75,22 +75,22 @@ body-class: challenge
 	
 <p>In accordance with FISMA, each Agency is required to issue an Authority to Operate (ATO) to authorize operation and accept the risk of using an information system. FISMA, and the <a href="https://www.whitehouse.gov/presidential-actions/presidential-executive-order-strengthening-cybersecurity-federal-networks-critical-infrastructure/" target="_blank">President’s Executive Order</a>, require agency heads to be responsible for information security risk within that agency and, while FedRAMP helps streamline and support agency risk determinations, ultimately that responsibility lies with the individual agency.</p>
 
-<p>FedRAMP’s unified approach allows CSPs to demonstrate how they are safeguarding information using a single set of security requirements that is accepted by all executive branch Departments and Agencies. This “do once, use many” approach minimizes duplicative Agency-specific authorization efforts, inconsistencies, and cost inefficiencies.</p>
+<p>FedRAMP’s unified approach allows CSPs to demonstrate how they are safeguarding information using a single set of security requirements that is accepted by all executive branch departments and agencies. This “do once, use many” approach minimizes duplicative agency-specific authorization efforts, inconsistencies, and cost inefficiencies.</p>
 
-<p>FedRAMP works closely with partners from industry and government  to promote the secure adoption of innovative information technologies. The FedRAMP PMO takes a continuous improvement mindset to its mission of creating transparent standards and processes to  accelerate federal Agencies’ adoption of cloud technologies and ability to leverage security authorizations on a government-wide scale.</p>
+<p>FedRAMP works closely with partners from industry and government  to promote the secure adoption of innovative information technologies. The FedRAMP PMO takes a continuous improvement mindset to its mission of creating transparent standards and processes to  accelerate federal agencies’ adoption of cloud technologies and ability to leverage security authorizations on a government-wide scale.</p>
 	
 
 <h3>How Do CSPs Get a FedRAMP Authorization?</h3>
 
 
-<p>CSPs can achieve a FedRAMP Authorization for their Cloud Service Offering (CSO) from one of two approaches: through Agency partnership or through the Joint Authorization Board (JAB). Regardless of the authorization approach, the CSP and 3PAO must produce the same deliverables (documents, artifacts, and evidence files) to convey the risk associated with the CSO.</p>
+<p>CSPs can achieve a FedRAMP Authorization for their Cloud Service Offering (CSO) from one of two approaches: through agency partnership or through the Joint Authorization Board (JAB). Regardless of the authorization approach, the CSP and 3PAO must produce the same deliverables (documents, artifacts, and evidence files) to convey the risk associated with the CSO.</p>
 <h3><a href="{{site.baseurl}}/jab-authorization/">JAB Authorization Process</a></h3>
 <img src="{{site.baseurl}}/assets/img/ato-auth.png">
 <h3><a href="{{site.baseurl}}/agency-authorization/">Agency Authorization Process</a></h3>
 <img src="{{site.baseurl}}/assets/img/agency-auth.png">
 <h3>Challenges with the "As-Is" FedRAMP Process</h3>
 
-<p>As Agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption. The FedRAMP PMO identified four improvement areas to the current “as-is” process.</p>
+<p>As agencies migrate to cloud technology, authorization challenges remain. FedRAMP is committed to providing workable and scalable solutions for our partners to advance the pace of secure cloud adoption. The FedRAMP PMO identified four improvement areas to the current “as-is” process.</p>
 <table>
 	<tbody>
 	<tr colspan="1">
@@ -100,7 +100,7 @@ body-class: challenge
 <td><ul><li><strong>Time</strong> - Although there has been significant progress in reducing authorization timelines, more work is needed to improve the pace of authorizing new providers, approving significant changes, and on-boarding of new services.</li>
 <li><strong>Cost</strong> - The technical modifications, testing, and security materials required for a vendor to achieve a FedRAMP Authorization is comprehensive and rigorous.  Depending on a vendor’s familiarity with these requirements, and the current “as-is” environment, costs can quickly escalate.</li>
 <li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
-<li><strong>Awareness</strong> - There are misperceptions that can potentially dissuade a CSP or Agency from participating in the program. There are several awareness challenges associated with the process, associated roles and responsibilities, and available resources, including the <a href="https://marketplace.fedramp.gov/#/products" target="_blank"> FedRAMP Marketplace</a>.</li></ul></td></tr></tbody></table>
+<li><strong>Awareness</strong> - There are misperceptions that can potentially dissuade a CSP or agency from participating in the program. There are several awareness challenges associated with the process, associated roles and responsibilities, and available resources, including the <a href="https://marketplace.fedramp.gov/#/products" target="_blank"> FedRAMP Marketplace</a>.</li></ul></td></tr></tbody></table>
 <h3> Helpful Resources and Where to Start</h3>
 <p>The FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement: </p> 
 <ul>
@@ -138,7 +138,7 @@ body-class: challenge
 <hr>
 <h2>Rules and Conditions</h2>
 <ul>
-	<li>FedRAMP will not respond to each submission individually but may reach out via email to individual submitters for clarification if needed.</li>
+	<li>FedRAMP will not respond to each submission individually, but may reach out via email to individual submitters for clarification if needed.</li>
 	<li>This is a targeted open crowdsourcing and ideation activity to collect insight and is not a competition where prizes may be awarded.</li>
 	<li>Please do not submit proprietary information. Any information provided may be incorporated into the design of the project. Information submitted in response to this notice is subject to disclosure under the Freedom of Information Act. Respondents are advised that the Government is under no obligation to acknowledge, compensate or provide feedback with respect to any information submitted under this notice.</li>
 	<li>By participating in this crowdsourcing activity, submitters agree to hold GSA harmless from all legal and administrative claims to include associated expenses that may arise from any claims related to their submission or its use.</li>
