@@ -42,7 +42,7 @@ body-class: challenge
 	<div class="inner">
 		<div id="challenge">
 <h2>CHALLENGE</h2>
-<p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain. Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain within the FedRAMP process and across the FISMA and Risk Management Framework.</p>
+<p>Although Agencies are adopting secure cloud technologies at record-high levels, challenges remain within the FedRAMP process and across the FISMA and Risk Management Framework.</p>
 
 <p>The Federal Risk and Authorization Management Program (FedRAMP) strives to continuously improve how we support our customers. In an effort to enhance and evolve our program, the FedRAMP Program Management Office (PMO) seeks to leverage the power and insights of the cybersecurity community. Respondents have the opportunity to help guide what the PMO takes on next and ensure that the government keeps federal data secure while bolstering modernization efforts.</p>
 
