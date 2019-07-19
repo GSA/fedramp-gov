@@ -118,7 +118,7 @@ body-class: challenge
 	<span class="title">
 	<h2>SUBMISSION DETAILS</h2><img src="{{site.baseurl}}/assets/img/submissiondetails-icon.png">
 	</span>
-<p>	Challenge participants are encouraged to submit any idea that could improve and benefit authorization process. No idea is too small! </p>
+<p>	Challenge participants are encouraged to submit any idea that could improve and benefit the authorization process. No idea is too small! </p>
 <p>Participants should submit their idea to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by 5pm EDT August 22, 2019 with the subject line: “FedRAMP Challenge Response.” Submissions should be no more than two pages, 11 point Arial font as a PDF or Word Document. </p>
 <p>Responses should include brief details on your relationship to FedRAMP, such as how you would identify yourself (CSP, 3PAO, Agency, Industry, interested citizen, or other). All approaches to this challenge are welcome, but here is an optional outline to organize your response: </p>
 <ol>
