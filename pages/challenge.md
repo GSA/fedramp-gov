@@ -102,7 +102,7 @@ body-class: challenge
 <li><strong>Reciprocity</strong> - Some agencies are not accepting FedRAMP Authorizations at face-value and require additional security requirements in addition to the FedRAMP baseline. This action transforms the ATO process from a risk-enabling practice to a labor-intensive exercise and loses sight of FedRAMP’s intended “do once, use many” goal. </li>
 <li><strong>Awareness</strong> - There are misperceptions that can potentially dissuade a CSP or Agency from participating in the program. There are several awareness challenges associated with the process, associated roles and responsibilities, and available resources, including the <a href="https://marketplace.fedramp.gov/#/products" target="_blank"> FedRAMP Marketplace</a>.</li></ul></td></tr></tbody></table>
 <h3> Helpful Resources and Where to Start</h3>
-<p>FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement: </p> 
+<p>The FedRAMP PMO launched multiple projects and initiatives in the past in response to customer feedback. Take a look at previous improvement efforts and get a feel for the PMO’s approach to continuous process improvement: </p> 
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated</a></li>
 <li><a href="{{site.baseurl}}/pursuing-a-fedramp-ready-designation/">FedRAMP Ready</a></li>
@@ -130,7 +130,9 @@ body-class: challenge
 <li>Develop and list metrics to successfully monitor and manage initiative post implementation</li></ol>
 
 <p>Given the increasing capabilities of technology and innovative services, it is our expectation that new ideas can propose improvements in ways that continue or improve security rigor.</p>
-<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/">Focus on FedRAMP blog</a>. The PMO will also release a Special Notice on FedBizOpps as part of a larger coordinated effort to gather ideas from the broadest possible community. These public announcements will contain a direct link to the FedRAMP website for further details about the ideation challenge. 
+<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/">Focus on FedRAMP blog</a>. 
+
+<p>As part of a larger coordinated effort, the PMO will also release a Special Announcement on FedBizOpps and a posting on Challenge.gov in order to gather ideas from the broadest possible community. These public announcements will contain a direct link to this page for further details about the ideation challenge. 
 </p>
 <p>Thank you for your effort and commitment to partnering with FedRAMP to improve cybersecurity for all.</p>
 <hr>
