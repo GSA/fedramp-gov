@@ -130,7 +130,7 @@ body-class: challenge
 <li>Develop and list metrics to successfully monitor and manage initiative post implementation</li></ol>
 
 <p>Given the increasing capabilities of technology and innovative services, it is our expectation that new ideas can propose improvements in ways that continue or improve security rigor.</p>
-<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/">Focus on FedRAMP blog</a>. 
+<p>Submissions will be reviewed by the FedRAMP PMO. As a result of this challenge and internal efforts, FedRAMP will define its next big move as a program and communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/">Focus on FedRAMP blog</a>. </p>
 
 <p>As part of a larger coordinated effort, the PMO will also release a Special Announcement on FedBizOpps and a posting on Challenge.gov in order to gather ideas from the broadest possible community. These public announcements will contain a direct link to this page for further details about the ideation challenge. 
 </p>
