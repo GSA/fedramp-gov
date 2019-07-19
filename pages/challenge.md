@@ -19,7 +19,7 @@ body-class: challenge
 <li class="goal">
 <a href="#goal"><img src="{{site.baseurl}}/assets/img/goal-icon.png"></a>
 <h3>GOAL</h3>
-<p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAOs) and all parties interested in cloud security and the authorization process.</p>
+<p>Hear unique perspectives and learn from Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAOs), and all parties interested in cloud security and the authorization process.</p>
 </li>
 <li class="opportunity">
 <a href="#opportunity"><img src="{{site.baseurl}}/assets/img/opportunity-icon.png"></a>
