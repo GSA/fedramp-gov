@@ -42,7 +42,7 @@ abstract:
 <li>Send the ATO letter to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a></li>
 </ul>
 
-<p>If an Agency is working with a CSP who is not yet FedRAMP Authorized, they will perform the initial authorization for the CSO. An Agency should first communicate their partnership with FedRAMP in accordance with our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">In Process Requirements</a>. The authorization process begins with a kick-off discussion among all stakeholders. Following kick-off, the CSP and assessor begin system vulnerability testing of the cloud service offering and consolidate security documentation within the security authorization package. An Agency’s role in authorization is to:</p>
+<p>If an Agency is working with a CSP who is not yet FedRAMP Authorized, they will perform the initial authorization for the CSO. An Agency should first communicate their partnership with FedRAMP in accordance with our In Process Requirements found in our <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf"> Marketplace Designations Guidance</a>. The authorization process begins with a kick-off discussion among all stakeholders. Following kick-off, the CSP and assessor begin system vulnerability testing of the cloud service offering and consolidate security documentation within the security authorization package. An Agency’s role in authorization is to:</p>
 <ul>
 <li>Maintain open communication with the CSP and independent assessor to provide clarity and answer questions regarding specific security control requirements</li>
 <li>Review the CSP security authorization package, which includes:
