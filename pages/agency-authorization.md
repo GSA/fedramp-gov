@@ -10,7 +10,7 @@ The first step for any Cloud Service Provider (CSP) interested in pursuing a Fed
 
 To decide which type of authorization is right for a particular CSO, the CSP should review both processes and take into account their system's impact level, deployment model, stack, and market demand.
 
-Below is a high-level overview of the Agency Authorization Process. Information on roles and responsibilities for Agencies, CSPs, and 3PAOs within the Agency Authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">here</a>. 
+Below is a high-level overview of the Agency Authorization Process. Information on roles and responsibilities for Agencies, CSPs, and 3PAOs within the Agency Authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">here</a>. 
 
 ### Agency Authorization
 
@@ -18,7 +18,7 @@ Below is a high-level overview of the Agency Authorization Process. Information 
 
 ### Phase 1: Partnership Establishment  
 
-During this phase, a CSP formalizes their partnership with an Agency via FedRAMP's In Process Requirements, which are detailed in <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_CSPs.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a>. In some cases, a vendor may be under contract with a Agency already, or an Agency may be working through the acquisition process.
+During this phase, a CSP formalizes their partnership with an Agency via FedRAMP's In Process Requirements, which are detailed in <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a>. In some cases, a vendor may be under contract with a Agency already, or an Agency may be working through the acquisition process.
 
 The CSP’s system should be fully built and functional, and the CSP’s leadership team should be committed and fully on board with the FedRAMP process. Additionally, if they have not already done so, a CSP should engage with the FedRAMP office through the intake process by completing a [CSP Information Form](https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform).
 
