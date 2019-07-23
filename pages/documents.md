@@ -340,15 +340,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/6/2017</td>
   </tr>
   <tr>
-    <td style="font-weight:bold;">Key Agency Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Cloud_Procurement_Best_Practices.pdf">Cloud Procurement Best Practices</a></td>
-    <td>This paper provides Federal agencies specific guidance in effectively implementing the “Cloud First” policy and moving forward with the “Federal Cloud Computing Strategy” by focusing on ways to more effectively procure cloud services within existing regulations and laws.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Cloud_Procurement_Best_Practices.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td> 2/24/2012</td>
-  </tr>
-  <tr>
     <td style="font-weight:bold;">Key Assessor Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Roles_and_Responsibilities.pdf">3PAO JAB P-ATO Roles and Responsibilities</a></td>
     <td>This document provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.</td>
