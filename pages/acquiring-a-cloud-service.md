@@ -18,7 +18,6 @@ The documents, templates, and blogs listed below all pertain to the research / a
 <td>
 <ul>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Acquisition_FAQs.pdf">Acquisition FAQS</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Standard_Contract_Clauses.pdf">Standard Contract Clauses</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf">Control Specific Clauses</a>
 </li>
 </ul>
