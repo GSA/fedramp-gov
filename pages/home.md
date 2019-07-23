@@ -10,9 +10,10 @@ hero-text: FedRAMP simplifies security for the digital age by providing a standa
 hero-secondary-text: FedRAMP facilitates the shift from insecure, tethered, tedious IT to secure, mobile, nimble, and quick IT. <p>The FedRAMP Program Management Office (PMO) mission is to promote the adoption of secure cloud services across the Federal Government by providing a standardized approach to security and risk assessment.</p>
 hero-button-text: Hey, me too!
 hero-button-link: /about/
-banner-heading: FedRAMP enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT.
-banner-text: FedRAMP has an established marketplace of the types of solutions that Federal Agencies need. This market promotes reusability to save money and time for Agencies and industry. We're a program office funded to assist and provide guidance to Agencies in support of their move to modern, secure cloud technologies. 
+banner-heading: Do you have bold, innovative, and actionable ideas that can help transform the way the Federal Government secures federal data while keeping pace with modernization efforts?
+banner-text: FedRAMP is hosting an Ideation Challenge where we are sourcing ideas from all members of the cybersecurity community - CSPs, Agencies, 3PAOs, and others - to help shape how the government performs security authorizations.  
+challenge-image: /assets/img/fedramp-ideation-challenge-logo.png
 
 banner-button-text: Learn more
-banner-button-link: /about/
+banner-button-link: /challenge/
 ---
