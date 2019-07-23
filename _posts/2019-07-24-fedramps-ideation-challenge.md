@@ -1,5 +1,3 @@
-Challenge Blog Raw: 
-
 ---
 title: FedRAMP's Ideation Challenge
 permalink: /FedRAMPs-Ideation-Challenge/
