@@ -6,7 +6,7 @@ image: /assets/img/blog-images/FedRAMP_challenge.png
 author: FedRAMP
 layout: blog-page
 ---
-Do you have bold, innovative, and actionable ideas that can help transform the way Agencies secure federal data while keeping in pace with modernization efforts? 
+Do you have bold, innovative, and actionable ideas that can help transform the way agencies secure federal data while keeping in pace with modernization efforts? 
 
 The FedRAMP PMO is excited to announce the launch of <a href="http://fedramp.gov/challenge/">FedRAMP Ideation Challenge</a>. We’re calling on all members of the cybersecurity community - Cloud Service Providers (CSPs), Agencies, Third Party Assessors (3PAOs), and others - to contribute ideas for a new approach to risk assessments and security authorization for cloud products and services. We deeply value feedback and input, understanding that this is vital in order to grow and reach the next level of customer experience and program success.  
 
