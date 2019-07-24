@@ -1,5 +1,5 @@
 ---
-title: FedRAMP's Ideation Challenge
+title: FedRAMP Launches Ideation Challenge
 permalink: /FedRAMPs-Ideation-Challenge/
 body-class: page-blog
 image: /assets/img/blog-images/FedRAMP_challenge.png
