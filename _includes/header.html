@@ -81,13 +81,13 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-<li tabindex="0" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
-            <ul class="sub-menu">
+<li tabindex="0" aria-haspopup="true" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
+            <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}
               <li>
 				{% if sub.is_external != null %}
-				<a href="{{ sub.is_external }}">{{ sub.text }}</a>
+				<a tabindex="0"href="{{ sub.is_external }}">{{ sub.text }}</a>
 				{% else %}
                 <a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
                   {{ sub.text }}
@@ -97,7 +97,7 @@
 				<ul class="sub-sub-menu">
 				{% for sub in sub.sub %}
 			  <li>
-			  	<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
+			  	<a href="{{ sub.permalink | prepend: site.baseurl }}">
 			  	{{ sub.text }}
 			  	</a>
 			  </li>

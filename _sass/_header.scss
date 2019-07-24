@@ -228,6 +228,7 @@ nav.usa-nav {
 
 ul.sub-menu li.parent {
 	padding: 0;
+	width: 100%;
 }
 
 ul.sub-menu li.parent a:after {
@@ -365,4 +366,57 @@ ul.sub-sub-menu li a:before {
 ul.sub-sub-menu li a {
 	font-size: .8em;
 }
+}
+
+
+ul.usa-nav-primary {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+ul.usa-nav-primary li {
+	display: block;
+	float: left;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+ul.usa-nav-primary li a {
+/*  color: #fff;*/
+}
+
+ul.usa-nav-primary li:hover,
+ul.usa-nav-primary li:focus-within {
+	cursor: pointer;
+}
+
+ul.usa-nav-primary li:focus-within a {
+  outline: blue;
+}
+
+/*ul.usa-nav-primary li ul {
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}*/
+
+ul.usa-nav-primary li:hover > ul,
+ul.usa-nav-primary li:focus-within > ul,
+ul.usa-nav-primary li ul:hover,
+ul.usa-nav-primary li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul.usa-nav-primary li ul li {
+	clear: both;
+  width: 100%;
 }
