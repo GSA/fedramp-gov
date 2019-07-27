@@ -59,7 +59,8 @@ a {
     color: $link-hover-color;
   }
   &:active {
-    color: $link-active-color;
+/*    color: $link-active-color;*/
+	box-shadow: none;
   }
   &:visited {
     color: $link-visited-color;

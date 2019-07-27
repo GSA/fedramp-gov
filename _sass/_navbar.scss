@@ -32,7 +32,13 @@
 	cursor: pointer;
 	width: auto;
 	color: #5b616b;
+	font-size: 1.5rem;
+}
+
+@media (min-width: 951px) and (max-width: 1200px) {
+.usa-nav ul li.parent {
 	font-size: 1.3rem;
+	}
 }
 
 .usa-nav ul li.parent:hover {

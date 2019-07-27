@@ -1,7 +1,19 @@
 /** SEARCH FEATURE **/
 .search-feature {
-	margin: 30px 40px 0px 40px;
+	margin: 30px auto 0px auto;
+	max-width: 1200px;
 }
+
+@media (min-width: 0) and (max-width: 1200px) {
+	.search-feature {
+		padding: 0 5%;
+	}
+	
+	ul.usa-nav-primary.usa-accordion {
+		padding: 0 5% 0 0;
+		}
+}
+
 
 .search-feature .usa-header .usa-search {
 	max-width: 40rem;
@@ -45,6 +57,7 @@ div.usa-navbar:after {
 
 nav.usa-nav {
 	padding: 20px 0;
+	background: none;
 	float: right;
 ul {
 li {
@@ -64,7 +77,7 @@ li {
 //}
 //}
 
-@media (min-width: 951px) and (max-width: 1200px) {
+/*@media (min-width: 951px) and (max-width: 1200px) {
 .usa-nav-container {
 	padding-top: 30px;
 }
@@ -76,7 +89,7 @@ left: 30px;
 .usa-nav-primary.usa-accordion {
 	margin: 0 15% !important;
 }
-}
+}*/
 
 #logo em.usa-logo-text {
 a {
@@ -87,11 +100,12 @@ a {
 
 div#logo.usa-logo {
 	float: left;
+	padding: 0 0 0 5%;
 	 max-width: 300px;
 	min-width: 290px;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+/*@media (min-width: 375px) and (max-width: 768px) {
 div#logo.usa-logo {
 	max-width: 260px;
 	min-width: 190px;
@@ -101,12 +115,12 @@ div#logo.usa-logo {
 		height: auto;
 	}
 }
-}
+}*/
 
-@media (min-width: 0px) and (max-width: 360px) {
+@media (min-width: 0px) and (max-width: 480px) {
 div#logo.usa-logo {
-	max-width: 210px;
-	min-width: 150px;
+	/*max-width: 210px;
+	min-width: 150px;*/
 	img {
 		width: 100%;
 		height: auto;
@@ -157,6 +171,10 @@ header.usa-banner-header {
 .usa-nav li {
     margin: 0px;
     list-style: none;
+	a {
+		font-size: 1.5rem;
+		line-height: 1.4;
+	}
 }
 
 //@media and (max-width: 951px) {
@@ -170,8 +188,11 @@ nav.usa-nav {
 	width: 100%;
 	height: 100px;
 	position: relative;
-	top: -60px;
+	top: -100px;
 	height: 70px;
+	li a {
+		font-size: 1.3rem;
+	}
 }
 }
 
@@ -213,7 +234,7 @@ nav.usa-nav {
 }
 
 .sub-menu {
-    width: 175px;
+    width: 180px;
     padding: 0px;
     position: absolute;
     top: 28px;
@@ -247,7 +268,7 @@ ul.sub-sub-menu {
   top: inherit;
   margin-top: -35px;
   left: 100%;
-  width: 175px;
+  width: 180px;
   opacity: 0;
   padding: 0;
   transition: opacity linear 0.15s;
@@ -269,7 +290,8 @@ ul.sub-sub-menu {
 .sub-menu li a {
     padding: 10px;
     display: block;
-    font-size: .9em;
+	line-height: 1;
+    font-size: 1.3rem;
     color: #fff;
 }
 
@@ -329,7 +351,7 @@ ul.sub-sub-menu {
     /* Note: You need a separate @media screen group for other rules */
 }
 
-@media (min-width: 0px) and (max-width: 950px) {
+@media (min-width: 0px) and (max-width: 951px) {
 ul.sub-menu li.parent {
   padding: 0;
 float: left;
@@ -359,11 +381,11 @@ ul.sub-sub-menu {
     display: block;
  background: #112e51; }
 
-ul.sub-sub-menu li a:before {
+ul.usa-nav-primary ul.sub-sub-menu li a:before {
 	content: '– ';
 }
 
-ul.sub-sub-menu li a {
+ul.usa-nav-primary ul.sub-sub-menu li a {
 	font-size: .8em;
 }
 }
@@ -371,7 +393,8 @@ ul.sub-sub-menu li a {
 
 ul.usa-nav-primary {
 	list-style: none;
-	margin: 0;
+	max-width: 800px;
+	float: right;
 	padding-left: 0;
 }
 
@@ -419,4 +442,22 @@ ul.usa-nav-primary li ul:focus {
 ul.usa-nav-primary li ul li {
 	clear: both;
   width: 100%;
+}
+
+@media (min-width: 0) and (max-width: 951px) {
+	img.desk {
+	display: none;	
+	}
+}
+
+@media (min-width: 951px) {
+	img.mobile {
+		display: none;
+		}
+}
+
+img.desk {
+	max-width: 140px;
+	margin: 0 0 -20px 0;
+	padding: 0;
 }
