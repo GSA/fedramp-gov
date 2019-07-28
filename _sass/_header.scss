@@ -415,7 +415,16 @@ ul.usa-nav-primary li:focus-within {
 	cursor: pointer;
 }
 
+ul.usa-nav-primary li:focus-within > input:focus {
+	cursor: pointer;
+}
+
 ul.usa-nav-primary li:focus-within a {
+  outline: blue;
+}
+
+ul.usa-nav-primary li:focus-within a > input:focus {
+    /* rules here, which Edge will apply */
   outline: blue;
 }
 
@@ -434,6 +443,14 @@ ul.usa-nav-primary li:hover > ul,
 ul.usa-nav-primary li:focus-within > ul,
 ul.usa-nav-primary li ul:hover,
 ul.usa-nav-primary li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+
+ul.usa-nav-primary li:focus-within > input:focus
+ {
    visibility: visible;
    opacity: 1;
    display: block;
