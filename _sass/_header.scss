@@ -415,7 +415,8 @@ ul.usa-nav-primary li:focus-within {
 	cursor: pointer;
 }
 
-ul.usa-nav-primary li:focus-within > input:focus {
+.focus-within > input:focus {
+    /* rules here, which Edge will apply */
 	cursor: pointer;
 }
 
@@ -423,7 +424,8 @@ ul.usa-nav-primary li:focus-within a {
   outline: blue;
 }
 
-ul.usa-nav-primary li:focus-within a > input:focus {
+.focus-within > input:focus {
+    /* rules here, which Edge will apply */
     /* rules here, which Edge will apply */
   outline: blue;
 }
@@ -449,8 +451,8 @@ ul.usa-nav-primary li ul:focus {
 }
 
 
-ul.usa-nav-primary li:focus-within > input:focus
- {
+.focus-within > input:focus {
+    /* rules here, which Edge will apply */
    visibility: visible;
    opacity: 1;
    display: block;
