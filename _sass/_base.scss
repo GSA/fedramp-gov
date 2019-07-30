@@ -59,11 +59,15 @@ a {
     color: $link-hover-color;
   }
   &:active {
-/*    color: $link-active-color;*/
+    color: $link-active-color;
 	box-shadow: none;
   }
   &:visited {
     color: $link-visited-color;
+  }
+  &:focus {
+/*  	box-shadow: 1px 1px 1px 1px;*/
+  	outline: 1px solid $light-blue;
   }
 }
 
