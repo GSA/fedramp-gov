@@ -33,6 +33,36 @@
 	width: auto;
 	color: #5b616b;
 	font-size: 1.5rem;
+	  &:active {
+	    color: $link-active-color;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+	  }
+	  &:focus:active {
+	  	color: $link-active-color;
+	  	box-shadow: none;
+	  	-webkit-box-shadow: none;
+	  }
+	  &:focus {
+	  	box-shadow: none;
+	  	outline: 1px solid $light-blue;
+	  }
+	  a {
+	  	&:active {
+	  		    color: $link-active-color;
+	  			box-shadow: none;
+	  			-webkit-box-shadow: none;
+	  		  }
+	  		  &:focus:active {
+	  		  	color: $link-active-color;
+	  		  	box-shadow: none;
+	  		  	-webkit-box-shadow: none;
+	  		  }
+	  		  &:focus {
+	  	/*	  	box-shadow: none;*/
+	  	/*	  	outline: 1px solid $light-blue;*/
+	  		  }
+	  }
 }
 
 @media (min-width: 951px) and (max-width: 1200px) {

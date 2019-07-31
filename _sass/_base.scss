@@ -20,6 +20,10 @@ h6 {
 	text-transform: none;
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
 
 .usa-section-dark {
   legend, label,
@@ -62,12 +66,16 @@ a {
     color: $link-active-color;
 	box-shadow: none;
   }
+  &:focus:active {
+    color: $link-active-color;
+  	box-shadow: none;
+  }
   &:visited {
     color: $link-visited-color;
   }
   &:focus {
-/*  	box-shadow: 1px 1px 1px 1px;*/
-  	outline: 1px solid $light-blue;
+/*  	box-shadow: none;*/
+/*  	outline: 1px solid $light-blue;*/
   }
 }
 

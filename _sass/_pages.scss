@@ -844,9 +844,14 @@ padding: 60px 5%;
 	margin: 0 auto;
 }
 
-.home .challenge img {
+.home .challenge {
+img {
 	width: 100%;
 	max-width: 550px;
 	margin: 0 auto;
 	display: block;
+}
+h2 {
+	text-transform: none;
+}
 }
