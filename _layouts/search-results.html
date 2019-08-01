@@ -2,16 +2,9 @@
 layout: base
 ---
 
-<div class="page-banner">
-<h1> {{ page.title }}</h1>
-</div>
-<div class="usa-grid usa-section usa-content">
-<div class="usa-width-three-fourths usa-content">
-{% if page.image %}
-<img src="{{ page.image | prepend: site.baseurl }}">
-{% endif %}
-{{ content }}
-<ul id="results" class="usa-unstyled-list"></ul>
-</div>
-</div>
-</div>
+<script>
+  var baseurl = "{{ site.baseurl }}";
+  var urlParams = new URLSearchParams(window.location.search);
+  var search_term = urlParams.get('search');
+  window.location = '{{site.marketplaceurl}}#/search/' + search_term;
+</script>
