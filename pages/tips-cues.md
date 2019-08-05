@@ -6,9 +6,22 @@ body-class: page-fed-agencies
 ---
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide bi-weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our bi-weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
-<h2>June 2019 Tips & Cues</h2>
+<h2>June & July 2019 Tips & Cues</h2>
 
 <div class="q3">
+    
+<h3>When submitting a <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR)</a>, please be sure to submit everything that is needed for the reviewers to start their review of the SCR.</h3>
+<p>
+For instance, if the significant change is a new technology, please make sure you include the SCR, new technology control worksheet, and the Security Assessment Plan (SAP). If the SAP is not submitted with the SCR, the reviewers cannot make an adjudication. In addition, if the SAP is not included in the submission, please provide it before the 3PAO Assessment.</a>.
+  </p>
+  
+  <h3>“The SA-9 control defines the requirements for external information services, including the requirement for 3PAOs to assess the risk associated with the use of external services. What should the 3PAO keep in mind when assessing external services as part of the assessment of the SA-9 Control?”</h3>
+<p>
+Generally, JAB systems can only leverage External Services that are also FedRAMP Authorized at the same security baseline as the leveraging service. High Baseline systems should only leverage other FedRAMP JAB systems Authorized at the High Baseline. Moderate JAB systems should only leverage Moderate or High Baseline JAB External Systems. 
+
+There may be flexibility with FedRAMP Agency systems, though. The Agency Authorization Official (AO) may be willing to accept the risk associated with permitting External Systems that are not yet FedRAMP Authorized. 3PAOs should identify the External Systems that are leveraged, but not authorized, as a finding tied to SA-9 and list it among “Remaining Risks” for the system.</a>.
+  </p>
+  
 <h3>TIP: Cloud Service Providers (CSPs) pursuing a JAB P-ATO have asked about how to implement new technologies. New technologies have a minimum control set in the significant change policy and procedures. The assumption is that all the controls will be assessed unless the 3PAO provides a rationale for excluding controls or scoping the assessment of the controls as:</h3>
     <ul>
 <li>Not Applicable (N/A) - The nature of the component means it inherently does not contain this capability and will not be tested (e.g. controls that apply to collaborative computing devices only apply if that capability exists in the system)</li>
