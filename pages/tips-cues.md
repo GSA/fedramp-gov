@@ -6,9 +6,23 @@ body-class: page-fed-agencies
 ---
 Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party Assessment Organizations (3PAOs) share common issues and questions when going through the FedRAMP process. To help guide our stakeholders, we provide bi-weekly tips and address frequently asked questions and concerns. Below you will find our most recent month of Tips & Cues. To receive our bi-weekly email, sign up [here](https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224) for our listserv. 
 
-<h2>June & July 2019 Tips & Cues</h2>
+<h2>June, July & August 2019 Tips & Cues</h2>
 
 <div class="q3">
+<h3>Q: The Readiness Assessment Review Process (RAR) requires vendors to identify the function and purpose of Application Programming Interfaces (APIs). Why is this important?</h3>
+<p>
+A: Cloud Service Providers (CSPs) often provide applications to their customers to access, interface, and transfer Federal Data between the Agency Boundary and their tenant within the Software as a Service (SaaS). These applications are identified in the System Security Plan (SSP) inventory and within several security controls that focus on application maintenance/distribution responsibilities (CSP and/or customer responsibility), and flow of Federal data. CSPs also often provide APIs that can be incorporated in customer developed software to perform the same type of functions as the other vendor provided applications. The APIs need to be identified in the same way as these other applications, but are often overlooked and not included in the SSP, but should be.
+
+Here are a few things to keep in mind when documenting APIs:
+
+* Every API needs to be treated as an external interconnection. They need to be documented and tested by your 3PAO.
+* API access requires authentication, just like users, and it needs to be documented. Depending on the sensitivity of the data, access controls such as strong passwords, certificates, and rate limiting should be applied, as appropriate.
+* Some systems interface with customer-supplied APIs, or allow customers to build and publish their own APIs. Since these APIs do not exist at the time of FedRAMP authorization, they cannot be fully tested. Even so, the existence of these capabilities must be fully documented. At a minimum, typical APIs should be shown on the boundary, controls that can be inherited should describe API protections, and 3PAOs should test these as they would for any external connection.</p>
+
+<h3>Q: I was told that FedRAMP does not Authorize IaaS (Infrastructure as a Service) at the Low Security Baseline. Why is this the case?</h3>
+<p>
+A: There is no FedRAMP restriction prohibiting Authorization of Low IaaS. Rather, the PMO generally does not prioritize Low systems, so they are rarely considered. The reason for this is U.S. Federal Agencies typically ATO their systems at the Moderate and High baselines so the Low IaaS would not be an acceptable host. In fact, Agencies usually build their Private Clouds on High baseline IaaS, then ATO their applications at Moderate, leveraging the High IaaS. Low infrastructures are sometimes included in Low Impact SaaS Authorizations, but they are not Authorized as an IaaS, just the data center component of the LI-SaaS.  FedRAMP prioritizes on High/Moderate (IaaS, PaaS and SaaS) and Low-Impact SaaS.</a>.
+  </p>
     
 <h3>When submitting a <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Significant-Change-Form-Template.pdf">Significant Change Request (SCR)</a>, please be sure to submit everything that is needed for the reviewers to start their review of the SCR.</h3>
 <p>
