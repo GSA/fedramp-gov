@@ -14,11 +14,15 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 A: Cloud Service Providers (CSPs) often provide applications to their customers to access, interface, and transfer Federal Data between the Agency Boundary and their tenant within the Software as a Service (SaaS). These applications are identified in the System Security Plan (SSP) inventory and within several security controls that focus on application maintenance/distribution responsibilities (CSP and/or customer responsibility), and flow of Federal data. CSPs also often provide APIs that can be incorporated in customer developed software to perform the same type of functions as the other vendor provided applications. The APIs need to be identified in the same way as these other applications, but are often overlooked and not included in the SSP, but should be.
 
 Here are a few things to keep in mind when documenting APIs:
-
-* Every API needs to be treated as an external interconnection. They need to be documented and tested by your 3PAO.
-* API access requires authentication, just like users, and it needs to be documented. Depending on the sensitivity of the data, access controls such as strong passwords, certificates, and rate limiting should be applied, as appropriate.
-* Some systems interface with customer-supplied APIs, or allow customers to build and publish their own APIs. Since these APIs do not exist at the time of FedRAMP authorization, they cannot be fully tested. Even so, the existence of these capabilities must be fully documented. At a minimum, typical APIs should be shown on the boundary, controls that can be inherited should describe API protections, and 3PAOs should test these as they would for any external connection.</p>
-
+<p>
+- Every API needs to be treated as an external interconnection. They need to be documented and tested by your 3PAO.
+</p>
+<p>
+  - API access requires authentication, just like users, and it needs to be documented. Depending on the sensitivity of the data, access controls such as strong passwords, certificates, and rate limiting should be applied, as appropriate.
+</p>
+<p>
+  - Some systems interface with customer-supplied APIs, or allow customers to build and publish their own APIs. Since these APIs do not exist at the time of FedRAMP authorization, they cannot be fully tested. Even so, the existence of these capabilities must be fully documented. At a minimum, typical APIs should be shown on the boundary, controls that can be inherited should describe API protections, and 3PAOs should test these as they would for any external connection.</p>
+</p>
 <h3>Q: I was told that FedRAMP does not Authorize IaaS (Infrastructure as a Service) at the Low Security Baseline. Why is this the case?</h3>
 <p>
 A: There is no FedRAMP restriction prohibiting Authorization of Low IaaS. Rather, the PMO generally does not prioritize Low systems, so they are rarely considered. The reason for this is U.S. Federal Agencies typically ATO their systems at the Moderate and High baselines so the Low IaaS would not be an acceptable host. In fact, Agencies usually build their Private Clouds on High baseline IaaS, then ATO their applications at Moderate, leveraging the High IaaS. Low infrastructures are sometimes included in Low Impact SaaS Authorizations, but they are not Authorized as an IaaS, just the data center component of the LI-SaaS.  FedRAMP prioritizes on High/Moderate (IaaS, PaaS and SaaS) and Low-Impact SaaS.</a>.
