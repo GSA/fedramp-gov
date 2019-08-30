@@ -15,7 +15,7 @@ The 3PAO performing the FedRAMP assessment of a Li-SaaS system should include fi
   
   <h3>Q: I’m curious about when I can be listed on the FedRAMP Marketplace as In Process. What are some key requirements I should be aware of?</h3>
 <p>
-A: In June 2019, FedRAMP released <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP Marketplace Designations For Cloud Service Providers/a>. This document lists the requirements for listing a CSP as In Process on the FedRAMP Marketplace.  
+A: In June 2019, FedRAMP released <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP Marketplace Designations For Cloud Service Providers</a>. This document lists the requirements for listing a CSP as In Process on the FedRAMP Marketplace.  
 </p>
 <p>
 One of the requirements is that "The full 3PAO assessment is planned for no more than six months from the date of email". This requirement ensures that CSOs are fully operational and ready for testing within six months. We expect CSOs to achieve FR authorization within twelve months of being designated as In Process. 
