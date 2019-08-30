@@ -8,6 +8,23 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 
 <h2>June, July & August 2019 Tips & Cues</h2>
 
+<h3>TIP: For Low Impact SaaS (LI-SaaS "Tailored"), the following information should be included in the “Summary of Risks” and “Summary of Remediation Plans” files:</h3>
+<p>
+The 3PAO performing the FedRAMP assessment of a Li-SaaS system should include findings from Appendix B control testing, Appendix E control attestation, and Vulnerability Scans of the authorization boundary in the Summary of Risks Table in Appendix B, Section 15. The Cloud Service Provider (CSP) should list any findings that haven't been remediated after assessment in the “Summary of Remediation Plans” in Appendix B, Section 16, which is an abbreviated version of the Plan of Actions and Milestones (POA&M), a tracking system used in other FedRAMP baselines. The “Summary of Remediation Plans” document is maintained after authorization to capture and manage not only Initial Authorization findings, but also findings from monthly vulnerability scans and future Annual Assessments.
+  </p>
+  
+  <h3>Q: I’m curious about when I can be listed on the FedRAMP Marketplace as In Process. What are some key requirements I should be aware of?</h3>
+<p>
+A: In June 2019, FedRAMP released <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP Marketplace Designations For Cloud Service Providers/a>. This document lists the requirements for listing a CSP as In Process on the FedRAMP Marketplace.  
+</p>
+<p>
+One of the requirements is that "The full 3PAO assessment is planned for no more than six months from the date of email". This requirement ensures that CSOs are fully operational and ready for testing within six months. We expect CSOs to achieve FR authorization within twelve months of being designated as In Process. 
+</p>
+<p>
+Why does FedRAMP require this? We have found that the likelihood of achieving an authorization within twelve months is very low if the actual testing doesn't begin within six months. There simply is not enough time on the back-end for remediation activities and Agency review. We added the six-month buffer as a requirement to ensure that CSPs will be successful, and to avoid revoking a CSP's In Process status. We also recognize that CSPs may not be able to provide evidence of a scheduled 3PAO assessment that far in advance, so we don't ask for actual evidence. Instead, the PMO monitors the CSP's progress through occasional check-ins.
+
+  </p>
+
 <div class="q3">
 <h3>Q: The Readiness Assessment Review Process (RAR) requires vendors to identify the function and purpose of Application Programming Interfaces (APIs). Why is this important?</h3>
 <p>
