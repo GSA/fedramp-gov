@@ -2,7 +2,7 @@
 title: FedRAMP Heads West to Host Small Business & Startup Meetup
 permalink: /FedRAMP-Heads-West-to-Host-Small-Business-&-Startup-Meetup/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
+image: /assets/img/blog-images/smallbiz.png
 author: FedRAMP
 layout: blog-page
 ---
