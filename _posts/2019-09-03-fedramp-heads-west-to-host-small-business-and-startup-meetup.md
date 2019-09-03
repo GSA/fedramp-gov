@@ -10,5 +10,5 @@ Are you a small business or startup interested in learning more about FedRAMP? T
 
 This training will provide an overview of the FedRAMP authorization process including key deliverables and guidance on how to build a FedRAMP authorization strategy. Participants will walk away with an understanding of the responsibilities, resources, and requirements necessary to achieve a FedRAMP authorization. 
 
-Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for registration details. The FedRAMP team is looking forward to seeing you out west!
+Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov </a> for registration details. The FedRAMP team is looking forward to seeing you out west!
 
