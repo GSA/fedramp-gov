@@ -1,14 +1,14 @@
 ---
-title: FedRAMP Heads West to Host Small Business & Startup Meetup
+title: FedRAMP Heads to San Francisco to Host Small Business & Startup Meetup
 permalink: /FedRAMP-Heads-West-to-Host-Small-Business-&-Startup-Meetup/
 body-class: page-blog
 image: /assets/img/blog-images/smallbiz.png
 author: FedRAMP
 layout: blog-page
 ---
-FedRAMP is hosting a Small Business & Startup Meetup in San Francisco on Wednesday, September 25. 
+Are you a small business or startup interested in learning more about FedRAMP? The FedRAMP PMO is hosting a Small Business & Startup Meetup in San Francisco on **Wednesday, September 25.** 
 
-This meetup will give small businesses an introductory course to the FedRAMP authorization, an overview of key deliverables, and guidance on how to craft a FedRAMP authorization strategy. Attendees will gain an understanding of the requirements, responsibilities, resources, and materials required to achieve a FedRAMP authorization. 
+This training will provide an overview of the FedRAMP authorization process including key deliverables and guidance on how to build a FedRAMP authorization strategy. Participants will walk away with an understanding of the responsibilities, resources, and requirements necessary to achieve a FedRAMP authorization. 
 
-Are you a small business interested in attending? Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for registration details. We look forward to seeing you out west!
+Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>for registration details. The FedRAMP team is looking forward to seeing you out west!
 
