@@ -10,7 +10,7 @@ layout: base
   <h1>{{ page.title }}</h1>
   {% if page.image %}
   <div class="page--banner"> 
- <img src="{{ page.image | prepend: site.baseurl }}">
+ <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
   </div>
   {% endif %}
   <div class="author-date">
