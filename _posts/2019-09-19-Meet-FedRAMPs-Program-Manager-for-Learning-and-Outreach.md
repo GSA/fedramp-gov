@@ -27,7 +27,7 @@ FedRAMP’s Training goals are to:
 **In your opinion, how can we best meet our customer’s needs?**
 <p>
 Customer feedback is critical to FedRAMP. The program must constantly evolve and adapt to meet the needs of our customers. We’re in the process of accepting submissions for the 
-<a href="https://feedback.gsa.gov/jfe/form/SV_a909oTEezNr3zFj">FedRAMP Annual Survey</a>. We will use the results to better understand how the program is performing and to determine the changes the program should make to better meet our customer’s needs. The survey is up until **September 24th**, so if you’ve interacted with FedRAMP in the past year, please take a moment to share your thoughts and feedback. 
+<a href="https://feedback.gsa.gov/jfe/form/SV_a909oTEezNr3zFj">FedRAMP Annual Survey</a>. We will use the results to better understand how the program is performing and to determine the changes the program should make to better meet our customer’s needs. The survey is up until September 24th, so if you’ve interacted with FedRAMP in the past year, please take a moment to share your thoughts and feedback. 
   </p>
 
 **Where can we find you when you’re not working?**
