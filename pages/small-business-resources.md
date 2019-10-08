@@ -39,4 +39,3 @@ The initial authorization represents a major milestone, but only represents a sy
 <h3>7. The FedRAMP PMO is here to serve as a valuable resource.</h3>
 <p>
 Reach out to the FedRAMP PMO to learn more about how to get started with the process, get answers to technical security questions and discuss strategy. We’re here to help! </p>
-</p>
