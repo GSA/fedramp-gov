@@ -1,7 +1,7 @@
 ---
 layout: full-width-challenge
 title: Small Business & StartUp Lessons Learned 
-permalink: /challenge/
+permalink: /small-business-and-startup-lessons-learned/
 body-class: challenge
 
 ---
