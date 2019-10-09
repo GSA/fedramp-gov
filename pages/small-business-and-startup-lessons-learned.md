@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Small Business Resources
-permalink: /small-business-resources/
+title: Small Business and Startup Lessons Learned 
+permalink: /small-business-and-startup-lessons-learned/
 body-class: page-fed-agencies
 ---
 <h2>7 Lessons Learned for Small Businesses and Startups</h2>
