@@ -6,7 +6,6 @@ body-class: challenge
 
 ---
 <section id="challenge-dashboard">
-<p class="challenge-close"><strong>The Ideation Challenge is now closed and the FedRAMP PMO is currently reviewing submissions. FedRAMP will communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/" target="_blank">Focus on FedRAMP Blog</a>.</strong></p>
 <div class="image-container">
 <img alt="Fedramp's Challenge" title="Fedramp's Challenge" src="{{site.baseurl}}/assets/img/fedramp-challenge-logo.png">
 </div>
