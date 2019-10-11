@@ -500,18 +500,21 @@ ul.columns {
 		a {
 			color: #fff;
 		}
-		h3 {
+		h3, h1 {
 			color: #fff;
 			margin: 0 auto 20px auto;
 			max-width: 1200px;
 			width: 100%;
 			text-align: center;
+			font-weight: normal;
 		}
 		h4 {
 			color: #fff;
+			font-weight: normal;
 			max-width: 1200px;
 			width: 100%;
 			margin: 0 auto;
+			line-height: 1.7;
 			text-align: center;
 		}
 	}
