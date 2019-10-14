@@ -55,7 +55,7 @@ The initial authorization represents a major milestone, but only represents a sy
 <p>If you have multiple products, determine if it may be better to pursue authorizations one-by-one rather than all at once. The FedRAMP PMO is here to help walk you through your options.</p>
   <hr>
 <span class="title">
-<img alt="background" title="background" src="{{site.baseurl}}/assets/img/blog-images/GSA-1721_assetts_7.png><h2>7. The FedRAMP PMO is here to serve as a valuable resource.</h2>
+<img alt="background" title="background" src="{{site.baseurl}}/assets/img/blog-images/GSA-1721_assetts_7.png"><h2>7. The FedRAMP PMO is here to serve as a valuable resource.</h2>
 </span>
 <p>
 Reach out to the FedRAMP PMO to learn more about how to get started with the process, get answers to technical security questions and discuss strategy. We’re here to help! </p>
