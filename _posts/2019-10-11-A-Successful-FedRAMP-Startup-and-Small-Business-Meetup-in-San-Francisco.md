@@ -2,7 +2,7 @@
 title: A Successful FedRAMP Startup & Small Business Meetup in San Francisco
 permalink: /A-Successful-FedRAMP-Startup-and-Small-Business-Meetup-in-San-Francisco/
 body-class: page-blog
-image: /assets/img/blog-images/GSA-1721_assetts_banner.pngu
+image: /assets/img/blog-images/GSA-1721_assetts_banner.png
 author: FedRAMP
 layout: blog-page
 ---
