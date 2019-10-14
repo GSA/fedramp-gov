@@ -6,7 +6,7 @@ body-class: small-biz-lessons
 ---
 <div class="lessons-top">
 <div class="image-container">
-<img alt="Fedramp's Challenge" title="Fedramp's Challenge" src="{{site.baseurl}}/assets/img/blogimages-GSA-1721_assets_banner.png">
+<img alt="Small Business Lessons Learned" title="Small Business Lessons Learned" src="{{site.baseurl}}/fedramp-gov/assets/img/blog-images/GSA-1721_assetts_banner.png">
 <h1>7 Lessons Learned for Small Businesses and Startups</h1>
 <h2>
 The FedRAMP Program Management Office (PMO) interviewed small businesses and start-ups who achieved a FedRAMP Authorization about their experience and customer journey. Below are the lessons they shared:
@@ -16,7 +16,7 @@ The FedRAMP Program Management Office (PMO) interviewed small businesses and sta
 <div class="lessons-list">
 <div class="inner">
 <span class="title">
-<img alt="background" title="background" src="{{site.baseurl}}/assets/img/blog-images/GSA-1721_assetts_1.png"><h2>1. Understand how your product maps to FedRAMP. </h2>
+<img alt="background" title="background" src="{{site.baseurl}}/fedramp-gov/assets/img/blog-images/GSA-1721_assetts_1.png"><h2>1. Understand how your product maps to FedRAMP. </h2>
 </span>
 <p>
 Perform a gap analysis to understand how your current “as-is” environment aligns to the FedRAMP security requirements. 
