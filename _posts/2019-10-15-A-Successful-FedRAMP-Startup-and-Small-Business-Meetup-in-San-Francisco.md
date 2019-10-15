@@ -10,7 +10,7 @@ On September 25, 2019 the FedRAMP PMO had its first Small Business/Start-Up Meet
 
 One of the highlights was a panel of experts from the startup community that discussed their FedRAMP journey and provided best practices to help them along the way. The panel represented three businesses that have been through the FedRAMP process, at varying security levels, as well as one that is currently undergoing authorization. Here are a few notable quotes from panel participants: 
 * “Make security a part of the fabric of your company so that every employee is thinking about it as a strategic advantage.” - Rob Hoehn, IdeaScale
-* “Reach out to your counterparts at other companies who have been through an authorization, their insight and advice is invaluable. I've found that other companies are more than willing to hop on a call and answer questions, which has been very helpful.” -  Lisa Hawke, EverLaw
+* “Reach out to your counterparts at other companies who have been through an authorization, their insight and advice is invaluable. I've found that other companies are more than willing to hop on a call and answer questions, which has been very helpful.” -  Lisa Hawke, Everlaw
 * “Think about FedRAMP early and build it into product and processes from the start.” - Ignacio Martinez, Smartsheet
 * “Communication is key. Ensure all alternative and partial implementations, along with planned or not applicable controls, are precisely communicated with all stakeholders - internal teams, 3PAO, Agency, and PMO. Without sufficient documentation, the 3PAO, Agency, and PMO are unable to assess the true nature of the risk and this will introduce preventable friction into the authorization process.” - Nick Hardy, Slack
  
