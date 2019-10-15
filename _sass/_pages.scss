@@ -906,7 +906,7 @@ padding: 60px 5%;
 }
 .modalcontent {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
@@ -937,5 +937,12 @@ padding: 60px 5%;
 @media (min-width: 0) and (max-width: 980px) {
 .modalcontent {
 	width: 90%;
+	}
+}
+
+@media (min-width: 0) and (max-width: 580px) {
+.modalcontent {
+	width: 90%;
+	top: 75%;
 	}
 }
