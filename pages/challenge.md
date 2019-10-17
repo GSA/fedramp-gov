@@ -9,10 +9,6 @@ body-class: challenge
 <div class="image-container">
 <img alt="Fedramp's Challenge" title="Fedramp's Challenge" src="{{site.baseurl}}/assets/img/fedramp-challenge-logo.png">
 </div>
-<div class="challenge-thanks">
-<h1>Thank you for your submissions to the <strong>Ideation Challenge</strong> - we are excited about the ideas you shared!</h1>
-<h4><strong>We received over 60 submissions around these main themes:</strong> automation; more opportunities to connect with stakeholders; and further guidance and clarity into the process and security requirements.</h4> <br><h4>The FedRAMP PMO will keep you updated on how we will adopt and implement these ideas through the <a href="{{site.baseurl}}/blog/">Focus on FedRAMP Blog</a>.</h4>
-</div>
 <h2>Shape how government performs cloud security authorizations.</h2>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
