@@ -942,9 +942,11 @@ padding: 60px 5%;
 }
 
 @media (min-width: 0) and (max-width: 768px) {
-.modalcontent {
-	width: 90%;
-	top: 60%;
+	.modalcontent {
+		width: 90%;
+		top: 60%;
+	}
+}
 .small-biz-lessons {
 	.lessons-list {
 		background: $teal;
