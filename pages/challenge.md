@@ -6,10 +6,11 @@ body-class: challenge
 
 ---
 <section id="challenge-dashboard">
+<strong>The Ideation Challenge is now closed and the FedRAMP PMO is currently reviewing submissions. FedRAMP will communicate the results of this effort through the <a href="https://www.fedramp.gov/blog/" target="_blank">Focus on FedRAMP Blog</a>.</strong>
 <div class="image-container">
 <img alt="Fedramp's Challenge" title="Fedramp's Challenge" src="{{site.baseurl}}/assets/img/fedramp-challenge-logo.png">
-</div>
 <h2>Shape how government performs cloud security authorizations.</h2>
+</div>
 <ul class="challenge-goal-opportunity">
 <li class="challenge">
 <a href="#challenge"><img alt="Challenge" title="Challenge" src="{{site.baseurl}}/assets/img/challenge-icon.png"></a>
