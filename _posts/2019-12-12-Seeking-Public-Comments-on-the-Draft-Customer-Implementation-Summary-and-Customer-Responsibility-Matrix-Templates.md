@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
-tags: learning-more-about-fedramp
 ---
 In response to Agency and CSP feedback, FedRAMP updated the Customer Implementation Summary/Customer Responsibility Matrix (CIS/CRM) templates to provide clearer directions, sample responses, and a more streamlined structure.  Prior to making permanent changes to the templates, the program is seeking public comments on the draft templates from the FedRAMP community.
 
