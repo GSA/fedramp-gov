@@ -16,6 +16,4 @@ The worksheet now includes the following upgrades:
 2. **Detailed Inheritance Fields:** The CRM now includes fields for CSPs to indicate if a control may be inherited, partially inherited, or may not be inherited. It also includes fields where the CSP describes specifics around how a control may be inherited by customers.
 3. **Detailed Examples:** Examples were added to provide further guidance on how to populate the CRM with controls that have partial or no inheritance.
 
-Please submit your comments on the draft High CIS/CRM and Low/ Moderate CIS/CRM templates to info@fedramp.gov by January 10, 2020.
-
-If you have further questions or comments please reach to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.  
+Please submit your comments on the draft <a href="{{site.baseurl}}//assets/resources/templates/DRAFT-SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx">High CIS/CRM</a></li> and <a href="{{site.baseurl}}//assets/resources/templates/DRAFT-SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx">Low/ Moderate CIS/CRM</a></li> templates to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by January 10, 2020.
