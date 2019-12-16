@@ -31,6 +31,7 @@ The <a href="https://github.com/GSA/fedramp-automation">FedRAMP Automation resou
 * **FedRAMP Baselines:** High, Moderate, Low, and Tailored for LI-SaaS in XML and JSON Formats
 
 FedRAMP is looking for comment on any of these items. If you have feedback, please provide comments either via email to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>, as a comment to an <a href="https://github.com/GSA/fedramp-automation/issues">existing issue</a>, or as a <a href="https://github.com/GSA/fedramp-automation/issues">new issue</a> within the FedRAMP Automation repository. 
+
 FedRAMP's work is based on NIST's <a href="https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0-milestone2">OSCAL 1.0.0-Milestone2 release</a>, and may require an understanding of the core OSCAL syntax, as well as NIST-provided resources to function correctly. A complete package containing the NIST OSCAL converters, syntax validation tools, 800-53 and FedRAMP baseline content is available for download in both <a href="https://github.com/usnistgov/OSCAL/releases/download/v1.0.0-milestone2/oscal-1.0.0-milestone2.zip">ZIP</a> and <a href="https://github.com/usnistgov/OSCAL/releases/download/v1.0.0-milestone2/oscal-1.0.0-milestone2.tar.bz2">BZ2 formats</a>. 
 
 **We Want Your Feedback!** 
