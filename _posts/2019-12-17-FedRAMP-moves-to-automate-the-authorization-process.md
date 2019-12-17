@@ -15,9 +15,9 @@ FedRAMP expects OSCAL will offer a number of benefits to streamlining and automa
 * **The FedRAMP Program Management Office (PMO)** expects to be able to build tooling to further reduce the cost and improve the quality of security reviews. 
 
 NIST and FedRAMP just released <a href="https://github.com/usnistgov/OSCAL/releases">OSCAL Milestone 2</a> for public comment, which offers: 
-* A new System Security Plan (SSP) model that lets organizations automate the documentation of security and privacy control implementation using OSCAL. 
-* Published draft FedRAMP baselines (High, Moderate, Low, and Tailored) in OSCAL XML and JSON formats.
-* Published content for the three NIST baselines and the NIST SP 800-53 revision 4 catalog in OSCAL XML, JSON, and YAML formats.
+* A new System Security Plan (SSP) model that lets organizations automate the documentation of security and privacy control implementation using OSCAL
+* Published draft FedRAMP baselines (High, Moderate, Low, and Tailored) in OSCAL XML and JSON formats
+* Published content for the three NIST baselines and the NIST SP 800-53 revision 4 catalog in OSCAL XML, JSON, and YAML formats
 * Stable versions of the OSCAL catalog and profile models and associated XML and JSON schemas 
 * Tools to convert the OSCAL catalog, profile, and SSP content between XML and JSON
 * A registry of FedRAMP-specific extensions, FedRAMP-defined identifiers, and a draft list of acceptable values when using OSCAL
