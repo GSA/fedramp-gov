@@ -35,6 +35,7 @@ FedRAMP is looking for comment on any of these items. If you have feedback, plea
 FedRAMP's work is based on NIST's <a href="https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0-milestone2">OSCAL 1.0.0-Milestone2 release</a>, and may require an understanding of the core OSCAL syntax, as well as NIST-provided resources to function correctly. A complete package containing the NIST OSCAL converters, syntax validation tools, 800-53 and FedRAMP baseline content is available for download in both <a href="https://github.com/usnistgov/OSCAL/releases/download/v1.0.0-milestone2/oscal-1.0.0-milestone2.zip">ZIP</a> and <a href="https://github.com/usnistgov/OSCAL/releases/download/v1.0.0-milestone2/oscal-1.0.0-milestone2.tar.bz2">BZ2 formats</a>. 
 
 **We Want Your Feedback!** 
+
 All development efforts have been performed in the open and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!
 
 **The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.**
