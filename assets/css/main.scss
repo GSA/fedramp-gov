@@ -15,10 +15,11 @@ $fr-black: #212121;
 $dark-blue: #112e51;
 $light-blue: #205493;
 $teal: #59B2D9;
+$light-teal: #bde2f9;
 $fr-red: #E41C3f;
 $dark-grey: #D6d7d9;
 $light-grey: #fbfdff;
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
 $background-color:         {{ site.colors.background }};
 $headers-color:            {{ site.colors.headers }};
@@ -77,6 +78,19 @@ $desktop: 1200px;
 	content: '';
 	clear: both;
 	display: table;
+}
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

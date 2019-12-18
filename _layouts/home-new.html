@@ -1,0 +1,57 @@
+---
+layout: base
+---
+
+<section>
+  <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
+    <div class="usa-grid">
+      <div class="usa-width-whole hero-content">
+        <h1>{{ page.hero-text }}</h1>
+        <p>{{ page.hero-secondary-text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="front-four">
+<ul>
+	<li><span><h4>PROGRAM BASICS</h4><p>FedRAMP enables adoption of cloud computing by providing agencies with a standardized approach to security</p></span></li>
+	<li><span><h4>CLOUD SERVICE PROVIDERS</h4><p>FedRAMP authorized vendors offer cloud services that allow Federal Agencies to securely and quickly meet their mission needs.</p></span></li>
+	<li><span><h4>AGENCIES</h4><p>Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs.</p></span></li>
+	<li><span><h4>ASSESSORS</h4><p>Third Party Assessment Organizations (3PAOs) perform initial and periodic assessments of cloud services to ensure they meet FedRAMP requirements.</p></span></li>
+</ul>
+</div>
+<div class="blog-market-links-wrapper">
+<section class="blog-market-links">
+	<div class="blog-group">
+    <h4>Focus on FedRAMP Blog</h4>
+    {% include posts-front.html %}
+	</div>
+	<div class="market">
+		<h4>Marketplace</h4>
+		<p>{{ page.marketplace-text }}</p>
+	<button><a href="#">VISIT</a></button>
+	</div>
+	<div class="links">
+		<h4>Quick Links</h4>
+		<ul>
+			<li>FedRAMP Documents</li>
+			<li>FedRAMP Templates</li>
+			<li>Frequently Asked Questions</li>
+		</ul>
+	</div>
+	</section>
+</div>
+<section class="auth-process">
+	<h2>{{ page.fed-authorize-header }}</h2>
+	<p>{{ page.fed-authorize-text }}</p>
+</section>
+<div class="csp-wrapper">
+<section class="csp-section">
+    <h2>{{ page.csp-header }}</h2>
+	<p>{{ page.csp-text }}</p>
+	<button><a href="#">START HERE</a></button>
+</section>
+</div>
+
+
+
