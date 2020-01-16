@@ -1,5 +1,5 @@
 ---
-title: FedRAMP Moves to Automate the Authorization Process
+title: FedRAMP looks back at a successful 2019
 permalink: /FedRAMP-looks-back-at-a-successful-2019
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
