@@ -11,3 +11,4 @@ As 2020 begins, the FedRAMP PMO reflected on the achievements and progress for b
  
 Thank you for your collaboration over the past year, and we look forward to 2020 as we streamline, simplify, and stay committed to continuous improvement.
 
+![image alt text]({{site.baseurl}}/assets/img/agency-auth.png)
