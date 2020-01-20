@@ -1559,8 +1559,8 @@ padding: 60px 5%;
 			max-width: 1200px;
 		.image {
 			width: 40%;
-			margin: auto;
-			height: 300px;
+			margin: 0;
+			min-height: 300px;
 			display: flex;
 			flex-flow: wrap;
 			align-content: center;
@@ -1641,10 +1641,7 @@ padding: 60px 5%;
 	}
 }
 
-@media (min-width: 0) and (max-width: 580px)  {
-.about-us section#legal-framework {
-	padding: 0 5%;
-}
+@media (min-width: 0) and (max-width: 670px)  {
 .about-us section#legal-framework div.inner div.text ul li {
 		background: url('../../assets/img/legal-divider-mobile.png') bottom no-repeat;
 		padding: 0 0 30px 0;
@@ -1653,3 +1650,19 @@ padding: 60px 5%;
 		}
 	}
 	}
+	
+	@media (min-width: 0) and (max-width: 1200px)  {
+	.about-us section#legal-framework {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	}
+	
+@media (min-width: 0) and (max-width: 768px) {
+ section#mission div.inner div.image, section#goals div.inner div.image, section#history div.inner div.image {
+	width: 100% !important;
+}
+ section#mission div.inner div.text,  section#goals div.inner div.text, section#history div.inner div.text {
+	width: 100% !important;
+}
+}
