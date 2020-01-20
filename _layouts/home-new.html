@@ -13,12 +13,17 @@ layout: base
   </div>
 </section>
 <div class="front-four">
+<div class="program-basics">
+	<span><img src="{{site.baseurl}}/assets/img/program-basics-icon.png"><h3>Program Basics</h3><p>Learn more about the mission, goals, and history</p><button ahref="https://google.com">GET STARTED</button></span>
+</div>
+<div class="detailed-info">
+	<h3>Detailed Information to Move Forward</h3>
 <ul>
-	<li><span><h4>PROGRAM BASICS</h4><p>FedRAMP enables adoption of cloud computing by providing agencies with a standardized approach to security</p></span></li>
-	<li><span><h4>CLOUD SERVICE PROVIDERS</h4><p>FedRAMP authorized vendors offer cloud services that allow Federal Agencies to securely and quickly meet their mission needs.</p></span></li>
-	<li><span><h4>AGENCIES</h4><p>Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs.</p></span></li>
-	<li><span><h4>ASSESSORS</h4><p>Third Party Assessment Organizations (3PAOs) perform initial and periodic assessments of cloud services to ensure they meet FedRAMP requirements.</p></span></li>
-</ul>
+	<li><span><img src="{{site.baseurl}}/assets/img/csp-icon.png"><h5>CLOUD SERVICE PROVIDERS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	<li><span><img src="{{site.baseurl}}/assets/img/agencies-icon.png"><h5>AGENCIES</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	<li><span><img src="{{site.baseurl}}/assets/img/assessors-icon.png"><h5>ASSESSORS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	</ul>
+	</div>
 </div>
 <div class="blog-market-links-wrapper">
 <section class="blog-market-links">
@@ -34,9 +39,10 @@ layout: base
 	<div class="links">
 		<h4>Quick Links</h4>
 		<ul>
-			<li>FedRAMP Documents</li>
-			<li>FedRAMP Templates</li>
-			<li>Frequently Asked Questions</li>
+			<li><i class="fas fa-compass"></i>FedRAMP Documents</li>
+			<li><i class="fas fa-compass"></i>FedRAMP Templates</li>
+			<li><i class="fas fa-compass"></i>Frequently Asked Questions</li>
+			<li><i class="fas fa-compass"></i>Meet Our Team</li>
 		</ul>
 	</div>
 	</section>
@@ -45,11 +51,42 @@ layout: base
 	<h2>{{ page.fed-authorize-header }}</h2>
 	<p>{{ page.fed-authorize-text }}</p>
 </section>
-<div class="csp-wrapper">
-<section class="csp-section">
-    <h2>{{ page.csp-header }}</h2>
-	<p>{{ page.csp-text }}</p>
-	<button><a href="#">START HERE</a></button>
+<div class="process-diagram">
+	<p>Click within the below diagram to learn more.</p>
+	<ul class="jab">
+		<li class="jab-first">JAB<i class="fas fa-arrow-circle-right"></i></li>
+		<li class="jab-one-two">
+			<ul>
+				<li class="readiness"><span>1</span>Readiness Assessment & FedRAMP Connect</li>
+				<li class="security"><span>2</span>Full Security Assessment</li>
+			</ul></li>
+			<li class="jab-auth"><span>3</span>JAB Authorization Process</li>
+			<li class="jab-conmon"><span><img src="{{site.baseurl}}/assets/img/conmon-process.png"></span>JAB ConMon</li>
+	</ul>
+	<div class="process-path">
+		<ul>
+			<li class="seek">WAYS TO SEEK AUTHORIZATiON</li>
+			<li class="prep">PREPARATION</li>
+			<li class="auth">AUTHORIZATION</li>
+			<li class="conmon">CONTINUOUS MONITORING</li>
+		</ul>
+	</div>
+		<ul class="agency">
+			<li class="agency-first">AGENCY<i class="fas fa-arrow-circle-right"></i></li>
+			<li class="agency-one-two">
+			<ul>
+			<li class="one"><span>1</span>Partnership Establishment</li>
+			<li class="two"><span>1</span>Full Security Assessment</li>
+			</ul>
+			</li>
+			<li class="agency-auth"><span>3</span>Agency Authorization Process</li>
+			<li class="agency-conmon"><span><img src="{{site.baseurl}}/assets/img/conmon-process-red.png"></span>Agency ConMon</li>
+		</ul>
+</div>
+<div class="values-wrapper">
+<section class="values-section">
+    <h2>Read about the FedRAMP Values</h2>
+	<button><a href="#">CLICK HERE</a></button>
 </section>
 </div>
 
