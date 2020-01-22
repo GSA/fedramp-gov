@@ -2,7 +2,7 @@
 layout: full-width
 title: Program Basics
 permalink: /program-basics/
-body-class: about-us
+body-class: program-basics
 
 ---
 <section id="mission">

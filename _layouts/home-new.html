@@ -2,26 +2,26 @@
 layout: base
 ---
 
-<section>
+<section id="home-banner">
   <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
     <div class="usa-grid">
       <div class="usa-width-whole hero-content">
         <h1>{{ page.hero-text }}</h1>
-        <p>{{ page.hero-secondary-text }}</p>
+		<span><p>{{ page.hero-secondary-text }}</p></span>
       </div>
     </div>
   </div>
 </section>
 <div class="front-four">
 <div class="program-basics">
-	<span><img src="{{site.baseurl}}/assets/img/program-basics-icon.png"><h3>Program Basics</h3><p>Learn more about the mission, goals, and history</p><button ahref="https://google.com">GET STARTED</button></span>
+	<span><img src="{{site.baseurl}}/assets/img/program-basics-icon.png"><h5>PROGRAM BASICS</h5><p>Learn more about the mission, goals, and history</p><button ahref="{{site.baseurl}}/program-basics">GET STARTED</button></span>
 </div>
 <div class="detailed-info">
 	<h3>Detailed Information to Move Forward</h3>
 <ul>
-	<li><span><img src="{{site.baseurl}}/assets/img/csp-icon.png"><h5>CLOUD SERVICE PROVIDERS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
-	<li><span><img src="{{site.baseurl}}/assets/img/agencies-icon.png"><h5>AGENCIES</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
-	<li><span><img src="{{site.baseurl}}/assets/img/assessors-icon.png"><h5>ASSESSORS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	<li><img src="{{site.baseurl}}/assets/img/csp-icon.png"><span><h5>CLOUD SERVICE PROVIDERS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	<li><img src="{{site.baseurl}}/assets/img/agencies-icon.png"><span><h5>AGENCIES</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
+	<li><img src="{{site.baseurl}}/assets/img/assessors-icon.png"><span><h5>ASSESSORS</h5><button ahref="https://google.com">LEARN MORE</button></span></li>
 	</ul>
 	</div>
 </div>
