@@ -1048,9 +1048,16 @@ padding: 60px 5%;
 	}
 }
 
+@include media-query($mobile-high) {
+	.home-new .front-four {
+		margin: -160px auto 0 auto;
+	}
+	}
+
 @media (min-width: 0) and (max-width: 580px) {
 	.home-new .front-four {
 		flex-flow: wrap;
+		margin: -110px auto 0 auto;
 		.program-basics {
 			width: 100%;
 			margin: 0 auto;
@@ -1073,12 +1080,6 @@ padding: 60px 5%;
 		}
 	}
 }
-
-@include media-query($mobile-high) {
-	.home-new .front-four {
-		margin: -160px auto 0 auto;
-	}
-	}
 
 /*@media (min-width: 0) and (max-width: 800px) {
 	.home-new .front-four {
@@ -1146,6 +1147,7 @@ padding: 60px 5%;
 				}
 				button {
 					background: $light-blue;
+					margin-bottom: 0;
 				}
 			}
 		}
@@ -1155,9 +1157,10 @@ padding: 60px 5%;
 			padding: 20px;
 			width: 70%;
 			h3 {
-				margin: 0 0 45px 0;
-				font-family: $serif-font;
-				font-weight: normal;
+				margin: 0 0 35px 0;
+				font-family: $sans-font;
+				font-size: 2em;
+				font-weight: lighter;
 				color: #fff;
 			}
 			span {
@@ -1306,16 +1309,22 @@ padding: 60px 5%;
 		width: 30%;
 		padding: 20px;
 		background: lighten($light-teal, 12%);
+		h4 {
+			margin-top: 0;
+		}
 	}
 	.links {
 		padding: 20px;
 		width: 22%;
+		h4 {
+			margin-top: 0;
+		}
 		ul {
 			list-style: none;
 			padding: 0;
 			li {
 				font-weight: bold;
-				margin: 0 0 12px 0 0;
+				margin: 0 0 8px 0;
 				svg {
 					margin: 0 8px 0 0;
 					color: $light-blue;
@@ -1376,6 +1385,9 @@ padding: 60px 5%;
 	section.values-section {
 		margin: 0 auto;
 		max-width: 1200px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
 	h2 {
 		font-family: $sans-font;
 		font-weight: lighter;
@@ -1403,9 +1415,19 @@ padding: 60px 5%;
 		}
 }
 
+@media (min-width: 0) and (max-width: 725px) {
+	.values-wrapper {
+	section.values-section h2 {
+		margin: 0 0 20px 0;
+		text-align: center;
+		width: 100%;
+	}
+	}
+}
+
 .auth-process {
 	background: #A1D1F0;
-	padding: 40px 0;
+	padding: 40px 5%;
 	text-align: center;
 	h2 {
 		max-width: 1200px;
@@ -1417,8 +1439,7 @@ padding: 60px 5%;
 	p {
 		max-width: 1200px;
 		min-width: 0 !important;
-		margin-right: auto;
-		margin-left: auto;
+		margin: 10px auto 0 auto;
 		width: 100%;
 		text-align: center;
 		color: $dark-blue;
@@ -1426,50 +1447,93 @@ padding: 60px 5%;
 }
 
 .process-diagram {
-	background-image:
+/*	background-image:
 	linear-gradient(to bottom, rgba(137, 193, 234, .3), rgba(137, 193, 234, .85)),
-	url('../../assets/img/process-background.png');
-	background-size: contain;
+	url('../../assets/img/process-background.png');*/
+	background: $light-teal;
 	float: left;
 	width: 100%;
 	padding: 20px 0 60px 0;
-	ul {
+	p {
+		text-align: center;
+		font-style: italic;
+	}
+	.process-container {
 		max-width: 1200px;
 		margin: 0 auto;
-	}
-	ul.jab {
+		width: auto;
+		box-sizing: border-box;
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
-		padding: 0;
-		li {
-			width: auto;
-			height: auto;
-			min-height: 80px !important;
-			box-sizing: border-box;
-			list-style: none;
-			text-align: center;
-			background-size: contain !important;
-			align-items: center;
-			justify-content: center;
+		align-items: center;
+		justify-content: center;
+		ul {
+			padding: 0;
+			margin: 0;
+			li {
+				list-style: none;
+				align-content: center;
+				align-items: center ;
+				align-self: center;
+				display: flex;
+				justify-content: center;
+				text-align: center;
+			}
+		}
+		ul.column-1 {
+			width: 280px;
 			display: flex;
-			&.jab-first {
-				width: 23.33%;
-				padding: 35px;
+			flex-flow: wrap;
+			margin: 0;
+			li.jab-first {
+				padding: 0px 35px;
 				background: url("../../assets/img/process-jab-bubble-single.png") no-repeat;
-				background-position: center;
+				background-position: bottom;
 				font-weight: bold;
 				color: $teal;
 				font-size: 1.5em;
+				min-height: 150px;
+				align-items: center;
+				text-align: center;
+				width: 100%;
 				svg {
 					margin: 0 0 0 10px;
 				}
 			}
-			&.jab-one-two {
-				width: 30%;
-				padding: 35px 25px;
-				background: url("../../assets/img/process-jab-bubble-double.png") no-repeat;
+			li.seek {
+				padding: 35px;
+				background: url("../../assets/img/process-left-arrow.png") no-repeat;
 				background-position: center;
+				width: auto;
+				height: auto;
+				list-style: none;
+				text-align: center;
+				color: #fff;
+				width: 100%;
+				background-size: contain !important;
+			}
+			li.agency-first {
+				padding: 0px 35px;
+				background: url("../../assets/img/process-agency-bubble-single.png") no-repeat;
+				background-position: top;
+				color: $fr-red;
+				font-weight: bold;
+				font-size: 1.5em;
+				min-height: 150px;
+				width: 100%;
+			}
+		}
+		ul.column-2 {
+				width: 360px;
+				display: flex;
+				flex-flow: wrap;
+				margin: 0;
+			li.jab-one-two {
+				padding: 0px 35px;
+				background: url("../../assets/img/process-jab-bubble-double.png") no-repeat;
+				background-position: bottom;
+				min-height: 150px;
+				width: 100%;
 				ul {
 					padding: 0;
 					display: flex;
@@ -1480,6 +1544,7 @@ padding: 60px 5%;
 						width: 50%;
 						flex-flow: wrap;
 						padding: 0 5px;
+						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $teal;
 							padding: 0 8px 0 0;
@@ -1498,112 +1563,24 @@ padding: 60px 5%;
 					}
 				}
 			}
-			&.jab-auth {
-				width: 23.33%;
-				padding: 35px;
-				background: url("../../assets/img/process-jab-bubble-single.png") no-repeat;
-				background-position: center;
-				display: flex;
-				flex-flow: wrap;
-				span {
-					background: $teal;
-					border-radius: 50px;
-					width: 30px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					height: 30px;
-					color: #fff;
-					margin: 0 39% 10px 39%;
-				}
-			}
-			&.jab-conmon {
-				width: 23.33%;
-				flex-flow: wrap;
-				padding: 45px 35px;
-				background: url("../../assets/img/process-jab-bubble-single.png") no-repeat;
-				background-position: center;
-				span {
-					text-align: center;
-					width: 100%;
-					float: left;
-				}
-			}
-		}
-	}
-	.process-path {
-	ul {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-		padding: 0;
-		li {
-			width: auto;
-			height: auto;
-			list-style: none;
-			text-align: center;
-			color: #fff;
-			background-size: contain !important;
-			&.seek {
-				width: 24%;
-				padding: 35px;
-				background: url("../../assets/img/process-left-arrow.png") no-repeat;
-				background-position: center;
-			}
-			&.prep {
-				width: 28%;
+			li.prep {
 				padding: 35px;
 				background: url("../../assets/img/process-middle-arrow.png") no-repeat;
 				background-position: center;
+				width: auto;
+				height: auto;
+				list-style: none;
+				text-align: center;
+				color: #fff;
+				width: 100%;
+				background-size: contain !important;
 			}
-			&.auth {
-				width: 24%;
-				padding: 35px;
-				background: url("../../assets/img/process-middle-arrow2.png") no-repeat;
-				background-position: center;
-			}
-			&.conmon {
-				width: 24%;
-				padding: 35px;
-				background: url("../../assets/img/process-right-arrow.png") no-repeat;
-				background-position: center;
-			}
-		}
-	}
-	}
-	ul.agency {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-		padding: 0;
-		li {
-			width: auto;
-			height: auto;
-			min-height: 80px !important;
-			box-sizing: border-box;
-			list-style: none;
-			text-align: center;
-			background-size: contain !important;
-			align-items: center;
-			justify-content: center;
-			display: flex;
-			&.agency-first {
-				width: 23.33%;
-				padding: 35px;
-				background: url("../../assets/img/process-agency-bubble-single.png") no-repeat;
-				background-position: center;
-				color: $fr-red;
-				font-weight: bold;
-				font-size: 1.5em;
-				svg {
-					margin: 0 0 0 10px;
-				}
-			}
-			&.agency-one-two {
-				width: 30%;
-				padding: 35px 25px;
+			.agency-one-two {
+				padding: 0px 35px;
 				background: url("../../assets/img/process-agency-bubble-double.png") no-repeat;
-				background-position: center;
+				background-position: top;
+				min-height: 150px;
+				width: 100%;
 				ul {
 					padding: 0;
 					display: flex;
@@ -1614,6 +1591,7 @@ padding: 60px 5%;
 						width: 50%;
 						flex-flow: wrap;
 						padding: 0 5px;
+						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $fr-red;
 							padding: 0 8px 0 0;
@@ -1632,13 +1610,54 @@ padding: 60px 5%;
 					}
 				}
 			}
-			&.agency-auth {
-				width: 23.33%;
+		}
+		ul.column-3 {
+				width: 280px;
+				display: flex;
+				flex-flow: wrap;
+				margin: 0;
+			li.jab-auth {
+				padding: 0px 35px;
+				background: url("../../assets/img/process-jab-bubble-single.png") no-repeat;
+				background-position: bottom;
+				display: flex;
+				flex-flow: wrap;
+				min-height: 150px;
+				width: 100%;
+				font-size: .9em;
+				span {
+					background: $teal;
+					border-radius: 50px;
+					width: 30px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 30px;
+					color: #fff;
+					margin: 0 39% 10px 39%;
+				}
+			}
+			li.auth {
 				padding: 35px;
-				background: url("../../assets/img/process-agency-bubble-single.png") no-repeat;
+				background: url("../../assets/img/process-middle-arrow2.png") no-repeat;
 				background-position: center;
+				width: auto;
+				height: auto;
+				list-style: none;
+				text-align: center;
+				color: #fff;
+				width: 100%;
+				background-size: contain !important;
+			}
+			li.agency-auth {
+				padding: 0px 35px;
+				background: url("../../assets/img/process-agency-bubble-single.png") no-repeat;
+				background-position: top;
 				flex-flow: wrap;
 				display: flex;
+				min-height: 150px;
+				width: 100%;
+				font-size: .9em;
 				span {
 					background: $fr-red;
 					border-radius: 50px;
@@ -1651,12 +1670,46 @@ padding: 60px 5%;
 					margin: 0 39% 10px 39%;
 				}
 			}
-			&.agency-conmon {
-				width: 23.33%;
-				padding: 45px 35px;
+		}
+		ul.column-4 {
+				width: 280px;
+				display: flex;
+				flex-flow: wrap;
+				margin: 0;
+			li.jab-conmon {
+				flex-flow: wrap;
+				padding: 0px 35px;
+				background: url("../../assets/img/process-jab-bubble-single.png") no-repeat;
+				background-position: bottom;
+				min-height: 150px;
+				width: 100%;
+				font-size: .9em;
+				span {
+					text-align: center;
+					width: 100%;
+					float: left;
+				}
+			}
+			li.conmon {
+				padding: 35px;
+				background: url("../../assets/img/process-right-arrow.png") no-repeat;
+				background-position: center;
+				width: auto;
+				height: auto;
+				list-style: none;
+				text-align: center;
+				color: #fff;
+				width: 100%;
+				background-size: contain !important;
+			}
+			li.agency-conmon {
+				padding: 0px 35px;
 				flex-flow: wrap;
 				background: url("../../assets/img/process-agency-bubble-single.png") no-repeat;
-				background-position: center;
+				background-position: top;
+				min-height: 150px;
+				width: 100%;
+				font-size: .9em;
 				span {
 					text-align: center;
 					width: 100%;
@@ -1665,11 +1718,7 @@ padding: 60px 5%;
 			}
 		}
 	}
-	p {
-		text-align: center;
-		font-style: italic;
 	}
-}
 
 .program-basics {
 	#mission, #history, #goals {
@@ -1742,7 +1791,7 @@ padding: 60px 5%;
 			width: 100%;
 			ul {
 				padding: 0;
-				justify-content: space-around;
+				justify-content: center;
 				display: flex;
 				flex-flow: row wrap;
 				width: 100%;
@@ -1765,7 +1814,7 @@ padding: 60px 5%;
 }
 
 @media (min-width: 0) and (max-width: 670px)  {
-.about-us section#legal-framework div.inner div.text ul li {
+.program-basics section#legal-framework div.inner div.text ul li {
 		background: url('../../assets/img/legal-divider-mobile.png') bottom no-repeat;
 		padding: 0 0 30px 0;
 		&:last-child {
@@ -1775,7 +1824,7 @@ padding: 60px 5%;
 	}
 	
 	@media (min-width: 0) and (max-width: 1200px)  {
-	.about-us section#legal-framework {
+	.program-basics section#legal-framework {
 		padding-right: 5%;
 		padding-left: 5%;
 	}
