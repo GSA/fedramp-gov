@@ -14,7 +14,7 @@
       </div>
       <div class="blog-banner">
         <div class="blog-description">
-           <a href="{{ post.url | prepend: site.baseurl }}"><h5>{{ post.title }}</h5></a>
+           <a href="{{ post.url | prepend: site.baseurl }}"><h5>{{ post.title | strip_html | truncatewords: 5 }}</h5></a>
         </div>
       </div>
     </article>
