@@ -1326,6 +1326,9 @@ padding: 60px 5%;
 				font-weight: bold;
 				margin: 0 0 8px 0;
 				padding: 0 0 0 20px;
+				a {
+					text-decoration: none;
+				}
 				svg {
 					margin: 0 8px 0 -20px;
 					color: $light-blue;
