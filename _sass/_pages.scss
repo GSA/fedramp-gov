@@ -1113,6 +1113,9 @@ padding: 60px 5%;
 		}
 		span {
 			align-self: baseline;
+			a {
+				width: 100%;
+			}
 		}
 		.program-basics {
 			background: $dark-blue;
@@ -1293,7 +1296,7 @@ padding: 60px 5%;
 	margin: 40px 0;
 	padding: 0;
 	button {
-		background: $dark-blue;
+		background: $light-blue;
 		a {
 		color: #fff;
 		text-decoration: none;
@@ -1340,6 +1343,9 @@ padding: 60px 5%;
 		min-height: none;
 		padding: 20px;
 		width: 48%;
+		a {
+			color: $link-color !important;
+		}
 		h4 {
 			margin-top: 0; 
 		}
