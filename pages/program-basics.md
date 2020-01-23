@@ -11,9 +11,9 @@ body-class: program-basics
 	<div class="text"><p>The FedRAMP Program Management Office (PMO) mission is to promote the adoption of secure cloud services across the Federal Government by providing a standardized approach to security. FedRAMP protects Intellectual Property (IP) of commercial technologies and protects the Public data.</p>
 <p>	In meeting our mission, FedRAMP is committed to: </p>
 	<ul>
-		<li>Ensuring cloud services that house Federal information meet required Federal security standards </li>
-		<li>Eliminating duplication and reducing costs </li>
-		<li>Enabling the Federal Government to accelerate the adoption of cloud computing</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Ensuring cloud services that house Federal information meet required Federal security standards </li>
+		<li><i class="fas fa-arrow-circle-right"></i>Eliminating duplication and reducing costs </li>
+		<li><i class="fas fa-arrow-circle-right"></i>Enabling the Federal Government to accelerate the adoption of cloud computing</li>
 	</ul>
 	</div>
 </div>
@@ -22,11 +22,11 @@ body-class: program-basics
 <div class="inner">
 	<div class="text">
 	<ul>
-		<li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
-		<li>Improve confidence in the security of cloud solutions and security assessments</li>
-		<li>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP</li>
-		<li>Ensure consistent application of existing security practices</li>
-		<li>Increase automation and near real-time data for continuous monitoring</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Improve confidence in the security of cloud solutions and security assessments</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Ensure consistent application of existing security practices</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Increase automation and near real-time data for continuous monitoring</li>
 	</ul>
 	</div>
 <div class="image"><h2>GOALS</h2></div>

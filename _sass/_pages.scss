@@ -1725,16 +1725,30 @@ padding: 60px 5%;
 	}
 
 .program-basics {
+	ul {
+		padding: 0;
+		li {
+			list-style: none;
+			padding: 0 0 0 20px;
+			svg {
+				margin: 0 8px 0 -20px;
+				color: $fr-red;
+			}
+		}
+	}
 	#mission, #history, #goals {
 		width: 100%;
 		.inner {
 			display: flex;
 			flex-flow: row wrap;
 			width: 100%;
-			margin: 0 auto;
-			max-width: 1200px;
+			/*margin: 0 auto;
+			max-width: 1200px;*/
+			justify-content: center;
+			align-content: center;
 		.image {
 			width: 40%;
+			height: auto;
 			margin: 0;
 			min-height: 300px;
 			display: flex;
@@ -1810,6 +1824,10 @@ padding: 60px 5%;
 					&:last-child {
 						background: none;
 					}
+					img {
+						height: 135px;
+						margin: auto;
+					}
 				}
 				}
 			}
@@ -1835,6 +1853,12 @@ padding: 60px 5%;
 	}
 	
 @media (min-width: 0) and (max-width: 768px) {
+section#goals div.inner {
+	flex-flow: column;
+.text {
+	order: 2;
+}
+}
  section#mission div.inner div.image, section#goals div.inner div.image, section#history div.inner div.image {
 	width: 100% !important;
 }
