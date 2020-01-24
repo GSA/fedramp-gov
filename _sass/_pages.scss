@@ -1309,16 +1309,37 @@ padding: 60px 5%;
 	max-width: 1200px;
 	float: none;
 	.market {
-		width: 30%;
-		padding: 20px;
+		width: 27%;
+		padding: 40px;
+		box-sizing: border-box;
 		background: lighten($light-teal, 12%);
 		h4 {
 			margin-top: 0;
 		}
+		span {
+			float: left;
+			max-height: 40px;
+			display: flex;
+			flex-flow: row;
+			button {
+				float: left;
+				margin: 0;
+			}
+		svg {
+			background: $dark-blue;
+			color: #fff;
+			padding: 0 10px;
+			width: 40px;
+			float: left;
+			height: auto;
+			margin: 0;
+		}
+		}
 	}
 	.links {
-		padding: 20px;
-		width: 22%;
+		padding: 40px;
+		width: 25%;
+		box-sizing: border-box;
 		h4 {
 			margin-top: 0;
 		}
@@ -1326,11 +1347,12 @@ padding: 60px 5%;
 			list-style: none;
 			padding: 0;
 			li {
-				font-weight: bold;
+				font-weight: normal;
 				margin: 0 0 8px 0;
 				padding: 0 0 0 20px;
 				a {
 					text-decoration: none;
+					color: $text-color;
 				}
 				svg {
 					margin: 0 8px 0 -20px;
@@ -1341,8 +1363,9 @@ padding: 60px 5%;
 	}
 	.blog-group {
 		min-height: none;
-		padding: 20px;
+		padding: 40px;
 		width: 48%;
+		box-sizing: border-box;
 		a {
 			color: $link-color !important;
 		}
@@ -1357,7 +1380,12 @@ padding: 60px 5%;
 			min-height: 0;
 			h5 {
 				font-size: .9em;
+				font-weight: normal;
 				font-family: $sans-font;
+				color: $text-color !important;
+			}
+			a {
+				color: $text-color !important;
 			}
 		}
 		.blog-image {
@@ -1698,6 +1726,10 @@ padding: 60px 5%;
 					text-align: center;
 					width: 100%;
 					float: left;
+					img {
+						max-width: 22px;
+						margin: auto;
+					}
 				}
 			}
 			li.conmon {
@@ -1724,6 +1756,10 @@ padding: 60px 5%;
 					text-align: center;
 					width: 100%;
 					float: left;
+					img {
+						max-width: 22px;
+						margin: auto;
+					}
 				}
 			}
 		}
