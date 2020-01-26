@@ -1918,6 +1918,81 @@ padding: 60px 5%;
 	}
 	}
 
+@media (min-width: 0) and (max-width: 580px) {
+	.process-diagram .process-container ul.column-1, .process-diagram .process-container ul.column-3, .process-diagram .process-container ul.column-4 {
+		width: 324px;
+		}
+		.process-diagram .process-container ul.column-1 {
+			border-bottom: 1px solid #fff;
+			padding: 0 0 20px 0;
+			margin: 0 0 20px 0;
+			li.jab-first {
+				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+				background-size: 100%;
+				min-height: 90px;
+				padding-bottom: 20px;
+				box-sizing: border-box;
+			}
+			li.agency-first {
+				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+				background-size: 100%;
+				min-height: 90px;
+				padding-top: 20px;
+				box-sizing: border-box;
+				}
+			}
+			.process-diagram .process-container ul.column-2 {
+				border-bottom: 1px solid #fff;
+				padding: 0 0 20px 0;
+				margin: 0 0 20px 0;
+				li.jab-one-two {
+					padding-bottom: 20px;
+					box-sizing: border-box;
+				}
+				li.agency-one-two {
+					padding-top: 20px;
+					box-sizing: border-box;
+				}
+				}
+		.process-diagram .process-container ul.column-4 {
+			padding: 0;
+			margin: 0;
+			li.jab-conmon {
+				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+				background-size: 100%;
+				min-height: 110px;
+				padding-bottom: 20px;
+				box-sizing: border-box;
+			}
+			li.agency-conmon {
+				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+				background-size: 100%;
+				min-height: 110px;
+				padding-top: 20px;
+				box-sizing: border-box;
+				}
+			}
+	.process-diagram .process-container ul.column-3 {
+		border-bottom: 1px solid #fff;
+		padding: 0 0 20px 0;
+		margin: 0 0 20px 0;
+		li.jab-auth {
+			background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+			background-size: 100%;
+			min-height: 125px;
+			padding-bottom: 20px;
+			box-sizing: border-box;
+		}
+		li.agency-auth {
+			background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+			background-size: 100%;
+			min-height: 125px;
+			padding-top: 20px;
+			box-sizing: border-box;
+		}
+	}		
+}
+
 .program-basics {
 	ul {
 		padding: 0;
@@ -2028,6 +2103,7 @@ padding: 60px 5%;
 		}
 	}
 }
+
 
 @media (min-width: 0) and (max-width: 670px)  {
 .program-basics section#legal-framework div.inner div.text ul li {
