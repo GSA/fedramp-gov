@@ -1215,31 +1215,33 @@ padding: 60px 5%;
 			text-align: center;
 			max-width: 300px;
 			display: flex;
-			width: 28%;
+			width: 33%;
 			flex-flow: wrap;
 			align-content: flex-end;
 			span {
-				margin: 100px 0 0 0;
+				margin: 85px 0 0 0;
 				display: block;
 				padding: 20px 30px;
 				text-align: center;
 				img {
 					width: 80px;
-					margin: -100px 0 0 0;
+					margin: -130px 0 0 0;
 				}
 				h3, h2 {
 					color: #fff;
 					margin: 15px 0;
 				}
 				h5 {
-					margin: 0 0 10px 0;
+					margin: 15px 0 15px 0;
 					font-size: 1.3em;
 					font-family: $sans-font;
-					font-weight: normal;
+					font-weight: 400;
 					color: #fff;
+					letter-spacing: .015em;
 				}
 				p {
 					color: #fff;
+					margin: 15px auto;
 				}
 				button {
 					background: $light-blue;
@@ -1250,10 +1252,11 @@ padding: 60px 5%;
 		.detailed-info {
 			background: $dark-blue;
 			text-align: center;
-			padding: 20px;
-			width: 70%;
+			padding: 30px;
+			box-sizing: border-box;
+			width: 67%;
 			h3 {
-				margin: 0 0 35px 0;
+				margin: 0 0 25px 0;
 				font-family: $sans-font;
 				font-size: 2em;
 				font-weight: lighter;
@@ -1270,17 +1273,17 @@ padding: 60px 5%;
 			}
 	ul {
 /*		height: 100%;*/
-		margin: 20px auto 0 auto;
+		margin: 15px auto 0 auto;
 		z-index: 1001;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		flex-flow: row;
 		padding: 0;
 		li {
 			width: 30%;
 			float: left;
 			max-width: 220px;
-/*			min-width: 220px;*/
+			/*			min-width: 220px;*/
 			margin: 40px 15px 0 15px;
 			display: block;
 			list-style: none;
@@ -1291,22 +1294,22 @@ padding: 60px 5%;
 			}
 			img {
 				width: 70px;
-				margin: -60px 0 0 0;
+				margin: -40px 0 0 0;
 			}
 			span {
 				display: flex;
 				flex-flow: wrap;
 				align-items: flex-end;
-				padding: 20px;
-				margin: -50px 0 0 0;
-				min-height: 200px;
+				padding: 40px 20px 20px 20px;
+				margin: -40px 0 0 0;
+				min-height: 160px;
 				button {
 					margin: 0 auto;
 				}
 				h5 {
 					margin: 0 0 10px 0;
 					font-size: 1.3em;
-					font-family: $sans-font;
+					font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 					font-weight: normal;
 					color: #fff;
 					width: 100%;
@@ -1333,7 +1336,7 @@ padding: 60px 5%;
 	h1 {
   	color: white;
 /*  	font-size: 28px;*/
-  	font-weight: 400;
+  	font-weight: 100;
   	line-height: 50px;
  	margin-top: 0;
   	margin-bottom: 0;
@@ -1991,6 +1994,19 @@ padding: 60px 5%;
 	}		
 }
 
+@media (min-width: 0) and (max-width: 980px) {
+	.program-basics #history-mission-goals #mission {
+			background: url("../../assets/img/mission-background.png") no-repeat center;
+			width: 100% !important;
+			background-size: cover;
+	}
+	.program-basics #history-mission-goals #goals {
+			background: url("../../assets/img/goals-background.png") no-repeat left;
+			width: 100% !important;
+			background-size: contain;
+	}
+}
+
 .program-basics {
 	ul {
 		padding: 0;
@@ -1999,21 +2015,21 @@ padding: 60px 5%;
 			padding: 0 0 0 20px;
 			svg {
 				margin: 0 8px 0 -20px;
-				color: $fr-red;
+				color: $teal;
 			}
 		}
 	}
+	#history-mission-goals {
+		display: flex;
+		flex-flow: row wrap;
 	#mission, #history, #goals {
-		width: 100%;
-		.inner {
 			display: flex;
 			flex-flow: row wrap;
-			width: 100%;
 			/*margin: 0 auto;
 			max-width: 1200px;*/
 			justify-content: center;
 			align-content: center;
-		.image {
+		/*.image {
 			width: 40%;
 			height: auto;
 			margin: 0;
@@ -2038,26 +2054,44 @@ padding: 60px 5%;
 			margin: 0;
 			padding: 40px;
 			box-sizing: border-box;
-		}
-		}
+		}*/
 	}
 	#mission {
-		.image {
-			background: url("../../assets/img/mission-background.png") no-repeat;
-		}
+			background: url("../../assets/img/mission-background.png") no-repeat center ;
+			width: 30%;
+			background-size: cover;
+			.inner {
+				padding: 60px;
+				width: 100%;
+				background: 
+				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);
+			}
+			
 	}
 	#goals {
-			background: #F6F6F6;
-		.image {
-			background: url("../../assets/img/goals-background.png") no-repeat;
-		}
+			background: url("../../assets/img/goals-background.png") no-repeat left;
+			width: 70%;
+			background-size: contain;
+			.inner {
+				padding: 60px;
+				width: 100%;
+				background: 
+				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);
+			}
+			
 	}
 	#history {
-			background: tint($light-teal, 50%);
-		.image {
-			background: url("../../assets/img/history-background.png") no-repeat;
-		}
+			background-image: url("../../assets/img/history-background.png");
+			width: 100%;
+			background-size: cover;
+				padding: 60px;
+				width: 100%;
+				background-blend-mode: multiply;
+				background-color: 
+				light-teal;
 	}
+	}
+	
 	
 	#legal-framework {
 		width: 100%;

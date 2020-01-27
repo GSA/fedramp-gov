@@ -5,40 +5,31 @@ permalink: /program-basics/
 body-class: program-basics
 
 ---
+<div id="history-mission-goals">
+<section id="history">
+<div class="inner">
+<h2>History of FedRAMP</h2>
+<p>The Federal Risk and Authorization Management Program (FedRAMP) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the Federal Government. The PMO empowers agencies to implement secure cloud solutions, improve the protection of information, and streamline and reduce the cost of security assessments. FedRAMP provides the required documentation and guidance for cloud services to comply with White House and National Institute of Standards and Technology (NIST) requirements.</p>
+</div>
+</section>
 <section id="mission">
 <div class="inner">
-<div class="image"><h2>MISSION</h2></div>
-	<div class="text"><p>The FedRAMP Program Management Office (PMO) mission is to promote the adoption of secure cloud services across the Federal Government by providing a standardized approach to security. FedRAMP protects Intellectual Property (IP) of commercial technologies and protects the Public data.</p>
-<p>	In meeting our mission, FedRAMP is committed to: </p>
-	<ul>
-		<li><i class="fas fa-arrow-circle-right"></i>Ensuring cloud services that house Federal information meet required Federal security standards </li>
-		<li><i class="fas fa-arrow-circle-right"></i>Eliminating duplication and reducing costs </li>
-		<li><i class="fas fa-arrow-circle-right"></i>Enabling the Federal Government to accelerate the adoption of cloud computing</li>
-	</ul>
-	</div>
+<h2>MISSION</h2>
+<p>FedRAMP is a government-wide program that promotes the adoption of secure cloud services across the Federal Government by providing a standardized approach to security and risk assessment for cloud technologies and Federal Agencies.</p>
 </div>
 </section>
 <section id="goals">
-<div class="inner">
-	<div class="text">
+	<div class="inner">
+	<h2>GOALS</h2>
 	<ul>
-		<li><i class="fas fa-arrow-circle-right"></i>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
-		<li><i class="fas fa-arrow-circle-right"></i>Improve confidence in the security of cloud solutions and security assessments</li>
-		<li><i class="fas fa-arrow-circle-right"></i>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP</li>
-		<li><i class="fas fa-arrow-circle-right"></i>Ensure consistent application of existing security practices</li>
-		<li><i class="fas fa-arrow-circle-right"></i>Increase automation and near real-time data for continuous monitoring</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Grow the use of secure cloud technologies by government agencies.</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Enhance the framework by which the government secures and authorizes cloud technologies. </li>
+		<li><i class="fas fa-arrow-circle-right"></i>Build and foster strong partnerships with FedRAMP stakeholders.</li>
+		<li><i class="fas fa-arrow-circle-right"></i>Maintain internal controls to manage programmatic risk and improve operational efficiency.</li>
 	</ul>
 	</div>
-<div class="image"><h2>GOALS</h2></div>
-</div>
 </section>
-<section id="history">
-<div class="inner">
-<div class="image"><h2>History of FedRAMP</h2></div>
-<div class="text"><p>The Federal Risk and Authorization Management Program (FedRAMP) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the Federal Government. The PMO empowers agencies to implement secure cloud solutions, improve the protection of information, and streamline and reduce the cost of security assessments. FedRAMP provides the required documentation and guidance for cloud services to comply with White House and National Institute of Standards and Technology (NIST) requirements.</p>
-	</div>
 </div>
-</section>
 <section id="legal-framework">
 	<div class="inner">
 		<div class="text">
