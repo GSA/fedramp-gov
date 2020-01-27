@@ -1336,7 +1336,7 @@ padding: 60px 5%;
 	h1 {
   	color: white;
 /*  	font-size: 28px;*/
-  	font-weight: 100;
+  	font-weight: 400;
   	line-height: 50px;
  	margin-top: 0;
   	margin-bottom: 0;
@@ -1677,7 +1677,7 @@ padding: 60px 5%;
 			flex-flow: wrap;
 			margin: 20px 0;
 			li.jab-first {
-				padding: 0px 35px;
+				padding: 0 35px 20px 35px;
 				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: bottom;
 				font-weight: bold;
@@ -1704,7 +1704,7 @@ padding: 60px 5%;
 				background-size: contain !important;
 			}
 			li.agency-first {
-				padding: 0px 35px;
+				padding: 20px 35px 0 35px;
 				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: top;
 				color: $fr-red;
@@ -1720,11 +1720,13 @@ padding: 60px 5%;
 				flex-flow: wrap;
 				margin: 20px 0;
 			li.jab-one-two {
-				padding: 0px 20px;
+				padding: 0px 10px 20px 10px;
 				background: url("../../assets/img/bubble-top-wide.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
 				width: 100%;
+				background-size: auto 100%;
+				box-sizing: border-box;
 				ul {
 					padding: 0;
 					display: flex;
@@ -1734,11 +1736,11 @@ padding: 60px 5%;
 						min-height: auto;
 						width: 50%;
 						flex-flow: wrap;
-						padding: 0 8px;
+						padding: 0 10px;
 						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $teal;
-							padding: 0 5px 0 0;
+							padding: 0 10px 0 0;
 						}
 						span {
 							background: $teal;
@@ -1764,12 +1766,14 @@ padding: 60px 5%;
 				text-align: center;
 				color: #fff;
 				width: 100%;
+				box-sizing: border-box;
 				background-size: contain !important;
 			}
 			.agency-one-two {
-				padding: 0px 35px;
+				padding: 20px 10px 0 10px;
 				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat;
 				background-position: top;
+				background-size: auto 100%;
 				min-height: 150px;
 				width: 100%;
 				ul {
@@ -1781,11 +1785,11 @@ padding: 60px 5%;
 						min-height: auto;
 						width: 50%;
 						flex-flow: wrap;
-						padding: 0 5px;
+						padding: 0 10px;
 						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $fr-red;
-							padding: 0 8px 0 0;
+							padding: 0 10px 0 0;
 						}
 						span {
 							background: $fr-red;
@@ -1808,7 +1812,7 @@ padding: 60px 5%;
 				flex-flow: wrap;
 				margin: 20px 0;
 			li.jab-auth {
-				padding: 0px 35px;
+				padding: 0px 35px 20px 35px;
 				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: bottom;
 				display: flex;
@@ -1841,7 +1845,7 @@ padding: 60px 5%;
 				background-size: contain !important;
 			}
 			li.agency-auth {
-				padding: 0px 35px;
+				padding: 20px 35px 0 35px;
 				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: top;
 				flex-flow: wrap;
@@ -1869,7 +1873,7 @@ padding: 60px 5%;
 				margin: 20px 0;
 			li.jab-conmon {
 				flex-flow: wrap;
-				padding: 0px 35px;
+				padding: 0px 35px 20px 35px;
 				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
@@ -1898,7 +1902,7 @@ padding: 60px 5%;
 				background-size: contain !important;
 			}
 			li.agency-conmon {
-				padding: 0px 35px;
+				padding: 20px 35px 0px 35px;
 				flex-flow: wrap;
 				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: top;
