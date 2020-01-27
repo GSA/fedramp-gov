@@ -1,7 +1,7 @@
 footer {
 	float: left;
 	width: 100%;
-	border-bottom: 40px solid #131836 !important;
+	border-bottom: 20px solid #131836 !important;
 	p {
 		color: $light-teal !important;
 	}
@@ -41,7 +41,7 @@ footer a:visited {
 	img {
 		margin: 0 auto;
 		float: none;
-		max-width: 100px;
+		max-width: 105px;
 	}
 }
 
@@ -93,7 +93,7 @@ p {
 
 
 .footer-social a.usa-link-twitter {
-	margin: 0 0 0 20px;
+	margin: 0 0 0 10px !important;
 	color: $light-teal;
 img {
 	fill: $light-teal;
@@ -124,11 +124,33 @@ address p:last-of-type, address p {
 	float: left;
 	margin: 0;
 	width: 31%;
-	
+	.usa-input-buttons-inline {
+		height: 40px;
+		display: flex;
 	input {
-		margin: 0 auto;
+		margin: 0;
 		background: $light-blue;
 		font-size: 1.4rem;
+	}
+	span {
+		width: 44px;
+		height: 44px;
+		font-size: 1.5em;
+		line-height: 40px;
+		float: left;
+		background: #131836;
+		svg {
+			color: $light-teal;
+		}
+	}
+	}
+	h5 {
+		text-align: left;
+		font-family: $sans-font;
+		color: $light-teal;
+		font-weight: normal;
+		font-size: 1.25em;
+		margin: 0 0 10px 0;
 	}
 }
 
