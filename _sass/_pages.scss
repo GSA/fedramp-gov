@@ -2012,18 +2012,6 @@ padding: 60px 5%;
 }
 
 .program-basics {
-	ul {
-		padding: 0;
-		li {
-			list-style: none;
-			padding: 0 0 0 60px;
-			margin: 10px 0 0 0;
-			svg {
-				margin: 0 20px 0 -60px;
-				color: $teal;
-			}
-		}
-	}
 	#history-mission-goals {
 		display: flex;
 		flex-flow: row wrap;
@@ -2063,7 +2051,7 @@ padding: 60px 5%;
 	}
 	#mission {
 			background: url("../../assets/img/mission-background.png") no-repeat center ;
-			width: 30%;
+			width: 35%;
 			background-size: cover;
 			.inner {
 				padding: 60px;
@@ -2075,14 +2063,28 @@ padding: 60px 5%;
 	}
 	#goals {
 			background: url("../../assets/img/goals-background.png") no-repeat left;
-			width: 70%;
+			width: 65%;
 			background-size: contain;
 			.inner {
 				padding: 60px;
 				width: 100%;
 				/*background: 
 				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);*/
+			
+				ul {
+					padding: 0;
+					li {
+						list-style: none;
+						padding: 0 0 0 60px;
+						margin: 10px 0 0 0;
+						svg {
+							margin: 0 20px 0 -60px;
+							color: $teal;
+						}
+					}
+				}
 			}
+			
 			
 	}
 	#history {
