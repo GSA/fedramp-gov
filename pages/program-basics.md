@@ -14,13 +14,13 @@ body-class: program-basics
 </section>
 <section id="mission">
 <div class="inner">
-<h2>MISSION</h2>
+<h2>Mission</h2>
 <p>FedRAMP is a government-wide program that promotes the adoption of secure cloud services across the Federal Government by providing a standardized approach to security and risk assessment for cloud technologies and Federal Agencies.</p>
 </div>
 </section>
 <section id="goals">
 	<div class="inner">
-	<h2>GOALS</h2>
+	<h2>Goals</h2>
 	<ul>
 		<li><i class="fas fa-arrow-circle-right"></i>Grow the use of secure cloud technologies by government agencies.</li>
 		<li><i class="fas fa-arrow-circle-right"></i>Enhance the framework by which the government secures and authorizes cloud technologies. </li>
