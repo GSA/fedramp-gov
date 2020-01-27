@@ -1,6 +1,7 @@
 footer {
 	float: left;
 	width: 100%;
+	background: $dark-blue;
 	border-bottom: 20px solid #131836 !important;
 	p {
 		color: $light-teal !important;
@@ -73,7 +74,7 @@ form#contact p, address p, .footer-social p {
 }
 
 address {
-	border-right: 1px solid $light-teal;
+	border-right: 1px solid #fff;
 .contact {
 a {
 	margin: auto;
@@ -87,8 +88,12 @@ p {
 }
 }
 
-.footer-social p {
+.footer-social {
+	float: left !important;
+	margin: 10px 0 0 0;
+ p {
 	font-weight: bold;
+}
 }
 
 
@@ -159,6 +164,38 @@ address p:last-of-type, address p {
 	text-align: center;
 	width: 250px;
 	clear: both;
+}
+
+.usa-footer-contact-links {
+	text-align: center;
+	display: flex;
+	width: 55% !important;
+	flex-flow: row wrap;
+	padding: 0;
+	address {
+		margin: 0;
+		padding: 0 40px 0 0;
+		width: 40%;
+		box-sizing: border-box;
+	}
+	.newsletter-footer {
+		float: none;
+		width: 60%;
+		padding: 0 0 0 50px;
+		box-sizing: border-box;
+		p {
+			color: #fff !important;
+			margin-top: 0;
+		}
+	}
+}
+
+.usa-footer-secondary_section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 @media (min-width: 0px) and (max-width: 580px) {

@@ -2016,9 +2016,10 @@ padding: 60px 5%;
 		padding: 0;
 		li {
 			list-style: none;
-			padding: 0 0 0 20px;
+			padding: 0 0 0 60px;
+			margin: 10px 0 0 0;
 			svg {
-				margin: 0 8px 0 -20px;
+				margin: 0 20px 0 -60px;
 				color: $teal;
 			}
 		}
@@ -2067,8 +2068,8 @@ padding: 60px 5%;
 			.inner {
 				padding: 60px;
 				width: 100%;
-				background: 
-				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);
+				/*background: 
+				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);*/
 			}
 			
 	}
@@ -2079,8 +2080,8 @@ padding: 60px 5%;
 			.inner {
 				padding: 60px;
 				width: 100%;
-				background: 
-				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);
+				/*background: 
+				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);*/
 			}
 			
 	}
@@ -2091,8 +2092,8 @@ padding: 60px 5%;
 				padding: 60px;
 				width: 100%;
 				background-blend-mode: multiply;
-				background-color: 
-				light-teal;
+				/*background-color: 
+				light-teal;*/
 	}
 	}
 	

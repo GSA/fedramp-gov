@@ -15,8 +15,8 @@
   </div>
   {% endif %}
   <div class="usa-footer-secondary_section">
-    <div class="usa-grid">
-      <div class="usa-footer-logo usa-width-one-third">
+<!--    <div class="usa-grid">-->
+<!--      <div class="usa-footer-logo usa-width-one-third">-->
       <div class="logo-container">
         {% if site.footer.image %}
           <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/logo-square-inverse.png" alt="Fedramp">
@@ -25,8 +25,8 @@
           <p>General Services Administration<br/>1800 F Street, NW <br/> Washington, DC 20006</p>
         {% endif %}-->
       </div>
-      </div>
-	  <div class="usa-footer-contact-links usa-width-one-third">
+<!--      </div>-->
+	  <div class="usa-footer-contact-links">
 	  <address>
 	  <span class="street-address"><p>General Services Administration<br/>
 	  1800 F Street, NW<br/>
@@ -58,7 +58,6 @@
 	      {% endif %}
 	  	</div>
 	  		  </address>
-	  </div>
   <div class="newsletter-footer">
   {% for form in site.forms %}
     {% if form.type == 'newsletter' %}
@@ -89,6 +88,7 @@
       </div>
   </form>
   </div>
-    </div>
+	  </div>
+<!--    </div>-->
   </div>
 </footer>
