@@ -1021,7 +1021,6 @@ padding: 60px 5%;
 
 @media (min-width: 0) and (max-width: 980px) {
 	.home-new .front-four {
-		padding: 0;
 		flex-flow: wrap;
 		max-width: 100%;
 		width: 100%;
@@ -1031,14 +1030,14 @@ padding: 60px 5%;
 			font-size: 1.2em !important;
 		}
 		.program-basics {
-			width: 85%;
+			width: 90%;
 			margin: 0 auto;
 /*			flex-flow: row;*/
 			max-width: none;
 			span {
 				display: flex;
 					flex-flow: row;
-					margin: 0 3%;
+					margin: 0;
 					width: 100%;
 					justify-content: space-between;
 					border-bottom: 1px solid #fff;
@@ -1637,10 +1636,9 @@ padding: 60px 5%;
 }
 
 .process-diagram {
-/*	background-image:
-	linear-gradient(to bottom, rgba(137, 193, 234, .3), rgba(137, 193, 234, .85)),
-	url('../../assets/img/process-background.png');*/
-	background: $light-teal;
+	background-image:
+	linear-gradient(180deg, rgba(189,226,249,1) 0%, rgba(112,176,225,1) 100%);
+/*	background: $light-teal;*/
 	float: left;
 	width: 100%;
 	padding: 20px 0 60px 0;

@@ -43,7 +43,7 @@ body-class: program-basics
 	<div class="inner">
 		<div class="text">
 		<h2>Legal Framework</h2>
-		<p>TThe requirement for the Federal Government to issue security authorizations for any IT system is based on the Federal Information Security Modernization Act (FISMA) of 2014 and OMB Policy Memo. The Federal Government is required to follow NIST standards and requirements for all IT systems.</p>
+		<p>FedRAMP standardized security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with FISMA, OMB - 130, and FedRAMP policy memo.</p>
 		<ul>
 			<li><h3>LAW</h3>
 				<img src="{{site.baseurl}}/assets/img/law-icon.png" alt="Law" title="Law">

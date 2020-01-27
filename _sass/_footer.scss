@@ -1,17 +1,18 @@
 footer {
 	float: left;
 	width: 100%;
+	border-bottom: 40px solid #131836 !important;
 	p {
-		color: $dark-blue !important;
+		color: $light-teal !important;
 	}
 }
 
 .usa-footer-primary-section {
-  background-color: $footer-primary-background-color;
+  background-color: $dark-blue;
 }
 
 .usa-footer-secondary_section {
-  background-color: $footer-secondary-background-color;
+  background-color: $dark-blue;
   padding: 60px 0;
 }
 
@@ -45,19 +46,19 @@ footer a:visited {
 }
 
 form#contact p, address p, .footer-social p {
-	font-weight: bold;
+	font-weight: normal;
+	text-align: left;
 }
 
-.footer-social, address {
+.footer-social, address, address .contact {
 	margin: 20px 0 0 0;
-	
 	p {
 		margin: 0 0 5px 0;
 		color: $dark-blue;
 	}
 	
 	a {
-		color: $light-blue !important;
+		color: $light-teal !important;
 	}
 	
 	a:hover {
@@ -65,8 +66,39 @@ form#contact p, address p, .footer-social p {
 	}
 }
 
-.footer-social a.usa-link-twitter img {
-	fill: $light-blue;
+.footer-social, address .contact {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+address {
+	border-right: 1px solid $light-teal;
+.contact {
+a {
+	margin: auto;
+	font-weight: normal;
+	color: $light-teal;
+}
+p {
+	margin: 0 10px 0 0;
+	font-weight: bold;
+}
+}
+}
+
+.footer-social p {
+	font-weight: bold;
+}
+
+
+.footer-social a.usa-link-twitter {
+	margin: 0 0 0 20px;
+	color: $light-teal;
+img {
+	fill: $light-teal;
+	color: $light-teal;
+}
 }
 
 address p:last-of-type, address p {
@@ -103,7 +135,7 @@ address p:last-of-type, address p {
 .usa-footer-secondary_section .footer-social, .usa-footer-secondary_section address {
 	float: right;
 	text-align: center;
-	width: 200px;
+	width: 250px;
 	clear: both;
 }
 

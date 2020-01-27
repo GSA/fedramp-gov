@@ -19,13 +19,46 @@
       <div class="usa-footer-logo usa-width-one-third">
       <div class="logo-container">
         {% if site.footer.image %}
-          <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/fedramp-logo-stamp.png" alt="Fedramp">
+          <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/logo-square-inverse.png" alt="Fedramp">
         {% endif %}
-        {% if site.footer.text %}
+        <!--{% if site.footer.text %}
           <p>General Services Administration<br/>1800 F Street, NW <br/> Washington, DC 20006</p>
-        {% endif %}
+        {% endif %}-->
       </div>
       </div>
+	  <div class="usa-footer-contact-links usa-width-one-third">
+	  <address>
+	  <span class="street-address"><p>General Services Administration<br/>
+	  1800 F Street, NW<br/>
+	  Washington, DC 20006</p>
+	  </span>
+	  	  <span class="contact">
+	  <p>CONTACT US</p>
+	    {% if site.footer.contact.name %}
+	      <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
+	    {% endif %}
+	    {% if site.footer.contact.phonenumber %}
+	      <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
+	    {% endif %}
+	    <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
+	  </span>
+	  <div class="footer-social">
+	  <p>FOLLOW US</p>
+	      {% if site.footer.contact.twitter %}
+	      <a class="usa-link-twitter" href="https://twitter.com/{{ site.footer.contact.twitter }}" target="_blank"><span>Twitter</span></a>
+	      {% endif %}
+	      {% if site.footer.contact.facebook %}
+	      <a class="usa-link-facebook" href="https://facebook.com/{{ site.footer.contact.facebook }}"><span>Facebook</span></a>
+	      {% endif %}
+	      {% if site.footer.contact.youtube %}
+	      <a class="usa-link-youtube" href="https://youtube.com/{{ site.footer.contact.youtube }}"><span>YouTube</span></a>
+	      {% endif %}
+	      {% if site.footer.contact.rss %}
+	      <a class="usa-link-rss" href="{{ site.footer.contact.rss }}"><span>RSS feed</span></a>
+	      {% endif %}
+	  	</div>
+	  		  </address>
+	  </div>
   <div class="newsletter-footer">
   {% for form in site.forms %}
     {% if form.type == 'newsletter' %}
@@ -34,6 +67,7 @@
   {% endfor %}
 
   <form id="contact" action="{{ f.url }}" method="POST">
+  	<h5>KEEP UP TO DATE</h5>
       <p>{{ f.heading }}</p>
       <div class="newsletter-inner">
         {% for field in f.fields %}
@@ -55,34 +89,6 @@
       </div>
   </form>
   </div>
-
-      <div class="usa-footer-contact-links usa-width-one-third">
-      <address>
-      <p>CONTACT US</p>
-        {% if site.footer.contact.name %}
-          <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
-        {% endif %}
-        {% if site.footer.contact.phonenumber %}
-          <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
-        {% endif %}
-        <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
-      </address>
-      <div class="footer-social">
-      <p>FOLLOW US</p>
-          {% if site.footer.contact.twitter %}
-          <a class="usa-link-twitter" href="https://twitter.com/{{ site.footer.contact.twitter }}" target="_blank"><span>Twitter</span></a>
-          {% endif %}
-          {% if site.footer.contact.facebook %}
-          <a class="usa-link-facebook" href="https://facebook.com/{{ site.footer.contact.facebook }}"><span>Facebook</span></a>
-          {% endif %}
-          {% if site.footer.contact.youtube %}
-          <a class="usa-link-youtube" href="https://youtube.com/{{ site.footer.contact.youtube }}"><span>YouTube</span></a>
-          {% endif %}
-          {% if site.footer.contact.rss %}
-          <a class="usa-link-rss" href="{{ site.footer.contact.rss }}"><span>RSS feed</span></a>
-          {% endif %}
-		</div>
-      </div>
     </div>
   </div>
 </footer>
