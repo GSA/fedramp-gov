@@ -2,7 +2,7 @@ footer {
 	float: left;
 	width: 100%;
 	background: $dark-blue;
-	border-bottom: 20px solid #131836 !important;
+	border-bottom: 20px solid $darkest-blue !important;
 	p {
 		color: $light-teal !important;
 	}
@@ -10,11 +10,6 @@ footer {
 
 .usa-footer-primary-section {
   background-color: $dark-blue;
-}
-
-.usa-footer-secondary_section {
-  background-color: $dark-blue;
-  padding: 60px 0;
 }
 
 footer p,
@@ -130,14 +125,19 @@ address p:last-of-type, address p {
 	margin: 0;
 	width: 31%;
 	.usa-input-buttons-inline {
-		height: 40px;
+		height: 60px;
 		display: flex;
 	input {
-		margin: 0;
-		background: $light-blue;
-		font-size: 1.4rem;
+		margin: 15px 0 0 0;
+/*		font-size: 1.4rem;*/
+		background: none;
+		color: $light-teal;
+		border: 1px solid $light-teal;
+		padding: 15px 30px;
+		box-sizing: border-box;
+		height: 50px;
 	}
-	span {
+/*	span {
 		width: 44px;
 		height: 44px;
 		font-size: 1.5em;
@@ -147,7 +147,7 @@ address p:last-of-type, address p {
 		svg {
 			color: $light-teal;
 		}
-	}
+	}*/
 	}
 	h5 {
 		text-align: left;
@@ -169,7 +169,7 @@ address p:last-of-type, address p {
 .usa-footer-contact-links {
 	text-align: center;
 	display: flex;
-	width: 55% !important;
+	width: 60% !important;
 	flex-flow: row wrap;
 	padding: 0;
 	address {
@@ -181,7 +181,7 @@ address p:last-of-type, address p {
 	.newsletter-footer {
 		float: none;
 		width: 60%;
-		padding: 0 0 0 50px;
+		padding: 0 0 0 60px;
 		box-sizing: border-box;
 		p {
 			color: #fff !important;
@@ -196,6 +196,47 @@ address p:last-of-type, address p {
 	justify-content: space-between;
 	max-width: 1200px;
 	margin: 0 auto;
+	background-color: $dark-blue;
+	padding: 60px 0;
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+.usa-footer-secondary_section {
+	padding: 60px 5%;
+}
+.usa-footer-contact-links {
+		width: 80% !important;
+}
+}
+
+@media (min-width: 0) and (max-width: 980px) {
+	.usa-footer-contact-links {
+		text-align: center;
+		display: flex;
+		width: 70% !important;
+		flex-flow: row wrap;
+		padding: 0 0 0 15px;
+		box-sizing: border-box;
+		address {
+			margin: 0 0 10px 0;
+			padding: 0 0 10px 0;
+			width: 100%;
+			box-sizing: border-box;
+			border-right: none;
+			float: left;
+			border-bottom: 1px solid #fff;
+		}
+		.newsletter-footer {
+			float: left;
+			width: 100%;
+			padding: 0;
+			box-sizing: border-box;
+			p {
+				color: #fff !important;
+				margin-top: 0;
+			}
+		}
+	}
 }
 
 @media (min-width: 0px) and (max-width: 580px) {
@@ -214,7 +255,7 @@ address p:last-of-type, address p {
 		max-width: 100%;
 	}
 	
-	.usa-footer-contact-links, .usa-footer .newsletter-footer {
+	.usa-footer .newsletter-footer {
 		text-align: center;
 		padding: 20px 0 0 0;
 	}	

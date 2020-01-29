@@ -1017,6 +1017,12 @@ padding: 60px 5%;
 	.home-new .front-four {
 		padding: 0 3%;
 	}
+	.home-new .front-four ul li span {
+/*		min-height: ;*/
+	button {
+		font-size: 1em;
+		}
+		}
 	}
 
 @media (min-width: 0) and (max-width: 980px) {
@@ -1091,7 +1097,7 @@ padding: 60px 5%;
 	.home-new .front-four {
 		margin: 0 auto 0 auto;
 		.detailed-info {
-			padding: 20px 0;
+			padding: 20px 0 60px 0;
 			ul {
 				display: flex;
 				flex-flow: wrap;
@@ -1108,9 +1114,13 @@ padding: 60px 5%;
 						justify-content: center;
 						align-items: center;
 						margin: 0;
+						padding: 20px;
 						min-height: 0;
 						width: 75%;
 						float: right;
+						h5 {
+							margin: 0;
+						}
 					}
 					img {
 						height: 70px;
@@ -1122,49 +1132,6 @@ padding: 60px 5%;
 	}
 	}
 
-@media (min-width: 0) and (max-width: 580px) {
-	.home-new .front-four {
-		flex-flow: wrap;
-		margin: 0 auto 0 auto;
-		.program-basics {
-			width: 100%;
-			margin: 0 auto;
-/*			flex-flow: row;*/
-			max-width: none;
-			span {
-				width: 100%;
-				flex-flow: wrap;
-				a {
-					margin: 0 0 0 40%;
-				}
-				.title-text {
-					width: 60%;
-					p {
-						padding: 0;
-						width: 100%;
-					}
-					h5 {
-						padding: 0;
-						width: 100%;
-					}
-				}
-			}
-		}
-		.detailed-info {
-			width: 100%;
-			margin: 20px auto 0 auto;
-			ul {
-				flex-flow: wrap;
-				li {
-					width: 100%;
-					justify-content: center;
-					align-items: center;
-					margin: 40px auto 40px auto;
-				}
-			}
-		}
-	}
-}
 
 /*@media (min-width: 0) and (max-width: 800px) {
 	.home-new .front-four {
@@ -1233,11 +1200,11 @@ padding: 60px 5%;
 				}
 				h5 {
 					margin: 15px 0 15px 0;
-					font-size: 1.3em;
+					font-size: 20px;
 					font-family: $sans-font;
 					font-weight: 400;
 					color: #fff;
-					letter-spacing: .015em;
+					letter-spacing: .5px;
 				}
 				p {
 					color: #fff;
@@ -1259,7 +1226,7 @@ padding: 60px 5%;
 				margin: 0 0 25px 0;
 				font-family: $sans-font;
 				font-size: 2em;
-				font-weight: lighter;
+				font-weight: 400;
 				color: #fff;
 			}
 			span {
@@ -1308,11 +1275,12 @@ padding: 60px 5%;
 				}
 				h5 {
 					margin: 0 0 10px 0;
-					font-size: 1.3em;
+					font-size: 20px;
 					font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 					font-weight: normal;
 					color: #fff;
 					width: 100%;
+					letter-spacing: .5px;
 				}
 				&:first-child {
 /*						height: 100px;*/
@@ -1321,6 +1289,68 @@ padding: 60px 5%;
 					margin: 0;
 					color: $text-color;
 				}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 0) and (max-width: 580px) {
+	.home-new .front-four {
+		flex-flow: wrap;
+		margin: 0 auto 0 auto;
+		img {
+			display: none;
+		}
+		.program-basics {
+			width: 100%;
+			margin: 0 auto;
+/*			flex-flow: row;*/
+			max-width: none;
+			span {
+				width: 100%;
+				flex-flow: wrap;
+				a {
+					margin: auto;
+					min-width: 200px;
+					button {
+						margin: 20px auto;
+						min-width: 200px;
+					}
+				}
+				.title-text {
+					width: 100%;
+					p {
+						padding: 20px 0;
+						width: 100%;
+						text-align: center;
+					}
+					h5 {
+						padding: 0;
+						width: 100%;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.detailed-info {
+			width: 100%;
+			margin: 20px auto 0 auto;
+			ul {
+				flex-flow: wrap;
+				li {
+					width: 100%;
+					justify-content: center;
+					align-items: center;
+					margin: 15px auto 15px auto;
+					span {
+						padding: 20px;
+						flex-flow: wrap;
+						h5 {
+							margin: 0 0 20px 0;
+							font-size: 20px;
+						}
+					}
 				}
 			}
 		}
@@ -1621,6 +1651,8 @@ padding: 60px 5%;
 	background: #A1D1F0;
 	padding: 40px 5%;
 	text-align: center;
+	float: left;
+	width: 100%;
 	h2 {
 		max-width: 1200px;
 		width: 100%;
@@ -1640,14 +1672,25 @@ padding: 60px 5%;
 
 .process-diagram {
 	background-image:
-	linear-gradient(180deg, rgba(189,226,249,1) 0%, rgba(112,176,225,1) 100%);
-/*	background: $light-teal;*/
+	linear-gradient(0deg, rgba(166,214,245,1) 0%, rgba(208,236,251,1) 100%);
 	float: left;
 	width: 100%;
 	padding: 20px 0 60px 0;
 	p {
 		text-align: center;
 		font-style: italic;
+		font-size: 18px;
+		color: $darkest-blue;
+	}
+	h3 {
+		font-family: $sans-font;
+		font-size: 30px;
+		letter-spacing: .015em;
+		color: #5B8BBB;
+		text-align: center;
+		width: 100%;
+		display: none;
+		margin-top: 0px;
 	}
 	.process-container {
 		max-width: 1200px;
@@ -1692,7 +1735,7 @@ padding: 60px 5%;
 				}
 			}
 			li.seek {
-				padding: 35px;
+				padding: 35px 0;
 				background: url("../../assets/img/chevron-1.svg") no-repeat;
 				background-position: center;
 				width: auto;
@@ -1701,6 +1744,8 @@ padding: 60px 5%;
 				text-align: center;
 				color: #fff;
 				width: 100%;
+				font-size: 17px;
+				font-weight: 600;
 				background-size: contain !important;
 			}
 			li.agency-first {
@@ -1723,7 +1768,7 @@ padding: 60px 5%;
 				flex-flow: wrap;
 				margin: 20px 0;
 			li.jab-one-two {
-				padding: 0px 10px 20px 10px;
+				padding: 0px 12px 20px 12px;
 				background: url("../../assets/img/bubble-top-wide.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
@@ -1743,7 +1788,7 @@ padding: 60px 5%;
 						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $teal;
-							padding: 0 10px 0 0;
+							padding: 0 12px 0 0;
 						}
 						span {
 							background: $teal;
@@ -1760,7 +1805,7 @@ padding: 60px 5%;
 				}
 			}
 			li.prep {
-				padding: 35px;
+				padding: 35px 0;
 				background: url("../../assets/img/chevron-2.svg") no-repeat;
 				background-position: center;
 				width: auto;
@@ -1769,11 +1814,13 @@ padding: 60px 5%;
 				text-align: center;
 				color: #fff;
 				width: 100%;
+				font-weight: 600;
+				font-size: 17px;
 				box-sizing: border-box;
 				background-size: contain !important;
 			}
 			.agency-one-two {
-				padding: 20px 10px 0 10px;
+				padding: 20px 11px 0 11px;
 				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat;
 				background-position: top;
 				background-size: auto 100%;
@@ -1792,7 +1839,7 @@ padding: 60px 5%;
 						font-size: .9em;
 						&:first-child {
 							border-right: 1px solid $fr-red;
-							padding: 0 10px 0 0;
+							padding: 0 11px 0 0;
 						}
 						span {
 							background: $fr-red;
@@ -1836,7 +1883,7 @@ padding: 60px 5%;
 				}
 			}
 			li.auth {
-				padding: 35px;
+				padding: 35px 0;
 				background: url("../../assets/img/chevron-3-4.svg") no-repeat;
 				background-position: center;
 				width: auto;
@@ -1845,6 +1892,8 @@ padding: 60px 5%;
 				text-align: center;
 				color: #fff;
 				width: 100%;
+				font-size: 17px;
+				font-weight: 600;
 				background-size: contain !important;
 			}
 			li.agency-auth {
@@ -1893,7 +1942,7 @@ padding: 60px 5%;
 				}
 			}
 			li.conmon {
-				padding: 35px;
+				padding: 35px 0;
 				background: url("../../assets/img/chevron-3-4.svg") no-repeat;
 				background-position: center;
 				width: auto;
@@ -1902,6 +1951,8 @@ padding: 60px 5%;
 				text-align: center;
 				color: #fff;
 				width: 100%;
+				font-size: 17px;
+				font-weight: 600;
 				background-size: contain !important;
 			}
 			li.agency-conmon {
@@ -1927,19 +1978,25 @@ padding: 60px 5%;
 	}
 
 @media (min-width: 0) and (max-width: 580px) {
-	.process-diagram .process-container ul.column-1, .process-diagram .process-container ul.column-3, .process-diagram .process-container ul.column-4 {
-		width: 324px;
+	.process-diagram .process-container ul.column-1, .process-diagram .process-container ul.column-3, .process-diagram .process-container ul.column-4, .process-diagram .process-container ul.column-2 {
+		width: 90%;
 		}
 		.process-diagram .process-container ul.column-1 {
 			border-bottom: 1px solid #fff;
-			padding: 0 0 20px 0;
-			margin: 0 0 20px 0;
+			padding: 0 0 40px 0;
+			margin: 20px 0 30px 0;
 			li.jab-first {
 				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
 				background-size: 100%;
 				min-height: 90px;
 				padding-bottom: 20px;
 				box-sizing: border-box;
+				width: 324px;
+				margin: auto;
+			}
+			li.seek {
+				width: 324px;
+				margin: auto;
 			}
 			li.agency-first {
 				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
@@ -1947,19 +2004,29 @@ padding: 60px 5%;
 				min-height: 90px;
 				padding-top: 20px;
 				box-sizing: border-box;
+				width: 324px;
+				margin: auto;
 				}
 			}
 			.process-diagram .process-container ul.column-2 {
 				border-bottom: 1px solid #fff;
-				padding: 0 0 20px 0;
-				margin: 0 0 20px 0;
+				padding: 0 0 40px 0;
+				margin: 0 0 30px 0;
 				li.jab-one-two {
 					padding-bottom: 20px;
 					box-sizing: border-box;
+				width: 324px;
+				margin: auto;
+				}
+				li.prep {
+					width: 324px;
+				margin: auto;
 				}
 				li.agency-one-two {
 					padding-top: 20px;
 					box-sizing: border-box;
+				width: 324px;
+				margin: auto;
 				}
 				}
 		.process-diagram .process-container ul.column-4 {
@@ -1971,6 +2038,12 @@ padding: 60px 5%;
 				min-height: 110px;
 				padding-bottom: 20px;
 				box-sizing: border-box;
+				margin: auto;
+			width: 324px;
+			}
+			li.conmon {
+				width: 324px;
+				margin: auto;
 			}
 			li.agency-conmon {
 				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
@@ -1978,18 +2051,26 @@ padding: 60px 5%;
 				min-height: 110px;
 				padding-top: 20px;
 				box-sizing: border-box;
+			width: 324px;
+				margin: auto;
 				}
 			}
 	.process-diagram .process-container ul.column-3 {
 		border-bottom: 1px solid #fff;
-		padding: 0 0 20px 0;
-		margin: 0 0 20px 0;
+		padding: 0 0 40px 0;
+		margin: 0 0 30px 0;
 		li.jab-auth {
 			background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
 			background-size: 100%;
 			min-height: 125px;
 			padding-bottom: 20px;
 			box-sizing: border-box;
+			width: 324px;
+				margin: auto;
+		}
+		li.auth {
+			width: 324px;
+				margin: auto;
 		}
 		li.agency-auth {
 			background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
@@ -1997,8 +2078,16 @@ padding: 60px 5%;
 			min-height: 125px;
 			padding-top: 20px;
 			box-sizing: border-box;
+			width: 324px;
+				margin: auto;
 		}
 	}		
+}
+
+@media (min-width: 0) and (max-width: 580px) {
+	.process-diagram h3 {
+		display: block;
+		}
 }
 
 @media (min-width: 0) and (max-width: 980px) {
@@ -2012,93 +2101,91 @@ padding: 60px 5%;
 			width: 100% !important;
 			background-size: contain;
 	}
+	.program-basics #history-mission-goals #benefits {
+			background: url("../../assets/img/benefits-background.png") no-repeat left;
+			width: 100% !important;
+			background-size: contain;
+	}
+	.program-basics #history-mission-goals #history {
+			background: url("../../assets/img/history-background.png") no-repeat left;
+			width: 100% !important;
+			background-size: contain;
+	}
 }
 
 .program-basics {
 	#history-mission-goals {
 		display: flex;
 		flex-flow: row wrap;
-	#mission, #history, #goals {
+		h2 {
+			margin-top: 0;
+		}
+	#mission, #history, #goals, #benefits {
 			display: flex;
 			flex-flow: row wrap;
-			/*margin: 0 auto;
-			max-width: 1200px;*/
 			justify-content: center;
 			align-content: center;
-		/*.image {
-			width: 40%;
-			height: auto;
-			margin: 0;
-			min-height: 300px;
-			display: flex;
-			flex-flow: wrap;
-			align-content: center;
-			align-items: center;
-			text-align: center;
-			background-size: cover;
-			background-position: center;
-			img {
-				margin: 0 auto;
-			}
-			h2 {
-				text-align: center;
-				width: 100%;
-			}
-		}
-		.text {
-			width: 60%;
-			margin: 0;
-			padding: 40px;
-			box-sizing: border-box;
-		}*/
 	}
 	#mission {
 			background: url("../../assets/img/mission-background.png") no-repeat center ;
-			width: 35%;
+			width: 50%;
 			background-size: cover;
 			.inner {
 				padding: 60px;
 				width: 100%;
-				/*background: 
-				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);*/
 			}
 			
 	}
 	#goals {
 			background: url("../../assets/img/goals-background.png") no-repeat left;
-			width: 65%;
-			background-size: contain;
+			width: 50%;
+			background-size: cover;
 			.inner {
 				padding: 60px;
-				width: 100%;
-				/*background: 
-				linear-gradient(0deg, rgba(166,214,245,.5) 0%, rgba(166,214,245,.3) 35%, rgba(166,214,245,.2) 65%, rgba(166,214,245,.5) 100%);*/
-			
+				width: 100%;			
 				ul {
 					padding: 0;
 					li {
 						list-style: none;
-						padding: 0 0 0 60px;
+						padding: 0 0 0 35px;
 						margin: 10px 0 0 0;
 						svg {
-							margin: 0 20px 0 -60px;
-							color: $teal;
+							margin: 0 20px 0 -35px;
+							color: $dark-red;
 						}
 					}
 				}
 			}
-			
-			
 	}
 	#history {
 			background-image: url("../../assets/img/history-background.png");
 			width: 100%;
 			background-size: cover;
-				padding: 60px;
-				width: 100%;
-				background-blend-mode: multiply;
-				/*background-color: 
-				light-teal;*/
+			padding: 60px;
+			width: 50%;
+			background-blend-mode: multiply;
+	}
+	#benefits {
+			background-image: url("../../assets/img/benefits-background.png");
+			width: 100%;
+			background-size: cover;
+			width: 50%;
+	.inner {
+		padding: 60px;
+		width: 100%;			
+		ul {
+			padding: 0;
+			li {
+				list-style: none;
+				padding: 0 0 0 35px;
+				margin: 10px 0 0 0;
+				svg {
+					margin: 0 20px 0 -35px;
+					color: $dark-red;
+				}
+			}
+			}
+		}
 	}
 	}
 	
@@ -2107,6 +2194,7 @@ padding: 60px 5%;
 		width: 100%;
 		float: left;
 		padding: 40px 0;
+		@include clearfix;
 		&:after {
 			content: "";
 			display: table;
@@ -2146,6 +2234,56 @@ padding: 60px 5%;
 	}
 }
 
+#learn-more {
+	background: $darkest-blue;
+	.inner {
+		padding: 40px 0;
+		max-width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		align-items: center;
+		h2 {
+			font-family: $sans-font;
+			color: $light-teal;
+			font-weight: 300;
+			margin: 0;
+			font-size: 32px;
+			letter-spacing: .01em;
+		}
+		button {
+			background: none;
+			color: $light-teal;
+			border: 1px solid $light-teal;
+			padding: 15px 40px;
+		}
+	}
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+	#learn-more .inner {
+		padding: 40px 5%;
+		}
+}
+
+@media (min-width: 0) and (max-width: 980px) {
+#learn-more .inner  {
+	text-align: center;
+	h2 {
+		text-align: center;
+		width: 100%;
+	}
+	a {
+		margin: 20px 0 0 0;
+		width: 100%;
+		text-align: center;
+	}
+	button {
+	margin: auto;	
+	}
+	}
+}
 
 @media (min-width: 0) and (max-width: 670px)  {
 .program-basics section#legal-framework div.inner div.text ul li {

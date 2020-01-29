@@ -67,7 +67,7 @@
 
   <form id="contact" action="{{ f.url }}" method="POST">
   	<h5>KEEP UP TO DATE</h5>
-      <p>{{ f.heading }}</p>
+      <p>To receive news and updates, add your email to FedRAMP’s subscriber list.</p>
       <div class="newsletter-inner">
         {% for field in f.fields %}
           {% unless field.type == 'hidden' %}<label for="contact-{{ field.name }}">{{ field.label }}</label>{% endunless %}
@@ -76,7 +76,7 @@
             {% if field.value %} value="{{ field.value }}" {% endif %}>
         {% endfor %}
         <div class="usa-input-buttons-inline">
-			<input type="submit" value="{{ f.button }}"><span><i class="far fa-envelope"></i></span>
+			<input type="submit" value="{{ f.button }}">
         </div>
       </div>
       <div class="usa-width-one-half" style="margin-top: 3rem;">
