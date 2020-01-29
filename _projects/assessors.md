@@ -9,7 +9,7 @@ image:
 abstract: 
 body-class: assessors-page
 ---
-FedRAMP accredited Third Party Assessment Organizations (3PAOs) perform the initial and periodic assessments of cloud systems to ensure they meet FedRAMP security requirements as part of a Cloud Service Provider’s (CSPs) FedRAMP authorization. CSPs partner with 3PAOs for both Joint Authorization Board (JAB) and Agency authorizations and for each of the three security baselines: Low, Moderate, and High.
+FedRAMP accredited Third Party Assessment Organizations (3PAOs) perform the initial and periodic assessments of cloud systems to ensure they meet FedRAMP security requirements as part of a Cloud Service Provider’s (CSPs) FedRAMP authorization. CSPs partner with 3PAOs for authorizations for each of the three security baselines: Low, Moderate, and High.
 
 ## How to Become an Accredited Assessor 
 Organizations interested in becoming accredited FedRAMP 3PAOs must be reviewed by the American Association for Laboratory Accreditation (A2LA), which follows ISO/IEC 17020:2012 Requirements for the Operation of Various Types of Bodies Performing Inspection. Acceptance of A2LA accreditation for a 3PAO is subject to final approval by the FedRAMP PMO. More information on becoming a FedRAMP accredited 3PAO can be found on the <a href="https://www.a2la.org/accreditation/fedramp">A2LA website</a>.
@@ -33,7 +33,7 @@ Organizations interested in becoming accredited FedRAMP 3PAOs must be reviewed b
 <li>Producing a Security Assessment Report (SAR)</li>
 </ul>
 
-<p>An assessor’s completed SAP and SAR is submitted with the CSP’s System Security Plan (SSP) to form the authorization package. The package is ultimately reviewed and approved by the authorizing party (either the JAB or an Agency).</p>
+<p>An assessor’s completed SAP and SAR is submitted with the CSP’s System Security Plan (SSP) to form the authorization package. The package is ultimately reviewed and approved by the authorizing party.</p>
 </section>
 <section id="post-auth">
 
