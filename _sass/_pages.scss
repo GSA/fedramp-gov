@@ -1150,6 +1150,10 @@ padding: 60px 5%;
 		}
 	}
 }*/
+/*
+.home-new #home-banner {
+	z-index: -1;
+}*/
 
 @media (min-width: 0) and (max-width: 980px) {
   .home-new #home-banner {
@@ -1166,6 +1170,7 @@ padding: 60px 5%;
 		max-width: 1200px;
 		flex-flow: row;
 		justify-content: space-between;
+		z-index: 1;
 		button {
 			background: $dark-blue;
 			text-decoration: none;
@@ -1648,7 +1653,7 @@ padding: 60px 5%;
 }
 
 .auth-process {
-	background: #A1D1F0;
+	background: #9ED0F0;
 	padding: 40px 5%;
 	text-align: center;
 	float: left;

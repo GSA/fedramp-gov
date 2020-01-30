@@ -24,3 +24,15 @@
   }
   }
 }
+
+@media (min-width: 0) and (max-width: 400px) {
+	.hero-unit .usa-grid h1 {
+		font-size: 30px !important;
+		}
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+	.hero-unit .usa-grid h1 {
+		margin: -20px 0 0 0;
+		}
+}

@@ -45,7 +45,7 @@ body-class: program-basics
 	<div class="inner">
 		<div class="text">
 		<h2>Legal Framework</h2>
-		<p>FedRAMP standardized security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with FISMA, OMB - 130, and FedRAMP policy memo.</p>
+		<p>FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with FISMA, OMB - 130, and FedRAMP policy.</p>
 		<ul>
 			<li><h3>LAW</h3>
 				<img src="{{site.baseurl}}/assets/img/law-icon.png" alt="Law" title="Law">
@@ -55,7 +55,7 @@ body-class: program-basics
 			<p>White House: OMB A-130 requires agencies to use NIST 800-37.</p></li>
 			<li><h3>POLICY</h3>
 				<img src="{{site.baseurl}}/assets/img/policy-icon.png" alt="Policy" title="Policy">
-			<p>FedRAMP OMB Policy Memo says when using cloud, Agencies must implement NIST via FedRAMP requirements.</p></li>
+			<p>FedRAMP OMB Policy states when using cloud, Agencies must implement NIST via FedRAMP requirements.</p></li>
 			<li><h3>AGENCY</h3>
 				<img src="{{site.baseurl}}/assets/img/agency-icon.png" alt="Agency" title="Agency">
 			<p>Each agency must individually authorize each IT system for use. </p></li>
@@ -65,7 +65,7 @@ body-class: program-basics
 </section>
 <div class="auth-process">
 		<h2>FedRAMP Authorization Process</h2>
-		<p>If you have a Cloud Service Offering (CSO) that is in use by the federal government, you should be thinking about obtaining a FedRAMP authorization. Per an OMB memorandum, any cloud services that hold federal data must be FedRAMP authorized. There are two ways to authorize a cloud service through FedRAMP&#58; a Joint Authorization Board (JAB) provisional authorization (P-ATO), and through individual Agencies.</p>
+		<p> If you have a Cloud Service Offering (CSO) that is in use by the federal government, you should be thinking about obtaining a FedRAMP authorization. There are two ways to authorize a cloud service through FedRAMP: through individual Agencies and the Joint Authorization Board (JAB).</p>
 </div>
 <div class="process-diagram">
 		<p>Click within the below diagram to learn more.</p>

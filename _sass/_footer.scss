@@ -261,6 +261,56 @@ address p:last-of-type, address p {
 	}	
 }
 
+@media (min-width: 0) and (max-width: 400px) {
+.usa-footer .logo-container {
+	max-width: 100%;
+	width: 100%;
+	.img {
+		margin: 0 auto;
+	}
+}
+	.usa-footer-contact-links {
+		text-align: center;
+		display: flex;
+		width: 70% !important;
+		flex-flow: row wrap;
+		padding: 0;
+		box-sizing: border-box;
+		margin: 20px auto 0 auto;
+		address {
+			margin: 10px 0 10px 0;
+			padding: 0 0 10px 0;
+			width: 100%;
+			box-sizing: border-box;
+			border-right: none;
+			float: left;
+			border-bottom: 1px solid #fff;
+			.street-address {
+			p {
+				text-align: center;
+			}
+			}
+		}
+		.newsletter-footer {
+			float: left;
+			width: 100%;
+			padding: 20px 0 0 0;
+			box-sizing: border-box;
+			p {
+				color: #fff !important;
+				margin-top: 0;
+				text-align: center;
+			}
+			h5 {
+				text-align: center;
+			}
+			input {
+				margin: 15px auto 0 auto;
+			}
+		}
+	}
+}
+
 .usa-footer-secondary_section .footer-social a {
 	margin: 0 auto;
 	position: static; 
