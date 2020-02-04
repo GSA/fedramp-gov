@@ -6,7 +6,7 @@ image: /assets/img/page-images/governance.png
 ---
 
 The governance of FedRAMP is comprised of different executive branch entities that work in a collaborative manner to develop, manage, and operate the program. The governing bodies of FedRAMP include:
-* **Joint Authorization Board (JAB):** The primary governance and decision-making body for FedRAMP are the Chief Information Officers (CIOs) from the Department of Homeland Security (DHS), General Services Administration (GSA), and Department of Defense (DOD). View the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">JAB Charter</a>.)
+* **Joint Authorization Board (JAB):** The primary governance and decision-making body for FedRAMP are the Chief Information Officers (CIOs) from the Department of Homeland Security (DHS), General Services Administration (GSA), and Department of Defense (DOD). View the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">JAB Charter</a>.
 * **Office of Management and Budget (OMB):** The governing body that issued the FedRAMP policy memo which defines the key requirements and capabilities of the program
 * **CIO Council:** Disseminates FedRAMP information to Federal CIOs and other representatives through cross-agency communications and events
 * **FedRAMP Program Management Office (PMO):** Established within GSA and responsible for the development of the FedRAMP program including the management of day to day operations
