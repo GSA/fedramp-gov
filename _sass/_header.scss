@@ -24,13 +24,12 @@
 	font-size: 1.2rem;
 }
 
-
 div.usa-nav-container {
-	height: 170px;
+	height: 120px;
 	width: 100%;
 	max-width: 1200px;
 	vertical-align: middle;
-	padding: 60px 0;
+	padding: 40px 0 30px 0;
 	box-sizing: border-box;
 }
 
@@ -56,7 +55,7 @@ div.usa-navbar:after {
 }
 
 nav.usa-nav {
-	padding: 20px 0;
+	padding: 20px 0 10px 0;
 	background: none;
 	float: right;
 ul {
@@ -100,22 +99,33 @@ a {
 
 div#logo.usa-logo {
 	float: left;
-	padding: 0 0 0 5%;
-	 max-width: 300px;
-	min-width: 290px;
-}
-
-/*@media (min-width: 375px) and (max-width: 768px) {
-div#logo.usa-logo {
-	max-width: 260px;
-	min-width: 190px;
-	margin-top: 10px;
+	position: absolute;
+	top: -50px;
+	z-index: 1;
+	padding: 30px;
+	height: 160px;
+	 max-width: 150px;
+	min-width: 150px;
+	background: #fff;
 	img {
-		width: 100%;
-		height: auto;
+		max-width: 90px;
 	}
 }
-}*/
+
+@media (min-width: 0) and (max-width: 980px) {
+div#logo.usa-logo {
+	max-width: 260px;
+	background: none;
+	position: relative;
+	top: 0;
+	min-width: 190px;
+	margin-top: 10px;
+/*	img {
+		width: 100%;
+		height: auto;
+	}*/
+}
+}
 
 @media (min-width: 0px) and (max-width: 480px) {
 div#logo.usa-logo {
@@ -219,7 +229,8 @@ nav.usa-nav {
 }
 
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 1px solid #BBBBBB;
+	border-top: 1px solid #BBBBBB;
 }
 
 .usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
@@ -233,34 +244,73 @@ nav.usa-nav {
     display: block;
 }
 
-.sub-menu {
+li.parent .sub-menu {
     width: 180px;
     padding: 0px;
     position: absolute;
-    top: 28px;
+    top: 15px;
     left: 0;
     z-index: -1;
     opacity: 0;
     display: none;
+	border-bottom: 1px solid #bbb;
+	border-top: 1px solid #bbb;
     transition: opacity linear 0.15s;
 //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
-    background: $light-blue;
-}
-
-ul.sub-menu li.parent {
-	padding: 0;
-	width: 100%;
-}
+    background: #F3F4F4;
+	li {
+		display: block;
+		text-align: left;
+		border-bottom: 1px solid #bbb;
+		&.parent {
+			padding: 0 !important;
+			width: 100%;
+			a {			
+			&:after {
+				font-family: Fontawesome;
+				content: '\f105';
+				height: 0;
+				float: right;
+				color: #4c4c4e;
+			}
+			}
+		}
+		&:last-child {
+			border: none;
+		}
+		a {
+			padding: 10px;
+			background: #F3F4F4;
+			color: #4C4C4E;
+			display: block;
+			line-height: 1;
+			font-size: 1.3rem;
+			&:hover {
+				background: #fff;
+				border-top: 1px solid #fff;
+				border-bottom: 1px solid #fff;
+			}
+			&:active {
+				color: $light-blue;
+				background: #fff;
+			}
+		}
+	}
 
 ul.sub-menu li.parent a:after {
 	font-family: Fontawesome;
 	content: '\f105';
 	height: 0;
 	float: right;
+	color: $dark-grey;
 }
 
 ul.sub-sub-menu li a:after {
 	content: none !important;
+}
+
+ul.sub-sub-menu li.parent {
+	padding: 0px;
 }
 
 ul.sub-sub-menu {
@@ -268,6 +318,7 @@ ul.sub-sub-menu {
   top: inherit;
   margin-top: -35px;
   left: 100%;
+  padding: 0;
   width: 180px;
   opacity: 0;
   padding: 0;
@@ -277,22 +328,10 @@ ul.sub-sub-menu {
   	display: block;
   }
 	}
+	}
 
 .usa-mobile_nav-active .sub-menu {
 	display: none;
-}
-
-.sub-menu li {
-    display: block;
-	text-align: left;
-}
-
-.sub-menu li a {
-    padding: 10px;
-    display: block;
-	line-height: 1;
-    font-size: 1.3rem;
-    color: #fff;
 }
 
 .sub-menu li a:hover, .sub-usa-nav .current-item a {
@@ -407,7 +446,15 @@ ul.usa-nav-primary li {
 }
   
 ul.usa-nav-primary li a {
-/*  color: #fff;*/
+  padding-top: 5px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  &:hover {
+  	border-bottom: 1px solid #BBBBBB;
+  	border-top: 1px solid #BBBBBB;
+  }
 }
 
 ul.usa-nav-primary li:hover,
@@ -479,4 +526,26 @@ img.desk {
 	max-width: 140px;
 	margin: 0 0 -20px 0;
 	padding: 0;
+}
+
+#searchgovinput {
+	font-style: italic;
+	border: none;
+	background: #f3f4f4;
+	width: 88%;
+	padding-left: 20px;
+}
+
+#searchgovform.usa-search button#searchgovbutton {
+	background: #bbb;
+	width: 12%;
+	svg {
+		color: #f3f4f4;
+	}
+}
+
+@media screen and (min-width: 951px) {
+.usa-header .usa-search {
+	min-width: 30rem !important;
+}
 }

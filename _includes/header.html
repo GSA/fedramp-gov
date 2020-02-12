@@ -45,10 +45,9 @@
   
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-      <input name='search' type='search' id="searchgovinput">
-
+      <input name='search' type='search' id="searchgovinput" placeholder="Search">
       <button type="submit" id="searchgovbutton">
-         <span class="usa-search-submit-text">Search</span>
+	  	<span class="usa-search-submit-text"><i class="fas fa-search"></i></span>
       </button>
     </form>
   </div>
@@ -72,7 +71,7 @@
         </em>
       </div>
     </div>
-    <nav role="navigation" class="usa-nav">
+    <nav role="navigation" class="usa-nav nav" id="navigation">
       <button class="usa-nav-close">
         <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
       </button>
@@ -95,10 +94,10 @@
                 </a>
               {% endif %}
 				{% if sub.sub != null %}
-				<ul class="sub-sub-menu">
+				<ul class="sub-sub-menu dropdown" aria-label="sub-submenu">
 				{% for sub in sub.sub %}
-			  <li>
-			  	<a href="{{ sub.permalink | prepend: site.baseurl }}">
+			  <li aria-haspopup="true" class="parent">
+			  	<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
 			  	{{ sub.text }}
 			  	</a>
 			  </li>
