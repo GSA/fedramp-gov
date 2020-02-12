@@ -2,7 +2,7 @@
 title: FedRAMP Looks Back on a Successful 2019
 permalink: /FedRAMP-looks-back-on-a-successful-2019/
 body-class: page-blog
-image: /assets/img/blog-images/FR-2019-Year-End-blog-banner.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
