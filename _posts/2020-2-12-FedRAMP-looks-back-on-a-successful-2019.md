@@ -9,4 +9,4 @@ layout: blog-page
 
 2019 was a year of achievement and progress for the FedRAMP program. We focused on our core mission, authorizing more services than any other year in our history. Thank you for your collaboration over the past year and we look forward to 2020 as we streamline, simplify, and stay committed to continual process improvement.
 
-![image alt text]({{site.baseurl}}/assets/img/FR_2019-Year-End-Infographic.png)
+![image alt text]({{site.baseurl}}/assets/img/FFR_2019-Year-End-Infographic.png)
