@@ -20,4 +20,4 @@ From these interviews, we gathered the following top tips for any small business
 6. Carefully consider your authorization approach.
 7. The FedRAMP PMO is here to serve as a valuable resource
 
-Last fall, FedRAMP held an event focused on small businesses in San Francisco and we look forward to hosting additional events throughout this year. As always, please do not hesitate to reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with any questions. 
+Last fall, FedRAMP held an event focused on small businesses in San Francisco and we look forward to hosting additional events this year. As always, please do not hesitate to reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with any questions. 
