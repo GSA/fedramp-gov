@@ -1,7 +1,7 @@
 body,
 p, ul, ol, li, a  {
   color: $text-color;
-  font-family: $sans-font;
+  font-family: $sans-font !important;
 }
 
 #main p {

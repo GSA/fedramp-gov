@@ -32,9 +32,11 @@
 	padding-right: 1.5rem;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-top: 1px solid #fff;
+	color: #757575;
+/*	border-top: 1px solid #fff;*/
 	&:hover {
-		border-top: 1px solid #bbb;
+/*		border-top: 1px solid #bbb;*/
+color: $light-blue;
 	}
 }
 
@@ -42,15 +44,17 @@
 	border: none;
 	color: #212121;
 //	display: block;
-	font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+	font-family: proxima-nova, sans-serif;
 	line-height: 1.3;
   padding: 1.4rem 1.5rem 1rem 1.8rem;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 700;
+	font-style: normal;
 	cursor: pointer;
 	width: auto;
 	color: #5b616b;
-	font-size: 1.5rem;
+	letter-spacing: .05em;
+	font-size: 14px;
 	  &:active {
 	    color: $link-active-color;
 		box-shadow: none;
@@ -63,7 +67,7 @@
 	  }
 	  &:focus {
 /*	  	box-shadow: none;*/
-	  	outline: 1px solid $light-blue;
+/*	  	outline: 1px solid $light-blue;*/
 	  }
 	  a {
 	  	&:active {
@@ -78,7 +82,7 @@
 	  		  }
 	  		  &:focus {
 /*	  		  	box-shadow: none;*/
-	  		  	outline: 1px solid $light-blue;
+/*	  		  	outline: 1px solid $light-blue;*/
 	  		  }
 	  }
 }
@@ -90,5 +94,5 @@
 }
 
 .usa-nav ul li.parent:hover {
-	color: #112e51; 
+	color: $light-blue; 
 }

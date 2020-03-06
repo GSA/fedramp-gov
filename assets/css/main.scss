@@ -5,9 +5,9 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$sans-font: 	   'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$serif-font:       'Merriweather', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+$base-font-family: proxima-nova, sans-serif;
+$sans-font: 	   proxima-nova, sans-serif;
+$serif-font:       'montserrat', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 $base-font-size:   1.7rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

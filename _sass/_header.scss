@@ -64,7 +64,18 @@ li {
 	&:focus {
 //		outline: none;
 	}
+	li {
+		text-transform: none;
+	}
 }
+}
+}
+
+.usa-nav-primary.usa-accordion {
+li {
+	font-size: 14px;
+	letter-spacing: .02em;
+	 color: #757575;
 }
 }
 
@@ -181,6 +192,7 @@ header.usa-banner-header {
 .usa-nav li {
     margin: 0px;
     list-style: none;
+	letter-spacing: .02em;
 	a {
 		font-size: 1.5rem;
 		line-height: 1.4;
@@ -225,12 +237,18 @@ nav.usa-nav {
 .usa-nav > ul > li > a {
 /*    padding:10px 40px;*/
     display: inline-block;
+	font-family: proxima-nova, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: .02em;
 /*    text-shadow:0px 1px 0px rgba(0,0,0,0.4);*/
 }
 
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
-	border-bottom: 1px solid #BBBBBB;
-	border-top: 1px solid #BBBBBB;
+	/*border-bottom: 1px solid #BBBBBB;
+	border-top: 1px solid #BBBBBB;*/
+	color: $light-blue;
 }
 
 .usa-mobile_nav-active .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
@@ -245,7 +263,7 @@ nav.usa-nav {
 }
 
 li.parent .sub-menu {
-    width: 180px;
+    width: 200px;
     padding: 0px;
     position: absolute;
     top: 15px;
@@ -253,15 +271,20 @@ li.parent .sub-menu {
     z-index: -1;
     opacity: 0;
     display: none;
-	border-bottom: 1px solid #bbb;
-	border-top: 1px solid #bbb;
+/*	border-bottom: 1px solid #bbb;*/
+/*	border-top: 1px solid #bbb;*/
     transition: opacity linear 0.15s;
 //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
     background: #F3F4F4;
 	li {
 		display: block;
 		text-align: left;
-		border-bottom: 1px solid #bbb;
+		font-family: proxima-nova, sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		letter-spacing: .02em;
+/*		border-bottom: 1px solid #bbb;*/
 		&.parent {
 			padding: 0 !important;
 			width: 100%;
@@ -279,16 +302,19 @@ li.parent .sub-menu {
 			border: none;
 		}
 		a {
-			padding: 10px;
+			padding: 20px;
 			background: #F3F4F4;
 			color: #4C4C4E;
 			display: block;
 			line-height: 1;
-			font-size: 1.3rem;
+			font-size: 14px;
+			font-weight: 700;
+			font-style: normal;
+			letter-spacing: .02em;
 			&:hover {
 				background: #fff;
-				border-top: 1px solid #fff;
-				border-bottom: 1px solid #fff;
+/*				border-top: 1px solid #fff;*/
+/*				border-bottom: 1px solid #fff;*/
 			}
 			&:active {
 				color: $light-blue;
@@ -316,7 +342,7 @@ ul.sub-sub-menu li.parent {
 ul.sub-sub-menu {
   position: absolute;
   top: inherit;
-  margin-top: -35px;
+  margin-top: -55px;
   left: 100%;
   padding: 0;
   width: 180px;
@@ -326,6 +352,10 @@ ul.sub-sub-menu {
   background: #205493;
   li {
   	display: block;
+  	font-family: proxima-nova, sans-serif;
+  	font-size: 14px;
+  	font-style: normal;
+  	font-weight: 700;
   }
 	}
 	}
@@ -335,7 +365,7 @@ ul.sub-sub-menu {
 }
 
 .sub-menu li a:hover, .sub-usa-nav .current-item a {
-    background: $dark-blue;
+    background: $light-blue;
     color: #fff;
 }
 
@@ -429,10 +459,12 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 }
 }
 
+#navigation.usa-nav.nav {
+	max-width: 880px;
+}
 
 ul.usa-nav-primary {
 	list-style: none;
-	max-width: 800px;
 	float: right;
 	padding-left: 0;
 }
@@ -447,13 +479,13 @@ ul.usa-nav-primary li {
   
 ul.usa-nav-primary li a {
   padding-top: 5px;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+/*  border-top: 1px solid #fff;*/
+/*  border-bottom: 1px solid #fff;*/
   padding-bottom: 5px;
   box-sizing: border-box;
   &:hover {
-  	border-bottom: 1px solid #BBBBBB;
-  	border-top: 1px solid #BBBBBB;
+/*  	border-bottom: 1px solid #BBBBBB;*/
+/*  	border-top: 1px solid #BBBBBB;*/
   }
 }
 
@@ -528,24 +560,43 @@ img.desk {
 	padding: 0;
 }
 
+.usa-header .usa-search svg {
+	float: left;
+	display: inline-block;
+	color: $dark-grey;
+	margin: 0 30px 0 0;
+	font-size: 2.3em;
+}
+
 #searchgovinput {
 	font-style: italic;
 	border: none;
-	background: #f3f4f4;
-	width: 88%;
+	background: #F0F0F0;
+	width: 70%;
 	padding-left: 20px;
+	border-radius: 25px 0 0 25px;
 }
 
 #searchgovform.usa-search button#searchgovbutton {
-	background: #bbb;
-	width: 12%;
+	background: #D0D0D0;
+	width: 10%;
+	float: left;
+	border-radius: 0 25px 25px 0;
 	svg {
 		color: #f3f4f4;
+		margin: 0 0 0 5px;
+		width: 20px;
+		height: 20px;
 	}
+}
+@media (min-width: 951px) and (max-width: 5000px) {
+.usa-header .usa-search {
+	max-width: 370px !important;
+}
 }
 
 @media screen and (min-width: 951px) {
 .usa-header .usa-search {
-	min-width: 30rem !important;
+	min-width: 20rem !important;
 }
 }

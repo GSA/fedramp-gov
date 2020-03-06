@@ -20,7 +20,7 @@ colors:
   background: '#ffffff'
   link:
     color: '#0071bc'
-    active: '#0071bc'
+    active: '#205493'
     hover: '#0A9DFF'
     visited: '#0071bc'
   button:
