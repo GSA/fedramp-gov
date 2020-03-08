@@ -398,7 +398,7 @@ ul.columns {
       li {
 			border: 1px solid #cdcdcd;
 			background: #fff;
-			padding: 20px;
+			padding: 14px;
 			margin: auto;
 			margin-bottom: 20px;
 			height: 170px;
@@ -487,12 +487,47 @@ ul.columns {
    	}
 }
 
-#challenge-dashboard {
+.challenge-thanks {
+	background: url(../../assets/img/challenge-background-clouds.png);
+	background-size: cover;
+	padding: 60px 0;
+	margin: 40px 0 0 0;
+	a {
+		color: #fff;
+	}
+	h3, h1 {
+		color: #fff;
+		margin: 0 auto 20px auto;
+		max-width: 1200px;
+		width: 100%;
+		text-align: center;
+		font-weight: normal;
+	}
+	h4 {
+		color: #fff;
+		font-weight: normal;
+		max-width: 1200px;
+		width: 100%;
+		margin: 0 auto;
+		line-height: 1.7;
+		text-align: center;
+	}
+}
+
+
+#challenge-dashboard, .lessons-top {
 	margin: 0 auto;
 	padding: 60px 0;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 100%;
 	float: none;
+	p.challenge-close {
+		margin: 0 auto 40px auto;
+		width: 100%;
+		padding: 0 5%;
+		max-width: 1200px;
+		text-align: center;
+	}
 	ul.bkgrnd-process-details {
 		display: flex;
 		justify-content: space-between;
@@ -524,6 +559,7 @@ ul.columns {
 	}
 	.image-container {
 		text-align: center;
+		padding: 0 5%;
 	img {
 		border-bottom: 2px solid $teal;
 		padding: 0 0 40px 0;
@@ -538,6 +574,9 @@ ul.columns {
 	}
 	ul.challenge-goal-opportunity {
 		display: flex;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1200px;
 		justify-content: space-around;
 		flex-flow: row;
 		padding: 40px 0 0 0;
@@ -574,6 +613,8 @@ ul.columns {
 	}
 	#challenge-dashboard ul.bkgrnd-process-details {
 		flex-flow: wrap;
+		margin-left: 5%;
+		margin-right: 5%;
 		li {
 			width: 100%;
 			margin: 15px 0;
@@ -733,7 +774,10 @@ section#details {
 		padding: 0 5%;
 	}
 	#challenge-dashboard {
-		padding: 60px 5%;
+		padding: 60px 0;
+		.challenge-thanks {
+			padding: 60px 5%;
+		}
 	}
 }
 
@@ -854,4 +898,112 @@ img {
 h2 {
 	text-transform: none;
 }
+
+#modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 99%;
+    width: 100%;
+}
+.modalcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 60%;
+    padding: 0px;
+	.challenge-thanks {
+		margin: 0;
+		padding: 40px;
+	}
+	#button {
+		margin: 0;
+		border-radius: 25px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		right: -15px;
+		top: -15px;
+		color: #fff;
+		padding: 0;
+		background: #59B2D9;
+		text-align: center;
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 0) and (max-width: 980px) {
+.modalcontent {
+	width: 90%;
+	}
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+	.modalcontent {
+		width: 90%;
+		top: 60%;
+	}
+}
+.small-biz-lessons {
+	.lessons-list {
+		background: $teal;
+		color: #fff;
+		padding: 60px 0;
+		.inner {
+			margin: 0 auto;
+			max-width: 1200px;
+			width: 100%;
+			span.title {
+				float: left;
+				width: 100%;
+				padding: 0;
+				margin: 0 0 20px 0;
+				img {
+					float: left;
+					max-width: 70px !important;
+					margin: 15px 15px 0 0;
+					clear: none;
+				}
+				h2 {
+					float: left;
+					margin: 20px 0;
+					clear: none;
+					max-width: 1000px;
+				}
+			}
+			p, h2 {
+				color: #fff;
+			}
+			p {
+				margin: 30px 0;
+			}
+			hr {
+				border: 1px solid #fff;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+@include media-query($desktop) {
+.small-biz-lessons .lessons-list .inner, .small-biz-lessons .lessons-top {
+	padding: 0 5%;
+}
+}
+
+@include media-query($on-palm) {
+	.small-biz-lessons ul.challenge-goal-opportunity {
+	flex-flow: wrap;
+	li {
+		width: 80%;
+		margin: 15px 0;
+	}
+	}
 }

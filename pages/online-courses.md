@@ -43,7 +43,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
 <div class="panel">
-<p><strong>Description:</strong> This  course is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-report/">Security Assessment Report (SAR)</a>. The SAR is required by FedRAMP to  evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
+<p><strong>Description:</strong> This course is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-report/">Security Assessment Report (SAR)</a>. The SAR is required by FedRAMP to  evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
 
 <p><strong>Duration:</strong> 1 hour</p>
 <p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
