@@ -11,14 +11,16 @@ $serif-font:       'montserrat', 'Georgia', 'Cambria', 'Times New Roman', 'Times
 $base-font-size:   1.7rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-$fr-black: #212121;
+$fr-black: #262626;
 $dark-blue: #112e51;
 $light-blue: #205493;
 $teal: #59B2D9;
 $fr-red: #E41C3f;
-$dark-grey: #D6d7d9;
-$light-grey: #fbfdff;
-$spacing-unit:     30px;
+$dark-gray: #4c4c4e;
+$mid-gray: #757575;
+$light-gray: #D0D0D0;
+$lightest-gray: #f0f0f0;
+$spacing-unit: 30px;
 
 $background-color:         {{ site.colors.background }};
 $headers-color:            {{ site.colors.headers }};

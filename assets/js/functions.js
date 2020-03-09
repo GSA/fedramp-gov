@@ -40,6 +40,10 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
 //})(window, document);
 
 // dropped ie6 support
+$(".post-count").click(function() {
+	$("#alert-logic").toggle();
+});
+
 
 $(document).ready(function() {
     $(".nav").accessibleDropDown();
@@ -57,8 +61,9 @@ $.fn.accessibleDropDown = function () {
     });
 }
 
-window.onload = function () {
-    document.getElementById('button').onclick = function () {
-        document.getElementById('modal').style.display = "none"
-    };
-};
+//window.onload = function () {
+//    document.getElementById('button').onclick = function () {
+//        document.getElementById('modal').style.display = "none"
+//    };
+//};
+
