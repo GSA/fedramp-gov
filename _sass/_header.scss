@@ -520,13 +520,21 @@ ul.usa-nav-primary li:focus-within a {
   display: none;
 }*/
 
-ul.usa-nav-primary li:hover > ul,
-ul.usa-nav-primary li:focus-within > ul,
-ul.usa-nav-primary li ul:hover,
+ul.usa-nav-primary li:hover > ul, 
+ul.usa-nav-primary li:focus-within > ul, 
+ul.usa-nav-primary li ul:hover, 
 ul.usa-nav-primary li ul:focus {
    visibility: visible;
-   opacity: 1;
+   opacity: 1 !important;
    display: block;
+}
+
+li.parent .sub-menu li a:focus > ul
+li.parent .sub-menu li a:focus > ul,
+li.parent .sub-menu li a:focus > ul {
+	visibility: visible;
+	opacity: 1;
+	display: block;
 }
 
 
@@ -609,6 +617,8 @@ img.desk {
 	.bell {
 		position: relative;
 	}
+	#alert-logic {
+		display: none;
 	.alert-wrapper {
 		max-width: 400px;
 		min-width: 400px;
@@ -641,6 +651,7 @@ img.desk {
 					margin: 0;
 				}
 			}
+		}
 		}
 	}
  .post-count {

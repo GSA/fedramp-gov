@@ -130,8 +130,8 @@
 				{% if sub.sub != null %}
 				<ul class="sub-sub-menu dropdown" aria-label="sub-submenu">
 				{% for sub in sub.sub %}
-			  <li aria-haspopup="true" class="parent">
-			  	<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
+			  <li class="parent">
+			  	<a aria-haspopup="true" aria-expanded="false" tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
 			  	{{ sub.text }}
 			  	</a>
 			  </li>
