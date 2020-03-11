@@ -730,6 +730,8 @@ img.desk {
 	padding-top: 5px;
 	padding-bottom: 10px;
 	color: #757575;
+	outline: 0;
+	box-shadow: none;
 /*	border-top: 1px solid #fff;*/
 	&:hover {
 /*		border-top: 1px solid #bbb;*/
@@ -752,6 +754,8 @@ color: $light-blue;
 	color: #5b616b;
 	letter-spacing: .05em;
 	font-size: 14px;
+	box-shadow: none;
+	outline: 0;
 	  &:active {
 	    color: $link-active-color;
 		box-shadow: none;
