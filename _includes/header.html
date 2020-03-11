@@ -46,7 +46,7 @@
   <div class="bell">
   <i class="fas fa-bell">
   	  </i>	  	
-  	  {% assign timeframe = 2678400 %}
+  	  {% assign timeframe = 1678400 %}
   	    {% for post in site.posts %}
   	    	{% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
   	    	    {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
@@ -57,7 +57,7 @@
   	    	{% endfor %}
   	    	<div id="alert-logic">
   	  <div class="alert-wrapper">
-  	  {% assign timeframe = 2678400 %}
+  	  {% assign timeframe = 1678400 %}
   	  
   	  {% for post in site.posts %}
   	    {% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
