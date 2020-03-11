@@ -109,6 +109,8 @@ left: 30px;
 #logo em.usa-logo-text {
 a {
 	float: left;
+	outline: 0;
+	box-shadow: none;
 }
 	float: left;
 }
@@ -589,6 +591,8 @@ img.desk {
 #searchgovinput {
 	font-style: italic !important;
 	border: none;
+	outline: 0;
+	box-shadow: none;
 	background: #F0F0F0;
 	width: 86%;
 	height: 35px;
