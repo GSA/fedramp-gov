@@ -40,7 +40,7 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
 })(window, document);
 
 
-$(".post-count").click(function() {
+$(".bell").click(function() {
 	$("#alert-logic").toggle();
 });
 
@@ -67,3 +67,18 @@ $(".post-count").click(function() {
 //    };
 //};
 
+$(window).load(function() {
+  // if no cookie
+  if ($.cookie('alert') != "true") {
+    $(".post-count").show();
+    $(".bell").click(function() {
+      $(".post-count").slideUp("slow");
+      // set the cookie for 24 hours
+      var date = new Date();
+      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
+      $.cookie('alert', "true", {
+        expires: date
+      });
+    });
+  }
+});
