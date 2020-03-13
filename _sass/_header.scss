@@ -109,8 +109,10 @@ left: 30px;
 #logo em.usa-logo-text {
 a {
 	float: left;
-	outline: 0;
-	box-shadow: none;
+	&:active {
+		outline: 0;
+		box-shadow: none;
+	}
 }
 	float: left;
 }
@@ -494,12 +496,14 @@ ul.usa-nav-primary li a {
 /*  border-bottom: 1px solid #fff;*/
   padding-bottom: 10px;
   box-sizing: border-box;
-  box-shadow: none;
-  outline: 0;
   color: $mid-gray;
   &:hover {
 /*  	border-bottom: 1px solid #BBBBBB;*/
 /*  	border-top: 1px solid #BBBBBB;*/
+  }
+  &:active {
+  	box-shadow: none;
+  	outline: 0;
   }
 }
 
@@ -593,13 +597,15 @@ img.desk {
 #searchgovinput {
 	font-style: italic !important;
 	border: none;
-	outline: 0;
-	box-shadow: none;
 	background: #F0F0F0;
 	width: 86%;
 	height: 35px;
 	padding-left: 20px;
 	border-radius: 25px 0 0 25px;
+	&:active {
+		box-shadow: none;
+		outline: 0;
+	}
 }
 
 #searchgovform.usa-search button#searchgovbutton {
@@ -730,12 +736,14 @@ img.desk {
 	padding-top: 5px;
 	padding-bottom: 10px;
 	color: #757575;
-	outline: 0;
-	box-shadow: none;
 /*	border-top: 1px solid #fff;*/
 	&:hover {
 /*		border-top: 1px solid #bbb;*/
-color: $light-blue;
+	color: $light-blue;
+	}
+	&:active {
+		outline: 0;
+		box-shadow: none;
 	}
 }
 
@@ -754,21 +762,16 @@ color: $light-blue;
 	color: #5b616b;
 	letter-spacing: .05em;
 	font-size: 14px;
-	box-shadow: none;
-	outline: 0;
+/*	box-shadow: none;*/
+/*	outline: 0;*/
 	  &:active {
 	    color: $link-active-color;
 		box-shadow: none;
 		-webkit-box-shadow: none;
+		outline: 0;
 	  }
 	  &:focus:active {
 	  	color: $link-active-color;
-	  	box-shadow: none;
-	  	-webkit-box-shadow: none;
-	  }
-	  &:focus {
-/*	  	box-shadow: none;*/
-/*	  	outline: 1px solid $light-blue;*/
 	  }
 	  a {
 	  	&:active {
