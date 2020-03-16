@@ -24,6 +24,8 @@ The CSP’s system should be fully built and functional, and the CSP’s leaders
 
 Throughout this phase, the CSP develops their System Security Plan (SSP), which is the security blueprint of their system. The SSP does not need to be completed prior to establishing a partnership with an Agency, but it does need to be completed and fully reviewed by the Agency prior to Phase 2. The Agency partner should approve and sign off on the SSP prior to beginning testing. 
 
+The Readiness Assessment Report is optional for CSPs pursuing an agency authorization, but is highly recommended. For more information refer to the <a href="https://www.fedramp.gov/assets/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">Readiness Assessment Report (RAR)</a>.
+
 ### Phase 2: Full Security Assessment 
 
 Prior to beginning Phase 2, a CSP should ensure that:
