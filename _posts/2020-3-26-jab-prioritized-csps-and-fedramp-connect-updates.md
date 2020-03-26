@@ -28,4 +28,4 @@ Please keep in mind, the FedRAMP Program Management Office (PMO) and JAB have li
 
 If you are a **CSP interested in working with the JAB**, please review the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document in its entirety and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with questions or to set up a coaching call. 
 
-If you’re an **agency customer** that would like to see a CSP prioritized to work with the JAB, share this with your service provider and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> expressing your interest.
+If you are an **agency customer** that would like to see a CSP prioritized to work with the JAB, share this with your service provider and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> expressing your interest.
