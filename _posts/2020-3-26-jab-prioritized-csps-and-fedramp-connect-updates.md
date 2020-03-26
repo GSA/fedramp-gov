@@ -15,7 +15,7 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
  
 These vendors were selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document to work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB authorizations. Congratulations! 
  
-The next due date for FedRAMP Connect Business Cases, will be **May 8, 2020 at 5:00pm ET**. This is the process by which CSPs are prioritized to work with the JAB.
+The next due date for FedRAMP Connect Business Cases will be **May 8, 2020 at 5:00pm ET**. This is the process by which CSPs are prioritized to work with the JAB.
  
 In preparation for this next round of FedRAMP Connect, the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document has been updated, based on our continued commitment to improving our process and documentation, to provide CSPs with additional information on how to successfully complete a Business Case.
  
