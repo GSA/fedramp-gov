@@ -13,7 +13,7 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
 * Splunk 
 * Sumo Logic  
  
-These vendors were selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document to work with the JAB on their reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB authorizations. Congratulations! 
+These vendors were selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document to work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB authorizations. Congratulations! 
  
 The next due date for FedRAMP Connect Business Cases, will be **May 8, 2020 at 5:00pm ET**. This is the process by which CSPs are prioritized to work with the JAB.
  
@@ -21,7 +21,7 @@ In preparation for this next round of FedRAMP Connect, the <a href="https://www.
  
 Small updates have also been made to the process, including:
 
-* FedRAMP Connect Business Case due dates will be announced by the PMO a minimum of 30-days prior to a due date via the Focus on FedRAMP blog, FedRAMP’s listserv, and the <a href="https://www.fedramp.gov/jab-authorization/">JAB Authorization</a> webpage  
+* FedRAMP Connect Business Case due dates will be announced by the PMO a minimum of 30 days prior to a due date via the Focus on FedRAMP blog, FedRAMP’s listserv, and the <a href="https://www.fedramp.gov/jab-authorization/">JAB Authorization</a> webpage  
 * CSPs interested in pursuing a JAB P-ATO must submit a Business Case each round to ensure the information provided for the PMO’s review is up to date and accurate 
 
 Please keep in mind, the FedRAMP Program Management Office (PMO) and JAB have limited resources and can only work with a fixed number of cloud service providers per year for a JAB P-ATO. The JAB prioritizes cloud service offerings based on government-wide demand to help meet government-wide mission needs. Agencies and industry can also work together by partnering to achieve a FedRAMP Authorization. For more information, check out the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a>.
