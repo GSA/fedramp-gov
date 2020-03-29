@@ -314,6 +314,15 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
+    <td><a href="{{site.baseurl}}/assets/resources/documents/">Reusing Authorizations for Cloud Products Quick Guide</a></td>
+    <td>This quick guide outlines steps and guidance to help agencies quickly and efficiently reuse authorized cloud products within the FedRAMP Marketplace.</td>
+    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf"><i class="fas fa-file-pdf"></i>
+    <p class="icon-text">PDF</p></a>
+    </td>
+    <td>3/30/2020</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">Key Agency Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
     <td>This document is specific to Federal Departments and Agencies and provides guidance and the understanding required to authorize an Agency’s application when reusing a FedRAMP-compliant cloud service.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf"><i class="fas fa-file-pdf"></i>
