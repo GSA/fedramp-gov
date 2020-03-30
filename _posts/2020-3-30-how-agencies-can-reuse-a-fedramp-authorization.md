@@ -16,5 +16,5 @@ FedRAMP developed this quick guide for agencies which outlines how to reuse a se
 * Understand and implement customer responsibilities
 * Send a copy of your ATO for FedRAMP Authorized services to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> 
 
-FedRAMP Authorized products all provide the intrinsic benefits of the cloud - remote access, scalability, collaboration efficiency, and many more - that help the federal government achieve its mission and deliver services to the public, and are critical to many agencies’ IT modernization efforts. 
+FedRAMP Authorized products all provide the intrinsic benefits of the cloud - remote access, scalability, collaboration efficiency, and many more - that help the federal government achieve its mission and deliver services to the public, and are critical to many agencies’ IT modernization efforts.
 
