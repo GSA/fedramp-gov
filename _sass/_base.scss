@@ -13,6 +13,17 @@ legend, label,
 h1, h2, h3, h4, h5, h6 {
   color: $headers-color;
   font-family: $serif-font;
+	line-height: 1.3em;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 h6 {
@@ -20,6 +31,16 @@ h6 {
 	text-transform: none;
 }
 
+p {
+	line-height: 1.5em;
+	margin-top: 1em;
+	font-size: 14px;
+}
+
+li {
+	font-size: 14px;
+	line-height: 1.5em;
+}
 
 .usa-section-dark {
   legend, label,
@@ -70,6 +91,10 @@ a {
   outline: none;
 }
 
+table th, table td {
+	padding: 1.5em;
+}
+
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
     position: relative;
@@ -83,6 +108,7 @@ a {
 	max-width: 1200px;
 	padding-right: 0;
 	padding-left: 0;
+	margin: auto;
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {

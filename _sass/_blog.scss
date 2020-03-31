@@ -70,13 +70,14 @@
 	font-weight: normal;
 	margin: 0 0 10px 0;
 	color: grey;
+	font-size: 14px;
 }
 
 .blog-description {
 	h3 {
 		color: $light-blue;
 		margin-top: 5px;
-		font-size: 1.7rem;
+		font-size: 17px;
 
 	}
 	a {
@@ -108,12 +109,13 @@ a.blog-read {
     margin: 0 auto;
   /*  display: static;*/
     width: 100px !important;
+	height: 34px;
     text-align: center;
     float: none;
     color: #0071bc;
     text-transform: uppercase;
-    padding: 5px;
-    font-size: 1.4rem;
+    padding: 10px;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 

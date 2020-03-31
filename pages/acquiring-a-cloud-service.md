@@ -11,9 +11,9 @@ Additionally, Agencies can use the FedRAMP Marketplace to find CSOs who have dem
 The documents, templates, and blogs listed below all pertain to the research / acquisition phase when looking to procure a new Cloud Service Offering (CSO).
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>
@@ -24,7 +24,7 @@ The documents, templates, and blogs listed below all pertain to the research / a
 </td>
 <td>
 <ul>
-<li>Please visit our <a href="{{site.baseurl}}/templates">templates</a> page, there are no specific templates for this cateogory at this time.</li>
+<li>Please visit our <a href="{{site.baseurl}}/templates">templates page</a>, there are no specific templates for this cateogory at this time.</li>
 </ul>
 </td>
 <td>

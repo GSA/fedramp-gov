@@ -4,21 +4,29 @@
 
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;900&display=swap');
+
 // Our variables
-$base-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$sans-font: 	   'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$serif-font:       'Merriweather', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
-$base-font-size:   1.7rem;
+$base-font-family:	'Muli', sans-serif;
+$sans-font:			'Muli', sans-serif;
+$serif-font:		'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$title-font:		'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$base-font-size:   1.5rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 $fr-black: #212121;
-$dark-blue: #112e51;
-$light-blue: #205493;
-$teal: #59B2D9;
+$dark-blue: #051D3E;
+$light-blue: #1A4480;
+$teal: #0F96C2;
+$light-teal: #90CEF1;
+$lighter-teal: #CCEBFF;
 $fr-red: #E41C3f;
 $dark-grey: #D6d7d9;
 $light-grey: #fbfdff;
-$spacing-unit:     30px;
+$spacing-unit: 30px;
+$dark-red: #970B22;
+$darkest-blue: #131836;
 
 $background-color:         {{ site.colors.background }};
 $headers-color:            {{ site.colors.headers }};
@@ -77,6 +85,19 @@ $desktop: 1200px;
 	content: '';
 	clear: both;
 	display: table;
+}
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

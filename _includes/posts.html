@@ -1,7 +1,7 @@
-<div class="post-container">
+<div class="post-container grid-row grid-gap">
 {% for post in site.posts limit:3 %}
   {% unless post.featured %}
-    <article class="blog usa-width-one-third">
+    <article class="desktop:grid-col-4 blog">
       <!--<a class="blog-link" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">{{ post.title }}</a>-->
       <div class="blog-image"
         style="background-image: url(

@@ -4,13 +4,13 @@ layout: base
 <div class="page-banner">
 <h1>Meet the Team</h1>
 </div>
-<section class="usa-grid usa-section">
-<div class="usa-width-one-third">
+<section class="usa-grid usa-section grid-row">
+<div class="usa-width-one-third desktop:grid-col-3 team-member-image">
   {% if page.image %}
     <img class="team-image" src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.name }}" />
   {% endif %}
 </div>
-  <div class="usa-width-two-thirds">
+  <div class="usa-width-two-thirds desktop:grid-col-9">
     <h2>{{ page.name }}</h2>
   <p class="title">{{ page.title }}</p>
     {{ content }}

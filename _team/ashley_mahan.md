@@ -11,4 +11,4 @@ Ashley Mahan is Director of the General Services Administration’s (GSA’s) Fe
 
 Prior to stepping into the FedRAMP Director role, Ashley served as the program’s first Evangelist. She has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence. Ashley holds an M.S. in Information Technology, B.S. in Business and has a variety of project management and technology industry certifications.
 
-Connect with Ashley on LinkedIn: https://www.linkedin.com/in/ashleymahan
+[Connect with Ashley on LinkedIn]("https://www.linkedin.com/in/ashleymahan")

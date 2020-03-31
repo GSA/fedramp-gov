@@ -4,8 +4,8 @@ layout: base
 
 <section>
   <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
-    <div class="usa-grid">
-      <div class="usa-width-whole hero-content">
+    <div class="usa-grid grid-row">
+      <div class="usa-width-whole hero-content grid-col-12">
         <h1>{{ page.hero-text }}</h1>
         <p>{{ page.hero-secondary-text }}</p>
       </div>
@@ -13,7 +13,7 @@ layout: base
   </div>
 </section>
 
-<section class="usa-grid usa-section">
+<section class="usa-grid usa-section grid-row">
     <h2>Partners We Serve</h2>
     {% include projects.html %}
 </section>

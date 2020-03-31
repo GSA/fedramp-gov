@@ -10,7 +10,7 @@ The first step for any Cloud Service Provider (CSP) interested in pursuing a Fed
 
 To decide which type of authorization is right for a particular CSO, the CSP should review both processes and take into account their system's impact level, deployment model, stack, and market demand.
 
-Below is a high-level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the JAB P-ATO authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">here</a>.  
+Below is a high-level overview of the JAB Authorization Process. Information on a CSP’s role and responsibilities within the <a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">JAB P-ATO authorization process can be found here</a>.  
 
 ### JAB P-ATO Authorization
 

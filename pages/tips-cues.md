@@ -12,7 +12,7 @@ Many of our Cloud Service Providers (CSPs), Federal Agencies, and Third Party As
 <p>
 The 3PAO performing the FedRAMP assessment of a Li-SaaS system should include findings from Appendix B control testing, Appendix E control attestation, and Vulnerability Scans of the authorization boundary in the Summary of Risks Table in Appendix B, Section 15. The Cloud Service Provider (CSP) should list any findings that haven't been remediated after assessment in the “Summary of Remediation Plans” in Appendix B, Section 16, which is an abbreviated version of the Plan of Actions and Milestones (POA&M), a tracking system used in other FedRAMP baselines. The “Summary of Remediation Plans” document is maintained after authorization to capture and manage not only Initial Authorization findings, but also findings from monthly vulnerability scans and future Annual Assessments.
   </p>
-  
+ <div class="q3">
   <h3>Q: I’m curious about when I can be listed on the FedRAMP Marketplace as In Process. What are some key requirements I should be aware of?</h3>
 <p>
 A: In June 2019, FedRAMP released <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP Marketplace Designations For Cloud Service Providers</a>. This document lists the requirements for listing a CSP as In Process on the FedRAMP Marketplace.  
@@ -25,7 +25,7 @@ Why does FedRAMP require this? We have found that the likelihood of achieving an
 
   </p>
 
-<div class="q3">
+
 <h3>Q: The Readiness Assessment Review Process (RAR) requires vendors to identify the function and purpose of Application Programming Interfaces (APIs). Why is this important?</h3>
 <p>
 A: Cloud Service Providers (CSPs) often provide applications to their customers to access, interface, and transfer Federal Data between the Agency Boundary and their tenant within the Software as a Service (SaaS). These applications are identified in the System Security Plan (SSP) inventory and within several security controls that focus on application maintenance/distribution responsibilities (CSP and/or customer responsibility), and flow of Federal data. CSPs also often provide APIs that can be incorporated in customer developed software to perform the same type of functions as the other vendor provided applications. The APIs need to be identified in the same way as these other applications, but are often overlooked and not included in the SSP, but should be.
@@ -61,6 +61,7 @@ There may be flexibility with FedRAMP Agency systems, though. The Agency Authori
     <ul>
 <li>Not Applicable (N/A) - The nature of the component means it inherently does not contain this capability and will not be tested (e.g. controls that apply to collaborative computing devices only apply if that capability exists in the system)</li>
 <li>Not Selected (N/S) - A centralized automated mechanism ensures the implementation of the specific control, and that central automated mechanism has already been assessed to ensure that it is operating as intended and producing the desired result. Therefore, the assessment of the control will be scoped to only verifying/validating that the component is integrated into the centralized automated mechanism. Here are a few examples of centralized and/or automated mechanisms that implement other controls:</li>
+	</ul>
   <p>
   - AC-2 (1) - The organization employs automated mechanisms to support the management of information system accounts
   </p>
@@ -92,4 +93,7 @@ Some vulnerability and penetration tests may still be acceptable from a recent M
   </p>
   
  <h3>Q: “I'm a commercial organization that wants to leverage a FedRAMP authorized security package for my service offering. For example, I want to leverage a FedRAMP IaaS to implement my SaaS. How do I get access to their package to review it?”</h3>
+ <p>
 A:  Commercial entities wishing to become tenants within a FedRAMP Public Cloud Service that hosts both Federal and Commercial customers should work directly with the Cloud Service Provider for all necessary security documentation and cloud services. At a minimum, this should include the customer responsibilities; however, many service providers provide additional services, such as partially filled out SSP templates and other services that can onboard tenants rapidly. The FedRAMP PMO does not provide any access to commercial customers of the cloud service.
+</p>
+</div>

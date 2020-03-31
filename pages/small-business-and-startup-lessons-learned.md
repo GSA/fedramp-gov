@@ -33,7 +33,7 @@ Executive Leadership and buy-in is important. Keep in mind that pursuing a FedRA
 <img alt="background" title="background" src="{{site.baseurl}}/assets/img/blog-images/GSA-1721_assetts_3.png"><h2>3. Find an Agency partner.</h2>
 </span>
 <p>
-Agencies are required to issue an “Authorization to Operate” (ATO) if they are using your product. The ATO is the official management decision given by a senior Federal official to authorize operation of an information system and to explicitly accept the risk to agency operations. The natural Agency partner to work with for a FedRAMP authorization is one that is using your product or is committed to using your product.  If you are in need of assistance, the FedRAMP PMO is here to help communicate  the associated requirements/roles & responsibilities to your Agency customer.
+Agencies are required to issue an “Authorization to Operate” (ATO) if they are using your product. The ATO is the official management decision given by a senior Federal official to authorize operation of an information system and to explicitly accept the risk to agency operations. The natural Agency partner to work with for a FedRAMP authorization is one that is using your product or is committed to using your product.  If you are in need of assistance, the FedRAMP PMO is here to help communicate  the associated requirements/roles &amp; responsibilities to your Agency customer.
 </p>
   <hr>
 <span class="title">

@@ -10,6 +10,7 @@
   width: $width;
 }
 
+
 .page-team {
   .usa-graphic_list {
     .usa-media_block {
@@ -18,6 +19,7 @@
       @media all and (min-width: $on-laptop) {
         margin-right: 0;
         width: 50%;
+		  float: left;
       }
     }
 
@@ -35,6 +37,11 @@
     	color: #757575;
     }
   }
+}
+
+.usa-media_block-img {
+	float: left;
+	margin-right: 30px;
 }
 
 .team-image {

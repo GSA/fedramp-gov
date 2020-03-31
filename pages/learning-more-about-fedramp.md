@@ -11,9 +11,9 @@ FedRAMP created and manages a core set of processes to ensure effective, repeata
 If you are not familiar with FedRAMP, the documents, templates, and blogs listed below should help guide your understanding of FedRAMP at a basic level.
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>
@@ -21,13 +21,13 @@ If you are not familiar with FedRAMP, the documents, templates, and blogs listed
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">FedRAMP Security Controls Baseline</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Joint_Authorization_Board_Charter.pdf">Joint Authorization Board Charter</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym & Glossary</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf">FedRAMP Master Acronym &amp; Glossary</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf">Branding Guidance</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook: Getting Started with FedRAMP</a></li>
 <li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf">FedRAMP Accelerated: A Case Study for Change Within Government</a></li>	
 <li><a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Guide</a></li>
-<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">FedRAMP Tips & Cues Compilation</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Tips_and_Cues.pdf">FedRAMP Tips &amp; Cues Compilation</a></li>
 </ul>
 </td>
 <td>
