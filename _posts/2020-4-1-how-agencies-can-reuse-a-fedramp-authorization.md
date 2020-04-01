@@ -11,7 +11,7 @@ One of FedRAMP’s core value propositions is facilitating government-wide reuse
 
 To make this possible, FedRAMP eliminates duplicative efforts by providing a common security framework. Agencies review their security requirements against a standardized baseline. A Cloud Service Provider (CSP) goes through the authorization process once, and after achieving FedRAMP Authorization for their CSO, the security package can be reused by any federal agency. This saves agencies significant time and money when looking for cloud-based products and services. 
 
-FedRAMP developed this quick guide for agencies which outlines how to reuse a security package for a FedRAMP Authorized CSO. When reusing FedRAMP security packages, agencies should keep in mind the following best practices:
+FedRAMP developed <a href="https://www.fedramp.gov/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf">this quick guide for agencies</a> which outlines how to reuse a security package for a FedRAMP Authorized CSO. When reusing FedRAMP security packages, agencies should keep in mind the following best practices:
 * Review and confirm common cloud security baselines
 * Understand and implement customer responsibilities
 * Send a copy of your ATO for FedRAMP Authorized services to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> 
