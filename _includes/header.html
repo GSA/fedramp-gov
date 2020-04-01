@@ -43,7 +43,7 @@
 
   <div class="search-feature">
   <div class="search-wrapper">
-  <div class="bell">
+  <!--<div class="bell">
   <i class="fas fa-bell">
   	  </i>	  	
   	  {% assign timeframe = 1678400 %}
@@ -75,7 +75,7 @@
   {% endfor %}
   	  </div>
   			</div>
-  			</div>
+  			</div>-->
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
       <input name='search' type='search' id="searchgovinput" placeholder="Search">
@@ -90,7 +90,7 @@
 
 
   <div class="usa-nav-container">
-    <div class="usa-navbar">
+<!--    <div class="usa-navbar">-->
       <button class="usa-menu-btn">&#9776;</button>
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
@@ -104,7 +104,7 @@
           </a>
         </em>
       </div>
-    </div>
+<!--    </div>-->
     <nav role="navigation" class="usa-nav nav" id="navigation">
       <button class="usa-nav-close">
         <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
@@ -115,7 +115,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-<li tabindex="0" aria-haspopup="true" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
+<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}  &nbsp;<i class="fas fa-chevron-down"></i><!--<div class="plus-minus plus"></div>-->
             <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}
@@ -133,7 +133,7 @@
 			  <li class="parent">
 			  	<a aria-haspopup="true" aria-expanded="false" tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
 			  	{{ sub.text }}
-			  	</a>
+			  	</a>  &nbsp;<i class="fas fa-chevron-down"></i>
 			  </li>
 				{% endfor %}
 				</ul>
@@ -147,7 +147,7 @@
       
           <li>
           {% if nav.is_external != null %}
-          <a href="{{ nav.is_external }}">{{ nav.text }}</a>
+          <a class="external" href="{{ nav.is_external }}">{{ nav.text }}</a>
           {% else %}
             <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
           </li>

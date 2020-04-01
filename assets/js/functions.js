@@ -6,6 +6,12 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
     }
 });
 
+      $(".usa-mobile_nav-active ul.usa-nav-primary li.main-parent.parent.focus-within").click(function(e){
+	  	   e.preventDefault();
+      	   $(".plus-minus", this).closest().toggleClass("plus minus");
+           $("ul.sub-menu", this).closett().toggle();
+      });
+
 
 (function(window, document){
 	'use strict';
@@ -42,6 +48,31 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
 
 $(".bell").click(function() {
 	$("#alert-logic").toggle();
+});
+
+//$(function(){
+//  	  $('#navigation a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+//});
+
+$(function(){
+    var current = location.pathname;
+    $('#navigation li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+			}
+						})
+		if (current == '/') {
+				$("#navigation ul li a").removeClass("active");
+		        $("#navigation ul li a").first().addClass("active");
+		    }
+});
+
+
+
+$(function(){
+    $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
 });
 
 
