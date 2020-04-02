@@ -1,88 +1,106 @@
+<!-- New Footer -->
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
-  {% if site.footer.links %}
-  <div class="usa-footer-primary-section">
-    <div class="usa-grid-full">
-      <nav class="usa-footer-nav">
-        <ul class="usa-unstyled-list">
-        {% for link in site.footer.links %}
-          <li class="usa-width-one-sixth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="{{ link.href }}">{{ link.text }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-      </nav>
-    </div>
-  </div>
-  {% endif %}
-  <div class="usa-footer-secondary_section">
-    <div class="usa-grid">
-      <div class="usa-footer-logo usa-width-one-third">
-      <div class="logo-container">
-        {% if site.footer.image %}
-          <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/fedramp-logo-stamp.png" alt="Fedramp">
-        {% endif %}
-        {% if site.footer.text %}
-          <p>General Services Administration<br/>1800 F Street, NW <br/> Washington, DC 20006</p>
-        {% endif %}
-      </div>
-      </div>
-  <div class="newsletter-footer">
-  {% for form in site.forms %}
-    {% if form.type == 'newsletter' %}
-      {% assign f = form %}
-    {% endif %}
-  {% endfor %}
 
-  <form id="contact" action="{{ f.url }}" method="POST">
-      <p>{{ f.heading }}</p>
-      <div class="newsletter-inner">
-        {% for field in f.fields %}
-          {% unless field.type == 'hidden' %}<label for="contact-{{ field.name }}">{{ field.label }}</label>{% endunless %}
-          <input id="contact-{{ field.name }}"
-            name="{{ field.name }}" type="{{ field.type }}"
-            {% if field.value %} value="{{ field.value }}" {% endif %}>
-        {% endfor %}
-        <div class="usa-input-buttons-inline">
-          <input type="submit" value="{{ f.button }}">
-        </div>
-      </div>
-      <div class="usa-width-one-half" style="margin-top: 3rem;">
-        {% if f.privacypolicy %}
-<!--          <p>{{ f.privacypolicy }}</p>-->
-        {% else %}
-          <p></p>
-        {% endif %}
-      </div>
-  </form>
+	<!-- Is this section needed? -->
+	
+	
+	<!--
+	<div class="usa-footer-primary-section">
+		<div class="usa-grid-full">
+		  <nav class="usa-footer-nav">
+			<ul class="usa-unstyled-list">
+			{% for link in site.footer.links %}
+			  <li class="usa-width-one-sixth usa-footer-primary-content">
+				<a class="usa-footer-primary-link" href="{{ link.href }}">{{ link.text }}</a>
+			  </li>
+			{% endfor %}
+			</ul>
+		  </nav>
+	   </div>
   </div>
-
-      <div class="usa-footer-contact-links usa-width-one-third">
-      <address>
-      <p>CONTACT US</p>
-        {% if site.footer.contact.name %}
-          <h3 class="usa-footer-contact-heading">{{ site.footer.contact.name }}</h3>
-        {% endif %}
-        {% if site.footer.contact.phonenumber %}
-          <p><a href="tel:{{ site.footer.contact.phonenumber }}">{{ site.footer.contact.phonenumber }}</a></p>
-        {% endif %}
-        <p><a href="mailto:{{ site.footer.contact.email }}">{{ site.footer.contact.email }}</a></p>
-      </address>
-      <div class="footer-social">
-      <p>FOLLOW US</p>
-          {% if site.footer.contact.twitter %}
-          <a class="usa-link-twitter" href="https://twitter.com/{{ site.footer.contact.twitter }}" target="_blank"><span>Twitter</span></a>
-          {% endif %}
-          {% if site.footer.contact.facebook %}
-          <a class="usa-link-facebook" href="https://facebook.com/{{ site.footer.contact.facebook }}"><span>Facebook</span></a>
-          {% endif %}
-          {% if site.footer.contact.youtube %}
-          <a class="usa-link-youtube" href="https://youtube.com/{{ site.footer.contact.youtube }}"><span>YouTube</span></a>
-          {% endif %}
-          {% if site.footer.contact.rss %}
-          <a class="usa-link-rss" href="{{ site.footer.contact.rss }}"><span>RSS feed</span></a>
-          {% endif %}
+	-->
+	
+	<!-- Footer columuns -->
+	<div class="footer-container">
+		<div class="footer-col f-col-1">
+			<div class="logo-container">
+				{% if site.footer.image %}
+				  <img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/gsa-reversed-logo.svg" alt="GSA logo">
+				{% endif %}
+				<!--{% if site.footer.text %}
+				  <p>General Services Administration<br/>1800 F Street, NW <br/> Washington, DC 20006</p>
+				{% endif %}-->
+			 </div>
 		</div>
-      </div>
-    </div>
-  </div>
+		
+		<div class="footer-col f-col-2">
+			<address>
+				<div class="street-address">
+					<p>Federal Risk and Authorization Management Program (FedRAMP)</p>
+					<p>General Services Administration</p>
+					<p>1800 F Street, NW</p>
+					<p>Washington, DC 20006</p>
+				</div>
+				
+				<div class="footer-social">
+					<p class="footer-contact footer-follow-us"><a class="" href="mailto:info@FedRAMP.gov" target="_blank">
+						<svg id="Layer_1" class="footer-mail-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 27 20"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#90cef1;fill-rule:evenodd;}</style><clipPath id="clip-path"><rect class="cls-1" width="27" height="20"/></clipPath></defs><g class="cls-2"><g id="mail"><path id="mail-2" class="cls-3" d="M0,0V20H27V0ZM13.5,13.33,3.38,3.33H23.62Z"/></g></g></svg>info@FedRAMP.gov</a></p>
+					
+		  			<p class="footer-contact footer-follow-us"><a class="" href="https://twitter.com/{{ site.footer.contact.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x framp-twitter"></i>Follow Us</a></p>
+					
+				</div>
+			</address>
+		</div>
+		
+		<div class="footer-col f-col-3">
+			<div class="newsletter-footer">
+	  			{% for form in site.forms %}
+				{% if form.type == 'newsletter' %}
+		  		{% assign f = form %}
+				{% endif %}
+	  			{% endfor %}
+
+				<form id="contact" action="{{ f.url }}" method="POST">
+					<h5>KEEP UP TO DATE</h5>
+					<p>To receive news and updates, add your email to FedRAMP’s <span style="white-space: nowrap;">subscriber list.</span></p>
+						<div class="newsletter-inner">
+							{% for field in f.fields %}
+							{% unless field.type == 'hidden' %}
+							<label for="contact-{{ field.name }}">{{ field.label }}</label>
+							{% endunless %}
+							<input id="contact-{{ field.name }}"
+								name="{{ field.name }}" type="{{ field.type }}"
+								{% if field.value %} value="{{ field.value }}" {% endif %}>
+							{% endfor %}
+
+							<div class="usa-input-buttons-inline">
+								<input class="footer-submit" type="submit" value="{{ f.button }}">
+							</div>
+						</div>
+						<div class="usa-width-one-half" style="margin-top: 3rem;">
+							{% if f.privacypolicy %}
+							<!-- <p>{{ f.privacypolicy }}</p>-->
+							{% else %}
+							  <p></p>
+							{% endif %}
+						</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="footer-col f-col-4">
+			<h5>Resources</h5>
+			<ul class="fa-ul quick-links">
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="{{site.baseurl}}/team/" class="ql-text">FedRAMP privacy policy</a></li>
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="{{site.baseurl}}/team/" class="ql-text">GSA privacy policy</a></li>
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="https://www.usa.gov/" class="ql-text">USA.gov</a></li>
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="ql-text">GSA FOIA</a></li>
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="https://www.gsa.gov/about-us" class="ql-text">About GSA</a></li>
+				<li><span class="fa-li footer-ql-icons"><i class="fas fa-link fa-sm footer-icon"></i></span><a href="{{site.baseurl}}/team/" class="ql-text">Accessibility</a></li>				
+			</ul>
+		
+		</div>
+		<div class="clearfix"></div>
+	
+	</div>
 </footer>
