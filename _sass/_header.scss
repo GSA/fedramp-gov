@@ -1,8 +1,14 @@
 /** SEARCH FEATURE **/
 
 .usa-header {
-	height: 190px;
+	height: 130px;
 }
+
+.usa-banner {
+  z-index: 1001;
+  position: absolute;
+  top: 0;
+  width: 100%; }
 
 .search-feature {
 	margin: 30px auto 0px auto;
@@ -38,7 +44,7 @@ div.usa-nav-container {
 	box-sizing: border-box;
 }
 
-@media (min-width: 0px) and (max-width: 951px) {
+@media (min-width: 0px) and (max-width: 950px) {
 	div.usa-nav-container {
 		padding: 20px 5%;
 		margin: 0;
@@ -120,11 +126,11 @@ a {
 div#logo.usa-logo {
 	float: left;
 	position: absolute;
-	top: 35px;
+	top: 0px;
 	z-index: 1;
-	padding: 25px;
-	height: 175px;
-	 max-width: 160px;
+	padding: 0 25px 18px 25px;
+	height: 150px;
+	max-width: 160px;
 	min-width: 160px;
 	background: #fff;
 	text-align: center;
@@ -488,7 +494,7 @@ ul.usa-nav-primary li {
 /*	float: left;*/
 	position: relative;
 	text-decoration: none;
-  transition-duration: 0.5s;
+  transition-duration: none;
 }
   
 ul.usa-nav-primary li a {
@@ -574,7 +580,7 @@ ul.usa-nav-primary li ul li {
   width: 100%;
 }
 
-@media (min-width: 0) and (max-width: 951px) {
+@media (min-width: 0) and (max-width: 950px) {
 	img.desk {
 	display: none;	
 	}
@@ -743,7 +749,9 @@ img.desk {
 	outline: 0;
 	box-shadow: none;
 }
-&.usa-nav-primary li.parent {
+&.usa-nav-primary {
+	
+li.parent {
 	padding-left: 1.8rem;
 	padding-right: 1.5rem;
 	padding-top: 10px;
@@ -770,6 +778,7 @@ img.desk {
 		box-shadow: none;
 	}
 	}
+}
 }
 }
 
@@ -839,3 +848,8 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 	content: none;
 }
 
+.usa-nav-container {
+	position: relative;
+	z-index: 1;
+	margin-top: 60px;
+}

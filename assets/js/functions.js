@@ -45,6 +45,24 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
 	update();
 })(window, document);
 
+$(window).resize(function(event) {
+    if ($(window).width() > 950) {
+		$('body').removeClass('usa-mobile_nav-active');
+		$('#navigation').removeClass('is-visible');
+		$('.usa-overlay.is-visible').remove();
+				event.preventDefault();
+		}
+		else if ($(window).width() < 950) {
+			$('.usa-menu-btn').click(function () {
+				$('.usa-overlay').addClass('is-visible');
+		event.preventDefault();
+			})	
+			}
+});
+
+$('.usa-nav-primary li.main-parent').click(function () {
+	$(this).find('ul.sub-menu').toggle();
+});
 
 $(".bell").click(function() {
 	$("#alert-logic").toggle();
