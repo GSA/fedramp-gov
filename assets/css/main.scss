@@ -4,9 +4,12 @@
 
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Muli:wght@400;700&display=swap');
+
 // Our variables
 $base-font-family: 'Muli', sans-serif;
 $sans-font: 	   'Muli', sans-serif;
+$title-font:		'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
 $serif-font:       'montserrat', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 $base-font-size:   1.7rem;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,6 +19,7 @@ $dark-blue: #1B224D;
 $light-blue: #205493;
 $teal: #59B2D9;
 $light-teal: #bde2f9;
+$lighter-teal: #CCEBFF;
 $fr-red: #E41C3f;
 $fr-dark-red: #A00A0F;
 $dark-gray: #4c4c4e;
