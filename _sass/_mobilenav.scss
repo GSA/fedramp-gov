@@ -290,7 +290,7 @@ svg {
 }
 
 .usa-mobile_nav-active nav#navigation.usa-nav.nav.is-visible {
-	width: 50%;
+	width: 80%;
 }
 
 .usa-mobile_nav-active ul li svg {
@@ -446,4 +446,9 @@ a {
 	.usa-mobile_nav-active .usa-search {
 		display: none;
 		}
+}
+
+.usa-overlay.is-visible {
+	background: #fff;
+	opacity: .8;
 }
