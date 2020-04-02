@@ -56,33 +56,9 @@ layout: base
 	</div>
 	<div class="clearfix"></div>
 </div>
-
-<div class="blog-market-links-wrapper">
-<section class="blog-market-links">
-	<div class="blog-group">
-    <h4>Focus on FedRAMP Blog</h4>
-    {% include posts-front.html %}
-	</div>
-	<div class="market">
-		<h4>Marketplace</h4>
-		<p>{{ page.marketplace-text }}</p>
-		<a href="https://marketplace.fedramp.gov/"><span><button>VISIT</button><i class="fas fa-shopping-basket"></i></span></a>
-	</div>
-	<div class="links">
-		<h4>Quick Links</h4>
-		<ul>
-			<li><i class="fas fa-compass"></i><a href="{{site.baseurl}}/documents">FedRAMP Documents</a></li>
-			<li><i class="fas fa-compass"></i><a href="{{site.baseurl}}/templates">FedRAMP Templates</a></li>
-			<li><i class="fas fa-compass"></i><a href="{{site.baseurl}}/faqs">Frequently Asked Questions</a></li>
-			<li><i class="fas fa-compass"></i><a href="{{site.baseurl}}/team">Meet Our Team</a></li>
-		</ul>
-	</div>
-	</section>
-</div>
 <section class="auth-process">
-	<h2>{{ page.fed-authorize-header }}</h2>
-	<p>{{ page.fed-authorize-text }}</p>
-</section>
+	<h2>FedRAMP Authorization Process</h2>
+	<p>If you have a Cloud Service Offering (CSO) that is in use by the federal government, you should be thinking about obtaining a FedRAMP authorization. There are two ways to authorize a cloud service through FedRAMP: through individual Agencies and the Joint Authorization Board (JAB).  Click within the below diagram to learn more.</p>
 <div class="process-diagram">
 	<p>Click within the below diagram to learn more.</p>
 	<div class="process-container">
@@ -117,13 +93,35 @@ layout: base
 			<li class="agency-conmon"><span><img src="{{site.baseurl}}/assets/img/conmon-process-red.png"></span>Agency ConMon</li>
 	</ul>
 	</div>
+	<p><span class="asterisk">*</span><em>Optional but highly recommended for agency authorizations</em></p>
 </div>
-<!--<div class="values-wrapper">
-<section class="values-section">
-    <h2>Read about the FedRAMP Values</h2>
-	<button><a href="#">CLICK HERE</a></button>
 </section>
-</div>-->
+<section class="fedramp-glance">
+<h2>FedRAMP at a Glance</h2>
+<ul class="glance-numbers">
+	<li>
+	<img src="{{site.baseurl}}/assets/img/glance-ready.svg" alt="Ready">
+	<span>
+	<p>READY</p>
+	<p class="number">22</p>
+	</span>
+	</li>
+	<li>
+	<img src="{{site.baseurl}}/assets/img/glance-process.svg" alt="In Process">
+	<span>
+	<p>IN PROCESS</p>
+	<p class="number">54</p>
+	</span>
+	</li>
+	<li>
+	<img src="{{site.baseurl}}/assets/img/glance-authorized.svg" alt="Authorized">
+	<span>
+	<p>AUTHORIZED</p>
+	<p class="number">179</p>
+	</span>
+	</li>
+</ul>
+</section>
 
 
 

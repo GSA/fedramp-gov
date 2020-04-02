@@ -144,7 +144,7 @@ div#logo.usa-logo {
 }
 
 .home-active {
-	color: $fr-red;
+	color: $red;
 }
 /*@media (min-width: 768px) and (max-width: 980px) {
 div#logo.usa-logo {
@@ -508,8 +508,8 @@ ul.usa-nav-primary li a {
   box-sizing: border-box;
   color: $mid-gray;
   &.external {
-  	border: 1px solid $fr-red;
-  	color: $fr-red;
+  	border: 1px solid $red;
+  	color: $red;
   	border-radius: 25px;
   }
   &:hover {
@@ -701,7 +701,7 @@ img.desk {
 
 
  .post-count {
-	background: $fr-red;
+	background: $red;
 	padding: 3px;
 	color: #fff;
 	position: absolute;
@@ -834,7 +834,7 @@ li.parent {
 }
 
 ul.usa-nav-primary li.parent.primary-active, ul.usa-nav-primary li a.active {
-	color: $fr-red !important;
+	color: $red !important;
 }
 
 ul.usa-nav-primary ul.sub-sub-menu li a.active, ul.usa-nav-primary ul.sub-menu li a.active {
