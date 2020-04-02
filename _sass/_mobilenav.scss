@@ -201,7 +201,7 @@ button.usa-menu-btn {
     .usa-mobile_nav-active ul li a:hover {
     	background: none;
     	border: none;
-		color: $teal;
+		color: #fff !important;
     }
 
 .usa-mobile_nav-active nav.usa-nav {
@@ -220,6 +220,9 @@ button.usa-menu-btn {
 button.usa-nav-close {
 	margin: 0;
 	width: 100%;
+	&:focus {
+		box-shadow: none;
+	}
 	img {
 		float: right;
 		margin: 0 20px 0 0;
@@ -250,7 +253,7 @@ header .usa-nav-container .usa-menu-btn {
 		color: #fff !important;
 		font-weight: 400;
 		&:hover {
-			color: $teal;
+			color: #fff;
 		}
 		a {
 			background: $dark-blue;
@@ -258,7 +261,7 @@ header .usa-nav-container .usa-menu-btn {
 			font-weight: 400;
 			padding: 0;
 			&:hover {
-				color: $teal;
+				color: #fff;
 				background: none;
 			}
 			&:after {
@@ -342,36 +345,58 @@ header.usa-header {
 	}
 }
 .usa-mobile_nav-active .usa-nav {
-	margin-top: 20px;
-ul li {
-	padding: 20px 45px !important;
+ul.usa-nav-primary {
+	margin-top: 30px;
+	margin-left: 30px;
+	padding: 0;
+	box-sizing: border-box;
+	width: 90%;
+li {
+	&:hover {
+		color: #fff !important;
+	}
+	a:hover {
+		color: #fff !important;
+	}
+}
+ul.sub-menu {
+	margin: 0;
+li {
+	padding: 13px 20px !important;
 	font-weight: 800;
 	font-size: 14px;
 	&:first-child {
-		padding-top: 10px !important;
+		padding-top: 0px !important;
 	}
 	&.parent {
 		font-weight: 800;
 	}
+	&:hover {
+		color: #fff !important;
+		opacity: 1 !important;
+		visibility: visible !important;
+	}
 	a:hover {
-		color: #fff;
+		color: #fff !important;
+		opacity: 1 !important;
 	}
 	li {
 		padding: 13px 20px !important;
 	}
+	}
+	}
 &.parent {
-	padding: 20px 45px !important;
+	padding: 13px 30px !important;
 	font-weight: 800;
 ul.sub-sub-menu {
 	position: static;
 li.parent {
-	padding: 10px 45px !important;
+	padding: 13px 45px !important;
 	font-weight: 600;
 a {
 &:hover > ul {
 	display: block;
 	li {
-		padding: 20px !important;
 	a {
 		color: #fff !important;
 	}
@@ -446,6 +471,10 @@ a {
 			}
 			&.parent {
 				padding: 20px !important;
+			}
+			&:hover {
+				color: #fff !important;
+				opacity: 1 !important;
 			}
 			}
 		}

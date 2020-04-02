@@ -211,7 +211,6 @@
 		margin: 10px auto 0 auto;
 		width: 100%;
 		text-align: center;
-		color: $dark-blue;
 	}
 }
 
@@ -222,8 +221,10 @@
 	p {
 		text-align: center;
 		font-style: italic;
-		font-size: 18px;
-		color: $darkest-blue;
+		font-size: 14px;
+		span {
+			color: $red;
+		}
 	}
 	h3 {
 		font-family: $sans-font;
