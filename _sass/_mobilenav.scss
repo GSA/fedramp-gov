@@ -341,17 +341,20 @@ header.usa-header {
 		}
 	}
 }
-.usa-mobile_nav-active ul li {
+.usa-mobile_nav-active .usa-nav ul li {
 	padding: 20px 45px !important;
+	font-weight: 400;
 	li {
-		padding: 20px !important;
+		padding: 13px 20px !important;
 	}
 &.parent {
 	padding: 20px 45px !important;
+	font-weight: 400;
 ul.sub-sub-menu {
 	position: static;
 li.parent {
-	padding: 20px 45px !important;
+	padding: 10px 45px !important;
+	font-weight: 600;
 a {
 &:hover > ul {
 	display: block;

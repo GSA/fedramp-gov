@@ -6,20 +6,20 @@
 	position: relative;
 	float: left;
 	width: 100%;
-	background-image: url('../../assets/img/homepage_banner_desktop.png');
+	background-image: url('../../assets/img/homepage-banner-desktop.png');
 	padding: 100px 5% 60px 5%;
 }
 
 @media (min-width:768px) and (max-width:980px) {
 	.hero-unit {
-	background-image: url('../../assets/img/homepage_banner_tablet.png');
+	background-image: url('../../assets/img/homepage-banner-tablet.png');
 	padding: 60px 5% 60px 5%;
 	}
 }
 
 @media (min-width:0px) and (max-width:768px) {
 	.hero-unit {
-	background-image: url('../../assets/img/homepage_banner_mobile.png');
+	background-image: url('../../assets/img/homepage-banner-mobile.png');
 	padding: 60px 5% 60px 5%;
 	}
 }
