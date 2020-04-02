@@ -1,10 +1,13 @@
 .hero-unit {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  min-height: 32em;
-  position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 32em;
+	position: relative;
+	background-image: url('../../assets/img/homepage_banner_FR branded.jpg');
+	padding: 1em 0;
 }
+
 .hero-content {
   background-color: transparentize($text-color, .6);
   margin: 0px auto;
@@ -31,13 +34,81 @@
 	}
 }
 
+.hero-text-description {
+	width: 50%;
+}
+
 .home .hero-unit {
   background-image: url("../../assets/img/home-hero-unit.png") !important;
   background-attachment: fixed;
   padding: 130px 0;
   }
 
-@medi (max-width: 750px) {
+.hero-text {
+	width: 75%;
+	
+	h1 {
+		font-size: 46px;
+		letter-spacing: .025em;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin-bottom: 2px;
+	}
+	
+	h3 {
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: .05em;
+		color: #ffffff;
+		font-size: 28px;
+		margin-top: 0;
+	}
+	
+	p {
+		color: #ffffff;
+		width: 50%;
+	}
+}
+
+.home-hero-buttons {
+	a button {
+		background-color: transparent;
+		text-align: left;
+		padding-left: 40px;
+		font-size: 14px;
+	}
+	
+	a {
+		border-radius: 40px;
+		background-repeat: no-repeat;
+		color: #ffffff;
+		padding: 14px 20px;
+		margin-right: 20px;
+	}
+	
+	a.hero-program {
+		background-color: $fr-dark-red;
+		background-image: url('../../assets/img/home-learn-program-basics.svg');
+		background-position: 20px 8px;
+	}
+	
+	a.hero-program button {
+		
+	}
+	
+	a.hero-process {
+		background-color: $dark-blue;
+		background-image: url('../../assets/img/home-meet-the-process.svg');
+		background-position: 14px 14px;
+	}
+	
+	a.hero-process button {
+		
+	}
+}
+
+@media (max-width: 750px) {
 	.hero-content {
   background-color: transparentize($text-color, .6);
   margin: 0px auto;

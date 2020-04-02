@@ -3,28 +3,60 @@ layout: base
 ---
 
 <section id="home-banner">
-  <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
-    <div class="usa-grid">
-      <div class="usa-width-whole hero-content">
-        <h1>{{ page.hero-text }}</h1>
-		<span><p>{{ page.hero-secondary-text }}</p></span>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="front-four">
-<div class="program-basics">
-	<span><img src="{{site.baseurl}}/assets/img/program-basics-icon.png"><div class="title-text"><h5>PROGRAM BASICS</h5><p>Learn more about the history, mission, and goals</p></div><a href="{{site.baseurl}}/program-basics"><button>GET STARTED</button></a></span>
-</div>
-<div class="detailed-info">
-	<h3>Detailed Information to Move Forward</h3>
-<ul>
-	<li><img src="{{site.baseurl}}/assets/img/csp-icon.png"><span><h5>CLOUD SERVICE PROVIDERS</h5><a href="{{site.baseurl}}/cloud-service-providers"><button>LEARN MORE</button></a></span></li>
-	<li><img src="{{site.baseurl}}/assets/img/agencies-icon.png"><span><h5>AGENCIES</h5><a href="{{site.baseurl}}/federal-agencies"><button>LEARN MORE</button></a></span></li>
-	<li><img src="{{site.baseurl}}/assets/img/assessors-icon.png"><span><h5>ASSESSORS</h5><a href="{{site.baseurl}}/assessors"><button>LEARN MORE</button></a></span></li>
-	</ul>
+	<div class="hero-unit" style="">
+    	<div class="usa-grid">
+			<div class="hero-text">
+			<h1>Securing Cloud Services</h1>
+			<h3>For the Federal Government</h3>
+				<div class="hero-text-description">
+					<p>{{ page.hero-secondary-text }}</p>
+				</div>
+			
+				<div class="home-hero-buttons">
+					<a href="#" class="hero-program"><button>Learn Program Basics</button></a>
+					<a href="#" class="hero-process"><button>Meet The Process</button></a>
+				</div>
+			</div>
+    	</div>
 	</div>
+</section>
+
+<div class="partners-container">
+	<div class="home-partners-title">
+		<h3>Information for Our Partners</h3>
+	</div>
+	<div class="home-partners-icons">
+		<div class="parnters-col home-partners-col-1">
+			<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud-service.svg" alt="Cloud Services Providers">
+			<div class="home-partners-text">
+				<h2>Cloud Service Providers</h2>
+				<p>Provide your cloud service offering to the Federal Government</p>
+				<a href="#" class="partner-learn-more"><button>Learn More</button></a>
+			</div>
+		</div>
+		
+		<div class="parnters-col home-partners-col-2">
+			<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="Agencies">
+			<div class="home-partners-text">
+				<h2>Agencies</h2>
+				<p>Adopt secure innovative cloud services to meet your Agency’s critical mission needs</p>
+				<a href="#" class="partner-learn-more"><button>Learn More</button></a>
+			</div>
+		</div>
+		
+		<div class="parnters-col home-partners-col-3">
+			<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="Assesors">
+			<div class="home-partners-text">
+				<h2>Assessors</h2>
+				<p>Assess cloud services to ensure they meet FedRAMP requirements</p>
+				<a href="#" class="partner-learn-more"><button>Learn More</button></a>
+			</div>
+		</div>
+		
+	</div>
+	<div class="clearfix"></div>
 </div>
+
 <div class="blog-market-links-wrapper">
 <section class="blog-market-links">
 	<div class="blog-group">
