@@ -294,7 +294,9 @@ svg {
 }
 
 .usa-mobile_nav-active ul li svg {
-	color: $teal;
+	color: $lighter-teal;
+	width: 25px !important;
+	font-size: 1.25em;
 }
 
 @media (min-width:0) and (max-width: 950px) {
