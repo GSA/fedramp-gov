@@ -341,15 +341,27 @@ header.usa-header {
 		}
 	}
 }
-.usa-mobile_nav-active .usa-nav ul li {
+.usa-mobile_nav-active .usa-nav {
+	margin-top: 20px;
+ul li {
 	padding: 20px 45px !important;
-	font-weight: 400;
+	font-weight: 800;
+	font-size: 14px;
+	&:first-child {
+		padding-top: 10px !important;
+	}
+	&.parent {
+		font-weight: 800;
+	}
+	a:hover {
+		color: #fff;
+	}
 	li {
 		padding: 13px 20px !important;
 	}
 &.parent {
 	padding: 20px 45px !important;
-	font-weight: 400;
+	font-weight: 800;
 ul.sub-sub-menu {
 	position: static;
 li.parent {
@@ -363,6 +375,7 @@ a {
 	a {
 		color: #fff !important;
 	}
+}
 }
 }
 }
