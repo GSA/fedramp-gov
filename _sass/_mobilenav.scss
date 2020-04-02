@@ -187,9 +187,9 @@ button.usa-menu-btn {
 			color: #fff !important;
 		}
 		&.external {
-			color: $teal !important;
+			color: $lighter-teal !important;
 			padding: 10px;
-				border: 1px solid $teal !important;
+				border: 1px solid $lighter-teal !important;
 			&:hover {
 				color: $teal !important;
 				border: 1px solid $teal !important;
@@ -276,7 +276,7 @@ header .usa-nav-container .usa-menu-btn {
 		padding: 0;
 	}
 	svg {
-		color: $teal;
+		color: $lighter-teal;
 	}
 }
 
@@ -339,16 +339,28 @@ header.usa-header {
 		}
 	}
 }
-.usa-mobile_nav-active ul li.parent ul.sub-sub-menu {
+.usa-mobile_nav-active ul li {
+	padding: 20px 45px !important;
+	li {
+		padding: 20px !important;
+	}
+&.parent {
+	padding: 20px 45px !important;
+ul.sub-sub-menu {
 	position: static;
 li.parent {
-	padding: 20px !important;
+	padding: 20px 45px !important;
 a {
 &:hover > ul {
 	display: block;
-	li a {
+	li {
+		padding: 20px !important;
+	a {
 		color: #fff !important;
 	}
+}
+}
+}
 }
 }
 }
