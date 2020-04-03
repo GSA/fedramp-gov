@@ -83,7 +83,7 @@ $(function(){
 						})
 		if (current == '/') {
 				$("#navigation ul li a").removeClass("active");
-		        $("#navigation ul li a").first().addClass("active");
+		        $("#navigation ul li a").first().addClass("home-active");
 		    }
 });
 

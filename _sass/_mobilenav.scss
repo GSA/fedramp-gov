@@ -108,14 +108,12 @@ button.usa-menu-btn {
 //	position: relative;
 //	left: -350px;
 //	top: -30px;
-	height: 80px;
-	width: 80px;
 /*	float: left;*/
 	font-size: 3em;
 	background: none;
 	color: #cdcdcd;
 	border: 2px solid #cdcdcd;
-	margin: 80px 0 0 0;
+	margin: 70px 0 0 0;
 	text-decoration: none;
 }
 
@@ -189,6 +187,8 @@ button.usa-menu-btn {
 		&.external {
 			color: $lighter-teal !important;
 			padding: 10px;
+			margin-left: 0;
+			margin-top: 10px;
 				border: 1px solid $lighter-teal !important;
 			&:hover {
 				color: $teal !important;
@@ -225,13 +225,17 @@ button.usa-nav-close {
 	}
 	img {
 		float: right;
-		margin: 0 20px 0 0;
+		margin: 20px;
+		width: 20px;
 	}
 }
 
 header .usa-nav-container .usa-menu-btn {
 	float: right;
 	clear: both;
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
 	border-radius: 10px;
 	background: $light-gray;
 	border: none;
@@ -278,15 +282,21 @@ header .usa-nav-container .usa-menu-btn {
 	a {
 		padding: 0;
 	}
-	svg {
-		color: $lighter-teal;
+	img {
+		margin: 0 20px 0 0;
 	}
+}
+
+.usa-mobile_nav-active .usa-nav-primary li.parent {
+img {
+	margin: 0 0 0 20px;
+}
 }
 
 
 @media (min-width: 950px) and (max-width: 5000px) {
 .usa-nav-primary li.parent {
-svg {
+img {
 	display: none;
 }
 }
@@ -294,6 +304,12 @@ svg {
 
 .usa-mobile_nav-active nav#navigation.usa-nav.nav.is-visible {
 	width: 80%;
+}
+
+@media (min-width:580px) and (max-width:950px) {
+.usa-mobile_nav-active nav#navigation.usa-nav.nav.is-visible {
+	width: 50%;
+}	
 }
 
 .usa-mobile_nav-active ul li svg {
@@ -306,33 +322,38 @@ svg {
 .usa-nav-container div#logo.usa-logo {
 	background: none;
 	padding: 0;
+	margin: 0 !important;
 	height: 100px;
 	width: 100px;
-	top: 130px;
+	top: 120px;
 }	
 header.usa-header {
 /*	position: absolute;*/
 	&.usa-header-basic {
-		height: 240px;
+		height: 170px;
 /*		position: relative;*/
 	}
 	.search-wrapper {
 		width: 90%;
 		max-width: none;
 		position: absolute;
-		top: 50px;
+		top: 60px;
 		left: 5%;
 		.usa-search {
 			width: 100%;
 			max-width: none !important;
-			height: 50px;
+			height: 35px;
 			input#searchgovinput {
-				height: 50px;
+				height: 35px;
+				width: 90%;
+				border-radius: 20px 0 0 20px;
 			}
 			button#searchgovbutton {
-				height: 50px !important;
+				height: 35px !important;
+				width: 10% !important;
+				border-radius: 0 20px 20px 0;
 				span.usa-search-submit-text {
-					height: 50px;
+					height: 35px;
 					display: flex;
 					align-items: center;
 					justify-content: space-around;
@@ -438,24 +459,45 @@ a {
 }
 }
 
-@media (min-width: 950px) and (max-width: 1024px) {
+@media (min-width: 950px) and (max-width: 1200px) {
 .usa-nav {
-	max-width: 750px !important;
+	max-width: 775px !important;
 	transition: none;
 }
 .usa-nav li a, .usa-nav li.main-parent {
-	padding-right: 5px !important;
-	padding-left: 5px !important;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
 	transition: none;
 }
 .usa-nav li a, .usa-nav li.external {
-		padding-right: 7px !important;
-		padding-left: 7px !important;
+		padding-right: 10px !important;
+		padding-left: 10px !important;
 		transition: none;
 }
 }
 
+@media (min-width:950px) and (max-width:1024px) {
+	.usa-nav li a, .usa-nav li.main-parent {
+		padding-right: 8px !important;
+		padding-left: 8px !important;
+		transition: none;
+	}
+	.usa-nav {
+		max-width: 755px !important;
+	}
+	.usa-nav-primary {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;	
+	}
+}
+
 @media (min-width:0) and (max-width: 950px) {
+.usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
+		color: #fff !important;
+		opacity: 1;
+	}
+
 	ul.usa-nav-primary {
 	ul.sub-menu {
 /*		position: relative;*/
@@ -467,16 +509,19 @@ a {
 			padding: 20px;
 			text-transform: capitalize;
 			&:active {
-				color: $teal !important;
+				color: $lighter-teal !important;
 			}
 			&.parent {
-				padding: 20px !important;
+				padding: 17px 20px !important;
 			}
 			&:hover {
 				color: #fff !important;
 				opacity: 1 !important;
 			}
 			}
+		}
+		.usa-nav-container {
+			padding-bottom: 0;
 		}
 	}
 	.usa-nav-container {
