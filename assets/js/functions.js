@@ -81,9 +81,9 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/') {
+		if (current === '/') {
 				$("#navigation ul li a").removeClass("active");
-		        $("#navigation ul li a").first().addClass("home-active");
+		        $("#navigation ul li a").first().addClass("active");
 		    }
 });
 
