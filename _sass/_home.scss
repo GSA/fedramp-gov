@@ -197,27 +197,37 @@
 
 .auth-process {
 	background: $lightest-gray;
-	padding: 50px 5% 30px 5%;
+	padding: 50px 0 30px 0;
 	text-align: center;
 	float: left;
 	width: 100%;
 	h2 {
-		max-width: 1200px;
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
-		margin-top: 0;
 		font-weight: 400;
-		text-transform: capitalize;
+		text-transform: none;
+		text-align: center;
 		letter-spacing: .02em;
+		padding: 0 0 25px 0;
+		margin: 0 0 40px 0;
+		font-size: 36px;
+		color: $dark-blue;
+		background: url('../../assets/img/red-border.svg') center bottom no-repeat;
 	}
 	p {
-		max-width: 1200px;
+		max-width: 960px;
 		min-width: 0 !important;
 		margin: 10px auto 0 auto;
 		width: 100%;
 		text-align: center;
+		font-size: 15px;
+		line-height: 1.5;
 	}
+}
+
+
+@media (min-widht: 768px) and (max-width: 1200px) {
+	.auth-process {
+		padding: 50px 15% 30px 15%;
+		}
 }
 
 .process-diagram {
@@ -226,8 +236,8 @@
 	padding: 20px 0 60px 0;
 	p {
 		text-align: center;
-		font-style: italic;
-		font-size: 14px;
+		letter-spacing: .02em;
+		clear: both;
 		span {
 			color: $red;
 		}
@@ -262,6 +272,9 @@
 				display: flex;
 				justify-content: center;
 				text-align: center;
+				font-size: 15px;
+				letter-spacing: .02em;
+				font-weight: 400 !important;
 			}
 		}
 		ul.column-1 {
@@ -271,15 +284,18 @@
 			margin: 20px 0;
 			li.jab-first {
 				padding: 0 35px 20px 35px;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
+				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: bottom;
-				font-weight: bold;
-				color: $teal;
-				font-size: 1.5em;
 				min-height: 150px;
 				align-items: center;
 				text-align: center;
 				width: 100%;
+				display: flex;
+				flex-flow: wrap;
+				align-content: center;
+				img {
+					margin: 30px 0 0 0;
+				}
 				svg {
 					margin: 0 0 0 10px;
 				}
@@ -300,13 +316,21 @@
 			}
 			li.agency-first {
 				padding: 20px 35px 0 35px;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
+				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: top;
 				color: $red;
 				font-weight: bold;
-				font-size: 1.5em;
 				min-height: 150px;
 				width: 100%;
+				display: flex;
+				flex-flow: wrap;
+				align-self: center;
+				p {
+					margin-top: -40px;
+				}
+				img {
+					margin: -10px 0 0 0;
+				}
 				svg {
 					margin: 0 0 0 10px;
 				}
@@ -318,8 +342,8 @@
 				flex-flow: wrap;
 				margin: 20px 0;
 			li.jab-one-two {
-				padding: 0px 12px 20px 12px;
-				background: url("../../assets/img/bubble-top-wide.svg") no-repeat;
+				padding: 20px 12px 0px 12px;
+				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
 				width: 100%;
@@ -334,22 +358,20 @@
 						min-height: auto;
 						width: 50%;
 						flex-flow: wrap;
+						display: flex;
 						padding: 0 10px;
-						font-size: .9em;
+						align-self: flex-start;
 						&:first-child {
-							border-right: 1px solid $teal;
+/*							border-right: 1px solid $teal;*/
 							padding: 0 12px 0 0;
 						}
 						span {
-							background: $teal;
-							border-radius: 50px;
-							width: 30px;
-							display: flex;
-							justify-content: center;
-							align-items: center;
-							height: 30px;
-							color: #fff;
-							margin: 0 0 10px 0;
+							color: $light-blue;
+							font-weight: 900;
+							margin: 0 0 5px 0;
+							letter-spacing: .05em;
+							font-size: 16px;
+							text-align: center;
 						}
 					}
 				}
@@ -365,13 +387,12 @@
 				color: #fff;
 				width: 100%;
 				font-weight: 600;
-				font-size: 17px;
 				box-sizing: border-box;
 				background-size: contain !important;
 			}
 			.agency-one-two {
-				padding: 20px 11px 0 11px;
-				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat;
+				padding: 0px 11px 20px 11px;
+				background: url("../../assets/img/bubble-top-wide.svg") no-repeat;
 				background-position: top;
 				background-size: auto 100%;
 				min-height: 150px;
@@ -385,22 +406,20 @@
 						min-height: auto;
 						width: 50%;
 						flex-flow: wrap;
+						display: flex;
 						padding: 0 10px;
-						font-size: .9em;
+						align-self: flex-end;
 						&:first-child {
-							border-right: 1px solid $red;
+/*							border-right: 1px solid $red;*/
 							padding: 0 11px 0 0;
 						}
 						span {
-							background: $red;
-							border-radius: 50px;
-							width: 30px;
-							display: flex;
-							justify-content: center;
-							align-items: center;
-							height: 30px;
-							color: #fff;
-							margin: 0 0 10px 0;
+							color: $red;
+							margin: 5px 0 0 0;
+							font-size: 16px;
+							font-weight: 900;
+							letter-spacing: .05em;
+							text-align: center;
 						}
 					}
 				}
@@ -412,24 +431,20 @@
 				flex-flow: wrap;
 				margin: 20px 0;
 			li.jab-auth {
-				padding: 0px 35px 20px 35px;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
+				padding: 35px 85px 0px 85px;
+				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: bottom;
-				display: flex;
-				flex-flow: wrap;
 				min-height: 150px;
 				width: 100%;
-				font-size: .9em;
+				display: flex;
+				flex-flow: wrap;
+				align-content: flex-start;
 				span {
-					background: $teal;
-					border-radius: 50px;
-					width: 30px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					height: 30px;
-					color: #fff;
-					margin: 0 39% 10px 39%;
+					color: $light-blue;
+					letter-spacing: .05em;
+					font-weight: 900;
+					font-size: 16px;
+					text-align: center;
 				}
 			}
 			li.auth {
@@ -447,24 +462,20 @@
 				background-size: contain !important;
 			}
 			li.agency-auth {
-				padding: 20px 35px 0 35px;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
+				padding: 0px 80px 35px 80px;
+				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: top;
 				flex-flow: wrap;
 				display: flex;
+				align-content: flex-end;
 				min-height: 150px;
 				width: 100%;
-				font-size: .9em;
 				span {
-					background: $red;
-					border-radius: 50px;
-					width: 30px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					height: 30px;
-					color: #fff;
-					margin: 0 39% 10px 39%;
+					color: $red;
+					font-weight: 900;
+					letter-spacing: .05em;
+					font-size: 16px;
+					text-align: center;
 				}
 			}
 		}
@@ -475,12 +486,13 @@
 				margin: 20px 0;
 			li.jab-conmon {
 				flex-flow: wrap;
-				padding: 0px 35px 20px 35px;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
+				padding: 35px 35px 0px 35px;
+				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
 				width: 100%;
-				font-size: .9em;
+				display: flex;
+				align-content: flex-start;
 				span {
 					text-align: center;
 					width: 100%;
@@ -506,13 +518,15 @@
 				background-size: contain !important;
 			}
 			li.agency-conmon {
-				padding: 20px 35px 0px 35px;
+				padding: 0px 35px 35px 35px;
 				flex-flow: wrap;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
+				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: top;
-				min-height: 150px;
+				height: 150px;
+				min-height: auto;
 				width: 100%;
-				font-size: .9em;
+				display: flex;
+				align-content: flex-end;
 				span {
 					text-align: center;
 					width: 100%;
@@ -536,7 +550,7 @@
 			padding: 0 0 40px 0;
 			margin: 20px 0 30px 0;
 			li.jab-first {
-				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat bottom;
 				background-size: 100%;
 				min-height: 90px;
 				padding-bottom: 20px;
@@ -549,7 +563,7 @@
 				margin: auto;
 			}
 			li.agency-first {
-				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+				background: url("../../assets/img/bubble-top-wide.svg") no-repeat top;
 				background-size: 100%;
 				min-height: 90px;
 				padding-top: 20px;
@@ -583,7 +597,7 @@
 			padding: 0;
 			margin: 0;
 			li.jab-conmon {
-				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat bottom;
 				background-size: 100%;
 				min-height: 110px;
 				padding-bottom: 20px;
@@ -596,7 +610,7 @@
 				margin: auto;
 			}
 			li.agency-conmon {
-				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+				background: url("../../assets/img/bubble-top-wide.svg") no-repeat top;
 				background-size: 100%;
 				min-height: 110px;
 				padding-top: 20px;
@@ -610,7 +624,7 @@
 		padding: 0 0 40px 0;
 		margin: 0 0 30px 0;
 		li.jab-auth {
-			background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+			background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat bottom;
 			background-size: 100%;
 			min-height: 125px;
 			padding-bottom: 20px;
@@ -623,7 +637,7 @@
 				margin: auto;
 		}
 		li.agency-auth {
-			background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+			background: url("../../assets/img/bubble-top-wide.svg") no-repeat top;
 			background-size: 100%;
 			min-height: 125px;
 			padding-top: 20px;
