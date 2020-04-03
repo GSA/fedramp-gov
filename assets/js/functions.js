@@ -73,7 +73,7 @@ $(".bell").click(function() {
 //});
 
 $(function(){
-    var current = location.pathname;
+    var current = window.location.pathname;
     $('#navigation li a').each(function(){
         var $this = $(this);
         // if the current path is like this link, make it active
