@@ -81,7 +81,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == 'https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/footer-header-home/') {
+		if (current == '/preview/gsa/fedramp-gov/footer-header-home/') {
 				$("#navigation ul li a").removeClass("active");
 		        $("#navigation ul li a").first().addClass("active");
 		    }
