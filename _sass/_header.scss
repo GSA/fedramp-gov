@@ -139,8 +139,8 @@ div#logo.usa-logo {
 	z-index: 1;
 	padding: 0 25px 18px 25px;
 	height: 150px;
-	max-width: 160px;
-	min-width: 160px;
+	max-width: 150px;
+	min-width: 150px;
 	background: #fff;
 	text-align: center;
 	border-radius: 2px;
@@ -149,6 +149,13 @@ div#logo.usa-logo {
 	img {
 		max-width: 110px;
 		margin: 0;
+	}
+}
+
+@media (min-width: 951px) {
+div#logo.usa-logo {
+	display: flex;
+	justify-content: space-around;
 	}
 }
 
