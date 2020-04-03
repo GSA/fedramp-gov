@@ -111,6 +111,7 @@
 		color: $teal;
 		font-size: 22px;
 		letter-spacing: .02em;
+		font-weight: 500;
 	}
 	
 	.partners-col p {
@@ -1051,20 +1052,19 @@ section#goals div.inner {
 			span {
 			p {
 				color: $teal;
-				font-weight: 700;
+				font-weight: 700 !important;
 				font-size: 20px;
 				text-align: center;
 				margin: 20px 0 0 0;
-				letter-spacing: .04em;
+				letter-spacing: .04em !important;
 				&.number {
 					color: $red;
 					font-size: 100px;
-					font-weight: 800;
+					font-weight: 800 !important;
 					text-align: center;
 					margin: 0;
 					line-height: 1;
-					font-weight: 800;
-					letter-spacing: .04em;
+					letter-spacing: .04em !important;
 					font-family: $title-font !important;
 				}
 			}
