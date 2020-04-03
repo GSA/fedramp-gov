@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.desktop-hide {
+	display: none !important;
+}
+
 .home .usa-width-one-whole > p {
   // same as .usa-font-lead
 //  max-width: 77rem;
@@ -103,7 +107,7 @@
 	}
 	
 	.partners-col h2 {
-		font-weight: 400;
+		font-weight: 700;
 		color: $teal;
 		font-size: 22px;
 		letter-spacing: .02em;
@@ -191,7 +195,7 @@
 				border: none;
 			}
 		}
-}
+	}
 }
 
 span.assessment {
@@ -314,8 +318,12 @@ span.assessment {
 				display: flex;
 				flex-flow: wrap;
 				align-content: center;
+				p {
+					margin-top: 6px;
+				}
+				
 				img {
-					margin: 30px 0 0 0;
+					margin: 20px 0 0 0;
 				}
 				svg {
 					margin: 0 0 0 10px;
@@ -607,6 +615,14 @@ span.assessment {
 }
 
 @media (min-width: 0) and (max-width: 949px) {
+	.mobile-hide {
+		display: none !important;
+	}
+	
+	.desktop-hide {
+		display: block !important;
+	}
+	
 	.process-diagram {
 		max-width: 450px;
 		margin: 0 auto;
@@ -634,29 +650,50 @@ span.assessment {
 		width: 90%;
 		}
 		.process-diagram .process-container ul.column-1 {
-			margin: 20px 0 30px 0;
-			li.jab-first {
-				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
-				background-size: 100%;
-				min-height: 100px;
-				padding: 10px 0 10px 0;
-				box-sizing: border-box;
-				width: 324px;
-				margin: auto;
-			}
-			li.seek {
-				width: 324px;
-				margin: auto;
-			}
-			li.agency-first {
-				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
-				background-size: 100%;
-				min-height: 100px;
-				padding: 20px 0 30px 0;
-				box-sizing: border-box;
-				width: 324px;
-				margin: auto;
+			margin: 10px 0 30px 0;
+				li.jab-first {
+					background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
+					background-size: 100%;
+					min-height: 80px;
+					padding: 0;
+					box-sizing: border-box;
+					width: 324px;
+					margin: auto;
+					
+					p {
+						margin-top: 16px;
+					}
+					
+					img {
+						position: relative;
+						top: 8px;
+						left: -6px;
+					}
 				}
+				li.seek {
+					width: 324px;
+					margin: auto;
+				}
+				li.agency-first {
+					background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
+					background-size: 100%;
+					min-height: 80px;
+					padding: 20px 0;
+					box-sizing: border-box;
+					width: 324px;
+					margin: auto;
+					
+					p {
+						margin-top: 0 !important;
+					}
+					
+					img {
+						position: relative;
+						top: 6px;
+						left: 4px;
+					}
+				}
+				
 			}
 			.process-diagram .process-container ul.column-2 {
 				margin: 0 0 30px 0;

@@ -144,6 +144,13 @@
 }
 
 @media (max-width: 750px) {
+	
+	.home-hero-buttons {
+		button {
+			margin: 20px 0 0 0;
+		}
+	}
+	
 	.hero-content {
   background-color: transparentize($text-color, .6);
   margin: 0px auto;
