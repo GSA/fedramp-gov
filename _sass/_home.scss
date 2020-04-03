@@ -223,13 +223,6 @@
 	}
 }
 
-
-@media (min-widht: 768px) and (max-width: 1200px) {
-	.auth-process {
-		padding: 50px 15% 30px 15%;
-		}
-}
-
 .process-diagram {
 	float: left;
 	width: 100%;
@@ -540,6 +533,26 @@
 		}
 	}
 	}
+	
+@media (min-width: 950px) and (max-width: 1200px) {
+	.process-diagram {
+		padding: 20px 15% 60px 15%;
+		}
+	.auth-process {
+		padding: 50px 5% 30px 5%;
+	}
+}
+
+@media (min-width: 0) and (max-width: 949px) {
+	.process-diagram {
+		max-width: 450px;
+		margin: 0 auto;
+		float: none;
+		}
+	.auth-process {
+		padding: 50px 5% 30px 5%;
+	}
+}
 
 @media (min-width: 0) and (max-width: 580px) {
 	.process-diagram .process-container ul.column-1, .process-diagram .process-container ul.column-3, .process-diagram .process-container ul.column-4, .process-diagram .process-container ul.column-2 {
