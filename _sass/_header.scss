@@ -75,7 +75,7 @@ div.usa-navbar:after {
 }
 
 nav.usa-nav {
-	padding: 25px 0 10px 0;
+	padding: 25px 0 7px 0;
 	background: none;
 	float: right;
 ul {
@@ -533,6 +533,7 @@ ul.usa-nav-primary li a {
   padding-bottom: 10px;
   box-sizing: border-box;
   color: $mid-gray;
+  font-weight: 800;
   &.external {
   	border: 1px solid $red;
   	color: $red;
