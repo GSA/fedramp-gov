@@ -117,11 +117,18 @@
 		background-repeat: no-repeat;
 		padding: 20px 20px 20px 80px;
 		margin: 20px 30px 0 0;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 	
 	a {
 		color: #ffffff;
 		text-decoration: none;
+		letter-spacing: .025em;
+		&:hover {
+			text-decoration: none !important;
+		}
 	}
 	
 	.hero-program {
