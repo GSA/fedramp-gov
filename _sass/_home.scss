@@ -30,7 +30,7 @@
 	max-width: 1200px;
 	width: 100% !important;
     margin: 0 auto;
-	padding: 20px 0 40px 0;
+	padding: 20px 0;
     width: auto;
     box-sizing: border-box;
     display: flex;
@@ -81,14 +81,15 @@
 
 .home-partners-icons {
 	width: 100%;
-	min-height: 300px;
+	min-height: 260px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	padding: 0;
+	margin: 0;
 	li {
 		list-style: none;
-		width: 320px;
+		width: 390px;
 	}
 	img {
 		float: left;
@@ -112,6 +113,7 @@
 		font-size: 22px;
 		letter-spacing: .02em;
 		font-weight: 500;
+		margin-top: 25px;
 	}
 	
 	.partners-col p {
@@ -170,7 +172,7 @@
 		li {
 			padding-bottom: 0;
 			margin-bottom: 30px;
-			width: 320px;
+			width: 390px;
 /*			border-bottom: 1px solid $light-gray;*/
 			&:last-child {
 				border: none;
@@ -559,7 +561,7 @@ span.assessment {
 				margin: 20px 0;
 			li.jab-conmon {
 				flex-flow: wrap;
-				padding: 35px 35px 0px 35px;
+				padding: 35px 90px 0px 90px;
 				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
 				background-position: bottom;
 				min-height: 150px;
@@ -591,7 +593,7 @@ span.assessment {
 				background-size: contain !important;
 			}
 			li.agency-conmon {
-				padding: 0px 35px 35px 35px;
+				padding: 0px 90px 35px 90px;
 				flex-flow: wrap;
 				background: url("../../assets/img/bubble-top.svg") no-repeat;
 				background-position: top;
