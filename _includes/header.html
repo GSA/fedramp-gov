@@ -43,39 +43,6 @@
 
   <div class="search-feature">
   <div class="search-wrapper">
-  <!--<div class="bell">
-  <i class="fas fa-bell">
-  	  </i>	  	
-  	  {% assign timeframe = 1678400 %}
-  	    {% for post in site.posts %}
-  	    	{% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
-  	    	    {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
-  				  {% assign counter = counter | plus: 1 %}
-  	    	    {% if post_in_seconds > recent_posts %}
-  	    	<button class="post-count">{{ counter }}</button>
-  	    	{% endif %}
-  	    	{% endfor %}
-  	    	<div id="alert-logic">
-  	  <div class="alert-wrapper">
-  	  {% assign timeframe = 1678400 %}
-  	  
-  	  {% for post in site.posts %}
-  	    {% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
-  	    {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
-  	  
-  	    {% if post_in_seconds > recent_posts %}
-  		<ul>
-  				  <li class="current-post">
-  	              <a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
-  	      		 <p class="date">{{ post.date | date: "%B %-d, %Y"}}</p>
-  	      		<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
-  				  </li>
-  	        </ul>
-  	    {% endif %}
-  {% endfor %}
-  	  </div>
-  			</div>
-  			</div>-->
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
       <input name='search' type='search' id="searchgovinput" placeholder="Search">
@@ -107,7 +74,7 @@
 <!--    </div>-->
     <nav role="navigation" class="usa-nav nav" id="navigation">
       <button class="usa-nav-close">
-        <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
+        <img src="{{ site.baseurl }}/assets/img/menu-close.svg" alt="close">
       </button>
       <ul class="usa-nav-primary usa-accordion">
       {% assign navs = site.data.navbar.assigned %}
@@ -115,7 +82,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}  &nbsp;<i class="fas fa-chevron-down"></i><!--<div class="plus-minus plus"></div>-->
+<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
             <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}
