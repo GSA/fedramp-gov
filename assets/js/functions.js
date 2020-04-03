@@ -73,7 +73,7 @@ $(".bell").click(function() {
 //});
 
 $(function(){
-    var current = location.pathname;
+    var current = window.location.pathname;
     $('#navigation li a').each(function(){
         var $this = $(this);
         // if the current path is like this link, make it active
@@ -81,7 +81,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current === '/') {
+		if (current == '/preview/gsa/fedramp-gov/footer-header-home/') {
 				$("#navigation ul li a").removeClass("active");
 		        $("#navigation ul li a").first().addClass("active");
 		    }
