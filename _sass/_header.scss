@@ -644,7 +644,7 @@ img.desk {
 	width: 86%;
 	height: 33px;
 	padding-left: 20px;
-	border-radius: 25px 0 0 25px;
+	border-radius: 20px 0 0 20px;
 	&:active {
 		box-shadow: none;
 		outline: 0;
@@ -656,7 +656,7 @@ img.desk {
 	width: 14%;
 	height: 33px;
 	float: left;
-	border-radius: 0 25px 25px 0;
+	border-radius: 0 20px 20px 0;
 	svg {
 		color: #fff;
 		margin: 0;
