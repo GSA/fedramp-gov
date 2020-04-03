@@ -108,14 +108,12 @@ button.usa-menu-btn {
 //	position: relative;
 //	left: -350px;
 //	top: -30px;
-	height: 80px;
-	width: 80px;
 /*	float: left;*/
 	font-size: 3em;
 	background: none;
 	color: #cdcdcd;
 	border: 2px solid #cdcdcd;
-	margin: 80px 0 0 0;
+	margin: 70px 0 0 0;
 	text-decoration: none;
 }
 
@@ -190,7 +188,7 @@ button.usa-menu-btn {
 			color: $lighter-teal !important;
 			padding: 10px;
 			margin-left: 0;
-			padding-top: 30px;
+			margin-top: 10px;
 				border: 1px solid $lighter-teal !important;
 			&:hover {
 				color: $teal !important;
@@ -235,6 +233,9 @@ button.usa-nav-close {
 header .usa-nav-container .usa-menu-btn {
 	float: right;
 	clear: both;
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
 	border-radius: 10px;
 	background: $light-gray;
 	border: none;
@@ -321,33 +322,38 @@ img {
 .usa-nav-container div#logo.usa-logo {
 	background: none;
 	padding: 0;
+	margin: 0 !important;
 	height: 100px;
 	width: 100px;
-	top: 130px;
+	top: 120px;
 }	
 header.usa-header {
 /*	position: absolute;*/
 	&.usa-header-basic {
-		height: 240px;
+		height: 170px;
 /*		position: relative;*/
 	}
 	.search-wrapper {
 		width: 90%;
 		max-width: none;
 		position: absolute;
-		top: 50px;
+		top: 60px;
 		left: 5%;
 		.usa-search {
 			width: 100%;
 			max-width: none !important;
-			height: 50px;
+			height: 35px;
 			input#searchgovinput {
-				height: 50px;
+				height: 35px;
+				width: 90%;
+				border-radius: 20px 0 0 20px;
 			}
 			button#searchgovbutton {
-				height: 50px !important;
+				height: 35px !important;
+				width: 10% !important;
+				border-radius: 0 20px 20px 0;
 				span.usa-search-submit-text {
-					height: 50px;
+					height: 35px;
 					display: flex;
 					align-items: center;
 					justify-content: space-around;
@@ -470,6 +476,22 @@ a {
 }
 }
 
+@media (min-width:950px) and (max-width:1024px) {
+	.usa-nav li a, .usa-nav li.main-parent {
+		padding-right: 8px !important;
+		padding-left: 8px !important;
+		transition: none;
+	}
+	.usa-nav {
+		max-width: 755px !important;
+	}
+	.usa-nav-primary {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;	
+	}
+}
+
 @media (min-width:0) and (max-width: 950px) {
 	ul.usa-nav-primary {
 	ul.sub-menu {
@@ -492,6 +514,9 @@ a {
 				opacity: 1 !important;
 			}
 			}
+		}
+		.usa-nav-container {
+			padding-bottom: 0;
 		}
 	}
 	.usa-nav-container {
