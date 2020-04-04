@@ -85,6 +85,10 @@ a {
   outline: none;
 }
 
+.clearfix {
+	clear: both;
+}
+
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
     position: relative;
