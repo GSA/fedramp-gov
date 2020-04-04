@@ -68,7 +68,7 @@ defaults:
 forms:
 - type: newsletter
   heading: Add your email to FedRAMP's subscriber list.
-  url: https://public.govdelivery.com/accounts/USGSA/subscriber/topics?qsp=USGSA_2224
+  url: https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224
   button: Subscribe
   privacypolicy: Your privacy and security are important to us, we'll only share your information as described in the <a href="http://www.gsa.gov/portal/content/116609">GSA Privacy and Security Notice</a>
 
