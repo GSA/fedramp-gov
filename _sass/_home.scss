@@ -206,10 +206,9 @@ span.assessment {
 }
 
 .home-auth-title {
-		margin: 40px auto 0 auto;
+		margin: 0 auto 12px auto;
 		border-top: solid 1px #dedede;
 		width: 100%;
-		margin-bottom: 12px;
 		display: none;
 		h4 {
 			color: $red;
@@ -231,7 +230,7 @@ span.assessment {
 
 .auth-process {
 	background: $lightest-gray;
-	padding: 50px 0 0 0;
+	padding: 45px 0 0 0;
 	text-align: center;
 	float: left;
 	width: 100%;
@@ -241,7 +240,7 @@ span.assessment {
 		text-align: center;
 		letter-spacing: .02em;
 		padding: 0 0 25px 0;
-		margin: 0 0 40px 0;
+		margin: 0 0 25px 0;
 		font-size: 36px;
 		color: $new-home-teal;
 		background: url('../../assets/img/red-border.svg') center bottom no-repeat;
@@ -253,7 +252,7 @@ span.assessment {
 		margin: 10px auto 0 auto;
 		width: 100%;
 		text-align: center;
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 1.5;
 	}
 	
@@ -263,13 +262,15 @@ span.assessment {
 	
 	p.optional-auth {
 		margin-top: 30px;
+		font-size: 14px;
+		line-height: 18px;
 	}
 }
 
 .process-diagram {
 	float: left;
 	width: 100%;
-	padding: 20px 0 60px 0;
+	padding: 20px 0 30px 0;
 	p {
 		text-align: center;
 		letter-spacing: .02em;
@@ -290,13 +291,13 @@ span.assessment {
 	}
 	.process-container {
 		max-width: 1200px;
-		margin: 0 auto;
+		margin: 20px auto 0 auto;
 		width: auto;
 		box-sizing: border-box;
 		display: flex;
 		flex-flow: row wrap;
-		align-items: center;
-		justify-content: center;
+		align-items: flex-start;
+		justify-content: space-around;
 		ul {
 			padding: 0;
 			margin: 0;
@@ -309,32 +310,37 @@ span.assessment {
 				justify-content: center;
 				text-align: center;
 				font-size: 15px;
+				height: 133px;
 				letter-spacing: .02em;
 				font-weight: 400 !important;
 			}
 		}
 		ul.column-1 {
-			width: 292px;
+			width: 291px;
 			display: flex;
 			flex-flow: wrap;
-			margin: 20px 0;
+			height: 360px;
+			margin: 0;
 			li.jab-first {
-				padding: 0 35px 20px 35px;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
+				padding: 0 35px 35px 35px;
+				background: url("../../assets/img/bubble-bottom-134.svg") no-repeat;
 				background-position: bottom;
-				min-height: 150px;
+				background-size: cover;
 				align-items: center;
 				text-align: center;
-				width: 100%;
+				width: 179px;
+				margin: 0 auto;
 				display: flex;
 				flex-flow: wrap;
-				align-content: center;
+				align-content: flex-end;
+				height: 133px;
+				box-sizing: border-box;
 				p {
-					margin-top: 6px;
+					margin-top: 0px;
 				}
 				
 				img {
-					margin: 20px 0 0 0;
+					margin: 0 0 0 0;
 				}
 				svg {
 					margin: 0 0 0 10px;
@@ -342,7 +348,7 @@ span.assessment {
 			}
 			li.seek {
 				padding: 35px 0;
-				background: url("../../assets/img/chevron-1.svg") no-repeat;
+				background: url("../../assets/img/chevron-1v2.svg") no-repeat;
 				background-position: center;
 				width: auto;
 				height: auto;
@@ -352,24 +358,31 @@ span.assessment {
 				width: 100%;
 				font-size: 17px;
 				font-weight: 600;
-				background-size: contain !important;
+				background-size: contain;
+				letter-spacing: .01em;
+				font-size: 18px;
+				font-weight: 700 !important;
 			}
 			li.agency-first {
-				padding: 20px 35px 0 35px;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
+				padding: 35px 35px 0 35px;
+				background: url("../../assets/img/bubble-134.svg") no-repeat;
 				background-position: top;
+				background-size: cover;
 				color: $red;
 				font-weight: bold;
-				min-height: 150px;
-				width: 100%;
+				width: 179px;
+				margin: 0 auto;
 				display: flex;
+				align-content: flex-start;
 				flex-flow: wrap;
 				align-self: center;
+				height: 133px;
+				box-sizing: border-box;
 				p {
-					margin-top: -40px;
+					margin-top: 0px;
 				}
 				img {
-					margin: -10px 0 0 0;
+					margin: 0;
 				}
 				svg {
 					margin: 0 0 0 10px;
@@ -377,38 +390,39 @@ span.assessment {
 			}
 		}
 		ul.column-2 {
-				width: 324px;
+				width: 379px;
 				display: flex;
 				flex-flow: wrap;
-				margin: 20px 0;
+				justify-content: space-between;
+				margin: 0;
+				height: 360px;
 			li.jab-one-two {
-				
+				height: 133px;
+				width: 379px;
 				ul {
 					padding: 0;
 					display: flex;
 					justify-content: space-between;
 					flex-flow: row wrap;
-					
+					width: 364px;
+					height: 133px;
 					li.readiness, li.security {
-						padding: 0px 12px 0px 12px !important;
-						background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
-						min-height: 150px;
+						padding: 25px 12px 0px 12px;
+						background: url("../../assets/img/bubble-bottom-2-1.svg") no-repeat top;
 						background-size: auto 100%;
+						height: 133px;
 						box-sizing: border-box;
-						width: 48%;
 					}
 					
 					li.readiness {
-						width: 58%;
-						padding-top: 12px !important;
-						
+						width: 196px;
 						p {
 							margin: 0;
 						}
 					}
 					
 					li.security {
-						width: 40%;
+						width: 153px;
 					}
 					
 					li {
@@ -417,10 +431,10 @@ span.assessment {
 						flex-flow: wrap;
 						display: flex;
 						padding: 0 10px;
-						align-self: flex-start;
+						align-content: flex-start;
 						&:first-child {
 /*							border-right: 1px solid $teal;*/
-							padding: 0 12px 0 0;
+/*							padding: 0 12px 0 0;*/
 						}
 						span.step-title {
 							color: $light-blue;
@@ -435,7 +449,7 @@ span.assessment {
 			}
 			li.prep {
 				padding: 35px 0;
-				background: url("../../assets/img/chevron-2.svg") no-repeat;
+				background: url("../../assets/img/chevron-2v2.svg") no-repeat;
 				background-position: center;
 				width: auto;
 				height: auto;
@@ -445,32 +459,39 @@ span.assessment {
 				width: 100%;
 				font-weight: 600;
 				box-sizing: border-box;
-				background-size: contain !important;
+				background-size: contain;
+				letter-spacing: .01em;
+				font-size: 18px;
+				font-weight: 700 !important;
 			}
 			.agency-one-two {
-				
+				height: 133px;
+				width: 379px;
 				ul {
 					padding: 0;
 					display: flex;
 					justify-content: space-between;
 					flex-flow: row wrap;
-					
+					width: 364px;
+					height: 133px;
 					li.one, li.two {
-						background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
-						background-position: top;
-						padding: 0px 11px 20px 11px !important;
+						background: url("../../assets/img/bubble-2-1.svg") no-repeat bottom;
+						background-size: cover;
+						padding: 0px 5px 25px 5px !important;
 						background-size: auto 100%;
-						min-height: 150px;
-						width: 48%;
+						height: 133px;
+						box-sizing: border-box;
+						display: flex;
+						align-content: flex-end;
 					}
 					
 					li.one {
-						width: 58%;
+						width: 196px;
 					}
 					
 					li.two {
-						width: 40%;
-						padding: 34px 11px 20px 11px !important;
+						width: 153px;
+						padding: 0 11px 30px 11px !important;
 					}
 					
 					li {
@@ -498,23 +519,28 @@ span.assessment {
 			}
 		}
 		ul.column-3 {
-				width: 292px;
+				width: 240px;
 				display: flex;
 				flex-flow: wrap;
-				margin: 20px 0;
+				height: 360px;
+				margin: 0;
+				justify-content: space-around;
 			li.jab-auth {
-				padding: 35px 85px 0px 85px;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
-				background-position: bottom;
-				min-height: 150px;
-				width: 100%;
+				padding: 25px 30px 0px 30px;
+				background: url("../../assets/img/bubble-bottom-134.svg") no-repeat;
+				background-position: top;
+				background-size: cover;
+				width: 179px;
+				height: 133px;
+				margin: 0 auto;
 				display: flex;
 				flex-flow: wrap;
 				align-content: flex-start;
 				span {
 					color: $light-blue;
-					letter-spacing: .05em;
 					font-weight: 900;
+					margin: 0 0 5px 0;
+					letter-spacing: .05em;
 					font-size: 16px;
 					text-align: center;
 				}
@@ -524,7 +550,7 @@ span.assessment {
 			}
 			li.auth {
 				padding: 35px 0;
-				background: url("../../assets/img/chevron-3-4.svg") no-repeat;
+				background: url("../../assets/img/chevron-3v2.svg") no-repeat;
 				background-position: center;
 				width: auto;
 				height: auto;
@@ -534,40 +560,49 @@ span.assessment {
 				width: 100%;
 				font-size: 17px;
 				font-weight: 600;
-				background-size: contain !important;
+				background-size: contain;
+				letter-spacing: .01em;
+				font-size: 18px;
+				font-weight: 700 !important;
 			}
 			li.agency-auth {
-				padding: 0px 80px 35px 80px;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
-				background-position: top;
+				padding: 0px 30px 25px 30px;
+				background: url("../../assets/img/bubble-134.svg") no-repeat;
+				background-position: bottom;
+				background: cover;
 				flex-flow: wrap;
 				display: flex;
 				align-content: flex-end;
-				min-height: 150px;
-				width: 100%;
+				width: 179px;
+				height: 133px;
+				margin: 0 auto;
 				span {
 					color: $red;
+					margin: 5px 0 0 0;
+					font-size: 16px;
 					font-weight: 900;
 					letter-spacing: .05em;
-					font-size: 16px;
 					text-align: center;
 				}
 			}
 		}
 		ul.column-4 {
-				width: 292px;
+				width: 250px;
 				display: flex;
 				flex-flow: wrap;
-				margin: 20px 0;
+				height: 360px;
+				margin: 0;
+				justify-content: space-around;
 			li.jab-conmon {
 				flex-flow: wrap;
-				padding: 35px 90px 0px 90px;
-				background: url("../../assets/img/bubble-bottom.svg") no-repeat;
+				padding: 0 30px 35px 30px;
+				background: url("../../assets/img/bubble-bottom-134.svg") no-repeat;
 				background-position: bottom;
-				min-height: 150px;
-				width: 100%;
+				background-size: cover;
+				width: 179px;
 				display: flex;
-				align-content: flex-start;
+				height: 133px;
+				align-content: flex-end;
 				span {
 					text-align: center;
 					width: 100%;
@@ -580,7 +615,7 @@ span.assessment {
 			}
 			li.conmon {
 				padding: 35px 0;
-				background: url("../../assets/img/chevron-3-4.svg") no-repeat;
+				background: url("../../assets/img/chevron-4v2.svg") no-repeat;
 				background-position: center;
 				width: auto;
 				height: auto;
@@ -590,18 +625,23 @@ span.assessment {
 				width: 100%;
 				font-size: 17px;
 				font-weight: 600;
-				background-size: contain !important;
+				background-size: contain;
+				letter-spacing: .01em;
+				font-size: 18px;
+				font-weight: 700 !important;
 			}
 			li.agency-conmon {
-				padding: 0px 90px 35px 90px;
+				padding: 35px 30px 0 30px;
 				flex-flow: wrap;
-				background: url("../../assets/img/bubble-top.svg") no-repeat;
+				background: url("../../assets/img/bubble-134.svg") no-repeat;
 				background-position: top;
+				background-size: cover;
 				height: 150px;
 				min-height: auto;
-				width: 100%;
+				width: 179px;
 				display: flex;
-				align-content: flex-end;
+				height: 133px;
+				align-content: flex-start;
 				span {
 					text-align: center;
 					width: 100%;
@@ -616,16 +656,35 @@ span.assessment {
 	}
 	}
 	
-@media (min-width: 950px) and (max-width: 1200px) {
+@media (min-width: 949px) and (max-width: 1200px) {
 	.process-diagram {
-		padding: 20px 15% 60px 15%;
+		padding: 20px 7% 60px 7%;
+		justify-content: space-around;
 		}
 	.auth-process {
 		padding: 50px 5% 30px 5%;
 	}
+	.process-container {
+		justify-content: space-around;
+	}
+	ul.column-1, ul.column-2 {
+		margin: 0 0 40px 0 !important;
+	}
+	ul.column-1, ul.column-3 {
+		width: 291px !important;
+	}
+	ul.column-2, ul.column-4 {
+		width: 379px !important;
+	}
 }
 
-@media (min-width: 0) and (max-width: 949px) {
+@media (min-width:0) and (max-width:1200px) {
+	ul.column-1 li.seek, ul.column-2 li.prep, ul.column-3 li.auth, ul.column-4 li.conmon {
+		background-size: auto !important;
+	}
+}
+
+@media (min-width: 0) and (max-width: 1051px) {
 	.mobile-hide {
 		display: none !important;
 	}
@@ -638,15 +697,25 @@ span.assessment {
 		max-width: 450px;
 		margin: 0 auto;
 		float: none;
+		padding-bottom: 20px;
+		padding-top: 0;
 		}
 	.auth-process {
-		padding: 50px 5% 30px 5%;
+		padding: 60px 5% 30px 5%;
+	}
+	
+	.process-container {
+		margin-bottom: 60px !important;
+		margin-top: 0;
 	}
 }
 
-@media (min-width: 0) and (max-width: 949px) {
-	.mobile-hide {
+@media (min-width: 0) and (max-width: 1051px) {
+/*	.mobile-hide {
 		display: none;
+	}*/
+	.auth-process p {
+		font-size: 15px;
 	}
 	
 	.home-auth-title {
@@ -661,15 +730,19 @@ span.assessment {
 		width: 90%;
 		}
 		.process-diagram .process-container ul.column-1 {
-			margin: 10px 0 30px 0;
+			margin: 0 0 75px 0;
+			height: 240px;
+			width: 303px !important;
 				li.jab-first {
 					background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
 					background-size: 100%;
 					min-height: 80px;
-					padding: 0;
+					height: 80px;
+					padding: 0 50px 0px 50px;
 					box-sizing: border-box;
 					width: 324px;
-					margin: auto;
+					margin: 0 auto;
+					flex-flow: row-reverse;
 					
 					p {
 						margin-top: 6px;
@@ -677,116 +750,171 @@ span.assessment {
 					
 					img {
 						position: relative;
-						top: 8px;
-						left: 4px;
+						top: 5px;
+						left: -66px;
 					}
 				}
 				li.seek {
-					width: 324px;
-					margin: auto;
+					width: 303px;
+					margin: 0 auto;
+					height: 60px;
+					background-size: contain;
 				}
 				li.agency-first {
 					background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
 					background-size: 100%;
 					min-height: 80px;
-					padding: 20px 0;
+					height: 80px;
+					padding: 0 30px 17px 30px;
 					box-sizing: border-box;
 					width: 324px;
-					margin: auto;
-					
+					margin: 0 auto;
+					flex-flow: row;
 					p {
 						margin-top: 0 !important;
 					}
 					
 					img {
 						position: relative;
-						top: 6px;
-						left: 4px;
+						top: 1px;
+						left: -66px;
 					}
 				}
 				
 			}
 			.process-diagram .process-container ul.column-2 {
-				margin: 0 0 30px 0;
+				margin: 0 0 75px 0;
+				height: 388px;
+				width: 303px !important;
 					li.jab-one-two {
-						padding-bottom: 20px;
 						box-sizing: border-box;
-						width: 324px;
-						margin: auto;
+						width: 302px;
+						height: 147px;
+						margin: 0;
+						ul {
+							height: 147px;
+						}
 						li.readiness, li.security {
-							width: 49% !important;
+							width: 146px !important;
+							height: 147px !important;
+							background: url("../../assets/img/bubble-mobile-2-2.svg") no-repeat center;
+						}
+						li.readiness {
+/*							padding-left: 0 !important;
+							padding-right: 0 !important;*/
 						}
 					}
 				
 					li.prep {
-						width: 324px;
-						margin: auto;
+						width: 303px;
+						margin: 0 auto;
+						height: 60px;
+					background-size: contain;
+				background: url("../../assets/img/chevron-mobile.svg") no-repeat center;
 					}
 				
 					li.agency-one-two {
-						padding-top: 20px;
 						box-sizing: border-box;
-						width: 324px;
-						margin: auto;
+						width: 302px;
+						height: 147px;
+						margin: 0;
+						ul {
+							height: 147px;
+						}
 						li.one, li.two {
-							width: 49%;
+							width: 146px;
+							height: 147px;
+							background: url("../../assets/img/bubble-mobile-2-1.svg") no-repeat center;
 						}
 					}
 				}
 		.process-diagram .process-container ul.column-4 {
 			padding: 0;
 			margin: 0;
+			width: 303px !important;
+			height: 270px;
 			li.jab-conmon {
 				background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
 				background-size: 100%;
 				min-height: 100px;
-				padding: 30px 0px 20px 0px;
+				padding: 30px 0px 17px 0px;
 				box-sizing: border-box;
 				margin: auto;
+				height: 88px;
 				width: 324px;
 			}
 			li.conmon {
-				width: 324px;
-				margin: auto;
+				width: 303px;
+				margin: 0 auto;
+				height: 60px;
+				background-size: contain;
+				background: url("../../assets/img/chevron-mobile.svg") no-repeat center;
 			}
 			li.agency-conmon {
 				background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
 				background-size: 100%;
 				height: 100px;
-				padding: 20px 0px 30px 0px;
+				height: 88px;
+				padding: 15px 0px 30px 0px;
 				box-sizing: border-box;
 				width: 324px;
 				margin: auto;
+				img {
+					margin-top: 2px !important;
+				}
 				}
 			}
 	.process-diagram .process-container ul.column-3 {
-
-		margin: 0 0 30px 0;
+		height: 279px;
+		width: 303px !important;
+		margin: 0 0 75px 0;
 		li.jab-auth {
 			background: url("../../assets/img/bubble-bottom-wide.svg") no-repeat top;
 			background-size: 100%;
 			min-height: auto;
-			padding-bottom: 20px;
+			height: 88px;
 			box-sizing: border-box;
 			width: 324px;
 			margin: auto;
-			padding: 35px 20px 20px 20px;
+			padding-bottom: 25px;
+			span {
+				margin: 0;
+			}
+			p {
+				width: 100%;
+			}
 		}
 		li.auth {
-			width: 324px;
-				margin: auto;
+			width: 303px;
+			margin: 0 auto;
+			height: 60px;
+			background-size: contain;
+			background: url("../../assets/img/chevron-mobile.svg") no-repeat center;
 		}
 		li.agency-auth {
 			background: url("../../assets/img/bubble-top-wide.svg") no-repeat bottom;
 			background-size: 100%;
 			min-height: auto;
-			padding-top: 20px;
+			height: 88px;
 			box-sizing: border-box;
 			width: 324px;
 			margin: auto;
-			padding: 20px 20px 30px 30px;
+			padding-top: 25px;
+			span {
+				margin: 0;
+			}
+			p {
+				width: 100%;
+			}
 		}
-	}		
+	}	
+.process-diagram p.optional-auth{
+	margin-top: 0;
+}
+
+p.auth-process-description {
+	margin-bottom: 90px;
+	} 
 }
 
 @media (min-width: 0) and (max-width: 949px) {
