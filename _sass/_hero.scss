@@ -23,7 +23,7 @@
 @media (min-width:0px) and (max-width:768px) {
 	.hero-unit {
 	background-image: url('../../assets/img/homepage-banner-mobile.png');
-	padding: 60px 5% 60px 5%;
+	padding: 40px 5% 60px 5%;
 	}
 }
 
@@ -102,11 +102,22 @@
 		color: #ffffff;
 		width: 100%;
 	}
+	h1 {
+		font-size: 42px;
+	}
+	h3 {
+		font-size: 22px;
+	}
 }
 
 .hero-text-description {
 	width: 100%;
 }
+.home-hero-buttons {
+	button {
+		font-size: 12px !important;
+		}
+		}
 }
 
 .home-hero-buttons {
