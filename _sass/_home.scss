@@ -337,7 +337,7 @@ span.assessment {
 			height: 360px;
 			margin: 0;
 			li.jab-first {
-				padding: 0 35px 35px 35px;
+				padding: 35px 35px 0 35px;
 				background: url("../../assets/img/bubble-bottom-134.svg") no-repeat;
 				background-position: bottom;
 				background-size: cover;
@@ -347,13 +347,15 @@ span.assessment {
 				margin: 0 auto;
 				display: flex;
 				flex-flow: wrap;
-				align-content: flex-end;
+				align-content: flex-start;
 				height: 133px;
 				box-sizing: border-box;
 				p {
 					margin-top: 0px;
 				}
-				
+				a {
+					text-decoration: none;
+				}
 				img {
 					margin: 0 0 0 0;
 				}
@@ -379,7 +381,7 @@ span.assessment {
 				font-weight: 700 !important;
 			}
 			li.agency-first {
-				padding: 35px 35px 0 35px;
+				padding: 0 35px 35px 35px;
 				background: url("../../assets/img/bubble-134.svg") no-repeat;
 				background-position: top;
 				background-size: cover;
@@ -388,7 +390,7 @@ span.assessment {
 				width: 179px;
 				margin: 0 auto;
 				display: flex;
-				align-content: flex-start;
+				align-content: flex-end;
 				flex-flow: wrap;
 				align-self: center;
 				height: 133px;
@@ -398,6 +400,9 @@ span.assessment {
 				}
 				img {
 					margin: 0;
+				}
+				a {
+					text-decoration: none;
 				}
 				svg {
 					margin: 0 0 0 10px;
