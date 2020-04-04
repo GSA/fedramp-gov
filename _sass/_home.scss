@@ -351,7 +351,10 @@ span.assessment {
 				height: 133px;
 				box-sizing: border-box;
 				p {
-					margin-top: 0px;
+					margin: 5px 0 0 0;
+					color: $light-blue;
+					font-family: $title-font !important;
+					font-weight: 700 !important;
 				}
 				a {
 					text-decoration: none;
@@ -396,7 +399,10 @@ span.assessment {
 				height: 133px;
 				box-sizing: border-box;
 				p {
-					margin-top: 0px;
+					margin: 0 0 5px 0;
+					color: $red;
+					font-family: $title-font !important;
+					font-weight: 700 !important;
 				}
 				img {
 					margin: 0;

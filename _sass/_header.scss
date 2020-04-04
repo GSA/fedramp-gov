@@ -96,6 +96,10 @@ li {
 	font-size: 14px;
 	letter-spacing: .02em;
 	 color: #757575;
+	 a:active {
+	 	box-shadow: none;
+	 	outline: 0;
+	 }
 }
 }
 
@@ -569,6 +573,7 @@ ul.usa-nav-primary li:focus-within {
 
 ul.usa-nav-primary li:focus-within a {
   outline: blue;
+  box-shadow: none;
 }
 
 .focus-within > input:focus {
