@@ -19,10 +19,10 @@ feature_image: /assets/img/feature-background.jpg
 colors:
   background: '#ffffff'
   link:
-    color: '#0071bc'
-    active: '#205493'
-    hover: '#0A9DFF'
-    visited: '#0071bc'
+    color: '#1A4480'
+    active: '#1A4480'
+    hover: '#0F96C2'
+    visited: '#CC1D1D'
   button:
     background: '#112e51'
     hover: '#002E4D'
