@@ -1665,25 +1665,26 @@ padding: 60px 5%;
 }
 
 .overview, .fedramp-legal-framework {
-	padding: 50px 0;
+	padding: 60px 0 50px 0;
 }
 
 .full-row {
 	max-width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	padding: 0 15px;
+	padding: 0 5%;
 }
 
-.full-col {
+.full-col, .basics-col {
 h2 {
 	font-weight: 400;
     text-transform: none;
     text-align: center;
     letter-spacing: .02em;
-    padding: 0 0 25px 0;
+    padding: 0 0 16px 0;
     margin: 0 0 25px 0;
     font-size: 36px;
+	line-height: 42px;
     color: $new-home-teal;
     background: url(../../assets/img/red-border.svg) center bottom no-repeat;
 }
@@ -1727,6 +1728,7 @@ h2 {
 		color: $new-home-teal;
 		margin: 4px 0 10px 0 !important;
 		font-size: 22px;
+		font-weight: 500;
 	}
 	
 	p {
@@ -1741,9 +1743,10 @@ h2 {
 ul.program-basics-goals {
 	list-style: none;
 	padding: 0;
+	margin: 0;
 	li {
-		background: url("../../assets/img/arrow.svg") no-repeat -6px 5px;
-		padding-left: 50px;
+		background: url("../../assets/img/arrow.svg") no-repeat 0 5px;
+		padding-left: 60px;
     	margin-bottom: 10px;
 	}
 }
@@ -1754,7 +1757,7 @@ ul.program-basics-benefits {
 
 	li {
 		background: url("../../assets/img/thumbs-up.svg") top left no-repeat;
-		padding-left: 50px;
+		padding-left: 60px;
     	margin-bottom: 10px;
 	}
 }
@@ -1765,6 +1768,8 @@ h2 {
 	background: url(../../assets/img/red-border.svg) left bottom no-repeat;
 }
 
+
+
 .basics-col {
 	min-height: 1px;
 	position: relative;
@@ -1772,8 +1777,8 @@ h2 {
 }
 
 .mgb-col-1 {
-	width: 24%;
-	padding-right: 4%
+	width: 26%;
+	padding-right: 5%
 }
 
 .mgb-col-2, .mgb-col-3 {
@@ -1781,7 +1786,7 @@ h2 {
 }
 
 .mgb-col-2 {
-	padding-right: 4%;
+	padding-right: 5%;
 }
 
 .fedramp-legal-framework {
@@ -1790,13 +1795,13 @@ h2 {
 
 .framework-col-1 {
 	float: left;
-	width: 30%;
+	width: 32%;
 	padding-right: 3%;
 }
 
 .framework-col-2 {
 	float: left;
-	width: 70%;
+	width: 68%;
 }
 
 .framework-list {
@@ -1810,14 +1815,14 @@ h2 {
 	.framework-text {
 		width: 80%;
 		float: left;
-		margin-bottom: 35px;
+		margin-bottom: 30px;
 	}
 }
 
  /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
 	.full-row {
-		padding: 0 30px;
+		padding: 0 5%;
 	}
 	
 	.fedramp-legal-framework.full-row  {
@@ -1827,6 +1832,7 @@ h2 {
  	.basics-col {
 		float: none;
 		padding-bottom: 3px;
+		margin-top: 55px;
 	}
 	
 	.mgb-col-1, .mgb-col-2, .mgb-col-3 {
@@ -1848,17 +1854,30 @@ h2 {
 	.framework-list {
 
 		.framework-image {
-			width: 26%;
-			margin-right: 14px;
+			width: 15%;
+			margin-right: 5%;
+			text-align: center;
 		}
 		
 		.framework-text {
-			width: 66%;
+			width: 80%;
+			&:last-child {
+				margin: 0;
+			}
 		}
 	}
 	
 	.full-row {
 		margin-bottom: 0;
+	}
+	.framework-col-1 {
+		margin: 0;
+	}
+	
+	.fedramp-legal-framework
+	h2 {
+		text-align: center;
+		background: url(../../assets/img/red-border.svg) center bottom no-repeat;
 	}
 }
  
@@ -1874,5 +1893,18 @@ h2 {
  
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+ 	.framework-list {
+ 	.framework-image {
+ 		width: 35%;
+ 		margin-right: 5%;
+ 		text-align: center;
+ 	}
  	
+ 	.framework-text {
+ 		width: 60%;
+ 		&:last-child {
+ 			margin: 0;
+ 		}
+ 		}
+ 	}
 }
