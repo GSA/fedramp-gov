@@ -1664,15 +1664,20 @@ padding: 60px 5%;
 	}
 }
 
-.overview, .fedramp-legal-framework {
-	padding: 60px 0 50px 0;
+.overview {
+	padding: 60px 0 10px 0;
+}
+
+.overview {
+	.full-row {
+		margin-bottom: 40px;
+	}
 }
 
 .full-row {
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-bottom: 50px;
-	padding: 0 5%;
+/*	margin-bottom: 50px;*/
 }
 
 .full-col, .basics-col {
@@ -1754,7 +1759,7 @@ ul.program-basics-goals {
 ul.program-basics-benefits {
 	list-style: none;
 	padding: 0;
-
+	margin: 0;
 	li {
 		background: url("../../assets/img/thumbs-up.svg") top left no-repeat;
 		padding-left: 60px;
@@ -1777,12 +1782,12 @@ h2 {
 }
 
 .mgb-col-1 {
-	width: 26%;
-	padding-right: 5%
+	width: 31%;
+	padding-right: 10%
 }
 
 .mgb-col-2, .mgb-col-3 {
-	width: 37%;
+	width: 35%;
 }
 
 .mgb-col-2 {
@@ -1791,6 +1796,7 @@ h2 {
 
 .fedramp-legal-framework {
 	background: $lightest-gray;
+	padding: 45px 0 50px 0;
 }
 
 .framework-col-1 {
@@ -1808,8 +1814,10 @@ h2 {
 	width: 100%;
 
 	.framework-image {
-		width: 14%;
+		width: 87px;
+		margin-right: 25px;
 		float: left;
+		text-align: center;
 	}
 
 	.framework-text {
@@ -1822,7 +1830,6 @@ h2 {
  /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
 	.full-row {
-		padding: 0 5%;
 	}
 	
 	.fedramp-legal-framework.full-row  {
@@ -1854,13 +1861,13 @@ h2 {
 	.framework-list {
 
 		.framework-image {
-			width: 15%;
+			width: 87px;
 			margin-right: 5%;
 			text-align: center;
 		}
 		
 		.framework-text {
-			width: 80%;
+			width: 75%;
 			&:last-child {
 				margin: 0;
 			}
@@ -1879,6 +1886,13 @@ h2 {
 		text-align: center;
 		background: url(../../assets/img/red-border.svg) center bottom no-repeat;
 	}
+}
+
+@media all and (min-width: 0) and (max-width: 1200px) {
+.overview, .fedramp-legal-framework {
+	padding-right: 5%;
+	padding-left: 5%;
+}
 }
  
 /*** Responsive Styles Tablet Only ***/
