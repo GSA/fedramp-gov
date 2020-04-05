@@ -128,8 +128,6 @@ left: 30px;
 #logo em.usa-logo-text {
 a {
 	float: left;
-	outline: 0;
-	box-shadow: none;
 	&:active {
 		outline: 0;
 		box-shadow: none;
@@ -374,6 +372,7 @@ li.parent .sub-menu {
 			letter-spacing: .02em;
 			&:hover {
 				background: #fff;
+				color: $red;
 /*				border-top: 1px solid #fff;*/
 /*				border-bottom: 1px solid #fff;*/
 			}
@@ -541,8 +540,6 @@ ul.usa-nav-primary li {
   
 ul.usa-nav-primary li a {
   padding-top: 10px;
-/*  border-top: 1px solid #fff;*/
-/*  border-bottom: 1px solid #fff;*/
   padding-bottom: 10px;
   box-sizing: border-box;
   color: $mid-gray;
@@ -552,14 +549,10 @@ ul.usa-nav-primary li a {
   	color: $red;
   	border-radius: 25px;
   	margin-left: 15px;
-  }
-  &:hover {
-/*  	border-bottom: 1px solid #BBBBBB;*/
-/*  	border-top: 1px solid #BBBBBB;*/
-  }
-  &:active {
-  	box-shadow: none;
-  	outline: 0;
+  	&:hover {
+  		border-color: $teal;
+  		color: $teal;
+  	}
   }
 }
 
@@ -575,7 +568,7 @@ ul.usa-nav-primary li:focus-within {
 
 ul.usa-nav-primary li:focus-within a {
   outline: blue;
-  box-shadow: none;
+/*  box-shadow: none;*/
 }
 
 .focus-within > input:focus {
@@ -583,17 +576,6 @@ ul.usa-nav-primary li:focus-within a {
     /* rules here, which Edge will apply */
   outline: blue;
 }
-
-/*ul.usa-nav-primary li ul {
-	visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-	position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-	left: 0;
-  display: none;
-}*/
 
 ul.usa-nav-primary li:hover > ul, 
 ul.usa-nav-primary li:focus-within > ul, 
@@ -792,28 +774,28 @@ img.desk {
 #navigation ul {
 &:active {
 	outline: 0;
-	box-shadow: none;
+/*	box-shadow: none;*/
 }
 &.usa-nav-primary {
 li.parent {
 	&:hover {
 /*		border-top: 1px solid #bbb;*/
-	color: $light-blue;
+	color: $red;
 	}
 	&:active {
 		outline: 0;
-		box-shadow: none;
+/*		box-shadow: none;*/
 	}
 	&.focus-within {
 		outline: 0;
-		box-shadow: 0;
+/*		box-shadow: none;*/
 		&:focus {
 			outline: 1;
-			box-shadow: inherit;
+/*			box-shadow: inherit;*/
 		}
 	&:active {
 		outline: 0;
-		box-shadow: none;
+/*		box-shadow: none;*/
 	}
 	}
 }
@@ -839,9 +821,9 @@ li.parent {
 /*	outline: 0;*/
 	  &:active {
 	    color: $link-active-color;
-		box-shadow: none;
+		/*box-shadow: none;
 		-webkit-box-shadow: none;
-		outline: 0;
+		outline: 0;*/
 	  }
 	  &:focus:active {
 	  	color: $link-active-color;
@@ -850,7 +832,7 @@ li.parent {
 	  	&:active {
 	  		    color: $link-active-color;
 /*	  			box-shadow: none;*/
-	  			-webkit-box-shadow: none;
+/*	  			-webkit-box-shadow: none;*/
 	  		  }
 	  		  &:focus:active {
 	  		  	color: $link-active-color;
@@ -860,6 +842,9 @@ li.parent {
 	  		  &:focus {
 /*	  		  	box-shadow: none;*/
 /*	  		  	outline: 1px solid $light-blue;*/
+	  		  }
+	  		  &.active:hover {
+	  		  	color: $red !important;
 	  		  }
 	  }
 }

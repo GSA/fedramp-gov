@@ -26,6 +26,12 @@ h2 {
 	text-transform: uppercase;
 }
 
+a.focus-within:active {
+	box-shadow: none;
+}
+button.focus-within:active {
+	box-shadow: none;
+}
 
 .usa-section-dark {
   legend, label,
@@ -60,29 +66,26 @@ form {
 //}
 
 a {
-  color: $link-color;
   &:hover {
     color: $link-hover-color;
+	outline: none;
   }
   &:active {
     color: $link-active-color;
-	box-shadow: none;
-  }
-  &:focus:active {
-    color: $link-active-color;
-  	box-shadow: none;
+	outline: none !important;
   }
   &:visited {
     color: $link-visited-color;
   }
   &:focus {
-/*  	box-shadow: none;*/
-/*  	outline: 1px solid $light-blue;*/
+  	outline: none;
+  	box-shadow: none;
   }
 }
 
-#main:focus {
-  outline: none;
+button:active {
+	outline: none;
+	box-shadow: none;
 }
 
 .clearfix {
@@ -122,6 +125,14 @@ a {
 		font-weight: 300;
 		text-align: right;
 	}
+}
+
+@media (min-width) and (max-width: 950px) {
+#main .page-banner, body .page-banner {
+h1 {
+	text-align: center;
+}
+}
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {

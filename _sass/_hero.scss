@@ -78,7 +78,7 @@
 	
 	h3 {
 		text-transform: uppercase;
-		font-weight: 600;
+		font-weight: 700;
 		letter-spacing: .05em;
 		color: #ffffff;
 		font-size: 28px;
@@ -150,11 +150,19 @@
 		background-color: $dark-red;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 25px;
+		&:hover {
+			background-color: shade($dark-red, 20%);
+			transition: 0.4s;
+		}
 	}
 	.hero-process {
 		background-color: $light-blue;
 		background-image: url('../../assets/img/home-meet-the-process.svg');
 		background-position: 25px;
+		&:hover {
+			background-color: shade($light-blue, 20%);
+			transition: 0.4s;
+		}
 	}
 }
 

@@ -1783,7 +1783,10 @@ h2 {
 
 .mgb-col-1 {
 	width: 30%;
-	padding-right: 3%
+	padding-right: 3%;
+	p {
+		margin-top: 0;
+	}
 }
 
 .mgb-col-2, .mgb-col-3 {

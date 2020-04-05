@@ -74,7 +74,7 @@
 	.home-partners-title {
 		border: none;
 		h3 {
-			width: 70%;
+			width: 100%;
 		}
 	}
 }
@@ -127,6 +127,10 @@
 		color: $red;
 		border-radius: 30px;
 		padding: 10px;
+		&:hover {
+			border-color: $teal;
+			color: $teal;
+		}
 	}
 	
 	a.partner-learn-more button {
@@ -137,6 +141,8 @@
 		letter-spacing: .01em;
 		&:hover {
 			text-decoration: none;
+			color: $teal;
+			border-color: $teal;
 		}
 	}
 }
@@ -254,7 +260,7 @@ span.assessment {
 		text-transform: none;
 		text-align: center;
 		letter-spacing: .02em;
-		padding: 0 0 25px 0;
+		padding: 0 0 15px 0;
 		margin: 0 0 25px 0;
 		font-size: 36px;
 		color: $new-home-teal;
@@ -337,7 +343,7 @@ span.assessment {
 			height: 360px;
 			margin: 0;
 			li.jab-first {
-				padding: 20px 35px 0 35px;
+				padding: 0 35px 0 35px;
 				background: url("../../assets/img/bubble-bottom-134.svg") no-repeat;
 				background-position: bottom;
 				background-size: cover;
@@ -347,7 +353,7 @@ span.assessment {
 				margin: 0 auto;
 				display: flex;
 				flex-flow: wrap;
-				align-content: flex-start;
+				align-content: center;
 				height: 133px;
 				box-sizing: border-box;
 				p {
@@ -386,7 +392,7 @@ span.assessment {
 				font-weight: 700 !important;
 			}
 			li.agency-first {
-				padding: 0 35px 5px 35px;
+				padding: 0 35px 0 35px;
 				background: url("../../assets/img/bubble-134.svg") no-repeat;
 				background-position: top;
 				background-size: cover;
@@ -395,7 +401,7 @@ span.assessment {
 				width: 179px;
 				margin: 0 auto;
 				display: flex;
-				align-content: flex-end;
+				align-content: center;
 				flex-flow: wrap;
 				align-self: center;
 				height: 133px;
@@ -447,11 +453,18 @@ span.assessment {
 						width: 196px;
 						p {
 							margin: 0;
+							line-height: 1.3;
+							font-size: 15px;
 						}
 					}
 					
 					li.security {
 						width: 153px;
+						p {
+							margin: 0;
+							line-height: 1.3;
+							font-size: 15px;
+						}
 					}
 					
 					li {
@@ -516,11 +529,22 @@ span.assessment {
 					
 					li.one {
 						width: 196px;
+						p {
+							margin: 0;
+							line-height: 1.3;
+							font-size: 15px;
+							letter-spacing: normal !important;
+						}
 					}
 					
 					li.two {
 						width: 153px;
 						padding: 0 11px 30px 11px !important;
+						p {
+							margin: 0;
+							line-height: 1.3;
+							font-size: 15px;
+						}
 					}
 					
 					li {
@@ -575,6 +599,8 @@ span.assessment {
 				}
 				p {
 					margin: 0;
+					line-height: 1.3;
+					font-size: 15px;
 				}
 			}
 			li.auth {
@@ -613,6 +639,11 @@ span.assessment {
 					letter-spacing: .05em;
 					text-align: center;
 				}
+				p {
+					margin: 0;
+					line-height: 1.3;
+					font-size: 15px;
+				}
 			}
 		}
 		ul.column-4 {
@@ -632,13 +663,17 @@ span.assessment {
 				display: flex;
 				height: 133px;
 				align-content: flex-end;
+				margin: 0;
+				line-height: 1.3;
+				font-size: 15px;
+				letter-spacing: normal !important;
 				span {
 					text-align: center;
 					width: 100%;
 					float: left;
 					img {
 						max-width: 22px;
-						margin: auto;
+						margin: 10px auto;
 					}
 				}
 			}
@@ -671,13 +706,17 @@ span.assessment {
 				display: flex;
 				height: 133px;
 				align-content: flex-start;
+				margin: 0;
+				line-height: 1.3;
+				font-size: 15px;
+				letter-spacing: normal !important;
 				span {
 					text-align: center;
 					width: 100%;
 					float: left;
 					img {
 						max-width: 22px;
-						margin: auto;
+						margin: 10px auto;
 					}
 				}
 			}
@@ -713,7 +752,7 @@ span.assessment {
 	}
 }
 
-@media (min-width: 0) and (max-width: 1051px) {
+@media (min-width: 0) and (max-width: 950px) {
 	.mobile-hide {
 		display: none !important;
 	}
@@ -739,7 +778,7 @@ span.assessment {
 	}
 }
 
-@media (min-width: 0) and (max-width: 1051px) {
+@media (min-width: 0) and (max-width: 950px) {
 /*	.mobile-hide {
 		display: none;
 	}*/
@@ -1201,7 +1240,7 @@ section#goals div.inner {
 		text-transform: none;
 		text-align: center;
 		letter-spacing: .02em;
-		padding: 0 0 25px 0;
+		padding: 0 0 15px 0;
 		margin: 0 0 40px 0;
 		font-size: 36px;
 		line-height: 42px;

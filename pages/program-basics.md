@@ -48,8 +48,8 @@ body-class: about-us
 	<div class="full-row framework-mobile">
 		<div class="basics-col framework-col-1">
 			<h2>Legal Framework</h2>
-			<p>FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf
-">OMB Circular A-130</a>, and FedRAMP policy.</p>
+			<p>FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank">FISMA <i class="fas fa-external-link-alt"></i></a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf
+" target="_blank">OMB Circular A-130 <i class="fas fa-external-link-alt"></i></a>, and FedRAMP policy.</p>
 		</div>
 		<div class="basics-col framework-col-2">
 			<div class="framework-list">
@@ -58,7 +58,7 @@ body-class: about-us
 				</div>
 				<div class="framework-text">
 					<h4>FISMA</h4>
-					<p>Federal Information Security Modernization Act requires agencies to protect Federal Information</p>
+					<p>Federal Information Security Modernization Act requires agencies to protect federal information</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -67,7 +67,7 @@ body-class: about-us
 					<img src="{{site.baseurl}}/assets/img/omb-circular-graphic.svg" alt="OMB a130" />
 				</div>
 				<div class="framework-text">
-					<h4>OMB A-130</h4>
+					<h4>OMB Circular A-130</h4>
 					<p>OMB states that when agencies implement FISMA, they must use NIST standards and guidelines</p>
 				</div>
 				<div class="clearfix"></div>
