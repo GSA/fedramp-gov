@@ -10,7 +10,7 @@
 }
 
 #main .page-banner h1, body .page-banner h1 {
-	font-size: 28px;
+	font-size: 42px;
 }
 
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
@@ -259,9 +259,9 @@ section#do-once {
 	border: none;
 }
 
-@media (min-width: 650px){
+@media (max-width: 650px){
   #main .page-banner h1, body .page-banner h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
