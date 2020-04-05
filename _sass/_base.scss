@@ -67,6 +67,7 @@ form {
 
 a {
   color: $link-color;
+  outline: none;
   &:hover {
     color: $link-hover-color;
 	outline: none;
@@ -74,12 +75,13 @@ a {
   &:active {
     color: $link-active-color;
 	outline: none !important;
+	box-shadow: none;
   }
   &:visited {
     color: $link-visited-color;
   }
   &:focus {
-  	outline: none;
+/*  	outline: none;*/
   }
 }
 

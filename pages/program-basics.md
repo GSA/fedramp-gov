@@ -78,7 +78,7 @@ body-class: about-us
 				</div>
 				<div class="framework-text">
 					<h4>FedRAMP Policy</h4>
-					<p>FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; a repository for authorization packages</p>
+					<p>FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
