@@ -426,7 +426,7 @@ ul.sub-sub-menu {
 }
 
 .sub-menu li a:hover, .sub-usa-nav .current-item a {
-    background: $light-blue;
+    background: $red;
     color: #fff;
 }
 
@@ -856,7 +856,7 @@ li.parent {
 }
 
 .usa-nav ul li.parent:hover {
-	color: $light-blue; 
+	color: $red; 
 }
 
 ul.usa-nav-primary li.parent.primary-active, ul.usa-nav-primary li a.active, ul.usa-nav-primary li a.home-active {

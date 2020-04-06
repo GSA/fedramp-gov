@@ -48,7 +48,7 @@ body-class: about-us
 	<div class="full-row framework-mobile">
 		<div class="basics-col framework-col-1">
 			<h2>Legal Framework</h2>
-			<p>FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="usa-external_link">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank" class="usa-external_link">OMB Circular A-130</a>, and FedRAMP policy.</p>
+			<p>FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank">OMB Circular A-130</a>, and FedRAMP policy.</p>
 		</div>
 		<div class="basics-col framework-col-2">
 			<div class="framework-list">
