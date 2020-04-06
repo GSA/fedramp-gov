@@ -1,6 +1,6 @@
 # Site settings
 title: FedRAMP.gov
-description: This page provides information about the key partners of the program, the authorization process, and shares data around the number of Cloud Service Offerings that are deemed FedRAMP Ready, are In Process, and have already been Authorized. This page directs individuals to other resources on the website, such as the blog.
+description: he Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
 # the subpath of your site, e.g. /blog/
 baseurl: "" # the subpath of your site, e.g. /blog/
 # the base hostname & protocol for your site
