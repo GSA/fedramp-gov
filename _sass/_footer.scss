@@ -176,7 +176,7 @@ p.footer-follow-us {
 		padding: 0 20px;
 	}
 	
-	.col-2 {
+	.f-col-2 {
 		border-right: none;
 	}
 	
@@ -188,7 +188,7 @@ p.footer-follow-us {
 		text-align: center;
 	}
 	
-	.col-3 {
+	.f-col-3 {
 		padding-left: 60px;
 	}
 }
@@ -204,7 +204,7 @@ p.footer-follow-us {
 		margin-top: 0;
 	}
 	
-	.col-2, .col-3 {
+	.f-col-2, .f-col-3 {
 		border-right: none;
 		border-bottom: $teal solid 1px;
 		min-height: auto;
