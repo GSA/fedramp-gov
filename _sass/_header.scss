@@ -876,3 +876,8 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 	z-index: 1;
 	margin-top: 60px;
 }
+
+:focus {
+	outline: $teal auto 3px !important;
+	box-shadow: none !important;
+}

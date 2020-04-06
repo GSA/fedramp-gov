@@ -1,6 +1,8 @@
 ---
 layout: full-width
 title: Program Basics
+summary: This page describes the history, mission, goals of FedRAMP, the benefits that FedRAMP provides to key stakeholders, and how FedRAMP is governed through a legal framework that consists of NIST, OMB, FISMA, and FedRAMP policy.
+tags: [mission; goals,benefits,history,innovation,FISMA,legal framework,policy,OMB,OMB A-130,NIST,security requirements,authorization package,contract language,cloud product,cloud service,cloud offering,cloud solutions,security assessments,public-private partnerships,information technology,federal government,cybersecurity]
 permalink: /program-basics/
 body-class: about-us
 
