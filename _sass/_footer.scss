@@ -7,18 +7,29 @@ footer {
 	width: 100%;
 	background: $dark-blue;
 	padding: 56px 5% 60px;
+<<<<<<< HEAD
 	
 	h5 {
 		text-align: left;
 		font-family: $title-font;
 		color: $light-teal;
+=======
+	float: left;
+	h5 {
+		text-align: left;
+		font-family: $title-font;
+		color: $footer-teal;
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 		font-weight: bold;
 		font-size: 1.25em;
 		margin: 0 0 10px 0;
 		text-transform: uppercase;
 		letter-spacing: .04em;
 	}
+<<<<<<< HEAD
 	/* --- test --- */
+=======
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 	
 	p {
 		color: $lighter-teal;
@@ -37,6 +48,7 @@ footer {
 	}
 }
 
+<<<<<<< HEAD
 address p:last-of-type, address p {
 	margin: 0;
 }
@@ -63,10 +75,45 @@ ul.quick-links {
 	a {
 		text-decoration: none;
 		padding-left: 12px;
+=======
+.mobile-clear {
+	display: none;
+}
+
+.footer-teal {
+	color: $footer-teal;
+}
+
+footer-gsa-logo {
+	max-width: 110px;
+}
+
+address p:last-of-type, address p {
+	margin: 0;
+}
+
+.street-address p {
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+ul.quick-links {
+	margin-left: 2em;
+	margin-top: 20px;
+}
+
+.quick-links li {
+	margin-bottom: 8px;
+	padding-left: 8px;
+	
+	a {
+		text-decoration: none;
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 	}
 	
 	a:visited {
 		color: $lighter-teal !important;
+<<<<<<< HEAD
 	}
 	
 	a:hover {
@@ -121,9 +168,26 @@ ul.quick-links {
 	img {
 		fill: $lighter-teal;
 		color: $lighter-teal;
+=======
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
+	}
+	
+	a:hover {
+		color: #ffffff !important;
 	}
 }
 
+.footer-ql-icons {
+	color: $lighter-teal;
+	background: #455874;
+	height: 20px;
+	width: 20px;
+	font-size: 11px;
+	border-radius: 50%;
+	padding: 2px 0 0 0;
+}
+
+<<<<<<< HEAD
 p.footer-contact {
 	color: $light-teal;
 	font-weight: 900;
@@ -190,12 +254,158 @@ p.footer-follow-us {
 	
 	.f-col-3 {
 		padding-left: 60px;
+=======
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-col {
+	width: 22.5%;
+	float: left;
+	padding: $footer-padding;
+	margin: $footer-margin;
+}
+
+.f-col-1, .f-col-2, .f-col-3 {
+	border-right: #0A577D solid 1px;
+	min-height: 230px;
+}
+
+
+//should we put the clearfix in the main.scss file?
+.clearfix {
+	clear: both;
+}
+
+
+
+.footer-social, address .contact {
+	flex-flow: row;
+	align-items: center;
+}
+
+.footer-social {
+	a {
+		margin: 0 !important;
+		color: $footer-teal;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	p {
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
+
+.footer-mail-icon {
+	width: 28px;
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.framp-twitter {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+	color: $footer-teal;
+}
+
+p.footer-contact {
+	color: $footer-teal;
+	font-weight: 600;
+	margin-right: 10px !important;
+	margin-bottom: 6px;
+	text-transform: none;
+}
+
+p.footer-follow-us {
+	margin-right: 0px !important;
+}
+
+.usa-footer-logo-img {
+	max-width: 90px;
+	margin-bottom: 30px;
+}
+
+.street-address {
+	margin-bottom: 30px;
+	color: $lighter-teal;
+}
+
+.newsletter-footer {
+	.usa-input-buttons-inline {
+		height: 60px;
+		display: flex;
+		input.footer-submit {
+			background: none;
+			color: $light-teal;
+			border: 1px solid $light-teal;
+			box-sizing: border-box;
+			border-radius: 40px;
+			height: 32px;
+			width: 116px;
+			font-size: 12px;
+		}
+		
+		input.footer-submit:hover {
+			border: 1px solid #ffffff;
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+ 	.footer-col {
+		width: 47.5%;
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	.footer .f-col-2 {
+		border-right: none;
+	}
+	
+}
+ 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.logo-container {
+		text-align: center;
+	}
+	
+	.f-col-1, .f-col-2 {
+		margin-bottom: 24px;
+	}
+	
+	.f-col-2 {
+		padding-right: 60px;
+	}
+	
+	.f-col-3 {
+		padding-left: 60px;
+		padding-right: 60px;
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 	}
 }
  
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+<<<<<<< HEAD
  	.footer-col {
+=======
+ 	
+	.footer-container {
+		padding: 0 30px;
+	}
+	
+	
+	.footer-col {
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 		width: 100%;
 		margin-top: 20px;
 	}
@@ -204,14 +414,49 @@ p.footer-follow-us {
 		margin-top: 0;
 	}
 	
+<<<<<<< HEAD
 	.f-col-2, .f-col-3 {
 		border-right: none;
 		border-bottom: $teal solid 1px;
+=======
+	.footer-col-1-phone, .f-col-3 {
+		margin-bottom: 60px;
+	}
+	
+	.footer-col-1-phone, .f-col-3, .f-col-4 {
+		border-right: none;
+		border-left: $teal solid 1px;
+		min-height: auto;
+	}
+	
+	.mobile-clear {
+		display: block;
+	}
+	
+	.f-col-1, .f-col-2 {
+		border-right: none;
+	}
+	
+	.f-col-1 {
+		border-bottom: none;
+		min-height: auto;
+	}
+	
+	.f-col-2 {
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 		min-height: auto;
 	}
 	
 	input.footer-submit {
 		margin-top: 10px;
+<<<<<<< HEAD
+=======
+		margin-bottom: 0;
+	}
+	
+	.newsletter-footer .usa-input-buttons-inline {
+		height: auto;
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 	}
 	
 	p.footer-follow-us {
@@ -359,6 +604,10 @@ p.footer-follow-us {
 			.street-address {
 			p {
 				text-align: center;
+<<<<<<< HEAD
+=======
+				margin-bottom: 4px;
+>>>>>>> e0bbbfbb4c65dd6276da93bca3f6cb9089092fa0
 			}
 			}
 		}

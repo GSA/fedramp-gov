@@ -1,6 +1,6 @@
 # Site settings
 title: FedRAMP.gov
-description: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
+description: he Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
 # the subpath of your site, e.g. /blog/
 baseurl: "" # the subpath of your site, e.g. /blog/
 # the base hostname & protocol for your site
@@ -12,22 +12,23 @@ feature_image: /assets/img/feature-background.jpg
 # ref: https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
 #repository: gsa/fedramp-gov
 
-logo: /assets/img/logo-main-fedramp.png
+logo-mobile: /assets/img/logo-mobile-fedramp.png
+logo: /assets/img/fedramp-logo-vert.png
 feature_image: /assets/img/feature-background.jpg
 
 colors:
   background: '#ffffff'
   link:
-    color: '#0071bc'
-    active: '#0071bc'
-    hover: '#0A9DFF'
-    visited: '#0071bc'
+    color: '#1A4480'
+    active: '#1A4480'
+    hover: '#CC1D1D'
+    visited: '#CC1D1D'
   button:
     background: '#112e51'
     hover: '#002E4D'
     text: '#fff'
   headers: '#205493'
-  text: '#212121'
+  text: '#4c4c4e'
   reverse_text: '#ffffff'
   projects:
     accent: '#02bfe7'
@@ -41,7 +42,7 @@ colors:
   footer:
     primary-background: '#f1f1f1'
     secondary-background: '#d6d7d9'
-    text: '#212121'
+    text: '#4c4c4e'
 
 analytics:
   google:

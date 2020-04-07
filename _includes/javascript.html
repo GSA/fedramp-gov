@@ -1,10 +1,10 @@
-<script src="{{ site.baseurl }}/assets/vendor/jquery-3.4.1.min.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/js/uswds.min.js"></script>
 <script src="{{ '/assets/js/index.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/accordion.js' | prepend: site.baseurl  }}"></script>
-<script src="{{ '/assets/js/mobile-nav.js' | prepend: site.baseurl  }}"></script>
+<!--<script src="{{ '/assets/js/mobile-nav.js' | prepend: site.baseurl  }}"></script>-->
 <script src="{{ '/assets/js/sorttable.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/functions.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/vendor/jquery-3.4.1.min.js"></script>
 
 <!--
   analytics for DAP, for more info visit
@@ -27,4 +27,23 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   ga('set', 'anonymizeIp', true);
   ga('set', 'forceSSL', true);
   ga('send', 'pageview');
+</script>
+
+
+<!-- scroll to top button js -->
+<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 </script>

@@ -1,10 +1,32 @@
 .hero-unit {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  min-height: 32em;
-  position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 22em;
+	position: relative;
+	float: left;
+	width: 100%;
+	background-image: url('../../assets/img/homepage-banner-desktop.png');
+	padding: 100px 5% 60px 5%;
+	.usa-grid {
+		max-width: 1200px;
+	}
 }
+
+@media (min-width:768px) and (max-width:980px) {
+	.hero-unit {
+	background-image: url('../../assets/img/homepage-banner-tablet.png');
+	padding: 60px 5% 60px 5%;
+	}
+}
+
+@media (min-width:0px) and (max-width:768px) {
+	.hero-unit {
+	background-image: url('../../assets/img/homepage-banner-mobile.png');
+	padding: 40px 5% 60px 5%;
+	}
+}
+
 .hero-content {
   background-color: transparentize($text-color, .6);
   margin: 0px auto;
@@ -31,13 +53,127 @@
 	}
 }
 
+.hero-text-description {
+	width: 50%;
+}
+
 .home .hero-unit {
   background-image: url("../../assets/img/home-hero-unit.png") !important;
   background-attachment: fixed;
   padding: 130px 0;
   }
 
-@medi (max-width: 750px) {
+.hero-text {
+	width: 75%;
+	
+	h1 {
+		font-size: 46px;
+		letter-spacing: .025em;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #ffffff;
+		margin-bottom: 2px;
+		margin-top: 0;
+	}
+	
+	h3 {
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .05em;
+		color: #ffffff;
+		font-size: 28px;
+		margin-top: 0;
+	}
+	
+	p {
+		color: #ffffff;
+		width: 50%;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: .02em;
+	}
+}
+
+@media (min-width:0) and (max-width:950px) {
+.hero-text {
+	width: 100%;
+	p {
+		color: #ffffff;
+		width: 100%;
+	}
+	h1 {
+		font-size: 42px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+}
+
+.hero-text-description {
+	width: 100%;
+}
+.home-hero-buttons {
+	button {
+		font-size: 12px !important;
+		}
+		}
+}
+
+.home-hero-buttons {
+	button {
+		background-color: transparent;
+		text-align: left;
+		padding-left: 40px;
+		font-size: 14px;
+		border-radius: 40px;
+		-moz-border-radius: 40px;
+		background-repeat: no-repeat;
+		padding: 20px 20px 20px 80px;
+		margin: 20px 30px 0 0;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	a {
+		color: #ffffff;
+		text-decoration: none;
+		letter-spacing: .025em;
+		font-weight: 800;
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+	
+	.hero-program {
+		background-color: $dark-red;
+		background-image: url('../../assets/img/home-learn-program-basics.svg');
+		background-position: 25px;
+		&:hover {
+			background-color: shade($dark-red, 20%);
+			transition: 0.4s;
+		}
+	}
+	.hero-process {
+		background-color: $light-blue;
+		background-image: url('../../assets/img/home-meet-the-process.svg');
+		background-position: 25px;
+		&:hover {
+			background-color: shade($light-blue, 20%);
+			transition: 0.4s;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	
+	.home-hero-buttons {
+		button {
+			margin: 20px 0 0 0;
+		}
+	}
+	
 	.hero-content {
   background-color: transparentize($text-color, .6);
   margin: 0px auto;

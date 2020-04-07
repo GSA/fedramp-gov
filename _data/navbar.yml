@@ -31,7 +31,7 @@ assigned:
             show_in_menu: true
             show_in_footer: false  
     -
-        text: Partners We Serve
+        text: Partners
         href: 
         permalink: /
         show_in_menu: true
@@ -138,16 +138,16 @@ assigned:
             href: pages/tips-cues.md
             permalink: /tips-cues/
             show_in_menu: true
-            show_in_footer: false     
-    -
-        text: Marketplace
-        is_external: https://marketplace.fedramp.gov
-        show_in_menu: true
-        show_in_footer: false
+            show_in_footer: false 
     -
         text: Blog
         href: pages/blog.md
         permalink: /blog/
+        show_in_menu: true
+        show_in_footer: false    
+    -
+        text: Marketplace
+        is_external: https://marketplace.fedramp.gov
         show_in_menu: true
         show_in_footer: false
 unassigned: []

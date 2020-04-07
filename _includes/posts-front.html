@@ -1,0 +1,26 @@
+<div class="post-container">
+{% for post in site.posts limit:3 %}
+  {% unless post.featured %}
+    <article class="blog usa-width-one-third">
+      <!--<a class="blog-link" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">{{ post.title }}</a>-->
+      <div class="blog-image"
+        style="background-image: url(
+        {% if post.image_thumbnail %}
+          {{ post.image_thumbnail | prepend: site.baseurl }}
+        {% else %}
+          {{ post.image | prepend: site.baseurl }}
+        {% endif %}
+        );">
+      </div>
+      <div class="blog-banner">
+        <div class="blog-description">
+           <a href="{{ post.url | prepend: site.baseurl }}"><h5>{{ post.title | strip_html | truncatewords: 5 }}</h5></a>
+        </div>
+      </div>
+    </article>
+  {% endunless %}
+{% endfor %}
+<!--<div class="view-all">
+<button><a class="blog-read" href="{{site.baseurl}}/blog">VIEW ALL</a></button>
+</div>-->
+</div>
