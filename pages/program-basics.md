@@ -24,11 +24,11 @@ body-class: about-us
 				<h3 class="goals-title">Goals</h3>
 			</div>
 			<ul class="program-basics-goals">
-				<li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
-				<li>Improve confidence in the security of cloud solutions and security assessments</li>
-				<li>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP</li>
-				<li>Ensure consistent application of existing security practices</li>
-				<li>Increase automation and near real-time data for continuous monitoring</li>
+				<li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations.</li>
+				<li>Improve confidence in the security of cloud solutions and security assessments.</li>
+				<li>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP.</li>
+				<li>Ensure consistent application of existing security practices.</li>
+				<li>Increase automation and near real-time data for continuous monitoring.</li>
 			</ul>
 		</div>
 		<div class="basics-col mgb-col-3">
@@ -57,7 +57,7 @@ body-class: about-us
 				</div>
 				<div class="framework-text">
 					<h4>FISMA</h4>
-					<p>Federal Information Security Modernization Act requires agencies to protect federal information</p>
+					<p>Federal Information Security Modernization Act requires agencies to protect federal information.</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -67,7 +67,7 @@ body-class: about-us
 				</div>
 				<div class="framework-text">
 					<h4>OMB Circular A-130</h4>
-					<p>OMB states that when agencies implement FISMA, they must use NIST standards and guidelines</p>
+					<p>OMB states that when agencies implement FISMA, they must use NIST standards and guidelines.</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -77,7 +77,7 @@ body-class: about-us
 				</div>
 				<div class="framework-text">
 					<h4>FedRAMP Policy</h4>
-					<p>FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages</p>
+					<p>FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages.</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
