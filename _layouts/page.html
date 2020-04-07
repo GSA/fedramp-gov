@@ -3,26 +3,27 @@ layout: base
 ---
 
 <div class="page-banner">
-<h1> {{ page.title }}</h1>
+	<h1> {{ page.title }}</h1>
 </div>
-<div class="usa-grid usa-section usa-content">
-  <div class="usa-width-three-fourths usa-content">
-  {% if page.image %}
-  <img src="{{ page.image | prepend: site.baseurl }}">
-  {% endif %}
-  {{ content }}
-  </div>
-  <aside class="usa-width-one-fourth">
-    <div class="blog-sidebar">
-    <h3>Recent Posts</h3>
-    <ul>
-      {% for post in site.posts limit:5 %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    </div>
-  </aside>
-</div>
+<div class="grid-container">
+	<div class="usa-grid usa-section usa-content grid-row">
+		<div class="usa-content grid-col-9">
+			{% if page.image %}
+				<img src="{{ page.image | prepend: site.baseurl }}">
+			{% endif %}
+			{{ content }}
+		</div>
+		<aside class="grid-col-3">
+			<div class="blog-sidebar">
+				<h3>Recent Posts</h3>
+				<ul>
+					{% for post in site.posts limit:5 %}
+					<li>
+						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</aside>
+	</div>
 </div>

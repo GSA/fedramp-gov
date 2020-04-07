@@ -2,17 +2,19 @@
 layout: base
 ---
 <div class="page-banner">
-<h1>Meet the Team</h1>
+	<h1>Meet the Team</h1>
 </div>
-<section class="usa-grid usa-section">
-<div class="usa-width-one-third">
-  {% if page.image %}
-    <img class="team-image" src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.name }}" />
-  {% endif %}
-</div>
-  <div class="usa-width-two-thirds">
-    <h2>{{ page.name }}</h2>
-  <p class="title">{{ page.title }}</p>
-    {{ content }}
-  </div>
-</section>
+<div class="grid-container">
+	<section class="usa-grid usa-section grid-row">
+		<div class="usa-width-one-third desktop:grid-col-4">
+		  {% if page.image %}
+			<img class="team-image" src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.name }}" />
+		  {% endif %}
+		</div>
+	  <div class="usa-width-two-thirds desktop:grid-col-8">
+		<h2>{{ page.name }}</h2>
+			 <p class="title">{{ page.title }}</p>
+		{{ content }}
+	  </div>
+	</section>
+</div>	

@@ -4,11 +4,12 @@ p, ul, ol, li, a  {
   font-family: $sans-font !important;
 }
 
-#main p {
+#main p, #main li {
 	min-width: 100%;
 	orphans: 3;
 	font-weight: 400;
 	letter-spacing: .02em;
+	line-height: 1.5em;
 }
 
 legend, label,
@@ -17,14 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font;
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
 h6 {
 	font-weight: bold;
 	text-transform: none;
 }
 
-h2 {
-	text-transform: uppercase;
-}
 
 a.focus-within:active {
 	box-shadow: none;
