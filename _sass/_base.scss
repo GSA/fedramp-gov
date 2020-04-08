@@ -2,14 +2,7 @@ body,
 p, ul, ol, li, a  {
   color: $text-color;
   font-family: $sans-font !important;
-}
-
-#main p, #main li {
-	min-width: 100%;
-	orphans: 3;
-	font-weight: 400;
-	letter-spacing: .02em;
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 legend, label,
