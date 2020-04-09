@@ -1,69 +1,69 @@
  @media screen and (min-width: 600px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 102.5%;
-  }
+	.project-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 102.5%;
+	}
 }
 // Project blog ------------- //
 
 // Sets a height on projects so they're the same height and don't break the grid
 .blog {
-//  box-shadow: 0 0 0 1px #d6d7d9;
-  display: block;
-  text-align: center;
-//  margin-bottom: 3rem;
-//  padding-bottom: 3rem;
-  position: relative;
-  text-decoration: none;
+	//  box-shadow: 0 0 0 1px #d6d7d9;
+	display: block;
+	text-align: center;
+	//  margin-bottom: 3rem;
+	//  padding-bottom: 3rem;
+	position: relative;
+	text-decoration: none;
 
-  @media all and (min-width: $on-laptop) {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2.3%;
-    min-height: 400px;
-    width: 31%;
-  }
+	@media all and (min-width: $on-laptop) {
+		display: flex;
+		flex-direction: column;
+		margin-right: 2.3%;
+		min-height: 400px;
+		width: 31%;
+	}
 
-//  &:hover {
-//    box-shadow: 0 0 0 1px $card-heading-color;
-//  }
+	//  &:hover {
+	//    box-shadow: 0 0 0 1px $card-heading-color;
+	//  }
 
-  &:active {
-    box-shadow: #3e94cf;
-  }
+	&:active {
+		box-shadow: #3e94cf;
+	}
 }
 
 .blog-link {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
 }
 
 .blog-banner {
-  margin: 0;
-  padding: 5px 20px;
-  max-height: 200px; 
-  background: none;
-  text-align: left;
-  @media all and (min-width: $on-laptop) {
-    flex: 1 0 auto;
-  }
+	margin: 0;
+	padding: 5px 20px;
+	max-height: 200px; 
+	background: none;
+	text-align: left;
+	@media all and (min-width: $on-laptop) {
+		flex: 1 0 auto;
+	}
 }
 
 .blog-image {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 200px;
-  width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 200px;
+	width: 100%;
 }
 
 .blog-description.blog-description {
-  color: $card-heading-color;
-  margin-top: 0;
+	color: $card-heading-color;
+	margin-top: 0;
 }
 
 .blog-description p {
@@ -238,7 +238,7 @@ a.blog-read {
 	text-transform: uppercase;
 	background: #205493;
 	padding: 10px;
-	font-size: 1.4875rem;
+	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
 	&:hover {
@@ -391,20 +391,24 @@ a.link-arrow-left {
  }
 
 span.tag {
-margin: 10px 0;
-display: inline-block;
-a {
-	background: $light-blue;
-	color: #fff;
-	padding: 5px;
-	margin-right: 5px;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin: 3px 0;
-	nobr {
-	font-family: $sans-font;
+	margin: 10px 0;
+	display: inline-block;
+	a {
+		background: $light-blue;
+		color: #fff;
+		padding: 5px;
+		margin-right: 5px;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin: 3px 0;
+		nobr {
+		font-family: $sans-font;
+		}
 	}
 }
+
+.page-blog .readmore a.more-link {
+	font-size: 14px;
 }
 
 /*** Responsive Styles Tablet And Below ***/

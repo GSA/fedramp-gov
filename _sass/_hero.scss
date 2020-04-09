@@ -15,15 +15,15 @@
 
 @media (min-width:768px) and (max-width:980px) {
 	.hero-unit {
-	background-image: url('../../assets/img/homepage-banner-tablet.png');
-	padding: 60px 5% 60px 5%;
+		background-image: url('../../assets/img/homepage-banner-tablet.png');
+		padding: 60px 5% 60px 5%;
 	}
 }
 
 @media (min-width:0px) and (max-width:768px) {
 	.hero-unit {
-	background-image: url('../../assets/img/homepage-banner-mobile.png');
-	padding: 40px 5% 60px 5%;
+		background-image: url('../../assets/img/homepage-banner-mobile.png');
+		padding: 40px 5% 60px 5%;
 	}
 }
 

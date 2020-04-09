@@ -1686,18 +1686,18 @@ padding: 60px 5%;
 }
 
 .full-col, .basics-col {
-h2 {
-	font-weight: 400;
-    text-transform: none;
-    text-align: center;
-    letter-spacing: .02em;
-    padding: 0 0 16px 0;
-    margin: 0 0 25px 0;
-    font-size: 36px;
-	line-height: 42px;
-    color: $new-home-teal;
-    background: url(../../assets/img/red-border.svg) center bottom no-repeat;
-}
+	h2 {
+		font-weight: 400;
+		text-transform: none;
+		text-align: center;
+		letter-spacing: .02em;
+		padding: 0 0 16px 0;
+		margin: 0 0 25px 0;
+		font-size: 36px;
+		line-height: 42px;
+		color: $new-home-teal;
+		background: url(../../assets/img/red-border.svg) center bottom no-repeat;
+	}
 }
 
 .program-basics-title {

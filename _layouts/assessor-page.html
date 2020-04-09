@@ -7,14 +7,14 @@ layout: base
 	</div>
 </div>	
 <div class="grid-container">
-<div class="usa-grid usa-section usa-content grid-row">
-  <div class="usa-width-three-fourths usa-content desktop:grid-col-9">
+<div class="grid-row">
+  <div class="desktop:grid-col-9">
   {% if page.image %}
   <img src="{{ page.image | prepend: site.baseurl }}">
   {% endif %}
   {{ content }}
   </div>
-  <aside class="usa-width-one-fourth desktop:grid-col-3">
+  <aside class="desktop:grid-col-3">
 <div class="dashboard">
 <div class="inner">
 <h4>WHAT ARE YOU LOOKING FOR?</h4>

@@ -23,8 +23,12 @@
 
     h3 {
       margin: 0;
+		font-weight: bold;
+		
       a {
-      	text-decoration: none;
+      		text-decoration: none;
+			color: inherit;
+		  
       	&:hover {
       		text-decoration: underline;
       	}
@@ -40,6 +44,7 @@
 .team-image {
   @include image-circle(124px);
 	float: left;
+	margin-right: 20px;
 }
 
 .page-team-single {

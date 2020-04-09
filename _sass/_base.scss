@@ -88,12 +88,16 @@ a {
 
 /* --- columns and grids -- */
 
-[class*=grid-col] {
-	padding: 0 2em;
-}
+@media (min-width: 64em) {
+	.desktop\:grid-col-9 {
+		padding-right: 60px;
+	}
 
+}
+	
 .grid-container {
 	max-width: 1200px;
+	padding: 4rem 1rem;
 }
 	
 .clearfix {
@@ -128,7 +132,7 @@ a {
 #main .page-banner, body .page-banner {
 	background: $light-blue;
 	padding: 50px 0;
-	height: 133px;
+	min-height: 133px;
 	max-width: 1200px;
 	margin: 0 auto;
 	h1 {

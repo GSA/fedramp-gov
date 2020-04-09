@@ -9,13 +9,13 @@ layout: base
 <div class="grid-container">
 	<!-- <div class="usa-grid usa-section usa-content grid-row"> -->
 		<div class="grid-row">
-		<div class="grid-col-9">
+		<div class="desktop:grid-col-9">
 			{% if page.image %}
 				<img src="{{ page.image | prepend: site.baseurl }}">
 			{% endif %}
 			{{ content }}
 		</div>
-		<aside class="grid-col-3">
+		<aside class="desktop:grid-col-3">
 			<div class="blog-sidebar">
 				<h3>Recent Posts</h3>
 				<ul>
