@@ -9,6 +9,10 @@
   float: right;
 }
 
+/* --- About Page --- */
+
+
+
 #main .page-banner h1, body .page-banner h1 {
 	font-size: 42px;
 }
@@ -845,8 +849,8 @@ padding: 60px 5%;
 
 
 .blue-bottom {
-	background: $dark-blue;
-	padding: 40px 0;
+	background: $teal;
+	padding: 40px;
 	color: #fff;
 	margin: 40px 0 0 0;
 	.inner {

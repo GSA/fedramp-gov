@@ -39,6 +39,7 @@
 
 .team-image {
   @include image-circle(124px);
+	float: left;
 }
 
 .page-team-single {

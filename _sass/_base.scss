@@ -1,8 +1,14 @@
+:focus {
+	outline: $teal auto 3px !important;
+	box-shadow: none !important;
+}
+
 body,
 p, ul, ol, li, a  {
   color: $text-color;
   font-family: $sans-font !important;
 	line-height: 1.5;
+	font-size: 15px;
 }
 
 legend, label,
@@ -24,9 +30,7 @@ h6 {
 a.focus-within:active {
 	box-shadow: none;
 }
-button.focus-within:active {
-	box-shadow: none;
-}
+
 
 .usa-section-dark {
   legend, label,
@@ -82,11 +86,16 @@ a {
   }
 }
 
-button:active {
-	outline: none;
-	box-shadow: none;
+/* --- columns and grids -- */
+
+[class*=grid-col] {
+	padding: 0 2em;
 }
 
+.grid-container {
+	max-width: 1200px;
+}
+	
 .clearfix {
 	clear: both;
 }
@@ -112,10 +121,16 @@ button:active {
 	padding-left: 5%;
 }}
 
+#main .page-banner-container, body .page-banner-container {
+	background: $light-blue;
+}
+
 #main .page-banner, body .page-banner {
 	background: $light-blue;
 	padding: 50px 0;
 	height: 133px;
+	max-width: 1200px;
+	margin: 0 auto;
 	h1 {
 		color: #fff;
 		width: 100%;
@@ -127,18 +142,19 @@ button:active {
 }
 
 @media (min-width) and (max-width: 950px) {
-#main .page-banner, body .page-banner {
-h1 {
-	text-align: center;
-}
-}
+	#main .page-banner, body .page-banner {
+		h1 {
+			text-align: center;
+		}
+	}
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-#main .page-banner, body .page-banner {
-	padding-right: 5%;
-	padding-left: 5%;
-}}
+	#main .page-banner, body .page-banner {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
 
 .about-us {
 section#about {
@@ -342,68 +358,167 @@ section#fedramp-mission {
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
-.about-us section#about {
-	padding-left: 5%;
-	padding-right: 5%;
+	.about-us section#about {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.about-us #about .text-container {
+		max-width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0;
+	}
+	.about-us #about .image-container {
+		max-width: 100%;
+		float: left;
+		text-align: center;
+	}
+	.about-us section#fedramp-mission {
+		width: 100%;
+		padding: 60px 5%;
+		background: $light-blue;
+		color: #fff;
+	}
+	.about-us section#fedramp-mission .inner ul {
+		column-count: 1;
+	}
 }
-.about-us #about .text-container {
-	max-width: 100%;
-	float: left;
-	text-align: left;
-	padding: 0;
+
+
+/* --- Buttons --- */
+
+button.focus-within:active {
+	box-shadow: none;
 }
-.about-us #about .image-container {
-	max-width: 100%;
-	float: left;
-	text-align: center;
+
+button {
+	border: none;
 }
-.about-us section#fedramp-mission {
-	width: 100%;
-	padding: 60px 5%;
-	background: $light-blue;
-	color: #fff;
+
+button:active {
+	outline: none;
+	box-shadow: none;
 }
-.about-us section#fedramp-mission .inner ul {
-	column-count: 1;
+
+#searchgovform button#searchgovbutton,
+#searchgovform #searchgovbutton
+#searchgovform [type="submit"] {
+	background-color: #112E51;
+	content: "";
 }
+
+.usa-button,
+.usa-button-primary,
+.usa-button:visited,
+.usa-button-primary:visited,
+button,
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="image"] {
+	background-color: #fff;
+	color: $button-text-color;
+	font-family: $sans-font;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
 }
+.usa-button:hover,
+.usa-button-primary:hover,
+.usa-button:visited:hover,
+.usa-button-primary:visited:hover,
+button:hover,
+[type="button"]:hover,
+[type="submit"]:hover,
+[type="reset"]:hover,
+[type="button"]:hover,
+[type="submit"]:hover,
+[type="reset"]:hover,
+[type="image"]:hover {
+	background-color: $button-hover-color;
+	text-decoration: underline;
+}
+@media (max-width: 500px) {
+	.usa-button,
+	.usa-button-primary,
+	.usa-button:visited,
+	.usa-button-primary:visited,
+	button,
+	[type="button"],
+	[type="submit"],
+	[type="reset"],
+	[type="button"],
+	[type="submit"],
+	[type="reset"],
+	[type="image"] {
+		width: auto;
+	}
+}
+
 
 /* Back to Top button */
 
 #button {
-  display: inline-block;
-  background-color: $teal;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: .8;
-  visibility: hidden;
-  z-index: 1000;
+	display: inline-block;
+	background-color: $teal;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: .8;
+	visibility: hidden;
+	z-index: 1000;
 	text-decoration: none;
 }
+
 #button::after {
-  content: "\f077";
-  font-family: "Font Awesome 5 Free"; 
+	content: "\f077";
+	font-family: "Font Awesome 5 Free"; 
 	font-weight: 900;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
 }
+
 #button:hover {
-  cursor: pointer;
+	cursor: pointer;
 	opacity: 1;
 }
+
 #button:active {
-  background-color: $dark-blue;
+	background-color: $dark-blue;
 }
+
 #button.show {
-  opacity: .8;
-  visibility: visible;
+	opacity: .8;
+	visibility: visible;
+}
+
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+
+}
+ 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+ 	
+}
+ 
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
 }

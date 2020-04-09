@@ -24,11 +24,11 @@ body-class: about-us
 				<h3 class="goals-title">Goals</h3>
 			</div>
 			<ul class="program-basics-goals">
-				<li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations</li>
-				<li>Improve confidence in the security of cloud solutions and security assessments</li>
-				<li>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP</li>
-				<li>Ensure consistent application of existing security practices</li>
-				<li>Increase automation and near real-time data for continuous monitoring</li>
+				<li>Accelerate the adoption of secure cloud solutions through reuse of assessments and authorizations.</li>
+				<li>Improve confidence in the security of cloud solutions and security assessments.</li>
+				<li>Achieve consistent security authorizations using a baseline set of agreed-upon standards for cloud product approval in or outside of FedRAMP.</li>
+				<li>Ensure consistent application of existing security practices.</li>
+				<li>Increase automation and near real-time data for continuous monitoring.</li>
 			</ul>
 		</div>
 		<div class="basics-col mgb-col-3">

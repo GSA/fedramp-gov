@@ -850,10 +850,10 @@ li.parent {
 }
 
 @media (min-width: 951px) and (max-width: 1200px) {
-.usa-nav ul li.parent {
-	font-size: 1.3rem;
+	.usa-nav ul li.parent {
+		font-size: 1.3rem;
+		}
 	}
-}
 
 .usa-nav ul li.parent:hover {
 	color: $red; 
@@ -877,7 +877,22 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 	margin-top: 60px;
 }
 
-:focus {
-	outline: $teal auto 3px !important;
-	box-shadow: none !important;
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+
+}
+ 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+ 	
+}
+ 
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
 }
