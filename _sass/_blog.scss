@@ -195,6 +195,7 @@ a.blog-read {
 	a {
 		text-decoration: none;
 		font-family: $serif-font;
+		color: inherit;
 		
 		&:hover {
 			text-decoration: underline;
@@ -409,6 +410,17 @@ span.tag {
 
 .page-blog .readmore a.more-link {
 	font-size: 14px;
+}
+
+.blog-list-image {
+	width: 33%;
+	float: left;
+	margin-right: 2%;
+}
+
+.blog-list-excerpt {
+	width: 65%;
+	float: left;
 }
 
 /*** Responsive Styles Tablet And Below ***/
