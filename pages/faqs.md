@@ -16,7 +16,7 @@ body-class: page-faqs
 <div class="question"><h5 class="accordion">How will FedRAMP help make cloud computing more secure for the federal government?</h5><div class="panel">
 <p>FedRAMP requirements include additional controls above the standard NIST baseline controls in NIST SP 800-53 Revision 4. These additional controls address the unique elements of cloud computing to ensure all federal data is secure in cloud environments.</p>
 </div></div>
-<div class="question"><h5 class="accordion">What is an Authority to Operate (ATO) and Provisional Authority to Operate (P-ATO) and how are they issued?</h5><div class="panel">
+<div class="question"><h5 class="accordion">What is an authority to operate (ATO) and Provisional Authority to Operate (P-ATO) and how are they issued?</h5><div class="panel">
 <p>There are two types of FedRAMP authorizations for cloud services:</p>
 <ul>
 <li>A Provisional Authority to Operate (P-ATO) through the Joint Authorization Board (JAB)</li>
