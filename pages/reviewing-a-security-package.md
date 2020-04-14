@@ -18,7 +18,7 @@ The CSP / 3PAO provide the Agency security documents for review and approval as 
 <p><em>Approach II: All Deliverable Simultaneously</em></p>
 <p>The CSP / 3PAO provide the Agency a complete security package - including the SSP, SAP, and SAR -  at once upon completion. This approach entails that the CSP / 3PAO complete all documentation and conduct the assessment prior to delivery of any materials to the Agency for review. Relative to Just-In-Time, this approach is most appropriate for CSPs and Agencies that have mature cloud security programs in place and have developed collaborative prior working relationships for the purpose of achieving FedRAMP authorization.
 In either approach, FedRAMP encourages Agencies to establish a cadence of frequent touchpoints with their partnered CSP(s) to understand progress against milestones and iteratively review documentation.</p> 
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

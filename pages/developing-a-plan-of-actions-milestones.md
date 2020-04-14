@@ -14,7 +14,7 @@ tag: developing-a-plan-of-actions-milestones
 <li>Any deviation request status</li>
 </ul>
 
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

@@ -6,7 +6,7 @@ body-class: page-fed-agencies
 ---
 The table below is sortable by columns. The Category, Document, and Description columns will sort alphabetically, and the Last Updated column will sort by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page.
 
-<table class="sortable">
+<table class="sortable usa-table">
   <tr>
     <th onclick="sortTable(0)" scope="col">Category</th>
     <th onclick="sortTable(1)" scope="col">Document</th>

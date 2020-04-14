@@ -82,6 +82,89 @@ ul.usa-nav-primary li ul li {
   width: 100%;
 }
 
+
+div.usa-nav-container {
+	height: 120px;
+	width: 100%;
+	max-width: 1200px;
+	vertical-align: middle;
+	padding: 40px 0 30px 0;
+	box-sizing: border-box;
+}
+
+@media (min-width: 0px) and (max-width: 950px) {
+	div.usa-nav-container {
+		padding: 20px 5%;
+		margin: 0;
+		height: 120px;
+	}
+}
+
+div.usa-navbar {
+	float: left !important;
+	height: 100px;
+	border: 0;
+	width: 100%;
+}
+
+div.usa-navbar:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav.usa-nav {
+	padding: 25px 0 0 0;
+	background: none;
+	float: right;
+ul {
+li {
+	text-transform: uppercase;
+	&:focus {
+//		outline: none;
+	}
+	li {
+		text-transform: none;
+	}
+}
+}
+}
+
+.usa-nav-primary.usa-accordion {
+li {
+	font-size: 14px;
+	letter-spacing: .02em;
+	 color: #757575;
+	 a:active {
+	 	box-shadow: none;
+	 	outline: 0;
+	 }
+}
+}
+
+//@media (min-width: 0) and (max-width: 951px) {
+//#logo.usa-logo {
+//	position: relative;
+//	top: -45px;
+//	left: 80px;
+//}
+//}
+
+/*@media (min-width: 951px) and (max-width: 1200px) {
+.usa-nav-container {
+	padding-top: 30px;
+}
+.usa-navbar {
+position: relative;
+top: -80px;
+left: 30px;
+}
+.usa-nav-primary.usa-accordion {
+	margin: 0 15% !important;
+}
+}*/
+
+
 /*----- Top Level -----*/
 .usa-nav > ul > li {
 /*    float:left;*/

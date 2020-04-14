@@ -24,7 +24,7 @@ tag: developing-a-security-assessment-report
 <li>Penetration Test Repor</li>
 </ul>
 
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

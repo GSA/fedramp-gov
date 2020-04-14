@@ -21,7 +21,7 @@ tag: starting-security-package-development
 <li>Signed Provisional Authority to Operate (P-ATO) for JAB or signed Authority to Operate (ATO) for Agency Authorizations</li>
 </ul>
 <p>The documents, templates, and blogs below should be read before beginning security documentation and should help stakeholders grasp a better understanding of what the PMO will be looking for in the documentation phase.</p>
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

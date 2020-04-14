@@ -12,7 +12,7 @@ tag: pursuing-a-fedramp-tailored-authorization
 <li>Incorporates industry input in order to provide the government with the agility to leverage valuable industry services while maintaining appropriate security levels</li>
 </ul>
 <p>More information on FedRAMP Tailored can also be found on the <a href="https://tailored.fedramp.gov/">FedRAMP Tailored webpage</a> as well as within the documents, templates, and blogs listed below.</p>
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

@@ -9,7 +9,7 @@ body-class: page-training
 These online courses consist of on-demand modules designed for specific stakeholder groups. Each course provides an in-depth focus around a specific step in the FedRAMP authorization process. Throughout each course, stakeholders will gain a better understanding of roles and responsibilities, security requirements, and best practices. 
 <h2>FedRAMP's Online Course Paths</h2>
 
-![image alt text](../../assets/img/learning-path.png)
+![Fedramps online learning path](../../assets/img/learning-path.png)
 <div id="path-one">
 	<h2>Path 1: All Stakeholders</h2>
 	<p>The first education path provides an overview of the FedRAMP program.</p>

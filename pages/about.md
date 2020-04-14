@@ -5,7 +5,7 @@ permalink: /about/
 body-class: about-us
 
 ---
-<section id="about" class="grid-row">
+<section id="about" class="grid-row grid-gap">
 	<div class="image-container desktop:grid-col-6">
 		<img alt="Drives a Shift" src="{{site.baseurl}}/assets/img/fedramp-about.png">
 	</div>

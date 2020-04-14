@@ -10,11 +10,11 @@ The first step for any Cloud Service Provider (CSP) interested in pursuing a Fed
 
 To decide which type of authorization is right for a particular CSO, the CSP should review both processes and take into account their system's impact level, deployment model, stack, and market demand.
 
-Below is a high-level overview of the Agency Authorization Process. Information on roles and responsibilities for Agencies, CSPs, and 3PAOs within the Agency Authorization process can be found <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">here</a>. 
+Below is a high-level overview of the Agency Authorization Process. Information on roles and responsibilities for Agencies, CSPs, and 3PAOs within the <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization process can be found here</a>. 
 
 ### Agency Authorization
 
-![image alt text]({{site.baseurl}}/assets/img/agency-auth.png)
+![Agency authorization diagram]({{site.baseurl}}/assets/img/agency-auth.png)
 
 ### Phase 1: Partnership Establishment  
 

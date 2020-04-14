@@ -15,7 +15,7 @@ tag: developing-a-security-assessment-plan
 <li>Sampling Methodology</li></li>
 </ul>
 
-<table>
+<table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
 <th scope="col">Templates</th>

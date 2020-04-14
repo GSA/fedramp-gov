@@ -90,7 +90,6 @@ a {
 
 @media (min-width: 64em) {
 	.desktop\:grid-col-9 {
-		padding-right: 60px;
 	}
 
 }
@@ -161,16 +160,16 @@ a {
 }
 
 .about-us {
-section#about {
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 100%;
-	padding: 60px 0;
-	&:after {
-	content: '';
-	clear: both;
-	display: table;
-	}
+	section#about {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		padding: 60px 0;
+		&:after {
+			content: '';
+			clear: both;
+			display: table;
+		}
 	}
 }
 
@@ -209,12 +208,12 @@ section#fedramp-mission {
 			column-count: 2;
 			column-gap: 40px;
 			
-		li {
-			color: #fff;
-			-webkit-column-break-inside: avoid;
-			page-break-inside: avoid;
-			break-inside: avoid;
-		}
+			li {
+				color: #fff;
+				-webkit-column-break-inside: avoid;
+				page-break-inside: avoid;
+				break-inside: avoid;
+			}
 		}
 	}
 }
@@ -235,14 +234,12 @@ section#fedramp-mission {
 	max-width: 50%;
 	float: left;
 	text-align: left;
-	padding: 0 0 0 40px;
 }
 
 .about-us #fedramp-numbers .text-container {
 	max-width: 100%;
 	float: left;
 	text-align: left;
-	padding: 40px 0 0 0;
 }
 
 .cloud .text-container {

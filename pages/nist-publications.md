@@ -5,7 +5,7 @@ permalink: /nist-publications/
 body-class: page-fed-agencies
 ---
 
-<table>
+<table class="usa-table">
   <tr>
     <th scope="col">Document</th>
     <th scope="col">Description</th>
