@@ -9,9 +9,9 @@ tag: pursuing-a-fedramp-ready-designation
 <p>The documents, templates, blogs below all pertain to FedRAMP Ready.</p>
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

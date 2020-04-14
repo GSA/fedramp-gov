@@ -4,8 +4,8 @@ title: Developing a Plan of Actions & Milestones (POA&M)
 permalink: /developing-a-plan-of-actions-milestones/
 tag: developing-a-plan-of-actions-milestones
 ---
-<p>The Plan of Actions & Milestones (POA&M) is a key document in the security authorization package and for continuous monitoring activities. The POA&M facilitates a disciplined and structured approach to tracking risk mitigation activities. The POA&M includes security findings for the system from continuous monitoring activities and periodic security assessments such as the Annual Assessment. A POA&M describes the current disposition of any discovered vulnerabilities and system findings, and includes a CSP’s intended corrective actions for those findings. Agency AOs or designees are responsible for reviewing and approving POA&Ms, making their own risk-based decision both at the time of the initial assessment and during ConMon.  </p>
-<p>FedRAMP uses the POA&M to monitor the CSP’s progress in correcting these findings. A CSP applying for a FedRAMP JAB P-ATO, or a FedRAMP Agency ATO, must establish and maintain a POA&M for their system in accordance with the POA&M Template Completion Guide using the FedRAMP POA&M Template.  The POA&M includes the:</p>
+<p>The Plan of Actions &amp; Milestones (POA&amp;M) is a key document in the security authorization package and for continuous monitoring activities. The POA&amp;M facilitates a disciplined and structured approach to tracking risk mitigation activities. The POA&amp;M includes security findings for the system from continuous monitoring activities and periodic security assessments such as the Annual Assessment. A POA&amp;M describes the current disposition of any discovered vulnerabilities and system findings, and includes a CSP’s intended corrective actions for those findings. Agency AOs or designees are responsible for reviewing and approving POA&amp;Ms, making their own risk-based decision both at the time of the initial assessment and during ConMon.  </p>
+<p>FedRAMP uses the POA&amp;M to monitor the CSP’s progress in correcting these findings. A CSP applying for a FedRAMP JAB P-ATO, or a FedRAMP Agency ATO, must establish and maintain a POA&amp;M for their system in accordance with the POA&amp;M Template Completion Guide using the FedRAMP POA&amp;M Template.  The POA&amp;M includes the:</p>
 <ul>
 <li>Specific weaknesses or deficiencies in deployed security controls and the source of the identified weakness</li>
 <li>Severity of the identified security control weaknesses or deficiencies</li>
@@ -16,13 +16,13 @@ tag: developing-a-plan-of-actions-milestones
 
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>
-<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">Plan of Action and Milestones (POA&M) Template Completion Guide</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">Plan of Action and Milestones (POA&amp;M) Template Completion Guide</a></li>
 </ul>
 </td>
 <td>

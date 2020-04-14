@@ -7,10 +7,10 @@ body-class: page-fed-agencies
 
 <table>
   <tr>
-    <th>Document</th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Last Updated</th>
+    <th scope="col">Document</th>
+    <th scope="col">Description</th>
+    <th scope="col">Type</th>
+    <th scope="col">Last Updated</th>
   </tr>
   <tr>
     <td><a href="http://collaborate.nist.gov/twiki-cloud-computing/pub/CloudComputing/ReferenceArchitectureTaxonomy/NIST_SP_500-292_-_090611.pdf">NIST Cloud Computing Reference Architecture (SP 500-292)</a></td>

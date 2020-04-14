@@ -8,9 +8,9 @@ tag: pursuing-a-fedramp-ready-designation
 <p>To achieve the FedRAMP Ready designation, a CSP must partner with an accredited 3PAO to complete a readiness assessment of its service offering. At the conclusion of the assessment, the 3PAO delivers a RAR attesting to the CSO’s readiness for the authorization process. RARs are reviewed by the FedRAMP PMO within one business week of submission. Once the RAR is deemed satisfactory by the PMO, the CSO will be designated FedRAMP Ready and advertised in the FedRAMP Marketplace.
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

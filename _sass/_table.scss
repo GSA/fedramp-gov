@@ -11,6 +11,14 @@ table {
 		text-align: left;
 		padding: 1em;
 	}
+	
+	th.row-header {
+		background: #ffffff !important;
+		font-size: 12px;
+		color: $black;
+		vertical-align: top;
+		border: 1px solid #cdcdcd !important;
+	}
 	td {
 		border: 1px solid #cdcdcd;
 		vertical-align: top;

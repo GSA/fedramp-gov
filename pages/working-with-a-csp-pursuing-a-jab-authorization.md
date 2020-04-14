@@ -8,9 +8,9 @@ tag: pursuing-a-jab-authorization
 <p>Additionally, the documents, templates, and blogs below all relate to the FedRAMP JAB Authorization Process.</p>
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

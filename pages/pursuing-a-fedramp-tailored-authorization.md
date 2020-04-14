@@ -14,9 +14,9 @@ tag: pursuing-a-fedramp-tailored-authorization
 <p>More information on FedRAMP Tailored can also be found on the <a href="https://tailored.fedramp.gov/">FedRAMP Tailored webpage</a> as well as within the documents, templates, and blogs listed below.</p>
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

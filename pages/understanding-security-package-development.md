@@ -16,16 +16,16 @@ tag: starting-security-package-development
 <li>System Security Plan (SSP) (and attachments)</li>
 <li>Security Assessment Plan (SAP)</li>
 <li>Security Assessment Report (SAR)</li>
-<li>Plan of Actions & Milestones (POA&M)</li>
+<li>Plan of Actions &amp; Milestones (POA&amp;M)</li>
 <li>Continuous Monitoring Plan</li>
 <li>Signed Provisional Authority to Operate (P-ATO) for JAB or signed Authority to Operate (ATO) for Agency Authorizations</li>
 </ul>
 <p>The documents, templates, and blogs below should be read before beginning security documentation and should help stakeholders grasp a better understanding of what the PMO will be looking for in the documentation phase.</p>
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

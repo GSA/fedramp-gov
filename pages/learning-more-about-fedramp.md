@@ -11,9 +11,9 @@ FedRAMP created and manages a core set of processes to ensure effective, repeata
 If you are not familiar with FedRAMP, the documents, templates, and blogs listed below should help guide your understanding of FedRAMP at a basic level.
 <table>
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>
