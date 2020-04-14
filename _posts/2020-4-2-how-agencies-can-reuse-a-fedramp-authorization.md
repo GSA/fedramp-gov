@@ -18,7 +18,7 @@ FedRAMP developed a<a href="https://www.fedramp.gov/assets/resources/documents/R
 
 FedRAMP Authorized products provide the intrinsic benefits of the cloud - remote access, scalability, collaboration efficiency, and many more - that help the federal government achieve its mission and deliver services to the public, and are critical to many agencies’ IT modernization efforts.
 
-Please keep in mind that Agencies may also work directly with CSPs that are not yet authorized and refer to the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP Agency Authorization Playbook</a> which discusses this process in detail. 
+Please keep in mind that agencies may also work directly with CSPs that are not yet authorized and refer to the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">FedRAMP Agency Authorization Playbook</a> which discusses this process in detail. 
 
 To view and request access to the security materials associated with these offerings, visit the <a href="https://marketplace.fedramp.gov/#/products">FedRAMP Marketplace</a>. If you have any questions regarding the reuse process, please reach out to us via <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> and we will be happy to provide assistance.
 
