@@ -6,6 +6,7 @@ body-class: page-fed-agencies
 ---
 Columns in the table below are sortable. The Category, Document, and Description columns sort alphabetically, and the Last Updated column sorts by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page. 
 
+<div class="responsive-table">
 <table class="sortable usa-table">
   <tr>
     <th onclick="sortTable(0)" scope="col">Category</th>
@@ -367,3 +368,4 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td>6/6/2017</td>
   </tr>
 </table>
+</div>

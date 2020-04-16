@@ -24,6 +24,8 @@ tag: developing-a-security-assessment-report
 <li>Penetration Test Repor</li>
 </ul>
 
+
+<div class="responsive-table">
 <table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
@@ -54,3 +56,5 @@ tag: developing-a-security-assessment-report
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

@@ -13,6 +13,8 @@ tag: issuing-an-authority-to-operate
 <p>Once a CSO is deemed FedRAMP Authorized, the CSO is reflected as such on the <a href="https://marketplace.fedramp.gov/">FedRAMP Marketplace</a>. Subsequent Agency customers can utilize FedRAMP’s reuse model to issue their own ATO for the use the CSO. That model allows Agencies to review the CSO’s security package, make a risk-based decision on the use of that system, and issue their own ATO. Agencies can rely on the PMO to support any discussions for the reuse of a FedRAMP authorized system. </p>
 <p>All ATO letters should be provided to FedRAMP. </p>
 
+
+<div class="responsive-table">
 <table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
@@ -39,3 +41,5 @@ tag: issuing-an-authority-to-operate
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

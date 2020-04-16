@@ -14,6 +14,7 @@ tag: developing-a-plan-of-actions-milestones
 <li>Any deviation request status</li>
 </ul>
 
+<div class="responsive-table">
 <table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
@@ -27,7 +28,7 @@ tag: developing-a-plan-of-actions-milestones
 </td>
 <td>
 <ul>
-<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Plan of Action and Milestones (POA&M) Template</a></li>
+<li><a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-POAM-Template.xlsm">Plan of Action and Milestones (POA&amp;M) Template</a></li>
 </ul>
 </td>
 <td>
@@ -39,3 +40,5 @@ tag: developing-a-plan-of-actions-milestones
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

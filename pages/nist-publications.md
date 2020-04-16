@@ -5,6 +5,8 @@ permalink: /nist-publications/
 body-class: page-fed-agencies
 ---
 
+
+<div class="responsive-table">
 <table class="usa-table">
   <tr>
     <th scope="col">Document</th>
@@ -174,5 +176,5 @@ body-class: page-fed-agencies
     <td>N/A</td>
   </tr>
 </table>
-
+</div>
 

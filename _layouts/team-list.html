@@ -10,7 +10,7 @@ layout: full-width
   {% if half == 1 %}
   <div class="usa-width-one-half usa-end-row usa-media_block grid-col-6">
   {% else %}
-	  <div class="usa-width-one-half usa-media_block grid-col-6">
+	  <div class="usa-width-one-half usa-media_block desktop:grid-col-6">
 	  {% endif %}
 	  {% assign items = site.team | sort: 'date' %}
 		<div class="usa-media_block-img team-image" style="background-image: url({{ person.image | prepend: site.baseurl }});" role="image" aria-label="{{ person.name }}"></div>
@@ -26,3 +26,5 @@ layout: full-width
 	</div>
 {% endfor %}
 </section>
+
+<a id="button"></a> 

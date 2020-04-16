@@ -23,6 +23,8 @@ tag: developing-a-system-security-plan
 <li>FedRAMP Integrated Inventory Workbook Template</li>
 </ul>
 
+
+<div class="responsive-table">
 <table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
@@ -67,3 +69,5 @@ tag: developing-a-system-security-plan
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

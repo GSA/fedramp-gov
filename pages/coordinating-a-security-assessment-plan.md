@@ -15,6 +15,8 @@ tag: developing-a-security-assessment-plan
 <li>Sampling Methodology</li></li>
 </ul>
 
+
+<div class="responsive-table">
 <table class="usa-table">
 <tr>
 <th scope="col">Documents</th>
@@ -46,3 +48,5 @@ tag: developing-a-security-assessment-plan
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

@@ -1,4 +1,7 @@
- @media screen and (min-width: 600px) {
+/* ---- BLOG CSS FILE ---- */
+
+
+@media screen and (min-width: 600px) {
 	.project-container {
 		display: flex;
 		flex-wrap: wrap;
@@ -436,7 +439,15 @@ span.tag {
  
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
- 	
+	.blog-list-image {
+		width: 100%;
+	}
+	
+	.blog-list-excerpt {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
 }
  
 /*** Responsive Styles Smartphone Portrait ***/
