@@ -53,7 +53,7 @@
   <div class="search-wrapper">
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-      <input name='search' type='search' id="searchgovinput" placeholder="Search">
+      <input name="search" type="search" id="searchgovinput" placeholder="Search">
       <button type="submit" id="searchgovbutton">
 	  	<span class="usa-search-submit-text"><i class="fas fa-search"></i></span>
       </button>
@@ -80,7 +80,7 @@
         </em>
       </div>
 <!--    </div>-->
-    <nav role="navigation" class="usa-nav nav" id="navigation">
+    <nav role="navigation" class="usa-nav nav focus-within" id="navigation">
       <button class="usa-nav-close">
         <img src="{{ site.baseurl }}/assets/img/menu-close.svg" alt="close">
       </button>
@@ -90,7 +90,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
+		<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
             <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}

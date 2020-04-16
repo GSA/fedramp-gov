@@ -58,6 +58,7 @@ a {
 div#logo.usa-logo {
 	float: left;
 	position: absolute;
+	margin-top: 0;
 	top: 0px;
 	z-index: 1;
 	padding: 0 25px 18px 25px;
@@ -324,6 +325,7 @@ img.desk {
 
 #searchgovinput {
 	font-style: italic !important;
+	font-size: 14px;
 	border: none;
 	background: #F0F0F0;
 	width: 86%;

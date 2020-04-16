@@ -3,18 +3,25 @@
 	box-shadow: none !important;
 }
 
+#main p {
+	orphans: 3;
+	font-weight: 400;
+	letter-spacing: .02em;
+}
+
 body,
 p, ul, ol, li  {
-  color: $text-color;
-  font-family: $sans-font !important;
+	color: $text-color;
+	font-family: $sans-font !important;
 	line-height: 1.5;
 	font-size: 15px;
 }
 
 legend, label,
 h1, h2, h3, h4, h5, h6 {
-  color: $headers-color;
-  font-family: $serif-font;
+	color: $headers-color;
+	font-family: $serif-font;
+	line-height: 1.3em;
 }
 
 h2 {

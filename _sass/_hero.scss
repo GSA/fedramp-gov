@@ -65,11 +65,13 @@
 
 .hero-text {
 	width: 75%;
+	padding-left: 36px;
 	
 	h1 {
 		font-size: 46px;
 		letter-spacing: .025em;
 		font-weight: 300;
+		line-height: 1.3em;
 		text-transform: uppercase;
 		color: #ffffff;
 		margin-bottom: 2px;
@@ -97,6 +99,7 @@
 @media (min-width:0) and (max-width:950px) {
 .hero-text {
 	width: 100%;
+	padding-left: 0;
 	p {
 		color: #ffffff;
 		width: 100%;

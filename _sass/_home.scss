@@ -126,7 +126,7 @@
 		border: solid 1px $red;
 		color: $red;
 		border-radius: 30px;
-		padding: 10px;
+		padding: 9px 24px 10px;
 		&:hover {
 			border-color: $teal;
 			color: $teal;
@@ -139,6 +139,7 @@
 		font-size: 12px;
 		font-weight: 900;
 		letter-spacing: .01em;
+		padding: 1rem 2rem;
 		&:hover {
 			text-decoration: none;
 			color: $teal;
