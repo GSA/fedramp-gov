@@ -334,34 +334,34 @@ ul.sub-sub-menu {
 }
 
 #navigation ul {
-&:active {
-	outline: 0;
-/*	box-shadow: none;*/
-}
-&.usa-nav-primary {
-li.parent {
-	&:hover {
-/*		border-top: 1px solid #bbb;*/
-	color: $red;
-	}
 	&:active {
 		outline: 0;
-/*		box-shadow: none;*/
+	/*	box-shadow: none;*/
 	}
-	&.focus-within {
-		outline: 0;
-/*		box-shadow: none;*/
-		&:focus {
-			outline: 1;
-/*			box-shadow: inherit;*/
+	&.usa-nav-primary {
+		li.parent {
+			&:hover {
+		/*		border-top: 1px solid #bbb;*/
+				color: $red;
+				}
+				&:active {
+					outline: 0;
+			/*		box-shadow: none;*/
+				}
+				&.focus-within {
+					outline: 1px !important;
+			/*		box-shadow: none;*/
+					&:focus {
+						outline: 3px solid $teal !important;
+			/*			box-shadow: inherit;*/
+					}
+				&:active {
+					outline: 0;
+			/*		box-shadow: none;*/
+				}
+			}
 		}
-	&:active {
-		outline: 0;
-/*		box-shadow: none;*/
 	}
-	}
-}
-}
 }
 
 .usa-nav ul li.parent {
@@ -1020,26 +1020,16 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 }
 
 
-/*
+
 
 @media (min-width: 950px) and (max-width: 1200px) {
-	.usa-nav {
-		max-width: 775px !important;
-		transition: none;
-	}
-	.usa-nav li a, .usa-nav li.main-parent {
-		padding-right: 10px !important;
-		padding-left: 10px !important;
-		transition: none;
-	}
-	.usa-nav li a, .usa-nav li.external {
-			padding-right: 10px !important;
-			padding-left: 10px !important;
-			transition: none;
+
+	ul.usa-nav-primary.usa-accordion {
+		padding: 0 5% 0 0;
+		width: 1200px;
+		text-align: right;
 	}
 }
-
-*/
 
 
 @media (min-width:950px) and (max-width:1024px) {
