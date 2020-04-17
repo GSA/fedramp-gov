@@ -1120,3 +1120,12 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 		width: 780px;
 	}
 }
+
+
+.usa-nav-container {
+	button.usa-menu-btn {
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}
