@@ -1032,7 +1032,7 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 @media (min-width: 950px) and (max-width: 1200px) {
 
 	ul.usa-nav-primary.usa-accordion {
-		padding: 0 5% 0 0;
+		padding: 0 28px 0 0;
 		width: 1200px;
 		text-align: right;
 	}
@@ -1133,8 +1133,7 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 	.usa-nav {
 		display: table !important;
 		width: 755px;
-    	position: fixed;
-		top: 104px;
+    	position: relative;
 	}
 }
 
