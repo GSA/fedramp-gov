@@ -89,6 +89,12 @@ div.usa-nav-container {
 	box-sizing: border-box;
 }
 
+@media (min-width: 1100px) and (max-width: 1240px) {
+	div.usa-nav-container {
+		padding: 40px 12px 30px;
+	}
+}
+
 @media (min-width: 0px) and (max-width: 950px) {
 	div.usa-nav-container {
 		padding: 20px 5%;
@@ -1033,7 +1039,7 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 }
 
 
-@media (min-width:950px) and (max-width:1024px) {
+@media (min-width:951px) and (max-width:1024px) {
 	.usa-nav li a, .usa-nav li.main-parent {
 		padding-right: 8px !important;
 		padding-left: 8px !important;
@@ -1108,15 +1114,26 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 	opacity: .8;
 }
 
-/* ------ Mobile Menu to display at 950px ---------- */
+/* ------ Mobile Menu to display at 950px CHJ ---------- */
 
 
-@media (min-width:950px) and (max-width:1024px) {
+@media (min-width:951px) and (max-width:1024px) {
 	ul.usa-nav-primary li a, .usa-nav ul li.parent {
 		padding: 10px 12px;
 	}
 	
 	ul.usa-nav-primary.usa-accordion {
 		width: 780px;
+	}
+	
+	header .usa-nav-container .usa-menu-btn {
+		display: none;
+	}
+	
+	.usa-nav {
+		display: table !important;
+		width: 755px;
+    	position: fixed;
+		top: 104px;
 	}
 }

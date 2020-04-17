@@ -6,7 +6,7 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
     }
 });
 
-      $(".usa-mobile_nav-active ul.usa-nav-primary li.main-parent.parent.focus-within").click(function(e){
+      $(".usa-js-mobile-nav--active ul.usa-nav-primary li.main-parent.parent.focus-within").click(function(e){
 	  	   e.preventDefault();
       	   $(".plus-minus", this).closest().toggleClass("plus minus");
            $("ul.sub-menu", this).closett().toggle();
@@ -47,7 +47,7 @@ $('ul.usa-nav-primary li a').keypress(function(event) {
 
 $(window).resize(function(event) {
     if ($(window).width() > 950) {
-		$('body').removeClass('usa-mobile_nav-active');
+		$('body').removeClass('usa-js-mobile-nav--active');
 		$('#navigation').removeClass('is-visible');
 		$('.usa-overlay.is-visible').remove();
 				event.preventDefault();
