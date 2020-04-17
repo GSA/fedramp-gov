@@ -912,7 +912,7 @@ header.usa-header {
 }
 
 li.parent .sub-menu {
-	top: 60px;
+	top: 38px;
 }
 
 .usa-nav li {
@@ -1105,4 +1105,17 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 .usa-overlay.is-visible {
 	background: #fff;
 	opacity: .8;
+}
+
+/* ------ Mobile Menu to display at 950px ---------- */
+
+
+@media (min-width:950px) and (max-width:1024px) {
+	ul.usa-nav-primary li a, .usa-nav ul li.parent {
+		padding: 10px 12px;
+	}
+	
+	ul.usa-nav-primary.usa-accordion {
+		width: 780px;
+	}
 }
