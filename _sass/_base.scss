@@ -511,6 +511,12 @@ button:hover,
 }
 
 
+@media (min-width: 1200px) and (max-width: 1240px) {
+	.page-banner {
+		padding-right: 10px !important;
+	}
+}
+
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
 

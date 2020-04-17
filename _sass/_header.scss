@@ -276,7 +276,11 @@ img.desk {
 }
 }
 
-
+@media (min-width: 1200px) and (max-width: 1240px) {
+	.search-wrapper {
+		padding-right: 20px;
+	}
+}
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
