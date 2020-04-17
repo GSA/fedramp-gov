@@ -81,7 +81,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/preview/gsa/fedramp-gov/footer-header-home/') {
+		if (current == '/preview/gsa/fedramp-gov/uswds-update-look/') {
 				$("#navigation ul li a").removeClass("active");
 		        $("#navigation ul li a").first().addClass("active");
 		    }
@@ -89,9 +89,9 @@ $(function(){
 
 
 
-//$(function(){
-//    $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
-//});
+$(function(){
+    $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
+});
 //
 //$(window).resize(function() {
 // if ($(window).width() < 960) {
