@@ -89,9 +89,9 @@ $(function(){
 
 
 
-//$(function(){
-//    $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
-//});
+$(function(){
+    $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
+});
 //
 //$(window).resize(function() {
 // if ($(window).width() < 960) {
