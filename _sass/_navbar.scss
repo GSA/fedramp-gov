@@ -229,7 +229,7 @@ li.parent .sub-menu {
 			width: 100%;
 			a {			
 			&:after {
-				font-family: "Fontawesome";
+				font-family: "Font Awesome 5 Free";
 				content: '\f105';
 				height: 0;
 				float: right;
@@ -264,7 +264,7 @@ li.parent .sub-menu {
 	}
 
 ul.sub-menu li.parent a:after {
-	font-family: Fontawesome;
+	font-family: Font Awesome 5 Free;
 	content: '\f105';
 	height: 0;
 	float: right;
@@ -991,7 +991,7 @@ font-size: 1.2em;
 }
 
 ul.sub-menu li.parent a:after {
-  font-family: Fontawesome;
+  font-family: Font Awesome 5 Free;
   content: none;
   height: 0;
   float: right; }

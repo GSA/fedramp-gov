@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Muli:wght@300;400;500;700;800;900&display=swap');
 
+@import "../assets/vendor/fontawesome/scss/fontawesome.scss";
+@import "../assets/vendor/fontawesome/scss/solid.scss";
+@import "../assets/vendor/fontawesome/scss/brands.scss";
+
 // Our variables
 $base-font-family: 'Muli', sans-serif;
 $sans-font: 	   'Muli', sans-serif;
@@ -70,6 +74,10 @@ $tablet-low: 768px;
 $mobile-high: 667px;
 $mobile-mid: 400px;
 $desktop: 1200px;
+
+
+//Fontawesome
+$fa-font-path:        "../../assets/vendor/fontawesome/webfonts";
 
 
 
