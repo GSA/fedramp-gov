@@ -349,15 +349,15 @@ ul.sub-sub-menu {
 			/*		box-shadow: none;*/
 				}
 				&.focus-within {
-					outline: 1px !important;
+					outline: 0 !important;
 			/*		box-shadow: none;*/
 					&:focus {
-						outline: 3px solid $teal !important;
-			/*			box-shadow: inherit;*/
+						outline: 0 !important;
+						box-shadow: none !important;
 					}
 				&:active {
 					outline: 0;
-			/*		box-shadow: none;*/
+					box-shadow: none;
 				}
 			}
 		}
@@ -659,11 +659,12 @@ button.usa-menu-btn {
 	border-top: none;
 }
 
-button.usa-nav-close {
+button.usa-nav__close {
 	margin: 0;
 	width: 100%;
 	&:focus {
-		box-shadow: none;
+		box-shadow: none !important;
+		outline: none !important;
 	}
 	img {
 		float: right;
@@ -735,7 +736,7 @@ header .usa-nav-container .usa-menu-btn {
 	}
 }
 
-button.usa-nav-close {
+button.usa-nav__close {
 	background: $dark-blue;
 }
 
@@ -747,7 +748,7 @@ button.usa-nav-close {
 		}
 	}
 	
-	button.usa-nav-close {
+	button.usa-nav__close {
 		display: none;
 	}
 }
