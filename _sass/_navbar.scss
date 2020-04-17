@@ -1,4 +1,4 @@
-/* Mike's edits for the new look */
+/*----- Nav Bar -----*/
 
 
 ul.usa-nav-primary {
@@ -367,7 +367,6 @@ li.parent {
 .usa-nav ul li.parent {
 	border: none;
 	color: #212121;
-//	display: block;
 	font-family: 'Muli', sans-serif;
 	line-height: 1.3;
 	padding: 24px 20px;
@@ -379,8 +378,7 @@ li.parent {
 	color: $mid-gray;
 	letter-spacing: .05em;
 	font-size: 14px;
-/*	box-shadow: none;*/
-/*	outline: 0;*/
+
 	  &:active {
 	    color: $link-active-color;
 		/*box-shadow: none;
@@ -410,12 +408,6 @@ li.parent {
 	  		  }
 	  }
 }
-
-@media (min-width: 951px) and (max-width: 1200px) {
-	.usa-nav ul li.parent {
-		font-size: 1.3rem;
-		}
-	}
 
 .usa-nav ul li.parent:hover {
 	color: $red; 
@@ -825,68 +817,69 @@ header.usa-header {
 	}
 }
 .usa-js-mobile-nav--active .usa-nav {
-ul.usa-nav-primary {
-	margin-top: 30px;
-	margin-left: 30px;
-	padding: 0;
-	box-sizing: border-box;
-	width: 90%;
-li {
-	&:hover {
-		color: #fff !important;
+	ul.usa-nav-primary {
+		margin-top: 30px;
+		margin-left: 30px;
+		padding: 0;
+		box-sizing: border-box;
+		width: 90%;
+		li {
+			&:hover {
+				color: #fff !important;
+			}
+			a:hover {
+				color: #fff !important;
+			}
+		}
+		ul.sub-menu {
+			margin: 0;
+			top: 20px;
+			li {
+				padding: 13px 20px !important;
+				font-weight: 800;
+				font-size: 14px;
+				&:first-child {
+					padding-top: 0px !important;
+				}
+				&.parent {
+					font-weight: 800;
+				}
+				&:hover {
+					color: #fff !important;
+					opacity: 1 !important;
+					visibility: visible !important;
+				}
+				a:hover {
+					color: #fff !important;
+					opacity: 1 !important;
+				}
+				li {
+					padding: 13px 20px !important;
+				}
+				}
+		}
+		&.parent {
+			padding: 13px 30px !important;
+			font-weight: 800;
+			ul.sub-sub-menu {
+				position: static;
+			li.parent {
+				padding: 13px 45px !important;
+				font-weight: 600;
+			a {
+				&:hover > ul {
+					display: block;
+					li {
+						a {
+							color: #fff !important;
+						}
+					}
+				}
+			}
+			}
+		}
 	}
-	a:hover {
-		color: #fff !important;
 	}
-}
-ul.sub-menu {
-	margin: 0;
-li {
-	padding: 13px 20px !important;
-	font-weight: 800;
-	font-size: 14px;
-	&:first-child {
-		padding-top: 0px !important;
-	}
-	&.parent {
-		font-weight: 800;
-	}
-	&:hover {
-		color: #fff !important;
-		opacity: 1 !important;
-		visibility: visible !important;
-	}
-	a:hover {
-		color: #fff !important;
-		opacity: 1 !important;
-	}
-	li {
-		padding: 13px 20px !important;
-	}
-	}
-	}
-&.parent {
-	padding: 13px 30px !important;
-	font-weight: 800;
-ul.sub-sub-menu {
-	position: static;
-li.parent {
-	padding: 13px 45px !important;
-	font-weight: 600;
-a {
-&:hover > ul {
-	display: block;
-	li {
-	a {
-		color: #fff !important;
-	}
-}
-}
-}
-}
-}
-}
-}
 }
 }
 
@@ -919,25 +912,135 @@ a {
 }
 
 li.parent .sub-menu {
-	top: 24px;
+	top: 60px;
 }
 
+.usa-nav li {
+    margin: 0px;
+    list-style: none;
+	letter-spacing: .02em;
+	a {
+		font-size: 1.5rem;
+		line-height: 1.4;
+	}
+}
+
+
+.usa-nav a {
+    transition: all linear 0.15s;
+}
+
+.usa-nav li:hover > a, .usa-nav .current-item > a {
+    text-decoration: none;
+}
+
+
+
+/** PRINT FRIENDLY **/
+@media print {
+	
+	html, body {
+            margin: 0;
+            padding: 0;
+            background: #FFF; 
+            font-size: 9.5pt;
+          }
+          .container, .container div {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+
+          img { 
+		  width: 100%; 
+	  }
+	
+	#navigation, #subnavigation{
+	display: none;
+	}
+
+	h1 {
+	font-size: 24pt;
+	}
+	h2 {
+	font-size: 18pt;
+	}
+	h3 {
+	font-size: 14pt;
+	}
+	p, ul, ol, dl {
+	/* paragraphs, unordered, ordered, and definition lists */
+	font-size: 12pt;
+	}
+    /* Print CSS rules go here */
+    /* Note: You need a separate @media screen group for other rules */
+}
+
+@media (min-width: 0px) and (max-width: 951px) {
+ul.sub-menu li.parent {
+  padding: 0;
+float: left;
+font-size: 1.2em;
+}
+
+ul.sub-menu li.parent a:after {
+  font-family: Fontawesome;
+  content: none;
+  height: 0;
+  float: right; }
+
+ul.sub-sub-menu li a:after {
+  content: none !important; }
+
+ul.sub-sub-menu {
+  position: relative;
+  top: 0;
+  margin: 10px 0 0 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  padding: 0;
+  transition: opacity linear 0.15s;
+  background: #205493; }
+  ul.sub-sub-menu li {
+    display: block;
+ background: #112e51; }
+
+/*ul.usa-nav-primary ul.sub-sub-menu li a:before {
+	content: '– ';
+}*/
+
+ul.usa-nav-primary ul.sub-sub-menu li a {
+	font-size: .8em;
+}
+}
+
+#navigation.usa-nav.nav {
+	max-width: 880px;
+}
+
+
+/*
+
 @media (min-width: 950px) and (max-width: 1200px) {
-.usa-nav {
-	max-width: 775px !important;
-	transition: none;
-}
-.usa-nav li a, .usa-nav li.main-parent {
-	padding-right: 10px !important;
-	padding-left: 10px !important;
-	transition: none;
-}
-.usa-nav li a, .usa-nav li.external {
+	.usa-nav {
+		max-width: 775px !important;
+		transition: none;
+	}
+	.usa-nav li a, .usa-nav li.main-parent {
 		padding-right: 10px !important;
 		padding-left: 10px !important;
 		transition: none;
+	}
+	.usa-nav li a, .usa-nav li.external {
+			padding-right: 10px !important;
+			padding-left: 10px !important;
+			transition: none;
+	}
 }
-}
+
+*/
+
 
 @media (min-width:950px) and (max-width:1024px) {
 	.usa-nav li a, .usa-nav li.main-parent {
@@ -949,11 +1052,19 @@ li.parent .sub-menu {
 		max-width: 755px !important;
 	}
 	.usa-nav-primary {
-	display: flex;
-	flex-flow: row;
-	justify-content: space-between;	
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;	
+	}
+	
+	header .usa-nav-container .usa-menu-btn {
+		position: relative;
+		top: -50px;
+		right: 36px;
 	}
 }
+
+
 
 @media (min-width:0) and (max-width: 950px) {
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {

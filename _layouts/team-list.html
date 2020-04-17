@@ -4,7 +4,7 @@ layout: full-width
 
 {{ content }}
 
-<section class="usa-graphic_list grid-row grid-gap">
+<section class="usa-graphic_list grid-row grid-gap team-list">
 {% for person in site.team %}
   {% assign half = forloop.index | modulo: 2 %}
   {% if half == 1 %}

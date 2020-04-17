@@ -108,27 +108,27 @@ div#logo.usa-logo {
 }*/
 
 @media (min-width: 0px) and (max-width: 950px) {
-div#logo.usa-logo {
-	top: 0;
-	img {
-		width: 100%;
-		max-width: 60px;
-		height: auto;
+	div#logo.usa-logo {
+		top: 0;
+		img {
+			width: 100%;
+			max-width: 60px;
+			height: auto;
+		}
 	}
-}
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
 div#logo.usa-logo {
-	top: 0;
-	img {
-		width: 100%;
-		height: auto;
+		top: 0;
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
-}
-.usa-banner-header img {
-	width: 20px;
-}
+	.usa-banner-header img {
+		width: 20px;
+	}
 }
 
 header.usa-banner-header {
@@ -143,158 +143,6 @@ header.usa-banner-header {
     box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
     background: #3e3436;
 }
-
-//@media (min-width: 0) and (max-width: 768px) {
-//.usa-navbar {
-//    width: 100%;
-//    margin: 0px auto;
-//}
-//div#logo.usa-logo {
-//	float: left;
-//	 max-width: 100%;
-//	 img {
-//	 	width: 100%;
-//	 	height: auto;
-//	 }
-//}
-//}
-
-//@media (min-width: 768px) and (max-width: 1024px) {
-//nav.usa-nav {
-//	width: 70%;
-//}
-//.usa-navbar {
-//	width: 30%;
-//}
-//}
-
-.usa-nav li {
-    margin: 0px;
-    list-style: none;
-	letter-spacing: .02em;
-	a {
-		font-size: 1.5rem;
-		line-height: 1.4;
-	}
-}
-
-//@media and (max-width: 951px) {
-//.usa-nav li a, .usa-nav li.parent {
-//	font-size: 1.25vw !important;
-//}
-//}
-
-@media (min-width: 951px) and (max-width: 1200px) {
-nav.usa-nav {
-	width: 100%;
-	height: 100px;
-	position: relative;
-/*	top: -100px;*/
-	height: 70px;
-	li a {
-		font-size: 1.3rem;
-	}
-}
-}
-
-.usa-nav a {
-    transition: all linear 0.15s;
-}
-
-.usa-nav li:hover > a, .usa-nav .current-item > a {
-    text-decoration: none;
-}
-
-
-
-/** PRINT FRIENDLY **/
-@media print {
-	
-	html, body {
-            margin: 0;
-            padding: 0;
-            background: #FFF; 
-            font-size: 9.5pt;
-          }
-          .container, .container div {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-          }
-	/*
-          .template { 
-		  overflow: hidden;
-	   }
-	*/
-
-          img { 
-		  width: 100%; 
-	  }
-	
-	#navigation, #subnavigation{
-	display: none;
-	}
-
-	h1 {
-	font-size: 24pt;
-	}
-	h2 {
-	font-size: 18pt;
-	}
-	h3 {
-	font-size: 14pt;
-	}
-	p, ul, ol, dl {
-	/* paragraphs, unordered, ordered, and definition lists */
-	font-size: 12pt;
-	}
-    /* Print CSS rules go here */
-    /* Note: You need a separate @media screen group for other rules */
-}
-
-@media (min-width: 0px) and (max-width: 951px) {
-ul.sub-menu li.parent {
-  padding: 0;
-float: left;
-font-size: 1.2em;
-}
-
-ul.sub-menu li.parent a:after {
-  font-family: Fontawesome;
-  content: none;
-  height: 0;
-  float: right; }
-
-ul.sub-sub-menu li a:after {
-  content: none !important; }
-
-ul.sub-sub-menu {
-  position: relative;
-  top: 0;
-  margin: 10px 0 0 0;
-  left: 0;
-  width: 100%;
-  opacity: 1;
-  padding: 0;
-  transition: opacity linear 0.15s;
-  background: #205493; }
-  ul.sub-sub-menu li {
-    display: block;
- background: #112e51; }
-
-/*ul.usa-nav-primary ul.sub-sub-menu li a:before {
-	content: '– ';
-}*/
-
-ul.usa-nav-primary ul.sub-sub-menu li a {
-	font-size: .8em;
-}
-}
-
-#navigation.usa-nav.nav {
-	max-width: 880px;
-}
-
 
 
 @media (min-width: 0) and (max-width: 950px) {
