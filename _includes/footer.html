@@ -20,14 +20,15 @@
 					<div class="street-address">
 						<p>Federal Risk and Authorization Management Program (FedRAMP)</p>
 						<p>General Services Administration</p>
-						<p style="margin-bottom: 0;">1800 F Street, NW</p>
+						<p class="margin-bottom-zero">1800 F Street, NW</p>
 						<p>Washington, DC 20006</p>
 					</div>
 
 					<div class="footer-social">
 						<p class="footer-contact footer-follow-us"><a class="" href="mailto:info@FedRAMP.gov" target="_blank">
-							<svg id="Layer_1" class="footer-mail-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 27 20"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#90cef1;fill-rule:evenodd;}</style><clipPath id="clip-path"><rect class="cls-1" width="27" height="20"/></clipPath></defs><g class="cls-2"><g id="mail"><path id="mail-2" class="cls-3" d="M0,0V20H27V0ZM13.5,13.33,3.38,3.33H23.62Z"/></g></g></svg>info@FedRAMP.gov</a></p>
-
+							
+							<img class="footer-mail-icon" src="{{site.baseurl}}/assets/img/footer-mail-icon.svg" alt="mail to fedramp">info@FedRAMP.gov</a></p>
+							
 						<p class="footer-contact footer-follow-us"><a class="" href="https://twitter.com/fedramp?lang=en" target="_blank"><i class="fab fa-twitter fa-2x framp-twitter"></i>Follow Us</a></p>
 
 					</div>
@@ -46,7 +47,7 @@
 
 				<form id="contact" action="{{ f.url }}" method="POST">
 					<h5>KEEP UP TO DATE</h5>
-					<p>To receive news and updates, add your email to FedRAMP’s <span style="white-space: nowrap;">subscriber list.</span></p>
+					<p>To receive news and updates, add your email to FedRAMP’s <span class="no-wrap;">subscriber list.</span></p>
 						<div class="newsletter-inner">
 							{% for field in f.fields %}
 							{% unless field.type == 'hidden' %}

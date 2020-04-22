@@ -110,6 +110,14 @@ a {
 	clear: both;
 }
 
+.no-wrap {
+	white-space: nowrap;
+}
+
+.margin-bottom-zero {
+	margin-bottom: 0;
+}
+
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
     position: relative;
@@ -126,10 +134,11 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-.usa-grid {
-	padding-right: 5%;
-	padding-left: 5%;
-}}
+	.usa-grid {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
 
 #main .page-banner-container, body .page-banner-container {
 	background: $light-blue;

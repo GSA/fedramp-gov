@@ -108,13 +108,6 @@ ul.quick-links {
 }
 
 
-//should we put the clearfix in the main.scss file?
-.clearfix {
-	clear: both;
-}
-
-
-
 .footer-social, address .contact {
 	flex-flow: row;
 	align-items: center;

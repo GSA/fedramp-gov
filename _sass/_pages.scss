@@ -902,7 +902,7 @@ padding: 60px 5%;
 
 #modal {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $sans-font;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
@@ -1298,7 +1298,6 @@ padding: 60px 5%;
 				h5 {
 					margin: 0 0 10px 0;
 					font-size: 20px !important;
-					font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 					font-weight: normal;
 					color: #fff;
 					width: 100%;
