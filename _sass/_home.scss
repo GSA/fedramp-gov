@@ -1,3 +1,4 @@
+/* --- Home scss --- */
 .center-content {
   text-align: center;
 }
@@ -7,8 +8,6 @@
 }
 
 .home .usa-width-one-whole > p {
-  // same as .usa-font-lead
-//  max-width: 77rem;
   font-size: 20px;
   line-height: 1.7;
 }
@@ -52,7 +51,6 @@
 	margin: 40px auto 0 auto;
 	border-top: solid 1px #dedede;
     width: 100%;
-/*	height: 60px;*/
     margin-bottom: 0px;
 	h3 {
 		color: $red;
@@ -100,11 +98,6 @@
 		float: left;
 		margin-left: 25px;
 		width: 50%;
-	}
-	
-	.partners-col {
-		/*width: 33%;
-		float: left;*/
 	}
 	
 	.partners-col h2 {
@@ -157,12 +150,9 @@
 		justify-content: space-around;
 		padding: 0;
 		li {
-/*			padding-bottom: 30px;*/
-/*			margin-bottom: 30px;*/
 			width: 300px;
-/*			border-bottom: 1px solid $light-gray;*/
 		}
-}
+	}
 }
 
 @media (min-width:768px) and (max-width:1000px) {
@@ -177,7 +167,6 @@
 			padding-bottom: 0;
 			margin-bottom: 30px;
 			width: 390px;
-/*			border-bottom: 1px solid $light-gray;*/
 			&:last-child {
 				border: none;
 			}
@@ -1028,6 +1017,8 @@ p.auth-process-description {
 	}
 }
 
+
+
 .program-basics {
 	#history-mission-goals {
 		display: flex;
@@ -1285,6 +1276,7 @@ section#goals div.inner {
 		}
 	}
 }
+
 
 @media (min-width: 0) and (max-width: 660px) {
 	.fedramp-glance {

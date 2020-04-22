@@ -205,35 +205,6 @@ section#do-once {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-
-//section#welcome {
-//	background-image: url('../../assets/img/fedramp-welcome-icon.png');
-//}
-//section#ssp, section#sap, section#sap-guidance, section#sap, section#sar-guidance, section#sar-report {
-//	background-image: url('../../assets/img/fedramp-doc-icon.png');
-//}
-//section#conmon {
-//	background-image: url('../../assets/img/fedramp-monitor.png');
-//}
-//section#control {
-//	background-image: url('../../assets/img/fedramp-control.png');
-//}
-//section#req {
-//	background-image: url('../../assets/img/fedramp-3pao.png');
-//}
-//section#procedures {
-//	background-image: url('../../assets/img/fedramp-procedure.png');
-//}
-//section#method {
-//	background-image: url('../../assets/img/search-doc.png');
-//}
-//section#sar-tables {
-//	background-image: url('../../assets/img/assessment-table.png');
-//}
-//section#rar {
-//	background-image: url('../../assets/img/assessment-report.png');
-//}
-
 .assessors-page section#post-auth {
 	border: none;
 	margin: 0;
@@ -284,7 +255,6 @@ section#do-once {
 		justify-content: space-around;
 		flex-flow: row wrap;
 		padding: 0 3% 40px 3%;
-//    	border-radius: 20px;
 		li.column {
 			width: 220px;
 			list-style: none;
@@ -375,7 +345,6 @@ ul.columns {
 
 
 .dashboard {
-//	background: #E2F3F8;
 	float: left;
 	padding: 0;
 	width: 100%;
@@ -393,7 +362,6 @@ ul.columns {
     ul {
 		width: 100%;
 		display: grid;
-//		flex-wrap: wrap;
 		justify-content: space-between;
 		justify-items: start;
 		grid-template-columns: 50% 50%;
@@ -829,18 +797,19 @@ max-width: 200px;
 }
 
 @media (min-width: 0) and (max-width: 980px) {
-.learning-main #main ul.learning-group {
-flex-flow: wrap;
-}
-.learning-main #main ul.learning-group li {
-margin-bottom: 20px;
-}
+	.learning-main #main ul.learning-group {
+	flex-flow: wrap;
+	}
+	
+	.learning-main #main ul.learning-group li {
+	margin-bottom: 20px;
+	}
 }
 
 @media (min-width: 0) and (max-width: 1200px) {
-.learning-main #main {
-padding: 60px 5%;
-}
+	.learning-main #main {
+	padding: 60px 5%;
+	}
 }
 
 .page-webinars .panel {
