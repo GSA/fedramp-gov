@@ -6,7 +6,7 @@
 	position: relative;
 	float: left;
 	width: 100%;
-	background-image: url('../../assets/img/homepage-banner-desktop.png');
+	background-image: url('../../assets/img/homepage-banner-desktop.jpg');
 	padding: 100px 5% 60px 5%;
 	.usa-grid {
 		max-width: 1200px;
@@ -16,14 +16,14 @@
 
 @media (min-width:768px) and (max-width:980px) {
 	.hero-unit {
-		background-image: url('../../assets/img/homepage-banner-tablet.png');
+		background-image: url('../../assets/img/homepage-banner-tablet.jpg');
 		padding: 60px 5% 60px 5%;
 	}
 }
 
 @media (min-width:0px) and (max-width:768px) {
 	.hero-unit {
-		background-image: url('../../assets/img/homepage-banner-mobile.png');
+		background-image: url('../../assets/img/homepage-banner-mobile.jpg');
 		padding: 40px 5% 60px 5%;
 	}
 }
@@ -58,6 +58,8 @@
 	width: 50%;
 }
 
+
+// Old hero background
 .home .hero-unit {
   background-image: url("../../assets/img/home-hero-unit.png") !important;
   background-attachment: fixed;
