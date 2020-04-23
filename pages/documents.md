@@ -139,7 +139,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/14/2018</td>
+    <td>3/26/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
