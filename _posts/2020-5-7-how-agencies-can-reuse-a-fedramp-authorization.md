@@ -14,7 +14,7 @@ To make this possible, FedRAMP eliminates duplicative efforts by providing a com
 FedRAMP developed a <a href="https://www.fedramp.gov/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf"> quick guide for agencies</a> that outlines how to reuse a security package for a FedRAMP Authorized CSO. When reusing FedRAMP security packages, agencies should keep in mind the following best practices:
 * Review the <a href="https://marketplace.fedramp.gov/#/products">FedRAMP Marketplace</a> to determine which cloud products are FedRAMP Authorized
 * Understand and implement customer responsibilities
-* Send a copy of your ATO for FedRAMP Authorized services to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> 
+* Send a copy of your ATO letter for FedRAMP Authorized services to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> 
 
 FedRAMP Authorized products provide the intrinsic benefits of the cloud - remote access, scalability, collaboration efficiency, and many more - that help the federal government achieve its mission and deliver services to the public, and are critical to many agencies’ IT modernization efforts.
 
