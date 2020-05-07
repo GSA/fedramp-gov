@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Ryan Hoesing
-image: /assets/img/team/Ryan Hoesing.png
+image: /assets/img/team/profile_RyanHoesing.png
 title: Customer Success Manager
 body-class: page-team-single
 date: 2018-01-04
