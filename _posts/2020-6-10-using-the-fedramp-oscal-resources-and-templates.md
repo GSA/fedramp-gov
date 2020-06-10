@@ -2,7 +2,7 @@
 title: Using the FedRAMP OSCAL Resources and Templates
 permalink: /using-the-fedramp-oscal-resources-and-templates/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_OSCAL Resources.png
+image: /assets/img/blog-images/FRblog_OSCAL_Resources.png
 author: FedRAMP
 layout: blog-page
 ---
