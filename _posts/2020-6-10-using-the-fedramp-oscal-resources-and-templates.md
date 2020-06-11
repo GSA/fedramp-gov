@@ -17,9 +17,9 @@ With OSCAL, activities associated with preparing, authorizing, and reusing cloud
 **OSCAL Short Video** 
 
 The FedRAMP PMO developed a short video that discusses high-level OSCAL goals, applications, and how to use the FedRAMP OSCAL SSP template and other resources.
-
-<iframe width="560" height="315" src="https://youtu.be/WCPkt56vZ-s" frameborder="0" allowfullscreen></iframe>
-
+<div class="video-responsive">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WCPkt56vZ-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 To access the resources discussed in this video, please visit the <a href="https://github.com/GSA/fedramp-automation/issues">FedRAMP Automation resources on GitHub</a>. 
 
