@@ -27,7 +27,7 @@ To access the resources discussed in this video, please visit the <a href="https
 
 All development efforts have been performed in the open and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!
 
-If you have questions or feedback, please provide comments via email to <a href="mailto:info@fedramp.gov">info@fedramp.gov. </a> You can also comment on an <a href="https://github.com/GSA/fedramp-automation/issues">existing issue or as a new issue</a> within the FedRAMP Automation repository. 
+If you have questions or feedback, please provide comments via email to <a href="mailto:info@fedramp.gov">info@fedramp.gov. </a> You can also comment on an <a href="https://github.com/GSA/fedramp-automation/issues">existing issue or create a new issue</a> within the FedRAMP Automation repository. 
 The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.
 
 
