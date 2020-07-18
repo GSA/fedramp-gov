@@ -657,9 +657,13 @@ img.desk {
 	max-width: 400px;
 	min-width: 300px;
 	display: flex;
+	position: relative;
+	z-index: 2;
 	.bell {
-		position: relative;
+		position: absolute;
 		cursor: pointer;
+		top: 0;
+		left: -78px;
 	}
 	#alert-logic {
 		display: none;
