@@ -9,4 +9,8 @@ hero-secondary-text: The Federal Risk and Authorization Management Program (FedR
 marketplace-text: The FedRAMP Marketplace provides a searchable, sortable database of cloud offerings that have achieved a FedRAMP designation.
 csp-header: Are you a CSP and donʼt know where to start?
 csp-text: To get started with FedRAMP, CSPs interested in pursing an authorization should complete a CSP Information Form. Completing this form will trigger the FedRAMP Program Management Office (PMO) to set up an intake call to discuss your system and the best authorization strategy for you.
+
+first-page-hero-button:[Learn Program Basics]({{site.baseurl}}/program-basics/)
+
+second-call-button:
 ---
