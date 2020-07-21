@@ -1038,3 +1038,10 @@ padding: 60px 5%;
   position: relative;
 }
 
+[type=checkbox] {
+	opacity: 1;
+	-webkit-appearance: checkbox;
+	position: relative;
+	height: auto;
+	line-height: 1;
+}

@@ -63,7 +63,6 @@ defaults:
       - "team-list"
       - team
       - posts
-      - documents
 
 forms:
 - type: newsletter
@@ -109,6 +108,8 @@ collections:
   team:
     output: true
   posts:
+    output: true
+  policy_docs:
     output: true
 
 

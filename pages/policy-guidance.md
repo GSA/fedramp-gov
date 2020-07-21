@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: policy-guidance
 title: Policy & Guidance
 permalink: /policy-guidance/
 ---
@@ -47,7 +47,10 @@ permalink: /policy-guidance/
 </div>
 
 <ul class="flowers">
-  {% for document in site.documents %}
-  <li class="flower" data-id="aloe" data-category="{{ document.tags }}">{{ document.title }}</li>
-  {% endfor %}
+  {% for tag in policy_doc.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+	    {% endfor %}
+  {% for policy_doc in site.policy_docs %}
+  <li class="flower" data-id="aloe" data-category="{{ policy_doc.tags  | join: " " }}"><span>{{ policy_doc.category }}</span><span>{{ policy_doc.title }}</span><span>{{ policy_doc.slug }}</span><span>{{ policy_doc.tags }}</span></li>
+	    {% endfor %}
 </ul>
