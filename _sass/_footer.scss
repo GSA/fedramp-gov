@@ -13,7 +13,7 @@ footer {
 		font-family: $title-font;
 		color: $footer-teal;
 		font-weight: bold;
-		font-size: 1.25em;
+		font-size: 1.25rem;
 		margin: 0 0 10px 0;
 		text-transform: uppercase;
 		letter-spacing: .04em;
@@ -21,7 +21,7 @@ footer {
 	
 	p {
 		color: $lighter-teal;
-		font-size: 14px;
+		font-size: .875rem;
 		font-family: $sans-font !important;
 		letter-spacing: .02em;
 		line-height: 18px;
@@ -65,7 +65,7 @@ ul.quick-links {
 .quick-links li {
 	margin-bottom: 8px;
 	padding-left: 8px;
-	font-size: 14px;
+	font-size: .875rem;
 	
 	a {
 		text-decoration: none;
@@ -85,7 +85,7 @@ ul.quick-links {
 	background: #455874;
 	height: 20px;
 	width: 20px;
-	font-size: 11px;
+	font-size: .6825rem;
 	border-radius: 50%;
 	padding: 2px 0 0 0;
 }
@@ -122,7 +122,7 @@ ul.quick-links {
 	}
 	
 	p {
-		font-size: 14px;
+		font-size: .875rem;
 		font-weight: 700;
 	}
 }
@@ -175,7 +175,7 @@ p.footer-follow-us {
 			border-radius: 40px;
 			height: 32px;
 			width: 116px;
-			font-size: 12px;
+			font-size: .75rem;
 		}
 		
 		input.footer-submit:hover {

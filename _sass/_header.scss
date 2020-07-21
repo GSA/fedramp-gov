@@ -169,7 +169,7 @@ img.desk {
 
 #searchgovinput {
 	font-style: italic !important;
-	font-size: 14px;
+	font-size: 0.875rem;
 	border: none;
 	background: #F0F0F0;
 	width: 86%;
@@ -234,15 +234,15 @@ img.desk {
 			margin: 0;
 			padding: 0;
 			a {
-				font-size: 13px;
+				font-size: 0.8125rem;
 				margin: 0 0 10px 0;
 			}
 			p.date {
-				font-size: 12px;
+				font-size: 0.75rem;
 				margin: 0 0 10px 0;
 			}
 			p {
-				font-size: 13px;
+				font-size: 0.8125rem;
 				margin: 0;
 				color: $dark-gray;
 			}
@@ -266,7 +266,7 @@ img.desk {
 	right: 15px;
 	top: -20px;
 	width: 20px;
-	font-size: 11px;
+	font-size: 0.6875rem;
 	border-radius: 20px;
 	text-align: center;
 	border: 2px solid #fff;

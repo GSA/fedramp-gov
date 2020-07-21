@@ -135,7 +135,7 @@ nav.usa-nav {
 
 .usa-nav-primary.usa-accordion {
 li {
-	font-size: 14px;
+	font-size: 0.875rem;
 	letter-spacing: .02em;
 	 color: #757575;
 	 a:active {
@@ -173,14 +173,14 @@ left: 30px;
 /*    float:left;*/
 /*    display:inline-block;*/
     position: relative;
-/*    font-size:19px;*/
+/*    font-size:1.1875rem;*/
 }
 
 .usa-nav > ul > li > a {
 /*    padding:10px 40px;*/
     display: inline-block;
 	font-family: 'Muli', sans-serif;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: .02em;
@@ -219,7 +219,7 @@ li.parent .sub-menu {
 		display: block;
 		text-align: left;
 		font-family: 'Muli', sans-serif;
-		font-size: 14px;
+		font-size: 0.875rem;
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: .02em;
@@ -246,7 +246,7 @@ li.parent .sub-menu {
 			color: #4C4C4E;
 			display: block;
 			line-height: 1;
-			font-size: 14px;
+			font-size: 0.875rem;
 			font-weight: 700;
 			font-style: normal;
 			letter-spacing: .02em;
@@ -293,7 +293,7 @@ ul.sub-sub-menu {
   li {
   	display: block;
   	font-family: 'Muli', sans-serif;
-  	font-size: 14px;
+  	font-size: 0.875rem;
   	font-style: normal;
   	font-weight: 700;
   	max-height: 54px;
@@ -383,7 +383,7 @@ ul.sub-sub-menu {
 	width: auto;
 	color: $mid-gray;
 	letter-spacing: .05em;
-	font-size: 14px;
+	font-size: 0.875rem;
 
 	  &:active {
 	    color: $link-active-color;
@@ -532,14 +532,14 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 
 .usa-js-mobile-nav--active .plus-minus.plus:after {
     content: '+' !important; /* Unicode character for "plus" sign (+) */
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff !important;
     font-family: $serif-font;
     padding-left: 10px;
 }
 .usa-js-mobile-nav--active .plus-minus.minus:after {
     content: '-'; /* Unicode character for "minus" sign (+) */
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff !important;
     font-family: $serif-font;
     padding-left: 10px;
@@ -684,7 +684,7 @@ header .usa-nav-container .usa-menu-btn {
 	clear: both;
 	width: 50px;
 	height: 50px;
-	font-size: 30px;
+	font-size: 1.875rem;
 	border-radius: 10px;
 	background: $light-gray;
 	border: none;
@@ -844,7 +844,7 @@ header.usa-header {
 			li {
 				padding: 13px 20px !important;
 				font-weight: 800;
-				font-size: 14px;
+				font-size: 0.875rem;
 				&:first-child {
 					padding-top: 0px !important;
 				}

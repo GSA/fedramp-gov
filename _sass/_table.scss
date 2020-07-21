@@ -18,7 +18,7 @@ table {
 	
 	th.row-header {
 		background: #ffffff !important;
-		font-size: 12px;
+		font-size: 0.75rem;
 		color: $black;
 		vertical-align: top;
 		border: 1px solid #cdcdcd !important;
@@ -26,18 +26,18 @@ table {
 	td {
 		border: 1px solid #cdcdcd;
 		vertical-align: top;
-		font-size: 12px;
+		font-size: 0.75rem;
 		padding: 1em;
 		ul {
 			margin-top: 0px;
 		}
 		
 		li {
-			font-size: 12px;
+			font-size: 0.75rem;
 		}
 
 		a {
-			font-size: 12px;
+			font-size: 0.75rem;
 		}
 	}
 	.th-2 {
