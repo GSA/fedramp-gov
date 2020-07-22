@@ -33,7 +33,7 @@ omb-circular-image: <img src="/assets/img/omb-circular-graphic.svg" alt="OMB a13
 omb-circular-title: OMB Circular A-130
 omb-circular-text: OMB states that when agencies implement FISMA, they must use NIST standards and guidelines
 
-policy-image: <img src="{{site.baseurl}}/assets/img/fedramp-policy.svg" alt="fedramp policy" />
+policy-image: <img src="/assets/img/fedramp-policy.svg" alt="fedramp policy" />
 policy-title: FedRAMP Policy
 policy-text: FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages
 

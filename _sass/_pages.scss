@@ -1629,23 +1629,14 @@ max-width: 200px;
 
 @media (min-width: 0) and (max-width: 725px) {
 	.values-wrapper {
-	section.values-section h2 {
-		margin: 0 0 20px 0;
-		text-align: center;
-		width: 100%;
-	}
+		section.values-section h2 {
+			margin: 0 0 20px 0;
+			text-align: center;
+			width: 100%;
+		}
 	}
 }
 
-.overview {
-	padding: 60px 0 10px 0;
-}
-
-.overview {
-	.full-row {
-		margin-bottom: 40px;
-	}
-}
 
 .full-row {
 	max-width: 1200px;
@@ -1653,20 +1644,7 @@ max-width: 200px;
 /*	margin-bottom: 50px;*/
 }
 
-.full-col, .basics-col {
-	h2 {
-		font-weight: 400;
-		text-transform: none;
-		text-align: center;
-		letter-spacing: .02em;
-		padding: 0 0 16px 0;
-		margin: 0 0 25px 0;
-		font-size: 2.25rem;
-		line-height: 42px;
-		color: $new-home-teal;
-		background: url(../../assets/img/red-border.svg) center bottom no-repeat;
-	}
-}
+
 
 .program-basics-title {
 	margin: 10px auto 0 auto;
@@ -1740,13 +1718,6 @@ ul.program-basics-benefits {
 	}
 }
 
-.fedramp-legal-framework
-h2 {
-	text-align: left;
-	background: url(../../assets/img/red-border.svg) left bottom no-repeat;
-}
-
-
 
 .basics-col {
 	min-height: 1px;
@@ -1770,10 +1741,6 @@ h2 {
 	padding-right: 5%;
 }
 
-.fedramp-legal-framework {
-	background: $lightest-gray;
-	padding: 45px 0 50px 0;
-}
 
 .framework-col-1 {
 	float: left;
@@ -1857,11 +1824,6 @@ h2 {
 		margin: 0;
 	}
 	
-	.fedramp-legal-framework
-	h2 {
-		text-align: center;
-		background: url(../../assets/img/red-border.svg) center bottom no-repeat;
-	}
 }
 
 @media all and (min-width: 0) and (max-width: 1200px) {
