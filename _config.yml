@@ -112,6 +112,6 @@ collections:
     output: true
 
 
-wds-version: 2.6.0
+wds-version: 2.8.0
 
 theme: jekyll-theme-time-machine
