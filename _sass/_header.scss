@@ -1,5 +1,11 @@
 /** SEARCH FEATURE **/
 
+.usa-skipnav:focus {
+	top: 2px;
+	left: 2px;
+	z-index: 100000;
+}
+
 .usa-header {
 	height: 130px;
 }
