@@ -15,4 +15,4 @@ The Master Acronyms and Glossary document was updated to include a more comprehe
 
 The FedRAMP Initial Authorization Checklist template was updated to remove attachments that are now embedded in the SSP template and to clarify instructions. CSPs are required to complete and submit the checklist when uploading the authorization package to the FedRAMP Repository.
 
-FedRAMP will continue to make ongoing updates to documents and templates and will communicate the changes once they’re released. If you have any questions, feedback, or suggestions for documentation updates, please reach out to info@fedramp.gov.
+FedRAMP will continue to make ongoing updates to documents and templates and will communicate the changes once they’re released. If you have any questions, feedback, or suggestions for documentation updates, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. 
