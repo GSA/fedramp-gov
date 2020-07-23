@@ -1,0 +1,18 @@
+---
+title: FedRAMP Announces Document and Template Updates
+permalink: /fedramp-announces-document-and-template-updates/
+body-class: page-blog
+image: /assets/img/blog-images/FRblog_Doc-Updates.png
+author: FedRAMP
+layout: blog-page
+---
+
+FedRAMP released updates to the System Security Plan (SSP) Attachment 12 - FedRAMP Laws and Regulations template, the FedRAMP Master Acronyms and Glossary document, and the FedRAMP Initial Authorization Package Checklist template.
+
+The SSP Attachment 12 - FedRAMP Laws and Regulations template was updated to include the latest publications, policies information, and relevant links. This is a required attachment to the SSP template and should be used, or updated, by CSPs undergoing the initial authorization process and submitted as part of their SSP package.
+
+The Master Acronyms and Glossary document was updated to include a more comprehensive listing of acronyms / terms found in FedRAMP documentation.
+
+The FedRAMP Initial Authorization Checklist template was updated to remove attachments that are now embedded in the SSP template and to clarify instructions. CSPs are required to complete and submit the checklist when uploading the authorization package to the FedRAMP Repository.
+
+FedRAMP will continue to make ongoing updates to documents and templates and will communicate the changes once they’re released. If you have any questions, feedback, or suggestions for documentation updates, please reach out to info@fedramp.gov.
