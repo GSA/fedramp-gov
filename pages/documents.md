@@ -75,7 +75,7 @@ Columns in the table below are sortable. The Category, Document, and Description
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Master_Acronym_and_Glossary.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>10/31/2017</td>
+    <td>7/23/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
