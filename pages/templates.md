@@ -39,7 +39,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    <td>3/9/2017</td>
+    <td>7/23/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -120,7 +120,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-    <td>8/28/2018</td>
+    <td>7/23/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
