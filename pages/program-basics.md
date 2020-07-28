@@ -10,7 +10,7 @@ program-intro-text: The Federal Risk and Authorization Management Program (FedRA
 
 
 mission-title: Mission
-misstion-text: FedRAMP is a government-wide program that promotes the adoption of secure cloud services across the federal government by providing a standardized approach to security and risk assessment for cloud technologies and federal agencies. 
+mission-text: FedRAMP is a government-wide program that promotes the adoption of secure cloud services across the federal government by providing a standardized approach to security and risk assessment for cloud technologies and federal agencies. 
 
 benefits-title: Benefits
 benefits-checklist-1: Reduces duplicative efforts, inconsistencies, and cost inefficiencies associated. 
@@ -23,7 +23,7 @@ goals-checklist-2: Enhance the framework by which the government secures and aut
 goals-checklist-3: Build and foster strong partnerships with FedRAMP stakeholders.
 
 framework-title: Legal Framework
-framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank">OMB Circular A-130</a>, and FedRAMP policy.
+framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank" class="text-white">OMB Circular A-130</a>, and FedRAMP policy.
 
 fisma-image: <img src="/assets/img/fisma-graphic.svg" alt="fisma" />
 fisma-title: FISMA
