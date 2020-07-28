@@ -116,32 +116,32 @@ $(function(){
 //    };
 //};
 
-$(window).load(function() {
-  // if no cookie
-  if ($.cookie('alert') != "true") {
-    $(".post-count").show();
-    $(".bell").click(function() {
-      $(".post-count").slideUp("slow");
-      // set the cookie for 24 hours
-      var date = new Date();
-      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
-      $.cookie('alert', "true", {
-        expires: date
-      });
-    });
-  }
-});
-
-window.cookieconsent.initialise({
-  container: document.getElementById("cookieconsent"),
-  palette:{
-    popup: { background: "#1aa3ff" },
-    button: { background: "#e0e0e0" },
-  },
-  revokable: true,
-  onStatusChange: function(status) {
-    console.log(this.hasConsented() ?
-    'enable cookies' : 'disable cookies');
-  },
-  "theme": "edgeless"
-});
+//$(window).load(function() {
+//  // if no cookie
+//  if ($.cookie('alert') != "true") {
+//    $(".post-count").show();
+//    $(".bell").click(function() {
+//      $(".post-count").slideUp("slow");
+//      // set the cookie for 24 hours
+//      var date = new Date();
+//      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
+//      $.cookie('alert', "true", {
+//        expires: date
+//      });
+//    });
+//  }
+//});
+//
+//window.cookieconsent.initialise({
+//  container: document.getElementById("cookieconsent"),
+//  palette:{
+//    popup: { background: "#1aa3ff" },
+//    button: { background: "#e0e0e0" },
+//  },
+//  revokable: true,
+//  onStatusChange: function(status) {
+//    console.log(this.hasConsented() ?
+//    'enable cookies' : 'disable cookies');
+//  },
+//  "theme": "edgeless"
+//});
