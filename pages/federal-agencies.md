@@ -2,12 +2,8 @@
 layout: federal-agencies-page
 title: Federal Agencies
 permalink: /federal-agencies/
-body-class: page-fed-agencies
-description: Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs.
-tags: project
-image: 
-icon: /assets/img/project-images/fedagency-icon.png
-abstract: 
+body-class: about-us
+
 
 fed-intro-title: This is a Test
 program-intro-text: The Federal Risk and Authorization Management Program (FedRAMP) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the Federal Government. FedRAMP empowers agencies to use modern cloud technologies, with emphasis on security and protection of federal information.
