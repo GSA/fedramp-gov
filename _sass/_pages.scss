@@ -42,6 +42,10 @@
 	margin-right: 0;
 }
 
+.tab button:focus {
+	outline: none;
+}
+
 .tab button.active:before, .tab button:hover:before {
 	content: "";
 	position: absolute;

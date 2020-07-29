@@ -1,51 +1,167 @@
 ---
-layout: base
+layout: full-width
 ---
-<div class="page-banner-container">
-	<div class="page-banner">
-		<h1> {{ page.title }}</h1>
-	</div>
-</div>	
-<div class="grid-container">
-	<div class="grid-row">
-		<div class="desktop:grid-col-9">
-			{% if page.image %}
-			<img src="{{ page.image | prepend: site.baseurl }}">
-			{% endif %}
-			{{ content }}
-		</div>
-		<aside class="usa-width-one-fourth desktop:grid-col-3">
-			<div class="dashboard">
-				<div class="inner">
-					<h4>WHAT ARE YOU LOOKING FOR?</h4>
-					<p>Click the actions below for all the resources you need</p>
-					<ul class="assessors">
-						<li><a href="{{site.baseurl}}/learning-more-about-fedramp"><img title="Learning More About FedRAMP" alt="Learning More About FedRAMP" src="../assets/img/dashboard-icons/LearnMore-icon.png">Learning More About FedRAMP</a></li>
-						<li><a href="{{site.baseurl}}/pursuing-a-fedramp-ready-designation"><img title="Pursuing a FedRAMP Ready (RAR) Designation" alt="Pursuing a FedRAMP Ready (RAR) Designation" src="../assets/img/dashboard-icons/pursuingRAR_icon.png">Pursuing a FedRAMP Ready (RAR) Designation</a></li>
-						<li><a href="{{site.baseurl}}/pursuing-a-jab-authorization"><img title="Pursuing a JAB Authorization" src="../assets/img/dashboard-icons/pursuingJAB_icon.png">Pursuing a JAB Authorization</a></li>
-						<li><a href="{{site.baseurl}}/pursuing-an-agency-authorization"><img title="Pursuing an Agency Authorization" alt="Pursuing an Agency Authorization" src="../assets/img/dashboard-icons/pursuingAgency_icon.png">Pursuing an Agency Authorization</a></li>
-						<li><a href="{{site.baseurl}}/pursuing-a-fedramp-tailored-authorization"><img title="Pursuing a FedRAMP Tailored Authorization" alt="Pursuing a FedRAMP Tailored Authorization"  src="../assets/img/dashboard-icons/pursuingTailored_icon.png">Pursuing a FedRAMP Tailored Authorization</a></li>
-						<li><a href="{{site.baseurl}}/understanding-security-package-development"><img title="Understanding Security Package Development" alt="Understanding Security Package Development" src="../assets/img/dashboard-icons/understandingsecurity_icon.png">Understanding Security Package Development</a></li>
-						<li><a href="{{site.baseurl}}/developing-a-system-security-plan"><img title="Developing a System Security Plan" alt="Developing a System Security Plan" src="../assets/img/dashboard-icons/developSSP_icon.png">Developing a System Security Plan</a></li>
-						<li><a href="{{site.baseurl}}/coordinating-a-security-assessment-plan"><img title="Coordinating a Security Assessment Plan" alt="Coordinating a Security Assessment Plan" src="../assets/img/dashboard-icons/developSAP_icon-16.png">Coordinating a Security Assessment Plan</a></li>
-						<li><a href="{{site.baseurl}}/coordinating-a-security-assessment-report"><img title="Coordinating a Security Assessment Report" alt="Coordinating a Security Assessment Report" src="../assets/img/dashboard-icons/developSAP_icon-11.png">Coordinating a Security Assessment Report</a></li>
-						<li><a href="{{site.baseurl}}/developing-a-plan-of-actions-milestones"><img title="Developing a Plan of Action and Milestones" alt="Developing a Plan of Action and Milestones" src="../assets/img/dashboard-icons/developSAPM_icon.png">Developing a Plan of Action and Milestones</a></li>
-						<li><a href="{{site.baseurl}}/receiving-an-authority-to-operate"><img tilte="Receiving an Authority to Operate (ATO)" alt="Receiving an Authority to Operate (ATO)" src="../assets/img/dashboard-icons/ATO_icon.png">Receiving an Authority to Operate (ATO)</a></li>
-						<li><a href="{{site.baseurl}}/conducting-continuous-monitoring"><img title="Conducting Continuous Monitoring" alt="Conducting Continuous Monitoring" src="../assets/img/dashboard-icons/Monitor_icon.png">Conducting Continuous Monitoring</a></li>
-						<li><a href="{{site.baseurl}}/completing-an-annual-assessment"><img title="Completing an Annual Assessment" alt="Completing an Annual Assessment" src="../assets/img/dashboard-icons/AnnualAssessment_icon.png">Completing an Annual Assessment</a></li>
-					</ul>
+<section class="overview">
+	<div>
+		<div class="grid-container">
+			<div class="full-row grid-row grid-gap">
+				<div class="full-col desktop:grid-col-6">
+					<h2>FedRAMP Authorization: A CSP’s Perspective</h2>
+				</div>
+				<div class="full-col desktop:grid-col-6 intro-text">
+					<p>CSPs whose services are currently being used by the federal government or are interested in selling their cloud service to the federal government should obtain a FedRAMP authorization, per <a href="#">OMB memorandum</a>. CSPs considering pursuing a FedRAMP Authorization should review the <a href="#">Security Assessment Framework</a> and become familiar with FedRAMP’s four process areas: Document, Assess, Authorize, and Monitor, which align to the NIST Risk Management Framework (RMF) covered in <a href="#">NIST SP 800-37</a>.</p>
 				</div>
 			</div>
-			<div class="blog-sidebar">
-				<h3>Recent Posts</h3>
-				<ul>
-				{% for post in site.posts limit:5 %}
-					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</li>
-				{% endfor %}
-				</ul>
+			<div class="full-row grid-row grid-gap">
+				<div class="full-col desktop:grid-col-12">
+					<div class="callout-box padding-4 margin-top-8">
+						<div class="grid-row grid-gap">
+							<div class="desktop:grid-col-2">
+								<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/small-business-icon.svg" alt="">
+							</div>
+							<div class="desktop:grid-col-10">
+								<h4>Small Businesses</h4>
+								<p>The FedRAMP PMO is committed to helping small businesses and startups navigate the FedRAMP authorization process and we want to highlight an important resource for small businesses - Seven Lessons Learned for Small Businesses and Startups.</p>
+							</div>
+						</div>
+					
+					</div>
+				</div>
 			</div>
-		</aside>
+		</div>	
+	</div>	
+</section>
+
+<section class="agency-tabs">
+	<div class="grid-container">
+		<div class="full-row grid-row grid-gap">
+
+			<div class="full-col desktop:grid-col-12">
+				<p class="text-center">Click each step in the process for more information:</p>
+
+					<div class="tab">
+						<button class="tablinks pointer-button" onclick="openTab(event, 'pre-authorization')" id="defaultOpen">Pre-Authorization<span class="button-border"></span></button>
+						<button class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')">During Authorization<span class="button-border"></span></button>
+						<button class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')">Post Authorization<span class="button-border"></span></button>
+					</div>
+
+					<div id="pre-authorization" class="tabcontent padding-8">
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-12">
+								<h3>Pre-Authorization BEST PRACTICES </h3>
+								<p>Once a CSP decides to pursue a FedRAMP Authorization, it is recommended that the CSP begin to review FedRAMP’s documents and templates that can be found on the Policy &amp; Guidance page, along with other resources available on the FedRAMP website. In order to successfully navigate the pre-authorization phase, a CSP must&#58;</p>
+								<ul>
+									<li>Establish strong partnerships with agency customers and document agency interest in their offering becoming FedRAMP Authorized through RFIs, RFPs, and RFQs</li>
+									<li>Identify and establish a partnership with a FedRAMP-recognized Third Party Assessment Organization (3PAO). 3PAOs are listed in the FedRAMP Marketplace</li>
+									<li>Complete a <a href="#">CSP Information Form</a>, which will trigger the FedRAMP PMO to set up a consultative intake call with our SMEs. During this call you will discuss your system and the best authorization strategy for you.</li>
+									<li>Ensure that the service offering has implemented the necessary FedRAMP security controls in accordance with appropriate data impact level as described in <a href="#">FIPS PUB 199</a> (i.e. High, Moderate, Low, Low-Impact SaaS)</li>
+									<li>Complete <a href="#">FedRAMP Training</a>, including the mandatory <a href="#">FedRAMP System Security Plan (SSP) Required Documents (200-A) module</a></li>
+								</ul>
+								<h3>JAB VS. Agency Authorization Path</h3>
+								<p>CSPs that have demonstrated sufficient demand, or have identified one or more authorizing agencies for their services, may then pursue a Joint Authorization Board (JAB) provisional authorization and/or an initial agency authorization. In order to pursue a JAB Authorization, CSPs must be prioritized to work with the JAB toward a Provisional Authority to Operate (P-ATO) through the FedRAMP Connect process. FedRAMP has defined the JAB criteria in the <a href="#">FedRAMP JAB P-ATO Prioritization Criteria document</a>. In order to pursue an Agency Authorization, CSPs must become “In Process” with their initial authorizing agencies. Guidelines on the requirements to be designated as FedRAMP “In Process” are detailed in the <a href="#">Agency Authorization: Obtaining In Process Designation document</a>.</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="during-authorization" class="tabcontent padding-8">
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-12">
+								<h3>Package Development</h3>
+								<p>This includes a Kick-Off meeting with representatives from the CSP, partnering agency, 3PAO, and FedRAMP PMO. The CSP then completes the System Security Plan (SSP) and attachments and the 3PAO develops the Security Assessment Plan (SAP). </p>
+								
+								<h4>Building the SSP</h4>
+								<p>The SSP is the main document of a security package. A SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides a SSP template for each of its baselines: Low, Moderate, and High.</p>
+
+									
+								<p>Agency AOs or designees are responsible for reviewing and approving the SSPs ensuring the appropriate level of detail and the implementation of controls is acceptable, both at time of assessment and during ConMon. Some agencies may require additional controls on top of the FedRAMP baselines.</p>
+								<p>In addition to a completed SSP template, CSPs should complete and append the following materials to their security documentation&#58;</p>
+								
+							</div>
+						</div>
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-6">
+								<ul>
+									<li>Information Security Policies and Procedures</li>
+									<li>User Guide</li>
+									<li>Digital Identity Worksheet</li>
+									<li>Privacy Impact Assessment (PIA) Template</li>
+									<li>Rules of Behavior (RoB) Template</li>
+									<li>Information System Contingency Plan (ISCP) Template</li>
+									<li>Configuration Management Plan (CMP)</li>
+								</ul>
+							</div>
+							<div class="full-col desktop:grid-col-6">
+								<ul>
+									<li>Incident Response Plan (IRP)</li>
+									<li>Control Implementation Summary (CIS)</li>
+									<li>Federal Information Processing Standard (FIPS) 199 </li>
+									<li>Categorization Template</li>
+									<li>Separation of Duties Matrix</li>
+									<li>FedRAMP Laws and Regulations</li>
+									<li>FedRAMP Integrated Inventory Workbook Template</li>
+								</ul>
+							</div>
+						</div>
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-12">
+								<h3>Testing and Assessment</h3>
+								<p>The 3PAO completes testing and submits the Security Assessment Report (SAR). The CSP then creates the Plan of Action &amp; Milestones (POA&amp;M) based on the findings from testing.</p>
+								<h4>After Assessment</h4>
+								<p>The SAR contains the results of the comprehensive security assessment of a CSP’s cloud service offering, including a summary of the risks associated with vulnerabilities of the system identified during testing. The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
+								
+								<p>A CSP’s 3PAO is responsible for generating the SAR following assessment and the document must align with the assessment methodology described in the Security Assessment Plan (SAP) and address the control detail described in the System Security Plan (SSP). An effective SAR should inform a CSP’s Plan of Action &amp; Milestones (POA&amp;M) and reflect the true risk posture of the system. After the SAR is delivered, the CSP, Agency, 3PAO, and FedRAMP PMO convene for a SAR debrief to discuss the CSP plan for remediation and next steps to Authorization.</p>
+								
+								<h4>Plan of Action and Milestones (POA&amp;M)</h4>
+								<p>When the SAR is delivered, the CSP will create a ‘Plan of Actions and Milestones’, or POA&amp;M for each corresponding 3PAO finding. A POA&amp;M is the CSP’s plan for remediation of any remaining risk identified during assessment. The POA&amp;M:</p>
+								<ul>
+									<li>facilitates a disciplined and structured approach to tracking risk mitigation activities.</li>
+									<li>includes security findings for the system from continuous monitoring activities and periodic security assessments, such as the Annual Assessment</li>
+									<li>describes the current disposition of any discovered vulnerabilities and system findings, and includes a CSP’s intended corrective actions for those findings.</li>
+								</ul>
+								<p>Agency AOs are responsible for reviewing and approving POA&amp;Ms, making their own risk-based decision both at the time of the initial assessment and during ConMon.</p>
+								<p>FedRAMP uses the POA&amp;M to monitor the CSP’s progress in correcting these findings. A CSP applying for a JAB P-ATO or an Agency ATO, must establish and maintain a POA&amp;M for their system in accordance with the POA&amp;M Template Completion Guide using the FedRAMP POA&amp;M Template. The POA&amp;M includes the&#58;</p>
+								<ul>
+									<li>Specific weaknesses or deficiencies in deployed security controls and the source of the identified weakness</li>
+									<li>Severity of the identified security control weaknesses or deficiencies</li>
+									<li>Scope or affected assets of the weakness in components within the environment</li>
+									<li>Proposed risk mitigation approach to address the identified weaknesses or deficiencies in the security control implementations (e.g., prioritization of risk mitigation actions and allocation of risk mitigation resources)</li>
+									<li>Status of any deviation request(s)</li>
+								</ul>
+								<h3 class="margin-top-4">Authorization</h3>
+								<p>The authorizing party (either an agency or the JAB) reviews the security package and decides whether or not to accept the risk posture associated with the system. If accepted, the authorizing party grants an authorization for the CSP’s service offering (either an Agency Authority to Operate (ATO) or a JAB P-ATO). An ATO letter is submitted to the FedRAMP PMO.</p>
+							</div>
+						</div>
+					</div>	
+
+					<div id="post-authorization" class="tabcontent padding-8">
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-12">
+								<p class="text-center"><strong>Once a CSO has been authorized, it is listed in the FedRAMP Marketplace.</strong></p>
+								<h3 class="margin-top-4">Continuous Monitoring <span style="text-transform: none;">(ConMon)</span></h3>
+								<p>Once a FedRAMP authorization has been granted, the security posture of a CSO is monitored according to the assessment and authorization process. Performing ongoing security assessments determines whether the set of deployed security controls in a CSO remains effective in lieu of new exploits and attacks, as well as planned and unplanned changes that occur in the system environment over the life of the system. To maintain a FedRAMP authorization, the CSP must monitor their security control environment, assess that control environment on a regular basis, and demonstrate that the security posture of their service offering is continuously acceptable.</p>
+									
+								<p>Ongoing assessment of security controls results in greater control over the security posture of the CSO and enables timely risk-management decisions. Security-related information collected through continuous monitoring is used to make recurring updates to the system security package. CSPs and Agencies should define and agree to a monthly meeting cadence early in the Authorization process. </p>
+								
+								<h3 class="margin-top-4">Annual Assessment</h3>
+								<p>Completing an annual assessment for a FedRAMP authorized CSO includes&#58;</p>
+								<ul>
+									<li>Review and update, as required, of the System Security Plan (SSP) and attachments</li>
+									<li>Completion of a Incident Response Plan Test and provision of the Incident Response Plan Test Report</li>
+									<li>Completion of a Contingency Plan functional test and provision of the Contingency Plan Test Report</li>
+									<li>Completion of the Annual Assessment Security Assessment Plan (SAP)</li>
+									<li>Completion of Annual Assessment testing</li>
+									<li>Completion of the Annual Assessment Security Assessment Report (SAR)</li>
+									<li>Update of the CSOs Plan of Action and Milestones (POA&amp;M)</li>
+									<li>Submission of the completed Annual Assessment package, including the SAR and attachments, updated SSP and attachments, updated SAP, and POA&amp;M to FedRAMP PMO or Agency AO</li>
+								</ul>
+								<p>CSPs are required to engage a 3PAO to complete Annual Assessment testing. All documentation that results from an Annual Assessment should be uploaded to the FedRAMP secure repository, OMB MAX, by the CSP’s ATO date. The Annual Assessment should be reviewed by their agency customer(s) Authorizing Official and approved before being uploaded to OMB MAX. Any updates to an offering’s Impact Level should be reported to the PMO, via <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>, before being uploaded to OMB MAX.</p>
+							</div>
+						</div>
+					</div>
+
+			</div>
+		</div>
 	</div>
-</div>
+	
+</section>
+

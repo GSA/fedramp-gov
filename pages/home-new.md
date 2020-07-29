@@ -14,7 +14,7 @@ second-hero-button: <a href="#auth-process">View The Process</a>
 
 first-main-title: Information for Our Partners
 
-first-column-image: <img class="home-partners-icon" src="/assets/img/partners-cloud-service.svg" alt="">
+first-column-image: <img class="home-partners-icon" src="/assets/img/small-business-icon.png" alt="">
 first-column-title: Cloud Service Providers
 first-column-blurb: Provide your cloud service offering to the federal government
 first-column-button: <a href="/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
