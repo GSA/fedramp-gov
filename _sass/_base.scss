@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 	h2.center::after {
 		margin: auto;
 	}
+	
+	h2.no-line::after {
+		content: none;
+	}
 }
 
 .grid-row {
@@ -65,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		letter-spacing: .04em;
 		padding-right: 1rem;
-		background: #ffffff;
 		text-transform: uppercase;
 		position: relative;
 		display: flex;
@@ -83,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
 		flex: 1 0 20px;
 		left: 1rem;
 		position: relative;
+	}
+	
+	h3.no-line::after {
+		content: none;
 	}
 }
 
@@ -107,6 +114,13 @@ a.focus-within:active {
 	box-shadow: none;
 }
 
+.lightest-gray-bkg {
+	background: $lightest-gray;
+}
+
+.lightest-teal-bkg {
+	background: $lighter-teal;
+}
 
 .usa-section-dark {
   legend, label,
@@ -191,9 +205,6 @@ a {
 	white-space: nowrap;
 }
 
-.margin-bottom-zero {
-	margin-bottom: 0;
-}
 
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1162.271" height="414.507" viewBox="0 0 1162.271 414.507">
+  <g id="Group_4484" data-name="Group 4484" transform="translate(-138.93 -988)">
+    <path id="Path_7617" data-name="Path 7617" d="M917.21,153.613h-309.6l13.306-36.866L604.067,79.789H917.21l14.4,36.958Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <path id="Path_7843" data-name="Path 7843" d="M285.024,153.613H0V79.789H285.024l14.406,36.958Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <text id="Authorization_Process" data-name="Authorization Process" transform="translate(830.896 1060.587)" fill="#fff" font-size="20.749" font-family="Montserrat-Regular, Montserrat" style="isolation: isolate"><tspan x="4.773" y="20">Authorization </tspan><tspan x="36.073" y="46.282">Process</tspan></text>
+    <path id="Path_7616" data-name="Path 7616" d="M588.3,153.613H304.736l13.83-36.866-13.83-36.958H588.3l13.83,36.958Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <path id="Path_7621" data-name="Path 7621" d="M1134.228,83.973" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <text id="ConMon" transform="translate(1224.567 1089.578)" fill="#1294c2" font-size="20.749" font-family="Montserrat-Regular, Montserrat" style="isolation: isolate"><tspan x="-43.386" y="0">ConMon</tspan></text>
+    <path id="Path_7622" data-name="Path 7622" d="M1011.486,148.768h-3.5l1.319-3.246,9.018-26.4,1.075-2.656-1.073-2.656-9.029-26.49-1.312-3.245h26.689v-4.72h-33.7l12.963,36.223.358.885-.359.885-12.959,36.136H1096.9V160.2l12.048-8.949L1096.9,142.3v6.47h-85.416Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <path id="Path_7623" data-name="Path 7623" d="M1096.9,146.408V142.3l12.047,8.949L1096.9,160.2v-6.708h-95.924l12.959-36.135.359-.88-.358-.886-12.963-36.224h33.7v4.711h-26.7l1.311,3.244,9.029,26.49,1.074,2.657-1.076,2.659-9.017,26.4-1.32,3.246H1096.9Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <path id="Path_7624" data-name="Path 7624" d="M1144.953,79.359h-83.609V72.84L1049.3,81.789l12.047,8.949v-6.66h80.521l.619,1.414,11.326,30.023.415.948-.416.947-11.32,29.945-.619,1.412h-18.293v4.721h21.377l14.419-37.023Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <path id="Path_7625" data-name="Path 7625" d="M1144.954,153.489h-21.377v-4.721h18.292l.619-1.413,11.317-29.945.415-.947-.415-.948-11.327-30.024-.618-1.414h-80.516v6.66L1049.3,81.788l12.047-8.949v6.517h83.608l14.423,37.108Z" transform="translate(138.93 966.535)" fill="#1293c1"/>
+    <text id="In_Process_Designation" data-name="In Process Designation" transform="translate(197.566 1158.776)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">In Process Designation</tspan></text>
+    <text id="Authorization_Planning_" data-name="Authorization Planning " transform="translate(197.566 1237.172)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Authorization Planning </tspan></text>
+    <text id="Assessment" transform="translate(502.233 1198.193)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Assessment</tspan></text>
+    <text id="Agency_Review_of_SAP" data-name="Agency Review of SAP" transform="translate(502.233 1158.777)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Agency Review of SAP</tspan></text>
+    <text id="Agency_Review_of_SSP" data-name="Agency Review of SSP" transform="translate(197.565 1316.154)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Agency Review of SSP</tspan></text>
+    <text id="Agency_Review_of_SAR_POA_M" data-name="Agency Review of SAR &amp; POA&amp;M" transform="translate(804.698 1158.777)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Agency Review of SAR &amp; POA&amp;M</tspan></text>
+    <text id="Remediation" transform="translate(804.698 1237.033)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Remediation</tspan></text>
+    <text id="Agency_Final_Review" data-name="Agency Final Review" transform="translate(804.698 1276.524)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Agency Final Review</tspan></text>
+    <text id="FedRAMP_PMO_Review" data-name="FedRAMP PMO Review" transform="translate(804.698 1354.779)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">FedRAMP PMO Review</tspan></text>
+    <text id="Remediation_if_needed_" data-name="Remediation (if needed)" transform="translate(804.698 1394.27)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="0">Remediation </tspan><tspan y="0" font-family="Muli-Italic, Muli" font-style="italic">(if needed)</tspan></text>
+    <text id="Continuous_Monitoring" data-name="Continuous
+Monitoring" transform="translate(1193.2 1141.776)" fill="#444" font-size="16.599" font-family="Muli-Regular, Muli"><tspan x="0" y="17">Continuous</tspan><tspan x="0" y="36.919">Monitoring</tspan></text>
+    <text id="SSP_Development" data-name="SSP Development" transform="translate(197.566 1276.663)" fill="#cc1d1d" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">SSP Development</tspan></text>
+    <text id="SAR_POA_M_Development" data-name="SAR/POA&amp;M Development" transform="translate(502.233 1237.172)" fill="#cc1d1d" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">SAR/POA&amp;M Development</tspan></text>
+    <text id="Monthly_Continuous_Monitoring_Deliverables" data-name="Monthly Continuous Monitoring Deliverables" transform="translate(1193.2 1203.049)" fill="#cc1d1d" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="17">Monthly </tspan><tspan x="0" y="36.919">Continuous </tspan><tspan x="0" y="56.838">Monitoring </tspan><tspan x="0" y="76.757">Deliverables</tspan></text>
+    <text id="SAR_Debrief" data-name="SAR Debrief" transform="translate(804.697 1197.717)" fill="#cc2026" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">SAR Debrief</tspan></text>
+    <text id="Kick-Off" transform="translate(197.567 1198.273)" fill="#cc2026" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">Kick-Off</tspan></text>
+    <text id="Agency_ATO" data-name="Agency ATO" transform="translate(804.698 1315.463)" fill="#cc2026" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">Agency ATO</tspan></text>
+    <text id="FedRAMP_Authorization" data-name="FedRAMP 
+Authorization" transform="translate(1106.65 1005)" fill="#cc1d1d" font-size="17.983" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="-46.863" y="0">FedRAMP </tspan><tspan x="-63.083" y="21.579">Authorization</tspan></text>
+    <text id="SSP_Development-2" data-name="SSP Development" transform="translate(197.566 1355.645)" fill="#cc1d1d" font-size="16.599" font-family="Muli-Bold, Muli" font-weight="700"><tspan x="0" y="0">SSP Development</tspan></text>
+    <circle id="Ellipse_657" data-name="Ellipse 657" cx="12.134" cy="12.134" r="12.134" transform="translate(156.56 1258.308)" fill="#1294c2"/>
+    <path id="Path_8043" data-name="Path 8043" d="M30.823,315.341l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8044" data-name="Path 8044" d="M29.767,314.351l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8045" data-name="Path 8045" d="M29.764,305.877l8.324,0-8.32,8.48Z" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <circle id="Ellipse_658" data-name="Ellipse 658" cx="12.134" cy="12.134" r="12.134" transform="translate(457.99 1217.439)" fill="#1294c2"/>
+    <path id="Path_8046" data-name="Path 8046" d="M332.254,274.472l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8047" data-name="Path 8047" d="M331.2,273.483l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8048" data-name="Path 8048" d="M331.2,265.009l8.324,0-8.32,8.48Z" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <circle id="Ellipse_659" data-name="Ellipse 659" cx="12.134" cy="12.134" r="12.134" transform="translate(1154.338 1205.305)" fill="#1294c2"/>
+    <path id="Path_8049" data-name="Path 8049" d="M1028.6,262.338l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8050" data-name="Path 8050" d="M1027.546,261.348l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8051" data-name="Path 8051" d="M1027.543,252.875l8.324,0-8.32,8.48Z" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <circle id="Ellipse_660" data-name="Ellipse 660" cx="12.134" cy="12.134" r="12.134" transform="translate(156.56 1338.002)" fill="#1294c2"/>
+    <path id="Path_8052" data-name="Path 8052" d="M30.823,395.035l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8053" data-name="Path 8053" d="M29.767,394.046l-8.565.006-.1-21.4,16.889-.009.1,12.922Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8054" data-name="Path 8054" d="M29.764,385.572l8.324,0-8.32,8.48Z" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <line id="Line_229" data-name="Line 229" y1="13.402" transform="translate(1106.605 1039.623)" fill="none" stroke="#cc1d1d" stroke-miterlimit="10" stroke-width="1.383"/>
+    <path id="Path_8055" data-name="Path 8055" d="M986.775,125.874c.77-1.331-.582-3.581-.176-5.1.393-1.469,2.7-2.738,2.7-4.331s-2.308-2.861-2.7-4.33c-.406-1.52.947-3.77.177-5.1-.781-1.35-3.413-1.3-4.509-2.394s-1.044-3.727-2.394-4.509c-1.33-.77-3.581.583-5.1.177-1.469-.393-2.737-2.7-4.33-2.7s-2.861,2.308-4.33,2.7c-1.52.406-3.77-.947-5.1-.177-1.35.781-1.3,3.413-2.394,4.509s-3.728,1.044-4.509,2.394c-.77,1.33.583,3.581.176,5.1-.392,1.469-2.7,2.737-2.7,4.33s2.308,2.861,2.7,4.33c.407,1.52-.946,3.77-.176,5.1.781,1.35,3.413,1.3,4.508,2.394.717.717.948,2.085,1.4,3.169l-6.051,12.609,8.106-1.968,4.2,7.2,4.171-11.185,4.171,11.185,4.2-7.2,8.106,1.968-6.052-12.61c.448-1.083.679-2.451,1.4-3.167C983.362,127.172,985.994,127.224,986.775,125.874Z" transform="translate(138.93 966.535)" fill="#ccecfc" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="Group_3806" data-name="Group 3806" transform="translate(138.93 966.535)">
+      <path id="Path_8056" data-name="Path 8056" d="M963.5,146.669l-4.2-7.2-8.106,1.968L962.1,118.708l10.211,4.344Z" fill="#a00a0f"/>
+      <path id="Path_8057" data-name="Path 8057" d="M971.846,146.669l4.2-7.2,8.106,1.968L973.25,118.708l-10.211,4.344Z" fill="#a00a0f"/>
+    </g>
+    <path id="Path_8058" data-name="Path 8058" d="M986.533,113.831c0,1.593-2.308,2.861-2.7,4.33-.407,1.52.946,3.77.176,5.1-.781,1.35-3.413,1.3-4.509,2.394s-1.044,3.727-2.394,4.508c-1.33.77-3.58-.582-5.1-.176-1.47.393-2.738,2.7-4.331,2.7s-2.861-2.308-4.33-2.7c-1.52-.406-3.771.946-5.1.176-1.35-.781-1.3-3.413-2.394-4.509s-3.728-1.044-4.509-2.393c-.77-1.331.583-3.581.177-5.1-.393-1.469-2.7-2.738-2.7-4.33s2.308-2.862,2.7-4.331c.406-1.52-.946-3.77-.176-5.1.781-1.35,3.413-1.3,4.508-2.394s1.044-3.727,2.394-4.508c1.331-.77,3.581.582,5.1.176,1.469-.393,2.737-2.7,4.33-2.7s2.862,2.308,4.331,2.7c1.52.406,3.77-.946,5.1-.176,1.35.781,1.3,3.413,2.394,4.509s3.727,1.044,4.508,2.393c.77,1.331-.583,3.581-.176,5.1C984.225,110.969,986.533,112.238,986.533,113.831Z" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <g id="Group_3807" data-name="Group 3807" transform="translate(138.93 966.535)">
+      <path id="Path_8059" data-name="Path 8059" d="M979.9,113.832a12.222,12.222,0,1,1-12.223-12.223A12.222,12.222,0,0,1,979.9,113.832" fill="#eff9fe"/>
+      <path id="Path_8060" data-name="Path 8060" d="M977.728,113.832a10.055,10.055,0,1,1-10.054-10.055,10.055,10.055,0,0,1,10.054,10.055" fill="#fff"/>
+    </g>
+    <path id="Path_8061" data-name="Path 8061" d="M33.3,183.083v-5.839H25.563v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8062" data-name="Path 8062" d="M335.062,183.083v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8063" data-name="Path 8063" d="M335.062,225.127v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8064" data-name="Path 8064" d="M33.3,262.6V256.76H25.563V262.6h-4.55l8.417,12.574L37.848,262.6Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8065" data-name="Path 8065" d="M33.3,342.116v-5.839H25.563v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8066" data-name="Path 8066" d="M29.423,231.221" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8067" data-name="Path 8067" d="M29.423,233.313" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8068" data-name="Path 8068" d="M29.423,234.4" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <ellipse id="Ellipse_661" data-name="Ellipse 661" cx="10.077" cy="2.743" rx="10.077" ry="2.743" transform="translate(158.275 1199.308)" fill="#ccecfc" opacity="0.6" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_8069" data-name="Path 8069" d="M42.169,229.117" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8070" data-name="Path 8070" d="M29.914,235.516c.3-8.563,8.5-10.685,8.5-17.684a8.991,8.991,0,1,0-17.959.641c.48,6.5,8.187,8.747,8.476,17.044" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <path id="Path_8071" data-name="Path 8071" d="M32.151,217.941a2.728,2.728,0,1,1-2.728-2.728A2.728,2.728,0,0,1,32.151,217.941Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8072" data-name="Path 8072" d="M639.373,183.083v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8073" data-name="Path 8073" d="M1031.41,183.083v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8074" data-name="Path 8074" d="M639.373,262.6V256.76h-7.735V262.6h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8075" data-name="Path 8075" d="M639.373,303.077v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8076" data-name="Path 8076" d="M639.373,379.607v-5.839h-7.735v5.839h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8077" data-name="Path 8077" d="M639.373,423.4V417.56h-7.735V423.4h-4.55l8.417,12.574,8.417-12.574Z" transform="translate(138.93 966.535)" fill="#1294c2"/>
+    <path id="Path_8078" data-name="Path 8078" d="M635.5,231.221" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8079" data-name="Path 8079" d="M635.5,233.313" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8080" data-name="Path 8080" d="M635.5,234.4" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <ellipse id="Ellipse_662" data-name="Ellipse 662" cx="10.077" cy="2.743" rx="10.077" ry="2.743" transform="translate(764.35 1199.308)" fill="#ccecfc" opacity="0.6" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_8081" data-name="Path 8081" d="M635.989,235.516c.3-8.563,8.5-10.685,8.5-17.684a8.991,8.991,0,1,0-17.959.641c.481,6.5,8.187,8.747,8.477,17.044" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <path id="Path_8082" data-name="Path 8082" d="M638.226,217.941a2.729,2.729,0,1,1-2.728-2.728A2.728,2.728,0,0,1,638.226,217.941Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <path id="Path_8083" data-name="Path 8083" d="M635.5,352.38" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8084" data-name="Path 8084" d="M635.5,354.472" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <path id="Path_8085" data-name="Path 8085" d="M635.5,355.563" transform="translate(138.93 966.535)" fill="none" stroke="#0d3751" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.139"/>
+    <ellipse id="Ellipse_663" data-name="Ellipse 663" cx="10.077" cy="2.743" rx="10.077" ry="2.743" transform="translate(764.35 1320.468)" fill="#ccecfc" opacity="0.6" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_8086" data-name="Path 8086" d="M635.989,356.676c.3-8.564,8.5-10.685,8.5-17.685a8.991,8.991,0,1,0-17.959.641c.481,6.5,8.187,8.747,8.477,17.044" transform="translate(138.93 966.535)" fill="#cc1d1d"/>
+    <path id="Path_8087" data-name="Path 8087" d="M638.226,339.1a2.729,2.729,0,1,1-2.728-2.728A2.728,2.728,0,0,1,638.226,339.1Z" transform="translate(138.93 966.535)" fill="#fff"/>
+    <text id="Partnership_Establishment" data-name="Partnership
+Establishment" transform="translate(288.645 1080.586)" fill="#fff" font-size="20.749" font-family="Montserrat-Regular, Montserrat"><tspan x="-59.519" y="0">Partnership</tspan><tspan x="-74.085" y="26.282">Establishment</tspan></text>
+    <text id="Full_Security_Assessment" data-name="Full Security
+Assessment" transform="translate(457.496 1060.587)" fill="#fff" font-size="20.749" font-family="Montserrat-Regular, Montserrat"><tspan x="71.073" y="20">Full Security</tspan><tspan x="73.034" y="46.282">Assessment</tspan></text>
+  </g>
+</svg>
