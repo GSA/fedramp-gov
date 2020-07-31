@@ -21,7 +21,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-High-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>8/28/2018</td>
+    <td>7/31/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Readiness Assessment Phase</td>
@@ -48,7 +48,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx"><i class="fas fa-file-word"></i>
 <p class="icon-text">WORD</p></a>
 </td>
-    <td>8/28/2018</td>
+    <td>7/31/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
