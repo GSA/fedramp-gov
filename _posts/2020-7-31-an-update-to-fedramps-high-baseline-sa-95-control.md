@@ -2,7 +2,7 @@
 title: An Update to FedRAMP’s High Baseline SA-9(5) Control
 permalink: /an-update-to-fedramps-high-baseline-sa-95-control/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_High Baseline.png
+image: /assets/img/blog-images/FRblog_HighBaseline.png
 author: FedRAMP
 layout: blog-page
 ---
