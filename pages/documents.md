@@ -30,7 +30,7 @@ Columns in the table below are sortable. The Category, Document, and Description
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx"><i class="fas fa-file-excel"></i>
     <p class="icon-text">EXCEL</p></a>
     </td>
-    <td>8/28/2018</td>
+    <td>7/31/2020</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
