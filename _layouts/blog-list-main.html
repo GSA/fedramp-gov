@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<div class="page-banner-container">
+	<div class="page-banner">
+		<h1> {{ page.title }}</h1>
+	</div>
+</div>
+<section class="dark-blue-bkg">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+				<h2 class="center no-line blog-roll-header">Focus on FedRAMP</h2>
+				<p style="text-align: center; color: #ffffff;">Discover what’s happening in the FedRAMP world.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="lightest-gray-bkg">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="desktop:grid-col-12">
+				{% if page.image %}
+					<img src="{{ page.image | prepend: site.baseurl }}">
+				{% endif %}
+				{{ content }}
+			</div>
+		</div>
+	</div>
+</section>	
+<a id="button"></a> 

@@ -3,21 +3,24 @@ layout: base
 ---
 <div class="page-banner-container">
 	<div class="page-banner">
-		<h1>Focus on FedRAMP</h1>
+		<h1>Blog</h1>
 	</div>
 </div>
 <div class="grid-container">
-	<div class="grid-row">
+	<div class="grid-row grid-gap">
 		<div class="desktop:grid-col-9">
-			<h1>{{ page.title }}</h1>
+			<h2>{{ page.title }}</h2>
+			<p class="date margin-bottom-4"><strong>{{ page.date | date: "%B %-d"}}</strong> | {{ page.date | date: "%Y"}}</p>
 			{% if page.image %}
 			<div class="page--banner"> 
 				<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ page.title }}">
 			</div>
 			{% endif %}
+			
+			<!--
 			<div class="author-date">
 				<p class="by">By {{ page.author }}</p>
-				<p class="date">{{ page.date | date: "%B %-d, %Y"}}</p>
+				
 				<span class="tag">
 				{% for tag in page.tags %}
 				{% capture tag_name %}{{ tag }}{% endcapture %}
@@ -25,11 +28,14 @@ layout: base
 				{% endfor %}
 				</span>
 			</div>
+			-->
+			
 			{{ content }}
+			<p class="back-to-blog margin-top-4"><a href="/blog/"><i class="fas fa-arrow-left text-red"></i> Back to Blog</a></p>
 		</div>
 		<aside class="desktop:grid-col-3">
 			<div class="blog-sidebar">
-				<h3>Recent Posts</h3>
+				<h3 class="no-line">Recent Posts</h3>
 				<ul>
 					{% for post in site.posts limit:5 %}
 					<li>
