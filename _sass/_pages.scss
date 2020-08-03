@@ -26,7 +26,7 @@
 
 /* Style the buttons inside the tab */
 .tab button {
-	background-color: #ffffff;
+	background-color: $teal;
 	float: left;
 	outline: none;
 	cursor: pointer;
@@ -82,9 +82,56 @@
 	width: 0;
 	height: 0;
 	transition: 0.3s;
-	border-left: 20px solid #ffffff;
+	border-left: 20px solid $teal;
 	border-top: 36px solid transparent;
 	border-bottom: 36px solid transparent;
+}
+
+.button-border {
+	height: 64px;
+	position: absolute;
+	padding-top: 21px;
+	width: 98%;
+	background: #ffffff;
+    top: 4px;
+    left: 4px;
+    z-index: 0;
+}
+
+.button-border:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -4px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 21px solid $teal;
+    border-top: 36px solid transparent;
+    border-bottom: 36px solid transparent;
+}
+
+.button-border:before {
+	content: "";
+	position: absolute;
+	right: -18px;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	transition: 0.3s;
+	border-left: 18px solid #ffffff;
+	border-top: 32px solid transparent;
+	border-bottom: 32px solid transparent;
+}
+
+.tab button.active .button-border, .tab button:hover .button-border {
+	background: $teal;
+	transition: 0.3s;
+	color: #ffffff;
+}
+
+.tab button.active .button-border:before, .tab button:hover .button-border:before {
+	border-left: 18px solid $teal;
 }
 
 /* Change background color of buttons on hover */
@@ -92,6 +139,7 @@
 	background-color: $teal;
 	color: #ffffff;
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 /* Create an active/current tablink class */
@@ -112,9 +160,103 @@
 	border-top: none;
 }
 
+@media (min-width: 0px) and (max-width: 968px) {
+	.tab button {
+		font-size: 1rem;
+		margin-right: 3%;
+		width: 29.5%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 680px) {
+	.tab button {
+		font-size: .75rem;
+		
+	}
+	
+	.pointer-button {
+		height: 40px;
+	}
+	.pointer-button:after {
+		content: "";
+		border-left: 12px solid $lightest-gray;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+	}
+	.pointer-button:before {
+		content: "";
+		position: absolute;
+		right: -12px;
+		transition: 0.3s;
+		border-left: 12px solid $teal;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+	}
+	
+	.tab button.active:before, .tab button:hover:before {
+		content: "";
+		position: absolute;
+		right: -12px;
+		border-left: 12px solid $teal;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+	}
+	
+	.button-border {
+		height: 36px;
+		position: absolute;
+		padding: 4px 10px 0 12px;
+		width: 98%;
+		background: #ffffff;
+		font-size: .75rem;
+		top: 2px;
+		left: 2px;
+		z-index: 0;
+	}
+
+	.button-border:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: -2px;
+		bottom: 0;
+		width: 0;
+		height: 0;
+		border-left: 13px solid $teal;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+	}
+
+	.button-border:before {
+		content: "";
+		position: absolute;
+		right: -9px;
+		bottom: 0;
+		width: 0;
+		height: 0;
+		transition: 0.3s;
+		border-left: 9px solid #ffffff;
+		border-top: 18px solid transparent;
+		border-bottom: 18px solid transparent;
+	}
+}
+
+/* --- End Agencies Tabs --- */
+
 .callout-box {
 	border: solid 1px $light-gray;
 }
+
+.callout-img-center .callout-img-center {
+	text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 968px) {
+	.callout-img-center .callout-img-center {
+		text-align: left;
+	}
+}
+
 
 #main .page-banner h1, body .page-banner h1 {
 	font-size: 2.625rem;
