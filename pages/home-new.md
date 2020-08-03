@@ -4,6 +4,7 @@ body-class: home-new
 permalink: /home-new/
 title: FedRAMP.gov
 
+
 hero-image: /assets/img/home-banner.png
 hero-text-main: Securing Cloud Services
 hero-text-sub: For the Federal Government
@@ -33,6 +34,9 @@ third-column-button: <a href="/assessors/" class="partner-learn-more"><button>Le
 
 fedramp-authorization-title: FedRAMP Authorization Process
 fedramp-authorization-text: There are two ways to authorize a cloud service offering (CSO) through FedRAMP through an individual Agency or the Joint Authorization Board (JAB). 
+
+fedramp-authorization-chart: fedramp-authorization-process-home.svg
+fedramp-authorization-chart-alt-text: This is placeholder text.
 
 fedramp-at-a-glance-title: FedRAMP at a Glance
 at-a-glance-one-image: <img src="/assets/img/glance-ready.svg" alt="">

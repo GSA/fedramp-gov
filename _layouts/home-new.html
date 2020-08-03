@@ -23,13 +23,13 @@ layout: base
 
 <div class="partners-container">
 	<div class="home-partners-title">
-		<h3>{{ page.first-main-title }}</h3>
+		<h2>{{ page.first-main-title }}</h2>
 	</div>
 	<ul class="home-partners-icons">
 		<li class="partners-col home-partners-col-1">
 			{{ page.first-column-image }}
 			<div class="home-partners-text">
-				<h2>{{ page.first-column-title }}</h2>
+				<h3>{{ page.first-column-title }}</h3>
 				<p>{{ page.first-column-blurb }}</p>
 				{{ page.first-column-button }}
 			</div>
@@ -38,7 +38,7 @@ layout: base
 		<li class="partners-col home-partners-col-2">
 			{{ page.second-column-image }}
 			<div class="home-partners-text">
-				<h2>{{ page.second-column-title }}</h2>
+				<h3>{{ page.second-column-title }}</h3>
 				<p>{{ page.second-column-blurb }}</p>
 				{{ page.second-column-button }}
 			</div>
@@ -47,7 +47,7 @@ layout: base
 		<li class="partners-col home-partners-col-3">
 			{{ page.third-column-image }}
 			<div class="home-partners-text">
-				<h2>{{ page.third-column-title }}</h2>
+				<h3>{{ page.third-column-title }}</h3>
 				<p>{{ page.third-column-blurb }}</p>
 				{{ page.third-column-button }}
 			</div>
@@ -63,50 +63,14 @@ layout: base
 		
 	<!-- Process Diagram -->
 		<div class="process-diagram">
-			<div class="process-container">
-				<div class="home-auth-title">
-					<h4>Phase 1</h4>
+			<div class="grid-row">
+				<div class="desktop:grid-col-12">
+					
+					<img src="/assets/img/{{ page.fedramp-authorization-chart }}" alt="{{ page.fedramp-authorization-chart-alt-text }}">
 				</div>
-			<ul class="column-1">
-				<li class="agency-first"><a href="{{site.baseurl}}/agency-authorization/"><p>AGENCY</p><img src="{{site.baseurl}}/assets/img/agency-arrow.svg" alt="Right Arrow"></a></li>
-				<li class="seek">Ways to Seek Authorization</li>
-				<li class="jab-first"><a href="{{site.baseurl}}/jab-authorization/"><img src="{{site.baseurl}}/assets/img/jab-arrow.svg" alt="Right Arrow"><p>JAB</p></a><br/></li>
-			</ul>
-				<div class="home-auth-title">
-					<h4>Phase 2</h4>
-				</div>
-			<ul class="column-2">
-				<li class="agency-one-two">
-					<ul>
-						<li class="one"><p>Partnership Establishment and Readiness Assessment<span class="asterisk">*</span></p><span class="step-title">STEP 1</span></li>
-						<li class="two">Full Security Assessment<span class="step-title">STEP 2</span></li>
-					</ul>
-				</li>
-				<li class="prep">Preparation</li>
-					<li class="jab-one-two">
-						<ul>
-							<li class="readiness"><span class="step-title">STEP 1</span><p>FedRAMP Connect and Readiness Assessment</p></li>
-							<li class="security"><span class="step-title">STEP 2</span>Full Security Assessment</li>
-						</ul>
-					</li>
-				</ul>
-				<div class="home-auth-title">
-					<h4>Phase 3</h4>
-				</div>
-				<ul class="column-3">
-					<li class="agency-auth"><p>Agency Authorization Process</p><span class="step-title">STEP 3</span></li>
-						<li class="auth">Authorization</li>
-					<li class="jab-auth"><span class="step-title">STEP 3</span><p>JAB Authorization Process</p></li>
-				</ul>
-				<div class="home-auth-title">
-					<h4>Phase 4</h4>
-				</div>
-				<ul class="column-4">
-						<li class="agency-conmon">Agency ConMon<span><img src="{{site.baseurl}}/assets/img/conmon-process-red.svg" alt="red cycle"></span></li>
-						<li class="conmon">Continuous Monitoring</li>
-									<li class="jab-conmon"><span><img src="{{site.baseurl}}/assets/img/conmon-process-blue.svg" alt="blue cycle"></span>JAB ConMon</li>
-				</ul>
 			</div>
+			
+		
 			<p class="optional-auth"><span class="asterisk">*</span><em> Optional but highly recommended for agency authorizations</em></p>
 		</div>
 	
