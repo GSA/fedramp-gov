@@ -15,7 +15,7 @@ second-hero-button: <a href="#auth-process">View The Process</a>
 
 first-main-title: Information for Our Partners
 
-first-column-image: <img class="home-partners-icon" src="/assets/img/small-business-icon.png" alt="">
+first-column-image: <img class="home-partners-icon" src="/assets/img/partners-cloud.svg" alt="">
 first-column-title: Cloud Service Providers
 first-column-blurb: Provide your cloud service offering to the federal government
 first-column-button: <a href="/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
@@ -35,7 +35,9 @@ third-column-button: <a href="/assessors/" class="partner-learn-more"><button>Le
 fedramp-authorization-title: FedRAMP Authorization Process
 fedramp-authorization-text: There are two ways to authorize a cloud service offering (CSO) through FedRAMP through an individual Agency or the Joint Authorization Board (JAB). 
 
-fedramp-authorization-chart: fedramp-authorization-process-home.svg
+fedramp-authorization-chart-desktop: fedramp-authorization-process-home-desktop.svg
+fedramp-authorization-chart-tablet: fedramp-authorization-process-home-tablet.svg
+fedramp-authorization-chart-mobile: fedramp-authorization-process-home-mobile.svg
 fedramp-authorization-chart-alt-text: This is placeholder text.
 
 fedramp-at-a-glance-title: FedRAMP at a Glance

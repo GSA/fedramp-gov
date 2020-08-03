@@ -188,6 +188,28 @@ a {
   }
 }
 
+
+/*** Responsive Styles desktop Only ***/
+@media all and (min-width: 981px) {
+	.authorization-desktop {
+		display: inline !important;
+	}
+}
+ 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.authorization-tablet {
+		display: inline !important;
+	}
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+ 	.authorization-mobile {
+		display: inline !important;
+	}
+}
+ 
 /* --- columns and grids -- */
 
 @media (min-width: 64em) {
