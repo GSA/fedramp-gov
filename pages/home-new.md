@@ -1,15 +1,15 @@
 ---
 layout: home-new
 body-class: home-new
-permalink: /
+permalink: /home-new/
 title: FedRAMP.gov
 
 
-hero-text-main: Securing Cloud Services
-hero-text-sub: For the Federal Government
-hero-secondary-text: The Federal Risk and Authorization Management Program (FedRAMP) provides a standardized approach to security authorizations for cloud service offerings.
-first-hero-button: <a href="{{site.baseurl}}/program-basics/">Learn Program Basics</a>
-second-hero-button: <a href="#auth-process">Meet The Process</a>
+hero-text-main: 
+hero-text-sub: 
+hero-secondary-text: 
+first-hero-button: 
+second-hero-button: 
 
 
 first-main-title: Information for Our Partners
