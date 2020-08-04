@@ -12,44 +12,44 @@ first-hero-button:
 second-hero-button: 
 
 
-first-main-title: Information for Our Partners
+first-main-title: 
 
 first-column-image: 
-first-column-title: Cloud Service Providers
-first-column-blurb: Provide your cloud service offering to the Federal Government
-first-column-button: <a href="{{site.baseurl}}/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
+first-column-title: 
+first-column-blurb: 
+first-column-button: 
 
 
 
 second-column-image: 
-second-column-title: Agencies
-second-column-blurb: Adopt secure innovative cloud services to meet your agency’s critical mission needs
-second-column-button: <a href="/federal-agencies/" class="partner-learn-more"><button>Learn More</button></a>
+second-column-title: 
+second-column-blurb: 
+second-column-button: 
 
 third-column-image: 
-third-column-title: Assessors
-third-column-blurb: Assess cloud services to ensure they meet FedRAMP requirements
-third-column-button: <a href="{{site.baseurl}}/assessors/" class="partner-learn-more"><button>Learn More</button></a>
+third-column-title: 
+third-column-blurb: 
+third-column-button: 
 
-fedramp-authorization-title: FedRAMP Authorization Process
-fedramp-authorization-text: There are two ways to authorize a cloud service offering (CSO) through FedRAMP through an individual Agency or the Joint Authorization Board (JAB). 
+fedramp-authorization-title: 
+fedramp-authorization-text:  
 
-fedramp-authorization-chart-desktop: fedramp-authorization-process-home-desktop.svg
+fedramp-authorization-chart-desktop: 
 fedramp-authorization-chart-tablet: fedramp-authorization-process-home-tablet.svg
 fedramp-authorization-chart-mobile: fedramp-authorization-process-home-mobile.svg
 fedramp-authorization-chart-alt-text: This is placeholder text.
 
-fedramp-at-a-glance-title: FedRAMP at a Glance
+fedramp-at-a-glance-title: 
 at-a-glance-one-image: 
-at-a-glance-one-title: Ready
-at-a-glance-one-number: 22
+at-a-glance-one-title: 
+at-a-glance-one-number: 
 
 at-a-glance-two-image: 
-at-a-glance-two-title: In Process
-at-a-glance-two-number: 54
+at-a-glance-two-title: 
+at-a-glance-two-number: 
 
 at-a-glance-three-image: 
-at-a-glance-three-title: Authorized
-at-a-glance-three-number: 179
+at-a-glance-three-title: 
+at-a-glance-three-number: 
 
 ---
