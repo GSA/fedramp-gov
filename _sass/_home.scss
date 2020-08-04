@@ -27,7 +27,13 @@
 
 .partner-divider {
 	margin: 26px 0 10px 0;
-	border-top: solid 1px $light-gray;
+}
+
+@media (min-width:0) and (max-width:639px) {
+	.partner-divider {
+		margin: 26px 0 10px 0;
+		border-top: solid 1px $light-gray;
+	}
 }
 
 .partners-container {
@@ -59,6 +65,7 @@
 		font-size: 1.625rem;
 		font-weight: bold;
 		padding: 0;
+		margin-top: 4rem;
 	}
 	
 	h2::after {
@@ -273,7 +280,7 @@ span.assessment {
 		padding: 0 0 15px 0;
 		margin: 0 0 25px 0;
 		font-size: 2.25rem;
-		color: $new-home-teal;
+		color: $teal;
 		background: url('../../assets/img/red-border.svg') center bottom no-repeat;
 	}
 		
@@ -1236,7 +1243,7 @@ section#goals div.inner {
 }
 
 .fedramp-glance {
-	padding: 40px 5% 60px 5%;
+	padding: 4rem 2rem 4rem 2rem;
 	float: left;
 	width: 100%;
 	h2 {

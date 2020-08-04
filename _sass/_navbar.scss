@@ -243,7 +243,7 @@ li.parent .sub-menu {
 		}
 		a {
 			padding: 20px;
-			background: #F3F4F4;
+			background: $lightest-gray;
 			color: $dark-gray;
 			display: block;
 			line-height: 1;
@@ -253,7 +253,7 @@ li.parent .sub-menu {
 			letter-spacing: .02em;
 			&:hover {
 				background: #fff;
-				color: $red;
+				color: $dark-gray;
 /*				border-top: 1px solid #fff;*/
 /*				border-bottom: 1px solid #fff;*/
 			}
