@@ -27,6 +27,7 @@
 
 .partner-divider {
 	margin: 26px 0 10px 0;
+	border: none;
 }
 
 @media (min-width:0) and (max-width:639px) {
@@ -93,7 +94,7 @@
 	color: $red;
 	font-weight: 800;
 	padding: 10px 36px;
-	margin: 10px 0;
+	margin: 10px 0 0 0;
 	border-radius: 20px;
 	cursor: pointer;
 	font-size: 0.75rem;
@@ -153,6 +154,7 @@
 		color: $red;
 		border-radius: 30px;
 		padding: 9px 24px 10px;
+		text-transform: uppercase;
 		&:hover {
 			border-color: $teal;
 			color: $teal;
