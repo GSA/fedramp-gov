@@ -60,6 +60,7 @@ address p:last-of-type, address p {
 ul.quick-links {
 	margin-left: 2em;
 	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .quick-links li {
@@ -213,7 +214,10 @@ p.footer-follow-us {
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
 	.logo-container {
-		text-align: center;
+	}
+	
+	.f-col-1 {
+		padding: 0 60px;
 	}
 	
 	.f-col-1, .f-col-2 {
@@ -221,7 +225,8 @@ p.footer-follow-us {
 	}
 	
 	.f-col-2 {
-		padding-right: 60px;
+		padding-right: 0px;
+		border-right: none;
 	}
 	
 	.f-col-3 {

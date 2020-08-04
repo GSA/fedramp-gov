@@ -23,7 +23,7 @@ layout: base
 
 <section>
 	<div class="grid-container">
-		<div class="partners-container grid-row grid-gap">
+		<div class="partners-container grid-row">
 			<div class="desktop:grid-col-12">
 				<div class="home-partners-title">
 					<h2 class="text-center">Information for Our Partners</h2>
@@ -31,26 +31,28 @@ layout: base
 			</div>
 		</div>
 		<div class="partners-container grid-row home-partners-title" style="margin-top: 0;">
-			<div class="tablet:grid-col-4 padding-x-2">
+			<div class="desktop:grid-col-4 padding-2">
 				<div class="grid-row">
-					<div class="grid-col-4">
+					<div class="grid-col-3 text-right">
 						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 					</div>
-					<div class="grid-col-8">
+					<div class="grid-col-9 padding-left-4">
 						<div class="home-partners-text">
 							<h3>Cloud Service Providers</h3>
 							<p>Provide your cloud service offering to the Federal Government</p>
 							<a href="{{site.baseurl}}/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
 						</div>
 					</div>
-				</div>	
+				</div>
+				<hr class="partner-divider desktop:display-none tablet:display-none">
 			</div>
-			<div class="tablet:grid-col-4 padding-x-2">
+			
+			<div class="desktop:grid-col-4 padding-2 ">
 				<div class="grid-row">
-					<div class="grid-col-4">
+					<div class="grid-col-3 text-right">
 						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
 					</div>
-					<div class="grid-col-8">
+					<div class="grid-col-9 padding-left-4">
 						<div class="home-partners-text">
 							<h3>Agencies</h3>
 							<p>Adopt secure innovative cloud services to meet your agency’s critical mission needs</p>
@@ -58,14 +60,16 @@ layout: base
 						</div>
 					</div>
 				</div>
+				<hr class="partner-divider desktop:display-none tablet:display-none">
 			</div>
-
-			<div class="tablet:grid-col-4 padding-x-2">
+			
+			
+			<div class="desktop:grid-col-4 padding-2">
 				<div class="grid-row">
-					<div class="grid-col-4">
+					<div class="grid-col-3 text-right">
 						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
 					</div>
-					<div class="grid-col-8">
+					<div class="grid-col-9 padding-left-4">
 						<div class="home-partners-text">
 							<h3>Assessors</h3>
 							<p>Assess cloud services to ensure they meet FedRAMP requirements</p>
@@ -75,7 +79,6 @@ layout: base
 				</div>
 			</div>
 
-			<div class="clearfix"></div>
 		</div>
 	</div>	
 </section>

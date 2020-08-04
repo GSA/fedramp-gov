@@ -25,6 +25,11 @@
 	}
 }
 
+.partner-divider {
+	margin: 26px 0 10px 0;
+	border-top: solid 1px $light-gray;
+}
+
 .partners-container {
 	max-width: 1200px;
 	width: 100% !important;
@@ -42,9 +47,7 @@
 }
 
 @media (min-width:0) and (max-width:1200px) {
-.partners-container {
-	padding: 20px 5% 20px 5%;
-}
+
 }
 
 .home-partners-title {
@@ -85,8 +88,10 @@
 	color: $red;
 	font-weight: 800;
 	padding: 10px 20px;
+	margin: 10px 0;
 	border-radius: 20px;
 	cursor: pointer;
+	font-size: 0.75rem;
 }
 
 .partners-container button:hover {
@@ -122,11 +127,6 @@
 		margin-top: 20px;
 	}
 	
-	.home-partners-text {
-		float: left;
-		margin-left: 25px;
-		width: 50%;
-	}
 	
 	.partners-col h2 {
 		font-weight: 500 !important;
@@ -232,11 +232,6 @@
 			font-weight: 500;
 			margin: 20px 0 5px 0 !important;
 		}
-	}
-	.home-partners-text {
-		float: left;
-		margin-left: 25px;
-		width: 60% !important;
 	}
 }
 
