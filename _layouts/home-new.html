@@ -6,15 +6,15 @@ layout: base
 	<div class="hero-unit">
     	<div class="usa-grid grid-gap">
 			<div class="hero-text grid-col-8">
-			<h1>{{ page.hero-text-main }}</h1>
-			<h3>{{ page.hero-text-sub }}</h3>
+			<h1>Securing Cloud Services</h1>
+			<h3>For the Federal Government</h3>
 				<div class="hero-text-description margin-bottom-4">
-					<p>{{ page.hero-secondary-text }}</p>
+					<p>The Federal Risk and Authorization Management Program (FedRAMP) provides a standardized approach to security authorizations for cloud service offerings.</p>
 				</div>
 			
 				<div class="home-hero-buttons">
-					<button class="hero-program">{{ page.first-hero-button }}</button>
-					<button class="hero-process">{{ page.second-hero-button }}</button>
+					<button class="hero-program"><a href="{{site.baseurl}}/program-basics/">Learn Program Basics</a></button>
+					<button class="hero-process"><a href="#auth-process">Meet The Process</a></button>
 				</div>
 			</div>
     	</div>
@@ -26,7 +26,7 @@ layout: base
 		<div class="partners-container grid-row grid-gap">
 			<div class="desktop:grid-col-12">
 				<div class="home-partners-title">
-					<h2 class="text-center">{{ page.first-main-title }}</h2>
+					<h2 class="text-center">Information for Our Partners</h2>
 				</div>
 			</div>
 		</div>
@@ -38,9 +38,9 @@ layout: base
 					</div>
 					<div class="grid-col-8">
 						<div class="home-partners-text">
-							<h3>{{ page.first-column-title }}</h3>
-							<p>{{ page.first-column-blurb }}</p>
-							{{ page.first-column-button }}
+							<h3>Cloud Service Providers</h3>
+							<p>Provide your cloud service offering to the Federal Government</p>
+							<a href="{{site.baseurl}}/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
 						</div>
 					</div>
 				</div>	
@@ -52,9 +52,9 @@ layout: base
 					</div>
 					<div class="grid-col-8">
 						<div class="home-partners-text">
-							<h3>{{ page.second-column-title }}</h3>
-							<p>{{ page.second-column-blurb }}</p>
-							{{ page.second-column-button }}
+							<h3>Agencies</h3>
+							<p>Adopt secure innovative cloud services to meet your agency’s critical mission needs</p>
+							<a href="/federal-agencies/" class="partner-learn-more"><button>Learn More</button></a>
 						</div>
 					</div>
 				</div>
@@ -67,9 +67,9 @@ layout: base
 					</div>
 					<div class="grid-col-8">
 						<div class="home-partners-text">
-							<h3>{{ page.third-column-title }}</h3>
-							<p>{{ page.third-column-blurb }}</p>
-							{{ page.third-column-button }}
+							<h3>Assessors</h3>
+							<p>Assess cloud services to ensure they meet FedRAMP requirements</p>
+							<a href="{{site.baseurl}}/assessors/" class="partner-learn-more"><button>Learn More</button></a>
 						</div>
 					</div>
 				</div>
@@ -81,17 +81,17 @@ layout: base
 </section>
 
 <section id="auth-process" class="auth-process padding-y-8">
-	<h2>{{ page.fedramp-authorization-title }}</h2>
-	<p class="auth-process-description margin-bottom-8">{{ page.fedramp-authorization-text }}</p>
+	<h2>FedRAMP Authorization Process</h2>
+	<p class="auth-process-description margin-bottom-8">There are two ways to authorize a cloud service offering (CSO) through FedRAMP through an individual Agency or the Joint Authorization Board (JAB).</p>
 		
 	<!-- Process Diagram -->
 		<div class="process-diagram">
 			<div class="grid-row">
 				<div class="desktop:grid-col-12">
 					
-					<img class="display-none authorization-desktop" src="/assets/img/{{ page.fedramp-authorization-chart-desktop }}" alt="{{ page.fedramp-authorization-chart-alt-text }}">
-					<img class="display-none authorization-tablet" src="/assets/img/{{ page.fedramp-authorization-chart-tablet}}" alt="{{ page.fedramp-authorization-chart-alt-text }}">
-					<img class="display-none authorization-mobile" src="/assets/img/{{ page.fedramp-authorization-chart-mobile }}" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+					<img class="display-none authorization-desktop" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-desktop.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+					<img class="display-none authorization-tablet" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-tablet.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+					<img class="display-none authorization-mobile" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-mobile.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
 				</div>
 			</div>
 			
@@ -101,29 +101,29 @@ layout: base
 	
 </section>
 <section class="fedramp-glance">
-<h2>{{ page.fedramp-at-a-glance-title }}</h2>
+<h2>FedRAMP at a Glance</h2>
 <ul class="glance-numbers">
 	<li>
 	<img src="{{site.baseurl}}/assets/img/glance-ready.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-one-title }}</p>
-	<p class="number">{{ page.at-a-glance-one-number }}</p>
+	<p>Ready</p>
+	<p class="number">22</p>
 	</span>
 	</li>
 	
 	<li>
 		<img src="{{site.baseurl}}/assets/img/glance-process.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-two-title }}</p>
-	<p class="number">{{ page.at-a-glance-two-number }}</p>
+	<p>In Process</p>
+	<p class="number">54</p>
 	</span>
 	</li>
 	
 	<li>
 		<img src="{{site.baseurl}}/assets/img/glance-authorized.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-three-title }}</p>
-	<p class="number">{{ page.at-a-glance-three-number }}</p>
+	<p>Authorized</p>
+	<p class="number">179</p>
 	</span>
 	</li>
 </ul>
