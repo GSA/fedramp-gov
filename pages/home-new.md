@@ -10,14 +10,14 @@ hero-text-main: Securing Cloud Services
 hero-text-sub: For the Federal Government
 hero-secondary-text: The Federal Risk and Authorization Management Program (FedRAMP) provides a standardized approach to security authorizations for cloud service offerings.
 first-hero-button: <a href="/program-basics/">Learn Program Basics</a>
-second-hero-button: <a href="#auth-process">View The Process</a>
+second-hero-button: <a href="#auth-process">Meet The Process</a>
 
 
 first-main-title: Information for Our Partners
 
 first-column-image: <img class="home-partners-icon" src="/assets/img/partners-cloud.svg" alt="">
 first-column-title: Cloud Service Providers
-first-column-blurb: Provide your cloud service offering to the federal government
+first-column-blurb: Provide your cloud service offering to the Federal Government
 first-column-button: <a href="/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
 
 
