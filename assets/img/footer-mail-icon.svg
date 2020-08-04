@@ -5,6 +5,6 @@
     </clipPath>
   </defs>
   <g id="mail" clip-path="url(#clip-path)">
-    <path id="mail-2" data-name="mail" d="M0,0V20H27V0ZM13.5,13.333l-10.125-10h20.25Z" fill="#0a90b7" fill-rule="evenodd"/>
+    <path id="mail-2" data-name="mail" d="M0,0V20H27V0ZM13.5,13.333l-10.125-10h20.25Z" fill="#d9f1fd" fill-rule="evenodd"/>
   </g>
 </svg>
