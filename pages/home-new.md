@@ -1,7 +1,7 @@
 ---
 layout: home-new
 body-class: home-new
-permalink: /home-new/
+permalink: /
 title: FedRAMP.gov
 
 
