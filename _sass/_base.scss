@@ -3,6 +3,11 @@
 	box-shadow: none !important;
 }
 
+.usa-skipnav:focus {
+	z-index: 1000000000;
+	top: 20px;
+}
+
 .text-white {
 	color: #ffffff;
 }

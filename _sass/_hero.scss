@@ -161,7 +161,7 @@
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 34px 12px;
 		&:hover {
-			background-color: shade($red, 20%);
+			background-color: $red;
 			transition: 0.4s;
 		}
 	}
@@ -170,7 +170,7 @@
 		background-image: url('../../assets/img/home-meet-the-process.svg');
 		background-position: 25px;
 		&:hover {
-			background-color: shade($light-blue, 20%);
+			background-color: $dark-blue;
 			transition: 0.4s;
 		}
 	}

@@ -234,7 +234,7 @@ li.parent .sub-menu {
 				content: '\f105';
 				height: 0;
 				float: right;
-				color: #4c4c4e;
+				color: $dark-gray;
 			}
 			}
 		}
@@ -244,7 +244,7 @@ li.parent .sub-menu {
 		a {
 			padding: 20px;
 			background: #F3F4F4;
-			color: #4C4C4E;
+			color: $dark-gray;
 			display: block;
 			line-height: 1;
 			font-size: 0.875rem;
