@@ -40,6 +40,16 @@
 	width: 50rem;
 }
 
+.usa-search::after {
+	content: "";
+    border-left: solid 1px #757575;
+    position: absolute;
+    height: 22px;
+    width: 1px;
+    left: 273px;
+    top: 6px;
+}
+
 .search-feature .usa-button, .search-feature .usa-button-primary, .search-feature .usa-button:visited, .search-feature .usa-button-primary:visited, .search-feature button, .search-feature [type="button"], .search-feature [type="submit"], .search-feature [type="reset"], .search-feature [type="image"] {
 	font-size: 1.2rem;
 }
@@ -178,7 +188,6 @@ img.desk {
 	border: none;
 	background: $lightest-gray;
 	font-family: $sans-font;
-	border-right: 1px solid $mid-gray;
 	width: 86%;
 	height: 33px;
 	padding-left: 20px;
@@ -188,6 +197,7 @@ img.desk {
 		outline: 0;
 	}
 }
+
 
 #searchgovform.usa-search button#searchgovbutton {
 	background: $lightest-gray;
