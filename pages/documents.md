@@ -292,7 +292,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>10/12/2017</td>
+    <td>12/5/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
