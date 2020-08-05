@@ -35,9 +35,9 @@ layout: full-width
 				<p class="text-center">Click each step in the process for more information:</p>
 
 					<div class="tab">
-						<button class="tablinks pointer-button" onclick="openTab(event, 'pre-authorization')" id="defaultOpen">Pre-Authorization<span class="button-border"></span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')">During Authorization<span class="button-border"></span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')">Post Authorization<span class="button-border"></span></button>
+						<button class="tablinks pointer-button" onclick="openTab(event, 'pre-authorization')" id="defaultOpen"><span class="button-border">Pre-Authorization</span></button>
+						<button class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')"><span class="button-border">During Authorization</span></button>
+						<button class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')"><span class="button-border">Post Authorization</span></button>
 					</div>
 
 					<div id="pre-authorization" class="tabcontent padding-8">
@@ -66,7 +66,7 @@ layout: full-width
 							<div class="full-col desktop:grid-col-12">
 								<h3>Conducting Assessments</h3>
 
-								<h4>1)	Completing a Security Assessment Plan (SAP)</h4>
+								<h4>1) Completing a Security Assessment Plan (SAP)</h4>
 
 								<p>The SAP contains the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. The SAP includes the following&#58;</p>
 								<ul>
@@ -74,30 +74,41 @@ layout: full-width
 									<li>Inventory Worksheet that coincides with the inventory provided in the SSP</li>
 								</ul>
 
-The SAP also serves as a rules of engagement, once signed by the CSP and 3PAO, as it includes all applicable rules of engagement for the assessment. It also provides a customized account of the security assessment methodology and indicates that both the CSP and 3PAO are in full concurrence of the security assessment testing scope. AOs are responsible for reviewing and approving the SAP at both the time of the assessment and during continuous monitoring (ConMon), including the:
-●	FedRAMP Security Test Case Workbook
-●	Penetration Testing Plan and Methodology
-●	3PAO Supplied Deliverables
-●	Penetration Test Rules of Engagement
-●	Sampling Methodology
-2)	Producing a Security Assessment Report (SAR)
+								<p>The SAP also serves as a rules of engagement, once signed by the CSP and 3PAO, as it includes all applicable rules of engagement for the assessment. It also provides a customized account of the security assessment methodology and indicates that both the CSP and 3PAO are in full concurrence of the security assessment testing scope. AOs are responsible for reviewing and approving the SAP at both the time of the assessment and during continuous monitoring (ConMon), including the&#58;</p>
+								
+								<ul>
+									<li>FedRAMP Security Test Case Workbook</li>
+									<li>Penetration Testing Plan and Methodology</li>
+									<li>3PAO Supplied Deliverables</li>
+									<li>Penetration Test Rules of Engagement</li>
+									<li>Sampling Methodology</li>
+								</ul>
 
-The SAR contains the results of the CSO’s comprehensive security assessment, including a summary of the risks associated with the vulnerabilities of the system identified during testing.
-The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline of security controls, and thus the system’s compliance with FISMA security mandates.
-Following the assessment, a 3PAO is responsible for generating the SAR. The document must align with the assessment methodology described in the SAP and address the control detail described in the SSP. An effective SAR should inform a CSP’s Plan of Actions & Milestones (POA&M) and reflect the true risk posture of the system. The 3PAO must provide a clear, independent authorization recommendation that is logical and aligns with the residual risk for operating the system - without any conditional or ambiguous attestations.
-Agency AOs or designees are responsible for reviewing and approving the SAR. They should ensure the appropriate level of testing was done and that the risk posture associated with the system is acceptable to that agency, both at time of assessment and during ConMon.
-In addition to a completed SAR template, 3PAOs should complete and append the following materials to their assessment report:
-●	Risk Exposure Table
-●	FedRAMP Security Test Case Workbook
-●	Infrastructure Scan Results
-●	Database Scan Results
-●	Web Application Scan Results
-●	Assessment Results
-●	Manual Test Results
-●	Documentation Review Findings
-●	SAR Auxiliary Documents
-●	Penetration Test Report
-An assessor’s completed SAP and SAR is submitted, with the CSP’s System Security Plan (SSP), to form the authorization package. The package is ultimately reviewed and approved by the authorizing agency.
+								<h4>2) Producing a Security Assessment Report (SAR)</h4>
+
+								<p>The SAR contains the results of the CSO’s comprehensive security assessment, including a summary of the risks associated with the vulnerabilities of the system identified during testing.</p>
+
+								<p>The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline of security controls, and thus the system’s compliance with FISMA security mandates.</p>
+
+								<p>Following the assessment, a 3PAO is responsible for generating the SAR. The document must align with the assessment methodology described in the SAP and address the control detail described in the SSP. An effective SAR should inform a CSP’s Plan of Actions &amp; Milestones (POA&amp;M) and reflect the true risk posture of the system. The 3PAO must provide a clear, independent authorization recommendation that is logical and aligns with the residual risk for operating the system - without any conditional or ambiguous attestations.</p>
+
+								<p>Agency AOs or designees are responsible for reviewing and approving the SAR. They should ensure the appropriate level of testing was done and that the risk posture associated with the system is acceptable to that agency, both at time of assessment and during ConMon.</p>
+
+								<p>In addition to a completed SAR template, 3PAOs should complete and append the following materials to their assessment report&#58;</p>
+								<ul>
+									<li>Risk Exposure Table</li>
+									<li>FedRAMP Security Test Case Workbook</li>
+									<li>Infrastructure Scan Results</li>
+									<li>Database Scan Results</li>
+									<li>Web Application Scan Results</li>
+									<li>Assessment Results</li>
+									<li>Manual Test Results</li>
+									<li>Documentation Review Findings</li>
+									<li>SAR Auxiliary Documents</li>
+									<li>Penetration Test Report</li>
+								</ul>
+
+								<p>An assessor’s completed SAP and SAR is submitted, with the CSP’s System Security Plan (SSP), to form the authorization package. The package is ultimately reviewed and approved by the authorizing agency.</p>
 
 							</div>
 						</div>				
@@ -106,51 +117,15 @@ An assessor’s completed SAP and SAR is submitted, with the CSP’s System Secu
 					<div id="post-authorization" class="tabcontent padding-8">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
-								<p class="text-center"><strong>Once a CSO has been authorized, it is listed in the FedRAMP Marketplace.</strong></p>
-								<h3 class="margin-top-4">Continuous Monitoring <span style="text-transform: none;">(ConMon)</span></h3>
-								<p>Once a FedRAMP authorization has been granted, the security posture of a CSO is monitored according to the assessment and authorization process. Performing ongoing security assessments determines whether the set of deployed security controls in a CSO remains effective in lieu of new exploits and attacks, as well as planned and unplanned changes that occur in the system environment over the life of the system. To maintain a FedRAMP authorization, the CSP must monitor their security control environment, assess that control environment on a regular basis, and demonstrate that the security posture of their service offering is continuously acceptable.</p>
+								<h3>Continuous Monitoring</h3>
 									
-								<p>Ongoing assessment of security controls results in greater control over the security posture of the CSO and enables timely risk-management decisions. Security-related information collected through continuous monitoring is used to make recurring updates to the system security package. CSPs and Agencies should define and agree to a monthly meeting cadence early in the Authorization process. </p>
+								<p>After an authorization has been granted, the CSO enters continuous monitoring (ConMon). CSPs can engage 3PAOs during the ConMon phase to validate deviation requests, significant changes, and participate in or fully perform monthly assessments. A 3PAO must&#58;</p>
 								
-								<h3 class="margin-top-4">Annual Assessment</h3>
-								<p>Completing an annual assessment for a FedRAMP authorized CSO includes&#58;</p>
 								<ul>
-									<li>Review and update, as required, of the System Security Plan (SSP) and attachments</li>
-									<li>Completion of a Incident Response Plan Test and provision of the Incident Response Plan Test Report</li>
-									<li>Completion of a Contingency Plan functional test and provision of the Contingency Plan Test Report</li>
-									<li>Completion of the Annual Assessment Security Assessment Plan (SAP)</li>
-									<li>Completion of Annual Assessment testing</li>
-									<li>Completion of the Annual Assessment Security Assessment Report (SAR)</li>
-									<li>Update of the CSOs Plan of Action and Milestones (POA&amp;M)</li>
-									<li>Submission of the completed Annual Assessment package, including the SAR and attachments, updated SSP and attachments, updated SAP, and POA&amp;M to FedRAMP PMO or Agency AO</li>
+									<li>Submit significant change requests (SCRs), to the JAB or agency AO, at least 30 days before implementing the changes in order to provide time for documentation review and to conduct the assessment.</li>
+									<li>Perform annual testing as required by the CSP and the authorizing agency. </li>
 								</ul>
-								<p>CSPs are required to engage a 3PAO to complete Annual Assessment testing. All documentation that results from an Annual Assessment should be uploaded to the FedRAMP secure repository, OMB MAX, by the CSP’s ATO date. The Annual Assessment should be reviewed by their agency customer(s) Authorizing Official and approved before being uploaded to OMB MAX. Any updates to an offering’s Impact Level should be reported to the PMO, via <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>, before being uploaded to OMB MAX.</p>
-							</div>
-						</div>
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-6">
-								<ul>
-									<li>FedRAMP Security Assessment Report</li>
-									<li>Risk Exposure Table</li>
-									<li>FedRAMP Security Test Case Workbook</li>
-									<li>Infrastructure Scan Results</li>
-									<li>Database Scan Results</li>
-									<li>Web Application Scan Results</li>
-								</ul>
-							</div>
-							<div class="full-col desktop:grid-col-6">
-								<ul>
-									<li>Assessment Results</li>
-									<li>Manual Test Results</li>
-									<li>Documentation Review Findings</li>
-									<li>SAR Auxiliary Documents</li>
-									<li>Penetration Test Report</li>							
-								</ul>
-							</div>
-						</div>
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<p>An assessor’s completed SAP and SAR is submitted with the CSP’s System Security Plan (SSP) to form the authorization package. The package is ultimately reviewed and approved by the authorizing party.</p>
+
 							</div>
 						</div>
 					</div>
@@ -168,7 +143,7 @@ An assessor’s completed SAP and SAR is submitted, with the CSP’s System Secu
 								</div>
 							</div>
 							<div class="desktop:grid-col-10 desktop:padding-right-4">
-								<h4>How to Become a FedRAMP Recognized 3PAO</h4>
+								<h3>How to Become a FedRAMP Recognized 3PAO</h3>
 								<p>In order to become a FedRAMP recognized 3PAO, A2LA must perform an initial assessment of the 3PAO and provide an initial assessment recommendation to FedRAMP for approval. In order for a 3PAO to maintain its FedRAMP recognition, A2LA must perform a favorable annual review (desk audit) and a full reassessment (on-site audit) every two years. A2LA assessments ensure 3PAOs meet the requirements of ISO/IEC 17020 (as revised) and FedRAMP-specific knowledge requirements.</p>
 
 								<p>More information on becoming a FedRAMP recognized 3PAO can be found on the A2LA website.</p>
