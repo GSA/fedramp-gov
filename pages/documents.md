@@ -21,7 +21,7 @@ Columns in the table below are sortable. The Category, Document, and Description
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>11/15/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">FedRAMP Program Documents</td>
@@ -94,7 +94,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>2/1/2018</td>
   </tr>
     <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -103,7 +103,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>4/3/2018</td>
+    <td>7/1/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -157,7 +157,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>2/21/2018</td>
+    <td>4/4/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -166,7 +166,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>11/20/2017</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -202,7 +202,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>11/24/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -220,7 +220,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>2/21/2018</td>
+    <td>4/4/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -247,7 +247,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>12/8/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -256,7 +256,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>11/24/2017</td>
   </tr>
    <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -274,7 +274,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td> 2/23/2017</td>
+    <td> 3/1/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
@@ -310,7 +310,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>11/24/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
@@ -319,7 +319,7 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>12/7/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
@@ -347,7 +347,7 @@ reuse authorized cloud products within the FedRAMP Marketplace. </td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Control_Specific_Contract_Clauses.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>12/8/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Assessor Documents</td>
@@ -365,7 +365,7 @@ reuse authorized cloud products within the FedRAMP Marketplace. </td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>6/6/2017</td>
+    <td>12/7/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Assessor Documents</td>
@@ -375,5 +375,8 @@ reuse authorized cloud products within the FedRAMP Marketplace. </td>
     <p class="icon-text">PDF</p></a>
     </td>
     <td>6/6/2017</td>
+  </tr>
+</table>
+td>
   </tr>
 </table>
