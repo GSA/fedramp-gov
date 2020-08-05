@@ -59,6 +59,12 @@
 	
 }
 
+@media (min-width: 0) and (max-width: 580px) {
+	.usa-search::after {
+		left: 87%;}
+	
+}
+
 .search-feature .usa-button, .search-feature .usa-button-primary, .search-feature .usa-button:visited, .search-feature .usa-button-primary:visited, .search-feature button, .search-feature [type="button"], .search-feature [type="submit"], .search-feature [type="reset"], .search-feature [type="image"] {
 	font-size: 1.2rem;
 }
@@ -249,7 +255,7 @@ img.desk {
 /*	min-width: 390px;*/
 	.bell {
 		cursor: pointer;
-		margin: -5px 0 0 0;
+		margin: -5px 5px 0 0;
 		&:hover {
 		width: 45px;
 		background: $lightest-gray;
