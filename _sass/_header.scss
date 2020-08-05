@@ -1,14 +1,21 @@
 /** SEARCH FEATURE **/
 
+
 .usa-header {
 	height: 130px;
 }
+
 
 .usa-banner {
   z-index: 10000;
   position: absolute;
   top: 0;
   width: 100%; }
+
+
+.usa-banner__inner {
+	max-width: 1200px;
+}
 
 .search-feature {
 	margin: 30px auto 0px auto;
@@ -34,6 +41,28 @@
 .search-feature .usa-header .usa-search {
 	max-width: 40rem;
 	width: 50rem;
+}
+
+.usa-search::after {
+	content: "";
+    border-left: solid 1px #757575;
+    position: absolute;
+    height: 22px;
+    width: 1px;
+    left: 85%;
+    top: 6px;
+}
+
+@media (min-width: 0) and (max-width: 950px) {
+	.usa-search::after {
+		left: 90%;}
+	
+}
+
+@media (min-width: 0) and (max-width: 580px) {
+	.usa-search::after {
+		left: 87%;}
+	
 }
 
 .search-feature .usa-button, .search-feature .usa-button-primary, .search-feature .usa-button:visited, .search-feature .usa-button-primary:visited, .search-feature button, .search-feature [type="button"], .search-feature [type="submit"], .search-feature [type="reset"], .search-feature [type="image"] {
@@ -170,8 +199,10 @@ img.desk {
 #searchgovinput {
 	font-style: italic !important;
 	font-size: 0.875rem;
+	color: $mid-gray;
 	border: none;
-	background: #F0F0F0;
+	background: $lightest-gray;
+	font-family: $sans-font;
 	width: 86%;
 	height: 33px;
 	padding-left: 20px;
@@ -182,17 +213,20 @@ img.desk {
 	}
 }
 
+
 #searchgovform.usa-search button#searchgovbutton {
-	background: #D0D0D0;
+	background: $lightest-gray;
 	width: 14%;
 	height: 33px;
 	float: left;
 	border-radius: 0 20px 20px 0;
 	svg {
-		color: #fff;
+		color: $mid-gray;
 		margin: 0;
 		width: 20px;
 		height: 20px;
+		position: relative;
+		left: -6px;
 	}
 }
 @media (min-width: 951px) and (max-width: 5000px) {
@@ -213,11 +247,28 @@ img.desk {
 
 .search-wrapper {
 	float: right;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
 	max-width: 400px;
-	min-width: 300px;
+	width: 100%;
+/*	min-width: 390px;*/
 	.bell {
-		position: relative;
 		cursor: pointer;
+		margin: -5px 5px 0 0;
+		&:hover {
+		width: 45px;
+		background: $lightest-gray;
+		height: 45px;
+		border-radius: 25px;
+		}
+		svg.fa-bell {
+			float: left;
+			display: inline-block;
+			color: $mid-gray;
+			margin: 6px 8px 0 8px;
+			font-size: 2em;
+		}
 	}
 	#alert-logic {
 		display: none;
@@ -226,7 +277,7 @@ img.desk {
 		min-width: 400px;
 		position: absolute;
 		top: 0px;
-		left: 50px;
+		right: -60px;
 		background: #F0F0F0;
 		z-index: 10000;
 		padding: 30px;
@@ -276,11 +327,11 @@ img.desk {
 }
 }
 
-@media (min-width: 1200px) and (max-width: 1240px) {
+/*@media (min-width: 1200px) and (max-width: 1240px) {
 	.search-wrapper {
 		padding-right: 20px;
 	}
-}
+}*/
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {

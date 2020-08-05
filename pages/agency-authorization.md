@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Get Authorized&#58; Agency Authorization
+layout: agency-authorization
+title: Agency Authorization
 permalink: /agency-authorization/
-body-class: page-fed-agencies
+
 ---
 
 

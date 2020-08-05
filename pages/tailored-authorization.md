@@ -1,7 +1,7 @@
 ---
-layout: jab-authorization
-title: JAB Authorization
-permalink: /jab-authorization/
+layout: tailored-authorization
+title: FedRAMP Tailored Authorization
+permalink: /tailored-authorization/
 
 ---
 

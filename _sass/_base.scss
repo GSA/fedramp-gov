@@ -3,6 +3,11 @@
 	box-shadow: none !important;
 }
 
+.usa-skipnav:focus {
+	z-index: 1000000000;
+	top: 20px;
+}
+
 .text-white {
 	color: #ffffff;
 }
@@ -15,7 +20,7 @@
 
 body,
 p, ul, ol, li  {
-	color: $text-color;
+	color: $dark-gray;
 	font-family: $sans-font !important;
 	line-height: 1.5;
 	font-size: .9375rem;
@@ -56,6 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 	h2.center::after {
 		margin: auto;
 	}
+	
+	h2.no-line::after {
+		content: none;
+	}
 }
 
 .grid-row {
@@ -65,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		letter-spacing: .04em;
 		padding-right: 1rem;
-		background: #ffffff;
 		text-transform: uppercase;
 		position: relative;
 		display: flex;
@@ -83,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 		flex: 1 0 20px;
 		left: 1rem;
 		position: relative;
+	}
+	
+	h3.no-line::after {
+		content: none;
 	}
 }
 
@@ -107,6 +119,17 @@ a.focus-within:active {
 	box-shadow: none;
 }
 
+.dark-blue-bkg {
+	background: $dark-blue;
+}
+
+.lightest-gray-bkg {
+	background: $lightest-gray;
+}
+
+.lightest-teal-bkg {
+	background: $lighter-teal;
+}
 
 .usa-section-dark {
   legend, label,
@@ -170,6 +193,28 @@ a {
   }
 }
 
+
+/*** Responsive Styles desktop Only ***/
+@media all and (min-width: 981px) {
+	.authorization-desktop {
+		display: inline !important;
+	}
+}
+ 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.authorization-tablet {
+		display: inline !important;
+	}
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+ 	.authorization-mobile {
+		display: inline !important;
+	}
+}
+ 
 /* --- columns and grids -- */
 
 @media (min-width: 64em) {
@@ -191,9 +236,6 @@ a {
 	white-space: nowrap;
 }
 
-.margin-bottom-zero {
-	margin-bottom: 0;
-}
 
 @media (min-width: 600px) {
   .usa-width-one-whole.usa-section {
@@ -518,7 +560,6 @@ button,
 	font-family: $sans-font;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	text-transform: uppercase;
 }
 .usa-button:hover,
 .usa-button-primary:hover,

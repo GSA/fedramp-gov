@@ -1,11 +1,5 @@
 assigned:
     -
-        text: Home
-        href: pages/home.md
-        permalink: /
-        show_in_menu: true
-        show_in_footer: false
-    -
         text: About Us
         href: 
         permalink: /
@@ -76,7 +70,7 @@ assigned:
             show_in_footer: false 
         - 
             text: Tailored Authorization
-            is_external: https://tailored.fedramp.gov
+            is_external: https://tailored.fedramp.gov/
             show_in_menu: true
             show_in_footer: false
     -

@@ -21,14 +21,14 @@ ul.usa-nav-primary li a {
 	font-weight: 800 !important;
 	text-decoration: none;
 		&.external {
-		border: 1px solid $red;
-		color: $red;
+		border: 1px solid $mid-gray;
+		color: $mid-gray;
 		border-radius: 25px;
 		margin-left: 15px;
-		padding: 12px;
+		padding: 10px 20px;
 		&:hover {
-			border-color: $teal;
-			color: $teal;
+			border-color: $red;
+			color: $red;
 		}
 	}
 }
@@ -234,7 +234,7 @@ li.parent .sub-menu {
 				content: '\f105';
 				height: 0;
 				float: right;
-				color: #4c4c4e;
+				color: $dark-gray;
 			}
 			}
 		}
@@ -243,8 +243,8 @@ li.parent .sub-menu {
 		}
 		a {
 			padding: 20px;
-			background: #F3F4F4;
-			color: #4C4C4E;
+			background: $lightest-gray;
+			color: $dark-gray;
 			display: block;
 			line-height: 1;
 			font-size: 0.875rem;
@@ -253,7 +253,7 @@ li.parent .sub-menu {
 			letter-spacing: .02em;
 			&:hover {
 				background: #fff;
-				color: $red;
+				color: $dark-gray;
 /*				border-top: 1px solid #fff;*/
 /*				border-bottom: 1px solid #fff;*/
 			}
