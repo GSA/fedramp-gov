@@ -30,7 +30,7 @@ The table below is sortable by columns. The Category, Document, and Description 
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx"><i class="fas fa-file-word"></i>
     <p class="icon-text">WORD</p></a>
     </td>
-    <td>8/28/2018</td>
+    <td>2/13/2019</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Initial Authorization Package Checklist</td>
