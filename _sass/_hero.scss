@@ -160,6 +160,7 @@
 		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 34px 12px;
+		padding-right: 40px;
 		&:hover {
 			background-color: $red;
 			transition: 0.4s;
@@ -170,6 +171,7 @@
 		background-image: url('../../assets/img/home-meet-the-process.svg');
 		background-position: 34px;
 		padding: 20px 50px 20px 80px;
+		padding-right: 40px;
 		&:hover {
 			background-color: $dark-blue;
 			transition: 0.4s;

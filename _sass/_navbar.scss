@@ -224,7 +224,6 @@ li.parent .sub-menu {
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: .02em;
-		padding: 3px;
 		&.parent {
 			padding: 0 !important;
 			width: 100%;
@@ -690,6 +689,7 @@ header .usa-nav-container .usa-menu-btn {
 	background: $light-gray;
 	border: none;
 	color: #fff;
+	padding: 0px;
 }
 
 .usa-js-mobile-nav--active ul {

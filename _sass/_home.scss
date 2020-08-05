@@ -303,8 +303,8 @@ span.assessment {
 }
 
 .process-diagram {
-	float: left;
-	width: 100%;
+	margin: auto;
+	max-width: 1200px;
 	p {
 		text-align: center;
 		letter-spacing: .02em;

@@ -7,7 +7,6 @@ footer {
 	width: 100%;
 	background: $dark-blue;
 	padding: 56px 5% 60px;
-	float: left;
 	h5 {
 		text-align: left;
 		font-family: $title-font;
@@ -33,6 +32,17 @@ footer {
 	
 	a:hover {
 		color: #ffffff;
+	}
+	
+}
+
+.footer-report {
+	background: $lightest-gray;
+	width: 100%;
+
+	p {
+		font-size: 0.8125rem;
+		color: $black;
 	}
 }
 
