@@ -57,7 +57,7 @@
 }
 
 .home-partners-title {
-	margin: 40px auto 0 auto;
+	margin: 0 auto 0 auto;
     width: 100%;
     margin-bottom: 0px;
 	h2 {
@@ -66,7 +66,6 @@
 		font-size: 1.625rem;
 		font-weight: bold;
 		padding: 0;
-		margin-top: 4rem;
 	}
 	
 	h2::after {
@@ -303,8 +302,8 @@ span.assessment {
 }
 
 .process-diagram {
-	float: left;
-	width: 100%;
+	margin: auto;
+	max-width: 1200px;
 	p {
 		text-align: center;
 		letter-spacing: .02em;

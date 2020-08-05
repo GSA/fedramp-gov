@@ -1,72 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="304.54" height="1405.696" viewBox="0 0 304.54 1405.696">
-  <g id="Group_4487" data-name="Group 4487" transform="translate(-34.5 -387)">
-    <line id="Line_139" data-name="Line 139" x1="92" transform="translate(34.5 398.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_277" data-name="Line 277" x1="92" transform="translate(34.5 691.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_140" data-name="Line 140" x1="92" transform="translate(246 398.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_278" data-name="Line 278" x1="92" transform="translate(246 691.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <text id="PHASE_1" data-name="PHASE 1" transform="translate(137.5 387)" fill="#c71f25" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.04em" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="5.78" y="19">PHASE 1</tspan></text>
-    <text id="PHASE_2" data-name="PHASE 2" transform="translate(137.5 680)" fill="#c71f25" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.04em" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="3.77" y="19">PHASE 2</tspan></text>
-    <line id="Line_145" data-name="Line 145" x1="92" transform="translate(34.5 1054.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_150" data-name="Line 150" x1="92" transform="translate(34.5 1372.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_280" data-name="Line 280" x1="92" transform="translate(34.5 1690.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_146" data-name="Line 146" x1="92" transform="translate(246 1054.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_149" data-name="Line 149" x1="92" transform="translate(246 1372.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <line id="Line_279" data-name="Line 279" x1="92" transform="translate(246 1690.5)" fill="none" stroke="#d0d0d0" stroke-width="1"/>
-    <text id="PHASE_3" data-name="PHASE 3" transform="translate(188 1062)" fill="#c71f25" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.04em" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-46.21" y="0">PHASE 3</tspan></text>
-    <text id="PHASE_4" data-name="PHASE 4" transform="translate(188 1380)" fill="#c71f25" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.04em" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-46.25" y="0">PHASE 4</tspan></text>
-    <text id="PHASE_4-2" data-name="PHASE 4" transform="translate(188 1698)" fill="#c71f25" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.04em" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-46.25" y="0">PHASE 4</tspan></text>
-    <path id="Path_11100" data-name="Path 11100" d="M562.728,534.961h-288.9V475.179h288.9l13.1,29.927Z" transform="translate(-237.828 20.945)" fill="#0a90b7"/>
-    <text id="Select_Authorization_Path" data-name="Select Authorization Path" transform="translate(36.04 517.746)" fill="#fff" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.01em"><tspan x="49.461" y="15">Select Authorization Path</tspan></text>
-    <g id="Component_62_67" data-name="Component 62 – 67" transform="translate(90 574)">
-      <g id="Base" fill="none" stroke="#c71f25" stroke-width="1">
-        <rect width="182" height="38" rx="17" stroke="none"/>
-        <rect x="0.5" y="0.5" width="181" height="37" rx="16.5" fill="none"/>
-      </g>
-      <text id="JAB_PROCESS" data-name="JAB PROCESS" transform="translate(92 24)" fill="#c71f25" font-size="14" font-family="Muli-Black, Muli" font-weight="800" letter-spacing="0.03em"><tspan x="-51.002" y="0">JAB PROCESS</tspan></text>
-    </g>
-    <g id="Component_62_68" data-name="Component 62 – 68" transform="translate(90 439.895)">
-      <g id="Base-2" data-name="Base" fill="none" stroke="#1a4480" stroke-width="1">
-        <rect width="182" height="38" rx="17" stroke="none"/>
-        <rect x="0.5" y="0.5" width="181" height="37" rx="16.5" fill="none"/>
-      </g>
-      <text id="Agency_PROCESS" data-name="Agency PROCESS" transform="translate(92 24)" fill="#1a4480" font-size="14" font-family="Muli-Black, Muli" font-weight="800" letter-spacing="0.03em"><tspan x="-67.949" y="0">AGENCY PROCESS</tspan></text>
-    </g>
-    <rect id="Rectangle_2967" data-name="Rectangle 2967" width="124" height="66.104" transform="translate(52 730.536)" fill="#fff"/>
-    <path id="Path_11403" data-name="Path 11403" d="M435.375,1368.269l21.375-22.437H414Z" transform="translate(-321 -552.41)" fill="#fff"/>
-    <rect id="Rectangle_2968" data-name="Rectangle 2968" width="124" height="66.777" transform="translate(52 915.809)" fill="#fff"/>
-    <path id="Path_11404" data-name="Path 11404" d="M435.375,1449l21.375,22.437H414Z" transform="translate(-321 -552.41)" fill="#fff"/>
-    <rect id="Rectangle_2969" data-name="Rectangle 2969" width="124" height="66.104" transform="translate(196 730.903)" fill="#fff"/>
-    <path id="Path_11405" data-name="Path 11405" d="M579.375,1368.636,600.75,1346.2H558Z" transform="translate(-321 -552.41)" fill="#fff"/>
-    <rect id="Rectangle_2970" data-name="Rectangle 2970" width="124" height="66.777" transform="translate(196 916.176)" fill="#fff"/>
-    <path id="Path_11406" data-name="Path 11406" d="M579.375,1449.367,600.75,1471.8H558Z" transform="translate(-321 -552.41)" fill="#fff"/>
-    <path id="Path_11287" data-name="Path 11287" d="M880.141,534.961H591.387l12.577-29.854-12.577-29.928H880.141l12.577,29.927Z" transform="translate(-555.387 349.945)" fill="#0a90b7"/>
-    <path id="Path_11287-2" data-name="Path 11287" d="M880.141,534.961H591.387l12.577-29.854-12.577-29.928H880.141l12.577,29.927Z" transform="translate(-555.387 691.079)" fill="#0a90b7"/>
-    <path id="Path_11287-3" data-name="Path 11287" d="M880.141,534.961H591.387l12.577-29.854-12.577-29.928H880.141l12.577,29.927Z" transform="translate(-555.387 1009.079)" fill="#0a90b7"/>
-    <text id="Preparation" transform="translate(109.04 846.746)" fill="#fff" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.01em"><tspan x="29.531" y="15">Preparation</tspan></text>
-    <text id="Readiness_Assessment" data-name="Readiness 
-Assessment" transform="translate(261 946)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="-39.632" y="0">Readiness </tspan><tspan x="-43.824" y="20">Assessment</tspan></text>
-    <text id="Readiness_Assessment-2" data-name="Readiness 
-Assessment" transform="translate(261 759)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="-39.632" y="0">Readiness </tspan><tspan x="-43.824" y="20">Assessment</tspan></text>
-    <text id="Partnership_Establishment" data-name="Partnership Establishment" transform="translate(58 744)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="15.076" y="13">Partnership </tspan><tspan x="5.66" y="33">Establishment</tspan></text>
-    <text id="FedRAMP_Connect" data-name="FedRAMP Connect" transform="translate(71 929)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="6.724" y="13">FedRAMP </tspan><tspan x="11.9" y="33">Connect</tspan></text>
-    <rect id="Rectangle_2965" data-name="Rectangle 2965" width="214" height="45.641" transform="translate(80.5 1092.5)" fill="#fff"/>
-    <rect id="Rectangle_2973" data-name="Rectangle 2973" width="247.434" height="45.641" transform="translate(62.402 1410.5)" fill="#fff"/>
-    <rect id="Rectangle_2971" data-name="Rectangle 2971" width="214" height="45.641" transform="translate(80.5 1257.5)" fill="#fff"/>
-    <rect id="Rectangle_2972" data-name="Rectangle 2972" width="247.434" height="45.641" transform="translate(62.402 1575.5)" fill="#fff"/>
-    <path id="Path_11401" data-name="Path 11401" d="M765.375,1368.636,786.75,1346.2H744Z" transform="translate(-579 -211.277)" fill="#fff"/>
-    <path id="Path_11408" data-name="Path 11408" d="M765.375,1368.636,786.75,1346.2H744Z" transform="translate(-579 106.723)" fill="#fff"/>
-    <path id="Path_11402" data-name="Path 11402" d="M765.375,1449.367,786.75,1471.8H744Z" transform="translate(-579 -211.277)" fill="#fff"/>
-    <path id="Path_11407" data-name="Path 11407" d="M765.375,1449.367,786.75,1471.8H744Z" transform="translate(-579 106.723)" fill="#fff"/>
-    <text id="Review" transform="translate(110.989 1187.879)" fill="#fff" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.01em"><tspan x="47.726" y="15">Review</tspan></text>
-    <text id="Full_Security_Assessment" data-name="Full Security Assessment" transform="translate(84.5 1107.133)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="12.096" y="13">Full Security Assessment</tspan></text>
-    <text id="Agency_Authorization_Process" data-name="Agency Authorization Process" transform="translate(62.5 1424.133)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="14.036" y="13">Agency Authorization Process</tspan></text>
-    <text id="Full_Security_Assessment-2" data-name="Full Security Assessment" transform="translate(84.5 1271.133)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="12.096" y="13">Full Security Assessment</tspan></text>
-    <text id="JAB_Authorization_Process" data-name="JAB Authorization Process" transform="translate(84.5 1589.133)" fill="#333" font-size="16" font-family="ProximaNova-Regular, Proxima Nova" letter-spacing="0.02em"><tspan x="6.8" y="13">JAB Authorization Process</tspan></text>
-    <text id="Authorization" transform="translate(111.04 1507.746)" fill="#fff" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.01em"><tspan x="21.334" y="15">Authorization</tspan></text>
-    <path id="Path_11101" data-name="Path 11101" d="M1577.527,534.961h-284.14l16.5-29.854-16.5-29.928h284.14l17.86,29.927Z" transform="translate(-1257.387 1251.946)" fill="#fff"/>
-    <path id="Path_11341" data-name="Path 11341" d="M1304.352,530.555H1300.7l1.376-2.953,9.4-20.23,1.122-2.415-1.12-2.416-9.418-20.314-1.368-2.952h30.382v-4.3h-37.691l13.521,29.167.373.8-.374.805-13.52,29.091,226.993-.3v6.1l12.565-8.137-12.565-8.138v5.884l-216.028.3Z" transform="translate(-1257.387 1251.946)" fill="#0a90b7"/>
-    <path id="Path_11342" data-name="Path 11342" d="M1520.218,528.211v-3.738l12.565,8.138-12.565,8.138v-6.1l-226.831.2L1306.9,505.76l.374-.8-.373-.806-13.518-29.175h37.682v4.293h-30.382l1.367,2.949,9.418,20.317,1.12,2.416-1.123,2.416-9.4,20.23-1.376,2.952,219.52-.2Z" transform="translate(-1257.387 1251.946)" fill="#0a90b7"/>
-    <path id="Path_11343" data-name="Path 11343" d="M1552.11,534.847h-36.795v-4.292h33.625l.637-1.286,11.637-23.458.427-.86-.427-.863-11.647-23.529-.636-1.286-221.879-.076v6.056l-12.388-8.138,12.388-8.137V474.9l225.055.076,14.831,29.97Z" transform="translate(-1228.938 1251.946)" fill="#0a90b7"/>
-    <text id="Continuous_Monitoring" data-name="Continuous Monitoring" transform="translate(88.063 1748.746)" fill="#454545" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.01em"><tspan x="11.89" y="15">Continuous Monitoring</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 302 1375" style="enable-background:new 0 0 302 1375;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#E6E6E6;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#1294C2;}
+	.st4{fill:#0A90B7;}
+	.st5{font-family:'Montserrat-ExtraBold';}
+	.st6{font-size:15px;}
+	.st7{fill:none;}
+	.st8{fill:none;stroke:#CC1D1D;stroke-width:1.0897;}
+	.st9{fill:none;stroke:#1A4480;stroke-width:1.0897;}
+	.st10{enable-background:new    ;}
+	.st11{fill:#333333;}
+	.st12{font-family:'Muli-Regular';}
+	.st13{font-size:17px;}
+	.st14{fill:none;stroke:#C71F25;}
+	.st15{fill:none;stroke:#1A4480;}
+	.st16{fill:#C71F25;}
+	.st17{font-family:'Muli-Black';}
+	.st18{font-size:14px;}
+	.st19{fill:#1A4480;}
+	.st20{fill:#454545;}
+	.st21{fill:none;stroke:#D0D0D0;}
+	.st22{font-family:'Montserrat-Bold';}
+	.st23{font-size:20px;}
+</style>
+<g id="Layer_2" class="st0">
+	<rect x="-2423" y="-184" class="st1" width="2787" height="1656"/>
+</g>
+<g id="Layer_4">
+	<path id="Path_11101_3_" class="st2" d="M284.5,1369.5H0.4l16.5-29.9l-16.5-29.9h284.1l17.9,29.9L284.5,1369.5z"/>
+	<path id="Path_11100_2_" class="st4" d="M288.8,172.5H-0.1v-59.8h288.9l13.1,29.9L288.8,172.5z"/>
+	<path id="Path_11287_3_" class="st4" d="M289,487.5H0.3l12.6-29.9L0.3,427.7H289l12.6,29.9L289,487.5z"/>
+	<path id="Path_11287-2_1_" class="st4" d="M289,820.6H0.3l12.6-29.9L0.3,760.8H289l12.6,29.9L289,820.6z"/>
+	<path id="Path_11287-3" class="st4" d="M289,1130.6H0.3l12.6-29.9l-12.6-29.9H289l12.6,29.9L289,1130.6z"/>
+	<path id="Path_11341_3_" class="st4" d="M11.3,1365.1H7.7l1.4-3l9.4-20.2l1.1-2.4l-1.1-2.4L9,1316.7l-1.4-3h30.4v-4.3H0.4
+		l13.5,29.2l0.4,0.8l-0.4,0.8l-13.5,29.1l227-0.3v6.1l12.6-8.1l-12.6-8.1v5.9L11.3,1365.1L11.3,1365.1z"/>
+	<path id="Path_11342_3_" class="st4" d="M227.2,1362.7v-3.7l12.6,8.1l-12.6,8.1v-6.1l-226.8,0.2l13.5-29.1l0.4-0.8l-0.4-0.8
+		l-13.5-29.2h37.7v4.3H7.7l1.4,2.9l9.4,20.3l1.1,2.4l-1.1,2.4l-9.4,20.2l-1.4,3l219.5-0.2L227.2,1362.7z"/>
+	<path id="Path_11343_3_" class="st4" d="M287.5,1369.4h-36.8v-4.3h33.6l0.6-1.3l11.6-23.5l0.4-0.9l-0.4-0.9l-11.6-23.5l-0.6-1.3
+		l-221.9-0.1v6.1l-12.4-8.1l12.4-8.1v5.9l225.1,0.1l14.8,30L287.5,1369.4z"/>
+</g>
+<g id="Layer_3">
+	<rect id="Rectangle_2981_1_" x="8" y="333.8" class="st2" width="132" height="64.8"/>
+	<path id="Path_11415_1_" class="st2" d="M74.4,417.8l21.4-22.4H53L74.4,417.8z"/>
+	<rect id="Rectangle_2982_1_" x="8" y="513.8" class="st2" width="132" height="66.8"/>
+	<path id="Path_11416_1_" class="st2" d="M74.4,494.6L95.8,517H53L74.4,494.6z"/>
+	<rect id="Rectangle_2979_1_" x="164" y="334.2" class="st2" width="132" height="64.8"/>
+	<path id="Path_11413_1_" class="st2" d="M230.4,418.2l21.4-22.4H209L230.4,418.2z"/>
+	<rect id="Rectangle_2980_1_" x="164" y="514.2" class="st2" width="132" height="66.8"/>
+	<path id="Path_11414_1_" class="st2" d="M230.4,494.9l21.4,22.4H209L230.4,494.9z"/>
+	<text transform="matrix(1 0 0 1 46.3243 149.317)" class="st2 st5 st6">Select Authorization Path</text>
+	<text transform="matrix(1 0 0 1 102.8809 464.317)" class="st2 st5 st6">Preparation</text>
+	<rect id="Rectangle_2965_1_" x="14.7" y="687.1" class="st2" width="272.5" height="45.6"/>
+	<rect id="Rectangle_2973_2_" x="14.4" y="997.1" class="st2" width="273" height="45.6"/>
+	<rect id="Rectangle_2971_1_" x="14.7" y="848.1" class="st2" width="272.5" height="45.6"/>
+	<rect id="Rectangle_2972_2_" x="14.4" y="1158.1" class="st2" width="273" height="45.6"/>
+	<path id="Path_11401_1_" class="st2" d="M150.9,751.9l21.4-22.4h-42.8L150.9,751.9z"/>
+	<path id="Path_11408_2_" class="st2" d="M150.9,1061.9l21.4-22.4h-42.8L150.9,1061.9z"/>
+	<path id="Path_11402_1_" class="st2" d="M150.9,828.7l21.4,22.4h-42.8L150.9,828.7z"/>
+	<path id="Path_11407_2_" class="st2" d="M150.9,1138.7l21.4,22.4h-42.8L150.9,1138.7z"/>
+	<text transform="matrix(1 0 0 1 121.3306 797.4501)" class="st2 st5 st6">Review</text>
+	<text transform="matrix(1 0 0 1 95.0735 1109.3169)" class="st2 st5 st6">Authorization</text>
+</g>
+<g id="Layer_1">
+	<rect x="168" y="345.4" class="st7" width="124" height="39.6"/>
+	<text transform="matrix(1 0 0 1 187.8745 359.979)" class="st10"><tspan x="0" y="0" class="st11 st12 st13">Readiness </tspan><tspan x="-7.2" y="20.4" class="st11 st12 st13">Assessment </tspan></text>
+	<rect x="168" y="529.4" class="st7" width="124" height="39.6"/>
+	<text transform="matrix(1 0 0 1 187.8745 543.981)" class="st10"><tspan x="0" y="0" class="st11 st12 st13">Readiness </tspan><tspan x="-7.2" y="20.4" class="st11 st12 st13">Assessment </tspan></text>
+	<rect x="12" y="345.4" class="st7" width="124" height="39.6"/>
+	<text transform="matrix(1 0 0 1 26.6302 359.9941)" class="st10"><tspan x="0" y="0" class="st11 st12 st13">Partnership </tspan><tspan x="-10.3" y="20.4" class="st11 st12 st13">Establishment</tspan></text>
+	<rect x="12" y="529.4" class="st7" width="124" height="39.6"/>
+	<text transform="matrix(1 0 0 1 33.5916 543.9941)" class="st10"><tspan x="0" y="0" class="st11 st12 st13">FedRAMP </tspan><tspan x="7" y="20.4" class="st11 st12 st13">Connect</tspan></text>
+	<g id="Component_62_67_2_" transform="translate(55.5 187)">
+		<g id="Base_3_">
+			<path class="st7" d="M21.4,3.6h148c9.4,0,17,7.6,17,17v4c0,9.4-7.6,17-17,17h-148c-9.4,0-17-7.6-17-17v-4
+				C4.4,11.2,12,3.6,21.4,3.6z"/>
+			<path class="st14" d="M21.4,4.1h148c9.1,0,16.5,7.4,16.5,16.5v4c0,9.1-7.4,16.5-16.5,16.5h-148c-9.1,0-16.5-7.4-16.5-16.5v-4
+				C4.9,11.5,12.3,4.1,21.4,4.1z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 45.4309 27.571)" class="st16 st17 st18">JAB PROCESS</text>
+	</g>
+	<g id="Component_62_68_2_" transform="translate(55.5 52.894)">
+		<g id="Base-2_3_">
+			<path class="st7" d="M21.4,3.6h148c9.4,0,17,7.6,17,17v4c0,9.4-7.6,17-17,17h-148c-9.4,0-17-7.6-17-17v-4
+				C4.4,11.2,12,3.6,21.4,3.6z"/>
+			<path class="st15" d="M21.4,4.1h148c9.1,0,16.5,7.4,16.5,16.5v4c0,9.1-7.4,16.5-16.5,16.5h-148c-9.1,0-16.5-7.4-16.5-16.5v-4
+				C4.9,11.5,12.3,4.1,21.4,4.1z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 28.4839 27.571)" class="st19 st17 st18">AGENCY PROCESS</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 49.292 716.7042)" class="st11 st12 st13">Full Security Assessment</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 27.9236 1025.704)" class="st11 st12 st13">Agency Authorization Process</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 49.2921 876.704)" class="st11 st12 st13">Full Security Assessment</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 43.4094 1186.704)" class="st11 st12 st13">JAB Authorization Process</text>
+	</g>
+	<text transform="matrix(1 0 0 1 57.2136 1346.3169)" class="st20 st5 st6">Continuous Monitoring</text>
+	<line id="Line_280" class="st21" x1="92" y1="13.6" x2="0" y2="13.6"/>
+	<line id="Line_279" class="st21" x1="303.5" y1="13.6" x2="211.5" y2="13.6"/>
+	<text transform="matrix(1 0 0 1 105.3546 21.1461)" class="st16 st22 st23">PHASE 1</text>
+	<line id="Line_280_1_" class="st21" x1="92" y1="293.6" x2="0" y2="293.6"/>
+	<line id="Line_279_1_" class="st21" x1="303.5" y1="293.6" x2="211.5" y2="293.6"/>
+	<text transform="matrix(1 0 0 1 105.3546 301.1461)" class="st16 st22 st23">PHASE 2</text>
+	<line id="Line_280_2_" class="st21" x1="92" y1="645.6" x2="0" y2="645.6"/>
+	<line id="Line_279_2_" class="st21" x1="303.5" y1="645.6" x2="211.5" y2="645.6"/>
+	<text transform="matrix(1 0 0 1 105.3546 653.1461)" class="st16 st22 st23">PHASE 3</text>
+	<line id="Line_280_3_" class="st21" x1="92" y1="959.6" x2="0" y2="959.6"/>
+	<line id="Line_279_3_" class="st21" x1="303.5" y1="959.6" x2="211.5" y2="959.6"/>
+	<text transform="matrix(1 0 0 1 105.3546 967.1461)" class="st16 st22 st23">PHASE 4</text>
+	<line id="Line_280_5_" class="st21" x1="92" y1="1273.6" x2="0" y2="1273.6"/>
+	<line id="Line_279_5_" class="st21" x1="303.5" y1="1271.6" x2="211.5" y2="1271.6"/>
+	<text transform="matrix(1 0 0 1 105.3546 1281.1461)" class="st16 st22 st23">PHASE 5</text>
+</g>
 </svg>

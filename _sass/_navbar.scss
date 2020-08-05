@@ -95,11 +95,17 @@ div.usa-nav-container {
 	}
 }
 
-@media (min-width: 0px) and (max-width: 950px) {
+@media (min-width: 769px) and (max-width: 950px) {
 	div.usa-nav-container {
-		padding: 20px 5%;
+		padding: 20px 4rem;
 		margin: 0;
 		height: 120px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	div.usa-nav-container {
+		padding: 20px 2rem;
 	}
 }
 
@@ -224,7 +230,6 @@ li.parent .sub-menu {
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: .02em;
-		padding: 3px;
 		&.parent {
 			padding: 0 !important;
 			width: 100%;
@@ -690,6 +695,7 @@ header .usa-nav-container .usa-menu-btn {
 	background: $light-gray;
 	border: none;
 	color: #fff;
+	padding: 0px;
 }
 
 .usa-js-mobile-nav--active ul {
@@ -797,7 +803,7 @@ header.usa-header {
 		max-width: none;
 		position: absolute;
 		top: 60px;
-		left: 5%;
+		left: 4rem;
 		.usa-search {
 			width: 100%;
 			max-width: none !important;
@@ -889,6 +895,12 @@ header.usa-header {
 	}
 	}
 }
+}
+
+@media (min-width:0) and (max-width: 768px) {
+	.search-wrapper {
+		left: 2rem !important;
+	}
 }
 
 @media (min-width: 0) and (max-width: 950px) {

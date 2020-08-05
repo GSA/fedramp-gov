@@ -5,16 +5,39 @@
 	background-color: $teal;
 	min-height: 22em;
 	position: relative;
-	float: left;
 	width: 100%;
 	background-image: url('../../assets/img/homepage-banner-desktop.jpg');
-	padding: 100px 5% 60px 5%;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
 	.usa-grid {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
 }
 
+@media (min-width: 1200px) {
+	.hero-unit {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	.hero-unit {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.hero-unit {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+
+/*
 @media (min-width:768px) and (max-width:980px) {
 	.hero-unit {
 		background-image: url('../../assets/img/homepage-banner-tablet.jpg');
@@ -28,6 +51,7 @@
 		padding: 40px 5% 60px 5%;
 	}
 }
+*/
 
 .hero-content {
 	background-color: transparentize($text-color, .6);
@@ -160,6 +184,7 @@
 		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 34px 12px;
+		padding-right: 40px;
 		&:hover {
 			background-color: $red;
 			transition: 0.4s;
@@ -170,6 +195,7 @@
 		background-image: url('../../assets/img/home-meet-the-process.svg');
 		background-position: 34px;
 		padding: 20px 50px 20px 80px;
+		padding-right: 40px;
 		&:hover {
 			background-color: $dark-blue;
 			transition: 0.4s;
