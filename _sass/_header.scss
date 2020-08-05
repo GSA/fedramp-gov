@@ -241,11 +241,27 @@ img.desk {
 
 .search-wrapper {
 	float: right;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
 	max-width: 400px;
-	min-width: 300px;
+	min-width: 390px;
 	.bell {
-		position: relative;
 		cursor: pointer;
+		margin: -5px 0 0 0;
+		&:hover {
+		width: 45px;
+		background: $lightest-gray;
+		height: 45px;
+		border-radius: 25px;
+		}
+		svg.fa-bell {
+			float: left;
+			display: inline-block;
+			color: $mid-gray;
+			margin: 6px 8px 0 8px;
+			font-size: 2em;
+		}
 	}
 	#alert-logic {
 		display: none;
@@ -304,11 +320,11 @@ img.desk {
 }
 }
 
-@media (min-width: 1200px) and (max-width: 1240px) {
+/*@media (min-width: 1200px) and (max-width: 1240px) {
 	.search-wrapper {
 		padding-right: 20px;
 	}
-}
+}*/
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
