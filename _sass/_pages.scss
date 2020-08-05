@@ -25,18 +25,27 @@
 }
 
 /* Style the buttons inside the tab */
+
+@media (min-width: 1200px) {
+	.tab button {
+		border-right: none;
+	}
+}
+
 .tab button {
 	background-color: $teal;
+	border-right: solid 1px $teal;
 	float: left;
 	outline: none;
 	cursor: pointer;
 	color: $dark-gray;
-	transition: 0.3s;
 	font-size: 1.5rem;
 	margin-right: 3%;
-	width: 30.75%;
+	width: 30.5%;
 	text-transform: none;
 }
+
+
 
 .tab button:last-child {
 	margin-right: 0;
@@ -76,11 +85,11 @@
 .pointer-button:before {
 	content: "";
 	position: absolute;
-	right: -20px;
+	right: -22px;
 	bottom: 0;
 	width: 0;
 	height: 0;
-	border-left: 20px solid $teal;
+	border-left: 21px solid $teal;
 	border-top: 36px solid transparent;
 	border-bottom: 36px solid transparent;
 }
@@ -94,6 +103,7 @@
     top: 4px;
     left: 4px;
     z-index: 0;
+	padding-left: 20px; 
 }
 
 .button-border:after {
@@ -155,11 +165,30 @@
 	border-top: none;
 }
 
+/* Button sizes */
+@media (min-width: 969px) and (max-width: 1200px) {
+	.tab button {
+		font-size: 1.125rem;
+		margin-right: 3%;
+		width: 29.5%;
+	}
+}
+
 @media (min-width: 0px) and (max-width: 968px) {
 	.tab button {
 		font-size: 1rem;
 		margin-right: 3%;
 		width: 29.5%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+	.tab button {
+		font-size: .9rem;
+	}
+	
+	.tab button span {
+		padding-left: 20px;
 	}
 }
 
@@ -171,6 +200,7 @@
 	
 	.pointer-button {
 		height: 40px;
+		border-right: none;
 	}
 	.pointer-button:after {
 		content: "";
@@ -182,7 +212,6 @@
 		content: "";
 		position: absolute;
 		right: -12px;
-		transition: 0.3s;
 		border-left: 12px solid $teal;
 		border-top: 20px solid transparent;
 		border-bottom: 20px solid transparent;
@@ -200,7 +229,7 @@
 	.button-border {
 		height: 36px;
 		position: absolute;
-		padding: 4px 10px 0 12px;
+		padding: 10px 10px 0 12px;
 		width: 98%;
 		background: #ffffff;
 		font-size: .75rem;
@@ -229,10 +258,15 @@
 		bottom: 0;
 		width: 0;
 		height: 0;
-		transition: 0.3s;
 		border-left: 9px solid #ffffff;
 		border-top: 18px solid transparent;
 		border-bottom: 18px solid transparent;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+	.button-border {
+		padding: 4px 10px 0 12px;
 	}
 }
 

@@ -1,12 +1,12 @@
 ---
 layout: full-width
 ---
-<section class="overview">
+<section class="fedramp-page-container">
 	<div>
 		<div class="grid-container">
-			<div class="full-row grid-row grid-gap">
+			<div class="full-row grid-row">
 				<div class="full-col desktop:grid-col-6">
-					<h2>FedRAMP Authorization&#58; A CSP’s Perspective</h2>
+					<h2>FedRAMP Authorization&#58; <span class="text-no-wrap">A CSP’s</span> Perspective</h2>
 				</div>
 				<div class="full-col desktop:grid-col-6 intro-text">
 					<p>CSPs whose services are currently being used by the federal government or are interested in working with the  federal government should obtain a FedRAMP authorization as required in the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf">OMB memorandum</a>. CSPs considering pursuing a FedRAMP Authorization should review the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf">CSP Authorization Playbook&#58; Getting Started with FedRAMP</a> which provides an overview of the partners involved in a FedRAMP authorization, things to consider when determining an authorization strategy, types of authorizations, and important considerations for a CSP’s offering when working with FedRAMP.</p>
@@ -17,9 +17,9 @@ layout: full-width
 	</div>	
 </section>
 
-<section class="agency-tabs">
+<section class="agency-tabs fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
+		<div class="full-row grid-row">
 
 			<div class="full-col desktop:grid-col-12">
 				<h2 class="center">The Steps to Authorization</h2>
@@ -34,10 +34,10 @@ layout: full-width
 					<div id="pre-authorization" class="tabcontent desktop:padding-8 padding-4">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
-								<h3>Pre-Authorization Best Practices</h3>
+								<h3 class="margin-top-0">Pre-Authorization Best Practices</h3>
 								<p>Once a CSP decides to pursue a FedRAMP Authorization, it is recommended that the CSP reviews  FedRAMP’s documents and templates found on the Policy &amp; Guidance page, along with other resources available on the FedRAMP website. In order to successfully navigate the Pre-Authorization phase, a CSP should&#58;</p>
 								
-								<ul>
+								<ul class="red-bullets">
 									<li>Establish strong partnerships with agency customers and document agency interest in their offering becoming FedRAMP Authorized through RFIs, RFPs, and RFQs.</li>
 									<li>Establish a partnership with a FedRAMP approved Third Party Assessment Organization (3PAO). 3PAOs are listed in the <a href="https://marketplace.fedramp.gov/">FedRAMP Marketplace</a>. </li>
 									<li>Complete a <a href="https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform">CSP Information Form</a>, which will prompt the FedRAMP PMO to set up a consultative intake call to discuss the system and the best authorization strategy for the CSP. During this call you will discuss your system and the best authorization strategy for you.</li>
@@ -57,19 +57,24 @@ layout: full-width
 						</div>
 					</div>
 
-					<div id="during-authorization" class="tabcontent padding-8">
+					<div id="during-authorization" class="tabcontent padding-4 desktop:padding-8">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
-								<h3>Package Development</h3>
+								<h3 class="margin-top-0">Package Development</h3>
 								<p>FedRAMP provides standard templates and resources for CSPs to develop and deliver authorization packages that document a CSO’s system security. FedRAMP authorization packages are leveraged by Federal agencies for government use.  The authorization package includes the System Security Plan (SSP), required SSP attachments (e.g., Policies and Procedures and Incident Response Plan), Security Assessment Plan (SAP), Security Assessment Report (SAR), Plan of Actions and Milestones (POA&amp;M), and authorization letter.</p>
-
+								
 								<h4>Building the SSP</h4>
 
+							</div>
+						</div>
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-6">
 									<p>The SSP is the main document of a security package. An SSP provides a detailed narrative of a CSP’s security control implementation, a detailed system description including components and services inventory, and detailed depictions of the system’s data flows and authorization boundary. FedRAMP provides a SSP template for each of its baselines. Agency AOs or designees are responsible for reviewing and approving the SSPs to ensure the appropriate level of detail and the implementation of controls is acceptable, both at time of assessment and during continuous monitoring. Some agencies may require additional controls in addition to the FedRAMP baselines. </p>
 
 								<p>In addition to completing the SSP template, CSPs must complete and append the following materials to their security documentation&#58;</p>
-								
-								<ul>
+							</div>
+							<div class="full-col desktop:grid-col-6">
+								<ul class="red-bullets">
 									<li>Information Security Policies and Procedures</li>
 									<li>User Guide</li>
 									<li>Digital Identity Worksheet</li>
@@ -83,6 +88,10 @@ layout: full-width
 									<li>Separation of Duties Matrix</li>
 									<li>FedRAMP Laws and Regulations</li>
 								</ul>
+							</div>
+						</div>
+						<div class="full-row grid-row grid-gap">
+							<div class="full-col desktop:grid-col-12">
 								
 								<h3>Testing and Assessment</h3>
 
@@ -97,14 +106,14 @@ layout: full-width
 
 								<p>CSPs are required to develop a POA&MP;M to document remediation plans for correcting risks (e.g., weaknesses, deficiencies, vulnerabilities) identified during security assessments and continuous monitoring activities. The POA&amp;M&#58;</p>
 								
-								<ul>
+								<ul class="red-bullets">
 									<li>Facilitates a disciplined and structured approach to tracking risk mitigation activities.</li> 
 									<li>Includes security findings for the system from continuous monitoring activities and periodic security assessments, such as the Annual Assessment</li>
 									<li>Describes the current status of any discovered vulnerabilities and system findings, and includes a CSP’s intended corrective actions for those findings.</li>
 								</ul>
 							
 									<p>A CSP must establish and maintain a POA&amp;M for their system in accordance with the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf">POA&amp;M Template Completion Guide</a> using the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-POAM-Template.xlsm">FedRAMP POA&amp;M Template</a>. The POA&amp;M includes the&#58;</p>
-								<ul>
+								<ul class="red-bullets">
 									<li>Specific weaknesses or deficiencies in deployed security controls and the source of the identified weakness</li>
 									<li>Severity of the identified security control weaknesses or deficiencies</li>
 									<li>Scope or affected assets of the weakness in components within the environment</li>
@@ -116,25 +125,24 @@ layout: full-width
 
 								<p>The authorizing entity (either an agency AO or the JAB) reviews the security package and decides to grant  an authorization for the CSP’s service offering (either an Agency ATO or a JAB P-ATO). An ATO or P-ATO letter is submitted to the FedRAMP PMO.</p>
 
-								
 							</div>
 						</div>
 						
 					</div>	
 
-					<div id="post-authorization" class="tabcontent padding-8">
+					<div id="post-authorization" class="tabcontent desktop:padding-8 padding-4">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
-								<p>Once a CSO has been authorized, it is listed on the FedRAMP Marketplace.</p>
+								<p class="margin-top-0">Once a CSO has been authorized, it is listed on the FedRAMP Marketplace.</p>
 								
-								<h3>Continuous Monitoring</h3>
+								<h3 class="margin-top-0">Continuous Monitoring</h3>
 
 								<p>After a system achieves a FedRAMP authorization, the security posture of the system could change over time due to changes in the hardware or software on the cloud service offering, or due to the discovery and provocation of new exploits. CSPs are responsible for implementing the processes and tools to maintain an acceptable security posture. Once the FedRAMP Authorization is complete, a CSP must provide monthly continuous monitoring deliverables to either the JAB or agencies. Ongoing assessment and authorization provides federal agencies using cloud services a method of detecting changes to the security posture of a system for the purpose of making risk-based decisions.</p>
 								
 								<h3>Annual Assessment</h3>
 
 								<p>CSPs are required to engage a 3PAO to complete <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Annual_Assessment_Guidance.pdf">Annual Assessment testing</a>. All documentation that results from an Annual Assessment should be uploaded to the FedRAMP secure repository on OMB MAX, by the CSP’s P-ATO or ATO date. Completing an annual assessment for a FedRAMP authorized CSO includes&#58;</p>
-								<ul>
+								<ul class="red-bullets">
 									<li>Review and update, as required, of the SSP and attachments</li>
 									<li>Completion of a Incident Response Plan Test and provision of the Incident Response Plan Test Report</li>
 									<li>Completion of a Contingency Plan functional test and provision of the Contingency Plan Test Report</li>

@@ -3,6 +3,27 @@
 	box-shadow: none !important;
 }
 
+@media (min-width: 1200px) {
+	.fedramp-page-container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	.fedramp-page-container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.fedramp-page-container{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
 .usa-skipnav:focus {
 	z-index: 1000000000;
 	top: 20px;
@@ -94,6 +115,24 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+	.grid-row h3 {
+		position: relative;
+		display: inline;
+		text-align: left;
+		background: #ffffff;
+		&::before {
+			content: '';
+			border-bottom: 1px solid $light-gray;
+			bottom: -48px;
+			display: block;
+			left: 0;
+			position: relative;
+		}
+	}
+	
+}
+
 h4 {
 	color: $dark-gray;
 	font-size: 1.125rem;
@@ -150,6 +189,20 @@ ul ul {
 
 li {
   margin-bottom: 6px;
+}
+
+ul.red-bullets {
+	list-style: none;
+}
+
+
+ul.red-bullets li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 form {
