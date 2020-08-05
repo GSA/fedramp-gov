@@ -49,7 +49,7 @@
     position: absolute;
     height: 22px;
     width: 1px;
-    left: 273px;
+    left: 85%;
     top: 6px;
 }
 
@@ -245,7 +245,8 @@ img.desk {
 	flex-flow: row;
 	justify-content: space-between;
 	max-width: 400px;
-	min-width: 390px;
+	width: 100%;
+/*	min-width: 390px;*/
 	.bell {
 		cursor: pointer;
 		margin: -5px 0 0 0;
@@ -270,7 +271,7 @@ img.desk {
 		min-width: 400px;
 		position: absolute;
 		top: 0px;
-		left: 50px;
+		right: -60px;
 		background: #F0F0F0;
 		z-index: 10000;
 		padding: 30px;
