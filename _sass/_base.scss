@@ -211,6 +211,22 @@ ul.red-bullets li::before {
 	margin-left: -1em;
 }
 
+ol.rednumbers {
+	list-style: none; 
+	counter-reset: li; 
+}
+
+ol.rednumbers li::before {
+	content: counter(li); 
+	color: $red;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em}
+
+ol.rednumbers li {
+	counter-increment: li;
+}
+
 form {
   max-width: 100%;
 }
