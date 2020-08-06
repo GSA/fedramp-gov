@@ -3,19 +3,20 @@ layout: full-width
 ---
 <section class="overview">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
+		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 				<h2 class="center">The Agency Authorization Path</h2>
 			</div>
 		</div>
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-6 intro-text">
-				<p>The first step for any Cloud Service Provider (CSP) interested in pursuing a FedRAMP authorization for their cloud service offering (CSO) is to determine their authorization strategy.  There are two paths a CSP can pursue to achieve a FedRAMP authorization: a Provisional Authority to Operate (P-ATO) from the Joint Authorization Board (JAB) and an Agency Authority to Operate (ATO).</p>
+		<div class="full-row grid-row">
+			<div class="full-col desktop:grid-col-6 intro-text desktop:padding-right-1">
+				<p>The first step for any Cloud Service Provider (CSP) interested in pursuing a FedRAMP authorization for their cloud service offering (CSO) is to determine their authorization strategy. There are two paths a CSP can pursue to achieve a FedRAMP authorization: a Provisional Authority to Operate (P-ATO) from the Joint Authorization Board (JAB) and an Agency Authority to Operate (ATO).</p>
 			</div>
-			<div class="full-col desktop:grid-col-6">
+			<div class="full-col desktop:grid-col-6 desktop:padding-left-1">
 				<h3>Pursuing an Agency Authorization</h3>
-				<p>CSPs that make a business decision to work directly with an agency to pursue an Authority to Operate (ATO) will work with the agency throughout the acquisition and FedRAMP authorization process.</p> 
-				<p>Below is a high-level overview of the Agency Authorization Process. Information on roles and responsibilities for Agencies, CSPs, and 3PAOs within the Agency Authorization process can be found here.</p>
+				<p>CSPs that make a business decision to work directly with an agency to pursue an Authority to Operate (ATO) will work with the agency throughout the FedRAMP authorization process. </p>
+				
+				<p>Below is a high-level overview of the Agency Authorization Process. More detailed information on the process is provided in the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf" target="_blank">Agency Authorization Playbook</a> and the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf" target="_blank">CSP Authorization Playbook&#58; Getting Started with FedRAMP</a>.</p>
 			</div>
 		</div>
 	</div>	
@@ -23,11 +24,10 @@ layout: full-width
 
 <section class="lightest-gray-bkg">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
+		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 				<h2 class="center">The Authorization Process</h2>
 				<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/agency-authorization-process.svg" alt="">
-				<p><em>Note&#58; SAP and SAR are developed by the 3PAO</em></p>
 			</div>
 		</div>
 	</div>
@@ -36,23 +36,33 @@ layout: full-width
 
 <section>
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
+		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-3">
-				<h2 class="center no-line">Phase 1</h2>
 				<div class="authorization-phase-icon">
 					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/agency-authorization-phase-1.svg" alt="">
 				</div>
-				<h3 class="center no-line">Readiness Assessment and FedRAMP Connect</h3>
+				<h2 class="center no-line">Phase 1</h2>
+				<h3 class="center no-line">Partnership Establishment</h3>
 			</div>
 			<div class="full-col desktop:grid-col-9">
-				<p>During this phase, a CSP&#58;</p>
-				<p><strong>Works with an agency via FedRAMP’s In Process Requirements,</strong> which are detailed in <a href="#">FedRAMP’s Marketplace Designations for Cloud Service Providers</a>. In some cases, a vendor may be under contract with an agency already, or an agency may be working through the acquisition process.</p>
+				<p>During this phase, a CSP formalizes their partnership with an agency via the requirements outlined in FedRAMP’s Marketplace Designations for Cloud Service Providers.By this stage, a CSP should&#58;</p>
+				
 				<ul>
-					<li>The CSP’s system should be fully built and functional and the CSP’s leadership team should be committed and fully on board with the FedRAMP process.</li>
-					<li>Additionally, a CSP should engage with FedRAMP through the intake process by completing a <a href="#">CSP Information Form</a>.</li>
+					<li>Have a system that is fully built and functional</li>
+
+					<li>Have a leadership team that is committed and fully on board with the FedRAMP process </li>
+
+					<li>Engage with FedRAMP through the intake process by completing a CSP Information Form</li>
+
+					<li>Determine the security categorization of the data that will be placed within the system using the FedRAMP FIPS 199 Categorization Template (located within the System Security Plan) along with the guidance of NIST Special Publication 800-60 volume 2 Revision 1 to correctly categorize their system based on the types of information processed, stored, and transmitted on their systems.</li>
 				</ul>
-				<p><strong>Develops their System Security Plan (SSP),</strong> which is the security blueprint of their system. The SSP does not need to be completed prior to establishing a partnership with an agency, but it does need to be completed and fully reviewed by the agency prior to Phase 2. The agency partner should approve and sign off on the SSP prior to beginning testing.</p>
-				<p><strong>Conducts a Readiness Assessment Report,</strong> which is optional for CSPs pursuing an agency authorization, but is highly recommended. For more information refer to the <a href="#">Readiness Assessment Report (RAR)</a>.</p>
+
+				<p>Throughout this phase, a CSP will be working on the development of their System Security Plan (SSP), which is the security blueprint of their system. This robust document outlines how the system security aligns with the FedRAMP controls. The SSP does not need to be completed prior to establishing a partnership with an agency, but it does need to be completed and fully reviewed by the agency prior to Phase 2. The agency partner should approve the SSP prior to beginning testing.</p>
+
+				<p>A CSP may elect to pursue the FedRAMP Ready designation during this phase, which is optional for the agency authorization process, but highly recommended. To achieve the FedRAMP Ready designation, a CSP must work with an accredited 3PAO to complete a readiness assessment of its service offering. At the conclusion of the assessment, the 3PAO delivers a Readiness Assessment Report (RAR) attesting to the CSO’s readiness for the authorization process. The RAR documents the CSP’s capability to meet FedRAMP’s security requirements.</p>
+
+				<p>The final step in this phase is to prepare for and conduct a kick-off meeting. During the kick-off meeting, a CSP and Agency will discuss: the background and functionality of the cloud service; the technical security of the cloud service, including the system architecture, the authorization boundary, data flows, and core security capabilities; compliance gaps and remediation plans; and a work breakdown structure, milestones, and next steps.</p>
+
 				
 			</div>
 		</div>
@@ -63,25 +73,33 @@ layout: full-width
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
 			<div class="full-col desktop:grid-col-3">
-				<h2 class="center no-line">Phase 2</h2>
 				<div class="authorization-phase-icon">
 					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/agency-authorization-phase-2.svg" alt="">
 				</div>
+				<h2 class="center no-line">Phase 2</h2>
+				
 				<h3 class="center no-line">Full Security Assessment</h3>
 			</div>
 			<div class="full-col desktop:grid-col-9">
 				<p>Prior to beginning Phase 2, a CSP should ensure that&#58;</p>
+				
 				<ul>
-					<li>The SSP is complete and has been reviewed and approved by their agency partner.</li>
-					<li>The Security Assessment Plan (SAP) has been developed by their Third-Party Assessment Organization (3PAO) with their input.</li>
+					<li>The SSP is complete and has been reviewed and approved by their agency customer.</li>
+
+					<li>The Security Assessment Plan (SAP) has been developed by their Third-Party Assessment Organization (3PAO) with their agency customer’s input.</li>
 				</ul>
-				<p>During this phase, the 3PAO:</p>
+				
+				<p>During this phase, the 3PAO&#58;</p>
+				
 				<ol>
 					<li><strong>Tests the CSP’s system.</strong> During testing, it is critical that no changes are made to the system and that it is frozen from a development perspective.</li>
+
 					<li><strong>Develops a Security Assessment Report (SAR)</strong> which details their findings from testing and includes a recommendation for FedRAMP Authorization. </li>
-					<li><strong>Develops a POA&amp;M</strong> based on the SAR findings, which outlines a plan for addressing the findings from testing.</li>
 				
-				</ol>
+				</ol>				
+
+				<p>The CSP will then develop a Plan of Action and Milestones (POA&M) based on the SAR findings, and include input from the 3PAO, which outlines a plan for addressing the findings from testing.</p>
+
 				
 			</div>
 		</div>
@@ -92,22 +110,30 @@ layout: full-width
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
 			<div class="full-col desktop:grid-col-3">
-				<h2 class="center no-line">Phase 3</h2>
 				<div class="authorization-phase-icon">
 					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/agency-authorization-phase-3.svg" alt="">
 				</div>
+				<h2 class="center no-line">Phase 3</h2>
+				
 				<h3 class="center no-line">Authorization Process</h3>
 			</div>
 			<div class="full-col desktop:grid-col-9">
 				<p>During this phase&#58;</p>
 				<ol>
-					<li><strong>Agency reviews the assessment and associated deliverables</strong> and either approves them or requests additional testing.</li>
-					<li><strong>Agency provides an ATO letter,</strong> if the agency accepts the risks associated with the use of the system.</li>
-					<li><strong>Agency or CSP uploads the entire security package, the FedRAMP checklist, and ATO letter to FedRAMP’s Secure Repository on OMB MAX</strong> and informs the FedRAMP PMO.</li>
-					<li><strong>FedRAMP PMO conducts a review of the package</strong> </li>
-					<li><strong>FedRAMP PMO makes a decision for FedRAMP Authorization</strong> after reviewing the package and the CSP has addressed any technical issues</li>
+					<li>Agency reviews the assessment and associated deliverables and either approves them or requests additional testing.</li>
 
+					<li>Agency provides an ATO letter, if the agency accepts the risks associated with the use of the system.</li>
+
+					<li>CSP uploads the Authorization Package Checklist and the complete security package (SSP and attachments, POA&M, and Agency ATO letter), with exception of the security assessment material, to FedRAMP’s secure repository on OMB MAX.</li>
+
+					<li>The 3PAO uploads all security assessment material (SAP, SAR, and associated attachments) associated with the CSO security package to FedRAMP’s secure repository.</li>
+
+					<li>FedRAMP PMO conducts a review of the package and provides a Draft Agency Package Review Report to the CSP, 3PAO, and Agency. The CSP remediates any areas that must be addressed to achieve FedRAMP Authorization, if needed.</li>
+
+					<li>FedRAMP PMO makes a decision for FedRAMP Authorization after reviewing the package and the CSP has addressed any technical issues.</li>
 				</ol>
+				
+				<p>Once the FedRAMP PMO reviews a CSP’s security package and determines it acceptable, the PMO will inform a CSP that FedRAMP Authorization designation has been achieved. The Marketplace listing for the service offering will be updated to reflect FedRAMP Authorized and the date of authorization. The FedRAMP PMO will make the CSO security package available, upon request and validation of the requestor, to the entire Federal Government for the purpose of issuing subsequent ATOs for the use of the service. Agencies can request access to the security assessment package via the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Package_Request_Form.pdf" target="_blank">Package Access Request Form</a>.</p>
 				
 			</div>
 		</div>
