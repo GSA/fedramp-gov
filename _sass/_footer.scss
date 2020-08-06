@@ -114,8 +114,7 @@ ul.quick-links {
 }
 
 .f-col-1, .f-col-2, .f-col-3 {
-	border-right: #ffffff solid 1px;
-	opacity: .1;
+	border-right: #384D6A solid 1px;
 	min-height: 230px;
 }
 
@@ -272,7 +271,7 @@ p.footer-follow-us {
 	.footer-col-1-phone, .f-col-3, .f-col-4 {
 		border-right: none;
 		min-height: auto;
-		border-bottom: solid 1px $light-teal;
+		border-bottom: solid 1px $footer-lines;
 		padding-bottom: 40px;
 	}
 	
