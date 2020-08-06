@@ -114,7 +114,8 @@ ul.quick-links {
 }
 
 .f-col-1, .f-col-2, .f-col-3 {
-	border-right: $light-blue solid 1px;
+	border-right: #ffffff solid 1px;
+	opacity: .1;
 	min-height: 230px;
 }
 
