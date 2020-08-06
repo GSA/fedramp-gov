@@ -3,6 +3,10 @@
 	box-shadow: none !important;
 }
 
+main#main:focus {
+	outline: none !important;
+}
+
 @media (min-width: 1200px) {
 	.fedramp-page-container {
 		padding-left: 2rem;
@@ -118,13 +122,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 0px) and (max-width: 768px) {
 	.grid-row h3 {
 		position: relative;
-		display: inline;
+		display: block;
 		text-align: left;
-		background: #ffffff;
-		&::before {
+		margin-bottom: 20px;
+		&::after {
 			content: '';
 			border-bottom: 1px solid $light-gray;
-			bottom: -48px;
+			bottom: 0px;
 			display: block;
 			left: 0;
 			position: relative;
@@ -197,12 +201,14 @@ ul.red-bullets {
 
 
 ul.red-bullets li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: $red; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+	content: "\2022"; 
+	color: $red;
+	font-weight: bold; 
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	width: 1em; 
+	margin-left: -1em;
 }
 
 form {
@@ -274,7 +280,7 @@ a {
 	
 .grid-container {
 	max-width: 1200px;
-	padding: 4rem 1rem;
+	padding: 4rem 0;
 }
 	
 .clearfix {

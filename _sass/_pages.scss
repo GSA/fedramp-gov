@@ -52,10 +52,10 @@
 }
 
 .tab button:focus {
-	outline: none;
+	outline: none !important;
 }
 
-.tab button.active:before, .tab button:hover:before {
+.tab button.active:before, .tab button:hover:before, .tab button:focus:before {
 	content: "";
 	position: absolute;
 	right: -20px;
@@ -131,17 +131,17 @@
 	border-bottom: 32px solid transparent;
 }
 
-.tab button.active .button-border, .tab button:hover .button-border {
+.tab button.active .button-border, .tab button:hover .button-border, .tab button:focus .button-border {
 	background: $teal;
 	color: #ffffff;
 }
 
-.tab button.active .button-border:before, .tab button:hover .button-border:before {
+.tab button.active .button-border:before, .tab button:hover .button-border:before, .tab button:focus .button-border:before {
 	border-left: 18px solid $teal;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab button:hover, .tab button:focus {
 	background-color: $teal;
 	color: #ffffff;
 	text-decoration: none;
@@ -276,12 +276,12 @@
 	border: solid 1px $light-gray;
 }
 
-.callout-img-center .callout-img-center {
+.callout-img-center {
 	text-align: center;
 }
 
 @media (min-width: 0px) and (max-width: 968px) {
-	.callout-img-center .callout-img-center {
+	.callout-img-center {
 		text-align: left;
 	}
 }
