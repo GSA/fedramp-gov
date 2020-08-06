@@ -89,7 +89,13 @@ div.usa-nav-container {
 	box-sizing: border-box;
 }
 
-@media (min-width: 1100px) and (max-width: 1239px) {
+@media (min-width: 1200px) and (max-width: 1239px) {
+	div.usa-nav-container {
+		padding: 40px 2rem 30px;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
 	div.usa-nav-container {
 		padding: 40px 0 30px;
 	}
