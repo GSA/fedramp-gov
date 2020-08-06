@@ -2,7 +2,7 @@
 title: Please Take the FY20 FedRAMP Annual Survey!
 permalink: /take-the-fy20-annual-survey/
 body-class: page-blog
-image: /assets/img/FRblog_Annual Survey 2020_Marketplace.png
+image: /assets/img/blog-images/FRblog_AnnualSurvey2020.png
 author: FedRAMP
 layout: blog-page
 ---

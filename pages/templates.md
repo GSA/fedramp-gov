@@ -102,7 +102,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/6/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
@@ -111,7 +111,7 @@ The table below is sortable by columns. The Category, Document, and Description 
 <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx"><i class="fas fa-file-excel"></i>
 <p class="icon-text">EXCEL</p></a>
 </td>
-    <td>6/6/2017</td>
+    <td>8/6/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Initial Authorization Phase- Document: System Security Plan (SSP)</td>
