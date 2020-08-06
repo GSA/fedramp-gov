@@ -12,7 +12,7 @@ feature_image: /assets/img/feature-background.jpg
 # ref: https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration
 #repository: gsa/fedramp-gov
 
-logo-mobile: /assets/img/logo-mobile-fedramp.png
+logo-mobile: /assets/img/logo-mobile-fedramp.svg
 logo: /assets/img/fedramp-logo-vert.svg
 feature_image: /assets/img/feature-background.jpg
 

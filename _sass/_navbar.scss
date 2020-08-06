@@ -89,9 +89,9 @@ div.usa-nav-container {
 	box-sizing: border-box;
 }
 
-@media (min-width: 1100px) and (max-width: 1240px) {
+@media (min-width: 1100px) and (max-width: 1239px) {
 	div.usa-nav-container {
-		padding: 40px 12px 30px;
+		padding: 40px 0 30px;
 	}
 }
 
@@ -799,9 +799,10 @@ header.usa-header {
 /*		position: relative;*/
 	}
 	.search-wrapper {
-		width: 90%;
+		width: 100%;
 		max-width: none;
 		position: absolute;
+		padding-right: 8rem;
 		top: 60px;
 		left: 4rem;
 		.usa-search {
@@ -899,6 +900,7 @@ header.usa-header {
 
 @media (min-width:0) and (max-width: 768px) {
 	.search-wrapper {
+		padding-right: 4rem !important;
 		left: 2rem !important;
 	}
 }
@@ -1136,7 +1138,7 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 	}
 	
 	ul.usa-nav-primary.usa-accordion {
-		width: 780px;
+		width: 710px;
 	}
 	
 	header .usa-nav-container .usa-menu-btn {

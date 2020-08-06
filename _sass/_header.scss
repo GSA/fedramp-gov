@@ -27,15 +27,21 @@
 	z-index: 1001;
 }
 
-@media (min-width: 0) and (max-width: 1200px) {
+@media (min-width: 1100px) and (max-width: 1239px) {
 	.search-feature {
-		padding: 0 4%;
+		padding: 0 2rem;
+	}
+}
+
+@media (min-width: 951px) and (max-width: 1099px) {
+	.search-feature {
+		padding: 0 2rem;
 	}
 }
 
 @media (min-width: 0) and (max-width: 950px) {
 	.search-feature {
-		padding: 0 5%;
+		padding: 0 4rem;
 		position: static;
 	}
 }
@@ -308,8 +314,8 @@ img.desk {
 				}
 			}
 		}
-		}
 	}
+}
 
 
  .post-count {

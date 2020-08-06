@@ -1,7 +1,7 @@
 .hero-unit {
-	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 90% 0px;
+	background-size: cover;
 	background-color: $teal;
 	min-height: 22em;
 	position: relative;
@@ -26,6 +26,8 @@
 	.hero-unit {
 		padding-left: 4rem;
 		padding-right: 4rem;
+		background-position: center;
+		background-image: url('../../assets/img/homepage-banner-tablet.jpg');
 	}
 }
 
@@ -33,6 +35,8 @@
 	.hero-unit {
 		padding-left: 2rem;
 		padding-right: 2rem;
+		background-position: center;
+		background-image: url('../../assets/img/homepage-banner-mobile.jpg');
 	}
 }
 

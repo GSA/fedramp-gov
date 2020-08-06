@@ -226,11 +226,7 @@ p.footer-follow-us {
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
 	.logo-container {
-	}
-	
-	.f-col-1 {
-		padding: 0 60px;
-	}
+	}	
 	
 	.f-col-1, .f-col-2 {
 		margin-bottom: 24px;
@@ -242,8 +238,8 @@ p.footer-follow-us {
 	}
 	
 	.f-col-3 {
-		padding-left: 60px;
-		padding-right: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
  
