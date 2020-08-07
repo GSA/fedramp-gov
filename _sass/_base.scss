@@ -147,6 +147,12 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
+@media (min-width: 640px) and (max-width: 768px) {
+	.grid-row h3.callout {
+		text-align: left;
+	}
+}
+
 h4 {
 	color: $dark-gray;
 	font-size: 1.125rem;
