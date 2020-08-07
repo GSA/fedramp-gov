@@ -566,7 +566,8 @@ button.usa-menu-btn {
 	background: none;
 	color: #cdcdcd;
 	border: 2px solid #cdcdcd;
-	margin: 70px 0 0 0;
+/*	margin: 70px 0 0 0; */
+	margin: 20px 0 0 0;
 	text-decoration: none;
 }
 
@@ -789,6 +790,7 @@ button.usa-nav__close {
 	font-size: 1.25em;
 }
 
+
 @media (min-width:0) and (max-width: 950px) {
 .usa-nav-container div#logo.usa-logo {
 	background: none;
@@ -807,10 +809,11 @@ header.usa-header {
 	.search-wrapper {
 		width: 100%;
 		max-width: none;
-		position: absolute;
-		padding-right: 8rem;
-		top: 68px;
-		left: 4rem;
+		/* position: absolute; */
+		padding-right: 2rem !important;
+		padding-left: 2rem;
+		margin-top: 38px;
+		/* left: 4rem; */
 		.usa-search {
 			width: 100%;
 			max-width: none !important;
@@ -902,6 +905,16 @@ header.usa-header {
 	}
 	}
 }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+	header.usa-header {
+		.search-wrapper {
+			padding-right: 4rem !important;
+			padding-left: 4rem;
+		}
+		
+	}
 }
 
 @media (min-width:0) and (max-width: 768px) {

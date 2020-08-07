@@ -24,7 +24,7 @@
 	background-color: $lightest-gray;
 }
 
-/* Style the buttons inside the tab */
+/* Style the buttons inside the tab 
 
 @media (min-width: 1200px) {
 	.tab button {
@@ -97,7 +97,7 @@
 .button-border {
 	height: 64px;
 	position: absolute;
-	padding-top: 21px;
+	padding-top: 18px;
 	width: 98%;
 	background: #ffffff;
     top: 4px;
@@ -140,14 +140,14 @@
 	border-left: 18px solid $teal;
 }
 
-/* Change background color of buttons on hover */
+/* Change background color of buttons on hover 
 .tab button:hover, .tab button:focus {
 	background-color: $teal;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-/* Create an active/current tablink class */
+/* Create an active/current tablink class 
 .tab button.active {
  	background-color: $teal;
 	color: #ffffff;
@@ -157,7 +157,7 @@
 	content: '';
 }
 
-/* Style the tab content */
+/* Style the tab content 
 .tabcontent {
 	display: none;
 	background: #ffffff;
@@ -165,7 +165,7 @@
 	border-top: none;
 }
 
-/* Button sizes */
+/* Button sizes 
 @media (min-width: 969px) and (max-width: 1200px) {
 	.tab button {
 		font-size: 1.125rem;
@@ -268,6 +268,131 @@
 	.button-border {
 		padding: 4px 10px 0 12px;
 	}
+	
+	.tab button span {
+		padding-top: 6px;
+		padding-left: 16px;
+		font-size: 0.625rem;
+	}
+}
+
+*/
+
+@media (min-width: 1200px) {
+	.tab button {
+		border-right: none;
+	}
+}
+
+.tab button {
+	background-color: $lightest-gray;
+	background-image: url('../../assets/img/path-arrow-white.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	outline: none;
+	min-height: 80px;
+	cursor: pointer;
+	color: $dark-gray;
+	font-size: 1.5rem;
+	margin-right: 0%;
+	width: 33%;
+	text-transform: none;
+}
+
+.tab button.active::before {
+	content: '';
+}
+
+.tab button:last-child {
+	margin-right: 0;
+}
+
+.tab button:focus {
+	outline: none !important;
+}
+
+.pointer-button {
+	height: 72px;
+	position: relative;
+}
+
+.tab button.active, .tab button:hover, .tab button:focus {
+	background: $lightest-gray;
+	background-image: url('../../assets/img/path-arrow-blue.svg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover, .tab button:focus {
+	background-color: $teal;
+	background-image: url('../../assets/img/path-arrow-blue.svg');
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+ 	background-color: $teal;
+	color: #ffffff;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	background: #ffffff;
+	border: none;
+	border-top: none;
+}
+
+/* Button sizes */
+@media (min-width: 969px) and (max-width: 1200px) {
+	.tab button {
+		font-size: 1.125rem;
+		margin-right: 3%;
+		width: 29.5%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 968px) {
+	.tab button {
+		font-size: 1rem;
+		margin-right: 3%;
+		width: 29.5%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+	.tab button {
+		font-size: .9rem;
+	}
+	
+	.tab button span {
+		padding-left: 20px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 680px) {
+	.tab button {
+		font-size: .75rem;
+		
+	}
+	
+	.pointer-button {
+		height: 40px;
+		border-right: none;
+	}
+	
+
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
 	
 	.tab button span {
 		padding-top: 6px;

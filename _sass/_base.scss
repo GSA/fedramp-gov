@@ -113,12 +113,13 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		display: flex;
 		text-align: left;
+		margin-top: 50px;
 	}
 
-	h3::after {
+	&::after {
 		content: '';
 		border-bottom: 1px solid $light-gray;
-		bottom: 6px;
+		bottom: 8px;
 		flex: 1;
 		left: 1rem;
 		position: relative;
@@ -126,6 +127,14 @@ h1, h2, h3, h4, h5, h6 {
 	
 	h3.no-line::after {
 		content: none;
+	}
+	
+	h3.margin-top-0 {
+		margin-top: 0px;
+	}
+	
+	h3.callout {
+		margin-top: 20px;
 	}
 }
 
@@ -157,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 h4 {
 	color: $dark-gray;
 	font-size: 1.125rem;
+	margin: 10px 0 30px 0 !important;
 }
 
 h6 {
