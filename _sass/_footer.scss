@@ -19,7 +19,7 @@ footer {
 	}
 	
 	p {
-		color: #ffffff;
+		color: $lighter-teal;
 		font-size: .875rem;
 		font-family: $sans-font !important;
 		letter-spacing: .02em;
@@ -63,7 +63,7 @@ address p:last-of-type, address p {
 }
 
 .street-address p {
-	font-weight: normal;
+	font-weight: 600;
 	margin-bottom: 8px;
 }
 
@@ -114,7 +114,7 @@ ul.quick-links {
 }
 
 .f-col-1, .f-col-2, .f-col-3 {
-	border-right: #384D6A solid 1px;
+	border-right: #0A577D solid 1px;
 	min-height: 230px;
 }
 
@@ -172,8 +172,8 @@ p.footer-follow-us {
 }
 
 .footer-logo-text {
-	color: #ffffff;
-	font-weight: normal;
+	color: $lighter-teal;
+	font-weight: bold;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	margin-top: .5rem;
@@ -267,7 +267,7 @@ p.footer-follow-us {
 	.footer-col-1-phone, .f-col-3, .f-col-4 {
 		border-right: none;
 		min-height: auto;
-		border-bottom: solid 1px $footer-lines;
+		border-bottom: solid 1px $light-teal;
 		padding-bottom: 40px;
 	}
 	
