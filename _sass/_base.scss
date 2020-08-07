@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 		text-transform: none;
 		letter-spacing: .02em;
 		padding: 0 0 16px 0;
-		margin: 0 0 1.875rem 0;
+		margin: 0 0 6px 0;
 		font-size: 2.25rem;
 		line-height: 42px;
 		color: $theme-color-primary-vivid;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 	h2::after {
 		content: "";
 		display: block;
-		padding-top: 20px;
+		padding-top: 24px;
 		border-bottom: solid 1px $red;
 		width: 88px;
 	}
