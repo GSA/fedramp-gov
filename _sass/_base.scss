@@ -134,11 +134,12 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		display: block;
 		text-align: center;
-		margin-bottom: 1.5rem;
+		margin-bottom: 2rem;
+		padding: 0;
 		&::after {
 			content: '';
 			border-bottom: 1px solid $light-gray;
-			bottom: -8px;
+			bottom: -12px;
 			display: block;
 			left: 0;
 			position: relative;
