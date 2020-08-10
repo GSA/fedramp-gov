@@ -40,11 +40,15 @@ main#main:focus {
 }
 
 .text-white {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .text-red {
 	color: $red;
+}
+
+.text-lighter-teal {
+	color: $lighter-teal !important;
 }
 
 #main p {
@@ -87,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 		padding-top: 24px;
 		border-bottom: solid 1px $red;
 		width: 88px;
+	}
+	
+	h2.text-white::after {
+		border-bottom: solid 1px white;
 	}
 	
 	h2.center {
@@ -206,6 +214,10 @@ a.focus-within:active {
 
 .dark-blue-bkg {
 	background: $dark-blue;
+}
+
+.blue-bkg {
+	background: $light-blue;
 }
 
 .lightest-gray-bkg {
