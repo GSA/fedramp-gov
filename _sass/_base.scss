@@ -214,10 +214,6 @@ ul {
 	margin: 12px 0 20px 0;
 }
 
-ul ul {
-	list-style: disc;
-}
-
 li {
   margin-bottom: 6px;
 }
@@ -229,6 +225,21 @@ ul.red-bullets {
 
 ul.red-bullets li::before {
 	content: "\2022"; 
+	color: $red;
+	font-weight: bold; 
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	width: 1em; 
+	margin-left: -1em;
+}
+
+ul.red-bullets ul {
+	list-style: none;
+}
+
+ul.red-bullets ul li::before {
+	content: "-"; 
 	color: $red;
 	font-weight: bold; 
 	display: inline-block;
