@@ -1,24 +1,25 @@
-<div class="usa-width-full-width">
-	<h2><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a>
-	</h2>
-	<div class="usa-width-one-third blog-list-image">
+<div class="grid-row grid-gap padding-4" style="background: #ffffff;">
+	<div class="desktop:grid-col-6">
     	<a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
     		<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> 
     	</a>
 	</div>
-    <div class="meta blog-list-excerpt">
-		<ul>
-			<li class="meta-author first-child">
-            <span class="meta-author">By {{ post.author }}</span>
-			</li>
-			<li class="meta-date">
-            <a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B %-d, %Y"}}</a>
-			</li>
-		</ul>
+    <div class="desktop:grid-col-6">
+		<div class="grid-row">
+			<div class="desktop:grid-col-3 padding-x-2">
+				<p class="blog-list-day">
+					<a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%-d"}}</a>
+				</p>
+				<p class="blog-list-month">
+					<a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%B"}}</a>
+				</p>
+			</div>
+			<div class="desktop:grid-col-9 padding-x-2">
+				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+				<p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+				<p class="continue-reading"><a class="" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Continue Reading...</a></p>
+			</div>
+		</div>
     </div>
-
-    <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
-
-    <p class="readmore"><a class="more-link" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Read More</a></p>
 </div>
 
