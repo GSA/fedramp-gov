@@ -7,6 +7,12 @@ main#main:focus {
 	outline: none !important;
 }
 
+@media (min-width: 64em) {
+	.desktop\:margin-top-0 {
+		margin-top: 0!important;
+	}
+}
+
 @media (min-width: 1200px) {
 	.fedramp-page-container {
 		padding-left: 2rem;
@@ -169,7 +175,12 @@ h1, h2, h3, h4, h5, h6 {
 	.grid-row h3.callout {
 		text-align: left;
 	}
+	
+	.grid-row h2.phase-header, .grid-row  h3.phase-header  {
+		text-align: left;
+	}
 }
+
 
 h4 {
 	color: $dark-gray;
@@ -242,11 +253,11 @@ ul.red-bullets li::before {
 	margin-left: -1em;
 }
 
-ul.red-bullets ul {
+ul.red-bullets ul, ol.red-numbers ul {
 	list-style: none;
 }
 
-ul.red-bullets ul li::before {
+ul.red-bullets ul li::before, p.sub-bullet::before {
 	content: "-"; 
 	color: $red;
 	font-weight: bold; 
@@ -268,10 +279,18 @@ ol.red-numbers li::before {
 	color: $red;
 	display: inline-block;
 	width: 1em;
-	margin-left: -1em}
+	margin-left: -1em;
+	position: relative;
+	left: -3px;
+}
 
 ol.red-numbers li {
 	counter-increment: li;
+}
+
+p.sub-bullet {
+	margin-top: 0;
+	padding-left: 20px;
 }
 
 form {

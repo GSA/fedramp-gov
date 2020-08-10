@@ -141,7 +141,6 @@
 	}
 }
 
-
 /* --- End Agencies Tabs --- */
 
 .callout-box {
@@ -181,6 +180,18 @@ section#rar, section#do-once {
 .authorization-phase-icon {
 	width: 120px;
 	margin: 0 auto 1rem auto;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+	.grid-row h2.phase-header, .grid-row  h3.phase-header  {
+		text-align: left;
+	}
+	
+	.authorization-phase-icon {
+		width: auto;
+		text-align: right;
+		margin: 0 2rem 0 0;
+	}
 }
 
 .q1, .q2, .q3, .q4, .q5, .tip-1 {
