@@ -181,6 +181,17 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+@media (min-width: 0) and (max-width: 639px) {
+	.grid-row h3.phase-header::after {
+		content: '';
+		border-bottom: 1px solid $light-gray;
+		bottom: -12px;
+		display: block;
+		left: 0;
+		position: relative;
+	}
+}
+
 
 h4 {
 	color: $dark-gray;
