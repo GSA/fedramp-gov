@@ -1306,27 +1306,6 @@ max-width: 200px;
 	}
 
 
-/*@media (min-width: 0) and (max-width: 800px) {
-	.home-new .front-four {
-		padding: 0 3%;
-		flex-flow: wrap;
-		max-width: 800px;
-		width: 100%;
-		margin: -250px auto 0 auto;
-		h5 {
-			font-size: 1.2em !important;
-		}
-		.program-basics {
-			width: 100%;
-			flex-flow: row;
-			max-width: none;
-		}
-	}
-}*/
-/*
-.home-new #home-banner {
-	z-index: -1;
-}*/
 
 @media (min-width: 0) and (max-width: 980px) {
   .home-new #home-banner {
@@ -1887,27 +1866,38 @@ max-width: 200px;
 
 ul.program-basics-benefits {
 	list-style: none;
+	
+	li {
+		margin-left: 20px;
+	}
+}
+
+ul.program-basics-goals {
+	list-style: none;
+	
+	li {
+		margin-left: 20px;
+	}
 }
 
 
 ul.program-basics-benefits li::before {
 	content: url("../../assets/img/benefits-thumb.svg"); 
 	position: relative;
+	float: left;
 	top: -2px;
-	width: 1em; 
-	margin-left: -1em;
+	left: -20px; 
+	margin-left: -30px;
 }
 
-ul.program-basics-goals {
-	list-style: none;
-} 
 
 ul.program-basics-goals li::before {
 	content: url("../../assets/img/goals-flag.svg"); 
 	position: relative;
+	float: left;
 	top: -2px;
-	width: 1em; 
-	margin-left: -1em;
+	left: -20px; 
+	margin-left: -30px;
 }
 
 .basics-col {
