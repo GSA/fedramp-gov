@@ -202,6 +202,34 @@ section#rar, section#do-once {
 	border: none;
 }
 
+/* Authorization Graphics */
+
+@media (min-width: 0px) and (max-width: 580px) {
+	.auth-graphic-580  {
+		display: block;
+	}
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+	.auth-graphic-768  {
+		display: block;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 979px) {
+	.auth-graphic-980  {
+		display: block;
+	}
+}
+
+@media (min-width: 980px) {
+	.auth-graphic-1200  {
+		display: block;
+	}
+}
+
+
+
 @media (min-width: 0px) and (max-width: 580px) {
 section#pre-auth, section#during-auth, section#post-auth, section#do-once, section#support, section#welcome, section#ssp, section#sap, section#conmon, section#control, section#req, section#sap-guidance, section#sar-report, section#sar-guidance, section#procedures, section#method, section#sar-tables, section#rar, .q1, .q2, .q3, .q4, .q5, .tip-1 {
 	background-position: center top;

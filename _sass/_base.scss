@@ -37,6 +37,10 @@ main#main:focus {
 	color: #ffffff;
 }
 
+.text-red {
+	color: $red;
+}
+
 #main p {
 	orphans: 3;
 	font-weight: 400;
@@ -249,19 +253,19 @@ ul.red-bullets ul li::before {
 	margin-left: -1em;
 }
 
-ol.rednumbers {
+ol.red-numbers {
 	list-style: none; 
 	counter-reset: li; 
 }
 
-ol.rednumbers li::before {
+ol.red-numbers li::before {
 	content: counter(li); 
 	color: $red;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em}
 
-ol.rednumbers li {
+ol.red-numbers li {
 	counter-increment: li;
 }
 
