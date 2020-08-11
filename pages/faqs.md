@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: faqs
 title: Frequently Asked Questions
 permalink: /faqs/
 body-class: page-faqs
