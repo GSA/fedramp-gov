@@ -283,6 +283,13 @@ ul.red-bullets ul li::before, p.sub-bullet::before {
 	margin-left: -1em;
 }
 
+@media all and (min-width: 0px) and (max-width: 1023px) {
+	ol.left-numbers {
+		padding-left: 1rem;
+	}
+}
+
+
 ol.red-numbers {
 	list-style: none; 
 	counter-reset: li; 
@@ -299,9 +306,11 @@ ol.red-numbers li::before {
 	left: -3px;
 }
 
+
 ol.red-numbers li {
 	counter-increment: li;
 }
+
 
 p.sub-bullet {
 	margin-top: 0;
