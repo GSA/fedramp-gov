@@ -2,6 +2,25 @@
 layout: blog-list-main
 ---
 {{ content }}
+
+<!-- 2 Col attempt -->
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="desktop:grid-col-12">
+				{% for post in paginator.posts %}
+
+    			<div class="usa-width-one-whole">
+   					 {% include blog-entry.html post=post %}
+
+   					</div>
+
+    {% unless forloop.last %}<div class="separater"></div>{% endunless %}
+{% endfor %}
+			</div>
+		</div>
+	</div>
+
+<!--
 <section class="usa-grid-full">
 {% for post in paginator.posts %}
 
@@ -13,7 +32,7 @@ layout: blog-list-main
     {% unless forloop.last %}<div class="separater"></div>{% endunless %}
 {% endfor %}
 </section>
-
+-->
 
 <!-- Pagination links -->
 <section class="pagination usa-grid content-focus">
