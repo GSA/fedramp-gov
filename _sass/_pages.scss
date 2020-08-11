@@ -155,6 +155,9 @@ img.home-partners-icon {
 	max-width: 120px;
 }
 
+img.phase-icon {
+	max-width: 120px;
+}
 
 #main .page-banner h1, body .page-banner h1 {
 	font-size: 2.625rem;
@@ -187,7 +190,7 @@ section#rar, section#do-once {
 	border: none !important;
 }
 
-.authorization-phase-icon {
+.authorization-phase-icon, .tailored-phase-icon {
 	width: 120px;
 	margin: 0 auto 1rem auto;
 }
@@ -200,6 +203,12 @@ section#rar, section#do-once {
 	.authorization-phase-icon {
 		width: auto;
 		text-align: right;
+		margin: 0 2rem 0 0;
+	}
+	
+	.tailored-phase-icon {
+		width: auto;
+		text-align: left;
 		margin: 0 2rem 0 0;
 	}
 }
