@@ -1885,26 +1885,41 @@ max-width: 200px;
 	}
 }
 
-ul.program-basics-goals {
+ul.program-basics-benefits {
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	
 	li {
-		background: url("../../assets/img/arrow.svg") no-repeat 0 5px;
-		padding-left: 60px;
-    	margin-bottom: 10px;
+		margin-left: 20px;
+		margin-bottom: 20px;
 	}
 }
 
-ul.program-basics-benefits {
+ul.program-basics-goals {
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	
 	li {
-		background: url("../../assets/img/thumbs-up.svg") top left no-repeat;
-		padding-left: 60px;
-    	margin-bottom: 10px;
+		margin-left: 20px;
 	}
+}
+
+
+ul.program-basics-benefits li::before {
+	content: url("../../assets/img/benefits-thumb.svg"); 
+	position: relative;
+	float: left;
+	top: -2px;
+	left: -20px; 
+	margin-left: -30px;
+}
+
+
+ul.program-basics-goals li::before {
+	content: url("../../assets/img/goals-flag.svg"); 
+	position: relative;
+	float: left;
+	top: -2px;
+	left: -20px; 
+	margin-left: -30px;
 }
 
 
