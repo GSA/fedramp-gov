@@ -266,6 +266,10 @@ h2.blog-roll-header {
 	width: 44%;
 	margin: 0 3%;
 	float: left;
+	display: none;
+	&.display {
+		display: inline-block;
+	}
 }
 
 .blog-card-interior {
