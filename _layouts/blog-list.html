@@ -15,11 +15,11 @@ layout: blog-list-main
     			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
 				{% endfor %}
 			</div>
-			
-			<div class="grid-row">
+		</div>
+		<div class="grid-row grid-gap">
 				{% for post in paginator.posts offset:1 %}
 
-    			<div class="desktop:grid-col-6">
+    			<div class="desktop:grid-col-6 blog-card">
    					 {% include blog-entry-card.html post=post %}
    				</div>
 
@@ -28,7 +28,6 @@ layout: blog-list-main
 			</div>
 			
 		</div>
-	</div>
 
 <!--
 <section class="usa-grid-full">
