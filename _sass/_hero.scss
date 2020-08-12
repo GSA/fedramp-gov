@@ -1,19 +1,47 @@
 .hero-unit {
-	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 90% 0px;
+	background-size: cover;
+	background-color: $teal;
 	min-height: 22em;
 	position: relative;
-	float: left;
 	width: 100%;
 	background-image: url('../../assets/img/homepage-banner-desktop.jpg');
-	padding: 100px 5% 60px 5%;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
 	.usa-grid {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
 }
 
+@media (min-width: 1200px) {
+	.hero-unit {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	.hero-unit {
+		padding-left: 3rem;
+		padding-right: 3rem;
+		background-position: center;
+		background-image: url('../../assets/img/homepage-banner-tablet.jpg');
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.hero-unit {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		background-position: center;
+		background-image: url('../../assets/img/homepage-banner-mobile.jpg');
+	}
+}
+
+
+/*
 @media (min-width:768px) and (max-width:980px) {
 	.hero-unit {
 		background-image: url('../../assets/img/homepage-banner-tablet.jpg');
@@ -27,6 +55,7 @@
 		padding: 40px 5% 60px 5%;
 	}
 }
+*/
 
 .hero-content {
 	background-color: transparentize($text-color, .6);
@@ -55,7 +84,7 @@
 }
 
 .hero-text-description {
-	width: 50%;
+	width: 70%;
 }
 
 
@@ -91,37 +120,38 @@
 	
 	p {
 		color: #ffffff;
-		font-weight: 400;
-		font-size: 1rem;
-		line-height: 24px;
+		font-weight: 300 !important;
+		font-size: 1.25rem;
+		line-height: 1.8125rem;
 		letter-spacing: .02em;
 	}
 }
 
 @media (min-width:0) and (max-width:950px) {
-.hero-text {
-	width: 100%;
-	padding-left: 0;
-	p {
-		color: #ffffff;
+	.hero-text {
+		width: 100%;
+		padding-left: 0;
+		p {
+			color: #ffffff;
+			width: 100%;
+		}
+		h1 {
+			font-size: 2.625rem;
+		}
+		h3 {
+			font-size: 1.375rem;
+		}
+	}
+
+	.hero-text-description {
 		width: 100%;
 	}
-	h1 {
-		font-size: 2.625rem;
-	}
-	h3 {
-		font-size: 1.375rem;
-	}
-}
-
-.hero-text-description {
-	width: 100%;
-}
-.home-hero-buttons {
-	button {
-		font-size: 0.75rem !important;
+	
+	.home-hero-buttons {
+		button {
+			font-size: 0.75rem !important;
 		}
-		}
+	}
 }
 
 .home-hero-buttons {
@@ -133,9 +163,10 @@
 		border-radius: 40px;
 		-moz-border-radius: 40px;
 		background-repeat: no-repeat;
-		padding: 20px 20px 20px 80px;
+		padding: 20px 60px 20px 80px;
 		margin: 20px 30px 0 0;
 		border: none;
+		cursor: pointer;
 		&:hover {
 			text-decoration: none;
 		}
@@ -146,27 +177,36 @@
 		text-decoration: none;
 		letter-spacing: .025em;
 		font-weight: 800;
+		text-transform: none;
+		font-size: 1rem;
 		&:hover {
 			text-decoration: none !important;
 		}
 	}
 	
 	.hero-program {
-		background-color: $dark-red;
+		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
-		background-position: 25px;
+		background-position: 34px 12px;
+		padding-right: 40px;
 		&:hover {
-			background-color: shade($dark-red, 20%);
+			background-color: $red;
 			transition: 0.4s;
 		}
 	}
 	.hero-process {
-		background-color: $light-blue;
+		background-color: $red;
 		background-image: url('../../assets/img/home-meet-the-process.svg');
-		background-position: 25px;
+		background-position: 34px;
+		padding: 20px 50px 20px 80px;
+		padding-right: 40px;
 		&:hover {
-			background-color: shade($light-blue, 20%);
+			background-color: $dark-blue;
 			transition: 0.4s;
+		}
+		
+		a {
+			margin-left: 4px;
 		}
 	}
 }

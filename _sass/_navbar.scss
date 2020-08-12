@@ -21,14 +21,14 @@ ul.usa-nav-primary li a {
 	font-weight: 800 !important;
 	text-decoration: none;
 		&.external {
-		border: 1px solid $red;
-		color: $red;
+		border: 1px solid $mid-gray;
+		color: $mid-gray;
 		border-radius: 25px;
 		margin-left: 15px;
-		padding: 12px;
+		padding: 10px 20px;
 		&:hover {
-			border-color: $teal;
-			color: $teal;
+			border-color: $red;
+			color: $red;
 		}
 	}
 }
@@ -89,17 +89,29 @@ div.usa-nav-container {
 	box-sizing: border-box;
 }
 
-@media (min-width: 1100px) and (max-width: 1240px) {
+@media (min-width: 1200px) and (max-width: 1239px) {
 	div.usa-nav-container {
-		padding: 40px 12px 30px;
+		padding: 40px 2rem 30px;
 	}
 }
 
-@media (min-width: 0px) and (max-width: 950px) {
+@media (min-width: 1100px) and (max-width: 1199px) {
 	div.usa-nav-container {
-		padding: 20px 5%;
+		padding: 40px 0 30px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 950px) {
+	div.usa-nav-container {
+		padding: 20px 4rem;
 		margin: 0;
 		height: 120px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	div.usa-nav-container {
+		padding: 20px 2rem;
 	}
 }
 
@@ -224,7 +236,6 @@ li.parent .sub-menu {
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: .02em;
-		padding: 3px;
 		&.parent {
 			padding: 0 !important;
 			width: 100%;
@@ -234,7 +245,7 @@ li.parent .sub-menu {
 				content: '\f105';
 				height: 0;
 				float: right;
-				color: #4c4c4e;
+				color: $dark-gray;
 			}
 			}
 		}
@@ -243,8 +254,8 @@ li.parent .sub-menu {
 		}
 		a {
 			padding: 20px;
-			background: #F3F4F4;
-			color: #4C4C4E;
+			background: $lightest-gray;
+			color: $dark-gray;
 			display: block;
 			line-height: 1;
 			font-size: 0.875rem;
@@ -253,7 +264,7 @@ li.parent .sub-menu {
 			letter-spacing: .02em;
 			&:hover {
 				background: #fff;
-				color: $red;
+				color: $dark-gray;
 /*				border-top: 1px solid #fff;*/
 /*				border-bottom: 1px solid #fff;*/
 			}
@@ -555,7 +566,8 @@ button.usa-menu-btn {
 	background: none;
 	color: #cdcdcd;
 	border: 2px solid #cdcdcd;
-	margin: 70px 0 0 0;
+/*	margin: 70px 0 0 0; */
+	margin: 20px 0 0 0;
 	text-decoration: none;
 }
 
@@ -690,6 +702,7 @@ header .usa-nav-container .usa-menu-btn {
 	background: $light-gray;
 	border: none;
 	color: #fff;
+	padding: 0px;
 }
 
 .usa-js-mobile-nav--active ul {
@@ -777,6 +790,7 @@ button.usa-nav__close {
 	font-size: 1.25em;
 }
 
+
 @media (min-width:0) and (max-width: 950px) {
 .usa-nav-container div#logo.usa-logo {
 	background: none;
@@ -793,11 +807,13 @@ header.usa-header {
 /*		position: relative;*/
 	}
 	.search-wrapper {
-		width: 90%;
+		width: 100%;
 		max-width: none;
-		position: absolute;
-		top: 60px;
-		left: 5%;
+		/* position: absolute; */
+		padding-right: 2rem !important;
+		padding-left: 2rem;
+		margin-top: 38px;
+		/* left: 4rem; */
 		.usa-search {
 			width: 100%;
 			max-width: none !important;
@@ -889,6 +905,23 @@ header.usa-header {
 	}
 	}
 }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+	header.usa-header {
+		.search-wrapper {
+			padding-right: 4rem !important;
+			padding-left: 4rem;
+		}
+		
+	}
+}
+
+@media (min-width:0) and (max-width: 768px) {
+	.search-wrapper {
+		padding-right: 4rem !important;
+		left: 2rem !important;
+	}
 }
 
 @media (min-width: 0) and (max-width: 950px) {
@@ -1124,7 +1157,7 @@ ul.usa-nav-primary ul.sub-sub-menu li a {
 	}
 	
 	ul.usa-nav-primary.usa-accordion {
-		width: 780px;
+		width: 710px;
 	}
 	
 	header .usa-nav-container .usa-menu-btn {

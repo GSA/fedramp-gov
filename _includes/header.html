@@ -7,7 +7,7 @@
     <header class="usa-banner__header">
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
-          <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="{{site.baseurl}}/assets/img/us_flag_small.png" alt="U.S. flag">
         </div>
         <div class="grid-col-fill tablet:grid-col-auto">
           <p class="usa-banner__header-text">An official website of the United States government</p>
@@ -21,7 +21,7 @@
     <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="Dot gov">
+          <img class="usa-banner__icon usa-media-block__img" src="{{site.baseurl}}/assets/img/icon-dot-gov.svg" role="img" alt="Dot gov">
           <div class="usa-media-block__body">
             <p>
               <strong>Official websites use .gov</strong>
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
-          <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="Https">
+          <img class="usa-banner__icon usa-media-block__img" src="{{site.baseurl}}/assets/img/icon-https.svg" role="img" alt="Https">
           <div class="usa-media-block__body">
             <p>
               <strong>Secure .gov websites use HTTPS</strong>
@@ -47,10 +47,46 @@
 </section>
   <!-- Gov banner END -->
   
+  	<!-- AV01 -->
+	<div style="display: none;">
+		{% assign recent_posts = "now" | date: "%s" | minus: 1678400 %}
+  		{% for post in site.posts %}
+			{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+			{% if post_time > recent_posts %}
+    				<p class="post-time">{{ post.last_modified_at | date: "%s" }}</p>
+			{% endif %}
+  		{% endfor %}
+	</div>
+
+	  <div class="search-feature">
+		<div class="search-wrapper">
+			<div class="bell">
+				<i class="fas fa-bell"></i>	  	
+
+				<button class="post-count" style="display: none;"></button> <!-- AV01 -->
+
+				<div id="alert-logic">
+					<div class="alert-wrapper">
+						<ul>
+							{% for post in site.posts %}
+								{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+								{% if post_time > recent_posts %}
+									<li class="current-post"><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+										<p class="date">{{ post.date | date: "%B %-d, %Y"}}</p>
+										<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+									</li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- AV01 end -->
+  
   <!-- SEARCH START DISABLED -->
 
-  <div class="search-feature">
-  <div class="search-wrapper">
+<!--  <div class="search-feature">-->
+<!--  <div class="search-wrapper">-->
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
       <input name="search" type="search" id="searchgovinput" placeholder="Search">
@@ -66,7 +102,7 @@
 
   <div class="usa-nav-container">
 <!--    <div class="usa-navbar">-->
-      <button class="usa-menu-btn">&#9776;</button>
+      <button class="usa-menu-btn"><i class="fas fa-bars"></i></button>
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
           <a href="{{ site.url }}" accesskey="1" title="Home" aria-label="Home">

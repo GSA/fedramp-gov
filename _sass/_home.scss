@@ -25,11 +25,16 @@
 	}
 }
 
+.partner-divider {
+	margin: 26px 0 10px 0;
+	border: none;
+}
+
+
 .partners-container {
 	max-width: 1200px;
 	width: 100% !important;
     margin: 0 auto;
-	padding: 20px 0;
     width: auto;
     box-sizing: border-box;
     display: flex;
@@ -39,34 +44,63 @@
 		display: table;
 		clear: both;
 	}
+	
+	button {
+		border: solid 1px $red;
+		color: $red;
+		font-weight: 800;
+		padding: 10px 32px;
+		margin: 10px 0 0 0;
+		border-radius: 20px;
+		cursor: pointer;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+	}
+
+	button:hover {
+		border: solid 1px $teal;
+		background: #ffffff;
+		color: $teal;
+		text-decoration: none;
+	}
 }
 
 @media (min-width:0) and (max-width:1200px) {
-.partners-container {
-	padding: 20px 5% 20px 5%;
-}
+
 }
 
 .home-partners-title {
-	margin: 40px auto 0 auto;
-	border-top: solid 1px #dedede;
+	margin: 0 auto 0 auto;
     width: 100%;
     margin-bottom: 0px;
+	h2 {
+		color: $teal;
+		text-transform: uppercase;
+		font-size: 1.625rem;
+		font-weight: bold;
+		padding: 0;
+	}
+	
+	h2::after {
+		content: none;
+	}
+	
 	h3 {
 		color: $red;
-		font-size: 1.25rem;
+		font-size: 1.125rem;
 		font-weight: 700;
 		letter-spacing: .04em;
-		text-align: center;
-		background: #ffffff;
-		text-transform: uppercase;
-		width: 45%;
-		margin: auto;
-		top: -15px;
-		position: relative;
-		padding: 0 1%;
+		text-align: left;
+		text-transform: none;
+		display: inline;
+		padding-right: 0;
+	}
+	
+	h3::after {
+		content: none;
 	}
 }
+
 
 @media (min-width:0) and (max-width:949px) {
 	.home-partners-title {
@@ -94,11 +128,6 @@
 		margin-top: 20px;
 	}
 	
-	.home-partners-text {
-		float: left;
-		margin-left: 25px;
-		width: 50%;
-	}
 	
 	.partners-col h2 {
 		font-weight: 500 !important;
@@ -120,6 +149,7 @@
 		color: $red;
 		border-radius: 30px;
 		padding: 9px 24px 10px;
+		text-transform: uppercase;
 		&:hover {
 			border-color: $teal;
 			color: $teal;
@@ -205,11 +235,6 @@
 			margin: 20px 0 5px 0 !important;
 		}
 	}
-	.home-partners-text {
-		float: left;
-		margin-left: 25px;
-		width: 60% !important;
-	}
 }
 
 span.assessment {
@@ -241,47 +266,14 @@ span.assessment {
 
 .auth-process {
 	background: $lightest-gray;
-	padding: 45px 0 0 0;
 	text-align: center;
-	float: left;
 	width: 100%;
-	h2 {
-		font-weight: 400;
-		text-transform: none;
-		text-align: center;
-		letter-spacing: .02em;
-		padding: 0 0 15px 0;
-		margin: 0 0 25px 0;
-		font-size: 2.25rem;
-		color: $new-home-teal;
-		background: url('../../assets/img/red-border.svg') center bottom no-repeat;
-	}
-		
-	p {
-		max-width: 960px;
-		min-width: 0 !important;
-		margin: 10px auto 0 auto;
-		width: 100%;
-		text-align: center;
-		font-size: 1rem;
-		line-height: 1.5;
-	}
-	
-	p.auth-process-description {
-		padding: 0 30px;
-	}
-	
-	p.optional-auth {
-		margin-top: 30px;
-		font-size: .875rem;
-		line-height: 18px;
-	}
 }
 
+/*
 .process-diagram {
-	float: left;
-	width: 100%;
-	padding: 20px 0 30px 0;
+	margin: auto;
+	max-width: 1200px;
 	p {
 		text-align: center;
 		letter-spacing: .02em;
@@ -465,8 +457,7 @@ span.assessment {
 						padding: 0 10px;
 						align-content: flex-start;
 						&:first-child {
-/*							border-right: 1px solid $teal;*/
-/*							padding: 0 12px 0 0;*/
+
 						}
 						span.step-title {
 							color: $light-blue;
@@ -545,7 +536,6 @@ span.assessment {
 						padding: 0 10px;
 						align-self: flex-end;
 						&:first-child {
-/*							border-right: 1px solid $red;*/
 							padding: 0 11px 0 0;
 						}
 						span.step-title {
@@ -752,7 +742,6 @@ span.assessment {
 	}
 	
 	.process-diagram {
-		max-width: 450px;
 		margin: 0 auto;
 		float: none;
 		padding-bottom: 20px;
@@ -768,6 +757,7 @@ span.assessment {
 	}
 }
 
+*/
 @media (min-width: 0) and (max-width: 950px) {
 /*	.mobile-hide {
 		display: none;
@@ -979,9 +969,7 @@ span.assessment {
 			}
 		}
 	}	
-.process-diagram p.optional-auth{
-	margin-top: 0;
-}
+
 
 p.auth-process-description {
 	margin-bottom: 90px;
@@ -1224,7 +1212,7 @@ section#goals div.inner {
 }
 
 .fedramp-glance {
-	padding: 40px 5% 60px 5%;
+	padding: 4rem 2rem 4rem 2rem;
 	float: left;
 	width: 100%;
 	h2 {
@@ -1257,7 +1245,8 @@ section#goals div.inner {
 			p {
 				color: $teal;
 				font-weight: 700 !important;
-				font-size: 1.125rem;
+				text-transform: uppercase;
+				font-size: 1.375rem;
 				text-align: center;
 				margin: 20px 0 0 0;
 				letter-spacing: .04em !important;

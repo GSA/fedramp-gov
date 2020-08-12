@@ -2,139 +2,133 @@
 layout: base
 ---
 
-<section id="home-banner">
+<section id="home-banner" class="clear-fix">
 	<div class="hero-unit">
     	<div class="usa-grid grid-gap">
 			<div class="hero-text grid-col-8">
-			<h1>{{ page.hero-text-main }}</h1>
-			<h3>{{ page.hero-text-sub }}</h3>
-				<div class="hero-text-description">
-					<p>{{ page.hero-secondary-text }}</p>
+			<h1>Securing Cloud Services</h1>
+			<h3>For the Federal Government</h3>
+				<div class="hero-text-description margin-bottom-4">
+					<p>The Federal Risk and Authorization Management Program (FedRAMP) provides a standardized approach to security authorizations for cloud service offerings.</p>
 				</div>
 			
 				<div class="home-hero-buttons">
-					<button class="hero-program">{{ page.first-hero-button }}</button>
-					<button class="hero-process">{{ page.second-hero-button }}</button>
+					<button class="hero-program"><a href="{{site.baseurl}}/program-basics/">Learn Program Basics</a></button>
+					<button class="hero-process"><a href="#auth-process">Meet The Process</a></button>
 				</div>
 			</div>
     	</div>
 	</div>
 </section>
 
-<div class="partners-container">
-	<div class="home-partners-title">
-		<h3>{{ page.first-main-title }}</h3>
-	</div>
-	<ul class="home-partners-icons">
-		<li class="partners-col home-partners-col-1">
-			{{ page.first-column-image }}
-			<div class="home-partners-text">
-				<h2>{{ page.first-column-title }}</h2>
-				<p>{{ page.first-column-blurb }}</p>
-				{{ page.first-column-button }}
-			</div>
-		</li>
-		
-		<li class="partners-col home-partners-col-2">
-			{{ page.second-column-image }}
-			<div class="home-partners-text">
-				<h2>{{ page.second-column-title }}</h2>
-				<p>{{ page.second-column-blurb }}</p>
-				{{ page.second-column-button }}
-			</div>
-		</li>
-		
-		<li class="partners-col home-partners-col-3">
-			{{ page.third-column-image }}
-			<div class="home-partners-text">
-				<h2>{{ page.third-column-title }}</h2>
-				<p>{{ page.third-column-blurb }}</p>
-				{{ page.third-column-button }}
-			</div>
-		</li>
-		
-	</ul>
-	<div class="clearfix"></div>
-</div>
-
-<section id="auth-process" class="auth-process">
-	<h2>{{ page.fedramp-authorization-title }}</h2>
-	<p class="auth-process-description">{{ page.fedramp-authorization-text }}</p>
-		
-	<!-- Process Diagram -->
-		<div class="process-diagram">
-			<div class="process-container">
-				<div class="home-auth-title">
-					<h4>Phase 1</h4>
+<section class="fedramp-page-container">
+	<div class="grid-container">
+		<div class="partners-container grid-row">
+			<div class="desktop:grid-col-12">
+				<div class="home-partners-title">
+					<h2 class="text-center margin-bottom-2">Information for <span class="text-no-wrap">Our Partners</span></h2>
 				</div>
-			<ul class="column-1">
-				<li class="agency-first"><a href="{{site.baseurl}}/agency-authorization/"><p>AGENCY</p><img src="{{site.baseurl}}/assets/img/agency-arrow.svg" alt="Right Arrow"></a></li>
-				<li class="seek">Ways to Seek Authorization</li>
-				<li class="jab-first"><a href="{{site.baseurl}}/jab-authorization/"><img src="{{site.baseurl}}/assets/img/jab-arrow.svg" alt="Right Arrow"><p>JAB</p></a><br/></li>
-			</ul>
-				<div class="home-auth-title">
-					<h4>Phase 2</h4>
-				</div>
-			<ul class="column-2">
-				<li class="agency-one-two">
-					<ul>
-						<li class="one"><p>Partnership Establishment and Readiness Assessment<span class="asterisk">*</span></p><span class="step-title">STEP 1</span></li>
-						<li class="two">Full Security Assessment<span class="step-title">STEP 2</span></li>
-					</ul>
-				</li>
-				<li class="prep">Preparation</li>
-					<li class="jab-one-two">
-						<ul>
-							<li class="readiness"><span class="step-title">STEP 1</span><p>FedRAMP Connect and Readiness Assessment</p></li>
-							<li class="security"><span class="step-title">STEP 2</span>Full Security Assessment</li>
-						</ul>
-					</li>
-				</ul>
-				<div class="home-auth-title">
-					<h4>Phase 3</h4>
-				</div>
-				<ul class="column-3">
-					<li class="agency-auth"><p>Agency Authorization Process</p><span class="step-title">STEP 3</span></li>
-						<li class="auth">Authorization</li>
-					<li class="jab-auth"><span class="step-title">STEP 3</span><p>JAB Authorization Process</p></li>
-				</ul>
-				<div class="home-auth-title">
-					<h4>Phase 4</h4>
-				</div>
-				<ul class="column-4">
-						<li class="agency-conmon">Agency ConMon<span><img src="{{site.baseurl}}/assets/img/conmon-process-red.svg" alt="red cycle"></span></li>
-						<li class="conmon">Continuous Monitoring</li>
-									<li class="jab-conmon"><span><img src="{{site.baseurl}}/assets/img/conmon-process-blue.svg" alt="blue cycle"></span>JAB ConMon</li>
-				</ul>
 			</div>
-			<p class="optional-auth"><span class="asterisk">*</span><em> Optional but highly recommended for agency authorizations</em></p>
 		</div>
-	
+		<div class="partners-container grid-row home-partners-title" style="margin-top: 0;">
+			<div class="desktop:grid-col-4 padding-2 desktop:padding-bottom-0">
+				<div class="grid-row">
+					<div class="desktop:grid-col-3 grid-col-auto text-left">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+					</div>
+					<div class="desktop:grid-col-9 grid-col-fill padding-left-4">
+						<div class="home-partners-text">
+							<h3>Cloud Service Providers</h3>
+							<p>Provide your cloud service offering to the Federal Government</p>
+							<a href="{{site.baseurl}}/cloud-service-providers/" class="partner-learn-more"><button>Learn More</button></a>
+						</div>
+					</div>
+				</div>
+				<hr class="partner-divider desktop:display-none">
+			</div>
+			
+			<div class="desktop:grid-col-4 padding-2 desktop:padding-bottom-0">
+				<div class="grid-row">
+					<div class="desktop:grid-col-3 grid-col-auto text-left">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
+					</div>
+					<div class="desktop:grid-col-9 grid-col-fill padding-left-4">
+						<div class="home-partners-text">
+							<h3>Agencies</h3>
+							<p>Adopt secure innovative cloud services to meet your agency’s critical mission needs</p>
+							<a href="/federal-agencies/" class="partner-learn-more"><button>Learn More</button></a>
+						</div>
+					</div>
+				</div>
+				<hr class="partner-divider desktop:display-none">
+			</div>
+			
+			
+			<div class="desktop:grid-col-4 padding-2 desktop:padding-bottom-0">
+				<div class="grid-row">
+					<div class="desktop:grid-col-3 grid-col-auto text-left">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
+					</div>
+					<div class="desktop:grid-col-9 grid-col-fill padding-left-4">
+						<div class="home-partners-text">
+							<h3>Assessors</h3>
+							<p>Assess cloud services to ensure they meet FedRAMP requirements</p>
+							<a href="{{site.baseurl}}/assessors/" class="partner-learn-more"><button>Learn More</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>	
 </section>
+
+<section id="auth-process" class="auth-process fedramp-page-container">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+					<h2 class="center">FedRAMP Authorization Process</h2>
+					<p class="auth-process-description margin-bottom-8">There are two ways to authorize a cloud service offering (CSO) through FedRAMP, through an individual agency or the Joint Authorization Board (JAB).</p>
+			</div>
+			
+		</div>
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+
+				<img class="display-none authorization-desktop" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-desktop.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+				<img class="display-none authorization-tablet" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-tablet.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+				<img class="display-none authorization-mobile" src="{{site.baseurl}}/assets/img/fedramp-authorization-process-home-mobile.svg" alt="{{ page.fedramp-authorization-chart-alt-text }}">
+				
+				<p class="optional-auth margin-top-4"><em>Note&#58; Readiness Assessment is optional but highly recommended</em></p>
+			</div>
+		</div>
+	</div>	
+</section>
+
 <section class="fedramp-glance">
-<h2>{{ page.fedramp-at-a-glance-title }}</h2>
+<h2>FedRAMP at a Glance</h2>
 <ul class="glance-numbers">
 	<li>
-	{{ page.at-a-glance-one-image }}
+	<img src="{{site.baseurl}}/assets/img/glance-ready.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-one-title }}</p>
-	<p class="number">{{ page.at-a-glance-one-number }}</p>
+	<p>Ready</p>
+	<p class="number">22</p>
 	</span>
 	</li>
 	
 	<li>
-		{{ page.at-a-glance-two-image }}
+		<img src="{{site.baseurl}}/assets/img/glance-process.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-two-title }}</p>
-	<p class="number">{{ page.at-a-glance-two-number }}</p>
+	<p>In Process</p>
+	<p class="number">54</p>
 	</span>
 	</li>
 	
 	<li>
-		{{ page.at-a-glance-three-image }}
+		<img src="{{site.baseurl}}/assets/img/glance-authorized.svg" alt="">
 	<span>
-	<p>{{ page.at-a-glance-three-title }}</p>
-	<p class="number">{{ page.at-a-glance-three-number }}</p>
+	<p>Authorized</p>
+	<p class="number">179</p>
 	</span>
 	</li>
 </ul>

@@ -81,9 +81,9 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/preview/gsa/fedramp-gov/uswds-update-look/') {
+		if (current == '/preview/gsa/fedramp-gov/2.0PartnerPages/') {
 				$("#navigation ul li a").removeClass("active");
-		        $("#navigation ul li a").first().addClass("active");
+//		        $("#navigation ul li a").first().addClass("active");
 		    }
 });
 
