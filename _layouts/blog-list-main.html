@@ -17,15 +17,11 @@ layout: base
 	</div>
 </section>
 <section class="lightest-gray-bkg fedramp-page-container">
-	<div class="grid-container">
-		<div class="grid-row grid-gap">
-			<div class="desktop:grid-col-12">
+	
 				{% if page.image %}
 					<img src="{{ page.image | prepend: site.baseurl }}">
 				{% endif %}
 				{{ content }}
-			</div>
-		</div>
-	</div>
+	
 </section>	
 <a id="button"></a> 
