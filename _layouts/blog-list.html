@@ -3,7 +3,6 @@ layout: blog-list-main
 ---
 {{ content }}
 
-<!-- 2 Col attempt -->
 	<div class="grid-container">
 		<div class="grid-row grid-gap">
 			<div class="desktop:grid-col-12">
@@ -11,22 +10,21 @@ layout: blog-list-main
 
     			<div class="usa-width-one-whole">
    					 {% include blog-entry.html post=post %}
+   				</div>
 
-   					</div>
-
-    {% unless forloop.last %}<div class="separater"></div>{% endunless %}
-{% endfor %}
+    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+				{% endfor %}
 			</div>
-						<div class="desktop:grid-col-12">
+			
+			<div class="grid-row">
 				{% for post in paginator.posts offset:1 %}
 
-    			<div class="usa-width-one-whole">
-   					 {% include blog-entry.html post=post %}
+    			<div class="desktop:grid-col-6">
+   					 {% include blog-entry-card.html post=post %}
+   				</div>
 
-   					</div>
-
-    {% unless forloop.last %}<div class="separater"></div>{% endunless %}
-{% endfor %}
+    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+				{% endfor %}
 			</div>
 			
 		</div>
