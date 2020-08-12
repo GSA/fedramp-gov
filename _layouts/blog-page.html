@@ -6,44 +6,46 @@ layout: base
 		<h1>Blog</h1>
 	</div>
 </div>
-<div class="grid-container">
-	<div class="grid-row grid-gap">
-		<div class="desktop:grid-col-9">
-			<h2>{{ page.title }}</h2>
-			<p class="date margin-bottom-4"><strong>{{ page.date | date: "%B %-d"}}</strong> | {{ page.date | date: "%Y"}}</p>
-			{% if page.image %}
-			<div class="page--banner"> 
-				<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ page.title }}">
-			</div>
-			{% endif %}
-			
-			<!--
-			<div class="author-date">
-				<p class="by">By {{ page.author }}</p>
-				
-				<span class="tag">
-				{% for tag in page.tags %}
-				{% capture tag_name %}{{ tag }}{% endcapture %}
-				<a href="../{{ tag_name | slugify }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-				{% endfor %}
-				</span>
-			</div>
-			-->
-			
-			{{ content }}
-			<p class="back-to-blog margin-top-4"><a href="/blog/"><i class="fas fa-arrow-left text-red"></i> Back to Blog</a></p>
-		</div>
-		<aside class="desktop:grid-col-3">
-			<div class="blog-sidebar">
-				<h3 class="no-line">Recent Posts</h3>
-				<ul>
-					{% for post in site.posts limit:5 %}
-					<li>
-					<a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
-					</li>
+<section class="fedramp-page-container">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="desktop:grid-col-9">
+				<h2>{{ page.title }}</h2>
+				<p class="date margin-bottom-4"><strong>{{ page.date | date: "%B %-d"}}</strong> | {{ page.date | date: "%Y"}}</p>
+				{% if page.image %}
+				<div class="page--banner"> 
+					<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ page.title }}">
+				</div>
+				{% endif %}
+
+				<!--
+				<div class="author-date">
+					<p class="by">By {{ page.author }}</p>
+
+					<span class="tag">
+					{% for tag in page.tags %}
+					{% capture tag_name %}{{ tag }}{% endcapture %}
+					<a href="../{{ tag_name | slugify }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
 					{% endfor %}
-				</ul>
+					</span>
+				</div>
+				-->
+
+				{{ content }}
+				<p class="back-to-blog margin-top-4"><a href="/blog/"><i class="fas fa-arrow-left text-red"></i> Back to Blog</a></p>
 			</div>
-		</aside>
+			<aside class="desktop:grid-col-3">
+				<div class="blog-sidebar">
+					<h3 class="no-line">Recent Posts</h3>
+					<ul>
+						{% for post in site.posts limit:5 %}
+						<li>
+						<a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</aside>
+		</div>
 	</div>
-</div>
+</section>	

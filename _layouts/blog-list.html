@@ -2,6 +2,34 @@
 layout: blog-list-main
 ---
 {{ content }}
+
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="desktop:grid-col-12">
+				{% for post in paginator.posts limit:1 %}
+
+    			<div class="usa-width-one-whole">
+   					 {% include blog-entry.html post=post %}
+   				</div>
+
+    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+				{% endfor %}
+			</div>
+		</div>
+		<div class="grid-row grid-gap">
+				{% for post in paginator.posts offset:1 %}
+
+    			<div class="full-col desktop:grid-col-6 blog-card">
+   					 {% include blog-entry-card.html post=post %}
+   				</div>
+
+    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+				{% endfor %}
+			</div>
+			
+		</div>
+
+<!--
 <section class="usa-grid-full">
 {% for post in paginator.posts %}
 
@@ -13,7 +41,7 @@ layout: blog-list-main
     {% unless forloop.last %}<div class="separater"></div>{% endunless %}
 {% endfor %}
 </section>
-
+-->
 
 <!-- Pagination links -->
 <section class="pagination usa-grid content-focus">
