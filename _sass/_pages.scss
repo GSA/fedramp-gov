@@ -1,4 +1,4 @@
-.page--banner {
+relevant-documents.page--banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,13 +164,12 @@ img.phase-icon {
 }
 
 ul.relevant-documents {
-	margin-left: 20px;
+	margin-left: 1.25rem;
 }
 
 .relevant-documents li {
-	font-weight: 800 !important;
-	margin-bottom: 20px;
-	font-weight: 1.25rem;
+	margin-bottom: 1rem;
+	font-size: 0.875rem;
 }
 
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
