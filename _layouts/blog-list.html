@@ -16,10 +16,10 @@ layout: blog-list-main
 				{% endfor %}
 			</div>
 		</div>
-		<div class="grid-row grid-gap">
+		<div class="grid-row fedramp-blog-card-row">
 				{% for post in paginator.posts offset:1 %}
 
-    			<div class="full-col desktop:grid-col-6 blog-card">
+    			<div class="full-col blog-card">
    					 {% include blog-entry-card.html post=post %}
    				</div>
 

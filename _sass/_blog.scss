@@ -258,6 +258,22 @@ h2.blog-roll-header {
 	padding: 0 0 40px 0;	
 }
 
+.fedramp-blog-card-row {
+	margin: 0 -3%;
+}
+
+.blog-card {
+	width: 44%;
+	margin: 0 3%;
+	float: left;
+}
+
+.blog-card-interior {
+	background: white; 
+	height: 570px;
+	margin-bottom: 2.5rem;
+}
+
 p.blog-list-day {
 	font-size: 2.5rem;
 	font-weight: 900 !important;
@@ -274,7 +290,6 @@ p.blog-list-day {
 p.blog-list-day::after {
 	content: "";
 	display: block;
-	padding-top: 12px;
 	border-bottom: solid 1px $light-gray;
 	width: 44px;
 	margin: auto;
