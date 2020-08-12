@@ -19,7 +19,7 @@ layout: blog-list-main
 		<div class="grid-row grid-gap">
 				{% for post in paginator.posts offset:1 %}
 
-    			<div class="desktop:grid-col-6 blog-card">
+    			<div class="full-col desktop:grid-col-6 blog-card">
    					 {% include blog-entry-card.html post=post %}
    				</div>
 
