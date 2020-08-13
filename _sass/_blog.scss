@@ -185,6 +185,7 @@ p.date {
 	ul {
 		padding: 0px;
 		list-style: none;
+		margin: 0;
 			li {
 				list-style: none; 
 				padding: .75rem 0;
@@ -403,6 +404,10 @@ p.continue-reading {
 		color: white;
 		background: $teal;
 	}
+	
+	&:focus {
+		outline: none;
+	}
 }
 
 .page-blog .readmore a.more-link {
@@ -558,6 +563,7 @@ a.link-arrow-left {
 	 border-top: solid 1px $light-gray;
 	 border-bottom: solid 1px $light-gray;
 	 padding: 1.25rem 0;
+	 margin-bottom: 3rem;
 		img {
 		width: 100%;
 		margin: auto;
