@@ -6,7 +6,7 @@ layout: base
 		<h1> {{ page.title }}</h1>
 	</div>
 </div>
-<section class="dark-blue-bkg">
+<section class="dark-blue-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="grid-row">
 			<div class="desktop:grid-col-12">
@@ -16,16 +16,23 @@ layout: base
 		</div>
 	</div>
 </section>
-<section class="lightest-gray-bkg">
-	<div class="grid-container">
-		<div class="grid-row grid-gap">
-			<div class="desktop:grid-col-12">
+<section class="lightest-gray-bkg fedramp-page-container">
+	
 				{% if page.image %}
 					<img src="{{ page.image | prepend: site.baseurl }}">
 				{% endif %}
 				{{ content }}
+
+	<div class="grid-container button-container">
+		<div class="grid-row button-row">
+			<div class="desktop:grid-col-12">
+				<button class="blog-load-more-button" id="loadMore">Load More</button>
 			</div>
 		</div>
 	</div>
-</section>	
+	
+</section>
+
+<!-- back to top button 
 <a id="button"></a> 
+-->

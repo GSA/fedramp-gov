@@ -101,6 +101,11 @@ h1, h2, h3, h4, h5, h6 {
 	h2.no-line::after {
 		content: none;
 	}
+	
+	h2.phase-header {
+		margin-bottom: 0;
+		padding-bottom: .5rem;
+	}
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
@@ -129,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 	h3.center {
 		text-align: center;
+		padding-right: 0;
 	}
 
 	h3::after {
@@ -197,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 h4 {
 	color: $dark-gray;
 	font-size: 1.125rem;
-	margin: 30px 0 10px 0 !important;
+	margin: 30px 0 10px 0;
 }
 
 h6 {
@@ -245,7 +251,7 @@ a.focus-within:active {
 }
 
 legend,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   margin-bottom: 20px;
 }
 
@@ -288,11 +294,11 @@ ul.red-bullets ul li::before, p.sub-bullet::before {
 	margin-left: -1em;
 }
 
-@media all and (min-width: 0px) and (max-width: 1023px) {
-	ol.left-numbers {
-		padding-left: 1rem;
-	}
+
+ol.left-numbers {
+	padding-left: 1rem;
 }
+
 
 
 ol.red-numbers {
