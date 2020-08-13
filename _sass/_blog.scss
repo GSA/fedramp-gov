@@ -388,14 +388,17 @@ p.continue-reading {
 }
 
 .button-row {
-	margin: 0 -1%;
+//	margin: 0 -1%;
 }
+
+
 
 .blog-load-more-button {
 	width: 100%;
 	padding: 0;
+	margin: 0;
+	background: transparernt;
 	position: relative;
-	top: -5rem;
 	text-align: center;
 	cursor: pointer;
 	height: 3rem;
@@ -407,11 +410,20 @@ p.continue-reading {
 	
 	&:hover {
 		color: white;
-		background: $teal;
+		background: transparent;
 	}
 	
 	&:focus {
 		outline: none !important;
+	}
+}
+
+.load-more-bkg {
+	background: #ffffff;
+	cursor: pointer;
+	
+	&:hover {
+		background: $teal;
 	}
 }
 
