@@ -120,7 +120,7 @@ $(function () {
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
         $(".blog-card:hidden").slice(0, 2).addClass('display');
-        if ($(".blog-card:hidden").length == 1200) {
+        if ($(".blog-card:hidden").length == 0) {
            $("#loadMore").remove();
         } else {
             $('html,body').animate({
@@ -130,7 +130,20 @@ $(function () {
     });
 });
 
-
+$('a[href=#top]').click(function () {
+    $('body,html').animate({
+        scrollTop: 0
+    }, 600);
+    return false;
+});
+ 
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+        $('.totop a').fadeIn();
+    } else {
+        $('.totop a').fadeOut();
+    }
+});
 
 /*
 
