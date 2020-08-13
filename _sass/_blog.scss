@@ -167,7 +167,9 @@ a.blog-read {
 
 p.date {
 	font-size: 1.625rem;
-	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif !important;
+	text-transform: uppercase;
+	font-weight: 300 !important;
 
 }
 
@@ -191,6 +193,7 @@ p.date {
 				
 				a {
 					text-decoration: none;
+					color: $dark-gray;
 				}
 			}
 		}
@@ -199,12 +202,17 @@ p.date {
 .back-to-blog {
 	font-size: 1.125rem;
 	text-transform: uppercase;
-	font-weight: bold !important;
+	font-weight: 800 !important;
+	padding-top: 1.25rem;
 	
 	a {
 		text-decoration: none;
-		color: $black;
+		color: $dark-gray;
 	}
+}
+
+.blog-arrow {
+	margin-right: 8px;
 }
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -226,10 +234,24 @@ p.blog-list-text {
 	color: $mid-gray !important;
 }
 
+h2.blog-list::after {
+		content: "";
+		display: block;
+		padding-top: 24px;
+		border-bottom: solid 1px white;
+		width: 88px;
+}
 
-.page-blog h2 {
+h3.blog-list {
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+
+h2.blog-post, h2.blog-list-title {
 	margin-top: 6px;
 	color: $mid-gray;
+	text-align: left;
 	
 	a {
 		text-decoration: none;
@@ -242,9 +264,19 @@ p.blog-list-text {
 	}
 }
 
-.page-blog h2::after {
+h2.blog-post::after, h2.blog-list-title::after {
 		content: none;
 	}
+
+@media (min-width: 0) and (max-width: 768px) {
+	h2.blog-post {
+		font-size: 1.75rem;
+	}
+	
+	p.date {
+		font-size: 1.25rem;
+	}
+}
 
 .page-blog .meta ul {
 	padding: 0;
@@ -277,6 +309,12 @@ p.blog-list-text {
 	background: white; 
 	height: 570px;
 	margin-bottom: 2.5rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.blog-card-interior {
+		padding: 1rem 0 0 0;
+	}
 }
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -355,8 +393,8 @@ p.continue-reading {
 	text-align: center;
 	cursor: pointer;
 	height: 3rem;
-	font-size: 1.5rem;
-	font-weight: bold;
+	font-size: 1rem;
+	font-weight: 800;
 	color: $red;
 	text-transform: uppercase;
 	text-decoration: none !important;
