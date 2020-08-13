@@ -81,7 +81,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/preview/gsa/fedramp-gov/2.0PartnerPages/') {
+		if (current == '/preview/gsa/fedramp-gov/dev/') {
 				$("#navigation ul li a").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
@@ -129,6 +129,7 @@ $(function () {
         }
     });
 });
+
 
 
 
