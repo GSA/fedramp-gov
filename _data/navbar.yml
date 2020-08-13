@@ -70,7 +70,8 @@ assigned:
             show_in_footer: false 
         - 
             text: Tailored Authorization
-            is_external: https://tailored.fedramp.gov/
+            href: tailored-authorization.md
+            permalink: /tailored-authorization/
             show_in_menu: true
             show_in_footer: false
     -

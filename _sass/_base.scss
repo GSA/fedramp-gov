@@ -55,6 +55,7 @@ main#main:focus {
 	orphans: 3;
 	font-weight: 400;
 	letter-spacing: .02em;
+	margin-block-start: .5em;
 }
 
 body,
@@ -108,6 +109,11 @@ h1, h2, h3, h4, h5, h6 {
 	h2.no-line::after {
 		content: none;
 	}
+	
+	h2.phase-header {
+		margin-bottom: 0;
+		padding-bottom: .5rem;
+	}
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
@@ -136,8 +142,12 @@ h1, h2, h3, h4, h5, h6 {
 	
 	h3.center {
 		text-align: center;
+<<<<<<< HEAD
 		padding: 0;
 		display: block;
+=======
+		padding-right: 0;
+>>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 	}
 
 	h3::after {
@@ -191,11 +201,22 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+@media (min-width: 0) and (max-width: 639px) {
+	.grid-row h3.phase-header::after {
+		content: '';
+		border-bottom: 1px solid $light-gray;
+		bottom: -12px;
+		display: block;
+		left: 0;
+		position: relative;
+	}
+}
+
 
 h4 {
 	color: $dark-gray;
 	font-size: 1.125rem;
-	margin: 30px 0 10px 0 !important;
+	margin: 30px 0 10px 0;
 }
 
 h6 {
@@ -215,7 +236,11 @@ a.focus-within:active {
 }
 
 .white-bkg {
+<<<<<<< HEAD
 	background: white;	
+=======
+	background: white;
+>>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 }
 
 .dark-blue-bkg {
@@ -243,7 +268,7 @@ a.focus-within:active {
 }
 
 legend,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   margin-bottom: 20px;
 }
 
@@ -286,6 +311,13 @@ ul.red-bullets ul li::before, p.sub-bullet::before {
 	margin-left: -1em;
 }
 
+
+ol.left-numbers {
+	padding-left: 1rem;
+}
+
+
+
 ol.red-numbers {
 	list-style: none; 
 	counter-reset: li; 
@@ -302,9 +334,11 @@ ol.red-numbers li::before {
 	left: -3px;
 }
 
+
 ol.red-numbers li {
 	counter-increment: li;
 }
+
 
 p.sub-bullet {
 	margin-top: 0;

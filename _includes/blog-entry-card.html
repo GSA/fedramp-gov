@@ -1,10 +1,10 @@
-<div class="grid-row grid-gap padding-4" style="background: #ffffff;">
-	<div class="tablet:grid-col-6">
+<div class="grid-row grid-gap padding-4 blog-card-interior">
+	<div class="tablet:grid-col-12">
     	<a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">
     		<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"> 
     	</a>
 	</div>
-    <div class="tablet:grid-col-6">
+    <div class="tablet:grid-col-12">
 		<div class="grid-row">
 			<div class="desktop:grid-col-3 padding-x-2">
 				<p class="blog-list-day">
@@ -15,8 +15,8 @@
 				</p>
 			</div>
 			<div class="desktop:grid-col-9 padding-x-2">
-				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-				<p class="blog-list-text">{{ post.content | strip_html | truncatewords: 40 }}</p>
+				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title | truncatewords: 10 }}</a></h2>
+				<p>{{ post.content | strip_html | truncatewords: 14 }}</p>
 				<p class="continue-reading"><a class="" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Continue Reading...</a></p>
 			</div>
 		</div>

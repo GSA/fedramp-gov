@@ -33,6 +33,10 @@
 	}
 }
 
+.blog-column {
+	float: left;
+}
+
 .blog-link {
 	bottom: 0;
 	left: 0;
@@ -213,17 +217,18 @@ p.date {
 h2.blog-list-title {
 	font-size: 1.125rem;
 	font-weight: bold;
-	color: $black !important;
+	color: $dark-gray !important;
 	line-height: 1.625rem;
 	text-transform: uppercase;
 }
 
-h2.blog-roll-header {
-	color: $teal !important;
+p.blog-list-text {
+	color: $mid-gray !important;
 }
 
+
 .page-blog h2 {
-	margin-top: 0;
+	margin-top: 6px;
 	color: $mid-gray;
 	
 	a {
@@ -254,12 +259,49 @@ h2.blog-roll-header {
 	padding: 0 0 40px 0;	
 }
 
+.fedramp-blog-card-row {
+	margin: 0 -3%;
+}
+
+.blog-card {
+	width: 44%;
+	margin: 0 3%;
+	float: left;
+	display: none;
+	&.display {
+		display: inline-block;
+	}
+}
+
+.blog-card-interior {
+	background: white; 
+	height: 570px;
+	margin-bottom: 2.5rem;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+	.blog-card {
+		width: 100%;
+		float: none;
+		display: none;
+		&.display {
+			display: inline-block;
+		}	
+	}
+	
+	.blog-card-interior {
+		height: auto;
+	}
+}
+
+
 p.blog-list-day {
 	font-size: 2.5rem;
 	font-weight: 900 !important;
 	text-align: center;	
 	margin: 0;
 	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+	margin-block-start: 0 !important;
 	
 	a {
 		color: $mid-gray;
@@ -270,7 +312,6 @@ p.blog-list-day {
 p.blog-list-day::after {
 	content: "";
 	display: block;
-	padding-top: 12px;
 	border-bottom: solid 1px $light-gray;
 	width: 44px;
 	margin: auto;
@@ -279,12 +320,12 @@ p.blog-list-day::after {
 p.blog-list-month {
 	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif !important;
 	text-align: center;
-	color: $black;
+	color: $dark-gray;
 	font-weight: 600 !important;
 	text-transform: uppercase;
 	
 	a {
-		color: $black;
+		color: $dark-gray;
 		text-decoration: none;
 	}
 }
@@ -294,10 +335,37 @@ p.continue-reading {
 	text-transform: uppercase;
 	a {
 		text-decoration: none;
-		color: $black;
+		color: $mid-gray;
 	}
 }
 
+.button-container {
+	padding: 0;
+}
+
+.button-row {
+	margin: 0 -1%;
+}
+
+.blog-load-more-button {
+	width: 100%;
+	padding: 0;
+	position: relative;
+	top: -5rem;
+	text-align: center;
+	cursor: pointer;
+	height: 3rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $red;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	
+	&:hover {
+		color: white;
+		background: $teal;
+	}
+}
 
 .page-blog .readmore a.more-link {
 	margin: 15px auto 0 auto;

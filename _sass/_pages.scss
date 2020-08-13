@@ -1,4 +1,4 @@
-.page--banner {
+relevant-documents.page--banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -156,9 +156,21 @@ img.home-partners-icon {
 	max-width: 120px;
 }
 
+img.phase-icon {
+	max-width: 120px;
+}
 
 #main .page-banner h1, body .page-banner h1 {
 	font-size: 2.625rem;
+}
+
+ul.relevant-documents {
+	margin-left: 1.25rem;
+}
+
+.relevant-documents li {
+	margin-bottom: 1rem;
+	font-size: 0.875rem;
 }
 
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
@@ -178,7 +190,7 @@ section#rar, section#do-once {
 	border: none !important;
 }
 
-.authorization-phase-icon {
+.authorization-phase-icon, .tailored-phase-icon {
 	width: 120px;
 	margin: 0 auto 1rem auto;
 }
@@ -191,6 +203,12 @@ section#rar, section#do-once {
 	.authorization-phase-icon {
 		width: auto;
 		text-align: right;
+		margin: 0 2rem 0 0;
+	}
+	
+	.tailored-phase-icon {
+		width: auto;
+		text-align: left;
 		margin: 0 2rem 0 0;
 	}
 }
@@ -1870,6 +1888,10 @@ ul.program-basics-benefits {
 	
 	li {
 		margin-left: 20px;
+<<<<<<< HEAD
+=======
+		margin-bottom: 20px;
+>>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 	}
 }
 
@@ -1901,6 +1923,10 @@ ul.program-basics-goals li::before {
 	margin-left: -30px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 .basics-col {
 	min-height: 1px;
 	position: relative;
