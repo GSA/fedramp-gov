@@ -227,7 +227,7 @@ h2.blog-roll-header {
 }
 
 .page-blog h2 {
-	margin-top: 0;
+	margin-top: 6px;
 	color: $mid-gray;
 	
 	a {
@@ -278,12 +278,29 @@ h2.blog-roll-header {
 	margin-bottom: 2.5rem;
 }
 
+@media (min-width: 0) and (max-width: 768px) {
+	.blog-card {
+		width: 100%;
+		float: none;
+		display: none;
+		&.display {
+			display: inline-block;
+		}	
+	}
+	
+	.blog-card-interior {
+		height: auto;
+	}
+}
+
+
 p.blog-list-day {
 	font-size: 2.5rem;
 	font-weight: 900 !important;
 	text-align: center;	
 	margin: 0;
 	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+	margin-block-start: 0 !important;
 	
 	a {
 		color: $mid-gray;
@@ -321,6 +338,33 @@ p.continue-reading {
 	}
 }
 
+.button-container {
+	padding: 0;
+}
+
+.button-row {
+	margin: 0 -1%;
+}
+
+.blog-load-more-button {
+	width: 100%;
+	padding: 0;
+	position: relative;
+	top: -5rem;
+	text-align: center;
+	cursor: pointer;
+	height: 3rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $red;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	
+	&:hover {
+		color: white;
+		background: $teal;
+	}
+}
 
 .page-blog .readmore a.more-link {
 	margin: 15px auto 0 auto;
