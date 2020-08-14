@@ -11,6 +11,31 @@ relevant-documents.page--banner {
 
 /* --- About Page --- */
 
+.fedramp-governance-row {
+	margin: 2rem 1.66666% 0;
+}
+
+.governance-card {
+	width: 30%;
+	margin: 0 1.66666%;
+	float: left;
+	background: white;
+}
+
+.blog-card-interior {
+	background: white; 
+	height: 570px;
+	margin-bottom: 2.5rem;
+}
+
+
+@media (min-width: 0) and (max-width: 768px) {
+	.governance-card {
+		width: 100%;
+		float: none;
+	}
+}
+
 /* --- Agencies Tabs --- */
 
 .agency-tabs {
@@ -1324,27 +1349,6 @@ max-width: 200px;
 	}
 
 
-/*@media (min-width: 0) and (max-width: 800px) {
-	.home-new .front-four {
-		padding: 0 3%;
-		flex-flow: wrap;
-		max-width: 800px;
-		width: 100%;
-		margin: -250px auto 0 auto;
-		h5 {
-			font-size: 1.2em !important;
-		}
-		.program-basics {
-			width: 100%;
-			flex-flow: row;
-			max-width: none;
-		}
-	}
-}*/
-/*
-.home-new #home-banner {
-	z-index: -1;
-}*/
 
 @media (min-width: 0) and (max-width: 980px) {
   .home-new #home-banner {
@@ -1939,7 +1943,6 @@ ul.program-basics-goals li::before {
 	left: -20px; 
 	margin-left: -30px;
 }
-
 
 .basics-col {
 	min-height: 1px;

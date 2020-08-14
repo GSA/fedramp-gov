@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: governance
 title: Governance
 permalink: /governance/
 image: /assets/img/page-images/governance.png
