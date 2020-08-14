@@ -15,8 +15,8 @@
 				</p>
 			</div>
 			<div class="desktop:grid-col-9 padding-x-2">
-				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title | truncatewords: 10 }}</a></h2>
-				<p>{{ post.content | strip_html | truncatewords: 14 }}</p>
+				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title | truncate: 40 }}</a></h2>
+				<p>{{ post.content | strip_html | truncate: 140 }}</p>
 				<p class="continue-reading"><a class="" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Continue Reading...</a></p>
 			</div>
 		</div>
