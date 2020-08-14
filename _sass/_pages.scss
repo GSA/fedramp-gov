@@ -11,8 +11,20 @@
 
 /* --- About Page --- */
 
+ul.governance-checklist {
+}
+
+ul.governance-checklist li {
+	padding-left: 20px;
+	margin-bottom: 1rem;
+}
+
+ul.governance-checklist li .check {
+	font-size: 1.5rem;
+}
+
 .fedramp-governance-row {
-	margin: 2rem 1.66666% 0;
+	margin: 0 1.66666% 3rem !important;
 }
 
 .governance-card {
@@ -21,13 +33,6 @@
 	float: left;
 	background: white;
 }
-
-.blog-card-interior {
-	background: white; 
-	height: 570px;
-	margin-bottom: 2.5rem;
-}
-
 
 @media (min-width: 0) and (max-width: 768px) {
 	.governance-card {
@@ -204,6 +209,7 @@ section#rar, section#do-once {
 
 .authorization-phase-icon {
 	width: 120px;
+	text-align: center;
 	margin: 0 auto 1rem auto;
 }
 

@@ -9,12 +9,12 @@ layout: full-width
 			</div>
 		</div>
 		<div class="full-row grid-row padding-top-2">
-			<div class="full-col desktop:grid-col-6">
+			<div class="full-col desktop:grid-col-6 desktop:padding-right-2">
 				<div class="intro-text">
 					<p>FedRAMP is governed by executive branch entities that work in a collaborative manner to develop, manage, and operate the program. The governing entities of FedRAMP include:</p>
 				</div>
 			</div>
-			<div class="full-col desktop:grid-col-6 desktop:padding-left-1">
+			<div class="full-col desktop:grid-col-6 desktop:padding-left-2">
 				<div class="intro-text">
 					<p>Joint Authorization Board (JAB)</p>
 					<p>Office of Management and Budget (OMB)</p>
@@ -28,42 +28,62 @@ layout: full-width
 
 <section class="blue-bkg fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row">
-			<div class="full-col padding-8 desktop:grid-col-12 white-bkg">
+		<div class="full-row grid-row fedramp-governance-row">
+			<div class="full-col padding-x-8 padding-y-4 desktop:grid-col-12 white-bkg">
 				<div class="full-row grid-row">
 					<div class="full-col tablet:grid-col-4 grid-offset-4">
-						<img class="float-left" src="{{site.baseurl}}/assets/img/governance-dhs.svg" alt="">
-						<img class="float-left" src="{{site.baseurl}}/assets/img/governance-gsa.svg" alt="">
-						<img class="float-left" src="{{site.baseurl}}/assets/img/governance-dod.svg" alt="">
+							<div class="grid-row">
+								<div class="grid-col-4">
+									<div class="authorization-phase-icon">
+										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-dhs.svg" alt="">
+									</div>
+								</div>
+								<div class="grid-col-4">
+									<div class="authorization-phase-icon">
+										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-gsa.svg" alt="">
+									</div>
+								</div>
+								<div class="grid-col-4">
+									<div class="authorization-phase-icon">
+										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-dod.svg" alt="">
+									</div>
+								</div>
+							</div>
 					</div>
 				</div>	
-				<h3 class="center no-line">Joint Authorization Board (JAB)</h3>
+				<h3 class="center no-line margin-top-0 margin-bottom-4">Joint Authorization Board (JAB)</h3>
 				<p>The JAB is the primary governance and decision-making body for FedRAMP. The JAB consists of the Chief Information Officers from DoD, DHS, and GSA. View the JAB Charter. The JAB is responsible for&#58;</p>
-				<ul class="fa-ul governance-checklist">
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Defining and regularly update the FedRAMP security authorization requirements</li>
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Approve accreditation criteria for third-party assessment organizations (3PAOs)</li>
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Review authorization packages for cloud services based on the priority queue</li>
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Grant provisional authorizations for cloud services that can be used as an initial approval that executive departments and agencies leverage in granting security authorizations and an accompanying authority to operate (ATO) for use;</li>
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Ensure that provisional authorizations are reviewed and updated regularly and notify executive departments and agencies of any changes to provisional authorizations including removal of such authorizations; </li>
-					<li><span class="fa-li"><i class="far fa-check-circle fa-2x text-red"></i></span>Establish and publish priority queue requirements for authorization package reviews</li>
+				<ul class="fa-ul governance-checklist psdding-x-2">
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Defining and regularly update the FedRAMP security authorization requirements</li>
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Approve accreditation criteria for third-party assessment organizations (3PAOs)</li>
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Review authorization packages for cloud services based on the priority queue</li>
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Grant provisional authorizations for cloud services that can be used as an initial approval that executive departments and agencies leverage in granting security authorizations and an accompanying authority to operate (ATO) for use;</li>
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Ensure that provisional authorizations are reviewed and updated regularly and notify executive departments and agencies of any changes to provisional authorizations including removal of such authorizations; </li>
+					<li><span class="fa-li"><i class="far fa-check-circle check text-red"></i></span>Establish and publish priority queue requirements for authorization package reviews</li>
 				</ul>
 			</div>
 		</div>
 
-		<div class="grid-row fedramp-governance-row margin-top-4">
+		<div class="grid-row">
 			<div class="desktop:grid-col-4 padding-4 governance-card">
-				<img class="" src="{{site.baseurl}}/assets/img/governance-omb.svg" alt="">
-				<h3 class="center">Office of Management and Budget (OMB)</h3>
+				<div class="authorization-phase-icon">
+					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-omb.svg" alt="">
+				</div>	
+				<h3 class="center margin-top-0">Office of Management and Budget (OMB)</h3>
 				<p>The governing body that issued the FedRAMP policy memo which defines the key requirements and capabilities of the program</p>
 			</div>
 			<div class="desktop:grid-col-4 padding-4 governance-card">
-				<img class="" src="{{site.baseurl}}/assets/img/governance-cio-council.svg" alt="">
-				<h3 class="center">CIO Council</h3>
+				<div class="authorization-phase-icon">
+					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-cio-council.svg" alt="">
+				</div>
+				<h3 class="center margin-top-0">CIO Council</h3>
 				<p>Disseminates FedRAMP information to Federal CIOs and other representatives through cross-agency communications and events</p>
 			</div>
 			<div class="desktop:grid-col-4 padding-4 governance-card">
-				<img class="" src="{{site.baseurl}}/assets/img/governance-nist.svg" alt="">
-				<h3 class="center">National Institute for Standards and Technology (NIST)</h3>
+				<div class="authorization-phase-icon">
+					<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/governance-nist.svg" alt="">
+				</div>
+				<h3 class="center margin-top-0">National Institute for Standards and Technology (NIST)</h3>
 				<p>Advises FedRAMP on FISMA compliance requirements </p>
 			</div>
 		</div>
