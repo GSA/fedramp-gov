@@ -10,6 +10,16 @@
   width: $width;
 }
 
+.team-bkg {
+	background: url('../../assets/img/team-background.jpg') center repeat-y $lightest-gray;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.team-bkg {
+		background: $lightest-gray;
+	}
+}
+
 .team-container {
 	padding: 0;
 }
