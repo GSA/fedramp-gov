@@ -6,11 +6,11 @@ tag: pursuing-a-jab-authorization
 ---
 <p>CSPs that make a business decision to pursue a Joint Authorization Board (JAB) Provisional Authority to Operate (P-ATO) for their CSO are prioritized quarterly. During the prioritization process, the JAB aims to authorize cloud services it believes are most likely to be leveraged government-wide. More information on  the JAB Authorization Process can be found on the <a href="/jab-authorization/">JAB Authorization webpage</a>.</p>
 <p>Additionally, the documents, templates, and blogs below all relate to the FedRAMP JAB Authorization Process.</p>
-<table>
+<table class="usa-table">
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<div class="page-banner-container">
+	<div class="page-banner">
+		<h1> {{ page.title }}</h1>
+	</div>
+</div>
+<section class="dark-blue-bkg fedramp-page-container">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+				<h2 class="center blog-list">Focus on FedRAMP</h2>
+				<h3 class="center no-line blog-list" style="color: white; text-transform: none;">Discover what’s happening in the FedRAMP world.</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="lightest-gray-bkg fedramp-page-container">
+	
+				{% if page.image %}
+					<img src="{{ page.image | prepend: site.baseurl }}">
+				{% endif %}
+				{{ content }}
+	
+</section>
+
+<!-- back to top button 
+<a id="button"></a> 
+-->

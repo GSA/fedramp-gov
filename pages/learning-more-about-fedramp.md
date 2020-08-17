@@ -9,11 +9,11 @@ The Federal Risk and Authorization Management Program (FedRAMP) is a government-
 FedRAMP created and manages a core set of processes to ensure effective, repeatable cloud security for the government. FedRAMP establishes a mature [Marketplace](https://marketplace.fedramp.gov/#/products) to increase utilization and familiarity with cloud services while facilitating collaboration across government through an open exchange of lessons learned, use cases, and tactical solutions.
 
 If you are not familiar with FedRAMP, the documents, templates, and blogs listed below should help guide your understanding of FedRAMP at a basic level.
-<table>
+<table class="usa-table">
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>

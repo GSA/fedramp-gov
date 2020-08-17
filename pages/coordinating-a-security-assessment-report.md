@@ -5,7 +5,7 @@ permalink: /coordinating-a-security-assessment-report/
 tag: developing-a-security-assessment-report
 ---
 <p>The Security Assessment Report (SAR) contains the results of the comprehensive security assessment of a CSP’s cloud service offering, including a summary of the risks associated with vulnerabilities of the system identified during testing. The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
-<p>A CSP’s Independent Assessor (IA) Third Party Assessment Organization (3PAO) is responsible for generating the SAR following assessment and the document must align with the assessment methodology described in the Security Assessment Plan (SAP) and address the control detail described in the System Security Plan (SSP). An effective SAR should inform a CSP’s Plan of Action & Milestones (POA&M) and reflect the true risk posture of the system.
+<p>A CSP’s Independent Assessor (IA) Third Party Assessment Organization (3PAO) is responsible for generating the SAR following assessment and the document must align with the assessment methodology described in the Security Assessment Plan (SAP) and address the control detail described in the System Security Plan (SSP). An effective SAR should inform a CSP’s Plan of Action &amp; Milestones (POA&amp;M) and reflect the true risk posture of the system.
 </p>
 <p>Like SSPs, Agency AOs or designees are responsible for reviewing and approving the SARs ensuring the appropriate level of testing was done and that they risk posture associated with the system is acceptable to that Agency, both at time of assessment and during ConMon.</p>
 <p>In addition to a completed SAR template, 3PAOs should complete and append the following materials to their assessment report.
@@ -24,11 +24,13 @@ tag: developing-a-security-assessment-report
 <li>Penetration Test Repor</li>
 </ul>
 
-<table>
+
+<div class="responsive-table">
+<table class="usa-table">
 <tr>
-<th>Documents</th>
-<th>Templates</th>
-<th>Blogs</th>
+<th scope="col">Documents</th>
+<th scope="col">Templates</th>
+<th scope="col">Blogs</th>
 </tr>
 <td>
 <ul>
@@ -54,3 +56,5 @@ tag: developing-a-security-assessment-report
 {% endfor %}
 </ul>
 </td>
+	</table>
+	</div>

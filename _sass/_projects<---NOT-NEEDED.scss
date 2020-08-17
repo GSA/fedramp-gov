@@ -1,0 +1,110 @@
+/* ----  
+
+@media screen and (min-width: 600px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 102.5%;
+  }
+}
+
+.card {
+  display: block;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  position: relative;
+  text-decoration: none;
+
+  @media all and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.3%;
+    min-height: 450px;
+    width: 31%;
+  }
+
+  &:active {
+    box-shadow: #3e94cf;
+  }
+}
+
+.card-link {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.card-banner {
+  margin: 3rem;
+  @media all and (min-width: $on-laptop) {
+    flex: 1 0 auto;
+  }
+}
+
+.card-image {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 150px;
+  width: 100%;
+}
+
+.card-banner {
+  color: $light-blue;
+  margin-top: 0;
+  a {
+  	text-decoration: none;
+  	&:hover {
+  		text-decoration: underline;
+  	}
+  }
+}
+
+.card-summary {
+  font-size: 16px;
+  margin-bottom: 0;
+
+  em {
+    font-style: normal;
+  }
+}
+
+a.card-read {
+	color: #fff;
+}
+
+.card-read {
+  margin: 0 auto;
+  color: #0071bc;
+  width: 40%;
+  text-transform: uppercase;
+  background: $light-blue;
+  padding: 10px;
+  font-size: 1.4875rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:visited {
+    color: #fff;
+  }
+
+  svg {
+    display: inline-block;
+    height: 1.2rem;
+    margin-bottom: -1px;
+    width: 1.2rem;
+    margin-left: 4px;
+  }
+}
+
+#main section.usa-grid.usa-section h2 {
+	text-align: center;
+	width: 100%;
+	float: none;
+	margin: 0 auto 20px auto;
+}
+
+-- */

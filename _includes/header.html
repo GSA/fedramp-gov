@@ -2,78 +2,123 @@
 
 <header class="usa-header usa-header-basic" role="banner">
   <!-- Gov banner BEGIN -->
-  <div class="usa-banner">
-    <div class="usa-accordion">
-      <header class="usa-banner-header">
-        <div class="usa-grid usa-banner-inner">
-        <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/us_flag_small.png" alt="U.S. flag">
-        <p>An official website of the United States government</p>
-        <button class="usa-accordion-button usa-banner-button"
-          aria-expanded="false" aria-controls="gov-banner">
-          <span class="usa-banner-button-text">Here's how you know</span>
-        </button>
+<section class="usa-banner site-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{site.baseurl}}/assets/img/us_flag_small.png" alt="U.S. flag">
         </div>
-      </header>
-      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
-        <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-dot-gov.svg" alt="Dot gov">
-          <div class="usa-media_block-body">
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{site.baseurl}}/assets/img/icon-dot-gov.svg" role="img" alt="Dot gov">
+          <div class="usa-media-block__body">
             <p>
-              <strong>The .gov means it’s official.</strong>
+              <strong>Official websites use .gov</strong>
               <br>
-              Federal Government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a Federal Government site.
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
             </p>
           </div>
         </div>
-        <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/icon-https.svg" alt="SSL">
-          <div class="usa-media_block-body">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{site.baseurl}}/assets/img/icon-https.svg" role="img" alt="Https">
+          <div class="usa-media-block__body">
             <p>
-              <strong>The site is secure</strong>
+              <strong>Secure .gov websites use HTTPS</strong>
               <br>
-              The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.</p>
+              A <strong>lock</strong> ( <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span> ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
   <!-- Gov banner END -->
+  
+  	<!-- AV01 -->
+	<div style="display: none;">
+		{% assign recent_posts = "now" | date: "%s" | minus: 1678400 %}
+  		{% for post in site.posts %}
+			{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+			{% if post_time > recent_posts %}
+    				<p class="post-time">{{ post.last_modified_at | date: "%s" }}</p>
+			{% endif %}
+  		{% endfor %}
+	</div>
+
+	  <div class="search-feature">
+		<div class="search-wrapper">
+			<div class="bell">
+				<i class="fas fa-bell"></i>	  	
+
+				<button class="post-count" style="display: none;"></button> <!-- AV01 -->
+
+				<div id="alert-logic">
+					<div class="alert-wrapper">
+						<ul>
+							{% for post in site.posts %}
+								{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+								{% if post_time > recent_posts %}
+									<li class="current-post"><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+										<p class="date">{{ post.date | date: "%B %-d, %Y"}}</p>
+										<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+									</li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- AV01 end -->
   
   <!-- SEARCH START DISABLED -->
 
-  <div class="search-feature">
-  
+<!--  <div class="search-feature">-->
+<!--  <div class="search-wrapper">-->
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-      <input name='search' type='search' id="searchgovinput">
-
+      <input name="search" type="search" id="searchgovinput" placeholder="Search">
       <button type="submit" id="searchgovbutton">
-         <span class="usa-search-submit-text">Search</span>
+	  	<span class="usa-search-submit-text"><i class="fas fa-search"></i></span>
       </button>
     </form>
+  </div>
   </div>
 
  <!--SEARCH END -->
 
 
   <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <button class="usa-menu-btn">&#9776;</button>
+<!--    <div class="usa-navbar">-->
+      <button class="usa-menu-btn"><i class="fas fa-bars"></i></button>
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
           <a href="{{ site.url }}" accesskey="1" title="Home" aria-label="Home">
           {% if site.logo %}
-            <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-          {% else %}
+            <img class="desk" src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+			<img class="mobile" src="{{ site.logo-mobile | prepend: site.baseurl }}" alt="{{ site.title }}">          
+			{% else %}
             <h1 class="usa-header-title">{{ site.title }}</h1>
           {% endif %}
           </a>
         </em>
       </div>
-    </div>
-    <nav role="navigation" class="usa-nav">
-      <button class="usa-nav-close">
-        <img src="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/img/close.svg" alt="close">
+<!--    </div>-->
+    <nav role="navigation" class="usa-nav nav focus-within" id="navigation">
+      <button class="usa-nav__close">
+        <img src="{{ site.baseurl }}/assets/img/menu-close.svg" alt="close">
       </button>
       <ul class="usa-nav-primary usa-accordion">
       {% assign navs = site.data.navbar.assigned %}
@@ -81,23 +126,23 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-<li tabindex="0" class="parent">{{ nav.text }}<div class="plus-minus plus"></div>
-            <ul class="sub-menu">
+		<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
+            <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}
               <li>
 				{% if sub.is_external != null %}
-				<a href="{{ sub.is_external }}">{{ sub.text }}</a>
+				<a tabindex="0"href="{{ sub.is_external }}">{{ sub.text }}</a>
 				{% else %}
                 <a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
                   {{ sub.text }}
                 </a>
               {% endif %}
 				{% if sub.sub != null %}
-				<ul class="sub-sub-menu">
+				<ul class="sub-sub-menu dropdown" aria-label="sub-submenu">
 				{% for sub in sub.sub %}
-			  <li>
-			  	<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
+			  <li class="parent">
+			  	<a aria-haspopup="true" aria-expanded="false" tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
 			  	{{ sub.text }}
 			  	</a>
 			  </li>
@@ -113,7 +158,7 @@
       
           <li>
           {% if nav.is_external != null %}
-          <a href="{{ nav.is_external }}">{{ nav.text }}</a>
+          <a class="external" href="{{ nav.is_external }}">{{ nav.text }}</a>
           {% else %}
             <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
           </li>

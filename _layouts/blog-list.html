@@ -1,7 +1,45 @@
 ---
-layout: page
+layout: blog-list-main
 ---
 {{ content }}
+
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="desktop:grid-col-12">
+				{% for post in site.posts limit:1 %}
+
+    			<div class="usa-width-one-whole">
+   					 {% include blog-entry.html post=post %}
+   				</div>
+
+    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+				{% endfor %}
+			</div>
+		</div>
+		<div class="grid-row fedramp-blog-card-row">
+			{% for post in site.posts offset:1 %}
+
+			<div class="full-col blog-card">
+				 {% include blog-entry-card.html post=post %}
+			</div>
+
+			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+			{% endfor %}
+		</div>
+		
+		<div class="grid-row grid-gap button-row">
+			<div class="desktop:grid-col-12">
+				<div class="grid-row grid-gap load-more-bkg">
+					<button class="blog-load-more-button" id="loadMore">Show More</button>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+
+
+<!--
 <section class="usa-grid-full">
 {% for post in paginator.posts %}
 
@@ -13,12 +51,14 @@ layout: page
     {% unless forloop.last %}<div class="separater"></div>{% endunless %}
 {% endfor %}
 </section>
+-->
+
 <!-- Pagination links -->
-<section class="pagination usa-grid content-focus">
+<!--<section class="pagination usa-grid content-focus">
   <div class="previous">
     {% if paginator.previous_page %}
       <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-       <img src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-left.png"/> Previous {{ paginator.per_page }} posts
+       <img tilte="Previous" alt="Previous" src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-left.png"/> Previous {{ paginator.per_page }} posts
       </a>
     {% else %}
     <p></p>
@@ -30,10 +70,10 @@ layout: page
   <div class="next">
     {% if paginator.next_page %}
     <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-      Next {{ paginator.per_page }} posts <img src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-right.png"/>
+      Next {{ paginator.per_page }} posts <img title="Next" alt="Next" src="{{ site.baseurl }}/assets/vendor/uswds-1.1.0/img/arrow-right.png"/>
     </a>
     {% else %}
     <p></p>
     {% endif %}
   </div>
-</section>
+</section>-->

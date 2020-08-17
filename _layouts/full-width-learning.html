@@ -7,14 +7,17 @@
   <div class="usa-overlay"></div>
 
     {% include header.html %}
-    <div class="page-banner">
-    <h1> {{ page.title }}</h1>
-    </div>
+	  <div class="page-banner-container">
+		  <div class="page-banner">
+			<h1> {{ page.title }}</h1>
+		  </div>
+		</div>
       <main id="main" tabindex="-1">
       {{ content }}
     </main>
     {% include learning-main.html %}
     {% include footer.html %}
     {% include javascript.html %}
+	 <a id="button"></a> 
   </body>
 </html>

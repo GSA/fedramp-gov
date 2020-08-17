@@ -9,17 +9,17 @@ body-class: page-training
 These online courses consist of on-demand modules designed for specific stakeholder groups. Each course provides an in-depth focus around a specific step in the FedRAMP authorization process. Throughout each course, stakeholders will gain a better understanding of roles and responsibilities, security requirements, and best practices. 
 <h2>FedRAMP's Online Course Paths</h2>
 
-![image alt text](../../assets/img/learning-path.png)
+![Fedramps online learning path](../../assets/img/learning-path.png)
 <div id="path-one">
-<h2>Path 1: All Stakeholders</h2>
-<p>The first education path provides an overview of the FedRAMP program.</p>
-<h3 class="accordion">100-A: Welcome to FedRAMP</h3>
-<div class="panel">
-<p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
-<p><strong>Duration:</strong> 1 hour</p>
-<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
-</div>
+	<h2>Path 1: All Stakeholders</h2>
+	<p>The first education path provides an overview of the FedRAMP program.</p>
+	<h3 class="accordion">100-A: Welcome to FedRAMP</h3>
+	<div class="panel">
+		<p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
+		<p><strong>Duration:</strong> 1 hour</p>
+		<p>Sign-in to <a href="https://meet.gsa.gov/fedramp_training/event/login.html">attend this course.</a></p>
+		<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
+	</div>
 </div>
 <div id="path-two">
 <h2>Path 2: Cloud Service Providers (CSPs)</h2>

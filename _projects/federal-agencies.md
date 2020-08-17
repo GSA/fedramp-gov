@@ -8,77 +8,37 @@ tags: project
 image: 
 icon: /assets/img/project-images/fedagency-icon.png
 abstract: 
+
+fed-intro-title: This is a Test
+program-intro-text: The Federal Risk and Authorization Management Program (FedRAMP) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the Federal Government. FedRAMP empowers agencies to use modern cloud technologies, with emphasis on security and protection of federal information.
+
+
+mission-title: Mission
+mission-text: FedRAMP is a government-wide program that promotes the adoption of secure cloud services across the federal government by providing a standardized approach to security and risk assessment for cloud technologies and federal agencies. 
+
+benefits-title: Benefits
+benefits-checklist-1: Reduces duplicative efforts, inconsistencies, and cost inefficiencies associated. 
+benefits-checklist-2: Establishes a public-private partnership to promote innovation and the advancement of more secure information technologies. 
+benefits-checklist-3: Enables the federal government to accelerate the adoption of cloud computing by creating transparent standards and processes for security authorizations and allowing agencies to leverage security authorizations on a government-wide scale.
+
+goals-title: Goals
+goals-checklist-1: Grow the use of secure cloud technologies in use by government agencies.
+goals-checklist-2: Enhance the framework by which the government secures and authorizes cloud technologies. 
+goals-checklist-3: Build and foster strong partnerships with FedRAMP stakeholders.
+
+framework-title: Legal Framework
+framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank" class="text-white">OMB Circular A-130</a>, and FedRAMP policy.
+
+fisma-image: <img src="/assets/img/fisma-graphic.svg" alt="fisma" />
+fisma-title: FISMA
+fisma-text: Federal Information Security Modernization Act requires agencies to protect federal information
+
+omb-circular-image: <img src="/assets/img/omb-circular-graphic.svg" alt="OMB a130" />
+omb-circular-title: OMB Circular A-130
+omb-circular-text: OMB states that when agencies implement FISMA, they must use NIST standards and guidelines
+
+policy-image: <img src="/assets/img/fedramp-policy.svg" alt="fedramp policy" />
+policy-title: FedRAMP Policy
+policy-text: FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages
+
 ---
-<div>
-<p>In a constantly changing IT landscape, the migration of on-premise technologies to the cloud has only increased. Agencies have the opportunity to save money and time by adopting innovative cloud services to meet their critical mission needs. Agencies are required by law to protect any federal information that is collected, maintained, processed, disseminated, or disposed of by cloud service offerings, in accordance with <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP requirements</a>. </p>
-
-<p>FedRAMP is a unique government program that is at the epicenter of cloud technology, cybersecurity, and risk management. FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many times” approach that saves an estimated 30-40% of government authorization costs, by reducing both time and staff required to conduct Agency security assessments. FedRAMP maintains a <a href="https://marketplace.fedramp.gov/#/products">Marketplace</a> of all vendors that hold a FedRAMP designation, as well as a Secure Repository for all of the authorization packages for FedRAMP Authorized vendors.</p>
-
-
-<h2>FedRAMP Authorization: An Agency’s Perspective  </h2>
-
-<p>FedRAMP facilitates collaboration across the federal government and enables effective stakeholder alignment during the FedRAMP authorization process. Prior to engaging a Cloud Service Provider (CSP), it is important that agencies understand their technical requirements, to include determination of the type of cloud service/scope of services needed, cloud deployment model, data sensitivities, and other pertinent information. </p>
-</div>
-<section id="pre-auth">
-
-<h3>Pre-Authorization</h3>
-
-<p>Agencies should begin by defining their mission needs and specific requirements for a Cloud Services Offering (CSO), and research potential providers. We recommend agencies first check the <a href="https://marketplace.fedramp.gov/#/products">FedRAMP Marketplace</a> to see if there is a CSO that meets their needs that has already <a href="https://marketplace.fedramp.gov/#/products?status=In%20Process&sort=productName">started the FedRAMP process</a> or <a href="https://marketplace.fedramp.gov/#/products?status=Compliant&sort=productName">is authorized</a>. Agencies interested in a CSO that is already FedRAMP Authorized should request access to their package through our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Package_Request_Form.pdf">Package Request Form</a>. Agencies interested in a CSO that is In Process should inquire about their status by contacting the CSP directly, or emailing <a href="mailto:agency@fedramp.gov">agency@fedramp.gov</a>.</p>
-<p>Agencies interested in acquiring a provider that is not yet FedRAMP Authorized or FedRAMP In Process should contact the PMO to learn more about how to partner with the CSP to issue a FedRAMP authorization. We recommend reviewing our <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information on the Initial Authorization process. Additionally, please review <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">FedRAMP's Marketplace Designations for Cloud Service Providers</a> for guidance on FedRAMP in Process Requirements for Agency Authorizations. </p>
-<p>Agencies having difficulty selecting a CSO should reach out to <a href="mailto:agency@fedramp.gov">agency@fedramp.gov</a>. The PMO would be happy discuss options and share lessons learned from other Agencies.</p>
-</section>
-
-<section id="during-auth">
-
-<h3>During Authorization</h3>
-
-<p>To issue an Authority to Operate (ATO) for a provider that is already FedRAMP Authorized, Agencies should:</p>
-<ul>
-<li>Conduct a risk analysis by reviewing the CSP authorization package</li>
-<li>Determine if the risk posture is acceptable</li>
-<li>Determine if the CSP needs to meet additional requirements for Agency mission/business needs </li>
-<li>Approve the CSP package for authorization</li>
-<li>Issue an ATO for the CSP service/system</li>
-<li>Send the ATO letter to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a></li>
-</ul>
-
-<p>If an Agency is working with a CSP who is not yet FedRAMP Authorized, they will perform the initial authorization for the CSO. An Agency should first communicate their partnership with FedRAMP in accordance with our In Process Requirements found in our <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">Marketplace Designations for Cloud Service Providers Guidance</a>. The authorization process begins with a kick-off discussion among all stakeholders. Following kick-off, the CSP and assessor begin system vulnerability testing of the cloud service offering and consolidate security documentation within the security authorization package. An Agency’s role in authorization is to:</p>
-<ul>
-<li>Maintain open communication with the CSP and independent assessor to provide clarity and answer questions regarding specific security control requirements</li>
-<li>Review the CSP security authorization package, which includes:
-<ul>
-    <li><strong>System Security Plan (SSP)</strong> detailing the CSP’s system security environment</li>
-    <li><strong>System Assessment Plan (SAP)</strong> detailing the independent assessor's approach for vulnerability testing of the CSP’s system</li>
-    <li><strong>System Assessment Report (SAR)</strong> detailing the independent assessor’s findings and recommendations pursuant to performance of the SAP</li>
-    <li><strong>Plan of Actions and Milestones (POA&M)</strong> detailing the CSP's and independent assessor’s approach to addressing or identifying system vulnerabilities as well as the approach to continuous monitoring of the system</li>
-    </ul></li>
-<li>Direct the CSP for remediation of security vulnerabilities identified in the SAR, as needed</li>
-<li>Perform final review of a security authorization package, with a focus toward understanding the risk posture the Agency must accept by using the cloud service</li>
-</ul>
-
-<p>If an Agency accepts the risk posture illustrated by a CSP’s security authorization package, it falls to the Agency Authorizing Offical (AO) to issue an Authority to Operate (ATO) letter. Submission of the ATO letter to the CSP and FedRAMP imparts authorization status and prompts listing of the cloud service in the FedRAMP Marketplace. </p>
-<p>The FedRAMP PMO recommends agencies review the <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information about roles and responsibilities, best practices, and resources available to support them in the authorization process. </p>
-
-</section>
-
-<section id="post-auth">
-
-<h3>Post Authorization</h3>
-
-<p>It is incumbent upon each Agency to ensure the risk posture that was agreed upon at the time of authorization remains consistent throughout the lifecycle of the system at that Agency. Continuous monitoring of a cloud system includes monthly meetings between an Agency and CSP to review a system’s high-level transaction reports, security scans, and updated POA&M. Agencies should also assess CSPs annually, reviewing details about system changes and updates, and ensuring compliance with the originally accepted risk posture. </p>
-<p>As part of continuous monitoring, FedRAMP recommends the following best practices:</p>
-<ul>
-<li>Perform system scanning at least monthly, with a recommendation for even greater frequency</li>
-<li>Require the CSP to seek approval following monthly and annual assessments as an operational requirement (OR) for continued use of the system</li>
-<li>Validate the remediation of system vulnerabilities within 30 days of discovery of high and critical vulnerabilities. Validate the remediation of system vulnerabilities within 90 days of discovery for moderate vulnerabilities. Validate the remediation of system vulnerabilities within 180 days of discovery for low vulnerabilities. </li>
-<li>Reach out to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for support during continuous monitoring and to address any gaps in received information from CSPs</li>
-</ul>
-<p>Agencies can find further detail regarding the level of effort and approach to authorization in FedRAMP’s <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a>. </p>
-
-</section>
-
-<section id="support">
-<h3>Support</h3>
-<p>FedRAMP is an example of a true partnership between the public sector and industry; there are over 120 Federal Agencies and 160+ industry partners actively engaged with the program.  It is one of our priorities to support Agencies and their journey to innovate, modernize, save time and money, and protect citizen data using the latest cloud technologies. We are here to assist and guide Agencies through the FedRAMP authorization process, as well as promote collaboration across the federal government. If we can be of any support, please do not hesitate to contact us at <a href="mailto:agency@fedramp.gov">agency@fedramp.gov</a>.</p>
-
-</section>

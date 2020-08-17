@@ -7,6 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+	
+	{% if page.summary %}
+		<meta name="description" content="{{ page.summary | escape }}">
+		{% endif %}
+		{%if page.tags %}
+		<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+	{%endif %}
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <meta property="og:type" content="website">
@@ -34,6 +41,9 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+	<!-- <script type="module" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.mjs"></script> -->
+
 </head>

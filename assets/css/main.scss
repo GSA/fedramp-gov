@@ -4,21 +4,35 @@
 
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Muli:wght@300;400;500;700;800;900&display=swap');
+
 // Our variables
-$base-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$sans-font: 	   'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
-$serif-font:       'Merriweather', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+$base-font-family: 'Muli', sans-serif;
+$sans-font: 	   'Muli', sans-serif;
+$title-font:		'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$serif-font:       'montserrat', 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 $base-font-size:   1.7rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-$fr-black: #212121;
-$dark-blue: #112e51;
-$light-blue: #205493;
-$teal: #59B2D9;
-$fr-red: #E41C3f;
-$dark-grey: #D6d7d9;
-$light-grey: #fbfdff;
-$spacing-unit:     30px;
+$black: #212121;
+$dark-blue: #162E51;
+$light-blue: #1A4480;
+$teal: #0A90B7;
+$light-teal: #bde2f9;
+$lighter-teal: #D9F1FD;
+$red: #C71F25;
+$dark-red: #A00A0F;
+$dark-gray: #454545;
+$mid-gray: #757575;
+$light-gray: #D0D0D0;
+$lightest-gray: #f2f2f2;
+$spacing-unit: 30px;
+$dark-red: #970B22;
+$darkest-blue: #131836;
+$footer-teal: #D9F1FD;
+$footer-lines: #384D6A;
+$new-home-teal: #1889BC;
+$theme-color-primary-vivid: #1889BC;
 
 $background-color:         {{ site.colors.background }};
 $headers-color:            {{ site.colors.headers }};
@@ -79,6 +93,19 @@ $desktop: 1200px;
 	display: table;
 }
 
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 // These contain overrides and additions to the Web Design System
 // (standards.18f.gov, found locally at assets/css/uswds.<version>.css)
@@ -91,7 +118,6 @@ $desktop: 1200px;
         "hero",
         "iframe",
         "pages",
-        "projects",
         "banners",
         "footer",
         "team",

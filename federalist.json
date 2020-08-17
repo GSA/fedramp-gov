@@ -1,0 +1,54 @@
+{
+  "headers": [
+    {
+      "/*.html": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/page-data/*": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/static/*": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/sw.js": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/*.js": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/*.css": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/*.map": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "/icons/*": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+	{
+	  "/assets/img/*": {
+	    "cache-control": "public, max-age=31536000, immutable"
+	  }
+	},
+    {
+      "/*": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    }
+  ]
+}

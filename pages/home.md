@@ -1,19 +1,12 @@
 ---
-layout: home
-body-class: home
+layout: home-new
+body-class: home-new
 permalink: /
 title: FedRAMP.gov
-excerpt: The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment
-keywords: FedRAMP, Federal Risk and Authorization Management Program, cloud, cloud CIO, federal cloud computing, cloud computing service models, cloud service providers, CSP, FedRAMP compliant, FedRAMP In-Process, FedRAMP Ready, GSA, General Services Administration
-hero-image: /assets/img/home-hero-unit.png
-hero-text: FedRAMP simplifies security for the digital age by providing a standardized approach to security for the cloud. 
-hero-secondary-text: FedRAMP facilitates the shift from insecure, tethered, tedious IT to secure, mobile, nimble, and quick IT. <p>The FedRAMP Program Management Office (PMO) mission is to promote the adoption of secure cloud services across the Federal Government by providing a standardized approach to security and risk assessment.</p>
-hero-button-text: Hey, me too!
-hero-button-link: /about/
-banner-heading: Do you have bold, innovative, and actionable ideas that can help transform the way Agencies secure federal data while keeping pace with modernization efforts?
-banner-text: FedRAMP is hosting an Ideation Challenge where we are sourcing ideas from all members of the cybersecurity community - CSPs, Agencies, 3PAOs, and others - to help shape how the government performs security authorizations.  
-challenge-image: /assets/img/fedramp-ideation-challenge-logo.png
-
-banner-button-text: Learn more
-banner-button-link: /challenge/
+hero-image: /assets/img/home-banner.png
+hero-text: Securing Cloud Products Across the Federal Government
+hero-secondary-text: The Federal Risk and Authorization Management Program (FedRAMP) provides a standardized approach to security authorizations for cloud service offerings.
+marketplace-text: The FedRAMP Marketplace provides a searchable, sortable database of cloud offerings that have achieved a FedRAMP designation.
+csp-header: Are you a CSP and donʼt know where to start?
+csp-text: To get started with FedRAMP, CSPs interested in pursing an authorization should complete a CSP Information Form. Completing this form will trigger the FedRAMP Program Management Office (PMO) to set up an intake call to discuss your system and the best authorization strategy for you.
 ---

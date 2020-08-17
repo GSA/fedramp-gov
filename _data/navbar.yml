@@ -1,11 +1,5 @@
 assigned:
     -
-        text: Home
-        href: pages/home.md
-        permalink: /
-        show_in_menu: true
-        show_in_footer: false
-    -
         text: About Us
         href: 
         permalink: /
@@ -13,9 +7,9 @@ assigned:
         show_in_footer: false  
         sub:
         - 
-            text: Program Overview
-            href: pages/about.md
-            permalink: /about/
+            text: Program Basics
+            href: pages/program-basics.md
+            permalink: /program-basics/
             show_in_menu: true
             show_in_footer: false
         - 
@@ -31,7 +25,7 @@ assigned:
             show_in_menu: true
             show_in_footer: false  
     -
-        text: Partners We Serve
+        text: Partners
         href: 
         permalink: /
         show_in_menu: true
@@ -76,7 +70,8 @@ assigned:
             show_in_footer: false 
         - 
             text: Tailored Authorization
-            is_external: https://tailored.fedramp.gov
+            href: tailored-authorization.md
+            permalink: /tailored-authorization/
             show_in_menu: true
             show_in_footer: false
     -
@@ -102,31 +97,6 @@ assigned:
             permalink: /nist-publications/
             show_in_menu: true
             show_in_footer: false 
-        - 
-            text: Learning
-            href: pages/learning.md
-            permalink: /learning/
-            show_in_menu: true
-            show_in_footer: false 
-            sub:
-            - 
-                text: Online Courses
-                href: pages/online-courses.md
-                permalink: /learning/online-courses/
-                show_in_menu: true
-                show_in_footer: false
-            - 
-                text: In-Person Training
-                href: pages/in-person-training.md
-                permalink: /learning/in-person-training/
-                show_in_menu: true
-                show_in_footer: false
-            - 
-                text: Webinars
-                href: pages/webinars.md
-                permalink: /learning/webinars/
-                show_in_menu: true
-                show_in_footer: false
         -
             text: FAQs
             href: pages/faqs.md
@@ -138,16 +108,16 @@ assigned:
             href: pages/tips-cues.md
             permalink: /tips-cues/
             show_in_menu: true
-            show_in_footer: false     
-    -
-        text: Marketplace
-        is_external: https://marketplace.fedramp.gov
-        show_in_menu: true
-        show_in_footer: false
+            show_in_footer: false 
     -
         text: Blog
         href: pages/blog.md
         permalink: /blog/
+        show_in_menu: true
+        show_in_footer: false    
+    -
+        text: Marketplace
+        is_external: https://marketplace.fedramp.gov
         show_in_menu: true
         show_in_footer: false
 unassigned: []
