@@ -81,7 +81,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/preview/gsa/fedramp-gov/2.0PartnerPages/') {
+		if (current == '/preview/gsa/fedramp-gov/dev/') {
 				$("#navigation ul li a").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
@@ -113,7 +113,7 @@ $(function(){
 });
 
 
-
+/*
 
 $(function () {
     $(".blog-card").slice(0, 4).addClass('display');
@@ -130,41 +130,28 @@ $(function () {
     });
 });
 
-
-
-/*
-
-$(function () {
-    $(".blog-card").slice(0, 4).show();
-    $("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $(".blog-card:hidden").slice(0, 4).slideDown();
-        if ($(".blog-card:hidden").length == 0) {
-            $("#load").fadeOut('slow');
-        }
-        $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 1500);
-    });
-});
-
-$('a[href=#top]').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 600);
-    return false;
-});
-
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
-        $('.totop a').fadeIn();
-    } else {
-        $('.totop a').fadeOut();
-    }
-});
-
 */
 
+$(function () {
+    $(".blog-card").slice(0, 4).addClass('display');
+    $(".load-more-bkg").on('click', function (e) {
+        e.preventDefault();
+        var firstDisplay = $(".blog-card:hidden").slice(0, 2) .addClass('display');  
+//        $(".blog-card:hidden").slice(0, 2).addClass('display');
+        if ($(".blog-card:hidden").length == 0) {
+           $(".load-more-bkg").remove();
+        } else {
+            $('html,body').animate({
+                scrollTop: $(firstDisplay).offset().top
+//                scrollTop: $(this).offset().top  
+            }, 1500);
+        }
+    });
+});  
+
+
+//
+//
 //
 //$(window).resize(function() {
 // if ($(window).width() < 960) {
@@ -189,13 +176,13 @@ $(window).scroll(function () {
 //        $(this).parents("li").removeClass("hover");
 //    });
 //}
-
+//
 //window.onload = function () {
 //    document.getElementById('button').onclick = function () {
 //        document.getElementById('modal').style.display = "none"
 //    };
 //};
-
+//
 //$(window).load(function() {
 //  // if no cookie
 //  if ($.cookie('alert') != "true") {

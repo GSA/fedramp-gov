@@ -17,17 +17,25 @@ layout: blog-list-main
 			</div>
 		</div>
 		<div class="grid-row fedramp-blog-card-row">
-				{% for post in site.posts offset:1 %}
+			{% for post in site.posts offset:1 %}
 
-    			<div class="full-col blog-card">
-   					 {% include blog-entry-card.html post=post %}
-   				</div>
-
-    			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
-				{% endfor %}
+			<div class="full-col blog-card">
+				 {% include blog-entry-card.html post=post %}
 			</div>
-			
+
+			{% unless forloop.last %}<div class="separater"></div>{% endunless %}
+			{% endfor %}
 		</div>
+		
+		<div class="grid-row grid-gap button-row">
+			<div class="desktop:grid-col-12">
+				<div class="grid-row grid-gap load-more-bkg">
+					<button class="blog-load-more-button" id="loadMore">Show More</button>
+				</div>
+			</div>
+		</div>
+			
+	</div>
 
 
 
