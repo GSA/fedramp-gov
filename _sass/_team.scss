@@ -36,18 +36,38 @@
 	h3 {
 		text-transform: none;
 		margin-bottom: 0;
+		margin-top: 2rem;
 	}
 	
-	a {
-		color: $red;
-		font-weight: 800;
-		text-transform: uppercase;
-		text-decoration: none;
-		
-		&:hover {
-			color: $teal;
-		}
+	p.team-title {
+		font-family: $title-font;
 	}
+	
+	p.read-bio { 
+		font-size: 0.75rem;
+		margin-top: 1.25rem;
+		
+		a {
+			color: $red;
+			font-weight: 800;
+			text-transform: uppercase;
+			text-decoration: none;
+
+			&:hover {
+				color: $teal;
+			}
+		}
+		
+	}
+	
+	.read-bio-icon {
+		margin-left: .5rem;
+	}
+	
+}
+
+h3.team-program-goals {
+	margin-bottom: 30px;
 }
 
 .team-bio-drawer {
@@ -63,7 +83,7 @@
 	h3 {
 		text-transform: none;
 		border-bottom: solid 1px $teal;
-		padding-bottom: 2rem;
+		padding-bottom: 1rem;
 		margin-top: 1rem;
 		margin-bottom: 2rem;
 	}

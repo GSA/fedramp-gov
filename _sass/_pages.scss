@@ -1864,7 +1864,6 @@ max-width: 200px;
 
 .program-basics-title {
 	margin: 10px auto 0 auto;
-	border-top: solid 1px $light-gray;
     width: 100%;
     margin-bottom: 0px;
 
@@ -1927,6 +1926,7 @@ ul.program-basics-goals {
 	
 	li {
 		margin-left: 20px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -1948,6 +1948,15 @@ ul.program-basics-goals li::before {
 	top: -2px;
 	left: -20px; 
 	margin-left: -30px;
+}
+
+h3.legal-framework-titles {
+	margin: 8px 0 20px 0;
+}
+
+.framework-image {
+	width: 88px;
+	margin: 0 auto 12px auto;
 }
 
 .basics-col {

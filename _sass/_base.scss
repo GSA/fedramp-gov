@@ -51,11 +51,17 @@ main#main:focus {
 	color: $lighter-teal !important;
 }
 
-#main p {
-	orphans: 3;
-	font-weight: 400;
-	letter-spacing: .02em;
-	margin-block-start: .5em;
+#main  {
+	p {
+		orphans: 3;
+		font-weight: 400;
+		letter-spacing: .02em;
+	}	
+	
+	p.block-start {
+		margin-block-start: .5em;
+	}
+
 }
 
 body,
@@ -89,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 	h2::after {
 		content: "";
 		display: block;
-		padding-top: 24px;
+		padding-top: 20px;
 		border-bottom: solid 1px $red;
 		width: 88px;
 	}
