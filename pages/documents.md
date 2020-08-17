@@ -325,32 +325,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
-=======
-    <th class="row-header" scope="row">Key Agency Documents</th>
->>>>>>> 59236d2f81b3e704385a769a0ac89f0a87e986d3
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf">Agency Guide for Reuse of FedRAMP Authorizations</a></td>
-    <td>This document is specific to Federal Departments and Agencies and provides guidance and the understanding required to authorize an Agency’s application when reusing a FedRAMP-compliant cloud service.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Guide_for_Reuse_of_FedRAMP_Authorizations.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>6/6/2017</td>
-  </tr>
-  <tr>
-<<<<<<< HEAD
-    <td style="font-weight:bold;">Key Agency Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf">Reusing Authorizations for Cloud Products Quick Guide</a></td>
-    <td>This quick guide outlines steps and guidance to help agencies quickly and efficiently
-reuse authorized cloud products within the FedRAMP Marketplace. </td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>5/7/2020</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Agency Documents</td>
-=======
-    <th class="row-header" scope="row">Key Agency Documents</th>
->>>>>>> 59236d2f81b3e704385a769a0ac89f0a87e986d3
     <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Acquisition_FAQs.pdf">Acquisition FAQS</a></td>
     <td>FAQ resource, developed in conjunction with OMB, that agencies can reference when developing their solicitations.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Acquisition_FAQs.pdf"><i class="fas fa-file-pdf"></i>
