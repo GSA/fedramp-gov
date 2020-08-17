@@ -113,24 +113,6 @@ $(function(){
 });
 
 
-/*
-
-$(function () {
-    $(".blog-card").slice(0, 4).addClass('display');
-    $("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $(".blog-card:hidden").slice(0, 2).addClass('display');
-        if ($(".blog-card:hidden").length == 0) {
-           $("#loadMore").remove();
-        } else {
-            $('html,body').animate({
-                scrollTop: $(this).offset().top
-            }, 0);
-        }
-    });
-});
-
-*/
 
 $(function () {
     $(".blog-card").slice(0, 4).addClass('display');
@@ -150,65 +132,41 @@ $(function () {
 });  
 
 
-//
-//
-//
-//$(window).resize(function() {
-// if ($(window).width() < 960) {
-//        $('usa-logo-text a img').attr("src", "/assets/img/logo-main-fedramp.png");
-//}
-// if ($(window).width() > 960) {
-//        $('usa-logo-text a img').attr("src", "/assets/img/logo-mobile-fedramp.png");
-//}
-//});
-//$(document).ready(function() {
-//    $(".nav").accessibleDropDown();
-//});
-//
-//$.fn.accessibleDropDown = function () {
-//    var el = $(this);
-//
-//    /* Make dropdown menus keyboard accessible */
-//
-//    $("a", el).focus(function() {
-//        $(this).parents("li").addClass("hover");
-//    }).blur(function() {
-//        $(this).parents("li").removeClass("hover");
-//    });
-//}
-//
-//window.onload = function () {
-//    document.getElementById('button').onclick = function () {
-//        document.getElementById('modal').style.display = "none"
-//    };
-//};
-//
-//$(window).load(function() {
-//  // if no cookie
-//  if ($.cookie('alert') != "true") {
-//    $(".post-count").show();
-//    $(".bell").click(function() {
-//      $(".post-count").slideUp("slow");
-//      // set the cookie for 24 hours
-//      var date = new Date();
-//      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
-//      $.cookie('alert', "true", {
-//        expires: date
-//      });
-//    });
-//  }
-//});
-//
-//window.cookieconsent.initialise({
-//  container: document.getElementById("cookieconsent"),
-//  palette:{
-//    popup: { background: "#1aa3ff" },
-//    button: { background: "#e0e0e0" },
-//  },
-//  revokable: true,
-//  onStatusChange: function(status) {
-//    console.log(this.hasConsented() ?
-//    'enable cookies' : 'disable cookies');
-//  },
-//  "theme": "edgeless"
-//});
+// In Page Navigation //
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
+// Cache selectors
+var topMenu = $(".in-page-nav"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+// Bind to scroll
+$(window).scroll(function(){
+   // Get container scroll position
+   var fromTop = $(this).scrollTop()+topMenuHeight;
+
+   // Get id of current scroll item
+   var cur = scrollItems.map(function(){
+     if ($(this).offset().top < fromTop)
+       return this;
+   });
+   // Get the id of the current element
+   cur = cur[cur.length-1];
+   var id = cur && cur.length ? cur[0].id : "";
+   // Set/remove active class
+   menuItems
+     .parent().removeClass("active")
+     .end().filter("[href='#"+id+"']").parent().addClass("active");
+});
