@@ -5,96 +5,188 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 75px;
+  border-radius: $width;
   height: $width;
   width: $width;
 }
 
-.page-team {
-  .usa-graphic_list {
-    .usa-media_block {
-      margin-bottom: 6rem;
-
-      @media all and (min-width: $on-laptop) {
-        margin-right: 0;
-        width: 50%;
-      }
-    }
-
-    h3 {
-      margin: 0;
-		font-weight: bold;
-		
-      a {
-      		text-decoration: none;
-			color: inherit;
-		  
-      	&:hover {
-      		text-decoration: underline;
-      	}
-      }
-    }
-    p {
-    	margin: 0;
-    	color: #757575;
-    }
-  }
+.team-container {
+	padding: 0;
 }
 
 .team-image {
-  @include image-circle(124px);
-	float: left;
-	margin-right: 20px;
-}
-
-.page-team-single {
-h2 {
-	text-align: left !important;
-	margin: 0 !important;
-}
-p.title {
-	font-size: 1.2em;
-	color: #757575;
-	margin-top: 0;
-}
-
-  .team-image {
-    @include image-circle(270px);
-    border-radius: 150px;
-}
-}
-
-.page-team main {
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 60px 0;
-	@include clearfix;
-}
-
-.page-team-single {
-.usa-width-one-third {
+	@include image-circle(178px);
 	text-align: center;
 }
-}
 
-.team-list {
-		margin: 0 !important;
-	}
-
-@media (min-width: 0) and (max-width: 1200px) {
-	.usa-graphic_list {
-		margin: 0 5%;	
-	}
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-	.usa-media_block {
-		width: 100%;
-		clear: both;
-		float: left;
+.team-member-card {
+	
+	height: 100%;
+	
+	h3 {
+		text-transform: none;
+		margin-bottom: 0;
 	}
 	
+	a {
+		color: $red;
+		font-weight: 800;
+		text-transform: uppercase;
+		text-decoration: none;
+		
+		&:hover {
+			color: $teal;
+		}
+	}
+}
+
+.team-bio-drawer {
+	margin-top: -1.875rem;
+}
+
+.drawer__content {
+	
+	.drawer-image {
+		text-align: center;
+	}
+	
+	h3 {
+		text-transform: none;
+		border-bottom: solid 1px $teal;
+		padding-bottom: 2rem;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+	
+	.team-border {
+		border: none;
+		border-top: solid 1px $teal;
+	}
+	
+	.team-twitter {
+		text-transform: uppercase;
+		font-weight: 800 !important;
+		
+		a {
+			text-decoration: none;
+			color: $red;
+			
+			&:hover {
+				color: $teal;
+			}
+		}
+	}
+}
+
+.team-goals {
+	li {
+		font-weight: 300;
+		font-size: 1.25rem;
+	}
 	
 }
 
+/* Team Slider */
+
+.drawer {
+      display: none;
+    }
+    .drawer__overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 200;
+      opacity: 0;
+      
+      transition: opacity 0.3s;
+      will-change: opacity;
+      background-color: #000;
+
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;      
+    }
+
+	.drawer__header {
+		padding: 1.5rem 1.5rem 0 1.5rem;
+		text-align: right;
+	}
+
+    .drawer__close {
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      background-image: url('../../assets/img/team-close.svg');
+      width: 45px;
+      height: 67px;
+      flex-shrink: 0;
+      margin-right: 1rem;
+		
+		&:hover {
+			background-image: url('../../assets/img/team-close-hover.svg');
+			background-color: transparent;
+		}
+    }
+
+    .drawer__wrapper {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      max-width: 500px;
+      z-index: 9999;
+      overflow: auto;
+      
+      transition: transform 0.3s;
+      will-change: transform;
+      background-color: $lightest-gray;
+     
+      display: flex;
+      flex-direction: column; 
+
+      -webkit-transform: translate3d(103%, 0, 0);
+      transform: translate3d(103%, 0, 0); /* extra 3% because of box-shadow */ 
+      
+      -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+
+      /* Optional */
+      box-shadow: 0 2px 6px #777;
+    }
+
+    .drawer__content {
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 100%;
+      flex-grow: 1;
+      /* Optional */
+      padding: 1.5rem;
+    }
+
+    .drawer--left .drawer__wrapper {
+      left: 0;
+      right: auto;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+
+    .drawer.is-active {
+      display: block;
+    }
+
+    .drawer.is-visible .drawer__wrapper {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    .drawer.is-visible .drawer__overlay {
+      opacity: 0.5;
+    }
