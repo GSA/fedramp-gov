@@ -10,8 +10,8 @@ layout: base
 	<div class="grid-container">
 		<div class="grid-row">
 			<div class="desktop:grid-col-12">
-				<h2 class="center">Focus on FedRAMP</h2>
-				<h3 class="center no-line">Discover what’s happening in the FedRAMP world.</h3>
+				<h2 class="center blog-list">Focus on FedRAMP</h2>
+				<h3 class="center no-line blog-list" style="color: white; text-transform: none;">Discover what’s happening in the FedRAMP world.</h3>
 			</div>
 		</div>
 	</div>
@@ -22,17 +22,7 @@ layout: base
 					<img src="{{ page.image | prepend: site.baseurl }}">
 				{% endif %}
 				{{ content }}
-
-	<div class="grid-container button-container">
-		<div class="grid-row button-row">
-			<div class="desktop:grid-col-12">
-				<button class="blog-load-more-button" id="loadMore">Load More</button>
-			</div>
-		</div>
-	</div>
 	
 </section>
 
-<!-- back to top button 
-<a id="button"></a> 
--->
+<a id="topButton"></a>

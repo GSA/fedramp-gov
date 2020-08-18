@@ -51,11 +51,17 @@ main#main:focus {
 	color: $lighter-teal !important;
 }
 
-#main p {
-	orphans: 3;
-	font-weight: 400;
-	letter-spacing: .02em;
-	margin-block-start: .5em;
+#main  {
+	p {
+		orphans: 3;
+		font-weight: 400;
+		letter-spacing: .02em;
+	}	
+	
+	p.block-start {
+		margin-block-start: .5em;
+	}
+
 }
 
 body,
@@ -89,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 	h2::after {
 		content: "";
 		display: block;
-		padding-top: 24px;
+		padding-top: 20px;
 		border-bottom: solid 1px $red;
 		width: 88px;
 	}
@@ -142,12 +148,8 @@ h1, h2, h3, h4, h5, h6 {
 	
 	h3.center {
 		text-align: center;
-<<<<<<< HEAD
-		padding: 0;
 		display: block;
-=======
 		padding-right: 0;
->>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 	}
 
 	h3::after {
@@ -236,11 +238,7 @@ a.focus-within:active {
 }
 
 .white-bkg {
-<<<<<<< HEAD
-	background: white;	
-=======
 	background: white;
->>>>>>> 356c039d5b00121dedea8411465f90c8edf9145e
 }
 
 .dark-blue-bkg {
@@ -816,16 +814,16 @@ button:hover,
 
 /* Back to Top button */
 
-#button {
+#topButton {
 	display: inline-block;
 	background-color: $teal;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	border-radius: 4px;
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
+	bottom: 20px;
+	right: 20px;
 	transition: background-color .3s, opacity .5s, visibility .5s;
 	opacity: .8;
 	visibility: hidden;
@@ -833,26 +831,26 @@ button:hover,
 	text-decoration: none;
 }
 
-#button::after {
+#topButton::after {
 	content: "\f077";
 	font-family: "Font Awesome 5 Free"; 
 	font-weight: 900;
 	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
+	font-size: 1.25em;
+	line-height: 42px;
 	color: #fff;
 }
 
-#button:hover {
+#topButton:hover {
 	cursor: pointer;
 	opacity: 1;
 }
 
-#button:active {
+#topButton:active {
 	background-color: $dark-blue;
 }
 
-#button.show {
+#topButton.show {
 	opacity: .8;
 	visibility: visible;
 }

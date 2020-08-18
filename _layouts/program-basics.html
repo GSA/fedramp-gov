@@ -6,7 +6,7 @@ layout: full-width
 		<div class="full-row grid-row grid-gap">
 			<div class="full-col desktop:grid-col-6">
 				<h2 class="secondary-lighter">{{ page.program-header }}</h2>
-				<p>{{ page.program-intro-text }}</p>
+				<p class="">{{ page.program-intro-text }}</p>
 			</div>
 		</div>
 	</div>	
@@ -16,14 +16,14 @@ layout: full-width
 	<div class="grid-container">
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12 padding-bottom-3">
-				<h3 class="position-sticky">{{ page.mission-title }}</h3>
+				<h3 class="">{{ page.mission-title }}</h3>
 				<p>{{ page.mission-text }}</p>
 			</div>
 		</div>
 		<div class="full-row grid-row grid-gap padding-top-2">
 			<div class="full-col desktop:grid-col-6">
-				<div class="program-basics-title">
-					<h3>{{ page.benefits-title }}</h3>
+				<div class="">
+					<h3 class="margin-top-0">{{ page.benefits-title }}</h3>
 				</div>
 				<ul class="program-basics-benefits">
 					<li>{{ page.benefits-checklist-1 }}</li>
@@ -32,9 +32,9 @@ layout: full-width
 				</ul>
 			</div>
 			
-			<div class="full-col desktop:grid-col-6">
-				<div class="program-basics-title">
-					<h3>{{ page.goals-title }}</h3>
+			<div class="full-col desktop:grid-col-6 margin-top-4 desktop:margin-top-0">
+				<div class="">
+					<h3 class="margin-top-0">{{ page.goals-title }}</h3>
 				</div>
 				<ul class="program-basics-goals">
 					<li>{{ page.goals-checklist-1 }}</li>
@@ -42,18 +42,6 @@ layout: full-width
 					<li>{{ page.goals-checklist-3 }}</li>
 				</ul>
 			</div>
-			<!-- 
-			<div class="full-col desktop:grid-col-6">
-				<div class="program-basics-title">
-					<h3>{{ page.goals-title }}</h3>
-				</div>
-				<ul class="program-basics-goals">
-					<li>{{ page.benefits-checklist-1 }}</li>
-					<li>{{ page.benefits-checklist-2 }}</li>
-					<li>{{ page.benefits-checklist-3 }}</li>
-				</ul>
-			</div>
--->
 		</div>
 	</div>
 </section>
@@ -61,45 +49,54 @@ layout: full-width
 <section class="blue-bkg fedramp-page-container">
 	<div>
 		<div class="grid-container">
-			<div class="full-row grid-row grid-gap">
-				<div class="full-col desktop:grid-col-4">
+			<div class="full-row grid-row">
+				<div class="full-col desktop:grid-col-4 desktop:padding-right-4 padding-bottom-4">
 					<h2 class="text-white">{{ page.framework-title }}</h2>
 					<p class="text-white">{{ page.framework-text }}</p>
 				</div>
 				
-				<div class="full-col desktop:grid-col-8">
-					<div class="framework-list">
-						<div class="framework-image">
-							{{ page.fisma-image }}
-						</div>
-						<div class="framework-text">
-							<h3 class="no-line margin-top-0 text-lighter-teal">{{ page.fisma-title }}</h3>
-							<p class="text-white">{{ page.fisma-text }}</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
+				<div class="full-col desktop:padding-left-4 desktop:grid-col-7">
+						<div class="full-row grid-row">
+							<div class="full-col desktop:grid-col-12">
+								<div class="grid-row">
+									<div class="tablet:grid-col-2">
+										<div class="framework-image">
+											<img src="{{site.baseurl}}/assets/img/fisma-graphic.svg" alt="fisma" />
+										</div>
+									</div>
+									<div class="tablet:grid-col-10 tablet:padding-left-2 framework-text">
+										<h3 class="no-line margin-top-0 margin-bottom-0 text-lighter-teal legal-framework-titles">{{ page.fisma-title }}</h3>
+										<p class="text-white block-start ">{{ page.fisma-text }}</p>
+									</div>
+								</div>
 					
-					<div class="framework-list">
-						<div class="framework-image">
-							{{ page.omb-circular-image }}
-						</div>
-						<div class="framework-text">
-							<h3 class="no-line margin-top-0 text-lighter-teal">{{ page.omb-circular-title }}</h3>
-							<p class="text-white">{{ page.omb-circular-text }}</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
+								<div class="grid-row margin-top-4">
+									<div class="tablet:grid-col-2">
+										<div class="framework-image">
+											<img src="{{site.baseurl}}/assets/img/omb-circular-graphic.svg" alt="OMB a130" />
+										</div>
+									</div>
+									<div class="tablet:grid-col-10 tablet:padding-left-2  framework-text">
+										<h3 class="no-line margin-top-0 margin-bottom-0 text-lighter-teal legal-framework-titles">{{ page.omb-circular-title }}</h3>
+										<p class="text-white block-start ">{{ page.omb-circular-text }}</p>
+									</div>
+								</div>
 					
-					<div class="framework-list">
-						<div class="framework-image">
-							{{ page.policy-image }}
+								<div class="grid-row margin-top-4">
+									<div class="tablet:grid-col-2">
+										<div class="framework-image">
+											<img src="{{site.baseurl}}/assets/img/fedramp-policy.svg" alt="fedramp policy" />
+										</div>
+										
+									</div>
+									<div class="tablet:grid-col-10 tablet:padding-left-2  framework-text">
+										<h3 class="no-line margin-top-0 margin-bottom-0 text-lighter-teal legal-framework-titles">{{ page.policy-title }}</h3>
+										<p class="text-white block-start ">{{ page.policy-text }}</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
 						</div>
-						<div class="framework-text">
-							<h3 class="no-line margin-top-0 text-lighter-teal">{{ page.policy-title }}</h3>
-							<p class="text-white">{{ page.policy-text }}</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
 					
 				</div>
 			</div>
