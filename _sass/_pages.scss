@@ -2007,6 +2007,65 @@ h3.legal-framework-titles {
 	text-align: left;
 }
 
+.faq-search {
+	width: 500px;
+	margin: auto;
+	
+	input {
+		border-radius: 20px 0 0 20px;
+		background: $lightest-gray;
+		height: 34px;
+		padding: 16px 24px;
+		border: none;
+	}
+	
+	button {
+		border-radius: 0 20px 20px 0;
+		height: 34px !important;
+		padding: 16px !important;
+		background: $light-gray;
+		
+		&:hover {
+			background: $mid-gray;
+		}
+	}
+}
+
+.faq-search .usa-search::after {
+	content: none;
+}
+
+.fedramp-accordian h4 {
+	color: $light-blue;
+	margin-top: 0 !important;
+}
+
+.fedramp-accordian .usa-accordion__button {
+	padding-left: 32px;
+	background-image: url('../../assets/img/accordian-open.svg');
+	background-color: white;
+	background-position: left;
+	color: $light-blue;
+	
+}
+
+.fedramp-accordian .usa-accordion__button[aria-expanded=false] {
+	background-image: url('../../assets/img/accordian-closed.svg');
+	border-bottom: solid 1px $light-gray;
+}
+
+.fedramp-accordian .usa-accordion__content {
+	border-bottom: solid 1px $light-gray;
+	padding: 0 10px 10px 15px;
+}
+
+.fedramp-accordian .usa-prose > p {
+	max-width: 100%;
+	padding: 0 0 10px 15px;
+	color: $dark-gray;
+}
+
+
 @media (min-width: 0) and (max-width: 639px) {
 	h3.legal-framework-titles {
 		margin: 8px 0 10px 0;

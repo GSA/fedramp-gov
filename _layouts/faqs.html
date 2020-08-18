@@ -1,11 +1,11 @@
 ---
 layout: full-width
 ---
-<section class="fedramp-page-container">
-	<div class="grid-container">
+<section class="fedramp-page-container lightest-gray-bkg">
+	<div class="padding-2">
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-				<p>The FedRAMP PMO used to publish monthly Tips and Cues that provided helpful information about FedRAMP to agencies, CSPs, 3PAOs, and other stakeholders. Tips and Cues have been integrated into FAQs. Please reach out to info@fedramp.gov with any questions.</p>
+				<p><em>The FedRAMP PMO used to publish monthly Tips and Cues that provided helpful information about FedRAMP to agencies, CSPs, 3PAOs, and other stakeholders. Tips and Cues have been integrated into FAQs. Please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with any questions.</em></p>
 			</div>
 		</div>
 	</div>	
@@ -16,10 +16,10 @@ layout: full-width
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 				<h2 class="text-white center">How Can We Help You?</h2>
-				<section aria-label="Small search component">
+				<section aria-label="Small search component" class="faq-search">
 					<form class="usa-search usa-search--small" role="search">
 						<label class="usa-sr-only" for="search-field-small">Search</label>
-						<input class="usa-input" id="search-field-small" type="search" name="search">
+						<input class="usa-input" id="search-field-small" type="search" name="search" placeholder="Type keywords to find answers">
 						<button class="usa-button" type="submit">
 						<span class="usa-sr-only">Search</span>
 						</button>
@@ -33,23 +33,21 @@ layout: full-width
 </section>
 
 <section class="fedramp-page-container position-sticky" style="top: 0;">
-	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-4">
-				<div id="main-header" class="lavalamp-menu">
-					<nav>
-						<ul>
-							<li class="active"><a href="#faq-general">General</a></li>
-							<li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
-							<li><a href="#faq-federal-agencies">Federal Agencies</a></li>
-							<li><a href="#faq-authorization">Authorization</a></li>
-							<li><a href="#faq-cloud-service-providers">Cloud Service Providers</a></li>
-							<li><a href="#faq-third-party">Third Party Assessment Organizations</a></li>
-						</ul>
-						<div class="lavalamp"></div>
-					</nav>
-				  </div>
-			</div>
+	<div class="full-row grid-row">
+		<div class="full-col tablet:grid-col-4 tablet:padding-2">
+			<div id="main-header" class="lavalamp-menu">
+				<nav>
+					<ul class="in-page-nav-menu">
+						<li class="active"><a href="#faq-general">General</a></li>
+						<li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
+						<li><a href="#faq-federal-agencies">Federal Agencies</a></li>
+						<li><a href="#faq-authorization">Authorization</a></li>
+						<li><a href="#faq-cloud-service-providers">Cloud Service Providers</a></li>
+						<li><a href="#faq-third-party">Third Party Assessment Organizations</a></li>
+					</ul>
+					<div class="lavalamp"></div>
+				</nav>
+			  </div>
 		</div>
 	</div>
 </section>
@@ -184,32 +182,32 @@ layout: full-width
 -->
   
 
-
+					
 				
 				
-				<div class="usa-accordion" aria-multiselectable="true">
+				<div class="usa-accordion fedramp-accordian" aria-multiselectable="true">
 
 				
 					<div><h3 id="faq-general">General</h3></div>
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="true"
-						aria-controls="m-a1">
+						aria-controls="gen-1">
 						Home
 						</button>
 						</h4>
-						<div id="m-a1" class="usa-accordion__content usa-prose">
+						<div id="gen-1" class="usa-accordion__content usa-prose">
 							<p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p>
 						</div>
 						
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-home">
+						aria-controls="gen-2">
 						Home Another Section for Home
 						</button>
 						</h4>
-						<div id="m-home" class="usa-accordion__content usa-prose">
+						<div id="gen-2" class="usa-accordion__content usa-prose">
 							<p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.</p>
 						</div>
 
@@ -220,11 +218,11 @@ layout: full-width
 						<h4 class="usa-accordion__heading" >
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-a2">
+						aria-controls="conmon-1">
 						Main
 						</button>
 						</h4>
-						<div id="m-a2" class="usa-accordion__content usa-prose">
+						<div id="conmon-1" class="usa-accordion__content usa-prose">
 						<p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p> <ul><li>This is a list item</li><li>Another list item</li></ul>
 
 						</div>
@@ -232,11 +230,11 @@ layout: full-width
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-main-2">
+						aria-controls="conmon-2">
 						Another Section for Main
 						</button>
 						</h4>
-						<div id="m-main-2" class="usa-accordion__content usa-prose">
+						<div id="conmon-2" class="usa-accordion__content usa-prose">
 						<p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p> <ul><li>This is a list item</li><li>Another list item</li></ul>
 
 						</div>
@@ -246,11 +244,11 @@ layout: full-width
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-a3">
+						aria-controls="fa-1">
 						About
 						</button>
 						</h4>
-						<div id="m-a3" class="usa-accordion__content usa-prose">
+						<div id="fa-1" class="usa-accordion__content usa-prose">
 						<p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
 
 						</div>
@@ -258,11 +256,11 @@ layout: full-width
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-about-2">
+						aria-controls="fa-2">
 						About Section #2
 						</button>
 						</h4>
-						<div id="m-about-2" class="usa-accordion__content usa-prose">
+						<div id="fa-2" class="usa-accordion__content usa-prose">
 						<p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
 							
 					</div>
@@ -310,7 +308,7 @@ layout: full-width
 						<h4 class="usa-accordion__heading">
 						<button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="m-auth-2">
+						aria-controls="m-csp-2">
 						About Section #2
 						</button>
 						</h4>
@@ -342,13 +340,15 @@ layout: full-width
 						<p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
 
 						</div>
-					
+					<div class="padding-bottom-10">
+					</div>
 	
 				</div>
 				
 					
 				
-			</div>
+				</div>
+			</div>	
 		</div>	
 	</div>
 

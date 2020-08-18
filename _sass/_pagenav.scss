@@ -1,3 +1,6 @@
+
+
+
 /*---------- in page navigation ------------- */
 
 
@@ -18,7 +21,11 @@
 }
 
 .lavalamp-menu li {
-  margin: 0 15px;
+	margin: 0 -12px;
+	padding: 0 24px;
+	font-family: $title-font;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .lavalamp-menu nav {
@@ -29,27 +36,27 @@
   position: absolute;
   bottom: 0;
   height: 5px;
-  background: #222;
   -webkit-transition: 1s;
           transition: 1s;
 }
 
 .lavalamp-menu a {
-  display: block;
-  line-height: 60px;
-  color: #444;
-  text-decoration: none;
-  padding: 0;
-  -webkit-transition: 0.2s;
-          transition: 0.2s;
+	display: block;
+	line-height: 1.5rem;
+	color: $red;
+	text-decoration: none;
+	padding: 20px 0;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .lavalamp-menu a:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .lavalamp-menu li.active {
-	border-left: solid 2px $red;
+	border-left: solid 5px $red;
+	padding: 0 19px;
 	
 	&::before {
 		content: none;
@@ -59,4 +66,9 @@
 
 .in-page-nav-section {
 	margin-top: -180px;
+}
+
+ul.in-page-nav-menu {
+	border-left: solid 3px $light-gray;
+	padding: 0 .5rem;
 }
