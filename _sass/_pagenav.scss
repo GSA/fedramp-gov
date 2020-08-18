@@ -1,0 +1,62 @@
+/*---------- in page navigation ------------- */
+
+
+.lavalamp-menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  text-align: left;
+}
+
+.lavalamp-menu nav,
+.lavalamp-menu li {
+  display: block;
+  vertical-align: top;
+  zoom: 1;
+}
+
+.lavalamp-menu li {
+  margin: 0 15px;
+}
+
+.lavalamp-menu nav {
+  position: relative;
+}
+
+.lavalamp-menu .lavalamp {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  background: #222;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+
+.lavalamp-menu a {
+  display: block;
+  line-height: 60px;
+  color: #444;
+  text-decoration: none;
+  padding: 0;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+
+.lavalamp-menu a:hover {
+  opacity: 0.6;
+}
+
+.lavalamp-menu li.active {
+	border-left: solid 2px $red;
+	
+	&::before {
+		content: none;
+	}
+}
+
+
+.in-page-nav-section {
+	margin-top: -180px;
+}
