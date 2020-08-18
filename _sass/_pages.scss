@@ -1945,13 +1945,21 @@ ul.program-basics-goals li::before {
 	content: url("../../assets/img/bullet-flag.svg");  
 	position: relative;
 	float: left;
-	top: -2px;
+	top: 0px;
 	left: -20px; 
 	margin-left: -30px;
 }
 
 h3.legal-framework-titles {
 	margin: 8px 0 20px 0;
+	text-align: left;
+}
+
+@media (min-width: 0) and (max-width: 639px) {
+	h3.legal-framework-titles {
+		margin: 8px 0 10px 0;
+		text-align: center;
+	}
 }
 
 .framework-image {

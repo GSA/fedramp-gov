@@ -90,7 +90,7 @@ $(function(){
 
 /// scroll to top button js ////
 
-var btn = $('#button');
+var btn = $('#topButton');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
