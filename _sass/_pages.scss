@@ -1962,7 +1962,7 @@ ul.program-basics-benefits {
 	list-style: none;
 	
 	li {
-		margin-left: 20px;
+		margin-left: 5px;
 		margin-bottom: 20px;
 	}
 }
@@ -1971,14 +1971,14 @@ ul.program-basics-goals {
 	list-style: none;
 	
 	li {
-		margin-left: 10px;
+		margin-left: 0px;
 		margin-bottom: 20px;
 	}
 }
 
 
 ul.program-basics-benefits li::before {
-	content: url("../../assets/img/bullet-thumbs-up.svg"); 
+	content: url("../../assets/img/icon-thumbs-up.svg"); 
 	position: relative;
 	float: left;
 	top: -2px;
@@ -1988,16 +1988,25 @@ ul.program-basics-benefits li::before {
 
 
 ul.program-basics-goals li::before {
-	content: url("../../assets/img/bullet-flag.svg");  
+	content: url("../../assets/img/icon-flag.svg");  
 	position: relative;
 	float: left;
 	top: 0px;
-	left: -10px; 
+	left: -6px; 
+	margin-left: -30px;
+}
+
+ul.program-basics-goals.team-goals li::before {
+	content: url("../../assets/img/icon-flag.svg");  
+	position: relative;
+	float: left;
+	top: 3px;
+	left: -6px; 
 	margin-left: -30px;
 }
 
 h3.legal-framework-titles {
-	margin: 8px 0 20px 0;
+	margin: 8px 0 10px 0;
 	text-align: left;
 }
 
@@ -2084,7 +2093,6 @@ h3.legal-framework-titles {
 	padding: 8px 24px;
 	text-decoration: none;
 	
-	
 	&:hover {
 		border: solid 1px white;
 		color: white;
@@ -2097,6 +2105,34 @@ h3.legal-framework-titles {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 800;
+	}
+}
+
+.training-sign-up, .courses-button {
+	font-size: 0.75rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: $mid-gray;
+	
+	.courses-button {
+		border-radius: 20px;
+		border: solid 1px $mid-gray;
+		padding: 4px 14px;
+		text-decoration: none;
+		margin-left: 1rem;
+		
+		&:hover {
+			color: $red;
+			border: solid 1px $red;
+		}
+		
+		button {
+			color: inherit;
+			background-color: transparent;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 800;
+		}
 	}
 }
 
