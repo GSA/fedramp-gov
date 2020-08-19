@@ -23,15 +23,9 @@ ul.governance-checklist li .check {
 	font-size: 1.5rem;
 }
 
-.fedramp-governance-row {
-	margin: 0 1.66666% 3rem !important;
-}
-
 .governance-card {
-	width: 30%;
-	margin: 0 1.66666%;
-	float: left;
 	background: white;
+	height: 100%;
 }
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -1977,18 +1971,18 @@ ul.program-basics-goals {
 	list-style: none;
 	
 	li {
-		margin-left: 20px;
+		margin-left: 10px;
 		margin-bottom: 20px;
 	}
 }
 
 
 ul.program-basics-benefits li::before {
-	content: url("../../assets/img/benefits-thumb.svg"); 
+	content: url("../../assets/img/bullet-thumbs-up.svg"); 
 	position: relative;
 	float: left;
 	top: -2px;
-	left: -20px; 
+	left: -10px; 
 	margin-left: -30px;
 }
 
@@ -1998,7 +1992,7 @@ ul.program-basics-goals li::before {
 	position: relative;
 	float: left;
 	top: 0px;
-	left: -20px; 
+	left: -10px; 
 	margin-left: -30px;
 }
 
@@ -2077,6 +2071,36 @@ h3.legal-framework-titles {
 	width: 88px;
 	margin: 0 auto 12px auto;
 }
+
+.training-img-container {
+	width: 165px;
+	margin: auto;
+}
+
+.training-button {
+	border-radius: 20px;
+	border: solid 1px $lighter-teal;
+	color: $lighter-teal;
+	padding: 8px 24px;
+	text-decoration: none;
+	
+	
+	&:hover {
+		border: solid 1px white;
+		color: white;
+		
+	}
+	
+	button {
+		color: inherit;
+		background-color: transparent;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 800;
+	}
+}
+
+/*
 
 .basics-col {
 	min-height: 1px;

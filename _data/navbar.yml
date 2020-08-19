@@ -86,29 +86,19 @@ assigned:
             show_in_menu: true
             show_in_footer: false
         - 
-            text: Templates
-            href: pages/templates.md
-            permalink: /templates/
+            text: Training
+            href: pages/training.md
+            permalink: /training/
             show_in_menu: true
             show_in_footer: false
-        - 
-            text: NIST Publications
-            href: pages/nist-publications.md
-            permalink: /nist-publications/
-            show_in_menu: true
-            show_in_footer: false 
+
         -
             text: FAQs
             href: pages/faqs.md
             permalink: /faqs/
             show_in_menu: true
             show_in_footer: false 
-        - 
-            text: Tips & Cues
-            href: pages/tips-cues.md
-            permalink: /tips-cues/
-            show_in_menu: true
-            show_in_footer: false 
+
     -
         text: Blog
         href: pages/blog.md

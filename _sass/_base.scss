@@ -41,6 +41,14 @@ main#main:focus {
 
 .text-white {
 	color: #ffffff !important;
+	
+	a {
+		color: inherit;
+		
+		&:hover {
+			color: $light-teal;
+		}
+	}
 }
 
 .text-red {
@@ -226,7 +234,7 @@ h6 {
 	text-transform: none;
 }
 
-.intro-text p {
+.intro-text p, .intro-text li {
 	font-size: 1.25rem;
 	margin: 0 0 1rem 0;
 	line-height: 1.875rem;
