@@ -20,15 +20,15 @@ FedRAMP has published resources to aid stakeholders and vendors in the digitizat
 - New - **Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Plans_(SAP).pdf">Security Assessment Plans (SAP)</a>**. 
 - New - **Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Reports_(SAR).pdf">Security Assessment Reports (SAR)</a>**. 
 - New - **Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Plan_of_Action_and_Milestones_(POAM).pdf">Plan of Action and Milestones (POA&M)</a>**. 
-- Revised - **Updated FedRAMP OSCAL <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Plan_of_Action_and_Milestones_(POAM).pdf">Registry</a>**. 
+- Revised - **Updated FedRAMP OSCAL <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Plan_of_Action_and_Milestones_(POAM).pdf">Registry</a>**. <br/>
  The registry is now expanded to become the authoritative source for FedRAMP extensions to OSCAL in addition to required identifiers and accepted values. Conformity tags and risk metrics are now included in the registry and explained in the relevant guides. The registry covers FedRAMP requirements in OSCAL baselines (profiles), SSP, SAP, SAR, and POA&M content.
-- Revised - **OSCAL-based FedRAMP<a href="https://github.com/GSA/fedramp-automation/tree/master/templates/ssp">SSP Templates/Samples</a>**. 
+- Revised - **OSCAL-based FedRAMP<a href="https://github.com/GSA/fedramp-automation/tree/master/templates/ssp">SSP Templates/Samples</a>**. <br/>
  FedRAMP SSP Template in both XML and JSON formats.
-- New - **OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/tree/master/templates">Templates/Samples</a>**. 
+- New - **OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/tree/master/templates">Templates/Samples</a>**.<br/> 
  There are now three additional templates/samples covering the SAP, SAR, and POA&M. These exist in both XML and JSON formats.
-- Revised - **FedRAMP <a href="https://github.com/GSA/fedramp-automation/tree/master/baselines">Baselines</a>**. (XML and JSON formats)
+- Revised - **FedRAMP <a href="https://github.com/GSA/fedramp-automation/tree/master/baselines">Baselines</a>**. (XML and JSON formats)<br/>
  The baselines now include a “CORE” property, enabling tools to identify the FedRAMP core controls; as well as the assessment objectives and methods (Examine, Interview, Test) found in a blank test case workbook (TCW).
-- New - **<a href="https://github.com/GSA/fedramp-automation/tree/master/resources">Experimental Resources</a>**. 
+- New - **<a href="https://github.com/GSA/fedramp-automation/tree/master/resources">Experimental Resources</a>**. <br/>
  FedRAMP is offering additional support files to aid tool developers.These provide content in XML and JSON that is relevant to FedRAMP authorization packages, yet does not fit in the oficial OSCAL syntax. 
 
 Together, these resources enable FedRAMP stakeholders and tool vendors to develop OSCAL-enabled FedRAMP authorization packages. OSCAL is not currently a requirement, but we expect the benefits to spur adoption and  FedRAMP is ready to start receiving information in OSCAL as a pilot.
