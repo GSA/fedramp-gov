@@ -5,34 +5,30 @@
 
 
 .lavalamp-menu {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  text-align: left;
+
 }
 
-.lavalamp-menu nav,
-.lavalamp-menu li {
+#top-menu nav,
+#top-menu li {
   display: block;
   vertical-align: top;
   zoom: 1;
 }
 
-.lavalamp-menu li {
+#top-menu li {
 	margin: 0 -12px;
 	padding: 0 24px;
 	font-family: $title-font;
 	font-weight: 800;
 	text-transform: uppercase;
+	border-left: solid 3px $light-gray; 
 }
 
-.lavalamp-menu nav {
+#top-menu nav {
   position: relative;
 }
 
-.lavalamp-menu .lavalamp {
+#top-menu .lavalamp {
   position: absolute;
   bottom: 0;
   height: 5px;
@@ -40,7 +36,7 @@
           transition: 1s;
 }
 
-.lavalamp-menu a {
+#top-menu a {
 	display: block;
 	line-height: 1.5rem;
 	color: $red;
@@ -50,13 +46,14 @@
 	transition: 0.2s;
 }
 
-.lavalamp-menu a:hover {
+#top-menu a:hover {
   opacity: 0.8;
 }
 
-.lavalamp-menu li.active {
+#top-menu li.active {
 	border-left: solid 5px $red;
-	padding: 0 19px;
+	padding: 0px 24px;
+	margin-left: -13px;
 	
 	&::before {
 		content: none;
@@ -65,7 +62,7 @@
 
 
 .in-page-nav-section {
-	margin-top: -180px;
+	margin-top: -140px;
 }
 
 ul.in-page-nav-menu {
@@ -74,52 +71,44 @@ ul.in-page-nav-menu {
 }
 
 
-
-
-.nav{
-  position: fixed;
-  width: 100%;
-  background-color: grey;
-  text-align: center;
-  padding: 21.5px 0;
-}
-
-nav li{
-  display: inline;
+#top-menu {
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+	height: 1px;
 }
 
 
-.nav a{
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 20px;
-  font-size: 20px;
-  
+/* --- new navigation -- 
+
+.in-page-nav-section {
+	margin-top: -180px;
 }
 
-.nav a:hover{
-  color: black;
+
+#top-menu li {
+   list-style:none;
 }
 
-.nav li.active a{
-  border-bottom: 2px solid white;
-  color: black;
+#top-menu a {
+    padding: 5px 25px 7px 25px;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    border-top: 3px solid white;
+    color: #aaa;
+    text-decoration: none;
 }
 
-.section{
-  height: 1000px;
-  width: 100%;
+#top-menu a:hover {
+    color: #000;
 }
 
-.section1{
-  background-color: #A54A3A;
+#top-menu li.active a {
+    border-left: 3px solid #333;
+    color: $red;
 }
 
-.section2{
-  background-color: #5455A5;
-}
-
-.section3{
-  background-color: #5DA568;
-}
+*/

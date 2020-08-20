@@ -114,22 +114,21 @@ $(function(){
 
 
 
+
+
 $(function () {
     $(".blog-card").slice(0, 4).addClass('display');
     $(".load-more-bkg").on('click', function (e) {
         e.preventDefault();
-        var firstDisplay = $(".blog-card:hidden").slice(0, 12) .addClass('display');  
-//        $(".blog-card:hidden").slice(0, 2).addClass('display');
+        var saveTop = $(document).scrollTop();
+        $(".blog-card:hidden").slice(0, 12).addClass('display');
         if ($(".blog-card:hidden").length == 0) {
            $(".load-more-bkg").remove();
         } else {
-            $('html,body').animate({
-                scrollTop: $(firstDisplay).offset().top
-//                scrollTop: $(this).offset().top  
-            }, 1500);
+            $(document).scrollTop(saveTop);
         }
     });
-});  
+}); 
 
 
 // In Page Navigation //
