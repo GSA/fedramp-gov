@@ -15,7 +15,7 @@ In June 2020, <a href="https://www.fedramp.gov/using-the-fedramp-oscal-resources
 FedRAMP has published resources to aid stakeholders and vendors in the digitization of FedRAMP authorization package content. Located on the <a href="https://github.com/GSA/fedramp-automation">FedRAMP Automation GitHub Repository</a>, these include:
 
 
-- <em>New</em> **Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Content.pdf">Content</a>.** Guidance and concepts common to all FedRAMP deliverables when using OSCAL. 
+- **New Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Content.pdf">Content</a>**. Guidance and concepts common to all FedRAMP deliverables when using OSCAL. 
 - <em>**Revised</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_System_Security_Plans_(SSP).pdf">System Security Plans (SSP).</a>** 
 - <em>**New</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Plans_(SAP).pdf">Security Assessment Plans (SAP).</a>** 
 - <em>**New</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Reports_(SAR).pdf">Security Assessment Reports (SAR).</a>** 
@@ -34,6 +34,7 @@ FedRAMP is offering additional support files to aid tool developers.These provid
 Together, these resources enable FedRAMP stakeholders and tool vendors to develop OSCAL-enabled FedRAMP authorization packages. OSCAL is not currently a requirement, but we expect the benefits to spur adoption and  FedRAMP is ready to start receiving information in OSCAL as a pilot.
 
 **We Want Your Feedback!**
+
 All development efforts have been performed in the open and we are seeking your feedback on our progress to date before we finalize this guidance. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!
 
 If you have questions or feedback, please provide comments via email to <a href="mailto:info@fedramp.gov">info@fedramp.gov </a>. You can also comment on an <a href="https://github.com/GSA/fedramp-automation/issues">existing issue or create a new issue</a> within the FedRAMP Automation repository. 
