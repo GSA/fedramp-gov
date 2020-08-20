@@ -2105,6 +2105,16 @@ h3.legal-framework-titles {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 800;
+		cursor: pointer;
+	}
+}
+
+.courses-img-container {
+	width: 100px;
+	margin: 40px auto 0;
+	
+	.courses-img {
+		width: 100px;
 	}
 }
 
@@ -2113,6 +2123,12 @@ h3.legal-framework-titles {
 	font-weight: 800;
 	text-transform: uppercase;
 	color: $mid-gray;
+	border-bottom: solid 1px $light-gray;
+	padding: 6px 0 28px 0;
+	
+	span {
+		margin-left: 1rem;
+	}
 	
 	.courses-button {
 		border-radius: 20px;
@@ -2120,6 +2136,7 @@ h3.legal-framework-titles {
 		padding: 4px 14px;
 		text-decoration: none;
 		margin-left: 1rem;
+		cursor: pointer;
 		
 		&:hover {
 			color: $red;
@@ -2132,8 +2149,14 @@ h3.legal-framework-titles {
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 800;
+			cursor: pointer;
+			margin: 0;
 		}
 	}
+}
+
+.training-courses h4 {
+	color: $light-blue;
 }
 
 /*
