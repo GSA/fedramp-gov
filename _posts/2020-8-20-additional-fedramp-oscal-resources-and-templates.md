@@ -15,7 +15,7 @@ In June 2020, <a href="https://www.fedramp.gov/using-the-fedramp-oscal-resources
 FedRAMP has published resources to aid stakeholders and vendors in the digitization of FedRAMP authorization package content. Located on the <a href="https://github.com/GSA/fedramp-automation">FedRAMP Automation GitHub Repository</a>, these include:
 
 
-- **<em>New</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Content.pdf">Content</a>.**Guidance and concepts common to all FedRAMP deliverables when using OSCAL. 
+- <em>New</em> **Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Content.pdf">Content</a>.** Guidance and concepts common to all FedRAMP deliverables when using OSCAL. 
 - <em>**Revised</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_System_Security_Plans_(SSP).pdf">System Security Plans (SSP).</a>** 
 - <em>**New</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Plans_(SAP).pdf">Security Assessment Plans (SAP).</a>** 
 - <em>**New</em> Guide to OSCAL-based FedRAMP <a href="https://github.com/GSA/fedramp-automation/raw/master/documents/Guide_to_OSCAL-based_FedRAMP_Security_Assessment_Reports_(SAR).pdf">Security Assessment Reports (SAR).</a>** 
