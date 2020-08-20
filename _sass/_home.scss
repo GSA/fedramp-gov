@@ -1,4 +1,83 @@
 /* --- Home scss --- */
+
+
+.agency-home {
+	position: absolute;
+	width: 190px;
+	top: 20px;
+	
+	img:hover {
+		opacity: 0;
+	}
+	
+	div:hover {
+		background-image: url('../../assets/img/agency-process-button-hover.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		transition: .3s;
+	}
+}
+
+.jab-home {
+	position: absolute;
+	width: 190px;
+	top: 210px;
+	
+	img:hover {
+		opacity: 0;
+	}
+	
+	div:hover {
+		background-image: url('../../assets/img/jab-process-button-hover.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		transition: .3s;
+	}
+
+}
+
+@media (min-width:981px) and (max-width:1199px) {
+	.agency-home, .jab-home {
+		width: 17%;
+		font-size: 0.75rem;
+	}
+	
+	.jab-home {
+		top: 56%;
+	}
+}
+
+@media (min-width:768px) and (max-width:980px) {
+	.agency-home, .jab-home {
+		left: 6%;
+		width: 35%;
+		
+		img {
+			width: 100%;
+		}
+	}
+	
+	.jab-home {
+		top: 28%;
+	}
+}
+
+@media (min-width:0px) and (max-width:767px) {
+	.agency-home, .jab-home {
+		left: 17%;
+		top: 3%;
+		width: 65%;
+		
+		img {
+			width: 100%;
+		}
+	}
+	
+	.jab-home {
+		top: 14%;
+	}
+}
+
 .center-content {
   text-align: center;
 }
