@@ -829,8 +829,8 @@ button:hover,
 #topButton {
 	display: inline-block;
 	background-color: $teal;
-	width: 40px;
-	height: 40px;
+	width: 42px;
+	height: 42px;
 	text-align: center;
 	border-radius: 4px;
 	position: fixed;
@@ -844,13 +844,16 @@ button:hover,
 }
 
 #topButton::after {
-	content: "\f077";
-	font-family: "Font Awesome 5 Free"; 
-	font-weight: 900;
-	font-style: normal;
-	font-size: 1.25em;
-	line-height: 42px;
-	color: #fff;
+	content: "";
+	color: white;
+	font-size: 1rem;
+	display: block;
+	background: url('../../assets/img/arrow-up.svg') no-repeat;
+	top: 14px;
+	left: 12px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
 }
 
 #topButton:hover {
@@ -867,29 +870,3 @@ button:hover,
 	visibility: visible;
 }
 
-
-@media (min-width: 1200px) and (max-width: 1240px) {
-	.page-banner {
-		padding-right: 10px !important;
-	}
-}
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
- 	
-}
- 
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-
-}

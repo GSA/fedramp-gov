@@ -80,9 +80,9 @@ assigned:
         show_in_footer: false
         sub:
         - 
-            text: Documents
-            href: pages/documents.md
-            permalink: /documents/
+            text: Policy & Guidance
+            href: pages/policy-guidance.md
+            permalink: /policy-guidance/
             show_in_menu: true
             show_in_footer: false
         - 

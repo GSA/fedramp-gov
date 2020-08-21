@@ -2038,6 +2038,12 @@ h3.legal-framework-titles {
 	content: none;
 }
 
+@media (min-width: 0) and (max-width: 568px) {
+	.faq-search {
+		width: auto;
+	}
+}
+
 .fedramp-accordian h4 {
 	color: $light-blue;
 	margin-top: 0 !important;
@@ -2055,6 +2061,7 @@ h3.legal-framework-titles {
 .fedramp-accordian .usa-accordion__button[aria-expanded=false] {
 	background-image: url('../../assets/img/accordian-closed.svg');
 	border-bottom: solid 1px $light-gray;
+	padding: 30px 30px 30px;
 }
 
 .fedramp-accordian .usa-accordion__content {
@@ -2068,6 +2075,14 @@ h3.legal-framework-titles {
 	color: $dark-gray;
 }
 
+.usa-prose > h5 {
+	font-family: $title-font;
+	color: $dark-gray;
+}
+
+.in-page-nav-section h3 {
+	padding-top: 2rem!important;
+}
 
 @media (min-width: 0) and (max-width: 639px) {
 	h3.legal-framework-titles {
@@ -2082,9 +2097,11 @@ h3.legal-framework-titles {
 }
 
 .training-img-container {
-	width: 165px;
+	width: 100%;
 	margin: auto;
 }
+
+
 
 .training-button {
 	border-radius: 20px;
@@ -2161,6 +2178,24 @@ h3.legal-framework-titles {
 
 .training-courses h4 {
 	color: $light-blue;
+}
+
+@media (min-width: 0) and (max-width: 639px) {
+	.training-img-container, .person-img-container {
+		width: 165px;
+		margin: auto;
+		
+		img {
+			width: 165px;
+		}
+	}
+	
+	.training-sign-up .courses-button, .courses-button .courses-button {
+		padding: 4px 8px; 
+		margin-left: .5rem;
+		line-height: 2;
+	}
+	
 }
 
 /*

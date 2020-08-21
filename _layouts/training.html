@@ -2,14 +2,14 @@
 layout: full-width
 ---
 <section class="fedramp-page-container dark-blue-bkg">
-	<div class="padding-4 padding-top-8">
+	<div class="padding-x-0 tablet:padding-4 padding-y-8">
 		<div class="full-row grid-row">
-			<div class="full-col desktop:grid-col-12">
+			<div class="full-col desktop:grid-col-12 intro-text">
 				<h2 class="center">Types of Resources Available</h2>
-				<p class="text-white text-center">Learning is a core component of FedRAMP. We know that our program is rigorous, and requires that our stakeholders accrue and maintain a substantial knowledge base. In order to make this knowledge more accessible and attainable, FedRAMP provides online courses and videos to inform our stakeholders every step of the way.</p>
+				<p class="text-white text-center margin-top-2">Learning is a core component of FedRAMP. We know that our program is rigorous, and requires that our stakeholders accrue and maintain a substantial knowledge base. In order to make this knowledge more accessible and attainable, FedRAMP provides online courses and videos to inform our stakeholders every step of the way.</p>
 			</div>
 		</div>
-		<div class="full-row grid-row padding-4 padding-top-8">
+		<div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-top-8">
 			<div class="full-col desktop:grid-col-6 desktop:padding-right-4">
 				<div class="full-row grid-row">
 					<div class="full-col tablet:grid-col-4">
@@ -17,7 +17,7 @@ layout: full-width
 							<img class="training-img" src="{{site.baseurl}}/assets/img/training-online-courses.svg" alt="">
 						</div>
 					</div>
-					<div class="full-col tablet:grid-col-8 tablet:padding-left-2">
+					<div class="full-col tablet:grid-col-8 tablet:padding-left-2 margin-top-4 desktop:margin-top-0">
 						<h3 class="text-lighter-teal margin-top-0">Online Courses</h3>
 						<p class="text-white">Deep-dive courses on various elements of the authorization process and what’s required of specific stakeholder groups. These online courses are available to all stakeholders to better understand the FedRAMP Authorization process.</p>
 						<a href="#" class="training-button"><button>Browse Courses</button></a>
@@ -25,14 +25,14 @@ layout: full-width
 				</div>
 			</div>
 			
-			<div class="full-col desktop:grid-col-6 desktop:padding-left-4">
+			<div class="full-col desktop:grid-col-6 desktop:padding-left-4 margin-top-4 desktop:margin-top-0">
 				<div class="full-row grid-row">
 					<div class="full-col tablet:grid-col-4">
 						<div class="training-img-container">
 							<img class="training-img" src="{{site.baseurl}}/assets/img/training-videos.svg" alt="">
 						</div>
 					</div>
-					<div class="full-col tablet:grid-col-8 tablet:padding-left-2">
+					<div class="full-col tablet:grid-col-8 tablet:padding-left-2 margin-top-4 desktop:margin-top-0">
 						<h3 class="text-lighter-teal margin-top-0">Videos</h3>
 						<p class="text-white">Relevant and timely videos about FedRAMP requirements and program updates. Videos can be viewed on our <a href="https://www.youtube.com/channel/UCkUuvNigxkKnk3SffjdbmQg" target="_blank" >YouTube channel</a>.</p>
 						<a href="https://www.youtube.com/channel/UCkUuvNigxkKnk3SffjdbmQg" class="training-button"><button>Browse Videos</button></a>
@@ -44,14 +44,14 @@ layout: full-width
 </section>
 
 <section class="fedramp-page-container blue-bkg">
-	<div class="full-row grid-row padding-4 padding-y-8">
+	<div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
 		<div class="full-col desktop:grid-col-2">
-			<div class="training-img-containerr">
+			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/training-in-person.svg" alt="">
 			</div>
 		</div>
 		
-		<div class="full-col desktop:grid-col-10">
+		<div class="full-col desktop:grid-col-10 margin-top-4 desktop:margin-top-0">
 			<h3 class="text-lighter-teal margin-top-0">In-Person Trainings and Events</h3>
 			<p class="text-white">The FedRAMP PMO provides hands-on training opportunities on specific topics for all audiences. To receive announcements for in-person trainings, please <a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224" target="_blank">subscribe for email updates</a>.</p>
 			<a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224" class="training-button"><button>Subscribe</button></a>
@@ -74,13 +74,34 @@ layout: full-width
 	</div>
 </section>
 
-<section class="fedramp-page-container position-sticky" style="top: 0;">
+<!-- Main In Page Navigation -->
+<section class="fedramp-page-container position-sticky resources-nav">
 	<div class="full-row grid-row">
 		<div class="full-col tablet:grid-col-4 tablet:padding-2">
 			<div id="main-header" class="lavalamp-menu">
 				<nav>
 					<ul class="in-page-nav-menu" id="top-menu">
 						<li class="active"><a href="#fedramp-101">FedRamp 101</a></li>
+						<li><a href="#cloud-service-providers">Cloud Service Providers (CSPs)</a></li>
+						<li><a href="#third-party-assessors">Third Party Assessors (3PAOs)</a></li>
+						<li><a href="#federal-agencies">Federal Agencies</a></li>
+					</ul>
+					<div class="lavalamp"></div>
+				</nav>
+			  </div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Mobile Navigation -->
+<section class="fedramp-page-container position-relative resources-nav-mobile padding-y-4">
+	<div class="full-row grid-row">
+		<div class="full-col tablet:grid-col-4 tablet:padding-2">
+			<div>
+				<nav>
+					<ul class="in-page-nav-menu" id="top-menu-mobile">
+						<li><a href="#fedramp-101">FedRamp 101</a></li>
 						<li><a href="#cloud-service-providers">Cloud Service Providers (CSPs)</a></li>
 						<li><a href="#third-party-assessors">Third Party Assessors (3PAOs)</a></li>
 						<li><a href="#federal-agencies">Federal Agencies</a></li>

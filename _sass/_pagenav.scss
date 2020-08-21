@@ -1,6 +1,4 @@
 
-
-
 /*---------- in page navigation ------------- */
 
 
@@ -69,6 +67,9 @@ ul.in-page-nav-menu {
 	padding: 0 .5rem;
 }
 
+.resources-nav {
+	top: 0;
+}
 
 #top-menu {
     z-index: 1;
@@ -78,36 +79,46 @@ ul.in-page-nav-menu {
 	height: 400px;
 }
 
-
-/* --- new navigation -- 
-
-.in-page-nav-section {
-	margin-top: -180px;
+.resources-nav-mobile {
+	display: none;
 }
 
+@media (min-width: 0) and (max-width: 639px) {
+	.resources-nav {
+		display: none;
+	}
+	
+	.resources-nav-mobile {
+		display: block;
+		position: relative;
+		background: white;
+		z-index: 1000;
+		border-bottom: solid 1px $mid-gray;
+	}
+	
+	#top-menu-mobile {
+		height: auto;
+		
+		a {
+			padding: 6px 0;
+			text-decoration: none;
+		}
+		
+		li {
+			margin: 12px -10px;
+			padding: 0 12px;
+			font-family: $title-font;
+			font-weight: 800;
+			text-transform: uppercase;
+			list-style: none;
+			border-left: solid 3px $light-gray; 
+		}
+	}
 
-#top-menu li {
-   list-style:none;
+	
+	.in-page-nav-section {
+		margin-top: 0;
+	}
+
 }
 
-#top-menu a {
-    padding: 5px 25px 7px 25px;
-    text-align: center;
-    -webkit-transition: .5s all ease-out;
-    -moz-transition: .5s all ease-out;
-    transition: .5s all ease-out;
-    border-top: 3px solid white;
-    color: #aaa;
-    text-decoration: none;
-}
-
-#top-menu a:hover {
-    color: #000;
-}
-
-#top-menu li.active a {
-    border-left: 3px solid #333;
-    color: $red;
-}
-
-*/
