@@ -2,5 +2,5 @@
 layout: null
 ---
 User-agent: *
-Disallow:
+Disallow: /
 Sitemap: {{ site.url }}/sitemap.xml
