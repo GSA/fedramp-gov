@@ -14,7 +14,6 @@
 		background-image: url('../../assets/img/agency-process-button-hover.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
-		transition: .3s;
 	}
 }
 
@@ -22,7 +21,7 @@
 	position: absolute;
 	width: 190px;
 	top: 210px;
-	
+
 	img:hover {
 		opacity: 0;
 	}
@@ -31,7 +30,6 @@
 		background-image: url('../../assets/img/jab-process-button-hover.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
-		transition: .3s;
 	}
 
 }

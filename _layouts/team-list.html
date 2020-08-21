@@ -84,37 +84,6 @@ layout: full-width
 </section>
 
 
-<!-- 
-<section class="fedramp-page-container">
-	<div class="grid-container">
-		<div class="full-row grid-row">
-			{% for person in site.team %}
-			{% assign half = forloop.index | modulo: 2 %}
-			{% if half == 1 %}
- 			<div class="grid-col-6">
-				{% else %}
-					<div class="desktop:grid-col-6">
-						{% endif %}
-						{% assign items = site.team | sort: 'date' %}
-							<div class="usa-media_block-img team-image" style="background-image: url({{ person.image | prepend: site.baseurl }});" role="image" aria-label="{{ person.name }}">
-							</div>
-						<div class="usa-media_block-body">
-							<h3>
-							<a href="{{ site.baseurl }}{{ person.url }}">
-							{{ person.name }}
-							</a>
-							</h3>
-							<p>{{ person.title | join: ", " }}</p>
-					</div>
-	  			</div>
-			</div>
-		</div>
-	</div>
-		
-{% endfor %}
-</section>
-
--->
 
 <section class="drawer" id="drawer-AshleyMahan" data-drawer-target>
 	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -167,6 +136,7 @@ layout: full-width
 						
 						<hr class="team-border margin-bottom-2 margin-top-4">
 						
+						<p class="team-twitter"><a href="https://www.linkedin.com/in/brianhconrad/" target="_blank"><i class="fab fa-twitter"></i> Connect with Brian</a></p>
 					</div>
 				</div>
 			</div>
