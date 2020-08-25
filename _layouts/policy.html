@@ -16,7 +16,9 @@ Columns in the table below are sortable. The Category, Document, and Description
          <br>
        {% endunless %}
     {% endfor %}
+  </form>
 
+  <form>
     <h3 style="font-size:14px; font-weight:normal;">Document Type</h3>
     {% assign tagsAll = site.policy | map: "tags" | uniq %}
     {% assign tagsArray = "" | split: "" %}
@@ -26,33 +28,37 @@ Columns in the table below are sortable. The Category, Document, and Description
     {% endfor %}
     {% assign tagsArray = tagsArray | sort %}
     {% for tag in tagsArray %}
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}</label>
        {% unless forloop.last %}
          <br>
        {% endunless %}
     {% endfor %}
+  </form>
 
+  <form>
     <h3 style="font-size:14px; font-weight:normal;">File Format</h3>
     {% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
     {% for fil in fileAll %}
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /> {{ fil | upcase }}</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /> {{ fil | upcase }}</label>
        {% unless forloop.last %}
          <br>
        {% endunless %}
     {% endfor %}
+  </form>
 
+  <form>
     <h3 style="font-size:14px; font-weight:normal;">Date</h3>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="thirty" id="thirty" /> Last 30 Days</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days</label>
        <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="sixty" id="sixty" /> Last 60 Days</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days</label>
        <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="months" id="months" /> Last 6 Months</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months</label>
        <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="year" id="year" /> Last Year</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year</label>
        <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="ten" id="ten" /> 2010-2020</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020</label>
        <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="y2k" id="y2k" /> 2000-2010</label>
+       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010</label>
   </form>
 </div>
 
