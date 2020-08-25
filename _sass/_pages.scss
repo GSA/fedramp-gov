@@ -2111,6 +2111,9 @@ h3.legal-framework-titles {
 	margin: auto;
 }
 
+.training-section {
+	border-bottom: solid 1px $light-gray;
+}
 
 
 .training-button {
@@ -2144,6 +2147,13 @@ h3.legal-framework-titles {
 		width: 100px;
 	}
 }
+
+@media (min-width: 639px) and (max-width: 768px) {
+	h3.courses-titles {
+		text-align: left;
+	}
+}
+
 
 .training-sign-up, .courses-button {
 	font-size: 0.75rem;
@@ -2204,6 +2214,10 @@ h3.legal-framework-titles {
 		padding: 4px 8px; 
 		margin-left: .5rem;
 		line-height: 2;
+	}
+	
+	.courses-buttons {
+		text-align: center;
 	}
 	
 }
