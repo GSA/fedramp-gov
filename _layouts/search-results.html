@@ -2,15 +2,22 @@
 layout: full-width
 ---
 <section class="fedramp-page-container">
-	<div class="grid-container">
-		<div class="full-row grid-row ">
-			<div class="full-col desktop:grid-offset-2 desktop:grid-col-8 fedramp-search">
-				{% if page.image %}
-				<img src="{{ page.image | prepend: site.baseurl }}">
-				{% endif %}
-				{{ content }}
-				<ul id="results" class="usa-unstyled-list"></ul>
+	<div class="padding-2">
+		<div class="full-row grid-row">
+			<div class="full-col desktop:grid-col-12">
+				<div class="usa-grid">
+					<div class="">
+					{% if page.image %}
+					<img src="{{ page.image | prepend: site.baseurl }}">
+					{% endif %}
+					{{ content }}
+					<ul id="results" class="usa-unstyled-list"></ul>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+	</div>	
 </section>
+
+
+

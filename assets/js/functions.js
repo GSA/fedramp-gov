@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 function searchScroll(e) {
    e.preventDefault();
-   $(document).scrollTop($('#faq-general').offset().top);
+  // $(document).scrollTop($('#faq-general').offset().top);
 }
 
 $('ul.sub-sub-menu').parent('li').addClass("parent");
