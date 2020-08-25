@@ -1,6 +1,6 @@
 ---
 layout: search-results
-title: Search results
+title: Search Results
 permalink: /search-results/
 body-class: search-results
 ---

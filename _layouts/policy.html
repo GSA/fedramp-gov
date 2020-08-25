@@ -12,7 +12,7 @@ body-class: page-fed-agencies
 				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-6">
 					<h3>Refine Your Results</h3>
 					<section aria-label="Small search component" class="faq-search policy-search">
-						<form class="usa-search usa-search--small" role="search">
+						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
 							<label class="usa-sr-only" for="search-field-small">Search</label>
 							<input class="usa-input" id="search" type="search" name="search" placeholder="Search">
 							<button class="usa-button" type="submit">
