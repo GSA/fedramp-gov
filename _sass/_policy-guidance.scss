@@ -34,6 +34,30 @@
 			text-transform: uppercase;
 			font-weight: 800 !important;
 			border-right: solid 1px $mid-gray;
+			padding-right: 2rem;
+		}
+		
+		p.document-date {
+			padding-left: 2rem;
+		}
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1099px) {
+	.policy-card {
+		
+		.policy-document-date {
+			p {
+				font-size: 0.75rem;
+			}
+			
+			p.document-kind {
+				padding-right: .5rem;
+			}
+
+			p.document-date {
+				padding-left: .5rem;
+			}
 		}
 	}
 }
@@ -94,7 +118,7 @@ a.policy-download.policy-excel {
 .policy-tags a.tags {
 	border: solid $teal 1px;
 	border-radius: 20px;
-	padding: 4px 20px;
+	padding: 3px 20px 4px;
 	margin-left: 14px;
 	cursor: pointer;
 	color: $teal;
