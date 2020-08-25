@@ -1,6 +1,46 @@
 
 /*---------- policy and guidance ------------- */
 
+.flowers-wrap {
+	h3 {
+		font-size: 1rem;
+		color: $light-blue;
+		margin-top: 0;
+		text-align: center;
+		padding: 0;
+		display: block;
+		
+		&::after {
+			content: none;
+		}
+	}
+	
+	h4 {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+	.flowers-wrap {
+		h4 {
+			font-size: .75rem;
+		}
+	}
+}
+
+.policy-search-fields {
+	label {
+		font-size: .75rem;
+		float: left;
+	}
+	
+	input {
+		float: left;
+		margin-right: 4px;
+	}
+}
+
+
 .policy-card {
 	
 	border-bottom: solid 1px $light-gray;
@@ -26,6 +66,9 @@
 	}
 	
 	.policy-document-date {
+		
+		width: 100%;
+		
 		p {
 			float: left;
 			color: $mid-gray;
@@ -58,6 +101,29 @@
 
 			p.document-date {
 				padding-left: .5rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 0px) and (max-width: 568px) {
+	.policy-card {
+		
+		.policy-document-date {
+			
+			p {
+				float: none;
+			}
+			
+			p.document-kind {
+				padding-right: 0;
+				border-right: none;
+				margin-block-end: 0;
+			}
+
+			p.document-date {
+				padding-left: 0;
+				margin-block-start: 0;
 			}
 		}
 	}
@@ -99,7 +165,7 @@ a.policy-download.policy-pdf {
 	background-repeat: no-repeat;
 }
 
-a.policy-download.policy-doc {
+a.policy-download.policy-word {
 	background-image: url('../../assets/img/policy-doc.svg');
 	background-position: 130px 8px;
 	background-repeat: no-repeat;
@@ -136,5 +202,41 @@ a.policy-download.policy-excel {
 		text-decoration: none;
 		cursor: pointer;
 		background: transparent;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 568px) {
+	
+	a.policy-download {
+		padding: 0 0 0 25%;
+		display: block;
+	}
+	
+	a.policy-download.policy-pdf {
+		background-position: 75% 14px;
+	}
+
+	a.policy-download.policy-word {
+		background-position: 75% 14px;
+	}
+
+	a.policy-download.policy-excel {
+		background-position: 75% 14px;
+	}
+	
+	.policy-tags a.tags {
+		border-radius: 20px;
+		padding: 3px 20px 4px;
+		display: block;
+		text-align: center;
+		margin: 10px 0;
+
+		button {
+			margin: 0;
+		}
+	}
+	
+	.tag-icon {
+		display: none;
 	}
 }

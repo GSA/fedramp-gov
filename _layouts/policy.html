@@ -1,129 +1,159 @@
 ---
-layout: page
+layout: full-width
 title: Documents
 permalink: /policy-guidance/
 body-class: page-fed-agencies
 ---
-Columns in the table below are sortable. The Category, Document, and Description columns sort alphabetically, and the Last Updated column sorts by date. Click on the column header to sort, and click again to sort in reverse order. To return the table to its original order, simply refresh the web page.
+<section class="fedramp-page-container">
+	<div class="grid-container">
+		<div class="full-row grid-row ">
+			
+			<div class="full-col desktop:grid-col-3">
+				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-6">
+					<h3>Refine Your Results</h3>
+					<section aria-label="Small search component" class="faq-search policy-search">
+						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
+							<label class="usa-sr-only" for="search-field-small">Search</label>
+							<input class="usa-input" id="search-field-small" type="search" name="search" placeholder="Search">
+							<button class="usa-button" type="submit">
+							<span class="usa-sr-only">Search</span>
+							</button>
+						</form>
+					</section>
+					<div class="grid-row policy-search-fields">
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+							<form>
+								<h4>Partners</h4>
+								{% assign partners = site.policy | map: "partner" | sort | uniq %}
+								{% for par in partners %}
+								   <label><input type="checkbox" name="fl-colour" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> {{ par }}</label>
+								   {% unless forloop.last %}
+									 <br>
+								   {% endunless %}
+								{% endfor %}
+							</form>
+						</div>
 
-<div class="flowers-wrap">
-  <form>
-    <h3 style="font-size:14px; font-weight:normal;">Partners</h3>
-    {% assign partners = site.policy | map: "partner" | sort | uniq %}
-    {% for par in partners %}
-       <label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> {{ par }}</label>
-       {% unless forloop.last %}
-         <br>
-       {% endunless %}
-    {% endfor %}
-  </form>
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+							<form>
+								<h4>Document Type</h4>
+								{% assign tagsAll = site.policy | map: "tags" | uniq %}
+								{% assign tagsArray = "" | split: "" %}
+								{% for tag in tagsAll %}
+								   {% assign workT = tag | split: "~" %}
+								   {% assign tagsArray = tagsArray | concat: workT %}
+								{% endfor %}
+								{% assign tagsArray = tagsArray | sort %}
+								{% for tag in tagsArray %}
+								   <label><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}</label>
+								   {% unless forloop.last %}
+									 <br>
+								   {% endunless %}
+								{% endfor %}
+							</form>
+						</div>
+					
+						
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+							<form>
+								<h4>File Format</h4>
+								{% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
+								{% for fil in fileAll %}
+								   <label><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /> {{ fil | upcase }}</label>
+								   {% unless forloop.last %}
+									 <br>
+								   {% endunless %}
+								{% endfor %}
+							</form>
+						</div>
+						
+						
+							<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+								<form>
+								<h4>Date</h4>
+								   <label><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days</label>
+								   <br>
+								   <label><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days</label>
+								   <br>
+								   <label><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months</label>
+								   <br>
+								   <label><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year</label>
+								   <br>
+								   <label><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020</label>
+								   <br>
+								   <label><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010</label>
+								</form>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+			<div class="full-col desktop:grid-col-9 desktop:padding-left-8">
+				
+				<div class="flowers">
+					
 
-  <form>
-    <h3 style="font-size:14px; font-weight:normal;">Document Type</h3>
-    {% assign tagsAll = site.policy | map: "tags" | uniq %}
-    {% assign tagsArray = "" | split: "" %}
-    {% for tag in tagsAll %}
-       {% assign workT = tag | split: "~" %}
-       {% assign tagsArray = tagsArray | concat: workT %}
-    {% endfor %}
-    {% assign tagsArray = tagsArray | sort %}
-    {% for tag in tagsArray %}
-       <label style="font-size:12px;"><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}</label>
-       {% unless forloop.last %}
-         <br>
-       {% endunless %}
-    {% endfor %}
-  </form>
-
-  <form>
-    <h3 style="font-size:14px; font-weight:normal;">File Format</h3>
-    {% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
-    {% for fil in fileAll %}
-       <label style="font-size:12px;"><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /> {{ fil | upcase }}</label>
-       {% unless forloop.last %}
-         <br>
-       {% endunless %}
-    {% endfor %}
-  </form>
-
-  <form>
-    <h3 style="font-size:14px; font-weight:normal;">Date</h3>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days</label>
-       <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days</label>
-       <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months</label>
-       <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year</label>
-       <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020</label>
-       <br>
-       <label style="font-size:12px;"><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010</label>
-  </form>
-</div>
-
-<div class="responsive-table">
-<input id="search" type="text" placeholder="Search...">
-  <table class="sortable usa-table flowers">
-    <tr>
-      <th onclick="sortTable(0)" scope="col">Category</th>
-      <th onclick="sortTable(1)" scope="col">Document</th>
-      <th onclick="sortTable(2)" scope="col">Description</th>
-      <th onclick="sortTable(3)" scope="col">Download</th>
-      <th onclick="sortTable(4)" scope="col">Last Updated</th>
-    </tr>
-
-<tbody id="search-table">
-
-    {% assign thirty = "now" | date: "%s" | minus: 2592000 %}
-    {% assign sixty = "now" | date: "%s" | minus: 5184000 %}
-    {% assign months = "now" | date: "%s" | minus: 15552000 %}
-    {% assign year = "now" | date: "%s" | minus: 31536000 %}
-    {% assign twenty = "January 1, 2020" | date: "%s" | minus: 0 %}
-    {% assign ten = "January 1, 2010" | date: "%s" | minus: 0 %}
+							{% assign thirty = "now" | date: "%s" | minus: 2592000 %}
+							{% assign sixty = "now" | date: "%s" | minus: 5184000 %}
+							{% assign months = "now" | date: "%s" | minus: 15552000 %}
+							{% assign year = "now" | date: "%s" | minus: 31536000 %}
+							{% assign twenty = "January 1, 2020" | date: "%s" | minus: 0 %}
+							{% assign ten = "January 1, 2010" | date: "%s" | minus: 0 %}
 
 
-    {% assign docs_sorted = site.policy | reverse %}
-    {% for doc in docs_sorted %}
-      {% assign stamp = doc.date | date: "%s" | minus: 0 %}
-      {% assign dateFilters = "" %}
-      {% if stamp > thirty %}{% assign dateFilters = dateFilters | append: " thirty" %}{% endif %}
-      {% if stamp > sixty %}{% assign dateFilters = dateFilters | append: " sixty" %}{% endif %}
-      {% if stamp > months %}{% assign dateFilters = dateFilters | append: " months" %}{% endif %}
-      {% if stamp > year %}{% assign dateFilters = dateFilters | append: " year" %}{% endif %}
-      {% if stamp < twenty %}
-         {% if stamp > ten %}
-           {% assign dateFilters = dateFilters | append: " ten" %}
-         {% else %} 
-           {% assign dateFilters = dateFilters | append: " y2k" %}
-         {% endif %} 
-      {% endif %} 
+							{% assign docs_sorted = site.policy | reverse %}
+							{% for doc in docs_sorted %}
+							{% assign stamp = doc.date | date: "%s" | minus: 0 %}
+							{% assign dateFilters = "" %}
+							{% if stamp > thirty %}{% assign dateFilters = dateFilters | append: " thirty" %}{% endif %}
+							{% if stamp > sixty %}{% assign dateFilters = dateFilters | append: " sixty" %}{% endif %}
+							{% if stamp > months %}{% assign dateFilters = dateFilters | append: " months" %}{% endif %}
+							{% if stamp > year %}{% assign dateFilters = dateFilters | append: " year" %}{% endif %}
+							{% if stamp < twenty %}
+							{% if stamp > ten %}
+							{% assign dateFilters = dateFilters | append: " ten" %}
+							{% else %} 
+							{% assign dateFilters = dateFilters | append: " y2k" %}
+							{% endif %} 
+							{% endif %} 
 
-      {% assign tagList = "" %}
-      {% for t in doc.tags %}
-         {% assign workT = t | replace: " ", "-" %}
-         {% assign tagList = tagList | append: workT %}
-         {% unless forloop.last %}{% assign tagList = tagList | append: " " %}{% endunless %}
-      {% endfor %}
-      <tr class="flower" data-id="aloe" data-category="{{ tagList | downcase }} {{ doc.filetype | downcase | replace: " ", "-" }} {{doc.partner | downcase | replace: " ", "-"}}{{ dateFilters }}">
-        <th class="row-header" scope="row">{{ doc.category }}</th>
-        <td><a href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}">{{ doc.title }}</a></td>
-        <td>{{ doc.content }}
-          {% for tag in doc.tags %}
-            <p onclick="checkFilter($('#{{ tag | downcase }}'))">{{tag}}</p>
-          {% endfor %}
-        </td>
+							{% assign tagList = "" %}
+							{% for t in doc.tags %}
+							{% assign workT = t | replace: " ", "-" %}
+							{% assign tagList = tagList | append: workT %}
+							{% unless forloop.last %}{% assign tagList = tagList | append: " " %}{% endunless %}
+							{% endfor %}
 
-        <td>
-           <a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}">
-             <i class="fas fa-file-{{ doc.filetype }}"></i>
-             <p class="icon-text">{{ doc.filetype | upcase }}</p>
-           </a>
-        </td>
-        <td>{{ doc.date | date: "%B %-d, %Y"}}</td>
-      </tr>
-    {% endfor %}
-</tbody>
 
-  </table>
-</div>
+						<div class="grid-row padding-y-4 flower policy-card" data-id="aloe" data-category="{{ tagList | downcase }} {{ doc.filetype | downcase | replace: " ", "-" }} {{doc.partner | downcase | replace: " ", "-"}}{{ dateFilters }}">
+							<div class="desktop:grid-col-9">
+								<div class="policy-document-date">
+									<p class="document-kind">{{ doc.category }}</p>
+									<p class="document-date">{{ doc.date | date: "%B %-d, %Y"}}</p>
+								</div>
+
+								<h3>{{ doc.title }}</h3>
+								<p>{{ doc.content }}</p>
+								<div class="policy-tags">
+									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
+									{% for tag in doc.tags %}
+									<a class="tags" onclick="checkFilter($('#{{ tag | downcase }}'))"><button>{{tag}}</button></a>
+									{% endfor %}
+								</div>
+
+
+								
+							</div>
+							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-2">
+								<a class="policy-download policy-{{ doc.filetype }}" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}">
+								 <button class="icon-text">Download</button>
+								</a>
+							</div>
+						</div>
+						{% endfor %}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

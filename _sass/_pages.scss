@@ -2034,6 +2034,15 @@ h3.legal-framework-titles {
 	}
 }
 
+.faq-search.policy-search {
+	width: auto;
+}
+
+.policy-search input {
+	font-size: 0.75rem;
+	font-style: italic;
+}
+
 .faq-search .usa-search::after {
 	content: none;
 }
