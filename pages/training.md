@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Online Courses
-permalink: /online-courses/
+layout: training
+title: Training
+permalink: /training/
 body-class: page-training
 ---
 

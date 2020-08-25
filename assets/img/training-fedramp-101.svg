@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Group_4250" data-name="Group 4250" transform="translate(158.747 1363.566)">
+    <g id="Circles" transform="translate(-158.747 -1363.566)">
+      <circle id="Ellipse_699" data-name="Ellipse 699" cx="50.5" cy="50.5" r="50.5" fill="#d9f1fd"/>
+    </g>
+    <g id="Icon_Art" data-name="Icon Art" transform="translate(-146.969 -1352.635)">
+      <g id="Group_4249" data-name="Group 4249" transform="translate(0 0)">
+        <path id="Path_10408" data-name="Path 10408" d="M-101.238-1346.864a38.8,38.8,0,0,1,38.8,38.8,38.643,38.643,0,0,1-3.77,16.7l6.759,19.347-20.168-3.827a38.615,38.615,0,0,1-21.618,6.577,38.8,38.8,0,0,1-38.8-38.8A38.8,38.8,0,0,1-101.238-1346.864Z" transform="translate(142.842 1348.95)" fill="#c2e9f9" opacity="0.6" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_10409" data-name="Path 10409" d="M-104.838-1349.541a38.8,38.8,0,0,1,38.8,38.8,38.651,38.651,0,0,1-3.769,16.7l6.758,19.348-20.168-3.827a38.62,38.62,0,0,1-21.618,6.577,38.8,38.8,0,0,1-38.8-38.8A38.8,38.8,0,0,1-104.838-1349.541Z" transform="translate(143.636 1349.541)" fill="#fff"/>
+        <path id="Path_10410" data-name="Path 10410" d="M-104.11-1286.605v-6.925h3.495v-18.338h-3.495v-6.925h13.081v25.263h3.078v6.925Zm13.946-41.229a5.376,5.376,0,0,1-1.634,3.944,5.377,5.377,0,0,1-3.944,1.634,5.375,5.375,0,0,1-3.943-1.634,5.374,5.374,0,0,1-1.635-3.944,5.372,5.372,0,0,1,1.635-3.943,5.371,5.371,0,0,1,3.943-1.635,5.389,5.389,0,0,1,3.927,1.635A5.347,5.347,0,0,1-90.164-1327.834Z" transform="translate(134.917 1345.983)" fill="#c71f25"/>
+        <g id="Group_4248" data-name="Group 4248" opacity="0.75">
+          <path id="Path_10411" data-name="Path 10411" d="M-104.838-1349.541a38.8,38.8,0,0,0-38.8,38.8,38.8,38.8,0,0,0,38.8,38.8c.127,0,.25-.013.376-.015v-77.572C-104.587-1349.533-104.712-1349.541-104.838-1349.541Z" transform="translate(143.636 1349.541)" fill="#f0f0f0" style="mix-blend-mode: multiply;isolation: isolate"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

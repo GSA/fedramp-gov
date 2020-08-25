@@ -41,6 +41,14 @@ main#main:focus {
 
 .text-white {
 	color: #ffffff !important;
+	
+	a {
+		color: inherit;
+		
+		&:hover {
+			color: $light-teal;
+		}
+	}
 }
 
 .text-red {
@@ -51,11 +59,17 @@ main#main:focus {
 	color: $lighter-teal !important;
 }
 
-#main p {
-	orphans: 3;
-	font-weight: 400;
-	letter-spacing: .02em;
-	margin-block-start: .5em;
+#main  {
+	p {
+		orphans: 3;
+		font-weight: 400;
+		letter-spacing: .02em;
+	}	
+	
+	p.block-start {
+		margin-block-start: .5em;
+	}
+
 }
 
 body,
@@ -89,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	h2::after {
 		content: "";
 		display: block;
-		padding-top: 24px;
+		padding-top: 20px;
 		border-bottom: solid 1px $red;
 		width: 88px;
 	}
@@ -142,8 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 	
 	h3.center {
 		text-align: center;
-		padding-right: 0;
 		display: block;
+		padding-right: 0;
 	}
 
 	h3::after {
@@ -220,7 +234,7 @@ h6 {
 	text-transform: none;
 }
 
-.intro-text p {
+.intro-text p, .intro-text li {
 	font-size: 1.25rem;
 	margin: 0 0 1rem 0;
 	line-height: 1.875rem;
@@ -233,6 +247,10 @@ a.focus-within:active {
 
 .white-bkg {
 	background: white;
+}
+
+.teal-bkg {
+	background: $teal;
 }
 
 .dark-blue-bkg {
@@ -808,16 +826,16 @@ button:hover,
 
 /* Back to Top button */
 
-#button {
+#topButton {
 	display: inline-block;
 	background-color: $teal;
-	width: 50px;
-	height: 50px;
+	width: 42px;
+	height: 42px;
 	text-align: center;
 	border-radius: 4px;
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
+	bottom: 20px;
+	right: 20px;
 	transition: background-color .3s, opacity .5s, visibility .5s;
 	opacity: .8;
 	visibility: hidden;
@@ -825,53 +843,30 @@ button:hover,
 	text-decoration: none;
 }
 
-#button::after {
-	content: "\f077";
-	font-family: "Font Awesome 5 Free"; 
-	font-weight: 900;
-	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
-	color: #fff;
+#topButton::after {
+	content: "";
+	color: white;
+	font-size: 1rem;
+	display: block;
+	background: url('../../assets/img/arrow-up.svg') no-repeat;
+	top: 14px;
+	left: 12px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
 }
 
-#button:hover {
+#topButton:hover {
 	cursor: pointer;
 	opacity: 1;
 }
 
-#button:active {
+#topButton:active {
 	background-color: $dark-blue;
 }
 
-#button.show {
+#topButton.show {
 	opacity: .8;
 	visibility: visible;
 }
 
-
-@media (min-width: 1200px) and (max-width: 1240px) {
-	.page-banner {
-		padding-right: 10px !important;
-	}
-}
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
- 	
-}
- 
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-
-}

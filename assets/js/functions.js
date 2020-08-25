@@ -1,3 +1,39 @@
+
+function checkFilter(inId) {
+    $(inId).click();
+}
+
+$(document).ready(function(){
+  $("#search").on("keyup", function() {
+    $('input[type="checkbox"]').prop("checked", false);
+    var value = $(this).val().toLowerCase();
+    $("#search-table tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+$(document).ready(function(){
+  $("#search-field-small").on("keyup", function() {
+
+    var value = $(this).val().toLowerCase();
+
+    $(".usa-accordion__heading button").attr("aria-expanded", "true");
+    $(".usa-accordion__content:gt(0)").show();
+    
+    $(".usa-accordion__content:gt(0)").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
+    });
+  });
+});
+
+
+function searchScroll(e) {
+   e.preventDefault();
+   $(document).scrollTop($('#faq-general').offset().top);
+}
+
 $('ul.sub-sub-menu').parent('li').addClass("parent");
 
 $('ul.usa-nav-primary li a').keypress(function(event) {
@@ -64,9 +100,119 @@ $('.usa-nav-primary li.main-parent').click(function () {
 	$(this).find('ul.sub-menu').toggle();
 });
 
+// #***************************************************
+// # AV01 - When "bell" in header is clicked, toggle the
+// #        pane and set the 'last-bell-click' cookie with
+// #        epoc time, expiring 30 days from now.
+// #***************************************************
 $(".bell").click(function() {
-	$("#alert-logic").toggle();
+
+        $("#alert-logic").toggle();
+
+        $(".post-count").remove();      // remove red alert over bell
+
+        var now = new Date();           // get now and +30 day epoc
+        var exp = new Date();
+        exp.setTime(now.getTime() + (30*24*60*60*1000));
+
+        // set cookie
+        document.cookie = "last-bell-click=" + (now.getTime() / 1000) + "; expires=" + exp.toUTCString() + "; path=/";
 });
+
+// #***************************************************
+// # AV01 - Use value of last-bell-click cookie
+// #        to compare the timestamps of each post.
+// #***************************************************
+$(document).ready(function() {
+
+        const value = `; ${document.cookie}`;                   // get all cookies
+        const parts = value.split(`; last-bell-click=`);        // split on cookie we want
+
+        var lastBellClick = 0;
+
+        if (parts.length === 2) {                                       // if split happened (cookie present),
+                lastBellClick = parts.pop().split(';').shift();         // pop last from array, split on ';',
+        }                                                               // and shift to get first element
+
+        var i = 0;
+        var postCount = 0;
+        var docCountNew = 0;
+        var docCountUpdate = 0;
+
+        var postTime = document.getElementsByClassName("post-time");    // get all post-time timestamps
+        var postList = document.getElementsByClassName("current-post");
+
+        var docTimeNew = document.getElementsByClassName("doc-time-new");    // get all doc-time timestamps
+        var docListNew = document.getElementsByClassName("current-doc-new");
+
+        var docTimeUpdate = document.getElementsByClassName("doc-time-update");    // get all doc-time timestamps
+        var docListUpdate = document.getElementsByClassName("current-doc-update");
+
+        for (i = 0; i < postTime.length; i++) {                         // compare and count
+                if (lastBellClick < postTime[i].innerHTML) {
+                        postCount++;
+                } else {
+                        postList[i].remove();
+                }
+        }
+
+        for (i = 0; i < docTimeNew.length; i++) {
+                if (lastBellClick < docTimeNew[i].innerHTML) {
+                        docCountNew++;
+                } else {
+                        docListNew[i].remove();
+                }
+        }
+        for (i = 0; i < docTimeUpdate.length; i++) {
+                if (lastBellClick < docTimeUpdate[i].innerHTML) {
+                        docCountUpdate++;
+                } else {
+                        docListUpdate[i].remove();
+                }
+        }
+
+        var count = postCount + docCountNew + docCountUpdate;
+
+        if (count == 0) {
+
+                $(".bell").css("display", "none");
+
+                if (typeof(Storage) !== "undefined") {
+                        var oldBell = sessionStorage.getItem('old-bell');
+                        if (oldBell !== null) {
+                                $("#alert-logic").html(oldBell);
+                                $(".bell").css("display", "block");
+                                $(".post-count").css("display", "none");
+                        }
+                }
+        } else {                                                          // show count on bell
+
+                $(".post-count").html(count);
+                $(".post-count").css("display", "block");
+
+                if (postCount == 0) {
+                        $("#post-label").next().remove("ul");
+                        $("#post-label").remove();
+                }
+                if (docCountNew == 0) {
+                        $("#doc-label-new").next().remove("ul");
+                        $("#doc-label-new").remove();
+                }
+                if (docCountUpdate == 0) {
+                        $("#doc-label-update").next().remove("ul");
+                        $("#doc-label-update").remove();
+                }
+
+                // save old menu
+                if (typeof(Storage) !== "undefined") {
+                        sessionStorage.setItem('old-bell', $("#alert-logic").html());
+                }
+        }
+});
+
+// #--------------------------------------------------*
+
+
 
 //$(function(){
 //  	  $('#navigation a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
@@ -90,7 +236,7 @@ $(function(){
 
 /// scroll to top button js ////
 
-var btn = $('#button');
+var btn = $('#topButton');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
@@ -113,102 +259,59 @@ $(function(){
 });
 
 
-/*
 
-$(function () {
-    $(".blog-card").slice(0, 4).addClass('display');
-    $("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $(".blog-card:hidden").slice(0, 2).addClass('display');
-        if ($(".blog-card:hidden").length == 0) {
-           $("#loadMore").remove();
-        } else {
-            $('html,body').animate({
-                scrollTop: $(this).offset().top
-            }, 0);
-        }
-    });
-});
 
-*/
 
 $(function () {
     $(".blog-card").slice(0, 4).addClass('display');
     $(".load-more-bkg").on('click', function (e) {
         e.preventDefault();
-        var firstDisplay = $(".blog-card:hidden").slice(0, 2) .addClass('display');  
-//        $(".blog-card:hidden").slice(0, 2).addClass('display');
+        var saveTop = $(document).scrollTop();
+        $(".blog-card:hidden").slice(0, 12).addClass('display');
         if ($(".blog-card:hidden").length == 0) {
            $(".load-more-bkg").remove();
         } else {
-            $('html,body').animate({
-                scrollTop: $(firstDisplay).offset().top
-//                scrollTop: $(this).offset().top  
-            }, 1500);
+            $(document).scrollTop(saveTop);
         }
     });
-});  
+}); 
 
 
-//
-//
-//
-//$(window).resize(function() {
-// if ($(window).width() < 960) {
-//        $('usa-logo-text a img').attr("src", "/assets/img/logo-main-fedramp.png");
-//}
-// if ($(window).width() > 960) {
-//        $('usa-logo-text a img').attr("src", "/assets/img/logo-mobile-fedramp.png");
-//}
-//});
-//$(document).ready(function() {
-//    $(".nav").accessibleDropDown();
-//});
-//
-//$.fn.accessibleDropDown = function () {
-//    var el = $(this);
-//
-//    /* Make dropdown menus keyboard accessible */
-//
-//    $("a", el).focus(function() {
-//        $(this).parents("li").addClass("hover");
-//    }).blur(function() {
-//        $(this).parents("li").removeClass("hover");
-//    });
-//}
-//
-//window.onload = function () {
-//    document.getElementById('button').onclick = function () {
-//        document.getElementById('modal').style.display = "none"
-//    };
-//};
-//
-//$(window).load(function() {
-//  // if no cookie
-//  if ($.cookie('alert') != "true") {
-//    $(".post-count").show();
-//    $(".bell").click(function() {
-//      $(".post-count").slideUp("slow");
-//      // set the cookie for 24 hours
-//      var date = new Date();
-//      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
-//      $.cookie('alert', "true", {
-//        expires: date
-//      });
-//    });
-//  }
-//});
-//
-//window.cookieconsent.initialise({
-//  container: document.getElementById("cookieconsent"),
-//  palette:{
-//    popup: { background: "#1aa3ff" },
-//    button: { background: "#e0e0e0" },
-//  },
-//  revokable: true,
-//  onStatusChange: function(status) {
-//    console.log(this.hasConsented() ?
-//    'enable cookies' : 'disable cookies');
-//  },
-//  "theme": "edgeless"
-//});
+// In Page Navigation //
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
+// Cache selectors
+var topMenu = $(".in-page-nav"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+// Bind to scroll
+$(window).scroll(function(){
+   // Get container scroll position
+   var fromTop = $(this).scrollTop()+topMenuHeight;
+
+   // Get id of current scroll item
+   var cur = scrollItems.map(function(){
+     if ($(this).offset().top < fromTop)
+       return this;
+   });
+   // Get the id of the current element
+   cur = cur[cur.length-1];
+   var id = cur && cur.length ? cur[0].id : "";
+   // Set/remove active class
+   menuItems
+     .parent().removeClass("active")
+     .end().filter("[href='#"+id+"']").parent().addClass("active");
+});

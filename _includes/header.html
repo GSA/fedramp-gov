@@ -46,41 +46,83 @@
   </div>
 </section>
   <!-- Gov banner END -->
-  
-  	<!-- AV01 -->
-	<div style="display: none;">
-		{% assign recent_posts = "now" | date: "%s" | minus: 1678400 %}
-  		{% for post in site.posts %}
-			{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
-			{% if post_time > recent_posts %}
-    				<p class="post-time">{{ post.last_modified_at | date: "%s" }}</p>
-			{% endif %}
-  		{% endfor %}
-	</div>
+<!-- AV01 -->
+        <div style="display: none;">
+                {% assign recent_posts = "now" | date: "%s" | minus: 1678400 %}
+                {% for post in site.posts %}
+                        {% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+                        {% if post_time > recent_posts %}
+                                <p class="post-time">{{ post.last_modified_at | date: "%s" }}</p>
+                        {% endif %}
+                {% endfor %}
 
-	  <div class="search-feature">
-		<div class="search-wrapper">
-			<div class="bell">
-				<i class="fas fa-bell"></i>	  	
+                {% assign docs = site.policy | reverse %}
+                {% for doc in docs %}
+                        {% assign doc_time = doc.date | date: "%s" | minus: 0 %}
+                        {% if doc_time > recent_posts %}
+                                {% assign doc_cond = doc.condition | strip | downcase %}
+                                {% if doc_cond  == "new" %}
+                                        <p class="doc-time-new">{{ doc.last_modified_at | date: "%s" }}</p>
+                                {% else %}
+                                        <p class="doc-time-update">{{ doc.last_modified_at | date: "%s" }}</p>
+                                {% endif %}
+                        {% endif %}
+                {% endfor %}
+        </div>
+	<div class="search-feature">
+                <div class="search-wrapper">
+                        <div class="bell">
+                                <i class="fas fa-bell"></i>
 
-				<button class="post-count" style="display: none;"></button> <!-- AV01 -->
+                                <button class="post-count"></button>
 
-				<div id="alert-logic">
-					<div class="alert-wrapper">
-						<ul>
-							{% for post in site.posts %}
-								{% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
-								{% if post_time > recent_posts %}
-									<li class="current-post"><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
-										<p class="date">{{ post.date | date: "%B %-d, %Y"}}</p>
-										<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
-									</li>
-								{% endif %}
-							{% endfor %}
-						</ul>
-					</div>
-				</div>
-			</div>
+                                <div id="alert-logic">
+                                        <div class="alert-wrapper">
+                                                <p id="post-label">NEW POSTS</p>
+                                                <ul>
+                                                        {% for post in site.posts %}
+                                                                {% assign post_time = post.last_modified_at | date: "%s" | minus: 0 %}
+                                                                {% if post_time > recent_posts %}
+                                                                        <li class="current-post"><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+                                                                                <p class="date">{{ post.date | date: "%B %-d, %Y"}}</p>
+                                                                                <p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+                                                                        </li>
+                                                                {% endif %}
+                                                        {% endfor %}
+                                                </ul>
+                                                <p id="doc-label-new">NEW DOCUMENTS</p>
+                                                <ul>
+                                                        {% for doc in docs %}
+                                                                {% assign doc_time = doc.last_modified_at | date: "%s" | minus: 0 %}
+                                                                {% if doc_time > recent_posts %}
+                                                                        {% assign doc_cond = doc.condition | strip | downcase %}
+                                                                        {% if doc_cond  == "new" %}
+                                                                                <li class="current-doc-new"><a href="/documents">{{ doc.title }}</a>
+                                                                                        <p class="date">{{ doc.date | date: "%B %-d, %Y"}}</p>
+                                                                                        <p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
+                                                                                </li>
+                                                                        {% endif %}
+                                                                {% endif %}
+                                                        {% endfor %}
+                                                </ul>
+						<p id="doc-label-update">UPDATED DOCUMENTS</p>
+                                                <ul>
+                                                        {% for doc in docs %}
+                                                                {% assign doc_time = doc.last_modified_at | date: "%s" | minus: 0 %}
+                                                                {% if doc_time > recent_posts %}
+                                                                        {% assign doc_cond = doc.condition | strip | downcase %}
+                                                                        {% if doc_cond  == "update" %}
+                                                                                <li class="current-doc-update"><a href="/documents">{{ doc.title }}</a>
+                                                                                        <p class="date">{{ doc.date | date: "%B %-d, %Y"}}</p>
+                                                                                        <p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
+                                                                                </li>
+                                                                        {% endif %}
+                                                                {% endif %}
+                                                        {% endfor %}
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
 			<!-- AV01 end -->
   
   <!-- SEARCH START DISABLED -->

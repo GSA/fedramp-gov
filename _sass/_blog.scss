@@ -205,6 +205,30 @@ p.date {
 		}
 }
 
+.back-to-blogs-button {
+	border-radius: 20px;
+	border: solid 1px $mid-gray;
+	color: $lighter-teal;
+	padding: 8px 24px;
+	text-decoration: none;
+	
+	&:hover {
+		border: solid 1px $red;
+		color: $red;
+		
+	}
+	
+	button {
+		color: inherit;
+		background-color: transparent;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 800;
+		cursor: pointer;
+	}
+}
+
+
 .back-to-blog {
 	font-size: 1.125rem;
 	text-transform: uppercase;
@@ -378,8 +402,12 @@ p.continue-reading {
 	font-weight: bold !important;
 	text-transform: uppercase;
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		color: $mid-gray;
+		
+		&:hover {
+			color: $red;
+		}
 	}
 }
 

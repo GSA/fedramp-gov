@@ -5,13 +5,6 @@
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
 
-{% assign rawtags = "" %}
-{% for policy_doc in site.policy_docs %}
-  {% assign ttags = policy_doc.tags | join:'|' | append:'|' %}
-  {% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-
 {% assign site.tags = "" %}
 {% for tag in rawtags %}
   {% if tag != "" %}

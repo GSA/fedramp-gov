@@ -13,8 +13,8 @@ The FedRAMP PMO conducted interviews with various companies that have obtained o
 
 From these interviews, we gathered the following top tips for any small business or startup pursuing a FedRAMP authorization: 
 1. Understand how your product maps to FedRAMP.
-2. Get executive leadership buy-in and commitment.
-3. Find an agency partner.
+2. Get organizational buy-in and commitment.
+3. Find an Agency partner.
 4. Spend time accurately defining your boundary.
 5. Think of FedRAMP as a continuous program, rather than just a project with a start and end date.
 6. Carefully consider your authorization approach.

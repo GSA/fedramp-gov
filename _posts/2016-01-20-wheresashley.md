@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/wheresashley.png
 author: FedRAMP
 layout: blog-page
-tags: guidance omb policy agencies
 ---
 
 FedRAMP’s Agency Evangelist is coming to a Federal Agency near you!
