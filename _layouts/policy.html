@@ -12,9 +12,9 @@ body-class: page-fed-agencies
 				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-6">
 					<h3>Refine Your Results</h3>
 					<section aria-label="Small search component" class="faq-search policy-search">
-						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
+						<form class="usa-search usa-search--small" role="search">
 							<label class="usa-sr-only" for="search-field-small">Search</label>
-							<input class="usa-input" id="search-field-small" type="search" name="search" placeholder="Search">
+							<input class="usa-input" id="search" type="search" name="search" placeholder="Search">
 							<button class="usa-button" type="submit">
 							<span class="usa-sr-only">Search</span>
 							</button>
@@ -26,7 +26,7 @@ body-class: page-fed-agencies
 								<h4>Partners</h4>
 								{% assign partners = site.policy | map: "partner" | sort | uniq %}
 								{% for par in partners %}
-								   <label><input type="checkbox" name="fl-colour" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> {{ par }}</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-colour" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> {{ par }}<span class="checkmark"></span></label>
 								   {% unless forloop.last %}
 									 <br>
 								   {% endunless %}
@@ -45,7 +45,7 @@ body-class: page-fed-agencies
 								{% endfor %}
 								{% assign tagsArray = tagsArray | sort %}
 								{% for tag in tagsArray %}
-								   <label><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}<span class="checkmark"></span></label>
 								   {% unless forloop.last %}
 									 <br>
 								   {% endunless %}
@@ -59,7 +59,7 @@ body-class: page-fed-agencies
 								<h4>File Format</h4>
 								{% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
 								{% for fil in fileAll %}
-								   <label><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /> {{ fil | upcase }}</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /><span class="checkmark"></span> {{ fil | upcase }}</label>
 								   {% unless forloop.last %}
 									 <br>
 								   {% endunless %}
@@ -71,17 +71,17 @@ body-class: page-fed-agencies
 							<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
 								<form>
 								<h4>Date</h4>
-								   <label><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days<span class="checkmark"></span></label>
 								   <br>
-								   <label><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days<span class="checkmark"></span></label>
 								   <br>
-								   <label><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months<span class="checkmark"></span></label>
 								   <br>
-								   <label><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year<span class="checkmark"></span></label>
 								   <br>
-								   <label><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020<span class="checkmark"></span></label>
 								   <br>
-								   <label><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010</label>
+								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010<span class="checkmark"></span></label>
 								</form>
 							</div>
 						</div>

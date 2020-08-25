@@ -32,6 +32,7 @@
 	label {
 		font-size: .75rem;
 		float: left;
+		color: $dark-gray;
 	}
 	
 	input {
@@ -40,6 +41,65 @@
 	}
 }
 
+/* The container */
+.fedramp-check {
+	position: relative;
+	padding-left: 24px;
+	margin-bottom: 4px;
+	cursor: pointer;
+	font-size: .75rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.fedramp-check input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 14px;
+	width: 14px;
+	background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.fedramp-check:hover input ~ .checkmark {
+	background-color: $lightest-gray;
+}
+
+/* When the checkbox is checked, add a blue background */
+.fedramp-check input:checked ~ .checkmark {
+	background-color: $teal;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: url("../../assets/img/check-icon.svg"); 
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.fedramp-check input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.fedramp-check .checkmark:after {
+	left: 3px;
+	top: -2px;
+}
 
 .policy-card {
 	

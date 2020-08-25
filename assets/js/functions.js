@@ -7,7 +7,7 @@ $(document).ready(function(){
   $("#search").on("keyup", function() {
     $('input[type="checkbox"]').prop("checked", false);
     var value = $(this).val().toLowerCase();
-    $("#search-table tr").filter(function() {
+    $(".flower").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
