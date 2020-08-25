@@ -201,7 +201,7 @@
 a.policy-download {
 	background-color: $light-blue;
 	color: white;
-	padding: 14px 61px 14px 28px;
+	padding: 14px 68px 14px 22px;
 	border-radius: 40px;
 	cursor: pointer;
 	
@@ -221,19 +221,19 @@ a.policy-download {
 
 a.policy-download.policy-pdf {
 	background-image: url('../../assets/img/policy-pdf.svg');
-	background-position: 130px 8px;
+	background-position: 138px 8px;
 	background-repeat: no-repeat;
 }
 
 a.policy-download.policy-word {
 	background-image: url('../../assets/img/policy-doc.svg');
-	background-position: 130px 8px;
+	background-position: 138px 8px;
 	background-repeat: no-repeat;
 }
 
 a.policy-download.policy-excel {
 	background-image: url('../../assets/img/policy-excel.svg');
-	background-position: 130px 8px;
+	background-position: 138px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -265,7 +265,7 @@ a.policy-download.policy-excel {
 	}
 }
 
-@media (min-width: 0px) and (max-width: 568px) {
+@media (min-width: 0px) and (max-width: 480px) {
 	
 	a.policy-download {
 		padding: 0 0 0 25%;

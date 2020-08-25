@@ -2222,6 +2222,15 @@ h3.legal-framework-titles {
 	
 }
 
+@media (min-width: 0) and (max-width: 320px) {
+	.training-sign-up .courses-button, .courses-button .courses-button {
+		display: block;
+		margin-top: 6px;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
 /*
 
 .basics-col {
