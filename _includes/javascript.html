@@ -9,6 +9,7 @@
 <script src="{{ '/assets/js/tabs.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
 <script src="{{ '/assets/js/inpageNav-alt.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
 
+
 <!-- For in page navigation -->
   <script>
     var elm = document.querySelector('#main-header');
@@ -38,3 +39,54 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   ga('send', 'pageview');
 </script>
 
+<script type="text/javascript">
+  var $filterCheckboxes = $('input[type="checkbox"]');
+
+  $filterCheckboxes.on('change', function() {
+
+  var selectedFilters = {};
+
+  $filterCheckboxes.filter(':checked').each(function() {
+
+    if (!selectedFilters.hasOwnProperty(this.name)) {
+      selectedFilters[this.name] = [];
+    }
+
+    selectedFilters[this.name].push(this.value);
+
+  });
+
+  // create a collection containing all of the filterable elements
+  var $filteredResults = $('.flower');
+
+  // loop over the selected filter name -> (array) values pairs
+  $.each(selectedFilters, function(name, filterValues) {
+
+    // filter each .flower element
+    $filteredResults = $filteredResults.filter(function() {
+
+      var matched = false,
+        currentFilterValues = $(this).data('category').split(' ');
+
+      // loop over each category value in the current .flower's data-category
+      $.each(currentFilterValues, function(_, currentFilterValue) {
+
+        // if the current category exists in the selected filters array
+        // set matched to true, and stop looping. as we're ORing in each
+        // set of filters, we only need to match once
+
+        if ($.inArray(currentFilterValue, filterValues) != -1) {
+          matched = true;
+          return false;
+        }
+      });
+
+      // if matched is true the current .flower element is returned
+      return matched;
+
+    });
+  });
+
+  $('.flower').hide().filter($filteredResults).show();
+});
+</script>

@@ -17,7 +17,7 @@ layout: full-width
 			<div class="full-col desktop:grid-col-12">
 				<h2 class="text-white center">How Can We Help You?</h2>
 				<section aria-label="Small search component" class="faq-search">
-					<form class="usa-search usa-search--small" role="search">
+					<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
 						<label class="usa-sr-only" for="search-field-small">Search</label>
 						<input class="usa-input" id="search-field-small" type="search" name="search" placeholder="How Can We Help You?">
 						<button class="usa-button" type="submit">

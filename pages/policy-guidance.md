@@ -1,5 +1,5 @@
 ---
-layout: policy-guidance
+layout: policy
 title: Policy & Guidance
 permalink: /policy-guidance/
 
