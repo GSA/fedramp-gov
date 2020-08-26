@@ -1,32 +1,40 @@
 
-function checkFilter(inId) {
-    $(inId).click();
-}
+var highlightRe = /<span class="keyword-highlight">(.*?)<\/span>/g,
+    highlightHtml = '<span class="keyword-highlight">$1</span>';
 
 $(document).ready(function(){
   $("#search").on("keyup", function() {
     $('input[type="checkbox"]').prop("checked", false);
     var value = $(this).val().toLowerCase();
-    $(".flower").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    $(".flower p").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      var txt = $(this).html().replace(highlightRe,'$1');
+      if(value !== '') {
+        txt = txt.replace(new RegExp('(' + value + ')', 'gi'), highlightHtml);
+      }      
+      $(this).html(txt);  
     });
   });
 });
+
 
 $(document).ready(function(){
   $("#search-field-small").on("keyup", function() {
-
     var value = $(this).val().toLowerCase();
-
-    $(".usa-accordion__heading button").attr("aria-expanded", "true");
-    $(".usa-accordion__content:gt(0)").show();
-    
-    $(".usa-accordion__content:gt(0)").filter(function() {
+    $(".usa-accordion__heading button:gt(0)").attr("aria-expanded", "true");
+    $(".usa-accordion__content:gt(0)").removeAttr("hidden");
+    $(".usa-accordion__content:gt(0) p").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
       $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      var txt = $(this).html().replace(highlightRe,'$1');
+      if(value !== '') {
+        txt = txt.replace(new RegExp('(' + value + ')', 'gi'), highlightHtml);
+      }
+      $(this).html(txt);
     });
   });
 });
+
 
 
 function searchScroll(e) {
