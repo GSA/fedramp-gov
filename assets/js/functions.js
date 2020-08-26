@@ -3,35 +3,56 @@ var highlightRe = /<span class="keyword-highlight">(.*?)<\/span>/g,
     highlightHtml = '<span class="keyword-highlight">$1</span>';
 
 $(document).ready(function(){
+  var html = $('#search-area').html();
   $("#search").on("keyup", function() {
-    $('input[type="checkbox"]').prop("checked", false);
     var value = $(this).val().toLowerCase();
-    $(".flower p").filter(function() {
+    var reg = new RegExp(value || "&fakeEntity;", 'gi');
+    $('#search-area').html(html.replace(reg, function(str, index) {
+      var t = html.slice(0, index+1),
+        lastLt = t.lastIndexOf("<"),
+        lastGt = t.lastIndexOf(">"),
+        lastAmp = t.lastIndexOf("&"),
+        lastSemi = t.lastIndexOf(";");
+
+      if(lastLt > lastGt) return str; // inside a tag
+      if(lastAmp > lastSemi) return str; // inside an entity
+      return '<span class="keyword-highlight">' + str + '</span>';
+    }));
+
+    $(".flower").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-      var txt = $(this).html().replace(highlightRe,'$1');
-      if(value !== '') {
-        txt = txt.replace(new RegExp('(' + value + ')', 'gi'), highlightHtml);
-      }      
-      $(this).html(txt);  
     });
+  
+    $('input[type="checkbox"]').prop("checked", false);
   });
 });
 
 
 $(document).ready(function(){
-  $("#search-field-small").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $(".usa-accordion__heading button:gt(0)").attr("aria-expanded", "true");
-    $(".usa-accordion__content:gt(0)").removeAttr("hidden");
-    $(".usa-accordion__content:gt(0) p").filter(function() {
+
+  var html = $('#search-area').html();
+  $("#search-field-small").on("keyup", function() {    
+    var value = $(this).val().toLowerCase();   
+    var reg = new RegExp(value || "&fakeEntity;", 'gi');
+
+    $('#search-area').html(html.replace(reg, function(str, index) {
+      var t = html.slice(0, index+1),
+        lastLt = t.lastIndexOf("<"),
+        lastGt = t.lastIndexOf(">"),
+        lastAmp = t.lastIndexOf("&"),
+        lastSemi = t.lastIndexOf(";");
+
+      if(lastLt > lastGt) return str; // inside a tag
+      if(lastAmp > lastSemi) return str; // inside an entity
+      return '<span class="keyword-highlight">' + str + '</span>';
+    }));
+
+    $(".usa-accordion__content:gt(0)").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
       $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
-      var txt = $(this).html().replace(highlightRe,'$1');
-      if(value !== '') {
-        txt = txt.replace(new RegExp('(' + value + ')', 'gi'), highlightHtml);
-      }
-      $(this).html(txt);
     });
+    $(".usa-accordion__heading button:gt(0)").attr("aria-expanded", "true");
+    $(".usa-accordion__content:gt(0)").removeAttr("hidden");
   });
 });
 
