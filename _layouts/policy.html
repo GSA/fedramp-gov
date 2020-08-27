@@ -70,7 +70,7 @@ body-class: page-fed-agencies
 								{% for tag in dtypArray %}
 								
 									<input class="usa-checkbox__input" type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" />
-								   	<label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">{{ tag }}</label>
+								   	<label class="usa-checkbox__label fedramp-check" for="{{ tag | downcase | replace: " ", "-" }}">{{ tag }}</label>
 								
 								   {% unless forloop.last %}
 									
