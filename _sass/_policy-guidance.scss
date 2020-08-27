@@ -73,6 +73,19 @@
 	box-shadow: inset 0 0 0 2px $teal;
 }
 
+.usa-checkbox__input, .usa-radio__input {
+	position: absolute;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    z-index: 10000;
+    opacity: 0;
+}
+
+.focus-within > input.usa-checkbox__input:focus {
+	opacity: 0;
+}
 
 .results-container {
 	border-bottom: solid 1px $mid-gray;
