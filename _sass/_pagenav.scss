@@ -103,18 +103,17 @@ ul.in-page-nav-menu {
 		
 		a {
 			padding: 6px 0;
-			text-decoration: underline;
+			text-decoration: none;
 			color: $red;
+			font-weight: 800;
 		}
 		
 		li {
-			padding: 0 14px;
+			padding: 0;
 			font-family: $title-font;
 			font-weight: normal;
 			text-transform: uppercase;
 			list-style: none;
-			border-left: solid 1px $teal; 
-			text-transform: none;
 		}
 	}
 
