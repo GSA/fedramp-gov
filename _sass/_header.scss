@@ -318,6 +318,8 @@ img.desk {
 		}
 	}
 }
+	
+
 
 
 	 .post-count {
@@ -352,6 +354,17 @@ img.desk {
 		background-color: transparent;
 		color: $red;
 		text-decoration: none;
+	}
+}
+
+@media (min-width: 0) and (max-width: 768px) { 
+	
+	.search-wrapper #alert-logic .alert-wrapper {
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		max-width: 100%;
+		min-width: 285px;
 	}
 }
 

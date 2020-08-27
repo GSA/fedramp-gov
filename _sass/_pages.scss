@@ -2016,7 +2016,7 @@ h3.legal-framework-titles {
 	
 	input {
 		border-radius: 20px 0 0 20px;
-		background: $lightest-gray;
+		background: white;
 		height: 34px;
 		padding: 16px 24px;
 		border: none;
@@ -2036,11 +2036,11 @@ h3.legal-framework-titles {
 
 .faq-search.policy-search {
 	width: auto;
+	margin-bottom: 1.25rem;
 }
 
 .policy-search input {
 	font-size: 0.75rem;
-	font-style: italic;
 }
 
 .faq-search .usa-search::after {
@@ -2069,12 +2069,12 @@ h3.legal-framework-titles {
 }
 
 .fedramp-accordian .usa-accordion__button {
-	padding-left: 32px;
 	background-image: url('../../assets/img/accordian-open.svg');
 	background-color: white;
-	background-position: left;
+	background-position: 0 30px;
 	color: $light-blue;
-	padding: 30px;
+	padding: 30px 30px 30px 40px;
+	background-size: 1.25rem;
 	
 }
 
@@ -2091,7 +2091,7 @@ h3.legal-framework-titles {
 
 .fedramp-accordian .usa-prose > p {
 	max-width: 100%;
-	padding: 6px 0 10px 15px;
+	padding: 6px 0 20px 25px;
 	color: $dark-gray;
 }
 
@@ -2236,7 +2236,7 @@ h3.legal-framework-titles {
 	
 }
 
-@media (min-width: 0) and (max-width: 320px) {
+@media (min-width: 0) and (max-width: 359px) {
 	.training-sign-up .courses-button, .courses-button .courses-button {
 		display: block;
 		margin-top: 6px;

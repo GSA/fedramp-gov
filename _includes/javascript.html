@@ -39,21 +39,16 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   ga('send', 'pageview');
 </script>
 
+
 <script type="text/javascript">
   var $filterCheckboxes = $('input[type="checkbox"]');
-
   $filterCheckboxes.on('change', function() {
-
   var selectedFilters = {};
-
   $filterCheckboxes.filter(':checked').each(function() {
-
     if (!selectedFilters.hasOwnProperty(this.name)) {
       selectedFilters[this.name] = [];
     }
-
     selectedFilters[this.name].push(this.value);
-
   });
 
   // create a collection containing all of the filterable elements
@@ -64,7 +59,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
     // filter each .flower element
     $filteredResults = $filteredResults.filter(function() {
-
       var matched = false,
         currentFilterValues = $(this).data('category').split(' ');
 

@@ -9,7 +9,7 @@ body-class: page-fed-agencies
 		<div class="full-row grid-row ">
 			
 			<div class="full-col desktop:grid-col-3">
-				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-6">
+				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-4">
 					<h3>Refine Your Results</h3>
 					<section aria-label="Small search component" class="faq-search policy-search">
 						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
@@ -21,22 +21,25 @@ body-class: page-fed-agencies
 						</form>
 					</section>
 					<div class="grid-row policy-search-fields">
-						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12 policy-form-fields-container">
 							<form>
-								<h4>Partners</h4>
+								<legend>Partners</legend>
 								{% assign partners = site.policy | map: "partner" | sort | uniq %}
 								{% for par in partners %}
-								   <label class="fedramp-check"><input type="checkbox" name="fl-colour" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> {{ par }}<span class="checkmark"></span></label>
+								<div class="usa-checkbox">
+									<input class="usa-checkbox__input" type="checkbox" name="{{ par }}" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> 
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">{{ par }}</label>
+								</div>	
 								   {% unless forloop.last %}
-									 <br>
+									 
 								   {% endunless %}
 								{% endfor %}
 							</form>
+
 						</div>
 
-						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12" style="display:none;">
-							<form>
-								<h4>Tags</h4>
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12 policy-form-fields-container" style="display:none;">
+								<legend>Tags</legend>
 								{% assign tagsAll = site.policy | map: "tags" | uniq %}
 								{% assign tagsArray = "" | split: "" %}
 								{% for tag in tagsAll %}
@@ -45,17 +48,18 @@ body-class: page-fed-agencies
 								{% endfor %}
 								{% assign tagsArray = tagsArray | sort %}
 								{% for tag in tagsArray %}
-								   <label class="fedramp-check"><input type="checkbox" name="fl-tag" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}<span class="checkmark"></span></label>
+							<form>
+								<input class="usa-checkbox__input" type="checkbox" name="fl-{{ tag | downcase }}" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}"> {{ tag }}</label>
 								   {% unless forloop.last %}
-									 <br>
 								   {% endunless %}
-								{% endfor %}
 							</form>
+								{% endfor %}
 						</div>
 
-						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12 policy-form-fields-container">
 							<form>
-								<h4>Document Type</h4>
+								<legend>Document Type</legend>
 								{% assign dtypAll = site.policy | map: "doctype" | uniq %}
 								{% assign dtypArray = "" | split: "" %}
 								{% for dt in dtypAll %}
@@ -64,23 +68,25 @@ body-class: page-fed-agencies
 								{% endfor %}
 								{% assign dtypArray = dtypArray | sort %}
 								{% for tag in dtypArray %}
-								   <label class="fedramp-check"><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}<span class="checkmark"></span></label>
+									<input class="usa-checkbox__input" type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}"> {{ tag }}</label>
 								   {% unless forloop.last %}
-									 <br>
+									 
 								   {% endunless %}
 								{% endfor %}
 							</form>
 						</div>
 					
 
-						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12 policy-form-fields-container">
 							<form>
-								<h4>File Format</h4>
+								<legend>File Format</legend>
 								{% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
 								{% for fil in fileAll %}
-								   <label class="fedramp-check"><input type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" /><span class="checkmark"></span> {{ fil | upcase }}</label>
+									<input class="usa-checkbox__input" type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}"> {{ fil | upcase }}</label>
 								   {% unless forloop.last %}
-									 <br>
+									
 								   {% endunless %}
 								{% endfor %}
 							</form>
@@ -89,18 +95,24 @@ body-class: page-fed-agencies
 						
 							<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
 								<form>
-								<h4>Date</h4>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="thirty" id="thirty" /> Last 30 Days<span class="checkmark"></span></label>
-								   <br>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="sixty" id="sixty" /> Last 60 Days<span class="checkmark"></span></label>
-								   <br>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="months" id="months" /> Last 6 Months<span class="checkmark"></span></label>
-								   <br>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="year" id="year" /> Last Year<span class="checkmark"></span></label>
-								   <br>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="ten" id="ten" /> 2010-2020<span class="checkmark"></span></label>
-								   <br>
-								   <label class="fedramp-check"><input type="checkbox" name="fl-date" value="y2k" id="y2k" /> 2000-2010<span class="checkmark"></span></label>
+								<legend>Date</legend>
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="thirty" id="thirty" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">Last 30 Days</label>
+								   
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="sixty" id="sixty" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">Last 60 Days</label>
+								   
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="months" id="months" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">Last 6 Months</label>
+								   
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="year" id="year" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">Last Year</label>
+								   
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="ten" id="ten" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">2010-2020</label>
+								   
+									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="y2k" id="y2k" />
+								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">2000-2010</label>
 								</form>
 							</div>
 						</div>
@@ -166,7 +178,7 @@ body-class: page-fed-agencies
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
-									<a class="tags" onclick="checkFilter('#{{ tag | downcase }}')"><button>{{tag}}</button></a>
+									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}')" tabindex="">{{tag}}</button>
 									{% endfor %}
 								</div>
 
@@ -175,7 +187,7 @@ body-class: page-fed-agencies
 							</div>
 							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-2">
 								<a class="policy-download policy-{{ doc.filetype }}" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}" target="_blank">
-								 <button class="icon-text" title="download">Download</button>
+								 Download
 								</a>
 							</div>
 						</div>

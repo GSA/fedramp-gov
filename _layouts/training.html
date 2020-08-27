@@ -58,7 +58,9 @@ layout: full-width
 		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:margin-top-0">
 			<h3 class="text-lighter-teal margin-top-0 courses-titles">In-Person Trainings and Events</h3>
 			<p class="text-white">The FedRAMP PMO provides hands-on training opportunities on specific topics for all audiences. To receive announcements for in-person trainings, please <a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224" target="_blank">subscribe for email updates</a>.</p>
-			<a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224" class="training-button"><button>Subscribe</button></a>
+			<div class="courses-buttons">
+				<a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new?qsp=USGSA_2224" class="training-button"><button>Subscribe</button></a>
+			</div>
 		</div>
 	</div>
 
@@ -79,13 +81,13 @@ layout: full-width
 </section>
 
 <!-- Main In Page Navigation -->
-<section class="fedramp-page-container position-sticky resources-nav">
+<section class="fedramp-page-container position-sticky resources-nav padding-top-4">
 	<div class="full-row grid-row">
 		<div class="full-col tablet:grid-col-4 tablet:padding-2">
 			<div id="main-header" class="lavalamp-menu">
 				<nav>
 					<ul class="in-page-nav-menu" id="top-menu">
-						<li class="active"><a href="#fedramp-101">FedRamp 101</a></li>
+						<li class="active"><a href="#fedramp-101">FedRAMP 101</a></li>
 						<li><a href="#cloud-service-providers">Cloud Service Providers (CSPs)</a></li>
 						<li><a href="#third-party-assessors">Third Party Assessors (3PAOs)</a></li>
 						<li><a href="#federal-agencies">Federal Agencies</a></li>
@@ -99,13 +101,14 @@ layout: full-width
 
 
 <!-- Mobile Navigation -->
-<section class="fedramp-page-container position-relative resources-nav-mobile padding-y-2" style="background-color: white;">
+<section class="fedramp-page-container position-relative resources-nav-mobile padding-bottom-2 padding-top-4" style="background-color: white;">
 	<div class="full-row grid-row">
 		<div class="full-col tablet:grid-col-4 tablet:padding-2">
 			<div>
 				<nav>
 					<ul class="in-page-nav-menu" id="top-menu-mobile">
-						<li><a href="#fedramp-101">FedRamp 101</a></li>
+						<h4 class="text-center mobile-nav-title">You can also browse the topics below.</h4>
+						<li><a href="#fedramp-101">FedRAMP 101</a></li>
 						<li><a href="#cloud-service-providers">Cloud Service Providers (CSPs)</a></li>
 						<li><a href="#third-party-assessors">Third Party Assessors (3PAOs)</a></li>
 						<li><a href="#federal-agencies">Federal Agencies</a></li>
@@ -130,7 +133,7 @@ layout: full-width
 								<img class="courses-img" src="{{site.baseurl}}/assets/img/training-fedramp-101.svg" alt="">
 							</div>
 						</div>
-						<div class="full-col desktop:grid-col-10 desktop:padding-left-4 training-section">
+						<div class="full-col desktop:grid-col-10 desktop:padding-left-4">
 							<h3 class="no-line">FedRamp 101</h3>
 							<p>This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework.</p>
 							<div class="training-sign-up no-line">
@@ -150,9 +153,9 @@ layout: full-width
 								<img class="courses-img" src="{{site.baseurl}}/assets/img/training-csp.svg" alt="">
 							</div>
 						</div>
-						<div class="full-col desktop:grid-col-10 desktop:padding-left-4 training-section">
+						<div class="full-col desktop:grid-col-10 desktop:padding-left-4">
 							<h3 class="no-line">Cloud Service Providers</h3>
-							<p>These online modules are designed to help CSPs understand the requirements of security package development and give a detailed overview of the required templates and their supporting documentation.</p>
+							<p class="training-section padding-bottom-2">These online modules are designed to help CSPs understand the requirements of security package development and give a detailed overview of the required templates and their supporting documentation.</p>
 						</div>				
 					</div>
 					<div class="grid-row">
@@ -214,9 +217,9 @@ layout: full-width
 								<img class="courses-img" src="{{site.baseurl}}/assets/img/training-3pao.svg" alt="">
 							</div>
 						</div>
-						<div class="full-col desktop:grid-col-10 desktop:padding-left-4 training-section">
+						<div class="full-col desktop:grid-col-10 desktop:padding-left-4">
 							<h3 class="no-line">Third Party Assessors (3PAOs)</h3>
-							<p>These online modules are required for all 3PAOs and focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment of a CSP. At the end of each course, there is a mandatory quiz and a certificate of completion is provided to attendees who complete the course and pass the final quiz.</p>
+							<p class="training-section padding-bottom-2">These online modules are required for all 3PAOs and focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment of a CSP. At the end of each course, there is a mandatory quiz and a certificate of completion is provided to attendees who complete the course and pass the final quiz.</p>
 						</div>				
 					</div>
 					<div class="full-row grid-row">
@@ -306,9 +309,9 @@ layout: full-width
 								<img class="courses-img" src="{{site.baseurl}}/assets/img/training-federal-agencies.svg" alt="">
 							</div>
 						</div>
-						<div class="full-col desktop:grid-col-10 desktop:padding-left-4 training-section">
+						<div class="full-col desktop:grid-col-10 desktop:padding-left-4">
 							<h3 class="no-line">Federal Agencies</h3>
-							<p>These online modules provide agency stakeholders with best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.</p>
+							<p class="training-section padding-bottom-2">These online modules provide agency stakeholders with best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.</p>
 						</div>				
 					</div>
 					<div class="full-row grid-row">

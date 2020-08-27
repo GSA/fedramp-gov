@@ -15,14 +15,17 @@
 		}
 	}
 	
-	h4 {
+	legend {
+		color: $dark-gray;
 		font-size: 1rem;
+		margin: 20px 0 10px 0;
+		font-weight: 600;
 	}
 }
 
 @media (min-width: 0px) and (max-width: 1023px) {
 	.flowers-wrap {
-		h4 {
+		legend {
 			font-size: .75rem;
 		}
 	}
@@ -31,75 +34,45 @@
 .policy-search-fields {
 	label {
 		font-size: .75rem;
-		float: left;
 		color: $dark-gray;
+		margin-bottom: 10px;
 	}
 	
 	input {
-		float: left;
 		margin-right: 4px;
 	}
 }
 
+.policy-form-fields-container {
+	border-bottom: solid 1px white; 
+	padding-bottom: 14px;
+}
+
 /* The container */
 .fedramp-check {
-	position: relative;
-	padding-left: 24px;
-	margin-bottom: 4px;
-	cursor: pointer;
-	font-size: .75rem;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+
+	&::before {
+		box-shadow: none;
+		border-radius: 3px;
+		height: 1rem;
+		width: 1rem;
+		top: 2px;
+		border: solid 1px $teal;
+	}
 }
 
-/* Hide the browser's default checkbox */
-.fedramp-check input {
-	position: absolute;
-	opacity: 0;
-	cursor: pointer;
-	height: 0;
-	width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 14px;
-	width: 14px;
-	background-color: white;
-}
-
-/* On mouse-over, add a grey background color */
-.fedramp-check:hover input ~ .checkmark {
-	background-color: $lightest-gray;
-}
-
-/* When the checkbox is checked, add a blue background */
-.fedramp-check input:checked ~ .checkmark {
+.usa-checkbox__input:checked + .usa-checkbox__label::before, .usa-checkbox__input:checked:disabled + .usa-checkbox__label::before {
+	background-image: url("../../assets/img/check-icon.svg");
 	background-color: $teal;
+	box-shadow: none;
+	background-size: .5rem;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-	content: url("../../assets/img/check-icon.svg"); 
-	position: absolute;
-	display: none;
+.usa-checkbox__input:focus + .usa-checkbox__label::before {
+	outline: none;
+	box-shadow: inset 0 0 0 2px $teal;
 }
 
-/* Show the checkmark when checked */
-.fedramp-check input:checked ~ .checkmark:after {
-	display: block;
-}
-
-/* Style the checkmark/indicator */
-.fedramp-check .checkmark:after {
-	left: 3px;
-	top: -2px;
-}
 
 .results-container {
 	border-bottom: solid 1px $mid-gray;
@@ -133,6 +106,7 @@ a.clear-results {
 		margin-top: 0;
 		margin-bottom: 10px;
 		clear: both;
+		letter-spacing: 0;
 		
 		&::after {
 			content: none;
@@ -219,21 +193,16 @@ a.clear-results {
 a.policy-download {
 	background-color: $light-blue;
 	color: white;
-	padding: 14px 68px 14px 22px;
+	padding: 14px 74px 14px 26px;
 	border-radius: 40px;
 	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
 	
 	&:hover {
 		background-color: $teal;
-	}
-	
-	button {
-		background-color: transparent;
-		font-size: 0.875rem;
-		font-weight: 800;
-		text-transform: uppercase;
-		text-decoration: none;
-		cursor: pointer;
 	}
 }
 
@@ -260,13 +229,17 @@ a.policy-download.policy-excel {
 	top: 4px;
 }
 
-.policy-tags a.tags {
+.policy-tags button.tags {
 	border: solid $teal 1px;
 	border-radius: 20px;
-	padding: 3px 20px 4px;
-	margin-left: 14px;
+	padding: 5px 20px 6px;
+	margin: 0 0 0 14px;
 	cursor: pointer;
 	color: $teal;
+	background: transparent;
+	font-size: 0.75rem;
+	font-weight: 800;
+	text-decoration: none;
 	
 	&:hover {
 		border: solid 1px $red;
@@ -274,12 +247,11 @@ a.policy-download.policy-excel {
 	}
 	
 	button {
-		font-size: 0.75rem;
-		font-weight: 800;
+		
 		color: inherit;
-		text-decoration: none;
+		
 		cursor: pointer;
-		background: transparent;
+		
 	}
 }
 

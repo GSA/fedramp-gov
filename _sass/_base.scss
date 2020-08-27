@@ -49,6 +49,10 @@ main#main:focus {
 		&:hover {
 			color: $light-teal;
 		}
+		
+		&:visited {
+			color: $light-gray;
+		}
 	}
 }
 
