@@ -196,6 +196,11 @@ $(document).ready(function() {
         }                                                               // and shift to get first element
 
         var i = 0;
+        var j = 0;
+
+        var HARD_LIMIT = 8;
+
+        var count = 0;
         var postCount = 0;
         var docCountNew = 0;
         var docCountUpdate = 0;
@@ -209,30 +214,34 @@ $(document).ready(function() {
         var docTimeUpdate = document.getElementsByClassName("doc-time-update");    // get all doc-time timestamps
         var docListUpdate = document.getElementsByClassName("current-doc-update");
 
-        for (i = 0; i < postTime.length; i++) {                         // compare and count
-                if (lastBellClick < postTime[i].innerHTML) {
+        for (i = 0, j = 0; i < postTime.length; i++) {                         // compare and count
+                if (lastBellClick < postTime[i].innerHTML && count < HARD_LIMIT) {
                         postCount++;
+                        count++;
+			j++;
                 } else {
-                        postList[i].remove();
+                        postList[j].remove();
                 }
         }
 
-        for (i = 0; i < docTimeNew.length; i++) {
-                if (lastBellClick < docTimeNew[i].innerHTML) {
+        for (i = 0, j = 0; i < docTimeNew.length; i++) {
+                if (lastBellClick < docTimeNew[i].innerHTML && count < HARD_LIMIT) {
                         docCountNew++;
+                        count++;
+			j++;
                 } else {
-                        docListNew[i].remove();
+                        docListNew[j].remove();
                 }
         }
-        for (i = 0; i < docTimeUpdate.length; i++) {
-                if (lastBellClick < docTimeUpdate[i].innerHTML) {
+        for (i = 0, j = 0; i < docTimeUpdate.length; i++) {
+                if (lastBellClick < docTimeUpdate[i].innerHTML && count < HARD_LIMIT) {
                         docCountUpdate++;
+                        count++;
+			j++;
                 } else {
-                        docListUpdate[i].remove();
+                        docListUpdate[j].remove();
                 }
         }
-
-        var count = postCount + docCountNew + docCountUpdate;
 
         if (count == 0) {
 
@@ -249,7 +258,7 @@ $(document).ready(function() {
                 $(".alert-wrapper").remove();
                 $(".alert-wrapper-fallback").removeClass("alert-wrapper-fallback").addClass("alert-wrapper");
                 if (parts.length !== 2) {   
-                   $(".post-count").html("4");
+                   $(".post-count").html($(".alert-wrapper li").length);
                    $(".post-count").css("display", "block");
 		}
         } else {                                                          // show count on bell

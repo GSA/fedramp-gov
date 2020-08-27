@@ -71,7 +71,7 @@
         </div>
 	<div class="search-feature">
                 <div class="search-wrapper">
-                        <div class="bell" tabindex="0" onclick="bellClick();">
+                        <div class="bell" tabindex="0">
                                 <i class="fas fa-bell"></i>
                                 <button class="post-count" style="display:none;"></button>
 
@@ -81,7 +81,7 @@
   						<p>RECENT POSTS</p>
   						<ul>
     							<p>{{ post.last_modified_at | date: "%s" }}</p>
-    							{% for post in site.posts limit:2 %}
+    							{% for post in site.posts limit:4 %}
       								<li><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
         								<p>{{ post.date | date: "%B %-d, %Y"}}</p>
         								<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
@@ -90,7 +90,7 @@
   						</ul>
   						<p>RECENT DOCUMENTS</p>
   						<ul>
-    							{% for doc in docs limit:2 %}
+    							{% for doc in docs limit:4 %}
       								<li><a href="{{site.baseurl}}/policy-guidance/">{{ doc.title }}</a>
         								<p>{{ doc.date | date: "%B %-d, %Y"}}</p>
         								<p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
