@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: FedRAMP Policy Memo
-category: FedRAMP Program Docuemnts
+category: FedRAMP Program Documents
 filename: FedRAMP_Policy_Memo.pdf
 filetype: pdf
 condition: update
