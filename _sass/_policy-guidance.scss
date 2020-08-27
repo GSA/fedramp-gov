@@ -101,6 +101,23 @@
 	top: -2px;
 }
 
+.results-container {
+	border-bottom: solid 1px $mid-gray;
+}
+
+div#result-count {
+	font-size: 0.875rem;
+	color: $mid-gray;
+	display: inline;
+}
+
+a.clear-results {
+	cursor: pointer;
+	font-size: 0.875rem;
+	display: inline;
+	margin-left: 4px;
+}
+
 .policy-card {
 	
 	border-bottom: solid 1px $light-gray;

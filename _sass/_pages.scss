@@ -2062,7 +2062,7 @@ h3.legal-framework-titles {
 	padding-left: 32px;
 	background-image: url('../../assets/img/accordian-open.svg');
 	background-color: white;
-	background-position: left;
+	background-position: 10px;
 	color: $light-blue;
 	padding: 30px;
 	
@@ -2081,8 +2081,12 @@ h3.legal-framework-titles {
 
 .fedramp-accordian .usa-prose > p {
 	max-width: 100%;
-	padding: 0 0 10px 15px;
+	padding: 6px 0 10px 15px;
 	color: $dark-gray;
+}
+
+.fedramp-accordian .usa-accordion__button[aria-expanded=true]:focus {
+	outline: none !important;
 }
 
 .usa-prose > h5 {

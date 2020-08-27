@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     var results = ($(".flower:visible").length == 1) ? " Result" : " Results";
     $("#result-count").html($(".flower:visible").length + results);
-    $(".clear-results").css("display", "block");
+	$(".clear-results").css("display", "inline");
   
     $('input[type="checkbox"]').prop("checked", false);
   });
