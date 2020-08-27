@@ -14,3 +14,9 @@ function openTab(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 //document.getElementById("defaultOpen").click();
+if ($("#defaultOpen").length > 0) {
+  $("#defaultOpen").addClass("focus-within active");
+  if ($("#pre-authorization").length > 0) {
+    $("#pre-authorization").css("display","block");
+  }
+}

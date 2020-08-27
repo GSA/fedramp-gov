@@ -7,7 +7,7 @@
 <script src="{{ '/assets/js/sorttable.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/functions.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
 <script src="{{ '/assets/js/tabs.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
-<script src="{{ '/assets/js/inpageNav-alt.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/inpageNav.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
 
 
 <!-- For in page navigation 
@@ -88,5 +88,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   });
 
   $('.flower').hide().filter($filteredResults).show();
+
+  var results = ($(".flower:visible").length == 1) ? " Result" : " Results";
+  $("#result-count").html($(".flower:visible").length + results);
+  $(".clear-results").css("display", "block");
+
 });
 </script>

@@ -6,8 +6,10 @@ filename: CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx
 filetype: excel
 condition: new
 partner: Cloud Service Providers
-tags: 
-  - OMB
+doctype:
   - Worksheets
+tags: 
+  - Annual
+  - Assessment
 ---
 The FedRAMP Annual Assessment Controls Selection Worksheet provides a matrix to assist CSPs, 3PAOs, and Federal Agencies in assessing and tracking their annual assessment.

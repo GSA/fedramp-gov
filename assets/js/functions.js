@@ -1,9 +1,19 @@
-
-var highlightRe = /<span class="keyword-highlight">(.*?)<\/span>/g,
-    highlightHtml = '<span class="keyword-highlight">$1</span>';
+ 
+function checkFilter(inId) {
+  $(inId).click();
+}
+var globalHtml;
+function clearResults() {
+  $('input[type="checkbox"]').prop("checked", false);
+  $("#search-area").html(globalHtml);
+  $("#result-count").html("");
+  $(".clear-results").css("display", "none");
+  $("#search").val("");
+}
 
 $(document).ready(function(){
   var html = $('#search-area').html();
+  globalHtml = html;
   $("#search").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     var reg = new RegExp(value || "&fakeEntity;", 'gi');
@@ -22,6 +32,10 @@ $(document).ready(function(){
     $(".flower").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
+
+    var results = ($(".flower:visible").length == 1) ? " Result" : " Results";
+    $("#result-count").html($(".flower:visible").length + results);
+    $(".clear-results").css("display", "block");
   
     $('input[type="checkbox"]').prop("checked", false);
   });
@@ -51,6 +65,7 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
       $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
+
     $(".usa-accordion__heading button:gt(0)").attr("aria-expanded", "true");
     $(".usa-accordion__content:gt(0)").removeAttr("hidden");
   });
@@ -129,12 +144,15 @@ $('.usa-nav-primary li.main-parent').click(function () {
 	$(this).find('ul.sub-menu').toggle();
 });
 
+
 // #***************************************************
 // # AV01 - When "bell" in header is clicked, toggle the
 // #        pane and set the 'last-bell-click' cookie with
 // #        epoc time, expiring 30 days from now.
 // #***************************************************
 $(".bell").click(function() {
+
+	$(".alert-wrapper-fallback").remove();
 
         $("#alert-logic").toggle();
 
@@ -148,11 +166,25 @@ $(".bell").click(function() {
         document.cookie = "last-bell-click=" + (now.getTime() / 1000) + "; expires=" + exp.toUTCString() + "; path=/";
 });
 
+
+$(document).mouseup(function(e) {
+	if ($(e.target).closest("#alert-logic").length === 0) {
+		$("#alert-logic").hide();
+	}
+});
+$(document).ready(function() {
+	$(".bell").on("keyup", function(event) {
+		if (event.keyCode === 13) {
+        		$("#alert-logic").toggle();
+		}
+	});
+});
 // #***************************************************
 // # AV01 - Use value of last-bell-click cookie
 // #        to compare the timestamps of each post.
 // #***************************************************
 $(document).ready(function() {
+
 
         const value = `; ${document.cookie}`;                   // get all cookies
         const parts = value.split(`; last-bell-click=`);        // split on cookie we want
@@ -204,16 +236,22 @@ $(document).ready(function() {
 
         if (count == 0) {
 
-                $(".bell").css("display", "none");
-
                 if (typeof(Storage) !== "undefined") {
-                        var oldBell = sessionStorage.getItem('old-bell');
+                        var oldBell = localStorage.getItem('old-bell');
                         if (oldBell !== null) {
                                 $("#alert-logic").html(oldBell);
                                 $(".bell").css("display", "block");
-                                $(".post-count").css("display", "none");
+                   		$(".post-count").css("display", "none");
+				return;
                         }
                 }
+
+                $(".alert-wrapper").remove();
+                $(".alert-wrapper-fallback").removeClass("alert-wrapper-fallback").addClass("alert-wrapper");
+                if (parts.length !== 2) {   
+                   $(".post-count").html("4");
+                   $(".post-count").css("display", "block");
+		}
         } else {                                                          // show count on bell
 
                 $(".post-count").html(count);
@@ -231,11 +269,10 @@ $(document).ready(function() {
                         $("#doc-label-update").next().remove("ul");
                         $("#doc-label-update").remove();
                 }
-
-                // save old menu
-                if (typeof(Storage) !== "undefined") {
-                        sessionStorage.setItem('old-bell', $("#alert-logic").html());
-                }
+        }
+        // save old menu
+        if (typeof(Storage) !== "undefined") {
+        	localStorage.setItem('old-bell', $("#alert-logic").html());
         }
 });
 
@@ -289,8 +326,6 @@ $(function(){
 
 
 
-
-
 $(function () {
     $(".blog-card").slice(0, 4).addClass('display');
     $(".load-more-bkg").on('click', function (e) {
@@ -305,42 +340,3 @@ $(function () {
     });
 }); 
 
-
-// In Page Navigation //
-
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
-
-// Cache selectors
-var topMenu = $(".in-page-nav"),
-    topMenuHeight = topMenu.outerHeight()+15,
-    // All list items
-    menuItems = topMenu.find("a"),
-    // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
-    });
-
-// Bind to scroll
-$(window).scroll(function(){
-   // Get container scroll position
-   var fromTop = $(this).scrollTop()+topMenuHeight;
-
-   // Get id of current scroll item
-   var cur = scrollItems.map(function(){
-     if ($(this).offset().top < fromTop)
-       return this;
-   });
-   // Get the id of the current element
-   cur = cur[cur.length-1];
-   var id = cur && cur.length ? cur[0].id : "";
-   // Set/remove active class
-   menuItems
-     .parent().removeClass("active")
-     .end().filter("[href='#"+id+"']").parent().addClass("active");
-});

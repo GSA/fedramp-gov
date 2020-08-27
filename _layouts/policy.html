@@ -34,9 +34,9 @@ body-class: page-fed-agencies
 							</form>
 						</div>
 
-						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12" style="display:none;">
 							<form>
-								<h4>Document Type</h4>
+								<h4>Tags</h4>
 								{% assign tagsAll = site.policy | map: "tags" | uniq %}
 								{% assign tagsArray = "" | split: "" %}
 								{% for tag in tagsAll %}
@@ -45,6 +45,25 @@ body-class: page-fed-agencies
 								{% endfor %}
 								{% assign tagsArray = tagsArray | sort %}
 								{% for tag in tagsArray %}
+								   <label class="fedramp-check"><input type="checkbox" name="fl-tag" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}<span class="checkmark"></span></label>
+								   {% unless forloop.last %}
+									 <br>
+								   {% endunless %}
+								{% endfor %}
+							</form>
+						</div>
+
+						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
+							<form>
+								<h4>Document Type</h4>
+								{% assign dtypAll = site.policy | map: "doctype" | uniq %}
+								{% assign dtypArray = "" | split: "" %}
+								{% for dt in dtypAll %}
+								   {% assign workT = dt | split: "~" %}
+								   {% assign dtypArray = dtypArray | concat: workT %}
+								{% endfor %}
+								{% assign dtypArray = dtypArray | sort %}
+								{% for tag in dtypArray %}
 								   <label class="fedramp-check"><input type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" /> {{ tag }}<span class="checkmark"></span></label>
 								   {% unless forloop.last %}
 									 <br>
@@ -53,7 +72,7 @@ body-class: page-fed-agencies
 							</form>
 						</div>
 					
-						
+
 						<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
 							<form>
 								<h4>File Format</h4>
@@ -90,6 +109,8 @@ body-class: page-fed-agencies
 			</div>
 			<div class="full-col desktop:grid-col-9 desktop:padding-left-8">
 				
+				<div id="result-count"></div>
+				<a class="clear-results" onclick="clearResults()" style="display:none;">Clear Results</a>
 				<div id="search-area" class="flowers">
 
 							{% assign thirty = "now" | date: "%s" | minus: 2592000 %}
@@ -123,8 +144,15 @@ body-class: page-fed-agencies
 							{% unless forloop.last %}{% assign tagList = tagList | append: " " %}{% endunless %}
 							{% endfor %}
 
+							{% assign dtpList = "" %}
+							{% for dt in doc.doctype %}
+							{% assign workD = dt | replace: " ", "-" %}
+							{% assign dtpList = dtpList | append: workD %}
+							{% unless forloop.last %}{% assign dtpList = dtpList | append: " " %}{% endunless %}
+							{% endfor %}
 
-						<div class="grid-row padding-y-4 flower policy-card" data-id="aloe" data-category="{{ tagList | downcase }} {{ doc.filetype | downcase | replace: " ", "-" }} {{doc.partner | downcase | replace: " ", "-"}}{{ dateFilters }}">
+
+						<div class="grid-row padding-y-4 flower policy-card" data-id="aloe" data-category="{{ tagList | downcase }} {{ doc.filetype | downcase | replace: " ", "-" }} {{doc.partner | downcase | replace: " ", "-"}} {{ dtpList | downcase }}{{ dateFilters }}">
 							<div class="desktop:grid-col-9">
 								<div class="policy-document-date">
 									<p class="document-kind">{{ doc.category }}</p>
@@ -136,7 +164,7 @@ body-class: page-fed-agencies
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
-									<a class="tags" onclick="checkFilter($('#{{ tag | downcase }}'))"><button>{{tag}}</button></a>
+									<a class="tags" onclick="checkFilter('#{{ tag | downcase }}')"><button>{{tag}}</button></a>
 									{% endfor %}
 								</div>
 
@@ -144,8 +172,8 @@ body-class: page-fed-agencies
 								
 							</div>
 							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-2">
-								<a class="policy-download policy-{{ doc.filetype }}" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}">
-								 <button class="icon-text">Download</button>
+								<a class="policy-download policy-{{ doc.filetype }}" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}" target="_blank">
+								 <button class="icon-text" title="download">Download</button>
 								</a>
 							</div>
 						</div>

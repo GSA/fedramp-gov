@@ -1,7 +1,7 @@
 <a href="#main" class="usa-skipnav">Skip to main content</a>
 
 <header class="usa-header usa-header-basic" role="banner">
-  <!-- Gov banner BEGIN -->
+<!-- Gov banner BEGIN -->
 <section class="usa-banner site-banner" aria-label="Official government website">
   <div class="usa-accordion">
     <header class="usa-banner__header">
@@ -71,13 +71,36 @@
         </div>
 	<div class="search-feature">
                 <div class="search-wrapper">
-                        <div class="bell">
+                        <div class="bell" tabindex="0" onclick="bellClick();">
                                 <i class="fas fa-bell"></i>
-
-                                <button class="post-count"></button>
+                                <button class="post-count" style="display:none;"></button>
 
                                 <div id="alert-logic">
+					<div class="alert-wrapper-fallback">
+<div style="float: right;">x</div>
+  						<p>RECENT POSTS</p>
+  						<ul>
+    							<p>{{ post.last_modified_at | date: "%s" }}</p>
+    							{% for post in site.posts limit:2 %}
+      								<li><a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+        								<p>{{ post.date | date: "%B %-d, %Y"}}</p>
+        								<p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+      								</li>
+    							{% endfor %}
+  						</ul>
+  						<p>RECENT DOCUMENTS</p>
+  						<ul>
+    							{% for doc in docs limit:2 %}
+      								<li><a href="{{site.baseurl}}/policy-guidance/">{{ doc.title }}</a>
+        								<p>{{ doc.date | date: "%B %-d, %Y"}}</p>
+        								<p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
+      								</li>
+    							{% endfor %}
+  						</ul>
+					</div>
+               
                                         <div class="alert-wrapper">
+<div style="float: right;">x</div>
                                                 <p id="post-label">NEW POSTS</p>
                                                 <ul>
                                                         {% for post in site.posts %}
@@ -93,11 +116,11 @@
                                                 <p id="doc-label-new">NEW DOCUMENTS</p>
                                                 <ul>
                                                         {% for doc in docs %}
-                                                                {% assign doc_time = doc.last_modified_at | date: "%s" | minus: 0 %}
+                                                                {% assign doc_time = doc.date | date: "%s" | minus: 0 %}
                                                                 {% if doc_time > recent_posts %}
                                                                         {% assign doc_cond = doc.condition | strip | downcase %}
                                                                         {% if doc_cond  == "new" %}
-                                                                                <li class="current-doc-new"><a href="/documents">{{ doc.title }}</a>
+                                                                                <li class="current-doc-new"><a href="{{site.baseurl}}/policy-guidance">{{ doc.title }}</a>
                                                                                         <p class="date">{{ doc.date | date: "%B %-d, %Y"}}</p>
                                                                                         <p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
                                                                                 </li>
@@ -108,11 +131,11 @@
 						<p id="doc-label-update">UPDATED DOCUMENTS</p>
                                                 <ul>
                                                         {% for doc in docs %}
-                                                                {% assign doc_time = doc.last_modified_at | date: "%s" | minus: 0 %}
+                                                                {% assign doc_time = doc.date | date: "%s" | minus: 0 %}
                                                                 {% if doc_time > recent_posts %}
                                                                         {% assign doc_cond = doc.condition | strip | downcase %}
                                                                         {% if doc_cond  == "update" %}
-                                                                                <li class="current-doc-update"><a href="/documents">{{ doc.title }}</a>
+                                                                                <li class="current-doc-update"><a href="{{site.baseurl}}/policy-guidance">{{ doc.title }}</a>
                                                                                         <p class="date">{{ doc.date | date: "%B %-d, %Y"}}</p>
                                                                                         <p>{{ doc.content | strip_html | truncatewords: 10 }}</p>
                                                                                 </li>
@@ -132,7 +155,7 @@
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
       <label class="usa-sr-only" for="searchgovinput">Search medium</label>
       <input name="search" type="search" id="searchgovinput" placeholder="Search">
-      <button type="submit" id="searchgovbutton">
+      <button type="submit" id="searchgovbutton" title="Search">
 	  	<span class="usa-search-submit-text"><i class="fas fa-search"></i></span>
       </button>
     </form>

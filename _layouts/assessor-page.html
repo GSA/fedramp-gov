@@ -35,12 +35,12 @@ layout: full-width
 				<p class="text-center margin-bottom-0">Click each step in the process for more information:</p>
 
 					<div class="tab">
-						<button class="tablinks pointer-button" onclick="openTab(event, 'pre-authorization')" id="defaultOpen"><span class="button-border">Pre-Authorization</span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')"><span class="button-border">During Authorization</span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')"><span class="button-border">Post Authorization</span></button>
+						<button role="presentation" aria-controls="pre-authorization" onclick="openTab(event, 'pre-authorization')" class="tablinks pointer-button" id="defaultOpen"><span>Pre-Authorization</span></button>
+						<button role="presentation" aria-controls="during-authorization" class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')"><span>During Authorization</span></button>
+						<button role="presentation" aria-controls="post-authorization" class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')"><span>Post Authorization</span></button>
 					</div>
 
-					<div id="pre-authorization" class="tabcontent desktop:padding-8 padding-4">
+					<div role="tabpanel" aria-labelledby="pre-authorization" id="pre-authorization" class="tabcontent desktop:padding-8 padding-4">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
 								<h3 class="margin-top-0">Planning for an Initial Authorization</h3>
@@ -55,20 +55,20 @@ layout: full-width
 									<li>Include a clear attestation that is logical and aligns with the proposed residual risk of operating the system - without any conditional or ambiguous attestations</li>
 								</ul>
 
-								<p>The 3PAO must notify FedRAMP, at least two weeks prior to submission of a RAR, via <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> and engage in additional steps with the FedRAMP PMO throughout the readiness assessment process. The FedRAMP PMO reviews all RARs and, if satisfactory, the CSP system will be designated “FedRAMP Ready.” This designation indicates that a 3PAO attests to a CSO’s readiness for the authorization process. The <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a> provides 3PAOs with best practices to successfully complete a high quality RAR.</p>
+								<p>The 3PAO must notify FedRAMP, at least two weeks prior to submission of a RAR, via <a tabindex="0" href="mailto:info@fedramp.gov">info@fedramp.gov</a> and engage in additional steps with the FedRAMP PMO throughout the readiness assessment process. The FedRAMP PMO reviews all RARs and, if satisfactory, the CSP system will be designated “FedRAMP Ready.” This designation indicates that a 3PAO attests to a CSO’s readiness for the authorization process. The <a tabindex="0" href="https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a> provides 3PAOs with best practices to successfully complete a high quality RAR.</p>
 
 							</div>
 						</div>
 					</div>
 
-					<div id="during-authorization" class="tabcontent desktop:padding-8 padding-4">
+					<div role="tabpanel" aria-labelledby="during-authorization" id="during-authorization" class="tabcontent desktop:padding-8 padding-4">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
 								<h3 class="margin-top-0">Conducting Assessments</h3>
 
 								<h4>1) Completing a Security Assessment Plan (SAP)</h4>
 
-								<p>The SAP contains the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. The SAP includes the following&#58;</p>
+								<p><a href="#" tabindex="0">The SAP contains</a> the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. The SAP includes the following&#58;</p>
 								<ul class="red-bullets">
 									<li>Penetration Test Plan that is aligned to FedRAMP’s Penetration Test Guidance</li>
 									<li>Inventory Worksheet that coincides with the inventory provided in the SSP</li>
@@ -125,7 +125,7 @@ layout: full-width
 						</div>				
 					</div>	
 
-					<div id="post-authorization" class="tabcontent desktop:padding-8 padding-4">
+					<div role="tabpanel" aria-labelledby="post-authorization" tabindex="0"  id="post-authorization" class="tabcontent desktop:padding-8 padding-4">
 						<div class="full-row grid-row grid-gap">
 							<div class="full-col desktop:grid-col-12">
 								<h3 class="margin-top-0">Continuous Monitoring<span style="text-transform: none; margin-left: 4px;">(ConMon)</span></h3>
