@@ -2047,6 +2047,16 @@ h3.legal-framework-titles {
 	content: none;
 }
 
+@media (min-width: 0) and (max-width: 639px) {
+	.faq-browse-topics {
+		display: none;
+	}
+	
+	.faq-search-mobile {
+		padding-bottom: 2rem !important;
+	}
+}
+
 @media (min-width: 0) and (max-width: 568px) {
 	.faq-search {
 		width: auto;

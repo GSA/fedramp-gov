@@ -77,7 +77,7 @@
 
                                 <div id="alert-logic">
 					<div class="alert-wrapper-fallback">
-<div style="float: right;">x</div>
+<button class="bell-close">x</button>
   						<p>RECENT POSTS</p>
   						<ul>
     							<p>{{ post.last_modified_at | date: "%s" }}</p>
@@ -100,7 +100,7 @@
 					</div>
                
                                         <div class="alert-wrapper">
-<div style="float: right;">x</div>
+<button class="bell-close">x</button>
                                                 <p id="post-label">NEW POSTS</p>
                                                 <ul>
                                                         {% for post in site.posts %}
