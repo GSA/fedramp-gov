@@ -32,15 +32,15 @@ assigned:
         show_in_footer: false
         sub:
         - 
-            text: Federal Agencies
-            href: projects/federal-agencies.md
-            permalink: /federal-agencies/
+            text: Cloud Service Providers
+            href: cloud-service-providers.md
+            permalink: /cloud-service-providers/
             show_in_menu: true
             show_in_footer: false
         - 
-            text: Cloud Service Providers
-            href: projects/cloud-service-providers.md
-            permalink: /cloud-service-providers/
+            text: Federal Agencies
+            href: projects/federal-agencies.md
+            permalink: /federal-agencies/
             show_in_menu: true
             show_in_footer: false
         - 
@@ -57,15 +57,15 @@ assigned:
         show_in_footer: false
         sub:
         - 
-            text: JAB Authorization
-            href: jab-authorization.md
-            permalink: /jab-authorization/
+            text: Agecny Authorization
+            href: agecny-authorization.md
+            permalink: /agency-authorization/
             show_in_menu: true
             show_in_footer: false 
         - 
-            text: Agency Authorization
-            href: agency-authorization.md
-            permalink: /agency-authorization/
+            text: JAB Authorization
+            href: jab-authorization.md
+            permalink: /jab-authorization/
             show_in_menu: true
             show_in_footer: false 
         - 

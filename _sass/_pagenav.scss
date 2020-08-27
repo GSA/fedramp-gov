@@ -94,7 +94,8 @@ ul.in-page-nav-menu {
 		position: relative;
 		background: white;
 		z-index: 1000;
-		border-bottom: solid 1px $mid-gray;
+		background-color: $lightest-gray;
+		margin-bottom: -70px;
 	}
 	
 	#top-menu-mobile {
