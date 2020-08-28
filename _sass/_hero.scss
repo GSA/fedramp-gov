@@ -163,7 +163,7 @@
 		border-radius: 40px;
 		-moz-border-radius: 40px;
 		background-repeat: no-repeat;
-		padding: 20px 60px 20px 80px;
+		padding: 15px 60px 20px 80px;
 		margin: 20px 30px 0 0;
 		border: none;
 		cursor: pointer;
@@ -187,7 +187,9 @@
 	.hero-program {
 		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
-		background-position: 34px 12px;
+		background-position: 33px 10px;
+		width: 307px;
+		height: 47px;
 		padding-right: 40px;
 		&:hover {
 			background-color: $red;
@@ -197,9 +199,9 @@
 	.hero-process {
 		background-color: $red;
 		background-image: url('../../assets/img/home-meet-the-process.svg');
-		background-position: 34px;
-		padding: 20px 50px 20px 80px;
-		padding-right: 40px;
+		background-position: 28px;
+		width: 255px;
+    	height: 47px;
 		&:hover {
 			background-color: $dark-blue;
 			transition: 0.4s;

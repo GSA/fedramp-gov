@@ -57,7 +57,7 @@ assigned:
         show_in_footer: false
         sub:
         - 
-            text: Agecny Authorization
+            text: Agency Authorization
             href: agecny-authorization.md
             permalink: /agency-authorization/
             show_in_menu: true
