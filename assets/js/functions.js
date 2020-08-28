@@ -302,7 +302,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == '/preview/gsa/fedramp-gov/dev/') {
+		if (current == '/preview/gsa/fedramp-gov/white-glove/') {
 				$("#navigation ul li a").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
