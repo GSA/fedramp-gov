@@ -148,12 +148,18 @@ ul.quick-links {
 	top: 4px;
 }
 
+
 .framp-twitter {
 	position: relative;
 	top: 4px;
 	margin-right: 10px;
 	color: $footer-teal;
 }
+
+.footer-mail-icon:hover, .framp-twitter:hover {
+	filter: brightness(200%);
+}
+
 
 p.footer-contact {
 	color: $footer-teal;
