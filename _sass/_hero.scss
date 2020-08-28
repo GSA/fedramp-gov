@@ -188,7 +188,7 @@
 		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 33px 10px;
-		width: 307px;
+		width: 302px;
 		height: 47px;
 		padding-right: 40px;
 		&:hover {
@@ -210,6 +210,12 @@
 		a {
 			margin-left: 4px;
 		}
+	}
+}
+
+@media (min-width:0) and (max-width:993px) {
+	.hero-process {
+		width: 302px;
 	}
 }
 

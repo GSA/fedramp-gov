@@ -9,6 +9,12 @@
 	font-size: inherit;
 }
 
+@media (min-width: 0) and (max-width: 392px) {
+	.usa-banner__header-action, .usa-banner__header-text {
+		font-size: 0.6875rem;
+	}
+} 
+
 .usa-banner {
   z-index: 10000;
   position: absolute;
