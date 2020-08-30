@@ -7,14 +7,9 @@
 	top: 20px;
 	
 	img:hover {
-		opacity: 0;
+		filter:saturate(2);
 	}
-	
-	div:hover {
-		background-image: url('../../assets/img/agency-process-button-hover.svg');
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
+
 }
 
 .jab-home {
@@ -23,13 +18,7 @@
 	top: 210px;
 
 	img:hover {
-		opacity: 0;
-	}
-	
-	div:hover {
-		background-image: url('../../assets/img/jab-process-button-hover.svg');
-		background-repeat: no-repeat;
-		background-size: contain;
+		filter:saturate(2);
 	}
 
 }
@@ -886,7 +875,7 @@ section#goals div.inner {
 				padding: 0;
 			}
 			span {
-			width: 60%;
+			width: 45%;
 			text-align: center;
 			p {
 				margin: 0;

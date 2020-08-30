@@ -57,7 +57,7 @@
 }
 */
 
-/*
+
 .hero-content {
 	background-color: transparentize($text-color, .6);
 	margin: 0px auto;
@@ -88,15 +88,6 @@
 	width: 70%;
 }
 
-
-// Old hero background
-.home .hero-unit {
-  background-image: url("../../assets/img/home-hero-unit.png") !important;
-  background-attachment: fixed;
-  padding: 130px 0;
-  }
-
-*/
 
 .hero-text {
 	width: 75%;
@@ -158,32 +149,21 @@
 }
 
 .home-hero-buttons {
-	button {
-		background-color: transparent;
-		text-align: left;
-		padding-left: 40px;
-		font-size: 0.875rem;
-		border-radius: 40px;
-		-moz-border-radius: 40px;
-		background-repeat: no-repeat;
-		padding: 15px 20px 20px 80px;
-		margin: 20px 30px 0 0;
-		border: none;
-		cursor: pointer;
-		&:hover {
-			text-decoration: none;
-		}
-	}
 	
 	a {
+		background-repeat: no-repeat;
+		border-radius: 40px;
 		color: #ffffff;
 		text-decoration: none;
 		letter-spacing: .025em;
 		font-weight: 800;
 		text-transform: none;
 		font-size: 1rem;
+		margin: 20px 30px 0 0;
+		cursor: pointer;
+		white-space: nowrap;
 		&:hover {
-			text-decoration: none !important;
+			text-decoration: none;
 		}
 	}
 	
@@ -191,20 +171,20 @@
 		background-color: $dark-blue;
 		background-image: url('../../assets/img/home-learn-program-basics.svg');
 		background-position: 33px 10px;
-		width: 302px;
-		height: 47px;
-		padding-right: 40px;
+		padding: 13px 52px 14px 76px;
+		
 		&:hover {
 			background-color: $red;
 			transition: 0.4s;
 		}
+	
 	}
 	.hero-process {
 		background-color: $red;
 		background-image: url('../../assets/img/home-meet-the-process.svg');
 		background-position: 28px;
-		width: 255px;
-    	height: 47px;
+		padding: 13px 92px 14px 76px;
+		
 		&:hover {
 			background-color: $dark-blue;
 			transition: 0.4s;
@@ -216,18 +196,20 @@
 	}
 }
 
-@media (min-width:0) and (max-width:993px) {
-	.hero-process {
-		width: 302px;
-	}
+.hero-button-break {
+	display: none;
 }
 
-@media (max-width: 750px) {
-	
-	.home-hero-buttons {
-		button {
-			margin: 20px 0 0 0;
-		}
+@media (min-width:0px) and (max-width:744px) {
+	.home-hero-buttons .hero-process {
+		width: 302px;
+		margin-top: 80px;
+		padding: 13px 52px 14px 76px;
+	}
+	.hero-button-break {
+		display: block;
+		margin: 50px 0;
 	}
 	
 }
+

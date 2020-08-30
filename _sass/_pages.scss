@@ -227,7 +227,7 @@ section#rar, section#do-once {
 	
 	.authorization-phase-icon {
 		width: auto;
-		text-align: right;
+		text-align: center;
 		margin: 0 2rem 0 0;
 	}
 	
@@ -1906,7 +1906,10 @@ max-width: 200px;
 /*	margin-bottom: 50px;*/
 }
 
-
+.fedramp-youtube {
+	width: 100%;
+	margin: 0;
+}
 
 .program-basics-title {
 	margin: 10px auto 0 auto;
@@ -2102,6 +2105,10 @@ h3.legal-framework-titles {
 .usa-prose > h5 {
 	font-family: $title-font;
 	color: $dark-gray;
+}
+
+.usa-prose > ul {
+	margin-left: 20px;
 }
 
 .in-page-nav-section h3 {
