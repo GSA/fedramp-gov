@@ -1,4 +1,4 @@
-
+s
 /*---------- policy and guidance ------------- */
 
 .flowers-wrap {
@@ -36,6 +36,7 @@
 		font-size: .75rem;
 		color: $dark-gray;
 		margin-bottom: 10px;
+		text-indent: -29px;
 	}
 	
 	input {
@@ -97,12 +98,18 @@ div#result-count {
 	display: inline;
 }
 
-a.clear-results {
+button.clear-results {
 	cursor: pointer;
 	font-size: 0.875rem;
 	display: inline;
 	margin-left: 4px;
 	text-decoration: underline;
+	color: $teal;
+	
+	&:hover {
+		color: $red;
+		background-color: transparent;
+	}
 }
 
 .policy-card {
@@ -243,63 +250,21 @@ a.policy-download.policy-excel {
 }
 
 .policy-tags button.tags {
-	border: solid $teal 1px;
-	border-radius: 20px;
-	padding: 5px 20px 6px;
-	margin: 0 0 0 14px;
 	cursor: pointer;
 	color: $teal;
 	background: transparent;
-	font-size: 0.75rem;
+	font-size: 0.875rem;
 	font-weight: 800;
-	text-decoration: none;
+	text-decoration: underline;
+	padding: 0 20px;
+	border-right: solid 1px $teal;
 	
 	&:hover {
-		border: solid 1px $red;
 		color: $red;
 	}
 	
-	button {
-		
-		color: inherit;
-		
-		cursor: pointer;
-		
-	}
-}
-
-@media (min-width: 0px) and (max-width: 480px) {
-	
-	a.policy-download {
-		padding: 10px 0 10px 25%;
-		display: block;
-	}
-	
-	a.policy-download.policy-pdf {
-		background-position: 74% 6px;
+	&:last-child {
+		border-right: none;
 	}
 
-	a.policy-download.policy-word {
-		background-position: 74% 6px;
-	}
-
-	a.policy-download.policy-excel {
-		background-position: 74% 6px;
-	}
-	
-	.policy-tags a.tags {
-		border-radius: 20px;
-		padding: 3px 20px 4px;
-		display: block;
-		text-align: center;
-		margin: 10px 0;
-
-		button {
-			margin: 0;
-		}
-	}
-	
-	.tag-icon {
-		display: none;
-	}
 }

@@ -9,7 +9,7 @@ body-class: page-fed-agencies
 		<div class="full-row grid-row ">
 			
 			<div class="full-col desktop:grid-col-3">
-				<div class="flowers-wrap lightest-teal-bkg padding-2 tablet:padding-4 tablet:padding-y-6">
+				<div class="flowers-wrap lightest-teal-bkg padding-2 padding-y-4 tablet:padding-4 tablet:padding-y-6">
 					<h3>Refine Your Results</h3>
 					<section aria-label="Small search component" class="faq-search policy-search">
 						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
@@ -27,7 +27,7 @@ body-class: page-fed-agencies
 								{% assign partners = site.policy | map: "partner" | sort | uniq %}
 								{% for par in partners %}
 								
-									<input class="usa-checkbox__input" type="checkbox" name="{{ par }}" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> 
+									<input class="usa-checkbox__input" type="checkbox" name="fl-partner" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> 
 								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">{{ par }}</label>
 								
 								   {% unless forloop.last %}
@@ -124,7 +124,7 @@ body-class: page-fed-agencies
 			<div class="full-col desktop:grid-col-9 desktop:padding-left-8">
 				
 					<div id="result-count"></div>
-					<a class="clear-results" onclick="clearResults()" style="display:none;">Clear Results</a>
+					<button class="clear-results" onclick="clearResults()" style="display:none;" title="Clear Results">Clear Results</button>
 				
 				
 				<div id="search-area" class="flowers">
@@ -180,7 +180,7 @@ body-class: page-fed-agencies
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
-									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}')" tabindex="">{{tag}}</button>
+									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}')" tabindex="" title="{{tag}}">{{tag}}</button>
 									{% endfor %}
 								</div>
 

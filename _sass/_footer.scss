@@ -206,6 +206,7 @@ p.footer-follow-us {
 			width: 116px;
 			font-size: .75rem;
 			text-transform: uppercase;
+			cursor: pointer;
 		}
 		
 		input.footer-submit:hover {
@@ -251,6 +252,10 @@ p.footer-follow-us {
 	.f-col-3 {
 		padding-left: 60px;
 		padding-right: 60px;
+	}
+	
+	.f-col-1, .f-col-2, .f-col-3 {
+		min-height: 220px;
 	}
 }
  
