@@ -2143,11 +2143,18 @@ h3.legal-framework-titles {
 	color: $lighter-teal;
 	padding: 8px 24px;
 	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	cursor: pointer;
 	
 	&:hover {
 		border: solid 1px white;
 		color: white;
 		
+	}
+	
+	&:visited {
+		color: $lighter-teal;
 	}
 	
 	button {
@@ -2195,20 +2202,17 @@ h3.legal-framework-titles {
 		text-decoration: none;
 		margin-left: 1rem;
 		cursor: pointer;
+		text-transform: uppercase;
+		font-weight: 800;
+		cursor: pointer;
+		
+		&:visited {
+			color: $mid-gray;
+		}
 		
 		&:hover {
 			color: $red;
 			border: solid 1px $red;
-		}
-		
-		button {
-			color: inherit;
-			background-color: transparent;
-			text-decoration: none;
-			text-transform: uppercase;
-			font-weight: 800;
-			cursor: pointer;
-			margin: 0;
 		}
 	}
 }
@@ -2219,6 +2223,10 @@ h3.legal-framework-titles {
 
 .training-courses h4 {
 	color: $light-blue;
+}
+
+.training-buttons-container {
+	margin-top: 30px;
 }
 
 @media (min-width: 0) and (max-width: 639px) {
@@ -2237,7 +2245,7 @@ h3.legal-framework-titles {
 		line-height: 2;
 	}
 	
-	.courses-buttons {
+	.training-buttons-container {
 		text-align: center;
 	}
 	
