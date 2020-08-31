@@ -14,7 +14,7 @@
 	background: url('../../assets/img/team-background.jpg') center repeat-y $lightest-gray;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1023px) {
 	.team-bkg {
 		background: $lightest-gray;
 	}
@@ -25,9 +25,16 @@
 }
 
 .team-image {
-	@include image-circle(178px);
 	text-align: center;
 }
+
+@media (min-width: 0px) and (max-width: 1023px) {
+	.team-image {
+		@include image-circle(178px);
+		text-align: center;
+	}
+}
+
 
 .team-member-card {
 	
@@ -128,8 +135,11 @@ h3.team-program-goals {
       bottom: 0;
       left: 0;
       width: 100%;
+		height: 100%;
       z-index: 200;
       opacity: 0;
+		overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
       
       transition: opacity 0.3s;
       will-change: opacity;
@@ -173,7 +183,7 @@ h3.team-program-goals {
       width: 100%;
       max-width: 500px;
       z-index: 9999;
-      overflow: auto;
+      overflow: scroll;
       
       transition: transform 0.3s;
       will-change: transform;
