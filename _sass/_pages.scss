@@ -2149,7 +2149,7 @@ h3.legal-framework-titles {
 	
 	&:hover {
 		border: solid 1px white;
-		color: white;
+		color: white !important;
 		
 	}
 	
@@ -2176,9 +2176,15 @@ h3.legal-framework-titles {
 	}
 }
 
+
+
 @media (min-width: 639px) and (max-width: 768px) {
 	h3.courses-titles {
 		text-align: left;
+	}
+	
+	.courses-img-container {
+		margin: 40px 0 0;
 	}
 }
 

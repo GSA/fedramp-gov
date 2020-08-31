@@ -2,10 +2,6 @@
 /*---------- in page navigation ------------- */
 
 
-.lavalamp-menu {
-
-}
-
 #top-menu nav,
 #top-menu li {
   display: block;
@@ -84,7 +80,7 @@ ul.in-page-nav-menu {
 	display: none;
 }
 
-@media (min-width: 0) and (max-width: 799px) {
+@media (min-width: 0) and (max-width: 639px) {
 	.resources-nav {
 		display: none;
 	}

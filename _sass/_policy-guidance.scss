@@ -1,6 +1,18 @@
 
 /*---------- policy and guidance ------------- */
 
+$theme-utility-breakpoints: (
+  'card':              false,   // 160px
+  'card-lg':           false,   // 240px
+  'mobile':            false,   // 320px
+  'mobile-lg':         true,    // 480px
+  'tablet':            true,    // 640px
+  'tablet-lg':         true,   // 800px
+  'desktop':           true,    // 1040px
+  'desktop-lg':        false,   // 1200px
+  'widescreen':        false,   // 1400px
+);
+
 .flowers-wrap {
 	h3 {
 		font-size: 1rem;
