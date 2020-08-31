@@ -1,8 +1,10 @@
 /*---------- Team ------------- */
 
 .drawer__wrapper {
-	-webkit-overflow-y: scroll;
+	overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
+
 
 // Mixins
 @mixin image-circle($width) {
@@ -203,10 +205,10 @@ h3.team-program-goals {
       display: flex;
       flex-direction: column; 
 
-      -webkit-transform: translate3d(103%, 0, 0);
-      transform: translate3d(103%, 0, 0); /* extra 3% because of box-shadow */ 
+//     -webkit-transform: translate3d(103%, 0, 0);
+//     transform: translate3d(103%, 0, 0); /* extra 3% because of box-shadow */ 
       
-      -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+ //     -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
 
       /* Optional */
       box-shadow: 0 2px 6px #777;
@@ -225,8 +227,8 @@ h3.team-program-goals {
     .drawer--left .drawer__wrapper {
       left: 0;
       right: auto;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
+     -webkit-transform: translate3d(-100%, 0, 0);
+     transform: translate3d(-100%, 0, 0);
     }
 
     .drawer.is-active {
@@ -234,7 +236,7 @@ h3.team-program-goals {
     }
 
     .drawer.is-visible .drawer__wrapper {
-      -webkit-transform: translate3d(0, 0, 0);
+     -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
 
