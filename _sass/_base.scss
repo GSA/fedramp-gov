@@ -15,6 +15,11 @@ $theme-utility-breakpoints: (
   'widescreen':        false,   // 1400px
 );
 
+
+html {
+	scroll-behavior: smooth;
+}
+
 main#main:focus {
 	outline: none !important;
 }

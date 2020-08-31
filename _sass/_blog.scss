@@ -206,25 +206,16 @@ p.date {
 }
 
 .back-to-blogs-button {
-	border-radius: 20px;
-	border: solid 1px $mid-gray;
-	color: $lighter-teal;
+	color: $red;
 	padding: 8px 24px;
 	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	cursor: pointer;
 	
 	&:hover {
-		border: solid 1px $red;
-		color: $red;
+		color: $teal;
 		
-	}
-	
-	button {
-		color: inherit;
-		background-color: transparent;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: 800;
-		cursor: pointer;
 	}
 }
 
@@ -237,8 +228,12 @@ p.date {
 	
 	a {
 		text-decoration: none;
-		color: $dark-gray;
+		color: $red;
 	}
+}
+
+a:hover .blog-icon {
+	color: $teal;
 }
 
 .blog-arrow {

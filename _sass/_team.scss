@@ -64,6 +64,10 @@
 
 			&:hover {
 				color: $teal;
+				
+				.read-bio-icon {
+					color: $teal;
+				}
 			}
 		}
 		
@@ -71,6 +75,7 @@
 	
 	.read-bio-icon {
 		margin-left: .5rem;
+
 	}
 	
 }
