@@ -17,7 +17,7 @@ In addition, the PMO has developed a brief video that covers an overview of the 
 
 *You can view this video and others on our <a href="www.youtube.com/fedramp">FedRAMP YouTube channel.</a>*
 
-If you have questions, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov </a>.
+If you have questions, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
 
 
 
