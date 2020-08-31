@@ -1,5 +1,9 @@
 /*---------- Team ------------- */
 
+.drawer__wrapper {
+	-webkit-overflow-y: scroll;
+}
+
 // Mixins
 @mixin image-circle($width) {
   background-size: cover;

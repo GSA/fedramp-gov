@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<div class="page-banner-container">
+	<div class="page-banner">
+		<h1>Meet the Team</h1>
+	</div>
+</div>
+<div class="grid-container">
+	<section class="grid-row grid-gap">
+		<div class="desktop:grid-col-4">
+		  {% if page.image %}
+			<img class="team-image" src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.name }}" />
+		  {% endif %}
+		</div>
+	  <div class="desktop:grid-col-8">
+		<h2>{{ page.name }}</h2>
+			 <p class="title">{{ page.title }}</p>
+		{{ content }}
+	  </div>
+	</section>
+</div>	
