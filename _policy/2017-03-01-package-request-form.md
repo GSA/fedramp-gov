@@ -1,14 +1,13 @@
 ---
 layout: policy   
-title: User Account Request Form
-category: Package Request Form
+title: Package Request Form
+category: Key Agency Documents
 filename: Agency_Package_Request_Form.pdf
 filetype: pdf
 condition: new
 partner: Agencies
 doctype:
   - Forms
-  - Guidance
 tags:
   - Access
   - Assessment
