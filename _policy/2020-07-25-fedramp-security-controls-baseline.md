@@ -4,8 +4,9 @@ title: Annual Assessment Controls Selection Worksheet
 category: Cloud Service Provider (CSP) Document
 filename: CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx
 filetype: excel
-condition: new
+condition: updated
 partner: Cloud Service Providers
+
 doctype:
   - Worksheets
 tags: 
