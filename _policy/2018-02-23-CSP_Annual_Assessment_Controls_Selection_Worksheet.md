@@ -9,7 +9,7 @@ partner: Cloud Service Providers
 doctype:
   - Worksheet
 tags:
-  - tracking
-  - matrix
+  - Tracking
+  - Matrix
 ---
 The FedRAMP Annual Assessment Controls Selection Worksheet provides a matrix to assist CSPs, 3PAOs, and Federal Agencies in assessing and tracking control their annual assessment.
