@@ -14,7 +14,7 @@
 		{%if page.tags %}
 		<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 	{%endif %}
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />

@@ -2,6 +2,7 @@
 layout: jab-authorization
 title: JAB Authorization
 permalink: /jab-authorization/
+summary: This page describes the steps and deliverables needed to complete the JAB authorization process. The process is broken down into pre-authorization, authorization, and post authorization.
 
 ---
 
