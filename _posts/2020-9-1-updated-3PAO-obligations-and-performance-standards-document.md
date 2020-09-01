@@ -12,7 +12,7 @@ FedRAMP recently updated the <a href="{{site.baseurl}}/assets/resources/document
 In addition, the PMO has developed a brief video that covers an overview of the changes to this document.
 
 <div class="video-responsive">
-<iframe width="560" height="420" style="width:  90%; margin-left: 5%;" src="https://www.youtube.com/embed/jeL1PZin3wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="420" style="width:  90%; margin-left: 5%;" src="https://www.youtube.com/embed/737mv1gH1cU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *You can view this video and others on our <a href="www.youtube.com/fedramp">FedRAMP YouTube channel.</a>*
