@@ -1,8 +1,13 @@
 ---
 layout: training
 title: Training
+tab-title: Resources&#58; Training
 permalink: /training/
 body-class: page-training
+summary: This page provides various training videos and courses for all FedRAMP stakeholders to better understand the authorization process and how FedRAMP works.
+tags: training, learning, videos, YouTube, courses, assessor, agency, cloud service provider, events, in-person, online 
+
+
 ---
 
 The FedRAMP PMO offers a series of online training courses to provide all stakeholders with a deeper understanding of FedRAMP and the level of effort that is required to successfully complete a FedRAMP assessment. This series consists of free e-learning courses geared towards specific stakeholder groups. The FedRAMP PMO encourages everyone to take these trainings, as the courseware provides participants with a holistic view of the FedRAMP process.

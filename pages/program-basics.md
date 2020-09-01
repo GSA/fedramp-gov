@@ -1,8 +1,11 @@
 ---
 layout: program-basics
 title: Program Basics
+tab-title: About&#58; Program Basics
 permalink: /program-basics/
 body-class: about-us
+summary: This page describes the mission, goals, and benefits of FedRAMP. It also details the Legal Framework in which FedRAMP was developed and operates by.
+tags: mission, goals, benefits, legal framework, NIST, OMB, policy, guidance
 
 
 program-header: Overview

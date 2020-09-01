@@ -1,9 +1,10 @@
 ---
 layout: assessor-page
 title: Assessors
-description: Third Party Assessment Organizations (3PAOs) perform initial and periodic assessments of cloud systems to ensure they meet FedRAMP requirements.
+tab-title: Partners&#58; Assessors
+description: This page describes an assessor’s role in the FedRAMP authorization process.
 permalink: /assessors/
-tags: project
+tags: assessor, 3PAO, third party assessment organization 
 icon: /assets/img/project-images/assessor-icon.png
 image: 
 abstract: 
