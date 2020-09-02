@@ -7,9 +7,12 @@ filetype: pdf
 condition: new
 partner: Agencies
 doctype:
+  - FAQs
+  - Forms
   - Guidance
+  - Policy
+  - Worksheet
 tags:
-  - Roles  
-  - JAB
+  - Use Existing or Add Your Own
 ---
 This document provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.	
