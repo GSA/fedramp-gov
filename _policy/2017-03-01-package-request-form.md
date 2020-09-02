@@ -7,9 +7,12 @@ filetype: pdf
 condition: new
 partner: Agencies
 doctype:
+  - FAQs
   - Forms
+  - Guidance
+  - Policy
+  - Worksheet
 tags:
-  - Access
-  - Assessment
+  - Use Existing or Add Your Own
 ---
 Form that must be completed to gain access to a FedRAMP security assessment package.
