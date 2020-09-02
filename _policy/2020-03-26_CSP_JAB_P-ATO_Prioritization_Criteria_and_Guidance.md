@@ -15,4 +15,4 @@ doctype:
 tags:
   - Use Existing or Add Your Own
 ---
-Form that must be completed to gain access to a FedRAMP security assessment package.
+The purpose of this document is to outline the criteria by which CSPs are prioritized to work with the JAB toward a P-ATO, the JAB prioritization process, and the Business Case requirements for FedRAMP Connect. We ask that CSPs review this document in its entirety before beginning the FedRAMP Connect process.
