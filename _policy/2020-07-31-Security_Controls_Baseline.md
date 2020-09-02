@@ -5,7 +5,7 @@ category: FedRAMP Program Documents
 filename: FedRAMP_Security_Controls_Baseline.xlsx
 filetype: pdf
 condition: new
-partner: Partner
+partner: Agencies
 doctype:
   - FAQs
 tags:
