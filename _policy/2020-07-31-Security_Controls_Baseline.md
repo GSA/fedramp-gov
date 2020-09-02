@@ -3,11 +3,15 @@ layout: policy
 title: FedRAMP Security Controls Baseline
 category: FedRAMP Program Documents
 filename: FedRAMP_Security_Controls_Baseline.xlsx
-filetype: Excel
+filetype: excel
 condition: new
 partner: Agencies
 doctype:
   - FAQs
+  - Forms
+  - Guidance
+  - Policy
+  - Worksheet
 tags:
   - Use Existing or Add Your Own
 ---
