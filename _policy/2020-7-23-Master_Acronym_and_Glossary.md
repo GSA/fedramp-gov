@@ -11,7 +11,7 @@ doctype:
   - Forms
   - Guidance
   - Policy
-  - Worksheets
+  - Worksheet
 tags:
   - Use Existing or Add Your Own
 ---
