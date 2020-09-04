@@ -5,7 +5,7 @@ category: Key Cloud Service Provider (CSP) Documents
 filename: CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf
 filetype: pdf
 condition: new
-partner: Cloud Service Provider
+partner: Cloud Service Providers
 doctype:
   - Guidance
 tags:
