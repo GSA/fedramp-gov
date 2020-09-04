@@ -7,12 +7,9 @@ filetype: pdf
 condition: new
 partner: Agencies
 doctype:
-  - FAQs
-  - Forms
   - Guidance
-  - Policy
-  - Worksheet
 tags:
-  - Use Existing or Add Your Own
+  - Guidance
+  - Agency
 ---
 This quick guide outlines steps and guidance to help agencies quickly and efficiently reuse authorized cloud products within the FedRAMP Marketplace.
