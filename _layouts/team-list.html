@@ -18,54 +18,17 @@ layout: full-width
 			<div class="full-col desktop:grid-col-8 tablet:padding-4">
 				
 				<div class="full-row grid-row">
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_AshleyMahan.jpg" alt="" />
-							<h3 class="center no-line">Ashley Mahan</h3>
-							<p class="team-title">Secure Cloud Portfolio &amp; FedRAMP Director</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-AshleyMahan" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
-						</div>	
-					</div>
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_ZachBaldwin.jpg" alt="" />
-							<h3 class="center no-line">Zach Baldwin</h3>
-							<p class="team-title">Program Manager for Strategy, Innovation, and Technology</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-ZachBaldwin" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
+{% assign teammembers = site.team | sort: "order" %}
+					{% for t in teammembers %}
+						<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
+							<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
+								<img class="team-image" src="{{site.baseurl}}{{ t.image }}" alt="" />
+								<h3 class="center no-line">{{ t.name }}</h3>
+								<p class="team-title">{{ t.title }}</p>
+							 	<p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-{{ t.name | replace: " ", "" }}" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
+							</div>	
 						</div>
-					</div>
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_BrianConrad.jpg" alt="" />
-							<h3 class="center no-line">Brian Conrad</h3>
-							<p class="team-title">Program Manager for Cybersecurity</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-BrianConrad" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
-						</div>
-					</div>
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_JohnHamilton.jpg" alt="" />
-							<h3 class="center no-line">John Hamilton</h3>
-							<p class="team-title">Program Manager of Security Operations</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-JohnHamilton" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
-						</div>
-					</div>
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_RyanHoesing.jpg" alt="" />
-							<h3 class="center no-line">Ryan Hoesing</h3>
-							<p class="team-title">Customer Success Manager</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-RyanHoesing" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
-						</div>
-					</div>
-					<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-						<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_BetsySteele.jpg" alt="" />
-							<h3 class="center no-line">Betsy Steele</h3>
-							<p class="team-title">Program Manager for Training and Outreach</p>
-							 <p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-BetsySteele" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right text-red fa-lg read-bio-icon"></i></a></p>
-						</div>
-					</div>
+					{% endfor %}
 					
 				</div>
 			</div>
@@ -85,184 +48,34 @@ layout: full-width
 
 
 
-<section class="drawer" id="drawer-AshleyMahan" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_AshleyMahan.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">Ashley Mahan</h3>
-						<p>Ashley Mahan is Director of the General Services Administration’s (GSA’s) Federal Risk and Authorization Management Program (FedRAMP) and Secure Cloud Portfolio. Ashley is a trusted liaison between Federal Agencies, Industry Cloud Service Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the federal Government. Her work drives a dramatic increase in FedRAMP adoption and helps agencies modernize their IT landscapes via cloud technologies. When combined with her natural aptitude for effective and conscious leadership, Ashley is uniquely positioned to continue FedRAMP’s strong growth.</p>
-
-						<p>Prior to stepping into the FedRAMP Director role, Ashley served as the program’s first Evangelist. She has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence. Ashley holds an M.S. in Information Technology, B.S. in Business and has a variety of project management and technology industry certifications.</p>
-						
-						<hr class="team-border margin-bottom-2 margin-top-4">
-						<p class="team-twitter"><a href="https://www.linkedin.com/in/ashleymahan" target="_blank"><i class="fab fa-twitter"></i> Connect with Ashley</a></p>
+{% for t in site.team %}
+	<section class="drawer" id="drawer-{{ t.name | replace: " ", "" }}" data-drawer-target>
+		<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
+		<div class="drawer__wrapper">
+			<div class="drawer__header">
+				<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
+			</div>
+			<div class="grid-container team-bio-drawer" style="padding-top: 0;">
+				<div class="full-row grid-row">
+					<div class="full-col desktop:grid-col-12 padding-x-4">
+						<div class="drawer__content">
+							<div class="drawer-image">
+								<img class="team-image" src="{{site.baseurl}}{{ t.image }}" alt="" />
+							</div>	
+							<h3 class="center no-line">{{ t.name }}</h3>
+							<p>{{ t.content }}</p>
+							
+							<hr class="team-border margin-bottom-2 margin-top-4">
+							{% if t.linkedin %}
+								<p class="team-twitter"><a href="{{ t.linkedin }}" target="_blank"><i class="fab fa-twitter"></i> Connect with {{ t.name | split: " " | first}} </a></p>
+							{% endif %}
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-
-<section class="drawer" id="drawer-BrianConrad" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_BrianConrad.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">Brian Conrad</h3>
-						<p>Brian Conrad joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining GSA, Brian served for 21 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.</p>
-
-						<p>Upon his transition from active duty, Brian joined Booz Allen Hamilton where he spent over seven years building his IT, cybersecurity, and project management skills supporting various clients across the Department of Defense including the United States Marine Corps, United States Navy, and the Chief Information Officer for the Department of Defense. During this time, Brian became recognized as a cloud computing/cybersecurity Subject Matter Expert within the Federal Government.</p>
-
-						<p>At GSA, Brian leads efforts associated with formulating and facilitating FedRAMP’s overall strategic initiatives and future goals. Additionally, Brian works hand-in-hand with government and industry, developing an understanding of emerging technology and innovation. Finally, in the short term, Brian will be supporting Joint Authorization Board efforts by leading on-going assessment and authorization activities.</p>
-
-						<p>Brian holds an M.S. in Information Technology Management from the U.S. Naval Postgraduate School, a B.A. in History with a minor in Economics from the University of Memphis, and various industry certifications.</p>
-						
-						<hr class="team-border margin-bottom-2 margin-top-4">
-						
-						<p class="team-twitter"><a href="https://www.linkedin.com/in/brianhconrad/" target="_blank"><i class="fab fa-twitter"></i> Connect with Brian</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="drawer" id="drawer-ZachBaldwin" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_ZachBaldwin.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">Zach Baldwin</h3>
-						<p>Zach Baldwin is a seasoned GSA employee with over 15 years of experience supporting the Federal Telecommunications Service (FTS), Public Building Service (PBS), Office of the Chief Information Officer (CIO), Office of Citizen Services and Innovative Technologies (OCSIT), Federal Acquisition Service (FAS), and Technology Transformation Services (TTS). Within OCSIT, Zach led the Federal Data Center Consolidation to help create the first government-wide cloud contract and supported the inception of FedRAMP.</p>
-
-						<p>Before joining the FedRAMP team, Zach served as a project manager, leading GSA’s partnership with the National GeoSpatial-Intelligence Agency (NGA) to make it easier for government agencies to purchase satellite imagery and services.</p>
-
-						<p>Zach currently supports several FedRAMP initiatives including promoting authorization reuse, leveraging automation to streamline the authorization process, and exploring the development of a modular, agile approach to authorizations. When he’s not working, you can find Zach helping his wife Dawn run her vintage rental business or running around after their two kids, Hank and June.</p>
-
-						<p>Zach graduated from Penn State with a BA in Marketing and International Business.</p>
-						
-						<hr class="team-border margin-bottom-2 margin-top-4">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="drawer" id="drawer-JohnHamilton" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_JohnHamilton.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">John Hamiliton</h3>
-						<p>John Hamilton is the Program Manager of Security Operations for FedRAMP. In this role, he works to ensure effective day-to-day operations of the FedRAMP PMO’s Readiness Assessment review process, public-facing website, customer mailbox, and secure repository. He also coordinates with FedRAMP’s Joint Authorization Board (JAB) and independent assessor accreditation body (A2LA) to ensure provisionally authorized Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) meet FedRAMP performance standards and guidelines.</p>
-
-						<p>John previously worked for Accenture Federal Services and Booz Allen Hamilton where he served as a trusted cybersecurity advisor for the Federal Government. He provided leadership, strategy, and information assurance expertise to multiple Federal Agencies to obtain, maintain, and enhance compliance with mandated IT policies. His extensive experience in working to improve program efficiencies and understanding of systems engineering design approaches facilitated the enterprise-wide implementation of the Department of Labor’s Public Key Infrastructure (PKI) and the Department of Defense’s secure mobility strategy.</p>
-
-						<hr class="team-border margin-bottom-2 margin-top-4">
-						<p class="team-twitter"><a href="https://www.linkedin.com/in/john-hamilton-b089305/" target="_blank"><i class="fab fa-twitter"></i> Connect with John</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="drawer" id="drawer-RyanHoesing" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_RyanHoesing.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">Ryan Hoesing</h3>
-						<p>Ryan Hoesing joined the team in December 2016 after serving in an executive administrative role for senior leadership at the General Services Administration (GSA). Ryan began his service at GSA in 2014 and since then has quickly learned how to navigate many of the bureaucratic administrative hurdles that are a part of working in the federal space.</p>
-
-						<p>Ryan is part of a team that helps manage customer engagement between Agencies and Cloud Service Providers. Ryan leads the charge in making sure that authorization timelines are met through FedRAMP’s ever-changing kanban boards. In doing so, Ryan helps the FedRAMP Agency Authorization team push the adoption of secure cloud technologies across the Federal Government.</p>
-
-						<p>In previous roles, Ryan has demonstrated proven leadership skills in strategy and business development that he now uses in his current role with the FedRAMP Program Management Office (PMO). Ryan joined GSA after serving as a business economic development advisor in the United States Peace Corps. Since, Ryan has taken classes in front-end web development that have helped fuel his interest in IoTs and cloud security.</p>
-
-						<p>Ryan holds an B.A. in Business Administration from the University of Nebraska-Lincoln and is an avid Nebraska football fan. He continues his education on all things cloud and is currently working towards a M.S. in Cybersecurity Management and Policy. Ryan also serves as a Contract Officer’s Representative (COR) on all FedRAMP contracts.</p>
-						
-						<hr class="team-border margin-bottom-2 margin-top-4">
-						<p class="team-twitter"><a href="https://www.linkedin.com/in/ryan-hoesing-b70066115/" target="_blank"><i class="fab fa-twitter"></i> Connect with Ryan</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="drawer" id="drawer-BetsySteele" data-drawer-target>
-	<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-	<div class="drawer__wrapper">
-		<div class="drawer__header">
-			<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-		</div>
-		<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12 padding-x-4">
-					<div class="drawer__content">
-						<div class="drawer-image">
-							<img class="team-image" src="{{site.baseurl}}/assets/img/team/profile_BetsySteele.jpg" alt="" />
-						</div>	
-						<h3 class="center no-line">Betsy Steele</h3>
-						<p>Betsy leads training and outreach for the FedRAMP PMO. She develops and implements training for Agencies, CSPs, and 3PAO stakeholders in an effort to increase cloud adoption and the security of cloud computing solutions used by the US Government.</p>
-
-						<p>Betsy also acts as FedRAMP’s Customer Experience (CX) lead. She is responsible for improving the usability of the FedRAMP website, FedRAMP.gov, and conducting user research by engaging with our users and stakeholders to measure and improve FedRAMP services. Betsy is active on the board of the government-wide CX-COP.</p>
-
-						<p>Prior to joining FedRAMP, Betsy served as the manager for GSA’s government-wide Terms of Service Program and negotiated over 70 federal compatible terms of service amendments for free social media tools and apps. Betsy left FedSIM to work in GSA’s Office of Citizen Services and Communications and acted as Director of Public Affairs and Communications. Betsy joined GSA FAS FedSIM in 2002 and managed the Library of Congress Copyright modernization effort.</p>
-
-						<p>Prior to joining GSA, Betsy worked at Lockheed Martin Information Technology in employee communications, community relations, public affairs, and event management.</p>
-						
-						<hr class="team-border margin-bottom-2 margin-top-4">
-					
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+	</section>
+{% endfor %}
 
 
  <script>
