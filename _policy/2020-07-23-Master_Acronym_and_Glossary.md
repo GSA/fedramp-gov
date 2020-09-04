@@ -5,14 +5,13 @@ category: FedRAMP Program Documents
 filename: FedRAMP_Master_Acronym_and_Glossary.pdf
 filetype: pdf
 condition: new
-partner: Agencies
+partner: All Partners
 doctype:
-  - FAQs
-  - Forms
   - Guidance
-  - Policy
-  - Worksheet
 tags:
-  - Use Existing or Add Your Own
+  - Guidance
+  - CSP
+  - 3PAO
+  - Agency
 ---
 This document is a master list of FedRAMP acronyms and program definitions.
