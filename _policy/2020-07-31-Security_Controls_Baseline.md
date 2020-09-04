@@ -5,14 +5,10 @@ category: FedRAMP Program Documents
 filename: FedRAMP_Security_Controls_Baseline.xlsx
 filetype: excel
 condition: new
-partner: Agencies
+partner: All Partners
 doctype:
-  - FAQs
-  - Forms
   - Guidance
-  - Policy
-  - Worksheet
 tags:
-  - Use Existing or Add Your Own
+  - Security Control
 ---
 This document provides the catalog of FedRAMP High, Moderate, Low, and Tailored LI-SaaS baseline security controls, along with additional guidance and requirements.
