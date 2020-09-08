@@ -1,9 +1,10 @@
 ---
 layout: cloud-service-page
 title: Cloud Service Providers
-description: FedRAMP authorized vendors offer cloud services that allow Federal Agencies to securely and quickly meet their mission needs. 
+tab-title: Partners&#58; Cloud Service Providers
+description: This page describes a cloud service provider’s role in the FedRAMP authorization process. 
 permalink: /cloud-service-providers/
-tags: project
+tags: cloud service provider, cloud service offering, cloud service product
 image: 
 icon: /assets/img/project-images/cloudserv-icon.png
 abstract: 

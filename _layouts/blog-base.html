@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+  {% include blog-head.html %}
+
+  <body class="{{ page.body-class }}">
+  <div class="usa-overlay"></div>
+
+    {% include header.html %}
+      <main id="main">
+      {{ content }}
+    </main>
+	  
+	 
+    {% include footer.html %}
+	
+    {% include javascript.html %}
+	<a id="button"></a>  
+	  
+  </body>
+</html>

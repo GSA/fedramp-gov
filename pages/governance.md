@@ -1,8 +1,12 @@
 ---
 layout: governance
 title: Governance
+tab-title: About&#58; Governance
 permalink: /governance/
 image: /assets/img/page-images/governance.png
+summary: This page explains how FedRAMP is governed by four key entities- Joint Authorization Board (JAB), OMB, Chief Information Officer (CIO) Council, and NIST.
+tags: NIST, OMB, JAB, governance, PMO, team, CIO, CIO Council, OMB
+
 ---
 
 The governance of FedRAMP is comprised of different executive branch entities that work in a collaborative manner to develop, manage, and operate the program. The governing bodies of FedRAMP include:
@@ -14,4 +18,6 @@ The governance of FedRAMP is comprised of different executive branch entities th
 * **National Institute for Standards and Technology (NIST):** Advises FedRAMP on FISMA compliance requirements and assists in developing the standards for the accreditation of independent 3PAOs
 
 To learn more about the governance structure of FedRAMP, please review the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_Memo.pdf">FedRAMP Policy Memo</a> and the <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf"> Security Assessment Framework</a>.
+
+
 

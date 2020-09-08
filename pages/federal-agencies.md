@@ -3,6 +3,8 @@ layout: federal-agencies-page
 title: Federal Agencies
 permalink: /federal-agencies/
 body-class: about-us
+summary: This page describes a federal agency’s role in the FedRAMP authorization process.
+tags: agency, federal agency, federal government
 
 
 fed-intro-title: This is a Test

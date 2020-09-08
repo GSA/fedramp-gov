@@ -1,7 +1,10 @@
 ---
 layout: tailored-authorization
 title: FedRAMP Tailored Authorization
+tab-title: Get Authorized&#58; Tailored Authorization
 permalink: /tailored-authorization/
+summary: This page provides information on the Tailored process which is available for low and moderate security authorizations.
+tags: tailored, authorization, low, moderate, security, cloud service offering 
 
 ---
 

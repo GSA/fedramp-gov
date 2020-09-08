@@ -1,8 +1,13 @@
 ---
 layout: faqs
 title: Frequently Asked Questions
+tab-title: Resources&#58; FAQs
 permalink: /faqs/
 body-class: page-faqs
+summary: This page is a searchable repository of frequently asked questions and answers to help stakeholders better understand the authorization process and how FedRAMP works.
+tags: questions, answers, assessor, agency, cloud service provider, PMO, JAB, authorization, authorization process, cloud, cloud service offerings, cybersecurity, security review 
+
+
 ---
 <div class="question"><h5 class="accordion">What is FedRAMP?</h5><div class="panel">
 <p>The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This approach uses a “do once, use many times” framework that saves cost, time, and staff required to conduct redundant Agency security assessments.</p>
