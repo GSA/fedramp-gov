@@ -365,7 +365,7 @@ reuse authorized cloud products within the FedRAMP Marketplace. </td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf"><i class="fas fa-file-pdf"></i>
     <p class="icon-text">PDF</p></a>
     </td>
-    <td>12/7/2017</td>
+    <td>9/1/2020</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Assessor Documents</td>
