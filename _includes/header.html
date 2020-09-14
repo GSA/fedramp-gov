@@ -72,12 +72,14 @@
 	<div class="search-feature">
                 <div class="search-wrapper">
                         <div class="bell" tabindex="0">
-                                <i class="fas fa-bell"></i>
+                                
+							<!-- <i class="fas fa-bell"></i> -->
+							<img class="notification-bell-icon" src="{{site.baseurl}}/assets/img/notification-bell.svg" alt="" />
                                 <button class="post-count" style="display:none;"></button>
 
                                 <div id="alert-logic">
 					<div class="alert-wrapper-fallback">
-<button class="bell-close">x</button>
+					<button class="bell-close">x</button>
   						<p>RECENT POSTS</p>
   						<ul>
     							<p>{{ post.last_modified_at | date: "%s" }}</p>
@@ -153,10 +155,10 @@
 <!--  <div class="search-feature">-->
 <!--  <div class="search-wrapper">-->
     <form class="usa-search" id="searchgovform" action="{{site.baseurl}}/search-results/">
-      <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-      <input name="search" type="search" id="searchgovinput" placeholder="Search">
-      <button type="submit" id="searchgovbutton" title="Search">
-	  	<span class="usa-search-submit-text"><i class="fas fa-search"></i></span>
+      <label class="usa-sr-only" for="searchgovinput">Search</label>
+      <input name="search" type="search" id="searchgovinput" placeholder="Search" >
+      <button type="submit" id="searchgovbutton" title="Search" value="Search">
+	  	<span class="usa-search-submit-text"><img class="search-button-icon" src="{{site.baseurl}}/assets/img/search-magnifying-glass.svg" alt="" /></span>
       </button>
     </form>
   </div>

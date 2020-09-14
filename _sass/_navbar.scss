@@ -367,10 +367,8 @@ ul.sub-sub-menu {
 			/*		box-shadow: none;*/
 				}
 				&.focus-within {
-					outline: 0 !important;
 			/*		box-shadow: none;*/
 					&:focus {
-						outline: 0 !important;
 						box-shadow: none !important;
 					}
 				&:active {
