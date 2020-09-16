@@ -2,7 +2,7 @@
 title: FedRAMP Reaches 200 Authorizations
 permalink: /fedramp-reaches-200-authorizations/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_3PAO.png
+image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
