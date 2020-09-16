@@ -154,7 +154,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-		<li tabindex="0" aria-haspopup="true" aria-expanded="false" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
+		<li tabindex="0" aria-haspopup="true" aria-expanded="false" class="main-parent parent has-submenu">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
             <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}

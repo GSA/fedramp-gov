@@ -2023,6 +2023,7 @@ h3.legal-framework-titles {
 		height: 34px;
 		padding: 16px 24px;
 		border: none;
+		font-style: italic;
 	}
 	
 	button {
@@ -2045,10 +2046,6 @@ p.faq-search-text {
 .faq-search.policy-search {
 	width: auto;
 	margin-bottom: 1.25rem;
-}
-
-.policy-search input {
-	font-size: 0.75rem;
 }
 
 .faq-search .usa-search::after {
