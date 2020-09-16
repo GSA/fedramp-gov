@@ -47,8 +47,8 @@ layout: full-width
 								{% assign tagsArray = tagsArray | sort %}
 								{% for tag in tagsArray %}
 							<form>
-								<input class="usa-checkbox__input" type="checkbox" name="fl-{{ tag | downcase }}" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" />
-								   <label class="usa-checkbox__label fedramp-check"> {{ tag }}</label>
+								<input class="usa-checkbox__input" type="checkbox" name="fl-{{ tag | downcase }}" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}-tags" />
+								   <label class="usa-checkbox__label fedramp-check">{{ tag }}</label>
 								   {% unless forloop.last %}
 								   {% endunless %}
 							</form>
@@ -178,7 +178,7 @@ layout: full-width
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
-									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}')" tabindex="" title="{{tag}}">{{tag}}</button>
+									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}-tags')" tabindex="" title="{{tag}}">{{tag}}</button>
 									{% endfor %}
 								</div>
 

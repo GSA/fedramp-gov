@@ -1,6 +1,5 @@
 /** SEARCH FEATURE **/
 
-
 .usa-header {
 	height: 130px;
 }
@@ -320,6 +319,8 @@ img.desk {
 		background: #F0F0F0;
 		z-index: 10000;
 		padding: 30px;
+		height: 85vh;
+		overflow-y: scroll;
 		ul {
 			margin: 0;
 			padding: 0;

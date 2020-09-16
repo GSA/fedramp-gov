@@ -1,4 +1,5 @@
- 
+
+
 function checkFilter(inId) {
   $(inId).click();
 }
@@ -172,16 +173,23 @@ $(document).mouseup(function(e) {
 		$("#alert-logic").hide();
 	}
 });
+
+
+// #***************************************************
+// # AV02 - change toggle to click
+// #***************************************************
 $(document).ready(function() {
 	$(".bell").on("keyup", function(event) {
 		if (event.keyCode === 13) {
-        		$("#alert-logic").toggle();
+        		$("#alert-logic").click();
 		}
 	});
 });
+
 // #***************************************************
-// # AV01 - Use value of last-bell-click cookie
+// # AV02 - Use value of last-bell-click cookie
 // #        to compare the timestamps of each post.
+// #        Simplify for merged collection.
 // #***************************************************
 $(document).ready(function() {
 
@@ -198,48 +206,17 @@ $(document).ready(function() {
         var i = 0;
         var j = 0;
 
-        var HARD_LIMIT = 8;
-
         var count = 0;
-        var postCount = 0;
-        var docCountNew = 0;
-        var docCountUpdate = 0;
 
         var postTime = document.getElementsByClassName("post-time");    // get all post-time timestamps
         var postList = document.getElementsByClassName("current-post");
 
-        var docTimeNew = document.getElementsByClassName("doc-time-new");    // get all doc-time timestamps
-        var docListNew = document.getElementsByClassName("current-doc-new");
-
-        var docTimeUpdate = document.getElementsByClassName("doc-time-update");    // get all doc-time timestamps
-        var docListUpdate = document.getElementsByClassName("current-doc-update");
-
         for (i = 0, j = 0; i < postTime.length; i++) {                         // compare and count
-                if (lastBellClick < postTime[i].innerHTML && count < HARD_LIMIT) {
-                        postCount++;
+                if (lastBellClick < postTime[i].innerHTML) {
                         count++;
 			j++;
                 } else {
                         postList[j].remove();
-                }
-        }
-
-        for (i = 0, j = 0; i < docTimeNew.length; i++) {
-                if (lastBellClick < docTimeNew[i].innerHTML && count < HARD_LIMIT) {
-                        docCountNew++;
-                        count++;
-			j++;
-                } else {
-                        docListNew[j].remove();
-                }
-        }
-        for (i = 0, j = 0; i < docTimeUpdate.length; i++) {
-                if (lastBellClick < docTimeUpdate[i].innerHTML && count < HARD_LIMIT) {
-                        docCountUpdate++;
-                        count++;
-			j++;
-                } else {
-                        docListUpdate[j].remove();
                 }
         }
 
@@ -265,19 +242,6 @@ $(document).ready(function() {
 
                 $(".post-count").html(count);
                 $(".post-count").css("display", "block");
-
-                if (postCount == 0) {
-                        $("#post-label").next().remove("ul");
-                        $("#post-label").remove();
-                }
-                if (docCountNew == 0) {
-                        $("#doc-label-new").next().remove("ul");
-                        $("#doc-label-new").remove();
-                }
-                if (docCountUpdate == 0) {
-                        $("#doc-label-update").next().remove("ul");
-                        $("#doc-label-update").remove();
-                }
         }
         // save old menu
         if (typeof(Storage) !== "undefined") {
