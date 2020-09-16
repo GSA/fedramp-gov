@@ -11,7 +11,7 @@ FedRAMP is excited to announce that we just reached a huge milestone: 200 FedRAM
 
 In the first four years of the program, we authorized 20 CSOs. In 2018, six years into the program, we reached 100 authorized services. Now we have doubled that number in the last two years.	
 
-<img  alt="FedRAMP Reaches 200 Authorizations Infographic" title="FedRAMP Reaches 200 Authorizations" src="{{site.baseurl}}/assets/img/FRblog_200 Authorizations.png" style="margin: 20px auto; max-width: 700px; width: 100%; display: block;">
+<img  alt="FedRAMP Reaches 200 Authorizations Infographic" title="FedRAMP Reaches 200 Authorizations" src="{{site.baseurl}}/assets/img/FRblog_200 Authorizations.png" style="margin: 20px auto; max-width: 600px; width: 100%; display: block;">
 
 This landmark reflects FedRAMP’s commitment to help the government shift to the cloud and leverage new technologies to meet agencies’ missions. With over 200 authorized products, agencies are able to use a variety of cloud technologies, ranging from remote access, scalability, collaboration, efficiency, and many more that are critical to many agencies’ IT modernization efforts.
 
