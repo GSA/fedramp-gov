@@ -116,7 +116,7 @@ button.clear-results {
 	display: inline;
 	margin-left: 4px;
 	text-decoration: underline;
-	color: $teal;
+	color: $light-blue;
 	
 	&:hover {
 		color: $red;
@@ -234,7 +234,7 @@ a.policy-download {
 	text-decoration: none;
 	
 	&:hover {
-		background-color: $teal;
+		background-color: $mid-gray;
 	}
 }
 
@@ -263,7 +263,7 @@ a.policy-download.policy-excel {
 
 .policy-tags button.tags {
 	cursor: pointer;
-	color: $teal;
+	color: $mid-gray;
 	background: transparent;
 	font-size: 0.875rem;
 	font-weight: 800;
