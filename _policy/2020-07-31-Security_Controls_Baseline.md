@@ -9,6 +9,7 @@ partner: All Partners
 doctype:
   - Guidance
 tags:
-  - Security Control
+  - one
+  - two
 ---
 This document provides the catalog of FedRAMP High, Moderate, Low, and Tailored LI-SaaS baseline security controls, along with additional guidance and requirements.
