@@ -13,6 +13,8 @@ doctype:
   - Policy
   - Worksheet
 tags:
-  - Use Existing or Add Your Own
+  - two
+  - three
+  - four
 ---
 This document provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.	
