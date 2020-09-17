@@ -2,7 +2,7 @@
 layout: teammate
 name: Brian Conrad
 image: /assets/img/team/profile_BrianConrad.jpg
-title: FedRAMP Program Manager for Cybersecurity
+title: Program Manager for Cybersecurity
 body-class: page-team-single
 linkedin: https://www.linkedin.com/in/brianhconrad/
 date: 2018-01-02
