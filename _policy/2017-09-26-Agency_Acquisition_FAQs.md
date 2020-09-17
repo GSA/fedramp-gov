@@ -9,7 +9,8 @@ partner: Agencies
 doctype:
   - FAQs
 tags:
-  - Agency
-  - Guidance
+  - one
+  - two
+  - four
 ---
 FAQ resource, developed in conjunction with OMB, that agencies can reference when developing thier solicitations.
