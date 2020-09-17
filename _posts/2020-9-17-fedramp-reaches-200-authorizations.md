@@ -15,7 +15,7 @@ In the first four years of the program, we authorized 20 CSOs. In 2018, six year
 
 This landmark reflects FedRAMP’s commitment to help the government shift to the cloud and leverage new technologies to meet agencies’ missions. With over 200 authorized products, agencies are able to use a variety of cloud technologies, ranging from remote access, scalability, collaboration, efficiency, and many more that are critical to many agencies’ IT modernization efforts.
 
-All FedRAMP authorized CSOs are listed on the <a href="https://marketplace.fedramp.gov/">FedRAMP’s Marketplace</a>, including a description of the service, federal agencies that use the service, and a link to the Package Request Form that enables a federal agency to reuse that CSO. 
+All FedRAMP authorized CSOs are listed on the <a href="https://marketplace.fedramp.gov/">FedRAMP’s Marketplace</a>, including a description of the service, federal agencies that use the service, and a link to the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Package_Request_Form.pdf">Package Request Form</a> that enables a federal agency to reuse that CSO. 
 
 Thank you for your partnership and we look forward to the next authorization milestone!
 
