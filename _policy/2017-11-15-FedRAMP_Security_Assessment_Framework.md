@@ -9,7 +9,7 @@ partner: All Partners
 doctype:
   - Guidance
 tags:
-  - Compliance
-  - Key Document
+  - three
+  - four
 ---
 This document describes a general Security Assessment Framework (SAF) for FedRAMP. This document details the security assessment process CSPs must use to achieve compliance with FedRAMP. This document is intended for Cloud Service Providers (CSPs), Independent Assessors (3PAOs), Agencies and contractors working on FedRAMP projects, and any outside organizations that want to use or understand the FedRAMP assessment process.
