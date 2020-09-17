@@ -9,7 +9,7 @@ partner: Cloud Service Providers
 doctype:
   - Guidance
 tags:
-  - Guidance
-  - CSP
+  - three
+  - four
 ---
 This document outlines the requirements for listing FedRAMP designations on the FedRAMP Marketplace for Cloud Service Providers (CSPs). This includes achieving, maintaining, and removing a designation for a Cloud Service Offering (CSO) and supersedes the FedRAMP In Process requirements.
