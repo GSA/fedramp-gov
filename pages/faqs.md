@@ -8,7 +8,7 @@ body-class: page-faqs
 <p>The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. This approach uses a “do once, use many times” framework that saves cost, time, and staff required to conduct redundant Agency security assessments.</p>
 </div></div>
 <div class="question"><h5 class="accordion">Is FedRAMP mandatory?</h5><div class="panel">
-<p>Yes, FedRAMP is mandatory for Federal Agency cloud deployments and service models at the low, moderate, and high risk impact levels. Private cloud deployments intended for single organizations and implemented fully within federal facilities are the only exception. Additionally, Agencies must submit a quarterly report in PortfolioStat listing all existing cloud services that do not meet FedRAMP requirements with the appropriate rationale and proposed resolutions for achieving compliance.</p>
+<p>Yes, FedRAMP is mandatory for Federal Agency cloud deployments and service models at the low, moderate, and high risk impact levels. Private cloud deployments intended for single organizations and implemented fully within federal facilities are the only exception.</p>
 </div></div>
 <div class="question"><h5 class="accordion">What is the difference between FISMA and FedRAMP controls?</h5><div class="panel">
 <p>Both FedRAMP and FISMA use the NIST SP 800-53 security controls. The FedRAMP security controls are based on NIST SP 800-53 Revision 4 baselines and contain controls above the NIST baseline that address the unique elements of cloud computing.</p>
