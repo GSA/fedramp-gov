@@ -21,7 +21,7 @@ benefits-checklist-2: Establishes a public-private partnership to promote innova
 benefits-checklist-3: Enables the federal government to accelerate the adoption of cloud computing by creating transparent standards and processes for security authorizations and allowing agencies to leverage security authorizations on a government-wide scale.
 
 goals-title: Goals
-goals-checklist-1: Grow the use of secure cloud technologies by government agencies.
+goals-checklist-1: Grow the use of secure cloud technologies in use by government agencies.
 goals-checklist-2: Enhance the framework by which the government secures and authorizes cloud technologies. 
 goals-checklist-3: Build and foster strong partnerships with FedRAMP stakeholders.
 

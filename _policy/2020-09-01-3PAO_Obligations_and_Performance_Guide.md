@@ -1,20 +1,17 @@
 ---
 layout: policy   
-title: Package Request Form
-category: Key Agency Documents
-filename: Agency_Package_Request_Form.pdf
+title: 3PAO Obligations and Performance Guide
+category: Key Assessor Documents
+filename: 3PAO_Obligations_and_Performance_Guide.pdf
 filetype: pdf
 condition: new
-partner: Agencies
+partner: Assessors
 doctype:
-  - FAQs
-  - Forms
   - Guidance
-  - Policy
-  - Worksheet
 tags:
   - one
   - two
   - three
+  - four
 ---
 Form that must be completed to gain access to a FedRAMP security assessment package.

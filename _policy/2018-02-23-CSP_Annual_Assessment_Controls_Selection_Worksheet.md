@@ -13,6 +13,9 @@ doctype:
   - Policy
   - Worksheet
 tags:
-  - Use Existing or Add Your Own
+  - one
+  - two
+  - three
+  - four
 ---
 The FedRAMP Annual Assessment Controls Selection Worksheet provides a matrix to assist CSPs, 3PAOs, and Federal Agencies in assessing and tracking control their annual assessment.
