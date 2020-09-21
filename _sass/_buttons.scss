@@ -1,0 +1,120 @@
+/* --- Buttons --- */
+
+button.focus-within:active {
+	box-shadow: none;
+}
+
+button {
+	border: none;
+}
+
+button:active {
+	outline: none;
+	box-shadow: none;
+}
+
+#searchgovform button#searchgovbutton,
+#searchgovform #searchgovbutton
+#searchgovform [type="submit"] {
+	background-color: #112E51;
+	content: "";
+}
+
+.usa-button,
+.usa-button-primary,
+.usa-button:visited,
+.usa-button-primary:visited,
+button,
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="image"] {
+	background-color: #fff;
+	color: $button-text-color;
+	font-family: $sans-font;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.usa-button:hover,
+.usa-button-primary:hover,
+.usa-button:visited:hover,
+.usa-button-primary:visited:hover,
+button:hover,
+[type="button"]:hover,
+[type="submit"]:hover,
+[type="reset"]:hover,
+[type="button"]:hover,
+[type="submit"]:hover,
+[type="reset"]:hover,
+[type="image"]:hover {
+	background-color: $button-hover-color;
+	text-decoration: underline;
+}
+@media (max-width: 500px) {
+	.usa-button,
+	.usa-button-primary,
+	.usa-button:visited,
+	.usa-button-primary:visited,
+	button,
+	[type="button"],
+	[type="submit"],
+	[type="reset"],
+	[type="button"],
+	[type="submit"],
+	[type="reset"],
+	[type="image"] {
+		width: auto;
+	}
+}
+
+
+
+/* Back to Top button */
+
+#topButton {
+	display: inline-block;
+	background-color: $light-blue;
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: .8;
+	visibility: hidden;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+#topButton::after {
+	content: "";
+	color: white;
+	font-size: 1rem;
+	display: block;
+	background: url('../../assets/img/arrow-up.svg') no-repeat;
+	top: 14px;
+	left: 12px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+
+#topButton:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#topButton:active {
+	background-color: $dark-blue;
+}
+
+#topButton.show {
+	opacity: .8;
+	visibility: visible;
+}
+

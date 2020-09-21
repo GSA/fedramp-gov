@@ -60,7 +60,7 @@
                                 <button class="post-count" style="display:none;"></button>
 
                                 <div id="alert-logic">
-					<div class="alert-wrapper-fallback alert-wrapper">
+					<div class="alert-wrapper-fallback">
 					<button class="bell-close">x</button>
   						<ul>
     							{% for a in both limit: 8 %}
@@ -154,7 +154,7 @@
       {% for nav in navs %}
       
         {% if nav.sub != null %}
-		<li tabindex="0" aria-haspopup="true" aria-expanded="false" class="main-parent parent has-submenu">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
+		<li tabindex="0" aria-haspopup="true" class="main-parent parent">{{ nav.text }}<img src="{{ site.baseurl }}/assets/img/down-chevron.svg" alt="close"><!--<div class="plus-minus plus"></div>-->
             <ul class="sub-menu dropdown" aria-label="submenu">
               <!-- 2nd level -->
               {% for sub in nav.sub %}

@@ -1,17 +1,6 @@
 
 /*---------- policy and guidance ------------- */
 
-$theme-utility-breakpoints: (
-  'card':              false,   // 160px
-  'card-lg':           false,   // 240px
-  'mobile':            false,   // 320px
-  'mobile-lg':         true,    // 480px
-  'tablet':            true,    // 640px
-  'tablet-lg':         true,   // 800px
-  'desktop':           true,    // 1040px
-  'desktop-lg':        false,   // 1200px
-  'widescreen':        false,   // 1400px
-);
 
 .flowers-wrap {
 	h3 {
@@ -284,4 +273,16 @@ a.policy-download.policy-excel {
 		border-right: none;
 	}
 
+}
+
+.tag-language img {
+	display: flex;
+	float: left;
+	margin-right: 8px;
+}
+
+.tag-language p {
+	font-size: 0.75rem;
+	font-weight: 300 !important;
+	display: flex;
 }

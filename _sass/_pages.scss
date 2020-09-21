@@ -1,39 +1,14 @@
 relevant-documents.page--banner {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-//  min-height: 300px;
-  width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 }
+
 .caption {
   float: right;
 }
 
-/* --- About Page --- */
-
-ul.governance-checklist {
-}
-
-ul.governance-checklist li {
-	padding-left: 20px;
-	margin-bottom: 1rem;
-}
-
-ul.governance-checklist li .check {
-	font-size: 1.5rem;
-}
-
-.governance-card {
-	background: white;
-	height: 100%;
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-	.governance-card {
-		width: 100%;
-		float: none;
-	}
-}
 
 /* --- Agencies Tabs --- */
 
@@ -184,9 +159,20 @@ img.phase-icon {
 	max-width: 120px;
 }
 
+
+
 #main .page-banner h1, body .page-banner h1 {
 	font-size: 2.625rem;
 }
+
+@media (max-width: 650px){
+  #main .page-banner h1, body .page-banner h1 {
+    font-size: 2.25rem;
+	text-align: center;
+  }
+}
+
+/*
 
 ul.relevant-documents {
 	margin-left: 1.25rem;
@@ -196,6 +182,8 @@ ul.relevant-documents {
 	margin-bottom: 1rem;
 	font-size: 0.875rem;
 }
+
+
 
 section#pre-auth, section#during-auth, section#post-auth, section#support, section#do-once {
 	padding: 0 0 40px 130px;
@@ -213,6 +201,8 @@ section#conmon, section#control, section#req {
 section#rar, section#do-once {
 	border: none !important;
 }
+
+*/
 
 .authorization-phase-icon, .tailored-phase-icon {
 	width: 120px;
@@ -236,25 +226,6 @@ section#rar, section#do-once {
 		text-align: left;
 		margin: 0 2rem 0 0;
 	}
-}
-
-.q1, .q2, .q3, .q4, .q5, .tip-1 {
-	margin: 0 0 40px 0;
-	border-bottom: 1px solid #cdcdcd;
-}
-
-.q1 h3, .q2 h3, .q3 h3, .q4 h3, .q5 h3, .tip-1 h3 {
-	padding: 0 0 0 100px;
-	margin: 0 0 15px 0;
-	background-size: 100px !important;
-	background-repeat: no-repeat;
-	min-height: 80px;
-//	border-bottom: 1px solid #cdcdcd;
-	background-position: -13px -13px;
-}
-
-.q5 {
-	border: none;
 }
 
 /* Authorization Graphics */
@@ -283,6 +254,25 @@ section#rar, section#do-once {
 	}
 }
 
+/*
+
+.q1, .q2, .q3, .q4, .q5, .tip-1 {
+	margin: 0 0 40px 0;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.q1 h3, .q2 h3, .q3 h3, .q4 h3, .q5 h3, .tip-1 h3 {
+	padding: 0 0 0 100px;
+	margin: 0 0 15px 0;
+	background-size: 100px !important;
+	background-repeat: no-repeat;
+	min-height: 80px;
+	background-position: -13px -13px;
+}
+
+.q5 {
+	border: none;
+}
 
 
 @media (min-width: 0px) and (max-width: 580px) {
@@ -400,6 +390,8 @@ section#do-once {
 	margin: 0;
 }
 
+*/
+
 .accordion {
     cursor: pointer;
     width: 90%;
@@ -501,7 +493,7 @@ input.accordian-check {
   }
 }
 
-// :checked
+/* :checked
 input:checked {
   + .tab-label {
     background: darken($teal, 10%);
@@ -515,14 +507,13 @@ input:checked {
   }
 }
 
+*/
+
 /* End new Accordian */
 
-@media (max-width: 650px){
-  #main .page-banner h1, body .page-banner h1 {
-    font-size: 2.25rem;
-	text-align: center;
-  }
-}
+/*
+
+
 
 .cloud .cloud-wrapper {
 	max-width: 1000px;
@@ -900,6 +891,11 @@ ul.columns {
 	}
 }
 
+*/
+
+
+/*
+
 section#challenge-goal-opportunity {
 	background: $teal;
 	padding: 60px 0;
@@ -1041,7 +1037,6 @@ section#details {
 text-align: left;
 ul {
 	li {
-/*		list-style: inside;*/
 		color: #fff;
 	a {
 		color: #fff;
@@ -1275,7 +1270,6 @@ max-width: 200px;
 		padding: 0 3%;
 	}
 	.home-new .front-four ul li span {
-/*		min-height: ;*/
 	button {
 		font-size: 1em;
 		}
@@ -1293,6 +1287,7 @@ max-width: 200px;
 		}
 }
 
+/*
 @media (min-width: 0) and (max-width: 980px) {
 	.home-new .front-four {
 		flex-flow: wrap;
@@ -1306,7 +1301,6 @@ max-width: 200px;
 		.program-basics {
 			width: 90%;
 			margin: 0 auto;
-/*			flex-flow: row;*/
 			max-width: none;
 			span {
 				display: flex;
@@ -1335,9 +1329,6 @@ max-width: 200px;
 						width: 30%;
 						text-align: left;
 						float: left;
-/*						max-width: 30% !important;*/
-/*						min-width: 30% !important;*/
-/*						border-left: 1px solid #fff;*/
 						padding: 0 20px;
 					}
 					button {
@@ -1360,6 +1351,8 @@ max-width: 200px;
 		}
 	}
 }
+
+
 
 @include media-query($mobile-high) {
 	.home-new .front-four {
@@ -1401,15 +1394,6 @@ max-width: 200px;
 	}
 
 
-
-@media (min-width: 0) and (max-width: 980px) {
-  .home-new #home-banner {
-/*    height: 500px;*/
-	}
-	  .home-new #home-banner .hero-unit {
-/*	 	background-position: center -80px !important;*/
-  }
-  }
 
 .front-four {
 		margin: -290px auto 0 auto;
@@ -1492,7 +1476,6 @@ max-width: 200px;
 			}
 			}
 	ul {
-/*		height: 100%;*/
 		margin: 15px auto 0 auto;
 		z-index: 1001;
 		display: flex;
@@ -1503,7 +1486,6 @@ max-width: 200px;
 			width: 30%;
 			float: left;
 			max-width: 220px;
-			/*			min-width: 220px;*/
 			margin: 40px 15px 0 15px;
 			display: block;
 			list-style: none;
@@ -1535,7 +1517,6 @@ max-width: 200px;
 					letter-spacing: .5px;
 				}
 				&:first-child {
-/*						height: 100px;*/
 						}
 				p {
 					margin: 0;
@@ -1557,7 +1538,6 @@ max-width: 200px;
 		.program-basics {
 			width: 100%;
 			margin: 0 auto;
-/*			flex-flow: row;*/
 			max-width: none;
 			span {
 				width: 100%;
@@ -1609,21 +1589,21 @@ max-width: 200px;
 	}
 }
 
+
+
 .hero-content {
-/*  background-color: transparentize($text-color, .6);*/
   margin: 0px auto;
   padding: 40px;
   text-align: center;
   width: 100%;
 	h1 {
-  	color: white;
-/*  	font-size: 28px;*/
-  	font-weight: 400;
-  	line-height: 50px;
- 	margin-top: 0;
-  	margin-bottom: 0;
- 	padding-left: .3em;
-  	padding-right: .3em;
+		color: white;
+		font-weight: 400;
+		line-height: 50px;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: .3em;
+		padding-right: .3em;
 	}
 	.usa-button {
 	  font-size: 1.125rem;
@@ -1643,7 +1623,6 @@ max-width: 200px;
 
 @media (max-width: 750px) {
 	.hero-content {
-/*  background-color: transparentize($text-color, .6);*/
   margin: 0px auto;
   padding: 40px;
   text-align: center;
@@ -1815,8 +1794,6 @@ max-width: 200px;
 		.blog-market-links {
 			.blog-group {
 			.blog {
-				/*width: 60%;
-				margin: auto;*/
 			}
 			}
 			.market {
@@ -1899,11 +1876,13 @@ max-width: 200px;
 	}
 }
 
+*/
+
+/* ---- Program Basics Page --- */
 
 .full-row {
 	max-width: 1200px;
 	margin: 0 auto;
-/*	margin-bottom: 50px;*/
 }
 
 .fedramp-youtube {
@@ -2013,6 +1992,43 @@ h3.legal-framework-titles {
 	text-align: left;
 }
 
+@media (min-width: 0) and (max-width: 639px) {
+	h3.legal-framework-titles {
+		margin: 8px 0 10px 0;
+		text-align: center;
+	}
+}
+
+.framework-image {
+	width: 88px;
+	margin: 0 auto 12px auto;
+}
+
+/* --- Governance --- */
+
+ul.governance-checklist li {
+	padding-left: 20px;
+	margin-bottom: 1rem;
+}
+
+ul.governance-checklist li .check {
+	font-size: 1.5rem;
+}
+
+.governance-card {
+	background: white;
+	height: 100%;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+	.governance-card {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* ---- FAQ Page ----- */
+
 .faq-search {
 	width: 500px;
 	margin: auto;
@@ -2113,21 +2129,6 @@ p.faq-search-text {
 	margin-left: 20px;
 }
 
-.in-page-nav-section h3 {
-//	padding-top: 2rem!important;
-}
-
-@media (min-width: 0) and (max-width: 639px) {
-	h3.legal-framework-titles {
-		margin: 8px 0 10px 0;
-		text-align: center;
-	}
-}
-
-.framework-image {
-	width: 88px;
-	margin: 0 auto 12px auto;
-}
 
 .training-img-container {
 	width: 100%;

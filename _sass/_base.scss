@@ -3,19 +3,6 @@
 	box-shadow: none !important;
 }
 
-$theme-utility-breakpoints: (
-  'card':              false,   // 160px
-  'card-lg':           false,   // 240px
-  'mobile':            false,   // 320px
-  'mobile-lg':         true,    // 480px
-  'tablet':            true,    // 640px
-  'tablet-lg':         true,   // 800px
-  'desktop':           true,    // 1040px
-  'desktop-lg':        false,   // 1200px
-  'widescreen':        false,   // 1400px
-);
-
-
 html {
 	scroll-behavior: smooth;
 }
@@ -380,17 +367,6 @@ p.sub-bullet {
 form {
   max-width: 100%;
 }
-//.usa-section p,
-//.usa-section > ul,
-//.usa-section > ol,
-//.usa-section > h1,
-//.usa-section > h2,
-//.usa-section > h3,
-//.usa-section > h4,
-//.usa-section > h5,
-//.usa-section > h6 {
-//  max-width: 62.5rem;
-//}
 
 a {
   color: $link-color;
@@ -473,16 +449,6 @@ a {
 	padding-left: 0;
 }
 
-/*
-@media (min-width: 0px) and (max-width: 1200px) {
-	.usa-grid {
-		padding-right: 5%;
-		padding-left: 5%;
-	}
-}
-
-*/
-
 @media (min-width: 1240px) {
 	.usa-banner__inner {
 		padding-left: 0rem;
@@ -545,6 +511,8 @@ a {
 		padding-left: 5%;
 	}
 }
+
+/*
 
 .about-us {
 	section#about {
@@ -641,10 +609,12 @@ section#fedramp-mission {
 	}
 }
 
+
+
 @media (min-width: 0px) and (max-width: 1200px) {
-.cloud .text-container {
-	padding: 0 5% 40px 5%;
-}
+	.cloud .text-container {
+		padding: 0 5% 40px 5%;
+	}
 }
 
 .about-us section.about-auth {
@@ -772,123 +742,4 @@ section#fedramp-mission {
 	}
 }
 
-
-/* --- Buttons --- */
-
-button.focus-within:active {
-	box-shadow: none;
-}
-
-button {
-	border: none;
-}
-
-button:active {
-	outline: none;
-	box-shadow: none;
-}
-
-#searchgovform button#searchgovbutton,
-#searchgovform #searchgovbutton
-#searchgovform [type="submit"] {
-	background-color: #112E51;
-	content: "";
-}
-
-.usa-button,
-.usa-button-primary,
-.usa-button:visited,
-.usa-button-primary:visited,
-button,
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="image"] {
-	background-color: #fff;
-	color: $button-text-color;
-	font-family: $sans-font;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-.usa-button:hover,
-.usa-button-primary:hover,
-.usa-button:visited:hover,
-.usa-button-primary:visited:hover,
-button:hover,
-[type="button"]:hover,
-[type="submit"]:hover,
-[type="reset"]:hover,
-[type="button"]:hover,
-[type="submit"]:hover,
-[type="reset"]:hover,
-[type="image"]:hover {
-	background-color: $button-hover-color;
-	text-decoration: underline;
-}
-@media (max-width: 500px) {
-	.usa-button,
-	.usa-button-primary,
-	.usa-button:visited,
-	.usa-button-primary:visited,
-	button,
-	[type="button"],
-	[type="submit"],
-	[type="reset"],
-	[type="button"],
-	[type="submit"],
-	[type="reset"],
-	[type="image"] {
-		width: auto;
-	}
-}
-
-
-/* Back to Top button */
-
-#topButton {
-	display: inline-block;
-	background-color: $light-blue;
-	width: 42px;
-	height: 42px;
-	text-align: center;
-	border-radius: 4px;
-	position: fixed;
-	bottom: 50px;
-	right: 20px;
-	transition: background-color .3s, opacity .5s, visibility .5s;
-	opacity: .8;
-	visibility: hidden;
-	z-index: 1000;
-	text-decoration: none;
-}
-
-#topButton::after {
-	content: "";
-	color: white;
-	font-size: 1rem;
-	display: block;
-	background: url('../../assets/img/arrow-up.svg') no-repeat;
-	top: 14px;
-	left: 12px;
-	position: absolute;
-	width: 20px;
-	height: 20px;
-}
-
-#topButton:hover {
-	cursor: pointer;
-	opacity: 1;
-}
-
-#topButton:active {
-	background-color: $dark-blue;
-}
-
-#topButton.show {
-	opacity: .8;
-	visibility: visible;
-}
-
+*/

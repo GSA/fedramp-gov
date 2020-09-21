@@ -1,4 +1,4 @@
-/* ---- BLOG CSS FILE ---- */
+/* ---- BLOG CSS FILE ---- 
 
 
 @media screen and (min-width: 600px) {
@@ -8,15 +8,14 @@
 		width: 102.5%;
 	}
 }
+
+/* ---
 // Project blog ------------- //
 
 // Sets a height on projects so they're the same height and don't break the grid
 .blog {
-	//  box-shadow: 0 0 0 1px #d6d7d9;
 	display: block;
 	text-align: center;
-	//  margin-bottom: 3rem;
-	//  padding-bottom: 3rem;
 	position: relative;
 	text-decoration: none;
 
@@ -109,7 +108,6 @@ a.blog-read {
     color: #fff !important; 
     display: block;
     margin: 0 auto;
-  /*  display: static;*/
     width: 100px !important;
     text-align: center;
     float: none;
@@ -139,6 +137,8 @@ a.blog-read {
 	display: block;
 	margin: 0 auto;
 }
+
+*/
 
 #main section.usa-grid.usa-section h2 {
 	text-align: center;
@@ -410,12 +410,6 @@ p.continue-reading {
 	padding: 0;
 }
 
-.button-row {
-//	margin: 0 -1%;
-}
-
-
-
 .blog-load-more-button {
 	width: 100%;
 	padding: 0;
@@ -453,7 +447,6 @@ p.continue-reading {
 .page-blog .readmore a.more-link {
 	margin: 15px auto 0 auto;
 	color: #fff;
-//	width: 40%;
 	float: right;
 	text-transform: uppercase;
 	background: #205493;
@@ -480,23 +473,15 @@ p.continue-reading {
     display: inline-block;
   }
 
-.pagination a {    
-    &:hover {
-//        background-color: #f1f1f1;
-//        color: #333;
-    }
- }
 
 section.pagination {
     text-align: center;
-//    max-width: 320px;
     margin: 0 auto;
     float: none;
     padding: 0;
     }
     .status {
     	text-align: center;
-//    	margin: 0 auto;
     	float: left;
     	width: 33%;
     }
@@ -505,19 +490,18 @@ section.pagination {
 	float: left;
 	width: 33%;
 	display: table;
-a.link-arrow-left {
-	float: left;
-	text-align: left;
-//	width: 65%;
-	vertical-align: middle;
-	display: table-cell;
-   	line-height: 50px;
-	img {
-		border: none;
-		margin: 15px 5px 15px 0;
+	a.link-arrow-left {
 		float: left;
+		text-align: left;
+		vertical-align: middle;
+		display: table-cell;
+		line-height: 50px;
+		img {
+			border: none;
+			margin: 15px 5px 15px 0;
+			float: left;
+		}
 	}
-}
 }
  
  .next {
@@ -528,7 +512,6 @@ a.link-arrow-left {
 	 a.link-arrow-right {
 		float: right;
 		text-align: right;
-	// 	width: 65%;
 		vertical-align: middle;
 		display: table-cell;
 		line-height: 50px;
@@ -549,7 +532,6 @@ a.link-arrow-left {
      }
      .status {
      	text-align: center;
- //    	margin: 0 auto;
      	float: none;
      	width: 100%;
      } 
@@ -558,38 +540,38 @@ a.link-arrow-left {
  		float: left;
  		width: 100%;
  		display: table;
- 	a.link-arrow-left {
- 		float: left;
- 		text-align: left;
- 		width: 100%;
- 		vertical-align: middle;
- 		display: table-cell;
- 	   	line-height: 50px;
- 		img {
- 			border: none;
- 			margin: 15px 5px 15px 0;
- 			float: left;
- 		}
- 	}
+		a.link-arrow-left {
+			float: left;
+			text-align: left;
+			width: 100%;
+			vertical-align: middle;
+			display: table-cell;
+			line-height: 50px;
+			img {
+				border: none;
+				margin: 15px 5px 15px 0;
+				float: left;
+			}
+		}
  	}
  	 
  	 .next {
  	 	float: right;
  	 	width: 100%;
  	 	display: table;
-			 a.link-arrow-right {
+		 a.link-arrow-right {
+			float: right;
+			text-align: right;
+			width: 100%;
+			vertical-align: middle;
+			display: table-cell;
+			line-height: 50px;
+			img {
+				border: none;
+				margin: 15px 0 15px 5px;
 				float: right;
-				text-align: right;
-				width: 100%;
-				vertical-align: middle;
-				display: table-cell;
-				line-height: 50px;
-				img {
-					border: none;
-					margin: 15px 0 15px 5px;
-					float: right;
-				}
-			 }
+			}
+		 }
  	 }
  	
  }
@@ -642,15 +624,7 @@ span.tag {
 	float: left;
 }
 
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
 
-}
- 
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-
-}
  
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
@@ -665,7 +639,3 @@ span.tag {
 	}
 }
  
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-
-}

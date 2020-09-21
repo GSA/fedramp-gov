@@ -1,6 +1,5 @@
 /*----- Nav Bar -----*/
 
-
 ul.usa-nav-primary {
 	list-style: none;
 	float: right;
@@ -33,47 +32,6 @@ ul.usa-nav-primary li a {
 	}
 }
 
-ul.usa-nav-primary li:hover,
-ul.usa-nav-primary li:focus-within {
-	cursor: pointer;
-}
-
-.focus-within > input:focus {
-    /* rules here, which Edge will apply */
-	cursor: pointer;
-}
-
-ul.usa-nav-primary li:focus-within a {
-  outline: blue;
-/*  box-shadow: none;*/
-}
-
-/*
-ul.usa-nav-primary li:hover > ul, 
-ul.usa-nav-primary li:focus-within > ul, 
-ul.usa-nav-primary li ul:hover, 
-ul.usa-nav-primary li ul:focus {
-   visibility: visible;
-   opacity: 1 !important;
-   display: block;
-}
-
-li.parent .sub-menu li a:focus > ul
-li.parent .sub-menu li a:focus > ul,
-li.parent .sub-menu li a:focus > ul {
-	visibility: visible;
-	opacity: 1;
-	display: block;
-}
-
-*/
-
-.focus-within > input:focus {
-    /* rules here, which Edge will apply */
-   visibility: visible;
-   opacity: 1;
-   display: block;
-}
 
 ul.usa-nav-primary li ul li {
 	clear: both;
@@ -147,62 +105,34 @@ nav.usa-nav {
 }
 
 .usa-nav-primary.usa-accordion {
-li {
-	font-size: 0.875rem;
-	letter-spacing: .02em;
-	 color: #757575;
-	 a:active {
-	 	box-shadow: none;
-	 	outline: 0;
-	 }
-}
+	li {
+		font-size: 0.875rem;
+		letter-spacing: .02em;
+		 color: #757575;
+		 a:active {
+			box-shadow: none;
+			outline: 0;
+		 }
+	}
 }
 
-//@media (min-width: 0) and (max-width: 951px) {
-//#logo.usa-logo {
-//	position: relative;
-//	top: -45px;
-//	left: 80px;
-//}
-//}
-
-/*@media (min-width: 951px) and (max-width: 1200px) {
-.usa-nav-container {
-	padding-top: 30px;
-}
-.usa-navbar {
-position: relative;
-top: -80px;
-left: 30px;
-}
-.usa-nav-primary.usa-accordion {
-	margin: 0 15% !important;
-}
-}*/
 
 
-/*----- Top Level -----*/
+/*----- Top Level ----- */
 .usa-nav > ul > li {
-/*    float:left;*/
-/*    display:inline-block;*/
     position: relative;
-/*    font-size:1.1875rem;*/
 }
 
 .usa-nav > ul > li > a {
-/*    padding:10px 40px;*/
     display: inline-block;
 	font-family: 'Muli', sans-serif;
 	font-size: 0.875rem;
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: .02em;
-/*    text-shadow:0px 1px 0px rgba(0,0,0,0.4);*/
 }
 
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
-	/*border-bottom: 1px solid #BBBBBB;
-	border-top: 1px solid #BBBBBB;*/
 	color: $red;
 }
 
@@ -210,7 +140,7 @@ left: 30px;
 	border-bottom: none;
 }
 
-/*----- Bottom Level -----*/
+/*----- Bottom Level ----- */
 .usa-nav li:hover .sub-menu, .usa-nav .sub-menu li:hover .sub-sub-menu {
     z-index: 1;
     opacity: 1;
@@ -266,8 +196,6 @@ li.parent .sub-menu {
 			&:hover {
 				background: #fff;
 				color: $dark-gray;
-/*				border-top: 1px solid #fff;*/
-/*				border-bottom: 1px solid #fff;*/
 			}
 			&:active {
 				color: $light-blue;
@@ -325,17 +253,10 @@ ul.sub-sub-menu {
 
 @media all and (min-width: 951px) {
   .usa-header-basic .usa-navbar {
-    // this affects the size of the logo and also the mobile menu nav
-/*    width: 30%;*/
+
   }
 }
 
-//@media all and (max-width: 951px) {
-//  #logo img {
-//    // keep header img from overflowing menu bar
-//    max-height: 3.7rem;
-//  }
-//}
 
 .usa-nav-primary a:hover {
   color: $button-color;
@@ -355,20 +276,16 @@ ul.sub-sub-menu {
 #navigation ul {
 	&:active {
 		outline: 0;
-	/*	box-shadow: none;*/
 	}
 	&.usa-nav-primary {
 		li.parent {
 			&:hover {
-		/*		border-top: 1px solid #bbb;*/
 				color: $red;
 				}
 				&:active {
 					outline: 0;
-			/*		box-shadow: none;*/
 				}
 				&.focus-within {
-			/*		box-shadow: none;*/
 					&:focus {
 						box-shadow: none !important;
 					}
@@ -380,6 +297,8 @@ ul.sub-sub-menu {
 		}
 	}
 }
+
+
 
 .usa-nav ul li.parent {
 	border: none;
@@ -398,9 +317,7 @@ ul.sub-sub-menu {
 
 	  &:active {
 	    color: $link-active-color;
-		/*box-shadow: none;
-		-webkit-box-shadow: none;
-		outline: 0;*/
+
 	  }
 	  &:focus:active {
 	  	color: $link-active-color;
@@ -408,17 +325,11 @@ ul.sub-sub-menu {
 	  a {
 	  	&:active {
 	  		    color: $link-active-color;
-/*	  			box-shadow: none;*/
-/*	  			-webkit-box-shadow: none;*/
 	  		  }
 	  		  &:focus:active {
 	  		  	color: $link-active-color;
-/*	  		  	box-shadow: none;*/
-/*	  		  	-webkit-box-shadow: none;*/
 	  		  }
 	  		  &:focus {
-/*	  		  	box-shadow: none;*/
-/*	  		  	outline: 1px solid $light-blue;*/
 	  		  }
 	  		  &.active:hover {
 	  		  	color: $red !important;
@@ -449,6 +360,7 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 }
 
 
+
 /* ---- Mobile Nav Settings --- */
 .usa-js-mobile-nav--active input[type=checkbox] {
 	/* hide native checkbox */
@@ -465,16 +377,11 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 	font-size:  1.6rem;
 }
 
-//.usa-js-mobile-nav--active ul ul {
-//	/* by default hide all sub menus */
-//	display:  none;
-//}
+
 
 .usa-js-mobile-nav--active ul {
-	/* by default hide all sub menus */
 	li {
 		padding: 20px;
-/*		border-bottom: 1px solid $dark-blue;*/
 		a {
 		padding: 0;
 		&:hover {
@@ -483,14 +390,12 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 		}
 	}
 	&:hover {
-	border:  none;
-	}
+		border:  none;
+		}
 }
  
 .usa-js-mobile-nav--active input[type=checkbox]:checked + label + ul,
 .usa-js-mobile-nav--active input[type=checkbox]:checked + label:nth-of-type(n) + ul {
-	/* use label: nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
-	/* show children when item is checked */
 	display:  block;
 }
 
@@ -508,7 +413,6 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
         z-index: 1;
         opacity: 1;
         transition: opacity linear 0.15s;
-    //    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
         background: $dark-blue;
     li {
     	color: #fff;
@@ -542,14 +446,14 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 }
 
 .usa-js-mobile-nav--active .plus-minus.plus:after {
-    content: '+' !important; /* Unicode character for "plus" sign (+) */
+    content: '+' !important; 
     font-size: 1rem;
     color: #fff !important;
     font-family: $serif-font;
     padding-left: 10px;
 }
 .usa-js-mobile-nav--active .plus-minus.minus:after {
-    content: '-'; /* Unicode character for "minus" sign (+) */
+    content: '-'; 
     font-size: 1rem;
     color: #fff !important;
     font-family: $serif-font;
@@ -557,15 +461,11 @@ ul.usa-nav-primary ul.sub-menu li a.active:before, ul.usa-nav-primary li a.activ
 }
 
 button.usa-menu-btn {
-//	position: relative;
-//	left: -350px;
-//	top: -30px;
-/*	float: left;*/
+
 	font-size: 3em;
 	background: none;
 	color: #cdcdcd;
 	border: 2px solid #cdcdcd;
-/*	margin: 70px 0 0 0; */
 	margin: 20px 0 0 0;
 	text-decoration: none;
 }
@@ -586,9 +486,6 @@ button.usa-menu-btn {
 
 .usa-js-mobile-nav--active ul.usa-nav-primary.usa-accordion {
 	float: left;
-//	width: 100%;
-//	position: static;
-//	display: inline;
 }
 
 .usa-js-mobile-nav--active {
@@ -603,18 +500,16 @@ button.usa-menu-btn {
         margin: 0 auto;
         float: left;
         width: 100%;
-//        padding-top: 2px;
 		font-size: .9em;
     }
 
     .usa-js-mobile-nav--active ul {
         padding: 0px;
-//        height: auto;
-//        z-index: 10000;
-&.sub-menu {
-	display: none;
-	position: relative;
-}
+
+		&.sub-menu {
+			display: none;
+			position: relative;
+		}
     }
     
 
@@ -791,19 +686,19 @@ button.usa-nav__close {
 
 
 @media (min-width:0) and (max-width: 950px) {
-.usa-nav-container div#logo.usa-logo {
-	background: none;
-	padding: 0;
-	margin: 0 !important;
-	height: 100px;
-	width: 100px;
-	top: 120px;
-}	
-header.usa-header {
-/*	position: absolute;*/
+	.usa-nav-container div#logo.usa-logo {
+		background: none;
+		padding: 0;
+		margin: 0 !important;
+		height: 100px;
+		width: 100px;
+		top: 120px;
+	}	
+
+
+	header.usa-header {
 	&.usa-header-basic {
 		height: 170px;
-/*		position: relative;*/
 	}
 	.search-wrapper {
 		width: 100%;
@@ -1046,21 +941,16 @@ ul.sub-sub-menu {
     display: block;
  background: #112e51; }
 
-/*ul.usa-nav-primary ul.sub-sub-menu li a:before {
-	content: '– ';
-}*/
 
-ul.usa-nav-primary ul.sub-sub-menu li a {
-	font-size: .8em;
-}
+
+	ul.usa-nav-primary ul.sub-sub-menu li a {
+		font-size: .8em;
+	}
 }
 
 #navigation.usa-nav.nav {
 	max-width: 880px;
 }
-
-
-
 
 @media (min-width: 950px) and (max-width: 1200px) {
 

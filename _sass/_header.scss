@@ -240,7 +240,7 @@ img.desk {
 #searchgovinput {
 	font-style: italic !important;
 	font-size: 0.875rem;
-	color: $mid-gray;
+	color: $dark-gray;
 	border: none;
 	background: $lightest-gray;
 	font-family: $sans-font;
@@ -293,7 +293,6 @@ img.desk {
 	justify-content: space-between;
 	max-width: 400px;
 	width: 100%;
-/*	min-width: 390px;*/
 	.bell {
 		cursor: pointer;
 		margin: -5px 5px 0 0;
@@ -402,28 +401,3 @@ img.desk {
 	}
 }
 
-/*@media (min-width: 1200px) and (max-width: 1240px) {
-	.search-wrapper {
-		padding-right: 20px;
-	}
-}*/
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-
-}
- 
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
- 	
-}
- 
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-
-}
