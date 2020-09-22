@@ -27,6 +27,18 @@
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% if page.keywords %} <meta name="keywords" content="{{ page.keywords | strip_html | strip_newlines | truncate: 160 }}"> {% endif %}
+	
+<link
+  rel="preload"
+  as="font"
+  onload="this.rel = 'stylesheet'"
+  href="{{ site.baseurl }}/assets/vendor/uswds-2.8.0/fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2">
+	
+	<link
+  rel="preload"
+  as="font"
+  onload="this.rel = 'stylesheet'"
+  href="{{ site.baseurl }}/assets/vendor/uswds-2.8.0/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/uswds-{{site.wds-version}}/css/uswds.css">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
@@ -34,6 +46,8 @@
   {% include favicons.html %}
 
   <link rel="manifest" href="/manifest.json">
+	
+	<link rel="preload" href="{{ site.baseurl }}/assets/vendor/uswds-{{ site.wds-version }}/js/uswds.min.js" as="script">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
