@@ -323,7 +323,8 @@ img.desk {
 		background: #F0F0F0;
 		z-index: 10000;
 		padding: 30px;
-		height: 85vh;
+		height: auto;
+		max-height: 80vh;
 		overflow-y: scroll;
 		ul {
 			margin: 0;
@@ -351,9 +352,6 @@ img.desk {
 		}
 	}
 }
-	
-
-
 
 	 .post-count {
 		background: $red;
@@ -362,12 +360,12 @@ img.desk {
 		position: absolute;
 		right: 2px;
 		top: -20px;
-		width: 20px;
+		 width: auto;
+		min-width: 20px;
 		 height: 20px;
 		font-size: 0.6875rem;
 		border-radius: 20px;
 		text-align: center;
-		border: 2px solid #fff;
 		&:hover {
 			text-decoration: none;
 		}
