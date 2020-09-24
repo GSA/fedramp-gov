@@ -110,18 +110,18 @@ $desktop: 1200px;
 // These contain overrides and additions to the Web Design System
 // (standards.18f.gov, found locally at assets/css/uswds.<version>.css)
 @import
-        "base",
+        "home",
+        "hero",
+        "header",
+		"base",
         "buttons",
         "navbar",
         "sidenav",
-        "home",
-        "hero",
         "iframe",
         "pages",
         "banners",
         "footer",
         "team",
-        "header",
         "blog",
         "table",
         "mobilenav",

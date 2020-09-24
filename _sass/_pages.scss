@@ -1885,9 +1885,25 @@ max-width: 200px;
 	margin: 0 auto;
 }
 
-.fedramp-youtube {
-	width: 100%;
-	margin: 0;
+.youTube-container {
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.youTube-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (min-width: 0) and (max-width: 1023px) {
+	.youTube-container {
+		margin-top: 2rem;
+	}
 }
 
 .program-basics-title {
