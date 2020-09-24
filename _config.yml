@@ -114,6 +114,8 @@ collections:
   policy:
     output: false
 
+sass:
+    style: compressed
 
 wds-version: 2.8.0
 
