@@ -1,9 +1,9 @@
 ---
 layout: policy
 title: Policy & Guidance
-tab-title: Resources&#58; Policy & Guidance
+tab-title: Search For Any FedRAMP Policy or Guidance Resource
 permalink: /policy-guidance/
-summary: This page is a repository of all policy, guidance, and template documents for FedRAMP stakeholder to use in the process.
-tags: policy, guidance, documents, templates, worksheets, authorization, continuous monitoring, playbook, NIST, assessor, agency, cloud service provider
+summary: Filter your results to quickly locate the FedRAMP policy, guidance material, or resource you’re looking for in excel, PDF, or word format.
+tags: policy, guidance, documents, templates, worksheets, authorization, continuous monitoring, playbook, NIST, assessor, agency, cloud service provider, document type, partners, agencies, file, formate, resource, policy, guide, guidance, 3PAO obligations, authorizations, cloud, JAB, criteria, policies
 
 ---
