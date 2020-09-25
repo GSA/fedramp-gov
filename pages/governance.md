@@ -1,7 +1,7 @@
 ---
 layout: governance
 title: Governance
-tab-title: Learn How FedRAMP is Governed | FedRAMP
+tab-title: Learn How FedRAMP is Governed 
 permalink: /governance/
 image: /assets/img/page-images/governance.png
 summary: Wondering how FedRAMP is Governed? Read about the 4 governing entities that manage the program: JAB, OMB, CIO, and NIST.
