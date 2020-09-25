@@ -78,29 +78,6 @@
   line-height: 1.7;
 }
 
-/*
-
-.home .home-blog {
-	background: #f1f1f1;
-	max-width: 100%;
-	width: 100%;
-	margin: 0;
-	.post-container {
-		margin: 0 auto;
-		.blog-image {
-			background-color: #fff;
-		}
-	}
-}
-
-.partner-divider {
-	margin: 26px 0 10px 0;
-	border: none;
-}
-
-*/
-
-
 .partners-container {
 	max-width: 1200px;
 	width: 100% !important;
@@ -338,14 +315,11 @@ span.assessment {
 		}
 	}
 
-
 .auth-process {
 	background: $lightest-gray;
 	text-align: center;
 	width: 100%;
 }
-
-
 
 .fedramp-glance {
 	padding: 4rem 2rem 4rem 2rem;
@@ -405,29 +379,30 @@ span.assessment {
 
 @media (min-width: 0) and (max-width: 660px) {
 	.fedramp-glance {
-	padding: 40px 10% 80px 10%;
-	ul {
-		li {
-			justify-content: space-between;
-			width: 100%;
-			max-width: 346px;
-			margin: 0 0 80px 0;
-			&:last-child {
-				margin: 0;
-				padding: 0;
-			}
-			span {
-			width: 45%;
-			text-align: center;
-			p {
-				margin: 0;
-				&.number {
-					font-size: 4.625rem;
+		padding: 40px 10% 80px 10%;
+		ul {
+			li {
+				justify-content: space-between;
+				width: 100%;
+				max-width: 346px;
+				margin: 0 0 80px 0;
+				&:last-child {
+					margin: 0;
+					padding: 0;
 				}
-			}
+				span {
+				width: 45%;
+				text-align: center;
+				
+					p {
+					margin: 0;
+					&.number {
+						font-size: 4.625rem;
+						}
+					}
+				}
+			}	
 		}
-	}	
-	}
 	}
 }
 

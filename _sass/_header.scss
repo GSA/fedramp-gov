@@ -158,20 +158,7 @@ div#logo.usa-logo {
 .home-active {
 	color: $red;
 }
-/*@media (min-width: 768px) and (max-width: 980px) {
-div#logo.usa-logo {
-	max-width: 260px;
-	background: none;
-	position: relative;
-	top: 0;
-	min-width: 190px;
-	margin-top: 10px;
-/*	img {
-		width: 100%;
-		height: auto;
-	}*!/
-}
-}*/
+
 
 @media (min-width: 0px) and (max-width: 950px) {
 	div#logo.usa-logo {

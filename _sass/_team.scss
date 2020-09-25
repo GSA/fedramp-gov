@@ -5,7 +5,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-
 // Mixins
 @mixin image-circle($width) {
   background-size: cover;
@@ -206,7 +205,6 @@ h3.team-program-goals {
      
       display: flex;
       flex-direction: column; 
-      /* Optional */
       box-shadow: 0 2px 6px #777;
     }
 
@@ -216,7 +214,6 @@ h3.team-program-goals {
       overflow-y: auto;
       height: 100%;
       flex-grow: 1;
-      /* Optional */
       padding: 1.5rem;
     }
 
