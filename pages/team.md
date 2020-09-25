@@ -1,10 +1,10 @@
 ---
 layout: team-list
 title: Meet the Team
-tab-title: Read About the Program Management Team
+tab-title: Read About the Program Management Team | FedRAMP
 permalink: /team/
 body-class: page-team
-summary: This page provides information on the individuals who work on the FedRAMP Program Management Office (PMO) and the PMO’s goals.
-tags: PMO, team, GSA
+summary: Learn about those driving FedRAMP forwards through each team member’s detailed bios. Read the 3 main goals of the Program Management Office.
+tags: PMO, team, GSA, FedRAMP, Program Management Office, goals, cloud technologies, framework, partnerships, stakeholders, director
 
 ---
