@@ -1,11 +1,11 @@
 ---
 layout: program-basics
 title: Program Basics
-tab-title: About&#58; Program Basics
+tab-title: Learn What FedRAMP is All About | FedRAMP
 permalink: /program-basics/
 body-class: about-us
-summary: This page describes the mission, goals, and benefits of FedRAMP. It also details the Legal Framework in which FedRAMP was developed and operates by.
-tags: mission, goals, benefits, legal framework, NIST, OMB, policy, guidance
+summary: Find out why FedRAMP was created and learn more about the program’s mission, benefits, and goals. Read more about the program’s legal framework.
+tags: mission, goals, benefits, legal framework, NIST, OMB, policy, guidance, FedRAMP, OMB Circular A-130, FedRAMP policy, security, overview, background, cloud technologies, introduction, cloud services, cloud computing
 
 
 program-header: Overview
