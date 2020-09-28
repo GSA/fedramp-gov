@@ -150,11 +150,12 @@ nav.usa-nav {
 li.parent .sub-menu {
     width: 214px;
     padding: 0px;
+	margin: 0;
     position: absolute;
     top: 65px;
     left: 0;
     z-index: -1;
-    opacity: 0;
+//    opacity: 0;
     display: none;
     transition: opacity linear 0.15s;
     background: #F3F4F4;
