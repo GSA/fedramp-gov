@@ -11,8 +11,8 @@ layout: full-width
 					<h3>Refine Your Results</h3>
 					<section aria-label="Small search component" class="faq-search policy-search">
 						<form class="usa-search usa-search--small" role="search" onsubmit="return searchScroll(event);">
-							<label class="usa-sr-only" for="search-field-small">Keyword Search</label>
-							<input title="Keyword Search" class="usa-input" id="search-field-small" type="search" name="search" placeholder="Keyword Search">
+							<label class="usa-sr-only" for="search-field-small">Search</label>
+							<input class="usa-input" id="search" type="search" name="search" placeholder="Keyword Search">
 							<button class="usa-button" type="submit">
 							<span class="usa-sr-only">Search</span>
 							</button>
@@ -25,8 +25,8 @@ layout: full-width
 								{% assign partners = site.policy | map: "partner" | sort | uniq %}
 								{% for par in partners %}
 								
-									<input class="usa-checkbox__input" type="checkbox" name="fl-partner" value="{{ par | downcase | replace: " ", "-" }}" id="{{ par | downcase | replace: " ", "-" }}" /> 
-								   <label class="usa-checkbox__label fedramp-check" for="{{ par | downcase | replace: " ", "-" }}">{{ par }}</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-partner" value="abc123-checkbox-fl-partner-{{ par | downcase | replace: " ", "-" }}" id="abc123-checkbox-fl-partner-{{ par | downcase | replace: " ", "-" }}" /> 
+								   <label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-partner-{{ par | downcase | replace: " ", "-" }}">{{ par }}</label>
 								
 								   {% unless forloop.last %}
 									 
@@ -47,7 +47,7 @@ layout: full-width
 								{% assign tagsArray = tagsArray | sort %}
 								{% for tag in tagsArray %}
 							<form>
-								<input class="usa-checkbox__input" type="checkbox" name="fl-{{ tag | downcase }}" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}-tags" />
+								<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-tag-{{ tag | downcase }}" value="abc123-checkbox-fl-tag-{{ tag | downcase | replace: " ", "-" }}" id="abc123-checkbox-fl-tag-{{ tag | downcase | replace: " ", "-" }}" />
 								   <label class="usa-checkbox__label fedramp-check">{{ tag }}</label>
 								   {% unless forloop.last %}
 								   {% endunless %}
@@ -67,8 +67,8 @@ layout: full-width
 								{% assign dtypArray = dtypArray | sort %}
 								{% for tag in dtypArray %}
 								
-									<input class="usa-checkbox__input" type="checkbox" name="fl-doc" value="{{ tag | downcase | replace: " ", "-" }}" id="{{ tag | downcase | replace: " ", "-" }}" />
-								   	<label class="usa-checkbox__label fedramp-check" for="{{ tag | downcase | replace: " ", "-" }}">{{ tag }}</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-doc" value="abc123-checkbox-fl-doc-{{ tag | downcase | replace: " ", "-" }}" id="abc123-checkbox-fl-doc-{{ tag | downcase | replace: " ", "-" }}" />
+								   	<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-doc-{{ tag | downcase | replace: " ", "-" }}">{{ tag }}</label>
 								
 								   {% unless forloop.last %}
 									
@@ -83,8 +83,8 @@ layout: full-width
 								<legend>File Format</legend>
 								{% assign fileAll = site.policy | map: "filetype" | sort | uniq %}
 								{% for fil in fileAll %}
-								<input class="usa-checkbox__input" type="checkbox" name="fl-file" value="{{ fil | downcase | replace: " ", "-" }}" id="{{ fil | downcase | replace: " ", "-" }}" />
-								   <label class="usa-checkbox__label fedramp-check" for="{{ fil | downcase | replace: " ", "-" }}">{{ fil | upcase }}</label>
+								<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-file" value="abc123-checkbox-fl-file-{{ fil | downcase | replace: " ", "-" }}" id="abc123-checkbox-fl-file-{{ fil | downcase | replace: " ", "-" }}" />
+								   <label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-file-{{ fil | downcase | replace: " ", "-" }}">{{ fil | upcase }}</label>
 								   {% unless forloop.last %}
 									 
 								   {% endunless %}
@@ -96,23 +96,23 @@ layout: full-width
 							<div class="full-col grid-col-6 tablet:grid-col-3 desktop:grid-col-12">
 								<form>
 								<legend>Date</legend>
-									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="thirty" id="thirty" />
-								   	<label class="usa-checkbox__label fedramp-check" for="thirty" >Last 30 Days</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-thirty" id="abc123-checkbox-fl-date-thirty" />
+								   	<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-thirty" >Last 30 Days</label>
 								   
-									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="sixty" id="sixty" />
-								   	<label class="usa-checkbox__label fedramp-check" for="sixty">Last 60 Days</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-sixty" id="abc123-checkbox-fl-date-sixty" />
+								   	<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-sixty">Last 60 Days</label>
 								   
-									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="months" id="months" />
-								   	<label class="usa-checkbox__label fedramp-check" for="months">Last 6 Months</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-months" id="abc123-checkbox-fl-date-months" />
+								   	<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-months">Last 6 Months</label>
 								   
-								  	<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="year" id="year" />
-									<label class="usa-checkbox__label fedramp-check" for="year">Last Year</label>
+								  	<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-year" id="abc123-checkbox-fl-date-year" />
+									<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-year">Last Year</label>
 								   
-									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="ten" id="ten" />
-									<label class="usa-checkbox__label fedramp-check" for="ten">2010-2020</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-ten" id="abc123-checkbox-fl-date-ten" />
+									<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-ten">2010-2020</label>
 								   
-									<input class="usa-checkbox__input" type="checkbox" name="fl-date" value="y2k" id="y2k" />
-									<label class="usa-checkbox__label fedramp-check" for="y2k">2000-2010</label>
+									<input class="usa-checkbox__input" type="checkbox" name="abc123-checkbox-fl-date" value="abc123-checkbox-fl-date-y2k" id="abc123-checkbox-fl-date-y2k" />
+									<label class="usa-checkbox__label fedramp-check" for="abc123-checkbox-fl-date-y2k">2000-2010</label>
 								</form>
 							</div>
 						</div>
@@ -145,34 +145,34 @@ layout: full-width
 							{% for doc in docs_sorted %}
 							{% assign stamp = doc.date | date: "%s" | minus: 0 %}
 							{% assign dateFilters = "" %}
-							{% if stamp > thirty %}{% assign dateFilters = dateFilters | append: " thirty" %}{% endif %}
-							{% if stamp > sixty %}{% assign dateFilters = dateFilters | append: " sixty" %}{% endif %}
-							{% if stamp > months %}{% assign dateFilters = dateFilters | append: " months" %}{% endif %}
-							{% if stamp > year %}{% assign dateFilters = dateFilters | append: " year" %}{% endif %}
+							{% if stamp > thirty %}{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-thirty" %}{% endif %}
+							{% if stamp > sixty %}{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-sixty" %}{% endif %}
+							{% if stamp > months %}{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-months" %}{% endif %}
+							{% if stamp > year %}{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-year" %}{% endif %}
 							{% if stamp < twenty %}
 							{% if stamp > ten %}
-							{% assign dateFilters = dateFilters | append: " ten" %}
+							{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-ten" %}
 							{% else %} 
-							{% assign dateFilters = dateFilters | append: " y2k" %}
+							{% assign dateFilters = dateFilters | append: " abc123-checkbox-fl-date-y2k" %}
 							{% endif %} 
 							{% endif %} 
 
 							{% assign tagList = "" %}
 							{% for t in doc.tags %}
-							{% assign workT = t | replace: " ", "-" %}
+							{% assign workT = t | replace: " ", "-" | prepend: "abc123-checkbox-fl-tag-" %}
 							{% assign tagList = tagList | append: workT %}
 							{% unless forloop.last %}{% assign tagList = tagList | append: " " %}{% endunless %}
 							{% endfor %}
 
 							{% assign dtpList = "" %}
 							{% for dt in doc.doctype %}
-							{% assign workD = dt | replace: " ", "-" %}
+							{% assign workD = dt | replace: " ", "-" | prepend: "abc123-checkbox-fl-doc-" %}
 							{% assign dtpList = dtpList | append: workD %}
 							{% unless forloop.last %}{% assign dtpList = dtpList | append: " " %}{% endunless %}
 							{% endfor %}
 
 
-						<div class="grid-row padding-y-4 flower policy-card" data-id="aloe" data-category="{{ tagList | downcase }} {{ doc.filetype | downcase | replace: " ", "-" }} {{doc.partner | downcase | replace: " ", "-"}} {{ dtpList | downcase }}{{ dateFilters }}">
+						<div class="grid-row padding-y-4 flower policy-card" data-id="aloe" data-category="{{ tagList | downcase }} abc123-checkbox-fl-file-{{ doc.filetype | downcase | replace: " ", "-" }} abc123-checkbox-fl-partner-{{doc.partner | downcase | replace: " ", "-"}} {{ dtpList | downcase }}{{ dateFilters }}">
 							<div class="desktop:grid-col-9">
 								<div class="policy-document-date">
 									<p class="document-kind">{{ doc.category }}</p>
@@ -184,7 +184,7 @@ layout: full-width
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
-									<button class="tags" onclick="checkFilter('#{{ tag | downcase }}-tags')" tabindex="" title="{{tag}}">{{tag}}</button>
+									<button class="tags" onclick="checkFilter('#abc123-checkbox-fl-tag-{{ tag | downcase }}')" tabindex="" title="{{tag}}">{{tag}}</button>
 									{% endfor %}
 								</div>
 
