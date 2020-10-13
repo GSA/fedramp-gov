@@ -243,7 +243,11 @@ $(document).ready(function() {
 		}
         } else {                                                          // show count on bell
 
-                $(".post-count").html(count);
+		if(count <= 12) {
+                	$(".post-count").html(count);
+		} else {
+                	$(".post-count").html("12+");
+		}
                 $(".post-count").css("display", "block");
         }
         // save old menu

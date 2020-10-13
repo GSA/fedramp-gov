@@ -60,50 +60,48 @@
 				<img class="notification-bell-icon" src="{{site.baseurl}}/assets/img/notification-bell.svg" alt="Notification Bell" />
                                 <button class="post-count" title="Post Count" style="display:none;"></button>
 
-                                <div id="alert-logic">
+                 <div id="alert-logic">
 					<div class="alert-wrapper-fallback">
-					<button class="bell-close">x</button>
+					<button class="bell-close"><img class="notification-close" src="{{site.baseurl}}/assets/img/bell-close.svg" alt="" /></button>
   						<ul>
     							{% for a in both limit: 8 %}
       								<li>
 									{% assign type = a.path | split: '/' | first %}
 									{% if type == "_policy" %}
-      										<a href="{{site.baseurl}}/policy-guidance/">{{ a.title }}</a>
+      										<a href="{{site.baseurl}}/assets/resources/documents/{{ a.filename }}" target="_blank">{{ a.title }}</a>
 										{% assign cond = a.condition | strip | downcase %}
                                 						{% if cond == "new" %}
-        										<p>{{ a.date | date: "%B %-d, %Y"}} - NEW DOCUMENT</p>
+        										<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 										{% else %}
-        										<p>{{ a.date | date: "%B %-d, %Y"}} - UPDATED DOCUMENT</p>
+        										<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 										{% endif %}
 									{% else %}
 										<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
-        									<p>{{ a.date | date: "%B %-d, %Y"}} - NEW POST</p>
+        									<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 									{% endif %}
-        								<p>{{ a.content | strip_html | truncatewords: 10 }}</p>
       								</li>
     							{% endfor %}
   						</ul>
 					</div>
                
-                                        <div class="alert-wrapper">
-						<button class="bell-close">x</button>
+                    <div class="alert-wrapper">
+						<button class="bell-close"><img class="notification-close" src="{{site.baseurl}}/assets/img/bell-close.svg" alt="" /></button>
                                                 <ul>
     							{% for a in both %}
       								<li class="current-post">
 									{% assign type = a.path | split: '/' | first %}
 									{% if type == "_policy" %}
-      										<a href="{{site.baseurl}}/policy-guidance/">{{ a.title }}</a>
+      										<a href="{{site.baseurl}}/assets/resources/documents/{{ a.filename }}" target="_blank">{{ a.title }}</a>
 										{% assign cond = a.condition | strip | downcase %}
                                 						{% if cond == "new" %}
-        										<p class="date">{{ a.date | date: "%B %-d, %Y"}} - NEW DOCUMENT</p>
+        										<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 										{% else %}
-        										<p class="date">{{ a.date | date: "%B %-d, %Y"}} - UPDATED DOCUMENT</p>
+        										<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 										{% endif %}
 									{% else %}
 										<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
-        									<p class="date">{{ a.date | date: "%B %-d, %Y"}} - NEW POST</p>
+        									<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 									{% endif %}
-        								<p>{{ a.content | strip_html | truncatewords: 10 }}</p>
       								</li>
     							{% endfor %}
                                                 </ul>

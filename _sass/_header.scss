@@ -38,11 +38,8 @@
 }
 
 img.notification-bell-icon {
-	float: left;
-    display: inline-block;
-    color: #757575;
-    margin: 6px 8px 0 8px;
-    font-size: 2em;
+    margin: 5px 7px;
+	width: 20px;
 }
 
 img.search-button-icon {
@@ -282,31 +279,30 @@ img.desk {
 	width: 100%;
 	.bell {
 		cursor: pointer;
-		margin: -5px 5px 0 0;
+		margin: 0;
 		position: relative;
+		left: 20px;
+		width: 34px;
+		height: 34px;
 			
-		&:hover {
-			width: 45px;
+		&:hover, &:focus {
 			background: $lightest-gray;
-			height: 45px;
-			border-radius: 25px;
+			border-radius: 40px;
 			}
+		
 		svg.fa-bell {
-			float: left;
-			display: inline-block;
-			color: $mid-gray;
-			margin: 6px 8px 0 8px;
-			font-size: 2em;
+			margin: 4px 6px;
+			width: 20px;
 		}
 	}
 	#alert-logic {
 		display: none;
 	.alert-wrapper {
-		max-width: 400px;
-		min-width: 400px;
+		max-width: 410px;
+		min-width: 410px;
 		position: absolute;
-		top: 0px;
-		right: -60px;
+		top: -12px;
+		right: 0px;
 		background: #F0F0F0;
 		z-index: 10000;
 		padding: 30px;
@@ -317,12 +313,25 @@ img.desk {
 			margin: 0;
 			padding: 0;
 			a {
-				font-size: 0.8125rem;
+				font-size: 1rem;
+				font-weight: 700;
 				margin: 0 0 10px 0;
+				color: $dark-gray;
+				text-decoration: none;
+				
+				&:hover {
+					color: $red;
+					text-decoration: underline;
+				}
 			}
 			p.date {
-				font-size: 0.75rem;
-				margin: 0 0 10px 0;
+				margin: 4px 0;
+				text-transform: none;
+				
+				strong {
+					font-weight: 700;
+					color: $red;
+				}
 			}
 			p {
 				font-size: 0.8125rem;
@@ -331,21 +340,37 @@ img.desk {
 			}
 			li {
 				list-style: none;
-				margin: 0 0 15px 0;
+				margin: 0 0 15px 26px;
+				padding: 10px 0 0 4px;
+				
 				&:last-child {
-					margin: 0;
+					margin-bottom: 0;
 				}
+				
+				&::before {
+					content: '';
+					background: url('../../assets/img/bell-list.svg') no-repeat; 
+					display: inline-block;
+					position: relative;
+					top: 2px;
+					width: 22px; 
+					height: 1rem;
+					margin-left: -26px;
+				}
+				
 			}
 		}
 	}
 }
+
+	
 
 	 .post-count {
 		background: $red;
 		padding: 2px 4px;
 		color: #fff;
 		position: absolute;
-		right: 2px;
+		right: -2px;
 		top: -2px;
 		width: auto;
 		min-width: 18px;
@@ -365,6 +390,7 @@ img.desk {
 	right: 10px;
 	margin: 0;
 	background-color: transparent;
+	cursor: pointer;
 	text-decoration: none;
 	color: $dark-gray;
 	
@@ -372,6 +398,13 @@ img.desk {
 		background-color: transparent;
 		color: $red;
 		text-decoration: none;
+	}
+}
+
+@media (min-width: 0) and (max-width: 950px) { 
+	.search-wrapper .bell {
+		left: 0;
+		margin-right: 10px;
 	}
 }
 
