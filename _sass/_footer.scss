@@ -69,15 +69,23 @@ address p:last-of-type, address p {
 }
 
 ul.quick-links {
-	margin-left: 1.375rem;
-	margin-top: 20px;
+	margin-left: 0px;
+	margin-top: 12px;
 	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0px;
 }
 
 .quick-links li {
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	padding-left: 8px;
 	font-size: .875rem;
+	
+	.footer-img-link {
+		margin-right: 8px;
+		position: relative;
+		top: 5px;
+	}
 	
 	a {
 		text-decoration: none;
@@ -116,7 +124,7 @@ ul.quick-links {
 
 .f-col-1, .f-col-2, .f-col-3 {
 	border-right: #384D6A solid 1px;
-	min-height: 180px;
+	min-height: 204px;
 }
 
 
@@ -215,6 +223,10 @@ p.footer-follow-us {
 			text-decoration: none;
 		}
 	}
+}
+
+.newsletter-inner {
+	margin-top: 24px;
 }
 
 /*** Responsive Styles Tablet And Below ***/
