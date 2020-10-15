@@ -192,8 +192,8 @@ layout: full-width
 								
 							</div>
 							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-2">
-								<a class="policy-download policy-{{ doc.filetype }}" href="{{site.baseurl}}/assets/resources/documents/{{ doc.filename }}" target="_blank">
-								 Download
+								<a class="policy-download policy-{{ doc.filetype }}" href="{{ doc.weblink }}{{ doc.filename }}" target="_blank">
+								{% if doc.filetype == "web" %}Visit{% else %}Download{% endif %}
 								</a>
 							</div>
 						</div>

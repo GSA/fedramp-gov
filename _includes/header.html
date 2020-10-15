@@ -70,7 +70,7 @@
 							<li>
 							{% assign type = a.path | split: '/' | first %}
 							{% if type == "_policy" %}
-							<a href="{{site.baseurl}}/assets/resources/documents/{{ a.filename }}" target="_blank">{{ a.title }}</a>
+							<a href="{{ a.weblink }}{{ a.filename }}" target="_blank">{{ a.title }}</a>
 							{% assign cond = a.condition | strip | downcase %}
 								{% if cond == "new" %}
 							<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
@@ -93,7 +93,7 @@
 						<li class="current-post">
 						{% assign type = a.path | split: '/' | first %}
 						{% if type == "_policy" %}
-						<a href="{{site.baseurl}}/assets/resources/documents/{{ a.filename }}" target="_blank">{{ a.title }}</a>
+							<a href="{{ a.weblink }}{{ a.filename }}" target="_blank">{{ a.title }}</a>
 						{% assign cond = a.condition | strip | downcase %}
 							{% if cond == "new" %}
 						<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
