@@ -118,7 +118,7 @@ layout: full-width
 						</div>
 
 					<div class="tag-language">
-						<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt=""><p>Search a topic by selecting a “Tag” listed beneath a document.</p>
+						<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt=""><img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt=""><p>Search a topic by selecting a “Tag” listed beneath a document.</p>
 					</div>
 				</div>
 				
@@ -192,7 +192,11 @@ layout: full-width
 								
 							</div>
 							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-2">
-								<a class="policy-download policy-{{ doc.filetype }}" href="{{ doc.weblink }}{{ doc.filename }}" target="_blank">
+								{% if doc.weblink == "" or doc.weblink == nil %}
+									<a class="policy-download policy-{{ doc.filetype }}" href="{{ site.baseurl }}/assets/resources/documents/{{ doc.filename }}" target="_blank">
+								{% else %}
+									<a class="policy-download policy-{{ doc.filetype }}" href="{{ doc.weblink }}" target="_blank">
+								{% endif %}
 								{% if doc.filetype == "web" %}Visit{% else %}Download{% endif %}
 								</a>
 							</div>

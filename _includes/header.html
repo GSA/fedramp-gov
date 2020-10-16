@@ -70,16 +70,20 @@
 							<li>
 							{% assign type = a.path | split: '/' | first %}
 							{% if type == "_policy" %}
-							<a href="{{ a.weblink }}{{ a.filename }}" target="_blank">{{ a.title }}</a>
-							{% assign cond = a.condition | strip | downcase %}
+								{% if a.weblink == "" or a.weblink == nil %}
+									<a href="{{ site.baseurl }}/assets/resources/documents/{{ a.filename }}">{{ a.title }}</a>
+								{% else %}
+									<a href="{{ a.weblink }}" target="_blank">{{ a.title }}</a>
+								{% endif %}
+								{% assign cond = a.condition | strip | downcase %}
 								{% if cond == "new" %}
-							<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+									<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+								{% else %}
+									<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+								{% endif %}
 							{% else %}
-							<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
-							{% endif %}
-							{% else %}
-							<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
-							<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+								<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
+								<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 							{% endif %}
 							</li>
 						{% endfor %}
@@ -93,16 +97,20 @@
 						<li class="current-post">
 						{% assign type = a.path | split: '/' | first %}
 						{% if type == "_policy" %}
-							<a href="{{ a.weblink }}{{ a.filename }}" target="_blank">{{ a.title }}</a>
-						{% assign cond = a.condition | strip | downcase %}
+							{% if a.weblink == "" or a.weblink == nil %}
+								<a href="{{ site.baseurl }}/assets/resources/documents/{{ a.filename }}">{{ a.title }}</a>
+							{% else %}
+								<a href="{{ a.weblink }}" target="_blank">{{ a.title }}</a>
+							{% endif %}
+							{% assign cond = a.condition | strip | downcase %}
 							{% if cond == "new" %}
-						<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+								<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+							{% else %}
+								<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+							{% endif %}
 						{% else %}
-						<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
-						{% endif %}
-						{% else %}
-						<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
-						<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
+							<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a>
+							<p class="date"><strong>New Post</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
 						{% endif %}
 						</li>
 					{% endfor %}
