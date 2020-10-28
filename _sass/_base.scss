@@ -250,6 +250,12 @@ h6 {
 	font-weight: 300 !important;
 }
 
+p.bold-intro {
+	font-weight: 400 !important;
+	color: $light-blue;
+	font-family: $title-font !important;
+}
+
 a.focus-within:active {
 	box-shadow: none;
 }
@@ -423,6 +429,10 @@ a {
 .grid-container {
 	max-width: 1200px;
 	padding: 4rem 0;
+}
+
+.partners-callout {
+	padding: 0;
 }
 	
 .clearfix {

@@ -143,6 +143,69 @@ relevant-documents.page--banner {
 
 /* --- End Agencies Tabs --- */
 
+/* --- Partners ---- */
+
+.partners-card {
+	background: white;
+	height: 100%;
+	
+	h3 {
+		text-transform: none;
+		text-align: left;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 639px) {
+	.partners-main {
+		flex-direction: column-reverse;
+	}
+	
+	.partners-card-mobile-row {
+		margin-top: 2rem;
+	}
+}
+
+a.partners-download {
+	background-color: $lightest-gray;
+	color: $dark-gray;
+	padding: 14px 74px 14px 26px;
+	border-radius: 40px;
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	&:hover {
+		background-color: $light-gray;
+	}
+}
+
+a.partners-download.policy-pdf {
+	background-image: url('../../assets/img/policy-pdf.svg');
+	background-position: 138px 8px;
+	background-repeat: no-repeat;
+}
+
+a.partners-download.policy-word {
+	background-image: url('../../assets/img/policy-doc.svg');
+	background-position: 138px 8px;
+	background-repeat: no-repeat;
+}
+
+a.partners-download.policy-excel {
+	background-image: url('../../assets/img/policy-excel.svg');
+	background-position: 138px 8px;
+	background-repeat: no-repeat;
+}
+
+a.partners-download.policy-web {
+	background-image: url('../../assets/img/policy-web.svg');
+	background-position: 138px 8px;
+	padding: 14px 87px 14px 26px;
+	background-repeat: no-repeat;
+}
+
 .callout-box {
 	border: solid 1px $light-gray;
 }

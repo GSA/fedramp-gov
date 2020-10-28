@@ -2,175 +2,123 @@
 layout: full-width
 ---
 <section class="fedramp-page-container">
-	<div>
-		<div class="grid-container">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-6 desktop:padding-right-2">
-					<h2>FedRAMP Authorization&#58; <span class="text-no-wrap">An Agency’s</span> Perspective</h2>
+	<div class="grid-container">
+		<div class="full-row grid-row padding-top-2">
+			<div class="full-col desktop:grid-col-12">
+				<h2 class="center">Partnering with FedRAMP</h2>
+			</div>
+		</div>
+		<div class="full-row grid-row padding-top-2 grid-gap partners-main">
+			<div class="full-col tablet:grid-col-5">
+				<div class="intro-text">
+					<p class="bold-intro">FedRAMP helps federal agencies use cloud services to securely modernize their technology and support their mission.</p>
 				</div>
-				<div class="full-col desktop:grid-col-6 intro-text">
-					<p>Agencies are required by law to protect federal data stored in the cloud. In accordance with the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">FedRAMP Policy Memo</a>, agencies do this by authorizing cloud services that demonstrate their compliance with one of the FedRAMP security baselines.</p>
-					
-					<p>FedRAMP provides a standardized framework to security assessment, authorization, and continuous monitoring for cloud products and services. This framework uses a “do once, use many” approach that eliminates duplicative efforts.</p>
-
+				<div>
+					<p>Agencies use FedRAMP’s standardized baselines to evaluate the security of cloud services. For any cloud services that they wish to use, agencies work with Cloud Service Providers (CSPs) to authorize the Cloud Service Offering (CSO). Agencies and CSPs only need to go through this process once for each CSO. Once the process is complete, other agencies can reuse the security package for any FedRAMP Authorized CSO. By using FedRAMP, agencies are helping to expand the marketplace of secure cloud services for the federal government.</p>
 				</div>
-			</div>			
-		</div>	
+			</div>
+			<div class="full-col tablet:grid-col-7">
+				<img class="" src="{{site.baseurl}}/assets/img/cloud-service-providers-main.svg" alt="">
+			</div>
+		</div>
 	</div>	
 </section>
 
-<section class="agency-tabs fedramp-page-container">
-	<div class="grid-container">
+<section class="fedramp-page-container lightest-gray-bkg">
+	<div class="grid-container partners-callout">
 		<div class="full-row grid-row">
-
-			<div class="full-col desktop:grid-col-12">
-				<h2 class="center">The Steps to Authorization</h2>
-				<p class="text-center margin-bottom-0">Click each step in the process for more information:</p>
-
-					<div class="tab">
-						<button class="tablinks pointer-button" onclick="openTab(event, 'pre-authorization')" id="defaultOpen"><span class="button-border">Pre-Authorization</span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')"><span class="button-border">During Authorization</span></button>
-						<button class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')"><span class="button-border">Post Authorization</span></button>
+				<div class="full-col desktop:grid-col-12">
+					<div class="padding-2">
+						<div class="grid-row padding-y-2">
+							<div class="tablet:grid-col-2">
+								<div class="callout-img-center">
+									<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/fedramp-can-help.svg" alt="">
+								</div>
+							</div>
+							<div class="tablet:grid-col-10 tablet:padding-x-4">
+								<h3 class="no-line callout">How FedRamp Can Help</h3>
+								<p class="tablet:margin-bottom-0">It is one of FedRAMP’s priorities to support agencies and their journey to using the latest cloud technologies. The FedRAMP PMO is here to assist and guide agencies through the FedRAMP authorization process.</p>
+								<p class="margin-top-4"><a href="{{site.baseurl}}/#" class="partner-learn-more">Get Support</a></p>
+							</div>
+						</div>
+					
 					</div>
-
-					<div id="pre-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Selecting a CSO</h3>
-								<p>Agencies should begin by defining their mission needs and specific requirements for a Cloud Service Offering (CSO), and research potential providers. We recommend agencies first check the <a href="https://marketplace.fedramp.gov/#/products">FedRAMP Marketplace</a>, a searchable, sortable, database of CSOs that have achieved a FedRAMP designation, to see if there is a CSO that meets their needs that has already <a href="https://marketplace.fedramp.gov/#/products?status=In%20Process&sort=productName">started the FedRAMP process</a> or <a href="https://marketplace.fedramp.gov/#/products?status=Compliant&sort=productName">is authorized</a>.</p>
-								
-								<p>Prior to engaging a Cloud Service Provider (CSP), it is important that agencies understand their technical requirements, to include determination of the type of cloud service/scope of services needed, cloud deployment model, data sensitivities, and other pertinent information.</p>
-
-								<p><strong>Interested in a CSO that is already FedRAMP Authorized?</strong></p>
-								<p>Request access to their package through the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Package_Request_Form.pdf">Package Request Form</a> and review the <a href="https://www.fedramp.gov/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf">Reusing Authorizations for Cloud Products Quick Guide</a>.</p>
-								
-								<p><strong>Interested in a CSO that is In Process?</strong></p>
-								
-								<p>Inquire about their status by contacting the CSP directly or emailing <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.</p>
-								
-								<p><strong>Interested in using a CSO that is not yet FedRAMP Authorized or FedRAMP In Process?</strong></p>
-								
-								<p>Contact the PMO to learn more about how to partner with a CSP to issue a FedRAMP authorization. We recommend reviewing our <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a> for more information on the Authorization process.</p>
-								
-								<p><strong>Having difficulty selecting a CSO?</strong></p>
-								<p>Reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. The PMO can help to discuss options and share lessons learned from other agencies.</p>
-
-							</div>
-						</div>
-					</div>
-
-					<div id="during-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Getting Authorized</h3>
-								<p>The initial authorization process begins with a kick-off meeting with all stakeholders. Following the kick-off, a Third-Party Assessment Organization (3PAO) conducts a security assessment of the CSO and the results of the security assessment are included in a FedRAMP authorization package. A FedRAMP authorization package documents a cloud service offering’s (CSO) system security and provides&#58;</p>
-								
-								<ul class="red-bullets">
-									<li>Complete system description</li>
-									<li>Complete detail of the system’s security control implementation</li>
-									<li>Overview of the system’s security assessment scope and methodology</li>
-									<li>Security assessment report that qualifies whether the system should be used by a federal agency</li>
-								</ul>
-								
-								<h4>Agency’s role in authorization&#58;</h4>
-									<ul class="red-bullets">
-										<li>Review the security authorization package, which includes&#58;</li>
-											<ul class="">
-												<li>System Security Plan (SSP) detailing the CSP’s system security environment</li>
-												<li>System Assessment Plan (SAP) detailing the security assessment scope and methodology</li>
-												<li>System Assessment Report (SAR) detailing the security assessment results</li>
-												<li>Plan of Actions and Milestones (POA&M) detailing the CSP’s remediation plan and timeline for any remaining open risks</li>
-											</ul>	
-										<li>Understand and agree to agency-responsible controls</li>
-										<li>Communicate any additional requirements for agency mission/business needs</li>
-										<li>Communicate any system weaknesses or vulnerabilities that cannot be risk-accepted</li>
-										<li>Perform final review of a security authorization package, with a focus toward</li><li>understanding the risk posture the agency must accept by using the cloud service</li>
-									</ul>
-								<h3>Reviewing a Security Package</h3>
-								
-								<p>For an initial authorization, there are two approaches to reviewing a FedRAMP security package&#58; (1) Just-in-Time and (2) All Deliverables Simultaneously.</p>
-								
-								<h4>Approach 1&#58; Just-In-Time</h4>
-								<p>The CSP and 3PAO provide the security documents to the agency for review and approval as they are prepared, creating an agile workflow for the evaluation of a system’s security and assessment. A Just-In-Time approach is recommended for agencies and CSPs new to the FedRAMP process.</p>
-								
-								<h4>Approach 2&#58; All Deliverable Simultaneously</h4>
-								<p>The CSP and 3PAO provide the agency a complete security package at once, upon completion. This approach is most appropriate for agencies that have mature cloud security programs in place and prior experience with FedRAMP.</p> 
-								
-								<p>In either approach, FedRAMP encourages agencies to establish a cadence of frequent touchpoints with their partnered CSP(s) to understand progress against milestones and iteratively review documentation.</p>
-								
-								<p>For authorization reuse, agencies should review the security materials and continuous monitoring deliverables and determine if the CSP needs to meet additional security requirements due to agency data types/mission/business needs. </p>
-								
-								<h3>Issuing an ATO</h3>
-								<p>An agency’s Authorizing Official (AO) is responsible for making a risk-based decision to grant an Authority to Operate (ATO) for the agency’s use of the CSO. To issue an ATO for a cloud service offering that is already FedRAMP Authorized, agencies should&#58;</p>
-								
-								<ul class="red-bullets">
-									<li>Conduct a risk analysis by reviewing the CSP’s authorization package</li>
-									<li>Determine if the risk posture is acceptable</li>
-									<li>Determine if the CSP needs to meet additional requirements for agency mission/business needs</li>
-									<li>Approve the CSP package for authorization</li>
-									<li>Issue an ATO for the CSO</li>
-									<li>Send the ATO letter to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a></li>
-								</ul>
-
-								<p>A complete ATO letter should explicitly state the AO’s acceptance of&#58;</p>
-
-								<ul class="red-bullets">
-									<li>Use of the system at the agency at the determined FIPS 199 impact level</li>
-									<li>Any conditions, exceptions or exclusions of the CSO to be considered for use at the agency</li>
-								</ul>
-								
-								<p>For an initial authorization, once an agency grants an ATO, the FedRAMP PMO reviews the security package to determine suitability for government-wide reuse. Once the FedRAMP PMO determines the security package is acceptable, the CSP is granted a FedRAMP Authorization and the designation is reflected on the FedRAMP Marketplace. Other agencies can utilize FedRAMP’s reuse model to issue their own ATO for their use of the CSO. The reuse model allows agencies to review a CSO’s security package, make a risk-based decision on the use of that system, and issue their own ATO.</p>
-
-								
-							</div>
-						</div>
-					</div>	
-
-					<div id="post-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Continuous Monitoring <span style="text-transform: none; margin-left: 4px;">(ConMon)</span></h3>
-							</div>
-						</div>
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-6">
-								<p>CSPs are responsible for implementing the processes and tools to maintain an acceptable security posture. Agencies are responsible for reviewing the results of the CSP’s continuous monitoring activities. As part of continuous monitoring, agencies have the following responsibilities&#58;</p>
-							</div>
-						
-							<div class="full-col desktop:grid-col-6">
-								<ul class="red-bullets">
-									<li>Review monthly/annual continuous monitoring deliverables</li>
-									<li>Approve deviation requests and significant change requests</li>
-									<li>Ensure that the security and risk posture remains acceptable </li>
-									<li>Raise questions or concerns with the CSP regarding any of the ConMon deliverables and security posture</li>
-									<li>Reach out to the FedRAMP PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you are unable to obtain the information you need</li>
-								</ul>
+				</div>
+			</div>
+	</div>
+</section>
 
 
-							</div>
-						</div>
-					</div>
-
+<section class="teal-bkg fedramp-page-container">
+	<div class="grid-container">
+		
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+				<h2 class="text-white center">Resources for Agencies</h2>
 			</div>
 		</div>
-	
-		<div class="full-row grid-row">
-			<div class="full-col desktop:grid-col-12">
-				<div class="callout-box padding-2 margin-top-8">
-					<div class="grid-row padding-y-2">
-						<div class="tablet:grid-col-2">
-							<div class="callout-img-center">
-								<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/icons_Support.svg" alt="">
-							</div>
-						</div>
-						<div class="tablet:grid-col-10 tablet:padding-x-4">
-							<h3 class="no-line callout">Support</h3>
-							<p class="tablet:margin-bottom-0">FedRAMP creates a partnership between the federal government and industry. One of FedRAMP’s priorities to support agencies and their journey to using the latest cloud technologies. The FedRAMP PMO is here to assist and guide agencies through the FedRAMP authorization process. For support, please contact us at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.</p>
-						</div>
-					</div>
 
+		<div class="grid-row margin-top-4">
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-right-2">
+					<h3 class="margin-top-0 no-line">Package Request Form</h3>
+					<p>The Package Request Form can be used by any federal agency that is seeking to use a CSO that is already FedRAMP Authorized. Once it is completed and approved by the FedRAMP PMO, agencies can gain access to FedRAMP security assessment packages for up to 30 days. </p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-left-2 partners-card-mobile-row">
+
+					<h3 class="margin-top-0 no-line">Agency Authorization Playbook</h3>
+					<p>The Agency Authorization Playbook provides agencies with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP agency authorization process. The playbook outlines the process for issuing an initial FedRAMP authorization and promotes transparency and consistent expectation management between federal agencies and CSPs.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
 				</div>
 			</div>
 		</div>
+		
+		<div class="grid-row margin-top-4">
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-right-2">
+					<h3 class="margin-top-0 no-line">Reusing Authorizations for Cloud Products Quick Guide</h3>
+					<p>The Reusing Authorizations for Cloud Products Quick Guide outlines steps and guidance to help agencies quickly and efficiently reuse authorized cloud products within the FedRAMP Marketplace.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-left-2 partners-card-mobile-row">
+
+					<h3 class="margin-top-0 no-line">Acquisition FAQs</h3>
+					<p>The Acquisition FAQs were developed with the Office of Management and Budget (OMB) in an effort create standard contract language that agencies can use in their acquisition process as they procure cloud-based products. These FAQs are based on questions FedRAMP regularly receives from both vendors and agencies about how FedRAMP language can best be	incorporated into RFIs, RFQs and RFPs.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="grid-row margin-top-4">
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-right-2">
+					<h3 class="margin-top-0 no-line">FedRAMP’s Training Page</h3>
+					<p>FedRAMP’s Training page has a path specifically for agencies, which includes an on-demand version of our popular Information System Security Officer (ISSO) training based on FedRAMP’s Agency Authorization Playbook and includes a deep dive into each authorization phase. </p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-web" href="#" target="_blank">Visit Page</a>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
 	</div>
+
 </section>

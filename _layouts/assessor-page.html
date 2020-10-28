@@ -2,163 +2,41 @@
 layout: full-width
 ---
 <section class="fedramp-page-container">
-	<div>
-		<div class="grid-container">
-			<div class="full-row grid-row">
-				<div class="full-col desktop:grid-col-12">
-					<h2 class="center">FedRAMP Authorization: An Assessor’s Perspective</h2>
+	<div class="grid-container">
+		<div class="full-row grid-row padding-top-2">
+			<div class="full-col desktop:grid-col-12">
+				<h2 class="center">Partnering with FedRAMP</h2>
+			</div>
+		</div>
+		<div class="full-row grid-row padding-top-2 grid-gap partners-main">
+			<div class="full-col tablet:grid-col-8">
+				<div class="intro-text">
+					<p class="bold-intro">Third Party Assessment Organizations (3PAOs) play a critical role in the authorization process by assessing the security of a cloud service offering.</p>
+				</div>
+				<div>
+					<p>As independent third parties, they perform initial and periodic assessments of cloud systems to ensure they meet FedRAMP requirements. The federal government uses 3PAO assessments as the basis for making informed, risk-based authorization decisions for the use of cloud products and services. During FedRAMP assessments, 3PAOs produce a Readiness Assessment Report (RAR) or a complete security authorization package that is submitted for authorization to a government Authorizing Official (AO). 3PAOs may also provide consultation to a Cloud Service Provider (CSP) as they develop their system or documentation related to a FedRAMP Authorization. However, a 3PAO, that provides consulting services to a CSP, may not complete the assessment for that CSP’s service as part of the authorization process.</p>
 				</div>
 			</div>
-			<div class="full-row grid-row padding-top-2 grid-gap">
-				<div class="full-col desktop:grid-col-6">
-					<div class="intro-text">
-						<p>FedRAMP recognized Third Party Assessment Organizations (3PAOs) play a critical role in independently assessing the effectiveness of security controls associated with cloud service offerings (CSOs). 3PAO assessments serve as the basis from which the federal government makes informed, risk-based authorization decisions for the government use of cloud products and services.</p>
-					</div>
-				</div>
-				<div class="full-col desktop:grid-col-6">
-					<p class="margin-top-0">Assessment quality is expected across the government, regardless of whether a 3PAO is working directly with the Joint Authorization Board (JAB), FedRAMP PMO, or an agency. These expectations are outlined in the FedRAMP 3PAO Obligations and Performance Standards document.</p>
-					
-					<p>During FedRAMP assessments, 3PAOs produce a Readiness Assessment Report (RAR) or a complete security authorization package that is submitted for authorization to a government Authorizing Official (AO). 3PAOs may also provide consultation to a CSP as they develop their system or documentation related to a FedRAMP Authorization. However, a 3PAO, that provides consulting services to a CSP, may not complete the assessment for that CSP’s service as part of the authorization process. </p>
-				</div>
-			</div>
-		
-		</div>	
+
+		</div>
 	</div>	
 </section>
 
-<section class="agency-tabs fedramp-page-container">
-	<div class="grid-container">
-		<div class="full-row grid-row">
-
-			<div class="full-col desktop:grid-col-12">
-				<h2 class="center">The Steps to Authorization</h2>
-				<p class="text-center margin-bottom-0">Click each step in the process for more information:</p>
-
-					<div class="tab">
-						<button role="presentation" aria-controls="pre-authorization" onclick="openTab(event, 'pre-authorization')" class="tablinks pointer-button" id="defaultOpen"><span>Pre-Authorization</span></button>
-						<button role="presentation" aria-controls="during-authorization" class="tablinks pointer-button" onclick="openTab(event, 'during-authorization')"><span>During Authorization</span></button>
-						<button role="presentation" aria-controls="post-authorization" class="tablinks pointer-button" onclick="openTab(event, 'post-authorization')"><span>Post Authorization</span></button>
-					</div>
-
-					<div role="tabpanel" aria-labelledby="pre-authorization" id="pre-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Planning for an Initial Authorization</h3>
-
-								<p>3PAOs work with CSPs to develop a project plan for a FedRAMP Authorization. It is recommended that 3PAOs and their CSP engage the FedRAMP PMO, early and often, when beginning an authorization to ask questions and receive guidance on their strategy. </p>
-
-								<p>3PAOs are responsible for executing Readiness Assessment testing when a CSP is pursuing a FedRAMP Ready designation. The RAR, that the 3PAO produces, must&#58;</p>
-								
-								<ul class="red-bullets">
-									<li>Assess a CSO’s operational security capabilities</li>
-									<li>Follow all requirements in accordance with the FedRAMP High RAR Template or FedRAMP Moderate RAR Template</li>
-									<li>Include a clear attestation that is logical and aligns with the proposed residual risk of operating the system - without any conditional or ambiguous attestations</li>
-								</ul>
-
-								<p>The 3PAO must notify FedRAMP, at least two weeks prior to submission of a RAR, via <a tabindex="0" href="mailto:info@fedramp.gov">info@fedramp.gov</a> and engage in additional steps with the FedRAMP PMO throughout the readiness assessment process. The FedRAMP PMO reviews all RARs and, if satisfactory, the CSP system will be designated “FedRAMP Ready.” This designation indicates that a 3PAO attests to a CSO’s readiness for the authorization process. The <a tabindex="0" href="https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">3PAO Readiness Assessment Report Guide</a> provides 3PAOs with best practices to successfully complete a high quality RAR.</p>
-
-							</div>
-						</div>
-					</div>
-
-					<div role="tabpanel" aria-labelledby="during-authorization" id="during-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Conducting Assessments</h3>
-
-								<h4>1) Completing a Security Assessment Plan (SAP)</h4>
-
-								<p><a href="#" tabindex="0">The SAP contains</a> the test plan to assess the security controls of a system. The test plan functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service. The SAP includes the following&#58;</p>
-								<ul class="red-bullets">
-									<li>Penetration Test Plan that is aligned to FedRAMP’s Penetration Test Guidance</li>
-									<li>Inventory Worksheet that coincides with the inventory provided in the SSP</li>
-								</ul>
-
-								<p>The SAP also serves as a rules of engagement, once signed by the CSP and 3PAO, as it includes all applicable rules of engagement for the assessment. It also provides a customized account of the security assessment methodology and indicates that both the CSP and 3PAO are in full concurrence of the security assessment testing scope. AOs are responsible for reviewing and approving the SAP at both the time of the assessment and during continuous monitoring (ConMon), including the&#58;</p>
-								
-								<ul class="red-bullets">
-									<li>FedRAMP Security Test Case Workbook</li>
-									<li>Penetration Testing Plan and Methodology</li>
-									<li>3PAO Supplied Deliverables</li>
-									<li>Penetration Test Rules of Engagement</li>
-									<li>Sampling Methodology</li>
-								</ul>
-
-								<h4>2) Producing a Security Assessment Report (SAR)</h4>
-
-								<p>The SAR contains the results of the CSO’s comprehensive security assessment, including a summary of the risks associated with the vulnerabilities of the system identified during testing.</p>
-
-								<p>The purpose of a SAR is to evaluate the system’s implementation of, and compliance with, the FedRAMP baseline of security controls, and thus the system’s compliance with FISMA security mandates.</p>
-
-								<p>Following the assessment, a 3PAO is responsible for generating the SAR. The document must align with the assessment methodology described in the SAP and address the control detail described in the SSP. An effective SAR should inform a CSP’s Plan of Actions &amp; Milestones (POA&amp;M) and reflect the true risk posture of the system. The 3PAO must provide a clear, independent authorization recommendation that is logical and aligns with the residual risk for operating the system - without any conditional or ambiguous attestations.</p>
-
-								<p>Agency AOs or designees are responsible for reviewing and approving the SAR. They should ensure the appropriate level of testing was done and that the risk posture associated with the system is acceptable to that agency, both at time of assessment and during ConMon.</p>
-
-								<p>In addition to a completed SAR template, 3PAOs should complete and append the following materials to their assessment report&#58;</p>
-								
-							</div>
-						</div>
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-6">
-								<ul class="red-bullets">
-									<li>Risk Exposure Table</li>
-									<li>FedRAMP Security Test Case Workbook</li>
-									<li>Infrastructure Scan Results</li>
-									<li>Database Scan Results</li>
-									<li>Web Application Scan Results</li>
-								</ul>
-							</div>
-							<div class="full-col desktop:grid-col-6">
-								<ul class="red-bullets">
-									<li>Assessment Results</li>
-									<li>Manual Test Results</li>
-									<li>Documentation Review Findings</li>
-									<li>SAR Auxiliary Documents</li>
-									<li>Penetration Test Report</li>
-								</ul>
-							</div>
-						</div>
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<p>An assessor’s completed SAP and SAR is submitted, with the CSP’s System Security Plan (SSP), to form the authorization package. The package is ultimately reviewed and approved by the authorizing agency.</p>
-							</div>
-						</div>				
-					</div>	
-
-					<div role="tabpanel" aria-labelledby="post-authorization" tabindex="0"  id="post-authorization" class="tabcontent desktop:padding-8 padding-4">
-						<div class="full-row grid-row grid-gap">
-							<div class="full-col desktop:grid-col-12">
-								<h3 class="margin-top-0">Continuous Monitoring<span style="text-transform: none; margin-left: 4px;">(ConMon)</span></h3>
-									
-								<p>After an authorization has been granted, the CSO enters continuous monitoring (ConMon). CSPs can engage 3PAOs during the ConMon phase to validate deviation requests, significant changes, and participate in or fully perform monthly assessments. A 3PAO must&#58;</p>
-								
-								<ul class="red-bullets">
-									<li>Submit significant change requests (SCRs), to the JAB or agency AO, at least 30 days before implementing the changes in order to provide time for documentation review and to conduct the assessment.</li>
-									<li>Perform annual testing as required by the CSP and the authorizing agency. </li>
-								</ul>
-
-							</div>
-						</div>
-					</div>
-
-			</div>
-		</div>
-		
+<section class="fedramp-page-container lightest-gray-bkg">
+	<div class="grid-container partners-callout">
 		<div class="full-row grid-row">
 				<div class="full-col desktop:grid-col-12">
-					<div class="callout-box padding-2 margin-top-8">
+					<div class="padding-2">
 						<div class="grid-row padding-y-2">
 							<div class="tablet:grid-col-2">
 								<div class="callout-img-center">
-									<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/icons_3PAOs.png" alt="">
+									<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/fedramp-can-help.svg" alt="">
 								</div>
 							</div>
 							<div class="tablet:grid-col-10 tablet:padding-x-4">
-								<h3 class="no-line callout">How to Become a FedRAMP Recognized 3PAO</h3>
-								<p>In order to become a FedRAMP recognized 3PAO, American Association for Laboratory Accreditation (A2LA) must perform an initial assessment of the 3PAO and provide an initial assessment recommendation to FedRAMP for approval. In order for a 3PAO to maintain its FedRAMP recognition, A2LA must perform a favorable annual review (desk audit) and a full reassessment (on-site audit) every two years. A2LA assessments ensure 3PAOs meet the requirements of ISO/IEC 17020 (as revised) and FedRAMP-specific knowledge requirements.</p>
-
-								<p class="tablet:margin-bottom-0">More information on becoming a FedRAMP recognized 3PAO can be found on the <a href="https://www.a2la.org/accreditation/fedramp">A2LA website</a> <i class="fas fa-external-link-alt"></i>.</p>
-
+								<h3 class="no-line callout">How FedRamp Can Help</h3>
+								<p class="tablet:margin-bottom-0">FedRAMP works with 3PAOs to ensure that they have the guidance and resources needed to complete initial and periodic assessments to meet FedRAMP requirements. The FedRAMP PMO is available to provide support or address questions.</p>
+								<p class="margin-top-4"><a href="{{site.baseurl}}/#" class="partner-learn-more">Get Support</a></p>
 							</div>
 						</div>
 					
@@ -166,5 +44,66 @@ layout: full-width
 				</div>
 			</div>
 	</div>
-	
+</section>
+
+
+<section class="teal-bkg fedramp-page-container">
+	<div class="grid-container">
+		
+		<div class="grid-row">
+			<div class="desktop:grid-col-12">
+				<h2 class="text-white center">Resources for Assessors</h2>
+			</div>
+		</div>
+
+		<div class="grid-row margin-top-4">
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-right-2">
+					<h3 class="margin-top-0 no-line">3PAO JAB P-ATO Roles and Responsibilities</h3>
+					<p>3PAO JAB P-ATO Roles and Responsibilities provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-left-2 partners-card-mobile-row">
+
+					<h3 class="margin-top-0 no-line">3PAO Obligations and Performance Guide</h3>
+					<p>The 3PAO Obligations and Performance Guide is intended for FedRAMP recognized 3PAOs and Independent Assessment Organizations (IAOs) that are interested in becoming recognized by FedRAMP. It outlines expectations regarding assessment quality, which is expected across the government.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="grid-row margin-top-4">
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-right-2">
+					<h3 class="margin-top-0 no-line">3PAO Readiness Assessment Report Guide</h3>
+					<p>3PAO Readiness Assessment Report Guide provides 3PAOs with guidance on how best to utilize the Readiness Assessment Report (RAR). It provides a shared understanding of the RAR’s intent, process, and best practices in service of improving the likelihood of 3PAOs successfully completing the RAR.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-pdf" href="#" target="_blank">Download</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="tablet:grid-col-6">
+				<div class="partners-card padding-4 desktop:margin-left-2 partners-card-mobile-row">
+
+					<h3 class="margin-top-0 no-line">FedRAMP’s Training page</h3>
+					<p>FedRAMP’s Training page has a required path for all 3PAOs, which focus on specific functions, processes, procedures, policies, and/or guidance needed for 3PAOs to successfully complete their assessment of a CSP.</p>
+					<div class="margin-y-6">
+						<a class="partners-download policy-web" href="#" target="_blank">Visit Page</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 </section>
