@@ -1,5 +1,5 @@
 ---
-layout: full-width-learning-no-footer
+layout: full-width-learning
 title: Learning
 permalink: /learning/
 redirect_from: /training/
