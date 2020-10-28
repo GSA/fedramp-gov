@@ -1,5 +1,5 @@
 ---
-layout: page-learning
+layout: page-learning-no-footer
 title: Online Courses
 permalink: /learning/online-courses/
 body-class: page-training
