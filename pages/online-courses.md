@@ -29,7 +29,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This course provides CSPs with a deeper understanding of the detail and rigor required to complete  the <a href="https://www.fedramp.gov/developing-a-system-security-plan/">System Security Plan (SSP)</a>. The SSP is the main document of a security package in which a CSP describes all of the security controls in use on the information system and their implementation. This course will familiarize the CSP with the required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.</p>
 
 <p><strong>Duration:</strong> 36 minutes</p>
-<p>View this course <a href="https://www.youtube.com/watch?v=Ot90vW9jQuk">.</a>(YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=Ot90vW9jQuk">View this course.</a>(YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of the "FedRAMP System Security (SSP) Required Documents" training course.</p>
 			</div>
 <h3 class="accordion">200-B: Security Assessment Plan (SAP)</h3>
@@ -37,7 +37,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This module is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-plan/">Security Assessment Plan (SAP)</a> documents which contain the test plan to assess the security controls of a system. In addition, this course will cover the program’s reporting requirements for the SAP.</p>
 
 <p><strong>Duration:</strong> 32 minutes</p>
-<p>View this course to <a href="https://www.youtube.com/watch?v=k4IfvfqrZic">.</a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=k4IfvfqrZic">View this course.</a> (YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> of the "Security Assessment Plan (SAP)" training course.</p>
 </div>
 
@@ -45,8 +45,8 @@ These online courses consist of on-demand modules designed for specific stakehol
 <div class="panel">
 <p><strong>Description:</strong> This course is designed to help FedRAMP Assessors understand how to write specific sections of the <a href="https://www.fedramp.gov/developing-a-security-assessment-report/">Security Assessment Report (SAR)</a>. The SAR is required by FedRAMP to  evaluate the system’s implementation of, and compliance with, the FedRAMP baseline security controls, and thus the system’s compliance with FISMA security mandates.</p>
 
-<p><strong>Duration:</strong> 1 hour</p>
-<p>View this course <a href="https://www.youtube.com/watch?v=d6RU12WIj4E">.</a> (YouTube)</p>
+<p><strong>Duration:</strong> 36 minutes</p>
+<p><a href="https://www.youtube.com/watch?v=d6RU12WIj4E">View this course.</a> (YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> of the "Security Assessment Report (SAR)" training course.</p>
 </div>
 
@@ -55,7 +55,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This course provides guidance on <a href="https://www.fedramp.gov/conducting-continuous-monitoring/">continuous monitoring</a> and ongoing authorization in support of maintaining a security authorization that meets the FedRAMP requirements. This course is structured for a CSP going through the JAB path with a Third Party Assessment Organization (3PAO), or a 3PAO, conducting an assessment of the cloud system.</p>
 
 <p><strong>Duration:</strong> 33 minutes</p>
-<p>View this course <a href="https://www.youtube.com/watch?v=gQWctMjfH2M">.</a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=gQWctMjfH2M">View this course.</a> (YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of the "Continuous Monitoring (ConMon) Overview" training course.</p>
 </div>
 
@@ -64,7 +64,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This course gives an overview for a CSP of how to properly write a control that will satisfy the program’s requirements. This course is designed for a CSP pursuing a JAB authorization with a 3PAO, or a 3PAO conducting an assessment of the cloud system.</p>
 
 <p><strong>Duration:</strong> 42 minutes</p>
-<p>View this course <a href="https://www.youtube.com/watch?v=-geuTUFA8-g">.</a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=-geuTUFA8-g">View this course.</a>(YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> of the "How to Write a Control" training course.</p>
 </div>
 </div>
@@ -98,37 +98,37 @@ These online courses consist of on-demand modules designed for specific stakehol
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP. A SAP contains the test plan to assess the security controls of a system and functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service offering.</p>
 	
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 
 <h3 class="accordion">300-C: 3PAO Security Assessment Report (SAR) Guidance</h3>
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAR.</p>
 
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 
 <h3 class="accordion">300-D: 3PAO Documenting Evidence Procedures</h3>
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and how to populate the SAR.</p>
 
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 
 <h3 class="accordion">300-E: 3PAO Vulnerability Scanning Methodology and Documentation</h3>
 <div class="panel">
 <p>This course describes the FedRAMP Vulnerability Scanning and the Testing Criteria, including Timeliness/Accuracy of Testing requirements. Identifies CSP and 3PAO requirements for vulnerability scanning on a system and teaches how to document results to meet FedRAMP requirements for initial authorization assessments and annual assessments. Discusses the inter-relationships between the vulnerability scanning methodology, Continuous Monitoring requirements, and the FedRAMP Continuous Monitoring performance management guide.</p>
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 <h3 class="accordion">300-F: 3PAO Review of Security Assessment Report (SAR) Tables</h3>
 <div class="panel">
 <p>This course provides 3PAOs with a detailed description of each SAR table and the information required to correctly populate each table. Populating FedRAMP SAR Tables can be a challenge and this course identifies five common SAR table mistakes, how to avoid making them, and how to accurately document and total deficiencies and findings.</p>
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
 <p>This course provides an overview of how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
-<p>This course is currently unavailable.</p>
+<p>*This course is currently unavailable.</p>
 </div>
 <div id="path-four">
 <h2>Path 4: Federal Agencies</h2>
