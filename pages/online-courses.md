@@ -105,14 +105,14 @@ These online courses consist of on-demand modules designed for specific stakehol
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAR.</p>
 
-<p>*This course is currently unavailable.</p>
+<p><em>This course is currently unavailable.</em></p>
 </div>
 
 <h3 class="accordion">300-D: 3PAO Documenting Evidence Procedures</h3>
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for documenting evidence collected during the assessment and how to populate the SAR.</p>
 
-<p>*This course is currently unavailable.</p>
+<p><em>This course is currently unavailable.</em></p>
 </div>
 
 <h3 class="accordion">300-E: 3PAO Vulnerability Scanning Methodology and Documentation</h3>
@@ -123,12 +123,12 @@ These online courses consist of on-demand modules designed for specific stakehol
 <h3 class="accordion">300-F: 3PAO Review of Security Assessment Report (SAR) Tables</h3>
 <div class="panel">
 <p>This course provides 3PAOs with a detailed description of each SAR table and the information required to correctly populate each table. Populating FedRAMP SAR Tables can be a challenge and this course identifies five common SAR table mistakes, how to avoid making them, and how to accurately document and total deficiencies and findings.</p>
-<p>*This course is currently unavailable.</p>
+<p><em>This course is currently unavailable.</em></p>
 </div>
 <h3 class="accordion">300-G: Readiness Assessment Report (RAR) Preparation</h3>
 <div class="panel">
 <p>This course provides an overview of how the FedRAMP security requirements must align with a CSP’s system security capabilities before the CSP system can be approved as FedRAMP Ready.</p>
-<p>*This course is currently unavailable.</p>
+<p><em>This course is currently unavailable.</em></p>
 </div>
 <div id="path-four">
 <h2>Path 4: Federal Agencies</h2>
