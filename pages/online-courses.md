@@ -38,7 +38,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 32 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=k4IfvfqrZic">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> this course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> of this course.</p>
 </div>
 
 <h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
@@ -47,7 +47,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 36 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=d6RU12WIj4E">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> this course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> of this course.</p>
 </div>
 
 <h3 class="accordion">200-D: Continuous Monitoring (ConMon) Overview</h3>
@@ -56,7 +56,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 33 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=gQWctMjfH2M">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of the this course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of this course.</p>
 </div>
 
 <h3 class="accordion">201-B: How to Write a Control</h3>
@@ -65,7 +65,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 42 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=-geuTUFA8-g">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> this course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> of this course.</p>
 </div>
 </div>
 <div id="path-three">
