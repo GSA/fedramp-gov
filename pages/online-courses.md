@@ -18,7 +18,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
 <p><strong>Duration:</strong> 23 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=zvq5L1xXhYY"> View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">PDF version</a> of this course.</p>
 </div>
 </div>
 <div id="path-two">
@@ -30,7 +30,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 36 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=Ot90vW9jQuk">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of the "FedRAMP System Security (SSP) Required Documents" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-A-FedRAMP-Training-FedRAMP-System-Security-Plan-SSP-Required-Documents.pdf">PDF version</a> of this course.</p>
 			</div>
 <h3 class="accordion">200-B: Security Assessment Plan (SAP)</h3>
 <div class="panel">
@@ -38,7 +38,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 32 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=k4IfvfqrZic">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> of the "Security Assessment Plan (SAP)" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-B-FedRAMP-Training-Security-Assessment-Plan-SAP.pdf">PDF version</a> this course.</p>
 </div>
 
 <h3 class="accordion">200-C: Security Assessment Report (SAR)</h3>
@@ -47,7 +47,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 36 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=d6RU12WIj4E">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> of the "Security Assessment Report (SAR)" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-C-FedRAMP-Training-Security-Assessment-Report-SAR.pdf">PDF version</a> this course.</p>
 </div>
 
 <h3 class="accordion">200-D: Continuous Monitoring (ConMon) Overview</h3>
@@ -56,7 +56,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 33 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=gQWctMjfH2M">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of the "Continuous Monitoring (ConMon) Overview" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/200-D-FedRAMP-Training-Continuous-Monitoring-ConMon-Overview.pdf">PDF version</a> of the this course.</p>
 </div>
 
 <h3 class="accordion">201-B: How to Write a Control</h3>
@@ -65,7 +65,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 
 <p><strong>Duration:</strong> 42 minutes</p>
 <p><a href="https://www.youtube.com/watch?v=-geuTUFA8-g">View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> of the "How to Write a Control" training course.</p>
+<p>Download a <a href="{{site.baseurl}}/assets/resources/training/201-B-FedRAMP-Training-How-to-Write-a-Control.pdf">PDF version</a> this course.</p>
 </div>
 </div>
 <div id="path-three">
