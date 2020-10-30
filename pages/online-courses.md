@@ -17,7 +17,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <div class="panel">
 <p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
 <p><strong>Duration:</strong> 23 minutes</p>
-<p>View this course <a href="https://www.youtube.com/watch?v=zvq5L1xXhYY">.</a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=zvq5L1xXhYY"> View this course.</a> (YouTube)</p>
 <p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">"PDF version"</a> of this course.</p>
 </div>
 </div>
