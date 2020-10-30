@@ -98,7 +98,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <div class="panel">
 <p>This course provides 3PAOs with guidance on FedRAMP requirements for creating a robust SAP. A SAP contains the test plan to assess the security controls of a system and functions as a detailed roadmap of the approach and methodology for the assessment of a CSP’s cloud service offering.</p>
 	
-<p>*This course is currently unavailable.</p>
+<p>*This course is currently unavailable.*</p>
 </div>
 
 <h3 class="accordion">300-C: 3PAO Security Assessment Report (SAR) Guidance</h3>
