@@ -107,15 +107,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf">Agency Authorization - Best Practices for CSPs</a></td>
-    <td>Geared towards CSPs interested in or beginning the Agency Authorization process, this document helps CSPs understand how to partner with an Agency and engage with the PMO during the authorization process.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Agency_Authorization_Best_Practices_for_CSPs.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>10/12/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
     <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf">CSP JAB P-ATO Roles and Responsibilities</a></td>
     <td>This document provides an overview of a CSP’s roles and responsibilities in the JAB P-ATO Process.</td>
     <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf"><i class="fas fa-file-pdf"></i>
@@ -140,24 +131,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>3/26/2020</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a></td>
-    <td>This document has been developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets FedRAMP requirements. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>2/21/2018</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf">Transport Layer Security (TLS) Requirements</a></td>
-    <td>This document summarizes NIST and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS) protocols and restrict the use of older protocols. FedRAMP is following NIST guidance and this document describes how FedRAMP intends to implement it.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/CSP_TLS_Requirements.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>4/4/2018</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Cloud Service Provider (CSP) Documents</td>
@@ -284,24 +257,6 @@ Designation of FedRAMP 3PAO accreditation and FedRAMP Security Authorization</td
     <p class="icon-text">PDF</p></a>
     </td>
     <td>11/28/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Agency Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf">Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</a></td>
-    <td> This document provides a summary review of the roles and responsibilities of the Agency, CSP, and FedRAMP PMO during the Agency authorization process.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>12/5/2017</td>
-  </tr>
-  <tr>
-    <td style="font-weight:bold;">Key Agency Documents</td>
-    <td><a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf">Agency Authorization - Best Practices for Agencies</a></td>
-    <td>A two-page document developed to provide a concise view of best practices specific to an Agency’s role in the authorization process.</td>
-    <td><a class="icon-link" href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Best_Practices_for_Agencies.pdf"><i class="fas fa-file-pdf"></i>
-    <p class="icon-text">PDF</p></a>
-    </td>
-    <td>10/12/2017</td>
   </tr>
   <tr>
     <td style="font-weight:bold;">Key Agency Documents</td>
