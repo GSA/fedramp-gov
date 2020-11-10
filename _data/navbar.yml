@@ -75,9 +75,9 @@ assigned:
         show_in_footer: false
         sub:
         - 
-            text: Policy & Guidance
+            text: Documents & Templates
             href: pages/policy-guidance.md
-            permalink: /policy-guidance/
+            permalink: /documents-templates/
             show_in_menu: true
             show_in_footer: false
         - 
