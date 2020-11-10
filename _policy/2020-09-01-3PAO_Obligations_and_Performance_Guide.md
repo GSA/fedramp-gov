@@ -16,5 +16,4 @@ tags:
   - four
 ---
 Form that must be completed to gain access to a FedRAMP security assessment package.
-
-[pdf - 458kb]
+File type and size: PDF - 458kb
