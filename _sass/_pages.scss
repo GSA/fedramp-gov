@@ -145,6 +145,13 @@ relevant-documents.page--banner {
 
 /* --- Partners ---- */
 
+span.file-type, div.file-type {
+	color: $mid-gray;
+	font-size: 0.875rem;
+	white-space: nowrap;
+	display: inline;
+}
+
 .partners-main-top-tablet {
 	display: none;
 }
@@ -156,6 +163,11 @@ relevant-documents.page--banner {
 	h3 {
 		text-align: left !important;
 		text-transform: none;
+	}
+	
+	p {
+		display: inline;
+		padding-right: 10px;
 	}
 }
 

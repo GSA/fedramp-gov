@@ -139,6 +139,8 @@ button.clear-results {
 	
 	p {
 		font-size: 0.875rem;
+		display: inline;
+		padding-right: 10px;
 	}
 	
 	.policy-document-date {
@@ -161,6 +163,10 @@ button.clear-results {
 			padding-left: 2rem;
 		}
 	}
+}
+
+.policy-tags {
+	margin-top: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 1099px) {
