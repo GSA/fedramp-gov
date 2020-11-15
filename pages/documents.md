@@ -332,6 +332,3 @@ reuse authorized cloud products within the FedRAMP Marketplace. </td>
     <td>6/6/2017</td>
   </tr>
 </table>
-td>
-  </tr>
-</table>
