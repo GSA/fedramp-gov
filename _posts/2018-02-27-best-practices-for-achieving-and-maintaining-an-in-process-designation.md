@@ -7,6 +7,8 @@ author: FedRAMP
 layout: blog-page
 tags: learning-more-about-fedramp
 ---
+**Since this blog was released, FedRAMP updated our documentation and please reference the updated <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf">Marketplace Guidance</a> which outlines the various FedRAMP designations for CSOs and provides details for industry and Agencies in achieving and maintaining FedRAMP status on the Marketplace.
+
 Building upon earlier guidance, the PMO has identified a number of best practices that enable CSPs to achieve and maintain an “In Process” designation and achieve an Agency Authority to Operate (ATO). An “In Process” designation indicates that a CSP is actively working on the documentation required to achieve a FedRAMP Authorization, and that an agency is reviewing that documentation with the intent to provide an ATO that meets the FedRAMP requirements. 
 
 Requirements for gaining an “In Process” Designation can be found <a href="{{site.baseurl}}/assets/resources/documents/Agency_Authorization_Obtaining_In_Process_Designation.pdf">here</a>. A CSP who has achieved an “In Process” designation is listed on FedRAMP’s [Marketplace](https://marketplace.fedramp.gov/#/products). 
