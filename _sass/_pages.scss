@@ -169,6 +169,20 @@ relevant-documents.page--banner {
 	}
 }
 
+@media (min-width: 0px) and (max-width: 639px) {
+	.partners-images {
+		margin-bottom: 2rem;
+	}
+	
+	.partners-main-top-tablet {
+		padding-top: 0;
+		
+		p {
+			margin-top: 0;
+		}
+	}
+}
+
 
 
 span.file-type, div.file-type {
