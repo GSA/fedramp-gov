@@ -96,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.3em;
 }
 
-
 .grid-row, .basics-col {
 	h2 {
 		font-weight: 400;
@@ -109,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 		color: $theme-color-primary-vivid;
 	}
 	
-	h2::after {
+	/* h2::after {
 		content: "";
 		display: block;
 		padding-top: 20px;
@@ -120,6 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 	h2.text-white::after {
 		border-bottom: solid 1px white;
 	}
+	
+	*/
 	
 	h2.center {
 		text-align: center;
@@ -250,7 +251,9 @@ h6 {
 .intro-text p, .intro-text li {
 	font-size: 1.25rem;
 	margin: 0 0 1.5rem 0;
+	color: $intro-text;
 	line-height: 1.875rem;
+	font-family: $serif-font;
 	font-weight: 300 !important;
 }
 
@@ -509,6 +512,7 @@ a {
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;
+		letter-spacing: 0.078125rem;
 	}
 }
 
