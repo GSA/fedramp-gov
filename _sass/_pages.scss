@@ -172,6 +172,26 @@ relevant-documents.page--banner {
 
 */
 
+@media (min-width: 0px) and (max-width: 800px) {
+	.partners-mobile  {
+		display: block;
+		width: 80%;
+		margin-bottom: 1rem;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 979px) {
+	.partners-tablet  {
+		display: block;
+	}
+}
+
+@media (min-width: 980px) {
+	.partners-desktop  {
+		display: block;
+	}
+}
+
 @media (min-width: 0px) and (max-width: 639px) {
 	.partners-images {
 		margin-bottom: 2rem;
