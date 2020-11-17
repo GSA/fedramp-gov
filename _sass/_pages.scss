@@ -175,8 +175,13 @@ relevant-documents.page--banner {
 @media (min-width: 0px) and (max-width: 800px) {
 	.partners-mobile  {
 		display: block;
-		width: 80%;
 		margin-bottom: 1rem;
+	}
+	
+	.mobile-partners {
+		display: block;
+		width: 80%;
+		margin: auto;
 	}
 }
 
