@@ -4,6 +4,7 @@ title: 3PAO JAB P-ATO Roles and Responsibilities
 category: Key Assessor Documents
 filename: 3PAO_Roles_and_Responsibilities.pdf
 filetype: pdf
+fileinfo: 3.5MB
 condition: new
 partner: Agencies
 doctype:
@@ -17,6 +18,4 @@ tags:
   - three
   - four
 ---
-This document provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.	
-
-[pdf - 3.5MB]
+This document provides an overview of a 3PAO’s roles and responsibilities in the JAB P-ATO Process.

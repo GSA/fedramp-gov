@@ -213,11 +213,9 @@ relevant-documents.page--banner {
 
 
 
-span.file-type, div.file-type {
-	color: $mid-gray;
-	font-size: 0.875rem;
+.file-type {
+	font-size: 0.75rem !important;
 	white-space: nowrap;
-	display: inline;
 }
 
 .partners-card {
@@ -695,6 +693,7 @@ ul.governance-checklist li .check {
 p.faq-search-text {
 	font-size: 1.15625rem;
 	font-weight: 800 !important;
+	margin: 1.5rem 0;
 }
 
 .faq-search.policy-search {

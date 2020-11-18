@@ -139,8 +139,11 @@ button.clear-results {
 	
 	p {
 		font-size: 0.875rem;
-		display: inline;
 		padding-right: 10px;
+	}
+	
+	span.policy-type-info {
+		text-transform: uppercase;
 	}
 	
 	.policy-document-date {

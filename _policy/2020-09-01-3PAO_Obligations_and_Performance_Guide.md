@@ -5,6 +5,7 @@ category: Key Assessor Documents
 weblink:
 filename: 3PAO_Obligations_and_Performance_Guide.pdf
 filetype: pdf
+fileinfo: 458KB
 condition: new
 partner: Assessors
 doctype:
@@ -16,4 +17,3 @@ tags:
   - four
 ---
 Form that must be completed to gain access to a FedRAMP security assessment package.
-<div class="file-type">[PDF - 458kb]</div>
