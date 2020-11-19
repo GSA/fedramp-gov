@@ -120,14 +120,6 @@ p.blog-list-text {
 	color: $mid-gray !important;
 }
 
-h2.blog-list::after {
-		content: "";
-		display: block;
-		padding-top: 24px;
-		border-bottom: solid 1px white;
-		width: 88px;
-}
-
 h3.blog-list {
 	margin-top: 8px;
 	margin-bottom: 0;

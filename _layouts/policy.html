@@ -181,7 +181,10 @@ layout: full-width
 
 								<h3>{{ doc.title }}</h3>
 								{{ doc.content }}
-								<p class="file-type">[File Info: <span class="policy-type-info">{{ doc.filetype }} - {{ doc.fileinfo }}</span>]</p>
+								
+								{% if doc.filetype == "web" %}<p class="display-none">Webpage</p>{% else %}<p class="file-type">[File Info: <span class="policy-type-info">{{ doc.fileinfo }}</span>]</p>{% endif %}
+							
+								
 								<div class="policy-tags">
 									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
 									{% for tag in doc.tags %}
