@@ -4,7 +4,6 @@ name: Ryan Hoesing
 image: /assets/img/team/profile_RyanHoesing.jpg
 title: Customer Success Manager
 body-class: page-team-single
-linkedin: https://www.linkedin.com/in/ryan-hoesing-b70066115/
 date: 2018-01-04
 order: 500
 ---
