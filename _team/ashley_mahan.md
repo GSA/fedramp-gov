@@ -5,7 +5,6 @@ image: /assets/img/team/profile_AshleyMahan.jpg
 drawer-id: AshleyMahan
 title: Secure Cloud Portfolio & FedRAMP Director 
 body-class: page-team-single
-linkedin: https://www.linkedin.com/in/ashleymahan
 date: 2018-01-01
 order: 100
 
