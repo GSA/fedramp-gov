@@ -197,7 +197,7 @@ layout: full-width
 							</div>
 							<div class="desktop:grid-col-3 desktop:margin-top-0 margin-top-4">
 								{% if doc.weblink == "" or doc.weblink == nil %}
-									<a class="policy-download policy-{{ doc.filetype }}" href="{{ site.baseurl }}/assets/resources/documents/{{ doc.filename }}" target="_blank">
+									<a class="policy-download policy-{{ doc.filetype }}" href="{{ site.baseurl }}/assets/resources/{{ doc.filename }}" target="_blank">
 								{% else %}
 									<a class="policy-download policy-{{ doc.filetype }}" href="{{ doc.weblink }}" target="_blank">
 								{% endif %}
