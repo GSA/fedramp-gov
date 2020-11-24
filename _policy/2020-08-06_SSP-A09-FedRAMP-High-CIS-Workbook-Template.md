@@ -4,7 +4,7 @@ title: SSP ATTACHMENT 9 - FedRAMP High Control Implementation Summary (CIS) Work
 category: Initial Authorization Phase-Document_System Security Plan (SSP)
 weblink:
 filename: templates/SSP-A09-FedRAMP-High-CIS-Workbook-Template.xlsx
-filetype: Excel
+filetype: excel
 fileinfo: Excel - 314KB
 condition: new
 partner: All Partners
