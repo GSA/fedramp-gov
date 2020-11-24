@@ -12,6 +12,5 @@ doctype:
   - Document
 tags:
   - Program Documents
-
 ---
 This document is a master list of FedRAMP acronyms and program definitions.
