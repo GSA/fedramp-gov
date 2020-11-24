@@ -3,7 +3,7 @@ layout: policy
 title: Branding Guidance
 category: FedRAMP Program Documents
 weblink:
-filename: FedRAMP_Branding_Guidance.pdf
+filename: documents/FedRAMP_Branding_Guidance.pdf
 filetype: pdf
 fileinfo: PDF - 656KB
 condition: new
