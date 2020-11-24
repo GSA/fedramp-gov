@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: SSP ATTACHMENT 9 - FedRAMP Low or Moderate Control Implementation Summary (CIS) Workbook Template
-category: Initial Authorization Phase- Document: System Security Plan (SSP)
+category: Initial Authorization Phase-Document: System Security Plan (SSP)
 weblink:
 filename: templates/SSP-A09-FedRAMP-Low-or-Moderate-CIS-Workbook-Template.xlsx
 filetype: excel
