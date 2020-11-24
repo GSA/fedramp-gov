@@ -27,10 +27,11 @@ Below provides more details regarding FedRAMP’s approach to making these updat
 
 Additionally, the PMO has developed a brief video that covers the Rev5 transition process. 
 
-
+<p>
 <div class="video-responsive">
 <iframe width="560" height="420" style="width:  90%; margin-left: 5%;" src="https://www.youtube.com/embed/MwzkJ1EEAVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+</p>
 
 <p><i>You can view this video and others on our <a href="www.youtube.com/fedramp">FedRAMP YouTube channel.</a></i></p>
 
