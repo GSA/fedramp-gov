@@ -32,7 +32,7 @@ Additionally, the PMO has developed a brief video that covers the Rev5 transitio
 <iframe width="560" height="420" style="width:  90%; margin-left: 5%;" src="https://www.youtube.com/embed/MwzkJ1EEAVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-*You can view this video and others on our <a href="www.youtube.com/fedramp">FedRAMP YouTube channel.</a>*
+<p><i>You can view this video and others on our <a href="www.youtube.com/fedramp">FedRAMP YouTube channel.</a></i></p>
 
 <p>We will continue to keep the FedRAMP community informed and if there are any questions, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.</p>
 
