@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: 3PAO Obligations and Performance Guide
+title: 3PAO Obligations: and Performance Guide
 category: Key Assessor Documents
 weblink:
 filename: documents/3PAO_Obligations_and_Performance_Guide.pdf
