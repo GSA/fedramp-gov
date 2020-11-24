@@ -23,7 +23,7 @@ Below provides more details regarding FedRAMP’s approach to making these updat
 <p>FedRAMP will review and adjudicate public comments and update the FedRAMP baselines (including OSCAL versions) and associated documents, templates, and guidance accordingly.</p>
 
 <b>Step 4: Release Final Rev5 FedRAMP Baseline Documentation Updates, and CSP Implementation Plan</b>
-<p>FedRAMP will publish the final version of FedRAMP’s updated baselines (including OSCAL versions), associated documentation and templates, an implementation guide, and compliance timeline. Additionally, FedRAMP will provide training and educational forums on the updates and transition process, and will be available to answer questions.<p> 
+FedRAMP will publish the final version of FedRAMP’s updated baselines (including OSCAL versions), associated documentation and templates, an implementation guide, and compliance timeline. Additionally, FedRAMP will provide training and educational forums on the updates and transition process, and will be available to answer questions.
 
 Additionally, the PMO has developed a brief video that covers the Rev5 transition process. 
 
