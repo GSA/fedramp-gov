@@ -9,7 +9,7 @@ layout: full-width
 			</div>
 		</div>
 		
-		<div class="full-row grid-row tablet:padding-top-2 grid-gap">
+		<div class="full-row grid-row tablet:padding-top-2 grid-gap padding-bottom-4">
 			<div class="full-col desktop:grid-col-6">
 				<img src="" />
 			</div>
@@ -23,10 +23,10 @@ layout: full-width
 </section>
 
 <section class="lightest-gray-bkg fedramp-page-container">
-	<div class="grid-container">
+	<div class="grid-container auth-container">
 		<div class="full-row grid-row padding-top-2">
 			<div class="full-col desktop:grid-col-12">
-				<p>The JAB is the primary governing body for FedRAMP and includes representatives from the Department of Defense (DoD), Department of Homeland Security (DHS), and General Services Administration (GSA).</p>
+				<p><strong>The JAB is the primary governing body for FedRAMP and includes representatives from the Department of Defense (DoD), Department of Homeland Security (DHS), and General Services Administration (GSA).</strong></p>
 
 				<p>The JAB selects approximately 12 cloud products a year to work with for a JAB Provisional Authority to Operate (P-ATO). Additionally, the JAB is responsible for performing the continuous monitoring for all JAB authorized cloud products. Below is a high-level overview of the JAB Provisional Authorization Process. More detailed information on the process is provided in the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf" target="_blank">JAB P-ATO CSP Roles &amp; Responsibilities</a>.</p>
 			</div>
@@ -38,11 +38,13 @@ layout: full-width
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
 			<div class="full-col desktop:grid-col-12">
-				<h2 class="center">The JAB Authorization Process</h2>
-				<img class="display-none auth-graphic-580" src="{{site.baseurl}}/assets/img/JAB-Authorization-Process_580.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
-				<img class="display-none auth-graphic-768" src="{{site.baseurl}}/assets/img/JAB-Authorization-Process_768.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
-				<img class="display-none auth-graphic-980" src="{{site.baseurl}}/assets/img/JAB-Authorization-Process_980.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
-				<img class="display-none auth-graphic-1200" src="{{site.baseurl}}/assets/img/JAB-Authorization-Process_1200.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
+				<h2 class="center" style="margin-bottom: 2rem;">JAB Authorization Process</h2>
+				
+				<div class="text-center">
+					<img class="display-none auth-graphic-mobile" src="{{site.baseurl}}/assets/img/jab-auth-process-mobile.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
+					<img class="display-none auth-graphic-tablet" src="{{site.baseurl}}/assets/img/jab-auth-process-tablet.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
+					<img class="display-none auth-graphic-desktop" src="{{site.baseurl}}/assets/img/jab-auth-process-desktop.svg" alt="To become certified in the JAB path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="jab-description">
+				</div>
 				
 				<div id="jab-description" style="display: none;">
 					<p>If the JAB path is the selected authorization process, the first major phase is preparation. There are two steps within this phase: FedRAMP Connect and the readiness assessment, which is required unlike in the agency process. As a part of the FedRAMP connect step a CSP must submit the FedRAMP connect business case and then become prioritized to work with JAB. After this the CSP begins the readiness assessment step, beginning with securing an RAR development which is then reviewed by the FedRAMP PMO. Remediation will take place if needed followed by the issuing of the FedRAMP ready designation. </p>
@@ -57,15 +59,15 @@ layout: full-width
 
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-1.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-8 intro-text">
 				<h2 class="text-white">Preparation</h2>
-				<p class="text-white">The Preparation phase consists of three steps: <strong>FedRAMP Connect</strong>, <strong>Readiness Assessment</strong>, and the <strong>Full Security Assessment</strong>. Timetables associated with this phase vary depending on a CSO’s architecture and current security posture compared to federal requirements.</p>
+				<p class="text-white auth-steps-text">The Preparation phase consists of three steps: <strong>FedRAMP Connect</strong>, <strong>Readiness Assessment</strong>, and the <strong>Full Security Assessment</strong>. Timetables associated with this phase vary depending on a CSO’s architecture and current security posture compared to federal requirements.</p>
 			</div>
 		</div>
 	</div>
@@ -73,8 +75,8 @@ layout: full-width
 
 <section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-8">
+		<div class="full-row grid-row grid-gap step-reversed">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">FedRAMP Connect</h3>
 
 				<p>The JAB prioritizes approximately 12 CSOs each year. The JAB evaluates CSOs through a process called <strong>FedRAMP Connect</strong>.</p>
@@ -83,9 +85,8 @@ layout: full-width
 				
 			</div>
 				
-			<div class="full-col desktop:grid-col-4">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/jab-preparation-1.svg" class="step-reversed" alt="" />
 			</div>
 		</div>
 	</div>
@@ -94,11 +95,11 @@ layout: full-width
 <section class="lightest-gray-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-4">
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/jab-preparation-2.svg" class="" alt="" />
 			</div>
 				
-			<div class="full-col desktop:grid-col-8">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Readiness Assessment</h3>
  
 				<p>In order to kick-off with the JAB, CSPs must achieve the “FedRAMP Ready” JAB designation for their CSO. If the JAB selects a CSO that has not yet achieved FedRAMP Ready status, the CSP has 60 days to become FedRAMP Ready to JAB standards. </p>
@@ -112,8 +113,8 @@ layout: full-width
 
 <section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-8">
+		<div class="full-row grid-row grid-gap step-reversed">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Full Security Assessment</h3>
 
 				<p>During this step, after a CSO is both prioritized to work with the JAB and deemed FedRAMP Ready:</p>
@@ -130,23 +131,22 @@ layout: full-width
 				
 			</div>
 				
-			<div class="full-col desktop:grid-col-4">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/jab-preparation-3.svg" class="step-reversed" alt="" />
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-2.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-8 intro-text">
 				<h2 class="text-white">Authorization</h2>
-				<p class="text-white">The Authorization phase consists of the authorization kick-off, security deliverable review and P-ATO issuance from the JAB. Timetables associated with this phase are approximately 3 - 6 months. </p>
+				<p class="text-white auth-steps-text">The Authorization phase consists of the authorization kick-off, security deliverable review and P-ATO issuance from the JAB. Timetables associated with this phase are approximately 3 - 6 months. </p>
 			</div>
 		</div>
 	</div>
@@ -155,7 +155,7 @@ layout: full-width
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-8 tablet:padding-bottom-4">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">JAB Authorization Process</h3>
 
 				<p>The JAB Authorization Process uses an agile methodology with multiple stage gates and the “fail fast” principle. The first stage gate is JAB Kick-Off. During this step, the CSP, 3PAO, and FedRAMP collaboratively review the CSO’s system architecture, security capabilities, and risk posture. Based on the outcome of the kickoff meeting, the JAB will issue a “go” or “no-go” decision to proceed with the authorization. </p>
@@ -169,23 +169,22 @@ layout: full-width
 				
 			</div>
 				
-			<div class="full-col desktop:grid-col-4">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/jab-authorization-1.svg" class="" alt="" />
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-3.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-8 intro-text">
 				<h2 class="text-white">Continuous Monitoring</h2>
-				<p class="text-white">The continuous monitoring phase consists of post authorization activities in support of maintaining a security authorization that meets the FedRAMP requirements.</p>
+				<p class="text-white auth-steps-text">The continuous monitoring phase consists of post authorization activities in support of maintaining a security authorization that meets the FedRAMP requirements.</p>
 			</div>
 		</div>
 	</div>
@@ -194,7 +193,7 @@ layout: full-width
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-8">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Post Authorization</h3>
 
 				<p>During the continuous monitoring phase, a CSP must continue to provide monthly continuous monitoring deliverables, to include incident reporting, to the JAB and agencies that are using their service. While each agency’s Authorizing Official (AO) maintains the final approval authority for the use of a system by that agency, the JAB acts as a focal point for continuous monitoring activities of systems with a P-ATO. The JAB:</p>
@@ -209,9 +208,8 @@ layout: full-width
 				
 			</div>
 				
-			<div class="full-col desktop:grid-col-4">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/conmon.svg" class="" alt="" />								
 			</div>
 		</div>
 	</div>
@@ -224,7 +222,7 @@ layout: full-width
 				<div class="full-row grid-row grid-gap">
 					<div class="full-col grid-col-10 grid-offset-1 padding-bottom-4">
 						<h2 class="text-center">Resources</h2>
-						<p class="text-center">The resources below provide additional guidance on the JAB Provisional Authorization path. Additional technical guidance as well as FedRAMP templates are located on our Policy & Guidance page under Resources.</p>
+						<p class="text-center">The resources below provide additional guidance on the JAB Provisional Authorization path. Additional technical guidance as well as FedRAMP templates are located on our <a href="{{site.baseurl}}/documents-templates/">Documents & Templates</a> page under Resources.</p>
 					</div>
 				</div>
 			</div>
@@ -238,7 +236,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-9">
 						<h3>CSP JAB P-ATO Roles and Responsibilities</h3>
 						<p>This document provides an overview of a CSP’s roles and responsibilities in the JAB P-ATO Process.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf" target="_blank">download</a> [PDF - 234KB ]</p>
 					</div>
 				</div>
 				
@@ -249,7 +247,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-9">
 						<h3>JAB Prioritization Criteria and Guidance</h3>
 						<p>This document outlines the criteria by which CSPs are prioritized to work with the JAB, the prioritization process, and the Business Case requirements.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf" target="_blank">download</a> [PDF - 398KB ]</p>
 					</div>
 				</div>
 				
@@ -260,7 +258,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-9">
 						<h3>FedRAMP Authorization Boundary Guidance</h3>
 						<p>This document provides CSPs guidance for developing the authorization boundary for their offering(s) which is required for their FedRAMP authorization package.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf" target="_blank">download</a> [PDF - 293KB ]</p>
 					</div>
 				</div>
 			</div>

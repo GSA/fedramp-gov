@@ -22,8 +22,8 @@ layout: full-width
 </section>
 
 <section class="lightest-gray-bkg fedramp-page-container">
-	<div class="grid-container">
-		<div class="full-row grid-row">
+	<div class="grid-container auth-container">
+		<div class="full-row grid-row grid-gap">
 			<div class="full-col desktop:grid-col-12">
 				<p><strong>A CSP determines which authorization path to take. In the Agency Authorization path, agencies may work directly with a CSP for authorization at any time. CSPs that make a business decision to work directly with an agency to pursue an Authority to Operate (ATO) will work with the agency throughout the FedRAMP Authorization process.</strong></p>
 
@@ -33,16 +33,18 @@ layout: full-width
 	</div>
 </section>
 
-<section class="">
+<section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row">
-			<div class="full-col desktop:grid-col-12">
-				<h2 class="center">The Authorization Process</h2>
-				<img class="display-none auth-graphic-580" src="{{site.baseurl}}/assets/img/Agency-Authorization-Process_580.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
-				<img class="display-none auth-graphic-768" src="{{site.baseurl}}/assets/img/Agency-Authorization-Process_768.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
-				<img class="display-none auth-graphic-980" src="{{site.baseurl}}/assets/img/Agency-Authorization-Process_980.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
-				<img class="display-none auth-graphic-1200" src="{{site.baseurl}}/assets/img/agency-auth-process-desktop.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
+		<div class="full-row grid-row grid-gap">
+			<div class="full-col desktop:grid-col-12 text-center">
+				<h2 class="center" style="margin-bottom: 2rem;">The Authorization Process</h2>
 				
+				<div class="text-center">
+					<img class="display-none auth-graphic-mobile" src="{{site.baseurl}}/assets/img/agency-auth-process-mobile.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
+					<img class="display-none auth-graphic-tablet" src="{{site.baseurl}}/assets/img/agency-auth-process-tablet.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
+					<img class="display-none auth-graphic-desktop" src="{{site.baseurl}}/assets/img/agency-auth-process-desktop.svg" alt="To become certified in the agency path, a CSP must complete the preparation and authorization phases in order while undergoing continuous monitoring." aria-describedby="agency-description">
+				</div>
+								
 				<div id="agency-description" style="display: none;">
 					<p>If the agency path is the selected authorization process, the first major phase is preparation. There are two steps in the preparation phase: pre-authorization, which is required, and readiness assessment, which is optional but highly recommended. For pre-authorization a CSP must begin with a partnership establishment then undergo authorization planning to participate in a kick-off meeting. From here, the CSP has the option of working through the optional readiness assessment step, which begins with RAR development. Followed by this is the FedRAMP PMO review of RAR. A remediation will then occur, but only if necessary, followed by the issuing of the FedRAMP Ready Designation. </p>
 
@@ -57,15 +59,15 @@ layout: full-width
 
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-1.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-8 intro-text">
 				<h2 class="text-white">Preparation</h2>
-				<p class="text-white">The preparation phase consists of two steps: <strong>Readiness Assessment</strong> and <strong>Pre-Authorization</strong>.</p>
+				<p class="text-white auth-steps-text">The preparation phase consists of two steps: <strong>Readiness Assessment</strong> and <strong>Pre-Authorization</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -74,16 +76,15 @@ layout: full-width
 
 <section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-7">
+		<div class="full-row grid-row grid-gap step-reversed">
+			<div class="full-col tablet:grid-col-7">
 				 <h3 class="margin-top-0">Readiness Assessment</h3>
 				<p>In the <strong>Readiness Assessment</strong> step, a CSP may elect to pursue the <strong>FedRAMP Ready</strong> designation, which is optional for the Agency Authorization process, but highly recommended. To achieve the <strong>FedRAMP Ready</strong> designation, a CSP must work with an accredited 3PAO to complete a Readiness Assessment of its service offering. The Readiness Assessment Report (RAR) documents the CSP's capability to meet FedRAMP’s security requirements. RARs provide the federal government with a snapshot of a cloud service's security posture without requiring CSPs to make the full investment of going through the entire FedRAMP assessment process of testing and documentation. The FedRAMP PMO reviews each RAR to ensure a CSO’s core security capabilities and operational processes are in place. More information regarding steps to achieve <strong>FedRAMP Ready</strong> can be found in the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf" target="_blank">FedRAMP Marketplace Designations for Cloud Service Providers document</a>.</p>
 				
 			</div>
 				
-			<div class="full-col desktop:grid-col-5">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/agency-preparation-1.svg" class="step-reversed" alt="" />
 			</div>
 		</div>
 	</div>
@@ -92,11 +93,11 @@ layout: full-width
 <section class="lightest-gray-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-5">
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/agency-preparation-2.svg" class="" alt="" />				
 			</div>
 				
-			<div class="full-col desktop:grid-col-7">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Pre-Authorization</h3>
 				<p>During the Pre-Authorization step, a CSP formalizes its partnership with an agency via the requirements outlined in FedRAMP’s Marketplace Designations for Cloud Service Providers. A CSP also prepares to undergo the authorization process. They make any necessary technical and procedural adjustments to address federal security requirements and prepare the security deliverables required for authorization. </p>
 				
@@ -123,15 +124,15 @@ layout: full-width
 	</div>
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-2.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-8 intro-text">
 				<h2 class="text-white">Authorization</h2>
-				<p class="text-white">The preparation phase consists of two steps: <strong>Readiness Assessment</strong> and <strong>Pre-Authorization</strong>.</p>
+				<p class="text-white auth-steps-text">The preparation phase consists of two steps: <strong>Readiness Assessment</strong> and <strong>Pre-Authorization</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -139,8 +140,8 @@ layout: full-width
 
 <section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-7">
+		<div class="full-row grid-row grid-gap step-reversed">
+			<div class="full-col tablet:grid-col-7">
 				
 				<h3 class="margin-top-0">Full Security Assessment</h3>
 
@@ -151,9 +152,8 @@ layout: full-width
 				<p>The CSP will then develop a Plan of Action and Milestones (POA&M) based on the SAR findings, and include input from the 3PAO, which outlines a plan for addressing the findings from testing.</p>
 			</div>
 				
-			<div class="full-col desktop:grid-col-5 step-reversed">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-1.svg" class="" alt="" />				
 			</div>
 		</div>
 	</div>
@@ -162,11 +162,11 @@ layout: full-width
 <section class="lightest-gray-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-5 tablet:padding-bottom-4">
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-2.svg" class="" alt="" />				
 			</div>
 				
-			<div class="full-col desktop:grid-col-7">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Agency Authorization Process</h3>
 				<p>The next step is the <strong>Agency Authorization Process</strong>. During this step, the agency conducts a security authorization package review, which may include a SAR debrief with the FedRAMP PMO. Depending on the results of the agency’s review, CSP remediation may be required. Additionally, the agency will review and implement their customer responsibilities during this phase. Finally, the agency performs a risk analysis, accepts risk, and issues an ATO. This decision is based on the agency’s risk tolerance. Once an agency provides an ATO letter for the use of the CSO, the following actions take place to close out this step:</p>
 				
@@ -186,15 +186,15 @@ layout: full-width
 	</div>
 </section>
 
-<section class="blue-bkg">
+<section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2">
+			<div class="full-col tablet:grid-col-2 text-center">
 				<img src="{{site.baseurl}}/assets/img/auth-3.svg" class="auth-numbers" alt="" />
 			</div>
 			<div class="full-col tablet:grid-col-9 intro-text">
 				<h2 class="text-white">Continuous Monitoring</h2>
-				<p class="text-white">The continuous monitoring phase consists of post authorization activities in support of maintaining a security authorization that meets the FedRAMP requirements.</p>
+				<p class="text-white auth-steps-text">The continuous monitoring phase consists of post authorization activities in support of maintaining a security authorization that meets the FedRAMP requirements.</p>
 			</div>
 		</div>
 	</div>
@@ -202,8 +202,8 @@ layout: full-width
 
 <section class="fedramp-page-container">
 	<div class="grid-container">
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col desktop:grid-col-7">
+		<div class="full-row grid-row grid-gap step-reversed">
+			<div class="full-col tablet:grid-col-7">
 				<h3 class="margin-top-0">Post Authorization</h3>
 
 				<p>During the continuous monitoring phase, the CSP is required to provide periodic security deliverables (vulnerability scans, updated POA&M, annual security assessments, significant change requests, etc.) to all agency customers. Further detail can be found in the Continuous Monitoring Strategy Guide.</p>
@@ -211,9 +211,8 @@ layout: full-width
 				<p>Each agency using the service reviews the monthly continuous monitoring deliverables. CSPs may use the FedRAMP secure repository for posting monthly continuous monitoring material for ease of access and sharing with agency representatives.</p> 
 			</div>
 				
-			<div class="full-col desktop:grid-col-5">
-			
-				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+				<img src="{{site.baseurl}}/assets/img/conmon.svg" class="" alt="" />								
 			</div>
 		</div>
 	</div>
@@ -226,7 +225,7 @@ layout: full-width
 				<div class="full-row grid-row grid-gap">
 					<div class="full-col grid-col-10 grid-offset-1 padding-bottom-4">
 						<h2 class="text-center">Resources</h2>
-						<p class="text-center">The resources below provide additional guidance on the Agency Authorization path. Additional technical guidance as well as FedRAMP templates are located on our Policy & Guidance page under resources.</p>
+						<p class="text-center">The resources below provide additional guidance on the Agency Authorization path. Additional technical guidance as well as FedRAMP templates are located on our <a href="{{site.baseurl}}/documents-templates/">Documents & Templates</a> page under resources.</p>
 					</div>
 				</div>
 			</div>
@@ -240,6 +239,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-10">
 						<h3>Agency Authorization Playbook</h3>
 						<p>This document provides a compilation of best practices, tips, and step-by-step guidance for agencies seeking to implement ATOs.</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf" target="_blank">download</a> [PDF - 1.3MB ]</p>
 					</div>
 				</div>
 				
@@ -250,7 +250,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-10">
 						<h3>Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</h3>
 						<p>This document provides a summary of the roles and responsibilities of the agency, CSP, and FedRAMP PMO during the Agency authorization process.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf" target="_blank">download</a> [PDF - 933KB ]</p>
 					</div>
 				</div>
 				
@@ -261,7 +261,7 @@ layout: full-width
 					<div class="full-col tablet:grid-col-10">
 						<h3>FedRAMP Authorization Boundary Guidance</h3>
 						<p>This document provides CSPs guidance for developing the authorization boundary for their offering(s) which is required for their FedRAMP authorization package.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf" target="_blank">download</a> [PDF - 293KB ]</p>
 					</div>
 				</div>
 				
@@ -272,18 +272,18 @@ layout: full-width
 					<div class="full-col tablet:grid-col-10">
 						<h3>FedRAMP Guide for Multi-Agency Continuous Monitoring</h3>
 						<p>This document provides guidance to agencies and CSPs to assist with a framework for collaboration when managing Agency ATOs.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf" target="_blank">download</a> [PDF - 413KB ]</p>
 					</div>
 				</div>
 				
 				<div class="full-row grid-row grid-gap">
 					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-							<img src="{{site.baseurl}}/assets/img/auth-pdf-download.svg" class="" alt="" />
+							<img src="{{site.baseurl}}/assets/img/auth-visit-site.svg" class="" alt="" />
 					</div>
 					<div class="full-col tablet:grid-col-10">
 						<h3>FedRAMP Tailored Website</h3>
 						<p>Provides guidance and templates for FedRAMP Tailored, a simple, condensed approach to the authorization process for Low-Impact Software-as-a-Service (LI-SaaS) applications.</p>
-						<p>download [PDF - xxxx ]</p>
+						<p><a href="https://tailored.fedramp.gov/" target="_blank">Vist Website</a></p>
 					</div>
 				</div>
 			</div>

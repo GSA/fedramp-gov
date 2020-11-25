@@ -368,31 +368,39 @@ img.phase-icon {
 /* Authorization Graphics */
 
 @media (min-width: 0px) and (max-width: 580px) {
-	.auth-graphic-580  {
-		display: block;
+	.auth-graphic-mobile  {
+		display: inline;
 	}
 }
 
-@media (min-width: 581px) and (max-width: 768px) {
-	.auth-graphic-768  {
-		display: block;
-	}
-}
-
-@media (min-width: 769px) and (max-width: 979px) {
-	.auth-graphic-980  {
-		display: block;
+@media (min-width: 581px) and (max-width: 979px) {
+	.auth-graphic-tablet  {
+		display: inline;
 	}
 }
 
 @media (min-width: 980px) {
-	.auth-graphic-1200  {
-		display: block;
+	.auth-graphic-desktop  {
+		display: inline;
 	}
 }
 
-.step-reversed {
-	flex-direction: column-reverse;
+@media (min-width: 0px) and (max-width: 639px) {
+	.auth-steps-text {
+		text-align: center;
+	}
+	
+	.step-reversed {
+		flex-direction: column-reverse;
+	}
+	
+	.auth-steps-info {
+		padding-bottom: 2rem;
+	}
+}
+
+.auth-container {
+	padding: 2rem 0;
 }
 
 .auth-container-steps {
