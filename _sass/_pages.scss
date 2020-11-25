@@ -391,6 +391,22 @@ img.phase-icon {
 	}
 }
 
+.step-reversed {
+	flex-direction: column-reverse;
+}
+
+.auth-container-steps {
+	padding: 0;
+	
+	h2 {
+		padding-top: .5em;
+	}
+}
+
+.auth-pdf-download-img {
+	text-align: center;
+	margin-top: 50px;
+}
 
 .accordion {
     cursor: pointer;
