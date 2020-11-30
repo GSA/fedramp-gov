@@ -68,7 +68,6 @@ p.date {
 
 .back-to-blogs-button {
 	color: $red;
-	padding: 8px 24px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -78,6 +77,10 @@ p.date {
 		color: $teal;
 		
 	}
+}
+
+.blog-card-image {
+	min-height: 255px;
 }
 
 
@@ -130,6 +133,7 @@ h2.blog-post, h2.blog-list-title {
 	margin-top: 6px;
 	color: $mid-gray;
 	text-align: left;
+	line-height: 2.625rem;
 	
 	a {
 		text-decoration: none;
