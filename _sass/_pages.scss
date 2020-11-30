@@ -367,6 +367,15 @@ img.phase-icon {
 
 /* Authorization Graphics */
 
+.auth-pdf-download-img {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.step-numbers-container {
+	text-align: left;
+}
+
 @media (min-width: 0px) and (max-width: 580px) {
 	.auth-graphic-mobile  {
 		display: inline;
@@ -397,6 +406,20 @@ img.phase-icon {
 	.auth-steps-info {
 		padding-bottom: 2rem;
 	}
+	
+	.auth-pdf-download-img {
+		text-align: left;
+	}
+	
+	.step-numbers-container {
+		text-align: center;
+	}
+	
+	.auth-resources {
+		h3 {
+			margin-top: 10px;
+		}
+	}
 }
 
 .auth-container {
@@ -411,9 +434,13 @@ img.phase-icon {
 	}
 }
 
-.auth-pdf-download-img {
-	text-align: center;
-	margin-top: 50px;
+
+.auth-resources {
+	padding: 2rem !important;
+	
+	h3 {
+		text-align: left;
+	}
 }
 
 .accordion {
