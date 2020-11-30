@@ -6,7 +6,7 @@
 	</div>
     <div class="tablet:grid-col-12">
 		<div class="grid-row">
-			<div class="desktop:grid-col-3 padding-x-2">
+			<div class="desktop:grid-col-3 padding-x-2 blog-description">
 				<p class="blog-list-day">
 					<a href="{{ post.permalink | prepend: site.baseurl  }} " rel="nofollow" title="{{ post.title }}">{{ post.date | date: "%-d"}}</a>
 				</p>
@@ -15,8 +15,8 @@
 				</p>
 			</div>
 			<div class="desktop:grid-col-9 padding-x-2">
-				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title | truncatewords: 10 }}</a></h2>
-				<p>{{ post.content | strip_html | truncatewords: 14 }}</p>
+				<h2 class="blog-list-title"><a href="{{ site.baseurl }}{{ post.permalink }}" rel="bookmark" title="{{ post.title }}">{{ post.title | truncate: 50 }}</a></h2>
+				<p>{{ post.content | strip_html | truncate: 100 }}</p>
 				<p class="continue-reading"><a class="" href="{{ site.baseurl }}{{ post.permalink}}" rel="nofollow" title="{{ post.title}}">Continue Reading...</a></p>
 			</div>
 		</div>

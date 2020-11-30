@@ -80,7 +80,21 @@ p.date {
 }
 
 .blog-card-image {
-	min-height: 255px;
+	height: 290px;
+	top: 10px;
+}
+
+@media (min-width: 0) and (max-width: 1023px) {
+	.blog-card-image {
+		height: auto;
+		top: 10px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.blog-description {
+		height: 240px;
+	}
 }
 
 
@@ -128,12 +142,14 @@ h3.blog-list {
 	margin-bottom: 0;
 }
 
+h2.blog-post {
+	line-height: 2.625rem;
+}
 
 h2.blog-post, h2.blog-list-title {
 	margin-top: 6px;
 	color: $mid-gray;
 	text-align: left;
-	line-height: 2.625rem;
 	
 	a {
 		text-decoration: none;
