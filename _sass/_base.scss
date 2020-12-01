@@ -531,6 +531,18 @@ a {
 	}
 }
 
+/* ---- Cookie Notice ---- */
+#cookie-notice a#cookie-notice-accept {
+	background: $dark-blue;
+	color: #ffffff;
+	padding: 4px 12px;
+	border-radius: 20px;
+	
+	&:hover {
+		opacity: .9;
+	}
+}
+
 /*
 
 .about-us {

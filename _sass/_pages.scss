@@ -367,14 +367,54 @@ img.phase-icon {
 
 /* Authorization Graphics */
 
+.auth-resources-row {
+	margin-bottom: 2rem !important;
+	
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
+}
+
 .auth-pdf-download-img {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 10px;
+	
+	img {
+		max-width: 90px;
+	}
 }
 
 .step-numbers-container {
 	text-align: left;
 }
+
+.auth-container-steps {
+	padding: 0;
+	
+	h2 {
+		padding-top: 1em;
+		padding-bottom: 0;
+		text-align: left;
+	}
+}
+
+.auth-resources {
+	padding: 2rem !important;
+	
+	h3 {
+		text-align: left;
+		margin: 10px 0;
+	}
+	
+	p {
+		margin: 0 0 10px;
+	}
+}
+
+.auth-steps-info {
+		padding: 0 1.5rem !important;
+	}
+
 
 @media (min-width: 0px) and (max-width: 580px) {
 	.auth-graphic-mobile  {
@@ -404,7 +444,7 @@ img.phase-icon {
 	}
 	
 	.auth-steps-info {
-		padding-bottom: 2rem;
+		padding-bottom: 2rem !important;
 	}
 	
 	.auth-pdf-download-img {
@@ -414,10 +454,10 @@ img.phase-icon {
 	.step-numbers-container {
 		text-align: center;
 	}
-	
-	.auth-resources {
-		h3 {
-			margin-top: 10px;
+		
+	.auth-container-steps {
+		h2 {
+			text-align: center;
 		}
 	}
 }
@@ -426,22 +466,6 @@ img.phase-icon {
 	padding: 2rem 0;
 }
 
-.auth-container-steps {
-	padding: 0;
-	
-	h2 {
-		padding-top: .5em;
-	}
-}
-
-
-.auth-resources {
-	padding: 2rem !important;
-	
-	h3 {
-		text-align: left;
-	}
-}
 
 .accordion {
     cursor: pointer;
@@ -928,7 +952,7 @@ p.faq-search-text {
 }
 
 .training-buttons-container {
-	margin-top: 30px;
+	margin-top: 32px;
 }
 
 @media (min-width: 0) and (max-width: 639px) {

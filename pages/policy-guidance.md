@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Policy & Guidance
+title: Documents & Templates
 tab-title: Search For Any FedRAMP Policy or Guidance Resource
 permalink: /documents-templates/
 summary: Filter your results to quickly locate the FedRAMP policy, guidance material, or resource you’re looking for in excel, PDF, or word format.

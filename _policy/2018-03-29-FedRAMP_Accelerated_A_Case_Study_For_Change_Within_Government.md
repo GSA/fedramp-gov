@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: FedRAMP Accelerated: A Case Study for Change Within Government
+title: FedRAMP Accelerated&#58; A Case Study for Change Within Government
 category: FedRAMP Program Documents
 weblink:
 filename: documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf

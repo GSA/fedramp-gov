@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: CSP Authorization Playbook: Getting Started with FedRAMP
+title: CSP Authorization Playbook&#58; Getting Started with FedRAMP
 category: Key Cloud Service Provider (CSP) Documents
 weblink:
 filename: documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf
