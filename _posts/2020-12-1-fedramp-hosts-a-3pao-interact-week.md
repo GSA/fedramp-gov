@@ -12,6 +12,6 @@ During the week, the PMO hosted presentations, panels, listening sessions, and t
 
 Attendee feedback was overwhelmingly positive, and there were several requests for more events throughout the year. Many thanks to the 100+ participants from over 30 different organizations for attending. 
 
-The FedRAMP PMO is committed to supporting all of our stakeholders and looks forward to hosting more events and training in 2021.
+The FedRAMP PMO is committed to supporting all of our stakeholders and looks forward to hosting more events and trainings in 2021.
 
 If you have questions, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
