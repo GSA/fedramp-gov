@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Plan of Action and Milestones (POA&M) Template Completion Guide
-category: Key Cloud Service Provider (CSP) Documents
+category: Key Cloud Service Provider Documents
 weblink:
 filename: documents/CSP_POAM_Template_Completion_Guide.pdf
 filetype: pdf

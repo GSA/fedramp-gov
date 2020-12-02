@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Timeliness and Accuracy of Testing Requirements
-category: Key Cloud Service Provider (CSP) Documents
+category: Key Cloud Service Provider Documents
 weblink:
 filename: documents/CSP_Timeliness_and_Accuracy_of_Testing_Requirements.pdf
 filetype: pdf

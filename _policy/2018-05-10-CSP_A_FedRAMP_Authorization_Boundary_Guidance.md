@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: FedRAMP Authorization Boundary Guidance
-category: Key Cloud Service Provider (CSP) Documents
+category: Key Cloud Service Provider Documents
 weblink:
 filename: documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf
 filetype: pdf
