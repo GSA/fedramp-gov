@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: JAB Prioritization Criteria and Guidance
-category: Key Cloud Service Provider (CSP) Documents
+category: Preparation Phase
 weblink:
 filename: documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf
 filetype: pdf

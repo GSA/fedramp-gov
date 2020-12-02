@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: FedRAMP Moderate Readiness Assessment Report (RAR) Template
-category: Readiness Assessment Phase
+category: Preparation Phase
 weblink:
 filename: templates/FedRAMP-Moderate-RAR-Template.docx
 filetype: word
