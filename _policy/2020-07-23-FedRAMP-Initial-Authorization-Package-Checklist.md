@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: FedRAMP Initial Authorization Package Checklist
-category: Initial Authorization Phase- Initial Authorization Package Checklist
+category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-Initial-Authorization-Package-Checklist.xls
 filetype: excel
