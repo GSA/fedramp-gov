@@ -71,7 +71,7 @@
 							{% assign type = a.path | split: '/' | first %}
 							{% if type == "_policy" %}
 								{% if a.weblink == "" or a.weblink == nil %}
-									<a href="{{ site.baseurl }}/assets/resources/documents/{{ a.filename }}">{{ a.title }}</a>
+									<a href="{{ site.baseurl }}/assets/resources/{{ a.filename }}">{{ a.title }}</a>
 								{% else %}
 									<a href="{{ a.weblink }}" target="_blank">{{ a.title }}</a>
 								{% endif %}
@@ -98,7 +98,7 @@
 						{% assign type = a.path | split: '/' | first %}
 						{% if type == "_policy" %}
 							{% if a.weblink == "" or a.weblink == nil %}
-								<a href="{{ site.baseurl }}/assets/resources/documents/{{ a.filename }}">{{ a.title }}</a>
+								<a href="{{ site.baseurl }}/assets/resources/{{ a.filename }}">{{ a.title }}</a>
 							{% else %}
 								<a href="{{ a.weblink }}" target="_blank">{{ a.title }}</a>
 							{% endif %}

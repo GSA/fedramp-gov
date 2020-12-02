@@ -184,13 +184,18 @@ layout: full-width
 								
 								{% if doc.filetype == "web" %}<p class="display-none">Webpage</p>{% else %}<p class="file-type">[File Info: <span class="policy-type-info">{{ doc.fileinfo }}</span>]</p>{% endif %}
 							
-								
-								<div class="policy-tags">
-									<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
-									{% for tag in doc.tags %}
-									<button class="tags" onclick="checkFilter('#abc123-checkbox-fl-tag-{{ tag | downcase }}')" tabindex="" title="{{tag}}">{{tag}}</button>
-									{% endfor %}
-								</div>
+									<div class="policy-tags full-row grid-row auth-resources-row">
+										<div class="tag-icon-container grid-col-1">
+										<img class="tag-icon" src="{{site.baseurl}}/assets/img/policy-tag.svg" alt="">
+										</div>
+
+										<div class="tag-button-container grid-col-11">
+										{% for tag in doc.tags %}
+
+										<button class="tags" onclick="checkFilter('#abc123-checkbox-fl-tag-{{ tag | downcase | replace: " ", "-" }}')" tabindex="" title="{{tag}}">{{tag}}</button>
+										{% endfor %}
+										</div>
+									</div>
 
 
 								

@@ -215,7 +215,6 @@ button.clear-results {
 	
 	.policy-tags .tag-icon {
 		margin-bottom: 10px;
-		top: 14px;
 	}
 }
 
@@ -271,7 +270,6 @@ a.policy-download.policy-web {
 
 .tag-icon {
 	position: relative;
-	top: 4px;
 }
 
 .policy-tags button.tags {
@@ -305,4 +303,12 @@ a.policy-download.policy-web {
 	font-size: 0.75rem;
 	font-weight: 300 !important;
 	display: flex;
+}
+
+.tag-button-container {
+	width: 96%;
+}
+
+.tag-icon-container {
+	width: 4%;
 }

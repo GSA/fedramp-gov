@@ -392,7 +392,7 @@ img.phase-icon {
 	padding: 0;
 	
 	h2 {
-		padding-top: 1em;
+		padding-top: 20px;
 		padding-bottom: 0;
 		text-align: left;
 	}
@@ -1064,4 +1064,8 @@ p.faq-search-text {
  		}
  		}
  	}
+}
+
+.ytp-embed:not(.ad-showing) .ytp-title-text {
+	display: none!important;
 }
