@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Continuous Monitoring Performance Management Guide
-category: Key Cloud Service Provider (CSP) Documents
+category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf
 filetype: pdf

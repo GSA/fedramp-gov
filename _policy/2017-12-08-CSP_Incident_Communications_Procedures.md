@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Incident Communications Procedures
-category: Key Cloud Service Provider (CSP) Documents
+category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Incident_Communications_Procedures.pdf
 filetype: pdf

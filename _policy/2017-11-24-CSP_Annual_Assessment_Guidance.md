@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Annual Assessment Guidance
-category: Key Cloud Service Provider (CSP) Documents
+category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Annual_Assessment_Guidance.pdf
 filetype: pdf

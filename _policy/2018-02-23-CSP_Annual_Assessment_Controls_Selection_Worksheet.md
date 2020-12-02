@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Annual Assessment Controls Selection Worksheet
-category: Key Cloud Service Provider (CSP) Documents
+category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Annual_Assessment_Controls_Selection_Worksheet.xlsx
 filetype: excel
