@@ -1,7 +1,7 @@
 ---
 layout: policy   
 title: Significant Change Policies and Procedures
-category: Key Cloud Service Provider (CSP) Documents
+category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Significant_Change_Policies_and_Procedures.docx
 filetype: word
