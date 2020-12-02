@@ -422,11 +422,33 @@ img.phase-icon {
 	}
 }
 
+@media (min-width: 0px) and (max-width: 979px) {
+
+	.auth-pdf-download-img {
+		img {
+			max-width: 60px;
+		}
+	}
+}
+
 @media (min-width: 581px) and (max-width: 979px) {
 	.auth-graphic-tablet  {
 		display: inline;
 	}
+	
+	.auth-pdf-download-img {
+		img {
+			max-width: 60px;
+		}
+	}
 }
+
+@media (min-width: 640px) and (max-width: 979px) {
+	.step-numbers-container {
+		padding-right: 1rem !important;
+	}
+}
+
 
 @media (min-width: 980px) {
 	.auth-graphic-desktop  {
@@ -1064,8 +1086,4 @@ p.faq-search-text {
  		}
  		}
  	}
-}
-
-.ytp-embed:not(.ad-showing) .ytp-title-text {
-	display: none!important;
 }
