@@ -11,6 +11,18 @@ main#main:focus {
 	outline: none !important;
 }
 
+.padding-bottom-0 {
+	padding-bottom: 0!important;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 0 !important;
+}
+
+.margin-bottom-3rem {
+	margin-bottom: 3rem!important;
+}
+
 @media (min-width: 64em) {
 	.desktop\:margin-top-0 {
 		margin-top: 0!important;
