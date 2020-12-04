@@ -794,7 +794,7 @@ ul.governance-checklist li .check {
 		border-radius: 20px 0 0 20px;
 		background: white;
 		height: 34px;
-		padding: 16px 24px;
+		padding: 0px 24px;
 		border: none;
 		font-style: italic;
 	}
@@ -865,12 +865,12 @@ p.faq-search-text {
 
 .fedramp-accordian .usa-accordion__content {
 	border-bottom: solid 1px $light-gray;
-	padding: 0 10px 10px 15px;
+	padding: 6px 10px 30px 40px;
 }
 
 .fedramp-accordian .usa-prose > p {
 	max-width: 100%;
-	padding: 6px 0 20px 25px;
+	padding: 0;
 	color: $dark-gray;
 }
 
