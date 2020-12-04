@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		display: block;
 		text-align: center;
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
 		padding: 0;
 		/*
 		&::after {
@@ -420,6 +420,7 @@ a {
 @media all and (min-width: 981px) {
 	.authorization-desktop {
 		display: inline !important;
+		width: 100%;
 	}
 }
  
@@ -427,6 +428,7 @@ a {
 @media all and (min-width: 768px) and (max-width: 980px) {
 	.authorization-tablet {
 		display: inline !important;
+		width: 100%;
 	}
 }
  
@@ -434,6 +436,7 @@ a {
 @media all and (max-width: 767px) {
  	.authorization-mobile {
 		display: inline !important;
+		width: 100%;
 	}
 }
  
