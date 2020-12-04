@@ -23,7 +23,7 @@
 
 }
 
-@media (min-width:981px) and (max-width:1199px) {
+@media (min-width: 981px) and (max-width: 1199px) {
 	.agency-home, .jab-home {
 		width: 17%;
 		font-size: 0.75rem;
@@ -34,7 +34,7 @@
 	}
 }
 
-@media (min-width:768px) and (max-width:980px) {
+@media (min-width: 768px) and (max-width: 980px) {
 	.agency-home, .jab-home {
 		left: 6%;
 		width: 35%;
@@ -49,7 +49,7 @@
 	}
 }
 
-@media (min-width:0px) and (max-width:767px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	.agency-home, .jab-home {
 		left: 17%;
 		top: 4%;
@@ -63,12 +63,17 @@
 	.jab-home {
 		top: 15%;
 	}
-	
+			
+}
+
+@media (min-width: 0px) and (max-width: 921px) {
 	.home-partners-icon-container {
 		text-align: center;
 		margin-bottom: 1rem;
 	}
-	
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
 	div.home-partners-text {
 		text-align: center;
 	}

@@ -152,6 +152,21 @@ relevant-documents.page--banner {
 	}
 }
 
+.partners-callout-icon {
+	max-width: 140px;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 575px) {
+	.callout-img-container {
+		text-align: center;
+	}	
+	
+	img.partners-callout-ico {
+		margin-bottom: 1rem;
+	}
+}
+
 /*
 @media (min-width: 640px) and (max-width: 767px) {
 	img.partners-fed-image {
@@ -319,10 +334,6 @@ a.partners-download.policy-web {
 
 .callout-img-center {
 	text-align: center;
-}
-
-img.home-partners-icon {
-	max-width: 120px;
 }
 
 img.phase-icon {
@@ -987,7 +998,7 @@ p.faq-search-text {
 
 @media (min-width: 1024px) and (max-width: 1200px) {
 	img.training-img {
-		padding-right: .5rem;
+		padding-right: 1rem;
 	}
 }
 
