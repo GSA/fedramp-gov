@@ -157,13 +157,21 @@ relevant-documents.page--banner {
 	margin-bottom: 1rem;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 639px) {
 	.callout-img-container {
-		text-align: center;
+		text-align: center !important;
 	}	
 	
-	img.partners-callout-ico {
+	img.partners-callout-icon {
 		margin-bottom: 1rem;
+	}
+	
+	.can-help {
+		text-align: center !important;
+		
+		h3 {
+			text-align: center;
+		}
 	}
 }
 
@@ -272,9 +280,6 @@ relevant-documents.page--banner {
 		text-align: center;
 	}
 		
-	.can-help {
-		text-align: center;
-	}
 }
 
 @media (min-width: 0px) and (max-width: 639px) {

@@ -171,7 +171,6 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: 1rem;
 		text-transform: none;
 		position: relative;
-		display: flex;
 		text-align: left;
 		margin-top: 50px;	
 	}
@@ -208,9 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 0px) and (max-width: 768px) {
 	.grid-row h3 {
-		position: relative;
-		display: block;
-		text-align: center;
+		
 		margin-bottom: 1.5rem;
 		padding: 0;
 		/*
