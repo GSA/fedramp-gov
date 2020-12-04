@@ -36,33 +36,35 @@
 			<div class="clearfix mobile-clear"></div>
 		</div>
 		
-		<div class="footer-col f-col-3">
-			<div class="newsletter-footer">
-	  			{% for form in site.forms %}
-				{% if form.type == 'newsletter' %}
-		  		{% assign f = form %}
-				{% endif %}
-	  			{% endfor %}
+		<div class="footer-row">
+		
+			<div class="footer-col f-col-3">
+				<div class="newsletter-footer">
+					{% for form in site.forms %}
+					{% if form.type == 'newsletter' %}
+					{% assign f = form %}
+					{% endif %}
+					{% endfor %}
 
-				<form id="contact" action="{{ f.url }}" method="POST">
-					<h4>Keep Up To Date</h4>
-					<p>To receive news and updates, add your email to GSA’s <span class="no-wrap;">subscriber list.</span></p>
-						<div class="newsletter-inner">
-							{% for field in f.fields %}
-							{% unless field.type == 'hidden' %}
-							<label for="contact-{{ field.name }}">{{ field.label }}</label>
-							{% endunless %}
-							<input id="contact-{{ field.name }}"
-								name="{{ field.name }}" type="{{ field.type }}"
-								{% if field.value %} value="{{ field.value }}" {% endif %}>
-							{% endfor %}
+					<form id="contact" action="{{ f.url }}" method="POST">
+						<h4>Keep Up To Date</h4>
+						<p>To receive news and updates, add your email to GSA’s <span class="no-wrap;">subscriber list.</span></p>
+							<div class="newsletter-inner">
+								{% for field in f.fields %}
+								{% unless field.type == 'hidden' %}
+								<label for="contact-{{ field.name }}">{{ field.label }}</label>
+								{% endunless %}
+								<input id="contact-{{ field.name }}"
+									name="{{ field.name }}" type="{{ field.type }}"
+									{% if field.value %} value="{{ field.value }}" {% endif %}>
+								{% endfor %}
 
-							<div class="usa-input-buttons-inline">
-								<input class="footer-submit" type="submit" value="{{ f.button }}">
+								
+								<a class="footer-submit" href="https://public.govdelivery.com/accounts/USGSA/subscriber/new" target="_blank">Subscribe</a>
 							</div>
-						</div>
-						
-				</form>
+
+					</form>
+				</div>
 			</div>
 		</div>
 		

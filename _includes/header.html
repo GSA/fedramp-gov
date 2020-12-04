@@ -176,7 +176,7 @@
 						{% for sub in nav.sub %}
 							<li>
 							{% if sub.is_external != null %}
-							<a tabindex="0"href="{{ sub.is_external }}">{{ sub.text }}</a>
+							<a tabindex="0"href="{{ sub.is_external }}" target="_blank">{{ sub.text }}</a>
 							{% else %}
 							<a tabindex="0" href="{{ sub.permalink | prepend: site.baseurl }}">
 							{{ sub.text }}
@@ -202,7 +202,7 @@
 
 				<li>
 					{% if nav.is_external != null %}
-					<a class="external" href="{{ nav.is_external }}">{{ nav.text }}</a>
+					<a class="external" href="{{ nav.is_external }}" target="_blank">{{ nav.text }}</a>
 					{% else %}
 					<a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
 				</li>

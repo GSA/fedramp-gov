@@ -553,6 +553,15 @@ a {
 	&:hover {
 		opacity: .9;
 	}
+	
+}
+
+a.more-info {
+	color: #ffffff;
+}
+
+a.more-info:visited {
+	color: $footer-teal;
 }
 
 /*

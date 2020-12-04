@@ -45,6 +45,11 @@
 	}
 }
 
+@media (min-width: 0px) and (max-width: 539px) {
+	.home-hero-buttons a {
+		font-size: 0.75rem !important;
+	}
+}
 
 .hero-content {
 	background-color: transparentize($text-color, .6);

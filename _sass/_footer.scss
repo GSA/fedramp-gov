@@ -204,7 +204,7 @@ p.footer-follow-us {
 	.usa-input-buttons-inline {
 		height: 60px;
 		display: flex;
-		input.footer-submit {
+		input.footer-submit, a.footer-submit {
 			background: none;
 			color: $light-teal;
 			border: 1px solid $light-teal;
@@ -217,12 +217,34 @@ p.footer-follow-us {
 			cursor: pointer;
 		}
 		
-		input.footer-submit:hover {
+		input.footer-submit:hover, a.footer-submit:hover {
 			border: 1px solid #ffffff;
 			color: #ffffff;
 			text-decoration: none;
 		}
 	}
+}
+
+a.footer-submit {
+	background: none;
+	color: $light-teal;
+	border: 1px solid $light-teal;
+	box-sizing: border-box;
+	border-radius: 40px;
+	height: 32px;
+	width: 116px;
+	font-size: .75rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none !important;
+	display: flex;
+	padding: 6px 28px;
+}
+
+a.footer-submit:hover {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .newsletter-inner {
@@ -268,6 +290,10 @@ p.footer-follow-us {
 	
 	.f-col-1, .f-col-2, .f-col-3 {
 		min-height: 220px;
+	}
+	
+	.footer-row {
+		clear: both;
 	}
 }
  

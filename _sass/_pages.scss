@@ -256,18 +256,20 @@ relevant-documents.page--banner {
 	h2.partner-header {
 		text-align: center;
 	}
-	
-	.partners-card-mobile-row {
-		margin-top: 2rem;
-	}
-	
+		
 	.can-help {
 		text-align: center;
 	}
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
-
+@media (min-width: 0px) and (max-width: 639px) {
+	.partners-card-mobile-row {
+		margin-top: 2rem;
+	}
+	
+	.auth-container-steps p {
+		margin-bottom: 2rem;
+	}
 }
 
 a.partners-download {
