@@ -120,30 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 		color: $theme-color-primary-vivid;
 	}
 	
-	/* h2::after {
-		content: "";
-		display: block;
-		padding-top: 20px;
-		border-bottom: solid 1px $red;
-		width: 88px;
-	}
-	
-	h2.text-white::after {
-		border-bottom: solid 1px white;
-	}
-	
-	*/
-	
 	h2.center {
 		text-align: center;
-	}
-	
-	h2.center::after {
-		margin: auto;
-	}
-	
-	h2.no-line::after {
-		content: none;
 	}
 	
 	h2.phase-header {
@@ -155,10 +133,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 0px) and (max-width: 768px) {
 	h2 {
 		text-align: center;
-		
-		&::after {
-			margin: auto;
-		}
 	}
 }
 
@@ -181,20 +155,6 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: 0;
 	}
 
-	/*
-	h3::after {
-		content: '';
-		border-bottom: 1px solid $light-gray;
-		bottom: 8px;
-		flex: 1;
-		left: 1rem;
-		position: relative;
-	}
-	*/
-	
-	h3.no-line::after {
-		content: none;
-	}
 	
 	h3.margin-top-0 {
 		margin-top: 0px;
@@ -207,19 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 0px) and (max-width: 768px) {
 	.grid-row h3 {
-		
 		margin-bottom: 1.5rem;
 		padding: 0;
-		/*
-		&::after {
-			content: '';
-			border-bottom: 1px solid $light-gray;
-			bottom: -12px;
-			display: block;
-			left: 0;
-			position: relative;
-		}
-		*/
 	}
 	
 }
@@ -235,6 +184,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 0) and (max-width: 639px) {
+	
+	/*
 	.grid-row h3.phase-header::after {
 		content: '';
 		border-bottom: 1px solid $light-gray;
@@ -243,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 		left: 0;
 		position: relative;
 	}
+	*/
 }
 
 
@@ -440,8 +392,6 @@ a {
 /* --- columns and grids -- */
 
 @media (min-width: 64em) {
-	.desktop\:grid-col-9 {
-	}
 
 }
 	
@@ -464,19 +414,26 @@ a {
 
 
 @media (min-width: 600px) {
+	
+	/*
   .usa-width-one-whole.usa-section {
     position: relative;
     left: 50%;
     max-width: 62.5rem;
     margin-left: -31.25rem;
   }
+	*/
 }
+
 
 .usa-grid {
 	max-width: 1200px;
 	padding-right: 0;
 	padding-left: 0;
 }
+
+
+/*
 
 @media (min-width: 1240px) {
 	.usa-banner__inner {
@@ -505,6 +462,8 @@ a {
 		padding-right: 2rem;
 	}
 }
+
+*/
 
 #main .page-banner-container, body .page-banner-container {
 	background: $light-blue;
@@ -564,234 +523,3 @@ a.more-info:visited {
 	color: $footer-teal;
 }
 
-/*
-
-.about-us {
-	section#about {
-		margin: 0 auto;
-		max-width: 1200px;
-		width: 100%;
-		padding: 60px 0;
-		&:after {
-			content: '';
-			clear: both;
-			display: table;
-		}
-	}
-}
-
-section#fedramp-numbers {
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 100%;
-	float: none;
-	padding: 60px 0;
-	h2 {
-		margin-top: 0;
-		text-align: center;
-	}
-	&:after {
-	content: '';
-	clear: both;
-	display: table;
-	}
-}
-
-section#fedramp-mission {
-	width: 100%;
-	padding: 60px 0;
-	background: $light-blue;
-	color: #fff;
-	.inner {
-		margin: 0 auto;
-		max-width: 1200px;
-		width: 100%;	
-		h2 {
-			margin-top: 0;
-			color: #fff;
-			text-align: center;
-		}
-		ul {
-			column-count: 2;
-			column-gap: 40px;
-			
-			li {
-				color: #fff;
-				-webkit-column-break-inside: avoid;
-				page-break-inside: avoid;
-				break-inside: avoid;
-			}
-		}
-	}
-}
-
-.about-us #about .image-container {
-	max-width: 50%;
-	float: left;
-	text-align: center;
-}
-
-.about-us #fedramp-numbers .image-container {
-	max-width: 100%;
-	float: left;
-	text-align: center;
-}
-
-.about-us #about .text-container {
-	max-width: 50%;
-	float: left;
-	text-align: left;
-}
-
-.about-us #fedramp-numbers .text-container {
-	max-width: 100%;
-	float: left;
-	text-align: left;
-}
-
-.cloud .text-container {
-	max-width: 1200px;
-	width: 100%;
-	float: none;
-	margin: 0 auto;
-	text-align: left;
-	padding: 0 0 40px 0;
-	h2:first-child {
-		margin-top: 0;
-	}
-}
-
-
-
-@media (min-width: 0px) and (max-width: 1200px) {
-	.cloud .text-container {
-		padding: 0 5% 40px 5%;
-	}
-}
-
-.about-us section.about-auth {
-	background: $light-blue;
-	width: 100%;
-	float: left;
-	color: #fff;
-	padding: 60px 0;
-	.inner {
-		max-width: 1200px;
-		margin: 0 auto;
-		h2 {
-			text-align: center;
-			color: #fff;
-			margin-top: 0;
-		}
-		p {
-			color: #fff;
-			text-align: center;
-			a {
-				color: #fff;
-			}
-		}	
-	}
-}
-
-.about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
-	width: 50%;
-	float: left;
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-.about-us #fedramp-numbers .column-1, .about-us #fedramp-numbers .column-2 {
-	width: 100%;
-	float: left;
-}
-.about-us section.about-auth {
-	padding: 60px 5%;
-}
-}
-
-.about-us #fedramp-numbers img.one {
-	width: 50%;
-	float: left;
-}
-
-.about-us #fedramp-numbers img.two {
-	width: 50%;
-	float: left;
-}
-
-
-.about-us #fedramp-numbers img.three {
-	width: 100%;
-	float: left;
-	clear: left;
-}
-
-.about-us #fedramp-numbers img.four {
-	width: 100%;
-	float: right;
-	top: 0;
-	position: relative;
-}
-
-
-.usa-width-three-fourths {
-	width: 74.4%;
-	padding-right: 60px;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-.usa-width-one-fourth {
-	width: 25%;
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-.usa-width-three-fourths {
-	width: 100%;
-	padding: 0;
-}
-
-.usa-width-one-fourth {
-	width: 100%;
-}
-}
-
-@media (min-width: 0px) and (max-width: 1200px) {
-.about-us section#about {
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-
-.about-us section#fedramp-mission {
-	padding: 60px 5%;
-}
-}
-
-@media (min-width: 0px) and (max-width: 768px) {
-	.about-us section#about {
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-	.about-us #about .text-container {
-		max-width: 100%;
-		float: left;
-		text-align: left;
-		padding: 0;
-	}
-	.about-us #about .image-container {
-		max-width: 100%;
-		float: left;
-		text-align: center;
-	}
-	.about-us section#fedramp-mission {
-		width: 100%;
-		padding: 60px 5%;
-		background: $light-blue;
-		color: #fff;
-	}
-	.about-us section#fedramp-mission .inner ul {
-		column-count: 1;
-	}
-}
-
-*/

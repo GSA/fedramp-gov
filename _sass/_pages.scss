@@ -10,13 +10,12 @@ relevant-documents.page--banner {
 }
 
 
-/* --- Agencies Tabs --- */
+/* --- Agencies Tabs --- 
 
 .agency-tabs {
 	background: $lightest-gray;
 }
 
-/* Style the tab */
 .tab {
 	overflow: hidden;
 	border: none;
@@ -76,7 +75,6 @@ relevant-documents.page--banner {
 }
 
 
-/* Style the tab content */
 .tabcontent {
 	display: none;
 	background: #ffffff;
@@ -84,7 +82,6 @@ relevant-documents.page--banner {
 	border-top: none;
 }
 
-/* Button sizes */
 
 @media (min-width: 0px) and (max-width: 1200px) {
 	.tab button {
@@ -141,7 +138,7 @@ relevant-documents.page--banner {
 	}
 }
 
-/* --- End Agencies Tabs --- */
+ --- End Agencies Tabs --- */
 
 /* --- Partners ---- */
 
@@ -587,7 +584,7 @@ input.accordian-check {
 }
 
 
-/* Accordion styles */
+/* Accordion styles 
 .tabs {
   border-radius: 8px;
   overflow: hidden;
@@ -604,8 +601,8 @@ input.accordian-check {
     background: $lightest-gray;
     font-weight: bold;
     cursor: pointer;
-    /* Icon */
-    &:hover {
+
+	&:hover {
       background: darken($lightest-gray, 10%);
     }
     &::after {
@@ -636,6 +633,7 @@ input.accordian-check {
   }
 }
 
+*/
 
 /* ---- Program Basics Page --- */
 

@@ -95,7 +95,6 @@ nav.usa-nav {
 		li {
 			text-transform: uppercase;
 			&:focus {
-		//		outline: none;
 			}
 			li {
 				text-transform: none;
@@ -155,7 +154,6 @@ li.parent .sub-menu {
     top: 65px;
     left: 0;
     z-index: -1;
-//    opacity: 0;
     display: none;
     transition: opacity linear 0.15s;
     background: #F3F4F4;
@@ -204,43 +202,43 @@ li.parent .sub-menu {
 		}
 	}
 
-ul.sub-menu li.parent a:after {
-	font-family: Font Awesome 5 Free;
-	content: '\f105';
-	height: 0;
-	float: right;
-	color: $dark-gray;
-}
+		ul.sub-menu li.parent a:after {
+			font-family: Font Awesome 5 Free;
+			content: '\f105';
+			height: 0;
+			float: right;
+			color: $dark-gray;
+		}
 
-ul.sub-sub-menu li a:after {
-	content: none !important;
-}
+		ul.sub-sub-menu li a:after {
+			content: none !important;
+		}
 
-ul.sub-sub-menu li.parent {
-	padding: 0px;
-}
+		ul.sub-sub-menu li.parent {
+			padding: 0px;
+		}
 
-ul.sub-sub-menu {
-  position: absolute;
-  top: inherit;
-  margin-top: -55px;
-  left: 100%;
-  padding: 0;
-  width: 180px;
-  opacity: 0;
-  padding: 0;
-  background: $light-gray;
-  transition: opacity linear 0.15s;
-  li {
-  	display: block;
-  	font-family: 'Muli', sans-serif;
-  	font-size: 0.875rem;
-  	font-style: normal;
-  	font-weight: 700;
-  	max-height: 54px;
-  }
+		ul.sub-sub-menu {
+		position: absolute;
+		top: inherit;
+		margin-top: -55px;
+		left: 100%;
+		padding: 0;
+		width: 180px;
+		opacity: 0;
+		padding: 0;
+		background: $light-gray;
+		transition: opacity linear 0.15s;
+			li {
+			display: block;
+			font-family: 'Muli', sans-serif;
+			font-size: 0.875rem;
+			font-style: normal;
+			font-weight: 700;
+			max-height: 54px;
+		}
 	}
-	}
+}
 
 .usa-js-mobile-nav--active .sub-menu {
 	display: none;
@@ -735,6 +733,7 @@ button.usa-nav__close {
 		}
 	}
 }
+	
 .usa-js-mobile-nav--active .usa-nav {
 	ul.usa-nav-primary {
 		margin-top: 30px;
@@ -995,10 +994,8 @@ ul.sub-sub-menu {
 
 	ul.usa-nav-primary {
 	ul.sub-menu {
-/*		position: relative;*/
 		visibility: visible;
 		opacity: 1;
-/*		height: 200px;*/
 		display: none;
 		li {
 			padding: 20px;
@@ -1038,7 +1035,10 @@ ul.sub-sub-menu {
 	opacity: .8;
 }
 
+
+
 /* ------ Mobile Menu to display at 950px CHJ ---------- */
+
 
 
 @media (min-width:951px) and (max-width:1024px) {
@@ -1069,3 +1069,4 @@ ul.sub-sub-menu {
 		}
 	}
 }
+
