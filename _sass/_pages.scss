@@ -256,6 +256,12 @@ relevant-documents.page--banner {
 	}
 }
 
+@media (min-width: 0px) and (max-width: 1023px) {
+	h2.auth-header {
+		text-align: center;
+	}
+}
+
 @media (min-width: 639px) and (max-width: 800px) {
 	.partners-main {
 		padding-left: 2rem;
@@ -363,6 +369,22 @@ img.phase-icon {
 	width: 120px;
 	text-align: center;
 	margin: 0 auto 2rem auto;
+}
+
+.authorization-img-container {
+	padding: 0 2rem !important;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+	.authorization-img-container {
+		padding: 1.5rem 6rem !important;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 639px) {
+	.authorization-img-container {
+		padding: 1.5rem 2rem !important;
+	}
 }
 
 @media (min-width: 640px) and (max-width: 1023px) {
