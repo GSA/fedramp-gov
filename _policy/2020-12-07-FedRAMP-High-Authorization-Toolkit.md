@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP High Authorization Toolkit
 category: Authorization Phase
 weblink:
-filename: toolkit/FedRAMP-High-Authorization-Toolkit.zip
+filename: toolkits/FedRAMP-High-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 1.4MB
 condition: new
