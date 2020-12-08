@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP Moderate Authorization Toolkit
 category: Authorization Phase
 weblink:
-filename: toolkit/FedRAMP-Moderate-Authorization-Toolkit.zip
+filename: toolkits/FedRAMP-Moderate-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 3.2MB
 condition: new
