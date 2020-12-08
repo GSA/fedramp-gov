@@ -10,136 +10,6 @@ relevant-documents.page--banner {
 }
 
 
-/* --- Agencies Tabs --- 
-
-.agency-tabs {
-	background: $lightest-gray;
-}
-
-.tab {
-	overflow: hidden;
-	border: none;
-	background-color: $lightest-gray;
-}
-
-.tab button {
-	background-color: $lightest-gray;
-	background-image: url('../../assets/img/path-arrow-white.svg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	float: left;
-	outline: none;
-	min-height: 80px;
-	cursor: pointer;
-	color: $dark-gray;
-	font-size: 1.5rem;
-	margin-right: 0%;
-	width: 33%;
-	text-transform: none;
-}
-
-.tab button.active::before {
-	content: '';
-}
-
-.tab button:last-child {
-	margin-right: 0;
-}
-
-.tab button:focus {
-	outline: none !important;
-}
-
-.pointer-button {
-	height: 72px;
-	position: relative;
-}
-
-.tab button.active, .tab button:hover, .tab button:focus {
-	background: $lightest-gray;
-	background-image: url('../../assets/img/path-arrow-blue.svg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #ffffff;
-	text-decoration: none;
-	
-}
-
-
-.tab button.active .button-border, .tab button:hover .button-border, .tab button:focus .button-border {
-	color: #ffffff;
-	background: $teal;
-	text-decoration: none;
-}
-
-
-.tabcontent {
-	display: none;
-	background: #ffffff;
-	border: none;
-	border-top: none;
-}
-
-
-@media (min-width: 0px) and (max-width: 1200px) {
-	.tab button {
-		min-height: auto;
-	}
-}
-@media (min-width: 969px) and (max-width: 1200px) {
-	.tab button {
-	}
-}
-
-@media (min-width: 0px) and (max-width: 968px) {
-	.tab button {
-		font-size: 1rem;
-	}
-}
-
-@media (min-width: 0px) and (max-width: 800px) {
-	.tab button {
-		font-size: .9rem;
-	}
-}
-
-@media (min-width: 0px) and (max-width: 680px) {
-	.tab button {
-		font-size: .75rem;
-		
-	}
-	
-	.pointer-button {
-		height: 40px;
-		border-right: none;
-	}
-	
-
-}
-
-@media (min-width: 0px) and (max-width: 600px) {
-	
-	.tab button span {
-		padding-top: 6px;
-		font-size: 0.625rem;
-	}
-}
-
-@media (min-width: 0px) and (max-width: 420px) {
-	
-	.tab button span {
-		padding-top: 0px;
-		position: relative;
-		top: -2px;
-		font-size: 7px;
-		font-weight: 800;
-	}
-}
-
- --- End Agencies Tabs --- */
-
 /* --- Partners ---- */
 
 @media (min-width: 768px) and (max-width: 100%) {
@@ -192,11 +62,36 @@ relevant-documents.page--banner {
 
 */
 
-@media (min-width: 0px) and (max-width: 800px) {
-	.partners-mobile  {
-		display: block;
-		margin-bottom: 1rem;
+@media (min-width: 0px) and (max-width: 479px) {
+	.partners-img-320  {
+		display: inline;
+		width: 100%
 	}
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+	.partners-img-648  {
+		display: inline;
+		width: 100%
+	}
+
+}
+
+@media (min-width: 801px) and (max-width: 967px) {
+	.partners-img-968  {
+		display: inline;
+		width: 100%
+	}
+}
+
+@media (min-width: 968px) {
+	.partners-img-1200  {
+		display: inline;
+		width: 100%
+	}
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
 	
 	.mobile-partners {
 		display: block;
@@ -205,19 +100,8 @@ relevant-documents.page--banner {
 	}
 }
 
-@media (min-width: 801px) and (max-width: 979px) {
-	.partners-tablet  {
-		display: block;
-	}
-}
 
-@media (min-width: 980px) {
-	.partners-desktop  {
-		display: block;
-	}
-}
-
-@media (min-width: 0px) and (max-width: 639px) {
+@media (min-width: 0px) and (max-width: 800px) {
 	.partners-images {
 		margin-bottom: 2rem;
 	}
