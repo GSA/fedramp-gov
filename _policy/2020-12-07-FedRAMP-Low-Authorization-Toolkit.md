@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP Low Authorization Toolkit
 category: Authorization Phase
 weblink:
-filename: toolkit/FedRAMP-Low-Authorization-Toolkit.zip
+filename: toolkits/FedRAMP-Low-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 2.9MB
 condition: new
