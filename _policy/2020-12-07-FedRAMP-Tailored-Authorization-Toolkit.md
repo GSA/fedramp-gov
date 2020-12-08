@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP Tailored Authorization Toolkit
 category: Authorization Phase
 weblink:
-filename: toolkit/FedRAMP-Tailored-Authorization-Toolkit.zip
+filename: toolkits/FedRAMP-Tailored-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 3.4MB
 condition: new
