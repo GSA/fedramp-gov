@@ -42,25 +42,7 @@ relevant-documents.page--banner {
 	}
 }
 
-/*
-@media (min-width: 640px) and (max-width: 767px) {
-	img.partners-fed-image {
-		width: 200px;
-		margin-left: 20px;
-	}
-	
-	img.partners-csv-image {
-		width: 240px;
-		margin-left: 20px;
-	}
-	
-	img.partners-assessors-image {
-		width: 200px;
-		margin-left: 20px;
-	}
-}
 
-*/
 
 @media (min-width: 0px) and (max-width: 479px) {
 	.partners-img-320  {
@@ -73,6 +55,11 @@ relevant-documents.page--banner {
 	.partners-img-648  {
 		display: inline;
 		width: 100%
+	}
+	
+	.auth-image-container {
+		text-align: center;
+		padding: 0 3rem !important;
 	}
 
 }
@@ -102,7 +89,7 @@ relevant-documents.page--banner {
 
 
 @media (min-width: 0px) and (max-width: 800px) {
-	.partners-images {
+	.partners-images, .authorization-images {
 		margin-bottom: 2rem;
 	}
 	
@@ -118,6 +105,10 @@ relevant-documents.page--banner {
 @media (min-width: 801px) {
 	.partners-images {
 		padding-left: 4rem !important;
+	}
+	
+	.authorization-images {
+		padding-right: 3rem !important;
 	}
 }
 
