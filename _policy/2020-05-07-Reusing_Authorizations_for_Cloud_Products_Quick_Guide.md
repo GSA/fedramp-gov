@@ -16,4 +16,4 @@ tags:
   - Agency Authorization
 
 ---
-This quick guide outlines steps and guidance to help agencies quickly and efficiently reuse authorized cloud products within the FedRAMP Marketplace.
+This quick guide outlines steps and guidance to help agencies quickly and efficiently reuse authorized cloud products within the FedRAMP Marketplace. 
