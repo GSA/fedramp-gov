@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: toolkits/FedRAMP-High-Authorization-Toolkit.zip
 filetype: zip
-fileinfo: zip - 1.4MB
+fileinfo: zip - 3.1MB
 condition: new
 partner: All Partners
 doctype:
