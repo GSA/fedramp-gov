@@ -91,8 +91,11 @@ relevant-documents.page--banner {
 }
 
 @media (min-width: 1040px) {
-	.partners-images {
+	.partners-img-1200 {
 		display: inline;
+	}
+	
+	.partners-images {
 		padding-left: 3rem !important;
 	}
 	
@@ -123,20 +126,20 @@ relevant-documents.page--banner {
 	}
 }
 
-@media (min-width: 0px) and (max-width: 1023px) {
+@media (min-width: 0px) and (max-width: 1039px) {
 	h2.auth-header {
 		text-align: center;
 	}
 }
 
-@media (min-width: 639px) and (max-width: 800px) {
+@media (min-width: 639px) and (max-width: 1039px) {
 	.partners-main {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
 }
 
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 1039px) {
 	.partners-main {
 		flex-direction: column-reverse;
 	}
