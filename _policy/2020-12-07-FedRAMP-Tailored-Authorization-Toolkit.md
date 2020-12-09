@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: toolkits/FedRAMP-Tailored-Authorization-Toolkit.zip
 filetype: zip
-fileinfo: zip - 3.4MB
+fileinfo: zip - 1.4MB
 condition: new
 partner: All Partners
 doctype:
