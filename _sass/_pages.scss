@@ -849,7 +849,7 @@ p.faq-search-text {
 }
 
 
-.training-sign-up, .courses-button {
+.training-sign-up, .courses-button, .auth-resources-download {
 	font-size: 0.75rem;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -882,6 +882,26 @@ p.faq-search-text {
 		}
 	}
 }
+
+.auth-resources-download {
+	border-radius: 20px;
+	border: solid 1px $mid-gray;
+	padding: 4px 14px;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 800;
+	cursor: pointer;
+
+	&:visited {
+		color: $mid-gray;
+	}
+
+	&:hover {
+		color: $red;
+		border: solid 1px $red;
+	}
+	}
 
 .training-sign-up.no-line {
 		border-bottom: none;
