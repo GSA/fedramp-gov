@@ -892,13 +892,12 @@ p.faq-search-text {
 
 .training-download {
 	white-space: nowrap;
-	line-height: 2.5rem !important;
 }
 
 @media (min-width: 0px) and (max-width: 450px) {
-	
-	margin-left: 0 !important;
-	
+	.training-download {
+		margin-left: 0 !important;
+	}
 }
 
 .auth-resources-download {
@@ -961,7 +960,7 @@ p.faq-search-text {
 	
 }
 
-@media (min-width: 0) and (max-width: 359px) {
+@media (min-width: 0) and (max-width: 459px) {
 	.training-sign-up .courses-button, .courses-button .courses-button {
 		display: block;
 		margin-top: 6px;
@@ -1049,3 +1048,4 @@ p.faq-search-text {
  		}
  	}
 }
+

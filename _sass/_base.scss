@@ -413,19 +413,6 @@ a {
 }
 
 
-@media (min-width: 600px) {
-	
-	/*
-  .usa-width-one-whole.usa-section {
-    position: relative;
-    left: 50%;
-    max-width: 62.5rem;
-    margin-left: -31.25rem;
-  }
-	*/
-}
-
-
 .usa-grid {
 	max-width: 1200px;
 	padding-right: 0;
@@ -433,37 +420,6 @@ a {
 }
 
 
-/*
-
-@media (min-width: 1240px) {
-	.usa-banner__inner {
-		padding-left: 0rem;
-		padding-right: 0rem;
-	}
-}
-
-@media (min-width: 1200px) and (max-width: 1239px) {
-	.usa-banner__inner {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-}
-
-@media (min-width: 769px) and (max-width: 1199px) {
-	.usa-banner__inner {
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-	.usa-banner__inner {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-}
-
-*/
 
 #main .page-banner-container, body .page-banner-container {
 	background: $light-blue;
@@ -523,3 +479,11 @@ a.more-info:visited {
 	color: $footer-teal;
 }
 
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
