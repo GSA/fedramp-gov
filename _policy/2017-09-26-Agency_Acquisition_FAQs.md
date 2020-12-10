@@ -7,7 +7,7 @@ filename: documents/Agency_Acquisition_FAQs.pdf
 filetype: pdf
 fileinfo: PDF - 295KB
 condition: new
-partner: All Partners
+partner: Agencies
 doctype:
   - Document
 tags:
