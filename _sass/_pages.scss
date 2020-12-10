@@ -705,6 +705,13 @@ ul.governance-checklist li .check {
 	}
 }
 
+.faq-clear {
+	background: none;
+	position: relative;
+	top: 2rem;
+	padding: 0;
+}
+
 p.faq-search-text {
 	font-size: 1.15625rem;
 	font-weight: 800 !important;
@@ -881,6 +888,12 @@ p.faq-search-text {
 			border: solid 1px $red;
 		}
 	}
+}
+
+.training-download {
+	white-space: nowrap;
+	line-height: 2.5rem !important;
+	margin-left: 0 !important;
 }
 
 .auth-resources-download {

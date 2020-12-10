@@ -44,9 +44,15 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-  var html = $('#search-area').html();
-  $("#search-field-small").on("keyup", function() {    
-    var value = $(this).val().toLowerCase();   
+    var html = $('#search-area').html();
+    $("#search-field-small").on("keyup", function() {
+
+    $('.clear-results').css("display", "none");
+    if($(this).val().length != 0) {
+      $('.clear-results').css("display", "block");
+    }
+
+    var value = $(this).val().toLowerCase();
     var reg = new RegExp(value || "&fakeEntity;", 'gi');
 
     $('#search-area').html(html.replace(reg, function(str, index) {
@@ -61,16 +67,54 @@ $(document).ready(function(){
       return '<span class="keyword-highlight">' + str + '</span>';
     }));
 
-    $(".usa-accordion__content:gt(0)").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-      $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
-    });
 
-    $(".usa-accordion__heading button:gt(0)").attr("aria-expanded", "true");
-    $(".usa-accordion__content:gt(0)").removeAttr("hidden");
+    if($(this).val().length === 0) {
+
+      $(".usa-accordion__heading button").attr("aria-expanded", "false");
+      $(".usa-accordion__content:gt(0)").attr("hidden", "true");
+
+    } else {
+
+      $(".usa-accordion__content:gt(0)").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+        $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      });
+
+      $(".usa-accordion__heading button").attr("aria-expanded", "true");
+      $(".usa-accordion__content:gt(0)").removeAttr("hidden");
+    }
+
+
   });
+
 });
 
+var sa = $('#search-area').html();
+
+
+function clearFaqs() {
+
+  $(".clear-results").css("display", "none");
+  $("#search-field-small").val("");
+
+    var value = $('#search-field-small').val().toLowerCase();
+    var reg = new RegExp(value || "&fakeEntity;", 'gi');
+
+    $('#search-area').html(sa.replace(reg, function(str, index) {
+      var t = sa.slice(0, index+1),
+        lastLt = t.lastIndexOf("<"),
+        lastGt = t.lastIndexOf(">"),
+        lastAmp = t.lastIndexOf("&"),
+        lastSemi = t.lastIndexOf(";");
+
+      if(lastLt > lastGt) return str; // inside a tag
+      if(lastAmp > lastSemi) return str; // inside an entity
+      return '<span class="keyword-highlight">' + str + '</span>';
+    }));
+
+    $(".usa-accordion__heading button").attr("aria-expanded", "false");
+    $(".usa-accordion__content:gt(0)").attr("hidden", "true");
+}
 
 
 function searchScroll(e) {
