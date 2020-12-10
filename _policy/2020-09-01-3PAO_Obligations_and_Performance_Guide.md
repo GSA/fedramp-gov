@@ -14,4 +14,4 @@ tags:
   - 3PAO
 
 ---
-This document provides guidance for 3PAOs on demonstrating the quality, independence, and FedRAMP knowledge required as they perform security assessments on cloud systems. 
+This document provides guidance for 3PAOs on demonstrating the quality, independence, and FedRAMP knowledge required as they perform security assessments on cloud systems.
