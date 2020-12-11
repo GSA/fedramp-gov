@@ -8,9 +8,9 @@ date: 2018-01-02
 order: 300
 
 ---
-Brian Conrad joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining GSA, Brian served for over 20 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.
+Brian Conrad joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining the General Services Administration (GSA), Brian served for over 20 years in the U.S. Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.
 
-Upon his transition from active duty, Brian joined Booz Allen Hamilton where he spent over seven years building his IT, cybersecurity, and project management skills supporting various clients across the Department of Defense, including the United States Marine Corps, United States Navy, and the Chief Information Officer for the Department of Defense. During this time, Brian became recognized as a cloud computing/cybersecurity Subject Matter Expert within the federal government.
+Upon his transition from active duty, Brian joined Booz Allen Hamilton where he spent over seven years building his IT, cybersecurity, and project management skills supporting various clients across the Department of Defense (DOD), including the U.S. Marine Corps, United States Navy, and the Chief Information Officer for the DOD. During this time, Brian became recognized as a cloud computing/cybersecurity Subject Matter Expert within the federal government.
 
 At GSA, Brian leads multiple efforts associated with Joint Authorization Board assessment and authorization activities that facilitate the authorization and adoption of commercial cloud services across the federal government.
 
