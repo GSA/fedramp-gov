@@ -10,7 +10,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <h2>FedRAMP's Online Courses</h2>
 
 <h2>All Stakeholders</h2>
-<p>This series of FedRAMP videos highlights an overview of the program, background, authorization process, and the FedRAMP Marketplace.</p>
+<p>This series of FedRAMP videos highlight an overview of the program, background, authorization process, and the FedRAMP Marketplace.</p>
 <h3 class="accordion">FedRAMP Overview</h3>
 <div class="panel">
 <p><a href="https://www.youtube.com/watch?v=I_3YFkmGTt4"> <strong>A FedRAMP Overview: Introduction</strong> </a> (YouTube)</p>
