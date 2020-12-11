@@ -412,6 +412,10 @@ img.phase-icon {
 	.step-reversed {
 		flex-direction: column-reverse;
 	}
+	
+	.authorization-link:visited {
+		color: $light-blue;
+	}
 }
 
 @media (min-width: 800px) {
@@ -421,6 +425,7 @@ img.phase-icon {
 	
 	.authorization-link {
 		display: none;
+		
 	}
 }
 
