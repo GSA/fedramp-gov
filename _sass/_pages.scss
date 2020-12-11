@@ -43,7 +43,9 @@ relevant-documents.page--banner {
 	}
 }
 
-
+.auth-steps-info {
+	padding: 0 1.5rem !important;
+}
 
 @media (min-width: 0px) and (max-width: 479px) {
 	.partners-img-320  {
@@ -104,6 +106,29 @@ relevant-documents.page--banner {
 	}
 }
 
+@media (min-width: 0px) and (max-width: 799px) {
+	.authorizatoin-callouts-mobile {
+		display: inline;
+	}
+	
+	.authorization-information-col {
+		width: 100%;
+	}
+	
+	.auth-steps-info {
+		padding-bottom: 3.25rem !important;
+	}
+	
+	.step-reversed {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (min-width: 800px) {
+	.authorizatoin-callouts-desktop {
+		display: inline;
+	}
+}
 
 
 .file-type {
@@ -322,12 +347,6 @@ img.phase-icon {
 	}
 }
 
-.auth-steps-info {
-	padding: 0 1.5rem !important;
-}
-
-
-
 
 @media (min-width: 0px) and (max-width: 979px) {
 
@@ -378,13 +397,6 @@ img.phase-icon {
 		text-align: center;
 	}
 	
-	.step-reversed {
-		flex-direction: column-reverse;
-	}
-	
-	.auth-steps-info {
-		padding-bottom: 3.25rem !important;
-	}
 	
 	.auth-pdf-download-img {
 		text-align: left;

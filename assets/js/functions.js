@@ -42,79 +42,79 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
-
-    var html = $('#search-area').html();
-    $("#search-field-small").on("keyup", function() {
-
-    $('.clear-results').css("display", "none");
-    if($(this).val().length != 0) {
-      $('.clear-results').css("display", "block");
-    }
-
-    var value = $(this).val().toLowerCase();
-    var reg = new RegExp(value || "&fakeEntity;", 'gi');
-
-    $('#search-area').html(html.replace(reg, function(str, index) {
-      var t = html.slice(0, index+1),
-        lastLt = t.lastIndexOf("<"),
-        lastGt = t.lastIndexOf(">"),
-        lastAmp = t.lastIndexOf("&"),
-        lastSemi = t.lastIndexOf(";");
-
-      if(lastLt > lastGt) return str; // inside a tag
-      if(lastAmp > lastSemi) return str; // inside an entity
-      return '<span class="keyword-highlight">' + str + '</span>';
-    }));
-
-
-    if($(this).val().length === 0) {
-
-      $(".usa-accordion__heading button").attr("aria-expanded", "false");
-      $(".usa-accordion__content:gt(0)").attr("hidden", "true");
-
-    } else {
-
-      $(".usa-accordion__content:gt(0)").filter(function() {
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-        $(this).prev("h4").toggle($(this).text().toLowerCase().indexOf(value) > -1);
-      });
-
-      $(".usa-accordion__heading button").attr("aria-expanded", "true");
-      $(".usa-accordion__content:gt(0)").removeAttr("hidden");
-    }
-
-
-  });
-
-});
-
 var sa = $('#search-area').html();
 
 
 function clearFaqs() {
 
-  $(".clear-results").css("display", "none");
-  $("#search-field-small").val("");
 
-    var value = $('#search-field-small').val().toLowerCase();
-    var reg = new RegExp(value || "&fakeEntity;", 'gi');
+  $(".clear-results").css("display", "none");
+  $("#search-field-small").val("");
 
-    $('#search-area').html(sa.replace(reg, function(str, index) {
-      var t = sa.slice(0, index+1),
-        lastLt = t.lastIndexOf("<"),
-        lastGt = t.lastIndexOf(">"),
-        lastAmp = t.lastIndexOf("&"),
-        lastSemi = t.lastIndexOf(";");
 
-      if(lastLt > lastGt) return str; // inside a tag
-      if(lastAmp > lastSemi) return str; // inside an entity
-      return '<span class="keyword-highlight">' + str + '</span>';
-    }));
+    $('#search-area').html(sa);
 
-    $(".usa-accordion__heading button").attr("aria-expanded", "false");
-    $(".usa-accordion__content:gt(0)").attr("hidden", "true");
+
+    $(".usa-accordion__heading button").attr("aria-expanded", "false");
+    $(".usa-accordion__content:gt(0)").attr("hidden", "true");
+
+
+    $("#result-count").html("");
 }
+
+
+$(document).ready(function(){
+
+
+    var html = $('#search-area').html();
+    $("#search-field-small").on("keyup", function() {
+    
+    $('.clear-results').css("display", "none");
+    if($(this).val().length != 0) {
+    $('.clear-results').css("display", "block");
+    }
+    
+    var value = $(this).val().toLowerCase();
+    var reg = new RegExp(value || "&fakeEntity;", 'gi');
+    
+    $('#search-area').html(html.replace(reg, function(str, index) {
+      var t = html.slice(0, index+1),
+        lastLt = t.lastIndexOf("<"),
+        lastGt = t.lastIndexOf(">"),
+        lastAmp = t.lastIndexOf("&"),
+        lastSemi = t.lastIndexOf(";");
+        
+      if(lastLt > lastGt) return str; // inside a tag
+      if(lastAmp > lastSemi) return str; // inside an entity
+      return '<span class="keyword-highlight">' + str + '</span>';
+    }));
+    
+    if($(this).val().length === 0) {
+    
+      $(".usa-accordion__heading button").attr("aria-expanded", "false");
+      $(".usa-accordion__content:gt(0)").attr("hidden", "true");
+      $("#result-count").html("");
+      
+    } else {
+    
+      $(".usa-accordion__content:gt(0)").filter(function() {
+      
+        var isFound = $(this).text().toLowerCase().indexOf(value) > -1 || $(this).prev("h4").text().toLowerCase().indexOf(value) > -1;
+        
+        $(this).toggle(isFound);
+        $(this).prev("h4").toggle(isFound);
+      });
+      
+      $(".usa-accordion__heading button").attr("aria-expanded", "true");
+      $(".usa-accordion__content:gt(0)").removeAttr("hidden");
+      
+      var results = ($(".keyword-highlight:visible").length == 1) ? " Result" : " Results";
+      $("#result-count").html($(".keyword-highlight:visible").length + results);
+    } 
+    
+  });
+
+});
 
 
 function searchScroll(e) {

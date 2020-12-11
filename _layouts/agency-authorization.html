@@ -70,13 +70,13 @@ layout: full-width
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap step-reversed">
-			<div class="full-col tablet:grid-col-7">
+			<div class="full-col tablet:grid-col-7 authorization-information-col">
 				 <h3 class="margin-top-0">Readiness Assessment</h3>
 				<p>In the <strong>Readiness Assessment</strong> step, a CSP may elect to pursue the <strong>FedRAMP Ready</strong> designation, which is optional for the Agency Authorization process, but highly recommended. To achieve the <strong>FedRAMP Ready</strong> designation, a CSP must work with an accredited 3PAO to complete a Readiness Assessment of its service offering. The Readiness Assessment Report (RAR) documents the CSP's capability to meet FedRAMP’s security requirements. RARs provide the federal government with a snapshot of a cloud service's security posture without requiring CSPs to make the full investment of going through the entire FedRAMP assessment process of testing and documentation. The FedRAMP PMO reviews each RAR to ensure a CSO’s core security capabilities and operational processes are in place. More information regarding steps to achieve <strong>FedRAMP Ready</strong> can be found in the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf" target="_blank">FedRAMP Marketplace Designations for Cloud Service Providers document</a>.</p>
 				
 			</div>
 				
-			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center authorization-information-col ">
 				<img src="{{site.baseurl}}/assets/img/agency-preparation-1.svg" class="step-reversed" alt="" />
 			</div>
 		</div>
@@ -86,11 +86,11 @@ layout: full-width
 <section class="lightest-gray-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center  authorization-information-col">
 				<img src="{{site.baseurl}}/assets/img/agency-preparation-2.svg" class="" alt="" />				
 			</div>
 				
-			<div class="full-col tablet:grid-col-7">
+			<div class="full-col tablet:grid-col-7 authorization-information-col">
 				<h3 class="margin-top-0">Pre-Authorization</h3>
 				<p>During the Pre-Authorization step, a CSP formalizes its partnership with an agency via the requirements outlined in FedRAMP’s Marketplace Designations for Cloud Service Providers. A CSP also prepares to undergo the authorization process. They make any necessary technical and procedural adjustments to address federal security requirements and prepare the security deliverables required for authorization. </p>
 				
@@ -120,10 +120,10 @@ layout: full-width
 <section class="blue-bkg fedramp-page-container">
 	<div class="grid-container auth-container-steps">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-2 step-numbers-container">
+			<div class="full-col tablet:grid-col-2 step-numbers-container authorization-information-col">
 				<img src="{{site.baseurl}}/assets/img/auth-2.svg" class="auth-numbers" alt="" />
 			</div>
-			<div class="full-col tablet:grid-col-10 intro-text">
+			<div class="full-col tablet:grid-col-10 intro-text authorization-information-col">
 				<h2 class="text-white">Authorization</h2>
 				<p class="text-white auth-steps-text">The preparation phase consists of two steps: <strong>Readiness Assessment</strong> and <strong>Pre-Authorization</strong>.</p>
 			</div>
@@ -134,7 +134,7 @@ layout: full-width
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap step-reversed">
-			<div class="full-col tablet:grid-col-7">
+			<div class="full-col tablet:grid-col-7 authorization-information-col">
 				
 				<h3 class="margin-top-0">Full Security Assessment</h3>
 
@@ -145,8 +145,9 @@ layout: full-width
 				<p>The CSP will then develop a Plan of Action and Milestones (POA&M) based on the SAR findings, and include input from the 3PAO, which outlines a plan for addressing the findings from testing.</p>
 			</div>
 				
-			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
-				<img src="{{site.baseurl}}/assets/img/agency-authorization-1.svg" class="" alt="" />				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center authorization-information-col">
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-1.svg" class="display-none authorizatoin-callouts-desktop" alt="" />
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-1-mobile.svg" class="display-none authorizatoin-callouts-mobile" alt="" />
 			</div>
 		</div>
 	</div>
@@ -155,11 +156,12 @@ layout: full-width
 <section class="lightest-gray-bkg fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
-				<img src="{{site.baseurl}}/assets/img/agency-authorization-2.svg" class="" alt="" />				
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center authorization-information-col">
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-2.svg" class="display-none authorizatoin-callouts-desktop" alt="" />
+				<img src="{{site.baseurl}}/assets/img/agency-authorization-2-mobile.svg" class="display-none authorizatoin-callouts-mobile" alt="" />				
 			</div>
 				
-			<div class="full-col tablet:grid-col-7">
+			<div class="full-col tablet:grid-col-7 authorization-information-col">
 				<h3 class="margin-top-0">Agency Authorization Process</h3>
 				<p>The next step is the <strong>Agency Authorization Process</strong>. During this step, the agency conducts a security authorization package review, which may include a SAR debrief with the FedRAMP PMO. Depending on the results of the agency’s review, CSP remediation may be required. Additionally, the agency will review and implement their customer responsibilities during this phase. Finally, the agency performs a risk analysis, accepts risk, and issues an ATO. This decision is based on the agency’s risk tolerance. Once an agency provides an ATO letter for the use of the CSO, the following actions take place to close out this step:</p>
 				
@@ -196,7 +198,7 @@ layout: full-width
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="full-row grid-row grid-gap step-reversed">
-			<div class="full-col tablet:grid-col-7">
+			<div class="full-col tablet:grid-col-7 authorization-information-col">
 				<h3 class="margin-top-0">Post Authorization</h3>
 
 				<p>During the continuous monitoring phase, the CSP is required to provide periodic security deliverables (vulnerability scans, updated POA&M, annual security assessments, significant change requests, etc.) to all agency customers. Further detail can be found in the Continuous Monitoring Strategy Guide.</p>
@@ -204,7 +206,7 @@ layout: full-width
 				<p>Each agency using the service reviews the monthly continuous monitoring deliverables. CSPs may use the FedRAMP secure repository for posting monthly continuous monitoring material for ease of access and sharing with agency representatives.</p> 
 			</div>
 				
-			<div class="full-col tablet:grid-col-5 auth-steps-info text-center ">
+			<div class="full-col tablet:grid-col-5 auth-steps-info text-center authorization-information-col">
 				<img src="{{site.baseurl}}/assets/img/conmon.svg" class="" alt="" />								
 			</div>
 		</div>
