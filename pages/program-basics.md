@@ -34,10 +34,10 @@ fisma-text: Federal Information Security Modernization Act requires agencies to 
 
 omb-circular-image: 
 omb-circular-title: OMB Circular A-130
-omb-circular-text: OMB states that when agencies implement FISMA, they must use NIST standards and guidelines
+omb-circular-text: The Office of Management and Budget (OMB) states that when agencies implement FISMA, they must use NIST standards and guidelines
 
 policy-image: 
 policy-title: FedRAMP Policy
-policy-text: FedRAMP leverages NIST standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages
+policy-text: FedRAMP leverages National Institute of Standards and Technology (NIST) standards and guidelines to provide standardized security requirements for cloud services; a conformity assessment program; standardized authorization packages and contract language; and a repository for authorization packages
 
 ---
