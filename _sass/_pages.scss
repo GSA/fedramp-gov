@@ -371,9 +371,14 @@ img.phase-icon {
 	padding: 2rem 0;
 }
 
+.auth-graph-top-icon {
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
 @media (min-width: 0px) and (max-width: 799px) {
 	.authorizatoin-callouts-mobile {
-		display: inline;
+		display: none;
 	}
 	
 	.step-numbers-container {
@@ -384,9 +389,11 @@ img.phase-icon {
 		width: 100%;
 	}
 	
+	/*
 	.auth-steps-info {
 		padding-bottom: 3.25rem !important;
 	}
+	*/
 	
 	.auth-container-steps p {
 		margin-bottom: 2rem;
@@ -410,6 +417,10 @@ img.phase-icon {
 @media (min-width: 800px) {
 	.authorizatoin-callouts-desktop {
 		display: inline;
+	}
+	
+	.authorization-link {
+		display: none;
 	}
 }
 
