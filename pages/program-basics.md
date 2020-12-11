@@ -26,7 +26,7 @@ goals-checklist-2: Enhance the framework by which the government secures and aut
 goals-checklist-3: Build and foster strong partnerships with FedRAMP stakeholders.
 
 framework-title: Legal Framework
-framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a> <i class="fas fa-external-link-alt fa-sm"></i>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank" class="text-white">OMB Circular A-130 [PDF - 536KB]</a> <i class="fas fa-external-link-alt fa-sm"></i>, and FedRAMP policy.
+framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a> <i class="fas fa-external-link-alt fa-sm"></i>, <a href="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf" target="_blank" class="text-white">OMB Circular A-130 [PDF&nbsp;-&nbsp;536KB]</a> <i class="fas fa-external-link-alt fa-sm"></i>, and FedRAMP policy.
 
 fisma-image: 
 fisma-title: FISMA
