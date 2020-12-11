@@ -71,7 +71,7 @@ $(document).ready(function(){
     
     $('.clear-results').css("display", "none");
     if($(this).val().length != 0) {
-    $('.clear-results').css("display", "block");
+    $('.clear-results').css("display", "inline");
     }
     
     var value = $(this).val().toLowerCase();
