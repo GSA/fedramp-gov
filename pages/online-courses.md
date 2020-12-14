@@ -7,22 +7,19 @@ body-class: page-training
 
 
 These online courses consist of on-demand modules designed for specific stakeholder groups. Each course provides an in-depth focus around a specific step in the FedRAMP authorization process. Throughout each course, stakeholders will gain a better understanding of roles and responsibilities, security requirements, and best practices. 
-<h2>FedRAMP's Online Course Paths</h2>
+<h2>FedRAMP's Online Courses</h2>
 
-![image alt text](../../assets/img/learning-path.png)
-<div id="path-one">
-<h2>Path 1: All Stakeholders</h2>
-<p>The first education path provides an overview of the FedRAMP program.</p>
-<h3 class="accordion">100-A: Welcome to FedRAMP</h3>
+<h2>All Stakeholders</h2>
+<p>This series of FedRAMP videos highlight an overview of the program, background, authorization process, and the FedRAMP Marketplace.</p>
+<h3 class="accordion">FedRAMP Overview</h3>
 <div class="panel">
-<p><strong>Description:</strong> This is an introductory course about FedRAMP intended for all stakeholders who are not familiar with the program. This module provides an overview and is designed for anyone who would like to learn more about the program’s origin, goals, and the NIST Risk Management Framework. </p>
-<p><strong>Duration:</strong> 23 minutes</p>
-<p><a href="https://www.youtube.com/watch?v=zvq5L1xXhYY"> View this course</a> (YouTube)</p>
-<p>Download a <a href="{{site.baseurl}}/assets/resources/training/100-A-FedRAMP-Training-Welcome-to-FedRAMP.pdf">PDF version</a> of this course.</p>
-</div>
+<p>*<a href="https://www.youtube.com/watch?v=I_3YFkmGTt4"> <strong>A FedRAMP Overview: Introduction</strong> </a> (YouTube)</p>
+<p>*<a href="https://www.youtube.com/watch?v=jeL1PZin3wk"> <strong>A FedRAMP Overview: Background</strong> </a> (YouTube)</p>
+<p>*<a href="https://www.youtube.com/watch?v=fxCVMGxg6X0"> <strong>A FedRAMP Overview: Authorization Process</strong> </a> (YouTube)</p>
+<p>*<strong>A FedRAMP Overview: FedRAMP Marketplace</strong> (coming soon)</p>
 </div>
 <div id="path-two">
-<h2>Path 2: Cloud Service Providers (CSPs)</h2>
+<h2>Cloud Service Providers (CSPs)</h2>
 <p>These online modules are designed to help CSPs understand the requirements of security package development and give a detailed overview of the required templates and their supporting documentation.</p>
 <h3 class="accordion">200-A: FedRAMP System Security Plan (SSP) Required Documents</h3>
 <div class="panel">
@@ -69,7 +66,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 </div>
 </div>
 <div id="path-three">
-<h2>Path 3: Third Party Assessors (3PAOs)</h2>
+<h2>Third Party Assessors (3PAOs)</h2>
 
 <strong>Important Note: The 3PAO modules are currently under transition to a new training platform. If you are a new Assessor, please email us at info@fedramp.gov for next steps.</strong>
 
@@ -131,7 +128,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><em>This course is currently unavailable.</em></p>
 </div>
 <div id="path-four">
-<h2>Path 4: Federal Agencies</h2>
+<h2>Federal Agencies</h2>
 	<h3>Coming soon</h3>
 <p>These online modules provide  Agency stakeholders with step-by-step guidance, best practices, and tips to successfully implement the FedRAMP authorization process. At the end of the training, there is an optional quiz and a certificate of completion is provided to attendees who take the course and pass the final quiz.   </p>
 <h3 class="accordion">400-A: ISSO On-Demand Modules</h3>
