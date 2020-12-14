@@ -13,10 +13,10 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p>This series of FedRAMP videos highlight an overview of the program, background, authorization process, and the FedRAMP Marketplace.</p>
 <h3 class="accordion">FedRAMP Overview</h3>
 <div class="panel">
-<p>*<a href="https://www.youtube.com/watch?v=I_3YFkmGTt4"> <strong>A FedRAMP Overview: Introduction</strong> </a> (YouTube)</p>
-<p>*<a href="https://www.youtube.com/watch?v=jeL1PZin3wk"> <strong>A FedRAMP Overview: Background</strong> </a> (YouTube)</p>
-<p>*<a href="https://www.youtube.com/watch?v=fxCVMGxg6X0"> <strong>A FedRAMP Overview: Authorization Process</strong> </a> (YouTube)</p>
-<p>*<strong>A FedRAMP Overview: FedRAMP Marketplace</strong> (coming soon)</p>
+<p><a href="https://www.youtube.com/watch?v=I_3YFkmGTt4"> <strong>A FedRAMP Overview: Introduction</strong> </a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=jeL1PZin3wk"> <strong>A FedRAMP Overview: Background</strong> </a> (YouTube)</p>
+<p><a href="https://www.youtube.com/watch?v=fxCVMGxg6X0"> <strong>A FedRAMP Overview: Authorization Process</strong> </a> (YouTube)</p>
+<p><strong>A FedRAMP Overview: FedRAMP Marketplace</strong> (coming soon)</p>
 </div>
 <div id="path-two">
 <h2>Cloud Service Providers (CSPs)</h2>
