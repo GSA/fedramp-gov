@@ -36,8 +36,8 @@
 
 @media (min-width: 768px) and (max-width: 980px) {
 	.agency-home, .jab-home {
-		left: 6%;
-		width: 35%;
+		left: 0%;
+		width: 29%;
 		
 		img {
 			width: 100%;
@@ -45,7 +45,11 @@
 	}
 	
 	.jab-home {
-		top: 28%;
+		top: 32%;
+	}
+	
+	.agency-home {
+		top: 5%;
 	}
 }
 
@@ -61,7 +65,11 @@
 	}
 	
 	.jab-home {
-		top: 15%;
+		top: 11%;
+	}
+	
+	.agency-home {
+		top: 6%;
 	}
 			
 }
