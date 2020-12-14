@@ -564,3 +564,4 @@ $(function () {
   $(".clear-results").css("display", "inline");
 
 });
+
