@@ -16,4 +16,4 @@ tags:
   - Toolkit
 
 ---
-This zip file contains files that will help all partners get a better understanding of the FedRAMP authorization process for those seeking a Tailored Authorization.
+This zip file contains files that will help all partners get a better understanding of the FedRAMP authorization process for those seeking a Tailored Authorization. 
