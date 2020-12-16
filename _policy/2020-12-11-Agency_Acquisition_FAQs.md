@@ -14,4 +14,4 @@ tags:
   - Acquisition
 
 ---
-FAQ resource, developed in conjunction with OMB, that agencies can reference when developing their solicitations.
+FAQ resource, developed in conjunction with OMB, that agencies can reference when developing their solicitations. 
