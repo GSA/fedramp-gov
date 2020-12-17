@@ -26,30 +26,3 @@
     </li>
   </ul>
 </section>
-
-<script type="text/javascript">
-  fetch('https://raw.githubusercontent.com/18F/fedramp-data/master/data/data.json')
-  .then(function(response) {
-    return response.json();
-  }).then(function(json) {
-    var providers = json.data.Providers;
-    if (!providers) return;
-
-    var totalAuthorized = 0;
-    var totalInProcess = 0;
-    var totalReady = 0;
-
-    for (i = 0; i < providers.length; i++) {
-      if (providers[i].Designation === 'Compliant') totalAuthorized += 1;
-      if (providers[i].Designation === 'In Process') totalInProcess += 1;
-      if (providers[i].Designation === 'FedRAMP Ready') totalReady += 1;
-    }
-
-    document.getElementById("totalAuthorized").textContent = totalAuthorized;
-    document.getElementById("totalInProcess").textContent = totalInProcess;
-    document.getElementById("totalReady").textContent = totalReady;
-
-  }).catch(function(ex) {
-    console.log('parsing totals failed', ex)
-  })
-</script>
