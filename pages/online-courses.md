@@ -16,7 +16,7 @@ These online courses consist of on-demand modules designed for specific stakehol
 <p><a href="https://www.youtube.com/watch?v=I_3YFkmGTt4"> <strong>A FedRAMP Overview: Introduction</strong> </a> (YouTube)</p>
 <p><a href="https://www.youtube.com/watch?v=3VZU7oLH2aE"> <strong>A FedRAMP Overview: Background</strong> </a> (YouTube)</p>
 <p><a href="https://www.youtube.com/watch?v=fxCVMGxg6X0"> <strong>A FedRAMP Overview: Authorization Process</strong> </a> (YouTube)</p>
-<p><strong>A FedRAMP Overview: FedRAMP Marketplace</strong> (coming soon)</p>
+<p><a href="https://www.youtube.com/watch?v=9JUeMuIfhvc"> <strong>A FedRAMP Overview: FedRAMP Marketplace</strong> (coming soon)</p>
 </div>
 <div id="path-two">
 <h2>Cloud Service Providers (CSPs)</h2>
