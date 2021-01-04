@@ -13,7 +13,7 @@ body-class: page-fed-agencies
     <th>Last Updated</th>
   </tr>
   <tr>
-    <td><a href="http://collaborate.nist.gov/twiki-cloud-computing/pub/CloudComputing/ReferenceArchitectureTaxonomy/NIST_SP_500-292_-_090611.pdf">NIST Cloud Computing Reference Architecture (SP 500-292)</a></td>
+    <td><a href="https://www.nist.gov/publications/nist-cloud-computing-reference-architecture">NIST Cloud Computing Reference Architecture (SP 500-292)</a></td>
     <td>The adoption of cloud computing into the Federal Government and its implementation depend upon a variety of technical and non-technical factors. A fundamental reference point, based on the NIST definition of Cloud Computing, is needed to describe an overall framework that can be used government-wide. This document presents the NIST Cloud Computing Reference Architecture (RA) and Taxonomy (Tax) that will accurately communicate the components and offerings of cloud computing.</td>
 <td><a class="icon-link" href="http://collaborate.nist.gov/twiki-cloud-computing/pub/CloudComputing/ReferenceArchitectureTaxonomy/NIST_SP_500-292_-_090611.pdf"><i class="fas fa-file-pdf"></i>
 <p class="icon-text">PDF</p></a>
