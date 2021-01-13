@@ -4,7 +4,7 @@ name: Zach Baldwin
 image: /assets/img/team/profile_ZachBaldwin.png
 title: FedRAMP Program Manager for Strategy, Innovation, and Technology
 body-class: page-team-single
-date: 2018-01-01
+date: 2018-01-02
 
 ---
 Zach Baldwin is a seasoned GSA employee with over 15 years of experience supporting the Federal Telecommunications Service (FTS), Public Building Service (PBS), Office of the Chief Information Officer (CIO), Office of Citizen Services and Innovative Technologies (OCSIT), Federal Acquisition Service (FAS), and Technology Transformation Services (TTS). Within OCSIT, Zach led the Federal Data Center Consolidation to help create the first government-wide cloud contract and supported the inception of FedRAMP.  
