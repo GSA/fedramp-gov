@@ -4,7 +4,7 @@ name: John Hamilton
 image: /assets/img/team/profile_JohnHamilton.png
 title: FedRAMP Program Manager of Security Operations
 body-class: page-team-single
-date: 2018-01-03
+date: 2018-01-04
 
 ---
 
