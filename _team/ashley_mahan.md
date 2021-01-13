@@ -2,13 +2,14 @@
 layout: teammate
 name: Ashley Mahan
 image: /assets/img/team/profile_AshleyMahan.png
-title: Secure Cloud Portfolio & FedRAMP Director 
+title: Acting Assistant Commissioner of Technology Transformation Services (TTS) 
 body-class: page-team-single
 date: 2018-01-01
 
 ---
-Ashley Mahan is Director of the General Services Administration’s (GSA’s) Federal Risk and Authorization Management Program (FedRAMP) and Secure Cloud Portfolio. Ashley is a trusted liaison between Federal Agencies, Industry Cloud Service Providers, and other stakeholder groups advocating for and facilitating the adoption of secure cloud technologies across the federal Government.  Her work drives a dramatic increase in FedRAMP adoption and helps agencies modernize their IT landscapes via cloud technologies. When combined with her natural aptitude for effective and conscious leadership, Ashley is uniquely positioned to continue FedRAMP’s strong growth.
+Ashley Mahan is the Acting Assistant Commissioner of Technology Transformation Services (TTS) within the U.S. General Services Administration (GSA). In this role, she supports government-wide technology and innovation efforts, to provide a better experience for the public. 
 
-Prior to stepping into the FedRAMP Director role, Ashley served as the program’s first Evangelist. She has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence. Ashley holds an M.S. in Information Technology, B.S. in Business and has a variety of project management and technology industry certifications.
+Ashley previously served as the Secure Cloud Portfolio and Federal Risk and Authorization Management Program (FedRAMP) Director and supported agency modernization by providing a standardized approach to cloud security and risk assessment. Prior to serving as FedRAMP Director, Ms. Mahan served as FedRAMP Evangelist, a role in which she led the program’s efforts to promote awareness of FedRAMP and secure cloud adoption among Federal Agencies and cloud service providers. During her tenure as Evangelist, the program experienced a significant increase in the number of agency participants and FedRAMP authorized cloud services. She has earned a number of awards for her leadership, subject matter expertise, and dedication to excellence. 
 
-Connect with Ashley on LinkedIn: https://www.linkedin.com/in/ashleymahan
+Ashley holds an M.S. in Information Technology, B.S. in Business, and has a variety of project management and technology industry certifications.
+
