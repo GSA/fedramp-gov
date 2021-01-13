@@ -4,7 +4,7 @@ name: Ashley Mahan
 image: /assets/img/team/profile_AshleyMahan.png
 title: Acting Assistant Commissioner of Technology Transformation Services (TTS) 
 body-class: page-team-single
-date: 2018-01-01
+date: 2018-01-06
 
 ---
 Ashley Mahan is the Acting Assistant Commissioner of Technology Transformation Services (TTS) within the U.S. General Services Administration (GSA). In this role, she supports government-wide technology and innovation efforts, to provide a better experience for the public. 
