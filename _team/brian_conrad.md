@@ -7,7 +7,7 @@ body-class: page-team-single
 date: 2018-01-02
 
 ---
-Brian Conrad joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience.  Prior to joining GSA, Brian served for 21 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.  
+Brian Conrad is the Acting Director of the General Services Administration’s (GSA’s) Federal Risk and Authorization Management Program (FedRAMP). Brian joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience.  Prior to joining GSA, he served for 21 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.  
 
 Upon his transition from active duty, Brian joined Booz Allen Hamilton where spent over seven years building his IT, cybersecurity, and project management skills supporting various clients across the Department of Defense including the United States Marine Corps, United States Navy, and the Chief Information Officer for the Department of Defense. During this time, Brian became recognized as a cloud computing/cybersecurity Subject Matter Expert within the Federal Government.
 
