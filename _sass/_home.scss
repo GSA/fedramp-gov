@@ -8,11 +8,662 @@
 
 }
 
+.agency-readiness-assessment {
+	position: absolute;
+	left: 290px;
+	top: 0px;
+	
+	img {
+		width: 120px;
+	}
+}
+
+.agency-pre-authorization {
+	position: absolute;
+	left: 441px;
+	top: 0px;
+	
+	img {
+		width: 120px;
+	}
+}
+
+.agency-security-assessment {
+	position: absolute;
+	left: 646px;
+	top: 0px;
+
+	img {
+		width: 131px;
+	}
+}
+
+.agency-authorization-process {
+	position: absolute;
+	left: 793px;
+	top: 0px;
+	
+	img {
+		width: 131px;
+	}
+}
+
 .jab-home {
 	position: absolute;
 	width: 190px;
 	top: 210px;
 
+}
+
+.jab-connect {
+	position: absolute;
+	left: 233px;
+	top: 172px;
+	
+	img {
+		width: 119px;
+	}
+}
+
+.jab-readiness-assessment {
+	position: absolute;
+	left: 369px;
+	top: 172px;
+	
+	img {
+		width: 119px;
+	}
+}
+
+.jab-security-assessment {
+	position: absolute;
+	left: 504px;
+	top: 172px;
+	
+	img {
+		width: 119px;
+	}
+}
+
+.jab-authorization-process {
+	position: absolute;
+	left: 723px;
+	top: 172px;
+	
+	img {
+		width: 131px;
+	}
+}
+
+@media (min-width: 1199px) and (max-width: 1260px) {
+	.agency-readiness-assessment {
+		left: 23.75%;
+		top: 0px;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.agency-pre-authorization {
+		left: 36.5%;
+		top: 0px;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.agency-security-assessment {
+		left: 54%;
+		top: 0px;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.agency-authorization-process {
+		left: 66%;
+		top: 0px;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.jab-connect {
+		left: 19%;
+		top: 49%;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.jab-readiness-assessment {
+		left: 30.2%;
+		top: 49%;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.jab-security-assessment {
+		left: 41.5%;
+		top: 49%;
+
+		img {
+			width: 93%;
+		}
+	}
+
+	.jab-authorization-process {
+		left: 59.75%;
+		top: 49%;
+
+		img {
+			width: 93%;
+		}
+	}
+}
+
+@media (min-width: 1090px) and (max-width: 1199px) {
+	.agency-readiness-assessment {
+		left: 23%;
+		top: 0px;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.agency-pre-authorization {
+		left: 35.5%;
+		top: 0px;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.agency-security-assessment {
+		left: 52.5%;
+		top: 0px;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.agency-authorization-process {
+		left: 64.75%;
+		top: 0px;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.jab-connect {
+		left: 18.5%;
+		top: 48%;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.jab-readiness-assessment {
+		left: 29.5%;
+		top: 48%;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.jab-security-assessment {
+		left: 40.75%;
+		top: 48%;
+
+		img {
+			width: 80%;
+		}
+	}
+
+	.jab-authorization-process {
+		left: 58.75%;
+		top: 48%;
+
+		img {
+			width: 80%;
+		}
+	}
+}
+
+@media (min-width: 981px) and (max-width: 1089px) {
+	.agency-readiness-assessment {
+		left: 22%;
+		top: 0px;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.agency-pre-authorization {
+		left: 34.8%;
+		top: 0px;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.agency-security-assessment {
+		left: 51.8%;
+		top: 0px;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.agency-authorization-process {
+		left: 64%;
+		top: 0px;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.jab-connect {
+		left: 17.5%;
+		top: 46%;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.jab-readiness-assessment {
+		left: 28.75%;
+		top: 46%;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.jab-security-assessment {
+		left: 40.2%;
+		top: 46%;
+
+		img {
+			width: 72%;
+		}
+	}
+
+	.jab-authorization-process {
+		left: 58.2%;
+		top: 46%;
+
+		img {
+			width: 72%;
+		}
+	}
+}
+
+@media (min-width: 880px) and (max-width: 980px) {
+	.agency-readiness-assessment {
+		left: 46%;
+		top: 2%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.agency-pre-authorization {
+		left: 69%;
+		top: 2%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.agency-security-assessment {
+		left: 3%;
+		top: 49%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.agency-authorization-process {
+		left: 27%;
+		top: 49%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.jab-connect {
+		left: 36%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.jab-readiness-assessment {
+		left: 57.75%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.jab-security-assessment {
+		left: 79.4%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+
+	.jab-authorization-process {
+		left: 15%;
+		top: 74.5%;
+
+		img {
+			max-width: 150%;
+			width: 120%;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 879px) {
+	.agency-readiness-assessment {
+		left: 47%;
+		top: 2%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.agency-pre-authorization {
+		left: 69%;
+		top: 2%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.agency-security-assessment {
+		left: 3%;
+		top: 49.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.agency-authorization-process {
+		left: 27%;
+		top: 49.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.jab-connect {
+		left: 36%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.jab-readiness-assessment {
+		left: 58%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.jab-security-assessment {
+		left: 80%;
+		top: 26.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+
+	.jab-authorization-process {
+		left: 15%;
+		top: 73.5%;
+
+		img {
+			max-width: 150%;
+			width: 100%;
+		}
+	}
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.agency-readiness-assessment {
+		display: none !important;
+	}
+
+	.agency-pre-authorization {
+		display: none !important;
+	}
+
+	.agency-security-assessment {
+		display: none !important;
+	}
+
+	.agency-authorization-process {
+		display: none !important;
+	}
+
+	.jab-connect {
+		display: none !important;
+	}
+
+	.jab-readiness-assessment {
+		display: none !important;
+	}
+
+	.jab-security-assessment {
+		display: none !important;
+	}
+
+	.jab-authorization-process {
+		display: none !important;
+	}
+	
+	.home-process-mobile-links {
+		display: inline;
+		font-size: 5.25vw;
+		position: absolute;
+		margin: 0;
+		
+		a {
+			text-decoration: none;
+		}
+	}
+	
+	.jab-mobile-links a {
+		color: $red;
+	}
+}
+	
+@media (min-width: 535px) and (max-width: 767px) {
+	.agency-readiness-assessment-mobile {
+		top: 31.5%;
+		left: 15.5vw;
+	}
+	
+	.agency-pre-authorization-mobile {
+		top: 34.5%;
+		left: 23vw;
+	}
+	
+	.agency-security-assessment-mobile {
+		top: 67%;
+		left: 13.5vw;
+	}
+	
+	.agency-authorization-process-mobile {
+		top: 69.5%;
+		left: 6vw;
+	}
+	
+	.jab-connect-mobile {
+		top: 43.5%;
+		left: 22vw;
+	}
+
+	.jab-readiness-assessment-mobile {
+		top: 46%;
+		left: 15.5vw;
+	}
+
+	.jab-security-assessment-mobile {
+		top: 49%;
+		left: 14vw;
+	}
+
+	.jab-authorization-process-mobile {
+		top: 78.65%;
+		left: 11.5vw;
+	}
+}
+
+@media (min-width: 450px) and (max-width: 534px) {
+	
+	.home-process-mobile-links {
+		font-size: 4.85vw;
+	}
+	
+	.agency-readiness-assessment-mobile {
+		top: 30.75%;
+		left: 15vw;
+	}
+	
+	.agency-pre-authorization-mobile {
+		top: 33.5%;
+		left: 22vw;
+	}
+	
+	.agency-security-assessment-mobile {
+		top: 65.25%;
+		left: 12.25vw;
+	}
+	
+	.agency-authorization-process-mobile {
+		top: 67.75%;
+		left: 6vw;
+	}
+	
+	.jab-connect-mobile {
+		top: 42.25%;
+		left: 21vw;
+	}
+
+	.jab-readiness-assessment-mobile {
+		top: 45%;
+		left: 15vw;
+	}
+
+	.jab-security-assessment-mobile {
+		top: 47.5%;
+		left: 13.5vw;
+	}
+
+	.jab-authorization-process-mobile {
+		top: 76.5%;
+		left: 11.5vw;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 449px) {
+	
+	.home-process-mobile-links {
+		font-size: 4.65vw;
+	}
+	
+	.agency-readiness-assessment-mobile {
+		top: 30.5%;
+		left: 15vw;
+	}
+	
+	.agency-pre-authorization-mobile {
+		top: 32.85%;
+		left: 21vw;
+	}
+	
+	.agency-security-assessment-mobile {
+		top: 64%;
+		left: 12vw;
+	}
+	
+	.agency-authorization-process-mobile {
+		top: 66.75%;
+		left: 5.5vw;
+	}
+	
+	.jab-connect-mobile {
+		top: 41.75%;
+		left: 20.5vw;
+	}
+
+	.jab-readiness-assessment-mobile {
+		top: 44.25%;
+		left: 14.85vw;
+	}
+
+	.jab-security-assessment-mobile {
+		top: 47%;
+		left: 13.5vw;
+	}
+
+	.jab-authorization-process-mobile {
+		top: 75.5%;
+		left: 11.5vw;
+	}
 }
 
 @media (min-width: 0px) and (max-width: 980px) {
@@ -22,7 +673,7 @@
 	}
 	
 	.authorization-home-desktop {
-		display: block;
+		display: none;
 	}
 	
 }
@@ -69,11 +720,11 @@
 	}
 	
 	.jab-home {
-		top: 11%;
+		top: 12%;
 	}
 	
 	.agency-home {
-		top: 6%;
+		top: 7%;
 	}
 			
 }

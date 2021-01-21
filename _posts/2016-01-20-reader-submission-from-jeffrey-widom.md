@@ -1,6 +1,6 @@
 ---
 title: Reader Submission from Jeffrey Widom
-permalink: /reader-submission-from-jeffrey-widom/
+permalink: /blog/reader-submission-from-jeffrey-widom/
 body-class: page-blog
 image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
