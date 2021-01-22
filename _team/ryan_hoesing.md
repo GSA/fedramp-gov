@@ -13,5 +13,3 @@ Ryan is part of a team that helps manage customer engagement between Agencies an
 In previous roles, Ryan has demonstrated proven leadership skills in strategy and business development that he now uses in his current role with the FedRAMP Program Management Office (PMO). Ryan joined GSA after serving as a business economic development advisor in the United States Peace Corps. Since, Ryan has taken classes in front-end web development that have helped fuel his interest in IoTs and cloud security.
 
 Ryan holds an B.A. in Business Administration from the University of Nebraska-Lincoln and is an avid Nebraska football fan. He continues his education on all things cloud and is currently working towards a M.S. in Cybersecurity Management and Policy. Ryan also serves as a Contract Officer’s Representative (COR) on all FedRAMP contracts.
-
-Connect with Ryan on LinkedIn: [https://www.linkedin.com/in/ryan-hoesing-b70066115/](https://www.linkedin.com/in/ryan-hoesing-b70066115/)
