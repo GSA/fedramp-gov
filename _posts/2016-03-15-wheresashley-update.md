@@ -1,10 +1,11 @@
 ---
 title: '#WheresAshley Update'
-permalink: /wheresashley-update/
+permalink: /blog/wheresashley-update/
 body-class: page-blog
 image: /assets/img/blog-images/wheresashley.png
 author: FedRAMP
 layout: blog-page
+redirect_from: /wheresashley-update/
 ---
 
 FedRAMP’s Agency Evangelist, Ashley Mahan, has been very busy over the past month speaking to Agencies, CSPs, 3PAOs and the public as part of both the Agency Roadshow and #WheresAshley campaigns. In fact, she’s met with individuals from State, HHS, HUD, DOC, DOJ, NASA, NSF, GSA, Federal Reserve, Treasury, FAA, IRS, FCC, Accenture, Amazon, Avue, BMC, Cisco, Coalfire, Collab9, Companion Data Services, General Dynamics, KnightPoint, Microsoft, NetComm, Skyhigh Networks, Veris and Lunarline. And that’s just in the last 30 days!
