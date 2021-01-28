@@ -4,7 +4,7 @@ name: Zach Baldwin
 image: /assets/img/team/profile_ZachBaldwin.jpg
 title: Program Manager for Strategy, Innovation, and Technology
 body-class: page-team-single
-date: 2018-01-02
+date: 2018-01-03
 order: 300
 
 ---
