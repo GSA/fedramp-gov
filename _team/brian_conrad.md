@@ -5,7 +5,7 @@ image: /assets/img/team/profile_BrianConrad.jpg
 title: Acting FedRAMP Director & Program Manager for Cybersecurity
 body-class: page-team-single
 date: 2018-01-01
-order: 300
+order: 100
 
 ---
 Brian Conrad joined the Federal Risk and Authorization Management Program (FedRAMP) team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining the General Services Administration (GSA), Brian served for over 20 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.
