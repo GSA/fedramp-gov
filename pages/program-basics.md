@@ -30,11 +30,11 @@ framework-text: FedRAMP standardizes security requirements for the authorization
 
 fisma-image: 
 fisma-title: FISMA
-fisma-text: Federal Information Security Modernization Act requires agencies to protect federal information
+fisma-text: Federal Information Security Modernization Act (FISMA) requires agencies to protect federal information
 
 omb-circular-image: 
 omb-circular-title: OMB Circular A-130
-omb-circular-text: The Office of Management and Budget (OMB) states that when agencies implement FISMA, they must use NIST standards and guidelines
+omb-circular-text: OMB states that when agencies implement FISMA, they must use National Institute of Standards and Technology (NIST) standards and guidelines
 
 policy-image: 
 policy-title: FedRAMP Policy
