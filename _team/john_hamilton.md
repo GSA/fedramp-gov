@@ -4,8 +4,8 @@ name: John Hamilton
 image: /assets/img/team/profile_JohnHamilton.jpg
 title: Program Manager of Security Operations
 body-class: page-team-single
-date: 2018-01-04
-order: 400
+date: 2018-01-03
+order: 300
 
 ---
 
