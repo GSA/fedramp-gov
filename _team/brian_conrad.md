@@ -2,13 +2,13 @@
 layout: teammate
 name: Brian Conrad
 image: /assets/img/team/profile_BrianConrad.jpg
-title: Program Manager for Cybersecurity
+title: Acting FedRAMP Director & Program Manager for Cybersecurity
 body-class: page-team-single
-date: 2018-01-02
+date: 2018-01-01
 order: 300
 
 ---
-Brian Conrad joined the FedRAMP team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining the General Services Administration (GSA), Brian served for over 20 years in the U.S. Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.
+Brian Conrad joined the Federal Risk and Authorization Management Program (FedRAMP) team in December 2018, bringing with him a wealth of technical knowledge and leadership experience. Prior to joining the General Services Administration (GSA), Brian served for over 20 years in the United States Marine Corps, gaining experience in leadership, telecommunications/IT, government acquisition, and project management.
 
 Upon his transition from active duty, Brian joined Booz Allen Hamilton where he spent over seven years building his IT, cybersecurity, and project management skills supporting various clients across the Department of Defense (DOD), including the U.S. Marine Corps, United States Navy, and the Chief Information Officer for the DOD. During this time, Brian became recognized as a cloud computing/cybersecurity Subject Matter Expert within the federal government.
 
