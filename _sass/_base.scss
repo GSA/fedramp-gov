@@ -464,12 +464,14 @@ a {
 	float: right;
 	width: 25%;
 	text-align: right;
+	top: 6px;
+	position: relative;
 }
 
 #cookie-notice a#cookie-notice-accept {
 	border: solid 1px $dark-gray;
 	color: $dark-gray;
-	padding: 8px 24px;
+	padding: 10px 24px 8px 24px;
 	border-radius: 20px;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -489,7 +491,6 @@ a {
 }
 
 .cookie-container div.cookie-text {
-	top: 6px;
 	position: relative;
 	float: left;
 	width: 75%;
