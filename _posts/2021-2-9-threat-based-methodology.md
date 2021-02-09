@@ -7,12 +7,12 @@ author: FedRAMP
 layout: blog-page
 ---
 
-<h3>Feasibility Study: Agile Approach to Authorizations</h3> 
+<h4>Feasibility Study: Agile Approach to Authorizations</h4> 
 
 In 2017, the Office of American Innovation (OAI) sponsored a feasibility study, coordinated by the Office of Management and Budget (OMB) and managed by the General Services Administration (GSA) FedRAMP PMO. 
 The study’s objective was to determine whether  a modular approach to authorizations would work. The study determined that an agile approach to authorizations would work if it established a defensible methodology to prioritize controls. 
 
-<h3>FedRAMP’s Threat-Based Methodology</h3>
+<h4>FedRAMP’s Threat-Based Methodology</h4>
 
 FedRAMP needed to determine which security controls and capabilities are most effective to protect, detect, and respond to current prevalent threats. FedRAMP worked with DHS’s Cybersecurity Infrastructure Security Agency .gov Cybersecurity Analysis and Review (CISA’s .govCAR) team. They developed a methodology for scoring each NIST SP 800-53, rev. 4, security control against the National Security Agency’s (NSA)/CSS Technical Cyber Threat Framework v2 (NTCTF). Their goal is to enable agencies, Cloud Service Providers (CSPs), and other industry partners to prioritize security controls that are relevant and effective against the current threat environment. This leads to informed, quantitative-based risk management decisions in authorizing information systems for government use.
 
