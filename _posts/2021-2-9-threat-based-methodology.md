@@ -18,6 +18,6 @@ FedRAMP needed to determine which security controls and capabilities are most ef
 
 <h3>Our Ask of You: Provide Feedback on Our Methodology White Paper!</h3>
 
-FedRAMP developed a href="https://www.fedramp.gov/assets/resources/documents/Threat-Based_Risk_Profiling_Methodology.pdf">white paper</a> that outlines the methodology behind the threat-based scoring approach and its potential applications. We encourage you to read this white paper and provide feedback / questions to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. The FedRAMP PMO looks forward to receiving your comments and sharing progress.
+FedRAMP developed a <a href="https://www.fedramp.gov/assets/resources/documents/Threat-Based_Risk_Profiling_Methodology.pdf">white paper</a> that outlines the methodology behind the threat-based scoring approach and its potential applications. We encourage you to read this white paper and provide feedback / questions to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. The FedRAMP PMO looks forward to receiving your comments and sharing progress.
 
 
