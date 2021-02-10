@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Explores a Threat-Based Methodology to Authorizations
-permalink: /2021-02-09-threat-based-methodology/
+permalink: /2021-02-10-threat-based-methodology/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_resource-new.png
 author: FedRAMP
