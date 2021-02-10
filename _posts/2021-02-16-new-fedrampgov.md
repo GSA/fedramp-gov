@@ -1,5 +1,5 @@
 ---
-title: The New FedRAMP.gov
+title: The New FedRAMP
 permalink: /2021-02-16-new-fedrampgov/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_FRConnect.png
