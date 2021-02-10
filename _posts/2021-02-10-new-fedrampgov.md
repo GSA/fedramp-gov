@@ -11,7 +11,8 @@ FedRAMP is excited to announce the launch of our revamped website. Thanks to fee
 The website provides more in-depth information about FedRAMP’s authorization process, enabling agencies, Cloud Service Providers (CSPs), and Third-Party Assessment Organizations (3PAOs) to easily access pertinent information related to their role in the FedRAMP Authorization process.
 
 <em>“In the design and delivery of this new site, we wanted to meet our customers where they were within their FedRAMP journey. It's a true reflection of our commitment to improving our stakeholders' experience."</em>
- 				<span style="text-align: right;padding-top: 10px">- Betsy Steele, FedRAMP Manager for Training and Outreach</span>
+
+<span style="text-align: right;padding-top: 10px">- Betsy Steele, FedRAMP Manager for Training and Outreach</span>
 
 <span style="padding-top: 24px"><strong>Some of the key features of the website include:</strong></span>
 
