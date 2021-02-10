@@ -14,7 +14,7 @@ The study’s objective was to determine whether  a modular approach to authoriz
 
 <h4>FedRAMP’s Threat-Based Methodology</h4>
 
-FedRAMP needed to determine which security controls and capabilities are most effective to protect, detect, and respond to current prevalent threats. FedRAMP worked with DHS’s Cybersecurity Infrastructure Security Agency .gov Cybersecurity Analysis and Review (CISA’s .govCAR) team. They developed a methodology for scoring each NIST SP 800-53, rev. 4, security control against the National Security Agency’s (NSA)/CSS Technical Cyber Threat Framework v2 (NTCTF). Their goal is to enable agencies, Cloud Service Providers (CSPs), and other industry partners to prioritize security controls that are relevant and effective against the current threat environment. This leads to informed, quantitative-based risk management decisions in authorizing information systems for government use.
+FedRAMP needed to determine which security controls and capabilities are most effective to protect, detect, and respond to current prevalent threats. FedRAMP worked with DHS’s Cybersecurity Infrastructure Security Agency .gov Cybersecurity Architecture Review (CISA’s .govCAR). They developed a methodology for scoring each NIST SP 800-53, rev. 4, security control against the National Security Agency’s (NSA)/CSS Technical Cyber Threat Framework v2 (NTCTF). Their goal is to enable agencies, Cloud Service Providers (CSPs), and other industry partners to prioritize security controls that are relevant and effective against the current threat environment. This leads to informed, quantitative-based risk management decisions in authorizing information systems for government use.
 
 <h4>Our Ask of You: Provide Feedback on Our Methodology White Paper</h4>
 
