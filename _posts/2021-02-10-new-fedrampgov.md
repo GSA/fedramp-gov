@@ -2,7 +2,7 @@
 title: The New FedRAMP.gov
 permalink: /2021-02-16-new-fedrampgov/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_FRConnect.png
+image: /assets/img/blog-images/FRblog_placeholder.png
 author: FedRAMP
 layout: blog-page
 ---
