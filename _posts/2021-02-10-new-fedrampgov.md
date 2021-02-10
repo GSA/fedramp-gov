@@ -12,16 +12,16 @@ The website provides more in-depth information about FedRAMP’s authorization p
 
 <em>“In the design and delivery of this new site, we wanted to meet our customers where they were within their FedRAMP journey. It's a true reflection of our commitment to improving our stakeholders' experience."</em>
 
-<span style="text-align: right;padding-top: 10px">- Betsy Steele, FedRAMP Manager for Training and Outreach</span>
+<p style="text-align: right; padding-top: 10px">- Betsy Steele, FedRAMP Manager for Training and Outreach</p>
 
 <span style="padding-top: 24px"><strong>Some of the key features of the website include:</strong></span>
 
-- <strong>Authorization Process</strong>&nbsp;&nbsp;&verbar;&nbsp; An interactive graphic on the homepage and new pages that enable specific stakeholders to understand the different steps involved in the process based on either the Agency Authorization or the JAB Authorization paths
-- <strong>Program Basics</strong>&nbsp;&nbsp;&verbar;&nbsp; A new page that explains the mission, history, goals, and legal framework of FedRAMP 
-- <strong>Documents and Templates</strong>&nbsp;&nbsp;&verbar;&nbsp; Our documents and templates are now searchable by audience, file type, and publication date
-- <strong>FAQs</strong>&nbsp;&nbsp;&verbar;&nbsp; Try out a newly added search functionality to enable stakeholders to easily search for answers to common questions
-- <strong>Site notifications</strong>&nbsp;&nbsp;&verbar;&nbsp; An alert system notifies users when a blog has been posted or when a document or template has been updated or added
-- <strong>Enhanced Marketplace</strong>&nbsp;&nbsp;&verbar;&nbsp; Refinements to design, structure and functionality to boost accessibility and performance
+- <strong>Authorization Process</strong>&nbsp;&nbsp;&#124;&nbsp; An interactive graphic on the homepage and new pages that enable specific stakeholders to understand the different steps involved in the process based on either the Agency Authorization or the JAB Authorization paths
+- <strong>Program Basics</strong>&nbsp;&nbsp;&#124;&nbsp; A new page that explains the mission, history, goals, and legal framework of FedRAMP 
+- <strong>Documents and Templates</strong>&nbsp;&nbsp;&#124;&nbsp; Our documents and templates are now searchable by audience, file type, and publication date
+- <strong>FAQs</strong>&nbsp;&nbsp;&#124;&nbsp; Try out a newly added search functionality to enable stakeholders to easily search for answers to common questions
+- <strong>Site notifications</strong>&nbsp;&nbsp;&#124;&nbsp; An alert system notifies users when a blog has been posted or when a document or template has been updated or added
+- <strong>Enhanced Marketplace</strong>&nbsp;&nbsp;&#124;&nbsp; Refinements to design, structure and functionality to boost accessibility and performance
 
 We hope that the updated website will provide you with a better customer experience and ease of finding information that will help all stakeholders in the authorization process.
 
