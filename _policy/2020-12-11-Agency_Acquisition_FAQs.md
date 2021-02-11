@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: Acquisition FAQS
+title: Acquisition FAQs
 category: Key Agency Documents
 weblink:
 filename: documents/Agency_Acquisition_FAQs.pdf
