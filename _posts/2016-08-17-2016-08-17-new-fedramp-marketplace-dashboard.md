@@ -2,7 +2,7 @@
 title: New FedRAMP Marketplace Dashboard 
 permalink: /new-fedramp-marketplace-dashboard/
 body-class: page-blog
-image: /assets/img/Blog_03202018_Computer.png
+image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
 tags: learning-more-about-fedramp
