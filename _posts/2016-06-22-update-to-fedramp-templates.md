@@ -2,6 +2,7 @@
 title: Update to FedRAMP Templates
 layout: blog-list
 permalink: /update-to-fedramp-templates/
+image: /assets/img/blog-images/FRblog_resource-new.png
 body-class: page-blog
 ---
 On Monday, June 27th FedRAMP will be releasing updates to our templates to add some “ease of use” features as well as ensure all of the templates reflect the different authorization levels (low, moderate, high) that CSPs can pursue through FedRAMP.
