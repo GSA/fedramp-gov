@@ -38,4 +38,4 @@ sitemap:
       <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
     </url>
   {% endfor %}
-</urlset>
+</urlset> 
