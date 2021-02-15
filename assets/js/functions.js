@@ -243,8 +243,8 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 
-        const value = `; ${document.cookie}`;                   // get all cookies
-        const parts = value.split(`; last-bell-click=`);        // split on cookie we want
+        var value = `; ${document.cookie}`;                   // get all cookies
+        var parts = value.split(`; last-bell-click=`);        // split on cookie we want
 
         var lastBellClick = 0;
 
@@ -255,18 +255,18 @@ $(document).ready(function() {
 	 if (lastBellClick == 0) {
 
                 var now = new Date();           // get now and +30 day epoc
-
                 var exp = new Date();
-
                 exp.setTime(now.getTime() + (30*24*60*60*1000));
 
-                
 
                 // set cookie
 
                 document.cookie = "last-bell-click=" + (now.getTime() / 1000) + "; expires=" + exp.toUTCString() + "; path=/";
+		 
+				value = `; ${document.cookie}`;                   // get all cookies
+				parts = value.split(`; last-bell-click=`);        // split on cookie we want
 
-                lastBellClick = now.getTime() / 1000;
+                lastBellClick = parts.pop().split(';').shift();         // pop last from array, split on ';',
 
         }
 
@@ -303,7 +303,7 @@ $(document).ready(function() {
                 $(".alert-wrapper-fallback").removeClass("alert-wrapper-fallback").addClass("alert-wrapper");
                 if (parts.length !== 2) {   
                    $(".post-count").html($(".alert-wrapper li").length);
-                   $(".post-count").css("display", "block");
+  //                 $(".post-count").css("display", "block");
 		}
         } else {                                                          // show count on bell
 
