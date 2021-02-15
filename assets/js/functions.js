@@ -251,6 +251,24 @@ $(document).ready(function() {
         if (parts.length === 2) {                                       // if split happened (cookie present),
                 lastBellClick = parts.pop().split(';').shift();         // pop last from array, split on ';',
         }                                                               // and shift to get first element
+	
+	 if (lastBellClick == 0) {
+
+                var now = new Date();           // get now and +30 day epoc
+
+                var exp = new Date();
+
+                exp.setTime(now.getTime() + (30*24*60*60*1000));
+
+                
+
+                // set cookie
+
+                document.cookie = "last-bell-click=" + (now.getTime() / 1000) + "; expires=" + exp.toUTCString() + "; path=/";
+
+                lastBellClick = now.getTime() / 1000;
+
+        }
 
         var i = 0;
         var j = 0;
