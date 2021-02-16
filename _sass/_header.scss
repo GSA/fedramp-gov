@@ -360,17 +360,12 @@ img.desk {
 				
 			}
 			
-			p.no-new {
-				&::before {
-					content: '';
-					display: none;
-	
-				}
-			}
+			
 		}
 	}
 }
 
+	
 	
 
 	 .post-count {
@@ -407,6 +402,16 @@ img.desk {
 		color: $red;
 		text-decoration: none;
 	}
+}
+
+li.no-new p {
+	display: inline;
+	font-weight: 700;
+}
+
+li.no-new::before {
+	content: '';
+	display: none;
 }
 
 @media (min-width: 0) and (max-width: 950px) { 
