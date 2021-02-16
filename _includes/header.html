@@ -83,27 +83,9 @@
 						<button class="bell-close"><img class="notification-close"
 								src="{{site.baseurl}}/assets/img/bell-close.svg" alt="" /></button>
 						<ul>
-							<!-- {% for a in both limit: 8 %} -->
 							<li>
-								<!-- {% assign type = a.path | split: '/' | first %}
-								{% if type == "_policy" %}
-								{% if a.weblink == "" or a.weblink == nil %}
-								<a href="{{ site.baseurl }}/assets/resources/{{ a.filename }}">{{ a.title }}</a>
-								{% else %}
-								<a href="{{ a.weblink }}" target="_blank">{{ a.title }}</a>
-								{% endif %}
-								{% assign cond = a.condition | strip | downcase %}
-								{% if cond == "new" %}
-								<p class="date"><strong>New Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
-								{% else %}
-								<p class="date"><strong>Updated Document</strong> | {{ a.date | date: "%B %-d, %Y"}}</p>
-								{% endif %}
-								{% else %}
-								<a href="{{a.url | prepend: site.baseurl }}">{{ a.title }}</a> -->
 								<p class="date"><strong>No New Posts</strong></p>
-								<!-- {% endif %} -->
 							</li>
-							<!-- {% endfor %} -->
 						</ul>
 					</div>
 
