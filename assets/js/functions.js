@@ -337,7 +337,7 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current ==  window.location.origin) {
+		if (current === 'https://fedramp.gov') {
 				$("#navigation ul li a").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
