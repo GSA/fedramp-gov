@@ -337,8 +337,8 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current === '/preview/gsa/fedramp-gov/November-Updates/') {
-				$("#navigation ul.sub-menu li a").removeClass("active");
+		if (current === window.location.origin) {
+				$("#navigation ul.sub-menu li a.active").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
 });
