@@ -366,7 +366,7 @@ btn.on('click', function(e) {
 
 $(function(){
     $('#navigation ul.sub-menu li a.active').closest('ul.usa-nav-primary li.main-parent').addClass('primary-active');
-    if (current == '/preview/gsa/November-Updates/') {
+    if (current == window.location.origin) {
       $("ul.usa-nav-primary li.main-parent").removeClass("primary-active");
 //		        $("#navigation ul li a").first().addClass("active");
       }
