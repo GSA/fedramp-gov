@@ -359,6 +359,14 @@ img.desk {
 				}
 				
 			}
+			
+			p.no-new {
+				&::before {
+					content: '';
+					display: none;
+	
+				}
+			}
 		}
 	}
 }
