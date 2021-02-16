@@ -337,8 +337,8 @@ $(function(){
             $this.addClass('active');
 			}
 						})
-		if (current == window.location.origin) {
-				$("#navigation ul li").removeClass("primary-active");
+		if (current === window.location.origin) {
+				$("#navigation ul li a").removeClass("active");
 //		        $("#navigation ul li a").first().addClass("active");
 		    }
 });
