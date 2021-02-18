@@ -1,5 +1,5 @@
 ---
-layout: FedRAMP Package Access Request Form
+layout: security-package
 title: FedRAMP Package Access Request Form
 tab-title: FedRAMP Package Access Request Form
 permalink: /security-package/
