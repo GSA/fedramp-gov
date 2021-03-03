@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FY20 was a year of advancement for FedRAMP and we appreciate your continued collaboration. Over the past fiscal year, there was an increase in Cloud Service Offerings (CSOs) used by agencies - such as products that allowed remote access, increased scalability, collaboration efficiency, and more. FedRAMP played an integral role in facilitating reuse of these CSOs and the authorization of an increased number of new products.
+FY20 was a year of advancement for FedRAMP and we appreciate your continued collaboration. Over the past fiscal year, there was an increase in Cloud Service Offerings (CSOs) used by agencies - such as products that allowed remote access, increased scalability, collaboration efficiency, and more. FedRAMP played an integral role in facilitating reuse of these CSOs by authorizing of an increased number of new products.
 
 We look forward to what FY21 holds as we streamline, simplify, and stay committed to continuous improvement to the program. 
 
