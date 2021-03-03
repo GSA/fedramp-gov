@@ -12,6 +12,6 @@ FY20 was a year of advancement for FedRAMP and we appreciate your continued coll
 We look forward to what FY21 holds as we streamline, simplify, and stay committed to continuous improvement to the program. 
 
 
-<img  alt="FedRAMP FY2020 Year End Infographic" title="FedRAMP FY2020 Year End Infographic" src="{{site.baseurl}}/assets/img/FedRAMP-FY20-Infographic.png" style="margin: 20px auto; max-width: 500px; width: 100%; display: block;">
+<img  alt="FedRAMP FY2020 Year End Infographic" title="FedRAMP FY2020 Year End Infographic" src="{{site.baseurl}}/assets/img/FedRAMP-FY20-Infographic.png" style="margin: 20px auto; max-width: 500px; width: 100%; display: block;"> 
 
 
