@@ -12,6 +12,8 @@ A key feature of the channel are our new short FedRAMP videos that highlight an 
 
 <iframe width="100%" height="auto" style="margin: 0px auto; max-width:600px" src="https://www.youtube.com/embed/zaDb5Zjh0RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="820" height="500" src="https://www.youtube.com/embed/0m7MR_eoFHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can view other videos on the <a href="https://youtube.com/playlist?list=PL1orhY9kSkzQ3694p_9AfIMENTaRV9FoV" target="_blank">FedRAMP Overview Playlist</a> in addition to <a href="http://www.youtube.com/fedramp" target="_blank">videos specific to other topics</a>, ranging from updated 3PAO requirements, OSCAL updates, and FedRAMP’s transition plan to NIST’s Rev5. Most recently we produced a <a href="#" target="_blank">video highlighting the new FedRAMP.gov</a>.
 
 In 2021, we will continue to post new videos on a regular basis that are timely and relevant to FedRAMP. If you have any suggestions for video topics, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
