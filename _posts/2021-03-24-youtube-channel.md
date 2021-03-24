@@ -10,10 +10,11 @@ The FedRAMP PMO recently launched the <a href="http://www.youtube.com/fedramp" t
 
 A key feature of the channel are our new short FedRAMP videos that highlight an overview of the program, legal policy and framework, the authorization process, and the FedRAMP Marketplace. 
 
-<div style="background-color: #f2f2f2; margin: 3rem auto; padding: 2rem 3rem; font-weight:bold;">
-<p style="padding-bottom:1rem">Check out the first video, A FedRAMP Overview - Introduction:</p>
+<div style="background-color: #f2f2f2; margin: 3rem auto; padding: 1rem 3rem 2rem 3rem">
+<p style="padding-bottom:1rem; font-weight:bold; ">Check out the first video, A FedRAMP Overview - Introduction:</p>
 <div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
-<iframe style="left:0; top:0; height:100%; width:100%; position:absolute;" src="https://www.youtube.com/embed/I_3YFkmGTt4" title="A FedRAMP Overview - Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+<iframe style="left:0; top:0; height:100%; width:100%; position:absolute;" src="https://www.youtube.com/embed/I_3YFkmGTt4" title="A FedRAMP Overview Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 
 
