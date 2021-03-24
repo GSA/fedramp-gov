@@ -2,7 +2,7 @@
 title: FedRAMP Welcomes New Team Member to the PMO 
 permalink: /fedramp-welcomes-new-team-member-to-the-pmo/
 body-class: page-blog
-image: /assets/img/blog-images/2019-02-04_NewTeamMember.png
+image: /assets/img/blog-images/2019-02-07_NewTeamMember.png
 author: FedRAMP
 layout: blog-page
 ---
