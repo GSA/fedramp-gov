@@ -19,6 +19,6 @@ All FedRAMP authorized CSPs are required to upload their FedRAMP security packag
 * Plan of Actions and Milestones (POA&M)
 * Security Assessment Report
 
-The full list of artifacts that must be included in the FedRAMP security package can be viewed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xls">FedRAMP Initial Authorization Package Checklist</a>.
+The full list of artifacts that must be included in the FedRAMP security package can be viewed in the <a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Initial-Authorization-Package-Checklist.xlsx">FedRAMP Initial Authorization Package Checklist</a>.
 
 If you have any additional questions, feedback, or can’t find what you’re looking for when accessing the FedRAMP Secure Repository, please don’t hesitate to reach out to info@fedramp.gov.
