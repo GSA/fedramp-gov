@@ -2,7 +2,7 @@
 title: JAB Guidance on CentOS Linux End of Life
 permalink: /2021-03-30-CentOS-Linux-End-of-Life/
 body-class: page-blog
-image: /assets/img/blog-images/general-JAB Guidance.png
+image: /assets/img/blog-images/general-JAB-Guidance.png
 author: FedRAMP
 layout: blog-page
 ---
