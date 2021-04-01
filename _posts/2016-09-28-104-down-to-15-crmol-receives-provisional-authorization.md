@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
-tags: pursuing-a-jab-authorization learning-more-about-fedramp
 ---
 <img class="wp-image-62711 size-medium alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/09/FedRAMP-CRMOL-Success_09282016_V6-04-300x300.jpg" alt="fedramp-crmol-success_09282016_v6-04" width="300" height="300" srcset="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/09/FedRAMP-CRMOL-Success_09282016_V6-04-300x300.jpg 300w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/09/FedRAMP-CRMOL-Success_09282016_V6-04-150x150.jpg 150w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/09/FedRAMP-CRMOL-Success_09282016_V6-04-768x768.jpg 768w, https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2016/09/FedRAMP-CRMOL-Success_09282016_V6-04-1024x1024.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />
 

@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
-tags: pursuing-a-fedramp-ready-designation
 ---
 
 I recently held two mandatory webinars for our FedRAMP assessors (3PAOs) to go over our new [Readiness Assessment Report](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx) (RAR). The RAR is a key component of FedRAMP Accelerated and the ability for the JAB to authorize providers in 3-6 months. These webinars clarified the intent of the RAR, gave some tips and cues, as well as described the power of the new FedRAMP Ready. In addition to sharing this with our 3PAOs, I want to share these key insights with everyone.
