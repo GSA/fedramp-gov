@@ -5,7 +5,7 @@ category: Preparation Phase
 weblink:
 filename: templates/FedRAMP-Moderate-RAR-Template.docx
 filetype: word
-fileinfo: word - 167KB
+fileinfo: word - 244KB
 condition: update
 partner: All Partners
 doctype:
