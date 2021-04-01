@@ -6,7 +6,7 @@ weblink:
 filename: templates/FedRAMP-Moderate-RAR-Template.docx
 filetype: word
 fileinfo: word - 167KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Template
