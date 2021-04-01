@@ -2,7 +2,7 @@
 title: 'JAB or Agency: How Do I Get a FedRAMP ATO?'
 permalink: /jab-or-agency-how-do-i-get-a-fedramp-ato/
 body-class: page-blog
-image: /assets/img/blog-images/general-JAB-Guidance.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
 layout: blog-page
 
