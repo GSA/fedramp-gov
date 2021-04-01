@@ -5,7 +5,6 @@ permalink: /fedramp-jab-prioritization-criteria-and-process/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
-tags: pursuing-a-jab-authorization
 ---
 Over the past 6 months FedRAMP has been working to update the criteria by which the Joint Authorization Board (JAB) prioritizes Cloud Service Providers (CSPs). In August, we [shared our initial thoughts and asked for your input](https://www.fedramp.gov/fedramp-jab-prioritization-help-us-shape-who-works-with-the-jab/) as we continued to refine the prioritization criteria.
 

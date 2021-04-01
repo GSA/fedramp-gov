@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
-tags: learning-more-about-fedramp
 ---
 The Federal Risk and Authorization Management Program (FedRAMP) is excited to release the [FedRAMP High Baseline Requirements](https://www.fedramp.gov/assets/resources/documents/FedRAMP_High_Security_Controls.xlsx)! The High Baseline is available on [www.FedRAMP.gov](https://www.fedramp.gov/resources/documents-2016/). These security requirements will be used to protect some of the government’s most sensitive, unclassified data in cloud computing environments. This release allows agencies to use cloud environments for high-impact data, including data that involves the protection of life and financial ruin.
 

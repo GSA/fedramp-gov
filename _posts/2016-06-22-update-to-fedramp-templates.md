@@ -1,6 +1,6 @@
 ---
 title: Update to FedRAMP Templates
-layout: blog-list
+layout: page-blog
 permalink: /update-to-fedramp-templates/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_resource-new.png

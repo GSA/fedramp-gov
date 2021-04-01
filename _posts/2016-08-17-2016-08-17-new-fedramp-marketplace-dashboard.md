@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Computer.png
 author: FedRAMP
 layout: blog-page
-tags: learning-more-about-fedramp
 ---
 
 **We’re incredibly excited to announce the launch of the new [FedRAMP Marketplace dashboard](http://marketplace.fedramp.gov)!** It’s loaded with all sorts of ways for you to see how everyone is participating with FedRAMP!

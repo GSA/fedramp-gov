@@ -1,17 +1,14 @@
 ---
 title: 'Updated Welcome to FedRAMP Training Now Available'
-layout: blog-page
 permalink: /updated-welcome-to-fedramp-training-now-available/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
-tags: learning-more-about-fedramp
+layout: blog-page
 ---
 We’re excited to launch our newly revamped <em>FedRAMP 100-A: Welcome to FedRAMP</em> online training course, which serves as an update to the original 100-A training developed in 2015. This one-hour introductory course in the [FedRAMP Training Series](https://www.fedramp.gov/training/) is intended for Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) who aren’t well acquainted with FedRAMP. However, it serves as an excellent source of information for anyone in government or the private sector who wants to learn more about the program.
 
 The Welcome to FedRAMP online course illustrates how FedRAMP standardizes the way the government does security authorizations for cloud products and services in four essential ways by:
-
-<img class="wp-image-67353 alignright" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/07/FedRAMP-icon_and_cover-for-templates_04262017_V1-46.png" alt="" width="208" height="208" />
 
 1. Doing security authorizations once and reusing them often to reduce or minimize duplication;
 

@@ -1,9 +1,10 @@
 ---
 title: 3PAO Requirements Update
-layout: blog-list
 permalink: /3pao-requirements-update/
 body-class: page-blog
-tags: learning-more-about-fedramp
+image: /assets/img/blog-images/blog_placementimg.png
+author: FedRAMP
+layout: blog-page
 ---
 The Federal Risk and Authorization Management Program (FedRAMP) Third Party Assessment Organization (3PAO) Accreditation Program has been operational for approximately four years, accrediting more than 40 3PAOs during this time.
 

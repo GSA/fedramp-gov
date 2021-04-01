@@ -2,10 +2,9 @@
 title: Accessing a CSP’s FedRAMP Materials through OMB Max- A Guide for Agencies
 permalink: /accessing-csps-fedramp-materials-omb-max/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
 layout: blog-page
-tags: preparing-for-an-agency-authorization
 ---
 The FedRAMP PMO frequently encounters questions from Agencies about how to gain access to a CSP’s FedRAMP materials. A common misperception exists that Federal Agencies should contact Cloud Service Providers (CSPs) directly to obtain these security package documents.
 

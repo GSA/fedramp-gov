@@ -3,9 +3,9 @@ title: 'Partnering for Success: CSPs and 3PAOs'
 layout: blog-page
 permalink: /partnering-for-success-csps-and-3paos/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
-tags: pursuing-a-jab-authorization
+
 ---
 Third Party Assessment Organizations (3PAOs) are hired by Cloud Service Providers (CSPs) to either consult or provide independent security testing on a given cloud system.  
 
@@ -13,7 +13,7 @@ In Winter 2017, FedRAMP, in partnership with the American Association for Labora
 
 In addition to the more rigorous standards, when a CSP hires a 3PAO, the CSP is ultimately responsible for the quality of testing and associated deliverables that the 3PAO submits for FedRAMP approval throughout the authorization process. FedRAMP currently has 44 [accredited 3PAOs](https://marketplace.fedramp.gov/#/assessors?sort=assessorName), but each CSP should ensure that the 3PAO they hire has the skillset to match their system’s complexity and requirements. CSP roles and responsibilities for working with 3PAOs during the authorization process are included [here](https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Roles_and_Responsibilites.pdf). For illustrative purposes, the process below illustrates the phases by which a system progresses from being ready to being “authorized” with the Joint Authorization Board.
 
-[<img class="alignleft size-full wp-image-67426" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/08/FedRAMP_JAB-authorization-process_v-2.png" alt="" width="1950" height="720" />](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/08/FedRAMP_JAB-authorization-process_v-2.png)
+<img style="margin:16px auto, max-width:650px" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/482/2017/08/FedRAMP_JAB-authorization-process_v-2.png" alt="" width="80%" height="auto" />
 
 During the Readiness Assessment, the 3PAO is responsible for providing a preliminary assessment on the CSP system’s ability to meet key security controls and provides assurance that the CSP could successfully complete the FedRAMP process. The CSP should expect the 3PAO to ensure that all of the system’s security controls are successfully met **_before_** going to the FedRAMP PMO for their approval for FedRAMP Ready. The CSP should be open to the feedback that the 3PAO provides and be willing to update their system according the feedback. If you have questions on the specific controls and requirements, please review the [Readiness Assessment Report Template](https://www.fedramp.gov/templates/) that has specific guidance that the 3PAO is obligated to follow.
 

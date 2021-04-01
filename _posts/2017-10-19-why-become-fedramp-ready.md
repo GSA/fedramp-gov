@@ -2,10 +2,9 @@
 title: Why Become FedRAMP Ready?
 permalink: /why-become-fedramp-ready/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
 layout: blog-page
-tags: learning-more-about-fedramp
 ---
 
 When the FedRAMP PMO introduced FedRAMP Accelerated last year, it also introduced an evolution of the readiness designation for Cloud Service Providers (CSPs): FedRAMP Ready. This designation now indicates that a Third Party Assessment Organization (3PAO) attests to a CSP’s readiness for the authorization process, and that a Readiness Assessment Report (RAR) has been reviewed and approved by the FedRAMP PMO. The RAR documents the CSP’s capability to meet FedRAMP security requirements.
