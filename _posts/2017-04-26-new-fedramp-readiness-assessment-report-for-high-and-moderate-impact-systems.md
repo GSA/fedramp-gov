@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
-tags: pursuing-a-fedramp-ready-designation
 ---
 We recently released version 1.0 of the [High Baseline Readiness Assessment Report (RAR) Template](https://www.fedramp.gov/assets/resources/templates/FedRAMP-High-RAR-Template.docx) which is available for immediate use by CSPs and 3PAOs for assessing a system’s readiness to achieve a FedRAMP High authorization.
 

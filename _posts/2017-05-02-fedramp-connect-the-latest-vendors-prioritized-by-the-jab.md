@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/Blog_03202018_Cloud_Lock.png
 author: FedRAMP
 layout: blog-page
-tags: pursuing-a-jab-authorization
 ---
 Over the past few months, we’ve been working to reframe how we prioritize vendors that work with the Joint Authorization Board (JAB) through a more transparent and public process. We worked closely with the CIO Council and OMB to develop a new approach through an initiative called **FedRAMP Connect** to select Cloud Service Providers (CSPs) based on demand and a set of preferential criteria (we previously shared this approach in a blog post: [JAB and Prioritization Criteria and Process](https://www.fedramp.gov/fedramp-jab-prioritization-criteria-and-process/)).
 

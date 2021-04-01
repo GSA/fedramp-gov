@@ -3,7 +3,7 @@ title: 'Partnering for Success: CSPs and 3PAOs'
 layout: blog-page
 permalink: /partnering-for-success-csps-and-3paos/
 body-class: page-blog
-image: /assets/img/blog_placementimg.png
+image: /assets/img/blog-images/blog_placementimg.png
 author: FedRAMP
 tags: pursuing-a-jab-authorization
 ---

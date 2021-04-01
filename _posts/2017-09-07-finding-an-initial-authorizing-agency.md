@@ -5,7 +5,6 @@ permalink: /finding-an-initial-authorizing-agency/
 body-class: page-blog
 image: /assets/img/finding-auth-agency.png
 author: FedRAMP
-tags: preparing-for-an-agency-authorization
 ---
 The Agency Authorization process is the most popular route for CSPs to take when working toward a FedRAMP Authorization. In fact, 65 percent of authorized CSPs have an Agency ATO. The Agency Authorization affords  a CSP to work one-on-one with one Agency through the review process; the JAB Authorization requires a CSP to work with three Agencies: DoD, DHS, and GSA. The Agency Authorization project workflow/stage gates can also be customized based on the specific needs and available resources of the Agency and CSP.
 
