@@ -49,7 +49,7 @@ These documents listed below were recently posted to the FedRAMP website. Some o
 **<a href="{{site.baseurl}}/assets/resources/documents/CSP_Digital_Identity_Requirements.pdf">Digital Identity Requirements</a>**
 * Developed to provide guidance on Digital Identity requirements in support of achieving and maintaining a security authorization that meets the FedRAMP requirements. FedRAMP is following the NIST guidance and this document describes how FedRAMP intends to implement it
 
-**>Transport Layer Security (TLS) Requirements**
+**Transport Layer Security (TLS) Requirements**
 * Summarizes the National Institute of Standards and Technology (NIST) and Department of Homeland Security (DHS) Binding Operational Directive (BOD) 18-01 requirements to implement current Transport Layer Security (TLS) protocols and restrict the use of older protocols. FedRAMP is following the NIST guidance and this document describes how FedRAMP intends to implement it
 
 **<a href="{{site.baseurl}}/assets/resources/templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx">Continuous Monitoring Monthly Executive Summary Template</a>**
