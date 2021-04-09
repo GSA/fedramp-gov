@@ -6,7 +6,7 @@ weblink:
 filename: templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf
 filetype: pdf
 fileinfo: PDF - 91KB
-condition: new
+condition: updated
 partner: All Partners
 doctype:
   - Template
