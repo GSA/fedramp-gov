@@ -5,8 +5,8 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf
 filetype: pdf
-fileinfo: PDF - 91KB
-condition: new
+fileinfo: PDF - 172KB
+condition: update
 partner: All Partners
 doctype:
   - Template
