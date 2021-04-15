@@ -12,5 +12,5 @@ The Federal Risk and Authorization Management Program (FedRAMP) recently updated
 Clear and timely incident communications to relevant stakeholders are a key aspect of the continuous monitoring phase for authorized FedRAMP service offerings. This ensures that all incident handling is transparent and that all stakeholders are aware of the current status and remediation efforts.  
 
 Prior to releasing the updated version, the document was reviewed by multiple federal government stakeholders to ensure the steps were clear, accurate, and consistent with federal security policy and governance. If you have any questions about this guidance document, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
-<p style="margin-top:40px"><a class="policy-download policy-pdf focus-within" href="/assets/resources/documents/Incident_Communications_Procedures.pdf" target="_blank"> Download </a>
+<p style="margin-top:40px"><a class="policy-download policy-pdf focus-within" href="/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf" target="_blank"> Download </a>
 </p>
