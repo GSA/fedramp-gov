@@ -1,6 +1,6 @@
 ---
 title: Release of FedRAMP Incident Communications Procedures
-permalink: /Incident-Communications-Procedures/
+permalink: /2021-04-15-Incident-Communications-Procedures/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_Doc-Updates.png
 author: FedRAMP
