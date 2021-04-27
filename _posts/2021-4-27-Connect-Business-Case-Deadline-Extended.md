@@ -2,7 +2,7 @@
 title: FedRAMP Connect Business Case Deadline Extended
 permalink: /2021-04-27-Connect-Business-Case-Deadline-Extended/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_Doc-Updates.png
+image: /assets/img/blog-images/FRblog_FRConnect.png
 author: FedRAMP
 layout: blog-page
 ---
