@@ -2,7 +2,7 @@
 title: FedRAMP Hosts a 3PAO Interact Week
 permalink: /fedramp-hosts-a-3pao-interact-week/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_3PAO.png
+image: /assets/img/blog-images/-general-blog-banners/general-banner-3PAO.png
 author: FedRAMP
 layout: blog-page
 ---
