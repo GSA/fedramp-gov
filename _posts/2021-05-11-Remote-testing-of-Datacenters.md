@@ -1,5 +1,5 @@
 ---
-title: Remote testing of Datacenters
+title: Remote Testing of Datacenters
 permalink: /blog/2021-05-11-Remote-testing-of-Datacenters/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-3PAO.png
