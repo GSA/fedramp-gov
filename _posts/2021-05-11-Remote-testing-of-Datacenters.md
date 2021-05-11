@@ -12,4 +12,4 @@ When making the decision to perform either local or remote testing, the 3PAO sho
 
 All remote testing must be explicitly detailed in the Security Assessment Plan (SAP) as well as any test cases used and any modifications to the test cases that were made to facilitate the remote testing. 
 
-FedRAMP will revisit this guidance periodically and provide updates when the guidance is modified. Contact us with <a href="mailto:info@fedramp.gov" title="email FedRAMP" target="_blank">info@fedramp.gov</a> with any questions.
+FedRAMP will revisit this guidance periodically and provide updates when the guidance is modified. Contact us at <a href="mailto:info@fedramp.gov" title="email FedRAMP" target="_blank">info@fedramp.gov</a> with any questions.
