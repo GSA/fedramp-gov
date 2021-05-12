@@ -2,7 +2,7 @@
 title: JAB Prioritized CSPs and FedRAMP Connect Updates
 permalink: /jab-prioritized-csps-and-fedramp-connect-updates/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_FRConnect.png
+image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
 layout: blog-page
 ---
