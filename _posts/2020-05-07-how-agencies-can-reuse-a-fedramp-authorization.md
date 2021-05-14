@@ -2,7 +2,7 @@
 title: Do Once, Use Many - How Agencies Can Reuse a FedRAMP Authorization
 permalink: /how-agencies-can-reuse-a-fedramp-authorization/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_reuse.png
+image: /assets/img/blog-images/2020-06-07-Reuse-Authorization.png
 author: FedRAMP
 layout: blog-page
 ---
