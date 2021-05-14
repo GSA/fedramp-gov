@@ -2,7 +2,7 @@
 title: FedRAMP Connect Results and Next Round of Connect Open Until September 13th
 permalink: /FedRAMP-Connect-Results-and-Next-Round-of-Connect-Open-Until-September-13th/
 body-class: page-blog
-image: /assets/img/blog-images/Blog_FedRAMP_Connect.png
+image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
 layout: blog-page
 ---

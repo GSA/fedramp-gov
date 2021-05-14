@@ -2,7 +2,7 @@
 title: CSPs Prioritized to Work with the JAB and Next FedRAMP Connect Due Date
 permalink: /2021-01-27-csps-prioritized/
 body-class: page-blog
-image: /assets/img/blog-images/FRblog_FRConnect.png
+image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
 layout: blog-page
 ---
