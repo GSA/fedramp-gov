@@ -24,4 +24,4 @@ The parameter for IR-3-1 has also been amended to: “at least every six (6) mon
 
 CSPs will be required to include functional testing as part of their next Security Assessment Plan (SAP) submission (either as part of initial authorization, or by their next annual assessment) and be reflected in the Security Assessment Report (SAR). As always, we appreciate your partnership. Contact us with <a href="mailto:info@fedramp.gov" title="email FedRAMP" target="_blank">info@fedramp.gov</a> with any questions.
 
-<p style="margin-top:32px">&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target"_blank"> MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></p>
+<p style="margin-top:32px">&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></p>
