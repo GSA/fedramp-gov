@@ -27,7 +27,7 @@ CSPs will be required to include functional testing as part of their next Securi
 
 
 
-<p style="padding-top:24px;padding-bottom:32px">To download the updated System Security Plan (SSP) documents, please see below:</p>
+<p style="padding-top:32px;padding-bottom:12px">To download the updated System Security Plan (SSP) documents, please see below:</p>
 
 
 
