@@ -10,29 +10,54 @@ The Federal Risk and Authorization Management Program (FedRAMP) provides standar
 
 The Joint Authorization Board (JAB) is required to <em>“Define and regularly update the FedRAMP security authorization requirements in accordance with the Federal Information Security Management Act of 2002 (FISMA) and DHS guidance”</em>&#8727;. The JAB has updated the SA-4 control parameter, within the Low, Moderate and High Baselines, specifying the following requirement in the <strong>SA-4 Additional FedRAMP Requirements and Guidance</strong> section: 
 <dl>
-<dd>The service provider must comply with Federal Acquisition Regulation (FAR) Subpart 7.103, and Section 889 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year 2019 (Pub. L. 115-232), and FAR Subpart 4.21, which implements Section 889 (as well as any added updates related to FISMA to address security concerns in the system acquisitions process).</dd></dl>
+<dd><em>The service provider must comply with Federal Acquisition Regulation (FAR) Subpart 7.103, and Section 889 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year 2019 (Pub. L. 115-232), and FAR Subpart 4.21, which implements Section 889 (as well as any added updates related to FISMA to address security concerns in the system acquisitions process).</em></dd></dl>
 
 This update is effective immediately and applies to all cloud products and services that are authorized or in-process of achieving a FedRAMP Authorization. Cloud Service Providers (CSPs) will be required to have a plan for implementation within 30 days and be fully implemented within six (6) months. 
  
 Additionally, the following updates were made to the Incident Response Testing High baseline control (IR-3) (in <strong>bold</strong>):
 <dl>
-<dd><strong>IR-3-2 Requirement:</strong><br>
-The service provider defines tests and/or exercises in accordance with NIST Special Publication 800-61 (as amended). <strong>Functional Testing must occur prior to testing for initial authorization. Annual functional testing may be concurrent with required penetration tests (see CA-8)</strong>. The service provider provides test plans to the JAB/AO annually. Test plans are approved and accepted by the JAB/AO prior to test commencing.</dd></dl>
+<dd><em><strong>IR-3-2 Requirement:</strong><br>
+The service provider defines tests and/or exercises in accordance with NIST Special Publication 800-61 (as amended). <strong>Functional Testing must occur prior to testing for initial authorization. Annual functional testing may be concurrent with required penetration tests (see CA-8)</strong>. The service provider provides test plans to the JAB/AO annually. Test plans are approved and accepted by the JAB/AO prior to test commencing.</em></dd></dl>
 
 The parameter for IR-3-1 has also been amended to: “at least every six (6) months, <strong>including functional at least annually”</strong>.
 
 CSPs will be required to include functional testing as part of their next Security Assessment Plan (SAP) submission (either as part of initial authorization, or by their next annual assessment) and be reflected in the Security Assessment Report (SAR). As always, we appreciate your partnership. Contact us with <a href="mailto:info@fedramp.gov" title="email FedRAMP" target="_blank">info@fedramp.gov</a> with any questions.
 
-<p style="margin-top:32px; font-size:15px;"><em>&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></em></p>
+<p style="margin-top:32px; font-size:14px;"><em>&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></em></p>
 
 
 
 <div>
-
-<div> <img width="50px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-pdf-download.svg"  alt=""> </div>
-
-<div>
-<h3>Agency Authorization Playbook</h3>
-<p><a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf" target="_blank">Download [PDF - 1.3MB]</a></p>
+  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-excel-download.svg"  alt=""> </div>
+  <div>
+    <h4>FedRAMP Security Controls Baseline</h4>
+    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank">Download [Excel - 658KB]</a></p>
+  </div>
 </div>
+
+
+<div>
+  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+  <div>
+    <h4>FedRAMP System Security Plan (SSP) High Baseline Template</h4>
+    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
+  </div>
+</div>
+
+
+<div>
+  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+  <div>
+    <h4>FedRAMP System Security Plan (SSP) Moderate Baseline Template</h4>
+    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
+  </div>
+</div>
+
+
+<div>
+  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+  <div>
+    <h4>FedRAMP System Security Plan (SSP) Low Baseline Template</h4>
+    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
+  </div>
 </div>
