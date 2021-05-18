@@ -26,61 +26,11 @@ CSPs will be required to include functional testing as part of their next Securi
 <p style="margin-top:32px; font-size:15px;"><em>&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></em></p>
 
 
-		<div class="full-row grid-row grid-gap">
-			<div class="full-col tablet:grid-offset-1 tablet:grid-col-10 padding-4 white-bkg auth-resources">
-				<div class="full-row grid-row grid-gap auth-resources-row">
-					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-						<img src="{{site.baseurl}}/assets/img/auth-pdf-download.svg" class="" alt="" />
-					</div>
-					<div class="full-col tablet:grid-col-10 padding-right-4">
-						<h3>Agency Authorization Playbook</h3>
-						<p>This document provides a compilation of best practices, tips, and step-by-step guidance for agencies seeking to implement ATOs.</p>
-						<p><a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf" target="_blank">Download [PDF - 1.3MB]</a></p>
-					</div>
-				</div>
-				
-				<div class="full-row grid-row grid-gap auth-resources-row">
-					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-							<img src="{{site.baseurl}}/assets/img/auth-pdf-download.svg" class="" alt="" />
-					</div>
-					<div class="full-col tablet:grid-col-10 padding-right-4">
-						<h3>Agency Authorization - Roles and Responsibilities for FedRAMP, CSPs, and Agencies</h3>
-						<p>This document provides a summary of the roles and responsibilities of the agency, CSP, and FedRAMP PMO during the Agency Authorization process.</p>
-						<p><a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Roles_and_Responsibilities_for_FedRAMP_CSPs_and_Agencies.pdf" target="_blank">Download [PDF - 933KB]</a></p>
-					</div>
-				</div>
-				
-				<div class="full-row grid-row grid-gap auth-resources-row">
-					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-							<img src="{{site.baseurl}}/assets/img/auth-pdf-download.svg" class="" alt="" />
-					</div>
-					<div class="full-col tablet:grid-col-10 padding-right-4">
-						<h3>FedRAMP Authorization Boundary Guidance</h3>
-						<p>This document provides CSPs guidance for developing the authorization boundary for their offering(s) which is required for their FedRAMP Authorization package.</p>
-						<p><a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf" target="_blank">Download [PDF - 293KB]</a></p>
-					</div>
-				</div>
-				
-				<div class="full-row grid-row grid-gap auth-resources-row">
-					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-							<img src="{{site.baseurl}}/assets/img/auth-pdf-download.svg" class="" alt="" />
-					</div>
-					<div class="full-col tablet:grid-col-10 padding-right-4">
-						<h3>FedRAMP Guide for Multi-Agency Continuous Monitoring</h3>
-						<p>This document provides guidance to agencies and CSPs to assist with a framework for collaboration when managing Agency ATOs.</p>
-						<p><a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf" target="_blank">Download [PDF - 413KB]</a></p>
-					</div>
-				</div>
-				
-				<div class="full-row grid-row grid-gap auth-resources-row">
-					<div class="full-col tablet:grid-col-2 auth-pdf-download-img">
-							<img src="{{site.baseurl}}/assets/img/auth-visit-site.svg" class="" alt="" />
-					</div>
-					<div class="full-col tablet:grid-col-10 padding-right-4">
-						<h3>FedRAMP Tailored Website</h3>
-						<p>Provides guidance and templates for FedRAMP Tailored, a simple, condensed approach to the Authorization process for Low-Impact Software-as-a-Service (LI-SaaS) applications.</p>
-						<p><a class="auth-resources-download"  href="https://tailored.fedramp.gov/" target="_blank">Visit Website</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+<p style="margin:50px 0px 80px 0px"> insert test document title here <a class="policy-download policy-pdf focus-within" href="/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf" target="_blank"> Download </a> </p>
+
+
+<div>
+<div> <img width="50px" height="auto" style="float: left; margin: 5px;" src= "{{site.baseurl}}/assets/img/auth-pdf-download.svg"  alt=""> </div>
+<h3></h3>
+<p>Agency Authorization Playbook<br>
+  <a class="auth-resources-download"  href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf" target="_blank">Download [PDF - 1.3MB]</a></p>
