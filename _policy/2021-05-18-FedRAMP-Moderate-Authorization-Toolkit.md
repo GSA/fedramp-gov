@@ -6,7 +6,7 @@ weblink:
 filename: toolkits/FedRAMP-Moderate-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 3.2MB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Toolkit

@@ -6,7 +6,7 @@ weblink:
 filename: documents/FedRAMP_Security_Controls_Baseline.xlsx
 filetype: excel
 fileinfo: excel - 672KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Document

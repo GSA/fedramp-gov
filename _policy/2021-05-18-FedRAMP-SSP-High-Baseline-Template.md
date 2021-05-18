@@ -6,7 +6,7 @@ weblink:
 filename: templates/FedRAMP-SSP-High-Baseline-Template.docx
 filetype: word
 fileinfo: word - 844KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Template
