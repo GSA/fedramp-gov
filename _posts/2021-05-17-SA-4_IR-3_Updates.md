@@ -29,7 +29,7 @@ CSPs will be required to include functional testing as part of their next Securi
 
 
 
-<div style="margin-top:32px;margin-bottom:32px
+<div style="margin-top:32px;margin-bottom:32px>
 
 
 <div style="padding-bottom:12px">
