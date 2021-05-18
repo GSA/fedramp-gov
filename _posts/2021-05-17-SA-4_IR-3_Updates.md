@@ -8,7 +8,7 @@ layout: blog-page
 ---
 The Federal Risk and Authorization Management Program (FedRAMP) provides standardized security requirements for the authorization and ongoing cybersecurity of cloud services. Cloud technology and the security landscape is dynamic and changes over time, so it’s important that the program regularly reviews and updates the FedRAMP security authorization requirements in order to keep pace with technology advances and new security threats. 
 
-The Joint Authorization Board (JAB) is required to <em>“Define and regularly update the FedRAMP security authorization requirements in accordance with the Federal Information Security Management Act of 2002 (FISMA) and DHS guidance”</em>&#8727;. The JAB has updated the SA-4 control parameter, within the Low, Moderate and High Baselines, specifying the following requirement in the <strong>SA-4 Additional FedRAMP Requirements and Guidance</strong> section: 
+The Joint Authorization Board (JAB) is required by the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">following government guidance</a> to <em>“Define and regularly update the FedRAMP security authorization requirements in accordance with the Federal Information Security Management Act of 2002 (FISMA) and DHS guidance”</em>&#8727;. The JAB has updated the SA-4 control parameter, within the Low, Moderate and High Baselines, specifying the following requirement in the <strong>SA-4 Additional FedRAMP Requirements and Guidance</strong> section: 
 <dl>
 <dd><em>The service provider must comply with Federal Acquisition Regulation (FAR) Subpart 7.103, and Section 889 of the John S. McCain National Defense Authorization Act (NDAA) for Fiscal Year 2019 (Pub. L. 115-232), and FAR Subpart 4.21, which implements Section 889 (as well as any added updates related to FISMA to address security concerns in the system acquisitions process).</em></dd></dl>
 
@@ -23,13 +23,12 @@ The parameter for IR-3-1 has also been amended to: “at least every six (6) mon
 
 CSPs will be required to include functional testing as part of their next Security Assessment Plan (SAP) submission (either as part of initial authorization, or by their next annual assessment) and be reflected in the Security Assessment Report (SAR). As always, we appreciate your partnership. Contact us with <a href="mailto:info@fedramp.gov" title="email FedRAMP" target="_blank">info@fedramp.gov</a> with any questions.
 
-<p style="margin-top:32px; font-size:14px;"><em>&#8727; <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf" target="_blank">MEMORANDUM FOR CHIEF INFORMATION OFFICERS: Security Authorization of Information Systems in Cloud Computing Environments</a></em></p>
 
 
 
 
+<p style="padding-top:24px;padding-bottom:32px">To download the updated System Security Plan (SSP) documents, please see below:</p>
 
-<div style="padding-top:32px;padding-bottom:32px">
 
 
 <div style="padding-bottom:12px">
@@ -65,6 +64,5 @@ CSPs will be required to include functional testing as part of their next Securi
     <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) Low Baseline Template</h5>
     <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx" target="_blank">Download [Word - 478KB]</a></p>
   </div>
-</div>
 
 </div>
