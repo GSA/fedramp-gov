@@ -27,37 +27,44 @@ CSPs will be required to include functional testing as part of their next Securi
 
 
 
-<div>
-  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-excel-download.svg"  alt=""> </div>
+
+
+<div style="margin-top:32px;margin-bottom:32px
+
+
+<div style="padding-bottom:12px">
+  <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src= "{{site.baseurl}}/assets/img/auth-excel-download.svg"  alt=""> </div>
   <div>
-    <h4>FedRAMP Security Controls Baseline</h4>
+    <h5 style="color:#1a4480">FedRAMP Security Controls Baseline</h5>
     <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank">Download [Excel - 658KB]</a></p>
   </div>
 </div>
 
 
-<div>
-  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+<div style="padding-bottom:12px">
+  <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
-    <h4>FedRAMP System Security Plan (SSP) High Baseline Template</h4>
+    <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) High Baseline Template</h5>
     <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
   </div>
 </div>
 
 
-<div>
-  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+<div style="padding-bottom:12px">
+  <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
-    <h4>FedRAMP System Security Plan (SSP) Moderate Baseline Template</h4>
+    <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) Moderate Baseline Template</h5>
     <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
   </div>
 </div>
 
 
-<div>
-  <div> <img width="80px" height="auto" style="float: left; margin: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
+<div style="padding-bottom:12px">
+  <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;"src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
-    <h4>FedRAMP System Security Plan (SSP) Low Baseline Template</h4>
+    <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) Low Baseline Template</h5>
     <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx" target="_blank">Download [Word - 828KB]</a></p>
   </div>
+</div>
+
 </div>
