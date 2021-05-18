@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-SSP-High-Baseline-Template.docx
 filetype: word
-fileinfo: word - 844KB
+fileinfo: word - 848KB
 condition: update
 partner: All Partners
 doctype:
