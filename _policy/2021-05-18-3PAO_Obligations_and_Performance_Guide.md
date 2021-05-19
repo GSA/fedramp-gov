@@ -5,8 +5,8 @@ category: Key Assessor Documents
 weblink:
 filename: documents/3PAO_Obligations_and_Performance_Guide.pdf
 filetype: pdf
-fileinfo: PDF - 204KB
-condition: new
+fileinfo: PDF - 208KB
+condition: update
 partner: Assessors
 doctype:
   - Document
