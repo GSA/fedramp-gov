@@ -6,7 +6,7 @@ weblink:
 filename: toolkits/FedRAMP-High-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 3.1MB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Toolkit

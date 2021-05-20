@@ -6,7 +6,7 @@ weblink:
 filename: toolkits/FedRAMP-Low-Authorization-Toolkit.zip
 filetype: zip
 fileinfo: zip - 2.9MB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Toolkit

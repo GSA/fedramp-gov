@@ -5,8 +5,8 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-SSP-Moderate-Baseline-Template.docx
 filetype: word
-fileinfo: word - 723KB
-condition: new
+fileinfo: word - 726KB
+condition: update
 partner: All Partners
 doctype:
   - Template

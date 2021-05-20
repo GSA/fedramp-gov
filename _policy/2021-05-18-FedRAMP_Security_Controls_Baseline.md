@@ -5,8 +5,8 @@ category: FedRAMP Program Documents
 weblink:
 filename: documents/FedRAMP_Security_Controls_Baseline.xlsx
 filetype: excel
-fileinfo: excel - 672KB
-condition: new
+fileinfo: excel - 674KB
+condition: update
 partner: All Partners
 doctype:
   - Document
