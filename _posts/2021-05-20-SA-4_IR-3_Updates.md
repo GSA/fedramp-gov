@@ -1,8 +1,8 @@
 ---
 title: An Update to FedRAMP’s Low, Moderate, and High Baseline SA-4 Controls and IR-3 High Baseline
-permalink: /blog/2021-05-18-SA-4_IR-3_Updates/
+permalink: /blog/2021-05-20-SA-4_IR-3_Updates/
 body-class: page-blog
-image: /assets/img/blog-images/2021-05-18-SA-4_IR-3_Updates.png
+image: /assets/img/blog-images/2021-05-20-SA-4_IR-3_Updates.png
 author: FedRAMP
 layout: blog-page
 ---
