@@ -12,51 +12,50 @@ NIST released version 1.0.0 of OSCAL. The FedRAMP PMO, in collaboration with NIS
 With OSCAL, activities associated with preparing, authorizing, and reusing services will require less time and resources. As a result of a machine-readable authorization package, we anticipate several impacts, such as:
 
 
-<table border="0" cellspacing="0" cellpadding="0">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td>
-											<p><strong>Cloud Service Providers (CSPs)</strong> will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-									
-<table border="0" cellspacing="0" cellpadding="0">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td>
-											<p><strong>Agencies</strong> will be able to expedite their reviews of the FedRAMP security authorization packages.</p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
 
 
-
-							
-<table border="0" cellspacing="0" cellpadding="0">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td>
-											<p><strong>Third Party Assessment Organizations (3PAOs)</strong> will be able to automate the planning, execution, and reporting of cloud assessment activities.</p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-
-
-
-
-
-
-
+<section class="fedramp-page-container">
+	<div class="grid-container">
+		<div class="partners-container grid-row home-partners-title" style="margin-top: 0;">
+			<div class="desktop:grid-col-4 padding-2">
+				<div class="grid-row">
+					<div class="tablet:grid-col-3 home-partners-icon-container">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+					</div>
+					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
+						<div class="home-partners-text">
+							<p class="margin-bottom-4"><strong>Cloud Service Providers (CSPs)</strong> will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="desktop:grid-col-4 padding-2">
+				<div class="grid-row">
+					<div class="tablet:grid-col-3 home-partners-icon-container">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
+					</div>
+					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
+						<div class="home-partners-text">
+							<p class="margin-bottom-4"><strong>Agencies</strong> will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="desktop:grid-col-4 padding-2">
+				<div class="grid-row">
+					<div class="tablet:grid-col-3 home-partners-icon-container">
+						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
+					</div>
+					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
+						<div class="home-partners-text">
+							<p class="margin-bottom-4"><strong>Third Party Assessment Organizations (3PAOs)</strong> will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
 
 
 
@@ -68,17 +67,18 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 - Updated stable versions of the assessment plan, assessment results, plan of action and milestones (POA&M) models, which support the structured representation of information used for planning for and documenting the results of an information system assessment or continuous monitoring activity.
 - Updated tools to convert between OSCAL, XML, and JSON formats, and to upconvert content from previous releases to RC2.
 
-To stay updated on NIST’s OSCAL releases, we encourage you to visit <a href="https://github.com/usnistgov/OSCAL/releases" target="_blank">NIST’s OSCAL resource page</a> <i class="fas fa-external-link-alt fa-sm"></i>.
+To stay updated on NIST’s OSCAL releases, we encourage you to visit <a href="https://github.com/usnistgov/OSCAL/releases" target="_blank">NIST’s OSCAL resource page</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i>.
 
 
 
 <H3>FedRAMP’s OSCAL Resources</h3> 
 To access the FedRAMP PMO templates and resources, please visit the <a href="https://github.com/GSA/fedramp-automation" target="_blank">FedRAMP Automation resources on GitHub</a> <i class="fas fa-external-link-alt fa-sm"></i>.
 
-We Want Your Feedback! 
+<h2 style="padding-top:30px">We Want Your Feedback!</h2> 
 All development efforts have been performed openly and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!
 
 If you have questions or feedback, please provide comments either via email to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>, as a comment to an 
-<a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">existing issue</a> <i class="fas fa-external-link-alt fa-sm"></i>, or as a <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">new issue</a> <i class="fas fa-external-link-alt fa-sm"></i> within the FedRAMP Automation repository. 
+<a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">existing issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i>, or as a <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">new issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i> within the FedRAMP Automation repository.
+
 <strong>The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.</strong>
 
