@@ -13,63 +13,42 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 
 
-<section class="fedramp-page-container" style="padding:0">
-	<div class="grid-container" style="padding:0">
-		<div class="partners-container grid-row">
-			<div class="desktop:grid-col-4 padding-2">
-				<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
-							<h5>Cloud Service Providers (CSPs)</h5>
-							<p class="margin-bottom-4">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+<section class="fedramp-page-container" >
+	<div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+			<div class="person-img-container">
+				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
-			<div class="desktop:grid-col-4 padding-2">
-										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
-														<h5>Agencies</h5>
-<p class="margin-bottom-4">will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
-					</div>
-			<div class="desktop:grid-col-4 padding-2">
-										<img style="margin: auto" class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
-																									<h5>Third Party Assessment Organizations (3PAOs)</h5>
-<p class="margin-bottom-4">will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
-	</div>
 		</div>
-	</div>	
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
+			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
+			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+				</div>
+	</div><div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+			<div class="person-img-container">
+				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+			</div>
+		</div>
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
+			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
+			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+				</div>
+	</div><div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+			<div class="person-img-container">
+				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+			</div>
+		</div>
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
+			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
+			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+				</div>
+	</div>
+
 </section>
-
-
-
-
 							
-							
-							<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                              <tr>
-                                <td style="padding-top:0;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
-                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Icing caramels sugar plum candy canes. Lemon drops chocolate cake pudding soufflé soufflé. Bear claw dragée cotton candy caramels ice cream halvah candy canes candy. Dessert cupcake I love candy canes chocolate bar cotton candy sweet jelly-o cupcake. Dragée lollipop fruitcake I love topping pudding sesame snaps. Jujubes chupa chups fruitcake macaroon tart cotton candy pie carrot cake. </p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table></td>
-                              </tr>
-                              <tr>
-                                <td style="padding-top: 30px;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Agenda.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
-                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Cupcake muffin cotton candy chocolate cake. Pastry sweet roll fruitcake. Gummi bears halvah gingerbread chocolate bar candy canes tootsie roll pudding brownie sweet roll. Wafer liquorice pudding pastry toffee gummies bear claw. Toffee fruitcake lemon drops bonbon bear claw. Fruitcake soufflé I love donut. Biscuit lollipop sweet roll candy muffin I love I love. Sweet sweet carrot cake apple pie. </p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table></td>
-                              </tr>
-                            </tbody>
-                          </table>
+					
 
 
 <H3>OSCAL 1.0.0 includes:</h3>
