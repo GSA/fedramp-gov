@@ -8,22 +8,45 @@ layout: blog-page
 ---
 NIST released version 1.0.0 of OSCAL. The FedRAMP PMO, in collaboration with NIST, is working to standardize authorization packages and streamline their review with a common machine-readable language, also known as the Open Security Controls Assessment Language (OSCAL).
 
-<H3>
-Benefits of OSCAL</h3>
+<H3>Benefits of OSCAL</h3>
 With OSCAL, activities associated with preparing, authorizing, and reusing services will require less time and resources. As a result of a machine-readable authorization package, we anticipate several impacts, such as:
 
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                              <tr>
-                                <td style="padding-top:0;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
+<table border="0" cellspacing="0" cellpadding="0">
                                     <tbody>
                                       <!-- LIST ITEM  -->
                                       <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
+                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
                                         <!-- LIST ITEM TEXT -->
-                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
-                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Cloud Service Providers (CSPs) will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p></td>
+                                        <td>
+											<p><strong>Cloud Service Providers (CSPs)</strong> will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+									
+<table border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <!-- LIST ITEM  -->
+                                      <tr><!-- LIST ITEM IMAGE -->
+                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
+                                        <!-- LIST ITEM TEXT -->
+                                        <td>
+											<p><strong>Agencies</strong> will be able to expedite their reviews of the FedRAMP security authorization packages.</p></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+
+
+							
+<table border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <!-- LIST ITEM  -->
+                                      <tr><!-- LIST ITEM IMAGE -->
+                                        <td style="padding: 0 20px 0 0;"><img src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto"/></td>
+                                        <!-- LIST ITEM TEXT -->
+                                        <td>
+											<p><strong>Third Party Assessment Organizations (3PAOs)</strong> will be able to automate the planning, execution, and reporting of cloud assessment activities.</p></td>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -32,38 +55,6 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                              <tr>
-                                <td style="padding-top:0;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
-                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Agencies will be able to expedite their reviews of the FedRAMP security authorization packages.
-</p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-
-
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                              <tr>
-                                <td style="padding-top:0;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tbody>
-                                      <!-- LIST ITEM  -->
-                                      <tr><!-- LIST ITEM IMAGE -->
-                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
-                                        <!-- LIST ITEM TEXT -->
-                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
-                                          <p style="font-family: Third Party Assessment Organizations (3PAOs) will be able to automate the planning, execution, and reporting of cloud assessment activities.
-</p></td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
 
 
 
