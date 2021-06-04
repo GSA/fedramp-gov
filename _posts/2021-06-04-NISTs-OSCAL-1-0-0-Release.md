@@ -14,35 +14,35 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 
 <section class="fedramp-page-container" >
-	<div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+	<div class="full-row grid-row padding-2">
 		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
 		</div>
 		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
-			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
+			<h5 class="margin-top-0">Cloud Service Providers (CSPs)</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
 				</div>
-	</div><div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+	</div><div class="full-row grid-row padding-2">
 		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
 		</div>
 		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
-			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
-			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+			<h5 class="margin-top-0">Agencies</h5>
+			<p class="margin-top-0" style="margin-bottom: 0;">will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
 				</div>
-	</div><div class="full-row grid-row padding-x-0 tablet:padding-x-4 padding-y-8">
+	</div><div class="full-row grid-row padding-x-2">
 		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
 		</div>
 		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:padding-left-2 tablet:margin-top-0">
-			<h4 class="margin-top-0">Cloud Service Providers (CSPs)</h4>
-			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+			<h5 class="margin-top-0">Third Party Assessment Organizations (3PAOs)</h5>
+			<p class="margin-top-0" style="margin-bottom: 0;">will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
 				</div>
 	</div>
 
