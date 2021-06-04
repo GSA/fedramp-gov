@@ -15,32 +15,32 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 <section class="fedramp-page-container" >
 	<div class="full-row grid-row padding-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4  tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4  tablet:margin-top-0">
 			<h5 class="margin-top-0">Cloud Service Providers (CSPs)</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
 				</div>
 	</div><div class="full-row grid-row padding-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4 tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:margin-top-0">
 			<h5 class="margin-top-0">Agencies</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
 				</div>
 	</div><div class="full-row grid-row padding-x-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4 tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:margin-top-0">
 			<h5 class="margin-top-0">Third Party Assessment Organizations (3PAOs)</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
 				</div>
@@ -67,8 +67,8 @@ To access the FedRAMP PMO templates and resources, please visit the <a href="htt
 
 
 
-<section class="fedramp-page-container lightest-gray-bkg">
-	<div class="grid-container">
+<section class="fedramp-page-container lightest-gray-bkg" style="padding-top:60px">
+	<div class="grid-container padding-y-2" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 				<h2 style="padding-top:30px">We Want Your Feedback!</h2> 
