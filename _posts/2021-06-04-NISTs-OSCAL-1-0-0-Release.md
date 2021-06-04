@@ -68,7 +68,7 @@ To access the FedRAMP PMO templates and resources, please visit the <a href="htt
 
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
-	<div class="grid-container padding-y-0" >
+	<div class="grid-container " style="padding: 2rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 				<h2>We Want Your Feedback!</h2> 
