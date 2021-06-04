@@ -35,6 +35,43 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 	</div>	
 </section>
 
+
+
+
+							
+							
+							<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td style="padding-top:0;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tbody>
+                                      <!-- LIST ITEM  -->
+                                      <tr><!-- LIST ITEM IMAGE -->
+                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Checklist.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
+                                        <!-- LIST ITEM TEXT -->
+                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
+                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Icing caramels sugar plum candy canes. Lemon drops chocolate cake pudding soufflé soufflé. Bear claw dragée cotton candy caramels ice cream halvah candy canes candy. Dessert cupcake I love candy canes chocolate bar cotton candy sweet jelly-o cupcake. Dragée lollipop fruitcake I love topping pudding sesame snaps. Jujubes chupa chups fruitcake macaroon tart cotton candy pie carrot cake. </p></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 30px;" align="center"><table border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tbody>
+                                      <!-- LIST ITEM  -->
+                                      <tr><!-- LIST ITEM IMAGE -->
+                                        <td style="padding: 0 20px 0 0;" align="left" valign="top"><img title="Highly compatible" src="https://federalist-c2ec0652-d2b5-4b0c-9b83-ef92c9ce7b06.app.cloud.gov/preview/gsa/fedramp-gov/Placeholder-images/assets/placeholders/FR-icon_General_Agenda.png" alt="H" width="80" height="auto" border="0" hspace="0" vspace="0" /></td>
+                                        <!-- LIST ITEM TEXT -->
+                                        <td style="margin: 0; padding: 0;" align="left" valign="top"><h3 style="font-family: Helvetica, Arial, 'sans-serif';font-size: 18px; color: #000000; line-height: 1.3; margin:0;">Heading 3</h3>
+                                          <p style="font-family: Helvetica, Arial, 'sans-serif'; font-size: 15px; font-weight: normal; color: #454545; line-height: 1.3;">Cupcake muffin cotton candy chocolate cake. Pastry sweet roll fruitcake. Gummi bears halvah gingerbread chocolate bar candy canes tootsie roll pudding brownie sweet roll. Wafer liquorice pudding pastry toffee gummies bear claw. Toffee fruitcake lemon drops bonbon bear claw. Fruitcake soufflé I love donut. Biscuit lollipop sweet roll candy muffin I love I love. Sweet sweet carrot cake apple pie. </p></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
 <H3>OSCAL 1.0.0 includes:</h3>
 - Updated stable versions of catalog and profile models which provide a structured representation of control catalogs and baselines or overlays.
 - Updated stable version of the System Security Plan model which provides a structured representation of a system's control-based implementation.
