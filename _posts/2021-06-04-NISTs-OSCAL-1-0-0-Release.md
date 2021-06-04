@@ -13,52 +13,24 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 
 
-
 <section class="fedramp-page-container">
 	<div class="grid-container">
 		<div class="partners-container grid-row home-partners-title" style="margin-top: 0;">
 			<div class="desktop:grid-col-4 padding-2">
-				<div class="grid-row">
-					<div class="tablet:grid-col-3 home-partners-icon-container">
-						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
-					</div>
-					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
-						<div class="home-partners-text">
+				<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 							<p class="margin-bottom-4"><strong>Cloud Service Providers (CSPs)</strong> will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="desktop:grid-col-4 padding-2">
-				<div class="grid-row">
-					<div class="tablet:grid-col-3 home-partners-icon-container">
-						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
-					</div>
-					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
-						<div class="home-partners-text">
+										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
 							<p class="margin-bottom-4"><strong>Agencies</strong> will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
-						</div>
 					</div>
-				</div>
-			</div>
 			<div class="desktop:grid-col-4 padding-2">
-				<div class="grid-row">
-					<div class="tablet:grid-col-3 home-partners-icon-container">
-						<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
-					</div>
-					<div class="tablet:grid-col-9 grid-col-fill tablet:padding-left-4">
-						<div class="home-partners-text">
-							<p class="margin-bottom-4"><strong>Third Party Assessment Organizations (3PAOs)</strong> will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+										<img style="margin: auto" class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
+											<p class="margin-bottom-4"><strong>Third Party Assessment Organizations (3PAOs)</strong> will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
+	</div>
 		</div>
 	</div>	
 </section>
-
-
-
 
 <H3>OSCAL 1.0.0 includes:</h3>
 - Updated stable versions of catalog and profile models which provide a structured representation of control catalogs and baselines or overlays.
