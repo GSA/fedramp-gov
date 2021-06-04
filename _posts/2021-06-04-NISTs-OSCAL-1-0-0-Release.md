@@ -15,32 +15,32 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 <section class="fedramp-page-container" >
 	<div class="full-row grid-row padding-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
 			<div class="person-img-container">
 				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4  tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4  tablet:margin-top-0">
 			<h5 class="margin-top-0">Cloud Service Providers (CSPs)</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
 				</div>
 	</div><div class="full-row grid-row padding-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
 			<div class="person-img-container">
-				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4 tablet:margin-top-0">
 			<h5 class="margin-top-0">Agencies</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
 				</div>
 	</div><div class="full-row grid-row padding-x-2">
-		<div class="full-col tablet:grid-col-4 desktop:grid-col-2">
+		<div class="full-col tablet:grid-col-4 desktop:grid-col-1">
 			<div class="person-img-container">
-				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
+				<img class="training-img" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
 			</div>
 		</div>
-		<div class="full-col tablet:grid-col-8 desktop:grid-col-10 margin-top-4 tablet:margin-top-0">
+		<div class="full-col tablet:grid-col-8 desktop:grid-col-11 margin-top-4 tablet:margin-top-0">
 			<h5 class="margin-top-0">Third Party Assessment Organizations (3PAOs)</h5>
 			<p class="margin-top-0" style="margin-bottom: 0;">will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
 				</div>
@@ -65,11 +65,23 @@ To stay updated on NIST’s OSCAL releases, we encourage you to visit <a href="h
 <H3>FedRAMP’s OSCAL Resources</h3> 
 To access the FedRAMP PMO templates and resources, please visit the <a href="https://github.com/GSA/fedramp-automation" target="_blank">FedRAMP Automation resources on GitHub</a> <i class="fas fa-external-link-alt fa-sm"></i>.
 
-<h2 style="padding-top:30px">We Want Your Feedback!</h2> 
-All development efforts have been performed openly and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!
 
-If you have questions or feedback, please provide comments either via email to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>, as a comment to an 
-<a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">existing issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i>, or as a <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">new issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i> within the FedRAMP Automation repository.
 
-<strong>The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.</strong>
+<section class="fedramp-page-container lightest-gray-bkg">
+	<div class="grid-container">
+		<div class="full-row grid-row">
+			<div class="full-col desktop:grid-col-12">
+				<h2 style="padding-top:30px">We Want Your Feedback!</h2> 
+<p>All development efforts have been performed openly and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!</p>
+<p>If you have questions or feedback, please provide comments either via email to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>, as a comment to an 
+<a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">existing issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i>, or as a <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">new issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i> within the FedRAMP Automation repository.</p>
+<p><strong>The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.</strong>
+</p>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
 
