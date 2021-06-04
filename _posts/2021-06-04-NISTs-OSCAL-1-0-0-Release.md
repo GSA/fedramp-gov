@@ -67,11 +67,11 @@ To access the FedRAMP PMO templates and resources, please visit the <a href="htt
 
 
 
-<section class="fedramp-page-container lightest-gray-bkg" style="padding-top:60px">
-	<div class="grid-container padding-y-2" >
+<section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
+	<div class="grid-container padding-y-1" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-				<h2 style="padding-top:30px">We Want Your Feedback!</h2> 
+				<h2>We Want Your Feedback!</h2> 
 <p>All development efforts have been performed openly and we are seeking your feedback on our progress to date. Will these machine-readable formats and guidance aid your organization in going through the authorization process efficiently? Do you have any further ideas to enhance the work? Let us know!</p>
 <p>If you have questions or feedback, please provide comments either via email to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>, as a comment to an 
 <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">existing issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i>, or as a <a href="https://github.com/GSA/fedramp-automation/issues" target="_blank">new issue</a>&nbsp;<i class="fas fa-external-link-alt fa-sm"></i> within the FedRAMP Automation repository.</p>
