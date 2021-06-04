@@ -18,18 +18,18 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 		<div class="partners-container grid-row">
 			<div class="desktop:grid-col-4 padding-2">
 				<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-cloud.svg" alt="">
-							<h3>Cloud Service Providers (CSPs)</h3>
+							<h5>Cloud Service Providers (CSPs)</h5>
 							<p class="margin-bottom-4">will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
 			</div>
 			<div class="desktop:grid-col-4 padding-2">
 										<img class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-agencies.svg" alt="">
-														<h3>Agencies</h3>
+														<h5>Agencies</h5>
 <p class="margin-bottom-4">will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
 					</div>
 			<div class="desktop:grid-col-4 padding-2">
 										<img style="margin: auto" class="home-partners-icon" src="{{site.baseurl}}/assets/img/partners-assessors.svg" alt="">
-																									<h3>Third Party Assessment Organizations (3PAOs)</h3>
-<p class="margin-bottom-4"><strong>)</strong>will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
+																									<h5>Third Party Assessment Organizations (3PAOs)</h5>
+<p class="margin-bottom-4">will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>
 	</div>
 		</div>
 	</div>	
