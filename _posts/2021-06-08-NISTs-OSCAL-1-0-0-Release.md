@@ -11,14 +11,14 @@ NIST <a href="https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0" target="_b
 <h3>Benefits of OSCAL</h3>
 With OSCAL, activities associated with preparing, authorizing, and reusing services will require less time and resources. As a result of a machine-readable authorization package, we anticipate several impacts, such as:
 
-<h5 style="padding-left:20px">Cloud Service Providers (CSPs)</h5>
-<p class="margin-top-0; padding-left:20px">Will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
+<h5 style="margin-left:20px">Cloud Service Providers (CSPs)</h5>
+<p class="margin-top-0; style="margin-left:20px">Will be able to create their System Security Plans (SSPs) more rapidly and accurately, validating much of their content before submission to the government for review.</p>
 
-<h5 style="padding-left:20px">Agencies</h5>
-<p class="margin-top-0; padding-left:20px">Will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
+<h5 style="margin-left:20px">Agencies</h5>
+<p class="margin-top-0; style="margin-left:20px">Will be able to expedite their reviews of the FedRAMP security authorization packages.</p>
 
-<h5 style="padding-left:20px">Third Party Assessment Organizations (3PAOs)</h5>
-<p class="margin-top-0; padding-left:20px">Will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>		
+<h5 style="margin-left:20px">Third Party Assessment Organizations (3PAOs)</h5>
+<p class="margin-top-0; style="margin-left:20px">Will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>		
 
 		
 
