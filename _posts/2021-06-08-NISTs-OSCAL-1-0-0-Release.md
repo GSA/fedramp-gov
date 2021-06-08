@@ -20,7 +20,7 @@ With OSCAL, activities associated with preparing, authorizing, and reusing servi
 
 <h5>Third Party Assessment Organizations (3PAOs)</h5>
 <p class="margin-top-0">Will be able to automate the planning, execution, and reporting of cloud assessment activities.</p>		
-</span
+</span>
 					
 
 
