@@ -149,40 +149,31 @@ ul.quick-links {
 	}
 }
 
-.footer-mail-icon {
-	width: 12px;
-	margin-right: 10px;
-	position: relative;
-	top: 4px;
-}
 
-
-.framp-twitter {
+.footer-media-icon {
 	position: relative;
 	top: 4px;
 	margin-right: 10px;
+	margin-left: 20px
 	color: $footer-teal;
 }
 
-.footer-mail-icon:hover, .framp-twitter:hover {
+.footer-media-icon:hover {
 	filter: brightness(200%);
 }
 
 
-p.footer-contact {
-	color: $footer-teal;
-	font-weight: 600;
-	margin-right: 10px !important;
-	margin-bottom: 6px;
-	text-transform: uppercase;
-}
-
 p.footer-follow-us {
 	margin-right: 0px !important;
+	color: $footer-teal;
+	font-weight: 600;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+	
 }
 
-.usa-footer-logo-img {
-	max-width: 90px;
+.gsa-footer-logo-img {
+	max-width: 80px;
 	margin-bottom: 0;
 }
 
