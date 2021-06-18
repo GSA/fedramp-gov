@@ -29,6 +29,7 @@ footer {
 	
 	a {
 		color: $lighter-teal;
+		text-decoration: none;
 	}
 	
 	a:hover {
@@ -160,7 +161,7 @@ ul.quick-links {
 .framp-twitter {
 	position: relative;
 	top: 4px;
-	margin-right: 10px;
+	margin-left: 10px;
 	color: $footer-teal;
 }
 
