@@ -8,7 +8,7 @@ layout: blog-page
 ---
 FedRAMP recognizes the importance of our Authorization Boundary Guidance document in supporting FedRAMP Authorization documentation for Cloud Service Providers (CSPs). As a core component of any FedRAMP System Security Plan (SSP), it is imperative that CSPs understand how to accurately describe and illustrate their cloud system’s authorization boundaries.
 
-The FedRAMP Authorization Boundary Guidance Document was created with both internal and external stakeholders and the Joint Authorization Board (JAB) This update provides more detail and clarity for CSPs on how to describe and illustrate their cloud system’s authorization boundaries, data flow diagrams, and network interconnections.  
+The FedRAMP Authorization Boundary Guidance Document was created with both internal and external stakeholders and the Joint Authorization Board (JAB). This update provides more detail and clarity for CSPs on how to describe and illustrate their cloud system’s authorization boundaries, data flow diagrams, and network interconnections.  
 
 We are releasing this <a href="{{site.baseurl}}/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf" target="_blank"> initial draft of the FedRAMP Authorization Boundary Guidance Document</a> for public comment. Your feedback is critical in continuing to provide the best guidance possible. 
 
