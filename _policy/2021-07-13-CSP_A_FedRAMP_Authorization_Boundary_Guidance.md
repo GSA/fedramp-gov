@@ -6,7 +6,7 @@ weblink:
 filename: documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf
 filetype: pdf
 fileinfo: PDF - 293KB
-condition: new
+condition: update
 partner: Cloud Service Providers
 doctype:
   - Document
