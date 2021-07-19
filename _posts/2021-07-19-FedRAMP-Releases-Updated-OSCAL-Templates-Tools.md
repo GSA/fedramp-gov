@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Releases Updated OSCAL Template & Tools
-permalink: /blog/2021-07-19-FedRAMP-Releases-Updated-OSCAL-Templates-Tools
+permalink: /blog/2021-07-19-FedRAMP-Releases-Updated-OSCAL-Templates-Tools/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_OSCAL_Resources.png
 author: FedRAMP
