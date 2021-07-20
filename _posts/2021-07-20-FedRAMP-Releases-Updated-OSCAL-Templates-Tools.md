@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-In June 2021, [FedRAMP announced NIST’s release of OSCAL 1.0.0](https://www.fedramp.gov/blog/2021-06-08-NISTs-OSCAL-1-0-0-Release/) on GitHub for CSPs, 3PAOs, and agencies to begin exploring for future use. In collaboration with NIST, FedRAMP updated OSCAL resources, including the comprehensive set of guides and conversion tools.
+In June 2021, [FedRAMP announced NIST’s release of OSCAL 1.0.0](https://www.fedramp.gov/blog/2021-06-08-NISTs-OSCAL-1-0-0-Release/) on GitHub for CSPs, 3PAOs, and agencies to begin exploring for future use. In collaboration with NIST, FedRAMP updated OSCAL resources, including the comprehensive set of guides and conversion tools. 
 
 <h3>New and Revised Resources Are Available!</h3>
 FedRAMP has published resources to aid stakeholders and vendors in the digitization of FedRAMP authorization package content. Located on the [FedRAMP Automation GitHub Repository](https://github.com/GSA/fedramp-automation), these include:
