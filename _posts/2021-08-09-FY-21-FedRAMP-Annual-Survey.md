@@ -1,5 +1,5 @@
 ---
-title: FedRAMP Releases FY21 FedRAMP Annual Survey!
+title: FedRAMP Releases FY21 Annual Survey!
 permalink: /FY-21-FedRAMP-Annual-Survey/
 body-class: page-blog
 image: /assets/img/blog-images/2021-08-10-FedRAMP-Releases-FY21-FedRAMP-Annual-Survey.png
