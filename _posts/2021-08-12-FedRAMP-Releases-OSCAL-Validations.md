@@ -25,5 +25,5 @@ FedRAMP review teams will utilize the automated validation rules to conduct init
 
 We are excited to present our first set of validation rules [via GitHub](https://github.com/GSA/fedramp-automation/tree/master/src/validations#what-is-this). We encourage CSPs and 3PAOs to begin using this set of automated validation rules to self-test prior to submitting a package to FedRAMP. As the automated validations process progresses, the PMO will release more rules for industry to utilize. 
 
-If you have any questions, please reach out to [oscal@fedramp.gov](oscal@fedramp.gov)
+If you have any questions, please reach out to <a href="oscal@fedramp.gov">oscal@fedramp.gov</a>
 
