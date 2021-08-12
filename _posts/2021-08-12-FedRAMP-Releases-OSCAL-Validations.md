@@ -27,5 +27,5 @@ We are excited to present our first set of validation rules [via GitHub](https:/
 
 If you have any questions, please reach out to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>
 
-*The FedRAMP PMO completed this work in partnership with GSA's 10x program. For more information about 10x, please visit <a href="10x.gsa.gov"> 10x.gsa.gov.</a>
+**The FedRAMP PMO completed this work in partnership with GSA's 10x program. For more information about 10x, please visit <a href="10x.gsa.gov"> 10x.gsa.gov.</a>**
 
