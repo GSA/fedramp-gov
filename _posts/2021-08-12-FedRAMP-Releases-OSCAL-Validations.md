@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Releases OSCAL Validations
-permalink: /blog/2021-08-12/FedRAMP-Releases-OSCAL-Validations
+permalink: /blog/2021-08-12/FedRAMP-Releases-OSCAL-Validations/
 body-class: page-blog
 image: /assets/img/blog-images/2021-08-12-FedRAMP-Releases-OSCAL-Validations.png
 author: FedRAMP
