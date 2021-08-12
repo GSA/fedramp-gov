@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FedRAMP is excited to announce the development of OSCAL validations rules, which will allow FedRAMP to automate a significant portion of the security package review. Additionally, the program will release validation rules to enable self-testing prior to package submissions 
+FedRAMP is excited to announce the development of OSCAL validations rules, which will allow FedRAMP to automate a significant portion of the security package review. Additionally, validation rules will enable CSPs and 3PAOs to conduct self-testing prior to package submissions. 
 
 **Today’s Challenge: Time to Achieve an ATO**
 
@@ -15,7 +15,7 @@ Security assessments and authorizations are often time consuming. FedRAMP’s go
 
 **The Solution: OSCAL Enabled Automated Validations**
 
-To address the time it takes to review packages, FedRAMP is developing a set of validation rules that will leverage OSCAL to enable automated reviews. These automated reviews will provide consistent feedback with structured markup, just like the FedRAMP reviewers do today. The validations will continuously be updated and released to address increasingly complex review checks.
+To address the time it takes to review packages, FedRAMP is developing a set of validation rules that will leverage OSCAL to enable automated reviews. These automated reviews will provide consistent feedback with structured markup, just like the FedRAMP reviewers do today. FedRAMP will continuously update validations to address increasingly complex review checks.
 
 **Impact and Benefits of Automated Validations** 
 
