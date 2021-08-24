@@ -15,5 +15,5 @@ This training was revised as part of FedRAMP’s role to establish a training pr
 
 This course provides CSPs with a deeper understanding of the detail and rigor required to complete the SSP. The SSP is the main document of a security package in which a CSP describes all of the security controls in use on the information system and their implementation. This course will familiarize CSPs with the required documentation for initial package submission and give a detailed overview of FedRAMP’s SSP template and its supporting documents.
 
-For more training materials and information visit the [FedRAMP Training page](https://www.fedramp.gov/training/ Training page) and the [FedRAMP YouTube Channel](https://www.youtube.com/channel/UCkUuvNigxkKnk3SffjdbmQg).
+For more training materials and information visit the [FedRAMP Training page](https://www.fedramp.gov/training/) and the [FedRAMP YouTube Channel](https://www.youtube.com/channel/UCkUuvNigxkKnk3SffjdbmQg).
 
