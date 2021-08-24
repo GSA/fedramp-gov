@@ -2,7 +2,7 @@
 title: FedRAMP Updates CSP SSP (200A) Training 
 permalink: /blog/2021-08-24/FedRAMP-Updates-CSP-SSP-Training/
 body-class: page-blog
-image: /assets/img/blog-images/2021-08-12-FedRAMP-Releases-OSCAL-Validations.png
+image: /assets/img/blog-images/2021-08-24-FedRAMP-Updates-CSP-SSP-(200A)-Training_FRblog.png
 author: FedRAMP
 layout: blog-page
 ---
