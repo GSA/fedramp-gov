@@ -6,7 +6,7 @@ weblink:
 filename: templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx
 filetype: excel
 fileinfo: excel - 299KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Template
