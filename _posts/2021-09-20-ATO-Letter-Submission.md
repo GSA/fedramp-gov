@@ -29,9 +29,9 @@ CSOs that do not have more than one ATO letter on file are at a higher risk of l
 
 **How do Agencies submit their ATO?**
 
-Federal agencies should follow their agency-defined process for issuing an ATO and submit a copy of their signed ATO letter(s) to FedRAMP via [info@fedramp.gov](info@fedramp.gov). Once an ATO letter is received, permanent access is granted to the security package materials in the FedRAMP Secure Repository to allow agencies to conduct regular reviews of their cloud offering’s continuous monitoring documentation.
+Federal agencies should follow their agency-defined process for issuing an ATO and submit a copy of their signed ATO letter(s) to FedRAMP via [info@fedramp.gov](mailto:info@fedramp.gov). Once an ATO letter is received, permanent access is granted to the security package materials in the FedRAMP Secure Repository to allow agencies to conduct regular reviews of their cloud offering’s continuous monitoring documentation.
 
 **Have Questions?**
 
-If you have any questions regarding the ATO submission process, please reach out to us via [info@fedramp.gov](info@fedramp.gov) and we will be happy to provide assistance.
+If you have any questions regarding the ATO submission process, please reach out to us via [info@fedramp.gov](mailto:info@fedramp.gov) and we will be happy to provide assistance.
 
