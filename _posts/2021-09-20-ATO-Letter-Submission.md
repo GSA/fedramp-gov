@@ -20,11 +20,11 @@ CSOs that do not have more than one ATO letter on file are at a higher risk of l
 <p><strong>While an increased number of ATO letters have been provided, to date, 77 of the 235 FedRAMP Authorized services still only have one ATO letter on file with the FedRAMP PMO.</strong>
 </p>
 
-
 			</div>
 		</div>
 	</div>
 </section>
+
 
 
 **How do Agencies submit their ATO?**
