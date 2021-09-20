@@ -19,6 +19,12 @@ CSOs that do not have more than one ATO letter on file are at a higher risk of l
 <p><strong>While an increased number of ATO letters have been provided, to date, 77 of the 235 FedRAMP Authorized services still only have one ATO letter on file with the FedRAMP PMO.</strong>
 </p>
 
+
+			</div>
+		</div>
+	</div>
+</section>
+
 **How do Agencies submit their ATO?**
 Federal agencies should follow their agency-defined process for issuing an ATO and submit a copy of their signed ATO letter(s) to FedRAMP via [info@fedramp.gov](info@fedramp.gov). Once an ATO letter is received, permanent access is granted to the security package materials in the FedRAMP Secure Repository to allow agencies to conduct regular reviews of their cloud offering’s continuous monitoring documentation.
 
