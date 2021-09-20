@@ -2,7 +2,7 @@
 title: The Importance of ATO Letter Submission 
 permalink: /blog/2021-09-20/ATO-Letter-Submission/
 body-class: page-blog
-image: /assets/img/blog-images/2021-08-24-FedRAMP-Updates-CSP-SSP-(200A)-Training_FRblog.png
+image: /assets/img/blog-images/2021-20-09-Importance-of-ATO-Letter-Submission.png
 author: FedRAMP
 layout: blog-page
 ---
