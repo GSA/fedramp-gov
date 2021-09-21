@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FedRAMP would like to remind federal agencies that in order to maintain compliance with [OMB Circular A - 130](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf), it is a requirement to authorize all Cloud Service Offerings (CSOs) that your agency uses. In addition, FedRAMP would like to emphasize the importance of sending their associated Authority to Operate (ATO) letters to the FedRAMP PMO. Maintaining compliance and ATO letter submission help support a critical component of FedRAMP’s security package reuse model. 
+FedRAMP would like to remind federal agencies to authorize their Cloud Service Offerings and submit the associated Authority to Operate (ATO) letter to the FedRAMP PMO. Agency authorization of CSO's is required to maintain compliance with OMB Circular A-130 and submission of the corresponding ATO to FedRAMP helps support a critical component of FedRAMP’s security package reuse model. 
 
 **Why is this Important?** 
 
