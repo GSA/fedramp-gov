@@ -166,10 +166,10 @@ layout: full-width
           <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="fa-accept-ato-atu"> Does FedRAMP accept both Authority to Operate (ATOs) and Authority to Use (ATUs)? </button>
+						aria-controls="fa-accept-ato-atu"> Does FedRAMP accept both an Authority to Operate (ATO) and an Authority to Use (ATU)? </button>
           </h4>
           <div id="fa-accept-ato-atu" class="usa-accordion__content usa-prose">
-            <p>NIST SP 800-37 describes the ATO and ATU as very similar in that they are the mechanisms for documenting and accepting risk of the Information Systems, and approving the use of the system by the agency. ATUs are typically used for shared systems, but still documents accepting risk and approving use, based on an external security assessment. FedRAMP accepts both ATOs and ATUs. However, in order for FedRAMP to accept ATUs, there must be at least one ATO on file for a CSO.</p>
+            <p>[NIST SP 800-37](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf) describes theATO and ATU as very similar in that they both are the mechanisms for documenting and accepting risk of information systems, and approving the use of the system by the agency. ATUs are typically used for shared systems, but still document accepting risk and approving use (based on an external security assessment). Though FedRAMP accepts both ATOs and ATUs, there must be at least one ATO on file for the CSO in order for FedRAMP to accept an ATU.</p>
           </div>
           <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -186,6 +186,61 @@ layout: full-width
           </h4>
           <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
             <p>Simply email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> to request access extensions. Agencies can work directly with Cloud Service Providers to obtain a copy of the package and request permissions to save, print, email, post, publish, or reproduce. If your agency has already issued an Authority to Operate (ATO) you can submit the ATO to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> and receive permanent access to the package as long as an ATO is on file with the FedRAMP Program Management Office (PMO).</p>
+          </div>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> What is the difference between an Agency “Sponsor” and Agency “Partner”? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>There is no difference. The FedRAMP PMO prefers the terms Initial Agency Partner or Initial Authorizing Agency, which simply refers to the **first** agency to grant an Authority to Operate (ATO) using FedRAMP standards and baselines for the CSO.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> As the initial authorizing agency, are we accepting risk and authorizing the CSO on behalf of the federal government? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>No. The ATO granted by the initial authorizing agency is not a government-wide risk acceptance. As described in the [FedRAMP's Reuse Quick Guide](https://www.fedramp.gov/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf), OMB Circular A-130 requires agencies to individually authorize operation of an information system and to explicitly accept the risk. Each agency that wishes to use the CSO will conduct its own risk review of the authorization package and grant its own ATO.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> Is there an additional level of effort associated with being the Initial Authorizing Agency? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>It depends on the quality of the authorization package. Because the initial authorizing agency is the first agency to review the authorization package, the process for getting to an informed risk-based decision may take longer and require more effort if there are aspects of the authorization package that are unclear, incomplete, inaccurate, or inconsistent. 
+The PMO provides guidance to CSPs and 3PAOs on how to deliver a high quality authorization package, but if the agency team is unable to determine the actual security posture of the CSO due to poor quality, the agency will provide feedback. The feedback may result in modifications to the package deliverables and/or additional testing, and additional review cycles.
+</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> As the initial authorizing agency, are we responsible for performing Continuous Monitoring (ConMon) oversight on behalf of other leveraging agencies? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>No.  It is not the initial authorizing agency’s responsibility to conduct Continuous Monitoring (ConMon) oversight on behalf of all other agencies. OMB Circular A-130 requires federal agencies to implement the Risk Management Framework (RMF) described in NIST SP 800-37. The RMF process includes a Monitor step. The purpose of this step is to maintain ongoing situational awareness about the security posture of the system in support of risk management decisions. Each agency that issues an ATO or ATU for a cloud offering must review the CSP’s ConMon activities to ensure the security posture remains sufficient for its own use and supports an ongoing authorization. This includes reviewing the monthly Plan of Action and Milestone (POA&M), approving deviation requests and significant changes, and reviewing the results of the annual assessment. The FedRAMP PMO encourages CSPs who have more than one customer agency to streamline the ConMon process and potentially minimize duplicative efforts in a way that helps each agency still perform their due diligence related to ConMon. The PMO developed a recommended Collaborative ConMon approach. This approach is described in the [Guide for Multi-Agency Continuous Monitoring](https://www.fedramp.gov/assets/resources/documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf). Collaborative ConMon benefits agencies by allowing them to share responsibility for ConMon oversight, and it benefits the CSP by creating a central forum for addressing questions and achieving consensus related to deviation requests, significant change requests and the annual assessment - versus having to coordinate with each agency separately.
+</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> What happens if my agency decides to stop using the CSO? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>A CSO must have at least one active ATO in order to maintain an Authorized designation on the FedRAMP Marketplace. This ensures at least one agency is conducting oversight of the CSP’s ConMon activities and is monitoring the CSP’s performance. 
+It is the CSP’s responsibility to grow business across government and collect ATOs from all of its agency customers. If one agency decides to stop using a CSO, the CSO can remain on the Marketplace provided at least one other agency has issued an ATO.
+</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="fa-30-day-access"> Should my agency use FedRAMP to authorize a private cloud deployment? </button>
+          </h4>
+          <div id="fa-30-day-access" class="usa-accordion__content usa-prose">
+            <p>The [FedRAMP Policy Memo](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf) does not apply to private clouds intended for a single organization that are implemented on premises (i.e., within a federal facility). In this scenario, agencies continue to follow the FISMA process and use the appropriate NIST security standards and guidelines for their private cloud-based information systems. 
+In the scenario where a dedicated private cloud application is deployed on top of another cloud (IaaS, PaaS) versus within a federal facility, the agency should use the FedRAMP process and baselines to authorize the cloud service. However, the FedRAMP PMO does not review packages for private clouds, grant a FedRAMP Authorized designation, or list them on the Marketplace because the concept of “reuse” does not apply.
+</p>
           </div>
           
           <!-- Cloud Service Providers -------------------------------->
