@@ -1,8 +1,8 @@
 ---
 title: FedRAMP Releases Updated Agency Authorization Playbook
-permalink: /blog/2021-10-20-Updated-Agency-Authorization-Playbook-Tools/
+permalink: /blog/2021-10-20-Updated-Agency-Authorization-Playbook/
 body-class: page-blog
-image: /assets/img/blog-images/2021-21-10_update-agency-authorization-playbook.png
+image: /assets/img/blog-images/2021-20-10_update-agency-authorization-playbook.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -19,10 +19,4 @@ While the Agency Authorization Playbook is written to inform federal agencies ap
 - Additional information on Collaborative Continuous Monitoring 
 
 If you have any questions as you read through the updated playbook, please reach out to <a href="mailto:info@FedRAMP.gov">info@FedRAMP.gov</a>.
-</p>
 
-
-			</div>
-		</div>
-	</div>
-</section>
