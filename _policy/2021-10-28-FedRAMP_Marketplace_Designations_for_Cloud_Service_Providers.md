@@ -6,7 +6,7 @@ weblink:
 filename: documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf
 filetype: pdf
 fileinfo: PDF - 668KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Document
