@@ -278,7 +278,21 @@ layout: full-width
             <p>FedRAMP recognized Third Party Assessment Organizations (3PAOs) and FedRAMP Authorized CSPs may use the FedRAMP logo. Use of the FedRAMP logo, in conjunction with qualified products, services, or organizations, does not require approval. The FedRAMP Program Management Office (PMO) must approve any major educational or promotional campaigns that feature the FedRAMP logo prior to use. The submitted materials will be reviewed for consistency with these guidelines within two weeks of receipt of the materials. Materials should be submitted to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with the following in the subject line: “FedRAMP Branding Review.”</p>
             <p class="margin-top-0">Please review the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf" target="_blank">FedRAMP Branding Guidance [PDF - 932KB]</a> for more answers to your FedRAMP logo questions.</p>
           </div>
-          
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="csp-MFA-tool"> Does a Cloud Service Provider (CSP) need to implement a FIPS-validated multi-factor authentication (MFA) tool prior to a Cloud Service Offering (CSO) achieving FedRAMP Ready or can it be added to the  Plan of Action and Milestones (POA&M) and addressed later? </button>
+          </h4>
+          <div id="csp-MFA-tool" class="usa-accordion__content usa-prose">
+            <p>To achieve a FedRAMP Ready designation, a CSO’s MFA solution must comply with NIST Special Publication (SP) 800-63B, which requires the use of FIPS 140 validated encryption for MFA tools. While agencies may accept risk by allowing a CSP to work through POA&M actions to achieve compliance with NIST SP 800-63B requirements, a Readiness Assessment Report (RAR) has no authorizing official to accept and approve risk for open POA&Ms. A FedRAMP Ready designation indicates to agencies that a cloud service can be authorized without significant risk or delay due to noncompliance. The use of FIPS 140 validated cryptographic modules, where encryption is required, is a federal mandate, as indicated in the RAR template. This applies to MFA tools as well.</p>
+            <p> The FedRAMP PMO has provided additional resources below that apply to all MFA tools, where required (authenticators and verifiers).</p>
+	   <p> <strong>MFA resources:</strong>
+              <li>1) The NSA published a paper last year, Selecting Secure Multi-factor Authentication Solutions, addressing popular MFA offerings and their status on meeting NIST requirements; CSPs may find this helpful to assist in identifying FIPS 140 validated MFA solutions.</li>
+		   <li>2) There are two notable exceptions to the FIPS 140 requirement for authenticators in SP 800-63. These are:
+On low baseline systems, FIPS 140 validated crypto modules are only required for MFA verifiers, not authenticators.
+On Moderate baseline systems, user-provided (“bring-your-own”) authenticators are exempt from having to meet FIPS 140 requirements, particularly in the government-to-public use case.</li>
+             <li>3)NIST SP 800-63 is a complex set of documents that should be reviewed by any  organization implementing MFA for a government system. In addition to the base standards document, NIST provides a FAQ and implementation resources.</li>
+          </div>
           <!-- Third Party Assessors -------------------------------->
           
           <h3 id="faq-third-party" class="padding-top-2">Third Party Assessors</h3>
