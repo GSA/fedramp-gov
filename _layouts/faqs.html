@@ -287,13 +287,16 @@ layout: full-width
             <p>To achieve a FedRAMP Ready designation, a CSO’s MFA solution must comply with NIST Special Publication (SP) 800-63B, which requires the use of FIPS 140 validated encryption for MFA tools. While agencies may accept risk by allowing a CSP to work through POA&M actions to achieve compliance with NIST SP 800-63B requirements, a Readiness Assessment Report (RAR) has no authorizing official to accept and approve risk for open POA&Ms. A FedRAMP Ready designation indicates to agencies that a cloud service can be authorized without significant risk or delay due to noncompliance. The use of FIPS 140 validated cryptographic modules, where encryption is required, is a federal mandate, as indicated in the RAR template. This applies to MFA tools as well.</p>
             <p> The FedRAMP PMO has provided additional resources below that apply to all MFA tools, where required (authenticators and verifiers).</p>
 	   <p> <strong>MFA resources:</strong>
-             1. ** The NSA published a paper last year,<a href="https://media.defense.gov/2020/Sep/22/2002502665/-1/-1/0/CSI_MULTIFACTOR_AUTHENTICATION_SOLUTIONS_UOO17091520.PDF" target="_blank">Selecting Secure Multi-factor Authentication Solutions</a>, addressing popular MFA offerings and their status on meeting NIST requirements; CSPs may find this helpful to assist in identifying FIPS 140 validated MFA solutions. As indicated, this is not a FedRAMP developed document and FedRAMP does not control the currency of the information.
-	      2. ** There are two notable exceptions to the FIPS 140 requirement for authenticators in SP 800-63. These are:
+		   
+		   1.The NSA published a paper last year,<a href="https://media.defense.gov/2020/Sep/22/2002502665/-1/-1/0/CSI_MULTIFACTOR_AUTHENTICATION_SOLUTIONS_UOO17091520.PDF" target="_blank">Selecting Secure Multi-factor Authentication Solutions</a>, addressing popular MFA offerings and their status on meeting NIST requirements; CSPs may find this helpful to assist in identifying FIPS 140 validated MFA solutions. As indicated, this is not a FedRAMP developed document and FedRAMP does not control the currency of the information.
+		   
+		   2.There are two notable exceptions to the FIPS 140 requirement for authenticators in SP 800-63. These are:
 		   <ul class="red-bullets margin-top-0">
 			<li>On low baseline systems, FIPS 140 validated crypto modules are only required for MFA verifiers, not authenticators.</li>
 			<li>On Moderate baseline systems, user-provided (“bring-your-own”) authenticators are exempt from having to meet FIPS 140 requirements, particularly in the government-to-public use case.</li>
 			   </ul>
-              3. ** NIST SP 800-63 is a complex set of documents that should be reviewed by any  organization implementing MFA for a government system. In addition to the base standards document, NIST provides a <a href="https://pages.nist.gov/800-63-3/" target="_blank">FAQ and implementation resources</a>.
+		  
+		  3.NIST SP 800-63 is a complex set of documents that should be reviewed by any  organization implementing MFA for a government system. In addition to the base standards document, NIST provides a <a href="https://pages.nist.gov/800-63-3/" target="_blank">FAQ and implementation resources</a>.
           </div>
           <!-- Third Party Assessors -------------------------------->
           
