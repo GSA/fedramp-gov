@@ -5,8 +5,8 @@ category: Key Cloud Service Provider Documents
 weblink:
 filename: documents/CSP_POAM_Template_Completion_Guide.pdf
 filetype: pdf
-fileinfo: PDF - 392KB
-condition: new
+fileinfo: PDF - 532KB
+condition: update
 partner: Cloud Service Providers
 doctype:
   - Document
