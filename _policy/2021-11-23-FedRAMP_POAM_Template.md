@@ -6,7 +6,7 @@ weblink:
 filename: templates/FedRAMP-POAM-Template.xlsm
 filetype: excel
 fileinfo: excel - 89KB
-condition: new
+condition: update
 partner: All Partners
 doctype:
   - Template
