@@ -15,5 +15,5 @@ Traditional vulnerability scanning tools use an overarching PluginID or Vulnerab
 **What's the Impact?**
 
 Those monitoring these new submissions could possibly see a jump of hundreds of unique vulnerabilities within the container scans. 
-- If you are an agency: Please reach out to your CSPs early and discuss what they are seeing and what they will be submitting to you prior to the actual scan submission. This will ensure everyone is prepared and understands the new counts. 
-- If you are a CSP: Please make sure your clients are briefed on this so that your clients understand the reason for the sudden increase in unique findings. This will help avoid an unwelcome surprise  because of these new numbers. 
+- **If you are an agency:** Please reach out to your CSPs early and discuss what they are seeing and what they will be submitting to you prior to the actual scan submission. This will ensure everyone is prepared and understands the new counts. 
+- **If you are a CSP:** Please make sure your clients are briefed on this so that your clients understand the reason for the sudden increase in unique findings. This will help avoid an unwelcome surprise  because of these new numbers. 
