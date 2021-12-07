@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Turns 10! 
-permalink: /blog/2021-12-08/FedRAMP-Turns-10/
+permalink: /blog/2021-12-07/FedRAMP-Turns-10/
 body-class: page-blog
 image: /assets/img/blog-images/2021-12-08-FedRAMP-Turns-10.png
 author: FedRAMP
