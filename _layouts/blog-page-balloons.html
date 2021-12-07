@@ -1,0 +1,54 @@
+---
+layout: blog-base
+---
+<div class="page-banner-container">
+	<div class="page-banner">
+		<h1>Blog</h1>
+	</div>
+</div>
+<section class="fedramp-page-container">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="desktop:grid-col-9 desktop:padding-right-8">
+				<h2 class="blog-post">{{ page.title }}</h2>
+				<p class="date margin-bottom-2"><strong style="font-weight: 800;">{{ page.date | date: "%B %-d"}}</strong> | {{ page.date | date: "%Y"}}</p>
+				{% if page.image %}
+				<div class="page--banner"> 
+					<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ page.title }}">
+				</div>
+				{% endif %}
+
+				<!--
+				<div class="author-date">
+					<p class="by">By {{ page.author }}</p>
+
+					<span class="tag">
+					{% for tag in page.tags %}
+					{% capture tag_name %}{{ tag }}{% endcapture %}
+					<a href="../{{ tag_name | slugify }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+					{% endfor %}
+					</span>
+				</div>
+				-->
+
+				{{ content }}
+				<p class="back-to-blog margin-top-4"><a href="{{site.baseurl}}/blog/" class="back-to-blogs-button"><i class="fas fa-arrow-circle-left fa-lg text-red blog-icon margin-right-2"></i> Back to Blogs</a></p>
+			</div>
+			<aside class="desktop:grid-col-3">
+				<div class="blog-sidebar">
+					<h3 class="no-line">Recent Posts</h3>
+					<ul>
+						{% for post in site.posts limit:5 %}
+						<li>
+						<a href="{{ post.url | prepend: site.baseurl  }}">{{ post.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</aside>
+		</div>
+	</div>
+</section>	
+<script src="{{ '/assets/js/balloons.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
+
+<a id="topButton"></a>
