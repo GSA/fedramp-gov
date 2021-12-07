@@ -4,7 +4,7 @@ permalink: /blog/2021-12-07/FedRAMP-Turns-10/
 body-class: page-blog-balloons
 image: /assets/img/blog-images/2021-12-08-FedRAMP-Turns-10.png
 author: FedRAMP
-layout: blog-page
+layout: blog-page-balloons
 ---
 
 **Congratulations to the FedRAMP Community on our 10th year anniversary as a program!** What a journey it has been and we are honored that so many of you have partnered with us along the way to make FedRAMP the program it is today. 
