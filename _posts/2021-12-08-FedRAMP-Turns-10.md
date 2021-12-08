@@ -11,7 +11,7 @@ layout: blog-page-balloons
 
 In 2011, the US Government recognized the need for a standard for securing cloud computing solutions. FedRAMP was created to codify the government’s approach to securing next generation technology and allow agencies to meet their missions better, faster, and cheaper. 
 
-Over the past 10 years the program FedRAMP focused on continued evolution - from redesigning processes to increasing transparency, or re-focusing on security while streamlining documentation - all our progress is first and foremost driven by feedback from you, our community. As current Acting Director, Brian Conrad, mentioned while posting the FY21 look back, *“[Behind our evolution], there is a dedicated team of professionals who are passionate about making FedRAMP the best it can be and who are collaborating with the valued industry and agency partners to protect federal information in the cloud.”*
+Over the past 10 years the program FedRAMP focused on continued evolution — from redesigning processes to increasing transparency, or re-focusing on security while streamlining documentation — all our progress is first and foremost driven by feedback from you, our community. As current Acting Director, Brian Conrad, mentioned while posting the FY21 look back, *“[Behind our evolution], there is a dedicated team of professionals who are passionate about making FedRAMP the best it can be and who are collaborating with the valued industry and agency partners to protect federal information in the cloud.”*
 
 Over 10 years we have achieved many milestones working alongside our partners by: 
 - Authorizing the first cloud providers for government-wide use
