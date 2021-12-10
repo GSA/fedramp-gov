@@ -9,7 +9,7 @@ layout: blog-page-balloons
 
 **Congratulations to the FedRAMP Community on our 10th year anniversary as a program!** What a journey it has been and we are honored that so many of you have partnered with us along the way to make FedRAMP the program it is today. 
 
-In 2011, the US Government recognized the need for a standard for securing cloud computing solutions. FedRAMP was created to codify the government’s approach to securing next generation technology and allow agencies to meet their missions better, faster, and cheaper. 
+In 2011, the US Government recognized the need for a standard for securing cloud computing solutions. On December 8, 2011, the Office of Management and Budget (OMB) signed a [memo](https://www.fismacenter.com/fedrampmemo.pdf) establishing FedRAMP to provide a cost-effective, risk-based approach for the adoption and use of cloud services.  
 
 Over the past 10 years the program FedRAMP focused on continued evolution — from redesigning processes to increasing transparency, or re-focusing on security while streamlining documentation — all our progress is first and foremost driven by feedback from you, our community. As current Acting Director, Brian Conrad, mentioned while posting the FY21 look back, *“[Behind our evolution], there is a dedicated team of professionals who are passionate about making FedRAMP the best it can be and who are collaborating with the valued industry and agency partners to protect federal information in the cloud.”*
 
