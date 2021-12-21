@@ -10,6 +10,7 @@ FedRAMP is releasing baselines for public comment, and we want your feedback.
 
 <strong>Rev 5 Baselines</strong>
 
+
 FedRAMP uses the National Institute of Standards and Technology’s (NIST) guidelines and procedures to provide standardized security requirements for cloud services. Specifically, FedRAMP leverages NIST’s Special Publication [SP] 800-53 - <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/finalincluding" target="_blank">Security and Privacy Controls for Federal Information Systems and Organizations series</a> <i class="fas fa-external-link-alt fa-sm"></i>, the baselines and test cases.
 
 In 2020, NIST released SP 800-53, Security and Privacy Controls for Federal Information Systems and Organizations, Revision 5 (Rev. 5) catalog of security and privacy controls and SP 800-53B, Control Baselines for Information Systems and Organizations. The FedRAMP PMO worked with the Joint Advisory Board to develop the FedRAMP baselines in alignment with NIST’s Rev. 5 update.
