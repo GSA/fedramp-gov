@@ -2,7 +2,7 @@
 title: Rev5 Transition Update
 permalink: /2021-12-21-FedRAMP-Publishes-Draft-Rev-5-Baselines/
 body-class: page-blog
-image: /assets/img/blog-images/2021-05-06-Rev5-Update.png
+image: /assets/img/blog-images/2021-12-21-Publish-Draft-Rev-5-Baselines_2021-05-06-Rev5-Update.png
 author: FedRAMP
 layout: blog-page
 ---
