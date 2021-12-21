@@ -26,6 +26,6 @@ Each of these additional controls scored high enough in the threat scoring to re
 
 <strong>We Want Your Feedback!</strong>
 
-FedRAMP anticipates that more strategic control selection will result in a more focused security authorization process. The FedRAMP PMO is releasing this initial draft of the FedRAMP Rev. 5 baselines for public comment. Your feedback is critical in continuing to provide the best guidance possible.
+FedRAMP anticipates that more strategic control selection will result in a more focused security authorization process. The FedRAMP PMO is releasing this initial draft of the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline_Rev_5_Public_Comment_2021_12_20.xlsx">FedRAMP Rev. 5 baselines for public comment</a>. Your feedback is critical in continuing to provide the best guidance possible.
 
-Please provide your feedback through this excel file to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by Friday, April 1, 2022
+Please provide your feedback through this <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Draft_Rev5_Baselines_Feedback.xlsx">excel file</a> to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by Friday, April 1, 2022
