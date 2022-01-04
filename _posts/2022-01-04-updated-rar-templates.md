@@ -2,7 +2,7 @@
 title: Updated RAR Templates and Guide for 3PAOs
 permalink: /2022-01-04-updated-rar-templates/
 body-class: page-blog
-image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
+image: /assets/img/blog-images/-general-blog-banners/2022-01-04-updated-rar-templates.png
 author: FedRAMP
 layout: blog-page
 ---
