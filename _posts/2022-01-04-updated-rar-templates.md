@@ -1,5 +1,5 @@
 ---
-title: Updated RAR Templates and Guide for 3PAOs
+title: Readiness Assessment Report (RAR) Templates and Guide Updates for 3PAOs
 permalink: /2022-01-04-updated-rar-templates/
 body-class: page-blog
 image: /assets/img/blog-images/2022-01-04-updated-rar-templates.png
