@@ -8,9 +8,9 @@ layout: blog-page
 ---
 FedRAMP has updated the Readiness Assessment Report (RAR) Guide and templates (linked below) in order to provide enhanced guidance for Third Party Assessment Organizations (3PAOs).
 
-- <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">FedRAMP High Readiness Assessment Report Template</a>
+- <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-High-RAR-Template.docx">FedRAMP High Readiness Assessment Report Template</a>
 - <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Moderate-RAR-Template.docx">FedRAMP Moderate Readiness Assessment Report Template</a>
-- <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-High-RAR-Template.docx">FedRAMP 3PAO Readiness Assessment Report Guide </a>
+- <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf">FedRAMP 3PAO Readiness Assessment Report Guide </a>
 
 The updates to both of the RAR templates and the guide aim to:
 
