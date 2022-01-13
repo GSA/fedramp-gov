@@ -7,3 +7,5 @@ gem 'jekyll-theme-time-machine'
 gem 'jekyll-sitemap'
 gem 'jekyll-last-modified-at'
 gem 'jekyll-theme-time-machine'
+gem 'jekyll-feed'
+
