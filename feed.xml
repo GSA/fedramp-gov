@@ -25,6 +25,7 @@ layout: null
                 {% for cat in post.categories %}
                 <category>{{ cat | xml_escape }}</category>
                 {% endfor %}
+                <a href={{ site.baseurl }}>VISIT WEBSITE</a>
             </item>
         {% endfor %}
     </channel>
