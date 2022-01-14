@@ -4,7 +4,7 @@ name: Brian Conrad
 image: /assets/img/team/profile_BrianConrad.jpg
 title: Acting FedRAMP Director and Program Manager for Cybersecurity
 body-class: page-team-single
-date: 2018-01-01
+date: 2022-01-04
 order: 100
 
 ---
