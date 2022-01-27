@@ -10,13 +10,13 @@ In August of 2021, the FedRAMP PMO released our annual customer feedback survey.
 
 **What we heard**
 
-The FedRAMP PMO is doing well in several areas, particularly: customer service and support, continuous evolution through automation efforts, and increasing knowledge of FedRAMP across the federal government through initiatives like the <a href="https://www.fedramp.gov/fedramp-announces-agency-liaison-program/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>.</p>">Agency Liaison Program</a>. Some areas for the program to improve upon include expanding opportunities for more training to enhance understanding of the authorization process, the need for updated documents and templates, and that authorization timelines still have room for improvement. 
+The FedRAMP PMO is doing well in several areas, particularly: customer service and support, continuous evolution through automation efforts, and increasing knowledge of FedRAMP across the federal government through initiatives like the <a href="https://www.fedramp.gov/fedramp-announces-agency-liaison-program/" target="_blank" rel="noopener noreferrer">Agency Liaison Program</a>. Some areas for the program to improve upon include expanding opportunities for more training to enhance understanding of the authorization process, the need for updated documents and templates, and that authorization timelines still have room for improvement. 
 
 This feedback and engagement with our partners is critical, as it helps us better understand the challenges that you are facing as an agency, Cloud Service Provider, or Third Party Assessment Organization.
 
 **What we’re doing**
 
-FedRAMP is focused on modernizing the program through automation and business process improvements as part of the <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>.</p>Executive Order on Improving the Nation’s Cybersecurity</a>. In order to modernize and grow with our stakeholders in mind, we took your feedback and  have focused on three goals this fiscal year: 
+FedRAMP is focused on modernizing the program through automation and business process improvements as part of the <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/" target="_blank" rel="noopener noreferrer">Executive Order on Improving the Nation’s Cybersecurity</a>. In order to modernize and grow with our stakeholders in mind, we took your feedback and  have focused on three goals this fiscal year: 
 
 - Grow the FedRAMP Marketplace: Continue to partner with government and industry to promote the adoption of secure cloud services across the federal government
 - Transform Processes: Incorporate automation and other process improvements to improve the stakeholder experience  throughout the FedRAMP process, with an eye towards efficiency and accommodating future growth 
