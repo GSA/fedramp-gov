@@ -18,9 +18,9 @@ This feedback and engagement with our partners is critical, as it helps us bette
 
 FedRAMP is focused on modernizing the program through automation and business process improvements as part of the <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/" target="_blank" rel="noopener noreferrer">Executive Order on Improving the Nation’s Cybersecurity</a>. In order to modernize and grow with our stakeholders in mind, we took your feedback and  have focused on three goals this fiscal year: 
 
-- Grow the FedRAMP Marketplace: Continue to partner with government and industry to promote the adoption of secure cloud services across the federal government
-- Transform Processes: Incorporate automation and other process improvements to improve the stakeholder experience  throughout the FedRAMP process, with an eye towards efficiency and accommodating future growth 
-- Promote Knowledge Sharing: Provide more opportunities for dialogue and feedback by hosting additional events for collaboration, feedback, training and exchange of ideas and practices between the PMO and our stakeholders
+- **Grow the FedRAMP Marketplace:** Continue to partner with government and industry to promote the adoption of secure cloud services across the federal government
+- **Transform Processes:** Incorporate automation and other process improvements to improve the stakeholder experience  throughout the FedRAMP process, with an eye towards efficiency and accommodating future growth 
+- **Promote Knowledge Sharing:** Provide more opportunities for dialogue and feedback by hosting additional events for collaboration, feedback, training and exchange of ideas and practices between the PMO and our stakeholders
 
 The FedRAMP PMO uses several engagement channels to connect with our stakeholders and exchange information, share learnings, and listen to feedback on our performance. Accountability is paramount to our growth as a program, and we will continue to provide periodic updates through our engagement channels to ensure our stakeholders stay apprised of how we’re performing.
 
