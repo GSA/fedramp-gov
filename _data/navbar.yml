@@ -99,11 +99,6 @@ assigned:
             permalink: /baselines/
             show_in_menu: true
             show_in_footer: false
-        - 
-            text: Tailored Authorization
-            is_external: https://tailored.fedramp.gov
-            show_in_menu: true
-            show_in_footer: false
     -
         text: Blog
         href: pages/blog.md
