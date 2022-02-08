@@ -94,8 +94,9 @@ assigned:
             show_in_menu: true
             show_in_footer: false 
         - 
-            text: Tailored Authorization
-            is_external: https://tailored.fedramp.gov
+            text: Baselines
+            href: pages/baselines.md
+            permalink: /baselines/
             show_in_menu: true
             show_in_footer: false
     -
