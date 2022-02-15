@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FedRAMP updated the <a href="https://www.fedramp.gov/assets/resources/documents/Threat-Based_Risk_Profiling_Methodology.pdf" target="_blank" rel="noopener noreferrer">Threat-Based Methodology White Paper</a> to reflect changes to our methodology behind the threat-based scoring approach and its potential applications. FedRAMP is also excited to share the accompanying dataset, located on our github repository [insert link].  We encourage you to read the white paper and data set and provide feedback and/or questions to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. The FedRAMP PMO looks forward to receiving your comments and sharing progress.
+FedRAMP updated the <a href="https://www.fedramp.gov/assets/resources/documents/Threat-Based_Risk_Profiling_Methodology.pdf" target="_blank" rel="noopener noreferrer">Threat-Based Methodology White Paper</a> to reflect changes to our methodology behind the threat-based scoring approach and its potential applications. FedRAMP is also excited to share the accompanying dataset, located on our <a href="https://github.com/GSA/threat-analysis" target="_blank" rel="noopener noreferrer">github repository</a>. We encourage you to read the white paper and data set and provide feedback and/or questions to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>. The FedRAMP PMO looks forward to receiving your comments and sharing progress.
 
 <h4>Recap of Threat-Based White Paper</h4> 
 
