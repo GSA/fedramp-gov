@@ -1,12 +1,12 @@
 ---
-title: Updated Customer Implementation Summary (CIS) and Customer Responsibility Matrix (CRM) Templates
-permalink: /updated-customer-implementation-summary-cis-and-customer-responsibility-matrix-crm-templates/
+title: Updated Control Implementation Summary (CIS) and Customer Responsibility Matrix (CRM) Templates
+permalink: /updated-Control-implementation-summary-cis-and-customer-responsibility-matrix-crm-templates/
 body-class: page-blog
 image: /assets/img/blog-images/Blog_02262018.png
 author: FedRAMP
 layout: blog-page
 ---
-In response to Agency and CSP feedback, FedRAMP updated the Customer Implementation Summary/Customer Responsibility Matrix (CIS/CRM) templates to provide clearer directions, sample responses, and a more streamlined structure. Prior to releasing these updated templates, the program sought <a href="https://www.fedramp.gov/Seeking-Public-Comments-on-the-Draft-Customer-Implementation-Summary-and-Customer-Responsibility-Matrix-Templates/">public comment</a> on the draft templates from the FedRAMP community and we appreciated all of your input. 
+In response to Agency and CSP feedback, FedRAMP updated the Control Implementation Summary/Customer Responsibility Matrix (CIS/CRM) templates to provide clearer directions, sample responses, and a more streamlined structure. Prior to releasing these updated templates, the program sought <a href="https://www.fedramp.gov/Seeking-Public-Comments-on-the-Draft-Customer-Implementation-Summary-and-Customer-Responsibility-Matrix-Templates/">public comment</a> on the draft templates from the FedRAMP community and we appreciated all of your input. 
 
 The CIS/CRM is a security artifact that delineates the security responsibilities of Cloud Service Providers (CSPs) and customers (Federal Agencies). The CIS summarizes the implementation status of each control and the party responsible for maintaining that control, whether the customer is fully responsible for the control, partially inherits the control (there are some customer responsibilities), or the control is fully implemented by the CSP (no responsibilities for the customer). The CRM provides details for a customer of what their responsibilities are for a given control, including responsibilities for optional services (applicable depending on which services the customer acquires). This new CRM version is intended to help clarify roles and responsibilities to promote consumption and re-use of the FedRAMP security package.
 
