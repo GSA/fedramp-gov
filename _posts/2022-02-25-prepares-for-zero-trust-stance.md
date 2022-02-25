@@ -1,8 +1,8 @@
 ---
-title: FedRAMP Releases Clarifying Guidance on Vulnerability Scanning
-permalink: /2022-02-25-clarifying-guidance-vulnerability-scanning/
+title: FedRAMP Prepares for 'Zero Trust' Stance
+permalink: /2022-02-25-prepares-for-zero-trust-stance/
 body-class: page-blog
-image: /assets/img/blog-images/2022-02-25-clarifying-guidance-vulnerability-scanning.png
+image: /assets/img/blog-images/2022-02-25-prepares-for-zero-trust-stance.png
 author: FedRAMP
 layout: blog-page
 ---
