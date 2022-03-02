@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Prepares for 'Zero Trust' Stance
-permalink: /2022-02-25-prepares-for-zero-trust-stance/
+permalink: /2022-03-02-prepares-for-zero-trust-stance/
 body-class: page-blog
 image: /assets/img/blog-images/2022-02-25-prepares-for-zero-trust-stance.png
 author: FedRAMP
