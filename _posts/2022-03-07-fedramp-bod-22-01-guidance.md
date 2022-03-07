@@ -1,6 +1,6 @@
 ---
 title: FedRAMP BOD 22-01 Guidance
-permalink: /2022-03-08-fedramp-bod-22-01-guidance/
+permalink: /2022-03-07-fedramp-bod-22-01-guidance/
 body-class: page-blog
 image: /assets/img/blog-images/2022-02-15-threat-based-methodology-update.png
 author: FedRAMP
