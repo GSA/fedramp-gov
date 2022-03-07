@@ -8,12 +8,12 @@ layout: blog-page
 ---
 The Cybersecurity and Infrastructure Security Agency (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of “binding operational directives” (BODs) and “emergency directives” (EODs). These directives require action on the part of certain federal agencies and cloud service providers (CSPs). FedRAMP works closely with the Joint Authorization Board (JAB) and DHS CISA to issue actions required and outlined in these BODs and EODs.
 
-Binding Operational Directive 22-01
+<h4>Binding Operational Directive 22-01</h4>
 
 On November 3, 2021, DHS CISA issued 
 <a href="https://www.cisa.gov/binding-operational-directive-22-01" target="_blank" rel="noopener noreferrer">Binding Operational Directive 22-01</a>, “Reducing the Significant Risk of Known Exploited Vulnerabilities” [the Directive]. The Directive “establishes a CISA-managed <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">catalog of known exploited vulnerabilities</a> that carry significant risk to the federal enterprise and establishes requirements for agencies to remediate any such vulnerabilities included in the catalog. CISA will determine vulnerabilities warranting inclusion in the catalog based on reliable evidence that the exploit is being actively used to exploit public or private organizations by a threat actor.” 
 
-FedRAMP Response
+<h4>FedRAMP Response</h4>
 
 FedRAMP, in accordance with <a href="https://www.cisa.gov/binding-operational-directive-22-01" target="_blank" rel="noopener noreferrer">Binding Operational Directive 22-01</a> and in consultation with the JAB and DHS CISA, emphasized that CSPs who maintain federal information fall within the scope defined by the Directive. All CSPs must review and implement the actions described within the BOD. 
 
@@ -24,12 +24,3 @@ CSPs should **only** include applicable vulnerabilities in their POA&M. They do 
 We strongly suggest that CSPs sign up for automatic alerts when new vulnerabilities are added to the catalog.
 
 Please contact the PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with any questions.
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<h7>Heading 7</h7>
-<h8>Heading 8</h8>
