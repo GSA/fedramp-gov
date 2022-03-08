@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2022-03-08-fedramp-bod-22-01-guidance.png
 author: FedRAMP
 layout: blog-page
 ---
-The Cybersecurity and Infrastructure Security Agency (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of “binding operational directives” (BODs) and “emergency directives” (EDs). These directives require action on the part of certain federal agencies and cloud service providers (CSPs). FedRAMP works closely with the Joint Authorization Board (JAB) and DHS CISA to issue actions required and outlined in these BODs and EODs.
+The Cybersecurity and Infrastructure Security Agency (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of “binding operational directives” (BODs) and “emergency directives” (EDs). These directives require action on the part of certain federal agencies and cloud service providers (CSPs). FedRAMP works closely with the Joint Authorization Board (JAB) and DHS CISA to issue actions required and outlined in these BODs and EDs.
 
 <h4>Binding Operational Directive 22-01</h4>
 
@@ -15,7 +15,7 @@ On November 3, 2021, DHS CISA issued
 
 <h4>FedRAMP Response</h4>
 
-FedRAMP, in accordance with <a href="https://www.cisa.gov/binding-operational-directive-22-01" target="_blank" rel="noopener noreferrer">Binding Operational Directive 22-01</a> nd in consultation with the JAB and DHS CISA, emphasized that CSPs who maintain federal information fall within the scope defined by the BOD. All CSPs must review and implement the actions described within.
+FedRAMP, in accordance with <a href="https://www.cisa.gov/binding-operational-directive-22-01" target="_blank" rel="noopener noreferrer">Binding Operational Directive 22-01</a> and in consultation with the JAB and DHS CISA, emphasized that CSPs who maintain federal information fall within the scope defined by the BOD. All CSPs must review and implement the actions described within.
 
 FedRAMP notified all Authorized CSPs that in order to address the requirement, FedRAMP has updated <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-POAM-Template.xlsm" target="_blank" rel="noopener noreferrer">the POA&M template</a> to accommodate tracking of vulnerabilities against the catalog of known exploited vulnerabilities. CSPs can track vulnerabilities in the new template or simply add a column (column AB, with the header ‘Binding Operational Directive 22-01 tracking’) in their current POA&M. This new column should be filled out with a ‘Yes’ or ‘No’ as to whether this POA&M item’s vulnerability is found in the catalog of known exploited vulnerabilities.  
 
