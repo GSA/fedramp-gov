@@ -19,7 +19,7 @@ FedRAMP, in accordance with <a href="https://www.cisa.gov/binding-operational-di
 
 FedRAMP notified all Authorized CSPs that in order to address the requirement, FedRAMP has updated <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-POAM-Template.xlsm" target="_blank" rel="noopener noreferrer">the POA&M template</a> to accommodate tracking of vulnerabilities against the catalog of known exploited vulnerabilities. CSPs can track vulnerabilities in the new template or simply add a column (column AB, with the header ‘Binding Operational Directive 22-01 tracking’) in their current POA&M. This new column should be filled out with a ‘Yes’ or ‘No’ as to whether this POA&M item’s vulnerability is found in the catalog of known exploited vulnerabilities.  
 
-CSPs should **only** include applicable vulnerabilities in their POA&M. They do not have to include a status for every known vulnerability on the CISA-managed <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">catalog of known exploited vulnerabilities</a>.
+CSPs should **only** include applicable vulnerabilities in their POA&M. They do not have to include a status for every known vulnerability on the CISA-managed catalog.
 
 We strongly suggest that CSPs sign up for automatic alerts when new vulnerabilities are added to the catalog.
 
