@@ -13,9 +13,9 @@ FedRAMP requires Cloud Service Providers (CSPs) to undergo an annual security as
 - Current version of the System Security Plan (SSP) and all attachments
 - Annual Incident Response Plan Test Report
 - Annual Contingency Plan Test Report
+- Plan Of Action and Milestones (POA&M)
 
-**Plan Of Action and Milestones (POA&M)**
-- Required 3PAO Package Items:
+**Required 3PAO Package Items:**
 - Security Assessment Plan (SAP)
 - Security Assessment Report (SAR) and related artifacts, such as raw vulnerability scan results and other evidence collected during the assessment
 
