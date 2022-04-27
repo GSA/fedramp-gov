@@ -7,12 +7,12 @@ author: FedRAMP
 layout: blog-page
 ---
 
-At the end of 2020, National Institute of Standards and Technology’s (NIST) released Special Publication (SP) 800-53, Rev. 5 catalog of security and privacy controls and SP 800-53B, Control Baselines for Information Systems and Organizations. Since, FedRAMP has been implementing the following approach to implement the baseline updates:
+At the end of 2020, National Institute of Standards and Technology’s (NIST) released Special Publication (SP) 800-53, Rev. 5 catalog of security and privacy controls and SP 800-53B, Control Baselines for Information Systems and Organizations. Since, FedRAMP has been administering the following approach to implement the baseline updates: 
 
-- **Step 1 [COMPLETED]:** Develop draft FedRAMP Baselines from NIST SP 800-53 Rev. 5 Updates (Current State)
+- **Step 1 [COMPLETED]:** Develop draft FedRAMP Baselines from NIST SP 800-53 Rev. 5 Updates
 - **Step 2 [COMPLETED]:** Release draft FedRAMP Baselines for Public Comment
 - **Step 3 [IN PROGRESS]:** Update FedRAMP Baselines and Documentation Based on Public Comments
-- **Step 4: [UPCOMING]:** Release Final Rev5 FedRAMP Baseline Documentation Updates, and CSP Implementation Plan
+- **Step 4 [UPCOMING]:** Release Final Rev5 FedRAMP Baseline Documentation Updates and CSP Implementation Plan
 
 As of April 1, 2022, the public comment period has ended and the FedRAMP PMO has moved into Step 3 of the process. FedRAMP will share updates with our government partners and industry stakeholders as we proceed with this transition. 
 
