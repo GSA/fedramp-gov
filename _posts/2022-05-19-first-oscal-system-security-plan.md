@@ -7,8 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-<h4>FedRAMP Receives an OSCAL Formatted System Security Plan (SSP)</h4>
-FedRAMP is excited to announce that the first Open Security Controls Assessment Language (OSCAL) formatted System Security Plan (SSP) was accepted from a FedRAMP authorized Cloud Service Provider (CSP.) This is a milestone achievement for the program and kickstarts FedRAMPs ability to apply automated validations. 
+FedRAMP is excited to announce that the first Open Security Controls Assessment Language (OSCAL) formatted System Security Plan (SSP) was accepted from a FedRAMP authorized Cloud Service Provider (CSP). This is a milestone achievement for the program and kickstarts FedRAMPs ability to apply automated validations. 
 
 FedRAMP encourages CSPs and 3PAOs to begin using <a href="https://github.com/GSA/fedramp-automation/tree/master/src/validations#what-is-this" target="_blank" rel="noopener noreferrer">automated validation</a> rules to self-test prior to submitting a package to FedRAMP. As the automated validations process progresses, FedRAMP will release more rules for industry to use. You can find more information using the following resources: 
 - **<a href="https://www.fedramp.gov/additional-fedramp-oscal-resources-and-templates/" target="_blank" rel="noopener noreferrer">August 2020 FedRAMP blog:</a>** OSCAL resources and templates
@@ -30,3 +29,5 @@ As CSPs continue to adopt the OSCAL format, FedRAMP anticipates a more efficient
 FedRAMP is currently accepting all authorization deliverables submitted in the OSCAL format and hopes to receive more deliverables as CSPs adopt this machine-readable formatting language. FedRAMP will also continue to accept authorization deliverables in Word format and final versions can be submitted in PDF, after a FedRAMP Authorized designation is achieved.
 
 If you have any questions, please reach out to <a href="mailto:oscal@fedramp.gov">oscal@fedramp.gov</a>. 
+
+*FedRAMP completed this work in partnership with GSA’s 10x program. For more information about 10x, please visit <a href="https://10x.gsa.gov/" target="_blank" rel="noopener noreferrer">10x.gsa.gov</a>.*
