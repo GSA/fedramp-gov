@@ -474,6 +474,27 @@ layout: full-width
           <div id="acquisition-personnel-screening" class="usa-accordion__content usa-prose">
             <p>FedRAMP requires CSPs to describe their organization’s personnel screening requirements. If an agency has requirements for federal background investigations, or additional screening and/or citizenship and physical location (e.g., U.S. citizens in Continental United States [CONUS] offices only), then those requirements would need to be specified in the solicitation language, which may affect bid pricing. </p>
           </div>
+		
+		 <!-- Security -------------------------------->
+          
+          <h3 id="faq-security" class="padding-top-2">Security</h3>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-when-FIPS-NSA-cryptography-required">When is Federal Information Processing Standards (FIPS)-validated or National Security Agency (NSA) approved cryptography required?</button>
+          </h4>
+          <div id="security-when-FIPS-NSA-cryptography-required" class="usa-accordion__content usa-prose">
+            <p>Security Control-13 (SC-13) requires that FIPS 140-validated or NSA-approved cryptographic modules (CMs) are used where cryptography is required. For example, encryption is required for federal data at-rest [SC-28], data in-transit [SC-8(1)], and authentication [IA-2(11)] for FedRAMP Moderate and High systems.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-control-13-apply-just-encryption">Does Security Control-13 (SC-13) apply just to encryption?</button>
+          </h4>
+          <div id="security-control-13-apply-just-encryption" class="usa-accordion__content usa-prose">
+            <p>SC-13 applies to all required cryptographic functions. Cryptography encompasses more than just encryption. It includes digital signatures, encryption, key management, message authentication, random number generation, and secure hashing.</p>
+          </div>
+		
           <div class="padding-bottom-8"> </div>
         </div>
       </div>
