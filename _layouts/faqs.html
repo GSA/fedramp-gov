@@ -494,6 +494,26 @@ layout: full-width
           <div id="security-control-13-apply-just-encryption" class="usa-accordion__content usa-prose">
             <p>SC-13 applies to all required cryptographic functions. Cryptography encompasses more than just encryption. It includes digital signatures, encryption, key management, message authentication, random number generation, and secure hashing.</p>
           </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-know-if-cryptographic-module-FIPS-validated">How do you know if a cryptographic module is FIPS-validated?</button>
+          </h4>
+          <div id="security-know-if-cryptographic-module-FIPS-validated" class="usa-accordion__content usa-prose">
+            <p>The status of a cryptographic module (CM) submitted for testing and validation can be found at the National Institute of Standards and Technology <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank">(NIST) website</a>.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-terms-mean-the-same-thing">Do the terms FIPS-validated, FIPS-compliant, and FIPS-approved mean the same thing?</button>
+          </h4>
+          <div id="security-terms-mean-the-same-thing" class="usa-accordion__content usa-prose">
+            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST) tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:
+		    - FIPS-validated CMs must be configured in an approved mode, which is documented in the associated security policy. 
+		    - Many FIPS-validated CMs also include non-approved algorithms even when run in FIPS mode. Only algorithms listed as approved in the CM’s Security Policy should be used.
+		    - Third Party Assessment Organizations (3PAOs) validate the use of a FIPS-validated CM by checking the certificate number, validating that the CM is configured in an approved mode, and only uses algorithms listed as approved in the CM’s Security Policy. Agencies and FedRAMP reviewers will also check the certificate number for each CM listed in the FedRAMP System Security Plan (SSP) and other documents to confirm validation status. 
+</p>
+		
 		
           <div class="padding-bottom-8"> </div>
         </div>
