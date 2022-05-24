@@ -508,13 +508,12 @@ layout: full-width
 						aria-controls="security-terms-mean-the-same-thing">Do the terms FIPS-validated, FIPS-compliant, and FIPS-approved mean the same thing?</button>
           </h4>
           <div id="security-terms-mean-the-same-thing" class="usa-accordion__content usa-prose">
-            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST) tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:
+            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST) tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:</p>
 		    <ul class="red-bullets margin-top-0">
 		    <li>-FIPS-validated CMs must be configured in an approved mode, which is documented in the associated security policy.</li>
 		    <li>Many FIPS-validated CMs also include non-approved algorithms even when run in FIPS mode. Only algorithms listed as approved in the CM’s Security Policy should be used.</li>
 		   <li>Third Party Assessment Organizations (3PAOs) validate the use of a FIPS-validated CM by checking the certificate number, validating that the CM is configured in an approved mode, and only uses algorithms listed as approved in the CM’s Security Policy. Agencies and FedRAMP reviewers will also check the certificate number for each CM listed in the FedRAMP System Security Plan (SSP) and other documents to confirm validation status.</li> 
 			</ul>
-		  	</p>
 	      </div>
 	      <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -538,7 +537,7 @@ layout: full-width
 						aria-controls="use-of-TLS-1.2-above-statisfy-SC-13-requirements">Does the use of Transport Layer Security (TLS) 1.2 or above satisfy the Security Control-13 (SC-13) requirement?</button>
           </h4>
           <div id="use-of-TLS-1.2-above-statisfy-SC-13-requirements" class="usa-accordion__content usa-prose">
-            <p>No. The SC-13 requirement applies to cryptographic modules (CMs) used to implement TLS; the use of TLS alone does not satisfy the requirement. While TLS 1.2 and above are required at the protocol level, it is necessary to demonstrate that FIPS 140-validated CMs are used to implement the protocol. It is worth noting that some FIPS 140-2 validated modules may not support cryptographic algorithms to allow for TLS 1.3. In addition to listing ports and protocols, CSPs must also identify the component that performs the encryption function along with the FIPS validation certificate number.  For each component and data flow, the SSP Data Flow Diagram(s) and control implementation statements should clearly depict one of the following:
+            <p>No. The SC-13 requirement applies to cryptographic modules (CMs) used to implement TLS; the use of TLS alone does not satisfy the requirement. While TLS 1.2 and above are required at the protocol level, it is necessary to demonstrate that FIPS 140-validated CMs are used to implement the protocol. It is worth noting that some FIPS 140-2 validated modules may not support cryptographic algorithms to allow for TLS 1.3. In addition to listing ports and protocols, CSPs must also identify the component that performs the encryption function along with the FIPS validation certificate number.  For each component and data flow, the SSP Data Flow Diagram(s) and control implementation statements should clearly depict one of the following:</p>
 		  <ul class="red-bullets margin-top-0">
 			  <li>FIPS-validated CM is implemented [with certificate number in SC-13 control description]</li>
 			  <li>Encryption is implemented, but not FIPS-validated</li>
