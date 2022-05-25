@@ -508,7 +508,7 @@ layout: full-width
 						aria-controls="security-terms-mean-the-same-thing">Do the terms FIPS-validated, FIPS-compliant, and FIPS-approved mean the same thing?</button>
           </h4>
           <div id="security-terms-mean-the-same-thing" class="usa-accordion__content usa-prose">
-            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST) tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:</p>
+            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST)-tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:</p>
 		    <ul class="red-bullets margin-top-0">
 		    <li>FIPS-validated CMs must be configured in an approved mode, which is documented in the associated security policy.</li>
 		    <li>Many FIPS-validated CMs also include non-approved algorithms even when run in FIPS mode. Only algorithms listed as approved in the CM’s Security Policy should be used.</li>
@@ -553,7 +553,7 @@ layout: full-width
           <div id="security-impact-to-authorization-when-CM-lacks-FIPS-validation" class="usa-accordion__content usa-prose">
 		  <ul class="red-bullets margin-top-0">
 		  <li>For Cloud Service Offerings (CSOs) pursuing FedRAMP Ready (required for a FedRAMP JAB authorization), all federal mandates must be met. This means FIPS 140-validated modules must be implemented where encryption is required. Gaps cannot be addressed within a Plan of Action and Milestones (POA&M).</li>
-		   <li>For CSOs pursuing a FedRAMP authorization via the Agency path, Agency Authorizing Officials (AOs) may risk-accept FIPS 140 gaps under some circumstances. The first step is to fully document and validate (by the 3PAO) the FIPS status and document gaps in the POA&M to inform the AO’s risk-based authorization decision.</li>  
+		   <li>For CSOs pursuing a FedRAMP authorization via the Agency path, Agency Authorizing Officials (AOs) may risk-accept FIPS 140 gaps under some circumstances. The first step is for the 3PAO to fully document and validate the FIPS status and document gaps in the POA&M to inform the AO’s risk-based authorization decision.</li>  
           </div>
 		  <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
@@ -562,11 +562,11 @@ layout: full-width
           </h4>
           <div id="security-how-CSP-document-FIPS-140-status-gaps" class="usa-accordion__content usa-prose">
 		  <ul class="red-bullets margin-top-0">
-		  <li>CSP should take the approach that FIPS-validated CMs need to be implemented everywhere <b>cryptography is required</b>, and not look for exceptions.</li>
-		   <li>FedRAMP documentation should clearly show encryption and FIPS validation status for <b>every data store, every data flow and authentication method</b>.</li> 
+		  <li>CSP should take the approach that FIPS-validated CMs need to be implemented everywhere cryptography is required, and not look for exceptions.</li>
+		   <li>FedRAMP documentation should clearly show encryption and FIPS validation status for every data store, every data flow and authentication method.</li> 
 	 	   <li>Plan of Action and Milestones (POA&M) should be established where gaps exist. The POA&M should include the reason for using non-compliant modules, for example:</li>
 			  <ul class="red-bullets margin-top-0">
-			  <li>Migrated to a new version of the product; CM is undergoingNational Institute of Standards and Technology (NIST) FIPS validation</li>
+			  <li>Migrated to a new version of the product; CM is undergoing National Institute of Standards and Technology (NIST) FIPS validation</li>
 			  <li>FIPS certificate for current version of the product is now “historical”; vendor seeking FIPS validation for new product</li>
 			  <li>Product does not support FIPS-validated encryption</li>
 			  <li>Component breaks in FIPS-mode, waiting for vendor patch</li></ul></ul>
