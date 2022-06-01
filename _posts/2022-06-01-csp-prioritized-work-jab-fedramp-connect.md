@@ -8,10 +8,10 @@ layout: blog-page
 ---
 
 The following Cloud Service Providers (CSPs) have been selected to work with the Joint Authorization Board (JAB) for a Provisional Authority to Operate (P-ATO) from our latest round of FedRAMP Connect:  
-- M.C. Dean - Infralink
-- Merlin - Constellation GovCloud
 - Collabware - Collabspace
 - Deloitte - Deloitte Digital Contact Center (D2C2)
+- M.C. Dean - Infralink
+- Merlin - Constellation GovCloud
 - PowerTrain - USAL Federal Learning Enclave
 
 These CSPs were selected in accordance with our JAB Prioritization Guidance and Criteria document and will work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB Authorizations. Congratulations!
