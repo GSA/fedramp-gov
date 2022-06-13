@@ -860,6 +860,10 @@ p.faq-search-text {
 	}
 }
 
+.training-section-intro {
+	font-size: 1.25rem;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
 	.courses-img-container {
 		margin: 40px 0 0 0;
@@ -878,12 +882,15 @@ p.faq-search-text {
 }
 
 
+.training-video-link img:hover {
+	opacity: .8;
+}
+
 .training-sign-up, .courses-button, .auth-resources-download {
 	font-size: 0.75rem;
 	font-weight: 800;
 	text-transform: uppercase;
 	color: $mid-gray;
-	border-bottom: solid 1px $light-gray;
 	padding: 6px 0 28px 0;
 	
 	span {

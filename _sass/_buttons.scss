@@ -59,3 +59,25 @@ button:active {
 	visibility: visible;
 }
 
+a.white-button {
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 32px;
+    margin: 10px 0 0 0;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+a.white-button:hover {
+	border: solid 1px $light-gray;
+}
+
+a.white-button:visited {
+	color: #ffffff;
+}
