@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: Threat-Based Risk Profiling Methodology White Paper
+title: Subnets White Paper
 category: FedRAMP Program Documents
 weblink:
 filename: documents/FedRAMP_subnets_white_paper.pdf
