@@ -1,6 +1,6 @@
 ---
 title: Update to the Plan of Actions and Milestones (POA&M) Template
-permalink: /2022-06-23-update-poam-template
+permalink: /2022-06-23-update-poam-template/
 body-class: page-blog
 image: /assets/img/blog-images/FRblog_Doc-Updates.png
 author: FedRAMP
