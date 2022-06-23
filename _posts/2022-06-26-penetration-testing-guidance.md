@@ -1,6 +1,6 @@
 ---
 title: Penetration Testing Guidance
-permalink: /2022-06-21-penetration-testing-guidance/
+permalink: /2022-06-26-penetration-testing-guidance/
 body-class: page-blog
 image: /assets/img/blog-images/2022-06-22-penetration-testing-guidance.png
 author: FedRAMP
