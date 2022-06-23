@@ -2,7 +2,7 @@
 title: CISA Releases Updated Cloud Security Technical Reference Architecture
 permalink: /2022-06-23-cisa-updated-tra/
 body-class: page-blog
-image: /assets/img/blog-images/g2022-06-23-cisa-updated-tra.png
+image: /assets/img/blog-images/2022-06-23-cisa-updated-tra.png
 author: FedRAMP
 layout: blog-page
 ---
