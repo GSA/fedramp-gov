@@ -6,7 +6,7 @@ weblink:
 filename: documents/CSP_Penetration_Test_Guidance.pdf
 filetype: pdf
 fileinfo: PDF - 1MB
-condition: new
+condition: updated
 partner: Cloud Service Providers
 doctype:
   - Document
