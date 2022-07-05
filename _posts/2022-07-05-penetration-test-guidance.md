@@ -1,5 +1,5 @@
 ---
-title: Penetration Test Guidance
+title: Penetration Test Guidance Updates
 permalink: /2022-07-05-penetration-test-guidance/
 body-class: page-blog
 image: /assets/img/blog-images/2022-06-22-penetration-testing-guidance.png
