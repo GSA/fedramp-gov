@@ -1,6 +1,6 @@
 ---
 title: PMO Releases Subnetting White Paper
-permalink: /2022-07-05-pmo-releases-subnetting-white-paper/
+permalink: /2022-07-07-pmo-releases-subnetting-white-paper/
 body-class: page-blog
 image: /assets/img/blog-images/2022-06-16-pmo-releases-subnetting-white-paper.png
 author: FedRAMP
