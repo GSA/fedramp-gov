@@ -13,4 +13,4 @@ NIST control SC-7 for Boundary Protection relies in large part on subnetworks (s
 2. What constitutes “publicly accessible”, and
 3. FedRAMPs upcoming process to develop future guidance when applying this control to software defined networks.
 
-For more information, read the full <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_subnets_white_paper.pdf" target="_blank" rel="noopener noreferrer">Subnetting whitepaper</a> on FedRAMP.gov.
+For more information, read the full <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_subnets_white_paper.pdf" target="_blank" rel="noopener noreferrer">Subnetting whitepaper</a> on FedRAMP.gov. 
