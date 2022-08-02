@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Releases the FY22 Annual Survey
-permalink: /2022-08-01-fedramp-releases-fy22-annual-survey/
+permalink: /blog/2022-08-02-fedramp-releases-fy22-annual-survey/
 body-class: page-blog
 image: /assets/img/blog-images/2021-08-10-FedRAMP-Releases-FY21-FedRAMP-Annual-Survey.png
 author: FedRAMP
