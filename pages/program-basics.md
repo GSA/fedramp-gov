@@ -9,7 +9,7 @@ tags: mission, goals, benefits, legal framework, NIST, OMB, policy, guidance, Fe
 
 
 program-header: Overview
-program-intro-text: The Federal Risk and Authorization Management Program (FedRAMP) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the federal government. FedRAMP empowers agencies to use modern cloud technologies, with an emphasis on security and protection of federal information.
+program-intro-text: The Federal Risk and Authorization Management Program (FedRAMP®) was established in 2011 to provide a cost-effective, risk-based approach for the adoption and use of cloud services by the federal government. FedRAMP empowers agencies to use modern cloud technologies, with an emphasis on security and protection of federal information.
 
 
 mission-title: Mission
