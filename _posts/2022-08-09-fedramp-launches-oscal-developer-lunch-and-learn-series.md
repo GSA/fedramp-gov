@@ -17,13 +17,13 @@ The first OSCAL Developers Lunch & Learn will be held on <b>Thursday, September 
 <h3 style="padding: 0px; margin: 0px;">Who</h3>
 All OSCAL users including CSPs, federal agencies, and 3PAOs
 
-<h3 style="padding: 0px; margin: 0px;">How Will The Lunch & Learns Work?</h3>
+<h3>How Will The Lunch & Learns Work?</h3>
 Following the introduction and welcome to each meeting, the FedRAMP OSCAL Lunch & Learns will be divided into three main sections:
 - FedRAMP’s technical experts will <b>provide information on any updates or changes</b> to FedRAMP’s OSCAL usage.
 - FedRAMP’s technical experts will <b>address questions</b> submitted by participants prior to the meeting. Those interested may submit questions ahead of the next session and/or requests to have specific topics covered in future meetings by filling out <a href="https://forms.gle/7vER3W3pRbR1wq6R9" target="_blank" rel="noopener noreferrer">this form</a>.
 - The remainder of the meeting will be an <b>open discussion</b> to allow participants to <b>engage directly with and ask questions of the team</b> working on FedRAMP automation via OSCAL.
 
-<h3 style="padding: 0px; margin: 0px;">Why is FedRAMP hosting these sessions? </h3>
+<h3>Why is FedRAMP hosting these sessions? </h3>
 Our goal is to establish and maintain regular communication with our OSCAL end-users to ensure we are addressing the needs of all stakeholders involved.
 
 <h4>Interested in attending? Sign up to receive information and meeting details <a href="https://forms.gle/7vER3W3pRbR1wq6R9" target="_blank" rel="noopener noreferrer">here</a>!</h4>
