@@ -5,40 +5,23 @@
 	<div class="footer-container">
 		<div class="footer-col-1-phone">
 			<div class="footer-col f-col-1">
-				<div class="logo-container">
-					{% if site.footer.image %}
-					  <a href="https://www.gsa.gov/" target="_blank"><img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/gsa-reversed-logo.svg" alt="GSA logo"></a>
-					{% endif %}
-					<p class="footer-logo-text">FedRAMP.gov is a product of GSA’s Technology Transformation Services, and managed by the FedRAMP Program Management Office</p>
+				<p>The Federal Risk and Authorization Management Program (FedRAMP®) is managed by the FedRAMP Program Management Office.</p>
 
-				 </div>
+				<p>FedRAMP and the FedRAMP logo are the property of the General Services Administration (GSA) and may not be used without GSA’s express, written permission. For more information, please see the FedRAMP Brand Guide.</p>
+				
 			</div>
 
 			<div class="footer-col f-col-2">
-				<address>
 					<div class="street-address">
-						<p>Federal Risk and Authorization Management Program (FedRAMP)</p>
-						<p>General Services Administration<br>
-							1800 F Street, NW<br>
-							Washington, DC 20405</p>
+						<h4>Connect With Us</h4>
+						<p>Please reach out to FedRAMP with any questions.</p>
 						</div>
 					<div class="info-mailbox">
 						<p class="footer-contact footer-follow-us"><a class="" href="mailto:info@FedRAMP.gov" target="_blank">	
 						<img class="footer-mail-icon" src="{{site.baseurl}}/assets/img/footer-mail-icon.svg" alt="mail to fedramp">info@FedRAMP.gov</a></p>
 					</div>
 					
-					<div class="footer-social">
-						<p style="line-height:375%"></i>Follow Us</a></p>
-					</div>
-					<div class="footer-social">
-						<a target="_blank" href="https://twitter.com/fedramp?lang=en">
-						<img src="{{site.baseurl}}/assets/img/FedRAMP_twitter.svg" alt="twitter icon" style="margin: 0px 15px 0px 0px;">
-						</a>
-						<a target="_blank" href="https://www.youtube.com/c/FedRAMP?lang=en">
-						<img src="{{site.baseurl}}/assets/img/FedRAMP-youtube.svg" alt="youtube icon">
-						</a>
-					</div>
-				</address>
+					
 			</div>
 			<div class="clearfix mobile-clear"></div>
 		</div>
@@ -46,7 +29,23 @@
 		<div class="footer-row">
 		
 			<div class="footer-col f-col-3">
-				<div class="newsletter-footer">
+				<div class="footer-social">
+						<h4>Follow Us</h4>
+					</div>
+					<div class="footer-social">
+						<p><a target="_blank" href="https://twitter.com/fedramp?lang=en">
+						<img src="{{site.baseurl}}/assets/img/FedRAMP_twitter.svg" alt="twitter icon" style="margin: 0px 15px 0px 0px;"> Twitter
+						</a></p>
+						<p><a target="_blank" href="https://www.youtube.com/c/FedRAMP?lang=en">
+						<img src="{{site.baseurl}}/assets/img/FedRAMP-youtube.svg" alt="youtube icon" style="margin: 0px 15px 0px 0px;"> YouTube
+						</a></p>
+					</div>
+				
+			</div>
+		</div>
+		
+		<div class="footer-col f-col-4">
+			<div class="newsletter-footer">
 					{% for form in site.forms %}
 					{% if form.type == 'newsletter' %}
 					{% assign f = form %}
@@ -72,25 +71,106 @@
 
 					</form>
 				</div>
-			</div>
-		</div>
-		
-		<div class="footer-col f-col-4">
-			<h4>Resources</h4>
-			<ul class="quick-links">
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.gsa.gov/website-information/privacy-and-security-notice" class="ql-text" target="_blank">FedRAMP Privacy Policy</a></li>
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.gsa.gov/website-information/privacy-and-security-notice" class="ql-text" target="_blank">GSA Privacy Policy</a></li>
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.usa.gov" class="ql-text" target="_blank">USA.gov</a></li>
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="ql-text" target="_blank">GSA FOIA</a></li>
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.gsa.gov/about-us" class="ql-text" target="_blank">About GSA</a></li>
-				<li><img class="footer-img-link" src="{{site.baseurl}}/assets/img/footer-link.svg" alt=""><a href="https://www.gsa.gov/website-information/accessibility-aids" class="ql-text" target="_blank">Accessibility</a></li>				
-			</ul>
 		
 		</div>
 		<div class="clearfix"></div>
 	
 	</div>
+
+<!-- Bottom Footer -->
+
+ 
+
 </footer>
+
+ <div class="usa-identifier">
+  <section
+    class="usa-identifier__section usa-identifier__section--masthead"
+    aria-label="Agency identifier,"
+  >
+	  <div class="footer-container">
+		<div class="usa-identifier__container">
+					<div>
+						{% if site.footer.image %}
+						  <a href="https://www.gsa.gov/" target="_blank"><img class="usa-footer-logo-img" src="{{site.baseurl}}/assets/img/gsa-reversed-logo.svg" alt="GSA logo"></a>
+						{% endif %}
+					 </div>
+		  <div class="usa-identifier__identity" aria-label="Agency description">
+			<p class="usa-identifier__identity-domain">fedramp.gov</p>
+			<p class="usa-identifier__identity-disclaimer">
+			  An official website of the GSA’s <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Services</a>
+			</p>
+		  </div>
+		</div>
+	  </div>
+  </section>
+	 <div class="footer-container">
+		  <nav
+			class="usa-identifier__section usa-identifier__section--required-links"
+			aria-label="Important links,"
+		  >
+			<div class="usa-identifier__container">
+			  <ul class="usa-identifier__required-links-list">
+				<li class="usa-identifier__required-links-item">
+				  <a
+					href="https://www.gsa.gov/about-us"
+					class="usa-identifier__required-link usa-link"
+					>About GSA</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link"
+					>Accessibility support</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link"
+					>GSA FOIA</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link"
+					>No FEAR Act data</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link"
+					>Office of the Inspector General</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/reference/gsa-plans-and-reports" class="usa-identifier__required-link usa-link"
+					>Performance reports</a
+				  >
+				</li>
+				<li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link"
+					>GSA Privacy policy</a
+				  >
+				</li>
+				  <li class="usa-identifier__required-links-item">
+				  <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link"
+					>FedRAMP privacy policy</a
+				  >
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+	 </div>
+		  <section
+			class="usa-identifier__section usa-identifier__section--usagov"
+			aria-label="U.S. government information and services,"
+		  >
+			  <div class="footer-container">
+			<div class="usa-identifier__container">
+			  <div class="usa-identifier__usagov-description">
+				Looking for U.S. government information and services?
+			  </div>
+			  <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+			</div>
+			  </div>
+		  </section>
+</div>
 <div class="footer-report">
 		<div class="">
 			<div class="grid-row">

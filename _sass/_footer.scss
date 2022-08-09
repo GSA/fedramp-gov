@@ -6,7 +6,7 @@ $footer-margin: 0 2.5% 0 0;
 footer {
 	width: 100%;
 	background: $dark-blue;
-	padding: 56px 5% 60px;
+	padding: 20px 5% 24px;
 	position: sticky;
 	h4 {
 		text-align: left;
@@ -116,7 +116,6 @@ ul.quick-links {
 }
 
 .footer-col {
-	width: 22.5%;
 	float: left;
 	padding: $footer-padding;
 	margin: $footer-margin;
@@ -125,6 +124,24 @@ ul.quick-links {
 .f-col-1, .f-col-2, .f-col-3 {
 	border-right: #384D6A solid 1px;
 	min-height: 204px;
+}
+
+.f-col-1 {
+	width: 32.5%;
+	float: left;
+	padding: $footer-padding;
+	margin: $footer-margin;
+}
+
+.f-col-2, .f-col-4  {
+	width: 20%;
+}
+
+.f-col-3{
+	width: 16.5%;
+	float: left;
+	padding: $footer-padding;
+	margin: $footer-margin;
 }
 
 
@@ -179,6 +196,14 @@ p.footer-contact {
 
 p.footer-follow-us {
 	margin-right: 0px !important;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+	
+	a {
+		text-decoration: none;
+	}
 }
 
 .usa-footer-logo-img {
@@ -361,3 +386,73 @@ a.footer-submit:hover {
 	}
 }
 
+.usa-identifier {
+	background: #000000;
+}
+
+.usa-identifier__section--masthead .usa-identifier__container {
+    align-items: center;
+    display: flex;
+}
+
+.usa-identifier__logos {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.usa-identifier__identity {
+    flex: 1 1 0%;
+    margin-top: 0rem;
+}
+
+.usa-identifier__required-links-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.usa-identifier__required-links-list {
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.usa-identifier__required-links-item {
+    margin-bottom: 0.5rem;
+}
+
+.usa-identifier__section {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.usa-identifier__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.usa-identifier__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 87.5rem;
+}
+
+.usa-identifier__usagov-description {
+    display: inline-flex;
+}
+
+.usa-identifier__required-link, .usa-identifier__required-link.usa-link {
+    color: #adadad;
+    display: inline-block;
+}
+
+.usa-identifier__section--usagov a {
+    color: #e6e6e6;
+    font-weight: 700;
+}
+
+.usa-identifier p, .usa-identifier__usagov-description {
+	color: #adadad;
+}
