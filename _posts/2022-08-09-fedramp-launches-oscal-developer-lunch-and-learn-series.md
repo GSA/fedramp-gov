@@ -8,7 +8,7 @@ layout: blog-page
 ---
 FedRAMP is excited to launch an Open Security Controls Assessment Language (OSCAL) Developer Lunch & Learn series! We invite OSCAL users from Cloud Service Providers (CSPs), federal agencies, and Third Party Assessment Organizations (3PAOs) to join us for a virtual lunch & learn and take part in discussions with our FedRAMP OSCAL team. 
 
-<h3 style="line-height:5%">What</h3>
+<h3 style="padding: 0px; margin: 0px;">WHAT</h3>
 The series will cover a variety of technical topics regarding users’ utilization of OSCAL for FedRAMP, FedRAMP automation updates or changes, and open forum conversations with subject matter experts. 
 
 <h3 style="line-height:5%">When</h3>
