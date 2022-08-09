@@ -1,5 +1,5 @@
 ---
-title: FedRAMP Launches an Open Security Controls Assessment Language (OSCAL) Developer Lunch & Learn Series
+title: FedRAMP Launches OSCAL Developer Lunch & Learn Series
 permalink: /blog/2022-08-09-fedramp-launches-oscal-developer-lunch-and-learn-series/
 body-class: page-blog
 image: /assets/img/blog-images/2021-08-10-FedRAMP-Releases-FY21-FedRAMP-Annual-Survey.png
