@@ -24,6 +24,6 @@ Following the introduction and welcome to each meeting, the FedRAMP OSCAL Lunch 
 - The remainder of the meeting will be an <b>open discussion</b> to allow participants to <b>engage directly with and ask questions of the team</b> working on FedRAMP automation via OSCAL.
 
 <h3>Why is FedRAMP hosting these sessions? </h3>
-Our goal is to establish and maintain regular communication with our OSCAL end-users to ensure we are addressing the needs of all stakeholders involved.
+Our goal is to establish and maintain regular communication with our OSCAL end-users to ensure we are addressing the needs of all stakeholders involved. 
 
 <h4>Interested in attending? Sign up to receive information and meeting details <a href="https://forms.gle/7vER3W3pRbR1wq6R9" target="_blank" rel="noopener noreferrer">here</a>!</h4>
