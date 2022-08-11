@@ -388,6 +388,7 @@ a.footer-submit:hover {
 
 .usa-identifier {
 	background: #000000;
+	padding: 0px 5%;
 }
 
 .usa-identifier__section--masthead .usa-identifier__container {
@@ -412,9 +413,18 @@ a.footer-submit:hover {
     margin-top: 0;
 }
 
-.usa-identifier__required-links-list {
-    -moz-column-count: 4;
-    column-count: 4;
+@media (min-width: 981px) {
+	.usa-identifier__required-links-list {
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.usa-identifier__required-links-list {
+		-moz-column-count: 2;
+		column-count: 2;
+	}
 }
 
 .usa-identifier__required-links-item {
@@ -426,18 +436,22 @@ a.footer-submit:hover {
     padding-top: 1rem;
 }
 
+/*
+
 .usa-identifier__container {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.usa-identifier__container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 87.5rem;
+
+
+@media all and (min-width: 1022px) and (max-width: 1200px) {
+	.usa-identifier__container {
+	   padding: 0px 5%;
+	}
 }
+
+*/
 
 .usa-identifier__usagov-description {
     display: inline-flex;
@@ -455,4 +469,12 @@ a.footer-submit:hover {
 
 .usa-identifier p, .usa-identifier__usagov-description {
 	color: #adadad;
+}
+
+.usa-identifier__identity-disclaimer a:visited {
+	color: #ffffff;
+}
+
+.usa-link:visited, .usa-prose>a:visited {
+	color: #ffffff;
 }
