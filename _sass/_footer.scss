@@ -173,6 +173,12 @@ ul.quick-links {
 	top: 4px;
 }
 
+@media all and (min-width: 981px) and (max-width: 1266px) {
+	.footer-mail-icon {
+		display: none;
+	}
+}
+
 
 .framp-twitter {
 	position: relative;
