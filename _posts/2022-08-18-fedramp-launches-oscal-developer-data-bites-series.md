@@ -15,7 +15,7 @@ The series will cover a variety of technical topics regarding users’ utilizati
 The first OSCAL Developers Data Bites session will be held on <b>Thursday, September 1, at 12:00pm EDT</b>. The series will continue on a bi-weekly basis.
 
 <h3 style="padding: 0px; margin: 0px;">Who</h3>
-All OSCAL users including CSPs, federal agencies, and 3PAOs
+All OSCAL users are invited to attend, including CSPs, federal agencies, and 3PAOs.
 
 <h3 style="padding: 0px; margin: 0px;">Meeting Link</h3>
 Please use this <a href="https://gsa.zoomgov.com/j/1605384368?pwd=Rnkyd1JvNUtMT1NqUGRWRUhYV0FGQT09" target="_blank" rel="noopener noreferrer">link</a> to join the session at the 12:00pm EDT
