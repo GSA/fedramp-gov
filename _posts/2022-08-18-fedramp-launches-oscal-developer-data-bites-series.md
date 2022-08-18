@@ -1,5 +1,5 @@
 ---
-title: FedRAMP Launches OSCAL Developer Lunch & Learn Series
+title: FedRAMP Launches OSCAL Developer Data Bites Series
 permalink: /blog/2022-08-18-fedramp-launches-oscal-developer-data-bites-series/
 body-class: page-blog
 image: /assets/img/blog-images/2022-08-18-fedramp-launches-oscal-developer-lunch-and-learn-series.png
