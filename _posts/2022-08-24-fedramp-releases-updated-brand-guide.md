@@ -11,9 +11,9 @@ The FedRAMP PMO is excited to announce the revised release of the FedRAMP Brand 
 <h4 style>What’s New in the FedRAMP Brand Guide?</h4>
 The guide has been updated to highlight the proper use of FedRAMPs trademark; this includes: 
 - <b>The FedRAMP Name:</b> FedRAMP is a registered trademark of GSA (USPTO registration number 5725620) and the registration symbol (®) must now be used with the FedRAMP name. 
-- - The symbol does not have to be used every time the FedRAMP name is used. Instead, use the registration symbol in the first instance the name is used, in the most prominent use, or in both.
+ - The symbol does not have to be used every time the FedRAMP name is used. Instead, use the registration symbol in the first instance the name is used, in the most prominent use, or in both.
 - <b>The FedRAMP Logo:</b> The trademark symbol (™) has been added to the FedRAMP logo. 
-- - All instances of the FedRAMP logo must be replaced with the new logo with the trademark symbol. 
+ - All instances of the FedRAMP logo must be replaced with the new logo with the trademark symbol. 
 
 Note that the FedRAMP PMO will be updating FedRAMP documents, templates, and communications to reflect these updates on a rolling basis.
 
