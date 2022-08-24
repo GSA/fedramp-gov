@@ -22,9 +22,6 @@ Note that the FedRAMP PMO will be updating FedRAMP documents, templates, and com
 2. The use of the FedRAMP name and/or logo, in conjunction with qualified products or services (i.e., FedRAMP recognized 3PAOs or FedRAMP Authorized CSPs), does not require additional approval.
 3. The <b>FedRAMP name is a registered trademark of the General Services Administration, and companies can only use it in compliance with the terms of a license agreement with GSA</b>. Companies that are not current FedRAMP participants listed on the FedRAMP Marketplace do not have permission to use the FedRAMP name, per GSA policy.
 
-<h3 style="padding: 0px; margin: 0px;">Who</h3>
-All OSCAL users including CSPs, federal agencies, and 3PAOs
-
 <h3>What is the Impact of These Changes?</h3>
 The FedRAMP brand is a critical tool to spread awareness of FedRAMP partners and authorized products across government and private industry. The proper use of the FedRAMP trademark protects the FedRAMP brand and builds trust in the marketplace for FedRAMP customers. Customers will be able to better distinguish official FedRAMP communications, partners, and authorized products across government and private industry. 
 
