@@ -25,6 +25,5 @@ Note that the FedRAMP PMO will be updating FedRAMP documents, templates, and com
 <h4>What is the Impact of These Changes?</h4>
 The FedRAMP brand is a critical tool to spread awareness of FedRAMP partners and authorized products across government and private industry. The proper use of the FedRAMP trademark protects the FedRAMP brand and builds trust in the marketplace for FedRAMP customers. Customers will be able to better distinguish official FedRAMP communications, partners, and authorized products across government and private industry. 
 
-<h4>Please contact <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions about the proper use of the FedRAMP brand.
-
+<b>Please contact <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions about the proper use of the FedRAMP brand.</b>
 
