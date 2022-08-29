@@ -13,7 +13,7 @@ footer {
 		font-family: $title-font;
 		color: $footer-teal;
 		font-weight: bold;
-		font-size: 1.25rem;
+		font-size: 1.125rem;
 		margin: 0 0 10px 0;
 		text-transform: uppercase;
 		letter-spacing: .04em;
@@ -123,7 +123,6 @@ ul.quick-links {
 
 .f-col-1, .f-col-2, .f-col-3 {
 	border-right: #384D6A solid 1px;
-	min-height: 204px;
 }
 
 .f-col-1 {
@@ -213,7 +212,7 @@ p.footer-follow-us {
 }
 
 .usa-footer-logo-img {
-	max-width: 90px;
+	max-width: 68px;
 	margin-bottom: 0;
 }
 
@@ -419,10 +418,16 @@ a.footer-submit:hover {
     margin-top: 0;
 }
 
+
+
 @media (min-width: 981px) {
 	.usa-identifier__required-links-list {
 		-moz-column-count: 4;
 		column-count: 4;
+	}
+	
+	.usa-identifier__container {
+		width: 90%;
 	}
 }
 

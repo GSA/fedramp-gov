@@ -8,6 +8,7 @@
 				<p>The Federal Risk and Authorization Management Program (FedRAMP®) is managed by the FedRAMP Program Management Office.</p>
 
 				<p>FedRAMP and the FedRAMP logo are the property of the General Services Administration (GSA) and may not be used without GSA’s express, written permission. For more information, please see the FedRAMP Brand Guide.</p>
+				<p><a class="" href="{{site.baseurl}}/assets/resources/documents/FedRAMP_Branding_Guidance.pdf" target="_blank">FedRAMP Brand Guide</a></p>
 				
 			</div>
 
@@ -17,7 +18,7 @@
 						<p>Please reach out to FedRAMP with any questions.</p>
 						</div>
 					<div class="info-mailbox">
-						<p class="footer-contact footer-follow-us"><a class="" href="mailto:info@FedRAMP.gov" target="_blank">	
+						<p class="footer-contact"><a class="" href="mailto:info@FedRAMP.gov" target="_blank">	
 						<img class="footer-mail-icon" src="{{site.baseurl}}/assets/img/footer-mail-icon.svg" alt="mail to fedramp">info@FedRAMP.gov</a></p>
 					</div>
 					
@@ -54,7 +55,7 @@
 
 					<form id="contact" action="{{ f.url }}" method="POST">
 						<h4>Keep Up To Date</h4>
-						<p>To receive news and updates, add your email to GSA’s <span class="no-wrap;">subscriber list.</span></p>
+						<p>To receive news and updates, join the GSA’s <span class="no-wrap;">subscriber list.</span></p>
 							<div class="newsletter-inner">
 								{% for field in f.fields %}
 								{% unless field.type == 'hidden' %}
@@ -86,7 +87,7 @@
  <div class="usa-identifier">
   <section
     class="usa-identifier__section usa-identifier__section--masthead"
-    aria-label="Agency identifier,">
+    aria-label="Agency identifier," style="padding-bottom: 0;">
 	  <div class="footer-container">
 		<div class="usa-identifier__container">
 					<div>
@@ -95,7 +96,7 @@
 						{% endif %}
 					 </div>
 		  <div class="usa-identifier__identity" aria-label="Agency description">
-			<p class="usa-identifier__identity-domain">fedramp.gov</p>
+			<p class="usa-identifier__identity-domain">FedRAMP.gov</p>
 			<p class="usa-identifier__identity-disclaimer">
 			  An official website of the GSA’s <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Services</a>
 			</p>
@@ -103,7 +104,7 @@
 		</div>
 	  </div>
   </section>
-	 <div class="footer-container">
+	 <div class="footer-container" style="padding-bottom: 0;">
 		  <nav
 			class="usa-identifier__section usa-identifier__section--required-links"
 			aria-label="Important links,"
@@ -170,13 +171,5 @@
 			  </div>
 		  </section>
 </div>
-<div class="footer-report">
-		<div class="">
-			<div class="grid-row">
-				<div class="desktop:grid-col-12 padding-x-2">
-					<p class="text-center"><em><a href="https://www.gsaig.gov/" target="_blank">Report fraud, waste, or abuse to the Office of the Inspector General</a></em></p>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	
