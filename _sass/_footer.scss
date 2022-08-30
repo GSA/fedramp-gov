@@ -281,6 +281,10 @@ a.footer-submit:hover {
 	margin-top: 24px;
 }
 
+a.footer-brand-guide-link:visited {
+	color: $light-teal;
+}
+
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
  	.footer-col {
