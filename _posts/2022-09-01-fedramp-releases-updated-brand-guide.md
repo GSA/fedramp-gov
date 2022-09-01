@@ -2,7 +2,7 @@
 title: FedRAMP Releases Updated Brand Guide
 permalink: /blog/2022-09-01-fedramp-releases-updated-brand-guide/
 body-class: page-blog
-image: /assets/img/blog-images/2022-08-18-fedramp-launches-oscal-developer-lunch-and-learn-series.png
+image: /assets/img/blog-images/2022-09-01-updated-brand-guide.png
 author: FedRAMP
 layout: blog-page
 ---
