@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2022-09-01-updated-brand-guide.png
 author: FedRAMP
 layout: blog-page
 ---
-The FedRAMP PMO is excited to announce the revised release of the FedRAMP Brand Guide! The updated brand guide is required to be followed for all stakeholder communications regarding FedRAMP, which include press releases, digital communications/media, and marketing campaigns.
+The FedRAMP PMO is excited to announce the revised release of the <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Brand Guide</a>! The updated brand guide is required to be followed for all stakeholder communications regarding FedRAMP, which include press releases, digital communications/media, and marketing campaigns.
 
 <h4 style>What’s New in the FedRAMP Brand Guide?</h4>
 The guide has been updated to highlight the proper use of FedRAMPs trademark; this includes: 
@@ -17,7 +17,11 @@ The guide has been updated to highlight the proper use of FedRAMPs trademark; th
 
 Note that the FedRAMP PMO will be updating FedRAMP documents, templates, and communications to reflect these updates on a rolling basis.
 
+<h4 style>When do the new Branding Guidelines take effect?</h4>
+We ask that our current stakeholders make these updates as soon as possible but ideally no later than October 1, 2022.
+
 <h4 style>Branding Guide Requirements: </h4>
+The existing FedRAMP brand use policies below are a reminder for all stakeholders. 
 1. <b>The FedRAMP PMO must approve any educational or promotional campaigns</b> used by federal agencies, cloud service providers (CSPs), and third-party assessment organizations (3PAOs) that feature the FedRAMP name and/or logo prior to use. The submitted materials will be reviewed for consistency with these guidelines within two (2) weeks of receipt of the materials. Materials should be submitted to <a href="mailto:info@fedramp.gov?subject=FedRAMP Branding Review">info@fedramp.gov</a> with the subject line: “FedRAMP Branding Review.”
 2. The use of the FedRAMP name and/or logo, in conjunction with qualified products or services (i.e., FedRAMP recognized 3PAOs or FedRAMP Authorized CSPs), does not require additional approval.
 3. The <b>FedRAMP name is a registered trademark of the General Services Administration, and companies can only use it in compliance with the terms of a license agreement with GSA</b>. Companies that are not current FedRAMP participants listed on the FedRAMP Marketplace do not have permission to use the FedRAMP name, per GSA policy.
@@ -26,4 +30,3 @@ Note that the FedRAMP PMO will be updating FedRAMP documents, templates, and com
 The FedRAMP brand is a critical tool to spread awareness of FedRAMP partners and authorized products across government and private industry. The proper use of the FedRAMP trademark protects the FedRAMP brand and builds trust in the marketplace for FedRAMP customers. Customers will be able to better distinguish official FedRAMP communications, partners, and authorized products across government and private industry. 
 
 <b>Please contact <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions about the proper use of the FedRAMP brand.</b>
-
