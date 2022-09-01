@@ -17,9 +17,6 @@ The guide has been updated to highlight the proper use of FedRAMPs trademark. Th
 
 Note: The FedRAMP PMO will be updating FedRAMP’s existing documents, templates, and communications to reflect our recent branding updates on a rolling basis.
 
-<h4 style>When do the new Branding Guidelines take effect?</h4>
-We ask that our current stakeholders make these updates as soon as possible but ideally no later than October 1, 2022.
-
 <h4 style>Branding Guide Requirements: </h4>
 The existing FedRAMP brand use policies below are a reminder for all stakeholders. 
 1. <b>The FedRAMP PMO must approve any educational or promotional campaigns</b> used by federal agencies, cloud service providers (CSPs), and third-party assessment organizations (3PAOs) that feature the FedRAMP name and/or logo prior to use. The submitted materials will be reviewed for consistency with these guidelines within two (2) weeks of receipt of the materials. Materials should be submitted to <a href="mailto:info@fedramp.gov?subject=FedRAMP Branding Review">info@fedramp.gov</a> with the subject line: “FedRAMP Branding Review.”
