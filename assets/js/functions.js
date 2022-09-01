@@ -292,6 +292,10 @@ $(document).ready(function() {
                 if (typeof(Storage) !== "undefined") {
                         var oldBell = localStorage.getItem('old-bell');
                         if (oldBell !== null) {
+							if (oldBell.toLowerCase().indexOf("<script>") >= 0) {
+								  oldBell = '<div class="alert-wrapper"> <button class="bell-close"><img class="notification-close" src="/assets/img/bell-close.svg" alt=""></button> <ul> <li> <p class="date">No new notifications.</p> </li> </ul> </div>';
+								}
+							
                                 $("#alert-logic").html(oldBell);
                                 $(".bell").css("display", "block");
                    		$(".post-count").css("display", "none");

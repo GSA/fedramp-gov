@@ -6,14 +6,14 @@ $footer-margin: 0 2.5% 0 0;
 footer {
 	width: 100%;
 	background: $dark-blue;
-	padding: 56px 5% 60px;
+	padding: 20px 5% 24px;
 	position: sticky;
 	h4 {
 		text-align: left;
 		font-family: $title-font;
 		color: $footer-teal;
 		font-weight: bold;
-		font-size: 1.25rem;
+		font-size: 1.125rem;
 		margin: 0 0 10px 0;
 		text-transform: uppercase;
 		letter-spacing: .04em;
@@ -116,7 +116,6 @@ ul.quick-links {
 }
 
 .footer-col {
-	width: 22.5%;
 	float: left;
 	padding: $footer-padding;
 	margin: $footer-margin;
@@ -124,7 +123,24 @@ ul.quick-links {
 
 .f-col-1, .f-col-2, .f-col-3 {
 	border-right: #384D6A solid 1px;
-	min-height: 204px;
+}
+
+.f-col-1 {
+	width: 32.5%;
+	float: left;
+	padding: $footer-padding;
+	margin: $footer-margin;
+}
+
+.f-col-2, .f-col-4  {
+	width: 20%;
+}
+
+.f-col-3{
+	width: 16.5%;
+	float: left;
+	padding: $footer-padding;
+	margin: $footer-margin;
 }
 
 
@@ -156,6 +172,12 @@ ul.quick-links {
 	top: 4px;
 }
 
+@media all and (min-width: 981px) and (max-width: 1266px) {
+	.footer-mail-icon {
+		display: none;
+	}
+}
+
 
 .framp-twitter {
 	position: relative;
@@ -179,10 +201,18 @@ p.footer-contact {
 
 p.footer-follow-us {
 	margin-right: 0px !important;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+	
+	a {
+		text-decoration: none;
+	}
 }
 
 .usa-footer-logo-img {
-	max-width: 90px;
+	max-width: 52px;
 	margin-bottom: 0;
 }
 
@@ -249,6 +279,10 @@ a.footer-submit:hover {
 
 .newsletter-inner {
 	margin-top: 24px;
+}
+
+a.footer-brand-guide-link:visited {
+	color: $light-teal;
 }
 
 /*** Responsive Styles Tablet And Below ***/
@@ -361,3 +395,114 @@ a.footer-submit:hover {
 	}
 }
 
+.usa-identifier {
+	background: #000000;
+	padding: 0px 5%;
+}
+
+.usa-identifier__section--masthead .usa-identifier__container {
+    align-items: center;
+    display: flex;
+}
+
+.usa-identifier__logos {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.usa-identifier__identity {
+    flex: 1 1 0%;
+    margin-top: 0rem;
+}
+
+.usa-identifier__required-links-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+@media (min-width: 981px) {
+	.usa-identifier__required-links-list {
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+	
+	.usa-identifier__container {
+		width: 90%;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.usa-identifier__required-links-list {
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+.usa-identifier__required-links-item {
+    margin-bottom: 0.5rem;
+}
+
+.usa-identifier__section {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/*
+
+.usa-identifier__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+@media all and (min-width: 1022px) and (max-width: 1200px) {
+	.usa-identifier__container {
+	   padding: 0px 5%;
+	}
+}
+
+*/
+
+.usa-identifier__usagov-description {
+    display: inline-flex;
+}
+
+.usa-identifier__required-link, .usa-identifier__required-link.usa-link {
+    color: #adadad;
+    display: inline-block;
+}
+
+.usa-identifier__section--usagov a {
+    color: #e6e6e6;
+    font-weight: 700;
+}
+
+.usa-identifier p, .usa-identifier__usagov-description {
+	color: #adadad;
+	margin: 0 0 0 0.5em;
+}
+
+.usa-identifier__identity-disclaimer a:hover {
+	color: #ffffff !important;
+}
+
+.usa-link:hover, .usa-prose>a:hover {
+	color: #ffffff !important;
+}
+
+a.gov-links {
+	color: #adadad;
+}
+
+.usa-identifier__identity-disclaimer a:visited {
+	color: #adadad;
+}
+
+.usa-link:visited, .usa-prose>a:visited {
+	color: #adadad;
+}
