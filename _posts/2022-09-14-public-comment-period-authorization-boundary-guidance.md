@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2022-09-14-authorization-boundary-guidance.png
 author: FedRAMP
 layout: blog-page
 ---
-The FedRAMP PMO recently worked with the Joint Authorization Board (JAB) and the Office of Management & Budget (OMB) to update the <a href="https://www.xxx.gov" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Boundary Guidance</a> and is requesting public comment from stakeholders.
+The FedRAMP PMO recently worked with the Joint Authorization Board (JAB) and the Office of Management & Budget (OMB) to update the <a href="https://demo.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance_Draft_For_Public_Comment_V3.0.docx" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Boundary Guidance</a> and is requesting public comment from stakeholders.
 
 The FedRAMP Authorization Boundary Guidance was initially created in collaboration with both internal and external stakeholders and the JAB. The purpose is to help Cloud Service Providers (CSPs) understand the security and compliance requirements for the processing, storage, and transmission of data types, and how to accurately describe and illustrate their Cloud Service Offerings’ (CSO’s) authorization boundary.
 
