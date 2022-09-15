@@ -22,6 +22,6 @@ Based on the changes listed above, we want your feedback. Below are potential ar
 - Are there any areas where more details would provide clarity on the requirements?
 - Are there any materials or resources that can be provided to enhance the Authorization Boundary Guidance ?
 
-Please submit your comments on this draft of the <a href="https://fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance_Draft_For_Public_Comment%20_V3.0.docx" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Boundary Guidance</a> document to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by October 17, 2022, with the subject line: Public Comment - Authorization Boundary Guidance.
+Please submit your comments on this draft of the <a href="https://fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance_Draft_For_Public_Comment%20_V3.0.docx" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Boundary Guidance</a> document to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> by <b>October 17, 2022</b>, with the subject line: Public Comment - Authorization Boundary Guidance.
 
 Once the public comment period closes, FedRAMP will adjudicate all feedback and release communications when the updated guidance is finalized. 
