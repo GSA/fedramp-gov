@@ -2,7 +2,7 @@
 title: FedRAMP Agency Liaisons
 permalink: /blog/2022-09-21-fedramp-agency-liaisons/
 body-class: page-blog
-image: /assets/img/blog-images/2022-09-01-updated-brand-guide.png
+image: /assets/img/blog-images/2022-09-21-fedramp-agency-liaisons.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -33,4 +33,4 @@ Liaisons are added to the FedRAMP Agency Liaison Listserv to communicate with ot
 <h4 style>Looking Ahead</h4>
 Since its inception in 2020, the continued growth of the Agency Liaison program has been a top priority for FedRAMP. Throughout the remainder of FY22 and beyond, the PMO’s focus will remain on increasing enrollment and agency representation in the program, providing opportunities for learning and engagement, and actively involving Agency Liaisons in the authorization process - all efforts that benefit FedRAMP’s wider community of public and private cloud security stakeholders. 
 
-<a href="https://www.xxx" target="_blank" rel="noopener noreferrer">Find out if your agency is currently involved in the Agency Liasion Program</a>! If you are interested in learning more about the FedRAMP Agency Liaison Program, how your agency can get involved, or joining on behalf of your agency, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for more information.
+<a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Agency_Liaison_Program_09212022.pdf" target="_blank" rel="noopener noreferrer">Find out if your agency is currently involved in the Agency Liasion Program</a>! If you are interested in learning more about the FedRAMP Agency Liaison Program, how your agency can get involved, or joining on behalf of your agency, please reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for more information.
