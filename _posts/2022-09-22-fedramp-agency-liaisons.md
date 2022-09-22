@@ -17,13 +17,13 @@ FedRAMP’s ultimate goal is to have at least one representative from each feder
 
 <h4 style>Agency Liaison Requirements and Responsibilities</h4>
 It is important the person or team that serves as their agency’s FedRAMP Liaison(s) is able to:
-- Articulate their agency’s internal authorization process, 
-- Be involved in/speak to their agency’s FedRAMP Authorization efforts. 
+- Articulate their agency’s internal authorization process 
+- Be involved in/speak to their agency’s FedRAMP Authorization efforts 
 - Serve as a FedRAMP resource at their respective agency 
 - Interface with cybersecurity, business, and other government personnel at their agency about the FedRAMP Authorization process on the PMO’s behalf
 
 <h4 style>Agency Benefits</h4>
-Liaisons enjoy exclusive access to special training sessions, working groups, and other FedRAMP initiatives in order to maintain and expand their existing knowledge of FedRAMP policy, Topics of recent quarterly training sessions include: 
+Liaisons enjoy exclusive access to special training sessions, working groups, and other FedRAMP initiatives in order to maintain and expand their existing knowledge of FedRAMP policy. Topics of recent quarterly training sessions include: 
 - Managing Multi-Agency Collaborative ConMon (March 2022)
 - Establishing Partnership for Initial Agency Authorization (December 2021)
 - Overview of FedRAMP Automation and OSCAL Initiatives (September 2021)
