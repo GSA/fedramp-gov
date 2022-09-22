@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Agency Liaisons
-permalink: /blog/2022-09-21-fedramp-agency-liaisons/
+permalink: /blog/2022-09-22-fedramp-agency-liaisons/
 body-class: page-blog
 image: /assets/img/blog-images/2022-09-21-fedramp-agency-liaisons.png
 author: FedRAMP
