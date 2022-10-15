@@ -39,3 +39,11 @@ The following PMO guidance on the subject should be applied to each and every CM
     - <b>If # 3 applies, the 3PAO should not submit the RAR to FedRAMP PMO.</b> The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
 
 As a reminder, this guidance only applies to CMs that have become historical due to the NIST SP‌‌ 800-56A Rev 3 transition.
+
+1) item 10
+    a) item 10a
+    b) item 10b
+2) item 11
+    i) item 11a
+    i) item 11b
+3) item 12
