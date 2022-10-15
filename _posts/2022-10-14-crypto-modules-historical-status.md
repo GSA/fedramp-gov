@@ -8,10 +8,10 @@ layout: blog-page
 ---
 On July 1, 2022, many FIPS 140 validated crypto modules (CMs) were moved by the NIST Cryptographic Module Validation Program (CMVP) to ‘historical status’ due to NIST SP 800-56A, <b>Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography, Rev 3</b> transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev. 3 
 
-<h3>How should CSPs and 3PAOs address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h3>
+<h4>How should CSPs and 3PAOs address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h4>
 
 The following PMO guidance on the subject should be applied to each and every CM in use:
-<h3>For Initial Authorization and Continuous Monitoring</h3> 
+<h4>For Initial Authorization and Continuous Monitoring</h4> 
 <b>CSP Actions:</b> for CMs moved to Historical status due to SP 800-56A Rev 3 transition:
 1. If a replacement CM is identified as in-process with CMVP, document this as a POA&M. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
 2. If CM has not been submitted for testing, but a replacement CM is in development with plans to submit for CMVP testing:
@@ -26,7 +26,7 @@ If # 3 applies, the CSP should redesign around a different CM prior to an initia
 
 <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
 
-<h3>For Readiness Assessments (to be considered for “FedRAMP Ready” designation)</h3> 
+<h4>For Readiness Assessments (to be considered for “FedRAMP Ready” designation)</h4> 
 <b>CSP Actions:</b> for CMs moved to Historical status due to SP 800-56A rev3 transition:
 1. If a replacement CM is identified as in-process with CMVP, document this in the Mandates section in the RAR. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
 2. If CM has not been submitted for testing, but a replacement CM is in development with plans to submit for CMVP testing:
