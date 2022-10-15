@@ -1,6 +1,6 @@
 ---
 title: Status of Crypto Modules in Historical Status
-permalink: /blog/2022-10-14-crypto-modules-historical-status/
+permalink: /blog/2022-10-20-crypto-modules-historical-status/
 body-class: page-blog
 image: /assets/img/blog-images/2022-10-20-crypto-modules-historical-status.png
 author: FedRAMP
@@ -47,6 +47,6 @@ The following PMO guidance on the subject should be applied to each and every CM
 
 - <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition. 
     - The 3PAO should document historical status of CMs in the RAR with respect to #1 and #2, above. Add this to the RAR at the end of the mandates section.
-- <b>If # 3 applies, the 3PAO should not submit the RAR to FedRAMP PMO.</b> The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
+    - <b>If # 3 applies, the 3PAO should not submit the RAR to FedRAMP PMO.</b> The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
 
 As a reminder, this guidance only applies to CMs that have become historical due to the NIST SP‌‌ 800-56A Rev 3 transition.
