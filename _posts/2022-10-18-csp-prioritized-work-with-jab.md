@@ -1,12 +1,13 @@
 ---
 title: CSP Prioritized to Work with the JAB and Next FedRAMP Connect Due Date
-permalink: /blog/2022-10-06-csp-prioritized-work-with-jab/
+permalink: /blog/2022-10-18-csp-prioritized-work-with-jab/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
 layout: blog-page
 ---
-The following Cloud Service Provider (CSP) has been selected to work with the Joint Authorization Board (JAB) for a Provisional Authority to Operate (P-ATO) from our latest round of FedRAMP Connect: <b>IronNet Collective Defense Platform - IronNet</b>
+The following Cloud Service Provider (CSP) has been selected to work with the Joint Authorization Board (JAB) for a Provisional Authority to Operate (P-ATO) from our latest round of FedRAMP Connect: 
+- <b>IronNet Collective Defense Platform - IronNet</b>
 
 This CSP was selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf" target="_blank" rel="noopener noreferrer">JAB Prioritization Criteria and FedRAMP Connect Guidance</a> document and will work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this CSP will represent for JAB Authorizations. Congratulations!
 
