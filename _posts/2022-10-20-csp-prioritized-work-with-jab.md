@@ -1,6 +1,6 @@
 ---
 title: CSP Prioritized to Work with the JAB and Next FedRAMP Connect Due Date
-permalink: /blog/2022-10-18-csp-prioritized-work-with-jab/
+permalink: /blog/2022-10-20-csp-prioritized-work-with-jab/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
