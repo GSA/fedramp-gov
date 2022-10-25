@@ -1,6 +1,6 @@
 ---
 title: Status of Crypto Modules in Historical Status
-permalink: /blog/2022-10-25-crypto-modules-historical-status/
+permalink: /blog/2022-11-01-crypto-modules-historical-status/
 body-class: page-blog
 image: /assets/img/blog-images/2022-10-20-crypto-modules-historical-status.png
 author: FedRAMP
