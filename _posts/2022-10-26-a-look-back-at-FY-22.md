@@ -1,5 +1,5 @@
 title: A Look Back at Fiscal Year 2022
-permalink: /blog/2022-10-27-a-look-back-at-FY-22/
+permalink: /blog/2022-10-26-a-look-back-at-FY-22/
 body-class: page-blog
 image: /assets/img/blog-images/2022-10-27-FY22-Infographic.png
 author: FedRAMP
