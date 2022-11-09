@@ -35,3 +35,16 @@ A member from the PMO will follow-up with the CSP to provide appropriate guidanc
 We look forward to continuing our engagement with industry and we hope you found this information helpful! Please reach out to <a href="mailto:intake@fedramp.gov">intake@fedramp.gov</a> with any questions or for assistance with starting your FedRAMP Authorization journey or visit the <a href="https://www.fedramp.gov/agency-authorization/" target="_blank" rel="noopener noreferrer">Agency Authorization page</a> for more resources on the FedRAMP Authorization process.   
 
 Stay tuned for our next blog that is focused on the Agency Authorization Kickoff Meeting.
+
+<section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
+	<div class="grid-container " style="padding: 2rem 0" >
+		<div class="full-row grid-row">
+			<div class="full-col desktop:grid-col-12">
+<p>The PMO recognizes that not every CSP’s authorization journey will follow steps as outlined here, and specific steps of the process can vary depending on many factors. In addition, it is important to note that these are not the ONLY touchpoints you may have with the PMO, and that you are encouraged to request meetings at any point where we may be of some assistance in your authorization journey.</p>
+</p>
+
+
+			</div>
+		</div>
+	</div>
+</section>
