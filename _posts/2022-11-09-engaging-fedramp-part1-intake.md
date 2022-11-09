@@ -11,7 +11,7 @@ FedRAMP often receives requests for information and guidance regarding the Agenc
 - The Kickoff meeting, and 
 - The Security Assessment Report (SAR) Debrief meeting
   
-This first edition takes a look at <b>FedRAMP Intake Calls</>. Cloud Service Providers (CSPs) are highly encouraged to schedule these calls as their <u>first step</u> towards authorizing their Cloud Service Offering (CSO). 
+This first edition takes a look at <b>FedRAMP Intake Calls</b>. Cloud Service Providers (CSPs) are highly encouraged to schedule these calls as their <u>first step</u> towards authorizing their Cloud Service Offering (CSO). 
 
 <h4>What is an Intake Call?</h4> 
 The Intake Call is a virtual, 30-minute call held to discuss the specifics of a CSO’s FedRAMP Authorization. 
