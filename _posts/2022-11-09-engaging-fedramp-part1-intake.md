@@ -6,8 +6,7 @@ image: /assets/img/blog-images/2022-11-09-engaging-with-fedramp.png
 author: FedRAMP
 layout: blog-page
 ---
-
-FedRAMP often receives requests for information and guidance regarding the Agency Authorization process. In response, the FedRAMP Program Management Office (PMO) is releasing a three part blog series that explores the formal touchpoints with stakeholders as they pursue a FedRAMP Authorization. Throughout this series we will explore the <b>What, Who, Why, and When</> of the following touchpoints:
+FedRAMP often receives requests for information and guidance regarding the Agency Authorization process. In response, the FedRAMP Program Management Office (PMO) is releasing a three part blog series that explores the formal touchpoints with stakeholders as they pursue a FedRAMP Authorization. Throughout this series we will explore the <b>What, Who, Why, and When<b/> of the following touchpoints:
 - The Intake Call, 
 - The Kickoff meeting, and 
 - The Security Assessment Report (SAR) Debrief meeting
