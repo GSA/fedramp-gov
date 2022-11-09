@@ -1,5 +1,5 @@
 ---
-title: <b>Engaging with FedRAMP</b> - PART 1, The Intake
+title: <b>Engaging with FedRAMP</b> - PART 1, The Intake Process
 permalink: /blog/2022-11-09-engaging-fedramp-part1-intake/
 body-class: page-blog
 image: /assets/img/blog-images/2022-11-09-engaging-with-fedramp.png
