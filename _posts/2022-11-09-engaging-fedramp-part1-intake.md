@@ -41,7 +41,6 @@ Stay tuned for our next blog that is focused on the Agency Authorization Kickoff
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p>The PMO recognizes that not every CSP’s authorization journey will follow steps as outlined here, and specific steps of the process can vary depending on many factors. In addition, it is important to note that these are not the ONLY touchpoints you may have with the PMO, and that you are encouraged to request meetings at any point where we may be of some assistance in your authorization journey.</p>
-</p>
 
 
 			</div>
