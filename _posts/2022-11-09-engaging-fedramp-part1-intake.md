@@ -26,7 +26,7 @@ These meetings provide an open forum for CSPs to ask questions and air their que
 Calls ideally occur as early in the authorization process as possible. However, they should only be scheduled after the CSP completes the following:
 - The <a href="https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">FedRAMP CSP Information Form</a> which provides the PMO with information about their CSO.
 - A draft call agenda, you will receive instructions on this agenda upon completion of the CSP Information Form submission
-- <b><u>NOTE!</b></u> While the PMO cannot assist CSPs in securing agency partners for FedRAMP Authorization, an intake call can still be scheduled if an agency partner has yet to be identified or confirmed.
+- <b><u>NOTE!</u></b> While the PMO cannot assist CSPs in securing agency partners for FedRAMP Authorization, an intake call can still be scheduled if an agency partner has yet to be identified or confirmed.
 Once the form and agenda are completed, there will be instructions provided for scheduling an intake call using FedRAMP’s appointment scheduler. The appointments are held on Tuesdays and Wednesdays from 2:30 PM - 4:00 PM ET. 
 
 <h4>After the call, what can I expect?</h4>  
