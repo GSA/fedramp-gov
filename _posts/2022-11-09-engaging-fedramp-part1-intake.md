@@ -1,6 +1,6 @@
 ---
 title: Engaging with FedRAMP: PART 1 - The Intake
-permalink: /blog/2022-09-22-fedramp-agency-liaisons/
+permalink: /blog/2022-11-09-engaging-fedramp-part1-intake/
 body-class: page-blog
 image: /assets/img/blog-images/2022-11-09-engaging-with-fedramp.png
 author: FedRAMP
