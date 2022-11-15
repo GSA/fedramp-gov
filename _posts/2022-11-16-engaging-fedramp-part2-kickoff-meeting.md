@@ -1,6 +1,6 @@
 ---
 title: <b>Engaging with FedRAMP</b> - PART 2, The Kickoff Meeting
-permalink: /blog/2022-11-14-engaging-fedramp-part2-kickoff-meeting/
+permalink: /blog/2022-11-16-engaging-fedramp-part2-kickoff-meeting/
 body-class: page-blog
 image: /assets/img/blog-images/2022-11-09-engaging-with-fedramp.png
 author: FedRAMP
@@ -25,14 +25,15 @@ FedRAMP will coordinate a Kickoff Meeting once the following deliverables are su
 - <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Agency-Authorization-WBS-Template.xlsx" target="_blank" rel="noopener noreferrer">Work Breakdown Structure (WBS)</a>: A project plan completed in partnership with the agency that depicts the CSP’s ability to meet required deadlines.
 - <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Agency-Authorization-Kickoff-Architecture-Briefing-Guidance.pdf" target="_blank" rel="noopener noreferrer">Kickoff Briefing</a>: This covers the system’s authorization boundary , assessment plan, and estimated authorization timeline. A Kickoff Meeting will not be scheduled until the briefing has been reviewed and approved by the PMO. 
 - Additionally, FedRAMP requires the 3PAO assessment to be scheduled to begin within the next 6 months. 
-<b><u>NOTE:</u></b>As outlined in our <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Marketplace Designations Guidance</a> document, it is possible for a  CSP to receive an ‘In Process’ designation by meeting other criteria. In this case, it is still highly recommended to schedule a Kickoff meeting.
+
+<b><u>NOTE:</u></b> As outlined in our <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Marketplace Designations Guidance</a> document, it is possible for a  CSP to receive an ‘In Process’ designation by meeting other criteria. In this case, it is still highly recommended to schedule a Kickoff meeting.
  
 <h4>After the meeting, what can I expect?</h4> 
 If the agency is comfortable with the information presented by the CSP, the CSP is typically eligible to be listed ‘In Process’ on the Marketplace and the cloud offering would  have 12 months to achieve full FedRAMP Authorization. If a CSP does not achieve a FedRAMP Authorization within that 12 months, the CSP will be removed from the Marketplace until an authorization is achieved.
 
 We look forward to continuing our engagement with industry and we hope you found this information helpful! Please reach out to <a href="mailto:intake@fedramp.gov">intake@fedramp.gov</a> with any questions or for assistance with starting your FedRAMP Authorization journey or visit the <a href="https://www.fedramp.gov/agency-authorization/" target="_blank" rel="noopener noreferrer">Agency Authorization page</a> for more resources on the FedRAMP Authorization process.   
 
-Stay tuned for our next blog that is focused on the <b>Security Assessment Report (SAR) Debrief</b>, or visit the previous blog on <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" rel="noopener noreferrer">Intake Calls</a>. 
+Stay tuned for our next blog that is focused on the <b>Security Assessment Report (SAR) Debrief</b>, or visit the previous blog on <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" _blank" rel="noopener noreferrer">Intake Calls</a>. 
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
 	<div class="grid-container " style="padding: 2rem 0" >
