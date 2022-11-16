@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 FedRAMP often receives requests for information and guidance regarding the Agency Authorization process. In response, the FedRAMP Program Management Office (PMO) is releasing a three-part blog series that explores the formal touchpoints with stakeholders as they pursue a FedRAMP Authorization. Throughout this series, we will explore the <b>What, Who, Why, and When</b> of the following touchpoints:
-- The Intake Call,
+- <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Call</a>,
 - The Kickoff meeting, and
 - The Security Assessment Report (SAR) Debrief meeting.
   
@@ -33,7 +33,7 @@ If the agency is comfortable with the information presented by the CSP, the CSP 
 
 We look forward to continuing our engagement with industry and we hope you found this information helpful! Please reach out to <a href="mailto:intake@fedramp.gov">intake@fedramp.gov</a> with any questions or for assistance with starting your FedRAMP Authorization journey or visit the <a href="https://www.fedramp.gov/agency-authorization/" target="_blank" rel="noopener noreferrer">Agency Authorization page</a> for more resources on the FedRAMP Authorization process. 
 
-Stay tuned for our next blog that is focused on the <b>Security Assessment Report (SAR) Debrief</b>, or visit the previous blog on <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" _blank" rel="noopener noreferrer">Intake Calls</a>.
+Stay tuned for our next blog that is focused on the <b>Security Assessment Report (SAR) Debrief</b>, or visit the previous blog on <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Calls</a>.
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
 	<div class="grid-container " style="padding: 2rem 0" >
