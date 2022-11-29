@@ -8,8 +8,8 @@ layout: blog-page
 ---
 FedRAMP often receives requests for information and guidance regarding the Agency Authorization process. In response, the FedRAMP Program Management Office (PMO) is releasing a three-part blog series that explores the formal touchpoints with stakeholders as they pursue a FedRAMP Authorization. Throughout this series, we will explore the <b>What, Who, Why, and When</b> of the following touchpoints:
 - <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Call</a>,
-- The Kickoff meeting, and
-- The Security Assessment Report (SAR) Debrief meeting.
+- <a href="https://www.fedramp.gov/blog/2022-11-16-engaging-fedramp-part2-kickoff-meeting/" target="_blank" rel="noopener noreferrer">The Kickoff meeting</a>, and
+- <a href="https://www.fedramp.gov/blog/2022-11-29-engaging-fedramp-part3-sar-debrief/" target="_blank" rel="noopener noreferrer">The Security Assessment Report (SAR) Debrief meeting</a>.
   
 This second edition in the series takes a look at <b>Kickoff Meetings</b>. Kickoffs (KOs) formally launch the agency authorization process for Cloud Service Providers (CSPs) with their agency partners, and serve as the most commonly met criteria by CSPs that are listed as ‘In Process’ on the FedRAMP Marketplace.
 

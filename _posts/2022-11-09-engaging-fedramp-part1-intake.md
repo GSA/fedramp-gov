@@ -7,9 +7,9 @@ author: FedRAMP
 layout: blog-page
 ---
 FedRAMP often receives requests for information and guidance regarding the Agency Authorization process. In response, the FedRAMP Program Management Office (PMO) is releasing a three-part blog series that explores the formal touchpoints with stakeholders as they pursue a FedRAMP Authorization. Throughout this series, we will explore the <b>What, Who, Why, and When</b> of the following touchpoints:
-- The Intake Call, 
-- The Kickoff meeting, and 
-- The Security Assessment Report (SAR) Debrief meeting.
+- <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Call</a>,
+- <a href="https://www.fedramp.gov/blog/2022-11-16-engaging-fedramp-part2-kickoff-meeting/" target="_blank" rel="noopener noreferrer">The Kickoff meeting</a>, and
+- <a href="https://www.fedramp.gov/blog/2022-11-29-engaging-fedramp-part3-sar-debrief/" target="_blank" rel="noopener noreferrer">The Security Assessment Report (SAR) Debrief meeting</a>.
   
 This first edition takes a look at <b>FedRAMP Intake Calls</b>. Cloud Service Providers (CSPs) are highly encouraged to schedule these calls as their <u>first step</u> towards authorizing their Cloud Service Offering (CSO). 
 
