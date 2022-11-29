@@ -29,7 +29,7 @@ Following the SAR Debrief, agencies should be comfortable enough with the inform
 
 We look forward to continuing our engagement with industry and we hope you found this information helpful! Please reach out to <a href="mailto:intake@fedramp.gov">intake@fedramp.gov</a> with any questions or for assistance with starting your FedRAMP Authorization journey or visit the <a href="https://www.fedramp.gov/agency-authorization/" target="_blank" rel="noopener noreferrer">Agency Authorization page</a> for more resources on the FedRAMP Authorization process. 
 
-Look back on the previous blogs in this series:<b><a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Calls</a></b> and <b><a href="https://www.fedramp.gov/blog/2022-11-16-engaging-fedramp-part2-kickoff-meeting/" target="_blank" rel="noopener noreferrer">Kickoff Meetings</a></b>.
+Look back on the previous blogs in this series: <b><a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">Intake Calls</a></b> and <b><a href="https://www.fedramp.gov/blog/2022-11-16-engaging-fedramp-part2-kickoff-meeting/" target="_blank" rel="noopener noreferrer">Kickoff Meetings</a></b>.
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
 	<div class="grid-container " style="padding: 2rem 0" >
