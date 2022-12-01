@@ -1071,8 +1071,7 @@ p.faq-search-text {
  	}
 }
 
-.designations-question {
-	h4 {
-		font-size: 1rem;
-	}
+.designations-question h4 {
+	font-size: .875rem;
+	color: $light-blue;
 }
