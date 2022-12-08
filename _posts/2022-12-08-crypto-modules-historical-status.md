@@ -24,7 +24,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
           
           c. If there is an exploit, document the exploit, and consider moving to a new CM
           
-          d. For CM where the CSP is waiting for submission to NIST for validation the CSP must provide a detailed plan with associated implementation dates for approval
+          d. For a CM where the CSP is waiting for submission to NIST for validation, the CSP must provide a detailed plan with associated implementation dates for approval
     
     3. If a replacement is not planned by the CM author, document a plan to transition to an new CM as a POA&M
         
@@ -50,7 +50,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
    3. If a replacement cannot be identified or is otherwise not planned by the CM author, the CSP must redesign their system to use a different CM
 
 - <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition. 
-    - The 3PAO should document historical status of CMs in the RAR with respect to #1 and #2, above. Add this to the RAR at the end of the mandates section.
-    - <b>If # 3 applies, the 3PAO should not submit the RAR to FedRAMP PMO.</b> The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
+    1. The 3PAO should document historical status of CMs in the RAR with respect to #1 and #2, above. Add this to the RAR at the end of the mandates section.
+    2. <b>If # 3 applies, the 3PAO should not submit the RAR to FedRAMP PMO.</b> The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
 
 *As a reminder, this guidance only applies to CMs that have become historical due to the NIST SP‌‌ 800-56A Rev 3 transition.*
