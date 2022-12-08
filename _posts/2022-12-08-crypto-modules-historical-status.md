@@ -17,19 +17,13 @@ The following PMO guidance on the subject should be applied to <u>each and every
     1. If a replacement CM is identified as in-process with CMVP, document this as a POA&M. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
     
     2. If CM has not been submitted for testing, but a replacement CM is in development with plans to submit for CMVP testing:
-         
           a. Determine that there are no known exploits of the existing CM
-          
           b. If there are no exploits, document this in a POA&M as a vendor dependency
-          
           c. If there is an exploit, document the exploit, and consider moving to a new CM
-          
           d. For a CM where the CSP is waiting for submission to NIST for validation, the CSP must provide a detailed plan with associated implementation dates for approval
     
     3. If a replacement is not planned by the CM author, document a plan to transition to an new CM as a POA&M
-        
         <b>a. If # 3 applies, the CSP should redesign around a different CM and submit a project plan to the appropriate authorizing official for approval</b>
-        
         <b>b.  If # 3 applies and CSP has not begun their initial assessment, the CSP should redesign their system around a different CM prior to an initial authorization and before submitting to achieve FedRAMP Ready.</b>
 
 - <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
@@ -40,11 +34,8 @@ The following PMO guidance on the subject should be applied to <u>each and every
     1. If a replacement CM is identified as in-process with CMVP, document this in the Mandates section in the RAR. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
     
     2. If CM has not been submitted for testing, but a replacement CM is in development with plans to submit for CMVP testing: 
-          
           a. Determine that there are no known exploits of the existing CM
-          
           b. If no exploits, provide evidence to the 3PAO for documenting in the RAR
-          
           c. If there is an exploit, plan to replace the CM
    
    3. If a replacement cannot be identified or is otherwise not planned by the CM author, the CSP must redesign their system to use a different CM
