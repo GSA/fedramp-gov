@@ -12,8 +12,7 @@ On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) va
 
 The following PMO guidance on the subject should be applied to <u>each and every</u> CM in use:
 <h5>For initial authorization and continuous monitoring</h5> 
-- <b>CSP Actions:</b> for CMs moved to Historical status due to SP 800-56A Rev 3 transition:
-    
+<b>CSP Actions:</b> for CMs moved to Historical status due to SP 800-56A Rev 3 transition:
     1. If a replacement CM has been submitted for testing or is listed as in-process with CMVP:
     
         a. Capture in the POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
@@ -44,10 +43,10 @@ The following PMO guidance on the subject should be applied to <u>each and every
              
             ii. If the 3PAO’s initial assessment is not complete, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
 
-- <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
+<b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
 
 <h5>For readiness assessments (to be considered for “FedRAMP Ready” designation)</h5> 
-- <b>CSP Actions:</b>
+<b>CSP Actions:</b>
     
     1. If a replacement CM has been submitted for testing or is listed as in-process with CMVP:
 
@@ -65,7 +64,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
   
         a. Redesign around a different CM, and complete the implementation, prior to pursuing FedRAMP Ready.
           
-- <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
+<b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
     
     1. If a replacement CM has been submitted for testing, or is in development with plans to submit for testing, document the status of CMs in the RAR at the end of the Mandates section.
     
