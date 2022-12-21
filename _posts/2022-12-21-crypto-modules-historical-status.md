@@ -20,7 +20,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     2. If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:
          
-         a. Determine that there are no known exploits of the existing CM.
+         <p style="font-family: Muli",sans-serif; font-size: .9375rem; color: line-height: 1.5;">a. Determine that there are no known exploits of the existing CM.
             
             i. If there are no exploits:
                
@@ -32,7 +32,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
                
                1. Capture it in the POA&M as an open risk
                
-               2. Consider moving to a new CM
+               2. Consider moving to a new CM</p>
     
     3. If a replacement cannot be identified or is otherwise not planned by the CM author:
 
