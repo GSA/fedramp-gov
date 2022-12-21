@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2022-10-20-crypto-modules-historical-status.png
 author: FedRAMP
 layout: blog-page
 ---
-On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) validated crypto modules (CMs) were moved to ‘historical status’ by the NIST Cryptographic Module Validation Program (CMVP) due to <a href="https://www.fedramp.gov/blog/2022-11-09-engaging-fedramp-part1-intake/" target="_blank" rel="noopener noreferrer">NIST SP 800-56A Rev 3</a>, “Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography” transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev 3.
+On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) validated crypto modules (CMs) were moved to ‘historical status’ by the NIST Cryptographic Module Validation Program (CMVP) due to <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/nist.sp.800-56Ar3.pdf" target="_blank" rel="noopener noreferrer">NIST SP 800-56A Rev 3</a>, “Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography” transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev 3.
 
 <h4>How should Cloud Service Providers (CSPs) and Third-Party Assessment Organizations (3PAOs) address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h4>
 
@@ -21,11 +21,17 @@ The following PMO guidance on the subject should be applied to <u>each and every
     2. If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:
          
          a. Determine that there are no known exploits of the existing CM.
+            
             i. If there are no exploits:
+               
                1. Capture it in the POA&M as a vendor dependency
+               
                2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
+            
             ii. If there is an exploit:
+               
                1. Capture it in the POA&M as an open risk
+               
                2. Consider moving to a new CM
     
     3. If a replacement cannot be identified or is otherwise not planned by the CM author:
