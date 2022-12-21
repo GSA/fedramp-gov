@@ -69,4 +69,5 @@ The following PMO guidance on the subject should be applied to <u>each and every
     2. If a replacement cannot be identified or is otherwise not planned by the CM author, do not submit the RAR to FedRAMP PMO. The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
 
 *As a reminder, this guidance only applies to CMs that have become historical due to the NIST SP‌‌ 800-56A Rev 3 transition.*
-Please contact <a href="mailto"info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>  if you have any questions about these updates.
+
+Please contact <a href="mailto"info@fedramp.gov">info@fedramp.gov</a>  if you have any questions about these updates.
