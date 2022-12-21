@@ -1,11 +1,15 @@
 ---
 title: Status of Crypto Modules in Historical Status
-permalink: /blog/2022-12-08-crypto-modules-historical-status/
+permalink: /blog/2022-12-21-crypto-modules-historical-status/
 body-class: page-blog
 image: /assets/img/blog-images/2022-10-20-crypto-modules-historical-status.png
 author: FedRAMP
 layout: blog-page
 ---
+On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) validated crypto modules (CMs) were moved to ‘historical status’ by the NIST Cryptographic Module Validation Program (CMVP) due to https://nvlpubs.nist.gov/nistpubs/SpecialPublications/nist.sp.800-56Ar3.pdf
+
+NIST SP 800-56A Rev 3, “Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography” transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev 3.
+
 On July 1, 2022, many FIPS 140 validated crypto modules (CMs) were moved by the NIST Cryptographic Module Validation Program (CMVP) to ‘historical status’ due to NIST SP 800-56A, <b>Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography, Rev 3</b> transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev. 3
 
 <h4>How should CSPs and 3PAOs address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h4>
