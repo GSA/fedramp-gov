@@ -14,53 +14,62 @@ The following PMO guidance on the subject should be applied to <u>each and every
 <h4>For initial authorization and continuous monitoring</h4> 
 <h5>CSP Actions: for CMs moved to Historical status due to SP 800-56A Rev 3 transition:</h5>
 1. <b>If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b> 
-    
-    a. Capture in the POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
-        
+<ol type="a">
+  <li>Capture in the Plan of Action & Milestones (POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.</li>
+</ol>          
 2. <b>If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:</b>
-    
-    a. Determine that there are no known exploits of the existing CM.
-        
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>:
-        
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Capture it in the POA&M as a vendor dependency
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is <u>an exploit</u>:
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Capture it in the POA&M as an open risk
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Consider moving to a new CM
-            
+<ol type="a">
+  <li>Determine that there are no known exploits of the existing CM.</li>
+    <ol type="i">
+      <li>If there are <u>no exploits</u>:</li>
+    		<ol type="1">
+            <li>Capture it in the POA&M as a vendor dependency</li>
+            <li>Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.</li>
+            </ol>
+      <li>If there is <u>an exploit</u>:</li>
+    		<ol type="1">
+            <li>Capture it in the POA&M as an open risk</li>
+            <li>Consider moving to a new CM.</li>
+            </ol>
+      </li>
+    </ol> 
+</ol>            
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
-    
-    a. For systems in continuous monitoring, document a plan to transition to a new CM as an open POA&M and submit it to the Authorizing Official (JAB or Agency AO) for approval.
-        
-    b. For systems pursuing an initial authorization:
-        
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If the 3PAO’s initial assessment is <u>complete</u>, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If the 3PAO’s initial assessment is <u>not complete</u>, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
-    
+<ol type="a">
+  <li>For systems in continuous monitoring, document a plan to transition to a new CM as an open POA&M and submit it to the Authorizing Official (JAB or Agency AO) for approval.</li>
+  <li>For systems pursuing an initial authorization:
+    <ol type="i">
+      <li>If the 3PAO’s initial assessment is <u>complete</u>, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval</li>  
+      <li>If the 3PAO’s initial assessment is <u>not complete</u>, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization</li>
+    </ol>      
+  </li>  
+</ol> 
+
 <h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
 <h4>For readiness assessments (to be considered for “FedRAMP Ready” designation)</h4> 
 <h5>CSP Actions:</h5>
 1. <b>If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b>
-    
-    a. Document this in the Mandates section in the Readiness Assessment Report (RAR). A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
-    
-2. <b>If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:</b> 
-    
-    a. Determine that there are no known exploits of the existing CM
-        
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
-            
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
-            
+<ol type="a">
+  <li>Document this in the Mandates section in the Readiness Assessment Report (RAR). A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.</li>
+</ol>     
+2. <b>If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:</b>
+<ol type="a">
+  <li>Determine that there are no known exploits of the existing CM.</li>
+    <ol type="i">
+      <li>If there are <u>no exploits</u>:</li>
+    		<ol type="1"> 
+            <li>Provide evidence to the 3PAO for documenting in the RAR.</li>
+    		</ol>
+      <li>If there is an <u>exploit</u>:</li>
+    		<ol type="1"> 
+            <li>Plan to replace the CM before pursuing FedRAMP Ready.</li>
+    		</ol>      
+    </ol>
+</ol>              
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
-    
-    a. Redesign around a different CM, and complete the implementation, prior to pursuing FedRAMP Ready.
+<ol type="a">
+  <li>Redesign around a different CM, and complete the implementation, prior to pursuing FedRAMP Ready.</li>
+</ol>
         
 <h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
 1. If a replacement CM has been submitted for testing, or is in development with plans to submit for testing, document the status of CMs in the RAR at the end of the Mandates section.
