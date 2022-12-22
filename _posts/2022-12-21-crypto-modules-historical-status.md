@@ -21,13 +21,13 @@ The following PMO guidance on the subject should be applied to <u>each and every
          
         a. Determine that there are no known exploits of the existing CM.
             
-        i. If there are no exploits:
+        <b>i. If there are no exploits:</b>
                
         1. Capture it in the POA&M as a vendor dependency
                
         2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
             
-        ii. If there is an exploit:
+        <b>ii. If there is an exploit:</b>
                
         1. Capture it in the POA&M as an open risk
                
@@ -39,9 +39,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
          
         b. For systems pursuing an initial authorization:
              
-            i. If the 3PAO’s initial assessment is complete, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval
+        i. If the 3PAO’s initial assessment is complete, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval
              
-            ii. If the 3PAO’s initial assessment is not complete, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
+        ii. If the 3PAO’s initial assessment is not complete, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
 
 - <b>3PAO Action:</b> Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.
 
@@ -56,9 +56,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
           
         a. Determine that there are no known exploits of the existing CM
           
-            i. If there are no exploits, provide evidence to the 3PAO for documenting in the RAR.
+        i. If there are no exploits, provide evidence to the 3PAO for documenting in the RAR.
          
-            ii. If there is an exploit, plan to replace the CM before pursuing FedRAMP Ready. 
+        ii. If there is an exploit, plan to replace the CM before pursuing FedRAMP Ready. 
               
     3. If a replacement cannot be identified or is otherwise not planned by the CM author:
   
