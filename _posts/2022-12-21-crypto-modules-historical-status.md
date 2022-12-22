@@ -13,8 +13,7 @@ On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) va
 The following PMO guidance on the subject should be applied to <u>each and every</u> CM in use:
 <h4>For initial authorization and continuous monitoring</h4> 
 <h5>CSP Actions: for CMs moved to Historical status due to SP 800-56A Rev 3 transition:</h5>
-<b>1. If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b>
-    
+<b>1. If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b> 
     a. Capture in the POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
         
 <b>2. If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:</b>
