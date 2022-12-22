@@ -43,9 +43,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
             
       ii. If the 3PAO’s initial assessment is <u>not complete</u>, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
     
-- <h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
+<h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
 <h4>For readiness assessments (to be considered for “FedRAMP Ready” designation)</h4> 
-- <h5>CSP Actions:</h5>
+<h5>CSP Actions:</h5>
 <b>1. If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b>
     
     a. Document this in the Mandates section in the Readiness Assessment Report (RAR). A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
@@ -62,7 +62,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Redesign around a different CM, and complete the implementation, prior to pursuing FedRAMP Ready.
         
-- <h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
+<h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
 1. If a replacement CM has been submitted for testing, or is in development with plans to submit for testing, document the status of CMs in the RAR at the end of the Mandates section.
 2. If a replacement cannot be identified or is otherwise not planned by the CM author, do not submit the RAR to FedRAMP PMO. The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.
 
