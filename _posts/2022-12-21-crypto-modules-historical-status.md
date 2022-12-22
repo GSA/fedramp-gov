@@ -21,7 +21,7 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM.
         
-    i. If there are <u>no exploits</u>:
+        i. If there are <u>no exploits</u>:
         
         1. Capture it in the POA&M as a vendor dependency
             
