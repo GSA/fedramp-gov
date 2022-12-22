@@ -54,9 +54,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM
         
-        i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
+      i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
             
-        ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
+      ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
             
 <b>3. If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
     
