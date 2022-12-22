@@ -21,17 +21,17 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM.
         
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>:
         
-    1. Capture it in the POA&M as a vendor dependency
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Capture it in the POA&M as a vendor dependency
             
-    2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
             
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is <u>an exploit</u>:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is <u>an exploit</u>:
             
-    1. Capture it in the POA&M as an open risk
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Capture it in the POA&M as an open risk
             
-    2. Consider moving to a new CM
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Consider moving to a new CM
             
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
     
@@ -39,9 +39,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
         
     b. For systems pursuing an initial authorization:
         
-    &nbsp;&nbsp;&nbsp;&nbsp;i. If the 3PAO’s initial assessment is <u>complete</u>, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If the 3PAO’s initial assessment is <u>complete</u>, redesign around a different CM and submit a project plan to the Authorizing Official (JAB or Agency AO) for approval
             
-    &nbsp;&nbsp;&nbsp;&nbsp;ii. If the 3PAO’s initial assessment is <u>not complete</u>, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If the 3PAO’s initial assessment is <u>not complete</u>, redesign around a different CM, and complete the implementation, prior to the 3PAO assessment for an initial authorization
     
 <h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
 <h4>For readiness assessments (to be considered for “FedRAMP Ready” designation)</h4> 
@@ -54,9 +54,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM
         
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
             
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
             
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
     
