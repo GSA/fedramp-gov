@@ -21,17 +21,17 @@ The following PMO guidance on the subject should be applied to <u>each and every
          
         a. Determine that there are no known exploits of the existing CM.
             
-            i. If there are no exploits:
+        i. If there are no exploits:
                
-                1. Capture it in the POA&M as a vendor dependency
+        1. Capture it in the POA&M as a vendor dependency
                
-                2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
+        2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
             
-            ii. If there is an exploit:
+        ii. If there is an exploit:
                
-                1. Capture it in the POA&M as an open risk
+        1. Capture it in the POA&M as an open risk
                
-                2. Consider moving to a new CM
+        2. Consider moving to a new CM
     
     3. If a replacement cannot be identified or is otherwise not planned by the CM author:
 
