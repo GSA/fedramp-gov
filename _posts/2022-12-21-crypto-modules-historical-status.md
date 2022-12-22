@@ -13,25 +13,31 @@ On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) va
 The following PMO guidance on the subject should be applied to <u>each and every</u> CM in use:
 <h4>For initial authorization and continuous monitoring</h4> 
 <h5>CSP Actions: for CMs moved to Historical status due to SP 800-56A Rev 3 transition:</h5>
-1. <b>If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b> 
-    
-    a) Capture in the POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.
-        
+import { marked } from 'marked';
+
+const renderer = {
+  list(body, ordered, start) {
+    if (ordered && body.match(/^<li>[a|A|i|I]\.<\/li>/)) {
+      return body.replace(/^<li>(?<type>.)\.<\/li>(?<list>.*)/gms, `<ol type="$<type>" start="${start}">$<list></ol>`);
+    }
+    return false;
+  },
+};
+
+marked.use({ renderer });
+1. <b>If a replacement CM has been submitted for testing or is listed as in-process with CMVP:</b>  
+    1. a
+    1.Capture in the POA&M as a vendor dependency. A CM that has been submitted for testing is acceptable, even if not yet listed on the CMVP in-process web site.   
 2. <b>If a replacement CM has not been submitted for testing, but is in development with plans to submit for CMVP testing:</b>
-    
-    a) Determine that there are no known exploits of the existing CM. 
-        
-        i) If there are <u>no exploits</u>:
-            
-            1) Capture it in the POA&M as a vendor dependency
-            
-            1) Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.     
-        
-        ii) If there is <u>an exploit</u>:
-            
-            1) Capture it in the POA&M as an open risk     
-            
-            1) Consider moving to a new CM
+    1. a
+    1. Determine that there are no known exploits of the existing CM.    
+        1. i
+        1. If there are <u>no exploits</u>:
+            1. Capture it in the POA&M as a vendor dependency
+            2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.     
+        2. If there is <u>an exploit</u>:
+            1. Capture it in the POA&M as an open risk     
+            2. Consider moving to a new CM
             
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
     
