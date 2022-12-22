@@ -8,7 +8,7 @@ layout: blog-page
 ---
 On July 1, 2022, many Federal Information Processing Standards 140 (FIPS 140) validated crypto modules (CMs) were moved to ‘historical status’ by the NIST Cryptographic Module Validation Program (CMVP) due to <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/nist.sp.800-56Ar3.pdf" target="_blank" rel="noopener noreferrer">NIST SP 800-56A Rev 3</a>, “Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm Cryptography” transition. This comes after a 2017 NIST announcement to enhance the secure key establishment algorithm using asymmetric algorithms, and an April 2018 release of the new requirements in SP 800-56A Rev 3.
 
-<h3>CHANGE 3 How should Cloud Service Providers (CSPs) and Third-Party Assessment Organizations (3PAOs) address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h3>
+<h3>How should Cloud Service Providers (CSPs) and Third-Party Assessment Organizations (3PAOs) address cryptographic modules (CMs) in historical status due to the SP 800-56A Rev 3 transition?</h3>
 
 The following PMO guidance on the subject should be applied to <u>each and every</u> CM in use:
 <h4>For initial authorization and continuous monitoring</h4> 
@@ -21,13 +21,13 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM.
         
-    &nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>:
         
     1. Capture it in the POA&M as a vendor dependency
             
     2. Provide a replacement CM implementation plan and timeline to the Authorizing Official (JAB or Agency AO) for approval.
             
-    &nbsp;&nbsp;&nbsp;&nbsp;ii. If there is <u>an exploit</u>:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is <u>an exploit</u>:
             
     1. Capture it in the POA&M as an open risk
             
@@ -54,9 +54,9 @@ The following PMO guidance on the subject should be applied to <u>each and every
     
     a. Determine that there are no known exploits of the existing CM
         
-      i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If there are <u>no exploits</u>, provide evidence to the 3PAO for documenting in the RAR.
             
-      ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If there is an <u>exploit</u>, plan to replace the CM before pursuing FedRAMP Ready. 
             
 3. <b>If a replacement cannot be identified or is otherwise not planned by the CM author:</b>
     
