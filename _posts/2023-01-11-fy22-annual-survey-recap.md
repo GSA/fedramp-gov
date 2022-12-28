@@ -1,6 +1,6 @@
 ---
 title: FedRAMP FY22 Annual Survey Recap
-permalink: /blog/2022-12-28-fy22-annual-survey-recap/
+permalink: /blog/2023-01-11-fy22-annual-survey-recap/
 body-class: page-blog
 image: /assets/img/blog-images/2023-01-11-FY22-annual-survey-recap.png
 author: FedRAMP
