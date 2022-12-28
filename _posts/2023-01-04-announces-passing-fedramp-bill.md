@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Announces the Official Passing of the FedRAMP Bill
-permalink: /blog/2022-12-27-announces-passing-fedramp-bill/
+permalink: /blog/2023-01-04-announces-passing-fedramp-bill/
 body-class: page-blog
 image: /assets/img/blog-images/2023-01-04-bill-release.png
 author: FedRAMP
