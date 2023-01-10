@@ -9,7 +9,7 @@ layout: blog-page
 The FedRAMP PMO would like to thank everyone who completed the FY22 Annual FedRAMP survey this Fall. We completed an analysis of your feedback and are using the data to refine FedRAMP priorities. This feedback and engagement is critical in helping us better understand the challenges you are facing as an Agency, Cloud Service Provider, or Third Party Assessment Organization.
 
 <h3>What we heard</h3>
-We heard from you that the FedRAMP PMO is doing well in several areas, particularly customer experience. An increase of 2% in overall customer satisfaction from FY21.
+We heard from you that the FedRAMP PMO is doing well in several areas, particularly customer experience with an increase of 2% in overall customer satisfaction from FY21.
 - 84% of respondents had pleasant interactions with FedRAMP.
 - 85% of respondents agreed or strongly agreed that FedRAMP promotes the adoption of secure cloud services across the US Government.
 
