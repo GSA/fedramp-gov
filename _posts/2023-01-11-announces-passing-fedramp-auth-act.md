@@ -6,9 +6,7 @@ image: /assets/img/blog-images/2023-01-04-bill-release.png
 author: FedRAMP
 layout: blog-page
 ---
-The Federal Risk and Authorization Management Program (FedRAMP) has great news to share: The President signed the FedRAMP Authorization Act as part of the <a href="https://www.congress.gov/117/bills/hr7776/BILLS-117hr7776enr.pdf#page=1055" target="_blank" rel="noopener noreferrer">FY23 National Defense Authorization Act (NDAA)</a> (See Sec. 5921, page 1055). The Act codifies the FedRAMP program as the authoritative, standardized approach to security assessment and authorization for cloud computing products and services that process unclassified federal information.
-
-This recognizes the work FedRAMP and its stakeholders have achieved over the last decade.
+The Federal Risk and Authorization Management Program (FedRAMP) has great news to share: The President signed the FedRAMP Authorization Act as part of the <a href="https://www.congress.gov/117/bills/hr7776/BILLS-117hr7776enr.pdf#page=1055" target="_blank" rel="noopener noreferrer">FY23 National Defense Authorization Act (NDAA)</a> (See Sec. 5921, page 1055). The Act codifies the FedRAMP program as the authoritative, standardized approach to security assessment and authorization for cloud computing products and services that process unclassified federal information. This recognizes the work FedRAMP and its stakeholders have achieved over the last decade.
 
 The FedRAMP team provided technical assistance in the creation of the Act, and has been planning for several months. Here are a few things we are excited for:
 - Improving the speed at which new cloud computing products and services can be authorized by implementing automation techniques. 
