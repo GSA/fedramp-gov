@@ -20,7 +20,7 @@ The FSCAC will provide advice and recommendations to the Administrator of GSA, t
   <li>At least one official serving as Chief Procurement Officer (or equivalent) in an federal agency, who shall be required to maintain such a position throughout the duration of their service on the Committee.</li>
   <li>At least one individual representing an independent assessment organization.</li>
   <li>At least five representatives from unique businesses that primarily provide cloud computing services or products, including at least two representatives from a small business (as defined by section 3(a) of the Small Business Act (15 U.S.C. 632(a)).</li>
-  <li>At least two other representatives from the federal government as the Administrator determines to be necessary to provide sufficient balance, insights, or expertise to the Committee.</li>
+  <li>At least two other representatives from the federal government as the Administrator determines to be necessary to provide sufficient balance, insights, or expertise to the Committee.</li></ol>
  
 <h3>Nominations</h3>
 GSA is calling for self nominations from industry professionals who represent either an independent assessment organization or a large or small business that primarily provides cloud computing services or products in addition to federal government professionals as outlined above. Federal agencies may nominate qualified federal employees for federal membership. To submit a nomination and for more information on the FSCAC, see the <a href="xxx" target="_blank" rel="noopener noreferrer">Federal Register Announcement</a>. Nominations will be accepted no later than 11:59 PM ET <b>Thursday, February 9, 2023</b>.
