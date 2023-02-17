@@ -18,7 +18,7 @@ The first OSCAL Developers Data Bites session will be held on <b>Thursday, Septe
 All OSCAL users are invited to attend, including CSPs, federal agencies, and 3PAOs.
 
 <h3 style="padding: 0px; margin: 0px;">Meeting Link</h3>
-Please use this <a href="https://gsa.zoomgov.com/j/1605384368?pwd=Rnkyd1JvNUtMT1NqUGRWRUhYV0FGQT09" target="_blank" rel="noopener noreferrer">link</a> to join the session at the 12:00pm EDT
+Please use this <a href="https://gsa.zoomgov.com/j/1614753557?pwd=VGhoWnFiTzQ5N3hsVFRidWlGOWpkQT09" target="_blank" rel="noopener noreferrer">link</a> to join the session at the 12:00pm EDT
 
 <h3>How Will These Sessions Work?</h3>
 Following the introduction and welcome to each meeting, the FedRAMP OSCAL Data Bites will be divided into three main sections:
