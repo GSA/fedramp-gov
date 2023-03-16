@@ -226,6 +226,10 @@ h6 {
 	font-weight: 300 !important;
 }
 
+.intro-text p strong, .intro-text li strong {
+	font-weight: bold;
+}
+
 p.bold-intro {
 	font-weight: 400 !important;
 	color: $light-blue;
