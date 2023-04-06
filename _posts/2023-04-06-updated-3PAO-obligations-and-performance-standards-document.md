@@ -6,7 +6,7 @@ image: /assets/img/blog-images/-general-blog-banners/general-banner-3PAO.png
 author: FedRAMP
 layout: blog-page
 ---
-The FedRAMP PMO, in coordination with the American Association for Laboratory Accreditation (A2LA), has made several revisions to the <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Third Party Assessment Organization (3PAO) Obligations and Performance Standards document</a> that focus on further defining the program’s 3PAO performance and compliance expectations. 
+The FedRAMP PMO, in coordination with the American Association for Laboratory Accreditation (A2LA), has made several revisions to the <a href="https://demo.fedramp.gov/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Third Party Assessment Organization (3PAO) Obligations and Performance Standards document</a> that focus on further defining the program’s 3PAO performance and compliance expectations. 
 
 The updates include:
 - Ensuring 3PAO compliance with the requirements set forth in the FedRAMP Authorization Act, including Section 3612. Declaration of foreign interests 
