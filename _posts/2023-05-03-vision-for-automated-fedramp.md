@@ -1,5 +1,5 @@
 ---
-title: Updated FedRAMP 3PAO Obligations and Performance Standards Document
+title: Vision for an Automated FedRAMP
 permalink: /2023-05-03-vision-for-automated-fedramp/
 body-class: page-blog
 image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
