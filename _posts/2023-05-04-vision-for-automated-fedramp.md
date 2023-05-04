@@ -1,6 +1,6 @@
 ---
 title: Vision for an Automated FedRAMP
-permalink: /2023-05-03-vision-for-automated-fedramp/
+permalink: /2023-05-04-vision-for-automated-fedramp/
 body-class: page-blog
 image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
 author: FedRAMP
@@ -14,4 +14,4 @@ FedRAMP envisions that Cloud Service Providers (CSPs) will submit OSCAL-formatte
 
 So, what’s the next step?
 
-Check out <a href="https://" target="_blank" rel="noopener noreferrer">FedRAMP’s High-Level Automation Strategy</a> for more information on the benefits and outcomes of an automated FedRAMP and what agencies, CSPs, and 3PAOs can do to support FedRAMP in reducing the cloud authorization cost and burden for all stakeholders.  
+Check out <a href="https://demo.fedramp.gov/assets/resources/documents/FedRAMP_An_Automated_FedRAMP.pdf" target="_blank" rel="noopener noreferrer">FedRAMP’s High-Level Automation Strategy</a> for more information on the benefits and outcomes of an automated FedRAMP and what agencies, CSPs, and 3PAOs can do to support FedRAMP in reducing the cloud authorization cost and burden for all stakeholders.  
