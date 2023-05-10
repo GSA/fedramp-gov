@@ -1,6 +1,6 @@
 ---
-title: FSCAC Appointment Announcement
-permalink: /updated-3PAO-obligations-and-performance-standards-document/
+title: GSA Administrator Appoints Members to the Federal Secure Cloud Advisory Committee
+permalink: /2023-05-10-gsa-administrator-appoints-members-federal-secure-cloud-advisory-committee/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general_fscac.png
 author: FedRAMP
