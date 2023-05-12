@@ -1,6 +1,6 @@
 ---
 title: GSA Administrator Appoints Members to the Federal Secure Cloud Advisory Committee
-permalink: /2023-05-11-gsa-administrator-appoints-members-federal-secure-cloud-advisory-committee/
+permalink: /2023-05-12-gsa-administrator-appoints-members-federal-secure-cloud-advisory-committee/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general_fscac.png
 author: FedRAMP
