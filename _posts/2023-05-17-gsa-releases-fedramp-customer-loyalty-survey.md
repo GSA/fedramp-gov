@@ -15,11 +15,3 @@ Please take a moment to complete this survey before <b>June 23, 2023</b> to shar
 Collecting customer feedback is essential for FedRAMP to align operations to customer needs. We are continuously looking for ways to improve our customer’s experience and provide stakeholders with the tools and services needed to be successful. 
 
 We want your feedback on what we are doing well and what areas need improvement. The survey results will help FedRAMP to identify program changes and enhancements that better serve our customers. We value your insight and thank you in advance for your participation.
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<h7>Heading 7</h7>
