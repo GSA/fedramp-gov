@@ -1,6 +1,6 @@
 ---
-title: GSA Releases The FedRAMP Customer Loyalty Survey
-permalink: /2023-05-17-gsa-releases-fedramp-customer-loyalty-survey/
+title: GSA Releases FedRAMP’s 2023 Customer Survey
+permalink: /2023-05-17-gsa-releases-fedramps-2023-customer-survey/
 body-class: page-blog
 image: /assets/img/blog-images/2023-05-17-gsa-releases-fedramp-customer-loyalty-survey.png
 author: FedRAMP
