@@ -7,9 +7,9 @@ author: FedRAMP
 layout: blog-page
 ---
 <h3>We want to hear from you!</h3> 
-In previous years, the FedRAMP PMO released its own survey to our stakeholders. This year we are leveraging the annual GSA's Federal Acquisition Service (FAS) Customer Survey to gather your valuable feedback. This is in an effort to be more efficient and to dedicate more resources to FedRAMP Automation activities. 
+The FedRAMP PMO is asking for a few minutes of your time. Surveys give us an opportunity to gather your valuable feedback in order to improve both FedRAMP as a whole and your experience working with the PMO. In previous years, FedRAMP released its own survey to our stakeholders. This year we are leveraging the annual GSA Federal Acquisition Service (FAS) Customer Survey to gather your responses around all aspects of your interactions with FedRAMP.
 
-Please take a moment to complete this survey before <b>June 23, 2023</b> to share your feedback with the FedRAMP PMO. Be on the lookout for an email from <u><b>surveys@research.gsa.gov</b></u> titled <b>“How are we doing? Let us know!”</b> The survey should take 7-8 minutes to complete.
+Please take a moment to complete this survey before June 23, 2023 to share your opinions with the FedRAMP PMO. You should have received an email earlier this week from <u><b>surveys@research.gsa.gov</b></u> titled <b>“How are we doing? Let us know!”</b> The survey should take about 7 minutes to complete.
 
 <h3>What is the impact of this survey?</h3>
 Collecting customer feedback is essential for FedRAMP to align operations to customer needs. We are continuously looking for ways to improve our customer’s experience and provide stakeholders with the tools and services needed to be successful. 
