@@ -10,7 +10,7 @@ The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines!
 
 During the approval process, FedRAMP has been working diligently to complete updates based on public comments to the Rev. 5 baselines and supporting documentation, including Open Security Controls Assessment Language (OSCAL) versions. Due to the extensive updates required, the documentation will be released in a phased approach, starting with:
 
-<h4>CSP Transition Plan</h4> 
+<h4><a href="https://fedramp.gov/assets/resources/documents/CHANGEME" target="_blank" rel="noopener noreferrer">CSP Transition Plan</a></h4> 
 - General information/summary 
 
 <h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
