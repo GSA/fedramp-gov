@@ -13,7 +13,7 @@ During the approval process, FedRAMP has been working diligently to complete upd
 <h4>CSP Transition Plan</h4> 
 - General information/summary 
 
-<h4>Rev. 5 Baselines</h4>
+<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
 - Aligned security controls more closely with NIST (smaller delta between NIST and FedRAMP baselines compared to Rev. 4)
 - Added no new controls to the baseline from Rev. 4 outside of the new controls from NIST baselines (i.e. supply chain risk management)
 - Privacy controls (and any other control outside of the FedRAMP baselines) are still at the Agency’s discretion
