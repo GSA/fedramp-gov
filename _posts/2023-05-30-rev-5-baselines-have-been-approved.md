@@ -6,25 +6,28 @@ image: /assets/img/blog-images/2021-05-06-Rev5-Update.png
 author: FedRAMP
 layout: blog-page
 ---
-The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines! The FedRAMP baselines were updated to correspond with the National Institute of Standards and Technology’s (NIST) <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank" rel="noopener noreferrer">Special Publication (SP) 800-53 Rev. 5 Catalog of Security and Privacy Controls for Information Systems and Organizations</a> and <a href="https://csrc.nist.gov/publications/detail/sp/800-53b/final" target="_blank" rel="noopener noreferrer">SP 800-53B Control Baselines for Information Systems and Organizations</a>. 
+The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines! The FedRAMP baselines were updated to correspond with the National Institute of Standards and Technology’s (NIST <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank" rel="noopener noreferrer">Special Publication (SP) 800-53 Rev. 5 Catalog of Security and Privacy Controls for Information Systems and Organizations</a> and <a href="https://csrc.nist.gov/publications/detail/sp/800-53b/final" target="_blank" rel="noopener noreferrer">SP 800-53B Control Baselines for Information Systems and Organizations</a>. 
 
-During the approval process, FedRAMP has been working diligently to complete updates based on public comments to the Rev. 5 baselines and supporting documentation, including Open Security Controls Assessment Language (OSCAL) versions. Due to the extensive updates required, the documentation will be released in a phased approach, starting with:
+Outlined below are the released documents with a supporting high level summary:
 
-<h4><a href="https://fedramp.gov/assets/resources/documents/CHANGEME" target="_blank" rel="noopener noreferrer">CSP Transition Plan</a></h4> 
-- General information/summary 
+<h4><a href="https://fedramp.gov/assets/resources/documents/CHANGEME" target="_blank" rel="noopener noreferrer">Cloud Service Provider (CSP) Transition Plan</a></h4> 
+- Provides guidance to assist CSPs, Third Party Assessment Organizations (3PAOs), federal agencies in transitioning to NIST SP 800-53 Rev. 5 and to the new FedRAMP requirements
+- Categorizes CSPs based on their stage in the FedRAMP authorization process and defines date-based transition periods for each category
+- Assists CSPs with identifying the scope of the Rev. 5 controls that require testing by the assessor
+
 
 <h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
-- Aligned security controls more closely with NIST (smaller delta between NIST and FedRAMP baselines compared to Rev. 4)
-- Added no new controls to the baseline from Rev. 4 outside of the new controls from NIST baselines (i.e. supply chain risk management)
-- Privacy controls (and any other control outside of the FedRAMP baselines) are still at the Agency’s discretion
-- PM controls are inherently an Agency responsibility and are therefore not included in the baselines
--  Added significant guidance for many controls based on collaboration with stakeholders
+- Aligns security controls more closely with NIST 
+- Adds no new controls to the baseline from Rev. 4 outside of the new controls from NIST baselines (i.e. supply chain risk management)
+- Adds significant guidance for many controls based on collaboration with stakeholders
+- Privacy controls, and any other control outside of the FedRAMP baselines, are still at the agency’s discretion
+- Program Management (PM) controls are inherently an agency responsibility and are therefore not included in the baselines
 
-<h4>Rev. 4 To Rev. 5 Baseline Summary</h4>
-- Summary of the control changes from Rev. 4 to Rev. 5.
+
+<h4><a href="https://fedramp.gov/assets/resources/documents/CHANGEME" target="_blank" rel="noopener noreferrer">Rev. 4 To Rev. 5 Baseline Comparison Summary</a></h4>
 
 <h3>What's Next?</h3> 
-The remaining Rev. 5 templates will be released within the next few weeks which will include: 
+During the approval process, FedRAMP has been working diligently to complete updates based on public comments to the Rev. 5 baselines and supporting documentation. The FedRAMP <a href="https://csrc.nist.gov/projects/open-security-controls-assessment-language" target="_blank" rel="noopener noreferrer">Open Security Controls Assessment Language (OSCAL)</a> baseline profiles and resolve profile catalog will be released within the next few weeks along with:  
 - System Security Plan (SSP)
 - Security Assessment Plan (SAP)
 - Security Assessment Report (SAR)
@@ -32,7 +35,7 @@ The remaining Rev. 5 templates will be released within the next few weeks which 
 
 FedRAMP will also provide training and educational forums specific to the Rev. 5 updates and the transition process early this summer. 
 
-In the meantime, we ask that cloud service providers and other stakeholders review and understand the expectations and requirements in the CSP Transition Plan and make plans for addressing the first wave of templates to be released.
+In the meantime, we ask that CSPs and other stakeholders review the CSP Transition Plan and make plans to address the updated templates in the coming weeks. 
 
 <h3>Keep Up To Date!</h3>
 Join the FedRAMP subscriber list <a href="https://public.govdelivery.com/accounts/USGSA/subscriber/new" target="_blank" rel="noopener noreferrer">here</a> to receive program updates, important reminders, blog announcements, and the monthly PMO Newsletter. If you have any questions, please contact <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>.
