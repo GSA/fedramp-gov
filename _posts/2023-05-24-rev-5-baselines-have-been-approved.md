@@ -1,6 +1,6 @@
 ---
 title: Rev. 5 Baselines Have Been Approved!
-permalink: /2023-05-30-rev-5-baselines-have-been-approved/
+permalink: /2023-05-24-rev-5-baselines-have-been-approved/
 body-class: page-blog
 image: /assets/img/blog-images/2021-05-06-Rev5-Update.png
 author: FedRAMP
