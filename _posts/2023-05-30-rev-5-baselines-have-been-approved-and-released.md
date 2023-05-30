@@ -10,7 +10,7 @@ The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines!
 
 Outlined below are the released documents with a supporting high level summary:
 
-<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP Baselines Rev 5 Transition Guide.pdf" target="_blank" rel="noopener noreferrer">Cloud Service Provider (CSP) Transition Plan</a></h4>
+<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Baselines_Rev5_Transition_Guide.pdf" target="_blank" rel="noopener noreferrer">Cloud Service Provider (CSP) Transition Plan</a></h4>
 - Provides guidance to assist Cloud Service Providers (CSP), Third Party Assessment Organizations (3PAOs), Federal Agencies in transitioning to NIST SP 800-53 Rev. 5, and to the new FedRAMP requirements
 - Categorizes CSPs based on their stage in the FedRAMP authorization process and defines date-based transition periods for each category
 - Assists CSPs with identifying the scope of the Rev. 5 controls that require testing by an assessor
@@ -23,7 +23,7 @@ Outlined below are the released documents with a supporting high level summary:
 - Program Management (PM) controls remain an agency responsibility and are therefore not included in the baselines
 
 
-<h4>To provide more insight to the updates, please see our <a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline_Rev 5_Rev 4 comparison_Summary.xlsx" target="_blank" rel="noopener noreferrer">Rev. 4 To Rev. 5 Baseline Comparison Summary</a></h4>
+<h4>To provide more insight to the updates, please see our <a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline_Rev5_Rev4_comparison_Summary.xlsx" target="_blank" rel="noopener noreferrer">Rev. 4 To Rev. 5 Baseline Comparison Summary</a></h4>
 
 <h3>What's Next?</h3>
 During the approval process, FedRAMP has been working diligently to complete updates based on public comments to the Rev. 5 baselines and supporting documentation. The FedRAMP <a href="https://csrc.nist.gov/projects/open-security-controls-assessment-language" target="_blank" rel="noopener noreferrer">Open Security Controls Assessment Language (OSCAL)</a> baseline profiles and resolve profile catalogs will be released within the next few weeks along with:  
