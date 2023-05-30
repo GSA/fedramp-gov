@@ -16,14 +16,14 @@ Outlined below are the released documents with a supporting high level summary:
 - Assists CSPs with identifying the scope of the Rev. 5 controls that require testing by an assessor
 
 
-<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
+<h4><a href="https://demo.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
 - Aligns security controls more closely with NIST
 - Adds significant guidance for many controls
 - Privacy controls, and any other control outside of the FedRAMP baselines, remain at the agency’s discretion
 - Program Management (PM) controls remain an agency responsibility and are therefore not included in the baselines
 
 
-<h4>To provide more insight to the updates, please see our <a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline_Rev5_Rev4_comparison_Summary.xlsx" target="_blank" rel="noopener noreferrer">Rev. 4 To Rev. 5 Baseline Comparison Summary</a></h4>
+<h4>To provide more insight to the updates, please see our <a href="https://demo.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline_Rev5_Rev4_comparison_Summary.xlsx" target="_blank" rel="noopener noreferrer">Rev. 4 To Rev. 5 Baseline Comparison Summary</a></h4>
 
 <h3>What's Next?</h3>
 During the approval process, FedRAMP has been working diligently to complete updates based on public comments to the Rev. 5 baselines and supporting documentation. The FedRAMP <a href="https://csrc.nist.gov/projects/open-security-controls-assessment-language" target="_blank" rel="noopener noreferrer">Open Security Controls Assessment Language (OSCAL)</a> baseline profiles and resolve profile catalogs will be released within the next few weeks along with:  
