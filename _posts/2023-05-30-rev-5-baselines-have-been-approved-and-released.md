@@ -2,7 +2,7 @@
 title: Rev. 5 Baselines Have Been Approved and Released!
 permalink: /blog/2023-05-30-rev-5-baselines-have-been-approved-and-released/
 body-class: page-blog
-image: /assets/img/blog-images/2021-05-06-Rev5-Update.png
+image: /assets/img/blog-images/2021-05-06-Rev5-Update_v2.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -10,13 +10,13 @@ The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines!
 
 Outlined below are the released documents with a supporting high level summary:
 
-<h4><a href="https://fedramp.gov/assets/resources/documents/CHANGEME" target="_blank" rel="noopener noreferrer">Cloud Service Provider (CSP) Transition Plan</a></h4>
+<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP Baselines Rev. 5 Transition Guide.pdf" target="_blank" rel="noopener noreferrer">Cloud Service Provider (CSP) Transition Plan</a></h4>
 - Provides guidance to assist CSPs, Third Party Assessment Organizations (3PAOs), Federal Agencies in transitioning to NIST SP 800-53 Rev. 5 and to the new FedRAMP requirements
 - Categorizes CSPs based on their stage in the FedRAMP authorization process and defines date-based transition periods for each category
 - Assists CSPs with identifying the scope of the Rev. 5 controls that require testing by the assessor
 
 
-<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
+<h4><a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline .xlsx" target="_blank" rel="noopener noreferrer">Rev. 5 Baselines</a></h4>
 - Aligns security controls more closely with NIST
 - Adds no new controls to the baseline from Rev. 4 outside of the new controls from NIST baselines (i.e. supply chain risk management)
 - Adds significant guidance for many controls based on collaboration with stakeholders
