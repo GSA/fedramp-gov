@@ -5,7 +5,6 @@ body-class: page-blog
 image: /assets/img/blog-images/2021-05-06-Rev5-Update.png
 author: FedRAMP
 layout: blog-page
-
 ---
 The FedRAMP Joint Authorization Board has approved the FedRAMP Rev. 5 baselines! The FedRAMP baselines were updated to correspond with the National Institute of Standards and Technology’s (NIST) <a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final" target="_blank" rel="noopener noreferrer">Special Publication (SP) 800-53 Rev. 5 Catalog of Security and Privacy Controls for Information Systems and Organizations</a> and <a href="https://csrc.nist.gov/publications/detail/sp/800-53b/final" target="_blank" rel="noopener noreferrer">SP 800-53B Control Baselines for Information Systems and Organizations</a>.
 
