@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Marketplace Upgrade
-permalink: /updated-3PAO-obligations-and-performance-standards-document/
+permalink: /2023-06-30-fedramp-marketplace-upgrade/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-3PAO.png
 author: FedRAMP
