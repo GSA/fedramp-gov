@@ -43,6 +43,7 @@ layout: full-width
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
 	    <li><a href="#faq-security">Security</a></li>
+	    <li><a href="#faq-rev-5">Rev. 5</a></li>		  
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -66,7 +67,8 @@ layout: full-width
             <li><a href="#faq-authorization">Authorization</a></li>
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
- 	    <li><a href="#faq-security">Security</a></li>
+ 	    <li><a href="#faq-security">Security</a></li>0
+ 	    <li><a href="#faq-rev-5">Rev. 5</a></li>		  
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -590,7 +592,125 @@ layout: full-width
 		  <p>Compliance checks are used to evaluate configuration settings and provide general insight into the overall effectiveness of configuration management activities. The National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53 control for Configuration Settings is CM-6; however, compliance check findings often map directly to specific 800-53 controls.</p>		
 		  <p>Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) typically combine compliance check findings into a single CM-6 finding, which is acceptable. However, for initial assessments, annual assessments, and significant change requests, FedRAMP requires a clear understanding, on a per-control basis, of where risks exist. Therefore, 3PAOs must also analyze compliance check findings as part of the controls assessment. Where a direct mapping exists, the 3PAO must document additional findings per control in the corresponding Security Assessment Reports (SAR) Risk Exposure Table (RET), which are then documented in the CSP’s Plan of Action and Milestones (POA&M). This will likely result in the details of individual control findings overlapping with those in the combined CM-6 finding, which is acceptable.</p>
 		<p>During monthly continuous monitoring, new findings from CSP compliance checks may be combined into a single CM-6 POA&M item. CSPs are not required to map the findings to specific controls because controls are only assessed during initial assessments, annual assessments, and significant change requests.</p>  
-          </div>       	
+          </div>
+		  
+		 <!-- Rev. 5 -------------------------------->
+          
+          <h3 id="faq-rev-5" class="padding-top-2">Rev. 5</h3>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-when-FIPS-NSA-cryptography-required">When is Federal Information Processing Standards (FIPS)-validated or National Security Agency (NSA) approved cryptography required?</button>
+          </h4>
+          <div id="security-when-FIPS-NSA-cryptography-required" class="usa-accordion__content usa-prose">
+            <p>Security Control-13 (SC-13) requires that FIPS 140-validated or NSA-approved cryptographic modules (CMs) are used where cryptography is required. For example, encryption is required for federal data at-rest [SC-28], data in-transit [SC-8(1)], and authentication [IA-2(11)] for FedRAMP Moderate and High systems.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-control-13-apply-just-encryption">Does Security Control-13 (SC-13) apply just to encryption?</button>
+          </h4>
+          <div id="security-control-13-apply-just-encryption" class="usa-accordion__content usa-prose">
+            <p>SC-13 applies to all required cryptographic functions. Cryptography encompasses more than just encryption. It includes digital signatures, encryption, key management, message authentication, random number generation, and secure hashing.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-know-if-cryptographic-module-FIPS-validated">How do you know if a cryptographic module is FIPS-validated?</button>
+          </h4>
+          <div id="security-know-if-cryptographic-module-FIPS-validated" class="usa-accordion__content usa-prose">
+            <p>The status of a cryptographic module (CM) submitted for testing and validation can be found at the National Institute of Standards and Technology <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank">(NIST) website</a>.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-terms-mean-the-same-thing">Do the terms FIPS-validated, FIPS-compliant, and FIPS-approved mean the same thing?</button>
+          </h4>
+          <div id="security-terms-mean-the-same-thing" class="usa-accordion__content usa-prose">
+            <p>Usually not. Some vendors may use terms such as FIPS-compliant or FIPS-approved because the product is using a FIPS-approved algorithm, but not using a National Institute of Standards and Technology (NIST)-tested cryptographic module (CM). The product must actually be submitted for testing and validated through the NIST Cryptographic Module Validation Program (CMVP) to be considered FIPS-validated. Non-validated cryptography is viewed by NIST as providing no protection to the information or data - in effect, the data would be considered unprotected plaintext. Other important considerations:</p>
+		    <ul class="red-bullets margin-top-0">
+		    <li>FIPS-validated CMs must be configured in an approved mode, which is documented in the associated security policy.</li>
+		    <li>Many FIPS-validated CMs also include non-approved algorithms even when run in FIPS mode. Only algorithms listed as approved in the CM’s Security Policy should be used.</li>
+		     <li>Third Party Assessment Organizations (3PAOs) validate the use of a FIPS-validated CM by checking the certificate number, validating that the CM is configured in an approved mode, and only uses algorithms listed as approved in the CM’s Security Policy. Agencies and FedRAMP reviewers will also check the certificate number for each CM listed in the FedRAMP System Security Plan (SSP) and other documents to confirm validation status.</li>
+		</ul>
+	      </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-know-if-cryptographic-module-NSA-approved">How do you know if a cryptographic module is NSA-approved?</button>
+          </h4>
+          <div id="security-know-if-cryptographic-module-NSA-approved" class="usa-accordion__content usa-prose">
+            <p>National Security Agency (NSA)-tested and approved cryptographic modules (CMs) are also acceptable. The NSA validation status of a CM can be found at the <a href="https://www.niap-ccevs.org/Product/index.cfm" target="_blank">National Information Assurance Partnership (NIAP) website</a>. Since FIPS 140-validated CMs are by far more commonly used in Cloud Service Offerings (CSOs) than NSA-approved CMs, we will refer to FIPS mode from here on.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-when-FIPS-140-2-transition-FIPS-140-3">When does FIPS 140-2 transition to FIPS 140-3?</button>
+          </h4>
+          <div id="security-when-FIPS-140-2-transition-FIPS-140-3" class="usa-accordion__content usa-prose">
+            <p>Any FIPS certificate with a status of Active is acceptable. Active FIPS 140-2 certificates can be accepted by federal agencies until September 22, 2026. After that time, the Cryptographic Module Validation Program (CMVP) will place the FIPS 140-2 validated modules on the Historical List, allowing agencies to continue using these modules for existing applications only. Active FIPS 140-3 certificates are acceptable now.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="use-of-TLS-1.2-above-statisfy-SC-13-requirements">Does the use of Transport Layer Security (TLS) 1.2 or above satisfy the Security Control-13 (SC-13) requirement?</button>
+          </h4>
+          <div id="use-of-TLS-1.2-above-statisfy-SC-13-requirements" class="usa-accordion__content usa-prose">
+            <p>No. The SC-13 requirement applies to cryptographic modules (CMs) used to implement TLS; the use of TLS alone does not satisfy the requirement. While TLS 1.2 and above are required at the protocol level, it is necessary to demonstrate that FIPS 140-validated CMs are used to implement the protocol. It is worth noting that some FIPS 140-2 validated modules may not support cryptographic algorithms to allow for TLS 1.3. In addition to listing ports and protocols, CSPs must also identify the component that performs the encryption function along with the FIPS validation certificate number.  For each component and data flow, the SSP Data Flow Diagram(s) and control implementation statements should clearly depict one of the following:</p>
+		  <ul class="red-bullets margin-top-0">
+			  <li>FIPS-validated CM is implemented [with certificate number in SC-13 control description]</li>
+			  <li>Encryption is implemented, but not FIPS-validated</li>
+			  <li>Encryption is not implemented</li>
+			  </ul>
+	 <p>Documentation that lacks accounting of FIPS status for each component delays the authorization process.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-impact-to-authorization-when-CM-lacks-FIPS-validation">What is the impact to authorization when cryptographic modules (CMs) lack FIPS validation?</button>
+          </h4>
+          <div id="security-impact-to-authorization-when-CM-lacks-FIPS-validation" class="usa-accordion__content usa-prose">
+		  <ul class="red-bullets margin-top-0">
+		  <li>For Cloud Service Offerings (CSOs) pursuing FedRAMP Ready (required for a FedRAMP JAB authorization), all federal mandates must be met. This means FIPS 140-validated modules must be implemented where encryption is required. Gaps cannot be addressed within a Plan of Action and Milestones (POA&M).</li>
+		   <li>For CSOs pursuing a FedRAMP authorization via the Agency path, Agency Authorizing Officials (AOs) may risk-accept FIPS 140 gaps under some circumstances. The first step is for the 3PAO to fully document and validate the FIPS status and document gaps in the POA&M to inform the AO’s risk-based authorization decision.</li>  
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="security-how-CSP-document-FIPS-140-status-gaps">How should a Cloud Service Provider (CSP) document FIPS 140 status and any gaps?</button>
+          </h4>
+          <div id="security-how-CSP-document-FIPS-140-status-gaps" class="usa-accordion__content usa-prose">
+		  <ul class="red-bullets margin-top-0">
+		  <li>CSP should take the approach that FIPS-validated CMs need to be implemented everywhere cryptography is required, and not look for exceptions.</li>
+		   <li>FedRAMP documentation should clearly show encryption and FIPS validation status for every data store, every data flow and authentication method.</li> 
+	 	   <li>Plan of Action and Milestones (POA&M) should be established where gaps exist. The POA&M should include the reason for using non-compliant modules, for example:</li>
+			  <ul class="red-bullets margin-top-0">
+			  <li>Migrated to a new version of the product; CM is undergoing National Institute of Standards and Technology (NIST) FIPS validation</li>
+			  <li>FIPS certificate for current version of the product is now “historical”; vendor seeking FIPS validation for new product</li>
+			  <li>Product does not support FIPS-validated encryption</li>
+			  <li>Component breaks in FIPS-mode, waiting for vendor patch</li></ul></ul>
+		  <ul class="red-bullets margin-top-0">
+			  <li>POA&Ms should include a clear remediation plan and timeline to help inform the AO’s decision, for example:</li>
+		  <ul class="red-bullets margin-top-0">
+			  <li>Replace component with FIPS-validated module prior to authorization</li>
+			  <li>Patch when compliant version available from vendor</li>
+			  <li>Remain on historic version of the module while awaiting migration to compliant version of the product</li>
+			  <li>Remain on historic version of the module while awaiting migration to compliant version of CM or product provided by different vendor</li>
+			</ul>
+			</ul>
+
+	   </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="expectation-3PAO-CSP-tracking-compliance-cm-6">What is the expectation for Third Party Assessment Organization (3PAO) and Cloud Service Provider (CSP) tracking of Compliance Checks related to CM-6?</button>
+          </h4>
+          <div id="expectation-3PAO-CSP-tracking-compliance-cm-6" class="usa-accordion__content usa-prose">
+		  <p>Compliance checks are used to evaluate configuration settings and provide general insight into the overall effectiveness of configuration management activities. The National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53 control for Configuration Settings is CM-6; however, compliance check findings often map directly to specific 800-53 controls.</p>		
+		  <p>Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) typically combine compliance check findings into a single CM-6 finding, which is acceptable. However, for initial assessments, annual assessments, and significant change requests, FedRAMP requires a clear understanding, on a per-control basis, of where risks exist. Therefore, 3PAOs must also analyze compliance check findings as part of the controls assessment. Where a direct mapping exists, the 3PAO must document additional findings per control in the corresponding Security Assessment Reports (SAR) Risk Exposure Table (RET), which are then documented in the CSP’s Plan of Action and Milestones (POA&M). This will likely result in the details of individual control findings overlapping with those in the combined CM-6 finding, which is acceptable.</p>
+		<p>During monthly continuous monitoring, new findings from CSP compliance checks may be combined into a single CM-6 POA&M item. CSPs are not required to map the findings to specific controls because controls are only assessed during initial assessments, annual assessments, and significant change requests.</p>  
+          </div>		  
+		  
 		
  <div class="padding-bottom-8"> </div>
         </div>
