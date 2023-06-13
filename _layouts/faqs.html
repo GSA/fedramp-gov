@@ -43,6 +43,7 @@ layout: full-width
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
 	    <li><a href="#faq-security">Security</a></li>
+	    <li><a href="#faq-rev-5">Rev. 5</a></li>
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -67,6 +68,7 @@ layout: full-width
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
  	    <li><a href="#faq-security">Security</a></li>
+	    <li><a href="#faq-rev-5">Rev. 5</a></li>
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -591,7 +593,102 @@ layout: full-width
 		  <p>Cloud Service Providers (CSPs) and Third Party Assessment Organizations (3PAOs) typically combine compliance check findings into a single CM-6 finding, which is acceptable. However, for initial assessments, annual assessments, and significant change requests, FedRAMP requires a clear understanding, on a per-control basis, of where risks exist. Therefore, 3PAOs must also analyze compliance check findings as part of the controls assessment. Where a direct mapping exists, the 3PAO must document additional findings per control in the corresponding Security Assessment Reports (SAR) Risk Exposure Table (RET), which are then documented in the CSP’s Plan of Action and Milestones (POA&M). This will likely result in the details of individual control findings overlapping with those in the combined CM-6 finding, which is acceptable.</p>
 		<p>During monthly continuous monitoring, new findings from CSP compliance checks may be combined into a single CM-6 POA&M item. CSPs are not required to map the findings to specific controls because controls are only assessed during initial assessments, annual assessments, and significant change requests.</p>  
           </div>
-		
+		  
+		 <!-- Rev. 5 -------------------------------->
+          
+          <h3 id="faq-rev-5" class="padding-top-2">Rev. 5</h3>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="proceed-with-assessment-against-Rev-4">We are actively engaged with an initial Agency partner and are under contract with a 3PAO to perform an assessment; however, our Agency partner has not submitted a formal In Process Request. Can I proceed with the assessment against the Rev. 4 baseline?</button>
+          </h4>
+          <div id="proceed-with-assessment-against-Rev-4" class="usa-accordion__content usa-prose">
+            <p>The PMO recognizes that the timeline for issuing “In Process” requests differs from agency to agency. Cloud Service Providers (CSPs) can proceed with the assessment against the Rev. 4 baseline under the following conditions:
+		    <ul class="red-bullets margin-top-0">
+		    <li>The CSP provides evidence they are under contract with a 3PAO (with a defined assessment start date) or are actively undergoing an assessment</li>
+		    <li>he CSP has received approval from the Agency partner to proceed with the assessment against the Rev. 4 baseline. This approval should be noted in the In Process request when is it submitted by the Agency.</li></p>
+		</ul>		  
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="CSP-annual-assessment">Please clarify the requirement for Cloud Service Provider (CSPs) with an annual assessment scheduled between July 3, 2023 and December 15, 2023. Will CSPs with an annual assessment scheduled during this time frame be required to implement the Rev. 5 baseline prior to the annual assessment?</button>
+          </h4>
+          <div id="CSP-annual-assessment">
+            <p>No, if your annual assessment is scheduled to occur between July 3, 2023 and December 15, 2023 you can proceed with your 2023 annual assessment using the Rev. 4 baseline. You must implement the Rev. 5 baseline prior to your 2024 annual assessment, during which your Rev. 5 implementation will be tested.</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="scr-controls">Please provide confirmation that Significant Change Requests (SCR) being submitted will be based on the current revision level of the system. If an SCR is submitted prior to the system undergoing a transition assessment to Rev. 5, the SCR would leverage Rev. 4 controls, correct?</button>
+          </h4>
+          <div id="sscr-controls" class="usa-accordion__content usa-prose">
+            <p> Cloud Service Providers (CSPs) will be implementing Rev. 5 controls based on the plans created from their Rev. 4 to Rev. 5 gap analysis. SCRs will be based on Rev. 4 or Rev. 5 determined by those CSP-specific implementation plans, and as coordinated with your Authorizing Official (AO).</p>
+          </div>
+	  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="continue-rev-4-schedule">We are currently contracted with an agency partner, contracted with a 3PAO, and are submitting the System Security Plan (SSP) and supporting documentation in the first week of June. We anticipate an Authority to Operate (ATO) by the end of September. The newly released Rev. 5 guidance incorporates changes to current controls and additional security control requirements. Based on our current state, we would like to be able to continue with the current schedule under Rev. 4. </button>
+          </h4>
+          <div id="continue-rev-4-schedule">
+            <p>Please refer to the "FedRAMP Baseline Rev. 5 Transition Schedule" section of the <a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Baselines_Rev5_Transition_Guide.pdf" target="_blank">FedRAMP Baseline Revision 5 Transition Plan</a> to determine your place in the transition schedule and what guidance you should follow in coordination with guidance from your Authorizing Official (AO).</p>
+	      </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="conflicts-control-requirements-stig">How should we handle conflicts between the FedRAMP control requirements and Security Technical Implementation Guides (STIGs)? For example, IA-5 (1) states that no rotation is necessary for passwords (per NIST 800-63), however, STIGs require a 60 day maximum rotation. How should we proceed?</button>
+          </h4>
+          <div id="conflicts-control-requirements-stig" class="usa-accordion__content usa-prose">
+            <p>If a Security Technical Implementation Guide (STIG) configuration parameter is more restrictive than the associated FedRAMP Rev. 5 baseline requirement, the Cloud Service Provider is under no obligation to implement the STIG parameter unless it is covered under an Executive Order or DHS Emergency Directive.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="ca-7-service-configuration-scans">CA-7 has a new Additional FedRAMP Requirement to perform monthly “Service Configuration Scans.” To confirm, this means all CM-6 (Defense Information Systems Agency Security Technical Implementation Guide, etc.) benchmark scans must be performed monthly and uploaded to the FedRAMP document repository monthly now? In addition, please confirm whether the 3PAO also needs to perform/submit all of these compliance scans annually as part of the Security Assessment Report?</button>
+          </h4>
+          <div id="ca-7-service-configuration-scans" class="usa-accordion__content usa-prose">
+            <p>Yes, Cloud Service Providers in Continuous Monitoring (ConMon) are required to utilize automated scanning tools to perform service configuration scans monthly and provide the scan results to the FedRAMP documentation repository as part of the monthly ConMon deliverable. 3PAOs will ensure that service configuration scans are performed during annual assessments and provide those scans as part of the SAR.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="work-breakdown-structure">Will the Rev. 5 transition plan be solely documented in the Plan of Actions and Milestones (POA&M) and System Security Plan (SSP), or is there an expectation of a Work Breakdown Structure (WBS)?</button>
+          </h4>
+          <div id="work-breakdown-structure">
+            <p>While a WBS is not required, it may be requested by your Authorizing Official (AO). Please confirm your AO's expectations. However, the POA&M should have sufficent detail so that the AO can track the activities and progress made.</p>
+          </div>
+	      <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="rev-5-control-unique-poa&m">Is it required that each individual Rev. 5 control be tracked as a unique POA&M, or is a high level transition finding acceptable?</button>
+          </h4>
+          <div id="rev-5-control-unique-poa&m" class="usa-accordion__content usa-prose">
+		  <p>Each control should be tracked separately as a unique Plan of Actions and Milestones (POA&M) so that they can be managed separately.</p>
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="csp-plan-of-actions-milestones">Is the expectation that Cloud Service Providers will carry Plan of Actions and Milestones items for Rev. 5 controls until their transition assessment?</button>
+          </h4>
+          <div id="csp-plan-of-actions-milestones" class="usa-accordion__content usa-prose">
+		  <p>Cloud Service Providers must manage their Plan of Actions and Milestones (POA&Ms) the same way they manage POA&Ms during continuous monitoring.</p>
+	   </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="controls-tested-2024-annual-assessment">Since Cloud Service Providers will be migrating to the new System Security Plan and there are minor changes to many controls, do all controls need to be tested in the 2024 annual assessment or is it only the normal 1/3, required, and new Rev. 5 controls?</button>
+          </h4>
+          <div id="controls-tested-2024-annual-assessment" class="usa-accordion__content usa-prose">
+		  <p>As a companion document to the Rev. 5 transition plan, the Control Selection Guide is scheduled for release in the coming weeks. Cloud Service Providers, 3PAOs, and Agencies will use the guide to determine which controls need to be assessed during that annual assessment.</p>
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="rev-5-documents-release">In the Rev. 5 blog post, it mentions that new templates for FedRAMP required documents will be released. When will they be available?</button>
+          </h4>
+          <div id="rev-5-documents-releaset" class="usa-accordion__content usa-prose">
+		  <p>Authorization package and support documents updated for Rev. 5 will be released in the coming weeks.</p>
+          </div>			
 		
           <div class="padding-bottom-8"> </div>
         </div>
