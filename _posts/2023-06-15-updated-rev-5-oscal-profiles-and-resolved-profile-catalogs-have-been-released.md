@@ -1,6 +1,6 @@
 ---
 title: Updated Rev. 5 OSCAL Profiles and Resolved Profile Catalogs Have Been Released
-permalink: /2023-06-13-updated-rev-5-oscal-profiles-and-resolved-profile-catalogs-have-been-released/
+permalink: /2023-06-15-updated-rev-5-oscal-profiles-and-resolved-profile-catalogs-have-been-released/
 body-class: page-blog
 image: /assets/img/blog-images/2021-05-06-Rev5-Update_v2.png
 author: FedRAMP
