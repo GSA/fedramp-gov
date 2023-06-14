@@ -6,7 +6,7 @@ image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.pn
 author: FedRAMP
 layout: blog-page
 ---
-The following Cloud Service Providers (CSPs) have been selected to work with the Joint Authorization Board (JAB) for a Provisional Authority to Operate (P-ATO) from our latest round of FedRAMP Connect: 
+The following Cloud Service Providers (CSPs) have been selected to work with the Joint Authorization Board (JAB) for a Provisional Authority to Operate (P-ATO) from our latest round of FedRAMP Connect:
 
 - Cisco Systems, Inc. - Cisco SDWAN-G
 - Cyxtera Federal Group - Cyxtera Platform Government Edition

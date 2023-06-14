@@ -45,7 +45,10 @@ The following PMO guidance on the subject should be applied to <u>each and every
     </li>  
   </ol>
 </ol>  
-<h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5> 
+<h5>3PAO Action:</h5> 
+<ol type="1">
+  <li><b>Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</b></li>
+</ol>  
 <h4>For readiness assessments (to be considered for “FedRAMP Ready” designation)</h4> 
 <h5>CSP Actions:</h5>
 <ol type="1">
@@ -72,18 +75,21 @@ The following PMO guidance on the subject should be applied to <u>each and every
       <li>Redesign around a different CM, and complete the implementation, prior to pursuing FedRAMP Ready.</li>
     </ol>
 </ol>        
-<h5>3PAO Action: Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</h5>
+<h5>3PAO Action:</h5>
 <ol type="1">
-  <li>If a replacement CM has been submitted for testing, or is in development with plans to submit for testing:</li> 
-  <ol type="a">
-    <li>Document the status of CMs in the RAR at the end of the Mandates section.</li>
-  </ol>
-  <li>If a replacement cannot be identified or is otherwise not planned by the CM author:</li>
-  <ol type="a">
-    <li>Do not submit the RAR to FedRAMP PMO. The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.</li>
-  </ol>
-</ol>  
-
+  <li><b>Review and confirm the status and remediation plan for CMs in historical status due to SP 800-56A Rev 3 transition.</b></li>  
+    <ol type="a">
+     <li>If a replacement CM has been submitted for testing, or is in development with plans to submit for testing:</li> 
+       <ol type="i">
+         <li>Document the status of CMs in the RAR at the end of the Mandates section.</li>
+       </ol>
+    <li>If a replacement cannot be identified or is otherwise not planned by the CM author:</li>
+       <ol type="i">
+         <li>Do not submit the RAR to FedRAMP PMO. The CSP needs to redesign around a different CM, and complete the implementation before a RAR will be considered.</li>
+       </ol>
+    </ol> 
+ </ol>  
+ 
 *As a reminder, this guidance only applies to CMs that have become historical due to the NIST SP 800-56A Rev 3 transition.*
 
 Please contact <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions about these updates.

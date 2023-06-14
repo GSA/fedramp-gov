@@ -25,7 +25,7 @@ SAR Debriefs are scheduled at the conclusion of the 3PAO assessment and after th
 - <b><u>NOTE:</u></b> The CSP must upload a draft presentation to the PMO via its repository on OMB Max or an alternative secure repository for review and feedback before the PMO will confirm a SAR debrief date.
  
 <h4>After the meeting, what can I expect?</h4>
-Following the SAR Debrief, agencies should be comfortable enough with the information presented to begin developing the risk recommendation required for an ATO letter to be issued for a CSO by their Authorizing Official (AO). Once an ATO letter is issued it should be sent to the PMO via <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> to begin the review required for full FedRAMP authorization.
+Following the SAR Debrief, agencies should be comfortable enough with the information presented to begin developing the risk recommendation required for an ATO letter to be issued for a CSO by their Authorizing Official (AO). Once an ATO letter is issued it should be sent to the PMO via <a href="mailto:ato-letter@fedramp.gov">ato-letter@fedramp.gov</a> to begin the review required for full FedRAMP authorization.
 
 We look forward to continuing our engagement with industry and we hope you found this information helpful! Please reach out to <a href="mailto:intake@fedramp.gov">intake@fedramp.gov</a> with any questions or for assistance with starting your FedRAMP Authorization journey or visit the <a href="https://www.fedramp.gov/agency-authorization/" target="_blank" rel="noopener noreferrer">Agency Authorization page</a> for more resources on the FedRAMP Authorization process. 
 
