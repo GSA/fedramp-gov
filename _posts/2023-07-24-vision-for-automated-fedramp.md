@@ -1,6 +1,6 @@
 ---
 title: Vision for an Automated FedRAMP
-permalink: /2023-06-24-vision-for-automated-fedramp/
+permalink: /2023-07-24-vision-for-automated-fedramp/
 body-class: page-blog
 image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
 author: FedRAMP
