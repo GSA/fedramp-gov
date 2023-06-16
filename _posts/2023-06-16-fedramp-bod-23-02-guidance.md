@@ -11,10 +11,10 @@ The Cybersecurity and Infrastructure Security Agency (CISA) at the Department of
 <h4>Binding Operational Directive 23-02</h4>
 
 On June 13, 2023, DHS CISA issued  
-<a href="https://www.cisa.gov/news-events/directives/binding-operational-directive-23-02" target="_blank" rel="noopener noreferrer">Binding Operational Directive 23-02</a>, “Mitigating the Risk from Internet-Exposed Management Interfaces”. This BOD “requires agencies to take steps to reduce the attack surface created by insecure or misconfigured management interfaces across certain classes of devices.”
+<a href="https://www.cisa.gov/news-events/directives/binding-operational-directive-23-02" target="_blank" rel="noopener noreferrer"> “Mitigating the Risk from Internet-Exposed Management Interfaces”. This BOD “requires agencies to take steps to reduce the attack surface created by insecure or misconfigured management interfaces across certain classes of devices.”
 
 <h4>FedRAMP Response</h4>
 
-While there is no required action for FedRAMP commercial CSPs, FedRAMP recommends that CSPs review the content in <a href="https://www.cisa.gov/news-events/directives/binding-operational-directive-23-02" target="_blank" rel="noopener noreferrer">Binding Operational Directive 23-02</a> and follow these best practices if not already doing so (making sure to follow FedRAMP processes as well).
+While there is no required action for FedRAMP commercial CSPs, FedRAMP recommends that CSPs review the content in <a href="https://www.cisa.gov/news-events/directives/binding-operational-directive-23-02" target="_blank" rel="noopener noreferrer"> and follow these best practices.
 
 Please contact the PMO at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with any questions.
