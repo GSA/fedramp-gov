@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Marketplace Upgrade
-permalink: /2023-06-30-fedramp-marketplace-upgrade/
+permalink: /2023-06-16-fedramp-marketplace-upgrade/
 body-class: page-blog
 image: /assets/img/blog-images/2023-06-15-fedramp-marketplace-upgrade.png
 author: FedRAMP
