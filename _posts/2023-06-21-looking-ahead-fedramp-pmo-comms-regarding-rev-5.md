@@ -1,6 +1,6 @@
 ---
 title: Looking Ahead - FedRAMP PMO Communications Regarding Rev. 5
-permalink: /2023-06-16-looking-ahead-fedramp-pmo-comms-regarding-rev-5/
+permalink: /2023-06-21-looking-ahead-fedramp-pmo-comms-regarding-rev-5/
 body-class: page-blog
 image: /assets/img/blog-images/2021-05-06-Rev5-Update_v2.png
 author: FedRAMP
