@@ -236,7 +236,7 @@ img.phase-icon {
 .authorization-phase-icon, .tailored-phase-icon {
 	width: 120px;
 	text-align: center;
-	margin: 0 auto 2rem auto;
+	margin: 0 auto 1rem auto;
 }
 
 .authorization-img-container {
@@ -1075,4 +1075,29 @@ p.faq-search-text {
 	font-size: .875rem;
 	color: $light-blue;
 	margin: 5px 6px 0 6px;
+}
+
+.fedramp-rev-table {
+	width: 100%;
+
+	th {
+		font-size: 1.25rem;
+		color: $light-blue;
+		text-align: center;
+		background-color: $lighter-teal !important;
+		width: 50%;
+		border-color: transparent;
+
+		&:first-child {
+			border-right: solid 1px $light-gray;
+		}
+	}
+
+	td {
+		border-color: $light-gray;
+
+		&:first-child {
+			border-right: solid 1px $light-gray;
+		}
+	}
 }

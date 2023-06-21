@@ -99,6 +99,13 @@ assigned:
             permalink: /baselines/
             show_in_menu: true
             show_in_footer: false
+        
+        - 
+            text: Rev. 5 Transition
+            href: pages/rev5-transition.md
+            permalink: /rev5-transition/
+            show_in_menu: true
+            show_in_footer: false
     -
         text: Blog
         href: pages/blog.md
