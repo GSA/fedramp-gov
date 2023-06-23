@@ -131,3 +131,121 @@ ul.in-page-nav-menu {
 
 }
 
+
+/*---------- in page navigation horizontal training ------------- */
+
+.training-navigation {
+	background: white;
+	z-index: 1000;
+}
+
+#horizontal-top-menu.horizontal-menu {
+	height: auto;
+}
+
+#horizontal-top-menu.horizontal-menu nav,
+#horizontal-top-menu.horizontal-menu li {
+  display: block;
+  vertical-align: top;
+  zoom: 1;
+}
+
+#horizontal-top-menu.horizontal-menu li {
+	margin: 0;
+	padding: 0 24px;
+	font-family: $title-font;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: solid 3px $light-gray; 
+	border-left: none;
+	float: left;
+}
+
+#horizontal-top-menu.horizontal-menu nav {
+  position: relative;
+}
+
+#horizontal-top-menu.horizontal-menu .lavalamp {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+
+#horizontal-top-menu.horizontal-menu a {
+	display: block;
+	line-height: 1.5rem;
+	color: $mid-gray;
+	text-decoration: none;
+	padding: 20px 0;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+#horizontal-top-menu.horizontal-menu a:hover {
+  color: $red;
+}
+
+#horizontal-top-menu.horizontal-menu li.active {
+	border-bottom: solid 3px $red;
+	padding: 0px 24px;
+	margin-left: 0;
+	color: $red;
+	
+	&::before {
+		content: none;
+	}
+}
+
+#horizontal-top-menu.horizontal-menu li.active a {
+	color: $red;
+}
+
+.in-page-nav-section-horizontal {
+	margin-top: 0px !important;
+}
+
+ul.in-page-nav-menu {
+	padding-left: 0;
+	margin: 0;
+}
+
+.training-nav {
+	top: 0;
+}
+
+#horizontal-top-menu {
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.resources-nav-mobile {
+	display: none;
+}
+
+
+
+@media (min-width: 600px) and (max-width: 836px) {
+	#horizontal-top-menu.horizontal-menu li {
+		font-size: .75rem;
+		padding: 0 10px;
+	}
+}
+
+
+@media (min-width: 0) and (max-width:599px) {
+	#horizontal-top-menu.horizontal-menu li {
+		font-size: .625rem;
+		padding: 0 10px;
+	}
+}
+
+@media (min-width: 0) and (max-width: 799px) {
+	.training-nav {
+		position: relative !important;
+	}
+
+}
