@@ -912,8 +912,32 @@ p.faq-search-text {
 	}
 }
 
+.training-sign-up {
+	border-bottom: none;
+}
+
+p.training-section-intro {
+	font-size: 1.25rem;
+	font-weight: 300 !important;
+}
+
 .training-download {
 	white-space: nowrap;
+}
+
+ol.training-steps {
+	list-style: none;
+	padding-left: 0;
+}
+
+ol.training-step-sub {
+	list-style: lower-alpha;
+}
+
+.training-coming-soon p {
+	font-weight: 800 !important;
+	color: $light-blue;
+	margin: 0;
 }
 
 @media (min-width: 0px) and (max-width: 450px) {
@@ -1095,6 +1119,7 @@ p.faq-search-text {
 
 	td {
 		border-color: $light-gray;
+		padding: 20px 10px;
 
 		&:first-child {
 			border-right: solid 1px $light-gray;
