@@ -681,8 +681,75 @@ layout: full-width
           </h4>
           <div id="controls-tested-2024-annual-assessment" class="usa-accordion__content usa-prose">
 		  <p>As a companion document to the Rev. 5 transition plan, the Control Selection Guide is scheduled for release in the coming weeks. Cloud Service Providers, 3PAOs, and Agencies will use the guide to determine which controls need to be assessed during that annual assessment.</p> 
-          </div>		  
-		  
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="spike-in-poa&m-managed">Documenting a CSPs Rev. 4 vs Rev. 5 delta as Plans of Actions and Milestones (POA&Ms) may cause a large spike in a CSPs POA&M count if they carry those POA&Ms from September 1st 2023 until the CSPs next Annual Assessment. It may also cause many overdue POA&Ms. How will this be managed?
+
+Finally, who will determine the severity of these POA&Ms created by September 1st 2023?</button>
+          </h4>
+          <div id="spike-in-poa&m-managed" class="usa-accordion__content usa-prose">
+		  <p>POA&Ms created to document Rev. 5 control gaps can be captured as Low severity "manual findings." Once the Rev. 5 control is fully implemented, the CSP will identify the evidence that supports POA&M closure in column Y "Supporting Documents" of the POA&M. For CSPs in Continuous Monitoring, we recognize this may result in a spike of past due POA&Ms during the transition. Please work with your AO determine the appropriate course of action.</p> 
+          </div>		
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="ssp-template-deadline">Must CSPs use the new Rev. 5 SSP template by the September 1 2023 deadline for documenting the gap between their Rev. 4 implementations and the Rev. 5 requirements?</button>
+          </h4>
+          <div id="ssp-template-deadline" class="usa-accordion__content usa-prose">
+		  <p>CSPs can continue to utilize their Rev. 4 SSP to identify the gaps between their Rev. 4 control implementations and the Rev. 5 requirements. CSPs will also document those gaps within the POA&M and the Rev. 5 CIS/CRM template. The Rev. 5 CIS/CRM template is the only new Rev. 5 template that must be used by September 1st. This provides stakeholders visibility into the Rev. 4 controls that have changed and what the CSP will do to implement the Rev. 5 requirements while also documenting the entire Rev. 5 gap.</p>  
+
+<p></p>Each control that the CSP is documenting a gap for should be a separate POA&M entry. CSPs should not group individual controls together so that the AO and leveraging systems have the necessary fidelity to understand each Rev. 5 control status.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="rev5-extension-requests">Will there be any consideration for Rev. 5 transition extension requests?</button>
+          </h4>
+          <div id="rev5-extension-requests" class="usa-accordion__content usa-prose">
+		  <p>For CSPs pursuing an initial FedRAMP authorization, deviations from the <a href="https://fedramp.gov/assets/resources/documents/FedRAMP_Baselines_Rev5_Transition_Guide.pdf" target="_blank">FedRAMP Baseline Revision 5 Transition Plan</a> must approved by the AO. For CSPs in Continuous Monitoring, deviations must be documented in the CSP's transition plan (due on 9/1/2023) AND approved by the AO.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="csp-create-own-gap-analysis">Is the CSP permitted to create their own format for the delta/gap analysis between their current Rev. 4 implementation and the Rev. 5 requirements?</button>
+          </h4>
+          <div id="csp-create-own-gap-analysis" class="usa-accordion__content usa-prose">
+		  <p>Yes. The FedRAMP PMO is not providing a template.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="provide-sr2-template">Will FedRAMP provide a template for SR-2, Supply Chain Risk Management Plan?</button>
+          </h4>
+          <div id="provide-sr2-template" class="usa-accordion__content usa-prose">
+		  <p>FedRAMP is not providing a SCRM template at this time; however, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf" target="_blank">NIST SP 800-161</a> includes sample SCRM templates in Appendix D.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="3pao-required-perform-red-team-exercises">CA-8(2) requires Red Team exercises. Are 3PAOs required to perform Red Team exercises as part of penetration testing?</button>
+          </h4>
+          <div id="3pao-required-perform-red-team-exercises" class="usa-accordion__content usa-prose">
+		  <p>CSPs are required to perform (or acquire 3PAOs to perform) Red Team exercises in accordance with CA-8(2). 3PAOs are required to validate and attest to the methods and approach used for the CSP Red Teaming during the initial SAR testing and during annual assessment testing.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="running-list-cso-implemented-rev5">"Is there (or will there be) a running list or spreadsheet of the Cloud Service Offerings that have implemented rev 5?</button>
+          </h4>
+          <div id="running-list-cso-implemented-rev5" class="usa-accordion__content usa-prose">
+		  <p>Not at this time. However, we will continue to have discussions to determine whether this is a capability to include in the future.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="document-deviation-stigs-cis-level2-benchmarks">"How do CSPs document deviations from STIGs/CIS Level 2 benchmarks? For example we may have alternative implementations, identify settings that are not applicable to cloud systems, or some settings may break system functionality.</button>
+          </h4>
+          <div id="document-deviation-stigs-cis-level2-benchmarks" class="usa-accordion__content usa-prose">
+		  <p>CSPs will document all operational requirements and false positives from configuration checks the same way that they do vulnerabilities identified from automated scanning tools. Please consult the POA&M Template Completion Guide for further guidance. Not applicable and alternative implementations for configuration settings should be discussed with your AO to determine the appropriate course of action.</p> 
+          </div>		
 		
  <div class="padding-bottom-8"> </div>
         </div>
