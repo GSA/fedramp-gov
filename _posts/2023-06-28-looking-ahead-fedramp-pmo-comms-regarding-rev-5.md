@@ -17,8 +17,8 @@ The FedRAMP Rev. 5 baselines have been released to correspond with updates to th
 
 <b>Leveraging existing stakeholder meetings to share information</b>
 - OSCAL Data Bites Session - Thursday, July 6 
-- 3PAO Listening Session - Thursday, July 25
-- Agency Liaison Training - Tuesday,  July 27
+- 3PAO Listening Session - Tuesday, July 25
+- Agency Liaison Training - Thursday,  July 27
 
 
 Note, the Office Hours, Webinar, and OSCAL Data Bites Session are open to all participants; however, the Agency Liaison and 3PAO meetings are for those specific stakeholders.
