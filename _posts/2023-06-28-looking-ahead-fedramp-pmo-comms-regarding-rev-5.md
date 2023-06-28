@@ -1,6 +1,6 @@
 ---
 title: Looking Ahead - FedRAMP PMO Communications Regarding Rev. 5
-permalink: /2023-06-27-looking-ahead-fedramp-pmo-comms-regarding-rev-5/
+permalink: /2023-06-28-looking-ahead-fedramp-pmo-comms-regarding-rev-5/
 body-class: page-blog
 image: /assets/img/blog-images/2021-05-06-Rev5-Update_v2.png
 author: FedRAMP
@@ -16,10 +16,11 @@ The FedRAMP Rev. 5 baselines have been released to correspond with updates to th
 - A recorded Rev. 5 presentation from acting director, Brian Conrad to answer questions received from stakeholders 
 
 <b>Leveraging existing stakeholder meetings to share information</b>
-- OSCAL Data Bite Session - Thursday, July 6 
-- Agency Liaison Training - Tuesday,  July 25
-- 3PAO Listening Session - Thursday, July 27
+- OSCAL Data Bites Session - Thursday, July 6 
+- 3PAO Listening Session - Thursday, July 25
+- Agency Liaison Training - Tuesday,  July 27
 
-Note, the Office Hours, Webinar, and OSCAL Data Bite Session are open to all participants; however, the Agency Liaison and 3PAO meetings are for those specific stakeholders.
+
+Note, the Office Hours, Webinar, and OSCAL Data Bites Session are open to all participants; however, the Agency Liaison and 3PAO meetings are for those specific stakeholders.
 
 FAQs related to Rev. 5 will be updated on a rolling basis via our <a href="https://www.fedramp.gov/faqs/" target="_blank" rel="noopener noreferrer">website</a>. As always, please submit any additional questions you have to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
