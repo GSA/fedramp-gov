@@ -41,7 +41,3 @@ All development efforts have been performed in the open and we are seeking your 
 If you have questions or feedback, please provide comments via email to <a href="mailto:info@fedramp.gov">info@fedramp.gov </a>. You can also comment on an <a href="https://github.com/GSA/fedramp-automation/issues">existing issue or create a new issue</a> within the FedRAMP Automation repository. 
 
 The FedRAMP PMO looks forward to receiving your comments and sharing additional progress.
-
-
-
-
