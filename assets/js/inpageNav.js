@@ -1,14 +1,20 @@
 // Cache selectors
-var lastId,
-    topMenu = $("#top-menu"),
-    topMenuHeight = topMenu.outerHeight()-380,
-    // All list items
-    menuItems = topMenu.find("a"),
-    // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
-    });
+// default topMenu and height
+var lastId, topMenu = $("#top-menu"), topMenuHeight = topMenu.outerHeight()-380;
+
+// check if horizontal-top-menu exists instead
+if($("#horizontal-top-menu").length != 0) {
+  topMenu = $("#horizontal-top-menu");
+  topMenuHeight = topMenu.outerHeight()+80;
+}
+
+// All list items
+var menuItems = topMenu.find("a");
+// Anchors corresponding to menu items
+var scrollItems = menuItems.map(function(){
+  var item = $($(this).attr("href"));
+  if (item.length) { return item; }
+});
 
 // Bind click handler to menu items
 // so we can get a fancy scroll animation
