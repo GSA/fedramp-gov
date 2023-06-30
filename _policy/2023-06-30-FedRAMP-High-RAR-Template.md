@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP High Readiness Assessment Report (RAR) Template
 category: Preparation Phase
 weblink:
-filename: templates/FedRAMP-High-RAR-Template.docx
+filename: templates/FedRAMP-High-Readiness-Assessment-Report-(RAR)-Template.docx
 filetype: word
 fileinfo: word - 246KB
 condition: update
