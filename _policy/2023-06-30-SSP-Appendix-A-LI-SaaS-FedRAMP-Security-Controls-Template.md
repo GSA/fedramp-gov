@@ -5,7 +5,7 @@ category: FedRAMP Tailored
 weblink:
 filename: templates/SSP-Appendix-A-LI-SaaS-FedRAMP-Security Controls.docx
 filetype: word
-fileinfo: word - 616KB
+fileinfo: word - 284KB
 condition: new
 partner: All Partners
 doctype:
