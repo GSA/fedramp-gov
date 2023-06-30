@@ -3,9 +3,9 @@ layout: policy
 title: FedRAMP Security Assessment Plan (SAP) Template
 category: Authorization Phase
 weblink:
-filename: templates/FedRAMP-SAP-Template.docx
+filename: templates/FedRAMP-Security-Assessment-Plan-(SAP)-Template.docx
 filetype: word
-fileinfo: word - 318KB
+fileinfo: word - 143KB
 condition: new
 partner: All Partners
 doctype:
