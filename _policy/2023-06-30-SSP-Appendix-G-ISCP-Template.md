@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: SSP Appendix G: Information System Contingency Plan (ISCP) Template
+title: SSP Appendix G - Information System Contingency Plan (ISCP) Template
 category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-G-Information-System-Contingency-Plan-(ISCP)-Template.docx
