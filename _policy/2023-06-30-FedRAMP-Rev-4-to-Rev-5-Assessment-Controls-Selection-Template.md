@@ -15,4 +15,4 @@ tags:
   - Rev. 5 Transition 
 
 ---
-The Selection Controls Worksheet is used by CSPs to determine the scope of the assessment associated with the Rev. 4 to Rev. 5 transition.
+The FedRAMP Rev. 4 to Rev. 5 Assessment Controls Selection Template is used by CSPs to determine the scope of the assessment associated with the Rev. 4 to Rev. 5 transition.
