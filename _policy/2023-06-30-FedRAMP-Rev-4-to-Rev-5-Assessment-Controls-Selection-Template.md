@@ -14,4 +14,4 @@ tags:
   - Program Documents 
 
 ---
-The Selection Controls Worksheet is used by CSPs to determine the scope of the assessment associated with the Rev. 4 to Rev. 5 transition
+The Selection Controls Worksheet is used by CSPs to determine the scope of the assessment associated with the Rev. 4 to Rev. 5 transition.
