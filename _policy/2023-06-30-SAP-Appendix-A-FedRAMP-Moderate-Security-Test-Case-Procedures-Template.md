@@ -1,11 +1,11 @@
 ---
 layout: policy   
-title: SAP APPENDIX A - FedRAMP Moderate Security Test Case Procedures Template
+title: SAP Appendix A - FedRAMP Moderate Security Test Case Procedures Template
 category: Authorization Phase
 weblink:
-filename: templates/SAP-AA-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx
+filename: templates/SAP-Appendix-A-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx
 filetype: excel
-fileinfo: excel - 336KB
+fileinfo: excel - 1.7MB
 condition: new
 partner: All Partners
 doctype:
