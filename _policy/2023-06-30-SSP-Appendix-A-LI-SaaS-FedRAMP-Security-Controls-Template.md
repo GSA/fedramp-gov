@@ -11,8 +11,9 @@ partner: All Partners
 doctype:
   - Template
 tags:
-  - FedRAMP Tailored 
   - Baselines
+  - LI-SaaS
+  - FedRAMP Tailored 
 
 ---
 The SSP Appendix A LI-SaaS FedRAMP Security Controls template provides the FedRAMP baseline security control requirements for LI-SaaS impact cloud systems.
