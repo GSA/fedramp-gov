@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-F-Rules-of-Behavior-(RoB)-Template.docx
 filetype: word
-fileinfo: word - 366KB
+fileinfo: word - 116KB
 condition: new
 partner: All Partners
 doctype:
