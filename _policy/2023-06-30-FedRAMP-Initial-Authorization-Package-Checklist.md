@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-Initial-Authorization-Package-Checklist.xlsx
 filetype: excel
-fileinfo: excel - 35KB
+fileinfo: excel - 22KB
 condition: update
 partner: All Partners
 doctype:
