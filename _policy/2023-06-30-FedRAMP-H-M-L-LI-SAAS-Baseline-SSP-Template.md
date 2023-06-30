@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: FedRAMP System Security Plan (SSP) High Baseline Template
+title: FedRAMP High, Moderate, Low, LI-SaaS Baseline System Security Plan (SSP)
 category: Authorization Phase
 weblink:
-filename: templates/FedRAMP-SSP-High-Baseline-Template.docx
+filename: templates/FedRAMP-High-Moderate-Low-LI-SaaS-Baseline-System-Security-Plan-(SSP).docx
 filetype: word
 fileinfo: word - 848KB
 condition: update
