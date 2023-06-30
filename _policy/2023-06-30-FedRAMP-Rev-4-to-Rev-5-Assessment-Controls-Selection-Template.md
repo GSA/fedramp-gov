@@ -11,7 +11,8 @@ partner: All Partners
 doctype:
   - Document
 tags:
-  - Program Documents 
+  - Program Documents
+  - Rev. 5 Transition 
 
 ---
 The Selection Controls Worksheet is used by CSPs to determine the scope of the assessment associated with the Rev. 4 to Rev. 5 transition.
