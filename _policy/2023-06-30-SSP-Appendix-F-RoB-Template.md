@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: SSP ATTACHMENT 5 - FedRAMP Rules of Behavior (RoB) Template
+title: SSP Appendix F - Rules of Behavior (RoB) Template
 category: Authorization Phase
 weblink:
-filename: templates/SSP-A05-FedRAMP-RoB-Template.docx
+filename: templates/SSP-Appendix-F-Rules-of-Behavior-(RoB)-Template.docx
 filetype: word
 fileinfo: word - 366KB
 condition: new
