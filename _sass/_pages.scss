@@ -236,7 +236,7 @@ img.phase-icon {
 .authorization-phase-icon, .tailored-phase-icon {
 	width: 120px;
 	text-align: center;
-	margin: 0 auto 2rem auto;
+	margin: 0 auto 1rem auto;
 }
 
 .authorization-img-container {
@@ -912,8 +912,32 @@ p.faq-search-text {
 	}
 }
 
+.training-sign-up {
+	border-bottom: none;
+}
+
+p.training-section-intro {
+	font-size: 1.25rem;
+	font-weight: 300 !important;
+}
+
 .training-download {
 	white-space: nowrap;
+}
+
+ol.training-steps {
+	list-style: none;
+	padding-left: 0;
+}
+
+ol.training-step-sub {
+	list-style: lower-alpha;
+}
+
+.training-coming-soon p {
+	font-weight: 800 !important;
+	color: $light-blue;
+	margin: 0;
 }
 
 @media (min-width: 0px) and (max-width: 450px) {
@@ -1075,4 +1099,30 @@ p.faq-search-text {
 	font-size: .875rem;
 	color: $light-blue;
 	margin: 5px 6px 0 6px;
+}
+
+.fedramp-rev-table {
+	width: 100%;
+
+	th {
+		font-size: 1.25rem;
+		color: $light-blue;
+		text-align: center;
+		background-color: $lighter-teal !important;
+		width: 50%;
+		border-color: transparent;
+
+		&:first-child {
+			border-right: solid 1px $light-gray;
+		}
+	}
+
+	td {
+		border-color: $light-gray;
+		padding: 20px 10px;
+
+		&:first-child {
+			border-right: solid 1px $light-gray;
+		}
+	}
 }
