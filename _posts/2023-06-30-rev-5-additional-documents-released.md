@@ -22,7 +22,7 @@ The documents and templates released today are outlined below and can be found o
 - FedRAMP Security Assessment Plan (SAP) Template
   - Appendix A: Security Test Case Procedures Templates (Low, Moderate, High)
 - FedRAMP Security Assessment Report (SAR) Template
-- FedRAMP Risk Exposure Table (RET) Template
+  - Appendix A: FedRAMP Risk Exposure Table (RET) Template
 - FedRAMP Moderate and High Readiness Assessment Report (RAR) Templates
 - 3PAO Readiness Assessment Report Guide
 - FedRAMP Laws, Regulations, Standards, and Guidance Reference
