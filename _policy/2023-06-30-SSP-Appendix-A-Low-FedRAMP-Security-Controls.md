@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: SSP Appendix A: Low FedRAMP Security Controls
+title: SSP Appendix A - Low FedRAMP Security Controls
 category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-A-Low-FedRAMP-Security-Controls.docx
