@@ -6,9 +6,10 @@ image: /assets/img/blog-images/2021-05-06-Rev5-Update_v2.png
 author: FedRAMP
 layout: blog-page
 ---
-The next wave of updated Rev. 5 documents has been released. This is the third wave of documents and templates released by FedRAMP to support the transition and compliance from Rev. 4 to Rev. 5 of the National Institute of Standards and Technology’s Special Publication (SP) 800-53 Rev. 5 Catalog of Security and Privacy Controls for Information Systems and Organizations and SP 800-53B Control Baselines for Information Systems and Organizations. For information on the previously-released documents, please see the FedRAMP blog page. 
+The next wave of updated Rev. 5 documents has been released. This is the third wave of documents and templates released by FedRAMP to support the transition and compliance from Rev. 4 to Rev. 5 of the National Institute of Standards and Technology’s Special Publication (SP) 800-53 Rev. 5 Catalog of Security and Privacy Controls for Information Systems and Organizations and SP 800-53B Control Baselines for Information Systems and Organizations. For information on the previously-released documents, please see the <a href="https://www.fedramp.gov/blog/" target="_blank" rel="noopener noreferrer">FedRAMP blog</a> page. 
 
-The documents and templates released today are outlined below and can be found <a href="https://www.fedramp.gov/rev5-transition/" target="_blank" rel="noopener noreferrer">Rev. 5 Transition</a> page. This release includes all artifacts required to plan for and develop a Rev. 5 package for an initial assessment, annual assessment, and readiness assessment. 
+The documents and templates released today are outlined below and can be found on the <a href="https://www.fedramp.gov/rev5-transition/" target="_blank" rel="noopener noreferrer">Rev. 5 Transition</a> page. This release includes all artifacts required to plan for and develop a Rev. 5 package for an initial assessment, annual assessment, and readiness assessment. 
+
 - FedRAMP Rev. 4 to Rev. 5 Assessment Controls Selection Template
 - FedRAMP OSCAL Templates, OSCAL Registry, OSCAL Implementation Guides
 - FedRAMP System Security Plan (SSP) Template (“front matter” sections for all baselines)
