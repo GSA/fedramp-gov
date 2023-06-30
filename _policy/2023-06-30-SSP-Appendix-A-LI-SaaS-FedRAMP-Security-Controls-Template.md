@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: APPENDIX B - FedRAMP Tailored LI-SaaS Template
+title: SSP Appendix A: LI-SaaS FedRAMP Security Controls
 category: FedRAMP Tailored
 weblink:
-filename: templates/APPENDIX-B-FedRAMP-Tailored-LI-SaaS-Template.docx
+filename: templates/SSP-Appendix-A-LI-SaaS-FedRAMP-Security Controls.docx
 filetype: word
 fileinfo: word - 616KB
 condition: new
