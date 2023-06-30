@@ -5,7 +5,7 @@ category: Preparation Phase
 weblink:
 filename: templates/FedRAMP-High-Readiness-Assessment-Report-(RAR)-Template.docx
 filetype: word
-fileinfo: word - 246KB
+fileinfo: word - 202KB
 condition: update
 partner: All Partners
 doctype:
