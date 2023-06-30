@@ -1,11 +1,11 @@
 ---
 layout: policy   
-title: SSP ATTACHMENT 6 - FedRAMP Information System Contingency Plan (ISCP) Template
+title: SSP Appendix G: Information System Contingency Plan (ISCP) Template
 category: Authorization Phase
 weblink:
-filename: templates/SSP-A06-FedRAMP-ISCP-Template.docx
+filename: templates/SSP-Appendix-G-Information-System-Contingency-Plan-(ISCP)-Template.docx
 filetype: word
-fileinfo: word - 452KB
+fileinfo: word - 152KB
 condition: new
 partner: All Partners
 doctype:
