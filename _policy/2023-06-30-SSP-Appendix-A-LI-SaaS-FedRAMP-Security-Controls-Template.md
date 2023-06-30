@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: SSP Appendix A: LI-SaaS FedRAMP Security Controls
+title: SSP Appendix A - LI-SaaS FedRAMP Security Controls
 category: FedRAMP Tailored
 weblink:
 filename: templates/SSP-Appendix-A-LI-SaaS-FedRAMP-Security Controls.docx
