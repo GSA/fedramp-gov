@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/SAP-Appendix-A-FedRAMP-Low-Security-Test-Case-Procedures-Template.xlsx
 filetype: excel
-fileinfo: excel - 213KB
+fileinfo: excel - 1.6MB
 condition: new
 partner: All Partners
 doctype:
