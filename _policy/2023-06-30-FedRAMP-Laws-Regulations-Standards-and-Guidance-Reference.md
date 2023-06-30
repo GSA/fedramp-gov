@@ -1,11 +1,11 @@
 ---
 layout: policy   
-title: SSP ATTACHMENT 12 - FedRAMP Laws and Regulations Template
+title: FedRAMP Laws, Regulations, Standards and Guidance Reference
 category: Authorization Phase
 weblink:
-filename: templates/SSP-A12-FedRAMP-Laws-and-Regulations-Template.xlsx
+filename: templates/FedRAMP-Laws-Regulations-Standards-and-Guidance-Reference.xlsx
 filetype: excel
-fileinfo: excel - 292KB
+fileinfo: excel - 264KB
 condition: new
 partner: All Partners
 doctype:
