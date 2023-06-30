@@ -7,4 +7,3 @@ summary: Filter your results to quickly locate the FedRAMP policy, guidance mate
 tags: policy, guidance, documents, templates, worksheets, authorization, continuous monitoring, playbook, NIST, assessor, agency, cloud service provider, document type, partners, agencies, file, formate, resource, policy, guide, guidance, 3PAO obligations, authorizations, cloud, JAB, criteria, policies
 
 ---
-<p>For Rev. 4 documents and templates please refer to the  <a href="https://www.fedramp.gov/rev5-transition/" target="_blank" rel="noopener noreferrer">Rev. 5 Transition</a> page.</p>
