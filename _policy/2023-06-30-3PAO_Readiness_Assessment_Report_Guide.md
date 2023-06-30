@@ -5,7 +5,7 @@ category: Key Assessor Documents
 weblink:
 filename: documents/3PAO_Readiness_Assessment_Report_Guide.pdf
 filetype: pdf
-fileinfo: PDF - 342KB
+fileinfo: PDF - 410KB
 condition: new
 partner: Assessors
 doctype:
