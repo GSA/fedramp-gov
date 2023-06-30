@@ -14,4 +14,4 @@ tags:
   - FedRAMP Security Package
 
 ---
-The FedRAMP SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of and compliance with system-specific, baseline security controls required by FedRAMP.
+The FedRAMP SAR Template provides a framework for 3PAOs to evaluate a cloud system’s implementation of and compliance with system-specific, baseline security controls required by FedRAMP. This SAR template is used to document assessment results associated with Initial Assessments, Annual Assessments, and Significant Change Requests.
