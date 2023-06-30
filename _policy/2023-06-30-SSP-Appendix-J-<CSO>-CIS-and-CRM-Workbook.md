@@ -3,7 +3,7 @@ layout: policy
 title: SSP Appendix J - <CSO> CIS and CRM Workbook
 category: Authorization Phase
 weblink:
-filename: templates/SSP-Appendix-J-<CSO>-CIS-andCRM-Workbook.xlsx
+filename: templates/SSP-Appendix-J-<CSO>-CIS-and-CRM-Workbook.xlsx
 filetype: excel
 fileinfo: excel - 152KB
 condition: new
