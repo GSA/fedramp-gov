@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: SSP ATTACHMENT 13 - FedRAMP Integrated Inventory Workbook Template
+title: SSP Appendix M - Integrated Inventory Workbook Template
 category: Authorization Phase
 weblink:
-filename: templates/SSP-A13-FedRAMP-Integrated-Inventory-Workbook-Template.xlsx
+filename: templates/SSP-Appendix-M-Integrated-Inventory-Workbook-Template.xlsx
 filetype: excel
 fileinfo: excel - 299KB
 condition: update
