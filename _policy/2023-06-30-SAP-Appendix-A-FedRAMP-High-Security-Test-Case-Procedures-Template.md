@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: SAP Appendix A: FedRAMP High Security Test Case Procedures Template
+title: SAP Appendix A - FedRAMP High Security Test Case Procedures Template
 category: Authorization Phase
 weblink:
 filename: templates/SAP-Appendix-A-FedRAMP-High-Security-Test-Case-Procedures-Template.xlsx
