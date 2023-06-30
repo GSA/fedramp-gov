@@ -14,4 +14,4 @@ tags:
   - Baselines
 
 ---
-Coming soon
+The SSP Appendix A Low FedRAMP Security Controls template provides the FedRAMP Low baseline security control requirements for Low impact cloud systems.
