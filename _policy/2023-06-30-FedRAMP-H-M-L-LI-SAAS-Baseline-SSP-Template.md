@@ -16,4 +16,4 @@ tags:
   - System Security Plan
 
 ---
-The FedRAMP SSP High Baseline Template provides the FedRAMP High baseline security control requirements for High impact cloud systems. The template provides the framework to capture the system environment, system responsibilities, and the current status of the High baseline controls required for the system.
+The FedRAMP  High, Moderate, Low, LI-SaaS Baseline SSP Template provides the framework to describe the system, the service offering components and features, and its security posture in the relevant diagrams, tables, and security controls of the High, Moderate, Low, or LI-SaaS impact cloud system.

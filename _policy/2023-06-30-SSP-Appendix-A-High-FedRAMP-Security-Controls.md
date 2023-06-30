@@ -14,4 +14,4 @@ tags:
   - Baselines
 
 ---
-Coming soon
+The SSP Appendix A High FedRAMP Security Controls template provides the FedRAMP High baseline security control requirements for High impact cloud systems.
