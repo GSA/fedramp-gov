@@ -1,11 +1,11 @@
 ---
 layout: policy   
-title: SAR APPENDIX A - FedRAMP Risk Exposure Table Template
+title: SAR Appendix A - FedRAMP Risk Exposure Table (RET) Template
 category: Authorization Phase
 weblink:
-filename: templates/SAR-AA-FedRAMP-Risk-Exposure-Table-Template.xlsx
+filename: templates/SAR-Appendix-A-FedRAMP-Risk-Exposure-Table-(RET)-Template.xlsx
 filetype: excel
-fileinfo: excel - 20KB
+fileinfo: excel - 195KB
 condition: new
 partner: All Partners
 doctype:
