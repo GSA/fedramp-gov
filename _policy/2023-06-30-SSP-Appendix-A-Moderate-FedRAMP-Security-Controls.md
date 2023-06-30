@@ -14,4 +14,4 @@ tags:
   - Baselines
 
 ---
-Coming soon
+The SSP Appendix A Moderate FedRAMP Security Controls template provides the FedRAMP Moderate baseline security control requirements for Moderate impact cloud systems.
