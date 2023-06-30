@@ -15,4 +15,4 @@ tags:
   - System Security Plan
 
 ---
-The FedRAMP Low or Moderate CIS Workbook Template delineates the control responsibilities of CSPs and Federal Agencies and provides a summary of all required controls and enhancements across the system.
+The SSP Appendix J CIS and CRM Workbook template delineates the control responsibilities of CSPs and Federal Agencies and provides a summary of all required controls and enhancements across the system.  The template provides the necessary workbooks for High, Moderate, Low, or LI-SaaS impact cloud systems.
