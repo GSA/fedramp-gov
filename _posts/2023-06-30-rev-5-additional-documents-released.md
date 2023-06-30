@@ -31,6 +31,6 @@ The FedRAMP team has been improving documentation through streamlining content, 
 
 If you have any questions, please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> and/or join our weekly <a href="https://gsa.zoomgov.com/j/1606153784?pwd=Szd1R0tlUVEwaXpMQkJtU3FBUndXdz09#success" target="_blank" rel="noopener noreferrer">Rev. 5 Office Hours</a> every Wednesday through July 26 from 12:00 -1:00PM.
 
-We request that you submit your questions in advance of the Office Hours by filling out this form. Please note this question should benefit the larger Rev. 5 stakeholder community. Questions about a specific Rev. 5 requirement or scenario should be directed to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
+We request that you submit your questions in advance of the Office Hours by filling out this <a href="https://app.smartsheetgov.com/b/form/63624b554d71481aace33d3fc1380aed" target="_blank" rel="noopener noreferrer">form</a>. Please note this question should benefit the larger Rev. 5 stakeholder community. Questions about a specific Rev. 5 requirement or scenario should be directed to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
 
 You can also find answers to questions in the Rev. 5 section of the <a href="https://www.fedramp.gov/faqs/" target="_blank" rel="noopener noreferrer">FedRAMP FAQ page</a>. 
