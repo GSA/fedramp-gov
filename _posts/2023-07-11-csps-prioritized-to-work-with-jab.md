@@ -18,6 +18,6 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
 
 These CSPs were selected in accordance with our JAB Prioritization Criteria and FedRAMP Connect Guidance document and will work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and the infrastructure modernization that these CSPs will represent for JAB Authorizations. Congratulations!
 
-If you are a CSP interested in working with the JAB, please review the JAB Prioritization Criteria and FedRAMP Connect Guidance in its entirety, and reach out to info@fedramp.gov with questions or to set up a coaching call.
+If you are a CSP interested in working with the JAB, please review the JAB Prioritization Criteria and FedRAMP Connect Guidance in its entirety, and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with questions or to set up a coaching call.
 
 If you are an agency customer that would like to see a CSP prioritized to work with the JAB, please share the above information with your service provider and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> expressing your interest.
