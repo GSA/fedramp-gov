@@ -16,7 +16,7 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
 - Telos - XACTA SAAS
 
 
-These CSPs were selected in accordance with our JAB Prioritization Criteria and FedRAMP Connect Guidance document and will work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and the infrastructure modernization that these CSPs will represent for JAB Authorizations. Congratulations!
+These CSPs were selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf" target="_blank" rel="noopener noreferrer">JAB Prioritization Criteria and FedRAMP Connect Guidance</a> document and will work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and the infrastructure modernization that these CSPs will represent for JAB Authorizations. Congratulations!
 
 If you are a CSP interested in working with the JAB, please review the JAB Prioritization Criteria and FedRAMP Connect Guidance in its entirety, and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with questions or to set up a coaching call.
 
