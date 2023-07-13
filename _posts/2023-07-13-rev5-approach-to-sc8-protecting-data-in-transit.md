@@ -28,15 +28,21 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 			<div class="full-col desktop:grid-col-12">
 <b>Question:</b> If an IaaS complies with the requirements of the CAA, how can a platform as a service (PaaS)/ software as a service (SaaS) leverage that compliance for confidentiality of their data, assuming they would? What are the limits?
 
-<b>Answer:</b> A PaaS/SaaS can leverage the CAA as follows:
-- The CAA, and encryption between data centers, as necessary, must be authorized by the IaaS/PaaS CSPs before it can be leveraged as inherited by customers
-- As described above, the IaaS CSO documentation must document that SC-8, SC-8(1), and SC-8(5) are inheritable “as a set” for DIT protection, that is, all three must be in place. 
-- The documentation must clearly state that the following is in place:
-  - CAA per SC-8(5) for all data centers where DIT may traverse
-  - DIT encryption is in place between data centers where:
-    - The encryption is FIPS 140 validated 
-    - The encryption termination points are inside the CAA envelope in all data centers
-- Independent assessor validates all of the above
+<p><b>Answer:</b> A PaaS/SaaS can leverage the CAA as follows:</p>
+<ul>
+	<li>The CAA, and encryption between data centers, as necessary, must be authorized by the IaaS/PaaS CSPs before it can be leveraged as inherited by customers</li>
+	<li>As described above, the IaaS CSO documentation must document that SC-8, SC-8(1), and SC-8(5) are inheritable “as a set” for DIT protection, that is, all three must be in place.</li> 
+	<li>The documentation must clearly state that the following is in place:
+		<ul>
+			<li>CAA per SC-8(5) for all data centers where DIT may traverse</li>
+			<li>DIT encryption is in place between data centers where:</li>
+				<ul>
+					<li>The encryption is FIPS 140 validated</li> 
+					<li>The encryption termination points are inside the CAA envelope in all data centers</li>
+				</ul>
+		</ul>
+	<li>Independent assessor validates all of the above</li>
+</ul>
 			</div>
 		</div>
 	</div>
