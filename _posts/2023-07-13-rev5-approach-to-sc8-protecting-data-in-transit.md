@@ -26,7 +26,7 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 	<div class="grid-container " style="padding: 2rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<b>Question:</b> If an IaaS complies with the requirements of the CAA, how can a platform as a service (PaaS)/ software as a service (SaaS) leverage that compliance for confidentiality of their data, assuming they would? What are the limits?
+<p><b>Question:</b> If an IaaS complies with the requirements of the CAA, how can a platform as a service (PaaS)/ software as a service (SaaS) leverage that compliance for confidentiality of their data, assuming they would? What are the limits?</p>
 
 <p><b>Answer:</b> A PaaS/SaaS can leverage the CAA as follows:</p>
 <ul>
@@ -41,6 +41,7 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 					<li>The encryption termination points are inside the CAA envelope in all data centers</li>
 				</ul>
 		</ul>
+	</li>	
 	<li>Independent assessor validates all of the above</li>
 </ul>
 			</div>
