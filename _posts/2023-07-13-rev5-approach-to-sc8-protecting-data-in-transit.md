@@ -50,7 +50,7 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 </section>
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 1em >
+	<div class="grid-container " style="padding: 1em" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p></p><b>Question:</b> What is the IaaS/PaaS authorization process for SC-8, SC-8(1), and SC-8(5) as a set?</p>
