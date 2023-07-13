@@ -40,9 +40,9 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 					<li>The encryption is FIPS 140 validated</li> 
 					<li>The encryption termination points are inside the CAA envelope in all data centers</li>
 				</ul>
-		</ul>
-	</li>	
-	<li>Independent assessor validates all of the above</li>
+			<li>Independent assessor validates all of the above</li>
+   		</ul>
+	</li>
 </ul>
 			</div>
 		</div>
@@ -53,15 +53,17 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 	<div class="grid-container " style="padding: 2rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<b>Question:</b> What is the IaaS/PaaS authorization process for SC-8, SC-8(1), and SC-8(5) as a set?
+<p></p><b>Question:</b> What is the IaaS/PaaS authorization process for SC-8, SC-8(1), and SC-8(5) as a set?</p>
 
-<b>Answer:</b>  IaaS/PaaS CSPs must complete the following steps:
-- Add SC-8(5), and the applicable PE control enhancements to the SSP template, and document the implementation
-- Implement all the PE controls referenced in SC-8(5) to protect DIT from internal components to the edge of the data centers
-- Implement FIPS 140 validated encryption from the data center edge to every other data center edge terminating inside the CAA envelope
-- The CSP’s independent assessor must validate all of the above
-- Submit the above to FedRAMP for authorization - most often as a significant change
-- Once authorized, all DIT connections that both originate and terminate inside the IaaS/PaaS boundary will then meet SC-8, SC-8(1), and SC-8(5) requirements, and can be leveraged by customers
+<p><b>Answer:</b>  IaaS/PaaS CSPs must complete the following steps:</p>
+<ul>
+	<li>Add SC-8(5), and the applicable PE control enhancements to the SSP template, and document the implementation</li>
+	<li>Implement all the PE controls referenced in SC-8(5) to protect DIT from internal components to the edge of the data centers</li>
+	<li>Implement FIPS 140 validated encryption from the data center edge to every other data center edge terminating inside the CAA envelope</li>
+	<li>The CSP’s independent assessor must validate all of the above</li>
+	<li>Submit the above to FedRAMP for authorization - most often as a significant change</li>
+	<li>Once authorized, all DIT connections that both originate and terminate inside the IaaS/PaaS boundary will then meet SC-8, SC-8(1), and SC-8(5) requirements, and can be leveraged by customers</li>
+</ul>
 			</div>
 		</div>
 	</div>
