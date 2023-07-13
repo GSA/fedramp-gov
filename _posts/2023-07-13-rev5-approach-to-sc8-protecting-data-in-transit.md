@@ -23,7 +23,7 @@ While it is available to any CSP, it is anticipated that this change would be im
 For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (DIT) inside a data center. Data at rest (DAR) must still be encrypted. CSPs also need to apply SC-13 to encrypted traffic.
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 0em" >
+	<div class="grid-container " style="padding: 1em" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p><b>Question:</b> If an IaaS complies with the requirements of the CAA, how can a platform as a service (PaaS)/ software as a service (SaaS) leverage that compliance for confidentiality of their data, assuming they would? What are the limits?</p>
@@ -50,7 +50,7 @@ For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (
 </section>
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 2rem 0" >
+	<div class="grid-container " style="padding: 1em >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p></p><b>Question:</b> What is the IaaS/PaaS authorization process for SC-8, SC-8(1), and SC-8(5) as a set?</p>
