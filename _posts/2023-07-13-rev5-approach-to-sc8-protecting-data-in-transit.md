@@ -20,7 +20,7 @@ While it is available to any CSP, it is anticipated that this change would be im
   - Physical protection picks up again from the second data center’s edge to the receiving component 
 - All of the above must be validated by your independent assessor. For customers of IaaS/PaaS CSOs, all of the above must be declared as inheritable in the IaaS/PaaS customer responsibility matrix before customers can leverage these controls for DIT protection
 
-For all CSPs, note that SC-8(5) CAA protection only applies to data in transit (DIT) inside a data center. Data at rest (DAR) must still be encrypted. CSPs also need to apply SC-13 to encrypted traffic.
+For all CSPs, note that SC-8(5) CAA protection only applies to DIT inside a data center. Data at rest (DAR) must still be encrypted. CSPs also need to apply SC-13 to encrypted traffic.
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:30px">
 	<div class="grid-container " style="padding: 1.5em" >
