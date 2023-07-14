@@ -23,7 +23,7 @@ Further guidance for agencies is included in the <b>bullets below extracted from
 	<li>Network traffic that is not decrypted can and should still be analyzed using visible or logged metadata, machine learning techniques, and other heuristics for detecting anomalous activity. This is consistent with the Trusted Internet Connection (TIC) initiative, as updated in OMB Memorandum M-19-26, which gives agencies the flexibility to maintain appropriate visibility without needing to perform inline traffic decryption.</li>
 	<li>OMB Memorandum M-21-31, “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents”, describes required fields that agencies must log consistently throughout their enterprise, including packet capture logs. M-21-31 does not require full traffic inspection, but specifies fields that should be captured when such inspection is in place. M-21-31 describes this conditional requirement:
 		<ul>    
-			<li>If agencies perform full traffic inspection through active proxies, they should log additional available fields as described in Appendix C and can work with CISA to implement these capabilities. If agencies do not perform full traffic inspection, they should log the metadata available to them.”</li>
+			<li>If agencies perform full traffic inspection through active proxies, they should log additional available fields as described in Appendix C and can work with CISA to implement these capabilities. If agencies do not perform full traffic inspection, they should log the metadata available to them.</li>
     </ul> 
   </li> 
 </ul>  
