@@ -16,10 +16,17 @@ FedRAMP, in consultation with OMB, assessed that M-21-31 does not apply directly
 <h3>Additional Guidance</h3>
 Further guidance for agencies is included in the bullets below extracted from Section 3 of <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" target="_blank" rel="noopener noreferrer">OMB Memorandum 22-09, “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</a>,  which is related to and references M-19-26 and M-21-31.
 
-<p style="margin-left: 25px;"><b>OMB M-19-26 and OMB M-21-31 – Alternatives to network inspection</b>
-- Current OMB policies neither require nor prohibit inline decryption of enterprise network traffic. Agencies are expected to balance the depth of visibility they need with the risks presented by broadly trusted network inspection devices.
-- Network traffic that is not decrypted can and should still be analyzed using visible or logged metadata, machine learning techniques, and other heuristics for detecting anomalous activity. This is consistent with the Trusted Internet Connection (TIC) initiative, as updated in OMB Memorandum M-19-26, which gives agencies the flexibility to maintain appropriate visibility without needing to perform inline traffic decryption.
-- OMB Memorandum M-21-31, “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents”, describes required fields that agencies must log consistently throughout their enterprise, including packet capture logs. M-21-31 does not require full traffic inspection, but specifies fields that should be captured when such inspection is in place. M-21-31 describes this conditional requirement:
-  - If agencies perform full traffic inspection through active proxies, they should log additional available fields as described in Appendix C and can work with CISA to implement these capabilities. If agencies do not perform full traffic inspection, they should log the metadata available to them.”</p>
+<p style="margin-left: 25px;"><b>OMB M-19-26 and OMB M-21-31 – Alternatives to network inspection</b></p>
+<p style="margin-left: 25px;">
+<ul>
+	<li>Current OMB policies neither require nor prohibit inline decryption of enterprise network traffic. Agencies are expected to balance the depth of visibility they need with the risks presented by broadly trusted network inspection devices.</li>
+	<li>Network traffic that is not decrypted can and should still be analyzed using visible or logged metadata, machine learning techniques, and other heuristics for detecting anomalous activity. This is consistent with the Trusted Internet Connection (TIC) initiative, as updated in OMB Memorandum M-19-26, which gives agencies the flexibility to maintain appropriate visibility without needing to perform inline traffic decryption.</li>
+	<li>OMB Memorandum M-21-31, “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents”, describes required fields that agencies must log consistently throughout their enterprise, including packet capture logs. M-21-31 does not require full traffic inspection, but specifies fields that should be captured when such inspection is in place. M-21-31 describes this conditional requirement:
+		<ul>    
+			<li>If agencies perform full traffic inspection through active proxies, they should log additional available fields as described in Appendix C and can work with CISA to implement these capabilities. If agencies do not perform full traffic inspection, they should log the metadata available to them.”</li>
+    </ul> 
+  </li> 
+</ul>  
+</p>
 
 Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions.
