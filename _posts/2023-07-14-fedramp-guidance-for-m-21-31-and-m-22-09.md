@@ -14,7 +14,7 @@ Section 8 of the EO also directs federal agencies to offer more specific instruc
 FedRAMP, in consultation with OMB, assessed that M-21-31 does not apply directly to CSP offerings (unless that CSP is a government system); however, FedRAMP authorized CSOs must comply with M-21-31 by supporting agency implementations within the cloud offering. These requirements are reflected in the FedRAMP Rev. 5 baselines (specifically AC-4 (4), AU-11, and SI-4 (10)).
 
 <h3>Additional Guidance</h3>
-Further guidance for agencies is included in the <b></b>bullets below extracted from Section 3 of <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" target="_blank" rel="noopener noreferrer">OMB Memorandum 22-09, “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</a></b>,  which is related to and references M-19-26 and M-21-31.
+Further guidance for agencies is included in the <b>bullets below extracted from Section 3 of <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" target="_blank" rel="noopener noreferrer">OMB Memorandum 22-09, “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</a></b>,  which is related to and references M-19-26 and M-21-31.
 
 <p style="margin-left: 25px;"><b>OMB M-19-26 and OMB M-21-31 – Alternatives to network inspection</b></p>
 <p style="margin-left: 25px;">
