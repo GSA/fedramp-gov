@@ -1,6 +1,6 @@
 ---
 title: 3PAO Assessment Teams Must Be Qualified
-permalink: /2023-08-24-3pao-assessment-teams-must-be-qualified/
+permalink: /2023-07-20-3pao-assessment-teams-must-be-qualified/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-3PAO.png
 author: FedRAMP
