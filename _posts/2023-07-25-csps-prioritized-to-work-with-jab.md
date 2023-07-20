@@ -1,6 +1,6 @@
 ---
 title: CSPs Prioritized to Work with the JAB
-permalink: /2023-08-24-csps-prioritized-to-work-with-jab/
+permalink: /2023-07-25-csps-prioritized-to-work-with-jab/
 body-class: page-blog
 image: /assets/img/blog-images/-general-blog-banners/general-banner-FRConnect.png
 author: FedRAMP
