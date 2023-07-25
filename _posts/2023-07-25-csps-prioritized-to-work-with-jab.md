@@ -12,7 +12,7 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
 - Google Cloud - Google Cloud VMware Engine
 - KBR Vaault - KBR Vaault for Public Safety 
 - Quzara LLC - Quzara Cybertorch 
-- Red Hat - Red Hat Openshift Service 
+- Red Hat - Red Hat Openshift Service
 - Telos - XACTA SAAS
 
 
