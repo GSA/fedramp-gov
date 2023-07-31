@@ -19,4 +19,4 @@ The remaining seven courses in the 3PAO training curriculum will be updated on a
 
 All 3PAO training courses will be available on the updated <a href="https://www.fedramp.gov/training/" target="_blank" rel="noopener noreferrer">FedRAMP training page</a> as the new versions are released. 
 
-Please email info@fedramp.gov if you have any questions. 
+Please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> if you have any questions. 
