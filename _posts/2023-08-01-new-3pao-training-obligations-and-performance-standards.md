@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2023-08-01-new-3pao-training-obligations-and-perf
 author: FedRAMP
 layout: blog-page
 ---
-FedRAMP recognized third party assessment organizations (3PAOs) now have a <a href="https://www.youtube.com/watch?v=fQ6r4sFSLvk" target="_blank" rel="noopener noreferrer">300-0 Obligations and Performance Standards training</a> course that complements the <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP 3PAO Obligations and Performance Standards</a> document and also serves as an introduction to the new 3PAO training curriculum.
+FedRAMP recognized Third Party Assessment Organizations (3PAOs) now have a <a href="https://www.youtube.com/watch?v=fQ6r4sFSLvk" target="_blank" rel="noopener noreferrer">300-0 Obligations and Performance Standards training</a> course that complements the <a href="https://www.fedramp.gov/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP 3PAO Obligations and Performance Standards</a> document and also serves as an introduction to the new 3PAO training curriculum.
 
 The training and accompanying FedRAMP 3PAO Obligations and Performance Standards document outlines the:  
 - Scope of a 3PAO’s roles and responsibilities related to the FedRAMP assessment processes 
