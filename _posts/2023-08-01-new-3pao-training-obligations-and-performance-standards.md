@@ -2,7 +2,7 @@
 title: New 3PAO Training - Obligations and Performance Standards
 permalink: /2023-08-01-new-3pao-training-obligations-and-performance-standards/
 body-class: page-blog
-image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
+image: /assets/img/blog-images/2023-08-01-new-3pao-training-obligations-and-performance-standards.png
 author: FedRAMP
 layout: blog-page
 ---
