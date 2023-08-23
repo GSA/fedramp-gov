@@ -1070,3 +1070,13 @@ ul.sub-sub-menu {
 	}
 }
 
+.usa-nav-primary li.parent:last-child {
+	background: $dark-gray;
+	color: white !important;
+}
+
+.usa-nav-primary li.parent.primary-active:last-child {
+	background: $dark-gray;
+	color: white !important;
+}
+
