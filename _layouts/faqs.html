@@ -756,8 +756,62 @@ Finally, who will determine the severity of these POA&Ms created by September 1s
           </h4>
           <div id="proceed-with-prior-version-rar-template" class="usa-accordion__content usa-prose">
 		  <p>Since your Readiness Assessment was already underway when the new baselines and RAR templates were released, you will still be able to acheive FedRAMP Ready based on the Rev 4 RAR templates and controls.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="csp-prepare-privary-requirements-pia-template">How should a CSP prepare for privacy control requirements when preparing for an Authorization under Rev. 5? Will there be an updated PIA template released by FedRAMP to address Privacy controls, similar to Rev. 4?</button>
+          </h4>
+          <div id="csp-prepare-privary-requirements-pia-template" class="usa-accordion__content usa-prose">
+		  <p>There are some privacy-related controls in the FedRAMP baselines; however, like with Rev 4, FedRAMP did not include the privacy overlay (Privacy Control Baseline) that NIST has defined in SP 800-53B or any PT controls as part of the FedRAMP baselines. It is the responsibility of each agency to determine their own privacy-related requirements and work with the CSP to make sure those controls are implemented. Privacy controls can flucuate greatly depending on the data types, which is why these are not included as part of the FedRAMP baselines.CSPs should work with their AO to determine if the Agency has privacy requirements above and beyond what is specificed in the Rev. 5 FedRAMP baselines. There are no current plans to provide a Rev. 5 PTA/PIA template for CSPs to complete. Agencies should execute a PTA/PIA to ensure that they are meeting their privacy requirements.</p> 
           </div>		
-		
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="sr-components-focused-on-paid-vendor-large-components">For SR controls: CSPs can define what systems, components, and services fall under the SCRM (SR-2), but is it the intent of the PMO that this only be focused on the paid-vendor or large components? Things like Solarwinds seem obvious to include, but what is the expectation from the PMO in regards to things like pypi sourced packages used to administer the cloud system? Or modules sourced from github used in the product offering of the CSP or in their Infrastructure-as-Code? There are plenty of news articles about those 3rd party modules/components being exploited, but the scope of managing and accounting for those types of components is large, costly, and would make audits take longer.</button>
+          </h4>
+          <div id="sr-components-focused-on-paid-vendor-large-components" class="usa-accordion__content usa-prose">
+		  <p>FedRAMP will leverage NIST 800-161 as the requirements for supply chain considerations for all commercial, proprietary, and open source sources in CSOs. If the technology is being used or leveraged by the CSO, the supply chain controls apply. The Supply Chain Risk Management Plan should enumerate all the products and the plan for managing any risks including open source. According to the supply chain controls, CSPs need to document the scope, methodology and the depth of documenting, managing and testing for the source of products or code being used. The supply chain controls are in scope for audits for FedRAMP but the supplier management is the responsibility of the CSP. 3PAOs will be examining the records and documents, not the individual suppliers.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="at-2-security-privacy-literacy-training">For AT-2, Literary Training and Awareness, does FedRAMP require distinct basic security and privacy literacy training, advanced literacy training, and awareness techniques?</button>
+          </h4>
+          <div id="at-2-security-privacy-literacy-training" class="usa-accordion__content usa-prose">
+		  <p>While the supplemental guidance states that security awareness and security literacy training are two separate training activities, there is no requirement for giving separate trainings, only that the training covers both the topic categories. There is no requirement to provide distinct basic and advanced training. However, organizations may decide to separate basic and advance concepts or combine them. Organizations determine the content of literacy training and awareness based on specific organizational requirements, the systems to which personnel have authorized access, and work environments (e.g., telework).</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="sc-7-4-defined-control-plane-traffic">For SC-7(4), what is defined as control plane traffic?</button>
+          </h4>
+          <div id="sc-7-4-defined-control-plane-traffic" class="usa-accordion__content usa-prose">
+		  <p>Control plane traffic in the context of external telecommunications systems are the exchanges with the telecommunication providers that allow for the use of data and voice services and include, for example, management protocols, Domain Name Services (DNS) and Border Gateway Protocol (BGP). The term management plane is not a NIST term and not mentioned in this control but in this context it would be the plane where device management and monitoring takes place inside the authorization boundary. While there would not be a prescribed implementation detecting changes the protocols that defined network level changes do have safeguards built. How the CSP chooses to monitor for changes will be dependent on the implementation.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="csps-ensure-vendors-build-test-alignment-nist-800-171-required-by-sr-6">How can CSPs ensure vendors build and test in alignment with NIST 800-171 or equivalent framework as required by SR-6 in the High and Moderate baselines?</button>
+          </h4>
+          <div id="csps-ensure-vendors-build-test-alignment-nist-800-171-required-by-sr-6" class="usa-accordion__content usa-prose">
+		  <p>CSPs can assess the Baseline Risk Factors defined in NIST SP 800-161, Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations, Appendix E Table E-1. CSPs will need to work with their vendors to gain access to the necessary documentation that the CSP can review to determine whether the vendor is in alignment with NIST 800-171 or equivalent framework. That may be an internal assessment performed by the supplier, a third-party, or in support of a framework such as PCI or ISO/IEC 27001 and others.</p> 
+          </div>
+		  <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="ssp-section-9-purpose-appendix-q-reference-number">In the SSP Section 9 -  Ports, Protocols, Service, what is the purpose of the Appendix Q reference number?</button>
+          </h4>
+          <div id="ssp-section-9-purpose-appendix-q-reference-number" class="usa-accordion__content usa-prose">
+		  <p>Network connections are represented in several areas of an SSP. The reference number assigned in the Data in Transit (DIT) table of Appendix Q should be used to align these entries to the Ports, Protocols, Service (PPS) table, and DIT lines on the Data Flow Diagram (DFD).</p> 
+<p>All DIT connections should be included in all three places and are consistently aligned.The Rev 5 templates address this by:</p>
+		  <ul class="red-bullets margin-top-0">
+		    <li>Ensuring all DIT is represented in all three locations</li>
+		    <li>Provides a reference number for traceability from one to another</li>
+		    <li>Reduces clutter on the DFD by requiring only the reference number on each line</li>
+		</ul>			  
+<p>It is expected that a single entry in the Appendix Q DIT table will have the same properties in the PPS table, and on the DFD. CSPs are encouraged to consolidate the DIT table to unique entries rather than a row for every connection in the CSO.</p> 
+          </div>		
  <div class="padding-bottom-8"> </div>
         </div>
       </div>
