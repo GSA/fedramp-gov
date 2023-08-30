@@ -106,12 +106,14 @@ assigned:
             permalink: /rev5-transition/
             show_in_menu: true
             show_in_footer: false
+
     -
         text: Blog
         href: pages/blog.md
         permalink: /blog/
         show_in_menu: true
-        show_in_footer: false    
+        show_in_footer: false
+        
     -
         text: Marketplace
         show_in_menu: true
