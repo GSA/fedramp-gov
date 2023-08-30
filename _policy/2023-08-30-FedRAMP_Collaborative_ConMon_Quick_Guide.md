@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP Collaborative ConMon Quick Guide
 category: Continuous Monitoring Phase
 weblink:
-filename: documents/Agency_Guide_for_Multi-Agency_Continuous_Monitoring.pdf
+filename: documents/FedRAMP_Collaborative_ConMon_Quick_Guide.pdf
 filetype: pdf
 fileinfo: PDF - 418KB
 condition: new
