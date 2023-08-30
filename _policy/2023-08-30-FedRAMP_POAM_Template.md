@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-POAM-Template.xlsm
 filetype: excel
-fileinfo: excel - 70KB
+fileinfo: excel - 74KB
 condition: update
 partner: All Partners
 doctype:
