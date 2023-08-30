@@ -5,7 +5,7 @@ category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf
 filetype: pdf
-fileinfo: PDF - 819KB
+fileinfo: PDF - 471KB
 condition: new
 partner: Cloud Service Providers
 doctype:
