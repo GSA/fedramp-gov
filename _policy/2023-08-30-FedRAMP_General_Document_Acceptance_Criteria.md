@@ -5,7 +5,7 @@ category: FedRAMP Program Documents
 weblink:
 filename: documents/FedRAMP_General_Document_Acceptance_Criteria.pdf
 filetype: pdf
-fileinfo: PDF - 315KB
+fileinfo: PDF - 282KB
 condition: new
 partner: All Partners
 doctype:
