@@ -14,4 +14,4 @@ The key updates to the R311 include:
 - Requiring 3PAOs to report any foreign ownership, control, or influence (FOCI) operations utilizing the FedRAMP 3PAO FOCI Declaration Form as part of initial and subsequent renewal applications
 - Clarifying that if a 3PAO is revoked twice by FedRAMP, the 3PAO is no longer eligible to be recognized by FedRAMP
 
-To learn more about the changes, please visit <a href="https:HOLD" target="_blank" rel="noopener noreferrer">A2LA’s website</a>, and please reach out to <a href="mailto:FedRAMP@a2la.org" target="_blank" rel="noopener noreferrer">FedRAMP@a2la.org</a> with any questions.
+To learn more about the changes, please visit <a href="https://a2la.org/updated-r311-fedramp-requirements-released/" target="_blank" rel="noopener noreferrer">A2LA’s website</a>, and please reach out to <a href="mailto:FedRAMP@a2la.org" target="_blank" rel="noopener noreferrer">FedRAMP@a2la.org</a> with any questions.
