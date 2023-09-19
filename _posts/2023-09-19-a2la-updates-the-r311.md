@@ -1,6 +1,6 @@
 ---
 title: A2LA Updates the R311
-permalink: /2023-09-19-a2la-updates-the-r311.md/
+permalink: /2023-09-19-a2la-updates-the-r311/
 body-class: page-blog
 image: /assets/img/blog-images/2023-09-19-A2LA-updates-the-R311.png
 author: FedRAMP
