@@ -29,4 +29,4 @@ Following the introduction and welcome to each meeting, the FedRAMP OSCAL Data B
 <h3>Why is FedRAMP hosting these sessions? </h3>
 Our goal is to establish and maintain regular communication with our OSCAL end-users to ensure we are addressing the needs of all stakeholders involved. 
 
-<h4>Interested in attending? Sign up to receive information and meeting details <a href="https://forms.gle/7vER3W3pRbR1wq6R9" target="_blank" rel="noopener noreferrer">here</a>!</h4>
+<h4>Interested in attending? Sign up to receive information and meeting details <a href="https://docs.google.com/forms/d/1XgP_CZTfIh_ahdPJ6V2eBxIRCQ6wqT34ZFEWCApN9i4/edit" target="_blank" rel="noopener noreferrer">here</a>!</h4>
