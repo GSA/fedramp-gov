@@ -6,8 +6,7 @@ image: /assets/img/blog-images/2021-10-28-Updated-Marketplace-Designations-Docum
 author: FedRAMP
 layout: blog-page
 ---
-
-FedRAMP updated its [Marketplace Designations for Cloud Service Providers](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Marketplace_Designations_for_Cloud_Service_Providers.pdf) (CSPs) guidance document to clarify requirements for achieving a FedRAMP Marketplace designation. This document defines each of FedRAMP’s Marketplace designations and lists the criteria a Cloud Service Offering (CSO) must meet to achieve and maintain each designation. 
+FedRAMP updated its Marketplace Designations for Cloud Service Providers (CSPs) guidance document (document superseded by <a href="https://www.fedramp.gov/about-marketplace/" target="_blank" rel="noopener noreferrer">"About Marketplace" page</a>) to clarify requirements for achieving a FedRAMP Marketplace designation. This document defines each of FedRAMP’s Marketplace designations and lists the criteria a Cloud Service Offering (CSO) must meet to achieve and maintain each designation. 
  
 <strong>Updates to this document include:</strong>
 - Clarifies requirements for achieving the In Process designation.
