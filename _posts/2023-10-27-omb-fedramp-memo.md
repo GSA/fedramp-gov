@@ -1,8 +1,8 @@
 ---
-title: Vision for an Automated FedRAMP
+title: OMB FedRAMP Memo
 permalink: /2025-10-24-vision-for-automated-fedramp/
 body-class: page-blog
-image: /assets/img/blog-images/2023-10-27-omb-fedramp-memo.png
+image: /assets/img/blog-images/2023-10-27-OMB-fedramp-memo.png
 author: FedRAMP
 layout: blog-page
 ---
