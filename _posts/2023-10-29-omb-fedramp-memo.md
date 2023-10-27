@@ -1,6 +1,6 @@
 ---
 title: OMB FedRAMP Memo
-permalink: /2025-10-24-vision-for-automated-fedramp/
+permalink: /2023-10-29-omb-fedramp-memo/
 body-class: page-blog
 image: /assets/img/blog-images/2023-10-27-OMB-fedramp-memo.png
 author: FedRAMP
