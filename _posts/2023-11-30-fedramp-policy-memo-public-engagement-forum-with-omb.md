@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Policy Memo Public Engagement Forum with OMB
-permalink: /2023-10-31-fedramp-policy-memo-public-engagement-forum-with-omb/
+permalink: /2023-11-30-fedramp-policy-memo-public-engagement-forum-with-omb/
 body-class: page-blog
 image: /assets/img/blog-images/2023-10-31-fedramp-policy-memo-public-engagement-forum-with-omb.png
 author: FedRAMP
