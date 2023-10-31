@@ -1,5 +1,5 @@
 ---
-title: OMB FedRAMP Memo
+title: FedRAMP's Role In The AI Executive Order
 permalink: /2023-10-31-fedramps-role-in-the-ai-executive-order/
 body-class: page-blog
 image: /assets/img/blog-images/2023-10-31-fedramps-role-in-the-ai-executive-order.png
