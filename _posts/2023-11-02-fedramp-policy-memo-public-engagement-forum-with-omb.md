@@ -15,5 +15,7 @@ This event is not intended to replace the open comment period in the Federal Reg
 To participate in OMB’s Public Engagement Forum for the FedRAMP Modernization policy memo, please register at the link below. We look forward to seeing you!
 
 <b>Date:</b> November 15, 2023
+
 <b>Time:</b> 2 hours [12 - 2pm EST]
+
 <b>OMB’s Public Engagement Forum Registration Link:</b> <a href="xxxx" target="_blank" rel="noopener noreferrer">Registration Link</a>
