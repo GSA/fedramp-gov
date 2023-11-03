@@ -10,7 +10,7 @@ The Office of Management and Budget (OMB) will be holding a virtual public engag
 
 The FedRAMP PMO is committed to stakeholder feedback and will be hosting this meeting to give our stakeholders the opportunity to engage in direct dialogue with the Office of Management and Budget (OMB).
 
-This event is not intended to replace the open comment period in the Federal Register, but to encourage dialogue around the policy memo so OMB gets more and better feedback from FedRAMP stakeholders. To ensure your feedback is officially captured, we strongly encourage stakeholders to provide comments <a href="https://www.federalregister.gov/documents/2023/10/27/2023-23839/request-for-comments-on-updated-guidance-for-modernizing-the-federal-risk-authorization-management" target="_blank" rel="noopener noreferrer">here</a> through the Federal Register - open until November 27, 2023.
+This event is not intended to replace the open comment period in the Federal Register, but to encourage dialogue around the policy memo so OMB gets more and better feedback from FedRAMP stakeholders. To ensure your feedback is officially captured, we strongly encourage stakeholders to provide <a href="https://www.federalregister.gov/documents/2023/10/27/2023-23839/request-for-comments-on-updated-guidance-for-modernizing-the-federal-risk-authorization-management" target="_blank" rel="noopener noreferrer">comments through the Federal Register</a>  - open until November 27, 2023.
 
 To participate in OMB’s Public Engagement Forum for the FedRAMP Modernization policy memo, please register at the link below. We look forward to seeing you!
 
