@@ -18,4 +18,4 @@ To participate in OMB’s Public Engagement Forum for the FedRAMP Modernization 
 
 <b>Time:</b> 2 hours [12 - 2pm EST]
 
-<b>OMB’s Public Engagement Forum Registration Link:</b> <a href="https://gsa.zoomgov.com/meeting/register/vJItdOGrpzorG5S5bi4cbMRSdXv-g_-Jl1c" target="_blank" rel="noopener noreferrer">Registration Link</a>
+<b>Registration Link:</b> <a href="https://gsa.zoomgov.com/meeting/register/vJItdOGrpzorG5S5bi4cbMRSdXv-g_-Jl1c" target="_blank" rel="noopener noreferrer">OMB’s Public Engagement Forum Registration Link</a>
