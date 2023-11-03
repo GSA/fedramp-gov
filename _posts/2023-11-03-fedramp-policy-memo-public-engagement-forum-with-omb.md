@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2023-10-31-fedramp-policy-memo-public-engagement-
 author: FedRAMP
 layout: blog-page
 ---
-The Office of Management and Budget (OMB) will be holding a virtual public engagement forum on Wednesday, November 15, 2023 at 12pm EST to read through the <a href="https://www.cio.gov/assets/files/resources/FedRAMP-updated-draft-guidance-2023.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Modernization Memo</a> and answer participant questions. The goal of this forum is to ensure stakeholders become more familiar with the memo and its contents, and have an opportunity to engage with OMB directly.
+The Office of Management and Budget (OMB) will be holding a virtual public engagement forum on Wednesday, November 15, 2023 at 12pm EST to read through the <a href="https://www.whitehouse.gov/wp-content/uploads/2023/11/FedRAMP-updated-draft-guidance-2023.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Modernization Memo</a> and answer participant questions. The goal of this forum is to ensure stakeholders become more familiar with the memo and its contents, and have an opportunity to engage with OMB directly.
 
 The FedRAMP PMO is committed to stakeholder feedback and will be hosting this meeting to give our stakeholders the opportunity to engage in direct dialogue with the Office of Management and Budget (OMB).
 
