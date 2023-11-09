@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Repository - USDA Connect Update
-permalink: /2023-11-09-usda-connect-update-to-fedramp-stakeholders/
+permalink: /2023-11-13-usda-connect-update-to-fedramp-stakeholders/
 body-class: page-blog
 image: /assets/img/blog-images/2023-09-21-fedramp-repository-next-steps.png
 author: FedRAMP
