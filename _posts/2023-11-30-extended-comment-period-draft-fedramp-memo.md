@@ -2,7 +2,7 @@
 title: Extended Comment Period on Draft FedRAMP Memo
 permalink: /2023-11-30-extended-comment-period-draft-fedramp-memo/
 body-class: page-blog
-image: /assets/img/blog-images/2023-10-31-fedramp-policy-memo-public-engagement-forum-with-omb.png
+image: /assets/img/blog-images/2023-11-30-extended-comment-period-draft-fedramp-memo.png
 author: FedRAMP
 layout: blog-page
 ---
