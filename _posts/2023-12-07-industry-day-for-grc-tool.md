@@ -1,11 +1,12 @@
 ---
 title: Industry Day for GRC Tool
-permalink: /2023-11-30-extended-comment-period-draft-fedramp-memo/
+permalink: /2023-12-07-industry-day-for-grc-tool/
 body-class: page-blog
-image: /assets/img/blog-images/2023-11-30-extended-comment-period-draft-fedramp-memo.png
+image: /assets/img/blog-images/2023-12-07-industry-day-for-grc-tool.md.png
 author: FedRAMP
 layout: blog-page
 ---
+
 An Industry Day for the FedRAMP Governance, Risk, Compliance (GRC) Solution requirement is scheduled for December 12, 2023 from 3PM to 4PM EST. The Technology Transformation Services Office of Acquisition within the General Services Administration is soliciting questions regarding the draft Performance Work statement, which can be accessed by eBuy users by searching for RFQ1666907 on <a href="www.ebuy.gsa.gov/ebuyopen" target="_blank" rel="noopener noreferrer">www.ebuy.gsa.gov/ebuyopen</a>. A draft solicitation may be provided at a later date. 
 
 1. Please email questions in advance of the session to  <a href="mailto:audrea.white@gsa.gov" target="_blank" rel="noopener noreferrer">audrea.white@gsa.gov</a>, <a href="mailto:jacqueline.mcglone@gsa.gov" target="_blank" rel="noopener noreferrer">jacqueline.mcglone@gsa.gov</a>, and <a href="mailto:justen.proctor@gsa.gov" target="_blank" rel="noopener noreferrer">justen.proctor@gsa.gov</a> by 1:00 PM Eastern, Friday, 8 December 2023.
