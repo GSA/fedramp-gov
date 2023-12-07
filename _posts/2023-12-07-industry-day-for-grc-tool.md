@@ -2,7 +2,7 @@
 title: Industry Day for GRC Tool
 permalink: /2023-12-07-industry-day-for-grc-tool/
 body-class: page-blog
-image: /assets/img/blog-images/2023-12-07-industry-day-for-grc-tool.md.png
+image: /assets/img/blog-images/2023-12-07-industry-day-for-grc-tool.png
 author: FedRAMP
 layout: blog-page
 ---
