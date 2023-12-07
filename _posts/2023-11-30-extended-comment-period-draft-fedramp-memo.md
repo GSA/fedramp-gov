@@ -1,15 +1,32 @@
 ---
-title: Extended Comment Period on Draft FedRAMP Memo
+title: Industry Day for GRC Tool
 permalink: /2023-11-30-extended-comment-period-draft-fedramp-memo/
 body-class: page-blog
 image: /assets/img/blog-images/2023-11-30-extended-comment-period-draft-fedramp-memo.png
 author: FedRAMP
 layout: blog-page
 ---
-The Office of Management and Budget (OMB) extended the comment period for the <a href="https://www.whitehouse.gov/omb/briefing-room/2023/10/27/office-of-management-and-budget-releases-draft-memorandum-for-modernizing-the-federal-risk-and-authorization-management-program-fedramp/" target="_blank" rel="noopener noreferrer">Modernizing the Federal Risk and Authorization Management Program (FedRAMP) memo</a> to <b>December 22, 2023</b>.
+An Industry Day for the FedRAMP Governance, Risk, Compliance (GRC) Solution requirement is scheduled for December 12, 2023 from 3PM to 4PM EST. The Technology Transformation Services Office of Acquisition within the General Services Administration is soliciting questions regarding the draft Performance Work statement, which can be accessed by eBuy users by searching for RFQ1666907 on <a href="www.ebuy.gsa.gov/ebuyopen" target="_blank" rel="noopener noreferrer">www.ebuy.gsa.gov/ebuyopen</a>. A draft solicitation may be provided at a later date. 
 
-The FedRAMP PMO firmly believes the government works best when everyone is able to participate and have their voices heard. Recently, Administrator Robin Carnahan, GSA’s top technology officials, and OMB leadership held a Public Engagement Forum on November 15 focused on providing feedback on the memo. For more information about the event, please see the <a href="https://www.gsa.gov/blog/2023/11/17/gsa-omb-engage-with-stakeholders-on-modernizing-fedramp" target="_blank" rel="noopener noreferrer">GSA blog about it here</a>.
+1. Please email questions in advance of the session to  <a href="mailto:audrea.white@gsa.gov" target="_blank" rel="noopener noreferrer">audrea.white@gsa.gov</a>, <a href="mailto:jacqueline.mcglone@gsa.gov" target="_blank" rel="noopener noreferrer">jacqueline.mcglone@gsa.gov</a>, and <a href="mailto:justen.proctor@gsa.gov" target="_blank" rel="noopener noreferrer">justen.proctor@gsa.gov</a> by 1:00 PM Eastern, Friday, 8 December 2023.
+2. Questions will be addressed via Zoom during the industry day on Tuesday, December 12, 2023 from 3:00 PM to 4:00 PM Eastern.
+3. Vendors will also have an opportunity to submit questions during the Industry Day as well and the government may answer questions during the session.  Any questions not answered during the session will be answered after the Industry Day via eBuy.  
+4. Vendors may submit additional post-Industry Day questions by 5:00 PM Eastern on Wednesday,  December 13, 2023 to the email addresses indicated above.
+5. The information for the Zoom session is provided here: 
 
-We encourage all of our stakeholders to <a href="https://www.federalregister.gov/documents/2023/11/20/2023-25594/request-for-comments-on-updated-guidance-for-modernizing-the-federal-risk-authorization-management" target="_blank" rel="noopener noreferrer">submit official comments on the Federal Register site</a> by December 22.
-
-Thank you for your thoughtful comments so far and continued engagement with the program.
+Join ZoomGov Meeting
+ <a href="https://gsa.zoomgov.com/j/1601463635?pwd=RnFPaXUvQm5VVnVoazFkL0c0UDQ5QT09" target="_blank" rel="noopener noreferrer">https://gsa.zoomgov.com/j/1601463635?pwd=RnFPaXUvQm5VVnVoazFkL0c0UDQ5QT09</a>
+Meeting ID: 160 146 3635
+Passcode: 545060
+---
+One tap mobile
++16692545252,,1601463635#,,,,*545060# US (San Jose)
++16469641167,,1601463635#,,,,*545060# US (US Spanish Line)
+---
+Dial by your location
+• +1 669 254 5252 US (San Jose)
+• +1 646 964 1167 US (US Spanish Line)
+• +1 646 828 7666 US (New York)
+• +1 551 285 1373 US (New Jersey)
+• +1 669 216 1590 US (San Jose)
+• +1 415 449 4000 US (US Spanish Line)
