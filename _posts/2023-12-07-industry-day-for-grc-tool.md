@@ -16,14 +16,17 @@ An Industry Day for the FedRAMP Governance, Risk, Compliance (GRC) Solution requ
 5. The information for the Zoom session is provided here: 
 
 <b>Join ZoomGov Meeting</b>
+
  <a href="https://gsa.zoomgov.com/j/1601463635?pwd=RnFPaXUvQm5VVnVoazFkL0c0UDQ5QT09" target="_blank" rel="noopener noreferrer">https://gsa.zoomgov.com/j/1601463635?pwd=RnFPaXUvQm5VVnVoazFkL0c0UDQ5QT09</a>
 Meeting ID: 160 146 3635
 Passcode: 545060
-***
+
+
 One tap mobile
 +16692545252,,1601463635#,,,,*545060# US (San Jose)
 +16469641167,,1601463635#,,,,*545060# US (US Spanish Line)
-***
+
+
 Dial by your location
 • +1 669 254 5252 US (San Jose)
 • +1 646 964 1167 US (US Spanish Line)
