@@ -5,7 +5,7 @@ image: /assets/img/team/profile_RyanHoesing.jpg
 title: Customer Success Manager
 body-class: page-team-single
 date: 2018-01-04
-order: 400
+order: 300
 ---
 Ryan Hoesing joined the team in December 2016 after serving in an executive administrative role for senior leadership at the General Services Administration (GSA). Ryan leads the team that helps manage customer engagement between agencies and Cloud Service Providers (CSPs). Ryan is in charge of making sure that authorization timelines are met through Federal Risk and Authorization Management Program’s (FedRAMP)’s ever-changing kanban boards. In doing so, Ryan helps the FedRAMP Agency Authorization team push the adoption of secure cloud technologies across the federal government.
 
