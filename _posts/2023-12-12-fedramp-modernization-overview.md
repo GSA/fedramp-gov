@@ -39,4 +39,4 @@ This is part of FedRAMP’s continuous efforts to meet the needs of our stakehol
 
 Stakeholder engagement will be necessary for our community to make a fundamental mindshift in order to take advantage of the “technology”, “process”, and “people” upgrades FedRAMP is making.  FedRAMP intends to support you through training and guidance as we undertake this modernization journey with you.
 
-We encourage you to stay in touch by emailing questions to <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>. We also encourage you to submit official comments on the Federal Register site by <b>December 22</b>.
+We encourage you to stay in touch by emailing questions to <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>. We also encourage you to <b>submit official comments on the Federal Register site by December 22</b>.
