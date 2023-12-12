@@ -1,8 +1,8 @@
 ---
-title: Vision for an Automated FedRAMP
+title: FedRAMP Modernization Overview
 permalink: /2023-12-12-fedramp-modernization-overview/
 body-class: page-blog
-image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
+image: /assets/img/blog-images/2023-12-12-fedramp-modernization-overview.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -19,7 +19,7 @@ The goal of FedRAMP Modernization is to improve federal cloud cybersecurity by:
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
       				 <h3>FedRAMP Modernization is built on three pillars: Technology, Processes, and People</h3>
-				
+				<p>&nbsp;</p>
 				<img  alt="Circle graphic divided into three parts showing, People: Optimizing the organization to meet stakeholder demand, Process: Redesigning the authorization paths to streamline process, Technology:Establishing an automation ecosystem and building system architecture" title="FedRAMP-people-process-tech-graphic" src="{{site.baseurl}}/assets/img/blog-images/FedRAMP-people-process-tech-graphic_v2.png" style="margin: 10px auto; max-width: 550px; width: 100%; display: block;">
 			</div>
 		</div>
