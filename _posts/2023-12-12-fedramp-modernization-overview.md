@@ -14,18 +14,18 @@ The goal of FedRAMP Modernization is to improve federal cloud cybersecurity by:
 - Increasing the quality and accuracy of the security artifacts and documentation through standardization
 - Refining the continuous monitoring program, which will provide a clearer picture of a CSO’s cybersecurity posture
 
-<h3>FedRAMP Modernization is built on three pillars: Technology, Processes, and People</h3>
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:40px">
 	<div class="grid-container " style="padding: 2rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-        <img  alt="Circle graphic divided into three parts showing, People: Optimizing the organization to meet stakeholder demand, Process: Redesigning the authorization paths to streamline process, Technology:Establishing an automation ecosystem and building system architecture" title="FedRAMP-people-process-tech-graphic" src="{{site.baseurl}}/assets/img/blog-images/FedRAMP-people-process-tech-graphic_v2.png" style="margin: 20px auto; max-width: 850px; width: 100%; display: block;">
+      				 <h3>FedRAMP Modernization is built on three pillars: Technology, Processes, and People</h3>
+				<img  alt="Circle graphic divided into three parts showing, People: Optimizing the organization to meet stakeholder demand, Process: Redesigning the authorization paths to streamline process, Technology:Establishing an automation ecosystem and building system architecture" title="FedRAMP-people-process-tech-graphic" src="{{site.baseurl}}/assets/img/blog-images/FedRAMP-people-process-tech-graphic_v2.png" style="margin: 20px auto; max-width: 550px; width: 100%; display: block;">
 			</div>
 		</div>
 	</div>
 </section> 
 
-To address the “technology” piece of modernization, FedRAMP developed a systems architecture that formalizes requirements for tools that will automate and standardize documentation submission and continuous monitoring for all stakeholders. This systems architecture serves as the foundation for building and growing near and mid-term automation capabilities across FedRAMP. To support these capabilities, FedRAMP is currently working collaboratively across Technology Transformation Service (TTS) seeking a suitable OSCAL[^1]-based technical solution. Future communications will provide more information on FedRAMP’s automation goals and activities and what stakeholders can expect.
+To address the “technology” piece of modernization, FedRAMP developed a systems architecture that formalizes requirements for tools that will automate and standardize documentation submission and continuous monitoring for all stakeholders. This systems architecture serves as the foundation for building and growing near and mid-term automation capabilities across FedRAMP. To support these capabilities, FedRAMP is currently working collaboratively across Technology Transformation Service (TTS) seeking a suitable OSCAL[^1] -based technical solution. Future communications will provide more information on FedRAMP’s automation goals and activities and what stakeholders can expect.
 
 [^1]: NIST, in collaboration with industry, is developing the Open Security Controls Assessment Language (OSCAL). OSCAL is a set of formats expressed in XML, JSON, and YAML. These formats provide machine-readable representations of control catalogs, control baselines, system security plans, and assessment plans and results.
 
