@@ -1,8 +1,8 @@
 ---
 title: Modernization - Automating FedRAMP's Technology 
-permalink: /2023-01-16-modernization-automating-fedramps-technology/
+permalink: /2024-01-16-modernization-automating-fedramps-technology/
 body-class: page-blog
-image: /assets/img/blog-images/2023-12-12-fedramp-modernization-overview.png
+image: /assets/img/blog-images/2024-01-17-modernization-automating-fedramps-technology.png
 author: FedRAMP
 layout: blog-page
 ---
