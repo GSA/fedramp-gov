@@ -1,12 +1,12 @@
 ---
 title: Modernization - Automating FedRAMP's Technology 
-permalink: /2024-01-16-modernization-automating-fedramps-technology/
+permalink: /2024-01-17-modernization-automating-fedramps-technology/
 body-class: page-blog
 image: /assets/img/blog-images/2024-01-17-modernization-automating-fedramps-technology.png
 author: FedRAMP
 layout: blog-page
 ---
-You are invited to join FedRAMP’s monthly Office Hours session  at 11am ET this Wednesday, January 17, 2024, where we will be discussing our collaborative effort to move forward on our technology modernization priorities, introduced below. Attendees are encouraged to come prepared to discuss their questions about FedRAMP technology modernization and if possible, submit them at the link below.
+As a reminder, you are invited to join FedRAMP’s monthly Office Hours session today at 11am ET Wednesday, January 17, 2024, where we will be discussing our collaborative effort to move forward on our technology modernization priorities, introduced below. Attendees are encouraged to come prepared to discuss their questions about FedRAMP technology modernization and if possible, submit them at the link below.
 
 Please <a href="https://gsa.zoomgov.com/meeting/register/vJIscu6hrD8rEmsCtd70Y7feZGi94UWeP88" target="_blank" rel="noopener noreferrer">RSVP to the Office Hours</a>, and <a href="https://app.smartsheetgov.com/b/form/5eeb3aa301ea4003b0c7143ce028b521" target="_blank" rel="noopener noreferrer">submit questions</a> ahead of time here for discussion.
 
