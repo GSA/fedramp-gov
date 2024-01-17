@@ -31,8 +31,10 @@ FedRAMP is committed to ongoing dialogue and engagement with our stakeholders so
 - Office Hours
 
 <h3>FedRAMP’s Technology Priorities</h3>
-FedRAMP’s technology priorities are the adoption of <b>Open Security Controls Assessment Language (OSCAL)</b>; a supporting governance, risk (management), and compliance (GRC) and data repository; and the refinement of current processes to take advantage of automation. OSCAL underpins FedRAMP’s data and automation strategy, and its use will increase as the modernization process continues.  
+FedRAMP’s technology priorities are the adoption of <b>Open Security Controls Assessment Language (OSCAL)</b>; a supporting governance, risk, and compliance (GRC) and data repository; and the refinement of current processes to take advantage of automation. OSCAL underpins FedRAMP’s data and automation strategy, and its use will increase as the modernization process continues.  
+
 FedRAMP will continually refine our approach based on technical and process maturity and stakeholder input. Ultimately, once this model is adopted, stakeholders will create, submit, and ingest assessment documentation using collaboratively-developed OSCAL-enabled tools and streamlined processes. 
+
 FedRAMP will provide tooling, documentation, guidance, training, and technical support to facilitate these modernization efforts, with a focus on providing support around the use of OSCAL and OSCAL-enabled tools and data platforms. 
 
 <h3>How FedRAMP Stakeholders Benefit</h3>
