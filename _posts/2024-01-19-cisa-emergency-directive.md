@@ -24,6 +24,6 @@ If any indication of compromise or anomalous behavior is found or there is any s
 If you have any questions, please reach out to <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a> and <a href="mailto:CyberDirectives@HQ.dhs.gov" target="_blank" rel="noopener noreferrer">CyberDirectives@HQ.dhs.gov</a>.
 
 <h3>References</h3>  
-- <a href="https://www.cisa.gov/emergency-directive-24-01" target="_blank" rel="noopener noreferrer">[FedRAMP Incident Communication Procedures](https://www.cisa.gov/emergency-directive-24-01)</a>
+- <a href="https://www.cisa.gov/emergency-directive-24-01" target="_blank" rel="noopener noreferrer">https://www.cisa.gov/emergency-directive-24-01</a>
 - <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46085" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2023-46085</a>
-- <a href="[https://www.fedramp.gov/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf](https://nvd.nist.gov/vuln/detail/CVE-2024-21887)" target="_blank" rel="noopener noreferrer">[FedRAMP Incident Communication Procedures](https://nvd.nist.gov/vuln/detail/CVE-2024-21887)</a>
+- <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-21887" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2024-21887</a>
