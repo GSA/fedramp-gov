@@ -2,7 +2,7 @@
 title: CISA Emergency Directive
 permalink: /2024-01-19-cisa-emergency-directive/
 body-class: page-blog
-image: /assets/img/blog-images/2023-05-04-vision_for_automated_fedramp.png
+image: /assets/img/blog-images/2024-01-19-cisa-emergency-directive.png
 author: FedRAMP
 layout: blog-page
 ---
