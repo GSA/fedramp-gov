@@ -17,7 +17,7 @@ In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP e
 1. Review and implement the actions described within the Emergency Directive, and 
 2. Upload responses, using the <a href="https://demo.fedramp.gov/assets/resources/documents/FedRAMP-Emergency-Directive-24-01-Reporting-Template.xlsx" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01 FedRAMP Reporting Template</a>, to the incident response folder in your respective FedRAMP secure repository. 
 
-Please upload responses, including identifying applicability or negative applicability, by 11:59 PM Eastern Standard Time on Wednesday, January 24, 2024.
+Please upload responses, including identifying applicability or negative applicability, by <b>11:59 PM Eastern Standard Time on Wednesday, January 24, 2024</b>.
 
 When these actions are complete, we request that you:
 - Email all agency customer Authorizing Officials (or ISSO), including JAB POCs (if applicable), with notification of the completed action.
