@@ -1,6 +1,6 @@
 ---
-title: CISA Emergency Directive
-permalink: /2024-01-19-cisa-emergency-directive/
+title: CISA Emergency Directive 24-01
+permalink: /2024-01-19-cisa-emergency-directive-24-01/
 body-class: page-blog
 image: /assets/img/blog-images/2024-01-19-cisa-emergency-directive.png
 author: FedRAMP
