@@ -33,5 +33,5 @@ Federal agency customers can access the CSP responses from the Incident Response
 
 <h3>References</h3>  
 - <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities" target="_blank" rel="noopener noreferrer">https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities</a>
-- <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46085" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2023-46085</a>
+- <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46805" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2023-46805</a>
 - <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-21887" target="_blank" rel="noopener noreferrer">https://nvd.nist.gov/vuln/detail/CVE-2024-21887</a>
