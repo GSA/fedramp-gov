@@ -15,7 +15,7 @@ CISA has determined these conditions pose an unacceptable risk to Federal Civili
 <h3>Actions Required for CSPs</h3>
 In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01</a>. Therefore, we request that you: 
 1. Review and implement the actions described within the Emergency Directive, and 
-2. Upload responses, using the <a href="https://www.demo.fedramp.gov/assets/resources/documents/FedRAMP-Emergency-Directive-24-01-Reporting-Template.xlsx" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01 FedRAMP Reporting Template</a>, to the incident response folder in your respective FedRAMP secure repository. 
+2. Upload responses, using the <a href="https://demo.fedramp.gov/assets/resources/documents/FedRAMP-Emergency-Directive-24-01-Reporting-Template.xlsx" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01 FedRAMP Reporting Template</a>, to the incident response folder in your respective FedRAMP secure repository. 
 
 Please upload responses, including identifying applicability or negative applicability, by 11:59 PM Eastern Standard Time on Wednesday, January 24, 2024.
 
