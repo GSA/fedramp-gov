@@ -107,7 +107,7 @@ assigned:
             show_in_menu: true
             show_in_footer: false
         - 
-            text: Consolidated Federal Guidance/Directives
+            text: BODs, EDs, & Memos
             href: pages/federal-guidance.md
             permalink: /federal-guidance/
             show_in_menu: true
