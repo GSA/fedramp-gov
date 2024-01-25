@@ -2,7 +2,7 @@
 title: Requesting Public Comment on FedRAMP's Emerging Technology Prioritization Framework
 permalink: /2024-01-24-requesting-public-comment-on-fedramps-emerging-technology-prioritization-framework/
 body-class: page-blog
-image: /assets/img/blog-images/2024-01-24-requesting-public-comment-on-fedramps-emerging-technology-prioritization-framework.png
+image: /assets/img/blog-images/2024-01-26-requesting-public-comment-on-fedramps-emerging-technology-prioritization-framework.png
 author: FedRAMP
 layout: blog-page
 ---
