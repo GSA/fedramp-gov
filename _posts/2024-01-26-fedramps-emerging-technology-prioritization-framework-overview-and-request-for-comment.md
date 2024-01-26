@@ -1,6 +1,6 @@
 ---
 title: FedRAMP's Emerging Technology Prioritization Framework - Overview and Request for Comment
-permalink: /2024-01-26-fedramps-emerging-technology-prioritization-framework-overview-and-request-for-comment.md/
+permalink: /2024-01-26-fedramps-emerging-technology-prioritization-framework-overview-and-request-for-comment/
 body-class: page-blog
 image: /assets/img/blog-images/2024-01-26-requesting-public-comment-on-fedramps-emerging-technology-prioritization-framework.png
 author: FedRAMP
