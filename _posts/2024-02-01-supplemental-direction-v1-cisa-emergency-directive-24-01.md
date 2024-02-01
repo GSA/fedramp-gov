@@ -23,7 +23,7 @@ In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP e
 
 After completing each individual action, we request that CSPs:
 - Email all agency customer Authorizing Officials (or ISSOs), including JAB POCs (if applicable), with notification of the completed action.
-- Email the FedRAMP PMO with notification of the completed action at info@fedramp.gov using the following convention for your subject line: [CSP NAME | Package ID] - Response to ED 24-01.
+- Email the FedRAMP PMO with notification of the completed action at info@fedramp.gov using the following convention for your subject line:  <em>(CSP NAME | Package ID)</em> - Response to ED 24-01.
 - Upload a copy of your email notifications to the incident response folder in your respective FedRAMP secure repository.
 
 If any indication of compromise or anomalous behavior is found, or there is any suspected impact to federal systems, please make sure to follow the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Incident_Communications_Procedures.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Incident Communication Procedures</a>, which includes reporting to CISA US-CERT and agency customers (including JAB POCs, if applicable).
