@@ -15,7 +15,7 @@ In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP e
 
 <b><u>If Emergency Directive 24-01 is not applicable<u>, and you have already responded identifying the negative applicability, no further action is required.<b>
 
-<b>If Emergency Directive 24-01 is applicable<b>, we request that you: 
+<b>If Emergency Directive 24-01 is applicable</b>, we request that you: 
 1. Review and implement the actions described within the Supplemental Direction v1, and 
 2. Upload responses, using an updated <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP-Emergency-Directive-24-01-Reporting-Template.xlsx" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01 FedRAMP Reporting Template</a>, to the incident response folder in your respective FedRAMP secure repository.
   - Please upload responses for required task 2e in the Supplemental Direction v1 by 1:00PM EST on Monday, February 5, 2024.
