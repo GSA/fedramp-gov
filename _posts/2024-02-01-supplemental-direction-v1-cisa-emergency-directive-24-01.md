@@ -8,7 +8,7 @@ layout: blog-page
 ---
 On Wednesday, January 31, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/supplemental-direction-v1-ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure" target="_blank" rel="noopener noreferrer">Supplemental Direction v1: Emergency Directive 24-01</a>, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Supplemental Direction). The Supplemental Direction states:  
 
-<p style="margin-left: 25px;"><em>“This Supplemental Direction supersedes required action 4 in Emergency Directive (ED) 24-01 Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities and applies to any Federal agency running affected products (Ivanti Connect Secure or Ivanti Policy Secure solutions)”</em></p>
+<p style="margin-left: 25px;"><em>This Supplemental Direction supersedes required action 4 in Emergency Directive (ED) 24-01 Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities and applies to any Federal agency running affected products (Ivanti Connect Secure or Ivanti Policy Secure solutions).</em></p>
 
 <h3>Actions Required For Cloud Service Providers</h3>
 In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01</a>.
