@@ -8,6 +8,8 @@ layout: blog-page
 ---
 On Friday, February 9, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/supplemental-direction-v2-ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure" target="_blank" rel="noopener noreferrer">Supplemental Direction v2: Emergency Directive 24-01</a>, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Supplemental Direction). The Supplemental Direction states:  
 
+<p style="margin-left: 25px;"><em>This Supplemental Direction supersedes Supplemental Direction V1: Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities issued on January 31, 2024. This version also supersedes Required Action 4 of ED 24-01. All other provisions of ED 24-01 remain in effect. This Supplemental Direction applies to any federal agency running affected products (Ivanti Connect Secure or Ivanti Policy Secure solutions).</em></p>
+
 <p style="margin-left: 25px;"><em>On February 8, 2024, Ivanti reported a new vulnerability (CVE-2024-22204) that affects a limited number of supported Ivanti Connect Secure and Ivanti Policy Secure versions. This newly disclosed vulnerability enables an attacker to access restricted resources without authentication. Ivanti has released new security updates that replace the previous updates released on January 31 and February 1. This Supplemental Direction V2 adds a requirement for agencies running those software versions to apply appropriate security updates.</em></p>
 
 <h3>Actions Required For Cloud Service Providers</h3>
