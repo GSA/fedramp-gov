@@ -1,6 +1,6 @@
 ---
 layout: federal-guidance
-title: Binding Operational Directives (BODs), Emergency Directives (EDs), and OMB Memos
+title: Applicable Federal Directives and Memos
 tab-title: Consolidated Federal Guidance/Directives
 permalink: /federal-guidance/
 body-class: page-faqs
