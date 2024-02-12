@@ -6,21 +6,21 @@ image: /assets/img/blog-images/2024-01-19-cisa-emergency-directive.png
 author: FedRAMP
 layout: blog-page
 ---
-On Friday, February 9, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/supplemental-direction-v2-ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure" target="_blank" rel="noopener noreferrer">Supplemental Direction v2: Emergency Directive 24-01</a>, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Supplemental Direction). The Supplemental Direction states:  
-
-<p style="margin-left: 25px;"><em>This Supplemental Direction supersedes Supplemental Direction V1: Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities issued on January 31, 2024. This version also supersedes Required Action 4 of ED 24-01. All other provisions of ED 24-01 remain in effect. This Supplemental Direction applies to any federal agency running affected products (Ivanti Connect Secure or Ivanti Policy Secure solutions).</em></p>
-
-<p style="margin-left: 25px;"><em>On February 8, 2024, Ivanti reported a new vulnerability (CVE-2024-22204) that affects a limited number of supported Ivanti Connect Secure and Ivanti Policy Secure versions. This newly disclosed vulnerability enables an attacker to access restricted resources without authentication. Ivanti has released new security updates that replace the previous updates released on January 31 and February 1. This Supplemental Direction V2 adds a requirement for agencies running those software versions to apply appropriate security updates.</em></p>
-
 <h3>Actions Required For Cloud Service Providers</h3>
 In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01</a>.
 
 <b><u>If Emergency Directive 24-01 is not applicable<u>, and you have already responded identifying the negative applicability, no further action is required.<b>
 
+On Friday, February 9, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/supplemental-direction-v2-ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure" target="_blank" rel="noopener noreferrer">Supplemental Direction v2: Emergency Directive 24-01</a>, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Supplemental Direction). The Supplemental Direction states:  
+
+<p style="margin-left: 25px;"><em>This Supplemental Direction supersedes Supplemental Direction V1: Emergency Directive (ED) 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities issued on January 31, 2024. This version also supersedes Required Action 4 of ED 24-01. All other provisions of ED 24-01 remain in effect. This Supplemental Direction applies to any federal agency running affected products (Ivanti Connect Secure or Ivanti Policy Secure solutions).</em></p>
+
+<p style="margin-left: 25px;"><em>On February 8, 2024, Ivanti reported a new vulnerability (CVE-2024-22024) affecting a limited number of supported Ivanti Connect Secure (versions 9.1R14.4, 9.1R17.2, 9.1R18.3, 22.4R2.2, 22.5R1.1, and 22.5R2.2) and Ivanti Policy Secure (version 22.5R1.1) solutions. This newly disclosed vulnerability enables an attacker to access restricted resources without authentication. On February 8, 2024, Ivanti released new security updates that replace the previous updates released on January 31, 2024, and February 1, 2024, and, additionally, address CVE-2024-22024. This Supplemental Direction V2 adds a requirement for agencies running those software versions to apply appropriate security updates.</em></p>
+
 <b>If Emergency Directive 24-01 is applicable</b>, we request that you: 
 1. Review and implement the actions described within the Supplemental Direction v2, and
 2. Upload responses, using an updated <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP-Emergency-Directive-24-01-Reporting-Template.xlsx" target="_blank" rel="noopener noreferrer">Emergency Directive 24-01 FedRAMP Reporting Template</a>, to the incident response folder in your respective FedRAMP secure repository.
-  - Please upload updated responses in the Supplemental Direction v2 by 11:59PM EST on Tuesday, February 13, 2024.
+  - Please upload updated responses in the Supplemental Direction v2 by 1:00PM EST on Wednesday, February 14, 2024.
   - Please upload responses for Requirement 5 in the Supplemental Direction v2 by 11:59PM EST on Wednesday, February 28, 2024.   
 
 After completing each individual action, we request that CSPs:
