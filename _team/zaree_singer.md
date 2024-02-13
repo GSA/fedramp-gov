@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Zaree Singer
-image: /assets/img/team/profile_RyanPalmer.jpg
+image: /assets/img/team/profile_ZareeSinger.jpg
 title: Agency Engagement Lead
 body-class: page-team-single
 date: 2024-02-13
