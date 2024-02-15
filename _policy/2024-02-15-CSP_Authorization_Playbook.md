@@ -16,4 +16,4 @@ tags:
   - JAB Authorization
 
 ---
-This first volume of the CSP Authorization Playbook provides an overview of all of the partners involved in a FedRAMP authorization, things to consider when determining your authorization strategy, the types of authorizations, and important considerations for your offering when working with FedRAMP.
+This CSP Authorization Playbook provides an overview of all of the partners involved in a FedRAMP authorization, things to consider when determining your authorization strategy, the types of authorizations, and important considerations for your offering when working with FedRAMP.
