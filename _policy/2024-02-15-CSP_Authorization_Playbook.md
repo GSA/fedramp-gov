@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: CSP Authorization Playbook&#58; Getting Started with FedRAMP
+title: CSP Authorization Playbook
 category: Preparation Phase
 weblink:
-filename: documents/CSP_Authorization_Playbook_Getting_Started_with_FedRAMP.pdf
+filename: documents/CSP_Authorization_Playbook.pdf
 filetype: pdf
 fileinfo: PDF - 959KB
 condition: new
