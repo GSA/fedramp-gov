@@ -24,7 +24,8 @@ layout: full-width
       <div id="main-header" class="lavalamp-menu">
         <nav>
           <ul class="in-page-nav-menu" id="top-menu">
-            <li class="active"><a href="#guidance-2023">2023</a></li>
+            <li class="active"><a href="#guidance-2024">2024</a></li>
+            <li><a href="#guidance-2022">2023</a></li>		  
             <li><a href="#guidance-2022">2022</a></li>
             <li><a href="#guidance-2021">2021</a></li>
             <li><a href="#guidance-2020">2020</a></li>
@@ -45,6 +46,7 @@ layout: full-width
         <nav>
           <h4 class="mobile-nav-title">You can also browse the topics below.</h4>
           <ul class="in-page-nav-menu" id="top-menu-mobile">
+            <li><a href="#guidance-2023">2024</a></li>		  
             <li><a href="#guidance-2023">2023</a></li>
             <li><a href="#guidance-2022">2022</a></li>
             <li><a href="#guidance-2021">2021</a></li>
@@ -65,17 +67,54 @@ layout: full-width
         <button class="faq-clear clear-results faq-results" onclick="clearFaqs()" style="display:none;" title="Clear Results">Clear Results</button>
         <div id="search-area" class="usa-accordion fedramp-accordian" aria-multiselectable="true"> 
           
-          <!-- 2023 -------------------------------->
+          <!-- 2024 -------------------------------->
           
-          <h3 id="guidance-2023" class="padding-top-2">2023</h3>
+          <h3 id="guidance-2024" class="padding-top-2">2024</h3>
           <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
 						aria-expanded="false"
-						aria-controls="M-22-18-Memorandum">OMB M-22-18 Memorandum TBD</button>
+						aria-controls="ED 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities">ED 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities</button>
           </h4>
-          <div id="M-22-18-Memorandum" class="usa-accordion__content usa-prose">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent velit tellus, tristique et neque vel, placerat imperdiet sapien. Donec iaculis odio nec metus lobortis posuere. Praesent pharetra felis blandit ultrices mollis. Nunc efficitur lectus vitae tellus blandit, vestibulum varius tortor interdum. Phasellus ornare tellus erat, id vulputate lectus vehicula ac. Aenean sodales tincidunt elit, non congue justo dignissim ac. Mauris feugiat eros a hendrerit euismod. Proin fermentum vehicula velit sit amet feugiat. Fusce hendrerit quis ligula sit amet mollis. Aliquam orci sem, maximus non pulvinar sed, dapibus sed sapien. Pellentesque non erat metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vitae mattis ligula. In sapien dui, suscipit vitae ornare lobortis, suscipit eget elit. Proin ornare dolor at mattis tristique.</p>
+          <div id="ED 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities" class="usa-accordion__content usa-prose">
+            <p>On Friday, January 19, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued Emergency Directive 24-01, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Emergency Directive) and Supplemental Direction on Wednesday, January 31, 2024. The Emergency Directive states the following:
+		    
+CISA has observed widespread and active exploitation of vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure solutions, hereafter referred to as “affected products.” Successful exploitation of the vulnerabilities in these affected products allows a malicious threat actor to move laterally, perform data exfiltration, and establish persistent system access, resulting in full compromise of target information systems.
+		    
+CISA has determined these conditions pose an unacceptable risk to Federal Civilian Executive Branch (FCEB) agencies and require emergency action. This determination is based on widespread exploitation of vulnerabilities by multiple threat actors, the prevalence of the affected products in the federal enterprise, the high potential for a compromise of agency information systems, the impact of a successful compromise, and the complexity of the proposed mitigations.
+In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain federal information fall within the scope defined by Emergency Directive 24-01. Therefore, we request that CSPs:
+		    
+	1. Review and implement the actions described within the Emergency Directive, and
+	2. Upload responses, using the Emergency Directive 24-01 FedRAMP Reporting Template, to the incident response folder in your respective FedRAMP secure repository.
+
+CSPs should have uploaded responses, including identifying applicability or negative applicability, by 11:59 PM Eastern Standard Time on Wednesday, January 24, 2024.
+
+In addition, in response to the Supplemental Direction v1, we request that CSPs:
+
+	1. Review and implement the actions described within the Supplemental Direction v1, and
+	2. Upload responses, using an updated Emergency Directive 24-01 FedRAMP Reporting Template, to the incident response folder in your respective FedRAMP secure repository.
+		- Please upload responses for required task 2e in the Supplemental Direction v1 by 1:00PM EST on Monday, February 5, 2024.
+		- Please upload responses for required task 3 in the Supplemental Direction v1 by 11:59PM EST on Wednesday, February 28, 2024.
+
+When these actions are complete, CSPs should:
+- Email all agency customer Authorizing Officials (or ISSO), including JAB POCs (if applicable), with notification of the completed action.
+- Email the FedRAMP PMO with notification of the completed action at info@fedramp.gov using the following convention for your subject line: (CSP NAME | Package ID) - Response to ED 24-01.
+- Upload a copy of your email notifications to the incident response folder in your respective FedRAMP secure repository.
+
+Guidance for Agencies
+
+Federal agency customers can access the CSP responses from the Incident Response folder in the CSP’s respective FedRAMP secure repository. Agencies should reach out directly to the CSP if they have not provided their reporting template response by Thursday, January 25, 2024. If agency personnel need access to a CSP’s repository for review, please submit a FedRAMP Package Access Request Form to package-access@fedramp.gov.
+
+References
+
+https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities
+https://nvd.nist.gov/vuln/detail/CVE-2023-46805
+https://nvd.nist.gov/vuln/detail/CVE-2024-21887	    
+	    </p>
           </div>
+         
+		<!-- 2023 -------------------------------->
+          
+          <h3 id="guidance-2023" class="padding-top-2">2023</h3>
           <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
 						aria-expanded="false"
@@ -122,6 +161,32 @@ layout: full-width
           <!-- 2022 -------------------------------->
           
           <h3 id="guidance-2022" class="padding-top-2">2022</h3>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="Moving-the-U.S.-Government-Toward-Zero-Trust-Cybersecurity-Principles">M-22-09: “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</button>
+          </h4>
+          <div id="Moving-the-U.S.-Government-Toward-Zero-Trust-Cybersecurity-Principles" class="usa-accordion__content usa-prose">
+            <p>In accordance with Section 8 of <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/">Executive Order (EO) 14028 “Improving the Nation’s Cybersecurity”</a>, the U.S. Office of Management and Budget (OMB) released <a href="https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf">Memorandum 21-31 “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents” (M-21-31)</a>. The EO directs agencies to improve their cybersecurity practices through the identification of existing or development of new standards, tools, best practices, and other guidelines. Section 8 focuses primarily on the system logs for both services implemented on servers within the authorization boundary and services deployed on Cloud Service Offerings (CSOs).</p>
+
+            <p>Section 8 of the EO also directs federal agencies to offer more specific instructions for all service providers. M-21-31 fulfills that requirement, and offers additional guidance to agencies around logging, log retention, and log management. Within this guidance, there are four maturity tiers identified, as well as timelines for agencies to mature to certain tiers by certain dates. </p>
+            
+            <h5>FedRAMP Applicability</h5>
+
+            <p>FedRAMP, in consultation with OMB, assessed that M-21-31 does not apply directly to CSP offerings (unless that CSP is a government system); however, FedRAMP authorized CSOs must comply with M-21-31 by supporting agency implementations within the cloud offering. These requirements are reflected in the FedRAMP Rev. 5 baselines (specifically AC-4 (4), AU-11, and SI-4 (10)). </p>
+		  
+            <h5>Additional Guidance</h5>
+
+            <p>Further guidance for agencies is included in the bullets below extracted from Section 3 of <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf">OMB Memorandum 22-09, “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</a>, which is related to and references M-19-26 and M-21-31. </p>
+            <p>OMB M-19-26 and OMB M-21-31 – Alternatives to network inspection </p>
+            <ul>
+              <li>Current OMB policies neither require nor prohibit inline decryption of enterprise network traffic. Agencies are expected to balance the depth of visibility they need with the risks presented by broadly trusted network inspection devices.</li>
+              <li>Network traffic that is not decrypted can and should still be analyzed using visible or logged metadata, machine learning techniques, and other heuristics for detecting anomalous activity. This is consistent with the Trusted Internet Connection (TIC) initiative, as updated in OMB Memorandum M-19-26, which gives agencies the flexibility to maintain appropriate visibility without needing to perform inline traffic decryption. </li>
+              <li>OMB Memorandum M-21-31, “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents”, describes required fields that agencies must log consistently throughout their enterprise, including packet capture logs. M-21-31 does not require full traffic inspection, but specifies fields that should be captured when such inspection is in place. M-21-31 describes this conditional requirement: </li>
+            </ul>
+            
+            <p>IIf agencies perform full traffic inspection through active proxies, they should log additional available fields as described in Appendix C and can work with CISA to implement these capabilities. If agencies do not perform full traffic inspection, they should log the metadata available to them. </p>
+          </div>		
           <h4 class="usa-accordion__heading">
             <button class="usa-accordion__button"
 						aria-expanded="false"
