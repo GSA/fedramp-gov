@@ -26,7 +26,7 @@ goals-checklist-2: Enhance the framework by which the government secures and aut
 goals-checklist-3: Build and foster strong partnerships with FedRAMP stakeholders.
 
 framework-title: Legal Framework
-framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a> <i class="fas fa-external-link-alt fa-sm"></i>, <a href="https://www.cio.gov/policies-and-priorities/circular-a-130/" target="_blank" class="text-white">OMB Circular A-130</a> <i class="fas fa-external-link-alt fa-sm"></i>, and FedRAMP policy, and <a href="https://www.cio.gov/policies-and-priorities/circular-a-130/" target="_blank" class="text-white">FedRAMP Authorization Act</a> <i class="fas fa-external-link-alt fa-sm"></i> as part of the National Defense Authorization Act.
+framework-text: FedRAMP standardizes security requirements for the authorization and ongoing cybersecurity of cloud services in accordance with <a href="https://www.congress.gov/bill/113th-congress/senate-bill/2521" target="_blank" class="text-white">FISMA</a> <i class="fas fa-external-link-alt fa-sm"></i>, <a href="https://www.cio.gov/policies-and-priorities/circular-a-130/" target="_blank" class="text-white">OMB Circular A-130</a> <i class="fas fa-external-link-alt fa-sm"></i>, and FedRAMP policy, and <a href="https://www.congress.gov/117/bills/hr7776/BILLS-117hr7776enr.pdf#page=1055" target="_blank" class="text-white">FedRAMP Authorization Act</a> <i class="fas fa-external-link-alt fa-sm"></i> as part of the National Defense Authorization Act.
 
 fisma-image: 
 fisma-title: FISMA
