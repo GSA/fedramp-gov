@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: A. Michelle White
-image: /assets/img/team/profile_RyanHoesing.jpg
+image: /assets/img/team/profile_AMichelleWhite.jpg
 title: Operations and Contract Lead
 body-class: page-team-single
 date: 2024-02-16
