@@ -5,7 +5,7 @@ image: /assets/img/team/profile_RyanPalmer.jpg
 title: Senior Technical and Strategic Advisor
 body-class: page-team-single
 date: 2023-12-12
-order: 400
+order: 500
 ---
 Ryan Palmer joined the Federal Risk and Authorization Management Program (FedRAMP) team within the U.S. General Services Administration (GSA) in October 2023, bringing with him a wealth of technical knowledge, data, automation, and cybersecurity experience. 
 
