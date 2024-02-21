@@ -109,7 +109,7 @@ assigned:
         - 
             text: BODs, EDs, & Memos
             href: pages/federal-guidance.md
-            permalink: /federal-guidance/
+            permalink: /directives-memos/
             show_in_menu: true
             show_in_footer: false    
 
