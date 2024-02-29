@@ -1,6 +1,6 @@
 ---
 title: Penetration Test Guidance Public Comment Period
-permalink: /2024-02-29-penetration-test-guidance-public-comment-period/
+permalink: /2024-03-01-penetration-test-guidance-public-comment-period/
 body-class: page-blog
 image: /assets/img/blog-images/2024-02-29-penetration-test-guidance-public-comment-period.png
 author: FedRAMP
