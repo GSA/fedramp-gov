@@ -2,11 +2,11 @@
 title: Penetration Test Guidance Public Comment Period
 permalink: /2024-02-29-penetration-test-guidance-public-comment-period/
 body-class: page-blog
-image: /assets/img/blog-images/2024-01-26-requesting-public-comment-on-fedramps-emerging-technology-prioritization-framework.png
+image: /assets/img/blog-images/2024-02-29-penetration-test-guidance-public-comment-period.png
 author: FedRAMP
 layout: blog-page
 ---
-FedRAMP is seeking feedback on the draft <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Penetration_Test_Guidance_public_comment.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Penetration Test Guidance</a>. The <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf" target="_blank" rel="noopener noreferrer">original guidance</a> provides requirements for organizations planning to conduct a FedRAMP penetration test to identify weaknesses in their IT system, as well as the associated attack vectors and overall reporting requirements. 
+FedRAMP is seeking feedback on the draft <a href="{{site.baseurl}}/assets/resources/documents/CSP_Penetration_Test_Guidance_public_comment.pdf" target="_blank" rel="noopener noreferrer">FedRAMP Penetration Test Guidance</a>. The <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Penetration_Test_Guidance.pdf" target="_blank" rel="noopener noreferrer">original guidance</a> provides requirements for organizations planning to conduct a FedRAMP penetration test to identify weaknesses in their IT system, as well as the associated attack vectors and overall reporting requirements. 
 
 The updated Guidance explains the requirements for organizations executing FedRAMP penetration tests and reporting testing results. Third Party Assessment Organizations (3PAOs) must follow the requirements for testing implementation. Cloud Service Providers can use the Guidance to understand the scope of, and their role in the 3PAO testing. The Guidance has been updated to include the Red Team Testing Requirements included in the updates in the <a href="https://www.fedramp.gov/2024-02-16-rev-5-additional-documents-released/" target="_blank" rel="noopener noreferrer">NIST SP 800-53 Revision 5 security controls baselines</a>, which were adopted in FedRAMP baselines. FedRAMP does not provide a Penetration Testing and Reporting template. 
 
