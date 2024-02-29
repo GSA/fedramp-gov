@@ -14,10 +14,10 @@ The existing FedRAMP Penetration Test Guidance vectors are based on threat and a
 
 Additionally, several other requirements were updated to provide clarity and ensure that requirements were identified as mandatory instead of optional. Outlined below are the most notable updates:
 
-- NIST SP 800-53 Revision 5 update - Security Control CA-8(2) Security Assessment and Authorization | Penetration Testing | Red Team Exercises for all FedRAMP High and Moderate criticality systems added as Appendix E: Red Team Exercises.
+- <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">NIST SP 800-53 Revision 5 update</a> - Security Control CA-8(2) Security Assessment and Authorization, Penetration Testing, Red Team Exercises for all FedRAMP High and Moderate criticality systems added as Appendix E: Red Team Exercises.
 - Language clarifications to ensure that the mandatory requirements are better understood.
 - Detailed explanation of the Email Phish Campaign requirements to most effectively conduct the campaign. Updates were made for landing page requirements for CSP personnel who are victims of the campaign.
-- Addition of references to the MITRE ATT&CK(R) Matrix for Enterprise and the NIST Red Team Definition.
+- Addition of references to the <a href="https://attack.mitre.org/matrices/enterprise/" target="_blank" rel="noopener noreferrer">MITRE ATT&CK(R) Matrix for Enterprise</a> and the <a href="https://csrc.nist.gov/glossary/term/red_team" target="_blank" rel="noopener noreferrer">NIST Red Team Definition</a>.
 
 Note that the CA-8(2) Red Team Testing Requirements outlined in the Penetration Test Guidance address the NIST/FedRAMP testing requirements, and are not the same as the ‘intensive, expert-led “red team”’ assessments referred to in the Office of Management and Budget draft memo, <a href="https://www.cio.gov/assets/files/resources/FedRAMP-updated-draft-guidance-2023.pdf" target="_blank" rel="noopener noreferrer">Modernizing the Federal Risk and Authorization Management Program (FedRAMP)</a> (which was <a href="https://www.fedramp.gov/2023-10-27-omb-fedramp-memo/" target="_blank" rel="noopener noreferrer">discussed previously</a> on the FedRAMP blog).
 
