@@ -2,7 +2,7 @@
 title: RFQ for GRC Solution Released
 permalink: /2024-03-15-rfq-for-grc-solution-released/
 body-class: page-blog
-image: /assets/img/blog-images/2024-02-29-penetration-test-guidance-public-comment-period.png
+image: /assets/img/blog-images/2024-03-15-rfq-for-grc-solution-released.png
 author: FedRAMP
 layout: blog-page
 ---
