@@ -319,3 +319,14 @@ a.policy-download.policy-zip {
 .tag-icon-container {
 	width: 4%;
 }
+
+@media (min-width: 64em) {
+	.policy-full-callout {
+		width: 45%;
+	}
+	
+	.policy-middle-callout {
+		width: 10%;
+	}
+}
+
