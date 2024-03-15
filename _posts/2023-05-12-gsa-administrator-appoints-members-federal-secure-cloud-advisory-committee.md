@@ -6,7 +6,7 @@ image: /assets/img/blog-images/-general-blog-banners/general_fscac.png
 author: FedRAMP
 layout: blog-page
 ---
-The General Services Administration (GSA), in coordination with the Office of Management and Budget (OMB), announced the membership of the new Federal Secure Cloud Advisory Committee (FSCAC) in this <a href="https://www.gsa.gov/about-us/newsroom/news-releases/-gsa-administrator-appoints-inaugural-members-to-the-federal-secure-cloud-advisory-committee-05122023" target="_blank" rel="noopener noreferrer">press release</a> on <a href="https://www.gsa.gov/" target="_blank" rel="noopener noreferrer">GSA.gov</a>.
+The General Services Administration (GSA), in coordination with the Office of Management and Budget (OMB), announced the membership of the new Federal Secure Cloud Advisory Committee (FSCAC) in this <a href="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-administrator-appoints-inaugural-members-to-th-05122023" target="_blank" rel="noopener noreferrer">press release</a> on <a href="https://www.gsa.gov/" target="_blank" rel="noopener noreferrer">GSA.gov</a>.
 
 The FedRAMP PMO looks forward to FSCAC's recommendations to ensure effective and ongoing coordination of federal agency adoption, use, authorization, monitoring, acquisition, and security of cloud computing products and services to help agencies meet their mission and administrative priorities.
 

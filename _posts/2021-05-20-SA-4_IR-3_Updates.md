@@ -40,7 +40,7 @@ CSPs will be required to include functional testing as part of their next Securi
   <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
     <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) High Baseline Template</h5>
-    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-High-Baseline-Template.docx" target="_blank">Download [Word - 848KB]</a></p>
+    <p><a class="auth-resources-download"  href="https://fedramp.gov/assets/resources/documents/rev4/REV_4_FedRAMP-SSP-High-Baseline-Template.docx" target="_blank">Download [Word - 848KB]</a></p>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ CSPs will be required to include functional testing as part of their next Securi
   <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src= "{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
     <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) Moderate Baseline Template</h5>
-    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Moderate-Baseline-Template.docx" target="_blank">Download [Word - 726KB]</a></p>
+    <p><a class="auth-resources-download"  href="https://fedramp.gov/assets/resources/documents/rev4/REV_4_FedRAMP-SSP-Moderate-Baseline-Template.docx" target="_blank">Download [Word - 726KB]</a></p>
   </div>
 </div>
 
@@ -58,7 +58,7 @@ CSPs will be required to include functional testing as part of their next Securi
   <div> <img width="64px" height="auto" style="float: left; margin-right: 20px;" src="{{site.baseurl}}/assets/img/auth-doc-download.svg"  alt=""> </div>
   <div>
     <h5 style="color:#1a4480">FedRAMP System Security Plan (SSP) Low Baseline Template</h5>
-    <p><a class="auth-resources-download"  href="{{site.baseurl}}/assets/resources/templates/FedRAMP-SSP-Low-Baseline-Template.docx" target="_blank">Download [Word - 478KB]</a></p>
+    <p><a class="auth-resources-download"  href="https://fedramp.gov/assets/resources/documents/rev4/REV_4_FedRAMP-SSP-Low-Baseline-Template.docx" target="_blank">Download [Word - 478KB]</a></p>
   </div>
 
 </div>

@@ -8,7 +8,7 @@ layout: blog-page
 ---
 As a reminder, you are invited to join FedRAMP’s monthly Office Hours session today at 11am ET Wednesday, January 17, 2024, where we will be discussing our collaborative effort to move forward on our technology modernization priorities, introduced below. Attendees are encouraged to come prepared to discuss their questions about FedRAMP technology modernization and if possible, submit them at the link below.
 
-Please <a href="https://gsa.zoomgov.com/meeting/register/vJIscu6hrD8rEmsCtd70Y7feZGi94UWeP88" target="_blank" rel="noopener noreferrer">RSVP to the Office Hours</a>, and <a href="https://app.smartsheetgov.com/b/form/5eeb3aa301ea4003b0c7143ce028b521" target="_blank" rel="noopener noreferrer">submit questions</a> ahead of time here for discussion.
+Please RSVP to the Office Hours, and <a href="https://app.smartsheetgov.com/b/form/5eeb3aa301ea4003b0c7143ce028b521" target="_blank" rel="noopener noreferrer">submit questions</a> ahead of time here for discussion.
 
 FedRAMP is committed to ongoing dialogue and engagement with our stakeholders so we can leverage your experience and expertise to inform and revise our modernization strategy, and ensure our efforts meet your needs for an automated FedRAMP.  Examples of future input and engagement opportunities are outlined below. We will communicate in more detail about these opportunities in the future, and they are also open topics for discussion during the Office Hours session. 
 
