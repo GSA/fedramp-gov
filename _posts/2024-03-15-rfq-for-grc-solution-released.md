@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2024-03-15-rfq-for-grc-solution-released.png
 author: FedRAMP
 layout: blog-page
 ---
-The General Services Administration (GSA) and FedRAMP have issued a request for quotation (RFQ) (47QPCA24Q0026) for a Governance, Risk, Compliance (GRC) solution to include workflow processing, data analytics, integration, and Artificial Intelligence/Machine Learning (AI/ML) capabilities for the Federal Risk and Authorization Management Program (FedRAMP) authorization review process. eBuy users can access the RFQ by searching for RFQ1683192 on <a href="http://www.ebuy.gsa.gov/ebuyopen/" target="_blank" rel="noopener noreferrer">eBuy</a>, which can be accessed using your Max.gov login . Organizations wishing to submit their solution must submit a quote by March 21, 2024.   
+The General Services Administration (GSA) and FedRAMP have issued a request for quotation (RFQ) (47QPCA24Q0026) for a Governance, Risk, Compliance (GRC) solution to include workflow processing, data analytics, integration, and Artificial Intelligence/Machine Learning (AI/ML) capabilities for the Federal Risk and Authorization Management Program (FedRAMP) authorization review process. eBuy users can access the RFQ by searching for RFQ1683192 on <a href="http://www.ebuy.gsa.gov/ebuyopen/" target="_blank" rel="noopener noreferrer">eBuy</a>, which can be accessed using your Max.gov login. Organizations wishing to submit their solution must submit a quote by March 21, 2024.   
 
 The GRC Platform is a key component of FedRAMP’s modernization strategy. Our initial focus will be on: 
 - Shifting from documentation to machine readable, OSCAL-based data
