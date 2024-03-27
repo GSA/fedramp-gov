@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: David Waltermire
-image: /assets/img/team/profile_JohnHamilton.jpg
+image: /assets/img/team/profile_DavidWaltermire.png
 title: Lead for Data Strategy and Standards
 body-class: page-team-single
 date: 2024-03-27
