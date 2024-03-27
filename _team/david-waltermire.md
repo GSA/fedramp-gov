@@ -5,7 +5,7 @@ image: /assets/img/team/profile_JohnHamilton.jpg
 title: Lead for Data Strategy and Standards
 body-class: page-team-single
 date: 2024-03-27
-order: 600
+order: 700
 
 ---
 
