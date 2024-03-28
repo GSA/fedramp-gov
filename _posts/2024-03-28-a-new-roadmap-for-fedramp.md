@@ -2,7 +2,7 @@
 title: A New Roadmap for FedRAMP
 permalink: /2024-03-28-a-new-roadmap-for-fedramp/
 body-class: page-blog
-image: /assets/img/blog-images/2024-03-15-rfq-for-grc-solution-released.png
+image: /assets/img/blog-images/2024-03-28-a-new-roadmap-for-fedramp.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -30,7 +30,7 @@ Our roadmap contains some specific initiatives we’re undertaking to make concr
 5. <b>Increase the authorizing capacity of the FedRAMP ecosystem</b>. We will work with trusted authorizing partners to align our processes and eliminate the need for extensive per-package review by the program. We will be piloting this approach with our partners at <a href="https://www.disa.mil/" target="_blank" rel="noopener noreferrer">DISA</a> who serve as the Cloud Authorizing Official for the Department of Defense. More generally, we will be supporting OMB and the FedRAMP Board in convening joint authorization groups, who we expect to be strong candidates for this streamlined approach. 
 6. <b>Move to digital authorization packages</b>. While a full migration will take time, FedRAMP needs to operate as a data-first program for its processes to scale. We will define machine readable packages, in <a href="https://pages.nist.gov/OSCAL/" target="_blank" rel="noopener noreferrer">OSCAL</a>, and provide the guidance and tools to help our customers create and share them. Our goal is to leverage automated validation and assessment of packages, as well as system-to-system integration with our FedRAMP governance, risk, and compliance (GRC) platform to modernize and scale. We will work with interested cloud providers to pilot creating these packages and incorporating them into the authorization process in partnership with interested agencies.
 
-There are other things we’re working on too, like exploring reciprocity with external frameworks, and partnering with our colleagues at the Cybersecurity and Infrastructure Security Agency on scaling secure configuration guides and threat sharing. Take a look at <a href="https://fedramp.gov" target="_blank" rel="noopener noreferrer">our published roadmap</a> for more details.
+There are other things we’re working on too, like exploring reciprocity with external frameworks, and partnering with our colleagues at the Cybersecurity and Infrastructure Security Agency on scaling secure configuration guides and threat sharing. Take a look at <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf" target="_blank" rel="noopener noreferrer">our published roadmap</a> for more details.
 
 We’re hoping to see a number of outcomes from our efforts over time. We expect our industry providers to be able to more effectively deploy changes, and our agency partners to see more features – including security features – faster. We expect to stabilize our review “backlog”, and keep it stabilized over the long term. We expect cloud providers, agencies, and third party assessors to have a better understanding of our security requirements, leading to higher quality packages and ultimately greater trust in the FedRAMP program. 
 
