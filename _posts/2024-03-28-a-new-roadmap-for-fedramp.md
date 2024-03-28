@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2024-03-28-a-new-roadmap-for-fedramp.png
 author: FedRAMP
 layout: blog-page
 ---
-Today, the FedRAMP program is releasing <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf" target="_blank" rel="noopener noreferrer">a roadmapp</a>, to convey our strategic goals and how we’re prioritizing our work in the near term to drive progress against them.
+Today, the FedRAMP program is releasing <a href="{{site.baseurl}}/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf" target="_blank" rel="noopener noreferrer">a roadmap</a>, to convey our strategic goals and how we’re prioritizing our work in the near term to drive progress against them.
 
 In recent years, there has been a significant public focus on modernizing FedRAMP. In 2022, Congress passed a <a href="https://www.fedramp.gov/blog/2023-01-11-announces-passing-fedramp-auth-act/" target="_blank" rel="noopener noreferrer">new law codifying the program</a>. In 2023, the <a href="https://www.fedramp.gov/2023-10-27-omb-fedramp-memo/" target="_blank" rel="noopener noreferrer">White House Office of Management and Budget (OMB) released a draft policy memorandum</a> proposing significant changes to program operations and governance. Broadly, these changes have been intended to keep what's worked well about FedRAMP, while creating a runway for the program to adapt to change, now and into the future.
 
