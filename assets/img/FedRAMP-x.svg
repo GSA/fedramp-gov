@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.13 37.13">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.64 27.64">
   <defs>
     <style>
       .cls-1 {
         fill: none;
         stroke: #d9f1fd;
         stroke-miterlimit: 10;
-        stroke-width: 1.02px;
+        stroke-width: .76px;
       }
 
       .cls-2 {
@@ -16,9 +16,9 @@
     </style>
   </defs>
   <g id="Round_Black_Transparent" data-name="Round Black Transparent">
-    <circle class="cls-1" cx="18.56" cy="18.56" r="18.05"/>
+    <circle class="cls-1" cx="13.82" cy="13.82" r="13.44"/>
   </g>
   <g id="Original">
-    <path class="cls-2" d="M24.84,8.8h3.32l-7.28,8.29,8.51,11.24h-6.67l-5.23-6.83-5.98,6.83h-3.32l7.71-8.87L7.75,8.8h6.84l4.72,6.24,5.53-6.24ZM23.68,26.38h1.84l-11.89-15.71h-1.97l12.03,15.71Z"/>
+    <path class="cls-2" d="M18.49,6.55h2.47l-5.42,6.17,6.33,8.37h-4.97l-3.89-5.09-4.45,5.09h-2.47l5.74-6.6-6.06-7.94h5.09l3.51,4.65,4.12-4.65ZM17.63,19.64h1.37L10.14,7.95h-1.47l8.96,11.7Z"/>
   </g>
 </svg>
