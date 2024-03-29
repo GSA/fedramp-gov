@@ -12,7 +12,7 @@ doctype:
   - Template
 tags:
   - FedRAMP Security Package
-  - AB Authorization
+  - JAB Authorization
   - Agency Authorization
   - Continuous Monitoring
 
