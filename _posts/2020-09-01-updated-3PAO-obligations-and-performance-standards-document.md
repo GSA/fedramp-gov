@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FedRAMP recently updated the <a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Guide.pdf">3PAO Obligations and Performance Standards</a> document to provide additional clarity and guidance to 3PAOs. This document shares comprehensive information about the 3PAO program, the accreditation standards, and the performance standards a FedRAMP 3PAO must follow to maintain good standing. 
+FedRAMP recently updated the <a href="{{site.baseurl}}/assets/resources/documents/3PAO_Obligations_and_Performance_Standards.pdf">3PAO Obligations and Performance Standards</a> document to provide additional clarity and guidance to 3PAOs. This document shares comprehensive information about the 3PAO program, the accreditation standards, and the performance standards a FedRAMP 3PAO must follow to maintain good standing. 
 
 In addition, the PMO has developed a brief video that covers an overview of the changes to this document.
 
