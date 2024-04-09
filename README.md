@@ -10,7 +10,7 @@ In your `_config.yml`, update the `wds-version` value to the new version number.
 
 ## 18F Open Source Policy
 
-This repository contains the official [Open Source Policy](policy.md) of [18F](https://18f.gsa.gov/) (a digital delivery team within the [General Services Administration](http://gsa.gov)).
+This repository contains the official [Open Source Policy]([policy.md](https://18f.gsa.gov/open-source-policy/) of [18F](https://18f.gsa.gov/) (a digital delivery team within the [General Services Administration](http://gsa.gov)).
 
 **[Read 18F's Open Source Policy.](policy.md)**
 
