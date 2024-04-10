@@ -32,7 +32,7 @@ GSA is especially interested in hearing feedback on the questions below:
   <li>In the future, are there factors that would merit prioritization other than emerging technologies?</li> 
 </ol>  
 
-You can view the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=10cd215a96d444c88f47bae8f1eced60" target="_blank" rel="noopener noreferrer">read-only document that displays the submitted comments here</a> if you would like to build upon the existing comments in your feedback. 
+You can view the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=50d962f467874f36842c68f478a3467d" target="_blank" rel="noopener noreferrer">read-only document that displays the submitted comments here</a> if you would like to build upon the existing comments in your feedback. 
 
 Thank you for your feedback and partnership in modernizing FedRAMP to meet our stakeholders’ needs. 
 
