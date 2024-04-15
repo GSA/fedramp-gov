@@ -6,7 +6,7 @@ image: /assets/img/blog-images/FRblog_Doc-Updates.png
 author: FedRAMP
 layout: blog-page
 ---
-FedRAMP updated the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-POAM-Template.xlsm" target="_blank" rel="noopener noreferrer">Plan of Actions and Milestones (POA&M) template</a> to include two new columns. The additional columns were added at the behest of agency partners to help them track Cybersecurity and Infrastructure Security Agency (CISA) Binding Operational Directive (BOD) 22-01 findings, and the associated Common Vulnerabilities and Exposures (CVEs).
+FedRAMP updated the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-POAM-Template.xlsx" target="_blank" rel="noopener noreferrer">Plan of Actions and Milestones (POA&M) template</a> to include two new columns. The additional columns were added at the behest of agency partners to help them track Cybersecurity and Infrastructure Security Agency (CISA) Binding Operational Directive (BOD) 22-01 findings, and the associated Common Vulnerabilities and Exposures (CVEs).
 
 <h4>What’s New?</h4>
 - **Column ‘AC’:** Titled as the ‘Binding Operational Directive 22-01 Due Date’  should be used to track the due date of any BOD 22-01 vulnerability as the due date appears in the CISA <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">Known Exploited Vulnerabilities Catalog</a>. If the POA&M line item is not associated with any BOD 22-01 vulnerability, this cell should be left blank.
