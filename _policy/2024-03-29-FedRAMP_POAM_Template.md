@@ -3,7 +3,7 @@ layout: policy
 title: FedRAMP Plan of Action and Milestones (POA&M) Template
 category: Authorization Phase
 weblink:
-filename: templates/FedRAMP-POAM-Template.xlsm
+filename: templates/FedRAMP-POAM-Template.xlsx
 filetype: excel
 fileinfo: excel - 74KB
 condition: update
