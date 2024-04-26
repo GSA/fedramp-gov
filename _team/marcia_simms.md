@@ -5,7 +5,7 @@ image: /assets/img/team/profile_MarciaSimms.png
 title: Communications and Outreach Lead
 body-class: page-team-single
 date: 2023-12-12
-order: 700
+order: 800
 ---
 Marcia sits on the Technology Transformation Services Outreach and Marketing team. She joined TTS in February 2024 as the FedRAMP Communications and Outreach Lead. Marcia creates, implements, and oversees strategic communications, outreach and marketing efforts. She promotes and positions FedRAMP externally to key stakeholders, including federal agency partners and private sector tech customers. 
 
