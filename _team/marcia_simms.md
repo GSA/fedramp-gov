@@ -1,7 +1,7 @@
 ---
 layout: teammate
 name: Marcia Simms
-image: /assets/img/team/profile_MarciaSimms.PNG
+image: /assets/img/team/profile_MarciaSimms.png
 title: Communications and Outreach Lead
 body-class: page-team-single
 date: 2023-12-12
