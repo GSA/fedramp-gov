@@ -78,9 +78,9 @@ layout: full-width
           <div id="ED 24-01: Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities" class="usa-accordion__content usa-prose">
             <p>On Friday, January 19, 2024, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities">Emergency Directive 24-01</a>, “Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities” (the Emergency Directive) and Supplemental Direction on Wednesday, January 31, 2024. The Emergency Directive states the following:</p>
 		    
-          <blockquote>CISA has observed widespread and active exploitation of vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure solutions, hereafter referred to as “affected products.” Successful exploitation of the vulnerabilities in these affected products allows a malicious threat actor to move laterally, perform data exfiltration, and establish persistent system access, resulting in full compromise of target information systems.</blockquote>
+          <blockquote class="directives">CISA has observed widespread and active exploitation of vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure solutions, hereafter referred to as “affected products.” Successful exploitation of the vulnerabilities in these affected products allows a malicious threat actor to move laterally, perform data exfiltration, and establish persistent system access, resulting in full compromise of target information systems.</blockquote>
 		    
-<blockquote>CISA has determined these conditions pose an unacceptable risk to Federal Civilian Executive Branch (FCEB) agencies and require emergency action. This determination is based on widespread exploitation of vulnerabilities by multiple threat actors, the prevalence of the affected products in the federal enterprise, the high potential for a compromise of agency information systems, the impact of a successful compromise, and the complexity of the proposed mitigations.</blockquote>
+          <blockquote class="directives">CISA has determined these conditions pose an unacceptable risk to Federal Civilian Executive Branch (FCEB) agencies and require emergency action. This determination is based on widespread exploitation of vulnerabilities by multiple threat actors, the prevalence of the affected products in the federal enterprise, the high potential for a compromise of agency information systems, the impact of a successful compromise, and the complexity of the proposed mitigations.</blockquote>
 
 <p>In consultation with the Joint Authorization Board (JAB) and DHS CISA, FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities">Emergency Directive 24-01</a>. Therefore, we request that CSPs:</p>
 	
@@ -114,10 +114,11 @@ layout: full-width
 <p>Federal agency customers can access the CSP responses from the Incident Response folder in the CSP’s respective FedRAMP secure repository. Agencies should reach out directly to the CSP if they have not provided their reporting template response by Thursday, January 25, 2024. If agency personnel need access to a CSP’s repository for review, please submit a <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Package_Request_Form.pdf">FedRAMP Package Access Request Form</a> to package-access@fedramp.gov.</p>
 
 <h5>References</h5>
-
-<p><a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities">https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities</a></p>
-<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46805">https://nvd.nist.gov/vuln/detail/CVE-2023-46805</a></p>
-<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-21887">https://nvd.nist.gov/vuln/detail/CVE-2024-21887</a></p>
+<ol>
+  <li><a href="https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities">https://www.cisa.gov/news-events/directives/ed-24-01-mitigate-ivanti-connect-secure-and-ivanti-policy-secure-vulnerabilities</a></li>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46805">https://nvd.nist.gov/vuln/detail/CVE-2023-46805</a></li>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-21887">https://nvd.nist.gov/vuln/detail/CVE-2024-21887</a></li>
+</ol>
 	    
           </div>
          
@@ -144,9 +145,9 @@ layout: full-width
           <div id="OMB-M-23-02-Memorandum-for-the-Heads-of-Executive-Departments-and-Agencies" class="usa-accordion__content usa-prose">
             <p>On November 18, 2022, the Office of Management and Budget (OMB) released Memo 23-02, “Migrating to Post-Quantum Cryptography” (the Memo). The Memo states the following:</p>
 
-            <p><em>As outlined in NSM-10, the threat posed by the prospect of a cryptanalytically relevant quantum computer (CRQC) 5 requires that agencies prepare now to implement post-quantum cryptography (PQC). Once operational, a CRQC is expected to be able to compromise certain widely used cryptographic algorithms used to secure Federal data and information systems. Additionally, agencies must remain cognizant that encrypted data can be recorded now and later decrypted by operators of a future CRQC.</em></p>
+            <blockquote class="directives">As outlined in NSM-10, the threat posed by the prospect of a cryptanalytically relevant quantum computer (CRQC) 5 requires that agencies prepare now to implement post-quantum cryptography (PQC). Once operational, a CRQC is expected to be able to compromise certain widely used cryptographic algorithms used to secure Federal data and information systems. Additionally, agencies must remain cognizant that encrypted data can be recorded now and later decrypted by operators of a future CRQC. </blockquote>
 
-            <h5>Actions Required</h5>
+            <h5>Actions Required (updated 4/26/2024)</h5>
 
             <p>In consultation with the Joint Authorization Board (JAB) and OMB, FedRAMP emphasizes that cloud service providers (CSPs) who maintain federal information fall within the scope defined by the Memo. Therefore, we request that you <strong>(1) review the Memo and, (2) upload responses, in <a href="https://docs.google.com/spreadsheets/d/1MV2BSLMBk9ek96S03vaLBmh43o4gkq7t/edit?usp=drive_link&ouid=102061208412243211645&rtpof=true&sd=true">this template</a>, to your respective incident response folder within the FedRAMP Secure Repository. Please upload responses by 11:59 PM Eastern Daylight Time on May 10, 2024.</strong></p>
             <p>Please also note that the following columns have been grayed out in the “Inventory Instructions” and “Inventory Template” sheets as they do not pertain to CSPs and do not have to be completed by CSPs:</p>
@@ -181,7 +182,7 @@ layout: full-width
           <!-- 2022 -------------------------------->
           
           <h3 id="guidance-2022" class="padding-top-2">2022</h3>
-          <h4 class="usa-accordion__heading">
+          <h4 class="usa-accordion__heading" id="M-22-09">
             <button class="usa-accordion__button"
 						aria-expanded="false"
 						aria-controls="Moving-the-U.S.-Government-Toward-Zero-Trust-Cybersecurity-Principles">M-22-09: “Moving the U.S. Government Toward Zero Trust Cybersecurity Principles”</button>
@@ -215,7 +216,7 @@ layout: full-width
           <div id="Mitigate-VMware-Vulnerabilities" class="usa-accordion__content usa-prose">
             <p>On May 18, 2022, the Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA) issued <a href="https://www.cisa.gov/news-events/directives/ed-22-03-mitigate-vmware-vulnerabilities">Emergency Directive 22-03</a>, “Mitigate VMware Vulnerabilities” (the Emergency Directive). The Emergency Directive states the following:</p>
 
-            <p>Threat actors, including likely advanced persistent threat (APT) actors, are exploiting vulnerabilities (CVE 2022-22954 and CVE 2022-22960) in the following VMWare products: VMware Workspace ONE Access (Access), VMware Identity Manager (vIDM), VMware vRealize Automation (vRA), VMware Cloud Foundation, vRealize Suite Lifecycle Manager (impacted VMware products). VMware released an update to address these vulnerabilities on April 6, 2022, and threat actors were able to reverse engineer the update and begin exploitation of impacted VMware products that remained unpatched within 48 hours of the update’s release. </p>
+            <blockquote class="directives">Threat actors, including likely advanced persistent threat (APT) actors, are exploiting vulnerabilities (CVE 2022-22954 and CVE 2022-22960) in the following VMWare products: VMware Workspace ONE Access (Access), VMware Identity Manager (vIDM), VMware vRealize Automation (vRA), VMware Cloud Foundation, vRealize Suite Lifecycle Manager (impacted VMware products). VMware released an update to address these vulnerabilities on April 6, 2022, and threat actors were able to reverse engineer the update and begin exploitation of impacted VMware products that remained unpatched within 48 hours of the update’s release. </blockquote>
 
             <p>On May 18, 2022, VMware released an update for two new vulnerabilities (CVE-2022-22972 and CVE-2022-22973). Based on the above, CISA expects threat actors to quickly develop a capability to exploit these newly released vulnerabilities in the same impacted VMware products. Exploiting the above vulnerabilities permits attackers to trigger a server-side template injection that may result in remote code execution (CVE-2022-22954); escalate privileges to 'root' (CVE-2022-22960 and CVE-2022-22973); and obtain administrative access without the need to authenticate (CVE-2022- 22972).</p> 
 
@@ -296,7 +297,7 @@ layout: full-width
 						aria-controls="Improving-the-Federal-Government">M-21-31: “Improving the Federal Government’s Investigative and Remediation Capabilities Related to Cybersecurity Incidents”</button>
           </h4>
           <div id="Improving-the-Federal-Government" class="usa-accordion__content usa-prose">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel maximus nisl, non tempus quam. Donec ac lorem pretium enim tincidunt bibendum. Nunc metus lorem, vulputate a erat faucibus, ornare rutrum magna. Nullam porta volutpat iaculis. Sed maximus odio vitae elit tempor, ac molestie dolor malesuada. Nunc quis justo magna. Morbi efficitur est turpis, sit amet ullamcorper augue dapibus ac. Maecenas tristique ultricies metus, in ultrices mauris viverra vitae. Aenean euismod congue accumsan.</p>
+            <p>See <a href="#M-22-09">M-22-09</a>.</p>
 
           </div>
           <h4 class="usa-accordion__heading">
@@ -336,7 +337,7 @@ layout: full-width
           <div id="Mitigate-Pulse-Connect-Secure-Product-Vulnerabilities" class="usa-accordion__content usa-prose">
             <p>On April 20, 2021, DHS Cybersecurity and Infrastructure Security Agency issued <a href="https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities">Emergency Directive 21- 03</a>, “Mitigate Pulse Connect Secure Product Vulnerabilities” (the Emergency Directive). The Emergency Directive addresses vulnerabilities in Pulse Connect Secure products. Successful exploitation of these vulnerabilities could allow an attacker to place webshells on the appliance to gain persistent system access into the appliance operating the vulnerable software. </p>
 
-            <p>In consultation with the Joint Authorization Board (JAB) and the Department of Homeland Security (DHS) Cybersecurity Infrastructure Security Agency (CISA), FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain Federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities">Emergency Directive 21-03</a>. Therefore, <strong>we request that you review and implement the actions described within the Emergency Directive and upload responses to the incident response folder in your respective FedRAMP secure repository</strong>. Please use the provided template. Where the <a href="https://cyber.dhs.gov/assets/report/ed21-03status.xlsx">template</a> references “agency,” provide complete responses using CSP information. Please upload responses, including identifying applicability or negative applicability, by 11:59pm Eastern Daylight Time, April 22, 2021. </p>
+            <p>In consultation with the Joint Authorization Board (JAB) and the Department of Homeland Security (DHS) Cybersecurity Infrastructure Security Agency (CISA), FedRAMP emphasizes that Cloud Service Providers (CSPs) who maintain Federal information fall within the scope defined by <a href="https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities">Emergency Directive 21-03</a>. Therefore, we request that you review and implement the actions described within the Emergency Directive and upload responses to the incident response folder in your respective FedRAMP secure repository. Please use the provided template. Where the <a href="https://cyber.dhs.gov/assets/report/ed21-03status.xlsx">template</a> references “agency,” provide complete responses using CSP information. Please upload responses, including identifying applicability or negative applicability, by 11:59pm Eastern Daylight Time, April 22, 2021. </p>
 
             <p>We also request that you email all AOs (or ISSO) and the FedRAMP PMO at <a href=mailto:info@fedramp.gov>info@fedramp.gov</a> when this action is complete. When emailing <a href=mailto:info@fedramp.gov>info@fedramp.gov</a>, please use the following convention for your subject line: [CSP NAME] - Response to ED 21-03. In addition, we request that you upload a copy of your notification to the incident response folder in your respective FedRAMP secure repository. </p>
 
@@ -471,7 +472,7 @@ layout: full-width
 						aria-controls="Update-to-the-Trusted-Internet-Connections-Initiative">M-19-26: Update to the Trusted Internet Connections (TIC) Initiative</button>
           </h4>
           <div id="Update-to-the-Trusted-Internet-Connections-Initiative" class="usa-accordion__content usa-prose">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel maximus nisl, non tempus quam. Donec ac lorem pretium enim tincidunt bibendum. Nunc metus lorem, vulputate a erat faucibus, ornare rutrum magna. Nullam porta volutpat iaculis. Sed maximus odio vitae elit tempor, ac molestie dolor malesuada. Nunc quis justo magna. Morbi efficitur est turpis, sit amet ullamcorper augue dapibus ac. Maecenas tristique ultricies metus, in ultrices mauris viverra vitae. Aenean euismod congue accumsan.</p>
+            <p>See <a href="#M-22-09">M-22-09</a>.</p>
           </div>
 
 
