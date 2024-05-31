@@ -2,7 +2,7 @@
 title: FedRAMP Governance
 permalink: /2024-05-31-fedramp-governance/
 body-class: page-blog
-image: /assets/img/blog-images/2024-03-28-a-new-roadmap-for-fedramp.png
+image: /assets/img/blog-images/2024-05-31-fedramp_governance.png
 author: FedRAMP
 layout: blog-page
 ---
