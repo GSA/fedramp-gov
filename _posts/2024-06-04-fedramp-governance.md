@@ -18,7 +18,7 @@ In brief:
 These groups have two distinct functions - governance and providing advice. 
 
 <h3>Governance of FedRAMP</h3>
-FedRAMP’s governing body is the <b>FedRAMP Board</b>, which is defined in the <a href="https://www.fedramp.gov/blog/2023-01-11-announces-passing-fedramp-auth-act/" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Actn</a>, and replaces the Joint Authorization Board. The FedRAMP Board represents the needs of the federal community and the interests of FedRAMP as a whole, and is made up of seven federal technology executives from different agencies that are selected by the Federal Chief Information Officer in the Office of Management and Budget (OMB). The Board is a voting body that holds non-public meetings on a periodic basis. The Federal Chief Information Officer and the FedRAMP Director will act as non-voting Chair and Vice Chair, respectively.
+FedRAMP’s governing body is the <b>FedRAMP Board</b>, which is defined in the <a href="https://www.fedramp.gov/blog/2023-01-11-announces-passing-fedramp-auth-act/" target="_blank" rel="noopener noreferrer">FedRAMP Authorization Act</a>, and replaces the Joint Authorization Board. The FedRAMP Board represents the needs of the federal community and the interests of FedRAMP as a whole, and is made up of seven federal technology executives from different agencies that are selected by the Federal Chief Information Officer in the Office of Management and Budget (OMB). The Board is a voting body that holds non-public meetings on a periodic basis. The Federal Chief Information Officer and the FedRAMP Director will act as non-voting Chair and Vice Chair, respectively.
 
 The FedRAMP Board works with the FedRAMP Director to approve and help guide FedRAMP policies, and will generally oversee the overall health and performance of FedRAMP. A major part of driving a healthy FedRAMP ecosystem will be convening their fellow federal technology leaders to authorize more cloud services, including finding opportunities for multiple agencies to leverage their trust and shared needs to authorize services together.
  
@@ -36,4 +36,4 @@ FedRAMP consults with the TAG directly, requesting their views when their techni
 
 Together, FedRAMP’s governance and advisory groups will be critical at growing and strengthening FedRAMP over the years to come.
 
-Thank you for your partnership as we continue to set up the FedRAMP program for its next decade of delivery. We love hearing from you! Please email <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>. if you have any comments or questions.
+Thank you for your partnership as we continue to set up the FedRAMP program for its next decade of delivery. We love hearing from you! Please email <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a> if you have any comments or questions.
