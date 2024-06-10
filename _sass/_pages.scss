@@ -1126,3 +1126,33 @@ ol.training-step-sub {
 		}
 	}
 }
+
+table.raci-matrix {
+	border: solid 1px $light-gray;
+	border-collapse: collapse;
+
+	th.row-header {
+		text-align: left;
+		padding: 8px 14px;
+		line-height: 1.25em;
+		
+	}
+
+	tr.head-row th {
+		vertical-align: bottom;
+		line-height: 1.25em;
+	}
+
+	td {
+		text-align: center;
+		padding: 8px 14px;
+		border-left: solid 1px $light-gray;
+	}
+}
+
+.quick-links h4 {
+	padding: 0;
+	margin: 0;
+	color: $red;
+	font-size: 1rem;
+}
