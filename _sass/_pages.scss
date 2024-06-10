@@ -1156,3 +1156,20 @@ table.raci-matrix {
 	color: $red;
 	font-size: 1rem;
 }
+
+.sidebar-quick-links {
+	
+	ul {
+		margin-left: -40px;
+	}
+
+	li {
+		list-style: none;
+		margin-bottom: 10px;
+
+		a{
+			text-decoration: underline;
+		}
+	}
+
+}
