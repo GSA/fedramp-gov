@@ -43,7 +43,8 @@ layout: full-width
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
 	    <li><a href="#faq-security">Security</a></li>
-	    <li><a href="#faq-rev-5">Rev. 5</a></li>		  
+	    <li><a href="#faq-rev-5">Rev. 5</a></li>
+	    <li><a href="#faq-rev-5">ET Prioritization Framework</a></li>		  
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -68,7 +69,8 @@ layout: full-width
             <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
             <li><a href="#faq-acquisition">Acquisition</a></li>
  	    <li><a href="#faq-security">Security</a></li>0
- 	    <li><a href="#faq-rev-5">Rev. 5</a></li>		  
+ 	    <li><a href="#faq-rev-5">Rev. 5</a></li>
+	    <li><a href="#faq-rev-5">ET Prioritization Framework</a></li>		  
           </ul>
           <div class="lavalamp"></div>
         </nav>
@@ -795,7 +797,110 @@ layout: full-width
           </h4>
           <div id="real-world-examples-csp-implement-cm-12-1" class="usa-accordion__content usa-prose">
 		  <p>This control does not prescribe the use of any specific tool or technology. Understanding data types and location, and when the data is transmitted internally and outside of the boundary can be accomplished through multiple implementations. This functionality should be in place in operations and can inform design and architecture decisions. If there is a single solution or there are multiple technologies that use automated mechanisms to identify the location and type of data and protect the organizational and privacy data, that meets the intent of the control. The solution should be documented in the SSP. Ultimately, the authorizing official will determine if the documented solution meets the intent of the control and properly identifies and protects the organizational and privacy information.</p> 
-          </div>		
+          </div>
+		 <!-- ET Prioritization Framework -------------------------------->
+          
+          <h3 id="faq-rev-5" class="padding-top-2">ET Prioritization Framework</h3>
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="will-csp-also-apply-fr-auth">Will CSP’s that apply for an ET prioritization also be applying for a FedRAMP authorization at the same time?</button>
+          </h4>
+          <div id="will-csp-also-apply-fr-auth" class="usa-accordion__content usa-prose">
+            <p>Yes, CSPs will likely be applying for FR authorization and ET Prioritization at the same time.  They are not linked in the ET Prioritization Framework because the authorization paths are changing as a result of the anticipated finalized OMB Memo.  The exact details of how the processes will be integrated and rolled out will be made clearer in future blogs and documentation when the new paths are released.</p>	  
+          </div>
+		
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="have-fr-auth-can-reapply">I already have a FedRAMP Authorization, can you reapply for an ET prioritization?</button>
+          </h4>
+          <div id="have-fr-auth-can-reapply" class="usa-accordion__content usa-prose">
+            <p>If a CSP is already FR authorized and is interested in adding Artificial Intelligence to their offering, this would be handled through the Significant Change Request process in coordination with their Authorizing Official.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="what-is-model-card">What is a model card?</button>
+          </h4>
+          <div id="what-is-model-card" class="usa-accordion__content usa-prose">
+            <p>An AI model card, explained <a href="https://doi.org/10.1145/3287560.3287596" target="_blank">here</a> <i class="fas fa-external-link-alt fa-sm"></i>, is a short document that accompanies trained machine learning models that provides transparent model reporting and explains source, quantity and freshness of training data. Model cards also disclose the context in which models are intended to be used, details of the performance evaluation procedures, and other relevant information.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="how-will-model-cards-be-evaluated">How will model cards be evaluated?</button>
+          </h4>
+          <div id="how-will-model-cards-be-evaluated" class="usa-accordion__content usa-prose">
+            <p>Model cards will be evaluated via a qualitative process.  The model cards are intended to provide transparency regarding what use cases the model is good for, what training data was used, how fresh or recent is that data, and any limitations, biases, or risks that exist in the offering itself.  These are necessary so that federal agencies can determine how to leverage the offerings and best apply them to their mission needs.  Therefore, FedRAMP will look to prioritize those offerings that most completely supply data to the required fields and are thorough in providing quality answers in the model card responses.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="why-model-card-writing-utilities-provided">Why are model card writing utilities provided?</button>
+          </h4>
+          <div id="why-model-card-writing-utilities-provided" class="usa-accordion__content usa-prose">
+            <p>The FedRAMP PMO acknowledges that model cards are being introduced as a new concept and therefore has worked to provide utilities that can assist CSPs in building and accelerating the delivery of the requested artifact.  As such, we have provided examples of model cards that are already in the ecosystem. We’ve provided a template that is direct about what fields the FedRAMP PMO is interested in reviewing. Additionally, these model card writing utilities have been helpful to others in starting their model cards.  No endorsement of these utilities should be implied.</p>	  
+          </div>
+
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="what-if-csp-already-progress-wants-add-an-et-to-package">What if a CSP is already in progress and wants to add an Emerging Technology to their existing package?</button>
+          </h4>
+          <div id="what-if-csp-already-progress-wants-add-an-et-to-package" class="usa-accordion__content usa-prose">
+            <p>CSPs that are in progress and have completed an assessment with their 3PAO must complete the process of the authorization before adding ETs to their package for consideration.  If an assessment has not been performed, ET could be introduced so long as the 3PAO assessment plan is updated to test the ET. Once FedRAMP Authorized, the ET can be added via the Significant Change Request (SCR) process.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="why-additional-category-generalized-api-added">Why was an additional category for Generalized API’s added to the list of approved Emerging Technologies?</button>
+          </h4>
+          <div id="why-additional-category-generalized-api-added" class="usa-accordion__content usa-prose">
+            <p>Generalized API’s that support chat interfaces, code generation, and text based image generation were always in Executive Order 14110.  Following the draft public comment period, it was decided that additional capacity was needed for prioritization of these tools.  Along with an emphasis on both user interactive tools as well as programming interfaces that could enable more  platforms and applications to incorporate generative Artificial Intelligence features.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="what-qualifies-as-demand">What qualifies as demand?</button>
+          </h4>
+          <div id="what-qualifies-as-demand" class="usa-accordion__content usa-prose">
+            <p>The Emerging Technology Prioritization Framework reuses the previously described JAB definitions for demand including these three sources: 1) Current customers which includes the partner agency, 2) indirect customers, and 3) potential customers.  See pages 4-6 of the <a href="https://fedramp.gov" target="_blank">ET Prioritization Criteria and Guidance</a> under “Breakdown of Demand Categories” for additional details around the accepted demand categories and examples of each.  Please note, unlike the JAB demand criteria, CSPs are now required to apply with a minimum of at least 1 current customer, or agency partner.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="what-minium-demand-score-csp-needs-apply">What is the minimum demand score a CSP needs to apply for an ET prioritization?</button>
+          </h4>
+          <div id="wwhat-minium-demand-score-csp-needs-apply" class="usa-accordion__content usa-prose">
+            <p>CSPs will need a demand score of 3 in order to be prioritized. There will need to be at least 1 current customer to also be prioritized. The remaining contributing points can come from a combination of the 3 demand sources. Please review page 6 of  the <a href="https://fedramp.gov" target="_blank">ET Prioritization Criteria and Guidance</a> under “Demand Scoring Rubric” for a further breakdown of the demand scoring rubric.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="potential-demand-cap-how-many-submissions">If a CSP can use potential demand, is there a cap or limit of how many submissions a CSP can include?</button>
+          </h4>
+          <div id="potential-demand-cap-how-many-submissions" class="usa-accordion__content usa-prose">
+            <p>As a result of lessons learned from the JAB, there are caps placed on both the indirect and potential customer sources of demand. Indirect demand is now capped at 4 total submissions, and potential demand is capped at 8 total submissions. This allows CSPs to add a total of 1 point for each of these categories to their total demand score.</p>	  
+          </div>
+
+          <h4 class="usa-accordion__heading">
+            <button class="usa-accordion__button"
+						aria-expanded="false"
+						aria-controls="new-tech-intro-evolves-how-often-et-list-updated">As new technology is introduced or evolves, how often will the list of ET for prioritization be updated?</button>
+          </h4>
+          <div id="new-tech-intro-evolves-how-often-et-list-updated" class="usa-accordion__content usa-prose">
+            <p>The list of ET for prioritization will be reviewed annually at a minimum, or as directed by the FedRAMP Board for adjustments or alterations.   In the future, the PMO will open a request mechanism to Agencies and industry to submit ideas for Emerging Technologies to be added to the approved list.  These will be validated and trimmed down to the best ideas with Federal CIO council and government stakeholder collaboration before being released.</p>	  
+          </div>
+		
  <div class="padding-bottom-8"> </div>
         </div>
       </div>
