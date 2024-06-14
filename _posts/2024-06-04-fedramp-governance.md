@@ -13,7 +13,7 @@ Over the past few weeks, we have announced the <a href="https://www.gsa.gov/abou
 In brief:
 - The <b>FedRAMP Board</b> is a governance body of federal executives that are responsible for reviewing and approving FedRAMP policies, and for bringing together their fellow federal technology leaders to expand FedRAMP’s capacity for authorizing cloud services.
 - The <b>Federal Secure Cloud Advisory Committee</b> is an advisory body with government and private-sector members that makes recommendations to GSA on making FedRAMP a more effective program.
-- The <b>FedRAMP Technology Advisory Group</b> is an advisory body of federal technology experts that FedRAMP consults on technology issues as they arise throughout program policy and operations.
+- The <b>FedRAMP Technical Advisory Group</b> is an advisory body of federal technology experts that FedRAMP consults on technology issues as they arise throughout program policy and operations.
 
 These groups have two distinct functions - governance and providing advice. 
 
