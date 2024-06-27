@@ -27,11 +27,14 @@ One significant change:  Analyzing whether a service qualifies as generative AI.
 We’ve also broken out the capabilities list in a different way, with “associated APIs” as their own distinct capability. FedRAMP wants to prioritize services that offer AI-enabled tools directly to users, as well as services that offer underlying AI-enabled technologies as services that can be incorporated into other applications (whether those applications are agency-run digital services or other cloud service providers). Separating API-based offerings into a separate capability allows FedRAMP to prioritize both kinds of services without them competing against each other.
 
 Here’s a brief summary of changes:
-<table>
+<table class="usa-table usa-table--borderless fedramp-rev-table">
+  <thead>
   <tr>
     <th><b>Emerging Technology Prioritization Framework Changes</b></th>
     <th><b>Rationale</b></th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>Removed organizational roles and responsibilities</td>
     <td>This section was largely generic to FedRAMP and not specific to the ET prioritization framework.</td>
@@ -69,7 +72,8 @@ Provides a detailed procedure for submitting the ET CSO Request Form and the ET 
  
 AI performance is rapidly increasing. Additionally, the previously proposed benchmarks may not be relevant to agencies' diverse mission needs over time.
 </td>
-  </tr>  
+  </tr> 
+  </tbody>
 </table>
 
 For any questions, please email <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>
