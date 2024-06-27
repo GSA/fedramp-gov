@@ -107,6 +107,13 @@ assigned:
             show_in_menu: true
             show_in_footer: false
 
+        - 
+            text: ET Framework
+            href: pages/et-framework.md
+            permalink: /et-framework/
+            show_in_menu: true
+            show_in_footer: false    
+
     -
         text: Blog
         href: pages/blog.md
