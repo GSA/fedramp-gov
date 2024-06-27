@@ -27,23 +27,14 @@ One significant change:  Analyzing whether a service qualifies as generative AI.
 We’ve also broken out the capabilities list in a different way, with “associated APIs” as their own distinct capability. FedRAMP wants to prioritize services that offer AI-enabled tools directly to users, as well as services that offer underlying AI-enabled technologies as services that can be incorporated into other applications (whether those applications are agency-run digital services or other cloud service providers). Separating API-based offerings into a separate capability allows FedRAMP to prioritize both kinds of services without them competing against each other.
 
 Here’s a brief summary of changes:
-| Emerging Technology Prioritization Framework Changes | Rationale |
-| -------- | ------- |
-| Removed organizational roles and responsibilities | This section was largely generic to FedRAMP and not specific to the ET prioritization framework. |
-| Shifted capability prioritization target to the prioritized technologies list | Allows for the prioritization target to be more flexible, with updates based on demand. |
-| Updated process graphic and responsibility matrix | Improved clarity on processes and artifact flows between processes. 
-
-Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group. |
-| Revised demand criteria and submission standard operating procedure | Provided more detailed demand formula revisions.
-
-Outlined twice yearly application windows for prioritization. 
-
-Provides a detailed procedure for submitting the ET CSO Request Form and the ET Demand Form. |
-| Changes to Prioritized List | Rationale |
-| -------- | ------- |
-| Additional category for the capability for general-purpose APIs containing the prioritized capabilities | Prioritizes offerings that facilitate the incorporation of chat, code generation or debugging tools, or image generation capabilities into new or existing products and services. |
-| Shift from quantitative benchmark to qualitative model card | Model cards are a standardized way for providers to provide intended use information as well as relevant benchmarks. 
- 
-AI performance is rapidly increasing. Additionally, the previously proposed benchmarks may not be relevant to agencies' diverse mission needs over time. |
+| **Emerging Technology Prioritization Framework Changes**                                                 | **Rationale**                                                                                                                                                                                                                                                                    |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Removed organizational roles and responsibilities                                                        | This section was largely generic to FedRAMP and not specific to the ET prioritization framework.                                                                                                                                                                                 |
+| Shifted capability prioritization target to the prioritized technologies list                            | Allows for the prioritization target to be more flexible, with updates based on demand.                                                                                                                                                                                          |
+| Updated process graphic and responsibility matrix                                                        | Improved clarity on processes and artifact flows between processes.  Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group.                                                                                                      |
+| Revised demand criteria and submission standard operating procedure                                      | Provided more detailed demand formula revisions. Outlined twice yearly application windows for prioritization.  Provides a detailed procedure for submitting the ET CSO Request Form and the ET Demand Form.                                                                     |
+| **Changes to Prioritized List**                                                                          | **Rationale**                                                                                                                                                                                                                                                                    |
+| Additional category for the capability for general-purpose APIs containing the prioritized capabilities  | Prioritizes offerings that facilitate the incorporation of chat, code generation or debugging tools, or image generation capabilities into new or existing products and services.                                                                                                |
+| Shift from quantitative benchmark to qualitative model card                                              | Model cards are a standardized way for providers to provide intended use information as well as relevant benchmarks.    AI performance is rapidly increasing. Additionally, the previously proposed benchmarks may not be relevant to agencies' diverse mission needs over time. |
 
 For any questions, please email <a href="mailto:info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a>
