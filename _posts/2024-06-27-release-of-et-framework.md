@@ -60,7 +60,7 @@ Provides a detailed procedure for submitting the ET CSO Request Form and the ET 
 </td>
   </tr>
     <th><b>Changes to Prioritized List</b></th>
-    <th><b>Rationale</b><</th>
+    <th><b>Rationale</b></th>
   </tr>
   <tr>
     <td>Additional category for the capability for general-purpose APIs containing the prioritized capabilities</td>
