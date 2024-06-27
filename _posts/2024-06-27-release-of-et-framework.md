@@ -1,6 +1,6 @@
 ---
 title: Release of Emerging Technology Prioritization Framework
-permalink: /2024-06-28-release-of-et-framework/
+permalink: /2024-06-27-release-of-et-framework/
 body-class: page-blog
 image: /assets/img/blog-images/2024-03-28-a-new-roadmap-for-fedramp.png
 author: FedRAMP
