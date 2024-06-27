@@ -49,11 +49,6 @@ Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Tec
   </tr>
   <tr>
     <td>Revised demand criteria and submission standard operating procedure</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
     <td>Provided more detailed demand formula revisions.
 
 Outlined twice yearly application windows for prioritization. 
@@ -61,9 +56,8 @@ Outlined twice yearly application windows for prioritization.
 Provides a detailed procedure for submitting the ET CSO Request Form and the ET Demand Form.
 </td>
   </tr>
-  <tr>
-    <td><b>Changes to Prioritized List</b></td>
-    <td><b>Rationale</b></td>
+    <th><b>Changes to Prioritized List</b></th>
+    <th><b>Rationale</b><</th>
   </tr>
   <tr>
     <td>Additional category for the capability for general-purpose APIs containing the prioritized capabilities</td>
