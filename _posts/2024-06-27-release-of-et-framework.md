@@ -42,19 +42,16 @@ Here’s a brief summary of changes:
   <tr>
     <td>Updated process graphic and responsibility matrix</td>
     <td>Improved clarity on processes and artifact flows between processes. 
-<p>Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group.</p>
-</td>
+<p>Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group.</p></td>
   </tr>
   <tr>
     <td>Revised demand criteria and submission standard operating procedure</td>
     <td>Provided more detailed demand formula revisions.
 <p>Outlined twice yearly application windows for prioritization.</p> 
-<p>Provides a detailed procedure for submitting the ET CSO Request Form and the ET Demand Form.</p>
-</td>
+<p>Provides a detailed procedure for submitting the ET CSO Request Form and the ET Demand Form.</p></td>
   </tr>
     <th><b>Changes to Prioritized List</b></th>
     <th><b>Rationale</b></th>
-  </tr>
   <tr>
     <td>Additional category for the capability for general-purpose APIs containing the prioritized capabilities</td>
     <td>Prioritizes offerings that facilitate the incorporation of chat, code generation or debugging tools, or image generation capabilities into new or existing products and services.</td>
@@ -62,8 +59,7 @@ Here’s a brief summary of changes:
   <tr>
     <td>Shift from quantitative benchmark to qualitative model card</td>
     <td>Model cards are a standardized way for providers to provide intended use information as well as relevant benchmarks. 
- <p>AI performance is rapidly increasing. Additionally, the previously proposed benchmarks may not be relevant to agencies' diverse mission needs over time.</p>
-</td>
+ <p>AI performance is rapidly increasing. Additionally, the previously proposed benchmarks may not be relevant to agencies' diverse mission needs over time.</p></td>
   </tr> 
   </tbody>
 </table>
