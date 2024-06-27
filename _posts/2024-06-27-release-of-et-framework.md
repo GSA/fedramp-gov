@@ -29,10 +29,8 @@ We’ve also broken out the capabilities list in a different way, with “associ
 Here’s a brief summary of changes:
 <table class="usa-table usa-table--borderless fedramp-rev-table">
   <thead>
-  <tr>
     <th><b>Emerging Technology Prioritization Framework Changes</b></th>
     <th><b>Rationale</b></th>
-  </tr>
   </thead>
   <tbody>
   <tr>
@@ -47,7 +45,7 @@ Here’s a brief summary of changes:
     <td>Updated process graphic and responsibility matrix</td>
     <td>Improved clarity on processes and artifact flows between processes. 
 
-Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group.
+<p>Incorporate nominations by agencies and CSPs and engagement with the FedRAMP Technical Advisory Group.</p>
 </td>
   </tr>
   <tr>
