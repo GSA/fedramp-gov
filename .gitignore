@@ -1,4 +1,5 @@
-# Jekyll stuff
+.DS_Store
 
+# Jekyll stuff
 _site/
 .sass-cache
