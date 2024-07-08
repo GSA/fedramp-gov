@@ -1173,3 +1173,29 @@ table.raci-matrix {
 	}
 
 }
+
+.fedramp-pilots-card h4 {
+		color: #fff;
+		margin: 0 .75rem;
+}
+
+.pilot-positions {
+	padding-left: 1rem;
+	margin-top: -20px;
+	h3 {
+		color: $light-blue;
+		margin-top: 0;
+		font-size: 1rem;
+	}
+}
+
+.pilot-positions::before {
+	content: "\2022"; 
+	color: $red;
+	font-weight: bold; 
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	width: 1em; 
+	margin-left: -1rem;
+}
