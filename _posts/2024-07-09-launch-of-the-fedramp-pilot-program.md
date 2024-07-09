@@ -11,7 +11,7 @@ Today, FedRAMP is launching a new pilot program to improve program effectiveness
 Our first pilot effort will be on a new non-blocking process for reviewing significant changes for new feature additions to existing cloud service offerings (CSOs). As we discussed in our  <a href="https://www.fedramp.gov/2024-03-28-a-new-roadmap-for-fedramp/" target="_blank" rel="noopener noreferrer">roadmap release</a>, the goal is to eventually replace the current “significant change request” process with an approach that does not require advance approval for each change. We’re piloting this approach because we believe the same security outcomes can be achieved by an alternative approach that empowers cloud providers to continuously deliver and assess improvements using secure and agile delivery and deployment practices.
 
 <h4>Kicking off with the Agile Delivery pilot</h4>
-We have received remarkable interest and excitement around participating in pilots, and we are kicking off with our <a href="{{site.baseurl}}/agile-delivery-pilot-non-blocking-change-request-phase1/">Agile Delivery pilot focused on new features</a>. The data gathered from this pilot will help inform program-wide changes to streamline the current change and configuration management processes and shift towards continuous assessment.
+We have received remarkable interest and excitement around participating in pilots, and we are kicking off with our <a href="{{site.baseurl}}/agile-delivery-pilot-non-blocking-change-request-phase1/" target="_blank" rel="noopener noreferrer>Agile Delivery pilot focused on new features</a>. The data gathered from this pilot will help inform program-wide changes to streamline the current change and configuration management processes and shift towards continuous assessment.
 
 Currently, cloud service providers (CSPs) must go through independent testing and agency approval before rolling out a new feature. This could result in negative impacts and opportunity costs, including to the overall security offering of authorized cloud providers:
   1. Agencies see significant delays before getting access to features – including security features – that can help them deliver on their mission.
@@ -29,7 +29,7 @@ To limit the scope and potential impact of changes to agencies, new features lau
 - types of components used such as databases, operating systems, or containers, and 
 - tooling used to configure, secure, and scan those components. 
 
-Please visit our <a href="{{site.baseurl}}/fedramp-pilots/">pilot program web page</a> for more information on how to apply. FedRAMP will accept applications from now through July 26, 2024, and will work with the CSP and agencies to make selections by August 16, 2024. 
+Please visit our <a href="{{site.baseurl}}/fedramp-pilots/" target="_blank" rel="noopener noreferrer>pilot program web page</a> for more information on how to apply. FedRAMP will accept applications from now through July 26, 2024, and will work with the CSP and agencies to make selections by August 16, 2024. 
 
 <h4>Stay informed</h4>
 Remember, our pilot program web page will house information about our pilots. Email us at <a href="mailto:pilots@fedramp.gov" target="_blank" rel="noopener noreferrer">pilots@fedramp.gov</a>pilots@fedramp.gov to drop us a line if you have questions.
