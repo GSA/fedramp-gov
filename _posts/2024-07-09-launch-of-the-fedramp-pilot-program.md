@@ -1,6 +1,6 @@
 ---
 title: Special Announcement&#58 Launch of the FedRAMP Pilot Program
-permalink: /2024-07-10-launch-of-the-fedramp-pilot-program/
+permalink: /2024-07-09-launch-of-the-fedramp-pilot-program/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-10-launch-of the-fedramp-pilot-program.png
 author: FedRAMP
