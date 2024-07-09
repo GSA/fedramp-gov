@@ -1,8 +1,8 @@
 ---
 title: Release of Emerging Technology Prioritization Framework
-permalink: /2024-07-10-launch-of-the-fedramp-pilot-program/
+permalink: /2024-07-09-launch-of-the-fedramp-pilot-program/
 body-class: page-blog
-image: /assets/img/blog-images/2024-06-27-ET-framework_fedramp.png
+image: /assets/img/blog-images/2024-07-10-launch-of the-fedramp-pilot-program.png
 author: FedRAMP
 layout: blog-page
 ---
