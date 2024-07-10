@@ -49,6 +49,13 @@ assigned:
             permalink: /assessors/
             show_in_menu: true
             show_in_footer: false
+
+        - 
+            text: FedRAMP Pilots
+            href: fedramp-pilots.md
+            permalink: /fedramp-pilots/
+            show_in_menu: true
+            show_in_footer: false
     -
         text: Get Authorized
         href: 

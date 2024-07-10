@@ -82,6 +82,10 @@
 	margin-top: -620px;
 }
 
+.significant-change-section {
+	margin-top: -720px;
+}
+
 // .framework-main-section {
 // 	margin-top: -710px;
 // }
@@ -101,6 +105,14 @@ ul.in-page-nav-menu {
     right: 0;
     top: 0;
 	height: 540px;
+
+	.significant-change-menu {
+		height: 655px;
+	}
+}
+
+#top-menu.significant-change-menu {
+	height: 655px;
 }
 
 .resources-nav-mobile {
