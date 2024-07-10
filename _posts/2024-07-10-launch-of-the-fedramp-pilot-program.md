@@ -22,7 +22,7 @@ The Agile Delivery pilot intends to ensure that agencies can leverage the latest
 <h4>Agile Delivery pilot prerequisites</h4>
 CSPs who have a new feature they plan to release before December 31, 2024, are encouraged to apply. CSPs should have mature automated configuration management and change management processes, whose details they are willing to share with FedRAMP.
 
-FedRAMP will work with the CSP and their authorizing official (AO) to determine participation, targeting around 20 participants with different approaches. Pilot participants must continue to inform agencies of the changes, provide self-assessment artifacts, and undergo independent testing by January 31, 2024.
+FedRAMP will work with the CSP and their authorizing official (AO) to determine participation, targeting around 20 participants with different approaches. Pilot participants must continue to inform agencies of the changes, provide self-assessment artifacts, and undergo independent testing by January 31, 2025.
 
 To limit the scope and potential impact of changes to agencies, new features launched as part of this pilot must be opt-in. Opt-in features should not be required for the rest of the offering to function, and agency customers must proactively decide to use that service or feature. Additionally, changes to the fundamental underlying architecture, or new security control implementations that apply to the entire offering, will be excluded from the pilot. For the purposes of this pilot, agencies must choose to use the new feature and the new feature <b>cannot change</b> the:
 - system’s fundamental architecture, 
