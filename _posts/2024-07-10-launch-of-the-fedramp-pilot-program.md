@@ -6,6 +6,8 @@ image: /assets/img/blog-images/2024-07-10-launch-of-the-fedramp-pilot-program.pn
 author: FedRAMP
 layout: blog-page
 ---
+By Ryan Palmer and Samuel Leestma
+
 Today, FedRAMP is launching a new pilot program, rooted in iterative development and customer engagement. 
 
 Our first pilot effort will be on a new non-blocking process for reviewing significant changes, with an initial focus on new feature additions to existing cloud service offerings (CSOs). As we discussed in our <a href="https://www.fedramp.gov/2024-03-28-a-new-roadmap-for-fedramp/" target="_blank" rel="noopener noreferrer">roadmap release</a>, the goal is to eventually replace the current “significant change request” process with an approach that does not require advance approval for each change. We’re piloting this approach because we believe the same security outcomes can be achieved by an alternative approach that empowers cloud providers to continuously deliver and assess improvements using secure and agile delivery and deployment practices. 
