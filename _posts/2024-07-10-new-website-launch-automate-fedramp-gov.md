@@ -17,7 +17,7 @@ Please note that this site replaces the previously published FedRAMP OSCAL User 
 
 <a href="http://automate.fedramp.gov" target="_blank" rel="noopener noreferrer">automate.fedramp.gov</a> offers detailed technical documentation, best practices, and guidance for creating and managing digital authorization packages with OSCAL. This site will help make the FedRAMP authorization process more efficient and accessible by:
 
-Providing faster and more frequent documentation updates:
+- Providing faster and more frequent documentation updates;
 - Expanding the breadth and depth of available technical documentation;
 - Improving the user experience for stakeholders who are implementing OSCAL-based FedRAMP packages and tools; and
 - Establishing a collaborative workflow that supports community contributions for improvements to the documentation.
