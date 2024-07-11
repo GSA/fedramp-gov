@@ -120,6 +120,12 @@ assigned:
             permalink: /et-framework/
             show_in_menu: true
             show_in_footer: false    
+        - 
+            text: DMARC
+            href: pages/dmarc.md
+            permalink: /dmarc/
+            show_in_menu: true
+            show_in_footer: false       
 
     -
         text: Blog
@@ -144,4 +150,10 @@ assigned:
             permalink: /about-marketplace/
             show_in_menu: true
             show_in_footer: false
+    -
+        text: Developer Hub
+        is_external: https://automate.fedramp.gov
+        show_in_menu: true
+        show_in_footer: false
+ 
 unassigned: []

@@ -60,7 +60,7 @@ div.usa-nav-container {
 	}
 }
 
-@media (min-width: 769px) and (max-width: 950px) {
+@media (min-width: 769px) and (max-width: 1100px) {
 	div.usa-nav-container {
 		padding: 20px 4rem;
 		margin: 0;
@@ -249,7 +249,7 @@ li.parent .sub-menu {
     color: #fff;
 }
 
-@media all and (min-width: 951px) {
+@media all and (min-width: 1100px) {
   .usa-header-basic .usa-navbar {
 
   }
@@ -654,7 +654,7 @@ button.usa-nav__close {
 }
 
 
-@media (min-width: 950px) and (max-width: 5000px) {
+@media (min-width: 1101px) and (max-width: 5000px) {
 	.usa-nav-primary li.parent {
 		img {
 			display: none;
@@ -671,7 +671,7 @@ button.usa-nav__close {
 	z-index: 10000;
 }
 
-@media (min-width:580px) and (max-width:950px) {
+@media (min-width:580px) and (max-width:1100px) {
 .usa-js-mobile-nav--active nav#navigation.usa-nav.nav.is-visible {
 	width: 50%;
 }	
@@ -684,7 +684,7 @@ button.usa-nav__close {
 }
 
 
-@media (min-width:0) and (max-width: 950px) {
+@media (min-width:0) and (max-width: 1100px) {
 	.usa-nav-container div#logo.usa-logo {
 		background: none;
 		padding: 0;
@@ -801,7 +801,7 @@ button.usa-nav__close {
 }
 }
 
-@media (min-width: 768px) and (max-width: 950px) {
+@media (min-width: 768px) and (max-width: 1100px) {
 	header.usa-header {
 		.search-wrapper {
 			padding-right: 4rem !important;
@@ -818,7 +818,7 @@ button.usa-nav__close {
 	}
 }
 
-@media (min-width: 0) and (max-width: 950px) {
+@media (min-width: 0) and (max-width: 1100px) {
 	.usa-js-mobile-nav--active ul.usa-nav-primary li:hover > ul, 
 	.usa-js-mobile-nav--active ul.usa-nav-primary li:focus-within > ul, 
 	.usa-js-mobile-nav--active ul.usa-nav-primary li ul:hover, 
@@ -911,7 +911,7 @@ li.parent .sub-menu {
     /* Note: You need a separate @media screen group for other rules */
 }
 
-@media (min-width: 0px) and (max-width: 951px) {
+@media (min-width: 0px) and (max-width: 1100px) {
 ul.sub-menu li.parent {
   padding: 0;
 float: left;
@@ -952,7 +952,7 @@ ul.sub-sub-menu {
 	max-width: 880px;
 }
 
-@media (min-width: 950px) and (max-width: 1200px) {
+@media (min-width:1100px) and (max-width: 1200px) {
 
 	ul.usa-nav-primary.usa-accordion {
 		padding: 0 28px 0 0;
@@ -962,31 +962,33 @@ ul.sub-sub-menu {
 }
 
 
-@media (min-width:951px) and (max-width:1024px) {
-	.usa-nav li a, .usa-nav li.main-parent {
-		padding-right: 8px !important;
-		padding-left: 8px !important;
-		transition: none;
-	}
-	.usa-nav {
-		max-width: 755px !important;
-	}
-	.usa-nav-primary {
-		display: flex;
-		flex-flow: row;
-		justify-content: space-between;	
-	}
+// 1024 test
+
+// @media (min-width:951px) and (max-width:1100px) {
+// 	.usa-nav li a, .usa-nav li.main-parent {
+// 		padding-right: 8px !important;
+// 		padding-left: 8px !important;
+// 		transition: none;
+// 	}
+// 	.usa-nav {
+// 		max-width: 755px !important;
+// 	}
+// 	.usa-nav-primary {
+// 		display: flex;
+// 		flex-flow: row;
+// 		justify-content: space-between;	
+// 	}
 	
-	header .usa-nav-container .usa-menu-btn {
-		position: relative;
-		top: -50px;
-		right: 36px;
-	}
-}
+// 	header .usa-nav-container .usa-menu-btn {
+// 		position: relative;
+// 		top: -50px;
+// 		right: 36px;
+// 	}
+// }
 
 
 
-@media (min-width:0) and (max-width: 950px) {
+@media (min-width:0) and (max-width: 1100px) {
 .usa-nav > ul > li:hover > a, .usa-nav > ul > .current-item > a {
 		color: #fff !important;
 		opacity: 1;
@@ -1037,29 +1039,29 @@ ul.sub-sub-menu {
 
 
 
-/* ------ Mobile Menu to display at 950px CHJ ---------- */
+/* ------ Mobile Menu to display at 1024px CHJ ---------- */
 
 
 
-@media (min-width:951px) and (max-width:1024px) {
-	ul.usa-nav-primary li a, .usa-nav ul li.parent {
-		padding: 10px 12px;
-	}
+// @media (min-width:951px) and (max-width:1100px) {
+// 	ul.usa-nav-primary li a, .usa-nav ul li.parent {
+// 		padding: 10px 12px;
+// 	}
 	
-	ul.usa-nav-primary.usa-accordion {
-		width: 710px;
-	}
+// 	ul.usa-nav-primary.usa-accordion {
+// 		width: 710px;
+// 	}
 	
-	header .usa-nav-container .usa-menu-btn {
-		display: none;
-	}
+// 	header .usa-nav-container .usa-menu-btn {
+// 		display: block;
+// 	}
 	
-	.usa-nav {
-		display: table !important;
-		width: 755px;
-    	position: relative;
-	}
-}
+// 	.usa-nav {
+// 		display: table !important;
+// 		width: 755px;
+//     	position: relative;
+// 	}
+// }
 
 
 .usa-nav-container {
@@ -1070,13 +1072,40 @@ ul.sub-sub-menu {
 	}
 }
 
-.usa-nav-primary li.parent:last-child {
+.usa-nav-primary li.parent:nth-last-child(2), .usa-nav-primary li a.external:last-child {
+	background: $dark-gray;
+	color: white !important;
+	border-radius: 0;
+    border: none;
+    padding: 10px;
+}
+
+.usa-nav-primary li.parent.primary-active:nth-last-child(2) {
 	background: $dark-gray;
 	color: white !important;
 }
 
-.usa-nav-primary li.parent.primary-active:last-child {
-	background: $dark-gray;
-	color: white !important;
+
+
+@media (max-width: 1100px) {
+    .usa-nav {
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: fixed;
+        background: #fff;
+        border-right: 0;
+        display: none;
+        flex-direction: column;
+        overflow-y: auto;
+        padding: 1rem;
+        width: 15rem;
+        z-index: 500;
+    }
 }
 
+@media (min-width: 1100px) {
+    .usa-menu-btn {
+        display: none !important;
+    }
+}
