@@ -9,7 +9,7 @@ layout: blog-page
 By Dave Waltermire
 
 <h3>FedRAMP’s Automation Website: A New Hub for Technical Documentation and Guidance on Digital Authorization Packages</h3>
-Today, we are launching <a href="http://Automate.fedramp.gov" target="_blank" rel="noopener noreferrer">automate.fedramp.gov</a>. This is a new technical documentation hub designed specifically to support cloud service providers (CSPs) in the development, validation, and submission of digital authorization packages, and the developers of governance, risk, and compliance (GRC) applications and other tools that produce and consume digital authorization package data. 
+Today, we are launching <a href="http://automate.fedramp.gov" target="_blank" rel="noopener noreferrer">automate.fedramp.gov</a>. This is a new technical documentation hub designed specifically to support cloud service providers (CSPs) in the development, validation, and submission of digital authorization packages, and the developers of governance, risk, and compliance (GRC) applications and other tools that produce and consume digital authorization package data. 
 
 The website is initially focused on documenting FedRAMP’s use of the Open Security Controls Assessment Language (OSCAL) to support digital authorization packages – a foundational piece of operating FedRAMP in a data-first way. We plan to expand the website over time as we bring new capabilities online, and it will eventually include details of how to integrate with FedRAMP’s package repository and submission processes.
 
