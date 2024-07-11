@@ -1,221 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302 686.5">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 302 658.4">
   <defs>
     <style>
-      .cls-1 {
-        letter-spacing: .01em;
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #0a90b7;
       }
 
-      .cls-2 {
+      .cls-1, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-2 {
         letter-spacing: 0em;
       }
 
-      .cls-3 {
-        letter-spacing: 0em;
+      .cls-6, .cls-2, .cls-7, .cls-8, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-6, .cls-2, .cls-7, .cls-3, .cls-4 {
+        font-size: 18px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-6, .cls-7, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
       }
 
       .cls-4 {
         letter-spacing: 0em;
       }
-
-      .cls-5 {
-        letter-spacing: .01em;
-      }
-
-      .cls-6 {
-        letter-spacing: 0em;
-      }
-
-      .cls-7 {
-        letter-spacing: .02em;
-      }
-
-      .cls-8 {
-        letter-spacing: 0em;
-      }
-
-      .cls-9 {
-        letter-spacing: .02em;
-      }
-
-      .cls-10 {
-        letter-spacing: 0em;
-      }
-
-      .cls-11 {
-        letter-spacing: 0em;
-      }
-
-      .cls-12 {
-        letter-spacing: .01em;
-      }
-
-      .cls-13 {
-        letter-spacing: .01em;
-      }
-
-      .cls-14 {
-        letter-spacing: .02em;
-      }
-
-      .cls-15 {
-        fill: #0a90b7;
-      }
-
-      .cls-15, .cls-16, .cls-17 {
-        stroke-width: 0px;
-      }
-
-      .cls-18 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-19 {
-        letter-spacing: .01em;
-      }
-
-      .cls-20 {
-        letter-spacing: .01em;
-      }
-
-      .cls-21, .cls-22, .cls-23, .cls-24 {
-        isolation: isolate;
-      }
-
-      .cls-21, .cls-22, .cls-25 {
-        font-size: 18px;
-      }
-
-      .cls-21, .cls-23 {
-        font-family: Montserrat-Bold, Montserrat;
-        font-weight: 700;
-      }
-
-      .cls-21, .cls-17 {
-        fill: #0a90b7;
-      }
-
-      .cls-26 {
-        letter-spacing: 0em;
-      }
-
-      .cls-27 {
-        letter-spacing: 0em;
-      }
-
-      .cls-28 {
-        letter-spacing: 0em;
-      }
-
-      .cls-29 {
-        letter-spacing: 0em;
-      }
-
-      .cls-30 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-22 {
-        font-family: Montserrat-SemiBold, Montserrat;
-        font-weight: 600;
-      }
-
-      .cls-22, .cls-31, .cls-16 {
-        fill: #fff;
-      }
-
-      .cls-32 {
-        letter-spacing: 0em;
-      }
-
-      .cls-33 {
-        letter-spacing: 0em;
-      }
-
-      .cls-34 {
-        letter-spacing: 0em;
-      }
-
-      .cls-23 {
-        fill: #1a4480;
-        font-size: 16.5px;
-      }
-
-      .cls-25 {
-        fill: #1a4480;
-        font-family: Muli-Regular, Muli;
-      }
-
-      .cls-35 {
-        letter-spacing: 0em;
-      }
-
-      .cls-36 {
-        letter-spacing: 0em;
-      }
-
-      .cls-37 {
-        letter-spacing: 0em;
-      }
-
-      .cls-38 {
-        letter-spacing: 0em;
-      }
-
-      .cls-31 {
-        stroke: #1a4480;
-        stroke-width: .75px;
-      }
-
-      .cls-39 {
-        letter-spacing: 0em;
-      }
-
-      .cls-40 {
-        letter-spacing: 0em;
-      }
-
-      .cls-41 {
-        letter-spacing: 0em;
-      }
-
-      .cls-42 {
-        letter-spacing: 0em;
-      }
     </style>
   </defs>
-  <g id="Layer_3" data-name="Layer 3">
-    <rect class="cls-16" y="536" width="301" height="143"/>
-  </g>
-  <g id="Layer_4" data-name="Layer 4">
-    <path id="Path_11100" data-name="Path 11100" class="cls-15" d="M280.9,47.61H14V0h266.9l9.1,23.83-9.1,23.78Z"/>
-    <path id="Path_11101" data-name="Path 11101" class="cls-16" d="M274.34,636.2H14.22l13.4-30.41-13.4-30.48h260.11l14.66,30.48-14.66,30.41Z"/>
-    <path id="Path_11341" data-name="Path 11341" class="cls-15" d="M24.45,631.71h-3.41l1.28-3.01,6.77-20.6,1.05-2.46-1.04-2.46-6.79-20.69-1.28-3.01h28.35v-4.38H14.22l10.62,29.71.35.81-.35.82-10.61,29.63,201.79-.31v6.21l11.72-8.29-11.72-8.29v5.99l-191.56.31h0Z"/>
-    <path id="Path_11342" data-name="Path 11342" class="cls-15" d="M215.86,629.33v-3.81l11.72,8.29-11.72,8.29v-6.21l-201.64.2,10.61-29.63.35-.81-.35-.82-10.61-29.71h35.16v4.37h-28.35l1.28,3,6.79,20.69,1.04,2.46-1.05,2.46-6.77,20.6-1.28,3.01,194.82-.2v-2.18Z"/>
-    <path id="Path_11343" data-name="Path 11343" class="cls-15" d="M277.16,636.09h-39.33v-4.37h36.37l.59-1.31,8.86-23.89.4-.88-.4-.88-8.87-23.96-.59-1.31-202.02-.08v6.17l-11.56-8.29,11.56-8.29v6.03l204.98.08,11.84,30.52-11.84,30.45Z"/>
-  </g>
-  <g id="Layer_1" data-name="Layer 1">
+  <g>
+    <path id="Path_11101" data-name="Path 11101" class="cls-5" d="M274.3,636.2H14.2l13.4-30.4-13.4-30.5h260.1l14.7,30.5-14.7,30.4h0Z"/>
+    <path id="Path_11341" data-name="Path 11341" class="cls-1" d="M24.5,631.7h-3.4l1.3-3,6.8-20.6,1-2.5-1-2.5-6.8-20.7-1.3-3h28.4v-4.4H14.2l10.6,29.7.4.8-.4.8-10.6,29.6,201.8-.3v6.2l11.7-8.3-11.7-8.3v6l-191.6.3h0Z"/>
+    <path id="Path_11342" data-name="Path 11342" class="cls-1" d="M215.9,629.3v-3.8l11.7,8.3-11.7,8.3v-6.2l-201.6.2,10.6-29.6.4-.8-.4-.8-10.6-29.7h35.2v4.4h-28.4l1.3,3,6.8,20.7,1,2.5-1,2.5-6.8,20.6-1.3,3,194.8-.2v-2.2h0Z"/>
+    <path id="Path_11343" data-name="Path 11343" class="cls-1" d="M277.2,636.1h-39.3v-4.4h36.4l.6-1.3,8.9-23.9.4-.9-.4-.9-8.9-24-.6-1.3H72.2c0,0,0,6.1,0,6.1l-11.6-8.3,11.6-8.3v6h205c0,0,11.8,30.6,11.8,30.6l-11.8,30.5h0Z"/>
     <g id="Continuous_Monitoring" data-name="Continuous Monitoring">
-      <text class="cls-21" transform="translate(47.25 613.12)"><tspan class="cls-30" x="0" y="0">C</tspan><tspan class="cls-33" x="12.94" y="0">ontinuous Moni</tspan><tspan class="cls-18" x="162.12" y="0">t</tspan><tspan class="cls-40" x="169.74" y="0">o</tspan><tspan class="cls-41" x="181.62" y="0">r</tspan><tspan class="cls-40" x="189.39" y="0">i</tspan><tspan class="cls-5" x="194.9" y="0">n</tspan><tspan class="cls-33" x="207.54" y="0">g</tspan></text>
+      <g class="cls-8">
+        <text class="cls-4" transform="translate(47.2 613.1)"><tspan x="0" y="0">C</tspan></text>
+        <text class="cls-3" transform="translate(60.2 613.1)"><tspan x="0" y="0">ontinuous Moni</tspan></text>
+        <text class="cls-4" transform="translate(209.4 613.1)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-3" transform="translate(217 613.1)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-3" transform="translate(228.9 613.1)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-3" transform="translate(236.6 613.1)"><tspan x="0" y="0">i</tspan></text>
+        <text class="cls-2" transform="translate(242.1 613.1)"><tspan x="0" y="0">n</tspan></text>
+        <text class="cls-3" transform="translate(254.8 613.1)"><tspan x="0" y="0">g</tspan></text>
+      </g>
     </g>
-    <path class="cls-31" d="M72.91,81.52l156.04-.51c11.04-.03,20.02,8.9,20.06,19.94v.45c.05,11.04-8.88,20.02-19.93,20.06l-156.04.51c-11.04.03-20.02-8.9-20.06-19.94v-.45c-.05-11.04,8.88-20.02,19.93-20.06Z"/>
-    <g id="Agency_PROCESS" data-name="Agency PROCESS" class="cls-24">
-      <text class="cls-23" transform="translate(81.21 106.81)"><tspan class="cls-35" x="0" y="0">A</tspan><tspan class="cls-12" x="12.72" y="0">ge</tspan><tspan class="cls-7" x="35.01" y="0">n</tspan><tspan class="cls-11" x="46.68" y="0">c</tspan><tspan class="cls-20" x="56.46" y="0">y </tspan><tspan x="71.33" y="0">P</tspan><tspan class="cls-26" x="83.41" y="0">r</tspan><tspan class="cls-28" x="90.54" y="0">o</tspan><tspan class="cls-2" x="101.51" y="0">c</tspan><tspan class="cls-28" x="111.31" y="0">ess</tspan></text>
-    </g>
-    <path id="Path_11287" data-name="Path 11287" class="cls-17" d="M280.13,228.23H14l9.87-23.22-9.87-23.28h266.13l9.87,23.28-9.87,23.22Z"/>
-    <path id="Path_11287-2" data-name="Path 11287" class="cls-17" d="M280.13,418.23H14l9.87-23.22-9.87-23.28h266.13l9.87,23.28-9.87,23.22Z"/>
+  </g>
+  <g>
+    <path id="Path_11287" data-name="Path 11287" class="cls-1" d="M280.1,241H14l9.9-23.2-9.9-23.3h266.1l9.9,23.3-9.9,23.2Z"/>
     <g id="Preparation">
-      <text class="cls-22" transform="translate(96.71 211.14)"><tspan class="cls-37" x="0" y="0">P</tspan><tspan class="cls-6" x="12.89" y="0">r</tspan><tspan class="cls-34" x="20.36" y="0">e</tspan><tspan class="cls-32" x="31.64" y="0">p</tspan><tspan class="cls-40" x="43.96" y="0">a</tspan><tspan class="cls-3" x="54.97" y="0">r</tspan><tspan class="cls-40" x="62.48" y="0">ation</tspan></text>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(96.7 223.9)"><tspan x="0" y="0">P</tspan></text>
+        <text class="cls-7" transform="translate(109.6 223.9)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-7" transform="translate(117.1 223.9)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-7" transform="translate(128.4 223.9)"><tspan x="0" y="0">p</tspan></text>
+        <text class="cls-7" transform="translate(140.7 223.9)"><tspan x="0" y="0">a</tspan></text>
+        <text class="cls-7" transform="translate(151.7 223.9)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-7" transform="translate(159.2 223.9)"><tspan x="0" y="0">ation</tspan></text>
+      </g>
     </g>
-    <text class="cls-25" transform="translate(76.88 308.98)"><tspan x="0" y="0">Pr</tspan><tspan class="cls-14" x="18.23" y="0">e</tspan><tspan class="cls-36" x="28.4" y="0">-</tspan><tspan class="cls-13" x="36.04" y="0">Authori</tspan><tspan class="cls-29" x="98.82" y="0">z</tspan><tspan class="cls-13" x="108.12" y="0">ation</tspan></text>
-    <text class="cls-25" transform="translate(52.22 276.65)"><tspan class="cls-27" x="0" y="0">Readiness </tspan><tspan class="cls-8" x="92.82" y="0">A</tspan><tspan class="cls-13" x="106.11" y="0">ssessment </tspan></text>
+  </g>
+  <g>
+    <path id="Path_11287-2" data-name="Path 11287-2" class="cls-1" d="M280.1,434.9H14l9.9-23.2-9.9-23.3h266.1l9.9,23.3-9.9,23.2Z"/>
     <g id="Authorization">
-      <text class="cls-22" transform="translate(85.53 401.14)"><tspan class="cls-36" x="0" y="0">A</tspan><tspan class="cls-33" x="13.39" y="0">ut</tspan><tspan class="cls-27" x="33.46" y="0">h</tspan><tspan class="cls-33" x="45.97" y="0">o</tspan><tspan x="57.67" y="0">r</tspan><tspan class="cls-40" x="65.23" y="0">ization</tspan></text>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(85.5 417.8)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-7" transform="translate(98.9 417.8)"><tspan x="0" y="0">ut</tspan></text>
+        <text class="cls-7" transform="translate(119 417.8)"><tspan x="0" y="0">h</tspan></text>
+        <text class="cls-7" transform="translate(131.5 417.8)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-7" transform="translate(143.2 417.8)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-7" transform="translate(150.8 417.8)"><tspan x="0" y="0">ization</tspan></text>
+      </g>
     </g>
-    <text class="cls-25" transform="translate(20.11 502.98)"><tspan class="cls-27" x="0" y="0">Agency Authori</tspan><tspan class="cls-39" x="131.61" y="0">z</tspan><tspan class="cls-19" x="140.92" y="0">ation </tspan><tspan x="188.91" y="0">Pr</tspan><tspan class="cls-19" x="207.14" y="0">ocess </tspan></text>
-    <text class="cls-25" transform="translate(44.63 470.65)"><tspan x="0" y="0">F</tspan><tspan class="cls-19" x="10.13" y="0">ull Securi</tspan><tspan class="cls-9" x="86.69" y="0">t</tspan><tspan class="cls-27" x="93.27" y="0">y </tspan><tspan class="cls-10" x="107.89" y="0">A</tspan><tspan class="cls-27" x="121.17" y="0">ssessment</tspan></text>
+  </g>
+  <g>
+    <path id="Path_11100" data-name="Path 11100" class="cls-1" d="M280.9,47.6H14V0h266.9l9.1,23.8-9.1,23.8Z"/>
     <g id="Select_Authorization_Path" data-name="Select Authorization Path">
-      <text class="cls-22" transform="translate(34.46 29.96)"><tspan class="cls-40" x="0" y="0">Sele</tspan><tspan class="cls-1" x="39.28" y="0">c</tspan><tspan class="cls-40" x="49.95" y="0">t </tspan><tspan class="cls-38" x="62.73" y="0">A</tspan><tspan class="cls-40" x="76.12" y="0">ut</tspan><tspan class="cls-27" x="96.19" y="0">h</tspan><tspan class="cls-33" x="108.7" y="0">o</tspan><tspan class="cls-4" x="120.4" y="0">r</tspan><tspan class="cls-42" x="127.96" y="0">ization </tspan><tspan class="cls-37" x="196.12" y="0">P</tspan><tspan class="cls-40" x="209.01" y="0">ath</tspan></text>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(34.5 30)"><tspan x="0" y="0">Sele</tspan></text>
+        <text class="cls-6" transform="translate(73.7 30)"><tspan x="0" y="0">c</tspan></text>
+        <text class="cls-7" transform="translate(84.4 30)"><tspan x="0" y="0">t </tspan></text>
+        <text class="cls-7" transform="translate(97.2 30)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-7" transform="translate(110.6 30)"><tspan x="0" y="0">ut</tspan></text>
+        <text class="cls-7" transform="translate(130.6 30)"><tspan x="0" y="0">h</tspan></text>
+        <text class="cls-7" transform="translate(143.2 30)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-7" transform="translate(154.9 30)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-7" transform="translate(162.4 30)"><tspan x="0" y="0">ization </tspan></text>
+        <text class="cls-7" transform="translate(230.6 30)"><tspan x="0" y="0">P</tspan></text>
+        <text class="cls-7" transform="translate(243.5 30)"><tspan x="0" y="0">ath</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
