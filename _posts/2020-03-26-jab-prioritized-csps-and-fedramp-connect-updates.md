@@ -21,7 +21,7 @@ In preparation for this next round of FedRAMP Connect, the <a href="https://www.
  
 Small updates have also been made to the process, including:
 
-* FedRAMP Connect Business Case due dates will be announced by the PMO a minimum of 30 days prior to a due date via the Focus on FedRAMP blog, FedRAMP’s listserv, and the <a href="https://www.fedramp.gov/jab-authorization/">JAB Authorization</a> webpage  
+* FedRAMP Connect Business Case due dates will be announced by the PMO a minimum of 30 days prior to a due date via the Focus on FedRAMP blog, and FedRAMP’s listserv  
 * CSPs interested in pursuing a JAB P-ATO must submit a Business Case each round to ensure the information provided for the PMO’s review is up to date and accurate 
 
 Please keep in mind, the FedRAMP Program Management Office (PMO) and JAB have limited resources and can only work with a fixed number of cloud service providers per year for a JAB P-ATO. The JAB prioritizes cloud service offerings based on government-wide demand to help meet government-wide mission needs. Agencies and industry can also work together by partnering to achieve a FedRAMP Authorization. For more information, check out the <a href="https://www.fedramp.gov/assets/resources/documents/Agency_Authorization_Playbook.pdf">Agency Authorization Playbook</a>.
