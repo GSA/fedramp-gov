@@ -13,14 +13,14 @@ Today, we are launching <a href="http://Automate.fedramp.gov" target="_blank" re
 
 The website is initially focused on documenting FedRAMP’s use of the Open Security Controls Assessment Language (OSCAL) to support digital authorization packages – a foundational piece of operating FedRAMP in a data-first way. We plan to expand the website over time as we bring new capabilities online, and it will eventually include details of how to integrate with FedRAMP’s package repository and submission processes.
 
-Please note that this site replaces the previously published FedRAMP OSCAL User Guides with reorganized content that allows for linking to specific sections of the guides and makes it possible for community members to contribute to the guide content. This work realigns the guidance to provide a digital first public experience as required by OMB memorandum <a href="https://digital.gov/resources/delivering-digital-first-public-experience/" target="_blank" rel="noopener noreferrer">M-23-22</a>.
+Please note that this site replaces the previously published FedRAMP OSCAL User Guides with reorganized content that allows for linking to specific sections of the guides and makes it possible for community members to contribute to the guide content. This work realigns the guidance to provide a digital-first public experience as required by OMB memorandum <a href="https://digital.gov/resources/delivering-digital-first-public-experience/" target="_blank" rel="noopener noreferrer">M-23-22</a>.
 
 <a href="http://automate.fedramp.gov" target="_blank" rel="noopener noreferrer">automate.fedramp.gov</a> offers detailed technical documentation, best practices, and guidance for creating and managing digital authorization packages with OSCAL. This site will help make the FedRAMP authorization process more efficient and accessible by:
 
-- Providing faster and more frequent documentation updates;
-- Expanding the breadth and depth of available technical documentation;
-- Improving the user experience for stakeholders who are implementing OSCAL-based FedRAMP packages and tools; and
-- Establishing a collaborative workflow that supports community contributions for improvements to the documentation.
+- Providing faster and more frequent documentation updates
+- Expanding the breadth and depth of available technical documentation
+- Improving the user experience for stakeholders who are implementing OSCAL-based FedRAMP packages and tools
+- Establishing a collaborative workflow that supports community contributions for improvements to the documentation
 
 As with our automation work generally, this website is <a href="https://github.com/GSA/automate.fedramp.gov" target="_blank" rel="noopener noreferrer">open source</a>, and anyone is welcome to open an issue to provide feedback, or file a pull request to suggest changes or improve the content.  
 
