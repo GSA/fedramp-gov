@@ -1,6 +1,6 @@
 ---
 title: New Website Launch&#58; automate.fedramp.gov 
-permalink: /2024-07-10-new-website-launch-automate-fedramp-gov/
+permalink: /2024-07-11-new-website-launch-automate-fedramp-gov/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-11-new-website-launch-automate-fedramp-gov.png
 author: FedRAMP
