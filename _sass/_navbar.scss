@@ -595,6 +595,7 @@ header .usa-nav-container .usa-menu-btn {
 	border: none;
 	color: #fff;
 	padding: 0px;
+	display: inline-block;
 }
 
 .usa-js-mobile-nav--active ul {
@@ -1107,5 +1108,13 @@ ul.sub-sub-menu {
 @media (min-width: 1100px) {
     .usa-menu-btn {
         display: none !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .usa-nav.is-visible {
+        -webkit-animation: slidein-left .3s ease-in-out;
+        animation: slidein-left .3s ease-in-out;
+        display: flex;
     }
 }
