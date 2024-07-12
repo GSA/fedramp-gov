@@ -1127,7 +1127,18 @@ ol.training-step-sub {
 	}
 }
 
-table.raci-matrix {
+div.highlight {
+	border-width: 1px;
+	border-style: solid;
+	border-color: $mid-gray;
+}
+
+div.highlight>div.chroma, div.highlight>pre.chroma {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table.dmarc-tables {
 	border: solid 1px $light-gray;
 	border-collapse: collapse;
 
@@ -1144,7 +1155,6 @@ table.raci-matrix {
 	}
 
 	td {
-		text-align: center;
 		padding: 8px 14px;
 		border-left: solid 1px $light-gray;
 	}
