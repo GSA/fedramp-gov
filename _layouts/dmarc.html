@@ -9,7 +9,7 @@ layout: full-width
       <div id="main-header" class="lavalamp-menu">
         <nav>
           <ul class="in-page-nav-menu" id="top-menu">
-            <li><a href="#overview">Overview</a></li>
+            		<li><a href="#overview">Overview</a></li>
 			<li><a href="#implementation">Implementation</a></li>
 			<li><a href="#examples-and-common-issues">Examples and Common Issues</a></li>
 			<li><a href="#initial-and-ongoing-authorization-considerations">Initial and Ongoing Authorization Considerations</a></li>
@@ -63,7 +63,7 @@ layout: full-width
 
 		<div id="overview" class="">
 			<h2>Overview</h2>
-			<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication protocol that helps to detect and prevent email spoofing. By consistently using DMARC for emails sent by the federal government, people and organizations that receive federal email can have high confidence that these emails are legitimate and official. The Cybersecurity and Infrastructure Security Agency (CISA) required the use of DMARC by federal agencies as one of the many <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security">BOD 18-01</a> requirements for all sending email domains. Please review the full text of BOD 18-01 which enumerates all requirements.</p>
+			<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication protocol that helps to detect and prevent email spoofing. By consistently using DMARC for emails sent by the federal government, people and organizations that receive federal email can have high confidence that these emails are legitimate and official. The Cybersecurity and Infrastructure Security Agency (CISA) required the use of DMARC by federal agencies as one of the many <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> <i class="fas fa-external-link-alt fa-sm"></i>requirements for all sending email domains. Please review the full text of BOD 18-01 which enumerates all requirements.</p>
 			<p>Other BOD 18-01 requirements that should apply to CSOs include:</p>
 			<ul>			
 				<li>Configure all internet-facing mail servers to offer STARTTLS.</li>
@@ -84,7 +84,7 @@ layout: full-width
 				<li>either <span class="font-mono-sm lightest-gray-bkg">pct=100</span> or pct not specified (defaults to 100)</li>
 				<li><span class="font-mono-sm lightest-gray-bkg">rua</span> email addresses must include <span class="font-mono-sm lightest-gray-bkg">mailto:reports@dmarc.cyber.dhs.gov</span></li>
 			</ul>
-			<p>This must be documented in SI-8 in the SSP Appendix A per the FedRAMP Rev5 High and Moderate <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx">baselines</a>. For Low and LiSaaS, it should be documented under SI-5.</p>
+			<p>This must be documented in SI-8 in the SSP Appendix A per the FedRAMP Rev5 High and Moderate <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx" target="_blank" rel="noopener noreferrer">baselines</a>. For Low and LiSaaS, it should be documented under SI-5.</p>
 
 			
 		</div>
@@ -110,7 +110,7 @@ layout: full-width
 			</ul>
 
 			<h3>Actions for Agencies</h3>
-			<p>Please see <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security">BOD 18-01</a> section on DMARC for additional information.</p>
+			<p>Please see <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> <i class="fas fa-external-link-alt fa-sm"></i> section on DMARC for additional information.</p>
 			<h4>How to check if outgoing email is appropriately configured?</h4>
 			<p>Send an email through the CSO to a known address where the receiving email server evaluates inbound email against the sending domain’s SPF/DKIM/DMARC records. Review the email headers for appropriate content, for example:</p>
 			<ul>
@@ -123,7 +123,7 @@ layout: full-width
 
 		<div id="examples-and-common-issues" class="margin-top-6">
 			<h2>Examples and Common Issues</h2>
-			<p>DMARC implementation is a common FedRAMP authorization issue, as CSP implementations often fail to meet <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security">BOD 18-01</a> requirements.</p>
+			<p>DMARC implementation is a common FedRAMP authorization issue, as CSP implementations often fail to meet <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> requirements. <i class="fas fa-external-link-alt fa-sm"></i></p>
 
 			<h3>Example of a properly configured DMARC record for fedramp.gov</h3>
 
@@ -298,7 +298,7 @@ layout: full-width
 									</ul>
 								</td>
 								<td>
-									<p>These are the requirements as directed by <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security">BOD 18-01</a> and the FedRAMP baselines (See Resources for testing tools).</p>
+									<p>These are the requirements as directed by <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> <i class="fas fa-external-link-alt fa-sm"></i> and the FedRAMP baselines (See Resources for testing tools).</p>
 								</td>
 								<td>
 									<p>Will not delay authorization</p>
@@ -349,23 +349,23 @@ layout: full-width
 		<div id="resources" class="margin-top-6">
 			<h2>Resources</h2>
 			<ol>
-				<li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177r1.pdf">Special Publication 800-177 Rev 1, Trustworthy Email</a>, issued in February 2019 by the National Institute of Standards and Technology. Section 4 discusses the protocols and techniques a sending domain can use to authenticate valid email senders for a given domain.</li>
-				<li><a href="https://www.ftc.gov/system/files/documents/reports/businesses-can-help-stop-phishing-protect-their-brands-using-email-authentication-ftc-staff/email_authentication_staff_perspective.pdf">Businesses Can Help Stop Phishing and Protect their Brands Using Email Authentication</a>, issued in 2017 by the Federal Trade Commission’s Bureau of Consumer Protection; identifies the benefits of implementing DMARC. </li>
-				<li><a href="https://dmarcguide.globalcyberalliance.org/">“DMARC Guide”</a> from Global Cyber Alliance is a one-off <a href="https://dmarcguide.globalcyberalliance.org/#/spf">SPF</a>, <a href="https://dmarcguide.globalcyberalliance.org/#/dkim">DKIM</a>, and <a href="https://dmarcguide.globalcyberalliance.org/#/dmarc">DMARC</a> policy analyzer and record creator. Provides guidance to organizations through the process of creating a DMARC policy.</li>
-				<li>Commercial and free services exist (including at least one <a href="">FedRAMP Authorized DMARC service</a>) that help derive intelligence from DMARC reports. The below examples are provided for convenience only and are not FedRAMP-endorsed.
+				<li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177r1.pdf" target="_blank" rel="noopener noreferrer">Special Publication 800-177 Rev 1, Trustworthy Email</a> <i class="fas fa-external-link-alt fa-sm"></i>, issued in February 2019 by the National Institute of Standards and Technology. Section 4 discusses the protocols and techniques a sending domain can use to authenticate valid email senders for a given domain.</li>
+				<li><a href="https://www.ftc.gov/system/files/documents/reports/businesses-can-help-stop-phishing-protect-their-brands-using-email-authentication-ftc-staff/email_authentication_staff_perspective.pdf" target="_blank" rel="noopener noreferrer">Businesses Can Help Stop Phishing and Protect their Brands Using Email Authentication</a> <i class="fas fa-external-link-alt fa-sm"></i>, issued in 2017 by the Federal Trade Commission’s Bureau of Consumer Protection; identifies the benefits of implementing DMARC. </li>
+				<li><a href="https://dmarcguide.globalcyberalliance.org/" target="_blank" rel="noopener noreferrer">“DMARC Guide”</a> <i class="fas fa-external-link-alt fa-sm"></i> from Global Cyber Alliance is a one-off <a href="https://dmarcguide.globalcyberalliance.org/#/spf" target="_blank" rel="noopener noreferrer">SPF</a> <i class="fas fa-external-link-alt fa-sm"></i>, <a href="https://dmarcguide.globalcyberalliance.org/#/dkim" target="_blank" rel="noopener noreferrer">DKIM</a> <i class="fas fa-external-link-alt fa-sm"></i>, and <a href="https://dmarcguide.globalcyberalliance.org/#/dmarc" target="_blank" rel="noopener noreferrer">DMARC</a> <i class="fas fa-external-link-alt fa-sm"></i> policy analyzer and record creator. Provides guidance to organizations through the process of creating a DMARC policy.</li>
+				<li>Commercial and free services exist (including at least one <a href="https://marketplace.fedramp.gov/#/products?sort=impactLevel&productNameSearch=mail" target="_blank" rel="noopener noreferrer">FedRAMP Authorized DMARC service</a>) that help derive intelligence from DMARC reports. The below examples are provided for convenience only and are not FedRAMP-endorsed.
 					<ol>
-						<li><a href="https://easydmarc.com/tools/dmarc-lookup">https://easydmarc.com/tools/dmarc-lookup</a></li>
-						<li><a href="https://dmarcian.com/domain-checker/">https://dmarcian.com/domain-checker/</a></li>
-						<li><a href="https://www.proofpoint.com/us/cybersecurity-tools/dmarc-spf-creation-wizard">https://www.proofpoint.com/us/cybersecurity-tools/dmarc-spf-creation-wizard</a></li>
-						<li><a href="https://mxtoolbox.com/dmarc.aspx">https://mxtoolbox.com/dmarc.aspx</a></li>
+						<li><a href="https://easydmarc.com/tools/dmarc-lookup" target="_blank" rel="noopener noreferrer">https://easydmarc.com/tools/dmarc-lookup</a> <i class="fas fa-external-link-alt fa-sm"></i></li>
+						<li><a href="https://dmarcian.com/domain-checker/" target="_blank" rel="noopener noreferrer">https://dmarcian.com/domain-checker/</a> <i class="fas fa-external-link-alt fa-sm"></i></li>
+						<li><a href="https://www.proofpoint.com/us/cybersecurity-tools/dmarc-spf-creation-wizard" target="_blank" rel="noopener noreferrer">https://www.proofpoint.com/us/cybersecurity-tools/dmarc-spf-creation-wizard</a> <i class="fas fa-external-link-alt fa-sm"></i></li>
+						<li><a href="https://mxtoolbox.com/dmarc.aspx" target="_blank" rel="noopener noreferrer">https://mxtoolbox.com/dmarc.aspx</a> <i class="fas fa-external-link-alt fa-sm"></i></li>
 					</ol>
 				</li>
-				<li><a href="https://support.google.com/a/answer/2466563?hl=en">“Add a DMARC Record”</a> is a Google help page that offers a stepped approach to enabling DMARC thoughtfully.</li>
-				<li><a href="https://technet.microsoft.com/en-us/library/mt734386(v=exchg.150).aspx">“Use DMARC to validate email in Office 365”</a> provides Microsoft Office 365-related guidance for implementing DMARC on outbound and inbound mail delivery.</li>
-				<li><a href="https://web.archive.org/web/20190120184651/https://blogs.msdn.microsoft.com/tzink/2015/03/13/how-to-align-with-spf-and-dmarc-for-your-domain-if-you-use-a-lot-of-3rd-parties-to-send-email-as-you/">“How to align with SPF and DMARC for your domain if you use a lot of 3rd parties to send email as you”</a> describes a vendor-agnostic approach to herding third-party </li>
-				<li><a href="https://cyber.dhs.gov/bod/18-01/">BOD 18-01: Enhance Email and Web Security</a>, defines agency requirements and how DMARC should be deployed.</li>
+				<li><a href="https://support.google.com/a/answer/2466563?hl=en" target="_blank" rel="noopener noreferrer">“Add a DMARC Record”</a> <i class="fas fa-external-link-alt fa-sm"></i> is a Google help page that offers a stepped approach to enabling DMARC thoughtfully.</li>
+				<li><a href="https://technet.microsoft.com/en-us/library/mt734386(v=exchg.150).aspx" target="_blank" rel="noopener noreferrer">“Use DMARC to validate email in Office 365”</a> <i class="fas fa-external-link-alt fa-sm"></i> provides Microsoft Office 365-related guidance for implementing DMARC on outbound and inbound mail delivery.</li>
+				<li><a href="https://web.archive.org/web/20190120184651/https://blogs.msdn.microsoft.com/tzink/2015/03/13/how-to-align-with-spf-and-dmarc-for-your-domain-if-you-use-a-lot-of-3rd-parties-to-send-email-as-you/" target="_blank" rel="noopener noreferrer">“How to align with SPF and DMARC for your domain if you use a lot of 3rd parties to send email as you”</a> <i class="fas fa-external-link-alt fa-sm"></i> describes a vendor-agnostic approach to herding third-party </li>
+				<li><a href="https://cyber.dhs.gov/bod/18-01/" target="_blank" rel="noopener noreferrer">BOD 18-01: Enhance Email and Web Security</a> <i class="fas fa-external-link-alt fa-sm"></i>, defines agency requirements and how DMARC should be deployed.</li>
 				<li><a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP_Agency_Authorization_Review_Report_Sample_Template.pdf">FedRAMP Agency Authorization Review Report Template</a></li>
-				<li><a href="https://dmarc.org/">DMARC.org</a> is an initiative under the Trusted Domain Project focused on DMARC education, and development of the standard.</li>
+				<li><a href="https://dmarc.org/" target="_blank" rel="noopener noreferrer">DMARC.org</a> <i class="fas fa-external-link-alt fa-sm"></i> is an initiative under the Trusted Domain Project focused on DMARC education, and development of the standard.</li>
 			</ol>
 		</div>
 
