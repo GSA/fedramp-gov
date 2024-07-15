@@ -1142,6 +1142,13 @@ table.dmarc-tables {
 	border: solid 1px $light-gray;
 	border-collapse: collapse;
 
+	td.dmarc-highlight-row {
+		background-color: $light-blue;
+		color: #ffffff;
+		font-weight: 700;
+		text-align: center;
+	}
+
 	th.row-header {
 		text-align: left;
 		padding: 8px 14px;
@@ -1157,6 +1164,20 @@ table.dmarc-tables {
 	td {
 		padding: 8px 14px;
 		border-left: solid 1px $light-gray;
+	}
+
+	th {
+		font-size: 1.125rem;
+		text-align: left;
+		color: $light-blue;
+		background-color: $lighter-teal !important;
+		border-color: transparent;
+		border-right: solid 1px $light-gray;
+		padding: 8px 14px;
+
+		&:last-child {
+			border-right: none;
+		}
 	}
 }
 
@@ -1236,11 +1257,6 @@ div.highlight .ln, div.highlight .lnt {
 	tr {
 		border-bottom: solid $mid-gray;
 	}
-
-	th {
-		text-align: left;
-	}
-
 } 
 
 .quick-links h4 {
