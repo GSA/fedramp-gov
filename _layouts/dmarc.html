@@ -123,28 +123,59 @@ layout: full-width
 
 			<h3>Example of a properly configured DMARC record for fedramp.gov</h3>
 
-			<div class="code-box font-mono-sm">
-				<p>dig txt _dmarc.fedramp.gov</p>
-				<p>; <<>> DiG 9.10.6 <<>> txt _dmarc.fedramp.gov</p>
-				<p>;; global options: +cmd</p>
-				<p>;; Got answer:</p>
-				<p>;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5307</p>
-				<p>;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1</p>
-				<p>;; OPT PSEUDOSECTION:</p>
-				<p>; EDNS: version: 0, flags:; udp: 512</p>
-				<p>;; QUESTION SECTION:</p>
-				<p>;_dmarc.fedramp.gov.		IN	TXT</p>
-				<p>;; ANSWER SECTION:</p>
-				<p>_dmarc.fedramp.gov.	10800	IN	TXT	"v=DMARC1; p=reject; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov,mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov"</p>
-				<p>;; Query time: 56 msec</p>
-				<p>;; SERVER: 8.8.8.8#53(8.8.8.8)</p>
-				<p>;; WHEN: Tue Jun 18 09:23:38 EDT 2024</p>
-				<p>;; MSG SIZE  rcvd: 205</p>
-				<p>xxxxx</p>
-			</div>
-
 			<div class="highlight">
 				<div class="chroma">
+					<table width="100%" border="0" class="lntable">
+						<tbody>
+							<tr>
+								<td class="lntd numbered-lines">
+										<code>
+											<p><span class="lnt font-mono-sm">1</span></p>
+											<p><span class="lnt font-mono-sm">2</span></p>
+											<p><span class="lnt font-mono-sm">3</span></p>
+											<p><span class="lnt font-mono-sm">4</span></p>
+											<p><span class="lnt font-mono-sm">5</span></p>
+											<p><span class="lnt font-mono-sm">6</span></p>
+											<p><span class="lnt font-mono-sm">7</span></p>
+											<p><span class="lnt font-mono-sm">8</span></p>
+											<p><span class="lnt font-mono-sm">9</span></p>
+											<p><span class="lnt font-mono-sm">10</span></p>
+											<p><span class="lnt font-mono-sm">11</span></p>
+											<p><span class="lnt font-mono-sm">12</span></p>
+											<p><span class="lnt font-mono-sm">13</span></p>
+											<p><span class="lnt font-mono-sm">14</span></p>
+											<p><span class="lnt font-mono-sm">15</span></p>
+											<p><span class="lnt font-mono-sm">16</span></p>
+										</code>
+								</td>	
+								<td class="lntd">
+									<code>
+										<p><span class="line font-mono-sm">dig txt _dmarc.fedramp.gov</span></p>
+										<p><span class="line font-mono-sm">; <<>> DiG 9.10.6 <<>> txt _dmarc.fedramp.gov</span></p>
+										<p><span class="line font-mono-sm">;; global options: +cmd</span></p>
+										<p><span class="line font-mono-sm">;; Got answer:</span></p>
+										<p><span class="line font-mono-sm">;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5307</span></p>
+										<p><span class="line font-mono-sm">;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1</span></p>
+										<p><span class="line font-mono-sm">;; OPT PSEUDOSECTION:</span></p>
+										<p><span class="line font-mono-sm">; EDNS: version: 0, flags:; udp: 512</span></p>
+										<p><span class="line font-mono-sm">;; QUESTION SECTION:</span></p>
+										<p><span class="line font-mono-sm">;_dmarc.fedramp.gov.		IN	TXT</span></p>
+										<p><span class="line font-mono-sm">;; ANSWER SECTION:</span></p>
+										<p><span class="line font-mono-sm">_dmarc.fedramp.gov.	10800	IN	TXT	"v=DMARC1; p=reject; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov,mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov"</span></p>
+										<p><span class="line font-mono-sm">;; Query time: 56 msec</span></p>
+										<p><span class="line font-mono-sm">;; SERVER: 8.8.8.8#53(8.8.8.8)</span></p>
+										<p><span class="line font-mono-sm">;; WHEN: Tue Jun 18 09:23:38 EDT 2024</span></p>
+										<p><span class="line font-mono-sm">;; MSG SIZE  rcvd: 205</span></p>
+									</code>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="highlight margin-top-6">
+				<div class="chroma">		
 					<table width="100%" class="dmarc-tables">
 						<tbody>
 							<tr>
