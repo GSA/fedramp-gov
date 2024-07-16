@@ -63,13 +63,7 @@ layout: full-width
 
 		<div id="overview" class="">
 			<h2>Overview</h2>
-			<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication protocol that helps to detect and prevent email spoofing. By consistently using DMARC for emails sent by the federal government, people and organizations that receive federal email can have high confidence that these emails are legitimate and official. The Cybersecurity and Infrastructure Security Agency (CISA) required the use of DMARC by federal agencies as one of the many <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> <i class="fas fa-external-link-alt fa-sm"></i> requirements for all sending email domains. Please review the full text of BOD 18-01 which enumerates all requirements.</p>
-			<p>Other BOD 18-01 requirements that should apply to CSOs include:</p>
-			<ul>			
-				<li>Configure all internet-facing mail servers to offer STARTTLS.</li>
-				<li>Ensure all publicly accessible Federal websites and web services provide service through a secure connection (HTTPS-only, with HSTS).</li>
-				<li>Identify agency second-level domains that can be HSTS preloaded, and provide a list to DHS at FNR.BOD@hq.dhs.gov.</li>
-			</ul>
+			<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication protocol that helps to detect and prevent email spoofing. By consistently using DMARC for emails sent by, or on behalf of the federal government, people and organizations that receive federal email can have high confidence that these emails are legitimate and official. The Cybersecurity and Infrastructure Security Agency (CISA) required the use of DMARC by federal agencies as one of the many <a href="https://www.cisa.gov/news-events/directives/bod-18-01-enhance-email-and-web-security" target="_blank" rel="noopener noreferrer">BOD 18-01</a> <i class="fas fa-external-link-alt fa-sm"></i> requirements for all sending email domains. This KBA is specific to the FedRAMP DMARC requirements based on BOD 18-01.</p>
 			
 			<h3>Requirement</h3>
 			<p>FedRAMP requires enforceable DMARC policies on all cloud service offerings (CSOs) that send emails on behalf of the Federal Government. This might include notifications of business processing events; sending questionnaire links to respondents; and initial customer user provisioning, or customer password resets.</p>
@@ -95,7 +89,7 @@ layout: full-width
 			<p>At minimum, each second-level CSO domain’s (and subdomains’) and CSO mail-sending hosts’ DMARC configuration policy used to send email on behalf of the government, as defined above, should be checked for:</p>
 			<ul>
 				<li>The sending <span class="font-mono-sm lightest-gray-bkg">FROM:</span> domain or subdomain has the appropriate DMARC record policy</li>
-				<li>Outgoing email is appropriately configured to ensure alignment between the DMARC policy and SPF and/or DKIM. Both is preferred, but if only one is implemented, FedRAMP recommends DKIM which uses digital signatures for email authenticity rather than SPF which uses IP addresses as the basis of determining if a server is authorized to send.</li>
+				<liOutgoing email is appropriately configured to ensure alignment between the DMARC policy and SPF and/or DKIM. Both are preferred, but if only one is implemented, FedRAMP recommends DKIM which uses digital signatures for email authenticity rather than SPF. SPF uses IP addresses as the basis of determining if a server is authorized to send email, and the IP address range may not be owned by the organization or encompass a large address space.</li>
 			</ul>
 
 			<p>Usually CSPs will use a unique domain, or subdomain for FedRAMP-related emails from the CSP’s corporate domain to prevent corporate email from also reporting to DHS. Such as fedsaas.com or fed.saas.com.</p>
@@ -290,8 +284,9 @@ layout: full-width
 							</tr>
 							<tr>
 								<td>
-									<p>Based on reviews of the The The DMARC record is valid in DNS:</p>
+									<p>Based on reviews of the DMARC:</p>
 									<ul>
+										<li>The DMARC record is valid in DNS</li>										
 										<li>A policy set to reject (<span class="font-mono-sm lightest-gray-bkg">p=reject</span>)</li>
 										<li>A percentage set to 100% (<span class="font-mono-sm lightest-gray-bkg">pct=100</span> either explicitly or implicitly by the default)</li>
 										<li>Destination for aggregate reports includes DHS (rua parameter includes <span class="font-mono-sm lightest-gray-bkg">mailto:reports@dmarc.cyber.dhs.gov</span>)</li>
