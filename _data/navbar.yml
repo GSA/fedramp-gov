@@ -69,13 +69,6 @@ assigned:
             permalink: /agency-authorization/
             show_in_menu: true
             show_in_footer: false 
-        - 
-            text: JAB Authorization
-            href: jab-authorization.md
-            permalink: /jab-authorization/
-            show_in_menu: true
-            show_in_footer: false 
-
     -
         text: Resources
         show_in_menu: true
