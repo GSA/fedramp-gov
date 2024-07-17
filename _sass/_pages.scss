@@ -1127,9 +1127,27 @@ ol.training-step-sub {
 	}
 }
 
-table.raci-matrix {
+div.highlight {
+	border-width: 1px;
+	border-style: solid;
+	border-color: $mid-gray;
+}
+
+div.highlight>div.chroma, div.highlight>pre.chroma {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table.dmarc-tables {
 	border: solid 1px $light-gray;
 	border-collapse: collapse;
+
+	td.dmarc-highlight-row {
+		background-color: $light-blue;
+		color: #ffffff;
+		font-weight: 700;
+		text-align: center;
+	}
 
 	th.row-header {
 		text-align: left;
@@ -1144,11 +1162,102 @@ table.raci-matrix {
 	}
 
 	td {
-		text-align: center;
 		padding: 8px 14px;
 		border-left: solid 1px $light-gray;
 	}
+
+	th {
+		font-size: 1.125rem;
+		text-align: left;
+		color: $light-blue;
+		background-color: $lighter-teal !important;
+		border-color: transparent;
+		border-right: solid 1px $light-gray;
+		padding: 8px 14px;
+
+		&:last-child {
+			border-right: none;
+		}
+	}
 }
+
+table.lntable {
+	background-color: $lightest-gray;
+}
+
+div.highlight .lntable {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+div.highlight .lntd {
+	padding: 0;
+	background-color: $lightest-gray;
+}
+
+code p {
+	text-wrap: nowrap;
+	margin: 2px 0;
+}
+
+.numbered-lines p {
+	text-align: right;
+}
+
+div.highlight .lntable td {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: $light-gray;
+}
+
+div.highlight pre {
+    padding: 0;
+    margin: 0;
+}
+
+div.highlight .lntd:nth-child(1) > pre {
+	padding-right: 0;
+}
+
+div.highlight .lntd > pre {
+	margin: 0;
+}
+
+div.highlight .lntd > pre > code {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.highlight code {
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	margin: 0;
+	display: block;
+	background-color: inherit;
+	box-shadow: none;
+	font-size: .95rem;
+	line-height: 1.7;
+}
+
+div.highlight .lnt {
+	display: block;
+}
+
+div.highlight .ln, div.highlight .lnt {
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.dmarc-tables {
+	tr {
+		border-bottom: solid $mid-gray;
+	}
+} 
 
 .quick-links h4 {
 	padding: 0;
