@@ -89,7 +89,7 @@ layout: full-width
 			<p>At minimum, each second-level CSO domain’s (and subdomains’) and CSO mail-sending hosts’ DMARC configuration policy used to send email on behalf of the government, as defined above, should be checked for:</p>
 			<ul>
 				<li>The sending <span class="font-mono-sm lightest-gray-bkg">FROM:</span> domain or subdomain has the appropriate DMARC record policy</li>
-				<liOutgoing email is appropriately configured to ensure alignment between the DMARC policy and SPF and/or DKIM. Both are preferred, but if only one is implemented, FedRAMP recommends DKIM which uses digital signatures for email authenticity rather than SPF. SPF uses IP addresses as the basis of determining if a server is authorized to send email, and the IP address range may not be owned by the organization or encompass a large address space.</li>
+				<li>Outgoing email is appropriately configured to ensure alignment between the DMARC policy and SPF and/or DKIM.</li>
 			</ul>
 
 			<p>Usually CSPs will use a unique domain, or subdomain for FedRAMP-related emails from the CSP’s corporate domain to prevent corporate email from also reporting to DHS. Such as fedsaas.com or fed.saas.com.</p>
