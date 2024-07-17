@@ -2,7 +2,7 @@
 title: FedRAMP's roadmap progress, one quarter in 
 permalink: /2024-07-17-fedramps-roadmap-progress-one-quarter-in/
 body-class: page-blog
-image: /assets/img/blog-images/2024-07-11-new-website-launch-automate-fedramp-gov.png
+image: /assets/img/blog-images/2024-07-18-fedramps-roadmap-progress-one-quarter-in.png
 author: FedRAMP
 layout: blog-page
 ---
