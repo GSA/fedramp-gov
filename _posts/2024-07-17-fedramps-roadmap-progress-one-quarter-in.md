@@ -1,5 +1,5 @@
 ---
-title: FedRAMP's roadmap progress, one quarter in 
+title: FedRAMP's Roadmap Progress, One Quarter In 
 permalink: /2024-07-17-fedramps-roadmap-progress-one-quarter-in/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-18-fedramps-roadmap-progress-one-quarter-in.png
@@ -19,7 +19,7 @@ Cloud providers with mature agile delivery practices who have upcoming features 
 
 This pilot is the first of what we expect will be more pilot programs by FedRAMP, and stakeholders should visit our new <a href="https://www.fedramp.gov/fedramp-pilots/" target="_blank" rel="noopener noreferrer">Pilot Program site</a> to stay up-to-date on participating in open opportunities.  
 
-<h3>Releasing automation.fedramp.gov</h3>
+<h3>Releasing automate.fedramp.gov</h3>
 <a href="http://automate.fedramp.gov" target="_blank" rel="noopener noreferrer">automate.fedramp.gov</a> is a new technical documentation hub designed specifically to support cloud service providers (CSPs) in the development, validation, and submission of digital authorization packages, and the developers of governance, risk, and compliance (GRC) applications and other tools that produce and consume digital authorization package data.
 
 The website is initially focused on documenting FedRAMP’s use of the Open Security Controls Assessment Language (OSCAL) to support digital authorization packages – a foundational piece of operating FedRAMP in a data-first way. We plan to expand the website over time as we bring new capabilities online, and it will eventually include details of how to integrate with FedRAMP’s package repository and submission processes.
