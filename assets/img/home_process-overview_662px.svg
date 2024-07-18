@@ -24,17 +24,17 @@
         letter-spacing: 0em;
       }
 
-      .cls-8, .cls-4, .cls-5, .cls-9, .cls-10, .cls-11, .cls-6 {
+      .cls-8, .cls-4, .cls-5, .cls-9, .cls-10, .cls-6 {
         isolation: isolate;
       }
 
-      .cls-8, .cls-9, .cls-10 {
+      .cls-8, .cls-9 {
         font-family: Montserrat-SemiBold, Montserrat;
         font-size: 18px;
         font-weight: 600;
       }
 
-      .cls-8, .cls-9, .cls-10, .cls-3 {
+      .cls-8, .cls-9, .cls-3 {
         fill: #fff;
       }
 
@@ -48,10 +48,6 @@
         font-weight: 700;
       }
 
-      .cls-9 {
-        letter-spacing: 0em;
-      }
-
       .cls-6 {
         letter-spacing: 0em;
       }
@@ -60,47 +56,40 @@
   <g>
     <path id="Path_11098" data-name="Path 11098" class="cls-1" d="M326.8,453.4H2.8l13.3-32.9-13.4-33h324l14.5,33-14.5,32.9Z"/>
     <g id="Authorization">
-      <g class="cls-11">
-        <text class="cls-10" transform="translate(108.9 427.9)"><tspan x="0" y="0">A</tspan></text>
-        <text class="cls-10" transform="translate(122.3 427.9)"><tspan x="0" y="0">ut</tspan></text>
-        <text class="cls-10" transform="translate(142.4 427.9)"><tspan x="0" y="0">h</tspan></text>
-        <text class="cls-10" transform="translate(154.9 427.9)"><tspan x="0" y="0">o</tspan></text>
-        <text class="cls-10" transform="translate(166.6 427.9)"><tspan x="0" y="0">r</tspan></text>
-        <text class="cls-10" transform="translate(174.1 427.9)"><tspan x="0" y="0">ization</tspan></text>
+      <g class="cls-10">
+        <text class="cls-9" transform="translate(108.9 427.9)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-9" transform="translate(122.3 427.9)"><tspan x="0" y="0">ut</tspan></text>
+        <text class="cls-9" transform="translate(142.4 427.9)"><tspan x="0" y="0">h</tspan></text>
+        <text class="cls-9" transform="translate(154.9 427.9)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-9" transform="translate(166.6 427.9)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-9" transform="translate(174.1 427.9)"><tspan x="0" y="0">ization</tspan></text>
       </g>
     </g>
   </g>
   <path id="Path_11100" data-name="Path 11100" class="cls-1" d="M202.2,187.4H0v-66h202.2l14.5,33-14.5,32.9h0Z"/>
   <g id="Select_Authorization_Path" data-name="Select Authorization Path">
-    <g>
-      <g class="cls-11">
-        <text class="cls-10" transform="translate(69.9 150.9)"><tspan x="0" y="0">Sele</tspan></text>
-        <text class="cls-9" transform="translate(109.2 150.9)"><tspan x="0" y="0">c</tspan></text>
-        <text class="cls-10" transform="translate(119.8 150.9)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="cls-11">
-        <text class="cls-10" transform="translate(11.4 170.8)"><tspan x="0" y="0">A</tspan></text>
-        <text class="cls-10" transform="translate(24.8 170.8)"><tspan x="0" y="0">ut</tspan></text>
-        <text class="cls-10" transform="translate(44.9 170.8)"><tspan x="0" y="0">h</tspan></text>
-        <text class="cls-10" transform="translate(57.4 170.8)"><tspan x="0" y="0">o</tspan></text>
-        <text class="cls-10" transform="translate(69.1 170.8)"><tspan x="0" y="0">r</tspan></text>
-        <text class="cls-10" transform="translate(76.6 170.8)"><tspan x="0" y="0">ization </tspan></text>
-        <text class="cls-8" transform="translate(144.8 170.8)"><tspan x="0" y="0">P</tspan></text>
-        <text class="cls-10" transform="translate(157.7 170.8)"><tspan x="0" y="0">ath</tspan></text>
-      </g>
+    <g class="cls-10">
+      <text class="cls-9" transform="translate(11.4 161.8)"><tspan x="0" y="0">A</tspan></text>
+      <text class="cls-9" transform="translate(24.8 161.8)"><tspan x="0" y="0">ut</tspan></text>
+      <text class="cls-9" transform="translate(44.9 161.8)"><tspan x="0" y="0">h</tspan></text>
+      <text class="cls-9" transform="translate(57.4 161.8)"><tspan x="0" y="0">o</tspan></text>
+      <text class="cls-9" transform="translate(69.1 161.8)"><tspan x="0" y="0">r</tspan></text>
+      <text class="cls-9" transform="translate(76.6 161.8)"><tspan x="0" y="0">ization </tspan></text>
+      <text class="cls-8" transform="translate(144.8 161.8)"><tspan x="0" y="0">P</tspan></text>
+      <text class="cls-9" transform="translate(157.7 161.8)"><tspan x="0" y="0">ath</tspan></text>
     </g>
   </g>
   <g>
     <path id="Path_11287" data-name="Path 11287" class="cls-1" d="M646.9,187.4H238.6l11.9-32.9-13.9-33h410.3l13.9,33-13.9,32.9h0Z"/>
     <g id="Preparation">
-      <g class="cls-11">
-        <text class="cls-10" transform="translate(394.4 161.8)"><tspan x="0" y="0">P</tspan></text>
-        <text class="cls-10" transform="translate(407.3 161.8)"><tspan x="0" y="0">r</tspan></text>
-        <text class="cls-10" transform="translate(414.8 161.8)"><tspan x="0" y="0">e</tspan></text>
-        <text class="cls-10" transform="translate(426.1 161.8)"><tspan x="0" y="0">p</tspan></text>
-        <text class="cls-10" transform="translate(438.4 161.8)"><tspan x="0" y="0">a</tspan></text>
-        <text class="cls-10" transform="translate(449.4 161.8)"><tspan x="0" y="0">r</tspan></text>
-        <text class="cls-10" transform="translate(456.9 161.8)"><tspan x="0" y="0">ation</tspan></text>
+      <g class="cls-10">
+        <text class="cls-9" transform="translate(394.4 161.8)"><tspan x="0" y="0">P</tspan></text>
+        <text class="cls-9" transform="translate(407.3 161.8)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-9" transform="translate(414.8 161.8)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-9" transform="translate(426.1 161.8)"><tspan x="0" y="0">p</tspan></text>
+        <text class="cls-9" transform="translate(438.4 161.8)"><tspan x="0" y="0">a</tspan></text>
+        <text class="cls-9" transform="translate(449.4 161.8)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-9" transform="translate(456.9 161.8)"><tspan x="0" y="0">ation</tspan></text>
       </g>
     </g>
   </g>
@@ -109,8 +98,8 @@
   <path id="Path_11343" data-name="Path 11343" class="cls-2" d="M646.2,454.4h-36.8v-4.9h33.6l.6-1.5,11.6-26.5.4-1-.4-1-11.7-26.6-.6-1.5h-220.1v6.9l-12.4-9.2,12.4-9.2v6.7h223.3l14.8,33.9-14.8,33.8h0Z"/>
   <path id="Path_11341" data-name="Path 11341" class="cls-2" d="M375.9,449.5h-3.6l1.4-3.3,9.3-22.9,1.1-2.7-1.1-2.7-9.3-23-1.4-3.3h30v-4.9h-37.2l13.3,33,.4.9-.4.9-13.3,32.9h223.7v6.9l12.4-9.2-12.4-9.2v6.7h-212.8Z"/>
   <path id="Path_11342" data-name="Path 11342" class="cls-2" d="M588.7,447.1v-4.2l12.4,9.2-12.4,9.2v-6.9h-223.6l13.3-32.9.4-.9-.4-.9-13.3-33h37.2v4.9h-30l1.4,3.3,9.3,23,1.1,2.7-1.1,2.7-9.3,22.9-1.4,3.3h216.4v-2.4h0Z"/>
-  <g id="Continuous_Monitoring" data-name="Continuous Monitoring" class="cls-11">
-    <g class="cls-11">
+  <g id="Continuous_Monitoring" data-name="Continuous Monitoring" class="cls-10">
+    <g class="cls-10">
       <text class="cls-6" transform="translate(408.5 428.3)"><tspan x="0" y="0">C</tspan></text>
       <text class="cls-5" transform="translate(421.7 428.3)"><tspan x="0" y="0">ontinuous Moni</tspan></text>
       <text class="cls-6" transform="translate(574.6 428.3)"><tspan x="0" y="0">t</tspan></text>
