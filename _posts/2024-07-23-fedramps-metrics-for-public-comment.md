@@ -45,4 +45,4 @@ We encourage all stakeholders, including CSPs, federal agencies, 3PAOs and the g
 
 Please review the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=7e7eaa517eee437d9802104673462246" target="_blank" rel="noopener noreferrer">proposed metrics</a> and <a href="https://app.smartsheetgov.com/b/form/3f17415b268a4eb083bb4e1c2098d8fd" target="_blank" rel="noopener noreferrer">submit your comments</a> by XXXXXXX
 
-To read comments that have already been submitted, click for the <a href="https://app.smartsheetgov.com/sheets/GgQ3Qg9w5JJRXXwwg27grfcG9353WFCWvgM5JjX1?view=grid" target="_blank" rel="noopener noreferrer">read-only version</a>.
+To read comments that have already been submitted, click for the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=2d86a23838f2450b97ee4d38424418e3" target="_blank" rel="noopener noreferrer">read-only version</a>.
