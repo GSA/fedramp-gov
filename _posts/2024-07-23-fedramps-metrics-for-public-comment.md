@@ -2,7 +2,7 @@
 title: FedRAMP Metrics for Public Comment 
 permalink: /2024-07-23-fedramps-metrics-for-public-comment/
 body-class: page-blog
-image: /assets/img/blog-images/2024-07-18-fedramps-roadmap-progress-one-quarter-in.png
+image: /assets/img/blog-images/2024-07-25-fedramp-metrics-for-public-comment.png
 author: FedRAMP
 layout: blog-page
 ---
