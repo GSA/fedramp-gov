@@ -1,5 +1,5 @@
 ---
-title: FedRAMP's Roadmap Progress, One Quarter In 
+title: Update on CSPs that were prioritized by the JAB 
 permalink: /2024-07-23-update-on-csps-that-were-prioritized-by-the-jab/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-30-update-on-csps-that-were-prioritized-by-the-jab.png
