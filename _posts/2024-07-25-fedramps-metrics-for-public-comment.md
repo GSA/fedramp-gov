@@ -31,16 +31,7 @@ We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the 
 
 These metrics are not exhaustive and FedRAMP plans to revisit metrics each year to ensure we are updating our metric with the changing landscape of the program.  Future metrics will also be further informed by the FedRAMP Government Risk and Compliance (GRC) platform buildout.
 
-<h4>Questions to consider when reviewing the metrics:</h4>
-Our goal with these metrics is to provide a clear, accurate, and actionable representation of FedRAMP’s performance.
-1. <b>Comprehensive capture of the FedRAMP Authorization Process:</b>
-  - <b>Goal:</b> The goal is to gain an understanding of the time and costs associated with the FedRAMP authorization journey, accurately reflecting the experiences of both the Federal Agencies, Cloud Service Provides  (CSPs) and Third Party Assessors (3PAOs). This involves considering the varied scenarios and challenges faces by different types of CSPs during the authorization process,
-  - <b>Approach:</b> The approach is to update real-time data gathering to provide accurate estimates of costs and time at each stage of the authorization process. This will be enabled by asking our stakeholders for data throughout the authorization process on data values on information such as time, cost, and other values that may be relevant for data capture.
-2. <b>Establishment of FedRAMP-Controlled Performance Metrics for SLAs:</b>
-  - <b>Goal:</b> The goal is to enhance the efficiency and effectiveness of the FedRAMP Process through the identification and development of specific performance metrics and clear Service Level Agreements (SLAs) This involves capturing the relevant data to track timelines in order to set and measure SLAs to ensure a timely and reliable delivery of service. 
-  - <b>Approach:</b> The approach includes regularly monitoring and reporting on these metrics to ensure alignment with program goals and to involve the overall stakeholder experience.
-
-<b>Questions to consider when reviewing the metrics:</b>
+<h4>Questions to consider when reviewing the metrics:</h4
 We understand that capturing some of these newly proposed metrics will be challenging and rely on imperfect data provided by external stakeholders. We have included considerations and potential challenges where we could, but are very interested in hearing public feedback in areas we may have overlooked. As you review the proposed list of metrics, please keep in mind some of the questions below and please provide your feedback!
 1. In your opinion, what are the most important metrics for assessing the efficiency and effectiveness of the FedRAMP process and how can FedRAMP ensure we are getting an accurate representation of this data when collected?
 2. What role could FedRAMP play in helping define success regarding timeliness and cost effectiveness of the authorization process where FedRAMP is not involved in every phase of the authorization process?
