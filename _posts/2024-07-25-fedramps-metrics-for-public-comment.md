@@ -30,3 +30,15 @@ The metrics are designed to capture the experiences of different customers and p
 We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the general public to provide feedback on these proposed metrics. As you review these metrics, please help us make our metrics comprehensive, accurate, and something that speaks to your needs. 
 
 These metrics are not exhaustive and FedRAMP plans to revisit metrics each year to ensure we are updating our metric with the changing landscape of the program.  Future metrics will also be further informed by the FedRAMP Government Risk and Compliance (GRC) platform buildout.
+
+<h4>Questions to consider when reviewing the metrics:</h4>
+We understand that capturing some of these newly proposed metrics will be challenging and rely on imperfect data provided by external stakeholders. We have included considerations and potential challenges where we could, but are very interested in hearing public feedback in areas we may have overlooked. As you review the proposed list of metrics, please keep in mind some of the questions below and please provide your feedback!
+1. In your opinion, what are the most important metrics for assessing the efficiency and effectiveness of the FedRAMP process and how can FedRAMP ensure we are getting an accurate representation of this data when collected
+2. What role could FedRAMP play in helping define success regarding timeliness and cost effectiveness of the authorization process where FedRAMP is not involved in every phase of the authorization process?
+3. What types of information would help to manage your expectations and improve your experience during the FedRAMP authorization process?
+4. Do you use specific performance metrics within your organization to monitor progress that you feel would be a good standard to share with other FedRAMP stakeholders?
+5. How confident are you in the quality and completeness of the data you will provide for these metrics? What measures do you think could improve the accuracy and reliability of the data?
+
+Please review the <a href="https://publish.smartsheetgov.com/d242efc37a9d49b099de97e82913454e" target="_blank" rel="noopener noreferrer"> proposed metrics</a> and <a href="https://app.smartsheetgov.com/b/form/3f17415b268a4eb083bb4e1c2098d8fd" target="_blank" rel="noopener noreferrer"> submit your comments</a> by <b>Thursday, August 29, 2024, 11:59 PM EDT</b>.
+
+To read comments that have already been submitted, click the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=2d86a23838f2450b97ee4d38424418e3" target="_blank" rel="noopener noreferrer"> read-only version</a>.
