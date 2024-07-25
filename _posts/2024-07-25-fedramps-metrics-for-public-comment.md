@@ -33,7 +33,7 @@ These metrics are not exhaustive and FedRAMP plans to revisit metrics each year 
 
 <h4>Questions to consider when reviewing the metrics:</h4>
 We understand that capturing some of these newly proposed metrics will be challenging and rely on imperfect data provided by external stakeholders. We have included considerations and potential challenges where we could, but are very interested in hearing public feedback in areas we may have overlooked. As you review the proposed list of metrics, please keep in mind some of the questions below and please provide your feedback!
-1. In your opinion, what are the most important metrics for assessing the efficiency and effectiveness of the FedRAMP process and how can FedRAMP ensure we are getting an accurate representation of this data when collected
+1. In your opinion, what are the most important metrics for assessing the efficiency and effectiveness of the FedRAMP process and how can FedRAMP ensure we are getting an accurate representation of this data when collected?
 2. What role could FedRAMP play in helping define success regarding timeliness and cost effectiveness of the authorization process where FedRAMP is not involved in every phase of the authorization process?
 3. What types of information would help to manage your expectations and improve your experience during the FedRAMP authorization process?
 4. Do you use specific performance metrics within your organization to monitor progress that you feel would be a good standard to share with other FedRAMP stakeholders?
