@@ -7,6 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 Today, the White House Office of Management and Budget (OMB) released [M-24-15, “Modernizing the Federal Risk and Authorization Management Program (FedRAMP)”](https://www.whitehouse.gov/wp-content/uploads/2024/07/M-24-15-Modernizing-the-Federal-Risk-and-Authorization-Management-Program.pdf) which establishes FedRAMP’s strategic goals and calls for significant shifts in FedRAMP operations to [accelerate](https://www.whitehouse.gov/omb/briefing-room/2024/07/26/fact-sheet-omb-releases-fedramp-guidance-to-accelerate-the-secure-adoption-of-cloud-services/) agencies secure adoption of cloud services. The guidance clearly positions FedRAMP as a security and risk management program, with a focus on significantly scaling the FedRAMP marketplace, and streamlining and automating more of the authorization process.  
+
 The updated policy further reinforces the priorities we highlighted in March in FedRAMP’s [public roadmap](https://www.fedramp.gov/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf), which has been driving the [recent work](https://www.fedramp.gov/2024-07-18-fedramps-roadmap-progress-one-quarter-in/) of the program.
 
 FedRAMP has taken multiple actions to shift its operations, governance, and strategy that align with the updated policy:
