@@ -12,7 +12,7 @@ Today, the White House Office of Management and Budget (OMB) released [M-24-15, 
 
 The updated policy further reinforces the priorities we highlighted in March in FedRAMP’s [public roadmap](https://www.fedramp.gov/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf), which has been driving the [recent work](https://www.fedramp.gov/2024-07-18-fedramps-roadmap-progress-one-quarter-in/) of the program.
 
-FedRAMP has taken multiple actions to shift its operations, governance, and strategy that align with the updated policy:
+FedRAMP has taken multiple actions to shift its operations, governance, and strategy to align with the updated policy:
 
 -   **Establishing new paths to authorization:** FedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide. 
 
