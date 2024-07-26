@@ -12,7 +12,7 @@ The updated policy further reinforces the priorities we highlighted in March in 
 
 FedRAMP has taken multiple actions to shift its operations, governance, and strategy that align with the updated policy:
 
--   **Establishing new paths to authorization:** FFedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide. 
+-   **Establishing new paths to authorization:** FedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide. 
 
 -   **Creating new [governance](https://www.fedramp.gov/2024-06-04-fedramp-governance/):** The new [FedRAMP Board](https://www.gsa.gov/about-us/newsroom/news-releases/fedramp-board-launched-to-support-safe-secure-use-05142024) has been established and recently held its first meeting. The Board will play an integral role in shaping FedRAMP’s strategy and policy, and in convening their federal agency peers to expand the FedRAMP authorizing capacity of the federal ecosystem.
   
