@@ -1,6 +1,6 @@
 ---
 title: OMB FedRAMP Memo
-permalink: /2024-07-25-new-fedramp-policy-memo-released/
+permalink: /2024-07-26-new-fedramp-policy-memo-released/
 body-class: page-blog
 image: /assets/img/blog-images/2023-10-27-OMB-fedramp-memo.png
 author: FedRAMP
