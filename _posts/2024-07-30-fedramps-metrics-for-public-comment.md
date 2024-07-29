@@ -1,8 +1,8 @@
 ---
 title: FedRAMP Metrics for Public Comment 
-permalink: /2024-07-25-fedramps-metrics-for-public-comment/
+permalink: /2024-07-30-fedramps-metrics-for-public-comment/
 body-class: page-blog
-image: /assets/img/blog-images/2024-07-25-fedramp-metrics-for-public-comment.png
+image: /assets/img/blog-images/2024-07-30-fedramp-metrics-for-public-comment.png
 author: FedRAMP
 layout: blog-page
 ---
