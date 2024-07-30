@@ -26,13 +26,14 @@ To help us answer these questions, our proposed metrics are broken out across tw
 
 The metrics are designed to capture the experiences of different customers and partners, as well as FedRAMP’s performance.
 
-<h4>How to Help Us</h4>
+<h4>How to help us</h4>
 
 We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the general public to provide feedback on these proposed metrics. As you review these metrics, please help us make our metrics comprehensive, accurate, and something that speaks to your needs.
 
 These metrics are not exhaustive and FedRAMP plans to revisit metrics each year to ensure we are updating our metric with the changing landscape of the program.  Future metrics will also be further informed by the FedRAMP Government Risk and Compliance (GRC) platform buildout.
 
-<h4>Questions to consider when reviewing the metrics:</h4>
+<h4>Questions to consider when reviewing the metrics</h4>
+
 We understand that capturing some of these newly proposed metrics will be challenging and rely on imperfect data provided by external stakeholders. We have included considerations and potential challenges where we could, but are very interested in hearing public feedback in areas we may have overlooked. As you review the proposed list of metrics, please keep in mind some of the questions below and please provide your feedback!
 1. In your opinion, what are the most important metrics for assessing the efficiency and effectiveness of the FedRAMP process and how can FedRAMP ensure we are getting an accurate representation of this data when collected?
 2. What role could FedRAMP play in helping define success regarding timeliness and cost effectiveness of the authorization process where FedRAMP is not involved in every phase of the authorization process?
