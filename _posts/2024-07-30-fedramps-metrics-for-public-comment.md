@@ -2,7 +2,7 @@
 title: FedRAMP Metrics for Public Comment 
 permalink: /2024-07-30-fedramps-metrics-for-public-comment/
 body-class: page-blog
-image: /assets/img/blog-images/2024-07-25-fedramp-metrics-for-public-comment.png
+image: /assets/img/blog-images/2024-07-30-fedramp-metrics-for-public-comment.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -27,6 +27,7 @@ To help us answer these questions, our proposed metrics are broken out across tw
 The metrics are designed to capture the experiences of different customers and partners, as well as FedRAMP’s performance.
 
 <h4>How to Help Us</h4>
+
 We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the general public to provide feedback on these proposed metrics. As you review these metrics, please help us make our metrics comprehensive, accurate, and something that speaks to your needs.
 
 These metrics are not exhaustive and FedRAMP plans to revisit metrics each year to ensure we are updating our metric with the changing landscape of the program.  Future metrics will also be further informed by the FedRAMP Government Risk and Compliance (GRC) platform buildout.
