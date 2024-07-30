@@ -28,7 +28,7 @@ The metrics are designed to capture the experiences of different customers and p
 
 <h4>How to Help Us</h4>
 
-We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the general public to provide feedback on these proposed metrics. As you review these metrics, please help us make our metrics comprehensive, accurate, and something that speaks to your needs. 
+We encourage all stakeholders, including CSPs, federal agencies, 3PAOs, and the general public to provide feedback on these proposed metrics. As you review these metrics, please help us make our metrics comprehensive, accurate, and something that speaks to your needs.
 
 These metrics are not exhaustive and FedRAMP plans to revisit metrics each year to ensure we are updating our metric with the changing landscape of the program.  Future metrics will also be further informed by the FedRAMP Government Risk and Compliance (GRC) platform buildout.
 
