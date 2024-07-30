@@ -17,9 +17,9 @@ The following Cloud Service Providers (CSPs) have been selected to work with the
 - Modus eDiscovery Inc. - Modus Government Solutions 
 - Synergetics, Inc. – OpenFLIS
 
-These vendors were selected in accordance with our <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document to work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB authorizations. Congratulations!
+These vendors were selected in accordance with our JAB Prioritization Guidance and Criteria document to work with the JAB on their security package reviews. We’re proud to see the scope and scale of innovation and infrastructure modernization that this next group of vendors represent for JAB authorizations. Congratulations!
 
-**The next due date for FedRAMP Connect Business Cases will be November 6, 2020 at 5:00pm ET**.  If you are a CSP interested in working with the JAB, please review the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_JAB_P-ATO_Prioritization_Criteria_and_Guidance.pdf">JAB Prioritization Guidance and Criteria</a> document in its entirety and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with questions or to set up a coaching call.
+**The next due date for FedRAMP Connect Business Cases will be November 6, 2020 at 5:00pm ET**.  If you are a CSP interested in working with the JAB, please review the JAB Prioritization Guidance and Criteria document in its entirety and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> with questions or to set up a coaching call.
 
 If you are an agency customer that would like to see a CSP prioritized to work with the JAB, share this with your service provider and reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> expressing your interest.
 
