@@ -11,7 +11,6 @@ partner: Cloud Service Providers
 doctype:
   - Document
 tags:
-  - JAB Authorization
 
 ---
 This document provides an overview of a CSP’s roles and responsibilities in the JAB P-ATO Process.
