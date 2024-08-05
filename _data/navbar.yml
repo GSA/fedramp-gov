@@ -120,9 +120,9 @@ assigned:
             show_in_menu: true
             show_in_footer: false 
         - 
-            text: FIPS 140
-            href: fips-140.md
-            permalink: /fips-140/
+            text: Cryptographic Module
+            href: cryptographic-module.md
+            permalink: /cryptographic-module/
             show_in_menu: true
             show_in_footer: false            
 
