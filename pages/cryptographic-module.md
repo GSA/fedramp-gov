@@ -1,8 +1,8 @@
 ---
-layout: fips-140
+layout: cryptographic-module
 title: FedRAMP Policy for Cryptographic Module Selection and Use
-tab-title: FIPS 140
-permalink: /fips-140/
+tab-title: Cryptographic Module
+permalink: /cryptographic-module/
 body-class: page-training
 summary: 
 tags: 
