@@ -118,7 +118,13 @@ assigned:
             href: pages/dmarc.md
             permalink: /dmarc/
             show_in_menu: true
-            show_in_footer: false       
+            show_in_footer: false 
+        - 
+            text: FIPS 140
+            href: fips-140.md
+            permalink: /fips-140/
+            show_in_menu: true
+            show_in_footer: false            
 
     -
         text: Blog
