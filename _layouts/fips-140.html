@@ -21,6 +21,7 @@ layout: full-width
 				<li class="in-page-sub"><a href="#fedramp-designated-leads">3.4. FedRAMP Designated Leads</a></li>
 				<li class="in-page-sub"><a href="#operating-system-distribution-image-container-image-providers">3.4. Operating System Distribution, Operating System Image, and Container Image Providers</a></li>
             <li><a href="#document-revision-history">Document Revision History</a></li>
+		  
           </ul>
 
           <div class="lavalamp"></div>
@@ -61,276 +62,71 @@ layout: full-width
     <div class="full-row grid-row grid-gap">
       <div class="full-col tablet:grid-col-6 tablet:grid-offset-3 nav-main-section">
 
-		<div id="executive-summary" class="margin-top-2">
-			<h2>Executive Summary</h2>
-			<p>In response to the President’s <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/" target="_blank" rel="nofollow">Executive Order 14110 on Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (AI)</a>, FedRAMP is establishing a framework for prioritizing emerging technologies (ETs) for FedRAMP authorization. The term “emerging technology” means those technologies listed in the Office of Science and Technology Policy Critical and Emerging Technologies. This framework will enable routine and consistent prioritization of the most critical cloud-relevant ETs needed for use by federal agencies. This prioritization will control how FedRAMP prioritizes its own work and review processes, and will not address how sponsoring agencies manage their own internal priorities.</p>
-
-			<p>This page describes the operational framework to prioritize certain cloud service providers (CSPs) during the FedRAMP authorization process whose cloud service offerings (CSOs) provide certain ET capabilities; how FedRAMP will govern and evaluate this new process; detail the first prioritized technology, generative AI. Importantly, the prioritization process will be integrated on top of existing FedRAMP Authorization paths and will not create new pathways for authorization.</p> 
-
-			<p>Not all ETs will be prioritized. The initial ET prioritization list includes three generative AI capabilities: chat interfaces, code-generation and debugging tools,  and prompt-based image generators, as required by Executive Order 14110. FedRAMP will also prioritize a fourth capability target, which are general purpose API offerings that facilitate the integration of these three generative AI capabilities into new or existing systems.  FedRAMP will update and maintain an evolving list of prioritized ETs at least annually with input from agencies and industry followed by approval from the FedRAMP Board (the Board). Technologies will be removed from prioritization either by decision of the Board, or when the target number of CSOs with the desired capabilities are available within the marketplace.</p>
-
-			<p>FedRAMP will determine initial CSO prioritization targets, which will begin at three per ET capability, and qualification criteria when publishing or updating the ET List. This means that initially, FedRAMP expects up to twelve (12) CSOs with AI-based offerings to be prioritized using this framework: up to three CSOs that implement each of the three generative AI capabilities listed in EO 14110, and up to three CSOs that offer API-based services that implement any of those three capabilities.</p>
-
-			<p>The selected CSOs meeting the qualifying criteria will move to the front of the authorization review process. After the ET capability prioritization target is reached, additional offerings of the same ET capability will not be prioritized. Initially, the FedRAMP ET prioritization framework is designed to facilitate rapid authorization of commercial AI capabilities for agency use. Prioritized CSOs that fail to make consistent progress on authorization will be returned to their former place in the queue opening up an opportunity for additional CSOs.</p>
-
-			<p>Because this is a new paradigm for the program, FedRAMP will continually evaluate the process and make revisions as needed. Additionally, the Board may approve another round of prioritization for some or all the ET capabilities based on demand. </p>				
+		<div id="effective-date" class="margin-top-2">
+			<h2>Effective Date</h2>
+			<p>xx</p>			
 		</div>
 
-		<div id="purpose-and-scope" class="margin-top-6">
-			<h2>Purpose and Scope</h2>
-			<p>This page describes the prioritization framework for ETs for FedRAMP. The intent is to ensure ET CSOs are prioritized during the FedRAMP authorization review and available for agency reuse.</p>
-
-			<p>Agencies will need to prioritize CSO sponsorship and authorization prior to FedRAMP’s prioritized authorization. Additionally, cloud service providers (CSPs) need to prioritize their remediation of any findings identified by the 3PAO, agency, and FedRAMP in order to accelerate the complete authorization process.</p>
-
-			<p>Existing CSPs who wish to incorporate ET CSOs into their offerings via the significant change process must work with their authorizing official for prioritized review and approval. </p>
-
-			<p>This framework will initially be applied to artificial intelligence (AI), specifically the three generative AI capabilities discussed in Executive Order 14110: chat interfaces, code generators and debugging tools, image generators, and associated application program interfaces.</p> 
-
-			<p>FedRAMP will update this page, and update the list of prioritized emerging technology as necessary to meet the goals of the executive order and agency mission needs. While this page has an initial focus on the generative AI technologies outlined in the executive order, FedRAMP anticipates the prioritized ET list to continually evolve and will publish updates to our website. The <a href="{{site.baseurl}}/et-framework/emerging-technology-list/">Emerging Technology List page</a> details the initial prioritized Generative AI capabilities, prioritization targets, and related criteria.</p> 
-
-			<!-- <p>General information including resources, blogs, templates, and documentation for the ET prioritization process can be found on  <a href="{{site.baseurl}}">FedRAMP’s website</a> under the resources section labeled “ET Framework."</p> -->
-
-			<p>The FedRAMP authorization process will validate an ET CSO against existing FedRAMP security controls. Agencies must consider their specific use, including data and privacy risks, and follow appropriate  authorization and governance processes when deploying any ETs. In the case of generative AI, agencies should consult closely with their Chief AI Officer.</p>
+		<div id="policy-overview" class="margin-top-6">
+			<h2>1. Policy Overview</h2>
+			<p>xx</p>
 
 		</div>
 
-		<div id="framework-elements" class="margin-top-6">
-			<h2>Framework Elements</h2>
-
-			The prioritization framework has been developed to accommodate many different types of technologies and capabilities. The initial focus is to accommodate growing demand for AI-enabled systems across the federal enterprise (an initial set of AI-specific concerns are included on the <a href="{{site.baseurl}}/et-framework/emerging-technology-list/">Emerging Technology List page</a> but the ET prioritization framework we propose is broader than just AI): 
-
-			<ol>
-				<li><strong>This prioritization allows a CSP to move near the front of the authorization review process.</strong> This prioritization will reduce the waiting time before the review process begins. The review itself will take a similar amount of time as it would for other similar offerings at the same level and type of authorization, as well as time spent during remediation. </li>
-
-				<li><strong>Limit access to prioritization based on type of technology and capability.</strong> By definition, a prioritization process should exclude more candidates than it includes. As a starting point, FedRAMP will evaluate no more than three ET capabilities for prioritization at any time.</li>
-
-				<li><strong>Automatically stop prioritizing CSOs when the capability target has been reached.</strong> For each ET capability target, when the number of CSOs whose primary purpose is to offer that capability have achieved FedRAMP authorization, then prioritization for that capability will be paused. Additional CSOs that provide that capability will not be prioritized and will follow the normal authorization review queue process.</li> 
-
-				<li><strong>Accessing the ET track should be fast.</strong> FedRAMP will keep any additional steps in the application process simple and focused on speeding agency use and adoption of the prioritized ET capability.</li>
-
-				<li><strong>Agencies maintain responsibility for evaluating system functionality.</strong> As is true for all other FedRAMP authorizations, the authorization process considers the confidentiality, integrity, and availability of system data protected by the CSP. It does not certify the nature or quality of the functionality of CSO, or that it is a best fit for an agency’s specific technology needs. Agencies drive their own acquisition, evaluation, and authorization processes using a far broader set of criteria. FedRAMP may include requirements for additional information relevant to the specific ET (such as technology requirements, performance metrics, or responsible use policies). FedRAMP is committed to giving agencies the information to protect the confidentiality, integrity, and availability of the data they process in these systems.</li> 
-			</ol>
-		</div>
-
-		<div id="ET-prioritization-framework" class="margin-top-6">
-			<h2>ET Prioritization Framework</h2>
-		</div>				
-		
-		<div id="overview" class="margin-top-6">
-			<h3>Overview</h3>
-			<p>The ET Prioritization Framework provides a process that is integrated across all of the program’s available authorization paths. There are two primary parts to the ET Prioritization Framework (seen in Figure 1):</p>
-
-			<p><strong>Figure 1:</strong> ET Prioritization Framework</p>
-
-			<img src="{{site.baseurl}}/assets/img/et-framework-process.png" alt="Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review." />
-
-			<p>The <strong>Governance Process</strong> defines how up to three capabilities will be prioritized for “skip the line” access to FedRAMP at any given time, and the amount of CSOs with a given capability that will be prioritized. </p>
-
-			<p>The CSP <strong>Evaluation Process</strong> outlines how new cloud service providers will have their CSOs qualified to access an accelerated review.</p>
-
-			<p>Existing cloud service providers must work with their authorizing official and will follow the significant change request(SCR) process to include new ET CSOs in their authorization.</p>
-
-		</div>
-		
-		<div id="governance-process" class="margin-top-6">
-			<img src="{{site.baseurl}}/assets/img/et-framework-process-governance.png" alt="Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review." />
-			<h3>Governance Process - Establish Prioritization Capabilities</h3>
-			<p>The goal of the governance process is to identify appropriate ETs and respective capabilities for prioritization and accelerated authorization. Agencies and Industry will be able to submit ideas for additional capabilities to be authorized for future revisions. An electronic submission form will be prepared and made available as the time approaches for new capabilities to be identified.</p>
-
-			<p>To maintain the benefit of prioritization, up to three ET capabilities may be identified at any given time. These may be in a singular ET category, such as generative AI, or may span multiple ET categories. These will be <strong>updated annually at minimum</strong> – regardless of whether authorizations have been completed – and can also be updated as needed, either at the request of the Board or based on stakeholder demand. </p>
-
-			<h4>1. Nominate ETs for Prioritization</h4>
-
-			<p><strong>Responsible:</strong> Chief Information Officer (CIO) Council and Federal Councils including Federal Chief Information Security Officer (CISO) Council, Chief AI Officer, Chief Data Officer or others</p>
-
-			<p><strong>Accountable:</strong> FedRAMP</p>
-
-			<p><strong>Consult:</strong> FSCAC Chair, NIST, TAG, 3PAOs, Agencies, CSPs </p>
-
-			<p><strong>Informed:</strong> FedRAMP Board</p>
-
-			<p><strong>What:</strong> FedRAMP will coordinate nominations for new emerging technologies from Agencies and Industry partners including CSPs and 3PAOs. FedRAMP will consult with NIST and the TAG to help define definitions and technical characteristics for the nominated ET. FedRAMP may consult with the Federal Secure Cloud Advisory Committee (FSCAC) Chair, who may determine whether or not FSCAC would like to further deliberate the issue. Nominations will be validated with and confirmed by the CIO Council, in coordination with other councils or bodies (such as Federal CISO Council, Chief AI Officer Council or Chief Data Officer and others as appropriate). Nominations will include emerging technologies and capabilities that address agencies mission needs. </p>
-
-			<p><strong>Output:</strong> Recommendation from federal CIOs or CISOs to FedRAMP regarding their ET needs.</p>
-
-			<p><strong>Estimated Duration:</strong> Variable depending on inputs from CIO and federal councils, Agencies, and Industry.</p>
-
-			<h4>2. Propose ET List</h4>
-			<p><strong>Responsible / Accountable:</strong> FedRAMP</p>
-
-			<p><strong>Consult:</strong> Office of Management and Budget (OMB)</p>
-
-			<p><strong>Informed:</strong> CIO and CISO Federal Councils, FSCAC</p>
-
-			<p><strong>What:</strong> FedRAMP proposes an updated list of up to three ET capabilities for prioritization for the Board’s approval. This will include an analysis of FedRAMP’s ability to process authorizations for these capabilities, including:</p> 
-
-			<ul>
-				<li>Maturity of global understanding (including understanding of the technology industry, 3PAO community, and current security best practices) for the ET</li>
-
-				<li>The target number of CSOs for the prioritized review process for each emerging technology capability (in the case of generative AI, this is initially set to three)</li>
-
-				<li>Resources and expertise necessary to support the target number of prioritized capabilities </li>
-			</ul>
-
-			<p>Insights from the analysis will be discussed with OMB.  They will be compiled into a briefing that provides an estimate of FedRAMPs ability to authorize and communicate a given area of ET services, considering maturity across FedRAMP staff, Agencies, 3PAOs, CSPs, and the broader technology and cybersecurity community. The briefing will outline potential activities necessary to support the prioritized authorization of a given ET if approved. </p>
-
-			<p><strong>Input:</strong> Nominations from the Federal CIO and CISO Councils, Agencies, and Industry to FedRAMP, as described above.</p>
-
-			<p><strong>Output:</strong> Proposed ET List, FedRAMP ET Impact Assessment</p>
-
-			<p><strong>Service Level Agreement Target:</strong> 1 Month</p>
-			<p><strong>Service Level Agreement Threshold:</strong> 2 Months</p>
-
-			<h4>3. FedRAMP Board Decision on the ET List</h4>
-		
-			<p><strong>Responsible / Accountable:</strong> FedRAMP Board </p>
-
-			<p><strong>Consult:</strong> FedRAMP, OMB</p>
-
-			<p><strong>Informed:</strong> CIO and CISO Federal Councils</p>
-
-			<p><strong>What:</strong> FedRAMP will brief the Board on its ET prioritization recommendation. FedRAMP will send all materials in advance of the Board meeting when the ET is on the agenda. The Board will approve a final list of ET capabilities. </p>
-
-			<p>EO 14110 specifies the high-level capabilities for the initial <a href="{{site.baseurl}}/et-framework/emerging-technology-list/">List of ETs</a>. This initial list of capabilities is considered adopted once this framework is finalized. Future capabilities will receive review and approval by the Board. </p>
-
-			<p><strong>Input:</strong> Proposed ET List, FedRAMP ET Impact Assessment </p>
-
-			<p><strong>Outputs:</strong> Approved ET capability list</p>
-
-			<p><strong>Estimated Duration:</strong> Variable depending on Board discussion and feedback to FedRAMP.</p>
-
-			<h4>4. Update ET Capability List and Criteria</h4>
+		<div id="risk-based-approach" class="margin-top-6">
+			<h2>2. Taking a Risk-Based Approach to Cryptographic Module Selection</h2>
+			<p>xx</p>
 			
-			<p><strong>Responsible / Accountable:</strong> FedRAMP</p>
+		</div>
 			
-			<p><strong>Consult:</strong> Agency Partners and Liaisons, CSPs</p>
+		
+		<div id="cases-where-vm-not-necessary" class="margin-top-6">
+			<h3>2.1. Cases Where a Validated Module Is Not Necessary</h3>
+			<p>xx</p>
+
+		</div>
+		
+		<div id="software-vm-known-vulnerabilities" class="margin-top-6">
+			<h3>2.2. Software with Validated Modules Has Known Vulnerabilities</h3>
+			<p>xx</p>
+
+		</div>				
+
+	      		<div id="requirements-and-recommendations" class="margin-top-6">
+			<h2>3. Requirements and Recommendations</h2>
 				
-			<p><strong>Informed:</strong> None</p>
-				
-			<p><strong>What:</strong>FedRAMP will update its process documentation, website, and all necessary systems to align changes to the approved ET list. Updated criteria and resources will be developed and published on the FedRAMP website and communicated to stakeholders.  The FedRAMP blog and email notification will be used to communicate prioritization application windows.</p>
-				
-			<p><strong>Input:</strong> Approved ET List</p>
-				
-			<p><strong>Outputs:</strong> ET Criteria for Prioritization, ET capability targets, ET CSO Request Form , ET Demand Form </p>
-				
-			<p><strong>Service Level Agreement Target:</strong> 2 weeks	</p>
-			<p><strong>Service Level Agreement Threshold:</strong> 4 weeks</p>
-
-			<h4>5. Shifting Prioritization of CSOs with ET</h4>
-			 
-			<p><strong>Responsible / Accountable:</strong> FedRAMP</p>
-
-			<p><strong>Consult:</strong> FedRAMP Board, CIO Council and Federal CISO Council, Agency Partners and Liaisons</p> 
-
-			<p><strong>Informed:</strong> None</p>
-
-			<p><strong>What:</strong> When FedRAMP authorizes the defined target of CSOs in a given ET capability, the ET will be automatically removed from the prioritization list. FedRAMP will repeat step “Update ET Capability List and Criteria” to reflect the removal. These updates will not impact any CSOs who have already been prioritized for another ET capability. FedRAMP will notify the Board and other relevant stakeholders that the target CSO count has been achieved and may begin step “Nominate ETs for Prioritization.”</p>
-
-			<p><strong>Input:</strong> Metrics Report on # of CSPs Prioritized for ET Capabilities</p>
-
-			<p><strong>Output:</strong> Updated ET List</p>
-
-			<p><strong>Service Level Agreement Target:</strong> 2 weeks</p>
-			<p><strong>Service Level Agreement Threshold:</strong> 4 weeks</p>
+		</div>				
+	      
+		<div id="cloud-service-providers" class="margin-top-6">
+			<h3>3.1. Cloud Service Providers</h3>
+			<p>xx</p>
+			
 		</div>				
 		
-		<div id="evaluation-process" class="margin-top-6">
-			<h3>Evaluation Process - CSP Submissions and Review</h3>
-
-			<img src="{{site.baseurl}}/assets/img/et-framework-process-evaluation.png" alt="Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review." />
-			<p>The Evaluation Process determines if a CSO meets the ET definition and qualifying criteria. Once identified and verified, then the CSP will be placed in an accelerated position in the FedRAMP authorization queue. These steps take place during the current Preparation phase of the FedRAMP authorization process.</p>
-
-			<p>The evaluation process kicks off after a CSP has:</p>
-			<ul>
-				<li>Completed the <a href="https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform?c=0&w=1" target="_blank" rel="nofollow">CSP Information Form</a></li>
-				<li>Reached an agreement with FedRAMP on the appropriate authorization path</li>
-				<li>Completed their 3PAO security assessment and has a security authorization package, including (SSP, SAP, SAR, and POA&M) and is ready for FedRAMP review</li>
-				<li>Prepared and submitted their security package and business case for a CSO, following FedRAMP’s <a href="{{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook.pdf">regular authorization processes</a></li>
-			</ul>			
-			<p>CSPs can submit their <a href="https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03">ET CSO Request Forms</a> at any point in this process, though as described above, a CSP will not be evaluated for prioritization until completing their 3PAO security assessment. As part of the intake process, FedRAMP will review the ET criteria for prioritization with the CSP. Initially, there will be two open prioritization application windows during each fiscal year. ET CSO Request Forms submitted outside these active windows will be held until the next application window opens and then evaluated with other CSPs submitting in the application window.</p>
-
-			<h4>1. Submit the ET CSO Request Form & ET Demand Forms</h4>
-
-			<p>Responsible / Accountable: CSP </p>
-
-			<p><strong>Consult:</strong> Agency Partner and Liaison</p>
-
-			<p><strong>Informed:</strong> None</p>
-
-			<p><strong>What:</strong> CSPs in consultation with their agency partner will submit the <a href="https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03" target="_blank" rel="nofollow">ET CSO Request Form</a> and <a href="https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580" target="_blank" rel="nofollow">ET Demand Form</a> which includes demand justification and attestation to the ET prioritization qualifying criteria for FedRAMP review. Detailed instructions on how to fill out the forms can be found in the <a href="{{site.baseurl}}/assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf" target="_blank" rel="nofollow">Emerging Technologies Prioritization Criteria and Guidance document</a>.</p> 
-
-			<p><strong>Input:</strong> Justification of how CSP meets ET criteria, and a decision to complete the ET prioritization process with FedRAMP.</p>
-
-			<p><strong>Outputs:</strong> Completed ET CSO Request and Demand Forms submitted to FedRAMP for consideration.</p> 
-
-			<p><strong>Estimated Duration:</strong> Variable depending on type of ET, complexity of CSO and qualifying criteria, availability of demand data.</p>
-
-			<h4>2. Qualification Determination and Queue Placement</h4>
-
-			<p>Responsible/Accountable: FedRAMP</p>
-
-			<p>Consult: Agency Partner and Liaison, CSP</p> 
-
-			<p>Informed: None</p>
-
-			<p>What: FedRAMP determines if the CSO meets the ET prioritization qualifying criteria in consultation with the agency partner. If the criteria are met, FedRAMP will review the ET demand forms and calculate the total demand score. FedRAMP will select qualifying CSOs based on their demand score up to the ET capability target.</p>
-
-			<p>If the criteria are not met, or if other offerings have the demand score, the CSO will still be placed in queue to be reviewed following the standard process. </p>
-
-			<p>Input: ET CSO Request Form, ET Demand Forms</p>
-
-			<p>Outputs: Approve or deny that the CSO meets the ET criteria, ET CSO Prioritization Decision Justification, Process CSO accordingly</p>
-
-			<p>Service Level Agreement Target: 2 weeks</p>
-			<p>Service Level Agreement Threshold: 4 weeks</p>
-
-			<h4>3. Monitor ET Approvals</h4>
-
-			<p><strong>Responsible/Accountable:</strong> FedRAMP</p>
-
-			<p><strong>Consult:</strong> FedRAMP Board</p>
-
-			<p><strong>Informed:</strong> CIO Federal and CISO council</p>
-
-			<p><strong>What:</strong> FedRAMP will monitor the prioritized CSOs throughout the lifecycle of the ET prioritization process. FedRAMP Security Review Team regularly tracks and communicates the progress of prioritized CSOs towards authorization. </p>
-
-			<p>Notification will be sent to the Board and the CIO and Federal Councils when the ET capability target is reached.  Subsequently, the Board may initiate a request to do an off-cycle round of the ET governance process.</p>
-
-			<p><strong>Input:</strong> Authorization Packages</p>
-
-			<p><strong>Outputs:</strong> Metrics Dashboard and Reports, Report on Prioritized and Non-Prioritized CSOs</p>
-
-			<p><strong>Service Level Agreement Target:</strong> 2 weeks</p>	
-			<p><strong>Service Level Agreement Threshold:</strong> 4 weeks</p>
-
+		<div id="independent-assessors" class="margin-top-6">
+			<h3>3.2. Independent Assessors</h3>
+			<p>xx</p>
 
 		</div>				
 		
-		<div id="supporting-resources" class="margin-top-6">
-			<h2>Supporting Resources</h2>
-			<p>All documents and forms below are authored by FedRAMP, and will be published on the FedRAMP.gov website.</p>
-
+		<div id="package-reviewers" class="margin-top-6">
+			<h3>3.3. Package Reviewers</h3>
+			<p>xx</p>
 		</div>				
 		
-		<div id="et-list" class="margin-top-6">
-			<h3>ET List </h3>
-			<p><a href="{{site.baseurl}}/et-framework/emerging-technology-list/">List of ETs</a> will be updated annually at a minimum and on-demand based on stakeholder feedback. This list is further refined by FedRAMP after inputs from the CIO Council, the Federal CISO Council, and other industry inputs as described by the governance process. The updated list must be approved by the Board.</p>
+		<div id="fedramp-designated-leads" class="margin-top-6">
+			<h3>3.4. FedRAMP Designated Leads</h3>
+			<p>xx</p>
 		</div>				
 		
-		<div id="et-cso-request-form" class="margin-top-6">
-			<h3>ET CSO Request Form</h3>
-			<p>The <a href="https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03" target="_blank" rel="nofollow">ET CSO Request Form</a> serves to identify whether the CSP or CSO meets the ET criteria for prioritization, and collects information about the CSO.</p>
+		<div id="operating-system-distribution-image-container-image-providers" class="margin-top-6">
+			<h3>3.4. Operating System Distribution, Operating System Image, and Container Image Providers</h3>
+			<p>xx</p>
 		</div>				
 		
-		<div id="et-demand-form" class="margin-top-6">
-			<h3>ET Demand Form</h3>
-
-			<p>The <a href="https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580" target="_blank" rel="nofollow">ET Demand Form</a> serves to identify the CSO's demand.</p>
-		</div>				
-		
-		<div id="ET-prioritization-criteria-and-guidance" class="margin-top-6">
-			<h3>ET Prioritization Criteria and Guidance</h3>
-			<p>A detailed instruction manual on how to fill out the ET CSO Request Form and the ET Demand Form is located electronically here: <a href="{{site.baseurl}}/assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf" target="_blank" rel="nofollow">Emerging Technologies Prioritization Criteria and Guidance</a>.</p>
+		<div id="document-revision-history" class="margin-top-6">
+			<h2>Document Revision History</h2>
+			<p>xx</p>
 		</div>
   
 
