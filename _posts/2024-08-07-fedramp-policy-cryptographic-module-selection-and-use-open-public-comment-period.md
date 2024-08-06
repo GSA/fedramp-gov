@@ -1,12 +1,22 @@
 ---
 title: FedRAMP Policy for Cryptographic Module Selection and Use Open for Public Comment Period
-permalink: /2024-08-06-fedramp-policy-cryptographic-module-selection-and-use-open-public-comment-period/
+permalink: /2024-08-07-fedramp-policy-cryptographic-module-selection-and-use-open-public-comment-period/
 body-class: page-blog
 image: /assets/img/blog-images/2024-08-07-cryptographic-module-selection.png
 author: FedRAMP
 layout: blog-page
 ---
 <b>By Dave Waltermire</b>
+
+Today, FedRAMP is asking for public feedback on a proposed policy update to how we apply federal cryptography standards to cloud providers that come through the FedRAMP process.
+
+Our goal is to strengthen the security of FedRAMP by clearly permitting and encouraging cloud providers to patch their security vulnerabilities, and to consistently use cryptography to protect federal information.
+
+Broadly, federal standards require that when agencies use cryptography to protect federal information, the software or hardware that implements that cryptography should be validated through a federally overseen certification process. These implementations are called “cryptographic modules”, and the current standard that sets requirements around them is <a href="https://csrc.nist.gov/pubs/fips/140-3/final" target="_blank" rel="noopener noreferrer">Federal Information Processing Standard (FIPS) 140-3</a>. NIST manages this standard and oversees a set of accredited laboratories who can perform the certification.
+
+FedRAMP enforces the requirements of FIPS 140-3 as part of its authorization process, so that federal agencies who use authorized cloud providers can have confidence they are using validated cryptography. 
+
+While this may sound conceptually straightforward, agencies and cloud providers have made clear to us over the years that they continue to run into situations where doing the most FedRAMP is effectively asking them to choose whether to continue using a fully validated version
 
 The FedRAMP Policy for Cryptographic Module Selection and Use is a critical component of FedRAMP’s information security framework. This policy defines requirements for cloud service providers (CSPs), third-party assessors, FedRAMP package reviewers, and FedRAMP-designated lead agencies regarding protection of federal systems and data. These requirements are related to selecting and using cryptographic modules for cloud-based systems in a way that is informed by risk and focused on strengthening federal security overall. 
 
@@ -34,6 +44,6 @@ FedRAMP’s goals for the policy include the following:
 
 Together these goals work to maximize security outcomes and transparency in the use of cryptography in cloud services.
 
-Let’s work together. If you have comments, edits, or feedback on the draft FedRAMP Policy for Cryptographic Module Selection and Use, submit them via the <a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc" target="_blank" rel="noopener noreferrer">Public Comments_Draft FIPS 140 Guidance form</a> by <b>September 20, 2024</b>. Please be sure to include the specific draft section to which your question or comment refers. To read comments that have already been submitted, you may view the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=be27aa7ed4404614a448e51112f28469" target="_blank" rel="noopener noreferrer">Public Comments Draft FIPS 140 Guidance read-only version</a>.
+Let’s work together. If you have comments, edits, or feedback on the draft FedRAMP Policy for Cryptographic Module Selection and Use, submit them via the <a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc">FedRAMP Cryptographic Module Selection and Use Policy Public Comment Form</a> by <b>September 20, 2024</b>. Please be sure to include the specific draft section to which your question or comment refers. To read comments that have already been submitted, you may view the <a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc" target="_blank" rel="nofollow">Public Comments FedRAMP Cryptographic Module Selection and Use Policy read-only version</a>.
 
 If you have any questions please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
