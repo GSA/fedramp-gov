@@ -69,15 +69,14 @@ layout: full-width
 
 		<div id="policy-overview" class="margin-top-6">
 			<h2>1. Policy Overview</h2>
-			<p>Cryptography is the science of information hiding and verification. It includes the protocols, algorithms, and methodologies to securely and consistently prevent unauthorized access to sensitive information and enable verifiability of the information. The main goals include confidentiality, integrity authentication, and source authentication. Cryptography is critical to protecting cloud-based information systems and their data. Cryptographic algorithms are the basis of technologies that provide foundational security and privacy guarantees in modern systems, including encryption, digital signing, one-way hashing, privacy-enhancing technologies, and other security capabilities. 
-
-Cryptographic “modules” are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a boundary. The boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms. 
-
-When protecting federal information systems (“systems”) and information (“data”), Federal agencies are required to use cryptographic modules that have been validated by an accredited laboratory as complying with the Federal Information Processing Standard (FIPS) 140 and are listed as validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="nofollow">Cryptographic Module Validation Program (CMVP)</a>. These modules use cryptographic algorithm implementations that have been validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program (CAVP)</a>.
+			<p>Cryptography is the science of information hiding and verification. It includes the protocols, algorithms, and methodologies to securely and consistently prevent unauthorized access to sensitive information and enable verifiability of the information. The main goals include confidentiality, integrity authentication, and source authentication. Cryptography is critical to protecting cloud-based information systems and their data. Cryptographic algorithms are the basis of technologies that provide foundational security and privacy guarantees in modern systems, including encryption, digital signing, one-way hashing, privacy-enhancing technologies, and other security capabilities.</p> 
 				
-FedRAMP works primarily with commercially operated cloud service providers (CSPs) and is responsible for reviewing the security of those providers to meet the expectations of federal agencies. As a result, the FedRAMP process is responsible for applying the goals and requirements of the federal government into environments that are often operated very differently from those of many federal agencies. 
-
-FedRAMP needs to have a dedicated policy for how cryptographic module requirements will be applied in the context of managing and maintaining a system, as:</p>
+			<p>Cryptographic “modules” are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a boundary. The boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms.</p> 
+				
+			<p>When protecting federal information systems (“systems”) and information (“data”), Federal agencies are required to use cryptographic modules that have been validated by an accredited laboratory as complying with the Federal Information Processing Standard (FIPS) 140 and are listed as validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="nofollow">Cryptographic Module Validation Program (CMVP)</a>. These modules use cryptographic algorithm implementations that have been validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program (CAVP)</a>.</p>
+			<p>FedRAMP works primarily with commercially operated cloud service providers (CSPs) and is responsible for reviewing the security of those providers to meet the expectations of federal agencies. As a result, the FedRAMP process is responsible for applying the goals and requirements of the federal government into environments that are often operated very differently from those of many federal agencies.</p>
+				
+			<p>FedRAMP needs to have a dedicated policy for how cryptographic module requirements will be applied in the context of managing and maintaining a system, as:</p>
 			<ul>
 				<li>Many cloud providers operate their software and security architecture using DevSecOps-based approaches that prioritize rapid patching and security feature development. These are security practices and outcomes that are in federal agencies’ interest to enable and incentivize in the services on which they rely, and FedRAMP should not discourage them. FedRAMP should especially avoid unintentionally creating pressures on cloud providers and agencies to rely on known-vulnerable software.</li>
 
@@ -85,9 +84,9 @@ FedRAMP needs to have a dedicated policy for how cryptographic module requiremen
 				
 			</ul>	
 			
-			<p>This policy provides requirements for selecting and using cryptographic modules for cloud-based systems in a way that is informed by risk and focused on strengthening federal security overall. Note that selection and use of cryptographic modules is only one aspect of implementing, managing, and maintaining cryptography, and that using a validated module is not by itself sufficient.
+			<p>This policy provides requirements for selecting and using cryptographic modules for cloud-based systems in a way that is informed by risk and focused on strengthening federal security overall. Note that selection and use of cryptographic modules is only one aspect of implementing, managing, and maintaining cryptography, and that using a validated module is not by itself sufficient.</p>
 
-FedRAMP has several goals for this policy:</p>
+			<p>FedRAMP has several goals for this policy:</p>
 
 			<ol>
 				<li>Ensure that cryptographic algorithms and functions being used to protect the integrity or confidentiality of federal systems and data are approved.</li>
@@ -99,17 +98,17 @@ FedRAMP has several goals for this policy:</p>
 				<li>Ensure that CSPs using unvalidated cryptographic modules document the rationale for doing so and a process for the ongoing assessment of their use in a way that is clearly visible to relying agencies, cloud service providers, and other stakeholders. Ensure that use of unvalidated modules is periodically reevaluated</li>				
 			</ol>
 				
-			<p>To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and data secure. </p>
+			<p>To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and data secure.</p>
 				
 		</div>
 
 		<div id="risk-based-approach" class="margin-top-6">
 			<h2>2. Taking a Risk-Based Approach to Cryptographic Module Selection</h2>
-			<p>FedRAMP is focused on the effective and transparent management of risk. Considering only the FIPS-validation status of a cryptographic module used by a product or service fails to take into account the larger risk picture based on how the module is used within the system (such as for an identity provider service or a cloud storage system versus a user endpoint), what functions it performs, what data is involved (including its sensitivity and the amount of data), and what known vulnerabilities exist in the module. For example, new vulnerabilities are discovered in FIPS-validated cryptographic modules from time to time. Federal agencies are required to patch or update this software in order to protect federal systems and data, but the fixed software is often not yet FIPS-validated. 
+			<p>FedRAMP is focused on the effective and transparent management of risk. Considering only the FIPS-validation status of a cryptographic module used by a product or service fails to take into account the larger risk picture based on how the module is used within the system (such as for an identity provider service or a cloud storage system versus a user endpoint), what functions it performs, what data is involved (including its sensitivity and the amount of data), and what known vulnerabilities exist in the module. For example, new vulnerabilities are discovered in FIPS-validated cryptographic modules from time to time. Federal agencies are required to patch or update this software in order to protect federal systems and data, but the fixed software is often not yet FIPS-validated.</p>
 
-				It may not be possible to meet requirements for both using FIPS-validated modules and using software without known vulnerabilities at the same time. In such situations, FedRAMP generally prefers the elimination of known vulnerabilities through patches or updates over continuing to use known-vulnerable software that is FIPS-validated, since the presence of known vulnerabilities can create risks that outweigh the assurance value provided through validation. Cryptography should still be used when and where it is needed. 
+			<p>It may not be possible to meet requirements for both using FIPS-validated modules and using software without known vulnerabilities at the same time. In such situations, FedRAMP generally prefers the elimination of known vulnerabilities through patches or updates over continuing to use known-vulnerable software that is FIPS-validated, since the presence of known vulnerabilities can create risks that outweigh the assurance value provided through validation. Cryptography should still be used when and where it is needed.</p> 
 				
-				FedRAMP’s goal for system security is to manage, mitigate, or resolve risks that are identified. To maximize security outcomes, FedRAMP, in consultation with NIST and the Office of Management and Budget, has developed this FedRAMP-specific policy for selecting and using cryptographic modules.</p>
+			<p>FedRAMP’s goal for system security is to manage, mitigate, or resolve risks that are identified. To maximize security outcomes, FedRAMP, in consultation with NIST and the Office of Management and Budget, has developed this FedRAMP-specific policy for selecting and using cryptographic modules.</p>
 			
 		</div>
 			
@@ -130,9 +129,9 @@ FedRAMP has several goals for this policy:</p>
 		
 		<div id="software-vm-known-vulnerabilities" class="margin-top-6">
 			<h3>2.2. Software with Validated Modules Has Known Vulnerabilities</h3>
-			<p>The management and implementation of cryptography is a critical part of the system development life cycle. CSPs need to apply a risk-informed approach when addressing vulnerabilities in systems and cryptographic modules. As explained earlier in this section, FedRAMP generally prefers use of an unvalidated module with no known vulnerabilities over the use of a known-vulnerable validated module. 
+			<p>The management and implementation of cryptography is a critical part of the system development life cycle. CSPs need to apply a risk-informed approach when addressing vulnerabilities in systems and cryptographic modules. As explained earlier in this section, FedRAMP generally prefers use of an unvalidated module with no known vulnerabilities over the use of a known-vulnerable validated module.</p> 
 
-However, there are situations where the latter may pose less risk than the former – for example, when the known vulnerabilities in the software are already being effectively mitigated through other means. In such cases, the CSP needs to take into consideration the relevant factors. Examples of possible factors include:</p>
+			<p>However, there are situations where the latter may pose less risk than the former – for example, when the known vulnerabilities in the software are already being effectively mitigated through other means. In such cases, the CSP needs to take into consideration the relevant factors. Examples of possible factors include:</p>
 			
 			<ul>
 				<li>The risk inherent in the software, including:</li>
@@ -150,19 +149,19 @@ However, there are situations where the latter may pose less risk than the forme
 
 	      		<div id="requirements-and-recommendations" class="margin-top-6">
 			<h2>3. Requirements and Recommendations</h2>
-			<p>This section defines requirements related to cryptographic module selection for four types of stakeholders: CSPs, independent assessors, reviewers of FedRAMP packages, and FedRAMP designated leads (sponsoring agencies or the FedRAMP program). It also defines recommendations related to cryptographic modules for the providers of operating systems, operating system images, and containers.
+			<p>This section defines requirements related to cryptographic module selection for four types of stakeholders: CSPs, independent assessors, reviewers of FedRAMP packages, and FedRAMP designated leads (sponsoring agencies or the FedRAMP program). It also defines recommendations related to cryptographic modules for the providers of operating systems, operating system images, and containers.</p>
 
-Each requirement or recommendation has a unique identifier corresponding to the responsible party; for example, the fourth requirement for CSPs has identifier CSP04. This identification approach enables referencing specific requirements and recommendations in this and other resources.</p>
+			<p>Each requirement or recommendation has a unique identifier corresponding to the responsible party; for example, the fourth requirement for CSPs has identifier CSP04. This identification approach enables referencing specific requirements and recommendations in this and other resources.</p>
 				
 		</div>				
 	      
 		<div id="cloud-service-providers" class="margin-top-6">
 			<h3>3.1. Cloud Service Providers</h3>
-			<p>The FedRAMP marketplace must facilitate effective risk-based decisions by both agencies and CSPs themselves. Agency authorizing officials (AOs) must be able to see and understand the risks in any cloud service offering they authorize. CSPs working toward a FedRAMP authorization also need the confidence and visibility to leverage or build on another FedRAMP authorized cloud service offering as part of their own offering. 
+			<p>The FedRAMP marketplace must facilitate effective risk-based decisions by both agencies and CSPs themselves. Agency authorizing officials (AOs) must be able to see and understand the risks in any cloud service offering they authorize. CSPs working toward a FedRAMP authorization also need the confidence and visibility to leverage or build on another FedRAMP authorized cloud service offering as part of their own offering.</p> 
 
-CSPs play the most important role in ensuring the adequacy of cryptographic protections in cloud services, and in providing the information necessary to facilitate decision making by the CSP community and agencies. 
+			<p>CSPs play the most important role in ensuring the adequacy of cryptographic protections in cloud services, and in providing the information necessary to facilitate decision making by the CSP community and agencies.</p> 
 				
-<b>The following requirements apply to all CSPs:</b></p>
+			<p><b>The following requirements apply to all CSPs:</b></p>
 			<ul>
 				<li id="CSP01"><b>CSP01:</b> CSPs shall note in their System Security Plan (SSP) in SI-2 control responses whether their default position is to apply patches or other updates (use update streams) or to use validated modules (use validated module streams). CSPs shall determine their default position by performing a risk evaluation that takes into consideration the module’s use in the system and the likelihood and potential impact of vulnerability exploitation, as well as mitigations to prevent such exploitation.</li>
 
@@ -205,53 +204,53 @@ CSPs play the most important role in ensuring the adequacy of cryptographic prot
 		
 		<div id="independent-assessors" class="margin-top-6">
 			<h3>3.2. Independent Assessors</h3>
-			<p>The following requirements detail activities that help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.
+			<p>The following requirements detail activities that help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.</p>
 
-				<b>IA01:</b> IAs shall perform a comprehensive examination where unvalidated modules are used to meet a control requirement (i.e., when CSP09 and CSP10 apply). IAs shall ensure that such modules and mitigations are operating as intended and producing the documented security and risk management outcome.
+			<p><b>IA01:</b> IAs shall perform a comprehensive examination where unvalidated modules are used to meet a control requirement (i.e., when CSP09 and CSP10 apply). IAs shall ensure that such modules and mitigations are operating as intended and producing the documented security and risk management outcome.</p>
 
-				<b>IA02:</b> IAs shall review module risk evaluation activities performed by the CSP in support of CSP10 to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome. 
+			<p><b>IA02:</b> IAs shall review module risk evaluation activities performed by the CSP in support of CSP10 to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome.</p> 
 
-				<b>IA03:</b> IAs shall verify that all cryptographic use cases and use of modules are accurately documented, including the specific modules and versions in use. IAs shall verify that documentation for all use of unvalidated modules facilitates assessment and transparency for agency AOs by including which components are affected, where the modules are used compared to the service offering, which cryptographic functions are used, and what risks remain for agencies to consider.
+			<p><b>IA03:</b> IAs shall verify that all cryptographic use cases and use of modules are accurately documented, including the specific modules and versions in use. IAs shall verify that documentation for all use of unvalidated modules facilitates assessment and transparency for agency AOs by including which components are affected, where the modules are used compared to the service offering, which cryptographic functions are used, and what risks remain for agencies to consider.</p>
 
-				<b>IA04:</b> IAs shall verify that POA&Ms related to cryptographic modules are created by the CSP when required, are updated on a monthly basis, and are not overdue. 
+			<p><b>IA04:</b> IAs shall verify that POA&Ms related to cryptographic modules are created by the CSP when required, are updated on a monthly basis, and are not overdue.</p> 
 
-				<b>IA05:</b> IAs shall verify that required artifacts are provided that demonstrate CSP work with the cryptographic module providers, as well as submission of modules, including achieving validated status.</p>
+			<p><b>IA05:</b> IAs shall verify that required artifacts are provided that demonstrate CSP work with the cryptographic module providers, as well as submission of modules, including achieving validated status.</p></p>
 
 		</div>				
 		
 		<div id="package-reviewers" class="margin-top-6">
 			<h3>3.3. Package Reviewers</h3>
-			<p>The following requirements apply to FedRAMP reviewers and designated lead package review teams. Package reviewers help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1, which are a requirement for all FedRAMP authorizations.
+			<p>The following requirements apply to FedRAMP reviewers and designated lead package review teams. Package reviewers help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1, which are a requirement for all FedRAMP authorizations.</p>
 
-				<b>PR01:</b> Package reviewers shall ensure that all cryptographic use cases and modules are accurately documented, including the specific modules and versions in use. Reviewers shall verify that the use of unvalidated modules is documented at the service offering, component, and cryptographic function, and agency system impact(s), facilitating assessment and transparency to agency AOs.
+			<p><b>PR01:</b> Package reviewers shall ensure that all cryptographic use cases and modules are accurately documented, including the specific modules and versions in use. Reviewers shall verify that the use of unvalidated modules is documented at the service offering, component, and cryptographic function, and agency system impact(s), facilitating assessment and transparency to agency AOs.</p>
 
-				<b>PR02:</b> Package reviewers shall validate that the assessment artifacts represent a thorough evaluation where unvalidated modules are used to meet a control requirement.
+			<p><b>PR02:</b> Package reviewers shall validate that the assessment artifacts represent a thorough evaluation where unvalidated modules are used to meet a control requirement.</p>
 
-				<b>PR03:</b> Package reviewers shall evaluate risk evaluation activities performed by the CSP to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome.</p>
+			<p><b>PR03:</b> Package reviewers shall evaluate risk evaluation activities performed by the CSP to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome.</p>
 		</div>				
 		
 		<div id="fedramp-designated-leads" class="margin-top-6">
 			<h3>3.4. FedRAMP Designated Leads</h3>
-			<p>FedRAMP designated leads are the entities responsible for sponsoring a CSP for a FedRAMP authorization. A designated lead can be an authorizing official at another federal agency who is the sole sponsor, or the lead agency within a multi-agency authorization, or can be GSA through the FedRAMP Director in the case of a program-sponsored authorization.
+			<p>FedRAMP designated leads are the entities responsible for sponsoring a CSP for a FedRAMP authorization. A designated lead can be an authorizing official at another federal agency who is the sole sponsor, or the lead agency within a multi-agency authorization, or can be GSA through the FedRAMP Director in the case of a program-sponsored authorization.</p>
 
-				Designated leads help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1.
+			<p>Designated leads help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1.</p>
 
-				<b>DL01:</b> FedRAMP designated leads shall review documentation that captures the cryptographic module provider’s approach to managing cryptographic module validation as part of their system development life cycle. 
+			<p><b>DL01:</b> FedRAMP designated leads shall review documentation that captures the cryptographic module provider’s approach to managing cryptographic module validation as part of their system development life cycle.</p> 
 
-				<b>DL02:</b> FedRAMP designated leads shall review SC-13 findings in the POA&M and related risk identification and mitigation documentation provided within the CSO repository.</p>
+			<p><b>DL02:</b> FedRAMP designated leads shall review SC-13 findings in the POA&M and related risk identification and mitigation documentation provided within the CSO repository.</p></p>
 		</div>				
 		
 		<div id="operating-system-distribution-image-container-image-providers" class="margin-top-6">
 			<h3>3.5. Operating System Distribution, Operating System Image, and Container Image Providers</h3>
-			<p>The following recommendations apply to the providers of operating systems, operating system images, and containers containing cryptographic modules. CSPs should ask the following of providers:
+			<p>The following recommendations apply to the providers of operating systems, operating system images, and containers containing cryptographic modules. CSPs should ask the following of providers:</p>
 
-				<b>OSP01:</b> Providers of operating system distributions, operating system images, and container images should be transparent about changes they make in their software in regards to cryptographic modules. For example, their change logs should include information if cryptographic modules were changed and the nature and extent of any changes. This will help organizations using the cryptographic modules to better estimate the risk associated with those changes.
+			<p><b>OSP01:</b> Providers of operating system distributions, operating system images, and container images should be transparent about changes they make in their software in regards to cryptographic modules. For example, their change logs should include information if cryptographic modules were changed and the nature and extent of any changes. This will help organizations using the cryptographic modules to better estimate the risk associated with those changes.</p>
 
-				<b>OSP02:</b> Providers of operating systems should promote the use of “update streams” over the use of “validated module” streams. Pinning to validated modules often has a negative net effect on software dependencies that can result in the use of outdated, vulnerable versions of other software components in the operating system. This can increase the overall number of severe vulnerabilities in libraries and other software across the operating system, making it less secure overall.
+			<p><b>OSP02:</b> Providers of operating systems should promote the use of “update streams” over the use of “validated module” streams. Pinning to validated modules often has a negative net effect on software dependencies that can result in the use of outdated, vulnerable versions of other software components in the operating system. This can increase the overall number of severe vulnerabilities in libraries and other software across the operating system, making it less secure overall.</p>
 
-				<b>OSP03:</b> Providers of operating systems should periodically resubmit their software for FIPS validation to maintain a high level of cryptographic module assurance. Some CSPs may be tracking FIPS validations and delaying upgrades until validations are completed.
+			<p><b>OSP03:</b> Providers of operating systems should periodically resubmit their software for FIPS validation to maintain a high level of cryptographic module assurance. Some CSPs may be tracking FIPS validations and delaying upgrades until validations are completed.</p>
 
-				<b>OSP04:</b> Providers that implement algorithms should ensure that these algorithms are tested and meet NIST requirements using the CAVP Automated Cryptographic Validation Testing System (ACVTS). Once algorithm testing has been initially set up with the ACVTS server, this process can be automated for each release.
+			<p><b>OSP04:</b> Providers that implement algorithms should ensure that these algorithms are tested and meet NIST requirements using the CAVP Automated Cryptographic Validation Testing System (ACVTS). Once algorithm testing has been initially set up with the ACVTS server, this process can be automated for each release.
  <a href="#CSP01">CSP01</a></p>
 		</div>				
 		
