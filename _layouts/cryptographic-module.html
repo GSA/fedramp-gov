@@ -187,8 +187,7 @@ layout: full-width
 				<li id="CSP10"><b>CSP10:</b> If the CSP’s default position is to prefer validated modules over updates, but the options for software updates that would eliminate known vulnerabilities all contain modules that do not have current FIPS validations, the CSP shall take into consideration the order of preference for cryptographic module selection expressed in list below. CSP documentation shall support the CSP’s determination of which preferred options cannot be reasonably implemented. The documentation shall include clear and consistent descriptions of all deviations from validated modules, along with the CSP’s approach to manage, mitigate, and remediate the risks, and any usage considerations for customer responsibilities related to the cloud service. </li>
 					<ol type="a">
 						<li>Mitigate the vulnerability in the validated module</li>
-						<li>Use an unvalidated module, in the following order of preference:</li>		
-					<ol>					
+						<li>Use an unvalidated module, in the following order of preference:</li>							
 						<ol type="i">
 							<li>Module substantially similar to a FIPS-validated module; validated algorithm </li>
 							<li>FIPS validation in process for module; validated algorithm </li>		
@@ -196,7 +195,6 @@ layout: full-width
 							<li>Module not in FIPS validation process; validated algorithm</li>		
 							<li>Algorithm is approved and tested but not yet validated, and the module is not in FIPS validation process</li>							
 						</ol>	
-					</ol>
 					</ol>						
 				<li id="CSP11"><b>CSP11:</b> CSPs that are required to have POA&Ms related to their cryptographic module selection shall upload the internal evaluation, risk analysis, usage considerations, configuration, and impacted use cases documentation to the POA&M repository. These CSPs shall provide a monthly update within the POA&M on their progress, including evidence necessary to resolve the POA&M and documentation detailing any engagement with providers of cryptographic modules.</li>
 			
