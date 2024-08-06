@@ -20,7 +20,7 @@ layout: full-width
 				<li class="in-page-sub"><a href="#package-reviewers">3.3. Package Reviewers</a></li>
 				<li class="in-page-sub"><a href="#fedramp-designated-leads">3.4. FedRAMP Designated Leads</a></li>
 				<li class="in-page-sub"><a href="#operating-system-distribution-image-container-image-providers">3.4. Operating System Distribution, Operating System Image, and Container Image Providers</a></li>
-            <li><a href="#document-revision-history">Document Revision History</a></li>
+            <li><a href="#revision-history">Revision History</a></li>
 		  
           </ul>
 
@@ -73,7 +73,8 @@ layout: full-width
 				
 			<p>Cryptographic “modules” are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a boundary. The boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms.</p> 
 				
-			<p>When protecting federal information systems (“systems”) and information (“data”), Federal agencies are required to use cryptographic modules that have been validated by an accredited laboratory as complying with the Federal Information Processing Standard (FIPS) 140 and are listed as validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="nofollow">Cryptographic Module Validation Program (CMVP)</a>. These modules use cryptographic algorithm implementations that have been validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program (CAVP)</a>.</p>
+			<p>When protecting federal information systems (“systems”) and information (“data”)<a id="fn-1-ref" href="#fn-1"><sup>1</sup></a>, Federal agencies are required to use cryptographic modules that have been validated by an accredited laboratory as complying with the Federal Information Processing Standard (FIPS) 140 and are listed as validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="nofollow">Cryptographic Module Validation Program (CMVP)</a>. These modules use cryptographic algorithm implementations that have been validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program (CAVP)</a>.</p>
+			
 			<p>FedRAMP works primarily with commercially operated cloud service providers (CSPs) and is responsible for reviewing the security of those providers to meet the expectations of federal agencies. As a result, the FedRAMP process is responsible for applying the goals and requirements of the federal government into environments that are often operated very differently from those of many federal agencies.</p>
 				
 			<p>FedRAMP needs to have a dedicated policy for how cryptographic module requirements will be applied in the context of managing and maintaining a system, as:</p>
@@ -250,12 +251,11 @@ layout: full-width
 
 			<p><b>OSP03:</b> Providers of operating systems should periodically resubmit their software for FIPS validation to maintain a high level of cryptographic module assurance. Some CSPs may be tracking FIPS validations and delaying upgrades until validations are completed.</p>
 
-			<p><b>OSP04:</b> Providers that implement algorithms should ensure that these algorithms are tested and meet NIST requirements using the CAVP Automated Cryptographic Validation Testing System (ACVTS). Once algorithm testing has been initially set up with the ACVTS server, this process can be automated for each release.
- <a href="#CSP01">CSP01</a></p>
+			<p><b>OSP04:</b> Providers that implement algorithms should ensure that these algorithms are tested and meet NIST requirements using the CAVP Automated Cryptographic Validation Testing System (ACVTS). Once algorithm testing has been initially set up with the ACVTS server, this process can be automated for each release.</p>
 		</div>				
 		
-		<div id="document-revision-history" class="margin-top-6">
-			<h2>Document Revision History</h2>
+		<div id="revision-history" class="margin-top-6">
+			<h2>Revision History</h2>
 			<div class="highlight">
 				<div class="chroma">
 					<table width="100%" class="dmarc-tables">
@@ -286,7 +286,7 @@ layout: full-width
 			<hr>
 			<h4>Footnotes</h4>
 			<ul>			
-				<li id="fn-1">This is the footnote text <a href="#fn-1" aria-label="Return to footnote 1 referring content.">↵</a></li><a href="#fn-1"><sup>1</sup></a>
+				<li id="fn-1">OMB Circular A-130, <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf" target="_blank" rel="nofollow">“Managing Information as a Strategic Resource”</a> defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.”<a href="fn-1-ref" aria-label="Return to footnote 1 referring content.">↵</a></li>
 				<li id="fn-2">footnote 2</li>
 				<li id="fn-3">footnote 3</li>
 				<li id="fn-4">footnote 4</li>
