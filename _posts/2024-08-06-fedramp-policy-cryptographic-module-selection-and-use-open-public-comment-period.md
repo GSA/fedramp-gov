@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2024-08-07-cryptographic-module-selection.png
 author: FedRAMP
 layout: blog-page
 ---
-By Dave Waltermire
+<b>By Dave Waltermire</b>
 
 The FedRAMP Policy for Cryptographic Module Selection and Use is a critical component of FedRAMP’s information security framework. This policy defines requirements for cloud service providers (CSPs), third-party assessors, FedRAMP package reviewers, and FedRAMP-designated lead agencies regarding protection of federal systems and data. These requirements are related to selecting and using cryptographic modules for cloud-based systems in a way that is informed by risk and focused on strengthening federal security overall. 
 
