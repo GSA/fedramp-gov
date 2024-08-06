@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Policy for Cryptographic Module Selection and Use Open for Public Comment Period
-permalink: /2024-08-07-fedramp-policy-cryptographic-module-selection-and-use-open-public-comment-period/
+permalink: /2024-08-06-fedramp-policy-cryptographic-module-selection-and-use-open-public-comment-period/
 body-class: page-blog
 image: /assets/img/blog-images/2024-08-07-cryptographic-module-selection.png
 author: FedRAMP
