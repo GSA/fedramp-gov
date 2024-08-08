@@ -12,7 +12,6 @@ doctype:
   - Document
 tags:
   - Authorization Reuse
-  - JAB Authorization
   - Agency Authorization
 
 ---
