@@ -1,6 +1,6 @@
 ---
 title: Update on JAB Transition
-permalink: /2024-08-07-update-on-jab-transition/
+permalink: /2024-08-08-update-on-jab-transition/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-08-update-on-jab-transition.png
 author: FedRAMP
