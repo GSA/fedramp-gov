@@ -43,4 +43,4 @@ As you review the draft, here are a few questions we’d be especially intereste
 
 If you have comments, edits, or feedback on the draft, “FedRAMP Policy for Cryptographic Module Selection and Use,” please submit them via the public comment <a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc" target="_blank" rel="noopener noreferrer">feedback form</a> by September 20, 2024 and include the specific section of the draft to which your comment refers. To read comments that have already been submitted, you may view the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=be27aa7ed4404614a448e51112f28469" target="_blank" rel="noopener noreferrer">public comments here</a>.
 
-If you have any questions, please email info@fedramp.gov.
+If you have any questions, please email <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
