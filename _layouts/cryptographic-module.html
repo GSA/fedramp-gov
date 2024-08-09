@@ -1,0 +1,322 @@
+---
+layout: full-width
+---
+
+<!-- Main In Page Navigation -->
+<section class="fedramp-page-container position-sticky resources-nav padding-top-2">
+  <div class="full-row grid-row">
+    <div class="full-col tablet:grid-col-3 tablet:padding-y-2 tablet:padding-right-6 crypto-nav">
+      <div id="main-header" class="lavalamp-menu">
+        <nav>
+          <ul class="in-page-nav-menu" id="top-menu">
+            <li><a href="#effective-date">Effective Date</a></li>
+            <li><a href="#policy-overview">1. Policy Overview</a></li>
+            <li><a href="#risk-based-approach">2. Taking a Risk-Based Approach to Cryptographic Module Selection</a></li>
+				<li class="in-page-sub"><a href="#cases-where-vm-not-necessary">2.1. Cases Where a Validated Module Is Not Necessary</a></li>
+				<li class="in-page-sub"><a href="#software-vm-known-vulnerabilities">2.2. Software with Validated Modules Has Known Vulnerabilities</a></li> 
+            <li><a href="#requirements-and-recommendations">3. Requirements and Recommendations</a></li>
+				<li class="in-page-sub"><a href="#cloud-service-providers">3.1. Cloud Service Providers</a></li>
+				<li class="in-page-sub"><a href="#independent-assessors">3.2. Independent Assessors</a></li>
+				<li class="in-page-sub"><a href="#package-reviewers">3.3. Package Reviewers</a></li>
+				<li class="in-page-sub"><a href="#fedramp-designated-leads">3.4. FedRAMP Designated Leads</a></li>
+				<li class="in-page-sub"><a href="#operating-system-distribution-image-container-image-providers">3.4. Operating System Distribution, Operating System Image, and Container Image Providers</a></li>
+            <li><a href="#revision-history">Revision History</a></li>
+		  
+          </ul>
+
+          <div class="lavalamp"></div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mobile Navigation 
+<section class="fedramp-page-container position-relative resources-nav-mobile padding-bottom-2 padding-top-4">
+  <div class="full-row grid-row">
+    <div class="full-col">
+      <div>
+        <nav>
+          <h4 class="mobile-nav-title">You can also browse the topics below.</h4>
+          <ul class="in-page-nav-menu" id="top-menu-mobile">
+            <li><a href="#faq-general">General</a></li>
+            <li><a href="#faq-federal-agencies">Federal Agencies</a></li>
+            <li><a href="#faq-cloud-service-providers">Cloud Service Providers</a></li>
+            <li><a href="#faq-third-party">Third Party Assessors</a></li>
+            <li><a href="#faq-authorization">Authorization</a></li>
+            <li><a href="#faq-continous-monitoring">Continuous Monitoring</a></li>
+            <li><a href="#faq-acquisition">Acquisition</a></li>
+ 	    <li><a href="#faq-security">Security</a></li>0
+ 	    <li><a href="#faq-rev-5">Rev. 5</a></li>		  
+          </ul>
+          <div class="lavalamp"></div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<section class="fedramp-page-container in-page-nav-section framework-main-section crypto-main-section">
+  <div class="grid-container">
+    <div class="full-row grid-row grid-gap">
+      <div class="full-col tablet:grid-col-6 tablet:grid-offset-3 nav-main-section draft-background">
+
+		<div id="effective-date" class="margin-top-2">
+			<h2>Effective Date</h2>
+			<p>Cloud service providers (CSPs), independent assessors (IAs), and FedRAMP designated leads must adhere to this version of the policy by January 1, 2025. Reviewers of FedRAMP packages must adhere to this version of the policy starting on January 1, 2025.</p>			
+		</div>
+
+		<div id="policy-overview" class="margin-top-6">
+			<h2>1. Policy Overview</h2>
+			<p>Cryptography is the science of information hiding and verification. It includes the protocols, algorithms, and methodologies to securely and consistently prevent unauthorized access to sensitive information and enable verifiability of the information. The main goals include confidentiality, integrity authentication, and source authentication. Cryptography is critical to protecting cloud-based information systems and their data. Cryptographic algorithms are the basis of technologies that provide foundational security and privacy guarantees in modern systems, including encryption, digital signing, one-way hashing, privacy-enhancing technologies, and other security capabilities.</p> 
+				
+			<p>Cryptographic “modules” are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a boundary. The boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms.</p> 
+				
+			<p>When protecting federal information systems (“systems”) and information (“data”)<a id="fn-1-ref" href="#fn-1"><sup>1</sup></a>, Federal agencies are <a href="https://csrc.nist.gov/projects/fips-140-3-transition-effort" target="_blank" rel="nofollow">required</a> to use cryptographic modules that have been validated by an accredited laboratory as complying with the Federal Information Processing Standard (FIPS) 140 and are listed as validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="nofollow">Cryptographic Module Validation Program (CMVP)</a>. These modules use cryptographic algorithm implementations that have been validated by NIST’s <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program (CAVP)</a>.</p>
+			
+			<p>FedRAMP works primarily with commercially operated cloud service providers (CSPs) and is responsible for reviewing the security of those providers to meet the expectations of federal agencies. As a result, the FedRAMP process is responsible for applying the goals and requirements of the federal government into environments that are often operated very differently from those of many federal agencies.</p>
+				
+			<p>FedRAMP needs to have a dedicated policy for how cryptographic module requirements will be applied in the context of managing and maintaining a system, as:</p>
+			<ul>
+				<li>Many cloud providers operate their software and security architecture using DevSecOps-based approaches that prioritize rapid patching and security feature development. These are security practices and outcomes that are in federal agencies’ interest to enable and incentivize in the services on which they rely, and FedRAMP should not discourage them. FedRAMP should especially avoid unintentionally creating pressures on cloud providers and agencies to rely on known-vulnerable software.</li>
+
+				<li>Most commercially operated cloud providers in the FedRAMP marketplace serve a mix of government and non-government customers. Even when a cloud provider operates a government-focused instance of their service, this instance may share much of the same underlying software and hardware as other commercially-focused instances. This introduces complexity when different cryptographic modules, security functions, and algorithms are needed for different customer types. FedRAMP needs to enforce federal cryptographic standards in a way that does not require more complexity than is necessary.</li>
+				
+			</ul>	
+			
+			<p>This policy provides requirements for selecting and using cryptographic modules for cloud-based systems in a way that is informed by risk and focused on strengthening federal security overall. Note that selection and use of cryptographic modules is only one aspect of implementing, managing, and maintaining cryptography, and that using a validated module is not by itself sufficient.</p>
+
+			<p>FedRAMP has several goals for this policy:</p>
+
+			<ol>
+				<li>Ensure that cryptographic algorithms and functions being used to protect the integrity or confidentiality of federal systems and data are approved.<a id="fn-2-ref" href="#fn-2"><sup>2</sup></a></li>
+
+				<li>Avoid unintentionally incentivizing cloud providers to leave federal systems or data unprotected by omitting encryption and other applications of cryptography.</li>
+
+				<li>Promote the use of cryptographic modules that are free of known vulnerabilities over the use of validated modules with known vulnerabilities, except in cases where the unvalidated module’s use would clearly increase security risk over the use of a validated module.</li>
+
+				<li>Ensure that CSPs using unvalidated cryptographic modules document the rationale for doing so and a process for the ongoing assessment of their use in a way that is clearly visible to relying agencies, cloud service providers, and other stakeholders. Ensure that use of unvalidated modules is periodically reevaluated</li>				
+			</ol>
+				
+			<p>To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and data secure.</p>
+				
+		</div>
+
+		<div id="risk-based-approach" class="margin-top-6">
+			<h2>2. Taking a Risk-Based Approach to Cryptographic Module Selection</h2>
+			<p>FedRAMP is focused on the effective and transparent management of risk. Considering only the FIPS-validation status of a cryptographic module used by a product or service fails to take into account the larger risk picture based on how the module is used within the system (such as for an identity provider service or a cloud storage system versus a user endpoint), what functions it performs, what data is involved (including its sensitivity and the amount of data), and what known vulnerabilities exist in the module. For example, new vulnerabilities are discovered in FIPS-validated cryptographic modules from time to time. Federal agencies<a id="fn-3-ref" href="#fn-3"><sup>3</sup></a> are required to patch or update this software in order to protect federal systems and data, but the fixed software is often not yet FIPS-validated.</p>
+
+			<p>It may not be possible to meet requirements for both using FIPS-validated modules and using software without known vulnerabilities at the same time. In such situations, FedRAMP generally prefers the elimination of known vulnerabilities through patches or updates over continuing to use known-vulnerable software that is FIPS-validated, since the presence of known vulnerabilities can create risks that outweigh the assurance value provided through validation. Cryptography should still be used when and where it is needed.</p> 
+				
+			<p>FedRAMP’s goal for system security is to manage, mitigate, or resolve risks that are identified. To maximize security outcomes, FedRAMP, in consultation with NIST and the Office of Management and Budget, has developed this FedRAMP-specific policy for selecting and using cryptographic modules.</p>
+			
+		</div>
+			
+		
+		<div id="cases-where-vm-not-necessary" class="margin-top-6">
+			<h3>2.1. Cases Where a Validated Module Is Not Necessary</h3>
+			<p>There are some cases where a CSP does not need to use a validated cryptographic module because the module is not necessary for protecting federal systems and data. Here are a few examples:</p>
+			
+			<ul>
+				<li><b>Services are being provided to entities that do not support, cannot use, or cannot reasonably enforce the use of validated modules.</b> For example, the CSP may be interacting with non-federal entities that cannot consistently support validated modules. Another example is certificate authorities that issue publicly trusted certificates as part of the Web PKI. The CSP has no means of enforcing or controlling the cryptographic modules used, where an attacker’s options for obtaining a fraudulent certificate are not impacted by the CSP’s choice of certificate authority. </li>
+
+				<li><b>Another layer of cryptography is already present and uses a validated module to achieve the security requirements.</b> When multiple layers of cryptography are used to protect federal systems or data, it may be sufficient for only one of those layers to use a validated module. For example, if an inner encryption layer uses a validated module, an outer encryption layer (like a VPN tunnel or a mesh) might not need to use a validated module. If a CSP elects to use a second encryption layer that goes beyond what is needed to meet the SC-8(1) and SC-28(1) controls, the additional layer could use unvalidated modules. Additional layers of cryptography should be documented within the relevant controls, clearly stating that they exceed the requirement.</li>
+
+				<li><b>The cryptography is not needed to protect federal systems or data.</b> FedRAMP does not require CSPs to use validated modules where federal systems or data are not involved, or where the cryptographic function is not used to provide security guarantees. CSPs still need to use cryptography to protect sensitive systems and data, and the use of validated modules without known vulnerabilities is encouraged, and can even be useful to support similar requirements in other regions.</li>				
+			</ul>
+			
+		</div>
+		
+		<div id="software-vm-known-vulnerabilities" class="margin-top-6">
+			<h3>2.2. Software with Validated Modules Has Known Vulnerabilities</h3>
+			<p>The management and implementation of cryptography is a critical part of the system development life cycle. CSPs need to apply a risk-informed approach when addressing vulnerabilities in systems and cryptographic modules. As explained earlier in this section, FedRAMP generally prefers use of an unvalidated module with no known vulnerabilities over the use of a known-vulnerable validated module.</p> 
+
+			<p>However, there are situations where the latter may pose less risk than the former – for example, when the known vulnerabilities in the software are already being effectively mitigated through other means. In such cases, the CSP needs to take into consideration the relevant factors. Examples of possible factors include:</p>
+			
+			<ul>
+				<li>The risk inherent in the software, including:</li>
+					<ul>
+						<li>the risk from known vulnerabilities</li>
+						<li>weakness in the cryptographic implementation that may be discovered by the FIPS 140 conformance testing processes</li>		
+						<li>any mitigations in place to address these risks</li>
+					</ul>	
+				<li>The potential impact to agency missions if there is a degradation of confidentiality, integrity, or availability for the system or data. This may already be reflected in the <a href="https://doi.org/10.6028/NIST.FIPS.199" target="_blank" rel="nofollow">FIPS 199</a> level assigned to the system.</li>
+
+				<li>The maturity of the software, the degree to which the update is based on the source code used in a validated module, and the software provider’s history with navigating the module validation process. This can help in estimating the likelihood that a new or updated module will become validated.</li>				
+			</ul>
+			
+		</div>				
+
+	      		<div id="requirements-and-recommendations" class="margin-top-6">
+			<h2>3. Requirements and Recommendations</h2>
+			<p><em>Section 3 is normative. All other sections are informative.</em></p>	
+			<p>This section defines requirements related to cryptographic module selection for four types of stakeholders: CSPs, independent assessors, reviewers of FedRAMP packages, and FedRAMP designated leads (sponsoring agencies or the FedRAMP program). It also defines recommendations related to cryptographic modules for the providers of operating systems, operating system images, and containers.</p>
+
+			<p>Each requirement or recommendation has a unique identifier corresponding to the responsible party; for example, the fourth requirement for CSPs has identifier CSP04. This identification approach enables referencing specific requirements and recommendations in this and other resources.</p>
+				
+		</div>				
+	      
+		<div id="cloud-service-providers" class="margin-top-6">
+			<h3>3.1. Cloud Service Providers</h3>
+			<p>The FedRAMP marketplace must facilitate effective risk-based decisions by both agencies and CSPs themselves. Agency authorizing officials (AOs) must be able to see and understand the risks in any cloud service offering they authorize. CSPs working toward a FedRAMP authorization also need the confidence and visibility to leverage or build on another FedRAMP authorized cloud service offering as part of their own offering.</p> 
+
+			<p>CSPs play the most important role in ensuring the adequacy of cryptographic protections in cloud services, and in providing the information necessary to facilitate decision making by the CSP community and agencies.</p> 
+				
+			<p><b>The following requirements apply to all CSPs:</b></p>
+			<ul>
+				<li id="CSP01"><b>CSP01:</b> CSPs shall note in their System Security Plan (SSP) in SI-2 control responses whether their default position is to apply patches or other updates (use update streams) or to use validated modules (use validated module streams). CSPs shall determine their default position by performing a risk evaluation that takes into consideration the module’s use in the system and the likelihood and potential impact of vulnerability exploitation, as well as mitigations to prevent such exploitation.</li>
+
+				<li id="CSP02"><b>CSP02:</b> CSPs shall accurately document in Appendix Q of their SSP all cryptographic use cases and modules and module versions in use. Use of unvalidated modules shall be documented at the service offering, component, and cryptographic function level(s) in use as well as potential federal system or data impact(s), facilitating assessment and transparency to agency AOs.</li>
+
+				<li id="CSP03"><b>CSP03:</b> CSPs shall document in the customer responsibility matrix any customer-required configuration necessary to securely utilize a module to protect federal data and to ensure that only approved algorithms are used. This documentation shall consider differences between cryptographic modes of operation (e.g., FIPS mode) that may change as a result of a module update, including the need to technologically prevent functionality that would be otherwise allowed if operated in a different mode, such as use of unapproved cryptographic algorithms. </li>
+
+				<li id="CSP04"><b>CSP04:</b> CSPs shall align their Security Assessment Plans (SAPs) to the requirements captured within this policy, which need to be assessed according to the requirements for independent assessors in Section 3.2.</li>
+
+				<li id="CSP05"><b>CSP05:</b> CSPs shall transparently and accurately represent their FIPS status and any related claims within publicly available documentation for their FedRAMP service offerings. These representations must use terminology approved by NIST<a id="fn-4-ref" href="#fn-4"><sup>4</sup></a>. CSPs must not use ambiguous or CSP-defined terms such as “FIPS compliant” in their representations to FedRAMP.</li>				
+
+				<li id="CSP06"><b>CSP06:</b> CSPs using unvalidated modules shall periodically<a id="fn-5-ref" href="#fn-5"><sup>5</sup></a> reevaluate their use in light of new and emerging threats, the lifecycle availability of validated modules, the effectiveness of mitigations, and the risk tolerance of AOs.</li>
+
+				<li id="CSP07"><b>CSP07:</b> No exceptions can be made that will reduce the visibility of modules in required continuous monitoring data provided to FedRAMP or agencies. This ensures that FedRAMP and agency AOs can monitor any ongoing risk related to the use of cryptographic module versions.</li>				
+			</ul>			
+			<p><b>The following requirements involve situations where new vulnerabilities are discovered in software in use that contains cryptographic modules:</b></p>
+			<ul>
+				<li id="CSP08"><b>CSP08:</b> CSPs shall determine if updating to a newer version of the software would eliminate the vulnerabilities. If it would, CSPs shall promptly update unless there are circumstances making that infeasible.</li>
+
+				<li id="CSP09"><b>CSP09:</b> If updating the software to eliminate known vulnerabilities is not currently an option, CSPs shall create or update their POA&M based on the criticality of the vulnerabilities<a id="fn-6-ref" href="#fn-6"><sup>6</sup></a> to communicate their plan for remediating or mitigating the vulnerabilities. The plan outlined in the POA&M will help inform AOs’ ongoing authorization decisions.</li>
+				
+				<li id="CSP10"><b>CSP10:</b> If the CSP’s default position is to prefer validated modules over updates, but the options for software updates that would eliminate known vulnerabilities all contain modules that do not have current FIPS validations, the CSP shall take into consideration the order of preference for cryptographic module selection expressed in list below. CSP documentation shall support the CSP’s determination of which preferred options cannot be reasonably implemented. The documentation shall include clear and consistent descriptions of all deviations from validated modules, along with the CSP’s approach to manage, mitigate, and remediate the risks, and any usage considerations for customer responsibilities related to the cloud service. </li>
+					<ol type="a">
+						<li>Mitigate the vulnerability in the validated module</li>
+						<li>Use an unvalidated module, in the following order of preference:</li>							
+						<ol type="i">
+							<li>Module substantially similar to a FIPS-validated module; validated algorithm </li>
+							<li>FIPS validation in process for module; validated algorithm </li>		
+							<li>Expired FIPS validation for a previously validated module; validated algorithm</li>
+							<li>Module not in FIPS validation process; validated algorithm</li>		
+							<li>Algorithm is approved and tested but not yet validated, and the module is not in FIPS validation process</li>							
+						</ol>	
+					</ol>						
+				<li id="CSP11"><b>CSP11:</b> CSPs that are required to have POA&Ms related to their cryptographic module selection shall upload the internal evaluation, risk analysis, usage considerations, configuration, and impacted use cases documentation to the POA&M repository. These CSPs shall provide a monthly update within the POA&M on their progress, including evidence necessary to resolve the POA&M and documentation detailing any engagement with providers of cryptographic modules.</li>
+			
+			</ul>			
+			
+		</div>				
+		
+		<div id="independent-assessors" class="margin-top-6">
+			<h3>3.2. Independent Assessors</h3>
+			<p>The following requirements detail activities that help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.</p>
+
+			<p><b>IA01:</b> IAs shall perform a comprehensive examination<a id="fn-7-ref" href="#fn-7"><sup>7</sup></a> where unvalidated modules are used to meet a control requirement (i.e., when CSP09 and CSP10 apply). IAs shall ensure that such modules and mitigations are operating as intended and producing the documented security and risk management outcome.</p>
+
+			<p><b>IA02:</b> IAs shall review module risk evaluation activities performed by the CSP in support of CSP10 to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome.</p> 
+
+			<p><b>IA03:</b> IAs shall verify that all cryptographic use cases and use of modules are accurately documented, including the specific modules and versions in use. IAs shall verify that documentation for all use of unvalidated modules facilitates assessment and transparency for agency AOs by including which components are affected, where the modules are used compared to the service offering, which cryptographic functions are used, and what risks remain for agencies to consider.</p>
+
+			<p><b>IA04:</b> IAs shall verify that POA&Ms related to cryptographic modules are created by the CSP when required, are updated on a monthly basis, and are not overdue.</p> 
+
+			<p><b>IA05:</b> IAs shall verify that required artifacts are provided that demonstrate CSP work with the cryptographic module providers, as well as submission of modules, including achieving validated status.</p></p>
+
+		</div>				
+		
+		<div id="package-reviewers" class="margin-top-6">
+			<h3>3.3. Package Reviewers</h3>
+			<p>The following requirements apply to FedRAMP reviewers and designated lead package review teams. Package reviewers help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1, which are a requirement for all FedRAMP authorizations.</p>
+
+			<p><b>PR01:</b> Package reviewers shall ensure that all cryptographic use cases and modules are accurately documented, including the specific modules and versions in use. Reviewers shall verify that the use of unvalidated modules is documented at the service offering, component, and cryptographic function, and agency system impact(s), facilitating assessment and transparency to agency AOs.</p>
+
+			<p><b>PR02:</b> Package reviewers shall validate that the assessment artifacts represent a thorough evaluation where unvalidated modules are used to meet a control requirement.</p>
+
+			<p><b>PR03:</b> Package reviewers shall evaluate risk evaluation activities performed by the CSP to ensure they are thorough and well-formed, and that mitigations outlined are implemented as described and produce the desired outcome.</p>
+		</div>				
+		
+		<div id="fedramp-designated-leads" class="margin-top-6">
+			<h3>3.4. FedRAMP Designated Leads</h3>
+			<p>FedRAMP designated leads are the entities responsible for sponsoring a CSP for a FedRAMP authorization. A designated lead can be an authorizing official at another federal agency who is the sole sponsor, or the lead agency within a multi-agency authorization, or can be GSA through the FedRAMP Director in the case of a program-sponsored authorization.</p>
+
+			<p>Designated leads help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of this policy in Section 3.1.</p>
+
+			<p><b>DL01:</b> FedRAMP designated leads shall review documentation that captures the cryptographic module provider’s approach to managing cryptographic module validation as part of their system development life cycle.</p> 
+
+			<p><b>DL02:</b> FedRAMP designated leads shall review SC-13 findings in the POA&M and related risk identification and mitigation documentation provided within the CSO repository.</p></p>
+		</div>				
+		
+		<div id="operating-system-distribution-image-container-image-providers" class="margin-top-6">
+			<h3>3.5. Operating System Distribution, Operating System Image, and Container Image Providers</h3>
+			<p>The following recommendations apply to the providers of operating systems, operating system images, and containers containing cryptographic modules. CSPs should ask the following of providers:</p>
+
+			<p><b>OSP01:</b> Providers of operating system distributions, operating system images, and container images should be transparent about changes they make in their software in regards to cryptographic modules. For example, their change logs should include information if cryptographic modules were changed and the nature and extent of any changes. This will help organizations using the cryptographic modules to better estimate the risk associated with those changes.</p>
+
+			<p><b>OSP02:</b> Providers of operating systems should promote the use of “update streams” over the use of “validated module” streams. Pinning to validated modules often has a negative net effect on software dependencies that can result in the use of outdated, vulnerable versions of other software components in the operating system. This can increase the overall number of severe vulnerabilities in libraries and other software across the operating system, making it less secure overall.</p>
+
+			<p><b>OSP03:</b> Providers of operating systems should periodically resubmit their software for FIPS validation to maintain a high level of cryptographic module assurance. Some CSPs may be tracking FIPS validations and delaying upgrades until validations are completed.</p>
+
+			<p><b>OSP04:</b> Providers that implement algorithms should ensure that these algorithms are tested and meet NIST requirements using the CAVP Automated Cryptographic Validation Testing System (ACVTS). Once algorithm testing has been initially set up<a id="fn-8-ref" href="#fn-8"><sup>8</sup></a> with the ACVTS server, this process can be automated for each release.</p>
+		</div>				
+		
+		<div id="revision-history" class="margin-top-6">
+			<h2>Revision History</h2>
+			<p> FedRAMP will review this policy on a yearly basis and will issue revisions as needed. Suggestions for improving the policy are welcome at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.</p>
+			<div class="highlight">
+				<div class="chroma">
+					<table width="100%" class="dmarc-tables">
+						<tbody>
+							<tr>
+								<th scope="col">Date</th>
+								<th scope="col">Version</th>
+								<th scope="col">Description</th>			
+							</tr>
+							<tr>
+								<td>
+									<p>08/10/2024</p>
+								</td>
+								<td>
+									<p>1.0</p>
+								</td>
+								<td>
+									<p>Initial Draft</p>
+								</td>								
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+     		 </div>
+	    
+	      <div id="footnote" class="margin-top-6">
+			<hr>
+			<h4>Footnotes</h4>
+			<ol>			
+				<li id="fn-1">OMB Circular A-130, <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf" target="_blank" rel="nofollow">“Managing Information as a Strategic Resource”</a> defines <em>federal information system</em> as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” <a href="#fn-1-ref" aria-label="Return to footnote 1 referring content.">↵</a></li>
+				
+				<li id="fn-2">Approved cryptographic algorithms and functions are listed on the <a href="https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program" target="_blank" rel="nofollow">Cryptographic Algorithm Validation Program</a> site. <a href="#fn-2-ref" aria-label="Return to footnote 2 referring content.">↵</a></li>
+				
+				<li id="fn-3">Sources of these requirements include FIPS 200, <a href="https://doi.org/10.6028/NIST.FIPS.200" target="_blank" rel="nofollow">Minimum Security Requirements for Federal Information and Information Systems</a> and <a href="https://www.cisa.gov/news-events/directives" target="_blank" rel="nofollow">Cybersecurity Directives</a> from the Cybersecurity and Infrastructure Security Agency (CISA). <a href="#fn-3-ref" aria-label="Return to footnote 3 referring content.">↵</a></li>
+				
+				<li id="fn-4">See <a href="https://csrc.nist.gov/Projects/cryptographic-module-validation-program/use-of-fips-140-2-logo-and-phrases" target="_blank" rel="nofollow">use of FIPS 140 logos and phrases</a> on the CMVP website for specific phrase and logo requirements. <a href="#fn-4-ref" aria-label="Return to footnote 4 referring content.">↵</a></li>
+				
+				<li id="fn-5">For frequency requirements, see Section 3 of the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide. <a href="#fn-5-ref" aria-label="Return to footnote 5 referring content.">↵</a></li>
+				
+				<li id="fn-6">This is consistent with vulnerability management requirements defined in the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf" target="_blank" rel="nofollow">FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide</a>, Section 3 of <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Vulnerability_Scanning_Requirements.pdf" target="_blank" rel="nofollow">FedRAMP Vulnerability Scanning Requirements</a>, and the <a href="https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx" target="_blank" rel="nofollow">FedRAMP Vulnerability Deviation Request Form</a> <a href="#fn-6-ref" aria-label="Return to footnote 6 referring content.">↵</a>.</li>
+				
+				<li id="fn-7">SP 800-53A Rev. 5, <a href="https://csrc.nist.gov/pubs/sp/800/53/a/r5/final" target="_blank" rel="nofollow">Assessing Security and Privacy Controls in Information Systems and Organizations</a> <a href="#fn-7-ref" aria-label="Return to footnote 7 referring content.">↵</a></li>
+				
+				<li id="fn-8">See <a href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/how-to-access-acvts" target="_blank" rel="nofollow">how to access ACVTS</a> for more information on use of the ACVTS. <a href="https://github.com/usnistgov/ACVP/wiki" target="_blank" rel="nofollow">Usage guidelines</a> are also available. <a href="#fn-8-ref" aria-label="Return to footnote 8 referring content.">↵</a></li>
+			</ol>				
+				
+      		</div>      
+
+	  
+    </div>
+	<div class="tablet:grid-col-3">
+		<div class="lightest-gray-bkg padding-y-1 padding-x-2 margin-top-2 margin-x-0 sidebar-quick-links">
+			<h4>Quick Links</h4>
+			<ul>
+				<li><a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc">Public Comment Feedback Form</a></li>
+				<li><a href="https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc" target="_blank" rel="nofollow">Public Comments Read-Only Version</a></li>
+				<li><a href="https://csrc.nist.gov/pubs/fips/140-3/final" target="_blank" rel="noopener noreferrer">Federal Information Processing Standard (FIPS) 140-3</a></li>				
+			</ul>
+		</div>
+	</div>
+  </div>
+</section>
