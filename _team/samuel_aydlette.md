@@ -1,7 +1,7 @@
 ---
 layout: teammate
-name: Samuel Aydlette.md
-image: /assets/img/team/profile_SamuelAydlette.png
+name: Samuel Aydlette
+image: /assets/img/team/profile_SamuelAydlette.jpg
 title: Vulnerability Management and Continuous Monitoring Lead
 body-class: page-team-single
 date: 2024-08-09
