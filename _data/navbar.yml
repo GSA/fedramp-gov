@@ -118,7 +118,13 @@ assigned:
             href: pages/dmarc.md
             permalink: /dmarc/
             show_in_menu: true
-            show_in_footer: false       
+            show_in_footer: false 
+        - 
+            text: Cryptographic Module
+            href: cryptographic-module.md
+            permalink: /cryptographic-module/
+            show_in_menu: true
+            show_in_footer: false            
 
     -
         text: Blog
