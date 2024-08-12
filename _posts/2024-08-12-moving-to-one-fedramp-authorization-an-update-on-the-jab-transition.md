@@ -1,5 +1,5 @@
 ---
-title: Moving to One FedRAMP Authorization An Update on the JAB Transition
+title: Moving to One FedRAMP Authorization&#58; An Update on the JAB Transition
 permalink: /2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/
 body-class: page-blog
 image: /assets/img/blog-images/2024-07-08-update-on-jab-transition.png
