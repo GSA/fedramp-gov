@@ -5,7 +5,7 @@ category: Continuous Monitoring Phase
 weblink:
 filename: documents/CSP_Incident_Communications_Procedures.pdf
 filetype: pdf
-fileinfo: PDF - 328KB
+fileinfo: PDF - 324KB
 condition: update
 partner: Cloud Service Providers
 doctype:
