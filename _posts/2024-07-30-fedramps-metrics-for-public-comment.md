@@ -8,7 +8,7 @@ layout: blog-page
 ---
 By Ryan Hoesing
 
-<b>Update:</b> To ensure that we hear from as many voices and gather as much input as possible, we are extending the deadline for comments. Please review the proposed metrics on this form and submit your comments via Smartsheets by Thursday, September 5, 2024, 11:59 PM EDT. 
+<b><em>Update:</b> To ensure that we hear from as many voices and gather as much input as possible, we are extending the deadline for comments. Please review the proposed metrics on this form and submit your comments via Smartsheets by Thursday, September 5, 2024, 11:59 PM EDT.</em> 
 
 <h4>FedRAMP Announces Key Performance Metrics for Public Comment</h4>
 As we outlined in our <a href="https://www.fedramp.gov/2024-03-28-a-new-roadmap-for-fedramp/" target="_blank" rel="noopener noreferrer">FedRAMP roadmap</a>, we're committed to continuously improving FedRAMP to better serve our stakeholders.
