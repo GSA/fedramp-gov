@@ -1,6 +1,6 @@
 ---
 title: Digital Authorization Pilot
-permalink: /2024-08-29-digital-authorization-pilot/
+permalink: /2024-08-27-digital-authorization-pilot/
 body-class: page-blog
 image: /assets/img/blog-images/2024-08-29-digital-authorization-package-pilot.png
 author: FedRAMP
