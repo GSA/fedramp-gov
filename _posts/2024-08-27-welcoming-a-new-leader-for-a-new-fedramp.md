@@ -12,4 +12,4 @@ We went into this search knowing that we wanted someone who would help us stay g
 
 Of course, our growth extends beyond just this position. We’ve brought on multiple new team members to expand the program’s technical capacity and operations, and have more joining in the coming weeks. FedRAMP’s Security Director position opens tomorrow, Wednesday, August 28 (<a href="https://join.tts.gsa.gov/join/FedRAMP-Security-Director/" target="_blank" rel="noopener noreferrer">consider applying</a>!). 
 
-As FedRAMP continues to engage with the public, through the Federal Secure Cloud Advisory Council, industry forums, and other events, we hope you’ll say hello to our new Director</a> and the rest of our team!
+As FedRAMP continues to engage with the public, through the Federal Secure Cloud Advisory Council, industry forums, and other events, we hope you’ll say hello to our new Director and the rest of our team!
