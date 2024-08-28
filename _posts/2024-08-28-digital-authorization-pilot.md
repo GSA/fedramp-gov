@@ -37,7 +37,7 @@ FedRAMP will leverage the <a href="https://github.com/GSA/fedramp-automation" ta
 
 Collaboration partners will not be asked to share sensitive or proprietary package information or documents during the pilot. They will use the local validation tooling within their local environments to validate their OSCAL SSP content and report back on any guidance or validation issues they find.
 
-The FedRAMP automation team will host weekly OSCAL implementer meetings and recurring “pilot office hours.” To attend the weekly OSCAL implementer meetings,
+The FedRAMP automation team will host weekly OSCAL implementer meetings and recurring “pilot office hours”. To attend the weekly OSCAL implementer meetings,
  <a href="https://app.smartsheetgov.com/b/form/6cf60ebf7d6844dc9c4d167062165354" target="_blank" rel="noopener noreferrer">subscribe</a> to the distribution list. The pilot office hour times enable direct one-on-one discussions between an individual pilot partner and the FedRAMP team to support troubleshooting, debugging, or sharing detailed feedback. You can <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ27Rhb5mfcFTjMm7ITFc2xRbKnKdjjRS3ItLkehbzx9LGikIv11E2gjgh9bALmO9Pb4LOfaE5HA" target="_blank" rel="noopener noreferrer">sign up</a> for a 30-minute office hour time-block. These blocks are made available for pilot participants on a first-come, first-served basis.
 
 <h4>Stay informed</h4>
