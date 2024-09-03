@@ -12,7 +12,7 @@ Fedramp's vision for automated and data driven risk management has achieved a ke
 
 <h4>We need diverse viewpoints and perspectives.</h4>
 
-FedRAMP will be hosting small focus groups for agencies, current and prospective CSPs, and independent assessors in support of our configuration of the platform. Please complete this <a href="[https://www.fedramp.gov/2024-07-11-new-website-launch-automate-fedramp-gov/](https://app.smartsheetgov.com/b/form/bf8b558127c147c58b38598e4ca6ba8f)" target="_blank" rel="noopener noreferrer">form</a> by September 15th if you would like to participate. We are particularly seeking individuals with visual or hearing impairments or upper-motor disabilities to participate in this work. Your insights will be invaluable in testing and refining our 508 compliance capabilities, ensuring that our platform is accessible and user-friendly for everyone.
+FedRAMP will be hosting small focus groups for agencies, current and prospective CSPs, and independent assessors in support of our configuration of the platform. Please complete this <a href="https://www.fedramp.gov/2024-07-11-new-website-launch-automate-fedramp-gov/(https://app.smartsheetgov.com/b/form/bf8b558127c147c58b38598e4ca6ba8f)" target="_blank" rel="noopener noreferrer">form</a> by September 15th if you would like to participate. We are particularly seeking individuals with visual or hearing impairments or upper-motor disabilities to participate in this work. Your insights will be invaluable in testing and refining our 508 compliance capabilities, ensuring that our platform is accessible and user-friendly for everyone.
 
 <h4>Technology enabling change</h4>
 
