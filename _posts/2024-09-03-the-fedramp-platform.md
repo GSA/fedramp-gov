@@ -1,5 +1,5 @@
 ---
-title: Streamlining Federal Cloud Security
+title: The missing piece of our modernization puzzle: The FedRAMP Platform
 permalink: /2024-09-03-the-fedramp-platform/
 body-class: page-blog
 image: /assets/img/blog-images/2024-09-03-the-fedramp-platform.png
