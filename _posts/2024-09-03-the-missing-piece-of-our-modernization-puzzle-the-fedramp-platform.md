@@ -6,7 +6,7 @@ image: /assets/img/blog-images/2024-09-03-the-fedramp-platform.png
 author: FedRAMP
 layout: blog-page
 ---
-Fedramp's vision for automated and data driven risk management has achieved a key milestone with the completed acquisition of the platform that will drive our automation efforts. This cutting-edge solution is set to transform the authorization review process, enabling efficient collaboration with our cloud service, agency, and automation tool-provider stakeholders, and automation throughout the entire lifecycle of cloud service authorizations.
+FedRAMP's vision for automated and data driven risk management has achieved a key milestone with the completed acquisition of the platform that will drive our automation efforts. This cutting-edge solution is set to transform the authorization review process, enabling efficient collaboration with our cloud service, agency, and automation tool-provider stakeholders, and automation throughout the entire lifecycle of cloud service authorizations.
 
 <h4>We need diverse viewpoints and perspectives</h4>
 
