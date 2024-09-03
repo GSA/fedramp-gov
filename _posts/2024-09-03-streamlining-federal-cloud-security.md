@@ -18,7 +18,7 @@ FedRAMP will be hosting small focus groups for agencies, current and prospective
 
 This platform will enable change by providing:
 
-- Smart systems that make getting and using FedRAMP authorizations easier through automated workflows that provide a digital and streamlined authorization experience
+- Smart systems that make getting and using FedRAMP authorizations easier through automated workflows that provide a digital and streamlined authorization experience.
 - Expanded continuous monitoring capabilities to ensure that systems remain secure and can shift to automated and continuous assessment, while empowering agencies and risk managers with data to make authorization decisions.
 - Enhanced collaboration and communication capabilities that enable centralized real time feedback, actionable data, and minimizes miscommunication.
 - Better metrics across the FedRAMP Marketplace, including allowing FedRAMP to track and improve the customer experience and drive improved security outcomes. 
