@@ -1,5 +1,5 @@
 ---
-title: Streamlining 
+title: Streamlining Federal Cloud Security
 permalink: /2024-09-03-streamlining-federal-cloud-security/
 body-class: page-blog
 image: /assets/img/blog-images/2024-09-03-streamlining-federal-cloud-security.png
