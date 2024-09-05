@@ -69,31 +69,24 @@ layout: full-width
 			<h2>Overview</h2>
 			
 			<h3 id="purpose">Purpose</h3>
-			<p>In the FedRAMP agile delivery pilot, cloud service offerings (CSOs) will be able to launch new services and features without agency approval. The data gathered during this pilot will help inform program-wide updates to streamline the current process for change management. Our long-term goal is to shift the FedRAMP process to one that is based on continuous assessment rather than point-in time snapshots. </p>
+			<p>The FedRAMP agile delivery pilot allows cloud service offerings (CSOs) to launch new services and features without requiring agency pre-approval. The data gathered during this pilot will help inform program-wide updates to streamline the current process for change management. Our long-term goal is to shift the FedRAMP process to one that is based on continuous assessment rather than point-in time snapshots. </p>
 
-			<p>Currently, CSOs must go through independent testing and must receive agency approval before rolling out significant changes such as launching a new feature. While this process helps ensure security impacts are understood by stakeholders in advance, it adds unpredictability and delay to the act of product improvement, creating risks and opportunity costs, and impedes agency access to new features.</p>
+			<p>Currently, CSOs must go through independent testing and must receive agency pre-approval before rolling out significant changes such as launching a new feature. While this process helps ensure security impacts are understood by stakeholders in advance, it adds unpredictability and delay to the act of product improvement, creating risks and opportunity costs, and impedes agency access to new features.</p>
 			
 			<p>CSOs wishing to participate in the agile delivery pilot must meet the qualification requirements. If CSOs meet these requirements, FedRAMP will engage with each included CSO liaison and seek authorizing official (AO) concurrence. </p>
 			
 			<p>The following guiding principles inform the philosophy behind the agile delivery pilot:</p>
+			<li><b>Security over sentimentality</b></li>
 			<ul>
-				<li>Security over sentimentality</li>
-				<ul>
-					<li>Risk management decisions must be grounded in systems engineering principles and informed by data.  We must evolve our “text and spreadsheet” approach by leveraging machine generated, objective-based validation where appropriate.</li>
-				</ul>
+				<li>Risk management decisions must be grounded in systems engineering principles and informed by data.  We must evolve our “text and spreadsheet” approach by leveraging machine generated, objective-based validation where appropriate.</li>
 			</ul>
+			<p><b>Shift security left</b></p>
 			<ul>
-				<li>Shift security left</li>
-				<ul>
-					<li>Vulnerabilities should be identified and remediated as early in the development process as possible.</li>
-				</ul>
+				<li>Vulnerabilities should be identified and remediated as early in the development process as possible.</li>
 			</ul>
+			<p><b>Embrace secure iterative change</b></p>
 			<ul>
-				<li>Embrace secure iterative change</li>
-				<ul>
-					<li>Modern software development is based on rapid iteration.  Mature organizations test and deploy dozens or even hundreds of changes per day.  In order to ensure relevance, compliance controls must reflect the day-to-day reality of software development in the cloud.</li>
-				</ul>
-			</ul>
+				<li>Modern software development is based on rapid iteration.  Mature organizations test and deploy dozens or even hundreds of changes per day.  In order to ensure relevance, compliance controls must reflect the day-to-day reality of software development in the cloud.</li>
 			</ul>
 
 			<h3 id="scope">Scope</h3>
@@ -182,12 +175,12 @@ layout: full-width
 
 			<h3 id="pilot-selection-process">Pilot Selection Process</h3>
 			<p>CSOs will be selected for the pilot based on each of the criteria described in the above section.  In particular, FedRAMP will focus on CSOs with strong compliance and automated change control processes.  Below is an example of a mature CI/CD pipeline that incorporates automation and robust testing.</p>
-			<li>Example of a Mature CI/CD Pipeline</li>
+			<p><b>Example of a Mature CI/CD Pipeline</b></p>
 			<table width="100%" border="1" cellpadding="10">
 				<tr>
-				  <th >Developer Environment</th>
-				  <th colspan="3">Staging Environment</th>
-				  <th>Production Environment</th>
+				  <th scope="col">Developer Environment &rarr;</th>
+				  <th scope="col" colspan="3">Staging Environment &rarr;</th>
+				  <th scope="col">Production Environment &rarr;</th>
 				</tr>
 				<tr>
 				  <td>Continuous Planning and Development</td>
@@ -208,12 +201,10 @@ layout: full-width
 			<p>FedRAMP will follow up with identified CSOs to discuss the requirements and their application to make a determination to include the CSOs in the pilot. FedRAMP will then engage with each included agency reviewers and seek AO concurrence. FedRAMP must receive AO concurrence for all CSOs involved in the pilot. FedRAMP will also notify any CSOs that were not selected. There will be a limited number of open spaces for the pilot.</p>			
 			
 			<h3 id="pilot-kickoff-process">Pilot Kickoff Process</h3>
-			<ul>
-				<li>FedRAMP will notify CSOs who applied of their acceptance status</li>
-				<li>FedRAMP will schedule a 30-minute kickoff meeting with each pilot participant</li>
-			</ul>
+			<p>FedRAMP will notify CSOs who applied of their acceptance status via email.  From there, FedRAMP will schedule a 30-minute kickoff meeting with each pilot participant, along with participating agency reviewers.  During this kickoff, the ground rules and expected outcomes of the pilot will be reviewed and agreed upon.  Proposed changes for the pilot will be described at a high level and stakeholder expectations will be clarified based on each CSO.  Additionally, a recurring cadence of meetings will be scheduled for check ins with FedRAMP and agency reviewers.</p>
 			
 			<h3 id="pilot-evaluation-process">Pilot Evaluation Process</h3>
+			<p>The evaluation of the pilot will include the following considerations:</p>
 			<ul>
 				<li>FedRAMP will review collected cost data and report to stakeholders the value proposition of implementing the automated SCR approval processes.</li>
 				<li>FedRAMP will compare each CSO’s security impact analysis (SIA) against those performed by an independent assessor and report to each CSO their successes and areas of improvement in the security impact analysis (SIA) processes.</li>
@@ -222,6 +213,7 @@ layout: full-width
 			</ul>
 
 			<h3 id="potential-next-steps">Potential Next Steps</h3>
+			<p>FedRAMP may take additional action based on lessons learned and successes achieved during the pilot.  These may include:</p>
 			<ul>
 				<li>FedRAMP will evaluate the program, including characteristics of successful change management programs, and make updates to guidance and training for CSOs.</li>
 				<li>FedRAMP, based on the evaluation of the pilot, may decide to extend the pilot timeline or expand the pilot scope.</li>
@@ -300,6 +292,7 @@ layout: full-width
 		<div id="expectations-for-others-involved-in-the-SCR-pilot">
 			<h2>Expectations for Other Stakeholders Involved in the Agile Delivery Pilot</h2>
 			<h3 id="PMO-SCR-pilot-expectations">FedRAMP Agile Delivery Pilot Expectations</h3>
+			<p>For each CSO participating in the pilot, FedRAMP will:</p>
 			<ul>
 				<li>Review and analyze the reported changes</li>
 				<li>Determine if the scope in the SIA produced by the CSO captures all areas that would be in an SCR</li>
@@ -309,11 +302,13 @@ layout: full-width
 				<li>Coordinate with CSOs to ensure that they have access to all appropriate repositories, including any high repositories</li>
 			</ul>
 			<h3 id="3PAO-pilot-expectations">3PAO Pilot Expectations</h3>
+			<p>During the next annual assessment after the conclusion of the pilot, 3PAOs must:</p>
 			<ul>
 				<li>Review CSO SCR forms and SIA for significant gaps</li>
 				<li>Identify any significant findings that were missed during the Agile Delivery pilot Significant findings include gaps in MFA, Encryption, Inventory, Scans and Scan coverage, as well as any failures to identify Critical or High findings</li>
 			</ul>
 			<h3 id="agency-AO-SCR-pilot-expectations">Agency AO/Agile Delivery Pilot Expectations</h3>
+			<p>Agencies who are performing continuous monitoring oversight for CSOs participating in the pilot must:</p>
 			<ul>
 				<li>Continue to monitor ConMon for the CSO in the pilot program and manage all performance related issues</li>
 				<li>Review uploaded SCR and artifacts, and raise any concerns or negative impacts on the security posture of the system</li>
