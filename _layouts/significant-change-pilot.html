@@ -76,7 +76,7 @@ layout: full-width
 			<p>CSOs wishing to participate in the agile delivery pilot must meet the qualification requirements. If CSOs meet these requirements, FedRAMP will engage with each included CSO liaison and seek authorizing official (AO) concurrence. </p>
 			
 			<p>The following guiding principles inform the philosophy behind the agile delivery pilot:</p>
-			<li><b>Security over sentimentality</b></li>
+			<p><b>Security over sentimentality</b></p>
 			<ul>
 				<li>Risk management decisions must be grounded in systems engineering principles and informed by data.  We must evolve our “text and spreadsheet” approach by leveraging machine generated, objective-based validation where appropriate.</li>
 			</ul>
@@ -126,15 +126,13 @@ layout: full-width
 				<li>Change customer responsibilities for existing features or services</li>
 			</ul>
 			<h3 id="goals-and-objectives">Goals and Objectives</h3>
+			<p>As a result of this pilot, FedRAMP aims to:</p>
 			<ul>
-				<li>As a result of this pilot, FedRAMP aims to:</li>
-				<ul>
-					<li>Allow CSOs to bring new services and features to the FedRAMP marketplace more efficiently.</li>
-					<li>Reduce agency resources needed for reviewing and approving significant changes.</li>
-					<li>Identify areas where the existing significant change request (SCR) process can better align with industry-wide best practices around CI/CD and DevSecOps.</li>
-					<li>Identify updates to guidance on non-blocking SCRs for CSOs, independent auditors, and agencies.</li>
-					<li>Gather information during the pilot that FedRAMP will use to inform enhancements to the FedRAMP automation strategy and to identify opportunities to shift to continious assessment.</li>
-				</ul>
+				<li>Allow CSOs to bring new services and features to the FedRAMP marketplace more efficiently.</li>
+				<li>Reduce agency resources needed for reviewing and approving significant changes.</li>
+				<li>Identify areas where the existing significant change request (SCR) process can better align with industry-wide best practices around CI/CD and DevSecOps.</li>
+				<li>Identify updates to guidance on non-blocking SCRs for CSOs, independent auditors, and agencies.</li>
+				<li>Gather information during the pilot that FedRAMP will use to inform enhancements to the FedRAMP automation strategy and to identify opportunities to shift to continious assessment.</li>
 			</ul>
 
 			
@@ -178,16 +176,16 @@ layout: full-width
 			<p><b>Example of a Mature CI/CD Pipeline</b></p>
 			<table width="100%" border="1" cellpadding="10">
 				<tr>
-				  <th scope="col">Developer Environment &rarr;</th>
-				  <th scope="col" colspan="3">Staging Environment &rarr;</th>
-				  <th scope="col">Production Environment &rarr;</th>
+				  <th scope="col">Developer Environment</th>
+				  <th scope="col" colspan="3">Staging Environment</th>
+				  <th scope="col">Production Environment</th>
 				</tr>
 				<tr>
-				  <td>Continuous Planning and Development</td>
-				  <td>Continuous Integration</td>
-				  <td>Continuous Deployment</td>
-				  <td>Continuous Testing</td>
-				  <td>Continuous Monitoring</td>
+				  <td>Continuous Planning and Development &rarr;</td>
+				  <td>Continuous Integration &rarr;</td>
+				  <td>Continuous Deployment &rarr;</td>
+				  <td>Continuous Testing &rarr;</td>
+				  <td>Continuous Monitoring &orarr;</td>
 				</tr>
 				<tr>
 				  <td>Developers write code on laptops or virtual desktops, and initiate a tracking ticket when code is ready for review. Security step - IDE plugins can use linting and formatting to correct code issues. CDK packages can check for compliance via rule packs.  A security questionnaire should be included in the ticket that determines whether the change is standard vs. significant.</td>
