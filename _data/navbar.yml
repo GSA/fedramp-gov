@@ -135,20 +135,10 @@ assigned:
         
     -
         text: Marketplace
+        is_external: https://marketplace.fedramp.gov
         show_in_menu: true
         show_in_footer: false
-        sub:
-        - 
-            text: Marketplace
-            is_external: https://marketplace.fedramp.gov
-            show_in_menu: true
-            show_in_footer: false
-        - 
-            text: About Marketplace
-            href: pages/about-marketplace.md
-            permalink: /about-marketplace/
-            show_in_menu: true
-            show_in_footer: false
+
     -
         text: Developer Hub
         is_external: https://automate.fedramp.gov
