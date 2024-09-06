@@ -67,36 +67,72 @@ layout: full-width
 
 		<div id="overview" class="">
 			<h2>Overview</h2>
-			<p><b>Pilot Participants:</b> CSPs</p>
-			<p><b>Participant Target:</b> 20</p>
-			<p><b>Application Period:</b> July 8, 2024 - July 26, 2024</p>			
-			<p><b>Selection Period:</b> July 26, 2024 - August 16, 2024</p>			
-			<p><b>Pilot Kickoffs:</b> September 1, 2024 - September 15, 2024</p>
-			<p><b>Pilot Period:</b> September 15, 2024 - December 31, 2024</p>
-			<p><b>Pilot Closeout Date:</b> January 31, 2025 </p>
 			
 			<h3 id="purpose">Purpose</h3>
-			<p>In FedRAMP’s agile delivery pilot, cloud service providers (CSPs) will be able to launch new services and features without agency approval. The data gathered during this pilot will help inform program-wide changes to streamline the current process for change management. Our long-term goal is to shift the FedRAMP process to one that is based on continuous assessment rather than point-in time snapshots. </p>
+			<p>The FedRAMP Agile Delivery Pilot allows cloud service offerings (CSOs) to launch new services and features without requiring agency pre-approval. The data gathered during this pilot will help inform program-wide updates to streamline the current process for change management. Our long-term goal is to shift the FedRAMP process to one that is based on continuous assessment rather than point-in time snapshots. </p>
 
-			<p>Currently, CSP must go through independent testing and approval before rolling out security-relevant changes such as launching a new feature. While this process helps ensure security impacts are understood in advance, it adds unpredictability and delay to the act of product improvement, creating risks and opportunity costs, and delays in agency access to new features.</p>
+			<p>Currently, CSOs must go through independent testing and must receive agency pre-approval before rolling out significant changes, such as launching a new feature. While this process helps ensure security impacts are understood by stakeholders in advance, it adds unpredictability and delay to the act of product improvement, creating risks and opportunity costs, and impedes agency access to new features.</p>
 			
-			<p>CSPs wishing to participate in the agile delivery pilot must follow the application process below and meet the qualification requirements. FedRAMP will engage with each included CSP’s liaison and seek authorizing official (AO) concurrence for qualifying CSPs that wish to participate. </p>
+			<p>CSOs wishing to participate in the agile delivery pilot must meet the qualification requirements. If CSOs meet these requirements, FedRAMP will engage with each included CSO liaison and seek authorizing official (AO) concurrence. </p>
+			
+			<p>The following guiding principles inform the philosophy behind the agile delivery pilot:</p>
+			<p><b>Security over sentimentality</b></p>
+			<ul>
+				<li>Risk management decisions must be grounded in systems engineering principles and informed by data.  We must evolve our “text and spreadsheet” approach by leveraging machine generated, objective-based validation where appropriate.</li>
+			</ul>
+			<p><b>Shift security left</b></p>
+			<ul>
+				<li>Vulnerabilities should be identified and remediated as early in the development process as possible.</li>
+			</ul>
+			<p><b>Embrace secure iterative change</b></p>
+			<ul>
+				<li>Modern software development is based on rapid iteration.  Mature organizations test and deploy dozens or even hundreds of changes per day.  In order to ensure relevance, compliance controls must reflect the day-to-day reality of software development in the cloud.</li>
+			</ul>
 
 			<h3 id="scope">Scope</h3>
-			<p>To limit the scope and potential impact of changes to agencies, new features launched as part of this pilot must be opt-in. Opt-in features should not be required for the rest of the offering to function, and agency customers must proactively decide to use that service or feature. Additionally, changes to the underlying architecture or new security control implementations applied to the entire offering will be excluded from the pilot. For the purposes of this pilot, agencies must choose to use the new feature, but the new feature cannot change the:</p>
+
+			<p><b>Pilot Participants:</b> CSOs</p>
+			<p><b>Initial Participants:</b> 7</p>
+			<p><b>Application Period:</b> July 8, 2024 - July 26, 2024</p>			
+			<p><b>Selection Period:</b> July 26, 2024 - September 15, 2024</p>			
+			<p><b>Pilot Kickoffs:</b> September 15, 2024 - September 30, 2024</p>
+			<p><b>Pilot Period:</b> October 1, 2024 - December 31, 2024</p>
+			<p><b>Pilot Closeout Date:</b> January 31, 2025 </p>
+
+			<p>Per NIST SP 800-37 <i>Risk Management Framework for Information Systems and Organizations: A System Lifecycle Approach for Security and Privacy</i>, a significant change is defined as a change that is likely to substantively affect the security or privacy posture of a system.  NIST SP 800-128, <i>Guide for Security-Focused Configuration Management of Information Systems</i> further elaborates on how to apply changes within a system.  The scope of change control includes:</p>
 			<ul>
-				<li>system’s fundamental architecture</li>
-				<li>types of components used such as databases, operating systems, or container</li>
-				<li>tooling used to configure, secure, and scan those components</li>
-				<li>customer responsibilities for existing features or services</li>
+				<li>Ongoing patching, maintenance, disposal, and personnel changes for the system, which are considered standard changes by FedRAMP and CSPs may perform these activities as necessary</li>
+				<li>Responding to Government priorities such as OMB Memos, DHS Binding Operational Directives (BODs), or NIST revisions to SP 800-53, which involve specific instructions for implementation, including a timeline</li>
+				<li>Introducing new technologies, product features and services, processes, or customer requirements, which typically require a significant change request approved by the authorizing official</li>
 			</ul>
-			
-			<h3 id="goals-and-objectives">Goals and Objectives</h3>
+			<p>The Agile Delivery Pilot will focus on introducing new product features and services.  Allowed changes in support of a new feature or service may include:</p>
 			<ul>
-				<li>Identify examples of high-quality practices that allow for the deployment of new features without agency review or independent assessment</li>
-				<li>Identify proposed changes to the existing significant change request (SCR) process based on the pilot</li>
-				<li>Identify updates to guidance on non-blocking SCRs for CSPs, independent auditors, and agencies</li>
-				<li>Gather information during the pilot that FedRAMP will use to inform enhancements to the FedRAMP automation strategy and to identify opportunities to shift to continious assessment</li>
+				<li>Introducing certain types of technology (i.e. new OS or container image variant, new web server variant, new code framework, new PaaS service, etc.) in support of a feature or service.  If introducing new technology, the new technology must not be an architectural change and also must be tested with additional rigor than the standard CI/CD.  This may include:</li>
+				<ul>
+					<li>Configuration and vulnerability scans</li>
+					<li>Threat analysis</li>
+					<li>Red team exercises</li>
+					<li>Penetration testing</li>
+					<li>Consideration of incident response and contingency risks</li>
+					<li>Consideration of supply chain and privacy risks</li>
+				</ul>
+				<li>Introducing new cloud-native services from an underlying IaaS/PaaS into the authorization boundary.  Such services must be FedRAMP authorized by the IaaS/PaaS and configured per the vendor configuration guidance (including the FedRAMP Customer Responsibility Matrix) for that cloud native service.</li>
+			</ul>
+			<p>Changes introduced during the agile delivery pilot may not:</p>
+			<ul>
+				<li>Alter the fundamental architecture of the system, such as deploying a new commercial software application within the authorization boundary, interconnecting with a new SaaS or PaaS, adding or moving to a new data center, etc.</li>
+				<li>Introduce or generate privacy impacting data (i.e. PII, PHI)</li>
+				<li>Change security tooling used to configure, secure, encrypt, backup, or scan the system.</li>
+				<li>Change customer responsibilities for existing features or services</li>
+			</ul>
+			<h3 id="goals-and-objectives">Goals and Objectives</h3>
+			<p>As a result of this pilot, FedRAMP aims to:</p>
+			<ul>
+				<li>Allow CSOs to bring new services and features to the FedRAMP marketplace more efficiently.</li>
+				<li>Reduce agency resources needed for reviewing and approving significant changes.</li>
+				<li>Identify areas where the existing significant change request (SCR) process can better align with industry-wide best practices around CI/CD and DevSecOps.</li>
+				<li>Identify updates to guidance on non-blocking SCRs for CSOs, independent auditors, and agencies.</li>
+				<li>Gather information during the pilot that FedRAMP will use to inform enhancements to the FedRAMP automation strategy and to identify opportunities to shift to continious assessment.</li>
 			</ul>
 
 			
@@ -104,108 +140,145 @@ layout: full-width
 
 		<div id="expectations-for-the-SCR-pilot" class="margin-top-2">
 			<h2>Expectations for the Agile Delivery Pilot</h2>
-			<h3 id="SCR-pilot-prerequisites">Agile Delivery Pilot Prerequisites</h3>
-			<p>A CSP must meet the following prerequisites before applying to participate in the pilot:</p>
-			<ol>
-				<li>Have one or more new services or features they plan to deploy during the pilot period that will allow for an opt-in capability for agencies</li>
-				<li>Have mature, automated, and well-documented configuration and change management plans</li>
-				<li>Have mature configuration and change management procedures that implement automated mechanisms for deploying services and features and verifying their secure implementation</li>
-				<li>Incorporate vulnerability scanning and developer testing as part of their change and deployment processes</li>				
-				<li>Be willing to share their mature processes and plans as examples for the FedRAMP knowledge base</li>
-				<li>Be in good standing with no open corrective action plans (CAPs) that are due to issues with the CSP’s configuration management controls or past incidents of failing to follow existing SCR processes</li>
-			</ol>
-			<h3 id="pilot-application-process">Pilot Application Process</h3>
-			<p>To apply, a CSP must complete the Agile Delivery Pilot: Non-Blocking Change Request - Phase 1 Features ﻿Application Sign Up Form (applications closed) with their contact information.</p>
+			
+			
 
-			<p>The CSP must also make the following available in its “Agile Delivery Pilot” folder:</p>
+			<h3 id="SCR-pilot-prerequisites">Agile Delivery Pilot Prerequisites</h3>
+			<p>A CSO must meet the following prerequisites before applying to participate in the pilot:</p>
 			<ul>
-				<li>Configuration management plan should describe:</li>
-				<ul>				
-					<li>The automated configuration management and validation and deployment mechanisms implemented within the cloud service offering (CSO)</li>
-					<li>The security impact analysis processes and supporting technologies, and</li>
-					<li>The change approval process and any automated mechanisms</li>
-				</ul>	
-				<li>Their latest POA&M, inventory, and scans</li>
-				<li>Their latest SSP</li>
+				<li>Does the CSO have one or more new services or features they plan to deploy during the pilot period that will allow for an opt-in capability for agencies?</li>
+				<li>Does the CSO have mature, automated, and well-documented configuration and change management plans.  CSO implementation of NIST Special Publication (SP) 800-218, <i>Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities</i> and/or similar secure software development frameworks is encouraged</li>
+				<li>Does the CSO have mature configuration and change management procedures that implement automated mechanisms for deploying services and features and verifying their secure implementation. CSO use of non-manual configuration implementations such as infrastructure as code is encouraged.</li>
+				<li>Does the CSO incorporate vulnerability scanning and developer testing as part of their change and deployment processes.</li>				
+				<li>Is the CSO willing to share their mature processes and plans (including security artifacts) as examples to inform the FedRAMP knowledge base.</li>
+				<li>Does the CSO demonstrate strong compliance with no open corrective action plans (CAPs) in the past 6 months due to issues with configuration management or incidents of failing to follow existing SCR processes.</li>
+				<li>Does the list of participants reflect a diverse representation of CSOs, including to the extent possible, small and large businesses and different cloud service deployment models (IaaS, PaaS, SaaS)?</li>
+				<li>Does the CSO demonstrate unique or innovative approaches to change or configuration management?</li>
+				<li>Are agency customers who leverage the CSO willing to participate in the pilot?</li>
 			</ul>
-			<p>Please note: for systems that use the Connect repository, FedRAMP will create an “Agile Delivery Pilot” folder in their CSP submissions folder. CSPs with their own secure repository will need to create an “Agile Delivery Pilot” folder.</p>
-			
+			<h3 id="pilot-application-process">Pilot Application Process</h3>
+			<p>To apply for the initial round, a CSO must have completed the Agile Delivery Pilot: Non-Blocking Change Request - Phase 1 Features ﻿Application Sign Up Form (applications closed) with their contact information.</p>
+			<p>Additional pilot participants may be accepted and added to the pilot on a case by case basis.  If you would like to be considered for the pilot but did not initially apply, please reach out to info@fedramp.gov for more information.</p>
+
+			<p>The CSO must also make the following available in its “Agile Delivery Pilot” folder:</p>
+			<ul>
+				<li>The security impact analysis for each change, in advance of the change</li>
+				<li>Scan artifacts such as SAST or SCA scan outputs and OS or container vulnerability scans conducted in a staging environment</li>
+				<li>If applicable, threat analysis, red team exercise results, contingency, privacy and supply chain risk analysis, and updates to control implementations</li>
+				<li>Signed approval by the system owner or designee for each change</li>
+
+			</ul>
+			<p>Please note: for systems that use the Connect repository, FedRAMP will create an “Agile Delivery Pilot” folder in their CSO submissions folder. CSOs with their own secure repository will need to create an “Agile Delivery Pilot” folder.</p>
+
+
 			<h3 id="pilot-selection-process">Pilot Selection Process</h3>
-			<p>FedRAMP will review all applications and identify CSPs for further engagement and discussion based on the following criteria:</p>
-			<ul>
-				<li>The maturity and level of automation present within their configuration management plans, and their value as knowledge base examples</li>
-				<li>Current security posture and historical challenges with change and configuration management</li>
-				<ul>
-					<li>For example, the CSP’s ability to make changes without external oversight or significant external consultation, or the CSP’s regular use of internal red or purple teaming as part of new product rollout or deployment</li>
-				</ul>	
-				<li>Diverse representation of participants, including to the extent possible, small and large businesses and different cloud service deployment models (IaaS, PaaS, SaaS)</li>
-				<li>Unique or innovative approaches to change or configuration management</li>
-			</ul>
-			
-			<p>FedRAMP will follow up with identified CSPs to discuss the requirements and their application to make a determination to include the CSPs in the pilot. FedRAMP will then engage with each included CSP’s liaison and seek AO concurrence. FedRAMP must receive AO concurrence for all CSPs involved in the pilot. FedRAMP will also notify any CSPs that were not selected within two weeks of the conclusion of the pilot application process. There will be a limited number of open spaces for the pilot.</p>			
+			<p>CSOs will be selected for the pilot based on each of the criteria described in the above section.  In particular, FedRAMP will focus on CSOs with strong compliance and automated change control processes.  Below is an example of a mature CI/CD pipeline that incorporates automation and robust testing.</p>
+			<p><b>Example of a Mature CI/CD Pipeline</b></p>
+			<table width="100%" border="1" cellpadding="10">
+				<tr>
+				  <th scope="col">Developer Environment</th>
+				  <th scope="col" colspan="3">Staging Environment</th>
+				  <th scope="col">Production Environment</th>
+				</tr>
+				<tr>
+				  <td>Continuous Planning and Development &rarr;</td>
+				  <td>Continuous Integration &rarr;</td>
+				  <td>Continuous Deployment &rarr;</td>
+				  <td>Continuous Testing &rarr;</td>
+				  <td>Continuous Monitoring &orarr;</td>
+				</tr>
+				<tr>
+				  <td>Developers write code on laptops or virtual desktops, and initiate a tracking ticket when code is ready for review. Security step - IDE plugins can use linting and formatting to correct code issues. CDK packages can check for compliance via rule packs.  A security questionnaire should be included in the ticket that determines whether the change is standard vs. significant.</td>
+				  <td>Code is pushed to a repository and kicks off a build process. Security step - Pre-commit hooks can provide immediate developer feedback. Unit tests, container registry scans, SAST/SCA scans, and secrets detection are conducted.</td>
+				  <td>Staging environment is set up or updated. Source code is compiled and artifacts are created. Security step - Container registry scans are performed. Artifact signing may occur.  Gates may be set up to prevent insecure commits from deploying, or flagging significant changes for further review.</td>
+				  <td>Change is operational in a staging environment. Security step - Regression testing, function testing, and OS, DB, web (DAST) scans are performed. Additional gates may prevent production deployment based on security thresholds and for final system owner approval.</td>
+				  <td>Change is operational in the production environment. Security step - OS, DB, and web (DAST) scans are conducted. Operational metrics provide feedback</td>
+				</tr>
+			  </table>
+
+			<p>FedRAMP will follow up with identified CSOs to discuss the requirements and their application to make a determination to include the CSOs in the pilot. FedRAMP will then engage with each included agency reviewers and seek AO concurrence. FedRAMP must receive AO concurrence for all CSOs involved in the pilot. FedRAMP will also notify any CSOs that were not selected. There will be a limited number of open spaces for the pilot.</p>			
 			
 			<h3 id="pilot-kickoff-process">Pilot Kickoff Process</h3>
-			<ul>
-				<li>FedRAMP will notify CSPs who are accepted into the pilot</li>
-				<li>FedRAMP will schedule a 30-minute kickoff meeting with each pilot participant</li>
-			</ul>
+			<p>FedRAMP will notify CSOs who applied of their acceptance status via email.  From there, FedRAMP will schedule a 30-minute kickoff meeting with each pilot participant, along with participating agency reviewers.  During this kickoff, the ground rules and expected outcomes of the pilot will be reviewed and agreed upon.  Proposed changes for the pilot will be described at a high level and stakeholder expectations will be clarified based on each CSO.  Additionally, a recurring cadence of meetings will be scheduled for check ins with FedRAMP and agency reviewers.</p>
 			
 			<h3 id="pilot-evaluation-process">Pilot Evaluation Process</h3>
+			<p>The evaluation of the pilot will include the following considerations:</p>
 			<ul>
-				<li>FedRAMP will review collected cost data and report to stakeholders the value proposition of implementing the automated SCR approval processes</li>
-				<li>FedRAMP will compare each CSP’s self-assessment results against those performed by an independent assessor and report to each CSP their successes and areas of improvement in the security impact analysis (SIA) processes</li>
-				<li>FedRAMP will examine the independent assessments to identify significant vulnerabilities, and analyze their causes and possible mitigations to prevent significant vulnerabilities from being introduced by future service or feature onboarding</li>
-				<li>FedRAMP will analyze pilot participants to identify innovative technology or processes that increased the effectiveness of CSPs’ change management programs</li>
+				<li>FedRAMP will review collected cost data and report to stakeholders the value proposition of implementing the automated SCR approval processes.</li>
+				<li>FedRAMP will compare each CSO’s security impact analysis (SIA) against those performed by an independent assessor and report to each CSO their successes and areas of improvement in the security impact analysis (SIA) processes.</li>
+				<li>FedRAMP will examine the continuous monitoring deliverables of each participating CSO to identify significant vulnerabilities, and analyze their causes and possible mitigations to prevent significant vulnerabilities from being introduced by future service or feature onboarding.</li>
+				<li>FedRAMP will analyze pilot participants to identify innovative technology or processes that increased the effectiveness of CSOs’ change management programs.</li>
 			</ul>
 
 			<h3 id="potential-next-steps">Potential Next Steps</h3>
+			<p>FedRAMP may take additional action based on lessons learned and successes achieved during the pilot.  These may include:</p>
 			<ul>
-				<li>FedRAMP will evaluate the program, including characteristics of successful change management programs, and make updates to guidance and training for CSPs</li>
-				<li>FedRAMP, based on the evaluation of the pilot, may decide to expand the pilot for general use</li>
-				<li>FedRAMP may identify other pilots for the SCR processes that would continue to identify areas of improvement and cost and resource savings</li>
+				<li>FedRAMP will evaluate the program, including characteristics of successful change management programs, and make updates to guidance and training for CSOs.</li>
+				<li>FedRAMP, based on the evaluation of the pilot, may decide to extend the pilot timeline or expand the pilot scope.</li>
+				<li>FedRAMP may identify other pilots for significant changes that would continue to identify areas of improvement and cost and resource savings.</li>
 			</ul>
 		</div>
 
 		<div id="SCR-change-process-for-CSP-participants" class="margin-top-2">
-			<h2>Pilot New Feature Change Process for CSP Participants</h2>
-			<p>CSPs participating in the Agile Delivery pilot are expected to follow the process below for each new service or feature they add as part of this pilot:</p>
+			<h2>Pilot New Feature Change Process for CSO Participants</h2>
+			<p>CSOs participating in the Agile Delivery pilot are expected to follow the process below for each new service or feature they add as part of this pilot:</p>
 			<ul>
 				<li>Pre-Deployment</li>
 				<ul>
-					<li>Document the new service or feature within the SSP, including control statements, data flow diagrams, and architectural diagrams</li>
-					<li>Document how agencies can opt-in to use the new service or feature within the SCR or as an attachment</li>
-					<li>Fill out an SCR, including the security impact analysis that identifies the impacted controls section. The SCR must be submitted to FedRAMP and the AO prior to the CSP making the change. Note that the SCR will not be reviewed for approval before changes, but will be analyzed during the assessment to ensure that the CSP identifies all the impacted controls and has properly documented all changes and performed relevant testing</li>
-					<li>Perform internal testing and validation of the new components, this will generally include vulnerability and configuration scans of all components as well as static code analysis and threat modeling for any developed software in a lower environment</li>					
+					<li>The CSP should follow their existing change control processes, however certain actions must be taken for changes introduced during the pilot.  CSPs must determine whether a change is significant and meets the pilot criteria by performing the following:</li>
+					<ul>
+						<li>First, determine whether the change is standard or significant (for example, by comparing the change to the list of example significant changes in NIST SP 800-37 and 800-128).  This step may be automated based on data submitted in a ticket for the change request.</li>
+						<li>Next, determine the type of significant change (i.e. feature/service, interconnection, etc).  Only changes related to introducing a new feature or service are in scope for this pilot.  For all other significant changes, the standard SCR process must still be followed.</li>
+						<li>Next, define the security thresholds for introducing the change (i.e. based on the FedRAMP Performance Management Guide).</li>
+						<li>Finally, conduct a Security Impact Analysis (SIA) that includes all impacted controls, and upload the SIA to the FedRAMP repository.</li>
+						<li>The SIA may use a template based on organization preference, but it must include: </li>
+						<ul>
+							<li>An overview of the new feature or service functionality</li>
+							<li>A timeline including key milestones</li>
+							<li>Impacted controls and planned control implementation, including consideration of supply chain risk, contingency and incident response planning, and privacy impact</li>
+							<li>Description of tests to be performed (including failure thresholds), including:
+								<li>SAST/SCA scans</li>
+								<li>Vulnerability scans (OS, network, DB, web, and container) targeting a staging environment</li>
+								<li>Compliance checks (hardening, configuration baseline validation)</li>
+								<li>If warranted, threat modeling and/or a penetration test may be performed</li>
+								<li>For this, FedRAMP encourages CSPs to leverage automated triage of vulnerability findings (i.e. CISA VEX for false positives, Vulnrichment for risk adjustments) where this is applicable</li>
+							<li>Planned customer responsibilities for the new feature or service.  There must be a clear path for customers to opt-in of changes if they do wish to accept the risk.</li>
+							<li>Approval by System Owner (or designee) attesting to review and approval of the change.  This may be part of an automated CI/CD gate.</li>
+						</ul>
+						<li>Once the change is approved, the CSP must ensure that all relevant documentation is also updated (i.e. diagrams, System Security Plan, Customer Responsibility Matrix, etc.)</li>
+						<li>OSCAL component-based machine readable deliverables are encouraged.</li>
+						<li>FedRAMP recommends that CSOs consider using SBOMs generated at build time as artifacts to inform the SIA.</li>
+					</ul>				
 				</ul>
 				<li>Production Deployment</li>
 				<ul>
 					<li>Implement the new service or feature within the production environment</li>
-					<li>Perform production testing and validation of the new components. This will generally include vulnerability and configuration scans of all components</li>
-					<li>Review and update any operational requirements that extend to the new service or feature, including validating that any mitigations are in place</li>
-					<li>Gather all artifacts that validate the secure implementation of the service or feature</li>
-					<li>Gather all artifacts that demonstrate the secure implementation of the service or feature. CSPs must provide evidence of:</li>
+					<li>Perform production testing and validation of the new components. This must include vulnerability and configuration scans.</li>
+					<li>Review and update any operational requirements that extend to the new service or feature, including validating that any mitigations are in place.</li>
+					<li>Gather all artifacts that validate the secure implementation of the service or feature.</li>
+					<li>Gather all artifacts that demonstrate the secure implementation of the service or feature. CSOs must provide evidence of:</li>
 					<ul>
-						<li>The secure implementation of all services or features that are onboarded and that no unmitigated critical or high vulnerabilities exist</li>									
-						<li>That appropriate scans, testing, and threat modeling was performed for the new components, including those that reflect no vulnerabilities</li>
-						<li>All identified issues are accurately captured within the POA&M</li>
+						<li>The secure implementation of all services or features that are onboarded and that no unmitigated critical or high vulnerabilities exist.</li>									
+						<li>That appropriate scans, testing, and threat modeling was performed for the new components, including those that reflect no vulnerabilities.</li>
+						<li>All identified issues are accurately captured within the POA&M.</li>
 					</ul>	
-					<li>Record all vulnerabilities identified as part of the change on their POA&M, indicating the new service or feature name and Agile Delivery pilot in the Service Name field</li>
-					<li>FedRAMP and the authorizing agency will analyze evidence and POA&M during the pilot to ensure compliance with the FedRAMP requirements and the CSP’s configuration and change management processes</li>				
+					<li>Record all vulnerabilities identified as part of the change on their POA&M, indicating the new service or feature name and Agile Delivery pilot in the Service Name field.</li>
+					<li>FedRAMP and the authorizing agency will analyze evidence and POA&M during the pilot to ensure compliance with the FedRAMP requirements and the CSO’s configuration and change management processes.</li>				
 				</ul>
 				<li>Post-Deployment</li>
 				<ul>
-					<li>Notify FedRAMP and the AO that the change has been completed and upload updated inventory, artifacts, scans, and POA&M to their documentation repository</li>
+					<li>Notify FedRAMP and the AO that the change has been completed and upload updated inventory, artifacts, scans, and POA&M to their documentation repository.</li>
 				</ul>
 			</ul>
-			<p>Throughout the pilot period, CSPs must submit their vulnerability scans, inventory, and POA&M monthly. These should be uploaded to their “Vulnerability Scans” folder in either their Connect repository or in their own secure repository. The vulnerability scans must be in a machine-readable format, and the inventory and POA&M must be in the latest format.</p>
+			<p>Throughout the pilot period, CSOs must submit their vulnerability scans, inventory, and POA&M monthly. These should be uploaded to their “Vulnerability Scans” folder in either their Connect repository or in their own secure repository. The vulnerability scans must be in a machine-readable format, and the inventory and POA&M must be in the latest format.</p>
 
-			<p>CSPs must finalize all changes made under the pilot by December 31, 2024.</p>
+			<p>CSOs must finalize all changes made under the pilot by December 31, 2024.</p>
 
-			<p>Each CSP must have a third party assessment organization (3PAO) perform testing of all services and features that were deployed as part of the pilot. This may be part of an annual assessment that happens to occur at the appropriate time, or it may be one or more separate specific assessments (preferably one). Each CSP may also perform its own testing during the pilot period but should not submit any reports before the end of the pilot period. The CSP or 3PAO must submit all assessment reports, including SAP and SAR, and all artifacts by the end of the pilot closeout period. Any findings found internally by the CSP or the 3PAO must be included and tracked in the POA&M and must be remediated in accordance with the <a href="https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Performance_Management_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP ConMon Performance Management Guide</a> remediation timelines.</p>
+			<p>Each CSO must have a third party assessment organization (3PAO) perform testing of all services and features that were deployed as part of the pilot. This may be part of an annual assessment that happens to occur at the appropriate time, or it may be one or more separate specific assessments (preferably one). Each CSO may also perform its own testing during the pilot period. The CSO or 3PAO must submit all assessment reports, including SAP and SAR, and all artifacts by the end of the pilot closeout period. Any findings found internally by the CSO or the 3PAO must be included and tracked in the POA&M and must be remediated in accordance with the <a href="https://www.fedramp.gov/assets/resources/documents/CSO_Continuous_Monitoring_Performance_Management_Guide.pdf" target="_blank" rel="noopener noreferrer">FedRAMP ConMon Performance Management Guide</a> remediation timelines.</p>
 			
-			<p>Failure to follow the process outlined above may result in being removed from the pilot. If there are issues with the process, FedRAMP will be available to assist the CSP in clarifying requirements and expected outcomes. It is important that the participants engage with FedRAMP to ensure that the pilot identifies the successful elements as well as any opportunities to improve the process. The goal is to identify requirements and best practices that allow CSPs to use their configuration and change management processes to make changes without intervention or approval from the AO, and to consolidate testing into annual assessments to reduce time and cost of doing individual assessments for each change.</p>			
+			<p>Failure to follow the process outlined above may result in being removed from the pilot. If there are issues with the process, FedRAMP will be available to assist the CSO in clarifying requirements and expected outcomes. It is important that the participants engage with FedRAMP to ensure that the pilot identifies the successful elements as well as any opportunities to improve the process. The goal is to identify requirements and best practices that allow CSOs to use their configuration and change management processes to make changes without intervention or approval from the AO, and to consolidate testing into annual assessments to reduce time and cost of doing individual assessments for each change.</p>			
 
-			<p>CSPs participating in the pilot should collect data throughout the pilot on cost savings or financial impacts of utilizing the pilot processes for new services and features. This data should include the following:</p>
+			<p>CSOs participating in the pilot should collect data throughout the pilot on cost savings or financial impacts of utilizing the pilot processes for new services and features. This data should include the following:</p>
 			<ul>
 				<li>Projected cost-savings per change in independent assessment costs</li>
 				<li>Projected time savings</li>
@@ -215,24 +288,27 @@ layout: full-width
 		</div>
 
 		<div id="expectations-for-others-involved-in-the-SCR-pilot">
-			<h2>Expectations for Others Involved in the Agile Delivery Pilot</h2>
+			<h2>Expectations for Other Stakeholders Involved in the Agile Delivery Pilot</h2>
 			<h3 id="PMO-SCR-pilot-expectations">FedRAMP Agile Delivery Pilot Expectations</h3>
+			<p>For each CSO participating in the pilot, FedRAMP will:</p>
 			<ul>
 				<li>Review and analyze the reported changes</li>
-				<li>Determine if the scope in the SIA produced by the CSP captures all areas that would be in an SCR</li>
+				<li>Determine if the scope in the SIA produced by the CSO captures all areas that would be in an SCR</li>
 				<li>Review scans for evidence of reported changes to identified patterns that might enable automated validation</li>
-				<li>Review 3PAO testing to identify gaps between the validation done by the CSP and what the 3PAO identified</li>
+				<li>Review 3PAO testing to identify gaps between the validation done by the CSO and what the 3PAO identified</li>
 				<li>Identify characteristics of successful configuration and change management policy and procedures to enable wider implementation in the FedRAMP portfolio</li>
-				<li>Coordinate with CSPs to ensure that they have access to all appropriate repositories, including any high repositories</li>
+				<li>Coordinate with CSOs to ensure that they have access to all appropriate repositories, including any high repositories</li>
 			</ul>
 			<h3 id="3PAO-pilot-expectations">3PAO Pilot Expectations</h3>
+			<p>During the next annual assessment after the conclusion of the pilot, 3PAOs must:</p>
 			<ul>
-				<li>Review CSP SCR forms and SIA for significant gaps</li>
+				<li>Review CSO SCR forms and SIA for significant gaps</li>
 				<li>Identify any significant findings that were missed during the Agile Delivery pilot Significant findings include gaps in MFA, Encryption, Inventory, Scans and Scan coverage, as well as any failures to identify Critical or High findings</li>
 			</ul>
 			<h3 id="agency-AO-SCR-pilot-expectations">Agency AO/Agile Delivery Pilot Expectations</h3>
+			<p>Agencies who are performing continuous monitoring oversight for CSOs participating in the pilot must:</p>
 			<ul>
-				<li>Continue to monitor ConMon for the CSP in the pilot program and manage all performance related issues</li>
+				<li>Continue to monitor ConMon for the CSO in the pilot program and manage all performance related issues</li>
 				<li>Review uploaded SCR and artifacts, and raise any concerns or negative impacts on the security posture of the system</li>
 				<li>If applicable to the agency, opt-in and leverage services or features onboarded in this pilot</li>
 			</ul>
