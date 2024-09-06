@@ -147,8 +147,8 @@ layout: full-width
 			<p>A CSO must meet the following prerequisites before applying to participate in the pilot:</p>
 			<ul>
 				<li>Does the CSO have one or more new services or features they plan to deploy during the pilot period that will allow for an opt-in capability for agencies?</li>
-				<li>Does the CSO have mature, automated, and well-documented configuration and change management plans</li>
-				<li>Does the CSO have mature configuration and change management procedures that implement automated mechanisms for deploying services and features and verifying their secure implementation.</li>
+				<li>Does the CSO have mature, automated, and well-documented configuration and change management plans.  CSO implementation of NIST Special Publication (SP) 800-218, <i>Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities</i> and/or similar secure software development frameworks is encouraged</li>
+				<li>Does the CSO have mature configuration and change management procedures that implement automated mechanisms for deploying services and features and verifying their secure implementation. CSO use of non-manual configuration implementations such as infrastructure as code is encouraged.</li>
 				<li>Does the CSO incorporate vulnerability scanning and developer testing as part of their change and deployment processes.</li>				
 				<li>Is the CSO willing to share their mature processes and plans (including security artifacts) as examples to inform the FedRAMP knowledge base.</li>
 				<li>Does the CSO demonstrate strong compliance with no open corrective action plans (CAPs) in the past 6 months due to issues with configuration management or incidents of failing to follow existing SCR processes.</li>
@@ -189,8 +189,8 @@ layout: full-width
 				</tr>
 				<tr>
 				  <td>Developers write code on laptops or virtual desktops, and initiate a tracking ticket when code is ready for review. Security step - IDE plugins can use linting and formatting to correct code issues. CDK packages can check for compliance via rule packs.  A security questionnaire should be included in the ticket that determines whether the change is standard vs. significant.</td>
-				  <td>Code is pushed to a repository and kicks off a build process. Security step - Pre-commit hooks can provide immediate developer feedback. Unit tests, container registry scans, SAST & SCA scans are conducted.</td>
-				  <td>Staging environment is set up or updated. Source code is compiled and artifacts are created. Security step - Container registry scans are performed. Gates may be set up to prevent insecure commits from deploying, or flagging significant changes for further review.</td>
+				  <td>Code is pushed to a repository and kicks off a build process. Security step - Pre-commit hooks can provide immediate developer feedback. Unit tests, container registry scans, SAST/SCA scans, and secrets detection are conducted.</td>
+				  <td>Staging environment is set up or updated. Source code is compiled and artifacts are created. Security step - Container registry scans are performed. Artifact signing may occur.  Gates may be set up to prevent insecure commits from deploying, or flagging significant changes for further review.</td>
 				  <td>Change is operational in a staging environment. Security step - Regression testing, function testing, and OS, DB, web (DAST) scans are performed. Additional gates may prevent production deployment based on security thresholds and for final system owner approval.</td>
 				  <td>Change is operational in the production environment. Security step - OS, DB, and web (DAST) scans are conducted. Operational metrics provide feedback</td>
 				</tr>
