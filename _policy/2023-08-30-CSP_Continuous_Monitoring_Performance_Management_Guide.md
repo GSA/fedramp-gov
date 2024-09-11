@@ -17,4 +17,4 @@ tags:
   - Vulnerability Management
 
 ---
-This document replaces the P-ATO Management and Revocation Guide and explains the actions FedRAMP will take when a CSP fails to maintain an adequate risk management program. It lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP will take when a CSP fails to meet the requirements of the P-ATO. It also specifically addresses FedRAMP P-ATOs maintained by the JAB and enables FedRAMP to provide effective oversight of the CSP Continuous Monitoring programs.
+This document explains the actions FedRAMP or Agency Authorizing Officials (AOs) may take when a CSP fails to maintain an adequate risk management program for is FedRAMP-authorized cloud service offering. It lays out the escalation processes and procedures as well as minimum mandatory escalation actions FedRAMP or Agency AOs will take when a CSP fails to meet the requirements of the authorization.
