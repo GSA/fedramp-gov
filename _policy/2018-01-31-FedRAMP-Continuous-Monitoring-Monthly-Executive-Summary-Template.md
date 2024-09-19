@@ -14,4 +14,4 @@ tags:
   - Continuous Monitoring
 
 ---
-This form provides the JAB reviewers and PMO with an executive summary of the monthly continuous monitoring submission from a CSP. It should detail all files that should be reviewed with that submission. It should be filled out and submitted with every monthly continuous monitoring submission by the CSP or their 3PAO.
+This form provides FedRAMP and Agency Authorizing Officials (AOs) with an executive summary of the monthly continuous monitoring submission from a CSP. It includes references to all files that should be reviewed with that submission. The ConMon Executive Summary is updated and submitted with every monthly continuous monitoring submission by the CSP.
