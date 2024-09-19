@@ -87,12 +87,6 @@ assigned:
             show_in_menu: true
             show_in_footer: false
 
-        -
-            text: FAQs
-            href: pages/faqs.md
-            permalink: /faqs/
-            show_in_menu: true
-            show_in_footer: false 
         - 
             text: Baselines
             href: pages/baselines.md
@@ -113,12 +107,7 @@ assigned:
             permalink: /et-framework/
             show_in_menu: true
             show_in_footer: false    
-        - 
-            text: DMARC
-            href: pages/dmarc.md
-            permalink: /dmarc/
-            show_in_menu: true
-            show_in_footer: false 
+            
         - 
             text: Cryptographic Module
             href: cryptographic-module.md
