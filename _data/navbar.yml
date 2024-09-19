@@ -81,6 +81,12 @@ assigned:
             show_in_menu: true
             show_in_footer: false
         - 
+            text: Help Center
+            is_external: https://marketplace.fedramp.gov
+            permalink: /help-center/
+            show_in_menu: true
+            show_in_footer: false            
+        - 
             text: Training
             href: pages/training.md
             permalink: /training/
