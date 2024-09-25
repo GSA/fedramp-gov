@@ -2,7 +2,7 @@
 layout: teammate
 name: Samuel Aydlette
 image: /assets/img/team/profile_SamuelAydlette.jpg
-title: Vulnerability Management and Continuous Monitoring Lead
+title: Program Manager for Vulnerability Management and Continuous Monitoring
 body-class: page-team-single
 date: 2024-08-09
 order: 900
