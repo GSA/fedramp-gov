@@ -2,7 +2,7 @@
 layout: teammate
 name: Pete Waterman
 image: /assets/img/team/profile_PeteWaterman.jpg
-title: Director
+title: FedRAMP Director
 body-class: page-team-single
 date: 2024-08-27
 order: 100
