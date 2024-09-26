@@ -10,7 +10,7 @@ layout: blog-page
 
 We have selected six Cloud Service Offerings (CSOs) for initial participation in our <a href="https://www.fedramp.gov/2024-07-10-launch-of-the-fedramp-pilot-program/" target="_blank" rel="noopener noreferrer">agile delivery pilot</a>. The pilot will rapidly accelerate the secure delivery of innovative features and services to customers by assessing risks against pre-assessed, objective security criteria in automated continuous integration and continuous delivery/deployment (CI/CD) pipelines.
 
-We plan on expanding the pilot to include additional CSOs over time. CSOs who did not apply initially but are interested in participating are encouraged to reach out to <a href="info@fedramp.gov" target="_blank" rel="noopener noreferrer">info@fedramp.gov</a> for more information.
+We plan on expanding the pilot to include additional CSOs over time. CSOs who did not apply initially but are interested in participating are encouraged to reach out to <a href="mailto:info@fedramp.gov">info@fedramp.gov</a> for more information.
 
 <h4>What stakeholder groups need to know</h4>
 
