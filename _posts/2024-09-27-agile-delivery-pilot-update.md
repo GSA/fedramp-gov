@@ -1,8 +1,8 @@
 ---
 title: FedRAMP Agile Delivery Pilot Update
-permalink: /2024-09-26-agile-delivery-pilot-update/
+permalink: /2024-09-27-agile-delivery-pilot-update/
 body-class: page-blog
-image: /assets/img/blog-images/2024-09-26-agile-delivery-pilot-update.png
+image: /assets/img/blog-images/2024-09-27-agile-delivery-pilot-update.png
 author: FedRAMP
 layout: blog-page
 ---
