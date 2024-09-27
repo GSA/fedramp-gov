@@ -2,7 +2,7 @@
 layout: teammate
 name: Ryan Hoesing
 image: /assets/img/team/profile_RyanHoesing.jpg
-title: Customer Success Manager
+title:  Program Manager for Business Operations
 body-class: page-team-single
 date: 2018-01-04
 order: 300
