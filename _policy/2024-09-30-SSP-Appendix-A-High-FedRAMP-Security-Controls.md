@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-A-High-FedRAMP-Security-Controls.docx
 filetype: word
-fileinfo: word -  583KB
+fileinfo: word -  578KB
 condition: new
 partner: All Partners
 doctype:
