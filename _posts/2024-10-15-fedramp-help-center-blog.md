@@ -1,6 +1,6 @@
 ---
 title: FedRAMP Help Center
-permalink: /2024-10-01-fedramp-help-center/
+permalink: /2024-10-15-fedramp-help-center/
 body-class: page-blog
 image: /assets/img/blog-images/2024-10-01-fedramp-help-center.png
 author: FedRAMP
@@ -8,7 +8,7 @@ layout: blog-page
 ---
 <h4>The FedRAMP Help Center</h4>
 
-Navigating the complex landscape of cloud security and FedRAMP requirements can be challenging for agencies, cloud service providers (CSPs), third party assessment organizations (3PAOs), acquisition professionals, and other stakeholders. To address this need for additional support, we are launching the new FedRAMP Help Center.
+Navigating the complex landscape of cloud security and FedRAMP requirements can be challenging for agencies, cloud service providers (CSPs), third party assessment organizations (3PAOs), acquisition professionals, and other stakeholders. To address this need for additional support, we are launching the <a href="https://help.fedramp.gov/hc/en-us" target="_blank" rel="noopener noreferrer">new FedRAMP Help Center</a>.
 
 The FedRAMP Help Center serves as a centralized repository of information, tools, and resources designed to improve the understanding of FedRAMP for acquisition professionals, cloud service providers, 3PAOs, and agencies. The goal is to provide these stakeholders  with the knowledge they need to understand their role in the FedRAMP ecosystem and effectively address their questions.
 
