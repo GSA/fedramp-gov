@@ -6,7 +6,6 @@ image: /assets/img/blog-images/2024-10-01-fedramp-help-center.png
 author: FedRAMP
 layout: blog-page
 ---
-<h4>The FedRAMP Help Center</h4>
 
 Navigating the complex landscape of cloud security and FedRAMP requirements can be challenging for agencies, cloud service providers (CSPs), third party assessment organizations (3PAOs), acquisition professionals, and other stakeholders. To address this need for additional support, we are launching the <a href="https://help.fedramp.gov/hc/en-us" target="_blank" rel="noopener noreferrer">new FedRAMP Help Center</a>.
 
