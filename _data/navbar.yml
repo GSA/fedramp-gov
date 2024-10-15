@@ -82,7 +82,7 @@ assigned:
             show_in_footer: false
         - 
             text: Help Center
-            is_external: https://marketplace.fedramp.gov
+            is_external: https://help.fedramp.gov/hc/en-us
             show_in_menu: true
             show_in_footer: false            
         - 
