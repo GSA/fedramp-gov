@@ -12,7 +12,7 @@ Navigating the complex landscape of cloud security and FedRAMP requirements can 
 
 The FedRAMP Help Center serves as a centralized repository of information, tools, and resources designed to improve the understanding of FedRAMP for acquisition professionals, cloud service providers, 3PAOs, and agencies. The goal is to provide these stakeholders  with the knowledge they need to understand their role in the FedRAMP ecosystem and effectively address their questions.
 
-<h4>What’s available in the FedRAMP Help Center</h4>
+<h3>What’s available in the FedRAMP Help Center</h3>
 
 We’re offering several valuable resources within the Help Center:
 
@@ -24,7 +24,7 @@ We’re offering several valuable resources within the Help Center:
 
 4. **Definitions and Acronyms:** The Help Center includes a curated glossary of FedRAMP-specific  terms and acronyms, helping to demystify the language of the program.
 
-**What stakeholder groups need to know**
+<h4>What stakeholder groups need to know</h4>
 
 **Federal Agencies** can use the Help Center to gain deeper insights into how FedRAMP impacts your procurement processes, and how implementation teams can make secure choices when deploying cloud services.
 
@@ -34,7 +34,7 @@ We’re offering several valuable resources within the Help Center:
 
 **Acquisition Professionals** can learn how to integrate FedRAMP standards into your RFPs, source selection, and contract management to safeguard your agency’s data.
 
-**Looking ahead**
+<h4>Looking ahead</h4>
 
 We’re just getting started! Your feedback is vital as we expand the Help Center with more information and resources. If you have suggestions for articles or would like to see additional material, please write to us at <a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
 
