@@ -12,7 +12,7 @@ Navigating the complex landscape of cloud security and FedRAMP requirements can 
 
 The FedRAMP Help Center serves as a centralized repository of information, tools, and resources designed to improve the understanding of FedRAMP for acquisition professionals, cloud service providers, 3PAOs, and agencies. The goal is to provide these stakeholders  with the knowledge they need to understand their role in the FedRAMP ecosystem and effectively address their questions.
 
-<h3>What’s available in the FedRAMP Help Center</h3>
+<h4>What’s available in the FedRAMP Help Center</h4>
 
 We’re offering several valuable resources within the Help Center:
 
