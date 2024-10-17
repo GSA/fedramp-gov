@@ -6,7 +6,7 @@ weblink:
 filename: documents/3PAO_Readiness_Assessment_Report_Guide.pdf
 filetype: pdf
 fileinfo: PDF - 410KB
-condition: new
+condition: update
 partner: Assessors
 doctype:
   - Document
