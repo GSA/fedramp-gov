@@ -20,4 +20,4 @@ We plan on expanding the pilot to include additional CSOs over time. CSOs who di
 
 **Third-Party Assessment Organizations (3PAOs)** will feel empowered during assessments with a shift toward **objective, data-driven, and evidence based** assessment criteria. FedRAMP expectations will be around assessing automated processes that enforce pre-defined security thresholds to validate secure changes.
 
-For more information on the agile delivery pilot, please visit the updated <a href="https://www.fedramp.gov/agile-delivery-pilot-non-blocking-change-request-phase1/" target="_blank" rel="noopener noreferrer">pilot web page</a>
+For more information on the agile delivery pilot, please visit the updated <a href="https://www.fedramp.gov/agile/" target="_blank" rel="noopener noreferrer">pilot web page</a>

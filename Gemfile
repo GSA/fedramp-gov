@@ -10,4 +10,4 @@ gem 'jekyll-theme-time-machine'
 gem 'jekyll-feed'
 
 # Added at 2022-08-09 09:40:58 -0400 by michaelfrising:
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
