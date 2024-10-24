@@ -69,6 +69,12 @@ assigned:
             permalink: /agency-authorization/
             show_in_menu: true
             show_in_footer: false 
+     - 
+            text: JAB Transition
+            href: jab-transition.md
+            permalink: /jab-transition/
+            show_in_menu: true
+            show_in_footer: false 
     -
         text: Resources
         show_in_menu: true
