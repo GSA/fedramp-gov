@@ -50,20 +50,7 @@ assigned:
             href: updates/pilots.md
             permalink: /updates/pilots/
             show_in_menu: true
-            show_in_footer: false
-            sub:
-            -         
-                text: Agile Delivery
-                href: updates/pilots/agile-delivery.md
-                permalink: /updates/pilots/agile-delivery
-                show_in_menu: true
-                show_in_footer: false
-            -         
-                text: Digital Authorization Package
-                href: updates/pilots/digital-authorization-package.md
-                permalink: /updates/pilots/digital-authorization-package
-                show_in_menu: true
-                show_in_footer: false                         
+            show_in_footer: false                   
     -
         text: Partners
         show_in_menu: true
