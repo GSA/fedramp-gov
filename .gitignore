@@ -3,4 +3,4 @@
 # Jekyll stuff
 _site/
 .sass-cache
-.jekyll-cache
+.jekyll-cache/
