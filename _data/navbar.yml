@@ -38,19 +38,26 @@ assigned:
             href: updates/policy-and-guidance.md
             permalink: /updates/policy-and-guidance/
             show_in_menu: true
-            show_in_footer: false     
+            show_in_footer: false   
+        -         
+            text: FedRAMP Pilots
+            href: updates/pilots.md
+            permalink: /updates/pilots/
+            show_in_menu: true
+            show_in_footer: false                 
         - 
             text: ET Framework
             href: updates/et-framework.md
             permalink: /updates/et-framework/
             show_in_menu: true
             show_in_footer: false    
-        -         
-            text: FedRAMP Pilots
-            href: updates/pilots.md
-            permalink: /updates/pilots/
+        - 
+            text: The FedRAMP Platform
+            href: updates/platform.md
+            permalink: /updates/platform/
             show_in_menu: true
-            show_in_footer: false                   
+            show_in_footer: false               
+                
     -
         text: Partners
         show_in_menu: true

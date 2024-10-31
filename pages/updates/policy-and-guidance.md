@@ -20,7 +20,7 @@ This page shows the current status of policies and guidance that have been prior
       <td>Estimated Completion</td>
     </tr>
     <tr valign=top>
-      <td><a href="/updates/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
+      <td><a href="/updates/docs/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
       <td>This guidance will clarify the use of FIPS-140 cryptographic modules within a system boundary.</td>
       <td><li>2024-xx-xx Draft Published</li><li> 2024-xx-xx Public Comment Closed</li><li> **2024-xx-xx In government review**</li></td>
       <td><li>Government consensus</li><li>Board approval</li><li>Publish final guidance</li></td>
