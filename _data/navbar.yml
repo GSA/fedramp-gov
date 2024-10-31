@@ -1,10 +1,8 @@
 assigned:
     -
-        text: About Us
-        href: 
-        permalink: /
+        text: Get Authorized
         show_in_menu: true
-        show_in_footer: false  
+        show_in_footer: false
         sub:
         - 
             text: Program Basics
@@ -13,21 +11,61 @@ assigned:
             show_in_menu: true
             show_in_footer: false
         - 
-            text: Meet the Team
-            href: pages/team.md
-            permalink: /team/
+            text: Agency Authorization
+            href: agency-authorization.md
+            permalink: /agency-authorization/
+            show_in_menu: true
+            show_in_footer: false 
+    -
+        text: Updates
+        show_in_menu: true
+        show_in_footer: false
+        sub:
+        -
+            text: Blog
+            href: pages/blog.md
+            permalink: /blog/
             show_in_menu: true
             show_in_footer: false
         - 
-            text: Governance
-            href: pages/governance.md
-            permalink: /governance/
+            text: Changelog
+            href: updates/changelog.md
+            permalink: /updates/changelog/
             show_in_menu: true
-            show_in_footer: false  
+            show_in_footer: false                               
+        - 
+            text: Policy & Guidance Changes
+            href: updates/policy-and-guidance.md
+            permalink: /updates/policy-and-guidance/
+            show_in_menu: true
+            show_in_footer: false     
+        - 
+            text: ET Framework
+            href: updates/et-framework.md
+            permalink: /updates/et-framework/
+            show_in_menu: true
+            show_in_footer: false    
+        -         
+            text: FedRAMP Pilots
+            href: updates/pilots.md
+            permalink: /updates/pilots/
+            show_in_menu: true
+            show_in_footer: false
+            sub:
+            -         
+                text: Agile Delivery
+                href: updates/pilots/agile-delivery.md
+                permalink: /updates/pilots/agile-delivery
+                show_in_menu: true
+                show_in_footer: false
+            -         
+                text: Digital Authorization Package
+                href: updates/pilots/digital-authorization-package.md
+                permalink: /updates/pilots/digital-authorization-package
+                show_in_menu: true
+                show_in_footer: false                         
     -
         text: Partners
-        href: 
-        permalink: /
         show_in_menu: true
         show_in_footer: false
         sub:
@@ -49,24 +87,10 @@ assigned:
             permalink: /assessors/
             show_in_menu: true
             show_in_footer: false
-
         - 
-            text: FedRAMP Pilots
-            href: fedramp-pilots.md
-            permalink: /fedramp-pilots/
-            show_in_menu: true
-            show_in_footer: false
-    -
-        text: Get Authorized
-        href: 
-        permalink: /
-        show_in_menu: true
-        show_in_footer: false
-        sub:
-        - 
-            text: Agency Authorization
-            href: agecny-authorization.md
-            permalink: /agency-authorization/
+            text: Governance
+            href: pages/governance.md
+            permalink: /governance/
             show_in_menu: true
             show_in_footer: false 
     -
@@ -105,28 +129,13 @@ assigned:
             permalink: /rev5-transition/
             show_in_menu: true
             show_in_footer: false
-
         - 
-            text: ET Framework
-            href: pages/et-framework.md
-            permalink: /et-framework/
+            text: Meet the Team
+            href: pages/team.md
+            permalink: /team/
             show_in_menu: true
-            show_in_footer: false    
-            
-        - 
-            text: Cryptographic Module
-            href: cryptographic-module.md
-            permalink: /cryptographic-module/
-            show_in_menu: true
-            show_in_footer: false            
+            show_in_footer: false                              
 
-    -
-        text: Blog
-        href: pages/blog.md
-        permalink: /blog/
-        show_in_menu: true
-        show_in_footer: false
-        
     -
         text: Marketplace
         is_external: https://marketplace.fedramp.gov
