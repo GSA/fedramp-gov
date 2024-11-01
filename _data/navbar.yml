@@ -1,5 +1,5 @@
 assigned:
-  - text: Updates
+  - text: Updates & Priorities
     show_in_menu: true
     show_in_footer: false
     sub:
@@ -117,7 +117,7 @@ assigned:
     show_in_menu: true
     show_in_footer: false
 
-  - text: Developer Hub
+  - text: Dev Hub
     is_external: https://automate.fedramp.gov
     show_in_menu: true
     show_in_footer: false
