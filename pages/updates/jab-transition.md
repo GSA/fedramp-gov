@@ -2,7 +2,7 @@
 layout: base-markdown
 title: JAB Transition
 tab-title: JAB Transition
-permalink: /updates/jab
+permalink: /updates/jab/
 summary: 
 ---
 
