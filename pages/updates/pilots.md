@@ -4,8 +4,8 @@ title: FedRAMP Pilot Program
 tab-title: FedRAMP Pilot Program
 permalink: /updates/pilots/
 redirect_from:
-    /fedramp-pilots
-    /pilots
+    /fedramp-pilots/
+    /pilots/
 summary: 
 tags: 
 
