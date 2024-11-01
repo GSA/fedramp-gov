@@ -1,18 +1,4 @@
 assigned:
-  - text: Get Authorized
-    show_in_menu: true
-    show_in_footer: false
-    sub:
-      - text: Program Basics
-        href: pages/program-basics.md
-        permalink: /program-basics/
-        show_in_menu: true
-        show_in_footer: false
-      - text: Agency Authorization
-        href: agency-authorization.md
-        permalink: /agency-authorization/
-        show_in_menu: true
-        show_in_footer: false
   - text: Updates
     show_in_menu: true
     show_in_footer: false
@@ -50,6 +36,20 @@ assigned:
       - text: The FedRAMP Platform
         href: updates/platform.md
         permalink: /updates/platform/
+        show_in_menu: true
+        show_in_footer: false
+  - text: Get Authorized
+    show_in_menu: true
+    show_in_footer: false
+    sub:
+      - text: Program Basics
+        href: pages/program-basics.md
+        permalink: /program-basics/
+        show_in_menu: true
+        show_in_footer: false
+      - text: Agency Authorization
+        href: agency-authorization.md
+        permalink: /agency-authorization/
         show_in_menu: true
         show_in_footer: false
   - text: Partners
