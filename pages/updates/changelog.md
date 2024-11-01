@@ -66,6 +66,8 @@ summary:
   Program Management Office.
   - Related blog post:
     "[Welcoming a New Leader for a New FedRAMP](2024-08-27-welcoming-a-new-leader-for-a-new-fedramp/)"
+- 2024-08-12: JAB transition update and shift of all cloud services to FedRAMP Authorized reguardless of agency or JAB pathway
+  - Related blog post: "[Moving to One FedRAMP Authorization: An Update on the JAB Transition](/2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/)
 - 2024-08-09: Released a draft guidance update for
   [implementing FIPS-140 cryptographic modules](/updates/docs/cryptographic-module)
   for public comment.
