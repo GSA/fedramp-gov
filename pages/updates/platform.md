@@ -35,9 +35,9 @@ FedRAMP is actively working with our stakeholders, using a human-centered design
 # Timeline and Milestones
 
 - July 2024 - **Complete** - FedRAMP awarded the task order for the Platform.
-- FY24 Q4 - FY25 Q1 - **In Progress** - FedRAMP began ongoing human-centered design sessions.
+- FY24 Q4 thru FY25 Q1 - **In Progress** - FedRAMP began ongoing human-centered design sessions.
 - FY25 Q2 - **Next** - FedRAMP will conduct a pilot of the continuous monitoring processes via the Platform with synthetic data.
 - FY25 Q4 - **Later** - FedRAMP will obtain a GSA Authority to Operate (ATO) and develops APIs with select agencies.
-- FY25 Q4 - FY26 - **Later** -  FedRAMP will provide live and on-demand training and start deploying the Platform.
+- FY25 Q4 thru  FY26 - **Later** -  FedRAMP will provide live and on-demand training and start deploying the Platform.
 
 >>>>>>> c91af7bc (Add status, description, and timeline for #853)
