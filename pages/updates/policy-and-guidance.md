@@ -9,24 +9,73 @@ summary:
 This page shows the current status of policies and guidance that have been prioritized for improvement.
 
 
-<!-- yes this is lame but it's easier to read than table formatting in markdown -->
-<html>
-  <table>
-    <tr valign=bottom>
-      <td>Guidance or Policy</td>
-      <td>Goal</td>
-      <td>Actions Taken</td>
-      <td>Actions Remaining</td>
-      <td>Estimated Completion</td>
-    </tr>
-    <tr valign=top>
-      <td><a href="/updates/docs/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
-      <td>This guidance will clarify the use of FIPS-140 cryptographic modules within a system boundary.</td>
-      <td><li>2024-xx-xx Draft Published</li><li> 2024-xx-xx Public Comment Closed</li><li> **2024-xx-xx In government review**</li></td>
-      <td><li>Government consensus</li><li>Board approval</li><li>Publish final guidance</li></td>
-      <td>End of FY25 Q2</td>
-    </tr>
-  </table>
-</html>
+FedRAMP is fostering transparency for its policy and guidance development efforts. This page reflects the current status of policy and guidance that has been released recently or is expected to be released soon. Public feedback is welcome anytime at info@fedramp.gov.
 
+## Completed
+
+- [3PAO Readiness Assessment Report Guide, Version 3.2](https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf) - Posted Oct. 17, 2024
+
+## Proposed
+
+<!-- yes this is lame but it's easier to read than table formatting in markdown -->
+<table>
+  <tr valign=bottom>
+    <td>Guidance or Policy</td>
+    <td>Goal</td>
+    <td>Actions Taken</td>
+    <td>Actions Remaining</td>
+    <td>Estimated Completion</td>
+  </tr>
+  <tr valign=top>
+    <td><a href="/updates/docs/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
+    <td>This guidance will clarify requirements for use of cryptographic modules within a system boundary.</td>
+    <td>
+      <li>2024-08-09 <a href="/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/">Draft Published</a></li>
+      <li>2024-09-09 <a href="">Public Comment</a> Closed</li>
+      <li><em>Revising document</em></li>
+    </td>
+    <td>
+      <li>Government consensus</li>
+      <li>Board approval</li>
+      <li>Publish final guidance</li>
+    </td>
+    <td>End of FY25 Q2</td>
+  </tr>
+  <tr valign=top>
+    <td><a href="https://publish.smartsheetgov.com/d242efc37a9d49b099de97e82913454e">FedRAMP Metrics</a></td>
+    <td>Propose a set of metrics that will measure the FedRAMP authorization experience and measure the program's security impact.</td>
+    <td>
+      <li>2024-07-30 <a href="/2024-07-30-fedramps-metrics-for-public-comment/">Draft Published</a></li>
+      <li>2024-09-05 <a href="https://app.smartsheetgov.com/b/publish?EQBCT=2d86a23838f2450b97ee4d38424418e3">Public Comment</a> Closed</li>
+      <li><em>Revising document</em></li>
+    </td>
+    <td>
+      <li>Government consensus</li>
+      <li>Board approval</li>
+      <li>Publish final guidance</li>
+    </td>
+    <td>End of FY25 Q3</td>
+  </tr>
+  <tr valign=top>
+    <td><a href="/assets/resources/documents/CSP_Penetration_Test_Guidance_public_comment.pdf">FedRAMP Penetration Test Guidance</a></td>
+    <td>Provide guidelines for conducting a penetration test to identify weaknesses in a FedRAMP cloud service.</td>
+    <td>
+      <li>2024-03-04 <a href="/2024-03-04-penetration-test-guidance-public-comment-period/">Draft Published</a></li>
+      <li>2024-04-24 <a href="https://app.smartsheetgov.com/b/publish?EQBCT=a6d4817ee88a49dd97d1c21e3d5aeafa">Public Comment</a> Closed</li>
+      <li><em>Revising document</em></li>
+    </td>
+    <td>
+      <li>Government consensus</li>
+      <li>Board approval</li>
+      <li>Publish final guidance</li>
+    </td>
+    <td>End of FY25 Q3</td>
+  </tr>
+</table>
+
+## In development
+
+- Authorization boundary guidance update - FedRAMP is working to updatebriefly explain purpose of update?
+- Program authorization (is that this, and if so, what policies/guidance are being developed? Establishing new paths to authorization: FedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide.)
+- 3PAO a2la training requirements
 
