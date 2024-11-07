@@ -1,8 +1,0 @@
-I"�<p>NIST control SC-7 for Boundary Protection relies in large part on subnetworks (subnets), specifically subnet segmentation around “publicly accessible” components. This white paper, entitled  <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_subnets_white_paper.pdf" target="_blank" rel="noopener noreferrer">“Subnets White Paper”</a>, provides guidance on how NIST control SC-7 will be evaluated in documentation submitted for a FedRAMP authorization. Cloud Service Providers and Third Party Assessment Organizations can reference this white paper when developing documentation and for information on following topics:</p>
-
-<ol>
-  <li>What are subnets and how should they be segmented,</li>
-  <li>What constitutes “publicly accessible”, and</li>
-  <li>FedRAMPs upcoming process to develop future guidance when applying this control to software defined networks.</li>
-</ol>
-:ET
