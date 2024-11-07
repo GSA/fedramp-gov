@@ -6,4 +6,4 @@ permalink: /updates/jab/
 summary: 
 ---
 
-Updates on the JAB transition
+This content is still going through review and approval for release.

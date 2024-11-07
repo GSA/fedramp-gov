@@ -3,28 +3,33 @@ layout: base-markdown
 title: Policy and Guidance Updates
 tab-title: Policy and Guidance Updates
 permalink: /updates/policy-and-guidance/
-summary: 
+summary:
 ---
 
-This page shows the current status of policies and guidance that have been prioritized for improvement.
+_**2024-11-07 Please Note:** This page needs a look-and-feel update that may
+take some time, but FedRAMP is making the information available in a rudimentary
+form now rather than waiting. Thank you for your patience with the formatting._
 
+FedRAMP is fostering transparency for its policy and guidance development
+efforts. This page reflects the current status of policy and guidance that has
+been released recently or is expected to be released soon. Public feedback is
+welcome anytime at info@fedramp.gov.
 
-FedRAMP is fostering transparency for its policy and guidance development efforts. This page reflects the current status of policy and guidance that has been released recently or is expected to be released soon. Public feedback is welcome anytime at info@fedramp.gov.
+## Recently Completed
 
-## Completed
-
-- [3PAO Readiness Assessment Report Guide, Version 3.2](https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf) - Posted Oct. 17, 2024
+- [3PAO Readiness Assessment Report Guide, Version 3.2](https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf) -
+  Posted Oct. 17, 2024
 
 ## Proposed
 
 <!-- yes this is lame but it's easier to read than table formatting in markdown -->
 <table>
   <tr valign=bottom>
-    <td>Guidance or Policy</td>
-    <td>Goal</td>
-    <td>Actions Taken</td>
-    <td>Actions Remaining</td>
-    <td>Estimated Completion</td>
+    <td><b>Guidance or Policy</b></td>
+    <td><b>Goal</b></td>
+    <td><b>Actions Taken</b></td>
+    <td><b>Actions Remaining</b></td>
+    <td><b>Estimated Completion</b></td>
   </tr>
   <tr valign=top>
     <td><a href="/updates/docs/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
@@ -73,12 +78,23 @@ FedRAMP is fostering transparency for its policy and guidance development effort
   </tr>
 </table>
 
-## In development
+## In Development
 
-The following documents are under active development and have not yet been published for public comment.
+The following documents are under active development and have not yet been
+published for public comment.
 
-- Review Initiation Criteria (RIC) - These guidelines help CSPs, IAs, and federal agency partners evaluate and verify the completeness, consistency, accuracy, and clarity of an authorization package. It is being developed to highlight and address key areas of common package quality issues identified during FedRAMP reviews that often lead to the need for package changes by the CSP and IAs before resubmission and rereview of the package. By clearly identifing the causes of these passbacks, FedRAMP hopes to speed up initial reviews, reduce passbacks/resubmissions, and ultimately reduce authorization timelines by setting CSPs up for success early in the process.
-- Authorization boundary guidance update - briefly explain purpose of update
-- Program authorization (is that this, and if so, what policies/guidance are being developed? Establishing new paths to authorization: FedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide.)
-- 3PAO a2la training requirements
+- **Review Initiation Criteria (RIC)** - These guidelines help CSPs, IAs, and
+  federal agency partners evaluate and verify the completeness, consistency,
+  accuracy, and clarity of an authorization package. It is being developed to
+  highlight and address key areas of common package quality issues identified
+  during FedRAMP reviews that often lead to the need for package changes by the
+  CSP and IAs before resubmission and rereview of the package. By clearly
+  identifing the causes of these passbacks, FedRAMP hopes to speed up initial
+  reviews, reduce passbacks/resubmissions, and ultimately reduce authorization
+  timelines by setting CSPs up for success early in the process.
 
+- **Authorization Boundary Guidance update**
+
+- **Program authorization approach**
+
+- **3PAO a2la training requirements**
