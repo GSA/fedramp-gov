@@ -75,7 +75,10 @@ FedRAMP is fostering transparency for its policy and guidance development effort
 
 ## In development
 
-- Authorization boundary guidance update - FedRAMP is working to updatebriefly explain purpose of update?
+The following documents are under active development and have not yet been published for public comment.
+
+- Review Initiation Criteria (RIC) - These guidelines help CSPs, IAs, and federal agency partners evaluate and verify the completeness, consistency, accuracy, and clarity of an authorization package. It is being developed to highlight and address key areas of common package quality issues identified during FedRAMP reviews that often lead to the need for package changes by the CSP and IAs before resubmission and rereview of the package. By clearly identifing the causes of these passbacks, FedRAMP hopes to speed up initial reviews, reduce passbacks/resubmissions, and ultimately reduce authorization timelines by setting CSPs up for success early in the process.
+- Authorization boundary guidance update - briefly explain purpose of update
 - Program authorization (is that this, and if so, what policies/guidance are being developed? Establishing new paths to authorization: FedRAMP will be conducting “program authorizations” for some cloud service providers (CSPs) without an agency sponsor. In the short term, this path will be for CSPs who were either queued or prioritized to work with the Joint Authorization Board (JAB), with a future focus on building out criteria and an approach for opening this path market-wide.)
 - 3PAO a2la training requirements
 
