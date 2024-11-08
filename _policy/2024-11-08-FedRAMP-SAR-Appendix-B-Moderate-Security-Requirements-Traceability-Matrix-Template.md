@@ -1,9 +1,9 @@
 ---
 layout: policy   
-title: SAP Appendix A - FedRAMP Moderate Security Test Case Procedures Template
+title: FedRAMP SAR Appendix B - Moderate Security Requirements Traceability Matrix Template
 category: Authorization Phase
 weblink:
-filename: templates/SAP-Appendix-A-FedRAMP-Moderate-Security-Test-Case-Procedures-Template.xlsx
+filename: templates/FedRAMP-SAR-Appendix-B-Moderate-Security-Requirements-Traceability-Matrix-Template.xlsx
 filetype: excel
 fileinfo: excel - 1.7MB
 condition: new
