@@ -1,6 +1,6 @@
 ---
 layout: policy   
-title: FedRAMP SAR Appendix B - Low Security Requirements Traceability Matrix Template
+title: FedRAMP SAR Appendix B - High Security Requirements Traceability Matrix Template
 category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-SAR-Appendix-B-High-Security-Requirements-Traceability-Matrix-Template.xlsx
