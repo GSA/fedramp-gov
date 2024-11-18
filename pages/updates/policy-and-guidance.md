@@ -79,9 +79,10 @@ The following documents are being prepared for final publication.
   </tr>
 </table>
 
-## Requests for Comments
+## Requests for Comment
 
-No documents are avaible for active public discussion and comment at this time.
+For a list of active
+[Requests for Comment (RFCs), please review the RFCs page](../rfcs).
 
 ## In Development
 
