@@ -5,7 +5,7 @@ category: Continuous Monitoring Phase
 weblink:
 filename: templates/FedRAMP-Continuous-Monitoring-Monthly-Executive-Summary-Template.xlsx
 filetype: excel
-fileinfo: excel - 26KB
+fileinfo: excel - 19.2MB
 condition: new
 partner: All Partners
 doctype:
