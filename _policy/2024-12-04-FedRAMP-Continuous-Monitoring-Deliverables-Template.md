@@ -5,7 +5,7 @@ category: Continuous Monitoring Phase
 weblink:
 filename: templates/FedRAMP-Continuous-Monitoring-Deliverables-Template.xlsx
 filetype: excel
-fileinfo: excel - 37KB
+fileinfo: excel - 127KB
 condition: new
 partner: Cloud Service Providers
 doctype:
