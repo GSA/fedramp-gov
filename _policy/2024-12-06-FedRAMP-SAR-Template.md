@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/FedRAMP-Security-Assessment-Report-(SAR)-Template.docx
 filetype: word
-fileinfo: word - 141KB
+fileinfo: word - 152 KB
 condition: new
 partner: All Partners
 doctype:
