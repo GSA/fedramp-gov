@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-G-Information-System-Contingency-Plan-(ISCP)-Template.docx
 filetype: word
-fileinfo: word - 152KB
+fileinfo: word - 156 KB
 condition: new
 partner: All Partners
 doctype:
