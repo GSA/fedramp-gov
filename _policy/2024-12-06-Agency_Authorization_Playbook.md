@@ -5,7 +5,7 @@ category: Key Agency Documents
 weblink:
 filename: documents/Agency_Authorization_Playbook.pdf
 filetype: pdf
-fileinfo: PDF - 1.3MB
+fileinfo: PDF - 750 KB
 condition: new
 partner: Agencies
 doctype:
