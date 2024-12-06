@@ -18,63 +18,32 @@ layout: full-width
 			<div class="full-col desktop:grid-col-8 tablet:padding-4">
 				
 				<div class="full-row grid-row">
-{% assign teammembers = site.team | sort: "order" %}
-					{% for t in teammembers %}
 						<div class="full-col desktop:grid-col-6 padding-y-2 tablet:padding-2">
-							<div class="team-member-card white-bkg text-center padding-x-2 padding-y-4 tablet:padding-6">
-								<img class="team-image" src="{{site.baseurl}}{{ t.image }}" alt="" />
-								<h3 class="center no-line">{{ t.name }}</h3>
-								<p class="team-title">{{ t.title }}</p>
-							 	<p class="read-bio"><a href="#" data-drawer-trigger aria-controls="drawer-{{ t.name | replace: " ", "" }}" aria-expanded="false">Read Bio <i class="fas fa-arrow-circle-right fa-lg text-red read-bio-icon"></i></a></p>
-							</div>	
-						</div>
-					{% endfor %}
+							<h3>Director</h3>
+							<ul>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							</ul>
+								
+							<h3>Authorization</h3>
+							<ul>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							</ul>
+									
+							<h3>Experience</h3>
+							<ul>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							<li>dfkjg</li>
+							</ul>
+						</div>	
+				</div>
 					
-				</div>
-			</div>
-			
-			
-			<div class="full-col desktop:grid-col-4 white-bkg padding-4 desktop:padding-y-4 desktop:padding-left-8 team-program-office">
-				<h3 class="team-program-goals">Program Management Office (PMO) Goals</h3>
-				<ul class="program-basics-goals team-goals">
-					<li>Grow the use of secure cloud technologies in use by government agencies</li>
-					<li>Enhance the framework by which the government secures and authorizes cloud technologies</li>
-					<li>Build and foster strong partnerships with FedRAMP stakeholders</li>
-				</ul>
 			</div>
 		</div>
-	</div>	
+	</div> 		
+			
 </section>
-
-
-
-{% for t in site.team %}
-	<section class="drawer" id="drawer-{{ t.name | replace: " ", "" }}" data-drawer-target>
-		<div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-		<div class="drawer__wrapper">
-			<div class="drawer__header">
-				<button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
-			</div>
-			<div class="grid-container team-bio-drawer" style="padding-top: 0;">
-				<div class="full-row grid-row">
-					<div class="full-col desktop:grid-col-12 padding-x-4">
-						<div class="drawer__content">
-							<div class="drawer-image">
-								<img class="team-image" src="{{site.baseurl}}{{ t.image }}" alt="" />
-							</div>	
-							<h3 class="center no-line">{{ t.name }}</h3>
-							<p>{{ t.content }}</p>
-							
-							<hr class="team-border margin-bottom-2 margin-top-4">
-							{% if t.linkedin %}
-								<p class="team-twitter"><a href="{{ t.linkedin }}" target="_blank"><i class="fab fa-twitter"></i> Connect with {{ t.name | split: " " | first}} </a></p>
-							{% endif %}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-{% endfor %}
-
-
