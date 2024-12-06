@@ -5,7 +5,7 @@ category: Authorization Phase
 weblink:
 filename: templates/SSP-Appendix-M-Integrated-Inventory-Workbook-Template.xlsx
 filetype: excel
-fileinfo: excel - 299KB
+fileinfo: excel - 254 KB
 condition: update
 partner: All Partners
 doctype:
