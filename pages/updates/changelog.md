@@ -11,17 +11,22 @@ summary:
 
 ## November, 2024 (FY25 Q1)
 
-- 2024-11-05: Released a [JAB Transition](/updates/jab) update page to share
-  insight into the current status of FedRAMP's transition away from the Joint
-  Authorization Board.
-- 2024-11-05: Release a [FedRAMP Platform](/updates/platform) update page to
-  share the ongoing status of our implementation of a centralized GRC platform
-  and automation tool for FedRAMP.
+- 2024-11-07: Modified web page to host a clear Updates & Priorities section.
+  - _Released early so the content is available with visual updates and
+    look-and-feel to follow later; faster is sometimes preferred._
+  - Released this changelog
+  - Moved some pages around for clarity and consistency
+  - Added a [FedRAMP Platform](/updates/platform) update page to share the
+    ongoing status of our implementation of a centralized GRC platform and
+    automation tool for FedRAMP.
+  - Added a beta version
+    [Policy and Guidance Updates](/updates/policy-and-guidance) page to track
+    our activities related to updating core policies and guidance, especially
+    when public comment is required.
+  - More to come over the following weeks.
 
 ## October, 2024 (FY25 Q1)
 
-- 2024-10-31: Released updated web page with easier to track status updates on
-  changes to the program.
 - 2024-10-15: Launched the [FedRAMP Help Center](https://help.fedramp.gov)
   - Related blog post:
     "[The FedRAMP Help Center](/2024-10-15-fedramp-help-center/)"
@@ -66,8 +71,10 @@ summary:
   Program Management Office.
   - Related blog post:
     "[Welcoming a New Leader for a New FedRAMP](2024-08-27-welcoming-a-new-leader-for-a-new-fedramp/)"
-- 2024-08-12: JAB transition update and shift of all cloud services to FedRAMP Authorized reguardless of agency or JAB pathway
-  - Related blog post: "[Moving to One FedRAMP Authorization: An Update on the JAB Transition](/2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/)
+- 2024-08-12: JAB transition update and shift of all cloud services to FedRAMP
+  Authorized reguardless of agency or JAB pathway
+  - Related blog post:
+    "[Moving to One FedRAMP Authorization: An Update on the JAB Transition](/2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/)
 - 2024-08-09: Released a draft guidance update for
   [implementing FIPS-140 cryptographic modules](/updates/docs/cryptographic-module)
   for public comment.
