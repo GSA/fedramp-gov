@@ -9,6 +9,13 @@ summary:
 
 # Fiscal Year 2025 (FY25)
 
+## December, 2024 (FY25 Q1)
+
+- 2024-12-10: Updated content on [Governance page](/governance) to accurately
+  explain various FedRAMP stakeholders after changes in M-24-15.
+- 2024-12-06: Updated content on [the FedRAMP Platform](/updates/platform) to
+  show current progress.
+
 ## November, 2024 (FY25 Q1)
 
 - 2024-11-07: Modified web page to host a clear Updates & Priorities section.
