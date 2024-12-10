@@ -30,7 +30,7 @@ To limit the scope and potential impact of changes to agencies, new features lau
 - tooling used to configure, secure, and scan those components, and
 - customer responsibilities for existing features or services. 
 
-Please visit our <a href="{{site.baseurl}}/updates/updates/pilots/" target="_blank" rel="noopener noreferrer">pilot program web page</a> for more information on how to apply. FedRAMP will accept applications from now through July 26, 2024, and will work with the CSP and agencies to make selections by August 16, 2024. 
+Please visit our <a href="{{site.baseurl}}/updates/pilots/" target="_blank" rel="noopener noreferrer">pilot program web page</a> for more information on how to apply. FedRAMP will accept applications from now through July 26, 2024, and will work with the CSP and agencies to make selections by August 16, 2024. 
 
 <h4>Stay informed</h4>
 Remember, our pilot program web page will house information about our pilots. Email us at <a href="mailto:pilots@fedramp.gov" target="_blank" rel="noopener noreferrer">pilots@fedramp.gov</a> to drop us a line if you have questions.
