@@ -6,8 +6,6 @@ image: /assets/img/blog-images/2024-07-30-fedramp-metrics-for-public-comment.png
 author: FedRAMP
 layout: blog-page
 ---
-By Ryan Hoesing
-
 <em><b>Update:</b> To ensure that we hear from as many voices and gather as much input as possible, we are extending the deadline for comments. Please review the <a href="https://publish.smartsheetgov.com/d242efc37a9d49b099de97e82913454e" target="_blank" rel="noopener noreferrer">proposed metrics</a> and submit your comments <a href="https://app.smartsheetgov.com/b/form/3f17415b268a4eb083bb4e1c2098d8fd" target="_blank" rel="noopener noreferrer">via Smartsheets</a> by Thursday, September 5, 2024, 11:59 PM EDT.</em> 
 
 <h4>FedRAMP Announces Key Performance Metrics for Public Comment</h4>
