@@ -11,6 +11,9 @@ summary:
 
 ## December, 2024 (FY25 Q1)
 
+- 2024-12-13: Added a [Joint Authorization Board(JAB) Transition](/updates/jab)
+  page to show progress on implementation of M-24-15 with the rescission of the
+  JAB.
 - 2024-12-10: Updated content on [Governance page](/governance) to accurately
   explain various FedRAMP stakeholders after changes in M-24-15.
 - 2024-12-06: Updated content on [the FedRAMP Platform](/updates/platform) to
