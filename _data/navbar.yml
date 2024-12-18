@@ -16,6 +16,9 @@ assigned:
       - text: JAB Transition
         href: updates/jab-transition.md
         permalink: /updates/jab/
+      - text: Requests for Comment
+        href: updates/rfcs.md
+        permalink: /updates/rfcs/
         show_in_menu: true
         show_in_footer: false        
       - text: Policy & Guidance Changes

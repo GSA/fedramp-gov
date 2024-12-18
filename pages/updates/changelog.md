@@ -21,6 +21,8 @@ summary:
 
 ## November, 2024 (FY25 Q1)
 
+- 2024-11-18: Added a dedicated web page to track
+  [Requests for Comments](/updates/rfcs).
 - 2024-11-07: Modified web page to host a clear Updates & Priorities section.
   - _Released early so the content is available with visual updates and
     look-and-feel to follow later; faster is sometimes preferred._
