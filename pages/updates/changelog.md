@@ -11,7 +11,7 @@ summary:
 
 ## December, 2024 (FY25 Q1)
 
-- 2024-12-19: Added [Requests for Comment]({{"/rfcs" | relative_url}}) tracker.
+- 2024-12-19: Added [Requests for Comment]({{"/updates/rfcs" | relative_url}}) tracker.
   - Added [RFC-0001 A New Comment Process for
     FedRAMP]({{"/updates/rfcs/0001" | relative_url}}) for comment
 - 2024-12-13: Added a [Joint Authorization Board (JAB)
