@@ -17,7 +17,7 @@ assigned:
         href: updates/jab-transition.md
         permalink: /updates/jab/
       - text: Requests for Comment
-        href: updates/rfcs.md
+        href: updates/rfcs/rfcs.md
         permalink: /updates/rfcs/
         show_in_menu: true
         show_in_footer: false        

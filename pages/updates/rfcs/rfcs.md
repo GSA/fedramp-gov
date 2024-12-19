@@ -3,26 +3,13 @@ layout: base-markdown
 title: Requests for Comment
 tab-title: Requests for Comment
 permalink: /updates/rfcs/
+redirect_from: /rfcs
 summary:
 ---
 
-# List of Open Requests for Comment
-
-<!-- erg, html tables -->
-<table cellpadding=8>
-  <tr valign=bottom>
-    <td><b>Name</b></td>
-    <td><b>Description</b></td>
-    <td><b>Open Date</b></td>
-    <td><b>Close Date</b></td>
-  </tr>
-  <tr valign=top>
-    <td><b><a href="https://github.com/FedRAMP/rfc0001-new-comment-process/blob/main/rfc/0001.md">A New Comment Process for FedRAMP</a></b></td>
-    <td>Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub.</td>
-    <td>2024-11-01</td>
-    <td>2024-12-31</td>
-  </tr>
-</table>
+| ID | Request for Comment On | Description | Open | Close |
+| -- | -- | -- | -- | -- |
+| [0001](0001) | [A New Commment Process for FedRAMP](0001) | Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub. | 2024-12-18 | 2025-01-31 |
 
 ## Background
 
