@@ -10,6 +10,7 @@ summary:
 | ID           | Request for Comment On                     | Description                                                                                 | Open       | Close      |
 | ------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------- | ---------- | ---------- |
 | [0001](0001) | [A New Commment Process for FedRAMP](0001) | Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub. | 2024-12-18 | 2025-01-31 |
+| [0002](0002) | [Proposed Revisions to FedRAMP 3PAO Requirements](0002) | 
 
 # FedRAMP Requests For Comment (RFCs)
 
