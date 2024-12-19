@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 
 # Jekyll stuff
 _site/

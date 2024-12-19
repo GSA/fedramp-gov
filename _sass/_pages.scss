@@ -1318,3 +1318,12 @@ div.highlight .ln, div.highlight .lnt {
 .gov-card-head {
 	min-height: 5em;
 }
+blockquote {
+	background: white;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	background: lighten($lighter-teal, 40%);
+	box-shadow: -2px 0 0 $lighter-teal,
+		-4px 0 0 lighten($lighter-teal, 40%),
+		-7px 0 0 $lighter-teal;
+}

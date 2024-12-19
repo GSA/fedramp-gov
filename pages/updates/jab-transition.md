@@ -3,7 +3,7 @@ layout: base-markdown
 title: Joint Authorization Board (JAB) Transition
 tab-title: JAB Transition
 permalink: /updates/jab/
-redirect_from: /jab
+redirect_from: /jab/
 summary: Joint Authorization Board (JAB) Transition
 ---
 

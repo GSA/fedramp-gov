@@ -1,0 +1,29 @@
+table {
+    border-spacing: 0;
+    margin: 2em 0;
+}
+
+thead {
+    th {
+        font-weight: font-bold;
+    }
+
+    th,
+    td {
+        background-color: $teal;
+        color: white;
+    }
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    background-color: white;
+    border: 1px solid $lightest-gray;
+    font-weight: font-normal;
+    padding: 1rem 1.5rem;
+    vertical-align: top;
+}
