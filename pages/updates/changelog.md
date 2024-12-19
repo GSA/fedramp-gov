@@ -75,7 +75,7 @@ summary:
   - [Monitor the status of this update
     here]({{"/updates/policy-and-guidance" | relative_url}})
 - 2024-09-03: New blog post:
-  [The Missing Piece of Our Modernization Puzzle: The FedRAMP Platform](/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/)
+  [The Missing Piece of Our Modernization Puzzle: The FedRAMP Platform]({{"/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/" | relative_url}})
 
 ## August, 2024 (FY24 Q4)
 
@@ -93,13 +93,13 @@ summary:
 - 2024-08-12: JAB transition update and shift of all cloud services to FedRAMP
   Authorized reguardless of agency or JAB pathway
   - Related blog post:
-    "[Moving to One FedRAMP Authorization: An Update on the JAB Transition](/2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/)
+    "[Moving to One FedRAMP Authorization: An Update on the JAB Transition]({{"/2024-08-12-moving-to-one-fedramp-authorization-an-update-on-the-jab-transition/" | relative_url}})
 - 2024-08-09: Released a draft guidance update for [implementing FIPS-140
   cryptographic
   modules]({{"/updates/docs/cryptographic-module" | relative_url}}) for public
   comment.
   - Related blog post:
-    "[Strengthening the Use of Cryptography to Secure Federal Cloud Systems](/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/)"
+    "[Strengthening the Use of Cryptography to Secure Federal Cloud Systems]({{"/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/" | relative_url}})"
   - [Submit public comments here](https://app.smartsheetgov.com/b/form/f9d1986f7c9243c39432f54cd1be0cfc)
     by September 9, 2024.
 
