@@ -7,12 +7,14 @@ redirect_from: /rfcs/
 summary:
 ---
 
+# Open FedRAMP Requests for Comment (RFCs)
+
 | ID           | Request for Comment On                     | Description                                                                                 | Open       | Close      |
 | ------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| [0002](0002) | [Proposed Revisions to FedRAMP 3PAO Requirements](0002) | FedRAMP is proposing revisions to six requirements and an appendix for the American Association for Laboratory Accreditation (A2LA) R311 requirements for 3PAOs. | 2024-12-19 | 2025-01-31 |
 | [0001](0001) | [A New Commment Process for FedRAMP](0001) | Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub. | 2024-12-18 | 2025-01-31 |
-| [0002](0002) | [Proposed Revisions to FedRAMP 3PAO Requirements](0002) | 
 
-# FedRAMP Requests For Comment (RFCs)
+# Background
 
 The Federal Risk and Authorization Management Program (FedRAMP) intends to
 engage continuously and iteratively with our stakeholders. This repository will
