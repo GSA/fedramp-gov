@@ -116,6 +116,10 @@ continuous monitoring for all of these systems, so agency participation will be
 required to ensure the continuous monitoring and oversight of these systems
 going forward.
 
+> [JAB Transition FAQs are located in the FedRAMP Help Center](https://help.fedramp.gov/hc/en-us/sections/31840786131483-JAB-Transition).
+> If you have questions not addressed in any of these FAQs, please contact
+> info@fedramp.gov for more information.
+
 ## List of 58 Previously JAB Authorized Systems
 
 _Note: Designated Leads may change over time and be updated as changes are
@@ -199,4 +203,3 @@ below._
 | [FR2214150164](https://marketplace.fedramp.gov/products/FR2214150164)   | Quzara               | Quzara Cybertorch (SOC-as-a-Service)              |
 | [FR2335047392](https://marketplace.fedramp.gov/products/FR2335047392)   | 3rd Eye Technologies | Mystic Message Archival                           |
 | [FR2403936773](https://marketplace.fedramp.gov/products/FR2403936773)   | Telos                | Xacta SaaS                                        |
-
