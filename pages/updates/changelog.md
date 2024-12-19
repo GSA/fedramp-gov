@@ -11,18 +11,20 @@ summary:
 
 ## December, 2024 (FY25 Q1)
 
-- 2024-12-13: Added a [Joint Authorization Board (JAB) Transition](/updates/jab)
-  page to show progress on implementation of M-24-15 with the rescission of the
-  JAB.
-- 2024-12-10: Updated content on [Governance page](/governance) to accurately
-  explain various FedRAMP stakeholders after changes in M-24-15.
-- 2024-12-06: Updated content on [the FedRAMP Platform](/updates/platform) to
-  show current progress.
+- 2024-12-19: Added [Requests for Comment]({{"/rfcs" | relative_url}}) tracker.
+  - Added [RFC-0001 A New Comment Process for
+    FedRAMP]({{"/updates/rfcs/0001" | relative_url}}) for comment
+- 2024-12-13: Added a [Joint Authorization Board (JAB)
+  Transition]({{"/updates/jab" | relative_url}}) page to show progress on
+  implementation of M-24-15 with the rescission of the JAB.
+- 2024-12-10: Updated content on [Governance
+  page]({{"/governance" | relative_url}}) to accurately explain various FedRAMP
+  stakeholders after changes in M-24-15.
+- 2024-12-06: Updated content on [the FedRAMP
+  Platform]({{"/updates/platform" | relative_url}}) to show current progress.
 
 ## November, 2024 (FY25 Q1)
 
-- 2024-11-18: Added a dedicated web page to track
-  [Requests for Comments](/updates/rfcs).
 - 2024-11-07: Modified web page to host a clear Updates & Priorities section.
   - _Released early so the content is available with visual updates and
     look-and-feel to follow later; faster is sometimes preferred._
