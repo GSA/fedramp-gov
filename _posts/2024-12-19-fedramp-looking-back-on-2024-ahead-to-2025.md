@@ -2,7 +2,7 @@
 title: FedRAMP, Looking Back on 2024, Ahead to 2025
 permalink: /2024-12-19-fedramp-looking-back-on-2024-ahead-to-2025/
 body-class: page-blog
-image: /assets/img/blog-images/2024-10-01-fedramp-help-center.png
+image: /assets/img/blog-images/2024-12-19-fedramp-looking-back-on-2024-ahead-to-2025.png
 author: FedRAMP
 layout: blog-page
 ---
