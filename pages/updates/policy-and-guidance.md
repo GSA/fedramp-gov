@@ -6,14 +6,15 @@ permalink: /updates/policy-and-guidance/
 summary:
 ---
 
-_**2024-11-07 Please Note:** This page needs a look-and-feel update that may
-take some time, but FedRAMP is making the information available in a rudimentary
-form now rather than waiting. Thank you for your patience with the formatting._
-
 FedRAMP is fostering transparency for its policy and guidance development
 efforts. This page reflects the current status of policy and guidance that has
 been released recently or is expected to be released soon. Public feedback is
 welcome anytime at info@fedramp.gov.
+
+## Requests for Comment
+
+For a list of active
+[Requests for Comment (RFCs), please review the RFCs page](../rfcs).
 
 ## Recently Completed
 
@@ -78,11 +79,6 @@ The following documents are being prepared for final publication.
     <td>End of FY25 Q3</td>
   </tr>
 </table>
-
-## Requests for Comment
-
-For a list of active
-[Requests for Comment (RFCs), please review the RFCs page](../rfcs).
 
 ## In Development
 
