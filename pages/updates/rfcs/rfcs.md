@@ -3,7 +3,7 @@ layout: base-markdown
 title: Requests for Comment
 tab-title: Requests for Comment
 permalink: /updates/rfcs/
-redirect_from: /rfcs
+redirect_from: /rfcs/
 summary:
 ---
 
