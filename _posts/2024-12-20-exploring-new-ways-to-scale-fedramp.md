@@ -39,7 +39,6 @@ We’d particularly like your thoughts on:
   - How might FedRAMP distinguish between smaller and larger businesses in the context of federal buying, where resellers and prime/subcontractor structures can complicate procurement?
 
 <h3>How to submit your comments</h3>
-Include comment process. 
-Please submit your comments by Friday, February 28, 2025.
+Please submit your <a href="https://app.smartsheetgov.com/b/form/6aaf70211bb9471fad1de6048aaeda53" target="_blank" rel="noopener noreferrer">comments</a> by Friday, February 28, 2025.
 
-<a href="mailto:info@fedramp.gov">info@fedramp.gov</a>.
+To read comments that have already been submitted, click the <a href="https://app.smartsheetgov.com/b/publish?EQBCT=da8dd7d08d714e339942a2fe4332d8a8" target="_blank" rel="noopener noreferrer">read-only version</a>.
