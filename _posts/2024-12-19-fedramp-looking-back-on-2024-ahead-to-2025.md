@@ -51,6 +51,6 @@ These changes to FedRAMP’s governance mean that in 2025, FedRAMP is well posit
 
 <h3>Looking forward to 2025</h3>
 
-We’re well aware that even after all this, FedRAMP can still be a costly and challenging process for our customers; our work in 2024 helped us better understand these pain points by revisiting past assumptions and bringing us closer to the customer experience. 
+We’re well aware that even after all this, FedRAMP can still be a challenging process for our customers; our work in 2024 helped us better understand these pain points by revisiting past assumptions and bringing us closer to the customer experience. 
 
 But just as crucially, it has given us the experience, skills, tools, and partnerships to fix these pain points – and more runway to execute than the program has ever had before. We’re entering 2025 ready to keep listening to what customers are telling us and to use what we gained in 2024 to keep making things better. You will see repeated iterative shifts that will add up over time to change FedRAMP's approach from a broad application of compliance-based review at a single point in time to a more nuanced technical security and risk-based review process that continues after authorization.
