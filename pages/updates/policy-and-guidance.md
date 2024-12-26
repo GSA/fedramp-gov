@@ -91,19 +91,11 @@ published for public comment.
     <td><b>Goal</b></td>
   </tr>
   <tr valign=top>
-    <td>Review Initiation Criteria (RIC)</td>
-    <td>These guidelines will help CSPs, IAs, and federal agency partners evaluate and verify the completeness, consistency, accuracy, and clarity of an authorization package prior to submission.  The RIC is intended to expedite FedRAMP's initial review, reduce pass-backs/resubmissions, and ultimately reduce authorization timelines by identifying package issues prior to submission for review.</td>
-  </tr>
-  <tr valign=top>
     <td>Authorization boundary guidance</td>
     <td>This update to the boundary guidance is based on stakeholder feedback, common issues identified during review, and to revise requirements related to leveraged cloud and corporate services. Additionally, all JAB mentions and specific JAB requirements that conflict with the current policy memo are being removed.</td>
   </tr>
   <tr valign=top>
     <td>Program authorization approach</td>
-    <td>Work in progress</td>
-  </tr>
-  <tr valign=top>
-    <td>3PAO a2la training requirements</td>
     <td>Work in progress</td>
   </tr>
 </table>
