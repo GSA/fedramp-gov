@@ -11,6 +11,14 @@ summary:
 
 ## December, 2024 (FY25 Q1)
 
+- 2024-12-26: Added [RFC-0003 Review Initiation Checks
+  (RICs)]({{"/updates/rfcs/0003" | relative_url}}) for comment
+- 2024-12-20: New Blog Post and Comment Request: [Exploring new ways to scale
+  FedRAMP]({{"2024-12-20-exploring-new-ways-to-scale-fedramp/" | relative_url}})
+  - [Submit public comments here by Feb 28, 2025](https://app.smartsheetgov.com/b/form/6aaf70211bb9471fad1de6048aaeda53)
+  - [Review submitted comments here](https://app.smartsheetgov.com/b/publish?EQBCT=da8dd7d08d714e339942a2fe4332d8a8)
+- 2024-12-19: New Blog Post: [FedRAMP, Looking Back on 2024, Ahead to
+  2025]({{"2024-12-19-fedramp-looking-back-on-2024-ahead-to-2025/" | relative_url}})
 - 2024-12-19: Added [Requests for Comment]({{"/updates/rfcs" | relative_url}})
   tracker.
   - Added [RFC-0001 A New Comment Process for

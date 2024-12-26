@@ -11,6 +11,8 @@ summary:
 
 | ID           | Request for Comment On                     | Description                                                                                 | Open       | Close      |
 | ------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| [0003](0003) | [Review Initiation Checks (RICs)](0003) | These optional checklists will help cloud service providers self-verify the completeness of FedRAMP authorization packages. | 2024-12-26 | 2025-02-07 |
+| Blog | [Exploring new ways to scale FedRAMP]({{"2024-12-20-exploring-new-ways-to-scale-fedramp/" | relative_url}}) | FedRAMP is in early discovery around the possibility of scaling operations with fees in the future. | 2024-12-20 | 2025-02-28 |
 | [0002](0002) | [Proposed Revisions to FedRAMP 3PAO Requirements](0002) | FedRAMP is proposing revisions to six requirements and an appendix for the American Association for Laboratory Accreditation (A2LA) R311 requirements for 3PAOs. | 2024-12-19 | 2025-01-31 |
 | [0001](0001) | [A New Commment Process for FedRAMP](0001) | Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub. | 2024-12-18 | 2025-01-31 |
 
