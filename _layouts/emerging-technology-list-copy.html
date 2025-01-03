@@ -6,45 +6,47 @@ layout: full-width
 {% if page.navigation %} 
 <section class="fedramp-page-container position-sticky resources-nav padding-top-2">
   <div class="full-row grid-row">
-	<div class="full-col tablet:grid-col-4 tablet:padding-y-2 tablet:padding-right-6">
-	  <div id="main-header" class="lavalamp-menu">
-		<nav>
-		  <ul class="in-page-nav-menu" id="top-menu">
-			{% for item in page.navigation %}
-			  <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
-			{% endfor %}
-		  </ul>
-		  <div class="lavalamp"></div>
-		</nav>
-	  </div>
-	</div>
+  <div class="full-col tablet:grid-col-4 tablet:padding-y-2 tablet:padding-right-6">
+    <div id="main-header" class="lavalamp-menu">
+    <nav>
+      <ul class="in-page-nav-menu" id="top-menu">
+      {% for item in page.navigation %}
+        <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+      <div class="lavalamp"></div>
+    </nav>
+    </div>
+  </div>
   </div>
 </section>
 {% endif %}
 
-<section class="fedramp-page-container in-page-nav-section framework-main-section">
-    <div class="grid-container">
-      <div class="full-row grid-row grid-gap">
-        <div class="full-col tablet:grid-col-6 tablet:grid-offset-3 nav-main-section">
-          {{ content }}
-        </div>
+<section class="fedramp-page-container in-page-nav-section"> 
+  <div class="grid-container">
+    <div class="full-row grid-row grid-gap">
+      <div class="full-col tablet:grid-col-8 tablet:grid-offset-4 nav-main-section"> 
 
-        {% if page.quick_links %}
-        <div class="tablet:grid-col-3">
-          <div class="lightest-gray-bkg padding-y-1 padding-x-2 margin-top-2 margin-x-0 sidebar-quick-links">
-              <h4>Quick Links</h4>
-              <ul>
-                {% for link in page.quick_links %}
-                  <li><a href="{{ link.url }}" {% if link.external %}target="_blank" rel="nofollow"{% endif %}>{{ link.title }}</a></li>
-                {% endfor %}
-              </ul>
-          </div>
-        </div>
-        {% endif %}
+        {{ content }}
 
       </div>
+
+      {% if page.quick_links %}
+      <aside class="full-col tablet:grid-col-3 quick-links-section"> 
+        <div class="lightest-gray-bkg padding-y-1 padding-x-2 margin-top-2 margin-x-0 sidebar-quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+              {% for link in page.quick_links %}
+                <li><a href="{{ link.url }}" {% if link.external %}target="_blank" rel="nofollow"{% endif %}>{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+        </div>
+      </aside>
+      {% endif %}
+
     </div>
-  </section>
+  </div>
+</section>
 
 
 <!-- Mobile Navigation 
