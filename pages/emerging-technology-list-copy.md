@@ -17,6 +17,24 @@ navigation:
     title: ET Criteria for Prioritization
   - id: et-cso
     title: ET CSO - FedRAMP Model Card guidance
+quick_links:
+  - title: ET CSO Request Form
+    url: https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03
+    external: true
+  - title: ET Demand Form
+    url: https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580
+    external: true
+  - title: Emerging Technologies Prioritization Criteria and Guidance document
+    url: /assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf
+    external: true
+  - title: CSP Information Form
+    url: https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform?c=0&w=1
+    external: true
+  - title: RACI Matrix
+    url: /et-framework/raci-matrix/
+  - title: FAQs
+    url: /faqs/#faq-et-prioritization-framework 
+
 ---
 
 ## Artificial Intelligence {#ai}

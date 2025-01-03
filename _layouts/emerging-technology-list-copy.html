@@ -22,7 +22,29 @@ layout: full-width
 </section>
 {% endif %}
 
+<section class="fedramp-page-container in-page-nav-section framework-main-section">
+    <div class="grid-container">
+      <div class="full-row grid-row grid-gap">
+        <div class="full-col tablet:grid-col-6 tablet:grid-offset-3 nav-main-section">
+          {{ content }}
+        </div>
 
+        {% if page.quick_links %}
+        <div class="tablet:grid-col-3">
+          <div class="lightest-gray-bkg padding-y-1 padding-x-2 margin-top-2 margin-x-0 sidebar-quick-links">
+              <h4>Quick Links</h4>
+              <ul>
+                {% for link in page.quick_links %}
+                  <li><a href="{{ link.url }}" {% if link.external %}target="_blank" rel="nofollow"{% endif %}>{{ link.title }}</a></li>
+                {% endfor %}
+              </ul>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </section>
 
 
 <!-- Mobile Navigation 
