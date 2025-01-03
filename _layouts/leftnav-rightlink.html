@@ -5,35 +5,34 @@ layout: full-width
 <!-- Main In Page Navigation -->
 {% if page.navigation %} 
 <section class="fedramp-page-container position-sticky resources-nav padding-top-2">
-  <div class="grid-container"> <div class="full-row grid-row"> 
-    <div class="full-col tablet:grid-col-3 tablet:padding-y-2 tablet:padding-right-6"> 
-      <div id="main-header" class="lavalamp-menu">
-        <nav>
-          <ul class="in-page-nav-menu" id="top-menu">
-            {% for item in page.navigation %}
-              <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-          <div class="lavalamp"></div>
-        </nav>
-      </div>
+  <div class="full-row grid-row">
+  <div class="full-col tablet:grid-col-4 tablet:padding-y-2 tablet:padding-right-6">
+    <div id="main-header" class="lavalamp-menu">
+    <nav>
+      <ul class="in-page-nav-menu" id="top-menu">
+      {% for item in page.navigation %}
+        <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+      <div class="lavalamp"></div>
+    </nav>
     </div>
-  </div> </div>
+  </div>
+  </div>
 </section>
 {% endif %}
 
-<div class="grid-container">
-  <div class="full-row grid-row grid-gap">
+<section class="fedramp-page-container in-page-nav-section"> 
+  <div class="grid-container">
+    <div class="full-row grid-row grid-gap">
+      <div class="full-col tablet:grid-col-6 tablet:grid-offset-3 nav-main-section"> 
 
-    <section class="fedramp-page-container in-page-nav-section"> 
-      <div class="full-col tablet:grid-col-8 tablet:grid-offset-1 nav-main-section"> 
         {{ content }}
-      </div>
-    </section>
 
-    {% if page.quick_links %}
-    <section class="fedramp-page-container position-sticky quick-links-section padding-top-2"> 
-      <div class="full-col tablet:grid-col-3"> 
+      </div>
+
+      {% if page.quick_links %}
+      <div class="tablet:grid-col-3">
         <div class="lightest-gray-bkg padding-y-1 padding-x-2 margin-top-2 margin-x-0 sidebar-quick-links">
             <h4>Quick Links</h4>
             <ul>
@@ -42,12 +41,12 @@ layout: full-width
               {% endfor %}
             </ul>
         </div>
-      </div>
-    </section>
-    {% endif %}
+      </aside>
+      {% endif %}
 
-  </div> 
-</div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Mobile Navigation 
