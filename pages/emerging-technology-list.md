@@ -1,5 +1,5 @@
 ---
-layout: full-width-leftnav-rightlink.html
+layout: leftnav-rightlink
 title: Emerging Technology (ET) List
 tab-title: Emerging Technology (ET) List
 permalink: /et-framework/emerging-technology-list/
