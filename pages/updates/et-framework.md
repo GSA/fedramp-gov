@@ -35,7 +35,8 @@ navigation:
       - id: et-demand-form
         title: ET Demand Form
       - id: ET-prioritization-criteria-and-guidance
-        title: ET Prioritization Criteria and Guidance
+        title: ET Prioritization Criteria and
+            Guidance
 quick_links:
   - title: ET CSO Request Form
     url: https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03
@@ -58,10 +59,10 @@ quick_links:
 
 ## Status {#status}
 
-As of August 31, 2024, the first in a series of application window periods for the Emerging Technology Prioritization has closed.
+FedRAMP is changing its approach of defined application windows in the ET framework and will shift to making prioritization decisions on a rolling basis when a cloud provider’s package is starting assessment. This change is to better align to the varying readiness statuses we saw during the first application window, with cloud providers either already being under active review, or in many cases just beginning the development of their package. This change does not alter the framework itself, the list of prioritized technologies, qualifying and demand criteria, or the need for a cloud provider to be in process with an agency willing to perform an initial authorization.  
 
-*   FedRAMP will announce the selected cloud service providers and the next Emerging Technology Prioritization application window soon.
-*   The [cloud service offering request form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"} and [demand form](https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580){:target="_blank" rel="nofollow"} will continue to remain open, and any forms FedRAMP received before the next open application window will be saved and reviewed during that next open window period. However, please be aware that once a form is submitted it cannot be edited.
+In order to be considered for prioritization, a cloud service provider must be both in process with an agency and minimally be in the process of preparing a security assessment plan (SAP) with their assessment organization. Going forward, cloud providers should contact FedRAMP via email at [etprioritization@gsa.gov](mailto:etprioritization@gsa.gov){:target="_blank" rel="nofollow"} and request a prioritization determination once they are ready for an ET prioritization review, having begun preparing a security assessment plan and are working with a sponsoring agency. FedRAMP will then review the cloud provider’s cloud service offering [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"} and [ET Demand Form](https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580){:target="_blank" rel="nofollow"} submissions and will make a prioritization decision at that time. 
+
 *   If you have any questions about the Emerging Technology Prioritization Framework, or the application process, please reach out to [etprioritization@gsa.gov](mailto:etprioritization@gsa.gov){:target="_blank" rel="nofollow"}.
 
 ## Executive Summary {#executive-summary}
@@ -243,7 +244,7 @@ CSPs can submit their [ET CSO Request Forms](https://app.smartsheetgov.com/b/for
 
 **Informed:** None
 
-**What:** CSPs in consultation with their agency partner will submit the [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"}
+**What:** CSPs in consultation with their agency partner will submit the [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"} and [ET Demand Form](https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580){:target="_blank" rel="nofollow"} which includes demand justification and attestation to the ET prioritization qualifying criteria for FedRAMP review. Detailed instructions on how to fill out the forms can be found in the [Emerging Technologies Prioritization Criteria and Guidance document]({{site.baseurl}}/assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf){:target="_blank" rel="nofollow"}.
 
 **Input:** Justification of how CSP meets ET criteria, and a decision to complete the ET prioritization process with FedRAMP.
 
@@ -291,8 +292,9 @@ Notification will be sent to the Board and the CIO and Federal Councils when the
 
 **Service Level Agreement Threshold:** 4 weeks
 
-## Supporting Resources {#supporting-resources}
 
+## Supporting Resources {#supporting-resources}
+All documents and forms below are authored by FedRAMP, and will be published on the FedRAMP.gov website.
 ### ET List {#et-list}
 
 [List of ETs]({{site.baseurl}}/et-framework/emerging-technology-list/) will be updated annually at a minimum and on-demand based on stakeholder feedback. This list is further refined by FedRAMP after inputs from the CIO Council, the Federal CISO Council, and other industry inputs as described by the governance process. The updated list must be approved by the Board.
