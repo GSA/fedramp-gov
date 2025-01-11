@@ -11,7 +11,16 @@ layout: full-width
     <nav>
       <ul class="in-page-nav-menu" id="top-menu">
       {% for item in page.navigation %}
-        <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+        <li>
+          <a href="#{{ item.id }}">{{ item.title }}</a>
+          {% if item.children %}
+            <ul>
+              {% for child in item.children %}
+                <li class="in-page-sub"><a href="#{{ child.id }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
       {% endfor %}
       </ul>
       <div class="lavalamp"></div>

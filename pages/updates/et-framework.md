@@ -55,7 +55,6 @@ quick_links:
     url: /faqs/#faq-et-prioritization-framework 
 
 ---
-Markdown
 
 ## Status {#status}
 
@@ -111,7 +110,7 @@ The ET Prioritization Framework provides a process that is integrated across all
 
 **Figure 1:** ET Prioritization Framework
 
-![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.](/assets/img/et-framework-process.png)
+![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.]({{site.baseurl}}/assets/img/et-framework-process.png)
 
 The **Governance Process** defines how up to three capabilities will be prioritized for “skip the line” access to FedRAMP at any given time, and the amount of CSOs with a given capability that will be prioritized.
 
@@ -121,7 +120,7 @@ Existing cloud service providers must work with their authorizing official and w
 
 ### Governance Process - Establish Prioritization Capabilities {#governance-process}
 
-![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.](/assets/img/et-framework-process-governance.png)
+![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.]({{site.baseurl}}/assets/img/et-framework-process-governance.png)
 
 The goal of the governance process is to identify appropriate ETs and respective capabilities for prioritization and accelerated authorization. Agencies and Industry will be able to submit ideas for additional capabilities to be authorized for future revisions. An electronic submission form will be prepared and made available as the time approaches for new capabilities to be identified.
 
@@ -223,7 +222,7 @@ EO 14110 specifies the high-level capabilities for the initial [List of ETs](/et
 
 ### Evaluation Process - CSP Submissions and Review {#evaluation-process}
 
-![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.](/assets/img/et-framework-process-evaluation.png)
+![Process graphic showing the flow of the emerging technology prioritization framework and its two significant parts. Part 1 of the process and its substeps are described under the heading Governance Process - Establish Prioritization Capabilities.  Part 2 of the process and its substeps are described under the heading Evaluation Process - CSP Submissions and Review.]({{site.baseurl}}/assets/img/et-framework-process-evaluation.png)
 
 The Evaluation Process determines if a CSO meets the ET definition and qualifying criteria. Once identified and verified, then the CSP will be placed in an accelerated position in the FedRAMP authorization queue. These steps take place during the current Preparation phase of the FedRAMP authorization process.
 
@@ -232,7 +231,7 @@ The evaluation process kicks off after a CSP has:
 *   Completed the [CSP Information Form](https://docs.google.com/forms/d/e/1FAIpQLScU4_x5UK53d0PUUDsOdqWyzUvAN1-yFJ1NxffT7PkGkCiuPg/viewform?c=0&w=1){:target="_blank" rel="nofollow"}
 *   Reached an agreement with FedRAMP on the appropriate authorization path
 *   Completed their 3PAO security assessment and has a security authorization package, including (SSP, SAP, SAR, and POA&M) and is ready for FedRAMP review
-*   Prepared and submitted their security package and business case for a CSO, following FedRAMP’s [regular authorization processes](/assets/resources/documents/CSP_Authorization_Playbook.pdf)
+*   Prepared and submitted their security package and business case for a CSO, following FedRAMP’s [regular authorization processes]({{site.baseurl}}/assets/resources/documents/CSP_Authorization_Playbook.pdf)
 
 CSPs can submit their [ET CSO Request Forms](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03) at any point in this process, though as described above, a CSP will not be evaluated for prioritization until completing their 3PAO security assessment. As part of the intake process, FedRAMP will review the ET criteria for prioritization with the CSP. Initially, there will be two open prioritization application windows during each fiscal year. ET CSO Request Forms submitted outside these active windows will be held until the next application window opens and then evaluated with other CSPs submitting in the application window.
 
