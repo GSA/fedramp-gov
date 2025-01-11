@@ -35,8 +35,7 @@ navigation:
       - id: et-demand-form
         title: ET Demand Form
       - id: ET-prioritization-criteria-and-guidance
-        title: ET Prioritization Criteria and
-            Guidance
+        title: ET Prioritization Criteria and <br> Guidance
 quick_links:
   - title: ET CSO Request Form
     url: https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03
