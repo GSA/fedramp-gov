@@ -9,6 +9,8 @@ summary:
 
 # Fiscal Year 2025 (FY25)
 
+## January, 2025 (FY25 Q2)
+- 2025-1-13: Updated [Emerging Technology Framework]({{"/updates/et-framework" | relative_url}}) to remove fixed application windows
 ## December, 2024 (FY25 Q1)
 
 - 2024-12-26: Added [RFC-0003 Review Initiation Checks
