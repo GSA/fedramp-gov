@@ -14,11 +14,9 @@ layout: full-width
         <li>
           <a href="#{{ item.id }}">{{ item.title }}</a>
           {% if item.children %}
-            <ul>
-              {% for child in item.children %}
+            {% for child in item.children %}
                 <li class="in-page-sub"><a href="#{{ child.id }}">{{ child.title }}</a></li>
-              {% endfor %}
-            </ul>
+            {% endfor %}
           {% endif %}
         </li>
       {% endfor %}

@@ -243,4 +243,68 @@ CSPs can submit their [ET CSO Request Forms](https://app.smartsheetgov.com/b/for
 
 **Informed:** None
 
-**What:** CSPs in consultation with their agency partner will submit the [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb
+**What:** CSPs in consultation with their agency partner will submit the [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"}
+
+**Input:** Justification of how CSP meets ET criteria, and a decision to complete the ET prioritization process with FedRAMP.
+
+**Outputs:** Completed ET CSO Request and Demand Forms submitted to FedRAMP for consideration.
+
+**Estimated Duration:** Variable depending on type of ET, complexity of CSO and qualifying criteria, availability of demand data.
+
+#### 2. Qualification Determination and Queue Placement
+
+**Responsible / Accountable:** FedRAMP
+
+**Consult:** Agency Partner and Liaison, CSP
+
+**Informed:** None
+
+**What:** FedRAMP determines if the CSO meets the ET prioritization qualifying criteria in consultation with the agency partner. If the criteria are met, FedRAMP will review the ET demand forms and calculate the total demand score. FedRAMP will select qualifying CSOs based on their demand score up to the ET capability target.
+
+If the criteria are not met, or if other offerings have the demand score, the CSO will still be placed in queue to be reviewed following the standard process.
+
+**Input:** ET CSO Request Form, ET Demand Forms
+
+**Output:** Approve or deny that the CSO meets the ET criteria, ET CSO Prioritization Decision Justification, Process CSO accordingly
+
+**Service Level Agreement Target:** 2 weeks
+
+**Service Level Agreement Threshold:** 4 weeks
+
+#### 3. Monitor ET Approvals
+
+**Responsible / Accountable:** FedRAMP
+
+**Consult:** FedRAMP Board
+
+**Informed:** CIO Federal and CISO council
+
+**What:** FedRAMP will monitor the prioritized CSOs throughout the lifecycle of the ET prioritization process. FedRAMP Security Review Team regularly tracks and communicates the progress of prioritized CSOs towards authorization.
+
+Notification will be sent to the Board and the CIO and Federal Councils when the ET capability target is reached. Subsequently, the Board may initiate a request to do an off-cycle round of the ET governance process.
+
+**Input:** Authorization Packages
+
+**Outputs:** Metrics Dashboard and Reports, Report on Prioritized and Non-Prioritized CSOs
+
+**Service Level Agreement Target:** 2 weeks
+
+**Service Level Agreement Threshold:** 4 weeks
+
+## Supporting Resources {#supporting-resources}
+
+### ET List {#et-list}
+
+[List of ETs]({{site.baseurl}}/et-framework/emerging-technology-list/) will be updated annually at a minimum and on-demand based on stakeholder feedback. This list is further refined by FedRAMP after inputs from the CIO Council, the Federal CISO Council, and other industry inputs as described by the governance process. The updated list must be approved by the Board.
+
+### ET CSO Request Form {#et-cso-request-form}
+
+The [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb95fbbc2d1d54c03){:target="_blank" rel="nofollow"} serves to identify whether the CSP or CSO meets the ET criteria for prioritization, and collects information about the CSO.
+
+### ET Demand Form {#et-demand-form}
+
+The [ET Demand Form](https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580){:target="_blank" rel="nofollow"} serves to identify the CSO's demand.
+
+### ET Prioritization Criteria and Guidance {#ET-prioritization-criteria-and-guidance}
+
+A detailed instruction manual on how to fill out the ET CSO Request Form and the ET Demand Form is located electronically here: [Emerging Technologies Prioritization Criteria and Guidance]({{site.baseurl}}/assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf){:target="_blank" rel="nofollow"}.
