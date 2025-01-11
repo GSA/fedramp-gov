@@ -16,7 +16,7 @@ navigation:
     title: Purpose and Scope
   - id: framework-elements
     title: Framework Elements
-  - id: ET-prioritization-framework
+  - id: et-prioritization-framework
     title: ET Prioritization Framework
     children:
       - id: overview
@@ -34,7 +34,7 @@ navigation:
         title: ET CSO Request Form
       - id: et-demand-form
         title: ET Demand Form
-      - id: ET-prioritization-criteria-and-guidance
+      - id: et-prioritization-criteria-and-guidance
         title: ET Prioritization Criteria and <br> Guidance
 quick_links:
   - title: ET CSO Request Form
@@ -306,6 +306,6 @@ The [ET CSO Request Form](https://app.smartsheetgov.com/b/form/4a8391a923da4c4bb
 
 The [ET Demand Form](https://app.smartsheetgov.com/b/form/d08f3afe5e8142f9b76f595ef42e9580){:target="_blank" rel="nofollow"} serves to identify the CSO's demand.
 
-### ET Prioritization Criteria and Guidance {#ET-prioritization-criteria-and-guidance}
+### ET Prioritization Criteria and Guidance {#et-prioritization-criteria-and-guidance}
 
 A detailed instruction manual on how to fill out the ET CSO Request Form and the ET Demand Form is located electronically here: [Emerging Technologies Prioritization Criteria and Guidance]({{site.baseurl}}/assets/resources/documents/Emerging-Technologies-Prioritization-Criteria-and-Guidance-V3.pdf){:target="_blank" rel="nofollow"}.
