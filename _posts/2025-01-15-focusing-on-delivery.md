@@ -2,7 +2,7 @@
 title: Focusing on Delivery 
 permalink: /2025-01-15-focusing-on-delivery/
 body-class: page-blog
-image: /assets/img/blog-images/2021-20-09-Importance-of-ATO-Letter-Submission.png
+image: /assets/img/blog-images/2025-01-16-focusing-on-delivery.png
 author: FedRAMP
 layout: blog-page
 ---
@@ -20,7 +20,7 @@ This policy provides guidance on navigating competing requirements for the use o
 This draft policy opens discussion on clarifications for the documentation and assessment of the FedRAMP boundary and the reuse of FedRAMP authorized cloud service offerings services by cloud service providers. The draft policy defines the FedRAMP boundary as all services that handle federal information, or directly impact the confidentiality, integrity, or availability of federal information.</p> 
 
 <section class="fedramp-page-container lightest-gray-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 2rem 0" >
+	<div class="grid-container " style="padding: 1rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p><b>Call to Action:</b> Learn more <a href="https://www.fedramp.gov/updates/rfcs/" target="_blank" rel="noopener noreferrer">here</a> and comment on our open FedRAMP RFCs. 
