@@ -1,6 +1,6 @@
 ---
 title: Focusing on Delivery 
-permalink: /2025-01-15-focusing-on-delivery/
+permalink: /2025-01-16-focusing-on-delivery/
 body-class: page-blog
 image: /assets/img/blog-images/2025-01-16-focusing-on-delivery.png
 author: FedRAMP
@@ -36,7 +36,7 @@ This draft policy opens discussion on clarifications for the documentation and a
 	<div class="grid-container " style="padding: 1rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<p><b>Call to Action:</b> Bookmark <a href="https://www.fedramp.gov/updates/changelog/" target="_blank" rel="noopener noreferrer">https://www.fedramp.gov/updates/changelog/</a>
+<p><b>Call to Action:</b> Bookmark <a href="https://www.fedramp.gov/updates/changelog/" target="_blank" rel="noopener noreferrer">https://www.fedramp.gov/updates/changelog/</a>.
 </p>
 			</div>
 		</div>
@@ -49,7 +49,7 @@ This draft policy opens discussion on clarifications for the documentation and a
 	<div class="grid-container " style="padding: 1rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<p><b>Call to Action:</b>Go <a href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank" rel="noopener noreferrer">here</a> and sign up to participate
+<p><b>Call to Action: </b>Go <a href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank" rel="noopener noreferrer">here</a> and sign up to participate.
 </p>
 			</div>
 		</div>
