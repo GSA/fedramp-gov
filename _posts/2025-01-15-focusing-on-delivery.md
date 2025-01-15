@@ -12,7 +12,7 @@ The story last year for FedRAMP was one of change, including the end of the Join
 <h3>FedRAMP is delivering on that vision by:</h3>
 <h4>1. Updating policies and public comment:</h4> We’ve shifted to a more aggressive cadence for releasing draft updates for policies and directives that will affect cloud service providers. We expect to see Requests for Comment (RFC) become a routine activity, with multiple RFCs open at any given time as FedRAMP continuously works to improve. We added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that has been released recently or is expected to be released soon.
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
-<b>[Cryptographic Module Selection Policy - published](https://www.fedramp.gov/updates/docs/cryptographic-module/)</b>
+<b><a href="https://www.fedramp.gov/updates/docs/cryptographic-module/" target="_blank" rel="noopener noreferrer">Cryptographic Module Selection Policy - published</a></b>
 This policy provides guidance on navigating competing requirements for the use of FIPS-140 validated cryptographic modules and to remediate known vulnerabilities. The policy takes a risk-based approach and prioritizes the application of updates to remediate known vulnerabilities that can pose immediate risk to federal information.</p>
 
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
