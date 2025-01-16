@@ -18,14 +18,14 @@ navigation:
   - id: section1
     title: 1. Policy Overview
   - id: section2
-    title: 2.0 Background
+    title: 2 Background
     children:
       - id: section21
         title: 2.1 Cases Where a Validated Module <br> Is Not Necessary
       - id: section22
         title: 2.2 Risks of Using Validated Modules <br> with Known Vulnerabilities
   - id: section3
-    title: Requirements and Recommendations
+    title: 3 Requirements and <br> Recommendations
     children:
       - id: section31
         title: 3.1 Cloud Service Providers
@@ -46,11 +46,7 @@ quick_links:
 
 This policy was approved by the FedRAMP BOARD on January 16, 2025 and is effective immediately. 
 
-### FEEDBACK {#feedback}
-
-Suggestions for improving the policy are welcome anytime through the feedback form at [https://www.fedramp.gov/documents-templates/](https://www.fedramp.gov/documents-templates/).
-
-## APPLICABILITY {#applicability}
+## Applicability {#applicability}
 
 This policy defines requirements and recommendations for the following parties:
 
@@ -65,7 +61,11 @@ This policy defines requirements and recommendations for the following parties:
 
 * **Reviewers of FedRAMP packages** may include FedRAMP’s own reviewers and/or package review teams from FedRAMP designated leads. 
 
-Section 3 of this policy is normative. The rest of this policy is informative. This policy is effective immediately.
+[Section 3](#section3) of this policy is normative. The rest of this policy is informative. This policy is effective immediately.
+
+### Feedback {#feedback}
+
+Suggestions for improving the policy are welcome anytime through the feedback form at [https://www.fedramp.gov/documents-templates/](https://www.fedramp.gov/documents-templates/).
 
 ## 1. Policy Overview {#section1}
 
@@ -122,7 +122,7 @@ FedRAMP has several goals for this policy:
 
 To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and information secure. 
 
-### **2.1 Cases Where a Validated Module Is Not Necessary** {#section21}
+### 2.1 Cases Where a Validated Module Is Not Necessary {#section21}
 
 There are some cases where a CSP does not need to use a validated cryptographic module because the module is not necessary for protecting federal systems and information. Here are a few examples:
 
@@ -136,7 +136,7 @@ There are some cases where a CSP does not need to use a validated cryptographic 
 
 These examples are not exhaustive. They illustrate some common reasons why the use of validated cryptographic modules might not be needed. 
 
-### **2.2 Risks of Using Validated Modules with Known Vulnerabilities** {#section22}
+### 2.2 Risks of Using Validated Modules with Known Vulnerabilities {#section22}
 
 The management and implementation of cryptography is a critical part of the system development life cycle. CSPs need to apply a risk-informed approach when addressing vulnerabilities in systems and cryptographic modules. As explained earlier in this section, FedRAMP generally prefers use of an unvalidated module with no known vulnerabilities over the use of a known-vulnerable validated module. 
 
@@ -173,7 +173,7 @@ This section defines requirements and recommendations related to cryptographic m
 
 Each requirement and recommendation has an identifier that is unique across FedRAMP policies. This identification approach enables referencing specific requirements and recommendations in this and other resources.
 
-### **3.1 Cloud Service Providers** {#section31}
+### 3.1 Cloud Service Providers {#section31}
 
 The FedRAMP marketplace facilitates effective risk-based decisions by both agencies and CSPs. Agency authorizing officials (AOs) need to be able to know and understand the risks in any cloud service offering they authorize. CSPs working toward a FedRAMP authorization also need the confidence and visibility to leverage or build on another FedRAMP authorized cloud service offering as part of their own offering. 
 
@@ -231,7 +231,7 @@ CSPs play the most important role in ensuring the adequacy of cryptographic prot
 
   FIPS validation increases the level of assurance for software cryptographic modules, so FIPS validation should continue to occur. 
 
-### **3.2 Independent Assessors** {#section32}
+### 3.2 Independent Assessors {#section32}
 
 The following requirements specific to cryptographic modules apply to all independent assessors. The activities help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.
 
@@ -245,7 +245,7 @@ The following requirements specific to cryptographic modules apply to all indepe
 
 * **FRR17:** IAs **shall** verify that POA\&Ms related to cryptographic modules are created by the CSP when required, are updated regularly, and are not overdue. 
 
- ### **3.3 FedRAMP Designated Leads** {#section33}
+### 3.3 FedRAMP Designated Leads {#section33}
 
 The following requirements specific to cryptographic modules apply to FedRAMP designated leads. They help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.
 
@@ -253,7 +253,7 @@ The following requirements specific to cryptographic modules apply to FedRAMP de
 
 * **FRR19:** FedRAMP designated leads **shall** review SC-13 findings in the POA\&M and related risk identification and mitigation documentation provided within the CSO repository and ensure that the required milestones are met on schedule.
 
-### **3.4 Package Reviewers** {#section34}
+### 3.4 Package Reviewers {#section34}
 
 The following requirements apply to FedRAMP reviewers and designated lead package review teams. Package reviewers help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1, which are a requirement for all FedRAMP authorizations.
 
