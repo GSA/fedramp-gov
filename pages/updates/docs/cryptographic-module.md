@@ -69,7 +69,7 @@ Suggestions for improving the policy are welcome anytime through the feedback fo
 
 ## 1. Policy Overview {#section1}
 
-When protecting federal information systems (“systems”) and information (“data”)[^1], Federal agencies are required[^2] to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final).
+When protecting federal information systems (“systems”) and information (“data”)[^1^](#footnote1){#returnnote1}, Federal agencies are required[^2^](#footnote2){#returnnote2} to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final).
 
 Federal agencies are also required to patch or update their software in order to protect federal systems and information. Sources of these requirements include [Cybersecurity Directives](https://www.cisa.gov/news-events/directives) from the Cybersecurity and Infrastructure Security Agency (CISA), and FIPS 200, [*Minimum Security Requirements for Federal Information and Information Systems*](https://doi.org/10.6028/NIST.FIPS.200) from NIST. 
 
@@ -87,8 +87,7 @@ The presence of known vulnerabilities can create risks that outweigh the assuran
 
 **For this reason, update streams are encouraged by this policy to ensure that remedies for known vulnerabilities are deployed quickly and that use of effective cryptography is encouraged where it is needed.**
 
-[^1]: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.”
-[^2]: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)
+
 
 ## 2. Background {#section2}
 
@@ -265,6 +264,11 @@ The following requirements apply to FedRAMP reviewers and designated lead packag
 * **FRR20:** Package reviewers **shall** verify that all cryptographic use cases and modules are accurately and comprehensively documented as specified in FRR2 and FRR3 and that IAs have reviewed this information as specified in FRR16, including the specific modules and versions in use. 
 
 * **FRR21:** Package reviewers **shall** validate that the assessment artifacts represent a thorough evaluation where unvalidated modules are used to meet a control requirement.
+
+### Footnotes {#footnotes}
+
+1: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” [return](#returnnote1) {footnote1}
+2: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)[return](#returnnote2) {footnote2}
 
 
 ## DOCUMENT REVISION HISTORY {#revisionhistory}
