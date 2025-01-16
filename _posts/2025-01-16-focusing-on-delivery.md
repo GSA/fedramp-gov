@@ -27,11 +27,11 @@ We’ve shifted to a more aggressive cadence for releasing draft updates for pol
 
 <h4>Demonstrating regular progress</h4> All priority FedRAMP initiatives now have dedicated sections on our website in the Updates & Priorities menu that will be updated regularly. We’ve also created a simple Changelog Page that we’ll continue to maintain as initiatives advance, announcements are made, or other significant changes happen within the program. 
 
-<p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/changelog/" target="_blank">Bookmark https://www.fedramp.gov/updates/changelog/.</a></p>
+<p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/changelog/" target="_blank">Bookmark https://www.fedramp.gov/updates/changelog/</a></p>
 
 <h4>Developing in the open</h4> FedRAMP’s developer team is hard at work enhancing the data, documentation, and tools to make digital authorization package submissions with [the FedRAMP Platform](https://www.fedramp.gov/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/) possible. The team runs several industry engagement touchpoints, including bi-weekly OSCAL Implementers meetings for [the Digital Authorization Pilot](https://www.fedramp.gov/updates/pilots/digital-authorization-package/); monthly briefings on all the automation initiatives; ad-hoc office hour sessions with developers; and troubleshoots real-time GitHub requests from the developer community.
 
-<p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank">Sign up to participate.</a></p>
+<p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank">Sign up to participate</a></p>
 
 <h3>In case you missed it</h3>
 Operating in the open with a focus on delivery means we’ve been publishing some key content (even over the holidays!) as quickly as possible without a lot of fanfare. That’s why we want to highlight our new [Requests for Comment (RFC) landing page](https://www.fedramp.gov/updates/rfcs/) and all the activity happening around our work towards improving FedRAMP policies and directives. We need your insight to ensure our changes have the greatest benefit with the least operational impact. Here’s what you can review and comment on today:
