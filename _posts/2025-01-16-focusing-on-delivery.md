@@ -24,7 +24,7 @@ This new policy takes a risk-based approach to navigating competing requirements
 The draft policy defines the FedRAMP boundary as all services that handle federal information and/or directly impact the confidentiality, integrity, or availability of federal information. It also limits the scope of the FedRAMP boundary to reduce listing of duplication or ancillary services. This draft policy was released for public comment on January 16, 2025.</p> 
 
 <section class="fedramp-page-container lightest-teal-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: .5rem 0" >
+	<div class="grid-container " style="padding: .25rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
 <p style="text-align:center">Learn more <a href="https://www.fedramp.gov/updates/rfcs/" target="_blank" rel="noopener noreferrer">here</a> and comment on our open FedRAMP RFCs. 
