@@ -87,6 +87,8 @@ The presence of known vulnerabilities can create risks that outweigh the assuran
 
 **For this reason, update streams are encouraged by this policy to ensure that remedies for known vulnerabilities are deployed quickly and that use of effective cryptography is encouraged where it is needed.**
 
+[^1]: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.”
+[^2]: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)
 
 ## 2. Background {#section2}
 
@@ -122,6 +124,9 @@ FedRAMP has several goals for this policy:
 
 To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and information secure. 
 
+[^3]: [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final) refers to ISO/IEC 19790:2012, [“Information technology – Security techniques – Security requirements for cryptographic modules”](https://www.iso.org/standard/52906.html) for more information on cryptographic boundaries. ISO/IEC 19790 defines a cryptographic boundary as an “explicitly defined continuous perimeter that establishes the physical and/or logical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.” 
+
+[^4]:  Approved cryptographic algorithms and functions are listed on the [Cryptographic Algorithm Validation Program](https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program) site. 
 ### 2.1 Cases Where a Validated Module Is Not Necessary {#section21}
 
 There are some cases where a CSP does not need to use a validated cryptographic module because the module is not necessary for protecting federal systems and information. Here are a few examples:
