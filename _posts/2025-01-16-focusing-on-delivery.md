@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-The story last year for FedRAMP was one of change, including the end of the Joint Authorization Board, the release of the [White House Office of Management and Budget (OMB) Memorandum M-24-15](https://www.fedramp.gov/2024-07-26-the-next-phase-of-fedramp/), the creation of the FedRAMP Board and the Technical Advisory Group, and a strong vision for the future of FedRAMP. 
+The story last year for FedRAMP was one of change, including the end of the Joint Authorization Board, the release of the [White House Office of Management and Budget (OMB) Memorandum M-24-15](https://www.fedramp.gov/2024-07-26-the-next-phase-of-fedramp/), the creation of the FedRAMP Board and the Technical Advisory Group, and a strong vision for the future of FedRAMP.
 
 <h3>FedRAMP is delivering on that vision by:</h3>
 <h4>1. Updating policies and public comment:</h4> We’ve shifted to a more aggressive cadence for releasing draft updates for policies and directives that will affect cloud service providers. We expect to see Requests for Comment (RFC) become a routine activity, with multiple RFCs open at any given time as FedRAMP continuously works to improve. We added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that has been released recently or is expected to be released soon.
