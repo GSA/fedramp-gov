@@ -69,7 +69,7 @@ Suggestions for improving the policy are welcome anytime through the feedback fo
 
 ## 1. Policy Overview {#section1}
 
-When protecting federal information systems (“systems”) and information (“data”)[^1^](#footnote1), Federal agencies are required[^2^](#footnote2) to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final). {#returnnote1}
+When protecting federal information systems (“systems”) and information (“data”)<sup id="footnote1-ref"><a href="#footnote1#">1</a></sup>, Federal agencies are required[^2^](#footnote2) to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final). {#returnnote1}
 
 Federal agencies are also required to patch or update their software in order to protect federal systems and information. Sources of these requirements include [Cybersecurity Directives](https://www.cisa.gov/news-events/directives) from the Cybersecurity and Infrastructure Security Agency (CISA), and FIPS 200, [*Minimum Security Requirements for Federal Information and Information Systems*](https://doi.org/10.6028/NIST.FIPS.200) from NIST. 
 
@@ -262,18 +262,27 @@ The following requirements apply to FedRAMP reviewers and designated lead packag
 
 * **FRR21:** Package reviewers **shall** validate that the assessment artifacts represent a thorough evaluation where unvalidated modules are used to meet a control requirement.
 
-### Footnotes {#footnotes}
+## Footnotes {#footnote}
 
-1: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” [return](#returnnote1) {#footnote1}
-2: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)[return](#returnnote1) {#footnote2}
-3: Federal Information Processing Standard (FIPS) 140 refers to ISO/IEC 19790:2012, “Information technology – Security techniques – Security requirements for cryptographic modules” for more information on cryptographic boundaries. ISO/IEC 19790 defines a cryptographic boundary as an “explicitly defined continuous perimeter that establishes the physical and/or logical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.” [return](#returnnote3) {#footnote3}
-4: Approved cryptographic algorithms and functions are listed on the Cryptographic Algorithm Validation Program site. [return](#returnnote4) {#footnote4}
-5: https://doi.org/10.6028/NIST.FIPS.199 [return](#returnnote5) {footnote5}
-6: See how to access ACVTS for more information on use of the ACVTS. Usage guidelines are also available [return](#returnnote6) {#footnote6}
-7: For frequency requirements, see Section 3 of the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide. [return](#returnnote7) {#footnote7}
-8: See use of FIPS 140 logos and phrases on the CMVP website for specific phrase and logo requirements.[return](#returnnote8) {#footnote9}
-9: This is consistent with vulnerability management requirements defined in the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide, Section 3 of FedRAMP Vulnerability Scanning Requirements, and the FedRAMP Vulnerability Deviation Request Form.[return](#returnnote9) {#footnote9}
-10: SP 800-53A Rev. 5, Assessing Security and Privacy Controls in Information Systems and Organizations [return](#returnnote10) {#footnote10}
+1. OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” <a href="#footnote1-ref>">↵</a>
+
+2. [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)[return](#returnnote1) {#footnote2}\
+
+3. Federal Information Processing Standard (FIPS) 140 refers to ISO/IEC 19790:2012, “Information technology – Security techniques – Security requirements for cryptographic modules” for more information on cryptographic boundaries. ISO/IEC 19790 defines a cryptographic boundary as an “explicitly defined continuous perimeter that establishes the physical and/or logical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.” [return](#returnnote3) {#footnote3}
+
+4. Approved cryptographic algorithms and functions are listed on the Cryptographic Algorithm Validation Program site. [return](#returnnote4) {#footnote4}
+
+5. https://doi.org/10.6028/NIST.FIPS.199 [return](#returnnote5) {footnote5}
+
+6. See how to access ACVTS for more information on use of the ACVTS. Usage guidelines are also available [return](#returnnote6) {#footnote6}
+
+7. For frequency requirements, see Section 3 of the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide. [return](#returnnote7) {#footnote7}
+
+8. See use of FIPS 140 logos and phrases on the CMVP website for specific phrase and logo requirements.[return](#returnnote8) {#footnote9}
+
+9. This is consistent with vulnerability management requirements defined in the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide, Section 3 of FedRAMP Vulnerability Scanning Requirements, and the FedRAMP Vulnerability Deviation Request Form.[return](#returnnote9) {#footnote9}
+
+10. SP 800-53A Rev. 5, Assessing Security and Privacy Controls in Information Systems and Organizations [return](#returnnote10) {#footnote10}
 
 
 ## DOCUMENT REVISION HISTORY {#revisionhistory}
