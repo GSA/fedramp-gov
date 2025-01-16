@@ -69,7 +69,7 @@ Suggestions for improving the policy are welcome anytime through the feedback fo
 
 ## 1. Policy Overview {#section1}
 
-When protecting federal information systems (“systems”) and information (“data”)[^1^](#footnote1){#returnnote1}, Federal agencies are required[^2^](#footnote2){#returnnote2} to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final).
+When protecting federal information systems (“systems”) and information (“data”)[^1^](#footnote1), Federal agencies are required[^2^](#footnote2) to use cryptographic modules that have been validated by NIST’s [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program) as complying with the [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final). {#returnnote1}
 
 Federal agencies are also required to patch or update their software in order to protect federal systems and information. Sources of these requirements include [Cybersecurity Directives](https://www.cisa.gov/news-events/directives) from the Cybersecurity and Infrastructure Security Agency (CISA), and FIPS 200, [*Minimum Security Requirements for Federal Information and Information Systems*](https://doi.org/10.6028/NIST.FIPS.200) from NIST. 
 
@@ -93,7 +93,7 @@ The presence of known vulnerabilities can create risks that outweigh the assuran
 
 Cryptography is the science of information hiding and verification. It includes the protocols, algorithms, and methodologies to securely and consistently prevent unauthorized access to sensitive information and enable verifiability of the information. The main goals include ensuring confidentiality and integrity. Cryptography is critical to protecting cloud-based information systems and their information. Cryptographic algorithms are the basis of technologies that provide foundational security and privacy guarantees in modern systems, including encryption, digital signing, one-way hashing, privacy-enhancing technologies, and other security capabilities. 
 
-Cryptographic modules are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a cryptographic boundary[^3]. The cryptographic boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms. 
+Cryptographic modules are hardware and software (including firmware) that implement security functions, including cryptographic algorithms and key generation, which are contained within a cryptographic boundary[^3^](#footnote3). The cryptographic boundary differentiates functionality that is contained within the module and functionality that is provided outside the module. Cryptographic modules can be, or be part of, open-source and proprietary software libraries, hardware security modules, on-device secure enclaves, or any other form of software or special-purpose hardware that can execute cryptographic algorithms. {#returnnote3}
 
 FedRAMP is focused on the effective and transparent management of risk. Considering only the FIPS-validation status of a cryptographic module used by a product or service fails to take into account the larger risk picture based on how the module is used within the system (such as for an identity provider service or a cloud storage system versus a user endpoint), what functions it performs, what data is involved (including its sensitivity and the amount of data), and what known vulnerabilities exist in the module. For example, new vulnerabilities are discovered in software with FIPS-validated cryptographic modules from time to time. Federal agencies would need to patch or update the software to a FIPS-validated version – but such a version might not exist yet. 
 
@@ -111,7 +111,7 @@ This policy provides guidance and requirements for selecting and using cryptogra
 
 FedRAMP has several goals for this policy:
 
-1. Ensure that the approved cryptographic algorithms and functions used to protect the integrity or confidentiality of federal systems and information[^4]. 
+1. Ensure that the approved cryptographic algorithms and functions used to protect the integrity or confidentiality of federal systems and information[^4^](#footnote4). {#returnnote4}
 
 2. Avoid unintentionally incentivizing CSPs to leave federal systems or information unprotected by omitting encryption and other applications of cryptography. 
 
@@ -123,9 +123,6 @@ FedRAMP has several goals for this policy:
 
 To achieve these goals, this policy sets expectations for CSPs, independent assessors, agencies, and reviewers related to the assessment, review, and acceptance of given implementations. FedRAMP expects this policy to facilitate decisions necessary to keep federal systems and information secure. 
 
-[^3]: [Federal Information Processing Standard (FIPS) 140](https://csrc.nist.gov/pubs/fips/140-3/final) refers to ISO/IEC 19790:2012, [“Information technology – Security techniques – Security requirements for cryptographic modules”](https://www.iso.org/standard/52906.html) for more information on cryptographic boundaries. ISO/IEC 19790 defines a cryptographic boundary as an “explicitly defined continuous perimeter that establishes the physical and/or logical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.” 
-
-[^4]:  Approved cryptographic algorithms and functions are listed on the [Cryptographic Algorithm Validation Program](https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program) site. 
 ### 2.1 Cases Where a Validated Module Is Not Necessary {#section21}
 
 There are some cases where a CSP does not need to use a validated cryptographic module because the module is not necessary for protecting federal systems and information. Here are a few examples:
@@ -154,7 +151,7 @@ However, there are situations where the latter may pose less risk than the forme
 
   * any mitigations in place to address these risks
 
-* The potential impact to agency missions if there is a degradation of confidentiality, integrity, or availability for the system or information. This may already be reflected in the FIPS 199[^5] level assigned to the system.
+* The potential impact to agency missions if there is a degradation of confidentiality, integrity, or availability for the system or information. This may already be reflected in the FIPS 199[^5^](#footnote5) level assigned to the system. {#returnnote5}
 
 * The maturity of the software, the degree to which the update is based on the source code used in a validated module, and the software provider’s history with navigating the module validation process. This can help in estimating the likelihood that a new or updated module will become validated.
 
@@ -169,7 +166,7 @@ In many of these situations, the cryptographic functionality tested under CMVP i
 
 If FIPS-validated cryptographic functionality tested under CMVP is changed in the new software version, the use of that update is generally preferable than continuing to use the validated module with known defects. Using modules with CAVP-validated algorithms is strongly preferred over unvalidated algorithms because of the increased assurance that CAVP validation provides.
 
-The CAVP Automated Cryptographic Validation Testing System (ACVTS) supports automated testing. Once algorithm testing has been initially set up[^6] with the ACVTS server, this process can be automated for each release
+The CAVP Automated Cryptographic Validation Testing System (ACVTS) supports automated testing. Once algorithm testing has been initially set up[^6^](#footnote6) with the ACVTS server, this process can be automated for each release {#returnnote6}
 
 ## 3. Requirements and Recommendations {#section3}
 
@@ -205,19 +202,19 @@ CSPs play the most important role in ensuring the adequacy of cryptographic prot
 
 * **FRR6:** CSPs using any unvalidated modules that are not derived from an update stream of an existing validated module **shall** document in their POA\&M a plan for transitioning to validated modules or update streams of validated modules. The plan outlined in the POA\&M will help inform AOs’ ongoing authorization decisions. 
 
-  CSPs **shall** provide regular updates[^7] within the POA\&M on their progress toward using validated modules. 
+  CSPs **shall** provide regular updates[^7^](#footnote7) within the POA\&M on their progress toward using validated modules. {#returnnote7}
 
 * **FRR7:** CSPs **shall** provide complete visibility into cryptographic module use (including versions) in continuous monitoring data provided to FedRAMP and agencies. No exceptions can be made; this ensures that FedRAMP and agency AOs can monitor any ongoing risk related to the use of cryptographic module versions.
 
   CSPs using update streams of validated modules **shall** retain artifacts demonstrating that updated major versions are submitted to the CMVP within 6 months of release. 
 
-* **FRR8:** CSPs **shall** represent their FIPS module validation status and any related claims within publicly available documentation for their FedRAMP cloud service offerings transparently and accurately. To be accurate, these representations must use terminology approved by NIST[^8]. CSPs must not use ambiguous or CSP-defined terms such as “FIPS compliant” in their representations to FedRAMP.
+* **FRR8:** CSPs **shall** represent their FIPS module validation status and any related claims within publicly available documentation for their FedRAMP cloud service offerings transparently and accurately. To be accurate, these representations must use terminology approved by NIST[^8^](#footnote8). CSPs must not use ambiguous or CSP-defined terms such as “FIPS compliant” in their representations to FedRAMP. {#returnnote8}
 
 **The following requirements involve situations where new vulnerabilities are discovered in software in use that contains cryptographic modules and the modules are not inherited from a FedRAMP authorized service:**
 
 * **FRR9:** CSPs **shall** determine if updating to a newer version of the software, whether or not its cryptographic modules are FIPS validated, would eliminate the vulnerabilities; if it would, CSPs **shall** promptly update if that is feasible.
 
-* **FRR10:** If updating the software to eliminate known vulnerabilities is not currently an option, CSPs **shall** create or update their POA\&M based on the criticality of the vulnerabilities[^9] to communicate their plan for remediating or mitigating the vulnerabilities. The plan outlined in the POA\&M will help inform AOs’ ongoing authorization decisions.
+* **FRR10:** If updating the software to eliminate known vulnerabilities is not currently an option, CSPs **shall** create or update their POA\&M based on the criticality of the vulnerabilities[^9^](#footnote9) to communicate their plan for remediating or mitigating the vulnerabilities. The plan outlined in the POA\&M will help inform AOs’ ongoing authorization decisions. {#returnnote9}
 
 **The following recommendations apply to all CSPs in regards to the providers that implement  cryptographic modules used in their CSOs:**
 
@@ -239,7 +236,7 @@ CSPs play the most important role in ensuring the adequacy of cryptographic prot
 
 The following requirements specific to cryptographic modules apply to all independent assessors. The activities help ensure that CSPs are managing the selection and use of their cryptographic modules according to the requirements of Section 3.1.
 
-* **FRR15:** IAs **shall** perform a comprehensive examination[^10] where unvalidated modules that are not derived from an update stream of an existing validated module are used to meet a control requirement (i.e., when FRR6 applies). 
+* **FRR15:** IAs **shall** perform a comprehensive examination[^10^](#footnote10) where unvalidated modules that are not derived from an update stream of an existing validated module are used to meet a control requirement (i.e., when FRR6 applies). {#returnnote10}
 
   IAs **shall** ensure that such modules and mitigations are operating as intended and producing the documented security and risk management outcome.
 
@@ -267,8 +264,16 @@ The following requirements apply to FedRAMP reviewers and designated lead packag
 
 ### Footnotes {#footnotes}
 
-1: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” [return](#returnnote1) {footnote1}
-2: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)[return](#returnnote2) {footnote2}
+1: OMB Circular A-130, [“Managing Information as a Strategic Resource”](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines federal information system as “an information system used or operated by an agency or by a contractor of an agency or by another organization on behalf of an agency” and federal information as “information created, collected, processed, maintained, disseminated, disclosed, or disposed of by or for the Federal Government, in any medium or form.” [return](#returnnote1) {#footnote1}
+2: [https://csrc.nist.gov/projects/fips-140-3-transition-effort](https://csrc.nist.gov/projects/fips-140-3-transition-effort)[return](#returnnote1) {#footnote2}
+3: Federal Information Processing Standard (FIPS) 140 refers to ISO/IEC 19790:2012, “Information technology – Security techniques – Security requirements for cryptographic modules” for more information on cryptographic boundaries. ISO/IEC 19790 defines a cryptographic boundary as an “explicitly defined continuous perimeter that establishes the physical and/or logical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.” [return](#returnnote3) {#footnote3}
+4: Approved cryptographic algorithms and functions are listed on the Cryptographic Algorithm Validation Program site. [return](#returnnote4) {#footnote4}
+5: https://doi.org/10.6028/NIST.FIPS.199 [return](#returnnote5) {footnote5}
+6: See how to access ACVTS for more information on use of the ACVTS. Usage guidelines are also available [return](#returnnote6) {#footnote6}
+7: For frequency requirements, see Section 3 of the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide. [return](#returnnote7) {#footnote7}
+8: See use of FIPS 140 logos and phrases on the CMVP website for specific phrase and logo requirements.[return](#returnnote8) {#footnote9}
+9: This is consistent with vulnerability management requirements defined in the FedRAMP Plan of Actions and Milestones (POA&M) Template Completion Guide, Section 3 of FedRAMP Vulnerability Scanning Requirements, and the FedRAMP Vulnerability Deviation Request Form.[return](#returnnote9) {#footnote9}
+10: SP 800-53A Rev. 5, Assessing Security and Privacy Controls in Information Systems and Organizations [return](#returnnote10) {#footnote10}
 
 
 ## DOCUMENT REVISION HISTORY {#revisionhistory}
