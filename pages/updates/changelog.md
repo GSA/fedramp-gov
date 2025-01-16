@@ -11,7 +11,7 @@ summary:
 
 ## January, 2025 (FY25 Q2)
 - 2025-1-16: Updated [FedRAMP Policy for Cryptographic Module Selection and Use]({{"/updates/docs/cryptographic-module/" | relative_url}})
-  -This policy was approved by the FedRAMP BOARD on January 16, 2025 and is effective immediately.
+  - This policy was approved by the FedRAMP BOARD on January 16, 2025 and is effective immediately.
 - 2025-1-13: Updated [Emerging Technology Framework]({{"/updates/et-framework" | relative_url}}) to remove fixed application windows
 
 ## December, 2024 (FY25 Q1)
