@@ -39,14 +39,13 @@ The following documents are being prepared for final publication.
     <td>
       <li>2024-08-09 <a href="/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/">Draft Published</a></li>
       <li>2024-09-09 <a href="">Public Comment</a> Closed</li>
-      <li><em>Revising document</em></li>
+      <li>01/16/25 - Board approved, final published</li>
     </td>
     <td>
       <li>Government consensus</li>
-      <li>Board approval</li>
-      <li>Publish final guidance</li>
+      <li>N/A</li>
     </td>
-    <td>End of FY25 Q2</td>
+    <td>N/A</td>
   </tr>
   <tr valign=top>
     <td><a href="https://publish.smartsheetgov.com/d242efc37a9d49b099de97e82913454e">FedRAMP Metrics</a></td>
