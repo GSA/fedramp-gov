@@ -17,11 +17,11 @@ We’ve shifted to a more aggressive cadence for releasing draft updates for pol
 
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
 <b><a href="https://www.fedramp.gov/updates/docs/cryptographic-module/" target="_blank" rel="noopener noreferrer">FedRAMP Cryptographic Module Selection and Use Policy</a></b></p>
-<p>This new policy takes a risk-based approach to navigating competing requirements for the use of FIPS-140 validated cryptographic modules by prioritizing the application of updates to remediate known vulnerabilities that can pose immediate risk to federal information. This policy was approved by the FedRAMP Board and published on January 16, 2025.</p>
+<p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">This new policy takes a risk-based approach to navigating competing requirements for the use of FIPS-140 validated cryptographic modules by prioritizing the application of updates to remediate known vulnerabilities that can pose immediate risk to federal information. This policy was approved by the FedRAMP Board and published on January 16, 2025.</p>
 
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
 <b><a href="https://www.fedramp.gov/updates/rfcs/0004" target="_blank" rel="noopener noreferrer">FedRAMP Boundary Policy</a></b> (draft, request for comment)</p>
-<p>The draft policy defines the FedRAMP boundary as all services that handle federal information and/or directly impact the confidentiality, integrity, or availability of federal information. It also limits the scope of the FedRAMP boundary to reduce listing of duplication or ancillary services. This draft policy was released for public comment on January 16, 2025.</p> 
+<p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">The draft policy defines the FedRAMP boundary as all services that handle federal information and/or directly impact the confidentiality, integrity, or availability of federal information. It also limits the scope of the FedRAMP boundary to reduce listing of duplication or ancillary services. This draft policy was released for public comment on January 16, 2025.</p> 
 
 <p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/rfcs/" target="_blank">Learn more and comment on our open FedRAMP RFCs.</a></p>
 
