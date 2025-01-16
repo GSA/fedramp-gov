@@ -24,10 +24,10 @@ This new policy takes a risk-based approach to navigating competing requirements
 The draft policy defines the FedRAMP boundary as all services that handle federal information and/or directly impact the confidentiality, integrity, or availability of federal information. It also limits the scope of the FedRAMP boundary to reduce listing of duplication or ancillary services. This draft policy was released for public comment on January 16, 2025.</p> 
 
 <section class="fedramp-page-container lightest-teal-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 1rem 0" >
+	<div class="grid-container " style="padding: .5rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<p>Learn more <a href="https://www.fedramp.gov/updates/rfcs/" target="_blank" rel="noopener noreferrer">here</a> and comment on our open FedRAMP RFCs. 
+<p style="text-align:center">Learn more <a href="https://www.fedramp.gov/updates/rfcs/" target="_blank" rel="noopener noreferrer">here</a> and comment on our open FedRAMP RFCs. 
 </p>
 			</div>
 		</div>
@@ -37,10 +37,10 @@ The draft policy defines the FedRAMP boundary as all services that handle federa
 <h4>Demonstrating regular progress</h4> All priority FedRAMP initiatives now have dedicated sections on our website in the Updates & Priorities menu that will be updated regularly. We’ve also created a simple Changelog Page that we’ll continue to maintain as initiatives advance, announcements are made, or other significant changes happen within the program. 
 
 <section class="fedramp-page-container lightest-teal-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 1rem 0" >
+	<div class="grid-container " style="padding: .5rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<p>Bookmark <a href="https://www.fedramp.gov/updates/changelog/" target="_blank" rel="noopener noreferrer">https://www.fedramp.gov/updates/changelog/</a>.
+<p style="text-align:center">Bookmark <a href="https://www.fedramp.gov/updates/changelog/" target="_blank" rel="noopener noreferrer">https://www.fedramp.gov/updates/changelog/</a>.
 </p>
 			</div>
 		</div>
@@ -50,10 +50,10 @@ The draft policy defines the FedRAMP boundary as all services that handle federa
 <h4>Developing in the open</h4> FedRAMP’s developer team is hard at work enhancing the data, documentation, and tools to make digital authorization package submissions with [the FedRAMP Platform](https://www.fedramp.gov/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/) possible. The team runs several industry engagement touchpoints, including bi-weekly OSCAL Implementers meetings for [the Digital Authorization Pilot](https://www.fedramp.gov/updates/pilots/digital-authorization-package/); monthly briefings on all the automation initiatives; ad-hoc office hour sessions with developers; and troubleshoots real-time GitHub requests from the developer community.
 
 <section class="fedramp-page-container lightest-teal-bkg" style="margin-top:30px">
-	<div class="grid-container " style="padding: 1rem 0" >
+	<div class="grid-container " style="padding: .5rem 0" >
 		<div class="full-row grid-row">
 			<div class="full-col desktop:grid-col-12">
-<p>Go <a href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank" rel="noopener noreferrer">here</a> and sign up to participate.
+<p style="text-align:center">Go <a href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank" rel="noopener noreferrer">here</a> and sign up to participate.
 </p>
 			</div>
 		</div>
