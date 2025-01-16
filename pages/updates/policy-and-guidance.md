@@ -38,8 +38,8 @@ The following documents are being prepared for final publication.
     <td>This guidance will clarify requirements for use of cryptographic modules within a system boundary.</td>
     <td>
       <li>2024-08-09 <a href="/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/">Draft Published</a></li>
-      <li>2024-09-09 <a href="">Public Comment</a> Closed</li>
-      <li>2025-01-16 - Board approved, final published</li>
+      <li>2024-09-09 Public Comment Closed</li>
+      <li>2025-01-16 - Board approved, <a href="/updates/docs/cryptographic-module">final published</a></li>
     </td>
     <td>
       <li>Government consensus</li>
