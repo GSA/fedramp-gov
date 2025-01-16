@@ -966,6 +966,25 @@ ol.training-step-sub {
 	}
 	}
 
+.auth-resources-download1 {
+	border-radius: 20px;
+	border: solid 1px $dark-gray;
+	padding: 4px 14px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 800;
+	cursor: pointer;
+
+	&:visited {
+		color: $mid-gray;
+	}
+
+	&:hover {
+		color: $red;
+		border: solid 1px $red;
+	}
+	}
+
 .training-sign-up.no-line {
 		border-bottom: none;
 	}
