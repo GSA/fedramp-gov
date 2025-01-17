@@ -43,7 +43,7 @@ quick_links:
     url: https://csrc.nist.gov/pubs/fips/140-3/final
     external: true
   - title: Download PDF version of the Policy
-    url: {{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf
+    url: /assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf
 ---
 
 ## Effective Date {#effectivedate}
