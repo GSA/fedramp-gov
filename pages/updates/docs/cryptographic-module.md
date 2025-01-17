@@ -45,7 +45,7 @@ quick_links:
 
 ## Effective Date {#effectivedate}
 
-This policy was approved by the FedRAMP BOARD on January 16, 2025 and is
+This policy was approved by the FedRAMP Board on January 16, 2025 and is
 effective immediately.
 
 ## Applicability {#applicability}
