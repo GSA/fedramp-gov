@@ -17,7 +17,7 @@ summary:
   Use]({{"/updates/docs/cryptographic-module/" | relative_url}})
   - This policy was approved by the FedRAMP Board on January 16, 2025 and is
     effective immediately.
-    [Download the PDF version of the Policy]({{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf)
+  - [Download the PDF version of the Policy]({{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf)
 - 2025-01-16: Updated the [Agile Delivery Pilot]({{"/updates/pilots/agile-delivery" | relative_url}}) page to indicate
   Pilot Phase 1 has concluded and recommendations for updating the SCR process
   will be forthcoming.
