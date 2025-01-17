@@ -7,7 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-FedRAMP has shifted to a more aggressive cadence for releasing draft updates for policies and directives and we expect to see [Requests for Comment (RFC)](https://www.fedramp.gov/rfcs) become a routine activity with multiple RFCs open at any given time as FedRAMP continuously works to improve. We’ve also added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that we’re working on.
+FedRAMP has shifted to a more aggressive cadence for releasing draft updates for policies and directives. We expect to see [Requests for Comment (RFC)](https://www.fedramp.gov/rfcs) become a routine activity with multiple RFCs open at any given time as FedRAMP continuously works to improve. We’ve also added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that we’re working on.
 
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
 <b><a href="https://www.fedramp.gov/updates/docs/cryptographic-module/" target="_blank" rel="noopener noreferrer">FedRAMP Cryptographic Module Selection and Use Policy</a></b></p>
