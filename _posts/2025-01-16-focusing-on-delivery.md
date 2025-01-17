@@ -7,13 +7,7 @@ author: FedRAMP
 layout: blog-page
 ---
 
-The story last year for FedRAMP was one of change, including the end of the Joint Authorization Board, the release of the [White House Office of Management and Budget (OMB) Memorandum M-24-15](https://www.fedramp.gov/2024-07-26-the-next-phase-of-fedramp/), the creation of the FedRAMP Board and the Technical Advisory Group, and a strong vision for the future of FedRAMP.
-
-<h3>FedRAMP is delivering on that vision by:</h3>
-
-<h4>Updating policies and requesting comment</h4> 
-
-We’ve shifted to a more aggressive cadence for releasing draft updates for policies and directives and we expect to see [Requests for Comment (RFC)](https://www.fedramp.gov/rfcs) become a routine activity with multiple RFCs open at any given time as FedRAMP continuously works to improve. We’ve also added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that we’re working on.
+FedRAMP has shifted to a more aggressive cadence for releasing draft updates for policies and directives and we expect to see [Requests for Comment (RFC)](https://www.fedramp.gov/rfcs) become a routine activity with multiple RFCs open at any given time as FedRAMP continuously works to improve. We’ve also added a [Policy and Guidance Updates page](https://www.fedramp.gov/updates/policy-and-guidance/) to our website that reflects the current status of policy and guidance that we’re working on.
 
 <p style="margin-top: 22px; margin-bottom: 0rem; padding-left:32px;">
 <b><a href="https://www.fedramp.gov/updates/docs/cryptographic-module/" target="_blank" rel="noopener noreferrer">FedRAMP Cryptographic Module Selection and Use Policy</a></b></p>
@@ -25,11 +19,11 @@ We’ve shifted to a more aggressive cadence for releasing draft updates for pol
 
 <p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/rfcs/" target="_blank">Learn more and comment on our open FedRAMP RFCs</a></p>
 
-<h4>Demonstrating regular progress</h4> All priority FedRAMP initiatives now have dedicated sections on our website in the Updates & Priorities menu that will be updated regularly. We’ve also created a simple Changelog Page that we’ll continue to maintain as initiatives advance, announcements are made, or other significant changes happen within the program. 
+All priority FedRAMP initiatives now have dedicated sections on our website in the Updates & Priorities menu that will be updated regularly. We’ve also created a simple Changelog Page that we’ll continue to maintain as initiatives advance, announcements are made, or other significant changes happen within the program. 
 
 <p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/changelog/" target="_blank">Bookmark https://www.fedramp.gov/updates/changelog/</a></p>
 
-<h4>Developing in the open</h4> FedRAMP’s developer team is hard at work enhancing the data, documentation, and tools to make digital authorization package submissions with [the FedRAMP Platform](https://www.fedramp.gov/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/) possible. The team runs several industry engagement touchpoints, including bi-weekly OSCAL Implementers meetings for [the Digital Authorization Pilot](https://www.fedramp.gov/updates/pilots/digital-authorization-package/); monthly briefings on all the automation initiatives; ad-hoc office hour sessions with developers; and troubleshoots real-time GitHub requests from the developer community.
+FedRAMP’s developer team is hard at work enhancing the data, documentation, and tools to make digital authorization package submissions with [the FedRAMP Platform](https://www.fedramp.gov/2024-09-03-the-missing-piece-of-our-modernization-puzzle-the-fedramp-platform/) possible. The team runs several industry engagement touchpoints, including bi-weekly OSCAL Implementers meetings for [the Digital Authorization Pilot](https://www.fedramp.gov/updates/pilots/digital-authorization-package/); monthly briefings on all the automation initiatives; ad-hoc office hour sessions with developers; and troubleshoots real-time GitHub requests from the developer community.
 
 <p><a class="auth-resources-download1"  href="https://www.fedramp.gov/updates/pilots/digital-authorization-package/" target="_blank">Sign up to participate</a></p>
 
