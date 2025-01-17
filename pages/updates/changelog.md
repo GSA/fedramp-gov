@@ -10,9 +10,19 @@ summary:
 # Fiscal Year 2025 (FY25)
 
 ## January, 2025 (FY25 Q2)
-- 2025-1-16: Updated [FedRAMP Policy for Cryptographic Module Selection and Use]({{"/updates/docs/cryptographic-module/" | relative_url}})
-  - This policy was approved by the FedRAMP BOARD on January 16, 2025 and is effective immediately.
-- 2025-1-13: Updated [Emerging Technology Framework]({{"/updates/et-framework" | relative_url}}) to remove fixed application windows
+
+- 2025-1-16: Updated [FedRAMP Policy for Cryptographic Module Selection and
+  Use]({{"/updates/docs/cryptographic-module/" | relative_url}})
+  - This policy was approved by the FedRAMP Board on January 16, 2025 and is
+    effective immediately.
+  - _PDF versions will be added soon._
+- 2025-01-16: Updated the [Agile Delivery
+  Pilot]({{"/updates/pilots/agile-delivery" | relative_url}}) page to indicate
+  Pilot Phase 1 has concluded and recommendations for updating the SCR process
+  will be forthcoming.
+- 2025-1-13: Updated [Emerging Technology
+  Framework]({{"/updates/et-framework" | relative_url}}) to remove fixed
+  application windows
 
 ## December, 2024 (FY25 Q1)
 
