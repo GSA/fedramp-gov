@@ -11,7 +11,9 @@ summary:
 
 ## January, 2025 (FY25 Q2)
 
-- 2025-1-16: Updated [FedRAMP Policy for Cryptographic Module Selection and
+- 2025-01-16: Added [RFC-0004 Boundary
+  Policy]({{"/updates/rfcs/0004" | relative_url}}) for comment
+- 2025-01-16: Updated [FedRAMP Policy for Cryptographic Module Selection and
   Use]({{"/updates/docs/cryptographic-module/" | relative_url}})
   - This policy was approved by the FedRAMP Board on January 16, 2025 and is
     effective immediately.
