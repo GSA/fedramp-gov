@@ -1,6 +1,6 @@
 ---
 title: Focusing on Delivery 
-permalink: /2025-01-16-focusing-on-delivery/
+permalink: /2025-01-17-focusing-on-delivery/
 body-class: page-blog
 image: /assets/img/blog-images/2025-01-16-focusing-on-delivery.png
 author: FedRAMP
