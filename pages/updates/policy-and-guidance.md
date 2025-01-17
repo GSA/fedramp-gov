@@ -18,36 +18,17 @@ For a list of active
 
 ## Recently Completed
 
+- [FedRAMP Policy for Cryptographic Module Selection and
+  Use]({{"/updates/docs/cryptographic-module/" | relative_url}}) - Posted Jan
+  16, 2025
 - [3PAO Readiness Assessment Report Guide, Version 3.2](https://www.fedramp.gov/assets/resources/documents/3PAO_Readiness_Assessment_Report_Guide.pdf) -
-  Posted Oct. 17, 2024
+  Posted Oct 17, 2024
 
 ## Finalizing
 
 The following documents are being prepared for final publication.
 
 <table>
-  <tr valign=bottom>
-    <td><b>Guidance or Policy</b></td>
-    <td><b>Goal</b></td>
-    <td><b>Actions Taken</b></td>
-    <td><b>Actions Remaining</b></td>
-    <td><b>Estimated Completion</b></td>
-  </tr>
-  <tr valign=top>
-    <td><a href="/updates/docs/cryptographic-module">FIPS-140 Cryptographic Modules</a></td>
-    <td>This guidance will clarify requirements for use of cryptographic modules within a system boundary.</td>
-    <td>
-      <li>2024-08-09 <a href="/2024-08-09-strengthening-the-use-of-cryptography-to-secure-federal-cloud-systems/">Draft Published</a></li>
-      <li>2024-09-09 <a href="">Public Comment</a> Closed</li>
-      <li><em>Revising document</em></li>
-    </td>
-    <td>
-      <li>Government consensus</li>
-      <li>Board approval</li>
-      <li>Publish final guidance</li>
-    </td>
-    <td>End of FY25 Q2</td>
-  </tr>
   <tr valign=top>
     <td><a href="https://publish.smartsheetgov.com/d242efc37a9d49b099de97e82913454e">FedRAMP Metrics</a></td>
     <td>Propose a set of metrics that will measure the FedRAMP authorization experience and measure the program's security impact.</td>
