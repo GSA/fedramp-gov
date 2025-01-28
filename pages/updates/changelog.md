@@ -11,6 +11,9 @@ summary:
 
 ## January, 2025 (FY25 Q2)
 
+- 2025-01-28: The [Emerging Technology
+  Framework]({{"/updates/et-framework" | relative_url}}) has been removed per Executive Order
+  "[Initial Rescissions of Harmful Executive Orders and Actions](https://www.whitehouse.gov/presidential-actions/2025/01/initial-rescissions-of-harmful-executive-orders-and-actions/)"
 - 2025-01-16: Added [RFC-0004 Boundary
   Policy]({{"/updates/rfcs/0004" | relative_url}}) for comment
 - 2025-01-16: Updated [FedRAMP Policy for Cryptographic Module Selection and

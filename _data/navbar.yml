@@ -26,11 +26,6 @@ assigned:
         permalink: /updates/policy-and-guidance/
         show_in_menu: true
         show_in_footer: false
-      - text: Emerging Technology Framework
-        href: updates/et-framework.md
-        permalink: /updates/et-framework/
-        show_in_menu: true
-        show_in_footer: false
       - text: FedRAMP Pilots
         href: updates/pilots.md
         permalink: /updates/pilots/
