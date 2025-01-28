@@ -5,7 +5,7 @@ category: Preparation Phase
 weblink:
 filename: documents/CSP_Authorization_Playbook.pdf
 filetype: pdf
-fileinfo: PDF - 959KB
+fileinfo: PDF - 1.5MB
 condition: new
 partner: Cloud Service Providers
 doctype:
