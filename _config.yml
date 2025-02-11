@@ -118,6 +118,6 @@ collections:
 sass:
     style: compressed
 
-wds-version: 2.8.0
+wds-version: 3.11.0
 
 theme: jekyll-theme-time-machine
