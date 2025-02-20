@@ -41,12 +41,18 @@ navigation:
 quick_links:
   - title: Federal Information Processing Standard (FIPS) 140-3
     url: https://csrc.nist.gov/pubs/fips/140-3/final
+    external: true
+  - title: Download PDF version of the Policy
+    url: /assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf
 ---
 
 ## Effective Date {#effectivedate}
 
 This policy was approved by the FedRAMP Board on January 16, 2025 and is
-effective immediately.
+effective immediately. 
+
+[Download the PDF version of the Policy (PDF, 370 KB)]({{site.baseurl}}/assets/resources/documents/FedRAMP_Policy_for_Cryptographic_Module_Selection_v1.1.0.pdf)
+
 
 ## Applicability {#applicability}
 
@@ -616,5 +622,5 @@ needed.
 
 | Date           | Version | Description               |
 | :------------- | :------ | :------------------------ |
-| **08/10/2024** | 1.0     | Initial Public Draft      |
-| **01/16/2025** | 1.1     | Approved by FedRAMP Board |
+| **08/10/2024** | 1.0.0    | Initial Public Draft      |
+| **01/16/2025** | 1.1.0    | Approved by FedRAMP Board |
