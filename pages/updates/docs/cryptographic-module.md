@@ -222,7 +222,7 @@ FedRAMP has several goals for this policy:
 
 4. Ensure that CSOs using unvalidated cryptographic modules document the
    rationale for doing so and the CSOs are managed through the use of Plans of
-   Actions and Milestones (POA\&Ms) providing a management framework and process
+   Actions and Milestones (POA&amp;Ms) providing a management framework and process
    for the ongoing assessment of their use in a way that is clearly visible to
    relying agencies, other CSPs, and other stakeholders. Ensure that modules are
    eventually validated and that use of unvalidated modules is periodically
@@ -412,13 +412,13 @@ facilitate decision making by the CSP community and agencies.
 
 - **FRR6:** CSPs using any unvalidated modules that are not derived from an
   update stream of an existing validated module **shall** document in their
-  POA\&M a plan for transitioning to validated modules or update streams of
-  validated modules. The plan outlined in the POA\&M will help inform AOs’
+  POA&amp;M a plan for transitioning to validated modules or update streams of
+  validated modules. The plan outlined in the POA&amp;M will help inform AOs’
   ongoing authorization decisions.
 
   CSPs **shall** provide regular
   updates<sup id="footnote7-ref"><a href="#footnote7">7</a></sup> within the
-  POA\&M on their progress toward using validated modules.
+  POA&amp;M on their progress toward using validated modules.
 
 - **FRR7:** CSPs **shall** provide complete visibility into cryptographic module
   use (including versions) in continuous monitoring data provided to FedRAMP and
@@ -448,11 +448,11 @@ modules are not inherited from a FedRAMP authorized service:**
   that is feasible.
 
 - **FRR10:** If updating the software to eliminate known vulnerabilities is not
-  currently an option, CSPs **shall** create or update their POA\&M based on the
+  currently an option, CSPs **shall** create or update their POA&amp;M based on the
   criticality of the
   vulnerabilities<sup id="footnote9-ref"><a href="#footnote9">9</a></sup> to
   communicate their plan for remediating or mitigating the vulnerabilities. The
-  plan outlined in the POA\&M will help inform AOs’ ongoing authorization
+  plan outlined in the POA&amp;M will help inform AOs’ ongoing authorization
   decisions.
 
 **The following recommendations apply to all CSPs in regards to the providers
@@ -529,7 +529,7 @@ of their cryptographic modules according to the requirements of Section 3.1.
   life cycle to ensure the approach meets the requirements in this policy.
 
 - **FRR19:** FedRAMP designated leads **shall** review SC-13 findings in the
-  POA\&M and related risk identification and mitigation documentation provided
+  POA&amp;M and related risk identification and mitigation documentation provided
   within the CSO repository and ensure that the required milestones are met on
   schedule.
 
